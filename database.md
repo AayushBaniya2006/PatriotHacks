@@ -83,7 +83,7 @@ psql "postgresql://postgres:postgres@localhost:5433/patriothacks" -c \
   "SELECT (SELECT COUNT(*) FROM races) AS races, \
           (SELECT COUNT(*) FROM candidates) AS candidates, \
           (SELECT COUNT(*) FROM insights) AS insights;"
-# expect: races=46, candidates=96, insights=46
+# expect: races=46, candidates=96, insights=126 (one row per race+archetype block, not per race)
 psql "postgresql://postgres:postgres@localhost:5433/patriothacks" -c "\d races"
 # confirm columns/indexes match schema.md §2.1
 ```

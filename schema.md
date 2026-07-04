@@ -99,10 +99,22 @@ CREATE TABLE IF NOT EXISTS race_candidates (
   PRIMARY KEY (race_id, candidate_id)
 );
 
+-- One row per (race_id, archetype) block ('base' plus each precomputed
+-- voter archetype) rather than one row per race, so a single block can be
+-- hash-gated and write-through cached independently of the rest of its
+-- race (app/datastore.py::put_insight_block, called after a live LLM
+-- generation). inputs_hash is a sha256 over that race's candidates'
+-- canonical JSON (json.dumps sort_keys=True) -- same hash for every block
+-- belonging to a race; pipeline/load_postgres.py skips rewriting a row
+-- when its stored inputs_hash still matches (latest-wins ON CONFLICT
+-- otherwise, default incremental upsert, --reset to force a full reload).
 CREATE TABLE IF NOT EXISTS insights (
-  race_id TEXT PRIMARY KEY REFERENCES races(race_id) ON DELETE CASCADE,
-  generated_at TEXT,
-  payload JSONB NOT NULL
+  race_id TEXT NOT NULL,
+  archetype TEXT NOT NULL,
+  payload JSONB NOT NULL,
+  generated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  inputs_hash TEXT,
+  PRIMARY KEY (race_id, archetype)
 );
 
 CREATE TABLE IF NOT EXISTS geocode_cache (

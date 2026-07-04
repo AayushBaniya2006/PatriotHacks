@@ -19,6 +19,7 @@ Endpoints:
 
 from __future__ import annotations
 
+import logging
 import os
 from pathlib import Path
 from typing import Any, Optional
@@ -31,6 +32,8 @@ from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
 from app import datastore, insights
+
+logger = logging.getLogger(__name__)
 
 load_dotenv()
 
@@ -269,18 +272,24 @@ def _parse_age_lower_bound(age_bracket: str) -> Optional[int]:
 
 
 def _select_cached_bullets(cached: dict[str, Any], archetype: str) -> dict[str, Any]:
-    """Select the {candidates, summary, caveats} block to serve from a cached
-    insight file.
+    """Select the {candidates, summary, caveats, horizons} block to serve
+    from a cached insight file.
 
     Actual on-disk shape (data/tx/insights/{race_id}.json):
         {race_id, generated_at,
-         "base": {"candidates": {cid: [{text, source}, ...]}, "summary", "caveats"},
-         "archetypes": {archetype_key: {"candidates": {...}, "summary", "caveats"}, ...}}
+         "base": {"candidates": {cid: [{text, source}, ...]}, "summary", "caveats",
+                   "horizons": {cid: {"now": [...], "long_term": [...]}}},
+         "archetypes": {archetype_key: {"candidates": {...}, "summary", "caveats",
+                                          "horizons": {...}}, ...}}
+    ("horizons" is optional per block -- older/unmigrated files simply omit it.)
 
     Selection: the requested archetype's block if archetype != 'base' and
     that key is present under "archetypes", else the "base" block. Falls back
     defensively to a flat/legacy top-level {"candidates", "summary",
     "caveats"} shape so an unexpected file never crashes the request.
+    "horizons" is selected from that same block, except it falls back to
+    base's "horizons" specifically when the selected archetype block has none
+    of its own (even though its candidates/summary/caveats did resolve).
     """
     if not isinstance(cached, dict):
         return {"candidates": {}, "summary": "", "caveats": ""}
@@ -301,10 +310,27 @@ def _select_cached_bullets(cached: dict[str, Any], archetype: str) -> dict[str, 
         block = cached
 
     candidates_field = block.get("candidates", {})
+
+    # Consequence horizons: sibling of candidates/summary/caveats on the same
+    # block. Same selection as above picked the block (archetype's if it has
+    # one, else base); horizons additionally falls back per-field -- an
+    # archetype block that has bullets but no horizons of its own still
+    # inherits base's horizons rather than serving none.
+    horizons_field = block.get("horizons")
+    if not isinstance(horizons_field, dict):
+        horizons_field = None
+    if horizons_field is None and block is not base_block and isinstance(base_block, dict):
+        fallback_horizons = base_block.get("horizons")
+        if isinstance(fallback_horizons, dict):
+            horizons_field = fallback_horizons
+    if horizons_field is None:
+        horizons_field = {}
+
     return {
         "candidates": candidates_field if isinstance(candidates_field, dict) else {},
         "summary": block.get("summary", ""),
         "caveats": block.get("caveats", ""),
+        "horizons": horizons_field,
     }
 
 
@@ -322,6 +348,7 @@ def post_insights(body: InsightsRequest) -> dict[str, Any]:
             "candidates": selected["candidates"],
             "summary": selected["summary"],
             "caveats": selected["caveats"],
+            "horizons": selected.get("horizons", {}),
         }
 
     if OPENROUTER_API_KEY:
@@ -348,6 +375,16 @@ def post_insights(body: InsightsRequest) -> dict[str, Any]:
             raise HTTPException(status_code=502, detail="Could not generate insights right now, try again")
         except Exception:
             raise HTTPException(status_code=502, detail="Insight generation failed, try again")
+
+        # Write-through cache: persist this live generation (Postgres if
+        # live, else data/tx/insights/{race_id}.json) so the next request
+        # for this (race_id, archetype) is served from cache instead of
+        # calling the LLM again. Best-effort: a caching failure must never
+        # turn an already-successful live generation into an error response.
+        try:
+            datastore.put_insight_block(race_id, archetype, result)
+        except Exception:  # noqa: BLE001 -- best-effort write-through cache
+            logger.warning("put_insight_block failed for race_id=%s archetype=%s", race_id, archetype, exc_info=True)
 
         return {
             "mode": "live",
