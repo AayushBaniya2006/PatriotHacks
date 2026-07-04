@@ -17,9 +17,9 @@
 // two files in this module (old shades measured 1.2-3.8:1 against this
 // card's zinc-900/50-on-navy / zinc-950 surfaces, under the WCAG AA 3:1 /
 // 4.5:1 floors; the new shades clear both with margin). The "ballot-ready"
-// card's own accent border was border-emerald-500/30 (1.7:1 against the
+// card's own accent border was border-gold/30 (1.7:1 against the
 // page -- effectively invisible, so the one card meant to feel celebratory
-// didn't visibly have a border at all); bumped to solid border-emerald-400
+// didn't visibly have a border at all); bumped to solid border-gold
 // (9.5:1), which is also the exact token this file already uses for every
 // other "active/selected" state (the Election Day / Early voting toggle,
 // the time-window select's sibling controls), so the ready-state border
@@ -196,14 +196,14 @@ export function VotingPlan({
     <div
       className={
         ballotReady
-          ? "rounded-2xl border border-emerald-400 bg-gradient-to-br from-emerald-500/10 to-transparent p-5 transition"
+          ? "rounded-2xl border border-gold bg-gradient-to-br from-gold/10 to-transparent p-5 transition"
           : "rounded-xl border border-zinc-500 bg-zinc-900/50 p-5 transition"
       }
     >
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
         <h3 className="font-semibold">Make a voting plan</h3>
         {ballotReady && (
-          <span className="rounded-full border border-emerald-400 bg-emerald-500/15 px-2.5 py-1 text-[11px] font-medium text-emerald-300">
+          <span className="rounded-full border border-gold bg-gold/15 px-2.5 py-1 text-[11px] font-medium text-gold">
             You&apos;ve reviewed your ballot — lock in a plan ✓
           </span>
         )}
@@ -217,10 +217,10 @@ export function VotingPlan({
               type="button"
               onClick={() => setTiming("election_day")}
               aria-pressed={timing === "election_day"}
-              className={`rounded-lg border px-3 py-3 sm:py-1.5 text-sm font-medium transition ${
+              className={`rounded-lg border px-3 py-1.5 text-sm font-medium transition ${
                 timing === "election_day"
-                  ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                  : "border-zinc-500 text-zinc-300 hover:border-emerald-400/60"
+                  ? "border-gold bg-gold/15 text-gold"
+                  : "border-zinc-500 text-zinc-300 hover:border-gold/60"
               }`}
             >
               Election Day ({ELECTION_DATE_LABEL})
@@ -229,10 +229,10 @@ export function VotingPlan({
               type="button"
               onClick={() => setTiming("early_voting")}
               aria-pressed={timing === "early_voting"}
-              className={`rounded-lg border px-3 py-3 sm:py-1.5 text-sm font-medium transition ${
+              className={`rounded-lg border px-3 py-1.5 text-sm font-medium transition ${
                 timing === "early_voting"
-                  ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                  : "border-zinc-500 text-zinc-300 hover:border-emerald-400/60"
+                  ? "border-gold bg-gold/15 text-gold"
+                  : "border-zinc-500 text-zinc-300 hover:border-gold/60"
               }`}
             >
               Early voting (check dates at VoteTexas.gov)
@@ -251,7 +251,7 @@ export function VotingPlan({
               setWindowId(e.target.value);
               setDownloaded(false);
             }}
-            className="w-full max-w-xs rounded-lg border border-zinc-500 bg-zinc-950 px-3 py-3 sm:py-2 text-sm text-zinc-200"
+            className="w-full max-w-xs rounded-lg border border-zinc-500 bg-zinc-950 px-3 py-2 text-sm text-zinc-200"
           >
             {TIME_WINDOWS.map((w) => (
               <option key={w.id} value={w.id}>
@@ -272,11 +272,11 @@ export function VotingPlan({
           <button
             type="button"
             onClick={handleAddToCalendar}
-            className="rounded-lg bg-emerald-500 px-5 py-3 sm:py-2.5 text-sm font-semibold text-zinc-950 hover:bg-emerald-400"
+            className="rounded-lg bg-gold px-5 py-2.5 text-sm font-semibold text-navy-dark hover:bg-gold"
           >
             Add to calendar
           </button>
-          {downloaded && <span className="text-xs text-emerald-400">Calendar file downloaded ✓</span>}
+          {downloaded && <span className="text-xs text-gold">Calendar file downloaded ✓</span>}
         </div>
 
         <p className="max-w-prose text-xs text-zinc-400">
@@ -286,7 +286,7 @@ export function VotingPlan({
             href={VOTE_TEXAS_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-emerald-400 hover:underline"
+            className="text-gold hover:underline"
           >
             Confirm your polling location at VoteTexas.gov ↗
           </a>

@@ -30,7 +30,7 @@ import CivitasDashboard from "@/components/civitas/CivitasDashboard";
 import { ViewModeToggle } from "@/components/ballot/ViewModeToggle";
 import { buildCivitasDashboard, type CivitasBallotLike } from "@/lib/civitasView";
 import { slugify } from "@/lib/db-client";
-import { savePrefs } from "@/lib/prefs";
+import { loadPrefs, savePrefs } from "@/lib/prefs";
 import type { Candidate as BackendCandidate, Districts, Race as BackendRace } from "@/lib/dataBackend";
 import type { IssueDef } from "@/lib/issues";
 import type { MatchResult, UserPreferences, VoterProfile } from "@/lib/types";
@@ -295,7 +295,7 @@ function StepLayout({
           <button
             type="button"
             onClick={onBack}
-            className="-ml-3 -mr-1 rounded-full p-3 text-white/75 transition hover:bg-white/5 hover:text-white"
+            className="-ml-2 rounded-full p-2 text-white/75 transition hover:bg-white/5 hover:text-white"
             aria-label="Go back"
           >
             <ChevronLeft className="h-5 w-5" />
@@ -403,7 +403,7 @@ function SelectableCard({
       onClick={onClick}
       aria-pressed={selected}
       className={cn(
-        "flex w-full min-w-0 items-center overflow-hidden rounded-[10px] border p-3 text-left transition",
+        "flex w-full items-center rounded-[10px] border p-3 text-left transition",
         selected
           ? "border-[#d8a15b] bg-[#d8a15b]/10"
           : "border-white/14 bg-white/[0.035] hover:border-white/28"
@@ -512,11 +512,12 @@ export default function BallotPage() {
   const [issues, setIssues] = useState<IssueDef[] | null>(null);
   const [step, setStep] = useState<WizardStep>("location");
   const [location, setLocation] = useState(() => {
-    const initialAddress =
-      typeof window === "undefined"
-        ? ""
-        : new URLSearchParams(window.location.search).get("address")?.trim() ?? "";
-    return { street: initialAddress, cityState: "", zip: "" };
+    if (typeof window === "undefined") return { street: "", cityState: "", zip: "" };
+    const saved = loadPrefs();
+    const urlAddr = new URLSearchParams(window.location.search).get("address")?.trim() ?? "";
+    // Prefer a previously-saved full address over a bare URL param (often just a
+    // ZIP) so the voter never has to re-type what they already entered.
+    return { street: saved?.address || urlAddr, cityState: "", zip: saved?.zip ?? "" };
   });
   const [ballot, setBallot] = useState<BallotData | null>(null);
   const [lookupLoading, setLookupLoading] = useState(false);
@@ -562,6 +563,9 @@ export default function BallotPage() {
       setBallot(normalized);
       setSelectedRaceKey(normalized.races[0] ? raceKey(normalized.races[0], 0) : null);
       setStep("found");
+      // Persist the resolved address so a reload / return to /ballot restores it.
+      const prev = loadPrefs();
+      savePrefs({ ...(prev ?? { priority_weights: {}, issue_positions: {} }), address: trimmed });
     } catch {
       setLookupError("Lookup failed. Try again.");
     } finally {
@@ -570,10 +574,18 @@ export default function BallotPage() {
   }, []);
 
   useEffect(() => {
-    const initialAddress = new URLSearchParams(window.location.search).get("address")?.trim();
-    if (!initialAddress) return;
+    const saved = loadPrefs();
+    const urlAddr = new URLSearchParams(window.location.search).get("address")?.trim();
+    // Prefer the saved full address (a real street address that geocodes) over a
+    // bare URL param, so a reload / return to /ballot restores the voter's ballot
+    // instead of forcing a re-entry.
+    const restore = saved?.address?.trim() || urlAddr;
+    if (saved?.issue_positions) setPositions(saved.issue_positions);
+    const savedPicked = Object.keys(saved?.priority_weights ?? {});
+    if (savedPicked.length) setPriorities(savedPicked);
+    if (!restore) return;
     const timer = window.setTimeout(() => {
-      void lookupAddress(initialAddress);
+      void lookupAddress(restore);
     }, 0);
     return () => window.clearTimeout(timer);
   }, [lookupAddress]);
@@ -699,8 +711,8 @@ export default function BallotPage() {
   }
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 md:p-0">
-      <main className="mx-auto grid min-h-[calc(100svh-2rem)] w-full max-w-[420px] md:h-screen md:min-h-screen md:max-w-none md:grid-cols-[320px_minmax(0,1fr)] md:overflow-hidden md:bg-[#051628] xl:grid-cols-[360px_minmax(0,1fr)]">
+    <div className="min-h-screen bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 md:px-0 md:py-0">
+      <main className="mx-auto grid min-h-[calc(100svh-2rem)] w-full max-w-[420px] md:h-screen md:min-h-screen md:max-w-none md:grid-cols-[320px_minmax(0,1fr)] md:overflow-hidden md:rounded-none md:border-0 md:bg-transparent md:shadow-none xl:grid-cols-[360px_minmax(0,1fr)]">
         <DesktopRail
           step={step}
           locationDisplay={locationDisplay}
@@ -771,7 +783,7 @@ export default function BallotPage() {
                 {ballot.warning}
               </p>
             )}
-            <div className="mt-7 grid flex-1 content-start gap-3 overflow-x-hidden overflow-y-auto pr-1 md:grid-cols-2">
+            <div className="mt-7 grid flex-1 content-start gap-3 overflow-y-auto pr-1 md:grid-cols-2">
               {races.length > 0 ? (
                 races.slice(0, 7).map((race, index) => (
                   <SelectableCard

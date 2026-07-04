@@ -42,7 +42,7 @@
 //     race card has exactly one real heading, matching SecondaryRaceRow.
 //   - Featured race gets p-6 (vs secondary's p-5) so it visibly breathes in
 //     its own right, on top of the existing expanded-vs-collapsed density
-//     split; its accent border bumped emerald-500/40 -> emerald-400/60 to
+//     split; its accent border bumped gold/40 -> gold/60 to
 //     actually clear 3:1 (was 2.15:1) -- now matches the "Featured race"
 //     pill's own border token instead of a different, failing one.
 //   - ReadinessBar's progress track gets a visible border (was indistinguishable
@@ -52,7 +52,6 @@
 import { useSyncExternalStore } from "react";
 import type { Candidate, DataQuality, Districts, Race, VotingInfo, VotingLocation } from "@/lib/dataBackend";
 import { getReviewed, readinessKey, subscribeReviewed } from "@/lib/readiness";
-import { ViewModeToggle, useViewMode } from "@/components/ballot/ViewModeToggle";
 
 // Stable empty-set reference for useSyncExternalStore's server snapshot —
 // BallotSection only ever mounts client-side (after the ballot fetch
@@ -177,7 +176,7 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
     return (
       <div className="min-w-0 rounded-lg border border-dashed border-zinc-500 bg-zinc-950/50 p-4">
         <div className="mb-1 flex items-start justify-between gap-2">
-          <span className="min-w-0 break-words font-medium leading-snug text-zinc-400">{candidate.name}</span>
+          <span className="font-medium leading-snug text-zinc-400">{candidate.name}</span>
         </div>
         <div className="mb-3 flex min-h-[22px] flex-wrap items-center gap-1.5">
           <span className="text-xs text-zinc-400">No party data in our set</span>
@@ -202,7 +201,7 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
   return (
     <div className="min-w-0 rounded-lg border border-zinc-500 bg-zinc-950 p-4">
       <div className="mb-1 flex items-start justify-between gap-2">
-        <span className="min-w-0 break-words font-medium leading-snug">{candidate.name}</span>
+        <span className="font-medium leading-snug">{candidate.name}</span>
         {candidate.incumbent && (
           <span className="shrink-0 rounded-full border border-zinc-500 px-2 py-0.5 text-[10px] uppercase tracking-wide text-zinc-400">
             Incumbent
@@ -234,7 +233,7 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
                 href={candidate.finance.source}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="ml-1.5 text-emerald-400 hover:underline"
+                className="ml-1.5 text-gold hover:underline"
               >
                 source ↗
               </a>
@@ -263,7 +262,7 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
                     href={v.source}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-emerald-400 hover:underline"
+                    className="text-gold hover:underline"
                   >
                     source ↗
                   </a>
@@ -353,7 +352,7 @@ function HowWeKnow({ race }: { race: Race }) {
 
   return (
     <details className="mt-4 rounded-lg border border-zinc-500 bg-zinc-950/40 p-3 text-xs text-zinc-400">
-      <summary className="cursor-pointer select-none py-3.5 sm:py-0 font-medium text-zinc-300">How we know</summary>
+      <summary className="cursor-pointer select-none font-medium text-zinc-300">How we know</summary>
       {/* max-w-prose: this can run 2-3 sentences long, and the featured
           race's card is the widest in the module — cap the measure instead
           of letting a paragraph stretch the full card width. */}
@@ -394,7 +393,7 @@ function RaceCard({
   return (
     <div
       className={`rounded-xl border ${
-        featured ? "border-emerald-400/60 bg-emerald-500/[0.03] p-6" : "border-zinc-500 bg-zinc-900/50 p-5"
+        featured ? "border-gold/60 bg-gold/[0.03] p-6" : "border-zinc-500 bg-zinc-900/50 p-5"
       }`}
     >
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
@@ -412,7 +411,7 @@ function RaceCard({
                   href={pill.source}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-emerald-400 hover:underline"
+                  className="text-gold hover:underline"
                 >
                   source ↗
                 </a>
@@ -421,10 +420,10 @@ function RaceCard({
           )}
           <button
             onClick={() => onExplain(race.race_id)}
-            className={`rounded-lg border px-3 py-3.5 sm:py-1.5 text-xs font-medium transition ${
+            className={`rounded-lg border px-3 py-1.5 text-xs font-medium transition ${
               active
-                ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                : "border-zinc-500 text-zinc-300 hover:border-emerald-400/60"
+                ? "border-gold bg-gold/15 text-gold"
+                : "border-zinc-500 text-zinc-300 hover:border-gold/60"
             }`}
           >
             What this means for you
@@ -486,7 +485,7 @@ function SecondaryRaceRow({
                 href={pill.source}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-emerald-400 hover:underline"
+                className="text-gold hover:underline"
               >
                 source ↗
               </a>
@@ -497,7 +496,7 @@ function SecondaryRaceRow({
             ellipsis at 375px instead of relying on flex-wrap shrink alone
             (which can just wrap the whole name list to its own full-width
             line instead of eliding it). */}
-        <span title={names} className="min-w-0 max-w-[16rem] truncate text-xs text-zinc-400">{names}</span>
+        <span className="min-w-0 max-w-[16rem] truncate text-xs text-zinc-400">{names}</span>
       </summary>
       <div className="px-4 pb-4 pt-1">
         <RaceCard race={race} active={active} onExplain={onExplain} />
@@ -545,7 +544,7 @@ function VotingInfoCard({ votingInfo }: { votingInfo?: VotingInfo }) {
 
   return (
     <div className="mb-6 rounded-lg border border-zinc-500 bg-zinc-900/50 p-4">
-      <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-emerald-400">Your voting info</div>
+      <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-gold">Your voting info</div>
       {electionLabel && <div className="mb-2 text-sm text-zinc-200">{electionLabel}</div>}
       <div className="space-y-1">
         {polling.length > 0 && (
@@ -560,7 +559,7 @@ function VotingInfoCard({ votingInfo }: { votingInfo?: VotingInfo }) {
           href={votingInfo.source}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-2 inline-block text-xs text-emerald-400 hover:underline"
+          className="mt-2 inline-block text-xs text-gold hover:underline"
         >
           source ↗
         </a>
@@ -580,7 +579,7 @@ function ReadinessBar({ reviewedCount, total }: { reviewedCount: number; total: 
   return (
     <div className="rounded-xl border border-zinc-500 bg-zinc-900/50 p-4">
       <div className="mb-2 flex items-center justify-between gap-3 text-sm">
-        <span className={complete ? "font-medium text-emerald-300" : "text-zinc-300"}>
+        <span className={complete ? "font-medium text-gold" : "text-zinc-300"}>
           {complete ? "You're ballot-ready ✓" : `Reviewed ${reviewedCount} of ${total} races`}
         </span>
         <span className="text-xs text-zinc-400">{pct}%</span>
@@ -592,7 +591,7 @@ function ReadinessBar({ reviewedCount, total }: { reviewedCount: number; total: 
           regardless of fill %. */}
       <div className="h-2 w-full rounded border border-zinc-500 bg-zinc-800">
         <div
-          className={`h-full rounded-sm transition-all ${complete ? "bg-emerald-400" : "bg-emerald-500/70"}`}
+          className={`h-full rounded-sm transition-all ${complete ? "bg-gold" : "bg-gold/70"}`}
           style={{ width: `${pct}%` }}
         />
       </div>
@@ -603,346 +602,6 @@ function ReadinessBar({ reviewedCount, total }: { reviewedCount: number; total: 
       )}
     </div>
   );
-}
-
-// ---------------------------------------------------------------------------
-// SIMPLE MODE (plain-English, Gen-Z-friendly view) — additive alternative to
-// RaceCard/SecondaryRaceRow/CandidateColumn above, switched via
-// ViewModeToggle.tsx / lib/viewMode.ts ("cm_view_mode" in localStorage,
-// default "simple"). Renders from the exact same Race/Candidate objects as
-// the detailed view above (same /api/ballot payload, no new fetch, nothing
-// invented) -- this section only picks a shorter, plainer way to say what's
-// already there, and keeps the same two rules the detailed view enforces:
-// never claim something without a source, and say so plainly ("No public
-// record on this yet") when a candidate's public record is thin rather than
-// guessing.
-// ---------------------------------------------------------------------------
-
-// Generic, factual "what does this job actually do" lines -- about the
-// OFFICE itself, never about a specific candidate's record (candidate-level
-// claims always come from the sourced fields below and carry their own
-// link). Checked in order, most-specific pattern first (e.g. "lieutenant
-// governor" before "governor", "county judge" before the generic judge/court
-// catch-all) so a more specific title never falls through to a broader
-// blurb that happens to also match. A level-based fallback covers any office
-// this list doesn't recognize yet, so nothing ever renders with no blurb.
-const OFFICE_BLURBS: [RegExp, string][] = [
-  [/lieutenant governor/i, "Runs the state Senate and steps in if the governor can't serve."],
-  [/governor/i, "Runs the state — schools, roads, emergencies, and signs or vetoes state laws."],
-  [/attorney general/i, "The state's top lawyer — enforces state law and represents it in court."],
-  [/secretary of state/i, "Runs state elections and keeps the state's official records."],
-  [/comptroller/i, "Manages the state's money — collects taxes and writes the budget forecast."],
-  [/treasurer/i, "Manages public money and debt."],
-  [/land commissioner|general land office/i, "Manages state-owned land, plus some school and veterans' funding."],
-  [/agriculture commissioner/i, "Oversees farming, food safety, and consumer-protection rules."],
-  [/railroad commission/i, "Regulates oil, gas, and pipelines (not railroads, despite the name)."],
-  [/u\.?s\.?\s*senat/i, "Represents the whole state in Washington — votes on federal laws, budgets, treaties."],
-  [/u\.?s\.?\s*(house|rep)|congress/i, "Represents your district in Washington — votes on federal laws and the federal budget."],
-  [/state senat/i, "Represents your district at the state capitol — votes on state laws and the state budget."],
-  [/state (house|rep)|assembly/i, "Represents your district at the state capitol — votes on state laws and the state budget."],
-  [/county judge/i, "Runs county government and its budget (the executive, not a courtroom judge, in Texas)."],
-  [/district attorney|county attorney|prosecutor/i, "Decides which criminal cases to prosecute in the county."],
-  [/sheriff/i, "Runs county law enforcement and the county jail."],
-  [/county commissioner/i, "Votes on the county budget and services like roads."],
-  [/mayor/i, "Runs city government day-to-day."],
-  [/city council/i, "Votes on city laws, budget, and local services."],
-  [/school board|trustee/i, "Sets policy and budget for public schools in the district."],
-  [
-    /district judge|supreme court|court of appeals|court of criminal appeals|justice of the peace|\bjudge\b/i,
-    "Decides court cases and interprets the law — doesn't write new laws.",
-  ],
-];
-
-function officeBlurb(office: string, level?: string): string {
-  for (const [pattern, blurb] of OFFICE_BLURBS) {
-    if (pattern.test(office)) return blurb;
-  }
-  if (level === "federal") return "A federal office — votes on national laws and the federal budget.";
-  if (level === "state") return "A statewide office in Texas government.";
-  if (level === "state_leg") return "A state lawmaker for your district.";
-  return "A local elected office for your area.";
-}
-
-// "$1.6M raised" instead of a formatted table cell -- same underlying number
-// as formatMoney() above (candidate.finance.receipts), just abbreviated for
-// a compact card instead of spelled out to the dollar.
-function formatMoneyFriendly(n?: number | null): string | null {
-  if (n === null || n === undefined || Number.isNaN(n)) return null;
-  const abs = Math.abs(n);
-  if (abs >= 1_000_000) {
-    const millions = Math.round((n / 1_000_000) * 10) / 10;
-    return `$${millions % 1 === 0 ? millions.toFixed(0) : millions.toFixed(1)}M`;
-  }
-  if (abs >= 1_000) {
-    return `$${Math.round(n / 1000)}K`;
-  }
-  return n.toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
-}
-
-// Standard, widely-recognized US party color convention, applied identically
-// to every party (never a "better" color for one side) -- same neutrality
-// rule QualityChip's tier treatment above already follows.
-function partyDotClass(party?: string | null): string {
-  if (!party) return "border border-zinc-500 bg-transparent";
-  const p = party.trim().toLowerCase();
-  if (p.startsWith("d")) return "bg-sky-400";
-  if (p.startsWith("r")) return "bg-red-400";
-  if (p.startsWith("g")) return "bg-green-500";
-  if (p.startsWith("l")) return "bg-amber-400";
-  if (p.startsWith("i")) return "bg-zinc-300";
-  return "bg-violet-400";
-}
-
-function PartyDot({ party }: { party?: string | null }) {
-  return (
-    <span
-      className={`inline-block h-2.5 w-2.5 shrink-0 rounded-full ${partyDotClass(party)}`}
-      role="img"
-      aria-label={party ? `${party} party` : "Party not on file"}
-      title={party ?? "Party not on file"}
-    />
-  );
-}
-
-// ONE short, plain-language takeaway per candidate -- never invented: every
-// branch reads a field that's already rendered (sourced) somewhere in
-// CandidateColumn above (incumbent, record.key_votes, finance.receipts,
-// positions). Priority favors the most concrete, most citable fact first;
-// falls all the way through to the same honest "no public record" line
-// CandidateColumn's own empty states use when a candidate genuinely has none
-// of the above.
-function candidateTakeaway(candidate: Candidate, raceCandidates: Candidate[]): string {
-  const topVote = (candidate.record?.key_votes ?? [])[0];
-  const voteLabel = topVote ? topVote.plain_english || topVote.bill || topVote.vote || null : null;
-  const receipts = candidate.finance?.receipts;
-  const hasReceipts = typeof receipts === "number" && receipts > 0;
-
-  const others = raceCandidates.filter((c) => c.candidate_id !== candidate.candidate_id && !c.data_missing);
-  const maxOtherReceipts = others.reduce((max, c) => {
-    const r = c.finance?.receipts;
-    return typeof r === "number" && r > max ? r : max;
-  }, 0);
-  const isTopFundraiser = hasReceipts && others.length > 0 && (receipts as number) > maxOtherReceipts;
-  const isWayAhead = isTopFundraiser && maxOtherReceipts > 0 && (receipts as number) > maxOtherReceipts * 1.5;
-
-  if (candidate.incumbent && voteLabel) {
-    return `Sitting officeholder — voted on ${voteLabel}.`;
-  }
-  if (isWayAhead) {
-    return "Raised way more money than the other candidates in this race 💰";
-  }
-  if (isTopFundraiser) {
-    return "Raised the most money in this race so far 💰";
-  }
-  if (voteLabel) {
-    return `Voted on ${voteLabel}.`;
-  }
-  if (candidate.incumbent) {
-    return "Current officeholder in this race.";
-  }
-  if (hasReceipts) {
-    return "Has reported campaign fundraising so far.";
-  }
-  const firstPosition = candidate.positions?.[0];
-  if (firstPosition?.issue) {
-    return `Has a stated position on ${firstPosition.issue}.`;
-  }
-  return "No public record on this yet.";
-}
-
-// Every distinct source URL already attached to this candidate somewhere in
-// the detailed view (finance/votes/positions/record/top-level sources[]) --
-// deduped, never a new or guessed URL. A candidate with zero URLs on file
-// gets no affordance at all rather than a link to nothing.
-function candidateSourceLinks(candidate: Candidate): string[] {
-  const links = new Set<string>();
-  if (candidate.finance?.source) links.add(candidate.finance.source);
-  if (candidate.record?.source) links.add(candidate.record.source);
-  (candidate.record?.key_votes ?? []).forEach((v) => v.source && links.add(v.source));
-  (candidate.positions ?? []).forEach((p) => p.source && links.add(p.source));
-  (candidate.sources ?? []).forEach((s) => s && links.add(s));
-  return Array.from(links);
-}
-
-// The small "sources" affordance simple mode still owes every claim
-// (product requirement: simple ≠ unsourced). Collapsed by default so a
-// compact card stays compact; renders nothing when there's genuinely
-// nothing to link.
-function SimpleSourcesLink({ links }: { links: string[] }) {
-  if (links.length === 0) return null;
-  return (
-    <details className="mt-2 text-[11px] text-zinc-400">
-      <summary className="cursor-pointer select-none py-1 hover:text-zinc-200">sources</summary>
-      <ul className="mt-1 space-y-1 pl-3">
-        {links.map((href, i) => (
-          <li key={href}>
-            <a href={href} target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">
-              source{links.length > 1 ? ` ${i + 1}` : ""} ↗
-            </a>
-          </li>
-        ))}
-      </ul>
-    </details>
-  );
-}
-
-function SimpleCandidateCard({
-  candidate,
-  raceCandidates,
-}: {
-  candidate: Candidate;
-  raceCandidates: Candidate[];
-}) {
-  if (candidate.data_missing) {
-    return (
-      <div className="min-w-0 rounded-lg border border-dashed border-zinc-500 bg-zinc-950/50 p-4">
-        <div className="flex items-center gap-2">
-          <PartyDot party={null} />
-          <span className="min-w-0 break-words font-medium leading-snug text-zinc-300">{candidate.name}</span>
-        </div>
-        <p className="mt-2 text-xs text-zinc-400">No public record on this yet.</p>
-      </div>
-    );
-  }
-
-  const takeaway = candidateTakeaway(candidate, raceCandidates);
-  const money = formatMoneyFriendly(candidate.finance?.receipts);
-  const links = candidateSourceLinks(candidate);
-
-  return (
-    <div className="min-w-0 rounded-lg border border-zinc-500 bg-zinc-950 p-4">
-      <div className="mb-1.5 flex flex-wrap items-center gap-2">
-        <PartyDot party={candidate.party} />
-        <span className="min-w-0 break-words font-medium leading-snug text-zinc-100">{candidate.name}</span>
-        {candidate.incumbent && (
-          <span className="shrink-0 rounded-full border border-zinc-500 px-2 py-0.5 text-[10px] uppercase tracking-wide text-zinc-400">
-            Incumbent
-          </span>
-        )}
-      </div>
-      {candidate.party && <div className="mb-2 text-xs text-zinc-400">{candidate.party}</div>}
-
-      <p className="text-sm leading-5 text-zinc-200">{takeaway}</p>
-
-      {money && (
-        <p className="mt-1.5 text-xs text-zinc-400">
-          <span className="text-zinc-300">{money} raised</span>
-          {candidate.finance?.as_of && <span> as of {candidate.finance.as_of}</span>}
-        </p>
-      )}
-
-      <SimpleSourcesLink links={links} />
-    </div>
-  );
-}
-
-// Race-level "the short version" -- one sentence, drawn from the same
-// signals RaceCard's margin pill and money rows already surface above
-// (never a new computation over hidden data). Falls back to an honest
-// "not enough data" line rather than forcing a call the numbers don't
-// support.
-function shortVersionLine(race: Race): { text: string; source?: string } {
-  const pill = marginPill(race);
-  if (pill) {
-    return { text: `Last time: ${pill.text}.`, source: pill.source };
-  }
-
-  const funded = race.candidates.filter(
-    (c) => typeof c.finance?.receipts === "number" && (c.finance!.receipts as number) > 0
-  );
-  if (funded.length >= 2) {
-    const leader = funded.reduce((a, b) => ((b.finance?.receipts ?? 0) > (a.finance?.receipts ?? 0) ? b : a));
-    return {
-      text: `${leader.name} has raised the most money in this race so far.`,
-      source: leader.finance?.source ?? undefined,
-    };
-  }
-
-  const withVotes = race.candidates.filter((c) => (c.record?.key_votes?.length ?? 0) > 0);
-  if (withVotes.length > 0 && withVotes.length < race.candidates.length) {
-    const names = withVotes.map((c) => c.name).join(" and ");
-    return {
-      text: `${names} ${withVotes.length === 1 ? "has" : "have"} a public voting record here — the others don't yet.`,
-    };
-  }
-
-  return { text: "Not enough public data yet to call this one — check each candidate below." };
-}
-
-function SimpleRaceCard({
-  race,
-  active,
-  onExplain,
-}: {
-  race: Race;
-  active: boolean;
-  onExplain: (raceId: string) => void;
-}) {
-  const short = shortVersionLine(race);
-  return (
-    <div className="rounded-xl border border-zinc-500 bg-zinc-900/50 p-5">
-      <div className="mb-1 flex flex-wrap items-baseline justify-between gap-2">
-        <h4 className="font-semibold leading-snug">{race.office}</h4>
-        {race.district && <span className="text-xs text-zinc-400">{race.district}</span>}
-      </div>
-      <p className="mb-4 text-sm leading-5 text-zinc-400">{officeBlurb(race.office, race.level)}</p>
-
-      {race.candidates.length > 0 ? (
-        <>
-          <div className="mb-4 rounded-lg border border-zinc-500 bg-zinc-950/40 p-3">
-            <p className="text-[10px] font-semibold uppercase tracking-wide text-zinc-400">The short version</p>
-            <p className="mt-1 text-sm leading-5 text-zinc-300">
-              {short.text}
-              {short.source && (
-                <a
-                  href={short.source}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ml-1.5 text-emerald-400 hover:underline"
-                >
-                  source ↗
-                </a>
-              )}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-            {race.candidates.map((c) => (
-              <SimpleCandidateCard key={c.candidate_id} candidate={c} raceCandidates={race.candidates} />
-            ))}
-          </div>
-
-          <button
-            onClick={() => onExplain(race.race_id)}
-            className={`mt-4 rounded-lg border px-3 py-3.5 sm:py-1.5 text-xs font-medium transition ${
-              active
-                ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                : "border-zinc-500 text-zinc-300 hover:border-emerald-400/60"
-            }`}
-          >
-            What this means for you
-          </button>
-        </>
-      ) : (
-        <p className="text-xs text-zinc-400">No candidate data available for this race yet.</p>
-      )}
-    </div>
-  );
-}
-
-// Shared level-grouping helper: detailed mode groups only the non-featured
-// remainder (secondaryRaces); simple mode has no separate "featured" tier
-// and groups ALL races the same way. Pulled into one function so both modes
-// use byte-for-byte the same filter/push logic instead of duplicating it.
-function groupRacesByLevel(list: Race[]): { level: string; races: Race[] }[] {
-  const known = new Set(LEVEL_ORDER);
-  const groups = LEVEL_ORDER.map((level) => ({
-    level,
-    races: list.filter((r) => r.level === level),
-  })).filter((g) => g.races.length > 0);
-  const other = list.filter((r) => !known.has(r.level));
-  if (other.length > 0) groups.push({ level: "other", races: other });
-  return groups;
 }
 
 export function BallotSection({
@@ -980,7 +639,6 @@ export function BallotSection({
     () => getReviewed(reviewKey),
     () => EMPTY_REVIEWED
   );
-  const [viewMode] = useViewMode();
 
   if (races.length === 0) {
     return (
@@ -1002,84 +660,57 @@ export function BallotSection({
   // unchanged from before this prop existed.
   const featuredRace = featuredRaceId ? races.find((r) => r.race_id === featuredRaceId) ?? null : null;
   const secondaryRaces = featuredRace ? races.filter((r) => r.race_id !== featuredRace.race_id) : races;
-  const groups = groupRacesByLevel(secondaryRaces);
+
+  const known = new Set(LEVEL_ORDER);
+  const groups = LEVEL_ORDER.map((level) => ({
+    level,
+    races: secondaryRaces.filter((r) => r.level === level),
+  })).filter((g) => g.races.length > 0);
+  const other = secondaryRaces.filter((r) => !known.has(r.level));
+  if (other.length > 0) groups.push({ level: "other", races: other });
 
   const raceIds = new Set(races.map((r) => r.race_id));
   const reviewedCount = Array.from(reviewed).filter((id) => raceIds.has(id)).length;
 
   return (
     <div className="space-y-8">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <p className="text-xs text-zinc-400">
-          {viewMode === "simple"
-            ? "Simple mode — plain-English take on each race."
-            : "Detailed mode — every figure, vote, and source."}
-        </p>
-        <ViewModeToggle tone="zinc" />
-      </div>
-
       <VotingInfoCard votingInfo={votingInfo} />
       <ReadinessBar reviewedCount={reviewedCount} total={races.length} />
 
-      {viewMode === "simple" ? (
-        // Simple mode has no separate "featured" tier -- every race (the
-        // demo-rank one included) renders the same plain-English card, just
-        // grouped by level like the detailed view's secondary races are.
-        groupRacesByLevel(races).map((g) => (
-          <div key={g.level}>
-            <h3 className="mb-3 text-xs uppercase tracking-wider text-zinc-400">
-              {LEVEL_LABELS[g.level] ?? g.level}
-            </h3>
-            <div className="space-y-3">
-              {g.races.map((race) => (
-                <SimpleRaceCard
-                  key={race.race_id}
-                  race={race}
-                  active={activeRaceId === race.race_id}
-                  onExplain={onExplain}
-                />
-              ))}
-            </div>
+      {featuredRace && (
+        <div>
+          <div className="mb-3 flex flex-wrap items-center gap-2">
+            <span className="rounded-full border border-gold/60 bg-gold/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-gold">
+              Featured race
+            </span>
+            <span className="text-xs text-zinc-400">The race we can show you the most about right now.</span>
           </div>
-        ))
-      ) : (
-        <>
-          {featuredRace && (
-            <div>
-              <div className="mb-3 flex flex-wrap items-center gap-2">
-                <span className="rounded-full border border-emerald-400/60 bg-emerald-500/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-emerald-300">
-                  Featured race
-                </span>
-                <span className="text-xs text-zinc-400">The race we can show you the most about right now.</span>
-              </div>
-              <RaceCard
-                race={featuredRace}
-                active={activeRaceId === featuredRace.race_id}
-                onExplain={onExplain}
-                featured
-              />
-            </div>
-          )}
-
-          {groups.map((g) => (
-            <div key={g.level}>
-              <h3 className="mb-3 text-xs uppercase tracking-wider text-zinc-400">
-                {LEVEL_LABELS[g.level] ?? g.level}
-              </h3>
-              <div className="space-y-3">
-                {g.races.map((race) => (
-                  <SecondaryRaceRow
-                    key={race.race_id}
-                    race={race}
-                    active={activeRaceId === race.race_id}
-                    onExplain={onExplain}
-                  />
-                ))}
-              </div>
-            </div>
-          ))}
-        </>
+          <RaceCard
+            race={featuredRace}
+            active={activeRaceId === featuredRace.race_id}
+            onExplain={onExplain}
+            featured
+          />
+        </div>
       )}
+
+      {groups.map((g) => (
+        <div key={g.level}>
+          <h3 className="mb-3 text-xs uppercase tracking-wider text-zinc-400">
+            {LEVEL_LABELS[g.level] ?? g.level}
+          </h3>
+          <div className="space-y-3">
+            {g.races.map((race) => (
+              <SecondaryRaceRow
+                key={race.race_id}
+                race={race}
+                active={activeRaceId === race.race_id}
+                onExplain={onExplain}
+              />
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

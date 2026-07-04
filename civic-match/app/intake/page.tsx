@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState, use } from "react";
 import { useRouter } from "next/navigation";
-import { savePrefs } from "@/lib/prefs";
+import { loadPrefs, savePrefs } from "@/lib/prefs";
 import type { VoterProfile } from "@/lib/types";
 import type { IssueDef } from "@/lib/issues";
 import type { UIConfig } from "@/lib/config";
@@ -67,6 +67,19 @@ export default function IntakePage({
   const [importance, setImportance] = useState<Record<string, number>>({});
   const [idx, setIdx] = useState(0);
   const [pendingScalar, setPendingScalar] = useState<number | null | undefined>(undefined);
+
+  // Rehydrate a previously-saved profile/priorities so re-entering intake
+  // (e.g. from "Edit priorities") doesn't wipe everything the voter entered.
+  useEffect(() => {
+    const saved = loadPrefs();
+    if (!saved) return;
+    if (saved.profile) setProfile({ ...saved.profile, flags: saved.profile.flags ?? {} });
+    if (saved.zip) setZip(saved.zip);
+    if (saved.address) setAddress(saved.address);
+    if (saved.issue_positions) setPositions(saved.issue_positions);
+    const savedPicked = Object.keys(saved.priority_weights ?? {});
+    if (savedPicked.length) setPicked(savedPicked);
+  }, []);
 
   const toggle = (id: string) =>
     setPicked((p) => (p.includes(id) ? p.filter((x) => x !== id) : [...p, id]));

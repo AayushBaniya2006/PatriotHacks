@@ -563,7 +563,7 @@ export default function ResultsPage({
                       <div className="text-zinc-500">from issue alignment (quant)</div>
                     </div>
                     <div className="rounded-lg bg-zinc-950 p-3">
-                      <div className="text-lg font-bold text-sky-400">
+                      <div className="text-lg font-bold text-gold">
                         +{r.overall_components.qualitative_component}
                       </div>
                       <div className="text-zinc-500">from record quality</div>
