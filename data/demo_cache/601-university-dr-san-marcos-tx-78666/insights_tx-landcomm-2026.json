@@ -1,0 +1,38 @@
+{
+  "archetype_used": "homeowner_parent",
+  "candidates": {
+    "buckingham-dawn": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
+        "text": "No public data in our set connects Dawn Buckingham's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
+        "text": "No public data in our set on Dawn Buckingham's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ],
+    "flores-benjamin": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
+        "text": "No public data in our set connects Benjamin Flores's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
+        "text": "No public data in our set on Benjamin Flores's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ],
+    "snider-neill": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
+        "text": "No public data in our set connects Neill Snider's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
+        "text": "No public data in our set on Neill Snider's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ]
+  },
+  "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "mode": "cached",
+  "summary": "For a homeowner parent voter looking at the Texas Land Commissioner race (Dawn Buckingham, Benjamin Flores, Neill Snider): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
+}

@@ -1,0 +1,41 @@
+{
+  "archetype_used": "homeowner_parent",
+  "candidates": {
+    "berry-allen": [
+      {
+        "source": "https://www.fec.gov/data/candidate/H6TX18323/",
+        "text": "Allen D Dr Berry (Republican) is a candidate for U.S. Representative, TX-18."
+      },
+      {
+        "source": "https://www.fec.gov/data/candidate/H6TX18323/",
+        "text": "As of 2026-07-04, FEC records show Allen D Dr Berry had raised $8,512 and spent $8,683 for this campaign."
+      },
+      {
+        "source": "https://www.fec.gov/data/candidate/H6TX18323/",
+        "text": "No public voting record in our set for Allen D Dr Berry (not currently a member of Congress)."
+      }
+    ],
+    "menefee-christian": [
+      {
+        "source": "https://clerk.house.gov/Votes",
+        "text": "Christian Menefee (Democratic) is the current officeholder running for U.S. Representative, TX-18."
+      },
+      {
+        "source": "https://www.fec.gov/data/candidate/H6TX18232/",
+        "text": "As of 2026-07-04, FEC records show Christian Menefee had raised $3,463,829 and spent $3,145,794 for this campaign."
+      },
+      {
+        "source": "https://clerk.house.gov/evs/2026/roll078.xml",
+        "text": "On 25-Feb-2026, Christian Menefee voted Not Voting on H R 4758. A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners."
+      }
+    ]
+  },
+  "caveats": [
+    "This summary only includes facts found in our sourced dataset (FEC finance filings and U.S. House Clerk roll-call votes). It omits anything we could not verify from those sources.",
+    "No public data in our set on any candidate's policy positions for this race (the positions field was empty for every candidate as of this build).",
+    "No public data in our set on Allen D Dr Berry's policy positions.",
+    "No public data in our set on Christian Menefee's policy positions."
+  ],
+  "mode": "cached",
+  "summary": "This is the U.S. House race for TX-18. In the most recent election (2024-11-05), Sylvester Turner (DEM) won by about 38.87 points out of 218720 votes cast. The bullets below summarize each current candidate's public finance and voting-record data where available."
+}

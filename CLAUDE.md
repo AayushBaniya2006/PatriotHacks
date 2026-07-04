@@ -90,6 +90,10 @@ Address (required). Optional: occupation (free text), age bracket, income bracke
 
 Precomputed-first: POST `/api/insights` {profile, race_id} maps the profile to an archetype (deterministic precedence: veteran → small_business_owner → student → healthcare_aca_or_uninsured → medicare_retiree → homeowner_parent → renter_young_worker → rural_agriculture → base) and serves `data/tx/insights/{race_id}.json`. Live OpenRouter generation only when no cache file exists AND `OPENROUTER_API_KEY` is set. Hard rules for ALL insight content, precomputed or live: only claims traceable to the race's candidate JSON; every bullet carries its source URL; neutral comparative tone, never endorse; explicit uncertainty ("no public data in our set on X") when data is missing; 2-3 bullets per candidate, ~8th-grade reading level.
 
+**Consequence horizons (novel feature, 2026-07-03)**: insight blocks additionally carry `horizons: {candidate_id: {now: [{text, source, basis}], long_term: [{text, source, basis, assumption}]}}` — profile-personalized short-term vs long-term impact. `now` = direct restatement of recorded votes/positions' current-term effect; `long_term` = explicitly CONDITIONAL projections ("If this position becomes sustained policy, over the next decade…") where every bullet names its assumption AND cites the underlying recorded evidence. Projections are labeled as projections — never presented as fact. This complements (does not duplicate) civic-match's race-level `/future` scenario trees: ours is per-voter, theirs is per-race.
+
+Doc set: `schema.md` (contracts), `database.md` (Postgres creation/integration), `railway.md` (deploy), `data/tx/QUALITY.md` (tiers + golden addresses), `DEMO_PLAYBOOK.md` (3-min script).
+
 ## Sourcing + git policy
 
 - Prefer existing public APIs over scraping, always. Every current source is an API (MediaWiki API for Wikipedia content). HTML scraping is a last resort and needs a logged justification.

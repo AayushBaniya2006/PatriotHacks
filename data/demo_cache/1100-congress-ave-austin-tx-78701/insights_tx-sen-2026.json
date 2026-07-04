@@ -1,0 +1,36 @@
+{
+  "archetype_used": "homeowner_parent",
+  "candidates": {
+    "paxton-ken": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+        "text": "No public data in our set connects Ken Paxton's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+        "text": "No public data in our set on Ken Paxton's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.fec.gov/data/candidate/S6TX00388/",
+        "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+      }
+    ],
+    "talarico-james": [
+      {
+        "source": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+        "text": "On taxes, James Talarico's recorded position: Talarico explicitly calls for raising taxes on billionaires and corporations, including higher taxes on income and capital gains, ending 'buy, borrow, die' loopholes, raising corporate tax rates, and closing carried interest loopholes to fund working family tax cuts."
+      },
+      {
+        "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+        "text": "On education, James Talarico's recorded position: Talarico opposes private school vouchers and has made opposition to school choice diversion programs central to his campaign. He supports universal pre-K, capping class sizes, and increasing public school funding."
+      },
+      {
+        "source": "https://www.fec.gov/data/candidate/S6TX00479/",
+        "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+      }
+    ]
+  },
+  "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "mode": "cached",
+  "summary": "For a homeowner parent voter looking at the United States Senator from Texas race (Ken Paxton, James Talarico): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
+}

@@ -1,0 +1,38 @@
+{
+  "archetype_used": "homeowner_parent",
+  "candidates": {
+    "johnson-nathan": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+        "text": "No public data in our set connects Nathan Johnson's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+        "text": "No public data in our set on Nathan Johnson's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ],
+    "middleton-mayes": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+        "text": "No public data in our set connects Mayes Middleton's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+        "text": "No public data in our set on Mayes Middleton's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ],
+    "oxford-tom": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+        "text": "No public data in our set connects Tom Oxford's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+        "text": "No public data in our set on Tom Oxford's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ]
+  },
+  "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "mode": "cached",
+  "summary": "For a homeowner parent voter looking at the Attorney General of Texas race (Mayes Middleton, Nathan Johnson, Tom Oxford): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
+}

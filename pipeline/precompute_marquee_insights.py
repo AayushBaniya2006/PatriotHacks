@@ -88,6 +88,22 @@ def money(n):
     return f"${n:,.0f}"
 
 
+def finance_source_label(source_url):
+    """Human-readable regulator name for a finance record, derived from its
+    actual source URL -- never hardcoded to assume FEC. TX statewide offices
+    don't file with the FEC at all (they file with the Texas Ethics
+    Commission); asserting "per FEC filings" against a non-FEC source is a
+    factual misattribution, not just imprecise wording. Extend this map if
+    a new finance-source domain is added to the pipeline."""
+    if not source_url:
+        return "campaign finance filings on record"
+    if "fec.gov" in source_url:
+        return "FEC filings"
+    if "ethics.state.tx.us" in source_url:
+        return "Texas Ethics Commission filings"
+    return "campaign finance filings on record"
+
+
 def candidate_office_bullet(cid, c):
     party = c.get("party", "an unlisted party")
     office = c.get("office", "this office")
@@ -125,12 +141,14 @@ def candidate_finance_or_missing_bullet(cid, c):
         if disb is not None:
             parts.append(f"spent {disb}")
         detail = " and ".join(parts) if parts else "reported campaign finance activity"
-        text = f"As of {as_of}, {c['name']}'s campaign had {detail}, per FEC filings."
+        label = finance_source_label(fin.get("source"))
+        text = f"As of {as_of}, {c['name']}'s campaign had {detail}, per {label}."
         return {"text": text, "source": fin.get("source", src_fallback)}
     else:
         text = (
             f"No public data in our set on {c['name']}'s campaign finance totals "
-            f"(this office is not required to file with the FEC, or no filing was found)."
+            f"(this office may not require an FEC or Texas Ethics Commission filing, "
+            f"or no matching filing was found)."
         )
         return {"text": text, "source": src_fallback}
 
@@ -172,11 +190,11 @@ def build_base_for_race(race, candidates):
     )
     caveats = (
         "Our data set for this race covers candidate name, party, incumbency, "
-        "background summary, and (for federal candidates only) FEC campaign finance "
-        "totals. We do not have recorded voting histories or issue-by-issue policy "
-        "positions for these candidates in this data set; state executive offices "
-        "generally do not file with the FEC, so campaign finance is not available "
-        "for most of them here."
+        "background summary, and campaign finance totals where a filing was found "
+        "(federal candidates file with the FEC; Texas state offices file with the "
+        "Texas Ethics Commission -- each finance bullet names which). We do not have "
+        "recorded voting histories or issue-by-issue policy positions for these "
+        "candidates in this data set."
     )
     return {"candidates": cand_bullets, "summary": summary, "caveats": caveats}
 
@@ -239,9 +257,10 @@ def archetype_finance_context_bullet(cid, c, archetype):
         return None
     as_of = fin.get("as_of")
     receipts = money(fin.get("receipts"))
+    label = finance_source_label(fin.get("source"))
     text = (
         f"As of {as_of}, {c['name']}'s campaign had raised {receipts} in total, per "
-        f"FEC filings. That is general campaign-finance context; it does not tell us "
+        f"{label}. That is general campaign-finance context; it does not tell us "
         f"the candidate's stance on {ARCHETYPE_ISSUE_PHRASE[archetype]}."
     )
     return {"text": text, "source": fin.get("source")}
