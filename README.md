@@ -1,24 +1,51 @@
 # PatriotHacks — Civic Match
 
-A neutral, source-grounded candidate alignment engine powered by a **Kimi agent swarm**.
+**Ground truth for your ballot.** A neutral candidate alignment engine powered by a
+**Kimi agent swarm** — every claim on the site traces to a verifiable source
+(roll-call votes, official filings, primary documents). **No source, no claim.**
 
-The app lives in [`civic-match/`](civic-match/) — full architecture diagram, pipeline
-docs, and run instructions are in [`civic-match/README.md`](civic-match/README.md).
+The product lives in [`civic-match/`](civic-match/) — full architecture diagrams in
+[`civic-match/README.md`](civic-match/README.md), data contracts in
+[`civic-match/docs/SCHEMAS.md`](civic-match/docs/SCHEMAS.md).
 
 ```
-Landing → User info → Agent staging (minimize context)
-       → Kimi swarm (parallel data-endpoint agents)
-       → Output report → Verifier agent (double checks)
-       → db of Politicians → Scoring (quant + qual) → Presentation
+Landing → Ballot lookup (address → your actual races)
+        → Voter profile + 30-issue trade-off intake
+        → Kimi swarm per candidate (8 parallel agents):
+            4 issue clusters · profile · qualitative record ·
+            promise-vs-record · follow-the-money
+        → validator (no source, no claim) → verifier double-check
+        → db of politicians (cached ground truth)
+        → scoring: quant issue alignment × qual record quality → OVR (60–99)
+        → surfaces: matches · explanations · Q&A · scenario trees ·
+          knowledge graph · debate arena · stakes + motivation
 ```
+
+What a voter gets:
+
+- **Your matches** (`/results`) — 2K-style overall rating that decomposes to ground
+  truth: issue-by-issue points, record quality (integrity, transparency,
+  experience), sourced warnings, and a personalized "why your vote matters" card.
+- **Ground-truth profiles** (`/p/[id]`) — every position with sources and quotes,
+  a promise-vs-record scorecard with receipts, follow-the-money donor↔position
+  correlations (correlation, never "proof"), and grounded Q&A that refuses to
+  answer beyond the indexed evidence.
+- **Down the line** (`/future`) — branching scenario trees per race: succession
+  chains, policy consequences, later elections — facts sourced, projections
+  labeled with likelihood, branches tagged "affects you".
+- **The connection graph** (`/graph`) — 157-node knowledge graph linking
+  municipal ↔ state ↔ federal offices, races, people, issues, and future events.
+- **Debate arena** (`/debate`) — candidate-agents hard-grounded in their real
+  records, judged on fidelity with unsourced claims penalized.
 
 Quick start:
 
 ```bash
 cd civic-match
 npm install
-npm run seed    # auto-query Nov Texas election + research candidates
-npm run dev
+npm run seed          # auto-query Nov Texas election + swarm-research candidates
+npm run seed:graph    # scenario trees + cross-level knowledge graph
+npm run dev           # http://localhost:3000
 ```
 
 ---
