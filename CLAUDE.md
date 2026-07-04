@@ -14,7 +14,11 @@ Accuracy is the product. Never show an insight that can't be tied to a cited sou
 ## LOCKED DECISIONS (2026-07-03 — do not relitigate, we have ~2-3 hours)
 
 - **Scope**: Texas deep-dive, Nov 3 2026 general election. Statewide races (Governor, Lt. Gov, AG, US Senate) + all 38 US House districts — covers every Texas address. TX Legislature (150 HD + ~15 SD) = stretch goal only.
-- **Stack**: FastAPI (`app/main.py`) + one static HTML page (`app/static/index.html`). No build step, no npm, Python end-to-end.
+- **Stack — two-service monorepo (converged with teammate's work, 2026-07-03)**:
+  - **`civic-match/` = the product frontend** (teammate-owned): Next.js 16 + React 19 + Tailwind 4. Kimi research swarm → validated `PoliticianProfile` JSONs (`civic-match/data/politicians/*.json`, contract in `civic-match/lib/types.ts`) → pure scoring engine → alignment UI. ⚠️ Before writing ANY civic-match code, read `civic-match/AGENTS.md`: this Next.js version postdates training — consult `node_modules/next/dist/docs/` first.
+  - **Repo root = the data backend** (ours): FastAPI + precomputed TX gold dataset from official APIs. Supplies what civic-match lacks: address→district resolution, all 38 US House races, and authoritative evidence (FEC finance, House Clerk roll-call votes, Congress.gov records).
+  - **Integration contract**: (1) `GET /api/ballot?address=` gives civic-match per-address ballots; (2) `pipeline/export_civic_match.py` merges our sourced evidence into their `PoliticianProfile` shape non-destructively (their slug convention is `firstname-lastname` via `lib/db.ts slugify` — ours is lastname-firstname internally; the exporter translates); (3) `civic-match/data/elections/texas-house.json` (new file) carries per-district House races — never rewrite their `texas.json`.
+  - The fleet's `app/static/index.html` remains a standalone demo fallback only.
 - **Storage**: bronze→gold pipeline. Raw fetches in `data/tx/raw/`, gold artifacts `data/tx/races.json` + `candidates.json` (source of truth, committed to git), served through **SQLite** (`data/tx/app.db`, indexed, read-only at runtime) with JSON fallback.
 - **Query primitives**: ALL data access goes through `app/datastore.py` — `get_ballot(cd,sd,hd)`, `get_race(id)`, `get_candidate(id)`, `list_races(level)`, `search_candidates(q)`, `get_insights(race_id)`, `stats()`. Endpoints never touch files directly. (These primitives are MCP-shaped — a post-hackathon FastMCP wrap is trivial.)
 - **Precompute-first**: everything precomputable IS precomputed at build time — the gold dataset, the SQLite index, and per-race insight content (base + 8 voter archetypes) in `data/tx/insights/{race_id}.json`. Runtime = cache reads + Census geocoder (itself cached in `data/cache.db`) + optional live LLM only on cache miss. **The demo works with zero LLM key.**
@@ -100,7 +104,11 @@ Skip: courts stack, US Code bulk, EAC/NIST, SAM.gov, Google Civic representative
 
 ```
 pip install -r requirements.txt
-uvicorn app.main:app --reload   # http://localhost:8000
+uvicorn app.main:app --reload          # data backend, http://localhost:8000 (/healthz)
+
+cd civic-match && npm install
+npm run seed                            # auto-discover TX races + research candidates
+npm run dev                             # the product UI (Next.js)
 ```
 
 ## Status log
@@ -108,3 +116,4 @@ uvicorn app.main:app --reload   # http://localhost:8000
 - 2026-07-03: Scope locked (TX, 2-3h). 16-agent probe fleet ran against all docx endpoints — 11/15 usable immediately, `DEMO_KEY` confirmed working on Congress.gov + OpenFEC + GovInfo; Open States/LegiScan/Google Civic key-gated (cut/stretch); LDA API sunsets 2026-07-31. Full inventory: `data/endpoint_inventory.json`.
 - 2026-07-03: MCP evaluated → skipped for runtime; datastore primitives keep the door open.
 - 2026-07-03: 9-agent build fleet launched: 4 fetchers → merge/validate (gold JSON + SQLite) → 3 insight-precompute agents, alongside backend (datastore + Railway) + frontend. Fable integration pass after.
+- 2026-07-03: Pulled teammate's `civic-match/` (Next.js product: Kimi swarm, scoring engine, statewide TX races + 8 researched profiles). CONVERGED: we are the data backend; no second frontend gets built. Codex session writing contract tests + demo precache in parallel.
