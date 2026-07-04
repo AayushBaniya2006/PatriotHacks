@@ -31,4 +31,6 @@ data/tx/app.db
 
 # Local-only competitive analysis and notes; never commit or push
 local-only/
-.codex
+
+# Source spec doc — not project output, keep local only
+*.docx

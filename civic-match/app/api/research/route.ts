@@ -18,8 +18,14 @@ export async function POST(req: NextRequest) {
       const send = (e: ResearchEvent & { profile_id?: string }) =>
         controller.enqueue(encoder.encode(`data: ${JSON.stringify(e)}\n\n`));
       try {
-        // Latency: serve from db of politicians if already researched
-        const existing = await getPolitician(slugify(name));
+        // Check if 'name' is actually a politician ID/slug
+        let existing = await getPolitician(name);
+        
+        // If not found by ID, try slugifying (in case it's a full name)
+        if (!existing) {
+          existing = await getPolitician(slugify(name));
+        }
+        
         if (existing && !force) {
           send({
             type: "complete",
@@ -30,7 +36,10 @@ export async function POST(req: NextRequest) {
           controller.close();
           return;
         }
-        const profile = await researchPolitician(name, send);
+        
+        // Use the actual name for research, not the slug
+        const researchName = existing?.name || name;
+        const profile = await researchPolitician(researchName, send);
         send({ type: "complete", message: "done", progress: 1, profile_id: profile.id });
       } catch (err) {
         send({ type: "error", message: err instanceof Error ? err.message : "Research failed" });
