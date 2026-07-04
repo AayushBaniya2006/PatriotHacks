@@ -283,15 +283,15 @@ html {
 }
 
 /* Rendered markdown inside Q&A answers */
-.qa-answer h1, .qa-answer h2, .qa-answer h3 { font-weight: 600; color: #e4e4e7; margin: 0.75rem 0 0.35rem; font-size: 0.95rem; }
+.qa-answer h1, .qa-answer h2, .qa-answer h3 { font-weight: 600; color: #f4f1ea; margin: 0.75rem 0 0.35rem; font-size: 0.95rem; }
 .qa-answer p { margin: 0.4rem 0; line-height: 1.55; }
 .qa-answer ul, .qa-answer ol { margin: 0.4rem 0 0.4rem 1.1rem; display: grid; gap: 0.25rem; }
 .qa-answer ul { list-style: disc; }
 .qa-answer ol { list-style: decimal; }
-.qa-answer strong { color: #e4e4e7; }
-.qa-answer a { color: #34d399; text-decoration: underline; text-underline-offset: 2px; }
-.qa-answer blockquote { border-left: 2px solid #3f3f46; padding-left: 0.75rem; color: #a1a1aa; font-style: italic; margin: 0.5rem 0; }
+.qa-answer strong { color: #f4f1ea; }
+.qa-answer a { color: #b68d5d; text-decoration: underline; text-underline-offset: 2px; }
+.qa-answer blockquote { border-left: 2px solid rgba(182, 141, 93, 0.45); padding-left: 0.75rem; color: rgba(244, 241, 234, 0.68); font-style: italic; margin: 0.5rem 0; }
 .qa-answer table { width: 100%; border-collapse: collapse; margin: 0.6rem 0; font-size: 0.8rem; }
-.qa-answer th, .qa-answer td { border: 1px solid #3f3f46; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
-.qa-answer th { background: #18181b; color: #e4e4e7; }
-.qa-answer code { background: #18181b; padding: 0.1rem 0.3rem; border-radius: 0.25rem; font-size: 0.8rem; }
+.qa-answer th, .qa-answer td { border: 1px solid rgba(255, 255, 255, 0.12); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+.qa-answer th { background: #020c17; color: #f4f1ea; }
+.qa-answer code { background: #020c17; padding: 0.1rem 0.3rem; border-radius: 0.25rem; font-size: 0.8rem; }

@@ -2,7 +2,6 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import {
   BookOpen,
   Building2,
@@ -19,8 +18,6 @@ import {
   Landmark,
   Lock,
   MapPin,
-  Menu,
-  MessageCircle,
   Plus,
   Scale,
   Shield,
@@ -223,23 +220,6 @@ function filterRacesByFocus(races: BallotRace[], focus: string) {
     return races.filter((race) => /measure|proposition|initiative|amendment/i.test(raceTitle(race)));
   }
   return races;
-}
-
-function matchColor(score: number) {
-  if (score >= 70) return "text-gold";
-  if (score >= 50) return "text-cream";
-  return "text-red-200";
-}
-
-function matchSummary(result: MatchResult) {
-  const agreements = result.top_agreements.slice(0, 2).map((item) => item.issue_name);
-  const conflicts = result.top_conflicts.slice(0, 1).map((item) => item.issue_name);
-  if (agreements.length && conflicts.length) {
-    return `Aligns on ${agreements.join(", ")}, differs on ${conflicts.join(", ")}.`;
-  }
-  if (agreements.length) return `Strongest overlap: ${agreements.join(", ")}.`;
-  if (conflicts.length) return `Main tension: ${conflicts.join(", ")}.`;
-  return result.overall_tier;
 }
 
 function normalizeBallotCandidate(
@@ -617,8 +597,6 @@ export default function BallotPage() {
   }, [issues, priorities, stanceIndex]);
 
   const locationDisplay = displayLocation(ballot, [location.cityState, location.zip].filter(Boolean).join(" "));
-  const visibleCandidateCount =
-    matchState.status === "done" ? matchState.results.length : selectedRace?.candidates?.length ?? 0;
 
   const goBack = () => {
     if (step === "location") setStep("welcome");

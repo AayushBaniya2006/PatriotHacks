@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import {
   AlertCircle,
   ArrowLeft,
@@ -19,7 +19,6 @@ import {
 } from "lucide-react";
 import InsightsPanel from "@/components/ballot/InsightsPanel";
 import {
-  CivitasButton,
   CivitasPanel,
   CivitasSectionHeading,
   MetricSeal,
@@ -105,8 +104,8 @@ function StatCard({
   label,
   sublabel,
 }: {
-  icon: React.ReactNode;
-  value: React.ReactNode;
+  icon: ReactNode;
+  value: ReactNode;
   label: string;
   sublabel?: string;
 }) {
@@ -598,10 +597,6 @@ export default function CivitasDashboard({
   const [activeRaceId, setActiveRaceId] = useState<string | null>(
     initialRaceId ?? view.races[0]?.id ?? null
   );
-
-  useEffect(() => {
-    if (!activeRaceId && view.races[0]) setActiveRaceId(view.races[0].id);
-  }, [activeRaceId, view.races]);
 
   const activeRace = useMemo(
     () => view.races.find((race) => race.id === activeRaceId) ?? view.races[0] ?? null,

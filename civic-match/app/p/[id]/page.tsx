@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPolitician } from "@/lib/db";
 import { getIssueMap, getUI } from "@/lib/config";
-import { CivitasPage, CivitasPanel, SourceLink, StatusPill } from "@/components/civitas-ui";
+import { CivitasPage, CivitasPanel, MetricSeal, SourceLink, StatusPill } from "@/components/civitas-ui";
 import QABox from "./qa-box";
 
 export const dynamic = "force-dynamic";
@@ -28,22 +28,74 @@ export default async function PoliticianPage({
         </>
       }
       description={[p.current_office, p.jurisdiction].filter(Boolean).join(" · ")}
+      wide
     >
-      <div className="mb-8">
-        {p.bio && <p className="max-w-2xl text-base leading-7 text-white/70">{p.bio}</p>}
-        <div className="mt-4 flex flex-wrap gap-3 text-xs text-white/45">
-          <StatusPill tone="gold">{p.stances.length} sourced positions</StatusPill>
-          <StatusPill>coverage {(p.source_coverage_score * 100).toFixed(0)}% of 30 issues</StatusPill>
-          <StatusPill>researched {new Date(p.researched_at).toLocaleDateString()}</StatusPill>
-          {p.campaign_website && (
-            <SourceLink href={p.campaign_website}>
-              campaign site
-            </SourceLink>
-          )}
-        </div>
+      <div className="mb-10 grid gap-5 lg:grid-cols-[minmax(0,1fr)_340px]">
+        <CivitasPanel className="p-6">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
+            <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-[10px] border border-gold/35 bg-navy-dark font-serif text-3xl text-gold">
+              {p.name
+                .split(/\s+/)
+                .slice(0, 2)
+                .map((part) => part[0])
+                .join("")
+                .toUpperCase()}
+            </div>
+            <div className="min-w-0 flex-1">
+              {p.bio && <p className="max-w-3xl text-base leading-7 text-white/70">{p.bio}</p>}
+              <div className="mt-4 flex flex-wrap gap-3 text-xs text-white/45">
+                <StatusPill tone="gold">{p.stances.length} sourced positions</StatusPill>
+                <StatusPill>coverage {(p.source_coverage_score * 100).toFixed(0)}% of 30 issues</StatusPill>
+                <StatusPill>researched {new Date(p.researched_at).toLocaleDateString()}</StatusPill>
+                {p.campaign_website && <SourceLink href={p.campaign_website}>campaign site</SourceLink>}
+              </div>
+            </div>
+          </div>
+        </CivitasPanel>
+
+        <CivitasPanel className="p-5">
+          <p className="mb-4 text-[10px] font-semibold uppercase tracking-[0.22em] text-gold">
+            Evidence summary
+          </p>
+          <div className="flex items-center gap-4">
+            <MetricSeal value={p.stances.length} label="pos" />
+            <div className="min-w-0 flex-1 space-y-3 text-sm">
+              <div className="flex justify-between gap-4 border-b border-white/8 pb-3">
+                <span className="text-white/42">Qualitative dimensions</span>
+                <span className="text-white/72">{p.qualitative?.length ?? 0}</span>
+              </div>
+              <div className="flex justify-between gap-4 border-b border-white/8 pb-3">
+                <span className="text-white/42">Promise records</span>
+                <span className="text-white/72">{p.promise_record?.length ?? 0}</span>
+              </div>
+              <div className="flex justify-between gap-4">
+                <span className="text-white/42">Unknown issues</span>
+                <span className="text-white/72">{p.unknowns.length}</span>
+              </div>
+            </div>
+          </div>
+          <p className="mt-4 text-xs leading-5 text-white/45">
+            This page shows evidence coverage and gaps. It does not rank or endorse the candidate.
+          </p>
+        </CivitasPanel>
       </div>
+
+      <nav className="mb-8 flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-[0.16em]">
+        <a href="#positions" className="rounded-full border border-white/12 px-3 py-1.5 text-white/50 hover:border-gold/50 hover:text-gold">
+          Issues
+        </a>
+        <a href="#record-quality" className="rounded-full border border-white/12 px-3 py-1.5 text-white/50 hover:border-gold/50 hover:text-gold">
+          Record
+        </a>
+        <a href="#funding" className="rounded-full border border-white/12 px-3 py-1.5 text-white/50 hover:border-gold/50 hover:text-gold">
+          Funding
+        </a>
+        <a href="#sources" className="rounded-full border border-white/12 px-3 py-1.5 text-white/50 hover:border-gold/50 hover:text-gold">
+          Ask
+        </a>
+      </nav>
       {p.qualitative && p.qualitative.length > 0 && (
-        <section className="mb-10">
+        <section id="record-quality" className="mb-10 scroll-mt-24">
           <h2 className="mb-3 font-serif text-2xl font-normal text-white">Record quality (qualitative)</h2>
           <div className="grid gap-3 sm:grid-cols-2">
             {p.qualitative.map((q) => (
@@ -76,7 +128,7 @@ export default async function PoliticianPage({
         </section>
       )}
 
-      <section className="mb-10">
+      <section id="positions" className="mb-10 scroll-mt-24">
         <h2 className="mb-3 font-serif text-2xl font-normal text-white">Positions ({p.stances.length})</h2>
         <div className="space-y-3">
           {p.stances.map((s) => {
@@ -143,7 +195,7 @@ export default async function PoliticianPage({
       </section>
 
       {p.finance && (p.finance.top_donors.length > 0 || p.finance.total_raised) && (
-        <section className="mb-10">
+        <section id="funding" className="mb-10 scroll-mt-24">
           <h2 className="mb-1 font-serif text-2xl font-normal text-white">Follow the money</h2>
           <p className="mb-3 text-xs leading-5 text-white/45">
             Who funds this campaign, and where funding lines up with positions.
@@ -297,7 +349,7 @@ export default async function PoliticianPage({
         </p>
       </section>
 
-      <section>
+      <section id="sources" className="scroll-mt-24">
         <h2 className="mb-3 font-serif text-2xl font-normal text-white">Ask about {p.name.split(" ")[0]}</h2>
         <p className="mb-3 text-xs text-white/45">
           Answers come only from the indexed ground truth above — never from model memory.

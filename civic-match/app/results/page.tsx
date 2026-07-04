@@ -55,10 +55,17 @@ export default function ResultsPage() {
   const address = prefs?.address;
 
   useEffect(() => {
-    const loaded = loadPrefs();
-    setPrefs(loaded);
-    setBallotState(loaded?.address ? { status: "loading" } : { status: "idle" });
-    setPrefsLoaded(true);
+    let cancelled = false;
+    queueMicrotask(() => {
+      if (cancelled) return;
+      const loaded = loadPrefs();
+      setPrefs(loaded);
+      setBallotState(loaded?.address ? { status: "loading" } : { status: "idle" });
+      setPrefsLoaded(true);
+    });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const toggleExpand = (id: string) => {

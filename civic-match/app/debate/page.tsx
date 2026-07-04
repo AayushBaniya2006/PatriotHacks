@@ -64,85 +64,88 @@ export default function DebatePage() {
   const sideOf = (speaker: string) => (speaker === nameOf(a) ? "a" : "b");
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
-      <h1 className="text-2xl font-bold mb-1">Ground-truth debate arena</h1>
-      <p className="text-sm text-zinc-500 mb-6 max-w-2xl">
+    <CivitasPage
+      eyebrow="Record hearing"
+      title="Ground-truth debate arena"
+      description={
+        <>
         Two candidate-agents, each hard-grounded in that candidate&apos;s real votes,
         platforms, and promises — no improvised positions. A judge agent scores who
         stayed truer to their actual record and flags every unsourced claim.
-      </p>
+        </>
+      }
+    >
 
       <div className="mb-6 grid min-w-0 gap-3 sm:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,220px)_auto] lg:items-end">
-        <label className="grid min-w-0 gap-1.5 text-xs text-zinc-500">
+        <label className="grid min-w-0 gap-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-white/50">
           Candidate A
           <select value={a} onChange={(e) => setA(e.target.value)}
-            className="min-w-0 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-zinc-100">
+            className="min-w-0 rounded-[8px] border border-white/14 bg-navy-dark px-3 py-2 text-sm normal-case tracking-normal text-white outline-none focus:border-gold/70">
             <option value="">Choose candidate A…</option>
             {politicians.map((p) => <option key={p.id} value={p.id}>{p.name} ({p.party ?? "?"})</option>)}
           </select>
         </label>
-        <label className="grid min-w-0 gap-1.5 text-xs text-zinc-500">
+        <label className="grid min-w-0 gap-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-white/50">
           Candidate B
           <select value={b} onChange={(e) => setB(e.target.value)}
-            className="min-w-0 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-zinc-100">
+            className="min-w-0 rounded-[8px] border border-white/14 bg-navy-dark px-3 py-2 text-sm normal-case tracking-normal text-white outline-none focus:border-gold/70">
             <option value="">Choose candidate B…</option>
             {politicians.map((p) => <option key={p.id} value={p.id}>{p.name} ({p.party ?? "?"})</option>)}
           </select>
         </label>
-        <label className="grid min-w-0 gap-1.5 text-xs text-zinc-500">
+        <label className="grid min-w-0 gap-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-white/50">
           Issue
           <select value={topic} onChange={(e) => setTopic(e.target.value)}
-            className="min-w-0 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-zinc-100">
+            className="min-w-0 rounded-[8px] border border-white/14 bg-navy-dark px-3 py-2 text-sm normal-case tracking-normal text-white outline-none focus:border-gold/70">
             <option value="">All issues</option>
             {issues.map((i) => <option key={i.id} value={i.id}>{i.name}</option>)}
           </select>
         </label>
-        <button onClick={run} disabled={!a || !b || a === b || running}
-          className="rounded-lg bg-emerald-500 px-5 py-2 text-sm font-medium text-zinc-950 disabled:opacity-40">
+        <CivitasButton onClick={run} disabled={!a || !b || a === b || running} className="h-[42px]">
           {running ? "Debating…" : "Start debate"}
-        </button>
+        </CivitasButton>
       </div>
 
       <div className="space-y-4">
         {turns.map((t, i) => (
-          <div key={i} className={`max-w-[85%] ${sideOf(t.speaker) === "b" ? "ml-auto" : ""}`}>
-            <div className={`text-xs mb-1 ${sideOf(t.speaker) === "b" ? "text-right text-sky-400" : "text-emerald-400"}`}>
+          <div key={i} className={`max-w-[88%] ${sideOf(t.speaker) === "b" ? "ml-auto" : ""}`}>
+            <div className={`mb-1 text-xs font-semibold uppercase tracking-[0.16em] ${sideOf(t.speaker) === "b" ? "text-right text-cream/70" : "text-gold"}`}>
               {t.speaker} · {t.phase}
             </div>
-            <div className={`rounded-xl border p-4 text-sm whitespace-pre-wrap ${
+            <div className={`whitespace-pre-wrap rounded-[10px] border p-4 text-sm leading-6 ${
               sideOf(t.speaker) === "b"
-                ? "border-sky-500/30 bg-sky-500/5"
-                : "border-emerald-500/30 bg-emerald-500/5"
+                ? "border-cream/20 bg-cream/5 text-white/72"
+                : "border-gold/30 bg-gold/10 text-white/72"
             }`}>
               {t.text}
             </div>
           </div>
         ))}
-        {status && <div role="status" aria-live="polite" className="text-sm text-zinc-500 animate-pulse">{status}</div>}
+        {status && <div role="status" aria-live="polite" className="animate-pulse text-sm text-white/45">{status}</div>}
 
         {judge && (
-          <div className="rounded-xl border border-amber-500/40 bg-amber-500/5 p-5">
-            <h2 className="font-semibold text-amber-300 mb-3">Judge: fidelity to the record</h2>
-            <div className="grid gap-3 sm:grid-cols-2 mb-3">
+          <CivitasPanel className="p-5">
+            <h2 className="mb-3 font-serif text-2xl font-normal text-white">Judge: fidelity to the record</h2>
+            <div className="mb-3 grid gap-3 sm:grid-cols-2">
               {Object.entries(judge.scores).map(([name, s]) => (
-                <div key={name} className="rounded-lg bg-zinc-950 p-3 text-sm">
+                <div key={name} className="rounded-[8px] border border-white/10 bg-navy-dark/60 p-3 text-sm">
                   <div className="flex justify-between mb-1">
-                    <span className="font-medium">{name}</span>
-                    <span className="font-mono text-lg">{s.groundedness}<span className="text-xs text-zinc-500">/100</span></span>
+                    <span className="font-medium text-white/78">{name}</span>
+                    <span className="font-mono text-lg text-gold">{s.groundedness}<span className="text-xs text-white/38">/100</span></span>
                   </div>
-                  <p className="text-xs text-zinc-400 mb-2">{s.notes}</p>
+                  <p className="mb-2 text-xs leading-5 text-white/50">{s.notes}</p>
                   {s.unsourced_claims.length > 0 && (
-                    <ul className="text-xs text-red-300 space-y-1">
-                      {s.unsourced_claims.map((c, i) => <li key={i}>⚠ {c}</li>)}
+                    <ul className="space-y-1 text-xs text-red-100">
+                      {s.unsourced_claims.map((c, i) => <li key={i}><StatusPill tone="red">Unsourced</StatusPill> {c}</li>)}
                     </ul>
                   )}
                 </div>
               ))}
             </div>
-            <p className="text-sm text-zinc-300">{judge.verdict}</p>
-          </div>
+            <p className="text-sm leading-6 text-white/72">{judge.verdict}</p>
+          </CivitasPanel>
         )}
       </div>
-    </div>
+    </CivitasPage>
   );
 }

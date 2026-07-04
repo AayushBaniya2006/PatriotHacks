@@ -26,10 +26,7 @@
       }
     ]
   },
-  "caveats": [
-    "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time.",
-    "Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history."
-  ],
+  "caveats": "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time. Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history.",
   "horizons": {},
   "mode": "cached",
   "summary": "TX-37: 2 candidate(s) on file for U.S. House of Representatives, TX-37. Bullets below summarize each candidate's FEC-reported campaign finance and, for sitting U.S. House members, selected 2025-2026 roll-call votes on file. This is comparative, sourced information only -- it does not recommend a choice."

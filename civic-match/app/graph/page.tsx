@@ -10,18 +10,19 @@ import {
   type SimulationLinkDatum,
   type SimulationNodeDatum,
 } from "d3-force";
+import { CivitasPage, CivitasPanel, SourceLink, StatusPill } from "@/components/civitas-ui";
 import type { GraphEdge, GraphNode, KnowledgeGraph } from "@/lib/types";
 
 interface SimNode extends SimulationNodeDatum, GraphNode {}
 type SimLink = SimulationLinkDatum<SimNode> & GraphEdge;
 
 const TYPE_COLORS: Record<string, string> = {
-  politician: "#34d399",
-  office: "#60a5fa",
-  race: "#f472b6",
-  issue: "#a78bfa",
-  organization: "#fbbf24",
-  event: "#f87171",
+  politician: "#b68d5d",
+  office: "#eae3d5",
+  race: "#9c2a2a",
+  issue: "#8fb7c6",
+  organization: "#d8a15b",
+  event: "#c96b5b",
 };
 
 export default function GraphPage() {
@@ -63,16 +64,20 @@ export default function GraphPage() {
 
   if (!graph) {
     return (
-      <div role="status" aria-live="polite" className="mx-auto max-w-5xl px-4 py-16 text-zinc-500 animate-pulse">
+      <CivitasPage wide eyebrow="Knowledge graph" title="Loading connection graph">
+      <div role="status" aria-live="polite" className="animate-pulse text-sm text-white/45">
         Loading knowledge graph…
       </div>
+      </CivitasPage>
     );
   }
   if (graph.nodes.length === 0) {
     return (
-      <div className="mx-auto max-w-5xl px-4 py-16 text-sm text-zinc-500">
-        Graph not built yet — run <code className="text-zinc-300">npm run seed:graph</code>.
-      </div>
+      <CivitasPage wide eyebrow="Knowledge graph" title="Graph not built yet">
+        <p className="text-sm text-white/52">
+          Run <code className="text-gold">npm run seed:graph</code>.
+        </p>
+      </CivitasPage>
     );
   }
 
@@ -82,15 +87,20 @@ export default function GraphPage() {
   const nodeById = new Map(graph.nodes.map((n) => [n.id, n]));
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8">
-      <h1 className="text-2xl font-bold mb-1">The connection graph</h1>
-      <p className="text-sm text-zinc-500 mb-4 max-w-3xl">
+    <CivitasPage
+      wide
+      eyebrow="Knowledge graph"
+      title="The connection graph"
+      description={
+        <>
         Municipal ↔ state ↔ federal: how offices, races, people, issues, and future
         events connect. Click a node to inspect its edges and ground-truth sources.
-      </p>
-      <div className="flex flex-wrap gap-3 mb-3 text-xs">
+        </>
+      }
+    >
+      <div className="mb-4 flex flex-wrap gap-3 text-xs">
         {Object.entries(TYPE_COLORS).map(([t, c]) => (
-          <span key={t} className="flex items-center gap-1.5 text-zinc-400">
+          <span key={t} className="flex items-center gap-1.5 text-white/55">
             <span className="h-2.5 w-2.5 rounded-full" style={{ background: c }} />
             {t}
           </span>
@@ -98,7 +108,7 @@ export default function GraphPage() {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-[1fr_320px]">
-        <div className="rounded-xl border border-zinc-800 bg-zinc-950 overflow-hidden">
+        <CivitasPanel className="overflow-hidden bg-navy-dark/80">
           <svg viewBox={`0 0 ${W} ${H}`} className="w-full">
             {graph.edges.map((e, i) => {
               const s = positions.get(e.source);
@@ -109,7 +119,7 @@ export default function GraphPage() {
                 <line
                   key={i}
                   x1={s.x} y1={s.y} x2={t.x} y2={t.y}
-                  stroke={active ? "#34d399" : e.kind === "inference" ? "#3f3f46" : "#52525b"}
+                  stroke={active ? "#b68d5d" : e.kind === "inference" ? "#344457" : "#6f7f91"}
                   strokeWidth={active ? 1.8 : 0.8}
                   strokeDasharray={e.kind === "inference" ? "4 3" : undefined}
                   opacity={selected && !active ? 0.25 : 0.8}
@@ -139,29 +149,29 @@ export default function GraphPage() {
                     }
                   }}
                 >
-                  <circle r={n.type === "politician" ? 10 : 7} fill={TYPE_COLORS[n.type] ?? "#71717a"}
+                  <circle r={n.type === "politician" ? 10 : 7} fill={TYPE_COLORS[n.type] ?? "#6f7f91"}
                           stroke={selected?.id === n.id ? "#fff" : "transparent"} strokeWidth={1.5} />
-                  <text y={-12} textAnchor="middle" fontSize={9} fill="#a1a1aa">
+                  <text y={-12} textAnchor="middle" fontSize={9} fill="#cfc7b7">
                     {n.label.length > 24 ? n.label.slice(0, 23) + "…" : n.label}
                   </text>
                 </g>
               );
             })}
           </svg>
-        </div>
+        </CivitasPanel>
 
-        <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 text-sm max-h-[720px] overflow-y-auto">
+        <CivitasPanel className="max-h-[720px] overflow-y-auto p-4 text-sm">
           {!selected ? (
-            <p className="text-zinc-500">
+            <p className="text-white/45">
               {graph.nodes.length} nodes · {graph.edges.length} edges. Click any node.
             </p>
           ) : (
             <>
               <div className="mb-1 flex items-center gap-2">
                 <span className="h-2.5 w-2.5 rounded-full" style={{ background: TYPE_COLORS[selected.type] }} />
-                <span className="font-semibold">{selected.label}</span>
+                <span className="font-serif text-xl text-white">{selected.label}</span>
               </div>
-              <p className="text-xs text-zinc-500 mb-3">
+              <p className="mb-3 text-xs text-white/45">
                 {selected.type}
                 {selected.meta?.level ? ` · ${selected.meta.level} level` : ""}
                 {selected.meta?.timeframe ? ` · ${selected.meta.timeframe}` : ""}
@@ -170,20 +180,18 @@ export default function GraphPage() {
                 {selectedEdges.map((e, i) => {
                   const other = e.source === selected.id ? e.target : e.source;
                   return (
-                    <div key={i} className="rounded-lg bg-zinc-950 p-2.5 text-xs">
-                      <div className="text-zinc-300">
-                        <span className="text-zinc-500">{e.source === selected.id ? "→" : "←"} {e.rel.replace(/_/g, " ")}:</span>{" "}
+                    <div key={i} className="rounded-[8px] border border-white/10 bg-navy-dark/60 p-2.5 text-xs">
+                      <div className="text-white/70">
+                        <span className="text-white/42">{e.source === selected.id ? "From" : "To"} {e.rel.replace(/_/g, " ")}:</span>{" "}
                         {nodeById.get(other)?.label ?? other}
                       </div>
-                      {e.description && <p className="mt-1 text-zinc-500">{e.description}</p>}
+                      {e.description && <p className="mt-1 text-white/45">{e.description}</p>}
                       <div className="mt-1 flex flex-wrap gap-2">
-                        <span className={`rounded-full border px-1.5 py-0.5 text-[9px] uppercase ${e.kind === "fact" ? "border-emerald-500/40 text-emerald-400" : "border-yellow-500/40 text-yellow-400"}`}>
-                          {e.kind}
-                        </span>
+                        <StatusPill tone={e.kind === "fact" ? "gold" : "neutral"}>{e.kind}</StatusPill>
                         {e.sources.map((s, j) => (
-                          <a key={j} href={s.url} target="_blank" className="text-emerald-400 hover:underline">
-                            {s.title.slice(0, 40)} ↗
-                          </a>
+                          <SourceLink key={j} href={s.url} className="text-[11px]">
+                            {s.title.slice(0, 40)}
+                          </SourceLink>
                         ))}
                       </div>
                     </div>
@@ -192,8 +200,8 @@ export default function GraphPage() {
               </div>
             </>
           )}
-        </div>
+        </CivitasPanel>
       </div>
-    </div>
+    </CivitasPage>
   );
 }
