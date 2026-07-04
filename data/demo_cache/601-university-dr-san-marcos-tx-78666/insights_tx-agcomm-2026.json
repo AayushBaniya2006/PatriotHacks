@@ -9,16 +9,53 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election",
         "text": "No public data in our set on Nate Sheets's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-02-21, Nate Sheets's campaign had raised $1,064,677, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "tucker-clayton": [
       {
         "source": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
         "text": "On education, Clayton Tucker's recorded position: Tucker supports taxpayer-funded public education \"through college,\" indicating strong backing for public-school funding rather than vouchers or charters."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-02-21, Clayton Tucker's campaign had raised $17,611, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ]
   },
   "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "horizons": {
+    "sheets-nate": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election",
+          "text": "No recorded evidence in our set to project from for Nate Sheets on property taxes or public school funding."
+        }
+      ]
+    },
+    "tucker-clayton": {
+      "long_term": [
+        {
+          "assumption": "Assumes Clayton Tucker keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: education",
+          "source": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+          "text": "If Clayton Tucker's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        }
+      ],
+      "now": [
+        {
+          "basis": "position: education",
+          "source": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+          "text": "On education, Clayton Tucker's recorded position is: \"Tucker supports taxpayer-funded public education \"through college,\" indicating strong backing for public-school funding rather than vouchers or charters.\" That's what people focused on property taxes or public school funding can expect from Clayton Tucker this term."
+        }
+      ]
+    }
+  },
   "mode": "cached",
   "summary": "For a homeowner parent voter looking at the Texas Commissioner of Agriculture race (Nate Sheets, Clayton Tucker): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
 }

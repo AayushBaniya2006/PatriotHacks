@@ -9,6 +9,10 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
         "text": "No public data in our set on Mike Collier's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "cristo-anthony": [
@@ -19,12 +23,20 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
         "text": "No public data in our set on Anthony Cristo's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "goodwin-vikki": [
       {
         "source": "https://www.vikkigoodwin.com/education",
         "text": "On education, Vikki Goodwin's recorded position: Rep. Goodwin strongly opposes school voucher programs, calling them a 'terrible deal for Texas kids' that diverts billions from public education to unaccountable private schools. She supports raising teacher pay, reducing standardized testing, and keeping public education dollars in public schools."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "mccormick-kevin": [
@@ -35,6 +47,10 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
         "text": "No public data in our set on Kevin McCormick's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "patrick-dan": [
@@ -45,10 +61,91 @@
       {
         "source": "https://www.danpatrick.org/school-choice-passes/",
         "text": "On education, Dan Patrick's recorded position: Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership. The program prioritizes students with disabilities and lower-income families but is universally available."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ]
   },
   "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "horizons": {
+    "collier-mike": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
+          "text": "No recorded evidence in our set to project from for Mike Collier on property taxes or public school funding."
+        }
+      ]
+    },
+    "cristo-anthony": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
+          "text": "No recorded evidence in our set to project from for Anthony Cristo on property taxes or public school funding."
+        }
+      ]
+    },
+    "goodwin-vikki": {
+      "long_term": [
+        {
+          "assumption": "Assumes Vikki Goodwin keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: education",
+          "source": "https://www.vikkigoodwin.com/education",
+          "text": "If Vikki Goodwin's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        }
+      ],
+      "now": [
+        {
+          "basis": "position: education",
+          "source": "https://www.vikkigoodwin.com/education",
+          "text": "On education, Vikki Goodwin's recorded position is: \"Rep. Goodwin strongly opposes school voucher programs, calling them a 'terrible deal for Texas kids' that diverts billions from public education to unaccountable private schools. She supports raising teacher pay, reducing standardized testing, and keeping public education dollars in public schools.\" That's what people focused on property taxes or public school funding can expect from Vikki Goodwin this term."
+        }
+      ]
+    },
+    "mccormick-kevin": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
+          "text": "No recorded evidence in our set to project from for Kevin McCormick on property taxes or public school funding."
+        }
+      ]
+    },
+    "patrick-dan": {
+      "long_term": [
+        {
+          "assumption": "Assumes Dan Patrick keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: taxes",
+          "source": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/",
+          "text": "If Dan Patrick's recorded position on taxes holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        },
+        {
+          "assumption": "Assumes Dan Patrick keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: education",
+          "source": "https://www.danpatrick.org/school-choice-passes/",
+          "text": "If Dan Patrick's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        }
+      ],
+      "now": [
+        {
+          "basis": "position: taxes",
+          "source": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/",
+          "text": "On taxes, Dan Patrick's recorded position is: \"Dan Patrick has made property tax reduction a central priority, championing increases to the homestead exemption from $15,000 to $100,000 (now $140,000), with higher amounts for seniors. He supports constitutional amendments to make these permanent and has pushed for lowering rollback rates to restrict local government revenue growth.\" That's what people focused on property taxes or public school funding can expect from Dan Patrick this term."
+        },
+        {
+          "basis": "position: education",
+          "source": "https://www.danpatrick.org/school-choice-passes/",
+          "text": "On education, Dan Patrick's recorded position is: \"Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership. The program prioritizes students with disabilities and lower-income families but is universally available.\" That's what people focused on property taxes or public school funding can expect from Dan Patrick this term."
+        }
+      ]
+    }
+  },
   "mode": "cached",
   "summary": "For a homeowner parent voter looking at the Lieutenant Governor of Texas race (Dan Patrick, Vikki Goodwin, Mike Collier, Anthony Cristo, Kevin McCormick): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
 }

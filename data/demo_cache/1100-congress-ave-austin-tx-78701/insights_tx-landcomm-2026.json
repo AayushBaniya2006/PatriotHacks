@@ -9,6 +9,10 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
         "text": "No public data in our set on Dawn Buckingham's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2025-12-31, Dawn Buckingham's campaign had raised $1,258,999, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "flores-benjamin": [
@@ -19,6 +23,10 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
         "text": "No public data in our set on Benjamin Flores's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-02-21, Benjamin Flores's campaign had raised $2,885, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "snider-neill": [
@@ -29,10 +37,46 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
         "text": "No public data in our set on Neill Snider's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2025-12-31, Neill Snider's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ]
   },
   "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "horizons": {
+    "buckingham-dawn": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
+          "text": "No recorded evidence in our set to project from for Dawn Buckingham on property taxes or public school funding."
+        }
+      ]
+    },
+    "flores-benjamin": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
+          "text": "No recorded evidence in our set to project from for Benjamin Flores on property taxes or public school funding."
+        }
+      ]
+    },
+    "snider-neill": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
+          "text": "No recorded evidence in our set to project from for Neill Snider on property taxes or public school funding."
+        }
+      ]
+    }
+  },
   "mode": "cached",
   "summary": "For a homeowner parent voter looking at the Texas Land Commissioner race (Dawn Buckingham, Benjamin Flores, Neill Snider): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
 }

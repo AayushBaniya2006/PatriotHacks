@@ -9,6 +9,10 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
         "text": "No public data in our set on Sarah Eckhardt's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "huffines-don": [
@@ -19,10 +23,36 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
         "text": "No public data in our set on Don Huffines's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ]
   },
   "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "horizons": {
+    "eckhardt-sarah": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+          "text": "No recorded evidence in our set to project from for Sarah Eckhardt on property taxes or public school funding."
+        }
+      ]
+    },
+    "huffines-don": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+          "text": "No recorded evidence in our set to project from for Don Huffines on property taxes or public school funding."
+        }
+      ]
+    }
+  },
   "mode": "cached",
   "summary": "For a homeowner parent voter looking at the Texas Comptroller of Public Accounts race (Don Huffines, Sarah Eckhardt): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
 }
