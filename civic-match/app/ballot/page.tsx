@@ -260,7 +260,7 @@ function StepLayout({
 }) {
   const progress = progressFor(step);
   return (
-    <section className="flex min-h-full flex-1 flex-col px-5 py-5 sm:px-7 sm:py-6">
+    <section className="flex min-h-full flex-1 flex-col px-5 py-5 sm:px-7 sm:py-6 lg:px-10 lg:py-8">
       <div className="mb-7 flex h-8 items-center">
         {onBack && (
           <button
@@ -388,6 +388,93 @@ function SelectableCard({
       </span>
       <ChevronRight className={cn("ml-3 h-5 w-5", selected ? "text-[#d8a15b]" : "text-white/35")} />
     </button>
+  );
+}
+
+function DesktopRail({
+  step,
+  locationDisplay,
+  selectedRace,
+  priorities,
+  issues,
+  tradeoffStyle,
+}: {
+  step: WizardStep;
+  locationDisplay: string;
+  selectedRace: BallotRace | null;
+  priorities: string[];
+  issues: IssueDef[];
+  tradeoffStyle: string | null;
+}) {
+  const progress = progressFor(step);
+  const priorityLabels = priorities
+    .map((id) => {
+      const issue = issues.find((item) => item.id === id);
+      return issue ? issueLabel(issue) : id;
+    })
+    .join(", ");
+
+  return (
+    <aside className="relative hidden min-h-[760px] flex-col justify-between overflow-hidden bg-[#06192d] p-8 lg:flex">
+      <Image
+        src={heroImage}
+        alt=""
+        fill
+        loading="eager"
+        fetchPriority="high"
+        className="object-cover object-[25%_50%] opacity-20 grayscale"
+        sizes="360px"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#06192d]/92 via-[#06192d]/84 to-[#04111f]" />
+      <div className="relative z-10">
+        <CivitasLogo />
+        <div className="mt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#d8a15b]">Guided comparison</p>
+          <h2 className="mt-4 font-serif text-4xl leading-tight text-white">
+            Ballot first.
+            <br />
+            Matches second.
+          </h2>
+          <p className="mt-5 max-w-[260px] text-sm leading-6 text-white/62">
+            Resolve the voter&apos;s races, choose the comparison scope, then score candidates from explicit priorities.
+          </p>
+        </div>
+
+        <div className="mt-10 space-y-3">
+          {[
+            ["Location", locationDisplay || "Not entered"],
+            ["Election", raceTitle(selectedRace)],
+            ["Priorities", priorityLabels || "Not selected"],
+            ["Tradeoff", tradeoffStyle ?? "Not selected"],
+          ].map(([label, value], index) => (
+            <div key={label} className="rounded-[12px] border border-white/10 bg-white/[0.035] p-4">
+              <div className="flex items-center gap-2">
+                <span
+                  className={cn(
+                    "flex h-6 w-6 items-center justify-center rounded-full border text-[10px] font-bold",
+                    progress > index ? "border-[#d8a15b] text-[#d8a15b]" : "border-white/18 text-white/40"
+                  )}
+                >
+                  {index + 1}
+                </span>
+                <span className="text-xs font-semibold uppercase tracking-[0.18em] text-white/55">{label}</span>
+              </div>
+              <p className="mt-3 line-clamp-2 text-sm leading-5 text-white/78">{value}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="relative z-10 rounded-[12px] border border-[#d8a15b]/25 bg-[#d8a15b]/10 p-4">
+        <div className="flex items-center gap-2 text-[#d8a15b]">
+          <Lock className="h-4 w-4" />
+          <span className="text-xs font-semibold uppercase tracking-[0.18em]">Privacy</span>
+        </div>
+        <p className="mt-3 text-xs leading-5 text-white/58">
+          Address and priorities stay in this browser except for the election lookup and match request.
+        </p>
+      </div>
+    </aside>
   );
 }
 
@@ -578,23 +665,33 @@ export default function BallotPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8">
-      <main className="mx-auto flex min-h-[calc(100vh-2rem)] w-full max-w-[420px] flex-col overflow-hidden rounded-[24px] border border-[#d8a15b]/35 bg-[#051628] shadow-[0_28px_90px_rgba(0,0,0,0.45)] sm:min-h-[760px]">
+    <div className="min-h-screen bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 lg:px-8 lg:py-10">
+      <main className="mx-auto grid min-h-[calc(100vh-2rem)] w-full max-w-[420px] lg:max-w-6xl lg:grid-cols-[360px_minmax(0,1fr)] lg:overflow-hidden lg:rounded-[28px] lg:border lg:border-[#d8a15b]/30 lg:bg-[#051628] lg:shadow-[0_28px_90px_rgba(0,0,0,0.45)]">
+        <DesktopRail
+          step={step}
+          locationDisplay={locationDisplay}
+          selectedRace={selectedRace}
+          priorities={priorities}
+          issues={issues}
+          tradeoffStyle={tradeoffStyle}
+        />
+        <div className="flex min-h-[calc(100vh-2rem)] w-full flex-col overflow-hidden rounded-[24px] border border-[#d8a15b]/35 bg-[#051628] shadow-[0_28px_90px_rgba(0,0,0,0.45)] sm:min-h-[760px] lg:min-h-[760px] lg:rounded-none lg:border-0 lg:border-l lg:border-white/10 lg:shadow-none">
         {step === "welcome" && (
-          <section className="relative flex min-h-full flex-1 flex-col overflow-hidden p-7">
+          <section className="relative flex min-h-full flex-1 flex-col overflow-hidden p-7 lg:p-10">
             <Image
               src={heroImage}
               alt=""
               fill
-              priority
+              loading="eager"
+              fetchPriority="high"
               className="object-cover object-[68%_50%] opacity-50 grayscale"
-              sizes="420px"
+              sizes="(min-width: 1024px) 760px, 420px"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-[#06192d]/55 via-[#06192d]/74 to-[#051628]" />
             <div className="relative z-10 flex flex-1 flex-col">
               <CivitasLogo />
               <div className="flex flex-1 flex-col justify-center py-12">
-                <h1 className="font-serif text-5xl leading-[0.98] text-white">
+                <h1 className="font-serif text-5xl leading-[0.98] text-white lg:text-6xl">
                   Better
                   <br />
                   data.
@@ -604,7 +701,7 @@ export default function BallotPage() {
                   republic.
                 </h1>
                 <div className="mt-5 h-0.5 w-12 bg-[#b33a35]" />
-                <p className="mt-8 max-w-[250px] text-sm leading-6 text-white/72">
+                <p className="mt-8 max-w-[320px] text-sm leading-6 text-white/72 lg:text-base lg:leading-7">
                   Enter your location, compare candidates, and ask questions with sources.
                 </p>
               </div>
@@ -677,7 +774,7 @@ export default function BallotPage() {
                 {ballot.warning}
               </p>
             )}
-            <div className="mt-7 flex-1 space-y-3 overflow-y-auto pr-1">
+            <div className="mt-7 grid flex-1 content-start gap-3 overflow-y-auto pr-1 lg:grid-cols-2">
               {races.length > 0 ? (
                 races.slice(0, 7).map((race, index) => (
                   <SelectableCard
@@ -707,7 +804,7 @@ export default function BallotPage() {
           <StepLayout step={step} onBack={goBack}>
             <h1 className="font-serif text-3xl leading-tight text-white">What do you want to compare first?</h1>
             <p className="mt-4 text-sm leading-6 text-white/68">You can always explore the rest later.</p>
-            <div className="mt-7 flex-1 space-y-3">
+            <div className="mt-7 grid flex-1 content-start gap-3 lg:grid-cols-2">
               {focusOptions.map((option) => (
                 <SelectableCard
                   key={option.id}
@@ -731,7 +828,7 @@ export default function BallotPage() {
             <p className="mt-4 text-sm leading-6 text-white/68">
               Pick up to 5 issues. You can change this later.
             </p>
-            <div className="mt-7 grid flex-1 grid-cols-2 content-start gap-3">
+            <div className="mt-7 grid flex-1 grid-cols-2 content-start gap-3 lg:grid-cols-4">
               {selectedIssueDefs.map((issue) => {
                 const Icon = issueIcons[issue.id] ?? Scale;
                 const selected = priorities.includes(issue.id);
@@ -991,13 +1088,13 @@ export default function BallotPage() {
 
         {step === "matches" && (
           <section className="flex min-h-full flex-1 flex-col">
-            <header className="flex items-center justify-between border-b border-white/10 px-5 py-4">
+            <header className="flex items-center justify-between border-b border-white/10 px-5 py-4 lg:px-10">
               <CivitasLogo compact />
               <button type="button" className="rounded-full p-2 text-white/55 hover:bg-white/5 hover:text-white" aria-label="Menu">
                 <Menu className="h-5 w-5" />
               </button>
             </header>
-            <div className="flex flex-1 flex-col px-5 py-6">
+            <div className="flex flex-1 flex-col px-5 py-6 lg:px-10 lg:py-8">
               <div className="flex items-end justify-between gap-4">
                 <div>
                   <h1 className="font-serif text-3xl leading-tight text-white">{raceTitle(selectedRace)}</h1>
@@ -1010,7 +1107,7 @@ export default function BallotPage() {
                 </Link>
               </div>
 
-              <div className="mt-6 flex-1 space-y-3">
+              <div className="mt-6 grid flex-1 content-start gap-3 lg:grid-cols-2">
                 {matchState.status === "loading" && (
                   <div className="rounded-[10px] border border-white/12 bg-white/[0.035] p-4 text-sm text-white/55">
                     Scoring candidates from your stated priorities…
@@ -1073,6 +1170,7 @@ export default function BallotPage() {
             </div>
           </section>
         )}
+        </div>
       </main>
     </div>
   );
