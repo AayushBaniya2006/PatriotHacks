@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { loadPrefs } from "@/lib/prefs";
+import StakesBanner from "@/components/stakes-banner";
+import MotivationCard from "@/components/motivation-card";
 import type { MatchResult } from "@/lib/types";
 
 interface PoliticianSummary {
@@ -113,6 +115,9 @@ export default function ResultsPage() {
         (integrity, transparency, experience) − conflicts on your top issues. Every
         number decomposes to ground truth — click a card and follow the sources.
       </p>
+
+      <MotivationCard />
+      <StakesBanner />
 
       <div className="space-y-4">
         {results.map((r) => (

@@ -1,0 +1,182 @@
+[
+  {
+    "race": "Governor",
+    "last_margin": {
+      "summary": "decided by 883,443 votes (10.90%) in 2022",
+      "source": {
+        "title": "2022 Texas gubernatorial election",
+        "url": "https://en.wikipedia.org/wiki/2022_Texas_gubernatorial_election",
+        "publisher": "Wikipedia"
+      }
+    },
+    "turnout": {
+      "summary": "only 45.85% of registered voters voted in 2022",
+      "source": {
+        "title": "2022 Texas gubernatorial election",
+        "url": "https://en.wikipedia.org/wiki/2022_Texas_gubernatorial_election",
+        "publisher": "Wikipedia"
+      }
+    },
+    "decided_anyway": [
+      {
+        "text": "The governor appoints the Secretary of State, who oversees elections, and numerous board and commission members including the Texas Transportation Commission and Texas Parks and Wildlife Commission",
+        "source": {
+          "title": "Governor of Texas",
+          "url": "https://en.wikipedia.org/wiki/Governor_of_Texas",
+          "publisher": "Wikipedia"
+        }
+      },
+      {
+        "text": "The governor has line-item veto power over the state budget, allowing rejection of specific appropriations without vetoing the entire bill",
+        "source": {
+          "title": "Governor of Texas",
+          "url": "https://en.wikipedia.org/wiki/Governor_of_Texas",
+          "publisher": "Wikipedia"
+        }
+      },
+      {
+        "text": "The governor directs state law enforcement priorities through the Texas Department of Public Safety and can deploy the Texas National Guard",
+        "source": {
+          "title": "Governor of Texas",
+          "url": "https://en.wikipedia.org/wiki/Governor_of_Texas",
+          "publisher": "Wikipedia"
+        }
+      }
+    ]
+  },
+  {
+    "race": "U.S. Senate",
+    "last_margin": {
+      "summary": "decided by 959,492 votes (8.49%) in 2024",
+      "source": {
+        "title": "2024 Senatorial General Election Results - Texas",
+        "url": "https://uselectionatlas.org/RESULTS/state.php?class=1&f=0&fips=48&off=3&year=2024",
+        "publisher": "USElectionAtlas.org (Texas Secretary of State data)"
+      }
+    },
+    "turnout": {
+      "summary": "11,291,854 votes cast; under-30 voter data not available in retrieved sources for 2024",
+      "source": {
+        "title": "2024 Senatorial General Election Results - Texas",
+        "url": "https://uselectionatlas.org/RESULTS/state.php?class=1&f=0&fips=48&off=3&year=2024",
+        "publisher": "USElectionAtlas.org (Texas Secretary of State data)"
+      }
+    },
+    "decided_anyway": [
+      {
+        "text": "U.S. Senators vote to confirm or reject federal judicial appointments, including Supreme Court justices, with lifetime tenure implications regardless of voter turnout",
+        "source": {
+          "title": "Senate Confirmation Process",
+          "url": "https://www.senate.gov/about/powers-procedure/confirmations.htm",
+          "publisher": "United States Senate"
+        }
+      },
+      {
+        "text": "U.S. Senators vote on federal budget appropriations and tax legislation that determines spending on defense, healthcare, and infrastructure without requiring voter participation",
+        "source": {
+          "title": "The Legislative Process",
+          "url": "https://www.senate.gov/about/powers-procedure/legislative-process.htm",
+          "publisher": "United States Senate"
+        }
+      },
+      {
+        "text": "U.S. Senators ratify treaties and authorize use of military force, committing the nation to international obligations and armed conflict regardless of electoral turnout",
+        "source": {
+          "title": "Treaties",
+          "url": "https://www.senate.gov/about/powers-procedure/treaties.htm",
+          "publisher": "United States Senate"
+        }
+      }
+    ]
+  },
+  {
+    "race": "Lieutenant Governor",
+    "last_margin": {
+      "summary": "decided by 399,125 votes (5.3%) in 2022",
+      "source": {
+        "title": "Texas Lieutenant Governor Election Results 2022",
+        "url": "https://www.nbcnews.com/politics/2022-elections/texas-lieutenant-governor-results/",
+        "publisher": "NBC News"
+      }
+    },
+    "turnout": {
+      "summary": "only 45.7% of registered voters voted in 2022",
+      "source": {
+        "title": "Voter turnout in Texas",
+        "url": "https://www.texastribune.org/2022/11/09/texas-voter-turnout-2022-midterms/",
+        "publisher": "The Texas Tribune"
+      }
+    },
+    "decided_anyway": [
+      {
+        "text": "this office will still appoint all Senate committee chairs and control which bills reach the floor regardless of turnout",
+        "source": {
+          "title": "Lieutenant Governor of Texas",
+          "url": "https://ballotpedia.org/Lieutenant_Governor_of_Texas",
+          "publisher": "Ballotpedia"
+        }
+      },
+      {
+        "text": "this office will still co-chair the Legislative Budget Board that writes the state budget regardless of turnout",
+        "source": {
+          "title": "Lieutenant Governor of Texas",
+          "url": "https://ballotpedia.org/Lieutenant_Governor_of_Texas",
+          "publisher": "Ballotpedia"
+        }
+      },
+      {
+        "text": "this office will still break Senate ties and decide all parliamentary questions regardless of turnout",
+        "source": {
+          "title": "Lieutenant Governor of Texas",
+          "url": "https://ballotpedia.org/Lieutenant_Governor_of_Texas",
+          "publisher": "Ballotpedia"
+        }
+      }
+    ]
+  },
+  {
+    "race": "Attorney General",
+    "last_margin": {
+      "summary": "decided by 781,719 votes (9.7%) in 2022",
+      "source": {
+        "title": "Texas Attorney General election, 2022",
+        "url": "https://ballotpedia.org/Texas_Attorney_General_election,_2022",
+        "publisher": "Ballotpedia"
+      }
+    },
+    "turnout": {
+      "summary": "only 46.1% of registered voters voted in 2022",
+      "source": {
+        "title": "Texas Election Results: Attorney General Election Vote Share",
+        "url": "https://texaspolitics.utexas.edu/chart/texas-election-results-attorney-general-election-vote-share",
+        "publisher": "The Texas Politics Project"
+      }
+    },
+    "decided_anyway": [
+      {
+        "text": "this office will still control statewide consumer-protection litigation and antitrust enforcement regardless of turnout",
+        "source": {
+          "title": "Texas’ next top lawyer: What does the attorney general do and how has Paxton remade the office?",
+          "url": "https://www.keranews.org/texas-news/2025-12-22/texas-next-top-lawyer-what-does-the-attorney-general-do-and-how-has-paxton-remade-the-office",
+          "publisher": "KERA News"
+        }
+      },
+      {
+        "text": "this office will still decide whether to sue the federal government over rules, laws, or executive orders regardless of turnout",
+        "source": {
+          "title": "Texas’ next top lawyer: What does the attorney general do and how has Paxton remade the office?",
+          "url": "https://www.keranews.org/texas-news/2025-12-22/texas-next-top-lawyer-what-does-the-attorney-general-do-and-how-has-paxton-remade-the-office",
+          "publisher": "KERA News"
+        }
+      },
+      {
+        "text": "this office will still set child-support enforcement priorities and distribute crime-victim compensation funds regardless of turnout",
+        "source": {
+          "title": "Texas’ next top lawyer: What does the attorney general do and how has Paxton remade the office?",
+          "url": "https://www.keranews.org/texas-news/2025-12-22/texas-next-top-lawyer-what-does-the-attorney-general-do-and-how-has-paxton-remade-the-office",
+          "publisher": "KERA News"
+        }
+      }
+    ]
+  }
+]

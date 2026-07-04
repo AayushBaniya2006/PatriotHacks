@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getCachedElection } from "@/lib/discovery";
 import { listPoliticians, slugify } from "@/lib/db";
 import { getUI } from "@/lib/config";
+import StakesBanner from "@/components/stakes-banner";
 
 export const dynamic = "force-dynamic";
 
@@ -36,6 +37,8 @@ export default async function Home() {
           </Link>
         </div>
       </section>
+
+      <StakesBanner />
 
       <section className="mb-12">
         <div className="flex items-baseline justify-between mb-4">

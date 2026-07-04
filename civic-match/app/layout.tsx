@@ -40,6 +40,7 @@ export default function RootLayout({
               <Link href="/intake" className="hover:text-zinc-100">Your priorities</Link>
               <Link href="/results" className="hover:text-zinc-100">Your matches</Link>
               <Link href="/future" className="hover:text-zinc-100">Down the line</Link>
+              <Link href="/debate" className="hover:text-zinc-100">Debate</Link>
               <Link href="/graph" className="hover:text-zinc-100">Graph</Link>
             </nav>
           </div>
