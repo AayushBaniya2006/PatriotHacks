@@ -9,6 +9,10 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
         },
         {
+          "text": "On taxes, Dan Patrick's recorded position: Dan Patrick has made property tax reduction a central priority, championing increases to the homestead exemption from $15,000 to $100,000 (now $140,000), with higher amounts for seniors. He supports constitutional amendments to make these permanent and has pushed for lowering rollback rates to restrict local government revenue growth.",
+          "source": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/"
+        },
+        {
           "text": "Dan Patrick is the incumbent in this race. Recorded background: Dan Patrick, incumbent lieutenant governor (2015\u2013present).",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
         },
@@ -21,6 +25,10 @@
         {
           "text": "Vikki Goodwin is a candidate for Lieutenant Governor of Texas, running with Texas Democratic Party.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+        },
+        {
+          "text": "On guns, Vikki Goodwin's recorded position: She advocates universal background checks, raising the rifle-purchase age to 21, waiting periods, red-flag laws, and repealing permitless carry.",
+          "source": "https://www.statesman.com/story/opinion/2022/06/05/rep-goodwin-we-have-address-obvious-guns-too-easy-get/7487952001/"
         },
         {
           "text": "Vikki Goodwin's recorded background: Vikki Goodwin, state representative from the 47th district (2019\u2013present).",
@@ -92,12 +100,8 @@
         ],
         "goodwin-vikki": [
           {
-            "text": "No public data in our set connects Vikki Goodwin's recorded background or positions specifically to housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Vikki Goodwin's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+            "text": "On jobs, Vikki Goodwin's recorded position: Goodwin explicitly champions increasing the minimum wage to $15 per hour and raising the tipped-worker wage, emphasizing that 'when working Texans thrive, our entire economy benefits.'",
+            "source": "https://www.vikkigoodwin.com/issues"
           }
         ],
         "collier-mike": [
@@ -138,22 +142,18 @@
       "candidates": {
         "patrick-dan": [
           {
-            "text": "No public data in our set connects Dan Patrick's recorded background or positions specifically to property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+            "text": "On taxes, Dan Patrick's recorded position: Dan Patrick has made property tax reduction a central priority, championing increases to the homestead exemption from $15,000 to $100,000 (now $140,000), with higher amounts for seniors. He supports constitutional amendments to make these permanent and has pushed for lowering rollback rates to restrict local government revenue growth.",
+            "source": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/"
           },
           {
-            "text": "No public data in our set on Dan Patrick's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+            "text": "On education, Dan Patrick's recorded position: Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership. The program prioritizes students with disabilities and lower-income families but is universally available.",
+            "source": "https://www.danpatrick.org/school-choice-passes/"
           }
         ],
         "goodwin-vikki": [
           {
-            "text": "No public data in our set connects Vikki Goodwin's recorded background or positions specifically to property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Vikki Goodwin's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+            "text": "On education, Vikki Goodwin's recorded position: Rep. Goodwin strongly opposes school voucher programs, calling them a 'terrible deal for Texas kids' that diverts billions from public education to unaccountable private schools. She supports raising teacher pay, reducing standardized testing, and keeping public education dollars in public schools.",
+            "source": "https://www.vikkigoodwin.com/education"
           }
         ],
         "collier-mike": [
@@ -194,12 +194,8 @@
       "candidates": {
         "patrick-dan": [
           {
-            "text": "No public data in our set connects Dan Patrick's recorded background or positions specifically to small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Dan Patrick's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+            "text": "On taxes, Dan Patrick's recorded position: Dan Patrick has made property tax reduction a central priority, championing increases to the homestead exemption from $15,000 to $100,000 (now $140,000), with higher amounts for seniors. He supports constitutional amendments to make these permanent and has pushed for lowering rollback rates to restrict local government revenue growth.",
+            "source": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/"
           }
         ],
         "goodwin-vikki": [
@@ -316,12 +312,8 @@
         ],
         "goodwin-vikki": [
           {
-            "text": "No public data in our set connects Vikki Goodwin's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Vikki Goodwin's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+            "text": "On medicare medicaid, Vikki Goodwin's recorded position: Rep. Goodwin explicitly supports Medicaid expansion in Texas, noting the state has one of the highest uninsured rates in the nation. She has filed legislation (HJR 100/HB 1423) to expand coverage to approximately 726,000 uninsured adults.",
+            "source": "https://www.vikkigoodwin.com/healthcare-priorities"
           }
         ],
         "collier-mike": [
@@ -418,22 +410,14 @@
       "candidates": {
         "patrick-dan": [
           {
-            "text": "No public data in our set connects Dan Patrick's recorded background or positions specifically to higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Dan Patrick's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+            "text": "On education, Dan Patrick's recorded position: Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership. The program prioritizes students with disabilities and lower-income families but is universally available.",
+            "source": "https://www.danpatrick.org/school-choice-passes/"
           }
         ],
         "goodwin-vikki": [
           {
-            "text": "No public data in our set connects Vikki Goodwin's recorded background or positions specifically to higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Vikki Goodwin's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+            "text": "On education, Vikki Goodwin's recorded position: Rep. Goodwin strongly opposes school voucher programs, calling them a 'terrible deal for Texas kids' that diverts billions from public education to unaccountable private schools. She supports raising teacher pay, reducing standardized testing, and keeping public education dollars in public schools.",
+            "source": "https://www.vikkigoodwin.com/education"
           }
         ],
         "collier-mike": [

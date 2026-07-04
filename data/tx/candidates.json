@@ -6,9 +6,56 @@
     "district": null,
     "incumbent": true,
     "fec_id": null,
-    "positions": [],
+    "positions": [
+      {
+        "issue": "taxes",
+        "summary": "Abbott has made property tax reduction a centerpiece of his governance, signing over $18 billion in property tax cuts in 2023 and seeking at least $10 billion more. He advocates for eliminating school property taxes for homeowners and raising business personal property exemptions.",
+        "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "education",
+        "summary": "Abbott is a leading proponent of school choice, having signed Texas's landmark Education Savings Account program in 2025. He campaigned on 'education freedom,' supports diverting public funds to private options through ESAs, and emphasizes parental control over education decisions.",
+        "source": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "abortion",
+        "summary": "Abbott signed Texas Senate Bill 8, which prohibits abortion after detection of a fetal heartbeat (approximately 6 weeks) and authorizes private citizens to sue abortion providers. The law contains only narrow exceptions and represents one of the most restrictive abortion policies in the nation.",
+        "source": "https://www.legis.state.tx.us/tlodocs/87R/billtext/pdf/SB00008F.pdf",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "immigration",
+        "summary": "Governor Abbott has signed multiple bills that criminalize illegal entry and re-entry, mandate prison sentences for smuggling, and expand physical barriers and prosecutorial tools against unauthorized migrants.",
+        "source": "https://gov.texas.gov/news/post/governor-abbott-signs-historic-border-security-measures-in-brownsville",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "economy",
+        "summary": "Abbott consistently advocates for economic growth through deregulation, tax cuts, and business-friendly policies. He created the Small Business Freedom Council to slash state agency rules and fees, and emphasizes keeping state spending below constitutional limits.",
+        "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "housing",
+        "summary": "Abbott explicitly advocates for housing affordability through deregulation, cutting regulations, and speeding up permitting to make it easier to build. He also proposes a one-year tax exemption on home improvements.",
+        "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      }
+    ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+      "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+      "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+      "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law",
+      "https://www.legis.state.tx.us/tlodocs/87R/billtext/pdf/SB00008F.pdf",
+      "https://gov.texas.gov/news/post/governor-abbott-signs-historic-border-security-measures-in-brownsville"
     ],
     "background": "Greg Abbott, incumbent governor (2015–present)."
   },
@@ -19,9 +66,55 @@
     "district": null,
     "incumbent": false,
     "fec_id": null,
-    "positions": [],
+    "positions": [
+      {
+        "issue": "education",
+        "summary": "Hinojosa is a strong advocate for public school funding and opposes school vouchers. She authored an opinion piece explicitly stating she opposes the governor's voucher plan, calling it 'irresponsible and harmful.' She emphasizes that Texas public schools need at least $40 billion to reach national per-student funding averages and has worked with bipartisan allies to block voucher legislation.",
+        "source": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "abortion",
+        "summary": "Hinojosa has a clear pro-choice voting record. She voted 'Nay' on HB1280, the 'backstop' bill to outlaw abortions if Roe v. Wade was overturned, and 'Nay' on SB8, which banned abortion at approximately 6 weeks without exceptions for rape and incest. She also authored a bill relating to exceptions to laws prohibiting abortion.",
+        "source": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "elections",
+        "summary": "Hinojosa consistently votes against Republican-backed voting restriction bills and supports expanding access. She voted against SB7 (2021) which limited voting methods, against HB3920 tightening disability mail voting restrictions, and participated in quorum breaks to protest redistricting. She frames voting access as a fundamental democratic right and criticizes Republican efforts as 'rigging' elections.",
+        "source": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "economy",
+        "summary": "Hinojosa advocates using state revenue to fund public schools and infrastructure, explicitly favoring public investment over corporate tax breaks.",
+        "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "taxes",
+        "summary": "She calls for ending corporate loopholes and using the proceeds to lower middle-class taxes while protecting neighborhood-school funding.",
+        "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "healthcare",
+        "summary": "Hinojosa has consistently supported expanding government healthcare coverage. She voted to extend Medicaid eligibility for 12 months after birth or miscarriage (HB133) and supported a pilot program for Medicaid coverage of doula services (HB158). Her campaign platform emphasizes fighting for affordable health care and strengthening health care access.",
+        "source": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      }
+    ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+      "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+      "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/",
+      "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+      "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/"
     ],
     "background": "Gina Hinojosa, state representative from the 49th district (2017–present)."
   },
@@ -32,9 +125,57 @@
     "district": null,
     "incumbent": false,
     "fec_id": null,
-    "positions": [],
+    "positions": [
+      {
+        "issue": "education",
+        "summary": "Dixon strongly supports school choice, endorsing statewide voucher programs where education funding follows students to any school. He criticizes standardized testing mandates and 'Robin Hood' school funding redistribution, citing the Texas voucher plan that accepted 90,000 students as a model to expand rather than restrict.",
+        "source": "https://patdixon.org/school-choice/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "economy",
+        "summary": "Dixon argues that growth should pay for itself through free-market mechanisms, opposes tax-funded corporate incentives, and emphasizes that those who create resource demand should bear the cost.",
+        "source": "https://patdixon.org/free-market-sustainability/",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "taxes",
+        "summary": "Dixon states that no party wants lower taxes more than the Libertarian Party, insists spending cuts must precede tax reductions, and opposes replacing property taxes with higher sales taxes without local control.",
+        "source": "https://patdixon.org/property-tax/",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "debt spending",
+        "summary": "Dixon pledges to identify specific spending cuts first—citing Texas’ $321 billion budget—and rejects across-the-board cuts without detailing which departments or services would end.",
+        "source": "https://patdixon.org/property-tax/",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "ai tech",
+        "summary": "Dixon opposes new AI mandates, arguing private-sector adoption of voluntary standards is preferable to regulation that could slow innovation.",
+        "source": "https://patdixon.org/ai/",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "elections",
+        "summary": "Dixon supports maintaining voter-ID rules, paper ballots, and hand audits, while also endorsing local adoption of Approval Voting to reduce negative campaigning.",
+        "source": "https://patdixon.org/election-integrity/",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      }
+    ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+      "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+      "https://patdixon.org/school-choice/",
+      "https://patdixon.org/free-market-sustainability/",
+      "https://patdixon.org/property-tax/",
+      "https://patdixon.org/ai/",
+      "https://patdixon.org/election-integrity/"
     ],
     "background": "Pat Dixon (Libertarian), former chair of the Libertarian Party of Texas"
   },
@@ -58,9 +199,58 @@
     "district": null,
     "incumbent": true,
     "fec_id": null,
-    "positions": [],
+    "positions": [
+      {
+        "issue": "taxes",
+        "summary": "Dan Patrick has made property tax reduction a central priority, championing increases to the homestead exemption from $15,000 to $100,000 (now $140,000), with higher amounts for seniors. He supports constitutional amendments to make these permanent and has pushed for lowering rollback rates to restrict local government revenue growth.",
+        "source": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "education",
+        "summary": "Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership. The program prioritizes students with disabilities and lower-income families but is universally available.",
+        "source": "https://www.danpatrick.org/school-choice-passes/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "immigration",
+        "summary": "Dan Patrick has consistently supported aggressive immigration enforcement, including state laws creating new crimes for illegal border crossing and requiring local law enforcement cooperation with federal deportation efforts. He has championed Texas taking unilateral action on border security.",
+        "source": "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-8-requiring-local-law-enforcement-to-assist-the-federal-governments-deportation-efforts/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "ai tech",
+        "summary": "Patrick prioritized SB 20, which creates a felony for possessing or promoting any obscene AI-generated image that appears to depict a child, regardless of whether an actual child was used. He frames the measure as closing a technological loophole while not imposing broader AI safety mandates.",
+        "source": "https://www.ltgov.texas.gov/2025/03/12/lt-gov-dan-patrick-statement-on-the-unanimous-passage-of-senate-bill-20-stopping-ai-generated-child-pornography/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "elections",
+        "summary": "Patrick lists election security as a top priority, championing SB 16 to mandate documentary proof of citizenship for voter registration and supporting SB 2 to make illegal voting a felony again.",
+        "source": "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-16-stopping-non-citizens-from-voting/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "energy",
+        "summary": "Patrick strongly supports expanding fossil fuel infrastructure, particularly natural gas power plants. He has proposed state-built natural gas plants if private investment is insufficient, citing grid reliability concerns. He acknowledges renewable growth but emphasizes 'dispatchable' fossil fuel power.",
+        "source": "https://www.houstonchronicle.com/business/energy/article/texas-natural-gas-electricity-patrick-18639857.php",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      }
+    ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+      "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
+      "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/",
+      "https://www.danpatrick.org/school-choice-passes/",
+      "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-8-requiring-local-law-enforcement-to-assist-the-federal-governments-deportation-efforts/",
+      "https://www.ltgov.texas.gov/2025/03/12/lt-gov-dan-patrick-statement-on-the-unanimous-passage-of-senate-bill-20-stopping-ai-generated-child-pornography/",
+      "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-16-stopping-non-citizens-from-voting/",
+      "https://www.houstonchronicle.com/business/energy/article/texas-natural-gas-electricity-patrick-18639857.php"
     ],
     "background": "Dan Patrick, incumbent lieutenant governor (2015–present)."
   },
@@ -71,9 +261,56 @@
     "district": null,
     "incumbent": false,
     "fec_id": null,
-    "positions": [],
+    "positions": [
+      {
+        "issue": "guns",
+        "summary": "She advocates universal background checks, raising the rifle-purchase age to 21, waiting periods, red-flag laws, and repealing permitless carry.",
+        "source": "https://www.statesman.com/story/opinion/2022/06/05/rep-goodwin-we-have-address-obvious-guns-too-easy-get/7487952001/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "elections",
+        "summary": "Rep. Goodwin advocates online voter registration, ranked-choice voting, and a constitutional amendment to let citizens place initiatives on statewide ballots.",
+        "source": "https://www.vikkigoodwin.com/issues",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "jobs",
+        "summary": "Goodwin explicitly champions increasing the minimum wage to $15 per hour and raising the tipped-worker wage, emphasizing that 'when working Texans thrive, our entire economy benefits.'",
+        "source": "https://www.vikkigoodwin.com/issues",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "education",
+        "summary": "Rep. Goodwin strongly opposes school voucher programs, calling them a 'terrible deal for Texas kids' that diverts billions from public education to unaccountable private schools. She supports raising teacher pay, reducing standardized testing, and keeping public education dollars in public schools.",
+        "source": "https://www.vikkigoodwin.com/education",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "medicare medicaid",
+        "summary": "Rep. Goodwin explicitly supports Medicaid expansion in Texas, noting the state has one of the highest uninsured rates in the nation. She has filed legislation (HJR 100/HB 1423) to expand coverage to approximately 726,000 uninsured adults.",
+        "source": "https://www.vikkigoodwin.com/healthcare-priorities",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "abortion",
+        "summary": "Rep. Goodwin supports broad access to abortion care and reproductive healthcare. She is filing legislation to broaden medical risk indications for abortion, protect doctors providing abortion care, and has proposed a constitutional amendment (HJR 33) establishing an individual's right to personal reproductive autonomy.",
+        "source": "https://www.vikkigoodwin.com/healthcare-priorities",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      }
+    ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+      "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
+      "https://www.statesman.com/story/opinion/2022/06/05/rep-goodwin-we-have-address-obvious-guns-too-easy-get/7487952001/",
+      "https://www.vikkigoodwin.com/issues",
+      "https://www.vikkigoodwin.com/education",
+      "https://www.vikkigoodwin.com/healthcare-priorities"
     ],
     "background": "Vikki Goodwin, state representative from the 47th district (2019–present)."
   },
@@ -162,9 +399,58 @@
     "district": null,
     "incumbent": false,
     "fec_id": "S6TX00388",
-    "positions": [],
+    "positions": [
+      {
+        "issue": "energy",
+        "summary": "Paxton has strongly advocated for fossil fuel expansion, fighting to reinstate the Keystone XL pipeline, criticizing EPA rules targeting oil and gas, opposing FERC regulations on natural gas emissions, and arguing that 'green energy' cannot substitute for coal, nuclear, oil, and gas.",
+        "source": "https://www.texasattorneygeneral.gov/news/releases/texas-attorney-general-ken-paxton-fights-protect-texas-energy-industry-calls-president-biden",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "abortion",
+        "summary": "Paxton is strongly anti-abortion. He describes himself as 'pro-life' with a 'deeply personal' commitment to the 'sanctity of life.' As Attorney General, he defended Texas's Heartbeat Bill before the Supreme Court. He 'strongly agrees' that abortion providers including Planned Parenthood should not receive government funds. He has pursued legal action to enforce abortion restrictions and protect pro-life legislation.",
+        "source": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "lgbtq",
+        "summary": "Paxton strongly opposes expanding LGBTQ+ protections. He issued an official opinion that gender-affirming medical procedures on children can constitute 'child abuse' under Texas law. He sued to block federal rules requiring doctors to perform gender transition procedures and to prevent Medicaid funding of such procedures. He 'strongly disagrees' with adding gender identity as a protected class and has fought against federal mandates on this issue.",
+        "source": "https://texasattorneygeneral.gov/sites/default/files/global/KP-0401.pdf",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "immigration",
+        "summary": "Paxton has consistently advocated for strict immigration enforcement, including suing the Biden administration multiple times over border policies, supporting construction of a border wall, and defending Texas law SB 4 that makes illegal border crossing a state crime. He emphasizes border security as vital for public safety and has criticized federal immigration policies as 'disastrous.'",
+        "source": "https://www.oag.state.tx.us/initiatives/border-security",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "ai tech",
+        "summary": "Paxton’s office secured a first-of-its-kind settlement requiring a healthcare AI firm to disclose accuracy limits and train users on risks, citing public safety in high-risk settings.",
+        "source": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-reaches-settlement-first-its-kind-healthcare-generative-ai-investigation",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "privacy",
+        "summary": "Paxton has obtained record settlements against Google ($1.375 B) and Meta ($1.4 B) for unlawful data collection and created a dedicated privacy enforcement unit.",
+        "source": "https://www.oag.state.tx.us/news/releases/attorney-general-ken-paxton-leads-nation-protecting-americans-data-privacy-and-security-big-tech",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      }
+    ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
+      "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+      "https://www.texasattorneygeneral.gov/news/releases/texas-attorney-general-ken-paxton-fights-protect-texas-energy-industry-calls-president-biden",
+      "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+      "https://texasattorneygeneral.gov/sites/default/files/global/KP-0401.pdf",
+      "https://www.oag.state.tx.us/initiatives/border-security",
+      "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-reaches-settlement-first-its-kind-healthcare-generative-ai-investigation",
+      "https://www.oag.state.tx.us/news/releases/attorney-general-ken-paxton-leads-nation-protecting-americans-data-privacy-and-security-big-tech"
     ],
     "background": "Ken Paxton, attorney general of Texas (2015–present).",
     "finance": {
@@ -182,9 +468,56 @@
     "district": null,
     "incumbent": false,
     "fec_id": "S6TX00479",
-    "positions": [],
+    "positions": [
+      {
+        "issue": "taxes",
+        "summary": "Talarico explicitly calls for raising taxes on billionaires and corporations, including higher taxes on income and capital gains, ending 'buy, borrow, die' loopholes, raising corporate tax rates, and closing carried interest loopholes to fund working family tax cuts.",
+        "source": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "healthcare",
+        "summary": "Talarico supports allowing every American regardless of age to join Medicare as a public option, creating government-guaranteed coverage available to all while preserving private insurance competition. He has legislated to cap insulin costs and import cheaper drugs from Canada.",
+        "source": "https://jamestalarico.com/issue/health-care/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "education",
+        "summary": "Talarico opposes private school vouchers and has made opposition to school choice diversion programs central to his campaign. He supports universal pre-K, capping class sizes, and increasing public school funding.",
+        "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "social security",
+        "summary": "Talarico supports expanding Social Security benefits and funding them by eliminating the payroll tax cap on earnings over $400,000 annually. He opposes benefit cuts and privatization.",
+        "source": "https://jamestalarico.com/issue/labor-business/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "medicare medicaid",
+        "summary": "Talarico supports expanding Medicare eligibility to all ages as a public option and protecting Medicaid from cuts. He has opposed legislation that would kick people off Medicaid coverage.",
+        "source": "https://jamestalarico.com/issue/health-care/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "abortion",
+        "summary": "Talarico explicitly supports codifying Roe v. Wade and restoring access to abortion, contraception, and IVF. He opposes Texas's abortion ban and frames it as causing preventable deaths.",
+        "source": "https://jamestalarico.com/issue/health-care/",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      }
+    ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
+      "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+      "https://jamestalarico.com/issue/taxes-cost-of-living/",
+      "https://jamestalarico.com/issue/health-care/",
+      "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+      "https://jamestalarico.com/issue/labor-business/"
     ],
     "background": "James Talarico, state representative from the 50th district (2018–present).",
     "finance": {
@@ -280,9 +613,57 @@
     "district": null,
     "incumbent": false,
     "fec_id": null,
-    "positions": [],
+    "positions": [
+      {
+        "issue": "healthcare",
+        "summary": "Clayton Tucker states that \"it is the government’s responsibility to ensure everyone has health insurance\" and pledges to use the Agriculture office to lower prices and expand rural hospitals.",
+        "source": "https://www.claytontuckertx.com/healthcare",
+        "origin": "civic-match-research",
+        "confidence": 0.95
+      },
+      {
+        "issue": "inflation",
+        "summary": "Tucker attributes inflation primarily to corporate monopolies price-gouging consumers, not government spending. He supports direct intervention through breaking up monopolies and regulating corporate middlemen rather than reducing spending or regulation.",
+        "source": "https://www.claytontuckertx.com/fight_corporate_consolidation",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "infrastructure",
+        "summary": "Tucker explicitly calls for 'significant investments' in rural infrastructure including healthcare, broadband connectivity, and other incentives. Criticizes decades of underinvestment in rural areas.",
+        "source": "https://www.claytontuckertx.com/rural_economy",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "education",
+        "summary": "Tucker supports taxpayer-funded public education \"through college,\" indicating strong backing for public-school funding rather than vouchers or charters.",
+        "source": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "ai tech",
+        "summary": "Clayton Tucker advocates for strict oversight of AI data centers through mandatory 'Ag Impact Studies' and has outlined seven specific requirements for 'responsible' data centers, including restrictions on water/power usage, union labor requirements, and prohibitions on job automation. He frames unregulated data centers as threats to Texas communities that primarily benefit Wall Street and Big Tech.",
+        "source": "https://www.claytontuckertx.com/stop_ai_centers",
+        "origin": "civic-match-research",
+        "confidence": 0.9
+      },
+      {
+        "issue": "economy",
+        "summary": "Tucker advocates for significant public investment in rural infrastructure, healthcare, and broadband to rebuild the rural economy, combined with aggressive antitrust action against corporate monopolies. He criticizes deregulation and offshoring policies from the 1980s-1990s.",
+        "source": "https://www.claytontuckertx.com/rural_economy",
+        "origin": "civic-match-research",
+        "confidence": 0.85
+      }
+    ],
     "sources": [
-      "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+      "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election",
+      "https://www.claytontuckertx.com/healthcare",
+      "https://www.claytontuckertx.com/fight_corporate_consolidation",
+      "https://www.claytontuckertx.com/rural_economy",
+      "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+      "https://www.claytontuckertx.com/stop_ai_centers"
     ],
     "background": "Clayton Tucker, rancher and founder of the Texas Progressive Caucus."
   },

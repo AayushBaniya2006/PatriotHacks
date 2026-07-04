@@ -66,6 +66,21 @@ BACKGROUND_ARCHETYPE_HINTS = [
     ("teacher", "student"),
 ]
 
+# archetype -> positions[].issue values (our humanized slugs, e.g. from
+# pipeline/import_civicmatch_positions.py) that are a direct, honest match
+# to that archetype's concern. An archetype not listed here has no issue
+# in our current taxonomy that's a direct match, so it keeps falling back
+# to the background-hint / "no data" bullets below rather than stretching
+# a loose topic (e.g. "defense") into a claim about that archetype.
+ARCHETYPE_ISSUE_MATCH = {
+    "renter_young_worker": {"housing", "jobs", "labor"},
+    "homeowner_parent": {"housing", "education", "taxes"},
+    "small_business_owner": {"small business", "taxes", "labor"},
+    "healthcare_aca_or_uninsured": {"healthcare"},
+    "medicare_retiree": {"medicare medicaid", "social security"},
+    "student": {"education"},
+}
+
 
 def money(n):
     if n is None:
@@ -120,20 +135,34 @@ def candidate_finance_or_missing_bullet(cid, c):
         return {"text": text, "source": src_fallback}
 
 
+def candidate_top_position_bullet(cid, c):
+    """Highest-confidence entry in this candidate's own positions[], if any.
+    Returns None (not a filler bullet) when there is nothing on file --
+    build_base_for_race falls back to the background bullet in that case."""
+    positions = c.get("positions") or []
+    if not positions:
+        return None
+    top = max(positions, key=lambda p: p.get("confidence", 0))
+    text = f"On {top['issue']}, {c['name']}'s recorded position: {top['summary']}"
+    return {"text": text, "source": top.get("source")}
+
+
 def build_base_for_race(race, candidates):
     cand_bullets = {}
     for cid in race["candidate_ids"]:
         c = candidates.get(cid)
         if not c:
             continue
-        bullets = [
-            candidate_office_bullet(cid, c),
-            candidate_background_bullet(cid, c),
-            candidate_finance_or_missing_bullet(cid, c),
-        ]
-        # keep to 2-3, drop any bullet with no usable source
+        bullets = [candidate_office_bullet(cid, c)]
+        pos_bullet = candidate_top_position_bullet(cid, c)
+        if pos_bullet:
+            bullets.append(pos_bullet)
+        bullets.append(candidate_background_bullet(cid, c))
+        bullets.append(candidate_finance_or_missing_bullet(cid, c))
+        # drop any bullet with no usable source; cap at 4 (3 + 1 extra
+        # slot only used when a real positions bullet is available)
         bullets = [b for b in bullets if b.get("source")]
-        cand_bullets[cid] = bullets[:3]
+        cand_bullets[cid] = bullets[:4]
 
     names = [candidates[cid]["name"] for cid in race["candidate_ids"] if cid in candidates]
     summary = (
@@ -184,6 +213,26 @@ def archetype_positions_missing_bullet(cid, c, archetype):
     return {"text": text, "source": src}
 
 
+def archetype_positions_bullets(cid, c, archetype):
+    """Real positions[] entries (e.g. imported via
+    pipeline/import_civicmatch_positions.py) whose issue directly matches
+    this archetype's concern, highest-confidence first. Returns [] (not a
+    filler) when nothing matches, so callers can fall back honestly."""
+    match_issues = ARCHETYPE_ISSUE_MATCH.get(archetype)
+    if not match_issues:
+        return []
+    positions = c.get("positions") or []
+    matches = [p for p in positions if p.get("issue") in match_issues]
+    if not matches:
+        return []
+    matches.sort(key=lambda p: p.get("confidence", 0), reverse=True)
+    bullets = []
+    for p in matches[:2]:
+        text = f"On {p['issue']}, {c['name']}'s recorded position: {p['summary']}"
+        bullets.append({"text": text, "source": p.get("source")})
+    return bullets
+
+
 def archetype_finance_context_bullet(cid, c, archetype):
     fin = c.get("finance")
     if not fin:
@@ -204,10 +253,14 @@ def build_archetype_for_race(race, candidates, archetype):
         c = candidates.get(cid)
         if not c:
             continue
-        bullets = [
-            archetype_background_bullet(cid, c, archetype),
-            archetype_positions_missing_bullet(cid, c, archetype),
-        ]
+        pos_bullets = archetype_positions_bullets(cid, c, archetype)
+        if pos_bullets:
+            bullets = list(pos_bullets)
+        else:
+            bullets = [
+                archetype_background_bullet(cid, c, archetype),
+                archetype_positions_missing_bullet(cid, c, archetype),
+            ]
         fin_bullet = archetype_finance_context_bullet(cid, c, archetype)
         if fin_bullet:
             bullets.append(fin_bullet)
