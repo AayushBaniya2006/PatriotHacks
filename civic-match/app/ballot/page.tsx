@@ -294,7 +294,7 @@ function StepLayout({
           <button
             type="button"
             onClick={onBack}
-            className="-ml-2 rounded-full p-2 text-white/75 transition hover:bg-white/5 hover:text-white"
+            className="-ml-3 -mr-1 rounded-full p-3 text-white/75 transition hover:bg-white/5 hover:text-white"
             aria-label="Go back"
           >
             <ChevronLeft className="h-5 w-5" />

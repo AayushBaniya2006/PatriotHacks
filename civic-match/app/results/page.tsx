@@ -539,6 +539,7 @@ export default function ResultsPage() {
                 races={ballotState.data.races}
                 activeRaceId={activeRaceId}
                 onExplain={setActiveRaceId}
+                votingInfo={ballotState.data.voting_info}
                 districts={ballotState.data.districts}
                 featuredRaceId={featuredRace?.race_id ?? null}
               />

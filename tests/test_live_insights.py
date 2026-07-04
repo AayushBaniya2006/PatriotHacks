@@ -289,7 +289,7 @@ def test_generate_insights_parses_plain_json(monkeypatch):
     assert captured["model"] == insights.MODEL
     assert captured["messages"][0]["role"] == "system"
     assert captured["messages"][1]["role"] == "user"
-    assert set(result.keys()) == {"candidates", "summary", "caveats"}
+    assert set(result.keys()) == {"candidates", "summary", "caveats", "horizons"}
     assert set(result["candidates"].keys()) == {"candidate-a", "candidate-b"}
     assert result["summary"].startswith("Candidate A")
 
@@ -305,15 +305,18 @@ def test_generate_insights_parses_fenced_json(monkeypatch):
 
 def test_generate_insights_non_dict_json_defaults_to_empty_shape(monkeypatch):
     """Defensive shape normalization: valid JSON that isn't an object (e.g. a
-    bare array) must never crash the caller -- it degrades to the documented
-    empty shape instead."""
+    bare array) must never silently degrade into a fabricated
+    {"candidates": {}, ...} shape -- it raises the same clean ValueError as
+    genuinely unparseable output (see
+    test_generate_insights_unparseable_raises_value_error), which main.py
+    maps to a 502 rather than caching a hallucinated empty result."""
 
     def handler(kwargs: dict[str, Any]) -> str:
         return "[1, 2, 3]"
 
     _install_fake_openai(monkeypatch, handler)
-    result = insights.generate_insights(FIXTURE_PROFILE, FIXTURE_RACE, FIXTURE_CANDIDATES, api_key="fake-key")
-    assert result == {"candidates": {}, "summary": "", "caveats": ""}
+    with pytest.raises(ValueError, match="JSON object"):
+        insights.generate_insights(FIXTURE_PROFILE, FIXTURE_RACE, FIXTURE_CANDIDATES, api_key="fake-key")
 
 
 def test_generate_insights_unparseable_raises_value_error(monkeypatch):
@@ -350,15 +353,24 @@ def test_generate_insights_grounding_sources_traceable_to_candidate_json(monkeyp
 
 
 def test_generate_insights_ungrounded_source_would_be_caught(monkeypatch):
-    """Proves the grounding assertion helper is not a tautology: a bullet
-    citing a source never present in the supplied candidate JSON must fail
-    _assert_grounded."""
+    """Proves the grounding check is not a tautology: a bullet citing a
+    source never present in the supplied candidate JSON must fail. This is
+    now caught even earlier and harder than a post-hoc _assert_grounded scan
+    -- app/insights.py's own _validate_candidate_bullets rejects the whole
+    response with a ValueError (which main.py maps to a 502) before an
+    ungrounded bullet could ever be returned to a caller."""
 
     def handler(kwargs: dict[str, Any]) -> str:
         return json.dumps(
             {
                 "candidates": {
-                    "candidate-a": [{"text": "fabricated claim", "source": "https://not-in-our-data.example.com"}]
+                    "candidate-a": [{"text": "fabricated claim", "source": "https://not-in-our-data.example.com"}],
+                    "candidate-b": [
+                        {
+                            "text": "Candidate B's campaign reported $5,000 in receipts.",
+                            "source": "https://example.gov/candidate-b/finance",
+                        }
+                    ],
                 },
                 "summary": "s",
                 "caveats": "c",
@@ -366,12 +378,8 @@ def test_generate_insights_ungrounded_source_would_be_caught(monkeypatch):
         )
 
     _install_fake_openai(monkeypatch, handler)
-    result = insights.generate_insights(FIXTURE_PROFILE, FIXTURE_RACE, FIXTURE_CANDIDATES, api_key="fake-key")
-
-    valid_sources: set[str] = set()
-    _collect_sources(FIXTURE_CANDIDATES, valid_sources)
-    with pytest.raises(AssertionError, match="grounding violation"):
-        _assert_grounded(result["candidates"], valid_sources)
+    with pytest.raises(ValueError, match="source not present in candidate JSON"):
+        insights.generate_insights(FIXTURE_PROFILE, FIXTURE_RACE, FIXTURE_CANDIDATES, api_key="fake-key")
 
 
 # ---------------------------------------------------------------------------
@@ -388,10 +396,22 @@ def _real_race_candidate_ids() -> list[str]:
 
 
 def _canned_real_race_json() -> str:
+    """Build a mocked live-model response for REAL_RACE_ID, citing each real
+    candidate's own actual source URL (pulled straight from the gold
+    dataset via the same _candidate_source_urls the app itself validates
+    against) so the response passes generate_insights's real grounding
+    check instead of being rejected as ungrounded."""
     cids = _real_race_candidate_ids()
+    candidates_block = {}
+    for cid in cids:
+        candidate = datastore.get_candidate(cid) or {}
+        allowed = insights._candidate_source_urls(candidate)
+        assert allowed, f"fixture candidate {cid!r} must have at least one source URL"
+        source = sorted(allowed)[0]
+        candidates_block[cid] = [{"text": f"Live-mode test bullet for {cid}.", "source": source}]
     return json.dumps(
         {
-            "candidates": {cid: [{"text": f"Live-mode test bullet for {cid}.", "source": "https://example.gov/test"}] for cid in cids},
+            "candidates": candidates_block,
             "summary": "Test summary comparing the candidates.",
             "caveats": "Test caveats: not exhaustive, not an endorsement.",
         }
@@ -414,6 +434,8 @@ def test_endpoint_live_mode_and_write_through_then_served_cached(monkeypatch):
     body1 = resp1.json()
     assert body1["mode"] == "live"
     assert body1["archetype_used"] == "veteran"
+    assert set(body1.keys()) >= {"candidates", "summary", "caveats", "horizons"}
+    assert body1["horizons"] == {}
     assert call_count["n"] == 1
     for bullets in body1["candidates"].values():
         for bullet in bullets:

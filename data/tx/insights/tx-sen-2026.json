@@ -5,7 +5,7 @@
     "candidates": {
       "paxton-ken": [
         {
-          "text": "Ken Paxton is a candidate for United States Senator from Texas, running with Republican.",
+          "text": "Ken Paxton (Republican) is a candidate for United States Senator from Texas.",
           "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
         },
         {
@@ -23,7 +23,7 @@
       ],
       "talarico-james": [
         {
-          "text": "James Talarico is a candidate for United States Senator from Texas, running with Democratic.",
+          "text": "James Talarico (Democratic) is a candidate for United States Senator from Texas.",
           "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
         },
         {
@@ -84,29 +84,21 @@
       "candidates": {
         "paxton-ken": [
           {
-            "text": "No public data in our set connects Ken Paxton's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "text": "No public data in our set ties Ken Paxton's background, votes, or stated positions to housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on Ken Paxton's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings -- fundraising scale only, not a stance on housing costs, rent, or renters' protections.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
         "talarico-james": [
           {
-            "text": "No public data in our set connects James Talarico's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "text": "No public data in our set ties James Talarico's background, votes, or stated positions to housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on James Talarico's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings -- fundraising scale only, not a stance on housing costs, rent, or renters' protections.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
@@ -140,15 +132,11 @@
       "candidates": {
         "paxton-ken": [
           {
-            "text": "No public data in our set connects Ken Paxton's recorded background or positions specifically to property taxes or public school funding.",
+            "text": "No public data in our set ties Ken Paxton's background, votes, or stated positions to property taxes or public school funding.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on Ken Paxton's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings -- fundraising scale only, not a stance on property taxes or public school funding.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -162,7 +150,7 @@
             "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings -- fundraising scale only, not a stance on property taxes or public school funding.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
@@ -214,15 +202,11 @@
       "candidates": {
         "paxton-ken": [
           {
-            "text": "No public data in our set connects Ken Paxton's recorded background or positions specifically to small business taxes or regulation.",
+            "text": "No public data in our set ties Ken Paxton's background, votes, or stated positions to small business taxes or regulation.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on Ken Paxton's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings -- fundraising scale only, not a stance on small business taxes or regulation.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -232,7 +216,7 @@
             "source": "https://jamestalarico.com/issue/taxes-cost-of-living/"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings -- fundraising scale only, not a stance on small business taxes or regulation.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
@@ -273,15 +257,11 @@
       "candidates": {
         "paxton-ken": [
           {
-            "text": "No public data in our set connects Ken Paxton's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "text": "No public data in our set ties Ken Paxton's background, votes, or stated positions to health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on Ken Paxton's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings -- fundraising scale only, not a stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -291,7 +271,7 @@
             "source": "https://jamestalarico.com/issue/health-care/"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings -- fundraising scale only, not a stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
@@ -332,15 +312,11 @@
       "candidates": {
         "paxton-ken": [
           {
-            "text": "No public data in our set connects Ken Paxton's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "text": "No public data in our set ties Ken Paxton's background, votes, or stated positions to Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on Ken Paxton's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings -- fundraising scale only, not a stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -354,7 +330,7 @@
             "source": "https://jamestalarico.com/issue/health-care/"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings -- fundraising scale only, not a stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
@@ -406,29 +382,21 @@
       "candidates": {
         "paxton-ken": [
           {
-            "text": "No public data in our set connects Ken Paxton's recorded background or positions specifically to veterans' benefits or services.",
+            "text": "No public data in our set ties Ken Paxton's background, votes, or stated positions to veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on Ken Paxton's recorded votes or stated positions regarding veterans' benefits or services.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings -- fundraising scale only, not a stance on veterans' benefits or services.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
         "talarico-james": [
           {
-            "text": "No public data in our set connects James Talarico's recorded background or positions specifically to veterans' benefits or services.",
+            "text": "No public data in our set ties James Talarico's background, votes, or stated positions to veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on James Talarico's recorded votes or stated positions regarding veterans' benefits or services.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings -- fundraising scale only, not a stance on veterans' benefits or services.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
@@ -462,15 +430,11 @@
       "candidates": {
         "paxton-ken": [
           {
-            "text": "No public data in our set connects Ken Paxton's recorded background or positions specifically to higher education funding or student costs.",
+            "text": "No public data in our set ties Ken Paxton's background, votes, or stated positions to higher education funding or student costs.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on Ken Paxton's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings -- fundraising scale only, not a stance on higher education funding or student costs.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -480,7 +444,7 @@
             "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings -- fundraising scale only, not a stance on higher education funding or student costs.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
@@ -521,29 +485,21 @@
       "candidates": {
         "paxton-ken": [
           {
-            "text": "No public data in our set connects Ken Paxton's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "text": "No public data in our set ties Ken Paxton's background, votes, or stated positions to farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on Ken Paxton's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings -- fundraising scale only, not a stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
         "talarico-james": [
           {
-            "text": "No public data in our set connects James Talarico's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "text": "No public data in our set ties James Talarico's background, votes, or stated positions to farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "No public data in our set on James Talarico's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
-            "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
-          },
-          {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings -- fundraising scale only, not a stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]

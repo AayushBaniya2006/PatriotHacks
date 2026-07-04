@@ -5,7 +5,7 @@
     "candidates": {
       "middleton-mayes": [
         {
-          "text": "Mayes Middleton is a candidate for Attorney General of Texas, running with Republican.",
+          "text": "Mayes Middleton (Republican) is a candidate for Attorney General of Texas.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
         },
         {
@@ -23,7 +23,7 @@
       ],
       "johnson-nathan": [
         {
-          "text": "Nathan Johnson is a candidate for Attorney General of Texas, running with Democratic.",
+          "text": "Nathan Johnson (Democratic) is a candidate for Attorney General of Texas.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
         },
         {
@@ -41,7 +41,7 @@
       ],
       "oxford-tom": [
         {
-          "text": "Tom Oxford is a candidate for Attorney General of Texas, running with Libertarian.",
+          "text": "Tom Oxford (Libertarian) is a candidate for Attorney General of Texas.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
         },
         {
@@ -108,43 +108,31 @@
       "candidates": {
         "middleton-mayes": [
           {
-            "text": "No public data in our set connects Mayes Middleton's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "text": "No public data in our set ties Mayes Middleton's background, votes, or stated positions to housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Mayes Middleton's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on housing costs, rent, or renters' protections.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "johnson-nathan": [
           {
-            "text": "No public data in our set connects Nathan Johnson's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "text": "No public data in our set ties Nathan Johnson's background, votes, or stated positions to housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Nathan Johnson's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on housing costs, rent, or renters' protections.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "oxford-tom": [
           {
-            "text": "No public data in our set connects Tom Oxford's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "text": "No public data in our set ties Tom Oxford's background, votes, or stated positions to housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Tom Oxford's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on housing costs, rent, or renters' protections.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -196,7 +184,7 @@
             "source": "https://www.fox4news.com/news/education-savings-account-texas"
           },
           {
-            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -210,21 +198,17 @@
             "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849"
           },
           {
-            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "oxford-tom": [
           {
-            "text": "No public data in our set connects Tom Oxford's recorded background or positions specifically to property taxes or public school funding.",
+            "text": "No public data in our set ties Tom Oxford's background, votes, or stated positions to property taxes or public school funding.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Tom Oxford's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -304,15 +288,11 @@
       "candidates": {
         "middleton-mayes": [
           {
-            "text": "No public data in our set connects Mayes Middleton's recorded background or positions specifically to small business taxes or regulation.",
+            "text": "No public data in our set ties Mayes Middleton's background, votes, or stated positions to small business taxes or regulation.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Mayes Middleton's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on small business taxes or regulation.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -322,21 +302,17 @@
             "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849"
           },
           {
-            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on small business taxes or regulation.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "oxford-tom": [
           {
-            "text": "No public data in our set connects Tom Oxford's recorded background or positions specifically to small business taxes or regulation.",
+            "text": "No public data in our set ties Tom Oxford's background, votes, or stated positions to small business taxes or regulation.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Tom Oxford's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on small business taxes or regulation.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -391,7 +367,7 @@
             "source": "https://ivoterguide.com/candidate/39321/race/28750/election/1433"
           },
           {
-            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -401,21 +377,17 @@
             "source": "https://www.nathanfortexas.com/"
           },
           {
-            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "oxford-tom": [
           {
-            "text": "No public data in our set connects Tom Oxford's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "text": "No public data in our set ties Tom Oxford's background, votes, or stated positions to health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Tom Oxford's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -473,43 +445,31 @@
       "candidates": {
         "middleton-mayes": [
           {
-            "text": "No public data in our set connects Mayes Middleton's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "text": "No public data in our set ties Mayes Middleton's background, votes, or stated positions to Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Mayes Middleton's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "johnson-nathan": [
           {
-            "text": "No public data in our set connects Nathan Johnson's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "text": "No public data in our set ties Nathan Johnson's background, votes, or stated positions to Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Nathan Johnson's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "oxford-tom": [
           {
-            "text": "No public data in our set connects Tom Oxford's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "text": "No public data in our set ties Tom Oxford's background, votes, or stated positions to Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Tom Oxford's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -553,43 +513,31 @@
       "candidates": {
         "middleton-mayes": [
           {
-            "text": "No public data in our set connects Mayes Middleton's recorded background or positions specifically to veterans' benefits or services.",
+            "text": "No public data in our set ties Mayes Middleton's background, votes, or stated positions to veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Mayes Middleton's recorded votes or stated positions regarding veterans' benefits or services.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on veterans' benefits or services.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "johnson-nathan": [
           {
-            "text": "No public data in our set connects Nathan Johnson's recorded background or positions specifically to veterans' benefits or services.",
+            "text": "No public data in our set ties Nathan Johnson's background, votes, or stated positions to veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Nathan Johnson's recorded votes or stated positions regarding veterans' benefits or services.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on veterans' benefits or services.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "oxford-tom": [
           {
-            "text": "No public data in our set connects Tom Oxford's recorded background or positions specifically to veterans' benefits or services.",
+            "text": "No public data in our set ties Tom Oxford's background, votes, or stated positions to veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Tom Oxford's recorded votes or stated positions regarding veterans' benefits or services.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on veterans' benefits or services.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -641,7 +589,7 @@
             "source": "https://www.fox4news.com/news/education-savings-account-texas"
           },
           {
-            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on higher education funding or student costs.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -651,21 +599,17 @@
             "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/"
           },
           {
-            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on higher education funding or student costs.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "oxford-tom": [
           {
-            "text": "No public data in our set connects Tom Oxford's recorded background or positions specifically to higher education funding or student costs.",
+            "text": "No public data in our set ties Tom Oxford's background, votes, or stated positions to higher education funding or student costs.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Tom Oxford's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on higher education funding or student costs.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -734,43 +678,31 @@
       "candidates": {
         "middleton-mayes": [
           {
-            "text": "No public data in our set connects Mayes Middleton's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "text": "No public data in our set ties Mayes Middleton's background, votes, or stated positions to farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Mayes Middleton's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "johnson-nathan": [
           {
-            "text": "No public data in our set connects Nathan Johnson's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "text": "No public data in our set ties Nathan Johnson's background, votes, or stated positions to farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Nathan Johnson's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "oxford-tom": [
           {
-            "text": "No public data in our set connects Tom Oxford's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "text": "No public data in our set ties Tom Oxford's background, votes, or stated positions to farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
           },
           {
-            "text": "No public data in our set on Tom Oxford's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]

@@ -276,19 +276,19 @@ def build_race_insight(race, candidates):
             f"current candidate's public finance and voting-record data where available."
         )
 
-    caveats = [
+    caveats_parts = [
         "This summary only includes facts found in our sourced dataset (FEC finance filings and "
         "U.S. House Clerk roll-call votes). It omits anything we could not verify from those sources.",
         "No public data in our set on any candidate's policy positions for this race "
         "(the positions field was empty for every candidate as of this build).",
     ]
     if missing_data_notes:
-        caveats.extend(sorted(set(missing_data_notes)))
+        caveats_parts.extend(sorted(set(missing_data_notes)))
 
     base = {
         "candidates": base_candidates,
         "summary": summary,
-        "caveats": caveats,
+        "caveats": " ".join(caveats_parts),
     }
 
     archetypes = {}
@@ -305,10 +305,10 @@ def build_race_insight(race, candidates):
                 f"For {label} in {district}: this view highlights each candidate's recorded votes "
                 f"most relevant to that group, drawn from the same sourced data as the base summary."
             )
-            arch_caveats = [
+            arch_caveats = (
                 f"No public data in our set on candidate positions specifically framed for {label}; "
-                "bullets are limited to recorded votes and finance facts that plausibly relate to this group.",
-            ]
+                "bullets are limited to recorded votes and finance facts that plausibly relate to this group."
+            )
             archetypes[arch] = {
                 "candidates": arch_candidates,
                 "summary": arch_summary,

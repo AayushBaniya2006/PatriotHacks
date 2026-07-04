@@ -12,7 +12,7 @@
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ],
     "dixon-pat": [
@@ -26,13 +26,13 @@
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ],
     "hinojosa-gina": [
       {
         "source": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/",
-        "text": "On education, Gina Hinojosa's recorded position: Hinojosa is a strong advocate for public school funding and opposes school vouchers. She authored an opinion piece explicitly stating she opposes the governor's voucher plan, calling it 'irresponsible and harmful.' She emphasizes that Texas public schools need at least $40 billion to reach national per-student funding averages and has worked with bipartisan allies to block voucher legislation."
+        "text": "On education, Gina Hinojosa's recorded position: Hinojosa is a strong advocate for public school funding and opposes school vouchers. She authored an opinion piece explicitly stating she opposes the governor's voucher plan, calling it 'irresponsible and harmful.' She emphasizes that Texas public schools need at least $40 billion to reach national per-student funding averages and has worked with bipartisan allies to\u2026"
       },
       {
         "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
@@ -40,25 +40,22 @@
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ],
     "raphoon-jenn": [
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
-        "text": "No public data in our set connects Jenn Mack Raphoon's recorded background or positions specifically to property taxes or public school funding."
-      },
-      {
-        "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
-        "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding property taxes or public school funding."
+        "text": "No public data in our set ties Jenn Mack Raphoon's background, votes, or stated positions to property taxes or public school funding."
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ]
   },
   "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "generated_at": "2026-07-03",
   "horizons": {
     "abbott-greg": {
       "long_term": [

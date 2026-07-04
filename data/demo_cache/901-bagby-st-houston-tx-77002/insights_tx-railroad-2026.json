@@ -1,3 +1,71 @@
 {
-  "detail": "Too many requests, please slow down"
+  "archetype_used": "homeowner_parent",
+  "candidates": {
+    "dibianca-arthur": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+        "text": "No public data in our set ties Arthur DiBianca's background, votes, or stated positions to property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2025-12-31, Arthur DiBianca's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
+      }
+    ],
+    "french-bo": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+        "text": "No public data in our set ties Bo French's background, votes, or stated positions to property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-05-16, Bo French's campaign had raised $1,473,367, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
+      }
+    ],
+    "rosenthal-jon": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+        "text": "No public data in our set ties Jon Rosenthal's background, votes, or stated positions to property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2025-12-31, Jon Rosenthal's campaign had raised $59,723, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
+      }
+    ]
+  },
+  "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "generated_at": "2026-07-03",
+  "horizons": {
+    "dibianca-arthur": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+          "text": "No recorded evidence in our set to project from for Arthur DiBianca on property taxes or public school funding."
+        }
+      ]
+    },
+    "french-bo": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+          "text": "No recorded evidence in our set to project from for Bo French on property taxes or public school funding."
+        }
+      ]
+    },
+    "rosenthal-jon": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+          "text": "No recorded evidence in our set to project from for Jon Rosenthal on property taxes or public school funding."
+        }
+      ]
+    }
+  },
+  "mode": "cached",
+  "summary": "For a homeowner parent voter looking at the Railroad Commissioner of Texas race (Bo French, Jon Rosenthal, Arthur DiBianca): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
 }

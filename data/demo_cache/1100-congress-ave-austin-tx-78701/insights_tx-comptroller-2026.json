@@ -4,33 +4,26 @@
     "eckhardt-sarah": [
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
-        "text": "No public data in our set connects Sarah Eckhardt's recorded background or positions specifically to property taxes or public school funding."
-      },
-      {
-        "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
-        "text": "No public data in our set on Sarah Eckhardt's recorded votes or stated positions regarding property taxes or public school funding."
+        "text": "No public data in our set ties Sarah Eckhardt's background, votes, or stated positions to property taxes or public school funding."
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ],
     "huffines-don": [
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
-        "text": "No public data in our set connects Don Huffines's recorded background or positions specifically to property taxes or public school funding."
-      },
-      {
-        "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
-        "text": "No public data in our set on Don Huffines's recorded votes or stated positions regarding property taxes or public school funding."
+        "text": "No public data in our set ties Don Huffines's background, votes, or stated positions to property taxes or public school funding."
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ]
   },
   "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "generated_at": "2026-07-03",
   "horizons": {
     "eckhardt-sarah": {
       "long_term": [],

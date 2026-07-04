@@ -78,10 +78,9 @@ import re
 import subprocess
 import sys
 import time
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from statistics import mean
 from typing import Any, Optional
 from urllib.parse import urlparse
 
@@ -701,6 +700,12 @@ def _write_json(
 ) -> None:
     failures = [e for e in (new_sweep + regression) if not e.get("ok")]
     regression_fail = [e for e in regression if e.get("regression_status") == "MISMATCH"]
+    tied_beyond_weakest: list[dict[str, Any]] = []
+    if weakest:
+        boundary_score = weakest[-1]["experience_score"]
+        tied_beyond_weakest = [
+            d for d in district_summary[len(weakest):] if d["experience_score"] == boundary_score
+        ]
     doc = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "generated_by": "pipeline/sweep_addresses.py",
@@ -719,6 +724,7 @@ def _write_json(
         "regression_check": regression,
         "district_summary": district_summary,
         "weakest_districts": weakest,
+        "weakest_districts_tied_beyond_cutoff": tied_beyond_weakest,
         "failures": failures,
         "counts": {
             "new_sweep_addresses": len(new_sweep),
@@ -851,6 +857,21 @@ def _write_markdown(
         "the right thing by disclosing that)."
     )
     lines.append("")
+    if weakest:
+        boundary_score = weakest[-1]["experience_score"]
+        tied_beyond = [
+            d for d in district_summary[len(weakest):]
+            if d["experience_score"] == boundary_score
+        ]
+        if tied_beyond:
+            tied_cds = ", ".join(f"`{d['cd']}`" for d in tied_beyond)
+            lines.append(
+                f"*Honesty note: {tied_cds} tie the 5th-place score ({boundary_score}) exactly and would "
+                "also qualify as \"weakest\" -- only the first 5 by sweep order are detailed below to hold "
+                "the line at 5, not because the excluded ones are actually stronger. See the district "
+                "summary table above for their identical stats.*"
+            )
+            lines.append("")
     for rank, entry in enumerate(weakest, start=1):
         h = entry["house_race"]
         why, fix, fix_category = fixes[h["race_id"]]
@@ -913,6 +934,16 @@ def _write_markdown(
         "- The 8 statewide races (Governor, Lt. Gov, AG, Comptroller, Land Commissioner, Ag Commissioner, "
         "Railroad Commissioner, US Senate) are identical for every Texas address and are not re-scored per "
         "address here; see `data/tx/QUALITY.md` for their standing (1 A-tier, 7 B-tier)."
+    )
+    tier_c_count = sum(1 for d in district_summary if d["house_race"].get("tier") == "C")
+    lines.append(
+        f"- {tier_c_count}/{len(district_summary)} of this sweep's House races carry the existing "
+        "`data_quality` tier **C** -- not a quirk of which addresses were picked: only `tx-cd28-2026` and "
+        "`tx-cd34-2026` are tier B among all 38 House races statewide (`data/tx/quality_report.json`'s tier "
+        "distribution is 1 A / 9 B / 36 C across all 46 races, and the 9 B's are mostly statewide). Because "
+        "tier alone can't distinguish among 36 same-tier districts, this sweep's Experience Score is the "
+        "more useful ranking signal *within* tier C -- e.g. TX-13 (51.5) vs. TX-30 (74.0) above are both "
+        "tier C but read very differently to an actual voter."
     )
     lines.append("")
 

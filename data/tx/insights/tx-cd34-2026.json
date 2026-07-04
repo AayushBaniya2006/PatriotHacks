@@ -28,7 +28,7 @@
         }
       ]
     },
-    "summary": "TX-34: 2 candidate(s) on file for U.S. House of Representatives, TX-34. Bullets below summarize each candidate's FEC-reported campaign finance and, for sitting U.S. House members, selected 2025-2026 roll-call votes on file. This is comparative, sourced information only -- it does not recommend a choice.",
+    "summary": "TX-34: 2 candidate(s) on file for U.S. Representative, TX-34. Bullets below summarize each candidate's FEC-reported campaign finance and, for sitting U.S. House members, selected 2025-2026 roll-call votes on file. This is comparative, sourced information only -- it does not recommend a choice.",
     "caveats": "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time. Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history.",
     "horizons": {
       "mandel-charles": {
@@ -65,7 +65,7 @@
       "candidates": {
         "mandel-charles": [
           {
-            "text": "No public data in our set connects this candidate's record to renters and young workers. (Charles Mandel)",
+            "text": "Charles Mandel: no public data in our set ties their record to renters and young workers.",
             "source": "https://www.fec.gov/data/candidate/H4TX27105/"
           },
           {
@@ -75,7 +75,7 @@
         ],
         "gonzalez-vicente": [
           {
-            "text": "On H R 1 (22-May-2025), Vicente Gonzalez voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+            "text": "For renters and young workers: on H R 1 (22-May-2025), Vicente Gonzalez voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
             "source": "https://clerk.house.gov/evs/2025/roll145.xml"
           },
           {
@@ -120,7 +120,7 @@
       "candidates": {
         "mandel-charles": [
           {
-            "text": "No public data in our set connects this candidate's record to homeowners with kids. (Charles Mandel)",
+            "text": "Charles Mandel: no public data in our set ties their record to homeowners with kids.",
             "source": "https://www.fec.gov/data/candidate/H4TX27105/"
           },
           {
@@ -130,11 +130,11 @@
         ],
         "gonzalez-vicente": [
           {
-            "text": "On H R 4758 (25-Feb-2026), Vicente Gonzalez voted Nay. A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+            "text": "For homeowners with kids: on H R 4758 (25-Feb-2026), Vicente Gonzalez voted Nay. A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
             "source": "https://clerk.house.gov/evs/2026/roll078.xml"
           },
           {
-            "text": "On H R 1 (22-May-2025), Vicente Gonzalez voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+            "text": "For homeowners with kids: on H R 1 (22-May-2025), Vicente Gonzalez voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
             "source": "https://clerk.house.gov/evs/2025/roll145.xml"
           }
         ]
@@ -186,7 +186,7 @@
       "candidates": {
         "mandel-charles": [
           {
-            "text": "No public data in our set connects this candidate's record to small business owners. (Charles Mandel)",
+            "text": "Charles Mandel: no public data in our set ties their record to small business owners.",
             "source": "https://www.fec.gov/data/candidate/H4TX27105/"
           },
           {
@@ -196,7 +196,7 @@
         ],
         "gonzalez-vicente": [
           {
-            "text": "On H R 1 (22-May-2025), Vicente Gonzalez voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+            "text": "For small business owners: on H R 1 (22-May-2025), Vicente Gonzalez voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
             "source": "https://clerk.house.gov/evs/2025/roll145.xml"
           },
           {
@@ -241,7 +241,7 @@
       "candidates": {
         "mandel-charles": [
           {
-            "text": "No public data in our set connects this candidate's record to people on ACA marketplace plans or without insurance. (Charles Mandel)",
+            "text": "Charles Mandel: no public data in our set ties their record to people on ACA marketplace plans or without insurance.",
             "source": "https://www.fec.gov/data/candidate/H4TX27105/"
           },
           {
@@ -251,11 +251,11 @@
         ],
         "gonzalez-vicente": [
           {
-            "text": "On H R 6703 (17-Dec-2025), Vicente Gonzalez voted Nay. A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+            "text": "For people on ACA marketplace plans or without insurance: on H R 6703 (17-Dec-2025), Vicente Gonzalez voted Nay. A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
             "source": "https://clerk.house.gov/evs/2025/roll349.xml"
           },
           {
-            "text": "On H R 498 (18-Dec-2025), Vicente Gonzalez voted Yea. A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+            "text": "For people on ACA marketplace plans or without insurance: on H R 498 (18-Dec-2025), Vicente Gonzalez voted Yea. A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
             "source": "https://clerk.house.gov/evs/2025/roll362.xml"
           }
         ]
@@ -307,7 +307,7 @@
       "candidates": {
         "mandel-charles": [
           {
-            "text": "No public data in our set on Medicare-specific votes for this candidate. (Charles Mandel)",
+            "text": "Charles Mandel: no public data in our set on Medicare-specific votes.",
             "source": "https://www.fec.gov/data/candidate/H4TX27105/"
           },
           {
@@ -317,7 +317,7 @@
         ],
         "gonzalez-vicente": [
           {
-            "text": "No public data in our set on Medicare-specific votes for this candidate. (Vicente Gonzalez)",
+            "text": "Vicente Gonzalez: no public data in our set on Medicare-specific votes.",
             "source": "https://clerk.house.gov/Votes"
           },
           {
@@ -355,7 +355,7 @@
       "candidates": {
         "mandel-charles": [
           {
-            "text": "No public data in our set on veteran-specific votes or positions for this candidate. (Charles Mandel)",
+            "text": "Charles Mandel: no public data in our set on veteran-specific votes or positions.",
             "source": "https://www.fec.gov/data/candidate/H4TX27105/"
           },
           {
@@ -365,7 +365,7 @@
         ],
         "gonzalez-vicente": [
           {
-            "text": "No public data in our set on veteran-specific votes or positions for this candidate. (Vicente Gonzalez)",
+            "text": "Vicente Gonzalez: no public data in our set on veteran-specific votes or positions.",
             "source": "https://clerk.house.gov/Votes"
           },
           {
@@ -403,7 +403,7 @@
       "candidates": {
         "mandel-charles": [
           {
-            "text": "No public data in our set on education or student-loan votes for this candidate. (Charles Mandel)",
+            "text": "Charles Mandel: no public data in our set on education or student-loan votes.",
             "source": "https://www.fec.gov/data/candidate/H4TX27105/"
           },
           {
@@ -413,7 +413,7 @@
         ],
         "gonzalez-vicente": [
           {
-            "text": "No public data in our set on education or student-loan votes for this candidate. (Vicente Gonzalez)",
+            "text": "Vicente Gonzalez: no public data in our set on education or student-loan votes.",
             "source": "https://clerk.house.gov/Votes"
           },
           {
@@ -451,7 +451,7 @@
       "candidates": {
         "mandel-charles": [
           {
-            "text": "No public data in our set connects this candidate's record to rural and agricultural voters. (Charles Mandel)",
+            "text": "Charles Mandel: no public data in our set ties their record to rural and agricultural voters.",
             "source": "https://www.fec.gov/data/candidate/H4TX27105/"
           },
           {
@@ -461,11 +461,11 @@
         ],
         "gonzalez-vicente": [
           {
-            "text": "On H R 26 (7-Feb-2025), Vicente Gonzalez voted Yea. A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+            "text": "For rural and agricultural voters: on H R 26 (7-Feb-2025), Vicente Gonzalez voted Yea. A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
             "source": "https://clerk.house.gov/evs/2025/roll035.xml"
           },
           {
-            "text": "On H R 7744 (5-Mar-2026), Vicente Gonzalez voted Nay. A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+            "text": "For rural and agricultural voters: on H R 7744 (5-Mar-2026), Vicente Gonzalez voted Nay. A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
             "source": "https://clerk.house.gov/evs/2026/roll087.xml"
           }
         ]

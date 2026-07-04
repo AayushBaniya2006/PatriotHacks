@@ -1,0 +1,847 @@
+{
+  "economy": {
+    "issue_id": "economy",
+    "plain_summary": "This is about whether growth mostly comes from businesses operating with fewer rules and lower taxes, or from government actively directing money into industries and infrastructure.",
+    "pole_a": {
+      "label": "Cut regulation and taxes; let markets drive growth",
+      "could_help_you_if": [
+        "you own a business or work in a heavily regulated industry — fewer rules and less paperwork could lower your costs",
+        "you're a high earner or investor — lower taxes could mean more money in your pocket sooner",
+        "you want the private sector, not government, deciding which industries grow"
+      ],
+      "could_cost_you_if": [
+        "you rely on public services or programs that need tax revenue to run — those could see less funding",
+        "you work in a field with weaker safety, labor, or environmental rules — deregulation could mean less protection for you",
+        "you were counting on a government-backed project (like local infrastructure or manufacturing investment) that may not happen"
+      ]
+    },
+    "pole_c": {
+      "label": "Major public investment and industrial policy",
+      "could_help_you_if": [
+        "you work in a targeted industry, like manufacturing, clean energy, or semiconductors — public investment could bring jobs and contracts your way",
+        "you live in a region that's struggled to attract private investment — government money could help fill the gap",
+        "you'd rather see more public planning than rely on unpredictable markets"
+      ],
+      "could_cost_you_if": [
+        "you're a business owner facing more rules, reporting, or oversight tied to public funding",
+        "you're a high earner or corporation likely helping fund this investment through taxes",
+        "you're skeptical government picks winners well, and worry money could go to projects that don't pan out"
+      ]
+    }
+  },
+  "inflation": {
+    "issue_id": "inflation",
+    "plain_summary": "This is about whether cooling prices is better done by government spending and borrowing less, or by directly stepping in to cap prices or subsidize costs in certain markets.",
+    "pole_a": {
+      "label": "Cut government spending and regulation to cool prices",
+      "could_help_you_if": [
+        "you're worried that government borrowing and spending are pushing prices up — less of it could help costs stabilize over time",
+        "you run a business and want fewer price or supply rules to navigate",
+        "you'd rather markets, not government, set prices"
+      ],
+      "could_cost_you_if": [
+        "you rely on programs or benefits that could shrink if spending is cut",
+        "you're already struggling with high prices now, and this approach may take time to show up in your wallet",
+        "the cuts land on a service you personally use, like transit or childcare support"
+      ]
+    },
+    "pole_c": {
+      "label": "Directly cap or regulate prices in key sectors",
+      "could_help_you_if": [
+        "you're renting, buying groceries, or paying for essentials in a sector where a price cap or subsidy could apply directly to you",
+        "you feel specific industries are overcharging and want a direct check on that",
+        "you want faster, more visible relief on a specific cost you're facing"
+      ],
+      "could_cost_you_if": [
+        "you own a business in a capped sector — controls could squeeze your margins or force you to cut back",
+        "you invest in or work for a company in a regulated industry — profits and hiring could be affected",
+        "price caps can sometimes lead to shortages or lower quality if a company can't cover its costs"
+      ]
+    }
+  },
+  "taxes": {
+    "issue_id": "taxes",
+    "plain_summary": "This is about whether the tax code should take less from businesses and top earners overall, or take more from them specifically to fund government programs.",
+    "pole_a": {
+      "label": "Lower taxes broadly, including for businesses and top earners",
+      "could_help_you_if": [
+        "you're a high earner or business owner — your tax bill likely drops",
+        "you want more take-home pay now",
+        "you're launching or growing a small business and want to keep more of what you earn"
+      ],
+      "could_cost_you_if": [
+        "you rely on public services or programs that may see funding cuts if revenue drops",
+        "you're worried about the national debt growing",
+        "you depend on programs funded by federal tax revenue, like grants or public health services"
+      ]
+    },
+    "pole_c": {
+      "label": "Raise taxes on corporations and the wealthy",
+      "could_help_you_if": [
+        "you rely on public programs — schools, healthcare, infrastructure — that could get more funding",
+        "you're a middle- or lower-income earner who wouldn't be the one paying more",
+        "you're concerned about the national debt and want more revenue coming in"
+      ],
+      "could_cost_you_if": [
+        "you're a high earner or own a business — you could face a bigger tax bill",
+        "you run a corporation that could see reduced after-tax profits, which might affect hiring or investment",
+        "you worry some of the added cost gets passed on to customers or employees"
+      ]
+    }
+  },
+  "jobs": {
+    "issue_id": "jobs",
+    "plain_summary": "This is about whether more and better jobs come from making it cheaper and easier for employers to hire, or from requiring employers to pay more and offer stronger protections.",
+    "pole_a": {
+      "label": "Lower business costs and mandates to spur hiring",
+      "could_help_you_if": [
+        "you own a small business or run payroll — lower costs and fewer mandates could make hiring easier",
+        "you're job hunting in a field where employers say regulation is holding back hiring",
+        "you're a business owner who wants more flexibility in scheduling, benefits, or wages"
+      ],
+      "could_cost_you_if": [
+        "you're an hourly or minimum-wage worker — your pay and protections may not rise much",
+        "you work in a job with few benefits already — fewer mandates could mean it stays that way",
+        "you rely on protections like guaranteed overtime pay or sick leave that could be scaled back"
+      ]
+    },
+    "pole_c": {
+      "label": "Raise the minimum wage and strengthen job protections",
+      "could_help_you_if": [
+        "you're a minimum-wage or lower-income worker — a higher wage floor could directly raise your pay",
+        "you work in a job with few benefits or protections now — new rules could improve them",
+        "you want stronger job security if your employer tries to cut your hours or benefits"
+      ],
+      "could_cost_you_if": [
+        "you own a small business — higher required wages and mandates could raise your costs",
+        "you're an employer in a low-margin industry like retail or food service — you may hire fewer people or raise prices",
+        "you're an entry-level job seeker — some employers might automate or cut positions instead of paying more"
+      ]
+    }
+  },
+  "healthcare": {
+    "issue_id": "healthcare",
+    "plain_summary": "This is about whether healthcare works better with more private insurance choice and competition, or with government guaranteeing coverage for everyone.",
+    "pole_a": {
+      "label": "More competition and private options; less government",
+      "could_help_you_if": [
+        "you like your current employer or private plan and want to keep choosing your own coverage",
+        "you're healthy and would rather pay lower premiums than pay into a broader system",
+        "you work in the private health insurance industry or a related field"
+      ],
+      "could_cost_you_if": [
+        "you're uninsured or have a pre-existing condition — coverage could stay harder to get or afford",
+        "you're self-employed or between jobs and rely on the individual marketplace, where prices can swing",
+        "you manage a costly chronic condition — your out-of-pocket costs could stay high"
+      ]
+    },
+    "pole_c": {
+      "label": "Move toward government-guaranteed universal coverage",
+      "could_help_you_if": [
+        "you're uninsured, underinsured, or between jobs — coverage could become guaranteed regardless of employment",
+        "you have a pre-existing condition or chronic illness and worry about losing coverage",
+        "you're self-employed or a small-business owner who currently struggles to afford a plan"
+      ],
+      "could_cost_you_if": [
+        "you like your current employer-based or private plan and might have fewer private options to choose from",
+        "you're a high earner or business owner who may help fund the system through taxes",
+        "you work in private insurance — your industry could shrink or change significantly"
+      ]
+    }
+  },
+  "immigration": {
+    "issue_id": "immigration",
+    "plain_summary": "This is about whether the priority should be tighter enforcement and fewer people entering or staying without legal status, or expanding legal ways to immigrate and protecting people already here.",
+    "pole_a": {
+      "label": "Enforcement first: secure the border, increase deportations",
+      "could_help_you_if": [
+        "you live in a border community concerned about strain on local services or safety",
+        "you compete for jobs where employers might otherwise hire undocumented workers for less",
+        "you want immigration numbers and process tightly controlled"
+      ],
+      "could_cost_you_if": [
+        "you or your family includes people without legal status — the risk of deportation could rise",
+        "you run a business, like farming, construction, or hospitality, that relies on immigrant labor — workers could become harder to find",
+        "you have family abroad waiting on legal immigration, who could face longer backlogs if legal pathways aren't expanded too"
+      ]
+    },
+    "pole_c": {
+      "label": "Expand legal immigration and protections for undocumented residents",
+      "could_help_you_if": [
+        "you or your family includes undocumented residents — you could gain a path to legal status",
+        "you run a business that depends on immigrant labor — hiring could get easier and more stable",
+        "you have relatives abroad seeking to immigrate legally"
+      ],
+      "could_cost_you_if": [
+        "you live somewhere seeing rapid population growth and worry about strain on housing, schools, or services",
+        "you compete for lower-wage jobs and worry about more competition for those roles",
+        "you want stricter limits on who enters and worry enforcement becomes secondary"
+      ]
+    }
+  },
+  "crime": {
+    "issue_id": "crime",
+    "plain_summary": "This is about whether public safety improves more from more policing and tougher sentences, or from investing in prevention, mental health care, and reforming the justice system.",
+    "pole_a": {
+      "label": "More police funding and tougher sentencing",
+      "could_help_you_if": [
+        "you live somewhere with high crime and want a visible, immediate police presence",
+        "you or your business have been a victim of crime and want stronger deterrence and punishment",
+        "you work in law enforcement and would see more funding and staffing"
+      ],
+      "could_cost_you_if": [
+        "you or someone you know has faced harsh sentencing for a non-violent offense",
+        "you live in a community with a history of tense police relations",
+        "you'd rather see tax dollars go to social programs than more incarceration"
+      ]
+    },
+    "pole_c": {
+      "label": "Shift resources toward prevention and justice reform",
+      "could_help_you_if": [
+        "you believe underlying problems like addiction, mental illness, or poverty drive crime in your community, and want funding to go there",
+        "you or a family member has a mental health or substance issue and needs treatment rather than jail time",
+        "you've been affected by policies you feel over-punish minor offenses"
+      ],
+      "could_cost_you_if": [
+        "you live somewhere with high crime and want faster, more forceful policing now, not longer-term programs",
+        "you're a crime victim and want strong sentencing more than rehabilitation programs",
+        "you work in law enforcement and could see funding shift away from your department"
+      ]
+    }
+  },
+  "education": {
+    "issue_id": "education",
+    "plain_summary": "This is about whether education dollars should follow students to whichever school their family picks, public, charter, or private, or stay concentrated in traditional public schools.",
+    "pole_a": {
+      "label": "Expand school choice, vouchers, and charter schools",
+      "could_help_you_if": [
+        "you have kids and are unhappy with your assigned public school — a voucher or charter could open other options",
+        "you already pay for private school and could get help with tuition",
+        "you want more choice and less say from the traditional public system"
+      ],
+      "could_cost_you_if": [
+        "you have kids in public school and depend on it being fully funded — money diverted to vouchers could mean less for your school",
+        "you live in a rural area with few nearby alternative schools, so 'choice' may not be realistic where you live",
+        "you're a public school teacher or staff member — funding and job security could be affected"
+      ]
+    },
+    "pole_c": {
+      "label": "Increase public school funding; oppose vouchers",
+      "could_help_you_if": [
+        "you have kids in public school — more funding could mean smaller classes, more staff, or better facilities",
+        "you're a public school teacher or staff member — this could mean better pay or resources",
+        "you don't have access to, or can't afford, private alternatives even with a voucher"
+      ],
+      "could_cost_you_if": [
+        "you have kids you'd rather send to a charter or private school — those options may not get easier or cheaper",
+        "you're unhappy with your local public school's performance and want alternatives, not just more money for the same system",
+        "you're a taxpayer concerned that more spending won't necessarily mean better outcomes"
+      ]
+    }
+  },
+  "housing": {
+    "issue_id": "housing",
+    "plain_summary": "This is about whether homes get more affordable mainly by letting private builders build more with fewer restrictions, or by government building or subsidizing housing and protecting renters directly.",
+    "pole_a": {
+      "label": "Cut zoning and permitting rules so builders add supply",
+      "could_help_you_if": [
+        "you're a developer, contractor, or work in construction — faster permitting means more projects",
+        "you own land and want more flexibility in what you can build on it",
+        "you're house-hunting and want more homes built faster to ease competition"
+      ],
+      "could_cost_you_if": [
+        "you're a renter worried about losing protections, like rent stabilization or eviction rules, in favor of faster building",
+        "you live in a neighborhood that could see denser development nearby, changing its character",
+        "you already own a home and worry more construction nearby could affect property values"
+      ]
+    },
+    "pole_c": {
+      "label": "Public/subsidized housing and stronger tenant protections",
+      "could_help_you_if": [
+        "you're a renter — stronger tenant protections and rent stabilization could directly lower your risk of rent spikes or eviction",
+        "you're low-income and could qualify for subsidized or public housing",
+        "you're priced out of your area and want direct government help, not just waiting on private builders"
+      ],
+      "could_cost_you_if": [
+        "you're a landlord or property investor — rent caps or tenant protections could reduce your flexibility or returns",
+        "you're a builder who finds permitting manageable already and would rather see less regulation, not more public programs",
+        "you're a taxpayer concerned about the cost of public housing subsidies"
+      ]
+    }
+  },
+  "climate": {
+    "issue_id": "climate",
+    "plain_summary": "This is about whether climate policy should avoid raising costs and let the market adjust on its own timeline, or require fast, mandated cuts to emissions and a shift to clean energy.",
+    "pole_a": {
+      "label": "Avoid mandates that raise costs; let markets adapt",
+      "could_help_you_if": [
+        "you work in fossil fuels, manufacturing, or another energy-intensive industry — fewer mandates could protect jobs and costs",
+        "you're on a tight budget and worried mandates could raise your energy or gas bills",
+        "you drive a lot or live somewhere without easy access to public transit or EV charging"
+      ],
+      "could_cost_you_if": [
+        "you live somewhere increasingly affected by extreme weather, wildfires, or flooding and want faster government action",
+        "you work in or want to work in clean energy — slower mandates could mean fewer incentives and jobs in that field",
+        "you want long-term certainty on climate rules for planning, like building a home or running a farm"
+      ]
+    },
+    "pole_c": {
+      "label": "Aggressive emissions cuts and clean-energy requirements",
+      "could_help_you_if": [
+        "you work in or want a job in renewable energy, EVs, or green construction — mandates could create more of that work",
+        "you're concerned about long-term climate risks like flooding, heat, or storms where you live",
+        "you want clear rules pushing faster progress rather than waiting on the market"
+      ],
+      "could_cost_you_if": [
+        "you work in oil, gas, coal, or a related industry — mandates could threaten your job or industry",
+        "you're on a fixed or lower income and worried a faster transition could raise energy or gas prices in the near term",
+        "you live somewhere without good public transit or charging infrastructure — mandates could be harder for you to meet personally"
+      ]
+    }
+  },
+  "energy": {
+    "issue_id": "energy",
+    "plain_summary": "This is about whether energy policy should expand production of oil, gas, and coal, or push quickly toward wind, solar, and other renewables while winding down fossil fuels.",
+    "pole_a": {
+      "label": "Expand oil, gas, and domestic drilling",
+      "could_help_you_if": [
+        "you work in oil, gas, coal, or a related trade — more drilling and production could mean more jobs and stability",
+        "you live in a region whose economy depends on fossil-fuel jobs or royalties",
+        "you want energy independence and lower prices at the pump in the near term"
+      ],
+      "could_cost_you_if": [
+        "you live near drilling, pipelines, or refineries and worry about local pollution or water issues",
+        "you work in, or want to work in, the renewable-energy sector — a slower fossil-fuel phase-down could mean fewer incentives for you",
+        "you're concerned about long-term climate impacts in your area"
+      ]
+    },
+    "pole_c": {
+      "label": "Rapid transition to renewables; phase down fossil fuels",
+      "could_help_you_if": [
+        "you work in, or want to work in, solar, wind, or clean-energy manufacturing — a faster transition could create more jobs there",
+        "you want to reduce dependence on oil and gas prices, which can swing unpredictably",
+        "you're concerned about climate change and want a faster shift away from fossil fuels"
+      ],
+      "could_cost_you_if": [
+        "you work in oil, gas, or coal — your job or local economy could be directly affected by a faster phase-down",
+        "you drive long distances or live somewhere without renewable infrastructure yet, so near-term costs or reliability could be a concern",
+        "you live in a region that depends heavily on fossil-fuel tax revenue for local services"
+      ]
+    }
+  },
+  "debt_spending": {
+    "issue_id": "debt_spending",
+    "plain_summary": "This is about whether government should cut spending now to shrink the debt, or keep investing in programs even if the deficit grows, dealing with debt later.",
+    "pole_a": {
+      "label": "Cut spending significantly to shrink the debt",
+      "could_help_you_if": [
+        "you're worried about long-term inflation, interest rates, or the debt burden on future generations",
+        "you don't rely heavily on federal programs and want government spending pared back",
+        "you'd rather see borrowing reduced even if it means slower spending growth"
+      ],
+      "could_cost_you_if": [
+        "you rely on federal programs, like grants, subsidies, or benefits, that could be reduced",
+        "you work for or with a government-funded program, contractor, or agency facing cuts",
+        "you want more public investment in things like infrastructure or education now, not later"
+      ]
+    },
+    "pole_c": {
+      "label": "Prioritize program investment over deficit reduction",
+      "could_help_you_if": [
+        "you rely on government programs or benefits that could expand or stay funded",
+        "you want more public investment in things like infrastructure, education, or healthcare now",
+        "you work in a field like construction, healthcare, or education that benefits from sustained public spending"
+      ],
+      "could_cost_you_if": [
+        "you're concerned a growing national debt could mean higher interest rates or taxes down the road",
+        "you worry rising debt could affect the economy your kids or grandkids inherit",
+        "you'd rather see fiscal restraint now even if it slows some programs"
+      ]
+    }
+  },
+  "social_security": {
+    "issue_id": "social_security",
+    "plain_summary": "This is about whether Social Security should be restructured, like raising the retirement age or adding private options, to stay solvent, or expanded by raising benefits and taxing high earners' wages more.",
+    "pole_a": {
+      "label": "Restructure benefits (raise age, private options) for solvency",
+      "could_help_you_if": [
+        "you're younger and worried the system won't be there for you unless it changes now",
+        "you want more control over your own retirement savings through private options",
+        "you're a high earner whose wages above the current payroll-tax cap wouldn't be taxed further"
+      ],
+      "could_cost_you_if": [
+        "you're near retirement age and planning around current rules — a higher retirement age or benefit changes could affect you directly",
+        "you rely heavily on Social Security as your main retirement income",
+        "you're not comfortable managing private retirement accounts yourself"
+      ]
+    },
+    "pole_c": {
+      "label": "Expand benefits; lift the payroll-tax cap",
+      "could_help_you_if": [
+        "you rely on Social Security as your main source of retirement income",
+        "you're near or in retirement and want benefits protected or increased, not restructured",
+        "you're a low- or middle-income worker who wouldn't be affected by a higher payroll-tax cap"
+      ],
+      "could_cost_you_if": [
+        "you're a high earner — you'd likely pay payroll tax on a larger share of your income",
+        "you're a business owner who also pays a matching payroll tax on high-earning employees",
+        "you'd rather see structural changes now than rely on new revenue later"
+      ]
+    }
+  },
+  "medicare_medicaid": {
+    "issue_id": "medicare_medicaid",
+    "plain_summary": "This is about whether Medicare and Medicaid should restrain costs through things like work requirements and more private-plan administration, or expand who qualifies and what's covered.",
+    "pole_a": {
+      "label": "Restrain costs: eligibility requirements, private plans",
+      "could_help_you_if": [
+        "you're a taxpayer concerned about the long-term cost of these programs",
+        "you prefer private insurance-style plans and more choice within Medicare or Medicaid",
+        "you're not currently enrolled and want to see costs controlled before enrollment grows"
+      ],
+      "could_cost_you_if": [
+        "you rely on Medicaid and could face new work or eligibility requirements to keep coverage",
+        "you're on Medicare and could see more of your care managed through private plans instead of traditional Medicare",
+        "you have a disability or chronic condition and depend on current, broad eligibility rules"
+      ]
+    },
+    "pole_c": {
+      "label": "Expand eligibility and covered benefits",
+      "could_help_you_if": [
+        "you're uninsured or underinsured and could newly qualify for Medicaid",
+        "you're on Medicare or Medicaid and could see expanded benefits, like dental, vision, or long-term care",
+        "you have a low income and worry about meeting new eligibility requirements like work rules"
+      ],
+      "could_cost_you_if": [
+        "you're a taxpayer concerned about the rising cost of expanding these programs",
+        "you already have private coverage and could see your taxes help fund a larger public program",
+        "you prefer smaller government health programs with tighter eligibility"
+      ]
+    }
+  },
+  "abortion": {
+    "issue_id": "abortion",
+    "plain_summary": "This is about whether abortion law should mostly restrict or ban the procedure with limited exceptions, or guarantee broad legal access nationwide.",
+    "pole_a": {
+      "label": "Significant restrictions or a ban with limited exceptions",
+      "could_help_you_if": [
+        "your personal or religious values favor limiting or ending legal abortion",
+        "you want abortion law set by your own state rather than a single national rule"
+      ],
+      "could_cost_you_if": [
+        "you or someone you care about could need abortion access, including in a medical emergency, and might face new legal barriers depending on where you live",
+        "you live in or travel through a state where restrictions could mean traveling further or losing access altogether",
+        "you're a healthcare provider who could face new legal risk providing certain care"
+      ]
+    },
+    "pole_c": {
+      "label": "Broad legal protection nationwide",
+      "could_help_you_if": [
+        "you or someone you care about wants guaranteed abortion access regardless of what state you live in",
+        "you're a healthcare provider who wants clear, protected legal ability to offer this care",
+        "you want this decision left to the individual rather than restricted by law"
+      ],
+      "could_cost_you_if": [
+        "your personal or religious values oppose abortion and you want laws to reflect that more broadly",
+        "you want abortion policy decided locally, by your state, rather than set nationally"
+      ]
+    }
+  },
+  "guns": {
+    "issue_id": "guns",
+    "plain_summary": "This is about whether gun laws should stay as they are, or loosen, to protect current gun rights, or add new restrictions like broader background checks or limits on certain weapons.",
+    "pole_a": {
+      "label": "Protect gun rights; no new restrictions",
+      "could_help_you_if": [
+        "you own guns for hunting, sport, or self-defense and want to keep buying, owning, or carrying without new restrictions",
+        "you work in or rely on the firearms industry, like sales, manufacturing, or ranges",
+        "you live somewhere rural where guns are part of daily life, like hunting or pest control"
+      ],
+      "could_cost_you_if": [
+        "you're concerned about gun violence in your community and want more legal tools to help prevent it",
+        "you work in a school, hospital, or public venue and worry about the risk of mass-casualty events"
+      ]
+    },
+    "pole_c": {
+      "label": "Broader restrictions including assault-weapon limits",
+      "could_help_you_if": [
+        "you're concerned about gun violence, mass shootings, or accidental deaths and want more legal safeguards",
+        "you work in a school, hospital, or other public setting and want stronger safety rules"
+      ],
+      "could_cost_you_if": [
+        "you own guns and worry new restrictions could limit which guns you can buy or how you buy them",
+        "you work in the firearms industry and could see sales or manufacturing affected by new limits",
+        "you live somewhere rural and rely on firearms for hunting or property and pest management, and worry new rules could add cost or hassle"
+      ]
+    }
+  },
+  "civil_rights": {
+    "issue_id": "civil_rights",
+    "plain_summary": "This is about whether current anti-discrimination laws are enough, or whether they should be expanded and enforced more strongly, including new requirements on institutions.",
+    "pole_a": {
+      "label": "Existing protections are sufficient; avoid new mandates",
+      "could_help_you_if": [
+        "you run a business or institution and want to avoid new compliance requirements or paperwork",
+        "you feel existing civil-rights laws already cover the situations that matter most"
+      ],
+      "could_cost_you_if": [
+        "you've experienced discrimination that you feel current law doesn't clearly address",
+        "you belong to a group that could benefit from stronger enforcement of existing protections"
+      ]
+    },
+    "pole_c": {
+      "label": "Expand anti-discrimination protections and enforcement",
+      "could_help_you_if": [
+        "you've experienced or worry about discrimination and want stronger legal protection and enforcement",
+        "you belong to a group whose protections could expand under new or strengthened laws"
+      ],
+      "could_cost_you_if": [
+        "you run a business or institution — new mandates could mean added compliance costs or legal exposure",
+        "you're concerned expanded enforcement could increase lawsuits or regulatory burden on employers or schools"
+      ]
+    }
+  },
+  "lgbtq": {
+    "issue_id": "lgbtq",
+    "plain_summary": "This is about whether LGBTQ+ policy should mostly be decided by states, parents, and religious institutions, or guaranteed and expanded through federal anti-discrimination law.",
+    "pole_a": {
+      "label": "Defer to states, parents, and religious exemptions",
+      "could_help_you_if": [
+        "you run a religious organization or school and want to keep your own policies without new federal mandates",
+        "you're a parent who wants more say over decisions affecting your children in this area",
+        "you'd rather these decisions be handled locally, by your state, than under one federal standard"
+      ],
+      "could_cost_you_if": [
+        "you're LGBTQ+ or have LGBTQ+ family and worry protections could vary a lot depending on where you live",
+        "you or a family member could face different rights or protections just by crossing a state line"
+      ]
+    },
+    "pole_c": {
+      "label": "Pass expanded federal anti-discrimination protections",
+      "could_help_you_if": [
+        "you're LGBTQ+ or have LGBTQ+ family and want the same protections no matter what state you're in",
+        "you want a single, clear federal standard instead of a patchwork of state rules"
+      ],
+      "could_cost_you_if": [
+        "you run a religious organization or school and worry new federal rules could conflict with your beliefs or policies",
+        "you're a parent who wants more local or personal control over policies that affect your kids, rather than a federal standard"
+      ]
+    }
+  },
+  "foreign_policy": {
+    "issue_id": "foreign_policy",
+    "plain_summary": "This is about whether the country should pull back from foreign commitments to focus on issues at home, or stay actively engaged abroad through alliances, aid, and international institutions.",
+    "pole_a": {
+      "label": "Reduce foreign commitments; focus at home",
+      "could_help_you_if": [
+        "you want tax dollars spent on domestic priorities instead of foreign aid or overseas commitments",
+        "you're a veteran or have family who served overseas and would rather see fewer future deployments"
+      ],
+      "could_cost_you_if": [
+        "you work in an export-driven industry that depends on strong international relationships and trade",
+        "you have family, business, or humanitarian ties abroad that depend on stable U.S. alliances or aid programs"
+      ]
+    },
+    "pole_c": {
+      "label": "Strong alliances and active global leadership",
+      "could_help_you_if": [
+        "you work in an industry tied to international trade, diplomacy, or defense contracting",
+        "you have family, business, or humanitarian ties abroad that benefit from active U.S. engagement"
+      ],
+      "could_cost_you_if": [
+        "you want government spending focused at home rather than on foreign aid or alliances",
+        "you're a veteran, active-duty service member, or have family who serves — more overseas commitments could mean more deployments"
+      ]
+    }
+  },
+  "national_security": {
+    "issue_id": "national_security",
+    "plain_summary": "This is about whether government should have broader surveillance and enforcement powers to prevent threats, or face stricter limits to protect individual privacy and civil liberties.",
+    "pole_a": {
+      "label": "Broader surveillance and enforcement tools",
+      "could_help_you_if": [
+        "you feel safer knowing law enforcement and intelligence agencies have more tools to detect threats",
+        "you work in law enforcement, intelligence, or security and would have more authority and resources"
+      ],
+      "could_cost_you_if": [
+        "you value personal privacy and worry about your communications or data being monitored",
+        "you're part of a community that has historically been disproportionately surveilled or targeted"
+      ]
+    },
+    "pole_c": {
+      "label": "Stricter limits to protect civil liberties",
+      "could_help_you_if": [
+        "you value personal privacy and want stronger legal limits on government surveillance",
+        "you're part of a community concerned about being disproportionately targeted by broad security powers"
+      ],
+      "could_cost_you_if": [
+        "you work in law enforcement or intelligence and could have fewer tools or slower processes",
+        "you feel stricter limits could make it harder to detect or prevent certain threats before they happen"
+      ]
+    }
+  },
+  "defense": {
+    "issue_id": "defense",
+    "plain_summary": "This is about whether government should spend more on the military and defense, or spend less and redirect that money to domestic priorities.",
+    "pole_a": {
+      "label": "Increase defense spending",
+      "could_help_you_if": [
+        "you're a veteran, active-duty service member, or have family who serves — more spending could mean better pay, equipment, or benefits",
+        "you work in defense manufacturing or for a military contractor — more spending could mean more jobs and contracts",
+        "you want a larger military presence to deter potential threats"
+      ],
+      "could_cost_you_if": [
+        "you want more federal money going to domestic programs, like healthcare, education, or infrastructure, instead",
+        "you're concerned higher defense spending adds to the deficit or crowds out other priorities"
+      ]
+    },
+    "pole_c": {
+      "label": "Reduce defense spending",
+      "could_help_you_if": [
+        "you want more federal money redirected to domestic programs you rely on, like healthcare, education, or infrastructure",
+        "you're concerned about the size of military spending relative to other national needs"
+      ],
+      "could_cost_you_if": [
+        "you're a veteran, active-duty service member, or have family who serves — cuts could affect equipment, benefits, or base resources",
+        "you work in defense manufacturing or for a military contractor — your job or contracts could be affected"
+      ]
+    }
+  },
+  "trade": {
+    "issue_id": "trade",
+    "plain_summary": "This is about whether trade policy should use tariffs to protect domestic industries and jobs, or reduce tariffs and expand free trade to lower costs and open markets.",
+    "pole_a": {
+      "label": "Use tariffs to protect domestic industries",
+      "could_help_you_if": [
+        "you work in a domestic industry, like manufacturing, steel, or agriculture, that competes with imports",
+        "you want to see more products made domestically rather than imported"
+      ],
+      "could_cost_you_if": [
+        "you buy imported goods regularly — tariffs can raise prices on things you buy",
+        "you run a business that relies on imported parts or materials — your costs could rise",
+        "you work in an export-driven industry that could face retaliation tariffs from other countries"
+      ]
+    },
+    "pole_c": {
+      "label": "Reduce tariffs; expand free-trade agreements",
+      "could_help_you_if": [
+        "you buy imported goods regularly — lower tariffs could mean lower prices",
+        "you run a business that depends on imported materials or exports goods abroad"
+      ],
+      "could_cost_you_if": [
+        "you work in an industry that competes directly with imports, like manufacturing, steel, textiles, or agriculture",
+        "you live in a community whose main employer competes with lower-cost imports"
+      ]
+    }
+  },
+  "ai_tech": {
+    "issue_id": "ai_tech",
+    "plain_summary": "This is about whether AI and tech policy should stay light-touch to keep innovation moving fast, or add strong safety, auditing, and accountability rules.",
+    "pole_a": {
+      "label": "Minimal regulation; prioritize innovation",
+      "could_help_you_if": [
+        "you work in tech, AI, or a startup — fewer rules could mean faster development and lower compliance costs",
+        "you want new AI tools and products to reach you, as a consumer or business, faster"
+      ],
+      "could_cost_you_if": [
+        "you're concerned about AI risks like job displacement, bias, misinformation, or safety failures, with limited legal recourse",
+        "you work in a field like creative work, customer service, or data entry that could be disrupted with fewer protections"
+      ]
+    },
+    "pole_c": {
+      "label": "Comprehensive AI safety and accountability rules",
+      "could_help_you_if": [
+        "you're concerned about AI risks like bias, safety, job loss, or misinformation and want legal accountability",
+        "you work in a field that could be affected by AI and want stronger rules on how it's deployed"
+      ],
+      "could_cost_you_if": [
+        "you work in tech, AI, or a startup — new compliance, audits, or liability rules could slow your work or raise costs",
+        "you want to see new AI tools and products reach the market quickly without waiting on regulatory approval"
+      ]
+    }
+  },
+  "privacy": {
+    "issue_id": "privacy",
+    "plain_summary": "This is about whether personal data protection should mostly be left to industry standards, or governed by a strong federal privacy law with real enforcement.",
+    "pole_a": {
+      "label": "Let industry standards lead; minimal federal rules",
+      "could_help_you_if": [
+        "you run a business that collects customer data and want to avoid new compliance costs",
+        "you work in tech, marketing, or data industries that rely on flexible data practices"
+      ],
+      "could_cost_you_if": [
+        "you're concerned about your personal data being collected, sold, or breached with limited legal recourse",
+        "you've been affected by a data breach or unwanted data use and want stronger legal protection"
+      ]
+    },
+    "pole_c": {
+      "label": "Strict federal privacy law with strong enforcement",
+      "could_help_you_if": [
+        "you're concerned about your personal data being collected, sold, or breached, and want stronger legal protection and the ability to sue",
+        "you want more control and transparency over how companies use your data"
+      ],
+      "could_cost_you_if": [
+        "you run a business that collects customer data — new compliance rules and potential lawsuits could raise your costs",
+        "you work in tech, marketing, or data industries where new rules could limit how you operate"
+      ]
+    }
+  },
+  "infrastructure": {
+    "issue_id": "infrastructure",
+    "plain_summary": "This is about whether roads, transit, and broadband should mostly be built and funded through private investment and user fees, or through large-scale federal spending.",
+    "pole_a": {
+      "label": "Rely on private investment and public-private partnerships",
+      "could_help_you_if": [
+        "you want to avoid new taxes and would rather pay for infrastructure through tolls or fees as you use it",
+        "you work in private construction, finance, or infrastructure investment"
+      ],
+      "could_cost_you_if": [
+        "you rely on public transit, rural broadband, or roads that may not attract private investment",
+        "you live in a lower-income or rural area that private investors may see as less profitable to serve"
+      ]
+    },
+    "pole_c": {
+      "label": "Large federal investment including transit and broadband",
+      "could_help_you_if": [
+        "you rely on public transit, need better rural broadband, or live somewhere with aging roads and bridges",
+        "you work in construction, engineering, or a related trade that benefits from public infrastructure projects"
+      ],
+      "could_cost_you_if": [
+        "you're a taxpayer concerned about the cost of large federal infrastructure programs",
+        "you'd rather see infrastructure funded by users, through tolls or fees, than by broad taxation"
+      ]
+    }
+  },
+  "small_business": {
+    "issue_id": "small_business",
+    "plain_summary": "This is about whether small businesses are helped more by cutting their taxes and red tape, or by government grants, loans, and antitrust action against big competitors.",
+    "pole_a": {
+      "label": "Cut small-business regulation and taxes",
+      "could_help_you_if": [
+        "you own or run a small business and want fewer regulations and lower taxes to manage",
+        "you're starting a business and want fewer barriers to opening and operating",
+        "you'd rather compete on your own than rely on government grant programs"
+      ],
+      "could_cost_you_if": [
+        "you're a small-business owner who relies on government grants or loan programs that might shrink",
+        "you compete against large corporations and want more direct government action against unfair competition, not just tax cuts"
+      ]
+    },
+    "pole_c": {
+      "label": "Public programs and antitrust enforcement to level the field",
+      "could_help_you_if": [
+        "you own or run a small business and could qualify for grants, loans, or support programs",
+        "you compete against large corporations and want antitrust enforcement to level the playing field"
+      ],
+      "could_cost_you_if": [
+        "you own a small business and would rather have lower taxes and fewer rules than new government programs",
+        "you run a larger company that could face more antitrust scrutiny"
+      ]
+    }
+  },
+  "labor": {
+    "issue_id": "labor",
+    "plain_summary": "This is about whether workplaces should have fewer union and labor mandates and more flexibility, or stronger union rights and worker protections.",
+    "pole_a": {
+      "label": "Right-to-work laws; fewer union and workplace mandates",
+      "could_help_you_if": [
+        "you're a business owner who wants more flexibility in hiring, wages, and workplace rules",
+        "you don't want to be required to join or financially support a union as a condition of your job",
+        "you work a flexible or gig-style job that suits you outside traditional union rules"
+      ],
+      "could_cost_you_if": [
+        "you're a union member, or want to organize a union, and this could make organizing harder or unions weaker",
+        "you work in a lower-wage industry where union bargaining is one of your main tools to raise pay or benefits"
+      ]
+    },
+    "pole_c": {
+      "label": "Strengthen union organizing rights and protections",
+      "could_help_you_if": [
+        "you're a union member, or want to organize a union at your workplace, and this could make it easier",
+        "you work in an industry where collective bargaining is a major way workers negotiate pay and conditions"
+      ],
+      "could_cost_you_if": [
+        "you're a business owner — stronger union rules could raise your labor costs or limit your flexibility",
+        "you don't want to be required to join or pay dues to a union as a condition of employment"
+      ]
+    }
+  },
+  "elections": {
+    "issue_id": "elections",
+    "plain_summary": "This is about whether elections should have stricter rules like voter ID and limited mail voting to guard against fraud, or expand access through things like automatic registration and broader mail voting.",
+    "pole_a": {
+      "label": "Stricter rules: voter ID and limits on mail voting",
+      "could_help_you_if": [
+        "you want more uniform ID and verification requirements at the polls",
+        "you're skeptical of mail-in voting and prefer in-person voting with stricter checks"
+      ],
+      "could_cost_you_if": [
+        "you don't have easy access to the required ID, or rely on mail voting due to disability, distance, or your work schedule",
+        "you're a student or move often, and registering or getting a new ID each time could be a hassle"
+      ]
+    },
+    "pole_c": {
+      "label": "Expand voting access with federal standards",
+      "could_help_you_if": [
+        "you rely on mail voting or automatic registration because of disability, distance, work schedule, or lack of transportation",
+        "you're a student or move often, and easier registration or mail voting could help you stay eligible to vote"
+      ],
+      "could_cost_you_if": [
+        "you're concerned about election security and want stricter verification before expanding access",
+        "you'd rather see election rules set locally, by your state, than by a federal standard"
+      ]
+    }
+  },
+  "ethics": {
+    "issue_id": "ethics",
+    "plain_summary": "This is about whether government ethics rules are already enough and just need better enforcement, or need sweeping new reforms like banning lawmakers from stock trading or limiting lobbying and terms.",
+    "pole_a": {
+      "label": "Enforce existing rules; avoid new restrictions",
+      "could_help_you_if": [
+        "you're a current or aspiring officeholder, staffer, or lobbyist who wants to avoid new restrictions on outside activities",
+        "you think existing disclosure and ethics rules are enough if they're actually enforced"
+      ],
+      "could_cost_you_if": [
+        "you're frustrated by perceived conflicts of interest, like lawmakers trading stock, and want stronger new rules, not just enforcement of old ones",
+        "you feel current enforcement is already too weak, so relying on existing rules may not change much"
+      ]
+    },
+    "pole_c": {
+      "label": "Sweeping reforms: trading bans, lobbying limits",
+      "could_help_you_if": [
+        "you're frustrated by perceived conflicts of interest in government and want new, stronger rules like stock-trading bans or term limits",
+        "you want to reduce the influence of lobbyists and long-tenured incumbents"
+      ],
+      "could_cost_you_if": [
+        "you're a lawmaker, staffer, or lobbyist whose current activities, like trading, advocacy work, or tenure, could be newly restricted",
+        "you think new mandatory rules could be difficult or costly to enforce compared to existing law"
+      ]
+    }
+  },
+  "judiciary": {
+    "issue_id": "judiciary",
+    "plain_summary": "This is about whether judges should mainly interpret the Constitution and laws by their original text and intent, or interpret them as evolving to fit modern society.",
+    "pole_a": {
+      "label": "Originalist / textualist judges",
+      "could_help_you_if": [
+        "you want legal rulings to stay closely tied to the original text and intent of the Constitution and laws",
+        "you tend to support outcomes, like broader gun rights, religious-liberty protections, or limits on federal regulatory power, that this approach has often favored"
+      ],
+      "could_cost_you_if": [
+        "you tend to support outcomes, like abortion access, LGBTQ+ protections, or broader federal regulatory power, that this approach has often narrowed",
+        "you'd rather judges weigh how society and technology have changed than stick strictly to original text"
+      ]
+    },
+    "pole_c": {
+      "label": "Living-constitution judges",
+      "could_help_you_if": [
+        "you tend to support outcomes, like privacy rights, civil-rights protections, or federal regulatory power, that this approach has often favored",
+        "you want the law to adapt more readily to new social and technological circumstances"
+      ],
+      "could_cost_you_if": [
+        "you tend to support outcomes, like gun rights, religious liberty, or limits on federal power, that this approach has often narrowed",
+        "you prefer more predictable, text-bound rulings over judges weighing evolving social context"
+      ]
+    }
+  }
+}

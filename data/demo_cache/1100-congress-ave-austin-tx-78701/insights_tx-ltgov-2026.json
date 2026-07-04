@@ -4,29 +4,21 @@
     "collier-mike": [
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
-        "text": "No public data in our set connects Mike Collier's recorded background or positions specifically to property taxes or public school funding."
-      },
-      {
-        "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
-        "text": "No public data in our set on Mike Collier's recorded votes or stated positions regarding property taxes or public school funding."
+        "text": "No public data in our set ties Mike Collier's background, votes, or stated positions to property taxes or public school funding."
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ],
     "cristo-anthony": [
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
-        "text": "No public data in our set connects Anthony Cristo's recorded background or positions specifically to property taxes or public school funding."
-      },
-      {
-        "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
-        "text": "No public data in our set on Anthony Cristo's recorded votes or stated positions regarding property taxes or public school funding."
+        "text": "No public data in our set ties Anthony Cristo's background, votes, or stated positions to property taxes or public school funding."
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ],
     "goodwin-vikki": [
@@ -36,21 +28,17 @@
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ],
     "mccormick-kevin": [
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
-        "text": "No public data in our set connects Kevin McCormick's recorded background or positions specifically to property taxes or public school funding."
-      },
-      {
-        "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
-        "text": "No public data in our set on Kevin McCormick's recorded votes or stated positions regarding property taxes or public school funding."
+        "text": "No public data in our set ties Kevin McCormick's background, votes, or stated positions to property taxes or public school funding."
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ],
     "patrick-dan": [
@@ -60,15 +48,16 @@
       },
       {
         "source": "https://www.danpatrick.org/school-choice-passes/",
-        "text": "On education, Dan Patrick's recorded position: Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership. The program prioritizes students with disabilities and lower-income families but is universally available."
+        "text": "On education, Dan Patrick's recorded position: Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership.\u2026"
       },
       {
         "source": "https://www.ethics.state.tx.us/search/cf/",
-        "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
+        "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding."
       }
     ]
   },
   "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "generated_at": "2026-07-03",
   "horizons": {
     "collier-mike": {
       "long_term": [],

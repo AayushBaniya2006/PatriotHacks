@@ -4,14 +4,17 @@
 Resolves TX districts (CD/SD/HD/county) for the 8 addresses the demo's
 fallback path depends on -- the 3 precache addresses
 (pipeline/precache_demo.py's ADDRESSES) plus the 5 QUALITY.md golden
-demo-district addresses -- and writes data/tx/geocode_seed.json: a small,
-git-committed, read-only warm layer that app/datastore.py consults ahead of
-the live Census geocoder (see its "Geocode cache" docstring section). This
-makes those 8 addresses resolve correctly even on a cold restart with an
-empty runtime cache and no network access to the Census geocoder.
+demo-district addresses -- plus the 20 curated Austin/Central-Texas addresses
+in AUSTIN_DEMO_ADDRESSES below (see data/tx/AUSTIN_DEMO.md) -- and writes
+data/tx/geocode_seed.json: a small, git-committed, read-only warm layer that
+app/datastore.py consults ahead of the live Census geocoder (see its
+"Geocode cache" docstring section). This makes those addresses resolve
+correctly even on a cold restart with an empty runtime cache and no network
+access to the Census geocoder.
 
 Contains no user data -- only our own demo/golden addresses, all real, public
-civic buildings (courthouses / city halls) already named in QUALITY.md.
+civic buildings (courthouses / city halls / campuses / parks) already named
+in QUALITY.md or data/tx/AUSTIN_DEMO.md.
 
 Each address is resolved by, in order:
   1. Reusing an existing hit in the runtime cache (data/geocode_cache.json)
@@ -62,6 +65,40 @@ FALLBACK_GOLDEN_ADDRESSES = [
     "100 W Cano St, Edinburg, TX 78539",
     "500 E San Antonio Ave, El Paso, TX 79901",
     "255 Parkway Blvd, Coppell, TX 75019",
+]
+
+# 20 curated Austin/Central-Texas addresses (data/tx/AUSTIN_DEMO.md) -- real,
+# public, geocodable civic buildings/campuses/landmarks picked because Travis
+# County alone splits across several US House districts (TX-10, TX-17,
+# TX-21, TX-31, TX-35, TX-37 verified below), so Austin demonstrates several
+# different ballots from one metro area. Excludes "1100 Congress Ave, Austin,
+# TX 78701" (Texas Capitol) and "601 University Dr, San Marcos, TX 78666"
+# (San Marcos), both already covered above as a precache/golden address --
+# adding them again here would just be a redundant re-resolve of the same
+# normalized key. Verified live against the Census geocoder the same way as
+# every other address in this file; each entry's resolved CD/SD/HD/county is
+# recorded in data/tx/AUSTIN_DEMO.md.
+AUSTIN_DEMO_ADDRESSES = [
+    "301 W 2nd St, Austin, TX 78701",  # Austin City Hall (downtown, Travis Co)
+    "110 Inner Campus Dr, Austin, TX 78712",  # UT Austin Main Building/Tower
+    "10414 McKalla Pl, Austin, TX 78758",  # Q2 Stadium (Domain/North Austin)
+    "900 Chicon St, Austin, TX 78702",  # Huston-Tillotson University (East Austin)
+    "701 W Riverside Dr, Austin, TX 78704",  # Long Center for the Performing Arts (South Austin)
+    "3600 Presidential Blvd, Austin, TX 78719",  # Austin-Bergstrom Intl Airport (SE Travis Co)
+    "221 E Main St, Round Rock, TX 78664",  # Round Rock City Hall (Williamson Co)
+    "450 Cypress Creek Rd, Cedar Park, TX 78613",  # Cedar Park City Hall (Williamson Co)
+    "710 S Main St, Georgetown, TX 78626",  # Williamson County Courthouse (Georgetown)
+    "1102 Lohmans Crossing Rd, Lakeway, TX 78734",  # Lakeway City Hall (west Travis Co, Hill Country)
+    "105 E Eggleston St, Manor, TX 78653",  # Manor City Hall (east Travis Co)
+    "201 E Pecan St, Pflugerville, TX 78660",  # Pflugerville City Hall (Travis Co)
+    "511 Sportsplex Dr, Dripping Springs, TX 78620",  # Dripping Springs Ranch Park (Hays Co, Hill Country)
+    "710 W Cesar Chavez St, Austin, TX 78701",  # Austin Central Library (downtown, Travis Co)
+    "2100 Barton Springs Rd, Austin, TX 78704",  # Zilker Park (South Austin, Travis Co)
+    "11410 Century Oaks Ter, Austin, TX 78758",  # The Domain (shopping/entertainment district, North Austin)
+    "100 E Main St, Pflugerville, TX 78660",  # Pflugerville -- alternate downtown address (Travis Co)
+    "808 Martin Luther King Jr St, Georgetown, TX 78626",  # Georgetown -- downtown/Williamson Co offices (alternate address)
+    "630 E Hopkins St, San Marcos, TX 78666",  # San Marcos downtown square (Hays Co; distinct from the 601 University Dr precache address)
+    "100 W Center St, Kyle, TX 78640",  # Kyle City Hall (Hays Co)
 ]
 
 
@@ -238,7 +275,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     parser.add_argument("--force", action="store_true", help="re-resolve live even if already in the runtime cache")
     args = parser.parse_args(argv)
 
-    addresses = resolve_precache_addresses() + resolve_golden_addresses()
+    addresses = resolve_precache_addresses() + resolve_golden_addresses() + AUSTIN_DEMO_ADDRESSES
     runtime_cache = _load_runtime_cache()
     seeded_at = datetime.date.today().isoformat()
 
