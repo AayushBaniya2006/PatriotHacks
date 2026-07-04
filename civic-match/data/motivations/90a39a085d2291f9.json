@@ -1,0 +1,36 @@
+{
+  "hook": "Bob, you're uninsured, you teach, and you own a home—three reasons this ballot hits you directly.",
+  "because": [
+    {
+      "text": "you should vote because the Governor appoints the Secretary of State who oversees elections and controls the Texas Transportation Commission and Parks and Wildlife Commission, shaping infrastructure and land use where you own property",
+      "source": {
+        "title": "Governor of Texas",
+        "url": "https://en.wikipedia.org/wiki/Governor_of_Texas"
+      }
+    },
+    {
+      "text": "you should vote because the Attorney General controls statewide consumer-protection litigation and antitrust enforcement—relevant to your priority on inflation and cost of living—with candidates diverging 90 points on anti-gouging intervention versus spending cuts to lower prices",
+      "source": {
+        "title": "Bust Monopolies Petition - Clayton Tucker for TX Ag Commissioner",
+        "url": "https://www.claytontuckertx.com/fight_corporate_consolidation"
+      }
+    },
+    {
+      "text": "you should vote because the Lieutenant Governor appoints all Senate committee chairs and co-chairs the Legislative Budget Board that writes the state budget, deciding education funding and whether teacher pay raises reach your classroom",
+      "source": {
+        "title": "Lieutenant Governor of Texas",
+        "url": "https://ballotpedia.org/Lieutenant_Governor_of_Texas"
+      }
+    },
+    {
+      "text": "you should vote because Texas maintains the nation's highest uninsured rate with no Medicaid expansion expected under current leadership, while rural hospital closures accelerate—a direct risk to you as an uninsured homeowner in a state where 45.85% of registered voters sat out the last governor's race",
+      "source": {
+        "title": "2022 Texas gubernatorial election",
+        "url": "https://en.wikipedia.org/wiki/2022_Texas_gubernatorial_election"
+      }
+    }
+  ],
+  "if_you_vote": "Your vote joins a pool where the 2022 governor's race was decided by 883,443 votes with under half of registered voters participating—meaning non-voters outnumbered the margin nearly 5-to-1. On your top issue of education, candidates diverge 100 points on public school investment versus voucher expansion, with the Governor holding line-item veto power over the entire state budget and the Lieutenant Governor controlling which bills reach the floor.",
+  "long_term": "The 2026 governor's race branches into two stark paths: continued Medicaid non-expansion and ESA voucher program growth under Abbott, or potential expansion insuring approximately one million Texans and $15,000 teacher raises under Hinojosa—though either path faces Republican legislative supermajorities. Your vote in 2026 compounds into 2028 redistricting, judicial appointments, and whether Texas continues $11 billion border operations or redirects those funds, with the Attorney General's antitrust stance shaping market concentration and prices through the decade.",
+  "cta": "Make a plan: check your registration at votetexas.gov and mark November 3, 2026."
+}
