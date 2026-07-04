@@ -9,7 +9,11 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
         },
         {
-          "text": "Mayes Middleton's recorded background: Mayes Middleton, state senator from the 11th district (2023\u2013present).",
+          "text": "On immigration, Mayes Middleton's recorded position: Middleton's attorney general campaign platform pledges to sue to stop so-called 'sanctuary cities' from 'ignoring the law and harboring illegal criminals' and to 'aggressively enforce President Trump's border security agenda and deportation orders.'",
+          "source": "https://mayesmiddleton.com/"
+        },
+        {
+          "text": "Mayes Middleton's recorded background: Mayes Middleton is a Republican state senator representing Senate District 11 (elected 2022, serving since January 2023) who previously served two terms in the Texas House (2019-2023) chairing the Texas House Freedom Caucus; he is president of Middleton Oil Company, an independent oil and gas firm, and is the Republican nominee for Texas Attorney General in 2026.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
         },
         {
@@ -23,7 +27,11 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
         },
         {
-          "text": "Nathan Johnson's recorded background: Nathan Johnson, state senator from the 16th district (2019\u2013present).",
+          "text": "On education, Nathan Johnson's recorded position: Johnson has said he would not defend Texas's law requiring the Ten Commandments be displayed in public school classrooms if elected attorney general, calling it unconstitutional: 'I will not defend the legislature's passage of a requirement that schools place the Ten Commandments in classrooms because it's unconstitutional.'",
+          "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/"
+        },
+        {
+          "text": "Nathan Johnson's recorded background: Nathan Johnson is a Democratic state senator representing Senate District 16 in Dallas County (since January 2019) and a business litigator at Thompson Coburn LLP; he is the Democratic nominee for Texas Attorney General in 2026 after winning a May 2026 primary runoff.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
         },
         {
@@ -37,7 +45,7 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
         },
         {
-          "text": "Tom Oxford's recorded background: Tom Oxford (Libertarian), attorney and perennial candidate",
+          "text": "Tom Oxford's recorded background: Tom Oxford is a Beaumont, Texas attorney who has practiced personal injury and immigration law with the Waldman Smallwood firm; running as the Libertarian Party's nominee, he previously ran unsuccessfully for the Texas Supreme Court, Place 3, in 2022.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
         },
         {
@@ -52,22 +60,36 @@
       "middleton-mayes": {
         "now": [
           {
-            "text": "No recorded evidence in our set to project from for Mayes Middleton.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-            "basis": "none"
+            "text": "On immigration, Mayes Middleton's recorded position is: \"Middleton's attorney general campaign platform pledges to sue to stop so-called 'sanctuary cities' from 'ignoring the law and harboring illegal criminals' and to 'aggressively enforce President Trump's border security agenda and deportation orders.'\" That's where Mayes Middleton stands right now, this term.",
+            "source": "https://mayesmiddleton.com/",
+            "basis": "position: immigration"
           }
         ],
-        "long_term": []
+        "long_term": [
+          {
+            "text": "If Mayes Middleton's recorded position on immigration holds and becomes sustained policy, it would likely keep shaping this issue the same way over the next decade. This is a projection, not a guarantee.",
+            "source": "https://mayesmiddleton.com/",
+            "basis": "position: immigration",
+            "assumption": "Assumes Mayes Middleton keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+          }
+        ]
       },
       "johnson-nathan": {
         "now": [
           {
-            "text": "No recorded evidence in our set to project from for Nathan Johnson.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-            "basis": "none"
+            "text": "On education, Nathan Johnson's recorded position is: \"Johnson has said he would not defend Texas's law requiring the Ten Commandments be displayed in public school classrooms if elected attorney general, calling it unconstitutional: 'I will not defend the legislature's passage of a requirement that schools place the Ten Commandments in classrooms because it's unconstitutional.'\" That's where Nathan Johnson stands right now, this term.",
+            "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+            "basis": "position: education"
           }
         ],
-        "long_term": []
+        "long_term": [
+          {
+            "text": "If Nathan Johnson's recorded position on education holds and becomes sustained policy, it would likely keep shaping this issue the same way over the next decade. This is a projection, not a guarantee.",
+            "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+            "basis": "position: education",
+            "assumption": "Assumes Nathan Johnson keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+          }
+        ]
       },
       "oxford-tom": {
         "now": [
@@ -166,12 +188,12 @@
       "candidates": {
         "middleton-mayes": [
           {
-            "text": "No public data in our set connects Mayes Middleton's recorded background or positions specifically to property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "text": "On education, Mayes Middleton's recorded position: In a January 2025 Senate committee hearing on Senate Bill 2 (education savings accounts), Middleton spoke in support of the program and said he expects it to 'create opportunities for more private schools to open that specialize in providing special education services.'",
+            "source": "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/"
           },
           {
-            "text": "No public data in our set on Mayes Middleton's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "text": "On education, Mayes Middleton's recorded position: State Sen. Mayes Middleton authored Senate Bill 176 (2023), which would create education savings accounts letting participating families receive 'the average amount of money it costs Texas public schools to educate each of their children' -- about $10,000 a year -- to spend on private-school tuition, online schooling, tutoring, or higher-education costs.",
+            "source": "https://www.fox4news.com/news/education-savings-account-texas"
           },
           {
             "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
@@ -180,12 +202,12 @@
         ],
         "johnson-nathan": [
           {
-            "text": "No public data in our set connects Nathan Johnson's recorded background or positions specifically to property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "text": "On education, Nathan Johnson's recorded position: Johnson has said he would not defend Texas's law requiring the Ten Commandments be displayed in public school classrooms if elected attorney general, calling it unconstitutional: 'I will not defend the legislature's passage of a requirement that schools place the Ten Commandments in classrooms because it's unconstitutional.'",
+            "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/"
           },
           {
-            "text": "No public data in our set on Nathan Johnson's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "text": "On taxes, Nathan Johnson's recorded position: On the Legislature's property-tax-cut package, Johnson said it had 'too much frosting on the cupcake' and was 'too big' given it relied on a one-time budget surplus, but that faced with an up-or-down vote he supported it: 'It's either property tax reduction, or no property tax reduction. And in principle, I support the whole thing.'",
+            "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849"
           },
           {
             "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
@@ -213,22 +235,58 @@
         "middleton-mayes": {
           "now": [
             {
-              "text": "No recorded evidence in our set to project from for Mayes Middleton on property taxes or public school funding.",
-              "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-              "basis": "none"
+              "text": "On education, Mayes Middleton's recorded position is: \"In a January 2025 Senate committee hearing on Senate Bill 2 (education savings accounts), Middleton spoke in support of the program and said he expects it to 'create opportunities for more private schools to open that specialize in providing special education services.'\" That's what people focused on property taxes or public school funding can expect from Mayes Middleton this term.",
+              "source": "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/",
+              "basis": "position: education"
+            },
+            {
+              "text": "On education, Mayes Middleton's recorded position is: \"State Sen. Mayes Middleton authored Senate Bill 176 (2023), which would create education savings accounts letting participating families receive 'the average amount of money it costs Texas public schools to educate each of their children' -- about $10,000 a year -- to spend on private-school tuition, online schooling, tutoring, or higher-education costs.\" That's what people focused on property taxes or public school funding can expect from Mayes Middleton this term.",
+              "source": "https://www.fox4news.com/news/education-savings-account-texas",
+              "basis": "position: education"
             }
           ],
-          "long_term": []
+          "long_term": [
+            {
+              "text": "If Mayes Middleton's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/",
+              "basis": "position: education",
+              "assumption": "Assumes Mayes Middleton keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            },
+            {
+              "text": "If Mayes Middleton's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.fox4news.com/news/education-savings-account-texas",
+              "basis": "position: education",
+              "assumption": "Assumes Mayes Middleton keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
         },
         "johnson-nathan": {
           "now": [
             {
-              "text": "No recorded evidence in our set to project from for Nathan Johnson on property taxes or public school funding.",
-              "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-              "basis": "none"
+              "text": "On education, Nathan Johnson's recorded position is: \"Johnson has said he would not defend Texas's law requiring the Ten Commandments be displayed in public school classrooms if elected attorney general, calling it unconstitutional: 'I will not defend the legislature's passage of a requirement that schools place the Ten Commandments in classrooms because it's unconstitutional.'\" That's what people focused on property taxes or public school funding can expect from Nathan Johnson this term.",
+              "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+              "basis": "position: education"
+            },
+            {
+              "text": "On taxes, Nathan Johnson's recorded position is: \"On the Legislature's property-tax-cut package, Johnson said it had 'too much frosting on the cupcake' and was 'too big' given it relied on a one-time budget surplus, but that faced with an up-or-down vote he supported it: 'It's either property tax reduction, or no property tax reduction. And in principle, I support the whole thing.'\" That's what people focused on property taxes or public school funding can expect from Nathan Johnson this term.",
+              "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849",
+              "basis": "position: taxes"
             }
           ],
-          "long_term": []
+          "long_term": [
+            {
+              "text": "If Nathan Johnson's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+              "basis": "position: education",
+              "assumption": "Assumes Nathan Johnson keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            },
+            {
+              "text": "If Nathan Johnson's recorded position on taxes holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849",
+              "basis": "position: taxes",
+              "assumption": "Assumes Nathan Johnson keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
         },
         "oxford-tom": {
           "now": [
@@ -260,12 +318,8 @@
         ],
         "johnson-nathan": [
           {
-            "text": "No public data in our set connects Nathan Johnson's recorded background or positions specifically to small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "No public data in our set on Nathan Johnson's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "text": "On taxes, Nathan Johnson's recorded position: On the Legislature's property-tax-cut package, Johnson said it had 'too much frosting on the cupcake' and was 'too big' given it relied on a one-time budget surplus, but that faced with an up-or-down vote he supported it: 'It's either property tax reduction, or no property tax reduction. And in principle, I support the whole thing.'",
+            "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849"
           },
           {
             "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
@@ -303,12 +357,19 @@
         "johnson-nathan": {
           "now": [
             {
-              "text": "No recorded evidence in our set to project from for Nathan Johnson on small business taxes or regulation.",
-              "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-              "basis": "none"
+              "text": "On taxes, Nathan Johnson's recorded position is: \"On the Legislature's property-tax-cut package, Johnson said it had 'too much frosting on the cupcake' and was 'too big' given it relied on a one-time budget surplus, but that faced with an up-or-down vote he supported it: 'It's either property tax reduction, or no property tax reduction. And in principle, I support the whole thing.'\" That's what people focused on small business taxes or regulation can expect from Nathan Johnson this term.",
+              "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849",
+              "basis": "position: taxes"
             }
           ],
-          "long_term": []
+          "long_term": [
+            {
+              "text": "If Nathan Johnson's recorded position on taxes holds and becomes sustained policy, it would likely keep shaping small business taxes or regulation the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849",
+              "basis": "position: taxes",
+              "assumption": "Assumes Nathan Johnson keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
         },
         "oxford-tom": {
           "now": [
@@ -326,12 +387,8 @@
       "candidates": {
         "middleton-mayes": [
           {
-            "text": "No public data in our set connects Mayes Middleton's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "No public data in our set on Mayes Middleton's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "text": "On healthcare, Mayes Middleton's recorded position: In a candidate questionnaire, Middleton selected the position that 'Medicaid and Medicare should remain available, but no other taxpayer-funded [healthcare] programs are necessary,' and said he opposes government medical databases over concerns about 'abuse and violations of privacy.'",
+            "source": "https://ivoterguide.com/candidate/39321/race/28750/election/1433"
           },
           {
             "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
@@ -340,12 +397,8 @@
         ],
         "johnson-nathan": [
           {
-            "text": "No public data in our set connects Nathan Johnson's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "No public data in our set on Nathan Johnson's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "text": "On healthcare, Nathan Johnson's recorded position: Johnson's campaign site says that after seeing Texas's 'worst-in-the-nation uninsured rate,' he 'became the state's leading voice on Medicaid expansion' in the state Senate, and describes his work reforming 'the Texas marketplace to enable hundreds of thousands of Texans to buy private health insurance.'",
+            "source": "https://www.nathanfortexas.com/"
           },
           {
             "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
@@ -373,22 +426,36 @@
         "middleton-mayes": {
           "now": [
             {
-              "text": "No recorded evidence in our set to project from for Mayes Middleton on health coverage, the ACA, or Medicaid.",
-              "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-              "basis": "none"
+              "text": "On healthcare, Mayes Middleton's recorded position is: \"In a candidate questionnaire, Middleton selected the position that 'Medicaid and Medicare should remain available, but no other taxpayer-funded [healthcare] programs are necessary,' and said he opposes government medical databases over concerns about 'abuse and violations of privacy.'\" That's what people focused on health coverage, the ACA, or Medicaid can expect from Mayes Middleton this term.",
+              "source": "https://ivoterguide.com/candidate/39321/race/28750/election/1433",
+              "basis": "position: healthcare"
             }
           ],
-          "long_term": []
+          "long_term": [
+            {
+              "text": "If Mayes Middleton's recorded position on healthcare holds and becomes sustained policy, it would likely keep shaping health coverage, the ACA, or Medicaid the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://ivoterguide.com/candidate/39321/race/28750/election/1433",
+              "basis": "position: healthcare",
+              "assumption": "Assumes Mayes Middleton keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
         },
         "johnson-nathan": {
           "now": [
             {
-              "text": "No recorded evidence in our set to project from for Nathan Johnson on health coverage, the ACA, or Medicaid.",
-              "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-              "basis": "none"
+              "text": "On healthcare, Nathan Johnson's recorded position is: \"Johnson's campaign site says that after seeing Texas's 'worst-in-the-nation uninsured rate,' he 'became the state's leading voice on Medicaid expansion' in the state Senate, and describes his work reforming 'the Texas marketplace to enable hundreds of thousands of Texans to buy private health insurance.'\" That's what people focused on health coverage, the ACA, or Medicaid can expect from Nathan Johnson this term.",
+              "source": "https://www.nathanfortexas.com/",
+              "basis": "position: healthcare"
             }
           ],
-          "long_term": []
+          "long_term": [
+            {
+              "text": "If Nathan Johnson's recorded position on healthcare holds and becomes sustained policy, it would likely keep shaping health coverage, the ACA, or Medicaid the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.nathanfortexas.com/",
+              "basis": "position: healthcare",
+              "assumption": "Assumes Nathan Johnson keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
         },
         "oxford-tom": {
           "now": [
@@ -566,12 +633,12 @@
       "candidates": {
         "middleton-mayes": [
           {
-            "text": "No public data in our set connects Mayes Middleton's recorded background or positions specifically to higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "text": "On education, Mayes Middleton's recorded position: In a January 2025 Senate committee hearing on Senate Bill 2 (education savings accounts), Middleton spoke in support of the program and said he expects it to 'create opportunities for more private schools to open that specialize in providing special education services.'",
+            "source": "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/"
           },
           {
-            "text": "No public data in our set on Mayes Middleton's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "text": "On education, Mayes Middleton's recorded position: State Sen. Mayes Middleton authored Senate Bill 176 (2023), which would create education savings accounts letting participating families receive 'the average amount of money it costs Texas public schools to educate each of their children' -- about $10,000 a year -- to spend on private-school tuition, online schooling, tutoring, or higher-education costs.",
+            "source": "https://www.fox4news.com/news/education-savings-account-texas"
           },
           {
             "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
@@ -580,12 +647,8 @@
         ],
         "johnson-nathan": [
           {
-            "text": "No public data in our set connects Nathan Johnson's recorded background or positions specifically to higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
-          },
-          {
-            "text": "No public data in our set on Nathan Johnson's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "text": "On education, Nathan Johnson's recorded position: Johnson has said he would not defend Texas's law requiring the Ten Commandments be displayed in public school classrooms if elected attorney general, calling it unconstitutional: 'I will not defend the legislature's passage of a requirement that schools place the Ten Commandments in classrooms because it's unconstitutional.'",
+            "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/"
           },
           {
             "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
@@ -613,22 +676,47 @@
         "middleton-mayes": {
           "now": [
             {
-              "text": "No recorded evidence in our set to project from for Mayes Middleton on higher education funding or student costs.",
-              "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-              "basis": "none"
+              "text": "On education, Mayes Middleton's recorded position is: \"In a January 2025 Senate committee hearing on Senate Bill 2 (education savings accounts), Middleton spoke in support of the program and said he expects it to 'create opportunities for more private schools to open that specialize in providing special education services.'\" That's what people focused on higher education funding or student costs can expect from Mayes Middleton this term.",
+              "source": "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/",
+              "basis": "position: education"
+            },
+            {
+              "text": "On education, Mayes Middleton's recorded position is: \"State Sen. Mayes Middleton authored Senate Bill 176 (2023), which would create education savings accounts letting participating families receive 'the average amount of money it costs Texas public schools to educate each of their children' -- about $10,000 a year -- to spend on private-school tuition, online schooling, tutoring, or higher-education costs.\" That's what people focused on higher education funding or student costs can expect from Mayes Middleton this term.",
+              "source": "https://www.fox4news.com/news/education-savings-account-texas",
+              "basis": "position: education"
             }
           ],
-          "long_term": []
+          "long_term": [
+            {
+              "text": "If Mayes Middleton's recorded position on education holds and becomes sustained policy, it would likely keep shaping higher education funding or student costs the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/",
+              "basis": "position: education",
+              "assumption": "Assumes Mayes Middleton keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            },
+            {
+              "text": "If Mayes Middleton's recorded position on education holds and becomes sustained policy, it would likely keep shaping higher education funding or student costs the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.fox4news.com/news/education-savings-account-texas",
+              "basis": "position: education",
+              "assumption": "Assumes Mayes Middleton keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
         },
         "johnson-nathan": {
           "now": [
             {
-              "text": "No recorded evidence in our set to project from for Nathan Johnson on higher education funding or student costs.",
-              "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-              "basis": "none"
+              "text": "On education, Nathan Johnson's recorded position is: \"Johnson has said he would not defend Texas's law requiring the Ten Commandments be displayed in public school classrooms if elected attorney general, calling it unconstitutional: 'I will not defend the legislature's passage of a requirement that schools place the Ten Commandments in classrooms because it's unconstitutional.'\" That's what people focused on higher education funding or student costs can expect from Nathan Johnson this term.",
+              "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+              "basis": "position: education"
             }
           ],
-          "long_term": []
+          "long_term": [
+            {
+              "text": "If Nathan Johnson's recorded position on education holds and becomes sustained policy, it would likely keep shaping higher education funding or student costs the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+              "basis": "position: education",
+              "assumption": "Assumes Nathan Johnson keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
         },
         "oxford-tom": {
           "now": [

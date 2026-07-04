@@ -208,6 +208,14 @@
     font-size:.87rem;border-radius:var(--radius);
   }
   .insight-caveats{margin-top:8px;font-size:.78rem;color:var(--muted);font-style:italic;}
+  .horizon-block{margin-top:10px;padding-top:10px;border-top:1px dashed var(--rule);}
+  .horizon-label{
+    font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);
+    margin-bottom:4px;font-weight:600;
+  }
+  .horizon-label.projection{color:var(--accent);}
+  .horizon-bullet{font-size:.85rem;margin-bottom:6px;line-height:1.45;}
+  .horizon-assumption{display:block;font-size:.76rem;color:var(--muted);font-style:italic;margin-top:2px;}
 
   /* skeletons */
   .skel{background:linear-gradient(90deg,var(--rule) 25%,var(--paper) 50%,var(--rule) 75%);
@@ -372,7 +380,7 @@
 
   var OFFICE_BLURBS = [
     [/governor of texas|^governor$/i, "Runs the executive branch of Texas state government: signs or vetoes bills, oversees state agencies, and can call special legislative sessions."],
-    [/lieutenant governor/i, "Presides over the Texas Senate and controls which bills get a vote — one of the most powerful roles in Texas government."],
+    [/lieutenant governor/i, "Presides over the Texas Senate, assigns bills to committees, and controls which bills come up for a vote."],
     [/attorney general/i, "Texas's top lawyer: defends state laws in court, issues legal opinions, and enforces consumer-protection and election law."],
     [/comptroller/i, "Manages the state's finances, certifies the budget, and collects state taxes."],
     [/land commissioner/i, "Oversees state-owned lands, the Veterans Land Board, and coastal and mineral resources."],
@@ -704,12 +712,39 @@
       });
   }
 
+  function renderHorizons(horizonsForCand){
+    if (!horizonsForCand) return "";
+    var now = Array.isArray(horizonsForCand.now) ? horizonsForCand.now : [];
+    var longTerm = Array.isArray(horizonsForCand.long_term) ? horizonsForCand.long_term : [];
+    if (!now.length && !longTerm.length) return "";
+
+    var out = "";
+    if (now.length){
+      out += '<div class="horizon-block"><div class="horizon-label">Right now, this term</div>';
+      now.forEach(function(b){
+        out += '<div class="horizon-bullet">' + esc(b.text) + srcChip(b.source, "source") + '</div>';
+      });
+      out += '</div>';
+    }
+    if (longTerm.length){
+      out += '<div class="horizon-block"><div class="horizon-label projection">Looking further ahead — projection, not a guarantee</div>';
+      longTerm.forEach(function(b){
+        out += '<div class="horizon-bullet">' + esc(b.text) + srcChip(b.source, "source");
+        if (b.assumption) out += '<span class="horizon-assumption">Assumes: ' + esc(b.assumption) + '</span>';
+        out += '</div>';
+      });
+      out += '</div>';
+    }
+    return out;
+  }
+
   function renderInsights(data, race, area){
     var byId = {};
     (race.candidates || []).forEach(function(c){ byId[c.candidate_id || c.name] = c; });
 
     var html = "";
     var candidates = (data && data.candidates) || {};
+    var horizons = (data && data.horizons) || {};
     var ids = Object.keys(candidates);
     if (!ids.length){
       html += '<p class="empty-note">No personalized insights available for this race.</p>';
@@ -721,6 +756,7 @@
         (candidates[cid] || []).forEach(function(item){
           html += '<div class="insight-bullet">' + esc(item.text) + srcChip(item.source, "source") + '</div>';
         });
+        html += renderHorizons(horizons[cid]);
         html += '</div>';
       });
     }

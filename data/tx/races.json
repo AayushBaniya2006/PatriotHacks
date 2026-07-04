@@ -46,7 +46,7 @@
       "data_quality": {
         "score": 69.7,
         "tier": "B",
-        "demo_rank": 4
+        "demo_rank": 5
       }
     },
     {
@@ -66,9 +66,9 @@
         "last_result": "Incumbent prior to 2026: Ken Paxton"
       },
       "data_quality": {
-        "score": 65.2,
+        "score": 73.3,
         "tier": "B",
-        "demo_rank": 5
+        "demo_rank": 3
       }
     },
     {
@@ -153,7 +153,7 @@
       "data_quality": {
         "score": 70.8,
         "tier": "B",
-        "demo_rank": 3
+        "demo_rank": 4
       }
     },
     {
@@ -180,7 +180,7 @@
     },
     {
       "race_id": "tx-cd01-2026",
-      "office": "U.S. House of Representatives, TX-01",
+      "office": "U.S. Representative, TX-01",
       "level": "federal",
       "district": "TX-01",
       "candidate_ids": [
@@ -209,7 +209,7 @@
     },
     {
       "race_id": "tx-cd02-2026",
-      "office": "U.S. House of Representatives, TX-02",
+      "office": "U.S. Representative, TX-02",
       "level": "federal",
       "district": "TX-02",
       "candidate_ids": [
@@ -237,7 +237,7 @@
     },
     {
       "race_id": "tx-cd03-2026",
-      "office": "U.S. House of Representatives, TX-03",
+      "office": "U.S. Representative, TX-03",
       "level": "federal",
       "district": "TX-03",
       "candidate_ids": [
@@ -266,7 +266,7 @@
     },
     {
       "race_id": "tx-cd04-2026",
-      "office": "U.S. House of Representatives, TX-04",
+      "office": "U.S. Representative, TX-04",
       "level": "federal",
       "district": "TX-04",
       "candidate_ids": [
@@ -295,7 +295,7 @@
     },
     {
       "race_id": "tx-cd05-2026",
-      "office": "U.S. House of Representatives, TX-05",
+      "office": "U.S. Representative, TX-05",
       "level": "federal",
       "district": "TX-05",
       "candidate_ids": [
@@ -324,7 +324,7 @@
     },
     {
       "race_id": "tx-cd06-2026",
-      "office": "U.S. House of Representatives, TX-06",
+      "office": "U.S. Representative, TX-06",
       "level": "federal",
       "district": "TX-06",
       "candidate_ids": [
@@ -352,7 +352,7 @@
     },
     {
       "race_id": "tx-cd07-2026",
-      "office": "U.S. House of Representatives, TX-07",
+      "office": "U.S. Representative, TX-07",
       "level": "federal",
       "district": "TX-07",
       "candidate_ids": [
@@ -381,7 +381,7 @@
     },
     {
       "race_id": "tx-cd08-2026",
-      "office": "U.S. House of Representatives, TX-08",
+      "office": "U.S. Representative, TX-08",
       "level": "federal",
       "district": "TX-08",
       "candidate_ids": [
@@ -409,7 +409,7 @@
     },
     {
       "race_id": "tx-cd09-2026",
-      "office": "U.S. House of Representatives, TX-09",
+      "office": "U.S. Representative, TX-09",
       "level": "federal",
       "district": "TX-09",
       "candidate_ids": [
@@ -440,7 +440,7 @@
     },
     {
       "race_id": "tx-cd10-2026",
-      "office": "U.S. House of Representatives, TX-10",
+      "office": "U.S. Representative, TX-10",
       "level": "federal",
       "district": "TX-10",
       "candidate_ids": [
@@ -469,7 +469,7 @@
     },
     {
       "race_id": "tx-cd11-2026",
-      "office": "U.S. House of Representatives, TX-11",
+      "office": "U.S. Representative, TX-11",
       "level": "federal",
       "district": "TX-11",
       "candidate_ids": [
@@ -498,7 +498,7 @@
     },
     {
       "race_id": "tx-cd12-2026",
-      "office": "U.S. House of Representatives, TX-12",
+      "office": "U.S. Representative, TX-12",
       "level": "federal",
       "district": "TX-12",
       "candidate_ids": [
@@ -526,7 +526,7 @@
     },
     {
       "race_id": "tx-cd13-2026",
-      "office": "U.S. House of Representatives, TX-13",
+      "office": "U.S. Representative, TX-13",
       "level": "federal",
       "district": "TX-13",
       "candidate_ids": [
@@ -555,7 +555,7 @@
     },
     {
       "race_id": "tx-cd14-2026",
-      "office": "U.S. House of Representatives, TX-14",
+      "office": "U.S. Representative, TX-14",
       "level": "federal",
       "district": "TX-14",
       "candidate_ids": [
@@ -584,7 +584,7 @@
     },
     {
       "race_id": "tx-cd15-2026",
-      "office": "U.S. House of Representatives, TX-15",
+      "office": "U.S. Representative, TX-15",
       "level": "federal",
       "district": "TX-15",
       "candidate_ids": [
@@ -612,7 +612,7 @@
     },
     {
       "race_id": "tx-cd16-2026",
-      "office": "U.S. House of Representatives, TX-16",
+      "office": "U.S. Representative, TX-16",
       "level": "federal",
       "district": "TX-16",
       "candidate_ids": [
@@ -641,7 +641,7 @@
     },
     {
       "race_id": "tx-cd17-2026",
-      "office": "U.S. House of Representatives, TX-17",
+      "office": "U.S. Representative, TX-17",
       "level": "federal",
       "district": "TX-17",
       "candidate_ids": [
@@ -670,7 +670,7 @@
     },
     {
       "race_id": "tx-cd18-2026",
-      "office": "U.S. House of Representatives, TX-18",
+      "office": "U.S. Representative, TX-18",
       "level": "federal",
       "district": "TX-18",
       "candidate_ids": [
@@ -699,7 +699,7 @@
     },
     {
       "race_id": "tx-cd19-2026",
-      "office": "U.S. House of Representatives, TX-19",
+      "office": "U.S. Representative, TX-19",
       "level": "federal",
       "district": "TX-19",
       "candidate_ids": [
@@ -728,7 +728,7 @@
     },
     {
       "race_id": "tx-cd20-2026",
-      "office": "U.S. House of Representatives, TX-20",
+      "office": "U.S. Representative, TX-20",
       "level": "federal",
       "district": "TX-20",
       "candidate_ids": [
@@ -757,7 +757,7 @@
     },
     {
       "race_id": "tx-cd21-2026",
-      "office": "U.S. House of Representatives, TX-21",
+      "office": "U.S. Representative, TX-21",
       "level": "federal",
       "district": "TX-21",
       "candidate_ids": [
@@ -786,7 +786,7 @@
     },
     {
       "race_id": "tx-cd22-2026",
-      "office": "U.S. House of Representatives, TX-22",
+      "office": "U.S. Representative, TX-22",
       "level": "federal",
       "district": "TX-22",
       "candidate_ids": [
@@ -814,7 +814,7 @@
     },
     {
       "race_id": "tx-cd23-2026",
-      "office": "U.S. House of Representatives, TX-23",
+      "office": "U.S. Representative, TX-23",
       "level": "federal",
       "district": "TX-23",
       "candidate_ids": [
@@ -843,7 +843,7 @@
     },
     {
       "race_id": "tx-cd24-2026",
-      "office": "U.S. House of Representatives, TX-24",
+      "office": "U.S. Representative, TX-24",
       "level": "federal",
       "district": "TX-24",
       "candidate_ids": [
@@ -872,7 +872,7 @@
     },
     {
       "race_id": "tx-cd25-2026",
-      "office": "U.S. House of Representatives, TX-25",
+      "office": "U.S. Representative, TX-25",
       "level": "federal",
       "district": "TX-25",
       "candidate_ids": [
@@ -901,7 +901,7 @@
     },
     {
       "race_id": "tx-cd26-2026",
-      "office": "U.S. House of Representatives, TX-26",
+      "office": "U.S. Representative, TX-26",
       "level": "federal",
       "district": "TX-26",
       "candidate_ids": [
@@ -929,7 +929,7 @@
     },
     {
       "race_id": "tx-cd27-2026",
-      "office": "U.S. House of Representatives, TX-27",
+      "office": "U.S. Representative, TX-27",
       "level": "federal",
       "district": "TX-27",
       "candidate_ids": [
@@ -957,7 +957,7 @@
     },
     {
       "race_id": "tx-cd28-2026",
-      "office": "U.S. House of Representatives, TX-28",
+      "office": "U.S. Representative, TX-28",
       "level": "federal",
       "district": "TX-28",
       "candidate_ids": [
@@ -986,7 +986,7 @@
     },
     {
       "race_id": "tx-cd29-2026",
-      "office": "U.S. House of Representatives, TX-29",
+      "office": "U.S. Representative, TX-29",
       "level": "federal",
       "district": "TX-29",
       "candidate_ids": [
@@ -1014,7 +1014,7 @@
     },
     {
       "race_id": "tx-cd30-2026",
-      "office": "U.S. House of Representatives, TX-30",
+      "office": "U.S. Representative, TX-30",
       "level": "federal",
       "district": "TX-30",
       "candidate_ids": [
@@ -1043,7 +1043,7 @@
     },
     {
       "race_id": "tx-cd31-2026",
-      "office": "U.S. House of Representatives, TX-31",
+      "office": "U.S. Representative, TX-31",
       "level": "federal",
       "district": "TX-31",
       "candidate_ids": [
@@ -1072,7 +1072,7 @@
     },
     {
       "race_id": "tx-cd32-2026",
-      "office": "U.S. House of Representatives, TX-32",
+      "office": "U.S. Representative, TX-32",
       "level": "federal",
       "district": "TX-32",
       "candidate_ids": [
@@ -1101,7 +1101,7 @@
     },
     {
       "race_id": "tx-cd33-2026",
-      "office": "U.S. House of Representatives, TX-33",
+      "office": "U.S. Representative, TX-33",
       "level": "federal",
       "district": "TX-33",
       "candidate_ids": [
@@ -1131,7 +1131,7 @@
     },
     {
       "race_id": "tx-cd34-2026",
-      "office": "U.S. House of Representatives, TX-34",
+      "office": "U.S. Representative, TX-34",
       "level": "federal",
       "district": "TX-34",
       "candidate_ids": [
@@ -1160,7 +1160,7 @@
     },
     {
       "race_id": "tx-cd35-2026",
-      "office": "U.S. House of Representatives, TX-35",
+      "office": "U.S. Representative, TX-35",
       "level": "federal",
       "district": "TX-35",
       "candidate_ids": [
@@ -1190,7 +1190,7 @@
     },
     {
       "race_id": "tx-cd36-2026",
-      "office": "U.S. House of Representatives, TX-36",
+      "office": "U.S. Representative, TX-36",
       "level": "federal",
       "district": "TX-36",
       "candidate_ids": [
@@ -1219,7 +1219,7 @@
     },
     {
       "race_id": "tx-cd37-2026",
-      "office": "U.S. House of Representatives, TX-37",
+      "office": "U.S. Representative, TX-37",
       "level": "federal",
       "district": "TX-37",
       "candidate_ids": [
@@ -1248,7 +1248,7 @@
     },
     {
       "race_id": "tx-cd38-2026",
-      "office": "U.S. House of Representatives, TX-38",
+      "office": "U.S. Representative, TX-38",
       "level": "federal",
       "district": "TX-38",
       "candidate_ids": [

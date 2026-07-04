@@ -322,6 +322,49 @@ def pick_golden_address(district: str) -> str | None:
 
 
 # ---------------------------------------------------------------------------
+# Name-collision detection: two different candidate_ids sharing the same
+# normalized human name. Ground-truth risk if left silent: a future
+# maintainer (or an LLM agent) sees "Sarah Eckhardt" twice and "helpfully"
+# merges the records, conflating two candidacies into one and attributing
+# one person's finance/votes/positions to the other. We never merge here --
+# we only detect and report, every run, so the ambiguity can't quietly
+# disappear. Detection is name-based only (no identity inference): whether
+# the two records denote the same real person or two different people who
+# share a name is explicitly NOT decided by this script.
+# ---------------------------------------------------------------------------
+
+
+def _normalize_name(name: str | None) -> str:
+    return " ".join((name or "").strip().lower().split())
+
+
+def find_name_collisions(candidates: dict[str, Any]) -> list[dict[str, Any]]:
+    by_name: dict[str, list[str]] = {}
+    for cid, c in candidates.items():
+        by_name.setdefault(_normalize_name(c.get("name")), []).append(cid)
+
+    collisions = []
+    for norm, cids in sorted(by_name.items()):
+        if len(cids) < 2:
+            continue
+        collisions.append(
+            {
+                "name": candidates[cids[0]].get("name"),
+                "candidate_ids": sorted(cids),
+                "offices": {cid: candidates[cid].get("office") for cid in cids},
+                "note": (
+                    "Same normalized name, different candidate_id. Kept as separate "
+                    "records -- identity (same real person vs. two different people "
+                    "sharing a name) is NOT confirmed by this pipeline. Do not merge "
+                    "without independent confirmation; each record's own sources "
+                    "belong only to that record."
+                ),
+            }
+        )
+    return collisions
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -409,6 +452,8 @@ def main() -> int:
 
     races_by_rank = sorted(races, key=lambda r: race_quality[r["race_id"]]["demo_rank"])
 
+    name_collisions = find_name_collisions(candidates)
+
     # --- Golden demo districts: the 5 highest demo_rank *US House districts*
     # (i.e. real congressional districts with a verifiable CD -- statewide
     # races have no district to geocode against, so they're excluded from
@@ -456,6 +501,7 @@ def main() -> int:
         "tier_distribution": {"candidates": cand_tier_counts, "races": race_tier_counts},
         "source_coverage": source_coverage,
         "golden_demo_districts": golden,
+        "name_collisions_not_merged": name_collisions,
     }
     atomic_write_json(QUALITY_REPORT_PATH, report)
 
@@ -583,6 +629,28 @@ def main() -> int:
             f"| {g['demo_rank']} | {g['office']} ({g['race_id']}) | {g['district'] or 'statewide'} | "
             f"{g['address'] or 'n/a'} | {verified_cd} | {match} |"
         )
+    lines.append("")
+
+    lines.append("## Known name collisions (not merged)")
+    lines.append("")
+    lines.append(
+        "Different `candidate_id`s that share the exact same normalized human name. "
+        "Detected automatically every run -- listed here so no one \"cleans up\" what "
+        "looks like a duplicate by merging two records. Whether each pair is the same "
+        "real person running for two offices (Texas law generally bars that in one "
+        "general election) or two different people who happen to share a name is "
+        "**not** determined by this pipeline; each candidate_id's sources describe "
+        "only that record."
+    )
+    lines.append("")
+    if name_collisions:
+        lines.append("| Name | candidate_ids | Offices |")
+        lines.append("|---|---|---|")
+        for nc in name_collisions:
+            offices = "; ".join(f"{cid} → {off}" for cid, off in nc["offices"].items())
+            lines.append(f"| {nc['name']} | {', '.join(nc['candidate_ids'])} | {offices} |")
+    else:
+        lines.append("None detected in the current gold dataset.")
     lines.append("")
 
     QUALITY_MD_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
