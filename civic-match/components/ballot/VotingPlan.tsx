@@ -183,14 +183,14 @@ export function VotingPlan({
     <div
       className={
         ballotReady
-          ? "rounded-2xl border border-emerald-500/30 bg-gradient-to-br from-emerald-500/10 to-transparent p-5 transition"
+          ? "rounded-2xl border border-gold/30 bg-gradient-to-br from-gold/10 to-transparent p-5 transition"
           : "rounded-xl border border-zinc-800 bg-zinc-900/50 p-5 transition"
       }
     >
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
         <h3 className="font-semibold">Make a voting plan</h3>
         {ballotReady && (
-          <span className="rounded-full border border-emerald-400 bg-emerald-500/15 px-2.5 py-1 text-[11px] font-medium text-emerald-300">
+          <span className="rounded-full border border-gold bg-gold/15 px-2.5 py-1 text-[11px] font-medium text-gold">
             You&apos;ve reviewed your ballot — lock in a plan ✓
           </span>
         )}
@@ -206,8 +206,8 @@ export function VotingPlan({
               aria-pressed={timing === "election_day"}
               className={`rounded-lg border px-3 py-1.5 text-sm font-medium transition ${
                 timing === "election_day"
-                  ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                  : "border-zinc-700 text-zinc-300 hover:border-emerald-400/60"
+                  ? "border-gold bg-gold/15 text-gold"
+                  : "border-zinc-700 text-zinc-300 hover:border-gold/60"
               }`}
             >
               Election Day ({ELECTION_DATE_LABEL})
@@ -218,8 +218,8 @@ export function VotingPlan({
               aria-pressed={timing === "early_voting"}
               className={`rounded-lg border px-3 py-1.5 text-sm font-medium transition ${
                 timing === "early_voting"
-                  ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                  : "border-zinc-700 text-zinc-300 hover:border-emerald-400/60"
+                  ? "border-gold bg-gold/15 text-gold"
+                  : "border-zinc-700 text-zinc-300 hover:border-gold/60"
               }`}
             >
               Early voting (check dates at VoteTexas.gov)
@@ -259,11 +259,11 @@ export function VotingPlan({
           <button
             type="button"
             onClick={handleAddToCalendar}
-            className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-emerald-400"
+            className="rounded-lg bg-gold px-5 py-2.5 text-sm font-semibold text-navy-dark hover:bg-gold"
           >
             Add to calendar
           </button>
-          {downloaded && <span className="text-xs text-emerald-400">Calendar file downloaded ✓</span>}
+          {downloaded && <span className="text-xs text-gold">Calendar file downloaded ✓</span>}
         </div>
 
         <p className="text-xs text-zinc-600">
@@ -273,7 +273,7 @@ export function VotingPlan({
             href={VOTE_TEXAS_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-emerald-400 hover:underline"
+            className="text-gold hover:underline"
           >
             Confirm your polling location at VoteTexas.gov ↗
           </a>

@@ -180,7 +180,7 @@ function HorizonBulletItem({
           href={bullet.source}
           target="_blank"
           rel="noopener noreferrer"
-          className="ml-1 text-emerald-400 hover:underline"
+          className="ml-1 text-gold hover:underline"
         >
           source ↗
         </a>
@@ -257,7 +257,7 @@ function InsightsBody({
                             href={b.source}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="ml-1 text-emerald-400 hover:underline"
+                            className="ml-1 text-gold hover:underline"
                           >
                             source ↗
                           </a>
@@ -307,7 +307,7 @@ function InsightsBody({
 
       {result.caveats && (
         <p className="text-xs text-zinc-500">
-          <span className="text-yellow-500/90">Caveat:</span> {result.caveats}
+          <span className="text-gold/90">Caveat:</span> {result.caveats}
         </p>
       )}
     </div>

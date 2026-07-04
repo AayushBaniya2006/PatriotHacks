@@ -29,7 +29,7 @@ import {
 import CivitasDashboard from "@/components/civitas/CivitasDashboard";
 import { buildCivitasDashboard, type CivitasBallotLike } from "@/lib/civitasView";
 import { slugify } from "@/lib/db-client";
-import { savePrefs } from "@/lib/prefs";
+import { loadPrefs, savePrefs } from "@/lib/prefs";
 import type { Candidate as BackendCandidate, Districts, Race as BackendRace } from "@/lib/dataBackend";
 import type { IssueDef } from "@/lib/issues";
 import type { MatchResult, UserPreferences, VoterProfile } from "@/lib/types";
@@ -561,6 +561,9 @@ export default function BallotPage() {
       setBallot(normalized);
       setSelectedRaceKey(normalized.races[0] ? raceKey(normalized.races[0], 0) : null);
       setStep("found");
+      // Persist the resolved address so a reload / return to /ballot restores it.
+      const prev = loadPrefs();
+      savePrefs({ ...(prev ?? { priority_weights: {}, issue_positions: {} }), address: trimmed });
     } catch {
       setLookupError("Lookup failed. Try again.");
     } finally {
@@ -570,9 +573,23 @@ export default function BallotPage() {
 
   useEffect(() => {
     const initialAddress = new URLSearchParams(window.location.search).get("address")?.trim();
-    if (!initialAddress) return;
+    // Fall back to a previously-saved address so returning to /ballot doesn't
+    // force the voter to re-enter everything.
+    const saved = initialAddress ? undefined : loadPrefs() ?? undefined;
+    const restore = initialAddress || saved?.address?.trim();
+    if (!restore) return;
+    if (saved) {
+      setLocation((loc) =>
+        loc.street || loc.cityState || loc.zip
+          ? loc
+          : { street: saved.address ?? "", cityState: "", zip: saved.zip ?? "" }
+      );
+      if (saved.issue_positions) setPositions(saved.issue_positions);
+      const savedPicked = Object.keys(saved.priority_weights ?? {});
+      if (savedPicked.length) setPriorities(savedPicked);
+    }
     const timer = window.setTimeout(() => {
-      void lookupAddress(initialAddress);
+      void lookupAddress(restore);
     }, 0);
     return () => window.clearTimeout(timer);
   }, [lookupAddress]);

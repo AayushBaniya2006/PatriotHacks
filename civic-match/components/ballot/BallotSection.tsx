@@ -174,7 +174,7 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
                 href={candidate.finance.source}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="ml-1.5 text-emerald-400 hover:underline"
+                className="ml-1.5 text-gold hover:underline"
               >
                 source ↗
               </a>
@@ -203,7 +203,7 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
                     href={v.source}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-emerald-400 hover:underline"
+                    className="text-gold hover:underline"
                   >
                     source ↗
                   </a>
@@ -330,7 +330,7 @@ function RaceCard({
   return (
     <div
       className={`rounded-xl border p-5 ${
-        featured ? "border-emerald-500/40 bg-emerald-500/[0.03]" : "border-zinc-800 bg-zinc-900/50"
+        featured ? "border-gold/40 bg-gold/[0.03]" : "border-zinc-800 bg-zinc-900/50"
       }`}
     >
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
@@ -349,8 +349,8 @@ function RaceCard({
             onClick={() => onExplain(race.race_id)}
             className={`rounded-lg border px-3 py-1.5 text-xs font-medium transition ${
               active
-                ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                : "border-zinc-700 text-zinc-300 hover:border-emerald-400/60"
+                ? "border-gold bg-gold/15 text-gold"
+                : "border-zinc-700 text-zinc-300 hover:border-gold/60"
             }`}
           >
             What this means for you
@@ -449,7 +449,7 @@ function VotingInfoCard({ votingInfo }: { votingInfo?: VotingInfo }) {
 
   return (
     <div className="mb-6 rounded-lg border border-zinc-800 bg-zinc-900/50 p-4">
-      <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-emerald-400">Your voting info</div>
+      <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-gold">Your voting info</div>
       {electionLabel && <div className="mb-2 text-sm text-zinc-200">{electionLabel}</div>}
       <div className="space-y-1">
         {polling.length > 0 && (
@@ -464,7 +464,7 @@ function VotingInfoCard({ votingInfo }: { votingInfo?: VotingInfo }) {
           href={votingInfo.source}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-2 inline-block text-xs text-emerald-400 hover:underline"
+          className="mt-2 inline-block text-xs text-gold hover:underline"
         >
           source ↗
         </a>
@@ -484,14 +484,14 @@ function ReadinessBar({ reviewedCount, total }: { reviewedCount: number; total: 
   return (
     <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4">
       <div className="mb-2 flex items-center justify-between gap-3 text-sm">
-        <span className={complete ? "font-medium text-emerald-300" : "text-zinc-300"}>
+        <span className={complete ? "font-medium text-gold" : "text-zinc-300"}>
           {complete ? "You're ballot-ready ✓" : `Reviewed ${reviewedCount} of ${total} races`}
         </span>
         <span className="text-xs text-zinc-500">{pct}%</span>
       </div>
       <div className="h-2 w-full rounded bg-zinc-800">
         <div
-          className={`h-2 rounded transition-all ${complete ? "bg-emerald-400" : "bg-emerald-500/70"}`}
+          className={`h-2 rounded transition-all ${complete ? "bg-gold" : "bg-gold/70"}`}
           style={{ width: `${pct}%` }}
         />
       </div>
@@ -584,7 +584,7 @@ export function BallotSection({
       {featuredRace && (
         <div>
           <div className="mb-3 flex flex-wrap items-center gap-2">
-            <span className="rounded-full border border-emerald-400/60 bg-emerald-500/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-emerald-300">
+            <span className="rounded-full border border-gold/60 bg-gold/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-gold">
               Featured race
             </span>
             <span className="text-xs text-zinc-500">The race we can show you the most about right now.</span>
