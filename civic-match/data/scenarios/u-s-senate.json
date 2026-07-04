@@ -232,14 +232,15 @@
                     "id": "hd50-2028-regular",
                     "label": "HD-50 regular election November 2028",
                     "timeframe": "2028+",
-                    "kind": "fact",
+                    "kind": "inference",
                     "description": "Winner of special election would stand for full two-year term in November 2028. Redistricting after 2030 census could alter district boundaries.",
                     "issue_ids": [
                       "elections"
                     ],
                     "affected_groups": [],
                     "sources": [],
-                    "children": []
+                    "children": [],
+                    "likelihood": "medium"
                   }
                 ]
               }

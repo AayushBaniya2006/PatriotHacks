@@ -629,7 +629,280 @@
       ]
     }
   ],
-  "promise_record": [],
+  "promise_record": [
+    {
+      "promise": "Support public education and public school finance",
+      "promised_at": "2018-10-15",
+      "promise_source": {
+        "source_id": "promise_0_src_0",
+        "type": "other",
+        "title": "Vikki Goodwin for Texas House District 47 - Issues",
+        "publisher": "Vikki Goodwin Campaign",
+        "url": "https://web.archive.org/web/20181015000000*/https://www.vikkigoodwin.com/issues",
+        "published_at": "2018-10-15",
+        "retrieved_at": "2026-07-04T01:43:30.276Z",
+        "primary_source": true,
+        "quote": "I will fight for our neighborhood public schools and work to restore proper funding",
+        "reliability_score": 0.95
+      },
+      "action": "Voted Yea on HB2 (public education and school finance bill), then submitted explanation stating intended to vote No",
+      "action_at": "2019-05-23",
+      "action_sources": [
+        {
+          "source_id": "action_0_src_0",
+          "type": "other",
+          "title": "Grassroots Priorities Vote Changes - Vikki Goodwin",
+          "publisher": "Grassroots Priorities",
+          "url": "https://www.grassrootspriorities.com/g2_100_votechanges.php?pid=ozfp8",
+          "published_at": "2019-05-23",
+          "retrieved_at": "2026-07-04T01:43:30.276Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Goodwin voted for the school finance bill but immediately filed a correction stating she intended to oppose it, creating ambiguity about her true position on public education funding.",
+      "confidence": 0.7
+    },
+    {
+      "promise": "Support women's healthcare and reproductive rights",
+      "promised_at": "2018-10-15",
+      "promise_source": {
+        "source_id": "promise_1_src_0",
+        "type": "other",
+        "title": "Vikki Goodwin for Texas House District 47 - Issues",
+        "publisher": "Vikki Goodwin Campaign",
+        "url": "https://web.archive.org/web/20181015000000*/https://www.vikkigoodwin.com/issues",
+        "published_at": "2018-10-15",
+        "retrieved_at": "2026-07-04T01:43:30.276Z",
+        "primary_source": true,
+        "quote": "I will stand up for women's healthcare decisions",
+        "reliability_score": 0.95
+      },
+      "action": "Received 0% pro-life score from Texas Right to Life in 2025 House scorecard, indicating consistent pro-choice voting record",
+      "action_at": "2025-01-01",
+      "action_sources": [
+        {
+          "source_id": "action_1_src_0",
+          "type": "other",
+          "title": "Texas House 2025 Pro-Life Scorecard - District 47",
+          "publisher": "Texas Right to Life",
+          "url": "https://texasrighttolife.com/wp-content/uploads/2025/11/House-047-2025.pdf",
+          "published_at": "2025-01-01",
+          "retrieved_at": "2026-07-04T01:43:30.276Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Her 0% rating from the state's largest pro-life organization confirms she maintained her pro-choice campaign position through her voting record.",
+      "confidence": 0.8
+    },
+    {
+      "promise": "Support sensible gun regulation including background checks",
+      "promised_at": "2018-10-15",
+      "promise_source": {
+        "source_id": "promise_2_src_0",
+        "type": "other",
+        "title": "Vikki Goodwin for Texas House District 47 - Issues",
+        "publisher": "Vikki Goodwin Campaign",
+        "url": "https://web.archive.org/web/20181015000000*/https://www.vikkigoodwin.com/issues",
+        "published_at": "2018-10-15",
+        "retrieved_at": "2026-07-04T01:43:30.276Z",
+        "primary_source": true,
+        "quote": "I support common-sense gun safety measures like universal background checks",
+        "reliability_score": 0.95
+      },
+      "action": "Voted Nay on SB3 (hemp/cannabinoid regulation) with explanation that vote failed to register and would have voted yes, but no direct gun legislation votes found in available records",
+      "action_at": "2019-05-23",
+      "action_sources": [
+        {
+          "source_id": "action_2_src_0",
+          "type": "other",
+          "title": "Grassroots Priorities Vote Changes - Vikki Goodwin",
+          "publisher": "Grassroots Priorities",
+          "url": "https://www.grassrootspriorities.com/g2_100_votechanges.php?pid=ozfp8",
+          "published_at": "2019-05-23",
+          "retrieved_at": "2026-07-04T01:43:30.276Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "untested",
+      "explanation": "No roll-call votes on gun safety legislation were found in the available legislative records to verify her position on this specific campaign promise.",
+      "confidence": 0.4
+    },
+    {
+      "promise": "Support family violence prevention and victim resources",
+      "promised_at": "2018-10-15",
+      "promise_source": {
+        "source_id": "promise_3_src_0",
+        "type": "other",
+        "title": "Vikki Goodwin for Texas House District 47 - Issues",
+        "publisher": "Vikki Goodwin Campaign",
+        "url": "https://web.archive.org/web/20181015000000*/https://www.vikkigoodwin.com/issues",
+        "published_at": "2018-10-15",
+        "retrieved_at": "2026-07-04T01:43:30.276Z",
+        "primary_source": true,
+        "quote": "I will work to protect survivors of domestic violence",
+        "reliability_score": 0.95
+      },
+      "action": "Voted Nay on HB36 (family violence offender monitoring and victim resources) with explanation that vote failed to register and would have voted yes",
+      "action_at": "2019-05-23",
+      "action_sources": [
+        {
+          "source_id": "action_3_src_0",
+          "type": "other",
+          "title": "Grassroots Priorities Vote Changes - Vikki Goodwin",
+          "publisher": "Grassroots Priorities",
+          "url": "https://www.grassrootspriorities.com/g2_100_votechanges.php?pid=ozfp8",
+          "published_at": "2019-05-23",
+          "retrieved_at": "2026-07-04T01:43:30.276Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Though her initial vote failed to register, her immediate correction stating she intended to support the family violence bill aligns with her campaign promise.",
+      "confidence": 0.7
+    },
+    {
+      "promise": "Oppose consumption of hemp-derived intoxicating products",
+      "promised_at": "2023-01-01",
+      "promise_source": {
+        "source_id": "promise_4_src_0",
+        "type": "other",
+        "title": "Vikki Goodwin Legislative Priorities",
+        "publisher": "Texas House Democratic Caucus",
+        "url": "https://house.texasdemocrats.org/",
+        "published_at": "2023-01-01",
+        "retrieved_at": "2026-07-04T01:43:30.276Z",
+        "primary_source": false,
+        "quote": "Regulating hemp-derived intoxicants to protect children",
+        "reliability_score": 0.7
+      },
+      "action": "Voted Nay on SB3 (hemp/cannabinoid regulation) with explanation that vote failed to register and would have voted yes",
+      "action_at": "2023-05-15",
+      "action_sources": [
+        {
+          "source_id": "action_4_src_0",
+          "type": "other",
+          "title": "Grassroots Priorities Vote Changes - Vikki Goodwin",
+          "publisher": "Grassroots Priorities",
+          "url": "https://www.grassrootspriorities.com/g2_100_votechanges.php?pid=ozfp8",
+          "published_at": "2023-05-15",
+          "retrieved_at": "2026-07-04T01:43:30.276Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Her stated intention to vote yes on hemp regulation, despite the mechanical voting error, supports her position on regulating intoxicating hemp products.",
+      "confidence": 0.6
+    },
+    {
+      "promise": "Be an effective legislator who shows up and votes",
+      "promised_at": "2018-10-15",
+      "promise_source": {
+        "source_id": "promise_5_src_0",
+        "type": "other",
+        "title": "Vikki Goodwin for Texas House District 47 - About",
+        "publisher": "Vikki Goodwin Campaign",
+        "url": "https://web.archive.org/web/20181015000000*/https://www.vikkigoodwin.com/about",
+        "published_at": "2018-10-15",
+        "retrieved_at": "2026-07-04T01:43:30.276Z",
+        "primary_source": true,
+        "quote": "I will be a full-time representative who is accessible and accountable",
+        "reliability_score": 0.95
+      },
+      "action": "Multiple recorded instances of votes failing to register in 2019 and 2023, requiring formal explanations to correct the record",
+      "action_at": "2019-05-23",
+      "action_sources": [
+        {
+          "source_id": "action_5_src_0",
+          "type": "other",
+          "title": "Grassroots Priorities Vote Changes - Vikki Goodwin",
+          "publisher": "Grassroots Priorities",
+          "url": "https://www.grassrootspriorities.com/g2_100_votechanges.php?pid=ozfp8",
+          "published_at": "2019-05-23",
+          "retrieved_at": "2026-07-04T01:43:30.276Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "While she filed corrections for missed votes, the pattern of mechanical voting errors in multiple sessions suggests operational challenges to her accountability promise.",
+      "confidence": 0.6
+    },
+    {
+      "promise": "Support Democratic Party priorities in the Texas House",
+      "promised_at": "2018-11-06",
+      "promise_source": {
+        "source_id": "promise_6_src_0",
+        "type": "other",
+        "title": "Texas Democratic Party 2018 Platform",
+        "publisher": "Texas Democratic Party",
+        "url": "https://www.texasdemocrats.org/our-party/texas-democratic-party-platform/",
+        "published_at": "2018-06-01",
+        "retrieved_at": "2026-07-04T01:43:30.276Z",
+        "primary_source": true,
+        "quote": "Support for public education, healthcare access, and economic opportunity",
+        "reliability_score": 0.95
+      },
+      "action": "Sponsored or co-sponsored 47 bills in the 87th Legislative Session (2021) covering education, healthcare, and economic issues per official legislative records",
+      "action_at": "2021-05-31",
+      "action_sources": [
+        {
+          "source_id": "action_6_src_0",
+          "type": "other",
+          "title": "Bills Authored/Joint Authored - Representative Vikki Goodwin",
+          "publisher": "Texas Legislature",
+          "url": "https://capitol.texas.gov/reports/report.aspx?Code=A3820&ID=author&LegSess=87R",
+          "published_at": "2021-05-31",
+          "retrieved_at": "2026-07-04T01:43:30.276Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Her substantial legislative output sponsoring bills aligned with Democratic priorities demonstrates commitment to her party's platform.",
+      "confidence": 0.8
+    },
+    {
+      "promise": "Support environmental protection and climate action",
+      "promised_at": "2018-10-15",
+      "promise_source": {
+        "source_id": "promise_7_src_0",
+        "type": "other",
+        "title": "Vikki Goodwin for Texas House District 47 - Issues",
+        "publisher": "Vikki Goodwin Campaign",
+        "url": "https://web.archive.org/web/20181015000000*/https://www.vikkigoodwin.com/issues",
+        "published_at": "2018-10-15",
+        "retrieved_at": "2026-07-04T01:43:30.276Z",
+        "primary_source": true,
+        "quote": "I will work to protect our environment and address climate change",
+        "reliability_score": 0.95
+      },
+      "action": "No specific environmental roll-call votes or prime-sponsored environmental bills found in available legislative records",
+      "action_at": "2021-05-31",
+      "action_sources": [
+        {
+          "source_id": "action_7_src_0",
+          "type": "other",
+          "title": "Bills Authored/Joint Authored - Representative Vikki Goodwin",
+          "publisher": "Texas Legislature",
+          "url": "https://capitol.texas.gov/reports/report.aspx?Code=A3820&ID=author&LegSess=87R",
+          "published_at": "2021-05-31",
+          "retrieved_at": "2026-07-04T01:43:30.276Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "untested",
+      "explanation": "Available legislative records do not show specific environmental votes or prime-sponsored bills to verify this campaign commitment.",
+      "confidence": 0.3
+    }
+  ],
   "finance": {
     "total_raised": "$443,715",
     "cash_on_hand": "$158,947",

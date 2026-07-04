@@ -2,27 +2,23 @@
 // Everything researched gets saved here and connected: politicians, offices,
 // races, issues, orgs, and scenario events — with edges that cross government
 // levels (preemption, funding flows, appointments, career pipelines, coattails).
-import { promises as fs } from "fs";
-import path from "path";
 import { chat, extractJSON, RESEARCH_MODEL } from "./llm";
 import { getPolitician, listPoliticians, slugify } from "./db";
 import { getCachedElection, type DiscoveredRace } from "./discovery";
+import { kvGet, kvSet, NS } from "./store";
 import type { GraphEdge, GraphNode, KnowledgeGraph, ScenarioTree } from "./types";
 
-const GRAPH_FILE = path.join(process.cwd(), "data", "graph", "graph.json");
+// The knowledge graph is a singleton document.
+const GRAPH_KEY = "graph";
 
 export async function loadGraph(): Promise<KnowledgeGraph> {
-  try {
-    return JSON.parse(await fs.readFile(GRAPH_FILE, "utf-8"));
-  } catch {
-    return { nodes: [], edges: [], built_at: new Date().toISOString() };
-  }
+  const g = await kvGet<KnowledgeGraph>(NS.graph, GRAPH_KEY);
+  return g ?? { nodes: [], edges: [], built_at: new Date().toISOString() };
 }
 
 export async function saveGraph(g: KnowledgeGraph): Promise<void> {
-  await fs.mkdir(path.dirname(GRAPH_FILE), { recursive: true });
   g.built_at = new Date().toISOString();
-  await fs.writeFile(GRAPH_FILE, JSON.stringify(g, null, 2));
+  await kvSet(NS.graph, GRAPH_KEY, g);
 }
 
 const edgeKey = (e: GraphEdge) => `${e.source}→${e.rel}→${e.target}`;

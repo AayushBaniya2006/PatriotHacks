@@ -606,18 +606,34 @@
   "finance": {
     "total_raised": "$6,911.52",
     "cash_on_hand": "$1,316.78",
-    "as_of": "2024-07-15",
+    "as_of": "2026-02-23",
     "overview_source": {
       "source_id": "fin_overview_src_0",
       "type": "campaign_finance",
-      "title": "Candidate/Officeholder Campaign Finance Report Balance",
+      "title": "CANDIDATE / OFFICEHOLDER CAMPAIGN FINANCE REPORT",
       "publisher": "Texas Ethics Commission",
       "url": "http://bbs.ethics.state.tx.us/public/457226.pdf",
-      "retrieved_at": "2026-07-04T01:18:36.120Z",
+      "retrieved_at": "2026-07-04T01:43:30.276Z",
       "primary_source": true,
       "reliability_score": 0.95
     },
-    "top_donors": [],
+    "top_donors": [
+      {
+        "name": "Pat Dixon",
+        "kind": "individual",
+        "amount": "$6,911.52",
+        "source": {
+          "source_id": "donor_0_src_0",
+          "type": "campaign_finance",
+          "title": "CANDIDATE / OFFICEHOLDER CAMPAIGN FINANCE REPORT",
+          "publisher": "Texas Ethics Commission",
+          "url": "http://bbs.ethics.state.tx.us/public/457226.pdf",
+          "retrieved_at": "2026-07-04T01:43:30.276Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      }
+    ],
     "correlations": []
   }
 }

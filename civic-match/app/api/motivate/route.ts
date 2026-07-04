@@ -8,11 +8,10 @@ import { listPoliticians } from "@/lib/db";
 import { getCachedElection } from "@/lib/discovery";
 import { getScenario } from "@/lib/scenario";
 import { slugify } from "@/lib/db";
+import { kvGet, kvSet, NS } from "@/lib/store";
 import type { ScenarioNode, UserPreferences } from "@/lib/types";
 
 export const maxDuration = 120;
-
-const CACHE_DIR = path.join(process.cwd(), "data", "motivations");
 
 export interface Motivation {
   hook: string; // one sharp, personal line
@@ -30,11 +29,14 @@ export async function POST(req: NextRequest) {
     return Response.json({ error: "prefs required" }, { status: 400 });
   }
 
-  const hash = crypto.createHash("sha1").update(JSON.stringify(prefs)).digest("hex").slice(0, 16);
-  const cacheFile = path.join(CACHE_DIR, `${hash}.json`);
-  try {
-    return Response.json({ motivation: JSON.parse(await fs.readFile(cacheFile, "utf-8")), cached: true });
-  } catch { /* miss */ }
+  // Cache key includes a data version so re-researched profiles invalidate cards.
+  const allProfiles = await listPoliticians();
+  const dataVersion = allProfiles.map((p) => p.researched_at).sort().at(-1) ?? "0";
+  const hash = crypto.createHash("sha1").update(JSON.stringify(prefs) + dataVersion).digest("hex").slice(0, 16);
+  const cachedMotivation = await kvGet<Motivation>(NS.motivations, hash);
+  if (cachedMotivation) {
+    return Response.json({ motivation: cachedMotivation, cached: true });
+  }
 
   const ISSUE_MAP = getIssueMap();
   const state = getUI().default_state;
@@ -44,7 +46,7 @@ export async function POST(req: NextRequest) {
     .map(([id]) => id);
 
   // Candidate divergence on the user's top issues (why the outcome differs)
-  const politicians = await listPoliticians();
+  const politicians = allProfiles;
   const divergence = topIssues.map((issueId) => {
     const positions = politicians
       .map((p) => {
@@ -128,7 +130,6 @@ election_date: "2026-11-03"`,
     };
   }
 
-  await fs.mkdir(CACHE_DIR, { recursive: true });
-  await fs.writeFile(cacheFile, JSON.stringify(motivation));
+  await kvSet(NS.motivations, hash, motivation);
   return Response.json({ motivation, cached: false });
 }

@@ -169,7 +169,7 @@ simple, auditable distance.
 ## Running it
 
 ```bash
-cp ../.env.example .env.local   # set OPENROUTER_API_KEY
+cp ../.env.example .env.local   # set OPENROUTER_API_KEY (DATABASE_URL optional)
 npm install
 
 # Pre-warm: auto-query the November election (Texas first) + research all candidates
@@ -179,6 +179,33 @@ npm run dev                     # http://localhost:3000
 ```
 
 Other states: `npm run seed:state -- virginia`
+
+## Persistence (two backends, one interface)
+
+All runtime-written data — researched profiles, scenario trees, the knowledge
+graph, election discovery, and the explanation/motivation/debate caches — goes
+through a single key-value store (`lib/store.ts`), namespaced per data type. It
+picks a backend automatically:
+
+- **Postgres** when `DATABASE_URL` is set — one JSONB `kv` table, created on first
+  use. Data survives redeploys on ephemeral-filesystem hosts (Railway). This is
+  the production path.
+- **File-DB fallback** when it isn't — `data/<namespace>/<key>.json`, matching the
+  committed ground-truth layout. Local dev and the demo run with **zero
+  infrastructure**; the committed profiles/elections/scenarios/graph serve reads
+  directly.
+
+Static reference data (issue taxonomy in `data/config/`, per-race `*-stakes.json`)
+always ships as read-only files, independent of the backend.
+
+### Deploying to Railway
+
+1. New project → deploy this repo; Railway builds with `next build` and runs `next start`.
+2. Add a **Postgres** plugin.
+3. On the **web** service, add `DATABASE_URL=${{Postgres.DATABASE_URL}}` (a reference
+   variable) so it connects to the DB — without it the app silently uses the
+   ephemeral file backend. Also set `OPENROUTER_API_KEY`.
+4. Run `npm run import:pg` once to load the committed ground truth into Postgres.
 
 Maintenance scripts:
 

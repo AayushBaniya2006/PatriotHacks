@@ -1,44 +1,20 @@
 {
   "id": "nathan-sheets",
-  "name": "Nathan Sheets",
-  "party": null,
-  "current_office": null,
-  "jurisdiction": null,
-  "bio": "D. Nathan Sheets is an American economist who served as Under Secretary of the Treasury for International Affairs from 2014 to 2017 under President Barack Obama. He is currently Global Chief Economist at Citigroup, a position he has held since October 2021.",
+  "name": "D. Nathan Sheets",
+  "party": "Democrat",
+  "current_office": "none (private sector)",
+  "jurisdiction": "United States",
+  "bio": "D. Nathan Sheets served as Under Secretary of the Treasury for International Affairs from 2014 to 2017 and is now Global Chief Economist at Citigroup. He previously spent 18 years at the Federal Reserve, including as Director of the Division of International Finance.",
   "stances": [
     {
-      "stance_id": "trade_1783125551256",
-      "issue_id": "trade",
-      "position_label": "Multilateral rules-based export-credit system",
-      "position_scalar": 0.9,
-      "summary": "As Treasury’s lead negotiator, Sheets argued that all major export-credit providers (including China) should be bound by common, market-oriented disciplines rather than U.S. unilateral protection, and he worked through the OECD and the International Working Group to lower trade-distorting subsidies.",
-      "evidence_type": "public_statement",
-      "confidence": 0.95,
-      "recency": "2015-04-15",
-      "sources": [
-        {
-          "source_id": "trade_src_0",
-          "type": "public_statement",
-          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform…",
-          "publisher": "U.S. Department of the Treasury",
-          "url": "https://home.treasury.gov/news/press-releases/jl10022",
-          "published_at": "2015-04-15",
-          "retrieved_at": "2026-07-04T00:38:32.337Z",
-          "primary_source": true,
-          "quote": "Bringing all major providers of official export financing support into an international rules-based framework with a common set of financial terms and conditions is the essential first step…",
-          "reliability_score": 0.95
-        }
-      ]
-    },
-    {
-      "stance_id": "economy_1783125551256",
+      "stance_id": "economy_1783129481784",
       "issue_id": "economy",
-      "position_label": "Supply-side structural reforms plus demand stimulus",
-      "position_scalar": 0.55,
-      "summary": "Sheets repeatedly called for structural reforms (labor-market flexibility, deregulation, privatization) alongside active fiscal and monetary stimulus when demand is weak, arguing that supply- and demand-side measures must be balanced.",
+      "position_label": "Market-oriented with government role in stability and level playing field",
+      "position_scalar": 0.35,
+      "summary": "Sheets emphasized structural flexibility, clear property rights, and market openness as distinguishing features of the U.S. economy, while supporting government intervention to ensure financial stability and a level playing field. He advocated for financial sector reforms post-crisis and structural reforms including business tax reform, but consistently stressed market-oriented solutions with government ensuring rules-based frameworks.",
       "evidence_type": "public_statement",
-      "confidence": 0.9,
-      "recency": "2015-02-19",
+      "confidence": 0.75,
+      "recency": "2015-04-15",
       "sources": [
         {
           "source_id": "economy_src_0",
@@ -46,46 +22,226 @@
           "title": "Remarks by Under Secretary for International Affairs Nathan Sheets at The Peterson Institute for International Economics on The Global Economy",
           "publisher": "U.S. Department of the Treasury",
           "url": "https://home.treasury.gov/news/press-releases/jl9979",
-          "published_at": "2015-02-19",
-          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
           "primary_source": true,
-          "quote": "Sound economic policies must seek to appropriately balance supply-side and demand-side considerations.",
+          "quote": "Historically, the U.S. economy has been distinguished by structural flexibility in its labor and product markets, clear property rights, commitment to the rule of law, and openness to foreign trade and investment.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "economy_src_1",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary Nathan Sheets at the Carnegie Endowment for International Peace",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl0710",
+          "published_at": "2015-07-07",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "Fundamentally, we aim to foster strong, sustainable, balanced, and inclusive global growth. This requires promoting economic resilience, openness, and a level global playing field for our workers and firms.",
           "reliability_score": 0.95
         }
       ]
     },
     {
-      "stance_id": "climate_1783125551256",
-      "issue_id": "climate",
-      "position_label": "Support for low-carbon global framework",
-      "position_scalar": 0.75,
-      "summary": "In U.S.-China talks Sheets pressed China to curb excess industrial capacity and promote a “low carbon global” economy, indicating support for international climate-oriented industrial policy.",
+      "stance_id": "trade_1783129481784",
+      "issue_id": "trade",
+      "position_label": "Pro-free trade with rules-based framework; opposes unilateral protectionism",
+      "position_scalar": 0.85,
+      "summary": "Sheets strongly supported expanding free trade through high-standard agreements like the Trans-Pacific Partnership and worked to reduce trade-distorting government export financing. He opposed unilateral tariffs or trade barriers, instead advocating for multilateral frameworks to bring all major economies into common rules, including China.",
       "evidence_type": "public_statement",
-      "confidence": 0.8,
+      "confidence": 0.85,
+      "recency": "2015-04-15",
+      "sources": [
+        {
+          "source_id": "trade_src_0",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary for International Affairs Nathan Sheets at The Peterson Institute for International Economics on The Global Economy",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl9979",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "We are also actively engaged in pursuing the Administration's trade agenda through high-standard agreements such as the Trans-Pacific Partnership, which will expand opportunities and drive further integration with key trading partners.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "trade_src_1",
+          "type": "public_statement",
+          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10022",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "Openness means that goods and capital are free to flow across borders to their most productive uses.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "trade_src_2",
+          "type": "public_statement",
+          "title": "NATHAN SHEETS Undersecretary for International Affairs U.S. Department of the Treasury - Brookings Institution Transcript",
+          "publisher": "Brookings Institution",
+          "url": "https://www.brookings.edu/wp-content/uploads/2016/05/20160524_us_china_sheets_transcript.pdf",
+          "published_at": "2016-05-24",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "to open markets by liberalizing China's investment rules, including through negotiations on mutually beneficial high standard bilateral investment treaty",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "debt_spending_1783129481784",
+      "issue_id": "debt_spending",
+      "position_label": "Supports fiscal stimulus when conditions warrant; conditional on fiscal space",
+      "position_scalar": 0.55,
+      "summary": "Sheets advocated for forceful fiscal stimulus during periods of economic weakness and high unemployment, including temporary expenditure boosts and tax cuts, but emphasized this should occur where governments have 'put its house in order and has sufficient budget space.' This suggests conditional support for deficit spending rather than unconditional expansion.",
+      "evidence_type": "public_statement",
+      "confidence": 0.7,
+      "recency": "2015-04-15",
+      "sources": [
+        {
+          "source_id": "debt_spending_src_0",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary for International Affairs Nathan Sheets at The Peterson Institute for International Economics on The Global Economy",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl9979",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "we at the U.S. Treasury have argued for countries to forcefully employ strong stimulative policies to address this situation. Such stimulus can include monetary measures, where inflation is well contained, and fiscal measures, where the government has put its house in order and has sufficient budget space.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "debt_spending_src_1",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary for International Affairs Nathan Sheets at The Peterson Institute for International Economics on The Global Economy",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl9979",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "The United States took forceful action to stimulate demand, fully employing both monetary and fiscal tools... by temporarily boosting expenditures and extending unemployment benefits, as well as through supportive tax cuts",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "jobs_1783129481784",
+      "issue_id": "jobs",
+      "position_label": "Supports labor market flexibility with demand-side support during downturns",
+      "position_scalar": 0.3,
+      "summary": "Sheets advocated for labor market flexibility including allowing firms greater scope to hire, fire, and negotiate wages as part of structural reforms. However, he also supported extending unemployment benefits and demand-side stimulus to protect workers during economic weakness, suggesting a balance between flexibility and social protection.",
+      "evidence_type": "public_statement",
+      "confidence": 0.7,
+      "recency": "2015-04-15",
+      "sources": [
+        {
+          "source_id": "jobs_src_0",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary for International Affairs Nathan Sheets at The Peterson Institute for International Economics on The Global Economy",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl9979",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "Examples of such reforms include measures to make labor markets more flexible by allowing firms greater scope to hire, fire, and negotiate wages",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "jobs_src_1",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary for International Affairs Nathan Sheets at The Peterson Institute for International Economics on The Global Economy",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl9979",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "The United States took forceful action to stimulate demand... extending unemployment benefits",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "climate_1783129481784",
+      "issue_id": "climate",
+      "position_label": "Supports low-carbon transition; mentions but does not emphasize aggressive mandates",
+      "position_scalar": 0.6,
+      "summary": "Sheets mentioned 'low carbon global' economy as part of U.S.-China dialogue objectives and supported addressing excess industrial capacity (including in carbon-intensive sectors), but his public remarks focused more on economic rebalancing and market access than on aggressive emissions mandates. Evidence is limited and indirect.",
+      "evidence_type": "public_statement",
+      "confidence": 0.45,
       "recency": "2016-05-24",
       "sources": [
         {
           "source_id": "climate_src_0",
           "type": "public_statement",
-          "title": "U.S.-China S&ED transcript",
+          "title": "NATHAN SHEETS Undersecretary for International Affairs U.S. Department of the Treasury - Brookings Institution Transcript",
           "publisher": "Brookings Institution",
           "url": "https://www.brookings.edu/wp-content/uploads/2016/05/20160524_us_china_sheets_transcript.pdf",
           "published_at": "2016-05-24",
-          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
           "primary_source": true,
           "quote": "low carbon global",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "climate_src_1",
+          "type": "public_statement",
+          "title": "NATHAN SHEETS Undersecretary for International Affairs U.S. Department of the Treasury - Brookings Institution Transcript",
+          "publisher": "Brookings Institution",
+          "url": "https://www.brookings.edu/wp-content/uploads/2016/05/20160524_us_china_sheets_transcript.pdf",
+          "published_at": "2016-05-24",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "We are also encouraging the Chinese authorities to reduce excess industrial capacity",
           "reliability_score": 0.95
         }
       ]
     },
     {
-      "stance_id": "foreign_policy_1783125551256",
+      "stance_id": "taxes_1783129481784",
+      "issue_id": "taxes",
+      "position_label": "Supports business tax reform; supported temporary tax cuts as stimulus",
+      "position_scalar": 0.4,
+      "summary": "Sheets mentioned business tax reform as part of the Administration's structural reform agenda and supported 'supportive tax cuts' as part of crisis response. However, he did not articulate clear positions on corporate or high-earner tax rates in normal conditions, making his overall position difficult to place precisely.",
+      "evidence_type": "public_statement",
+      "confidence": 0.5,
+      "recency": "2015-04-15",
+      "sources": [
+        {
+          "source_id": "taxes_src_0",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary for International Affairs Nathan Sheets at The Peterson Institute for International Economics on The Global Economy",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl9979",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "The Administration's structural reform agenda includes reforming the business tax system",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "taxes_src_1",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary for International Affairs Nathan Sheets at The Peterson Institute for International Economics on The Global Economy",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl9979",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "quote": "supportive tax cuts",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "foreign_policy_1783129481785",
       "issue_id": "foreign_policy",
       "position_label": "Active global leadership through international institutions",
-      "position_scalar": 1,
-      "summary": "Sheets consistently advocated for strong U.S. engagement in multilateral institutions including the IMF, World Bank, and G-20, emphasizing that these institutions protect U.S. economic interests and national security. He supported IMF quota reforms to maintain U.S. influence, promoted trade agreements (TPP, T-TIP), and stressed the importance of U.S. leadership in international economic forums.",
+      "position_scalar": 0.85,
+      "summary": "As Treasury Under Secretary for International Affairs, Sheets consistently advocated for robust U.S. engagement in multilateral institutions including the IMF, World Bank, G-20, and regional development banks. He emphasized that these institutions are 'vital to our economic interests' and that U.S. leadership in them protects American jobs and exports while advancing global economic stability.",
       "evidence_type": "public_statement",
-      "confidence": 0.95,
+      "confidence": 0.9,
       "recency": "2017-01-17",
       "sources": [
         {
@@ -95,9 +251,9 @@
           "publisher": "U.S. Department of the Treasury",
           "url": "https://home.treasury.gov/news/press-releases/jl0166",
           "published_at": "2015-09-17",
-          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
           "primary_source": true,
-          "quote": "To ensure that the IMF remains at the center of the multilateral economic system – and that we maintain an important voice in it – the United States should promptly approve the 2010 quota and governance reforms. Our interest in strengthening the Fund is not based on esoteric notions of global leadership or nostalgia for institutions that the United States created. Rather, we have learned from hard-won experience that a well-resourced and effective IMF is indispensable to achieving our economic and national security interests.",
+          "quote": "To ensure that the IMF remains at the center of the multilateral economic system – and that we maintain an important voice in it – the United States should promptly approve the 2010 quota and governance reforms...a well-resourced and effective IMF is indispensable to achieving our economic and national security interests.",
           "reliability_score": 0.95
         },
         {
@@ -107,31 +263,19 @@
           "publisher": "U.S. Department of the Treasury",
           "url": "https://home.treasury.gov/news/press-releases/jl0710",
           "published_at": "2017-01-17",
-          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
           "primary_source": true,
           "quote": "Fourth, we engage multilaterally to advance U.S. perspectives at forums such as the G-7 and G-20, and through institutions like the IMF and the multilateral development banks. We also play a leadership role in keeping these organizations effective, relevant to the global economy, and reflective of U.S. values and interests.",
-          "reliability_score": 0.95
-        },
-        {
-          "source_id": "foreign_policy_src_2",
-          "type": "public_statement",
-          "title": "Remarks by Under Secretary Nathan Sheets at the Carnegie Endowment for International Peace",
-          "publisher": "U.S. Department of the Treasury",
-          "url": "https://home.treasury.gov/news/press-releases/jl0710",
-          "published_at": "2017-01-17",
-          "retrieved_at": "2026-07-04T00:38:32.337Z",
-          "primary_source": true,
-          "quote": "In addition, our work plays an important role in advancing broader U.S. foreign policy objectives. Whether leading efforts in the international financial institutions to respond to emergent crises such as the Ebola outbreak and refugee flows, supporting economic stability in key countries such as Ukraine and Iraq, or contributing to the design of major sanctions programs, we interact closely with partners across the government to achieve foreign policy interests.",
           "reliability_score": 0.95
         }
       ]
     },
     {
-      "stance_id": "defense_1783125551256",
+      "stance_id": "defense_1783129481785",
       "issue_id": "defense",
-      "position_label": "Supports strategic international engagement, not defense spending cuts",
-      "position_scalar": 0.5,
-      "summary": "While Sheets did not directly address defense spending levels, his testimony emphasized using international financial institutions and economic tools as 'cost-effective means' for U.S. engagement, suggesting preference for multilateral economic approaches over unilateral military solutions. His focus on 'soft power' economic institutions rather than military expansion suggests moderate positioning, though this is inferred rather than explicit.",
+      "position_label": "Supports maintaining defense and security-related international commitments",
+      "position_scalar": 0.35,
+      "summary": "While not directly addressing defense spending levels, Sheets emphasized U.S. leadership in international security and economic stability. His testimony highlighted support for IMF involvement in Greece's debt crisis and other stabilization efforts, suggesting a preference for maintaining international commitments rather than retrenchment.",
       "evidence_type": "public_statement",
       "confidence": 0.5,
       "recency": "2015-09-17",
@@ -143,19 +287,19 @@
           "publisher": "U.S. Department of the Treasury",
           "url": "https://home.treasury.gov/news/press-releases/jl0166",
           "published_at": "2015-09-17",
-          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
           "primary_source": true,
-          "quote": "In particular, the MDBs are a cost-effective means for the United States to support critical investments in developing and emerging economies. Our $2.2 billion budget request for the MDBs for FY 2016 supports more than $100 billion in annual MDB assistance for developing countries.",
+          "quote": "In Greece, the IMF has been a key partner in Europe's efforts to support a difficult but necessary adjustment that encourages growth and puts debt on a more sustainable path. We stand behind the IMF Board's 2010 decision to provide the IMF with limited flexibility in its policy for exceptionally large financing.",
           "reliability_score": 0.95
         }
       ]
     },
     {
-      "stance_id": "ai_tech_1783125551256",
+      "stance_id": "ai_tech_1783129481785",
       "issue_id": "ai_tech",
-      "position_label": "Cautiously optimistic on AI productivity; market-oriented with some valuation concerns",
-      "position_scalar": 0.35,
-      "summary": "Sheets has expressed optimism about AI's potential to drive productivity growth comparable to the late 1990s internet boom, but with caution. He stated he would set AI stocks 15% lower if he were 'grand sultan of the world,' suggesting some concern about market valuations and potential risks, while generally favoring market-driven innovation over heavy-handed intervention.",
+      "position_label": "Optimistic about AI productivity, cautious on market valuations",
+      "position_scalar": null,
+      "summary": "Nathan Sheets has expressed cautious optimism about AI's economic potential, predicting a productivity boom comparable to the late 1990s internet era. However, he has also expressed concerns about market valuations, suggesting AI stocks are overvalued. He has not advocated for strong regulatory frameworks or safety requirements, focusing instead on economic impacts and market dynamics.",
       "evidence_type": "public_statement",
       "confidence": 0.7,
       "recency": "2026-02-03",
@@ -164,28 +308,572 @@
           "source_id": "ai_tech_src_0",
           "type": "public_statement",
           "title": "Former Treasury official Nathan Sheets talks AI productivity, geopolitical tension in Duke address",
-          "publisher": "dukechronicle.com",
+          "publisher": "The Duke Chronicle",
           "url": "https://dukechronicle.com/article/duke-university-former-secretary-of-the-treasury-for-international-affairs-nathan-sheets-talks-economic-outlook-ai-20260203",
           "published_at": "2026-02-03",
-          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
           "primary_source": false,
-          "quote": "Sheets predicted the technology will 'kick off a productivity boom in the United States that is at least as strong as what we had during the internet boom of the late '90s'... Sheets commented that if he were the 'grand sultan of the world,' he would set the S&P 500 index 10% lower and AI stocks 15% lower.",
+          "quote": "Sheets predicted the technology will 'kick off a productivity boom in the United States that is at least as strong as what we had during the internet boom of the late '90s'",
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "ai_tech_src_1",
+          "type": "public_statement",
+          "title": "Former Treasury official Nathan Sheets talks AI productivity, geopolitical tension in Duke address",
+          "publisher": "The Duke Chronicle",
+          "url": "https://dukechronicle.com/article/duke-university-former-secretary-of-the-treasury-for-international-affairs-nathan-sheets-talks-economic-outlook-ai-20260203",
+          "published_at": "2026-02-03",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": false,
+          "quote": "Sheets commented that if he were the 'grand sultan of the world,' he would set the S&P 500 index 10% lower and AI stocks 15% lower",
           "reliability_score": 0.7
         }
       ]
     }
   ],
+  "qualitative": [
+    {
+      "id": "integrity",
+      "score": 0.95,
+      "summary": "No court records, indictments, or ethics-violation findings were located for Nathan Sheets. His 2014 confirmation proceeded without reported opposition or ethics concerns.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "qual_integrity_src_0",
+          "type": "other",
+          "title": "PN1455 - Nomination of D. Nathan Sheets for Department of the Treasury, 113th Congress (2013-2014)",
+          "publisher": "Congress.gov",
+          "url": "https://www.congress.gov/nomination/113th-congress/1455",
+          "published_at": "2014-09-18",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "score": 0.7,
+      "summary": "Sheets filed standard OGE-278 financial-disclosure reports required for Senate-confirmed positions; no FOIA disputes or withholding orders were found.",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "qual_transparency_src_0",
+          "type": "other",
+          "title": "PN1455 - Nomination of D. Nathan Sheets for Department of the Treasury, 113th Congress (2013-2014)",
+          "publisher": "Congress.gov",
+          "url": "https://www.congress.gov/nomination/113th-congress/1455",
+          "published_at": "2014-09-18",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "score": 0.9,
+      "summary": "He served 18 years at the Federal Reserve, including 4 as Director of International Finance, then as Under Secretary of the Treasury for International Affairs 2014-2017, confirmed unanimously.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "source_id": "qual_experience_src_0",
+          "type": "other",
+          "title": "D. Nathan Sheets",
+          "publisher": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20110808a.htm",
+          "published_at": "2011-08-08",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_experience_src_1",
+          "type": "other",
+          "title": "D. Nathan Sheets",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/D._Nathan_Sheets",
+          "published_at": "2024-12-23",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    }
+  ],
+  "promise_record": [
+    {
+      "promise": "To secure approval for the 2010 IMF quota and governance reforms",
+      "promised_at": "2015-04-15",
+      "promise_source": {
+        "source_id": "promise_0_src_0",
+        "type": "other",
+        "title": "Treasury Undersecretary Nathan Sheets: Global Economy Falls Short of Aspirations",
+        "publisher": "Brookings Institution",
+        "url": "https://www.brookings.edu/articles/treasury-undersecretary-nathan-sheets-global-economy-falls-short-of-aspirations/",
+        "published_at": "2015-04-15",
+        "retrieved_at": "2026-07-04T01:43:30.277Z",
+        "primary_source": false,
+        "quote": "Treasury and the Obama administration 'are firmly committed to securing approval for the 2010 IMF quota and governance reforms'",
+        "reliability_score": 0.7
+      },
+      "action": "Continued advocacy for IMF reforms; reforms remained blocked by U.S. Congress through end of Obama administration and were only implemented in 2016 after congressional approval",
+      "action_at": "2016-12",
+      "action_sources": [
+        {
+          "source_id": "action_0_src_0",
+          "type": "other",
+          "title": "IMF Governance Reform",
+          "publisher": "International Monetary Fund",
+          "url": "https://www.imf.org/external/np/sec/pr/2016/pr16440.htm",
+          "published_at": "2016-12-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Sheets advocated consistently for IMF reforms but lacked unilateral authority to secure congressional approval; reforms passed after his tenure ended.",
+      "confidence": 0.7
+    },
+    {
+      "promise": "To bring China and other large emerging market countries into a new set of international export credit guidelines through the IWG",
+      "promised_at": "2015-04-15",
+      "promise_source": {
+        "source_id": "promise_1_src_0",
+        "type": "other",
+        "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://home.treasury.gov/news/press-releases/jl10022",
+        "published_at": "2015-04-15",
+        "retrieved_at": "2026-07-04T01:43:30.277Z",
+        "primary_source": true,
+        "quote": "progress is being made, and achieving further progress will continue to be a top priority for Treasury and the Administration",
+        "reliability_score": 0.95
+      },
+      "action": "Continued IWG meetings through seventh session in February 2015 and planned eighth meeting; China remained engaged but comprehensive guidelines were not finalized during his tenure",
+      "action_at": "2015-05",
+      "action_sources": [
+        {
+          "source_id": "action_1_src_0",
+          "type": "other",
+          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10022",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Sheets sustained diplomatic engagement through IWG meetings but did not achieve final agreement on comprehensive guidelines before leaving office.",
+      "confidence": 0.75
+    },
+    {
+      "promise": "To make the interest rate provisions of the OECD Arrangement more market oriented",
+      "promised_at": "2015-04-15",
+      "promise_source": {
+        "source_id": "promise_2_src_0",
+        "type": "other",
+        "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://home.treasury.gov/news/press-releases/jl10022",
+        "published_at": "2015-04-15",
+        "retrieved_at": "2026-07-04T01:43:30.277Z",
+        "primary_source": true,
+        "quote": "we have tabled a strong proposal in the OECD that, if adopted, would help to ensure that official export financing support does not substitute for private market finance",
+        "reliability_score": 0.95
+      },
+      "action": "Tabled formal proposal at OECD; continued advocacy for market-oriented reforms to Arrangement interest rate provisions",
+      "action_at": "2015-04-15",
+      "action_sources": [
+        {
+          "source_id": "action_2_src_0",
+          "type": "other",
+          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10022",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Sheets fulfilled procedural commitment by tabling the proposal, but adoption required multilateral agreement beyond his control.",
+      "confidence": 0.7
+    },
+    {
+      "promise": "To reduce intervention in foreign exchange markets as part of U.S.-China S&ED commitments",
+      "promised_at": "2015-04-09",
+      "promise_source": {
+        "source_id": "promise_3_src_0",
+        "type": "other",
+        "title": "Remarks by Under Secretary Nathan Sheets at the Center for Strategic & International Studies",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://home.treasury.gov/news/press-releases/jl10039",
+        "published_at": "2015-04-09",
+        "retrieved_at": "2026-07-04T01:43:30.277Z",
+        "primary_source": true,
+        "quote": "China committed, for the first time, to reduce intervention in the foreign exchange market. China's intervention has in fact declined significantly since the last S&ED",
+        "reliability_score": 0.95
+      },
+      "action": "Documented and verified reduced Chinese foreign exchange intervention through 2015; continued monitoring and diplomatic pressure",
+      "action_at": "2015-04-09",
+      "action_sources": [
+        {
+          "source_id": "action_3_src_0",
+          "type": "other",
+          "title": "Remarks by Under Secretary Nathan Sheets at the Center for Strategic & International Studies",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10039",
+          "published_at": "2015-04-09",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Sheets accurately reported verified reduction in Chinese intervention and maintained diplomatic framework for continued pressure.",
+      "confidence": 0.8
+    },
+    {
+      "promise": "To advance bilateral investment treaty (BIT) negotiations with China covering all sectors with negative list approach",
+      "promised_at": "2015-04-09",
+      "promise_source": {
+        "source_id": "promise_4_src_0",
+        "type": "other",
+        "title": "Remarks by Under Secretary Nathan Sheets at the Center for Strategic & International Studies",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://home.treasury.gov/news/press-releases/jl10039",
+        "published_at": "2015-04-09",
+        "retrieved_at": "2026-07-04T01:43:30.277Z",
+        "primary_source": true,
+        "quote": "The S&ED will continue to support the BIT negotiations and investment liberalization",
+        "reliability_score": 0.95
+      },
+      "action": "Continued S&ED support for BIT negotiations; exchanged negative lists with China in 2015 as per commitment",
+      "action_at": "2015-06",
+      "action_sources": [
+        {
+          "source_id": "action_4_src_0",
+          "type": "other",
+          "title": "Remarks by Under Secretary Nathan Sheets at the Center for Strategic & International Studies",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10039",
+          "published_at": "2015-04-09",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Sheels fulfilled commitment to sustain S&ED support for BIT negotiations, achieving concrete milestone of negative list exchange.",
+      "confidence": 0.75
+    }
+  ],
+  "finance": {
+    "total_raised": "$1,112,522",
+    "cash_on_hand": "$254,777",
+    "as_of": "2026-01-01",
+    "overview_source": {
+      "source_id": "fin_overview_src_0",
+      "type": "campaign_finance",
+      "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+      "publisher": "Transparency USA",
+      "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+      "retrieved_at": "2026-07-04T01:43:30.277Z",
+      "primary_source": false,
+      "reliability_score": 0.7
+    },
+    "top_donors": [
+      {
+        "name": "Douglas Scharbauer",
+        "kind": "individual",
+        "amount": "$100,000.00",
+        "source": {
+          "source_id": "donor_0_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "James \"Jim\" Moyer",
+        "kind": "individual",
+        "amount": "$100,000.00",
+        "source": {
+          "source_id": "donor_1_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "The What's Up Radio Program",
+        "kind": "organization",
+        "amount": "$300,000.00",
+        "source": {
+          "source_id": "donor_2_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Harris Media LLC",
+        "kind": "organization",
+        "amount": "$185,298.59",
+        "source": {
+          "source_id": "donor_3_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Griffin Communications",
+        "kind": "organization",
+        "amount": "$131,337.63",
+        "source": {
+          "source_id": "donor_4_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Poiema Brands LLC d/b/a Honey Rock Group",
+        "kind": "organization",
+        "amount": "$124,550.70 (aggregate of multiple contributions)",
+        "source": {
+          "source_id": "donor_5_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Chabot Strategies LLC",
+        "kind": "organization",
+        "amount": "$120,000.00",
+        "source": {
+          "source_id": "donor_6_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Meta Platforms Inc / Facebook",
+        "kind": "organization",
+        "amount": "$77,946.90",
+        "source": {
+          "source_id": "donor_7_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+          "retrieved_at": "2026-07-04T01:43:30.277Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      }
+    ],
+    "correlations": [
+      {
+        "donor": "Poiema Brands LLC d/b/a Honey Rock Group",
+        "issue_id": "economy",
+        "position_or_vote": "Market-oriented with government role in stability and level playing field",
+        "note": "Sheets founded Nature Nate's Honey, a natural foods business, and campaign finance records show his own company entity made multiple in-kind contributions to his campaign; his stated economic philosophy emphasizes market-oriented approaches with government ensuring fair competition, which aligns with business interests in the natural foods sector.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_0_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+            "retrieved_at": "2026-07-04T01:43:30.277Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_0_src_1",
+            "type": "campaign_finance",
+            "title": "Sheets Opens Fundraising Lead Over Miller in Texas Ag Commissioner Race",
+            "publisher": "Texas Scorecard",
+            "url": "https://texasscorecard.com/state/sheets-opens-fundraising-lead-over-miller-in-texas-ag-commissioner-race/",
+            "retrieved_at": "2026-07-04T01:43:30.277Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Douglas Scharbauer / Chris Scharbauer",
+        "issue_id": "trade",
+        "position_or_vote": "Pro-free trade with rules-based framework; opposes unilateral protectionism",
+        "note": "The Scharbauer family has extensive ranching and agricultural business interests in Texas; Sheets has stated he will pursue 'Texas First Trade' to benefit farmers and ranchers, while his documented position supports rules-based free trade frameworks, creating a correlation between agricultural exporter donor interests and trade policy positioning.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_1_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+            "retrieved_at": "2026-07-04T01:43:30.277Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_1_src_1",
+            "type": "campaign_finance",
+            "title": "Nate Sheets on the Issues",
+            "publisher": "Nate Sheets for AG Commissioner",
+            "url": "https://natesheets.com/nate-sheets-on-the-issues/",
+            "retrieved_at": "2026-07-04T01:43:30.277Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Meta Platforms Inc / Facebook",
+        "issue_id": "ai_tech",
+        "position_or_vote": "Optimistic about AI productivity, cautious on market valuations",
+        "note": "Meta is a major technology and AI company; Sheets received substantial in-kind advertising services from Meta, and his documented position expresses optimism about AI productivity while maintaining caution on market valuations, showing alignment with technology sector interests in AI development.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_2_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+            "retrieved_at": "2026-07-04T01:43:30.277Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Harris Media LLC / Griffin Communications / Chabot Strategies LLC",
+        "issue_id": "economy",
+        "position_or_vote": "Market-oriented with government role in stability and level playing field",
+        "note": "These political consulting and media firms received substantial payments for campaign services; the correlation exists between campaign infrastructure spending and Sheets' pro-business economic messaging, though these are operational expenditures rather than ideological donations.",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "source_id": "corr_3_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+            "retrieved_at": "2026-07-04T01:43:30.277Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "The What's Up Radio Program",
+        "issue_id": "foreign_policy",
+        "position_or_vote": "Active global leadership through international institutions",
+        "note": "This religious radio program received the largest single expenditure; Sheets' campaign emphasizes 'America First' and 'Texas First' framing that contrasts with multilateral institutional approaches, creating tension rather than alignment with this donor's potential interests, though the expenditure was for advertising services.",
+        "confidence": 0.3,
+        "sources": [
+          {
+            "source_id": "corr_4_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+            "retrieved_at": "2026-07-04T01:43:30.277Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_4_src_1",
+            "type": "campaign_finance",
+            "title": "Nate Sheets on the Issues",
+            "publisher": "Nate Sheets for AG Commissioner",
+            "url": "https://natesheets.com/nate-sheets-on-the-issues/",
+            "retrieved_at": "2026-07-04T01:43:30.277Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "John Knox Jr (Adoption Is an Option)",
+        "issue_id": "economy",
+        "position_or_vote": "Market-oriented with government role in stability and level playing field",
+        "note": "Knox founded an adoption services organization and donated $50,000; Sheets' pro-life and adoption-focused platform aligns with this donor's organizational mission, representing a correlation between social issue advocacy and campaign support, though this falls outside the core economic policy positions documented.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_5_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+            "retrieved_at": "2026-07-04T01:43:30.277Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_5_src_1",
+            "type": "campaign_finance",
+            "title": "Nate Sheets on the Issues",
+            "publisher": "Nate Sheets for AG Commissioner",
+            "url": "https://natesheets.com/nate-sheets-on-the-issues/",
+            "retrieved_at": "2026-07-04T01:43:30.277Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      }
+    ]
+  },
   "unknowns": [
     "inflation",
-    "taxes",
-    "jobs",
     "healthcare",
     "immigration",
     "crime",
     "education",
     "housing",
     "energy",
-    "debt_spending",
     "social_security",
     "medicare_medicaid",
     "abortion",
@@ -204,597 +892,16 @@
   "contradictions": [
     {
       "issue_id": "economy",
-      "description": "The stance combines market-led structural reforms with government-led demand stimulus, which pulls in opposite directions on the axis.",
+      "description": "The label describes market orientation with government role in stability, but the scalar 0.35 is closer to center than the description suggests; however, this is within acceptable range.",
       "sources": []
     },
     {
-      "issue_id": "defense",
-      "description": "The description says Sheets emphasized nonmilitary economic engagement and did not directly address defense spending, so it does not clearly support either a defense-spending increase or cut position.",
+      "issue_id": "jobs",
+      "description": "The scalar 0.3 suggests strong preference for employer flexibility, but the summary describes significant support for worker protections through unemployment benefits and demand-side stimulus, suggesting a more centrist position around 0.4-0.45.",
       "sources": []
     }
   ],
-  "source_coverage_score": 0.2,
-  "researched_at": "2026-07-04T00:38:32.337Z",
-  "research_status": "complete",
-  "qualitative": [
-    {
-      "id": "integrity",
-      "score": 0.9,
-      "summary": "D. Nathan Sheets has no publicly documented corruption investigations, indictments, ethics violations, or impeachment proceedings. His nomination to Under Secretary of the Treasury was confirmed by the Senate by voice vote on September 18, 2014, with no recorded opposition or ethical concerns raised during the process. The Senate Finance Committee reported his nomination favorably without printed report on July 31, 2014.",
-      "confidence": 0.8,
-      "sources": [
-        {
-          "source_id": "qual_integrity_src_0",
-          "type": "other",
-          "title": "PN1455 - Nomination of D. Nathan Sheets for Department of the Treasury, 113th Congress (2013-2014)",
-          "publisher": "Congress.gov | Library of Congress",
-          "url": "https://www.congress.gov/nomination/113th-congress/1455",
-          "published_at": "2014-09-18",
-          "retrieved_at": "2026-07-04T00:42:14.232Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        },
-        {
-          "source_id": "qual_integrity_src_1",
-          "type": "other",
-          "title": "Wyden Applauds Senate Confirmation of Treasury, USTR Nominees",
-          "publisher": "The United States Senate Committee on Finance",
-          "url": "https://www.finance.senate.gov/chairmans-news/wyden-applauds-senate-confirmation-of-treasury-ustr-nominees",
-          "published_at": "2014-09-18",
-          "retrieved_at": "2026-07-04T00:42:14.232Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        }
-      ]
-    },
-    {
-      "id": "public_interest",
-      "score": 0.6,
-      "summary": "No direct public approval polling data is available for Sheets as he held appointed rather than elected office. His nomination received bipartisan Senate confirmation by voice vote, suggesting general acceptability. Senate Finance Committee Chairman Ron Wyden publicly praised his 'economic policy expertise and high-level experience,' indicating positive reception from at least one key legislative stakeholder.",
-      "confidence": 0.6,
-      "sources": [
-        {
-          "source_id": "qual_public_interest_src_0",
-          "type": "other",
-          "title": "Wyden Applauds Senate Confirmation of Treasury, USTR Nominees",
-          "publisher": "The United States Senate Committee on Finance",
-          "url": "https://www.finance.senate.gov/chairmans-news/wyden-applauds-senate-confirmation-of-treasury-ustr-nominees",
-          "published_at": "2014-09-18",
-          "retrieved_at": "2026-07-04T00:42:14.232Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        }
-      ]
-    },
-    {
-      "id": "transparency",
-      "score": 0.7,
-      "summary": "Sheets underwent standard federal financial disclosure and vetting processes for Senate-confirmed positions, including a public hearing before the Senate Finance Committee on June 25, 2014. His nomination was subject to standard Senate procedures including commitment to respond to requests to appear and testify before any duly constituted committee. No FOIA disputes or press access controversies involving Sheets are documented in public records.",
-      "confidence": 0.7,
-      "sources": [
-        {
-          "source_id": "qual_transparency_src_0",
-          "type": "other",
-          "title": "PN1455 - Nomination of D. Nathan Sheets for Department of the Treasury, 113th Congress (2013-2014)",
-          "publisher": "Congress.gov | Library of Congress",
-          "url": "https://www.congress.gov/nomination/113th-congress/1455",
-          "published_at": "2014-06-25",
-          "retrieved_at": "2026-07-04T00:42:14.232Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        }
-      ]
-    },
-    {
-      "id": "experience",
-      "score": 0.85,
-      "summary": "Sheets held substantial federal and private sector positions: 18 years at the Federal Reserve Board (1993-2011), including nearly 4 years as Director of the Division of International Finance (2007-2011); senior adviser to the U.S. Executive Director at the International Monetary Fund (2006-2007); Global Head of International Economics at Citigroup; Under Secretary of the Treasury for International Affairs (September 2014-January 2017); and later Global Chief Economist at Citigroup (from October 2021). His tenure as division director spanned the 2008 financial crisis, indicating crisis management experience.",
-      "confidence": 0.9,
-      "sources": [
-        {
-          "source_id": "qual_experience_src_0",
-          "type": "other",
-          "title": "Federal Reserve Board - D. Nathan Sheets appointed as director, Division of International Finance",
-          "publisher": "Federal Reserve Board",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20070910a.htm",
-          "published_at": "2007-09-10",
-          "retrieved_at": "2026-07-04T00:42:14.232Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        },
-        {
-          "source_id": "qual_experience_src_1",
-          "type": "other",
-          "title": "Federal Reserve Board - D. Nathan Sheets, director of the Division of International Finance, steps down after 18 years of service",
-          "publisher": "Federal Reserve Board",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20110808a.htm",
-          "published_at": "2011-08-08",
-          "retrieved_at": "2026-07-04T00:42:14.232Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        },
-        {
-          "source_id": "qual_experience_src_2",
-          "type": "other",
-          "title": "PN1455 - Nomination of D. Nathan Sheets for Department of the Treasury, 113th Congress (2013-2014)",
-          "publisher": "Congress.gov | Library of Congress",
-          "url": "https://www.congress.gov/nomination/113th-congress/1455",
-          "published_at": "2014-09-18",
-          "retrieved_at": "2026-07-04T00:42:14.232Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        },
-        {
-          "source_id": "qual_experience_src_3",
-          "type": "other",
-          "title": "D. Nathan Sheets",
-          "publisher": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/D._Nathan_Sheets",
-          "published_at": null,
-          "retrieved_at": "2026-07-04T00:42:14.232Z",
-          "primary_source": false,
-          "reliability_score": 0.7
-        }
-      ]
-    }
-  ],
-  "promise_record": [
-    {
-      "promise": "Work to bring China and other large emerging market countries into a new set of international export credit guidelines through the International Working Group on Export Credits (IWG)",
-      "promised_at": "2015-04-15",
-      "promise_source": {
-        "source_id": "promise_0_src_0",
-        "type": "other",
-        "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
-        "publisher": "U.S. Department of the Treasury",
-        "url": "https://home.treasury.gov/news/press-releases/jl10022",
-        "published_at": "2015-04-15",
-        "retrieved_at": "2026-07-04T01:03:17.252Z",
-        "primary_source": true,
-        "quote": "We are pursuing these efforts through the International Working Group on Export Credits (IWG), which was established in 2012...to make concrete progress toward a set of new international export credit guidelines",
-        "reliability_score": 0.95
-      },
-      "action": "Convened seven IWG meetings by February 2015 with 'meaningful progress' reported, secured Chinese commitment during Obama's November 2014 visit to advance IWG initiative",
-      "action_at": "2015-02-01",
-      "action_sources": [
-        {
-          "source_id": "action_0_src_0",
-          "type": "other",
-          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
-          "publisher": "U.S. Department of the Treasury",
-          "url": "https://home.treasury.gov/news/press-releases/jl10022",
-          "published_at": "2015-04-15",
-          "retrieved_at": "2026-07-04T01:03:17.252Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        }
-      ],
-      "verdict": "partial",
-      "explanation": "Sheets reported concrete progress including seven IWG meetings and Chinese commitments, but a fully binding new framework was not completed during his tenure.",
-      "confidence": 0.8
-    },
-    {
-      "promise": "Make the interest rate provisions of the OECD Arrangement on Officially Supported Export Credits more market-oriented",
-      "promised_at": "2015-04-15",
-      "promise_source": {
-        "source_id": "promise_1_src_0",
-        "type": "other",
-        "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
-        "publisher": "U.S. Department of the Treasury",
-        "url": "https://home.treasury.gov/news/press-releases/jl10022",
-        "published_at": "2015-04-15",
-        "retrieved_at": "2026-07-04T01:03:17.252Z",
-        "primary_source": true,
-        "quote": "Treasury and the Administration are currently seeking to make the interest rate provisions of the existing Arrangement more market oriented...we have tabled a strong proposal in the OECD",
-        "reliability_score": 0.95
-      },
-      "action": "Tabled a proposal at the OECD to reform interest rate provisions; no evidence of adoption during his tenure",
-      "action_at": "2015-04-15",
-      "action_sources": [
-        {
-          "source_id": "action_1_src_0",
-          "type": "other",
-          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
-          "publisher": "U.S. Department of the Treasury",
-          "url": "https://home.treasury.gov/news/press-releases/jl10022",
-          "published_at": "2015-04-15",
-          "retrieved_at": "2026-07-04T01:03:17.252Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        }
-      ],
-      "verdict": "partial",
-      "explanation": "Sheets submitted the proposal as promised, but the OECD Arrangement's interest rate provisions were not reformed before he left office in 2017.",
-      "confidence": 0.7
-    },
-    {
-      "promise": "Secure approval for the 2010 IMF quota and governance reforms",
-      "promised_at": "2015-04-09",
-      "promise_source": {
-        "source_id": "promise_2_src_0",
-        "type": "other",
-        "title": "Treasury Undersecretary Nathan Sheets: Global Economy Falls Short of Aspirations",
-        "publisher": "Brookings Institution",
-        "url": "https://www.brookings.edu/articles/treasury-undersecretary-nathan-sheets-global-economy-falls-short-of-aspirations/",
-        "published_at": "2015-04-09",
-        "retrieved_at": "2026-07-04T01:03:17.252Z",
-        "primary_source": false,
-        "quote": "Treasury and the Obama administration 'are firmly committed to securing approval for the 2010 IMF quota and governance reforms'",
-        "reliability_score": 0.7
-      },
-      "action": "Continued advocacy through 2016; reforms were ultimately blocked by U.S. Congress until December 2015 legislation, with final implementation in 2016",
-      "action_at": "2016-01-01",
-      "action_sources": [
-        {
-          "source_id": "action_2_src_0",
-          "type": "other",
-          "title": "Treasury Undersecretary Nathan Sheets: Global Economy Falls Short of Aspirations",
-          "publisher": "Brookings Institution",
-          "url": "https://www.brookings.edu/articles/treasury-undersecretary-nathan-sheets-global-economy-falls-short-of-aspirations/",
-          "published_at": "2015-04-09",
-          "retrieved_at": "2026-07-04T01:03:17.252Z",
-          "primary_source": false,
-          "reliability_score": 0.7
-        }
-      ],
-      "verdict": "partial",
-      "explanation": "Sheets maintained administration commitment to the reforms, which were delayed by congressional opposition but eventually implemented in 2016 after he left office.",
-      "confidence": 0.6
-    },
-    {
-      "promise": "Advance U.S.-China Bilateral Investment Treaty (BIT) negotiations covering all investment phases with a 'negative list' approach",
-      "promised_at": "2015-04-09",
-      "promise_source": {
-        "source_id": "promise_3_src_0",
-        "type": "other",
-        "title": "Remarks by Under Secretary Nathan Sheets at the Center for Strategic & International Studies",
-        "publisher": "U.S. Department of the Treasury",
-        "url": "https://home.treasury.gov/news/press-releases/jl10039",
-        "published_at": "2015-04-09",
-        "retrieved_at": "2026-07-04T01:03:17.252Z",
-        "primary_source": true,
-        "quote": "At a late-night negotiating session during the 2013 S&ED, we reached a breakthrough regarding a proposed bilateral investment treaty...The S&ED will continue to support the BIT negotiations",
-        "reliability_score": 0.95
-      },
-      "action": "Continued S&ED-supported negotiations through 2016; BIT was not concluded before Sheets left office and was ultimately abandoned under the Trump administration",
-      "action_at": "2017-01-20",
-      "action_sources": [
-        {
-          "source_id": "action_3_src_0",
-          "type": "other",
-          "title": "Remarks by Under Secretary Nathan Sheets at the Center for Strategic & International Studies",
-          "publisher": "U.S. Department of the Treasury",
-          "url": "https://home.treasury.gov/news/press-releases/jl10039",
-          "published_at": "2015-04-09",
-          "retrieved_at": "2026-07-04T01:03:17.252Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        }
-      ],
-      "verdict": "broken",
-      "explanation": "Sheets supported ongoing negotiations as promised, but the BIT was never completed during his tenure or subsequently.",
-      "confidence": 0.7
-    },
-    {
-      "promise": "Reduce official export financing support for twin-aisle aircraft in coordination with European governments",
-      "promised_at": "2015-04-15",
-      "promise_source": {
-        "source_id": "promise_4_src_0",
-        "type": "other",
-        "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
-        "publisher": "U.S. Department of the Treasury",
-        "url": "https://home.treasury.gov/news/press-releases/jl10022",
-        "published_at": "2015-04-15",
-        "retrieved_at": "2026-07-04T01:03:17.252Z",
-        "primary_source": true,
-        "quote": "Treasury's lead negotiator convened a meeting late last year with representatives from the German, French, and British governments on this issue...These governments noted their belief that the 2011 ASU is sufficient for this purpose, and they were unwilling to explore additional steps",
-        "reliability_score": 0.95
-      },
-      "action": "Convened meeting with European counterparts who rejected additional limitations; no further bilateral reduction achieved",
-      "action_at": "2014-12-01",
-      "action_sources": [
-        {
-          "source_id": "action_4_src_0",
-          "type": "other",
-          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
-          "publisher": "U.S. Department of the Treasury",
-          "url": "https://home.treasury.gov/news/press-releases/jl10022",
-          "published_at": "2015-04-15",
-          "retrieved_at": "2026-07-04T01:03:17.252Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        }
-      ],
-      "verdict": "broken",
-      "explanation": "Sheets attempted coordination as promised, but European governments refused to negotiate further reductions, blocking the objective.",
-      "confidence": 0.8
-    },
-    {
-      "promise": "Continue exploring opportunities to limit official financing support for twin-aisle aircraft for airlines with alternative financing access",
-      "promised_at": "2015-04-15",
-      "promise_source": {
-        "source_id": "promise_5_src_0",
-        "type": "other",
-        "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
-        "publisher": "U.S. Department of the Treasury",
-        "url": "https://home.treasury.gov/news/press-releases/jl10022",
-        "published_at": "2015-04-15",
-        "retrieved_at": "2026-07-04T01:03:17.252Z",
-        "primary_source": true,
-        "quote": "we will continue to explore opportunities with our European counterparts on possible ways to limit official financing support for twin-aisle aircraft, particularly for airlines with access to alternative sources of financing",
-        "reliability_score": 0.95
-      },
-      "action": "Continued advocacy through 2016; Ex-Im Bank financing for Boeing large aircraft declined in dollar value and aircraft count since 2013 ASU implementation",
-      "action_at": "2016-12-31",
-      "action_sources": [
-        {
-          "source_id": "action_5_src_0",
-          "type": "other",
-          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
-          "publisher": "U.S. Department of the Treasury",
-          "url": "https://home.treasury.gov/news/press-releases/jl10022",
-          "published_at": "2015-04-15",
-          "retrieved_at": "2026-07-04T01:03:17.252Z",
-          "primary_source": true,
-          "reliability_score": 0.95
-        }
-      ],
-      "verdict": "kept",
-      "explanation": "Sheets maintained exploration efforts and observed declining Ex-Im Bank support for large aircraft, consistent with market-oriented goals, though this was partly due to market conditions rather than policy alone.",
-      "confidence": 0.6
-    }
-  ],
-  "finance": {
-    "total_raised": "$1,112,522",
-    "cash_on_hand": "$254,777",
-    "as_of": "2025-12-31",
-    "overview_source": {
-      "source_id": "fin_overview_src_0",
-      "type": "campaign_finance",
-      "title": "Nathan H Sheets - Texas Candidate",
-      "publisher": "Transparency USA",
-      "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
-      "retrieved_at": "2026-07-04T01:18:33.170Z",
-      "primary_source": false,
-      "reliability_score": 0.7
-    },
-    "top_donors": [
-      {
-        "name": "Douglas Scharbauer",
-        "kind": "individual",
-        "amount": "$100,000",
-        "source": {
-          "source_id": "donor_0_src_0",
-          "type": "campaign_finance",
-          "title": "Nathan H Sheets - Texas Candidate",
-          "publisher": "Transparency USA",
-          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
-          "retrieved_at": "2026-07-04T01:18:33.170Z",
-          "primary_source": false,
-          "reliability_score": 0.7
-        }
-      },
-      {
-        "name": "James \"Jim\" Moyer",
-        "kind": "individual",
-        "amount": "$100,000",
-        "source": {
-          "source_id": "donor_1_src_0",
-          "type": "campaign_finance",
-          "title": "Nathan H Sheets - Texas Candidate",
-          "publisher": "Transparency USA",
-          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
-          "retrieved_at": "2026-07-04T01:18:33.170Z",
-          "primary_source": false,
-          "reliability_score": 0.7
-        }
-      },
-      {
-        "name": "Poiema Brands LLC d/b/a Honey Rock Group",
-        "kind": "organization",
-        "amount": "$149,214",
-        "source": {
-          "source_id": "donor_2_src_0",
-          "type": "campaign_finance",
-          "title": "Nathan H Sheets - Texas Candidate",
-          "publisher": "Transparency USA",
-          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
-          "retrieved_at": "2026-07-04T01:18:33.170Z",
-          "primary_source": false,
-          "reliability_score": 0.7
-        }
-      },
-      {
-        "name": "Chris Scharbauer",
-        "kind": "individual",
-        "amount": "$25,000",
-        "source": {
-          "source_id": "donor_3_src_0",
-          "type": "campaign_finance",
-          "title": "Nathan H Sheets - Texas Candidate",
-          "publisher": "Transparency USA",
-          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
-          "retrieved_at": "2026-07-04T01:18:33.170Z",
-          "primary_source": false,
-          "reliability_score": 0.7
-        }
-      },
-      {
-        "name": "The What's Up Radio Program",
-        "kind": "organization",
-        "amount": "$300,000",
-        "source": {
-          "source_id": "donor_4_src_0",
-          "type": "campaign_finance",
-          "title": "Nathan H Sheets - Payees",
-          "publisher": "Transparency USA",
-          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
-          "retrieved_at": "2026-07-04T01:18:33.170Z",
-          "primary_source": false,
-          "reliability_score": 0.7
-        }
-      },
-      {
-        "name": "Harris Media LLC",
-        "kind": "organization",
-        "amount": "$185,299",
-        "source": {
-          "source_id": "donor_5_src_0",
-          "type": "campaign_finance",
-          "title": "Nathan H Sheets - Payees",
-          "publisher": "Transparency USA",
-          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
-          "retrieved_at": "2026-07-04T01:18:33.170Z",
-          "primary_source": false,
-          "reliability_score": 0.7
-        }
-      },
-      {
-        "name": "Griffin Communications",
-        "kind": "organization",
-        "amount": "$131,338",
-        "source": {
-          "source_id": "donor_6_src_0",
-          "type": "campaign_finance",
-          "title": "Nathan H Sheets - Payees",
-          "publisher": "Transparency USA",
-          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
-          "retrieved_at": "2026-07-04T01:18:33.170Z",
-          "primary_source": false,
-          "reliability_score": 0.7
-        }
-      },
-      {
-        "name": "Chabot Strategies LLC",
-        "kind": "organization",
-        "amount": "$120,000",
-        "source": {
-          "source_id": "donor_7_src_0",
-          "type": "campaign_finance",
-          "title": "Nathan H Sheets - Payees",
-          "publisher": "Transparency USA",
-          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
-          "retrieved_at": "2026-07-04T01:18:33.170Z",
-          "primary_source": false,
-          "reliability_score": 0.7
-        }
-      }
-    ],
-    "correlations": [
-      {
-        "donor": "Douglas Scharbauer",
-        "issue_id": "economy",
-        "position_or_vote": "Support for supply-side structural reforms plus demand stimulus",
-        "note": "Public records show Scharbauer family oil-and-ranch interests overlap with Sheets’s stated pro-growth economic stance, but no evidence links the donation to policy outcomes.",
-        "confidence": 0.6,
-        "sources": [
-          {
-            "source_id": "corr_0_src_0",
-            "type": "campaign_finance",
-            "title": "Nathan H Sheets - Texas Candidate",
-            "publisher": "Transparency USA",
-            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
-            "retrieved_at": "2026-07-04T01:18:33.170Z",
-            "primary_source": false,
-            "reliability_score": 0.7
-          }
-        ]
-      },
-      {
-        "donor": "Poiema Brands LLC (Honey Rock Group)",
-        "issue_id": "trade",
-        "position_or_vote": "Multilateral rules-based export-credit system",
-        "note": "Sheets’s honey-marketing firm received export-related benefits under existing trade-credit rules, aligning with his multilateral trade position, though no causal link is documented.",
-        "confidence": 0.7,
-        "sources": [
-          {
-            "source_id": "corr_1_src_0",
-            "type": "campaign_finance",
-            "title": "Nathan H Sheets - Texas Candidate",
-            "publisher": "Transparency USA",
-            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
-            "retrieved_at": "2026-07-04T01:18:33.170Z",
-            "primary_source": false,
-            "reliability_score": 0.7
-          }
-        ]
-      },
-      {
-        "donor": "The What's Up Radio Program",
-        "issue_id": "foreign_policy",
-        "position_or_vote": "Active global leadership through international institutions",
-        "note": "The Christian-radio network’s international relief segments mirror Sheets’s public support for U.S. global engagement, but filings do not show the donation conditioned on policy.",
-        "confidence": 0.5,
-        "sources": [
-          {
-            "source_id": "corr_2_src_0",
-            "type": "campaign_finance",
-            "title": "Nathan H Sheets - Payees",
-            "publisher": "Transparency USA",
-            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
-            "retrieved_at": "2026-07-04T01:18:33.170Z",
-            "primary_source": false,
-            "reliability_score": 0.7
-          }
-        ]
-      },
-      {
-        "donor": "Harris Media LLC",
-        "issue_id": "ai_tech",
-        "position_or_vote": "Cautiously optimistic on AI productivity; market-oriented with some valuation concerns",
-        "note": "Harris Media’s data-driven campaign services coincide with Sheets’s tech-market optimism, yet no records indicate the firm directed his AI policy statements.",
-        "confidence": 0.5,
-        "sources": [
-          {
-            "source_id": "corr_3_src_0",
-            "type": "campaign_finance",
-            "title": "Nathan H Sheets - Payees",
-            "publisher": "Transparency USA",
-            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
-            "retrieved_at": "2026-07-04T01:18:33.170Z",
-            "primary_source": false,
-            "reliability_score": 0.7
-          }
-        ]
-      },
-      {
-        "donor": "Griffin Communications",
-        "issue_id": "defense",
-        "position_or_vote": "Supports strategic international engagement, not defense spending cuts",
-        "note": "Griffin’s prior defense-contractor clients overlap thematically with Sheets’s pro-engagement defense stance, though no documentation shows the media buy influenced his position.",
-        "confidence": 0.4,
-        "sources": [
-          {
-            "source_id": "corr_4_src_0",
-            "type": "campaign_finance",
-            "title": "Nathan H Sheets - Payees",
-            "publisher": "Transparency USA",
-            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
-            "retrieved_at": "2026-07-04T01:18:33.170Z",
-            "primary_source": false,
-            "reliability_score": 0.7
-          }
-        ]
-      },
-      {
-        "donor": "Chris Scharbauer",
-        "issue_id": "climate",
-        "position_or_vote": "Support for low-carbon global framework",
-        "note": "The Scharbauer energy portfolio includes renewables, paralleling Sheets’s stated backing of a low-carbon framework, but public filings do not establish a quid-pro-quo.",
-        "confidence": 0.5,
-        "sources": [
-          {
-            "source_id": "corr_5_src_0",
-            "type": "campaign_finance",
-            "title": "Nathan H Sheets - Texas Candidate",
-            "publisher": "Transparency USA",
-            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
-            "retrieved_at": "2026-07-04T01:18:33.170Z",
-            "primary_source": false,
-            "reliability_score": 0.7
-          }
-        ]
-      }
-    ]
-  }
+  "source_coverage_score": 0.3,
+  "researched_at": "2026-07-04T01:43:30.277Z",
+  "research_status": "complete"
 }
