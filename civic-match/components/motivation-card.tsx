@@ -6,7 +6,7 @@ import { CivitasPanel, SourceLink } from "@/components/civitas-ui";
 import { loadPrefs } from "@/lib/prefs";
 import type { Motivation } from "@/app/api/motivate/route";
 
-// Hook → information → call to action. Motivates voting, never a candidate.
+// Hook, information, call to action. Motivates voting, never a candidate.
 export default function MotivationCard() {
   const [m, setM] = useState<Motivation | null>(null);
 
