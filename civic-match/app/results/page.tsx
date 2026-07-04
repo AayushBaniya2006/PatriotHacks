@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, use } from "react";
 import Link from "next/link";
 import { loadPrefs } from "@/lib/prefs";
 import type { MatchResult, VoterProfile } from "@/lib/types";
@@ -208,7 +208,17 @@ function BallotStageStatus({ stage }: { stage: Stage }) {
   );
 }
 
-export default function ResultsPage() {
+export default function ResultsPage({
+  searchParams,
+}: {
+  // Additive, opt-in projector/presentation mode: ?present=1 applies a
+  // `.present-mode` wrapper class (styled in globals.css) that scales root
+  // text ~115% and bumps key line-heights. Absent, or any value other than
+  // "1", leaves presentMode false and every className below byte-identical
+  // to before this prop existed.
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
+  const presentMode = use(searchParams)?.present === "1";
   const [results, setResults] = useState<MatchResult[] | null>(null);
   const [noPrefs, setNoPrefs] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
@@ -361,7 +371,7 @@ export default function ResultsPage() {
 
   if (noPrefs) {
     return (
-      <div className="mx-auto max-w-2xl px-4 py-16 text-center">
+      <div className={`mx-auto max-w-2xl px-4 py-16 text-center${presentMode ? " present-mode" : ""}`}>
         <p className="text-zinc-400 mb-4">You haven&apos;t set your priorities yet.</p>
         <Link href="/intake" className="rounded-lg bg-gold px-5 py-2.5 font-medium text-navy-dark">
           Pick your priorities
@@ -372,7 +382,7 @@ export default function ResultsPage() {
 
   if (!results) {
     return (
-      <div className="mx-auto max-w-3xl px-4 py-16 text-zinc-500 animate-pulse">
+      <div className={`mx-auto max-w-3xl px-4 py-16 text-zinc-500 animate-pulse${presentMode ? " present-mode" : ""}`}>
         Scoring cached candidate profiles…
       </div>
     );
@@ -385,9 +395,9 @@ export default function ResultsPage() {
   const stage = deriveStage(ballotState, featuredRace !== null, prefetchPhase, prefetchDetail);
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
+    <div className={`mx-auto max-w-3xl px-4 py-10${presentMode ? " present-mode" : ""}`}>
       <div className="flex items-baseline justify-between mb-1">
-        <h1 className="text-2xl font-bold">
+        <h1 className="min-w-0 break-words text-2xl font-bold">
           {voterName ? `${voterName}, here's your alignment` : "Your candidate alignment"}
         </h1>
         <Link href="/intake" className="text-xs text-zinc-400 hover:text-zinc-200">
@@ -536,7 +546,7 @@ export default function ResultsPage() {
                     </div>
                     <button
                       onClick={() => handleResearchNow(r.politician_id)}
-                      className="w-full rounded-md bg-gold/15 border border-gold/40 px-3 py-2 text-xs font-medium text-gold hover:bg-gold/25 transition-colors"
+                      className="w-full rounded-md bg-gold/15 border border-gold/40 px-3 py-3.5 sm:py-2 text-xs font-medium text-gold hover:bg-gold/25 transition-colors"
                     >
                       🔬 Auto-Research via Agent Swarm (Uses Government Data)
                     </button>

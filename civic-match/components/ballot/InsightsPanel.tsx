@@ -26,6 +26,7 @@ import type {
 } from "@/lib/dataBackend";
 import type { VoterProfile } from "@/lib/types";
 import { markReviewed, readinessKey } from "@/lib/readiness";
+import { ViewModeToggle, useViewMode } from "@/components/ballot/ViewModeToggle";
 
 type FetchState =
   | { status: "idle" }
@@ -105,6 +106,7 @@ export function InsightsPanel({
 }) {
   const [state, setState] = useState<FetchState>({ status: "idle" });
   const [cache, setCache] = useState<Record<string, InsightsResponse>>({});
+  const [viewMode] = useViewMode();
 
   // Fold newly-arrived prefetched entries into our own cache as they land
   // (the prefetch resolves asynchronously, typically well after this panel
@@ -181,8 +183,9 @@ export function InsightsPanel({
   if (state.status === "idle") {
     return (
       <div className="rounded-xl border border-dashed border-zinc-500 p-5 text-sm text-zinc-400">
-        Click “What this means for you” on any race above for a plain-English, source-linked read
-        on what each candidate would likely mean for someone in your stated situation.
+        {viewMode === "simple"
+          ? "Tap “What this means for you” on any race above for the quick, sourced take."
+          : "Click “What this means for you” on any race above for a plain-English, source-linked read on what each candidate would likely mean for someone in your stated situation."}
       </div>
     );
   }
@@ -191,9 +194,12 @@ export function InsightsPanel({
 
   return (
     <div className="rounded-xl border border-zinc-500 bg-zinc-900/50 p-5">
-      <h3 className="mb-3 font-semibold">
-        What this means for you{race ? ` — ${race.office}` : ""}
-      </h3>
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
+        <h3 className="font-semibold">
+          What this means for you{race ? ` — ${race.office}` : ""}
+        </h3>
+        <ViewModeToggle tone="zinc" />
+      </div>
       {state.status === "done" && <PersonalizationNote archetypeUsed={state.result.archetype_used} />}
 
       {state.status === "loading" && (
@@ -210,7 +216,84 @@ export function InsightsPanel({
         </div>
       )}
       {state.status === "done" && (
-        <InsightsBody result={state.result} race={race} profile={profile} />
+        viewMode === "simple" ? (
+          <SimpleInsightsBody result={state.result} race={race} />
+        ) : (
+          <InsightsBody result={state.result} race={race} profile={profile} />
+        )
+      )}
+    </div>
+  );
+}
+
+// SIMPLE MODE (plain-English, Gen-Z-friendly view) — additive alternative to
+// InsightsBody below, switched via the same ViewModeToggle/lib/viewMode.ts
+// preference BallotSection reads. Renders from the exact same
+// InsightsResponse (same /api/voter-insights payload, no new fetch): the
+// top-level summary becomes "the short version," each candidate collapses
+// to its first (highest-priority) sourced bullet instead of the full list,
+// and the horizons/"How we know" detail stays exclusive to the detailed
+// view. Every line that carries a source keeps its "source ↗" link, and a
+// candidate with no bullets gets the same honest "no public record on this
+// yet" line the detailed view's empty states already use.
+function SimpleInsightsBody({ result, race }: { result: InsightsResponse; race?: Race }) {
+  if (result.mode === "unavailable") {
+    return (
+      <p className="text-sm text-zinc-400">
+        {result.detail ?? "No public record on this yet for this race."}
+      </p>
+    );
+  }
+
+  const candidateIds = Object.keys(result.candidates ?? {});
+
+  return (
+    <div className="space-y-4">
+      {result.summary && (
+        <div className="rounded-lg border border-zinc-500 bg-zinc-950/40 p-3">
+          <p className="text-[10px] font-semibold uppercase tracking-wide text-zinc-400">The short version</p>
+          <p className="mt-1 text-sm leading-5 text-zinc-200">{result.summary}</p>
+        </div>
+      )}
+
+      {candidateIds.length === 0 ? (
+        <p className="text-sm text-zinc-400">No public record on this yet for this race.</p>
+      ) : (
+        <div className="grid gap-3 sm:grid-cols-2">
+          {candidateIds.map((cid) => {
+            const bullets = result.candidates[cid] ?? [];
+            const top = bullets[0];
+            const name = race?.candidates.find((c) => c.candidate_id === cid)?.name ?? cid;
+            return (
+              <div key={cid} className="rounded-lg bg-zinc-950 p-3">
+                <div className="mb-1 text-sm font-medium text-zinc-200">{name}</div>
+                {top ? (
+                  <p className="text-xs leading-5 text-zinc-400">
+                    {top.text}
+                    {top.source && (
+                      <a
+                        href={top.source}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-1 text-emerald-400 hover:underline"
+                      >
+                        source ↗
+                      </a>
+                    )}
+                  </p>
+                ) : (
+                  <p className="text-xs text-zinc-400">No public record on this yet.</p>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {result.caveats && (
+        <p className="text-xs text-zinc-400">
+          <span className="text-yellow-500/90">Heads up:</span> {result.caveats}
+        </p>
       )}
     </div>
   );
@@ -407,7 +490,7 @@ function InsightsBody({
           the only mode carrying a precomputed doc's generated_at. */}
       {result.generated_at && (
         <details className="rounded-lg border border-zinc-500 bg-zinc-950/40 p-3 text-xs text-zinc-400">
-          <summary className="cursor-pointer select-none font-medium text-zinc-300">How we know</summary>
+          <summary className="cursor-pointer select-none py-3.5 sm:py-0 font-medium text-zinc-300">How we know</summary>
           <div className="mt-2 max-w-prose space-y-1.5">
             <p>Insights generated: {formatGeneratedAt(result.generated_at)}</p>
           </div>

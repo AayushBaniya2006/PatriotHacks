@@ -217,7 +217,7 @@ export function VotingPlan({
               type="button"
               onClick={() => setTiming("election_day")}
               aria-pressed={timing === "election_day"}
-              className={`rounded-lg border px-3 py-1.5 text-sm font-medium transition ${
+              className={`rounded-lg border px-3 py-3 sm:py-1.5 text-sm font-medium transition ${
                 timing === "election_day"
                   ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
                   : "border-zinc-500 text-zinc-300 hover:border-emerald-400/60"
@@ -229,7 +229,7 @@ export function VotingPlan({
               type="button"
               onClick={() => setTiming("early_voting")}
               aria-pressed={timing === "early_voting"}
-              className={`rounded-lg border px-3 py-1.5 text-sm font-medium transition ${
+              className={`rounded-lg border px-3 py-3 sm:py-1.5 text-sm font-medium transition ${
                 timing === "early_voting"
                   ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
                   : "border-zinc-500 text-zinc-300 hover:border-emerald-400/60"
@@ -251,7 +251,7 @@ export function VotingPlan({
               setWindowId(e.target.value);
               setDownloaded(false);
             }}
-            className="w-full max-w-xs rounded-lg border border-zinc-500 bg-zinc-950 px-3 py-2 text-sm text-zinc-200"
+            className="w-full max-w-xs rounded-lg border border-zinc-500 bg-zinc-950 px-3 py-3 sm:py-2 text-sm text-zinc-200"
           >
             {TIME_WINDOWS.map((w) => (
               <option key={w.id} value={w.id}>
@@ -272,7 +272,7 @@ export function VotingPlan({
           <button
             type="button"
             onClick={handleAddToCalendar}
-            className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-emerald-400"
+            className="rounded-lg bg-emerald-500 px-5 py-3 sm:py-2.5 text-sm font-semibold text-zinc-950 hover:bg-emerald-400"
           >
             Add to calendar
           </button>

@@ -25,9 +25,10 @@ are surfaced in the printed summary rather than silently guessed at.
 Merge is strictly non-destructive: for a candidate that already has a
 civic-match profile, this script only (a) fills bio/party/current_office if
 currently empty and (b) appends new Stance entries derived from our
-key_votes/finance/sponsored_highlights. It never deletes or rewrites an
-existing stance, qualitative entry, source, or the unknowns/contradictions/
-source_coverage_score bookkeeping the research swarm already computed.
+key_votes/finance/sponsored_highlights/positions. It never deletes or
+rewrites an existing stance, qualitative entry, source, or the
+unknowns/contradictions/source_coverage_score bookkeeping the research swarm
+already computed.
 Appends are idempotent: stance_id/source_id are derived deterministically
 from the underlying bill/finance record, so rerunning after new gold data
 lands only adds what is actually new.
@@ -58,6 +59,7 @@ import tempfile
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 GOLD_RACES_PATH = REPO_ROOT / "data" / "tx" / "races.json"
@@ -400,9 +402,12 @@ def build_finance_source(finance: dict) -> dict | None:
 
 def derive_stances(candidate_id: str, candidate: dict, skip_log: list[tuple[str, str, str, str]]) -> list[dict]:
     """key_votes -> voting_record stances, sponsored_highlights -> sponsored_bill
-    stances. Does NOT handle finance (see attach_finance) or the (currently
-    always-empty in the gold dataset) `positions` field, which the export
-    contract does not ask this script to convert."""
+    stances. Does NOT handle finance (see attach_finance) or the `positions`
+    field (see derive_position_stances below, called separately from main()
+    so it can dedupe against the vote/sponsored stances derived here first --
+    a recorded vote is higher-fidelity evidence than a researched position on
+    the same issue, so it should win rather than stack two stances on one
+    issue_id)."""
     stances: list[dict] = []
     seen_ids: set[str] = set()
 

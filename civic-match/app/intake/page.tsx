@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, use } from "react";
 import { useRouter } from "next/navigation";
 import { savePrefs } from "@/lib/prefs";
 import type { VoterProfile } from "@/lib/types";
 import type { IssueDef } from "@/lib/issues";
 import type { UIConfig } from "@/lib/config";
+import { getIssueExplainer, type IssueExplainerPole } from "@/lib/issueExplainers";
 import {
   CivitasButton,
   CivitasNotice,
@@ -35,7 +36,17 @@ const intakeSteps = [
   },
 ];
 
-export default function IntakePage() {
+export default function IntakePage({
+  searchParams,
+}: {
+  // Additive, opt-in projector/presentation mode: ?present=1 applies a
+  // `.present-mode` wrapper class (styled in globals.css) that scales root
+  // text ~115% and bumps key line-heights. Absent, or any value other than
+  // "1", leaves presentMode false and every CivitasPage className below
+  // byte-identical to before this prop existed.
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
+  const presentMode = use(searchParams)?.present === "1";
   const router = useRouter();
   const [issues, setIssues] = useState<IssueDef[] | null>(null);
   const [ui, setUI] = useState<UIConfig | null>(null);
@@ -101,7 +112,7 @@ export default function IntakePage() {
 
   if (!ui || !issues) {
     return (
-      <CivitasPage eyebrow="Priorities" title="Loading your ballot intake">
+      <CivitasPage eyebrow="Priorities" title="Loading your ballot intake" className={presentMode ? "present-mode" : undefined}>
         <CivitasNotice className="animate-pulse">Loading issue configuration...</CivitasNotice>
       </CivitasPage>
     );
@@ -120,6 +131,7 @@ export default function IntakePage() {
       <CivitasPage
         eyebrow="Voter profile"
         title="A little about you"
+        className={presentMode ? "present-mode" : undefined}
         description={
           <>
           All optional. This stays in your browser and is only used to explain what
@@ -239,7 +251,7 @@ export default function IntakePage() {
           <CivitasButton onClick={() => setStep("pick")}>
             Next: your issues
           </CivitasButton>
-          <button onClick={() => setStep("pick")} className="text-sm text-white/45 hover:text-white">
+          <button onClick={() => setStep("pick")} className="py-3 sm:py-0 text-sm text-white/45 hover:text-white">
             Skip
           </button>
         </div>
@@ -254,6 +266,7 @@ export default function IntakePage() {
       <CivitasPage
         eyebrow="Priorities"
         title="What matters most to you?"
+        className={presentMode ? "present-mode" : undefined}
         description={
           <>
           Pick at least {MIN_PICKS} issues — as many as you want, most important
@@ -272,10 +285,10 @@ export default function IntakePage() {
                 </p>
               </div>
               <div className="flex gap-2 text-xs">
-                <button onClick={selectAll} className="rounded-[6px] border border-gold/35 px-3 py-1.5 text-gold hover:border-gold hover:bg-gold/10">
+                <button onClick={selectAll} className="rounded-[6px] border border-gold/35 px-3 py-3.5 sm:py-1.5 text-gold hover:border-gold hover:bg-gold/10">
                   Select all 30
                 </button>
-                <button onClick={clearAll} className="rounded-[6px] border border-white/12 px-3 py-1.5 text-white/45 hover:border-white/25 hover:text-white">
+                <button onClick={clearAll} className="rounded-[6px] border border-white/12 px-3 py-3.5 sm:py-1.5 text-white/45 hover:border-white/25 hover:text-white">
                   Clear
                 </button>
               </div>
@@ -322,7 +335,7 @@ export default function IntakePage() {
   if (!currentIssue) return null;
 
   return (
-    <CivitasPage eyebrow="Trade-offs" title={currentIssue.name}>
+    <CivitasPage eyebrow="Trade-offs" title={currentIssue.name} className={presentMode ? "present-mode" : undefined}>
       <div className="grid gap-6 lg:grid-cols-[280px_minmax(0,1fr)]">
         <CivitasProgressPanel steps={intakeSteps} currentStep={step} />
         <CivitasPanel className="p-5 sm:p-6">
@@ -340,6 +353,8 @@ export default function IntakePage() {
 
       <p className="mb-1 text-sm text-white/45">{currentIssue.voterQuestion}</p>
       <p className="mb-5 text-white/72">{currentIssue.tradeoffQuestion}</p>
+
+      <IssueImpactExplainer issueId={currentIssue.id} />
 
       <div className="space-y-3 mb-6">
         {currentIssue.options.map((o) => (
@@ -375,7 +390,7 @@ export default function IntakePage() {
             <button
               key={im.label}
               onClick={() => submitIssue(im.mult)}
-              className="rounded-[8px] border border-white/14 px-3 py-2.5 text-sm text-white/72 hover:border-gold/60 hover:bg-gold/10"
+              className="rounded-[8px] border border-white/14 px-3 py-3 sm:py-2.5 text-sm text-white/72 hover:border-gold/60 hover:bg-gold/10"
             >
               {im.label}
             </button>
@@ -385,5 +400,65 @@ export default function IntakePage() {
         </CivitasPanel>
       </div>
     </CivitasPage>
+  );
+}
+
+// Neutral, both-sides "how does this affect me?" read for the issue currently
+// on screen. Purely additive/informational — it never reads or writes
+// pendingScalar or any position-selection state above. Renders nothing when
+// the issue has no explainer entry (data/config/issue_explainers.json).
+function IssueImpactExplainer({ issueId }: { issueId: string }) {
+  const explainer = getIssueExplainer(issueId);
+  if (!explainer) return null;
+  return (
+    <CivitasPanel as="details" className="mb-5 p-4">
+      <summary className="cursor-pointer py-3.5 sm:py-0 text-xs font-semibold uppercase tracking-[0.18em] text-gold/85">
+        How does this affect me?
+      </summary>
+      <div className="mt-3 space-y-4 border-t border-white/10 pt-3">
+        <p className="text-sm leading-6 text-white/72">{explainer.plain_summary}</p>
+        {/* Same component, same classes, only the data differs — pole_a and
+            pole_c must look identical so neither side reads as favored. */}
+        <div className="grid gap-3 sm:grid-cols-2">
+          <ExplainerPoleCard letter="A" pole={explainer.pole_a} />
+          <ExplainerPoleCard letter="C" pole={explainer.pole_c} />
+        </div>
+        <p className="text-[11px] leading-5 text-white/40">
+          These are general effects, not guarantees — everyone&apos;s situation is different, and
+          neither direction is presented here as the &quot;right&quot; one.
+        </p>
+      </div>
+    </CivitasPanel>
+  );
+}
+
+function ExplainerPoleCard({ letter, pole }: { letter: "A" | "C"; pole: IssueExplainerPole }) {
+  return (
+    <div className="rounded-[8px] border border-white/10 bg-navy-dark/50 p-3">
+      <div className="mb-2.5 flex items-baseline gap-2">
+        <span className="font-mono text-sm text-gold">{letter}.</span>
+        <p className="text-sm font-semibold leading-5 text-white/86">{pole.label}</p>
+      </div>
+      <div className="mb-3">
+        <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-white/50">
+          Could help you if
+        </p>
+        <ul className="list-disc space-y-1 pl-4 text-xs leading-5 text-white/62">
+          {pole.could_help_you_if.map((bullet, i) => (
+            <li key={i}>{bullet}</li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-[0.14em] text-white/50">
+          Could cost you if
+        </p>
+        <ul className="list-disc space-y-1 pl-4 text-xs leading-5 text-white/62">
+          {pole.could_cost_you_if.map((bullet, i) => (
+            <li key={i}>{bullet}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
   );
 }

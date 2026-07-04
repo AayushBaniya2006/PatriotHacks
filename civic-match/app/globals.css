@@ -295,3 +295,13 @@ html {
 .qa-answer th, .qa-answer td { border: 1px solid rgba(255, 255, 255, 0.12); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
 .qa-answer th { background: #020c17; color: #f4f1ea; }
 .qa-answer code { background: #020c17; padding: 0.1rem 0.3rem; border-radius: 0.25rem; font-size: 0.8rem; }
+
+/* Projector / presentation mode (additive, opt-in): ?present=1 on /results
+   or /intake applies a `.present-mode` class from those page components
+   (app/results/page.tsx, app/intake/page.tsx) to their content wrapper.
+   Nothing below ever matches without that class present in the DOM, so
+   default rendering (flag absent) is byte-for-byte unchanged. */
+@supports selector(:has(*)) {
+  html:has(.present-mode) { font-size: 115%; }
+}
+.present-mode p, .present-mode li, .present-mode blockquote { line-height: 1.65; }

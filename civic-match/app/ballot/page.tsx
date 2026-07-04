@@ -27,6 +27,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import CivitasDashboard from "@/components/civitas/CivitasDashboard";
+import { ViewModeToggle } from "@/components/ballot/ViewModeToggle";
 import { buildCivitasDashboard, type CivitasBallotLike } from "@/lib/civitasView";
 import { slugify } from "@/lib/db-client";
 import { savePrefs } from "@/lib/prefs";

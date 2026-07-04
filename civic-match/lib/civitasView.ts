@@ -98,9 +98,62 @@ function confidenceFromQuality(quality?: DataQuality): CivitasConfidence {
   return "Low";
 }
 
+// ---------------------------------------------------------------------------
+// Data-richness fairness fix (not inflation).
+//
+// match.confidence (lib/scoring.ts) answers "can we score THIS user's
+// specific chosen issues for this candidate?" -- it is correctly strict and
+// stays untouched: it must keep reading Low when a candidate genuinely has
+// no stance on the issues someone picked, per "no source, no claim".
+// candidate.data_quality.tier (pipeline/score_quality.py) answers "how
+// complete is our gold record overall?" using a 0-100 weighted-completeness
+// score where tier C (25-49) can still describe a candidate with real
+// finance + a handful of sourced positions -- substantive research, just not
+// a perfect record.
+//
+// Neither of those is the question this dashboard's Confidence/Status
+// badges actually advertise to the voter ("neutral data-confidence
+// signals", "No source, no claim" -- see CivitasDashboard.tsx). That
+// question is closer to "did we find real, sourced material on this
+// candidate at all?" -- which is exactly what hasSubstantiveData /
+// isGenuinelySparse check, using the richest count available: the matched
+// civic-match profile's actual stance count when we have one (what the
+// alignment engine can see), falling back to this dataset's own sourced
+// `positions[]` when no profile has been matched/exported yet.
+//
+// The fix only ever moves a reading in the direction the extra data
+// justifies: Low -> Medium when data is substantive (never fabricates
+// High), and it narrows "Limited data" to genuinely sparse candidates
+// instead of the previous blanket "tier C or D". Everything in between
+// (some data, but neither clearly substantive nor clearly sparse) keeps the
+// original tier-based behavior unchanged.
+function stanceCountFor(candidate: Candidate, match?: MatchResult): number {
+  if (match) return match.coverage.profile_stances;
+  return (candidate.positions ?? []).length;
+}
+
+function financePresentFor(candidate: Candidate): boolean {
+  const f = candidate.finance;
+  return !!(
+    f &&
+    (f.receipts != null || f.disbursements != null || f.cash_on_hand != null || f.source)
+  );
+}
+
+function hasSubstantiveData(candidate: Candidate, match?: MatchResult): boolean {
+  const hasVotes = (candidate.record?.key_votes?.length ?? 0) > 0;
+  return financePresentFor(candidate) && (hasVotes || stanceCountFor(candidate, match) >= 3);
+}
+
+function isGenuinelySparse(candidate: Candidate, match?: MatchResult): boolean {
+  const hasVotes = (candidate.record?.key_votes?.length ?? 0) > 0;
+  return !financePresentFor(candidate) && !hasVotes && stanceCountFor(candidate, match) < 2;
+}
+
 function confidenceForCandidate(candidate: Candidate, match?: MatchResult): CivitasConfidence {
-  if (match?.confidence) return match.confidence;
-  return confidenceFromQuality(candidate.data_quality);
+  const base = match?.confidence ?? confidenceFromQuality(candidate.data_quality);
+  if (base !== "Low") return base; // never downgrade an honestly-earned Medium/High
+  return hasSubstantiveData(candidate, match) ? "Medium" : "Low";
 }
 
 function alignmentLabel(score?: number): string {
@@ -111,8 +164,12 @@ function alignmentLabel(score?: number): string {
   return "Lower alignment";
 }
 
-function statusForCandidate(candidate: Candidate): CivitasStatus {
+function statusForCandidate(candidate: Candidate, match?: MatchResult): CivitasStatus {
   if (candidate.data_missing) return "Needs source data";
+  if (hasSubstantiveData(candidate, match)) return "Reviewed";
+  if (isGenuinelySparse(candidate, match)) return "Limited data";
+  // Ambiguous middle (some data, but neither clearly substantive nor clearly
+  // sparse): unchanged original behavior, keyed off the gold-completeness tier.
   const tier = candidate.data_quality?.tier;
   if (tier === "C" || tier === "D") return "Limited data";
   return "Reviewed";
@@ -193,7 +250,7 @@ function buildCandidateView(candidate: Candidate, match?: MatchResult): CivitasC
     overall: match?.overall,
     alignmentLabel: alignmentLabel(match?.score),
     confidence: confidenceForCandidate(candidate, match),
-    status: statusForCandidate(candidate),
+    status: statusForCandidate(candidate, match),
     summary: candidateSummary(candidate, match),
     topIssues: topIssues(candidate, match),
     sourceCount: urls.size,
