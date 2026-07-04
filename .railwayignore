@@ -1,0 +1,12 @@
+# Build context for the repo-root Python FastAPI backend. Keep it lean and, in
+# particular, exclude the civic-match/ Next.js app so Nixpacks can never detect a
+# package.json and build this service as Node again.
+civic-match/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+data/tx/raw/
+data/demo_cache/
+data/geocode_cache.json
