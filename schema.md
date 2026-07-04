@@ -61,9 +61,8 @@ the app is fully functional with zero LLM key.
 
 ### 2.1 DDL (locked contract)
 
-This is the exact, locked schema. `pipeline/load_postgres.py` (planned —
-not yet in the repo as of this writing; see §2.4) must create it idempotently
-and load gold JSON into it.
+This is the exact, locked schema. `pipeline/load_postgres.py` creates it
+idempotently and loads gold JSON into it (see §2.4).
 
 ```sql
 CREATE TABLE IF NOT EXISTS races (
@@ -275,19 +274,20 @@ race) get all 8 archetypes precomputed; safe races get `base` only.
 
 ### 2.4 Load path
 
-- `pipeline/load_postgres.py` — **planned, not yet present in the repo.**
-  Must read `data/tx/races.json` + `candidates.json` + `insights/*.json`,
-  `CREATE TABLE IF NOT EXISTS` the DDL above, and `INSERT ... ON CONFLICT
-  (pk) DO UPDATE` (idempotent, safe to rerun after every gold-data change),
-  driven entirely by `DATABASE_URL`. `requirements.txt` has no Postgres
-  client (`psycopg[binary]`/`asyncpg`) yet — add alongside this script.
-- **JSON fallback**: `app/datastore.py` (current code) is SQLite/JSON only
-  — not yet repointed at Postgres. It checks `data/tx/app.db` first, then
-  falls back to `races.json` + `candidates.json` directly. Per the DB pivot,
-  SQLite is being removed; target end-state is Postgres-when-set, else the
-  flat gold JSON read directly (same logical schema — one JSON object per
-  race/candidate, keyed the same way). If neither is reachable, every call
-  degrades to empty results and `stats()`/`get_ballot()` surface
+- `pipeline/load_postgres.py` — **present.** Reads `data/tx/races.json` +
+  `candidates.json` + `insights/*.json`, runs the DDL above
+  (`CREATE TABLE IF NOT EXISTS`), then reloads all gold-derived tables in one
+  transaction (idempotent, safe to rerun after every gold-data change);
+  `geocode_cache` is left untouched (live runtime cache). Driven entirely by
+  `DATABASE_URL`; `--dry-run` validates the inputs without touching a DB.
+  `requirements.txt` ships the `psycopg[binary,pool]` client it needs.
+- **JSON fallback**: `app/datastore.py` is Postgres-when-set — it connects
+  via `DATABASE_URL` (psycopg3 + connection pool) and falls back to reading
+  `races.json` + `candidates.json` directly when the var is unset, psycopg is
+  missing, or the first connection fails (logged once, never fatal). Same
+  logical schema either way — one JSON object per race/candidate, keyed the
+  same way. SQLite is fully removed. If neither source is reachable, every
+  call degrades to empty results and `stats()`/`get_ballot()` surface
   `data_pending: true` rather than erroring — the app must still boot.
 
 ---
@@ -307,7 +307,7 @@ race) get all 8 archetypes precomputed; safe races get `base` only.
 | `validate_insights_*.py` | verifies every bullet's `source` traces to that candidate's JSON, drops/rewrites any that don't | `data/tx/insights/*.json` | rewrites in place |
 | `precache_demo.py` | hits live app for 3 fixed addresses (San Marcos, Austin, Houston), freezes responses as stage-crash safety net | running FastAPI | `data/demo_cache/*.json` |
 | `smoke_backend.py` | in-process FastAPI smoke test | — | PASS/FAIL to stdout |
-| `load_postgres.py` **(planned)** | not present yet | gold JSON + insights | Postgres via `DATABASE_URL` |
+| `load_postgres.py` | creates schema + upserts all gold rows | gold JSON + insights | Postgres via `DATABASE_URL` |
 | `export_civic_match.py` **(planned)** | not present yet | our candidate evidence | merges into `civic-match/data/politicians/*.json` |
 
 All rerun as `python3 pipeline/<script>.py`; each is idempotent/deterministic and never mutates `raw/`.
@@ -559,9 +559,9 @@ House races go in a separate `civic-match/data/elections/texas-house.json`.
 pip install -r requirements.txt
 uvicorn app.main:app --reload            # data backend, http://localhost:8000 (/healthz)
 
-# optional, once provisioned:
-docker compose up db                     # local Postgres (docker-compose.yml not yet in repo)
-python3 pipeline/load_postgres.py        # idempotent load (not yet in repo)
+# optional, for Railway-parity locally:
+docker compose up -d                     # local Postgres (docker-compose.yml)
+python3 pipeline/load_postgres.py        # idempotent load into Postgres
 
 cd civic-match && npm install
 npm run seed                              # auto-discover TX races + research candidates
@@ -574,11 +574,15 @@ Two services + Railway Postgres add-on:
 
 - **backend**: this repo root. `railway.json` (`NIXPACKS` builder,
   `startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT`,
-  `healthcheckPath: /healthz`) + matching `Procfile`. Data ships committed
-  in the repo (gold JSON + insights), so the service boots functional even
-  before Postgres is wired up. Only required env var today is optional
-  `OPENROUTER_API_KEY`; add `DATABASE_URL` (Railway auto-injects this for a
-  linked Postgres plugin) once `load_postgres.py` lands.
+  `healthcheckPath: /healthz`) + matching `Procfile`; `nixpacks.toml` pins
+  `providers=["python"]` and `.python-version` pins 3.12 (a stray root
+  `package.json` once flipped Nixpacks to the Node provider and broke the
+  deploy — don't reintroduce one). Data ships committed in the repo (gold
+  JSON + insights), so the service boots functional even without Postgres.
+  Env vars: optional `OPENROUTER_API_KEY`, plus `DATABASE_URL` referencing
+  the project's Postgres service (`${{Postgres.DATABASE_URL}}` — live in
+  prod as of 2026-07-04, loaded via `python3 pipeline/load_postgres.py`
+  against the DB's public URL; rerun after any gold-data change).
 - **frontend**: `civic-match/` as its own Railway (or Vercel) service,
   `DATA_BACKEND_URL` pointed at the backend service's public URL.
 
