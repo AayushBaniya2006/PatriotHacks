@@ -18,6 +18,11 @@
           "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
         ],
         "last_result": "Incumbent prior to 2026: Greg Abbott"
+      },
+      "data_quality": {
+        "score": 58.4,
+        "tier": "B",
+        "demo_rank": 2
       }
     },
     {
@@ -37,6 +42,11 @@
           "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
         ],
         "last_result": "Incumbent prior to 2026: Dan Patrick"
+      },
+      "data_quality": {
+        "score": 54.7,
+        "tier": "B",
+        "demo_rank": 4
       }
     },
     {
@@ -54,6 +64,11 @@
           "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
         ],
         "last_result": "Incumbent prior to 2026: Ken Paxton"
+      },
+      "data_quality": {
+        "score": 50.2,
+        "tier": "B",
+        "demo_rank": 5
       }
     },
     {
@@ -70,6 +85,11 @@
           "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
         ],
         "last_result": "Incumbent prior to 2026: John Cornyn"
+      },
+      "data_quality": {
+        "score": 85.0,
+        "tier": "A",
+        "demo_rank": 1
       }
     },
     {
@@ -86,6 +106,11 @@
           "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
         ],
         "last_result": "Incumbent prior to 2026: Don Huffines; (acting)"
+      },
+      "data_quality": {
+        "score": 50.2,
+        "tier": "B",
+        "demo_rank": 6
       }
     },
     {
@@ -103,6 +128,11 @@
           "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
         ],
         "last_result": "Incumbent prior to 2026: Dawn Buckingham"
+      },
+      "data_quality": {
+        "score": 50.2,
+        "tier": "B",
+        "demo_rank": 7
       }
     },
     {
@@ -119,6 +149,11 @@
           "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
         ],
         "last_result": "Incumbent prior to 2026: Sid Miller"
+      },
+      "data_quality": {
+        "score": 55.8,
+        "tier": "B",
+        "demo_rank": 3
       }
     },
     {
@@ -136,6 +171,11 @@
           "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
         ],
         "last_result": "Incumbent prior to 2026: Jim Wright"
+      },
+      "data_quality": {
+        "score": 50.2,
+        "tier": "B",
+        "demo_rank": 8
       }
     },
     {
@@ -160,6 +200,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 43.0,
+        "tier": "C",
+        "demo_rank": 42
       }
     },
     {
@@ -183,6 +228,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 49.6,
+        "tier": "C",
+        "demo_rank": 27
       }
     },
     {
@@ -207,6 +257,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 18
       }
     },
     {
@@ -231,6 +286,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 33
       }
     },
     {
@@ -255,6 +315,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 23
       }
     },
     {
@@ -278,6 +343,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 49.6,
+        "tier": "C",
+        "demo_rank": 28
       }
     },
     {
@@ -302,6 +372,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 14
       }
     },
     {
@@ -325,6 +400,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 49.6,
+        "tier": "C",
+        "demo_rank": 32
       }
     },
     {
@@ -351,6 +431,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 41.3,
+        "tier": "C",
+        "demo_rank": 43
       }
     },
     {
@@ -375,6 +460,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 25
       }
     },
     {
@@ -399,6 +489,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 44
       }
     },
     {
@@ -422,6 +517,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 49.6,
+        "tier": "C",
+        "demo_rank": 22
       }
     },
     {
@@ -446,6 +546,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 33.0,
+        "tier": "C",
+        "demo_rank": 45
       }
     },
     {
@@ -470,6 +575,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 41.0,
+        "tier": "C",
+        "demo_rank": 34
       }
     },
     {
@@ -493,6 +603,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 49.6,
+        "tier": "C",
+        "demo_rank": 11
       }
     },
     {
@@ -517,6 +632,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 43.0,
+        "tier": "C",
+        "demo_rank": 12
       }
     },
     {
@@ -541,6 +661,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 30
       }
     },
     {
@@ -565,6 +690,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 45.0,
+        "tier": "C",
+        "demo_rank": 37
       }
     },
     {
@@ -589,6 +719,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 39
       }
     },
     {
@@ -613,6 +748,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 33.0,
+        "tier": "C",
+        "demo_rank": 46
       }
     },
     {
@@ -637,6 +777,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 20
       }
     },
     {
@@ -660,6 +805,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 49.6,
+        "tier": "C",
+        "demo_rank": 16
       }
     },
     {
@@ -684,6 +834,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 42.2,
+        "tier": "C",
+        "demo_rank": 17
       }
     },
     {
@@ -708,6 +863,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 41.0,
+        "tier": "C",
+        "demo_rank": 13
       }
     },
     {
@@ -732,6 +892,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 31.6,
+        "tier": "C",
+        "demo_rank": 41
       }
     },
     {
@@ -755,6 +920,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 49.6,
+        "tier": "C",
+        "demo_rank": 21
       }
     },
     {
@@ -778,6 +948,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 34.6,
+        "tier": "C",
+        "demo_rank": 29
       }
     },
     {
@@ -802,6 +977,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 68.0,
+        "tier": "B",
+        "demo_rank": 10
       }
     },
     {
@@ -825,6 +1005,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 49.6,
+        "tier": "C",
+        "demo_rank": 26
       }
     },
     {
@@ -849,6 +1034,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 40
       }
     },
     {
@@ -873,6 +1063,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 43.0,
+        "tier": "C",
+        "demo_rank": 24
       }
     },
     {
@@ -897,6 +1092,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 41.0,
+        "tier": "C",
+        "demo_rank": 15
       }
     },
     {
@@ -922,6 +1122,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 41.2,
+        "tier": "C",
+        "demo_rank": 35
       }
     },
     {
@@ -946,6 +1151,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 68.0,
+        "tier": "B",
+        "demo_rank": 9
       }
     },
     {
@@ -971,6 +1181,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 41.2,
+        "tier": "C",
+        "demo_rank": 31
       }
     },
     {
@@ -995,6 +1210,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 43.0,
+        "tier": "C",
+        "demo_rank": 36
       }
     },
     {
@@ -1019,6 +1239,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 48.0,
+        "tier": "C",
+        "demo_rank": 38
       }
     },
     {
@@ -1044,6 +1269,11 @@
         "sources": [
           "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
         ]
+      },
+      "data_quality": {
+        "score": 46.1,
+        "tier": "C",
+        "demo_rank": 19
       }
     }
   ]

@@ -3,9 +3,12 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { loadPrefs } from "@/lib/prefs";
+import type { MatchResult, VoterProfile } from "@/lib/types";
+import type { BallotResponse } from "@/lib/dataBackend";
+import BallotSection from "@/components/ballot/BallotSection";
+import InsightsPanel from "@/components/ballot/InsightsPanel";
 import StakesBanner from "@/components/stakes-banner";
 import MotivationCard from "@/components/motivation-card";
-import type { MatchResult } from "@/lib/types";
 
 interface PoliticianSummary {
   id: string;
@@ -30,12 +33,24 @@ interface Explanation {
   evidence_note: string;
 }
 
+// "Your ballot" section — separate from the match-score UI above, sourced
+// from our FastAPI data backend via the same-origin /api/ballot proxy.
+type BallotState =
+  | { status: "idle" }
+  | { status: "loading" }
+  | { status: "error"; message: string }
+  | { status: "done"; data: BallotResponse };
+
 export default function ResultsPage() {
   const [results, setResults] = useState<MatchResult[] | null>(null);
   const [noPrefs, setNoPrefs] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
   const [explanations, setExplanations] = useState<Record<string, Explanation | "loading">>({});
   const [voterName, setVoterName] = useState<string | undefined>();
+  const [voterProfile, setVoterProfile] = useState<VoterProfile | undefined>();
+  const [address, setAddress] = useState<string | undefined>();
+  const [ballotState, setBallotState] = useState<BallotState>({ status: "idle" });
+  const [activeRaceId, setActiveRaceId] = useState<string | null>(null);
 
   const toggleExpand = (id: string) => {
     const next = expanded === id ? null : id;
@@ -70,6 +85,24 @@ export default function ResultsPage() {
       return;
     }
     setVoterName(prefs.profile?.name);
+    setVoterProfile(prefs.profile);
+    setAddress(prefs.address);
+    if (prefs.address) {
+      setBallotState({ status: "loading" });
+      fetch(`/api/ballot?address=${encodeURIComponent(prefs.address)}`)
+        .then(async (r) => {
+          const body = await r.json();
+          if (!r.ok) throw new Error(body?.error ?? `Request failed (${r.status})`);
+          return body as BallotResponse;
+        })
+        .then((data) => setBallotState({ status: "done", data }))
+        .catch((err: unknown) =>
+          setBallotState({
+            status: "error",
+            message: err instanceof Error ? err.message : "Could not load your ballot",
+          })
+        );
+    }
     (async () => {
       const list: PoliticianSummary[] = await fetch("/api/politicians").then((r) => r.json());
       const res = await fetch("/api/match", {
@@ -298,6 +331,45 @@ export default function ResultsPage() {
           </div>
         ))}
       </div>
+
+      {address && (
+        <section className="mt-14 border-t border-zinc-800 pt-8">
+          <h2 className="text-xl font-bold mb-1">Your ballot</h2>
+          <p className="text-sm text-zinc-500 mb-6">
+            Races and candidates for{" "}
+            {ballotState.status === "done" ? ballotState.data.matched_address : address}, sourced
+            from FEC filings, House Clerk roll-call votes, and official candidate lists.
+          </p>
+
+          {ballotState.status === "loading" && (
+            <div className="text-sm text-zinc-500 animate-pulse">Loading your ballot…</div>
+          )}
+          {ballotState.status === "error" && (
+            <div className="rounded-lg border border-red-900/50 bg-red-950/20 p-4 text-sm text-red-400">
+              {ballotState.message}
+            </div>
+          )}
+          {ballotState.status === "done" && (
+            <>
+              {ballotState.data.warning && (
+                <p className="mb-4 text-xs text-yellow-500/90">{ballotState.data.warning}</p>
+              )}
+              <BallotSection
+                races={ballotState.data.races}
+                activeRaceId={activeRaceId}
+                onExplain={setActiveRaceId}
+              />
+              <div className="mt-6">
+                <InsightsPanel
+                  raceId={activeRaceId}
+                  races={ballotState.data.races}
+                  profile={voterProfile}
+                />
+              </div>
+            </>
+          )}
+        </section>
+      )}
     </div>
   );
 }

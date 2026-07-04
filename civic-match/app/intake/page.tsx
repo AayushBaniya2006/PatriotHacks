@@ -22,6 +22,7 @@ export default function IntakePage() {
   const [step, setStep] = useState<"profile" | "pick" | "tradeoffs">("profile");
   const [profile, setProfile] = useState<VoterProfile>({ flags: {} });
   const [zip, setZip] = useState("");
+  const [address, setAddress] = useState("");
   const [picked, setPicked] = useState<string[]>([]);
   const [positions, setPositions] = useState<Record<string, number | null>>({});
   const [importance, setImportance] = useState<Record<string, number>>({});
@@ -51,6 +52,7 @@ export default function IntakePage() {
     });
     savePrefs({
       zip: zip || undefined,
+      address: address.trim() || undefined,
       profile,
       priority_weights: weights,
       issue_positions: finalPositions,
@@ -116,6 +118,18 @@ export default function IntakePage() {
               />
             </label>
           </div>
+
+          <label className="block">
+            <span className="text-xs text-zinc-500">
+              Street address (optional — shows your actual ballot: races, candidates, sourced info)
+            </span>
+            <input
+              value={address}
+              onChange={(e) => setAddress(e.target.value)}
+              placeholder="e.g. 601 University Dr, San Marcos, TX 78666"
+              className="mt-1 w-full rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm outline-none focus:border-emerald-400/60"
+            />
+          </label>
 
           <label className="block">
             <span className="text-xs text-zinc-500">Occupation (optional)</span>

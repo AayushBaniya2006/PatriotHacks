@@ -7,16 +7,21 @@ Checks (per CLAUDE.md contract):
   2. every race.candidate_ids entry exists in candidates.json
   3. every finance / key_vote / position object carries a source
   4. every district is null or matches ^TX-\\d{2}$
-  5. sqlite (app.db) row counts equal the JSON counts
-  6. a TX-35 race -> candidates join works end-to-end via the db
+  5. (only when DATABASE_URL is set) Postgres row counts equal the JSON counts
+  6. (only when DATABASE_URL is set) a TX-35 race -> candidates join works
+     end-to-end via Postgres
+
+Checks 5 & 6 are skipped -- not failed -- when DATABASE_URL is unset, since
+the JSON fallback is a fully supported standalone mode (per CLAUDE.md). Run
+pipeline/load_postgres.py first if you want those checks exercised.
 
 Prints PASS/FAIL and counts. Exits non-zero on any failure.
 """
 from __future__ import annotations
 
 import json
+import os
 import re
-import sqlite3
 import sys
 from pathlib import Path
 
@@ -25,7 +30,6 @@ OUT_DIR = ROOT / "data" / "tx"
 
 RACES_PATH = OUT_DIR / "races.json"
 CANDIDATES_PATH = OUT_DIR / "candidates.json"
-DB_PATH = OUT_DIR / "app.db"
 
 DISTRICT_RE = re.compile(r"^TX-\d{2}$")
 
@@ -93,41 +97,58 @@ def main() -> int:
             if not p.get("source"):
                 fail(errors, f"candidate {cid} position missing source: {p.get('issue')}")
 
-    # 5 & 6: sqlite parity + TX-35 join
-    if not DB_PATH.exists():
-        fail(errors, f"sqlite db not found at {DB_PATH}")
-        db_race_count = db_cand_count = db_rc_count = None
+    # 5 & 6: Postgres parity + TX-35 join -- only when DATABASE_URL is set.
+    # The JSON fallback is a fully supported mode (CLAUDE.md), so an unset
+    # DATABASE_URL is not a validation failure -- these checks are simply
+    # skipped and pg_* counts stay None.
+    pg_race_count = pg_cand_count = pg_rc_count = None
+    database_url = os.environ.get("DATABASE_URL")
+    if not database_url:
+        print("DATABASE_URL not set; skipping Postgres parity checks (JSON-only validation).")
     else:
-        conn = sqlite3.connect(DB_PATH)
-        cur = conn.cursor()
-        db_race_count = cur.execute("SELECT COUNT(*) FROM races").fetchone()[0]
-        db_cand_count = cur.execute("SELECT COUNT(*) FROM candidates").fetchone()[0]
-        db_rc_count = cur.execute("SELECT COUNT(*) FROM race_candidates").fetchone()[0]
-
-        if db_race_count != len(races):
-            fail(errors, f"db races count ({db_race_count}) != json races count ({len(races)})")
-        if db_cand_count != len(candidates):
-            fail(errors, f"db candidates count ({db_cand_count}) != json candidates count ({len(candidates)})")
-        json_rc_count = sum(len(r.get("candidate_ids", [])) for r in races)
-        if db_rc_count != json_rc_count:
-            fail(errors, f"db race_candidates count ({db_rc_count}) != json race_candidates count ({json_rc_count})")
-
-        tx35 = cur.execute(
-            "SELECT race_id FROM races WHERE district = 'TX-35'"
-        ).fetchall()
-        if not tx35:
-            fail(errors, "no race found for district TX-35 in db")
+        try:
+            import psycopg
+        except ImportError as exc:
+            fail(errors, f"DATABASE_URL is set but psycopg is not installed: {exc}")
         else:
-            race_id = tx35[0][0]
-            joined = cur.execute(
-                """SELECT c.candidate_id, c.name FROM race_candidates rc
-                   JOIN candidates c ON c.candidate_id = rc.candidate_id
-                   WHERE rc.race_id = ?""",
-                (race_id,),
-            ).fetchall()
-            if not joined:
-                fail(errors, f"TX-35 race->candidates join returned 0 rows for race_id {race_id}")
-        conn.close()
+            try:
+                with psycopg.connect(database_url, autocommit=True) as conn:
+                    with conn.cursor() as cur:
+                        pg_race_count = cur.execute("SELECT COUNT(*) FROM races").fetchone()[0]
+                        pg_cand_count = cur.execute("SELECT COUNT(*) FROM candidates").fetchone()[0]
+                        pg_rc_count = cur.execute("SELECT COUNT(*) FROM race_candidates").fetchone()[0]
+
+                        if pg_race_count != len(races):
+                            fail(errors, f"pg races count ({pg_race_count}) != json races count ({len(races)})")
+                        if pg_cand_count != len(candidates):
+                            fail(
+                                errors,
+                                f"pg candidates count ({pg_cand_count}) != json candidates count ({len(candidates)})",
+                            )
+                        json_rc_count = sum(len(r.get("candidate_ids", [])) for r in races)
+                        if pg_rc_count != json_rc_count:
+                            fail(
+                                errors,
+                                f"pg race_candidates count ({pg_rc_count}) != json race_candidates count ({json_rc_count})",
+                            )
+
+                        cur.execute("SELECT race_id FROM races WHERE district = 'TX-35'")
+                        tx35 = cur.fetchall()
+                        if not tx35:
+                            fail(errors, "no race found for district TX-35 in Postgres")
+                        else:
+                            race_id = tx35[0][0]
+                            cur.execute(
+                                """SELECT c.candidate_id, c.name FROM race_candidates rc
+                                   JOIN candidates c ON c.candidate_id = rc.candidate_id
+                                   WHERE rc.race_id = %s""",
+                                (race_id,),
+                            )
+                            joined = cur.fetchall()
+                            if not joined:
+                                fail(errors, f"TX-35 race->candidates join returned 0 rows for race_id {race_id}")
+            except Exception as exc:  # noqa: BLE001 -- any connection/query failure is a validation failure
+                fail(errors, f"could not validate Postgres ({exc})")
 
     counts = {
         "races": len(races),
@@ -136,9 +157,9 @@ def main() -> int:
         "candidates_with_finance": candidates_with_finance,
         "key_vote_records": key_vote_count,
         "position_records": position_count,
-        "db_races": db_race_count,
-        "db_candidates": db_cand_count,
-        "db_race_candidates": db_rc_count,
+        "pg_races": pg_race_count,
+        "pg_candidates": pg_cand_count,
+        "pg_race_candidates": pg_rc_count,
     }
 
     verdict = "PASS" if not errors else "FAIL"

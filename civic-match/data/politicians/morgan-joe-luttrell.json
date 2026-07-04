@@ -1,0 +1,230 @@
+{
+  "id": "morgan-joe-luttrell",
+  "name": "Morgan Joe Luttrell",
+  "party": "Republican",
+  "current_office": "U.S. Representative, TX-08",
+  "jurisdiction": "Texas",
+  "stances": [
+    {
+      "stance_id": "vote-immigration-hr29",
+      "issue_id": "immigration",
+      "position_label": "Voted Yea on H R 29",
+      "position_scalar": 0.1,
+      "summary": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+      "evidence_type": "voting_record",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "vote-immigration-hr29-src",
+          "type": "voting_record",
+          "title": "H R 29 — On Passage",
+          "publisher": "U.S. House Clerk",
+          "url": "https://clerk.house.gov/evs/2025/roll006.xml",
+          "retrieved_at": "2026-07-03",
+          "primary_source": true,
+          "quote": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "reliability_score": 0.95,
+          "published_at": "2025-01-07"
+        }
+      ],
+      "recency": "2025-01-07"
+    },
+    {
+      "stance_id": "vote-energy-hr26",
+      "issue_id": "energy",
+      "position_label": "Voted Yea on H R 26",
+      "position_scalar": 0.1,
+      "summary": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+      "evidence_type": "voting_record",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "vote-energy-hr26-src",
+          "type": "voting_record",
+          "title": "H R 26 — On Passage",
+          "publisher": "U.S. House Clerk",
+          "url": "https://clerk.house.gov/evs/2025/roll035.xml",
+          "retrieved_at": "2026-07-03",
+          "primary_source": true,
+          "quote": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "reliability_score": 0.95,
+          "published_at": "2025-02-07"
+        }
+      ],
+      "recency": "2025-02-07"
+    },
+    {
+      "stance_id": "vote-taxes-hr1",
+      "issue_id": "taxes",
+      "position_label": "Voted Yea on H R 1",
+      "position_scalar": null,
+      "summary": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+      "evidence_type": "voting_record",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "vote-taxes-hr1-src",
+          "type": "voting_record",
+          "title": "H R 1 — On Passage",
+          "publisher": "U.S. House Clerk",
+          "url": "https://clerk.house.gov/evs/2025/roll145.xml",
+          "retrieved_at": "2026-07-03",
+          "primary_source": true,
+          "quote": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "reliability_score": 0.95,
+          "published_at": "2025-05-22"
+        }
+      ],
+      "recency": "2025-05-22"
+    },
+    {
+      "stance_id": "vote-healthcare-hr6703",
+      "issue_id": "healthcare",
+      "position_label": "Voted Yea on H R 6703",
+      "position_scalar": null,
+      "summary": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+      "evidence_type": "voting_record",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "vote-healthcare-hr6703-src",
+          "type": "voting_record",
+          "title": "H R 6703 — On Passage",
+          "publisher": "U.S. House Clerk",
+          "url": "https://clerk.house.gov/evs/2025/roll349.xml",
+          "retrieved_at": "2026-07-03",
+          "primary_source": true,
+          "quote": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "reliability_score": 0.95,
+          "published_at": "2025-12-17"
+        }
+      ],
+      "recency": "2025-12-17"
+    },
+    {
+      "stance_id": "vote-lgbtq-hr498",
+      "issue_id": "lgbtq",
+      "position_label": "Voted Yea on H R 498",
+      "position_scalar": 0.1,
+      "summary": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+      "evidence_type": "voting_record",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "vote-lgbtq-hr498-src",
+          "type": "voting_record",
+          "title": "H R 498 — On Passage",
+          "publisher": "U.S. House Clerk",
+          "url": "https://clerk.house.gov/evs/2025/roll362.xml",
+          "retrieved_at": "2026-07-03",
+          "primary_source": true,
+          "quote": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "reliability_score": 0.95,
+          "published_at": "2025-12-18"
+        }
+      ],
+      "recency": "2025-12-18"
+    },
+    {
+      "stance_id": "vote-debt_spending-hr7148",
+      "issue_id": "debt_spending",
+      "position_label": "Voted Yea on H R 7148",
+      "position_scalar": null,
+      "summary": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+      "evidence_type": "voting_record",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "vote-debt_spending-hr7148-src",
+          "type": "voting_record",
+          "title": "H R 7148 — On Passage",
+          "publisher": "U.S. House Clerk",
+          "url": "https://clerk.house.gov/evs/2026/roll045.xml",
+          "retrieved_at": "2026-07-03",
+          "primary_source": true,
+          "quote": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "reliability_score": 0.95,
+          "published_at": "2026-01-22"
+        }
+      ],
+      "recency": "2026-01-22"
+    },
+    {
+      "stance_id": "vote-climate-hr4758",
+      "issue_id": "climate",
+      "position_label": "Voted Yea on H R 4758",
+      "position_scalar": 0.15,
+      "summary": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+      "evidence_type": "voting_record",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "vote-climate-hr4758-src",
+          "type": "voting_record",
+          "title": "H R 4758 — On Passage",
+          "publisher": "U.S. House Clerk",
+          "url": "https://clerk.house.gov/evs/2026/roll078.xml",
+          "retrieved_at": "2026-07-03",
+          "primary_source": true,
+          "quote": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "reliability_score": 0.95,
+          "published_at": "2026-02-25"
+        }
+      ],
+      "recency": "2026-02-25"
+    },
+    {
+      "stance_id": "vote-immigration-hr7744",
+      "issue_id": "immigration",
+      "position_label": "Voted Yea on H R 7744",
+      "position_scalar": null,
+      "summary": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+      "evidence_type": "voting_record",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "vote-immigration-hr7744-src",
+          "type": "voting_record",
+          "title": "H R 7744 — On Passage",
+          "publisher": "U.S. House Clerk",
+          "url": "https://clerk.house.gov/evs/2026/roll087.xml",
+          "retrieved_at": "2026-07-03",
+          "primary_source": true,
+          "quote": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "reliability_score": 0.95,
+          "published_at": "2026-03-05"
+        }
+      ],
+      "recency": "2026-03-05"
+    }
+  ],
+  "unknowns": [
+    "economy",
+    "inflation",
+    "jobs",
+    "crime",
+    "education",
+    "housing",
+    "social_security",
+    "medicare_medicaid",
+    "abortion",
+    "guns",
+    "civil_rights",
+    "foreign_policy",
+    "national_security",
+    "defense",
+    "trade",
+    "ai_tech",
+    "privacy",
+    "infrastructure",
+    "small_business",
+    "labor",
+    "elections",
+    "ethics",
+    "judiciary"
+  ],
+  "contradictions": [],
+  "source_coverage_score": 0.2333,
+  "researched_at": "2026-07-04T01:11:07.561Z",
+  "research_status": "partial"
+}

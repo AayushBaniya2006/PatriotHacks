@@ -206,6 +206,10 @@ export interface VoterProfile {
 
 export interface UserPreferences {
   zip?: string;
+  // Street address (optional). Powers the "Your ballot" section on the
+  // results page via GET /api/ballot — kept separate from `zip` because the
+  // Census geocoder needs a full address to resolve districts reliably.
+  address?: string;
   profile?: VoterProfile;
   // issue_id -> weight 0..1 (normalized)
   priority_weights: Record<string, number>;
