@@ -904,6 +904,18 @@
           "primary_source": true,
           "quote": "Institute term limits on Members of Congress: Implement term limits of six two-year terms in the House and two six-year terms in the Senate",
           "reliability_score": 0.95
+        },
+        {
+          "source_id": "campaign-finance-fec-src",
+          "type": "campaign_finance",
+          "title": "FEC campaign finance summary",
+          "publisher": "Federal Election Commission (FEC)",
+          "url": "https://www.fec.gov/data/candidate/S6TX00479/",
+          "retrieved_at": "2026-07-03",
+          "primary_source": true,
+          "quote": "Receipts: $40,284,109.15; Disbursements: $30,425,243.80; Cash on hand: not reported (as of 2026-07-04)",
+          "reliability_score": 0.95,
+          "published_at": "2026-07-04"
         }
       ]
     },

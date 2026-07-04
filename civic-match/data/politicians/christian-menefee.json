@@ -1,0 +1,68 @@
+{
+  "id": "christian-menefee",
+  "name": "Christian Menefee",
+  "party": "Democratic",
+  "current_office": "U.S. Representative, TX-18",
+  "jurisdiction": "Texas",
+  "stances": [
+    {
+      "stance_id": "vote-immigration-hr7744",
+      "issue_id": "immigration",
+      "position_label": "Voted Nay on H R 7744",
+      "position_scalar": null,
+      "summary": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+      "evidence_type": "voting_record",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "vote-immigration-hr7744-src",
+          "type": "voting_record",
+          "title": "H R 7744 — On Passage",
+          "publisher": "U.S. House Clerk",
+          "url": "https://clerk.house.gov/evs/2026/roll087.xml",
+          "retrieved_at": "2026-07-03",
+          "primary_source": true,
+          "quote": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "reliability_score": 0.95,
+          "published_at": "2026-03-05"
+        }
+      ],
+      "recency": "2026-03-05"
+    }
+  ],
+  "unknowns": [
+    "economy",
+    "inflation",
+    "taxes",
+    "jobs",
+    "healthcare",
+    "crime",
+    "education",
+    "housing",
+    "climate",
+    "energy",
+    "debt_spending",
+    "social_security",
+    "medicare_medicaid",
+    "abortion",
+    "guns",
+    "civil_rights",
+    "lgbtq",
+    "foreign_policy",
+    "national_security",
+    "defense",
+    "trade",
+    "ai_tech",
+    "privacy",
+    "infrastructure",
+    "small_business",
+    "labor",
+    "elections",
+    "ethics",
+    "judiciary"
+  ],
+  "contradictions": [],
+  "source_coverage_score": 0.0333,
+  "researched_at": "2026-07-04T01:11:07.561Z",
+  "research_status": "partial"
+}
