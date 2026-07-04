@@ -57,7 +57,16 @@
       "https://www.legis.state.tx.us/tlodocs/87R/billtext/pdf/SB00008F.pdf",
       "https://gov.texas.gov/news/post/governor-abbott-signs-historic-border-security-measures-in-brownsville"
     ],
-    "background": "Greg Abbott, incumbent governor (2015–present)."
+    "background": "Greg Abbott, incumbent governor (2015–present).",
+    "data_quality": {
+      "score": 45.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "hinojosa-gina": {
     "name": "Gina Hinojosa",
@@ -116,7 +125,16 @@
       "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
       "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/"
     ],
-    "background": "Gina Hinojosa, state representative from the 49th district (2017–present)."
+    "background": "Gina Hinojosa, state representative from the 49th district (2017–present).",
+    "data_quality": {
+      "score": 43.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "dixon-pat": {
     "name": "Pat Dixon",
@@ -177,7 +195,16 @@
       "https://patdixon.org/ai/",
       "https://patdixon.org/election-integrity/"
     ],
-    "background": "Pat Dixon (Libertarian), former chair of the Libertarian Party of Texas"
+    "background": "Pat Dixon (Libertarian), former chair of the Libertarian Party of Texas",
+    "data_quality": {
+      "score": 45.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "raphoon-jenn": {
     "name": "Jenn Mack Raphoon",
@@ -190,7 +217,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
     ],
-    "background": "Jenn Mack Raphoon (Independent)"
+    "background": "Jenn Mack Raphoon (Independent)",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "patrick-dan": {
     "name": "Dan Patrick",
@@ -252,7 +289,16 @@
       "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-16-stopping-non-citizens-from-voting/",
       "https://www.houstonchronicle.com/business/energy/article/texas-natural-gas-electricity-patrick-18639857.php"
     ],
-    "background": "Dan Patrick, incumbent lieutenant governor (2015–present)."
+    "background": "Dan Patrick, incumbent lieutenant governor (2015–present).",
+    "data_quality": {
+      "score": 45.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "goodwin-vikki": {
     "name": "Vikki Goodwin",
@@ -312,7 +358,16 @@
       "https://www.vikkigoodwin.com/education",
       "https://www.vikkigoodwin.com/healthcare-priorities"
     ],
-    "background": "Vikki Goodwin, state representative from the 47th district (2019–present)."
+    "background": "Vikki Goodwin, state representative from the 47th district (2019–present).",
+    "data_quality": {
+      "score": 45.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "collier-mike": {
     "name": "Mike Collier",
@@ -325,7 +380,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
     ],
-    "background": "Mike Collier (Independent), certified public accountant, Democratic nominee for Lt. Governor in 2018 and 2022, Democratic nominee for Comptroller in 2014"
+    "background": "Mike Collier (Independent), certified public accountant, Democratic nominee for Lt. Governor in 2018 and 2022, Democratic nominee for Comptroller in 2014",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "cristo-anthony": {
     "name": "Anthony Cristo",
@@ -338,7 +403,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
     ],
-    "background": "Anthony Cristo (Libertarian), nominee for Texas's 15th congressional district in 2018, and nominee for Texas's 34th congressional district in 2020"
+    "background": "Anthony Cristo (Libertarian), nominee for Texas's 15th congressional district in 2018, and nominee for Texas's 34th congressional district in 2020",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "mccormick-kevin": {
     "name": "Kevin McCormick",
@@ -351,7 +426,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
     ],
-    "background": "Kevin McCormick (Green), former teacher"
+    "background": "Kevin McCormick (Green), former teacher",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "middleton-mayes": {
     "name": "Mayes Middleton",
@@ -364,7 +449,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
     ],
-    "background": "Mayes Middleton, state senator from the 11th district (2023–present)."
+    "background": "Mayes Middleton, state senator from the 11th district (2023–present).",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "johnson-nathan": {
     "name": "Nathan Johnson",
@@ -377,7 +472,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
     ],
-    "background": "Nathan Johnson, state senator from the 16th district (2019–present)."
+    "background": "Nathan Johnson, state senator from the 16th district (2019–present).",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "oxford-tom": {
     "name": "Tom Oxford",
@@ -390,7 +495,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
     ],
-    "background": "Tom Oxford (Libertarian), attorney and perennial candidate"
+    "background": "Tom Oxford (Libertarian), attorney and perennial candidate",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "paxton-ken": {
     "name": "Ken Paxton",
@@ -459,6 +574,13 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/S6TX00388/"
+    },
+    "data_quality": {
+      "score": 75.0,
+      "tier": "A",
+      "missing": [
+        "no voting record"
+      ]
     }
   },
   "talarico-james": {
@@ -526,6 +648,13 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/S6TX00479/"
+    },
+    "data_quality": {
+      "score": 75.0,
+      "tier": "A",
+      "missing": [
+        "no voting record"
+      ]
     }
   },
   "huffines-don": {
@@ -539,7 +668,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
     ],
-    "background": "Don Huffines, former state senator from the 16th district (2015–2019) and candidate for governor in 2022."
+    "background": "Don Huffines, former state senator from the 16th district (2015–2019) and candidate for governor in 2022.",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "eckhardt-sarah": {
     "name": "Sarah Eckhardt",
@@ -552,7 +691,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
     ],
-    "background": "Sarah Eckhardt, state senator from the 14th district (2020–present)."
+    "background": "Sarah Eckhardt, state senator from the 14th district (2020–present).",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "buckingham-dawn": {
     "name": "Dawn Buckingham",
@@ -565,7 +714,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
     ],
-    "background": "Dawn Buckingham, incumbent land commissioner."
+    "background": "Dawn Buckingham, incumbent land commissioner.",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "flores-benjamin": {
     "name": "Benjamin Flores",
@@ -578,7 +737,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
     ],
-    "background": "Benjamin Flores, Bay City councilor (previously ran for governor)."
+    "background": "Benjamin Flores, Bay City councilor (previously ran for governor).",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "snider-neill": {
     "name": "Neill Snider",
@@ -591,7 +760,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
     ],
-    "background": "Neill Snider (Libertarian)"
+    "background": "Neill Snider (Libertarian)",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "sheets-nate": {
     "name": "Nate Sheets",
@@ -604,7 +783,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
     ],
-    "background": "Nate Sheets, beekeeper and small business owner."
+    "background": "Nate Sheets, beekeeper and small business owner.",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "tucker-clayton": {
     "name": "Clayton Tucker",
@@ -665,7 +854,16 @@
       "https://ivoterguide.com/candidate/53259/race/8288/election/791",
       "https://www.claytontuckertx.com/stop_ai_centers"
     ],
-    "background": "Clayton Tucker, rancher and founder of the Texas Progressive Caucus."
+    "background": "Clayton Tucker, rancher and founder of the Texas Progressive Caucus.",
+    "data_quality": {
+      "score": 45.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "french-bo": {
     "name": "Bo French",
@@ -678,7 +876,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
     ],
-    "background": "Bo French, former chair of the Tarrant County Republican Party."
+    "background": "Bo French, former chair of the Tarrant County Republican Party.",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "rosenthal-jon": {
     "name": "Jon Rosenthal",
@@ -691,7 +899,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
     ],
-    "background": "Jon Rosenthal, state representative from the 135th district (2019–present)."
+    "background": "Jon Rosenthal, state representative from the 135th district (2019–present).",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "dibianca-arthur": {
     "name": "Arthur DiBianca",
@@ -704,7 +922,17 @@
     "sources": [
       "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
     ],
-    "background": "Arthur DiBianca (Libertarian)"
+    "background": "Arthur DiBianca (Libertarian)",
+    "data_quality": {
+      "score": 17.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no fec/bioguide id"
+      ]
+    }
   },
   "alexander-dax": {
     "name": "Dax Cornell Alexander",
@@ -723,6 +951,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX01337/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "moran-nathaniel": {
@@ -814,6 +1051,15 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 41.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "crenshaw-daniel": {
@@ -912,6 +1158,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "hunt-evan": {
@@ -931,6 +1185,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX03234/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "self-keith": {
@@ -1029,6 +1292,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "pearce-jason": {
@@ -1048,6 +1319,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX04174/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "fallon-patrick": {
@@ -1146,6 +1426,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "hockett-chelsey": {
@@ -1165,6 +1453,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX05189/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "gooden-lance": {
@@ -1263,6 +1560,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "ellzey-john": {
@@ -1361,6 +1666,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "kalai-alexander": {
@@ -1380,6 +1693,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX07169/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "fletcher-elizabeth": {
@@ -1478,6 +1800,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "luttrell-morgan": {
@@ -1576,6 +1906,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "mealer-alexandra": {
@@ -1595,6 +1933,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX09140/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "ivey-r": {
@@ -1614,6 +1961,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX09215/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "morales-roy": {
@@ -1633,6 +1989,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX09173/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "green-al": {
@@ -1723,6 +2088,16 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 34.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography",
+        "no fec/bioguide id"
+      ]
     }
   },
   "mccaul-michael": {
@@ -1821,6 +2196,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "eckhardt-sarah-tx10": {
@@ -1840,6 +2223,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX10262/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "pfluger-august": {
@@ -1938,6 +2330,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "reynolds-claire": {
@@ -1957,6 +2357,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX11112/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "goldman-craig": {
@@ -2055,6 +2464,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "nair-mark": {
@@ -2067,7 +2484,17 @@
     "sources": [
       "https://www.fec.gov/data/candidate/H6TX13159/"
     ],
-    "positions": []
+    "positions": [],
+    "data_quality": {
+      "score": 12.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
+    }
   },
   "jackson-ronny": {
     "name": "Ronny Lynn Jackson",
@@ -2158,6 +2585,15 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 41.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "davis-richard": {
@@ -2177,6 +2613,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX14173/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "weber-randy": {
@@ -2267,6 +2712,16 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 34.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography",
+        "no fec/bioguide id"
+      ]
     }
   },
   "cruz-monica": {
@@ -2365,6 +2820,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "cabildo-hector": {
@@ -2384,6 +2847,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX16160/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "escobar-veronica": {
@@ -2475,6 +2947,15 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 41.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "mitchell-james": {
@@ -2494,6 +2975,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX17143/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "sessions-pete": {
@@ -2592,6 +3082,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "menefee-christian": {
@@ -2636,6 +3134,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 51.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "berry-allen": {
@@ -2655,6 +3161,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX18323/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "arrington-jodey": {
@@ -2753,6 +3268,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "rable-kyle": {
@@ -2772,6 +3295,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX19198/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "baez-edgardo": {
@@ -2784,7 +3316,17 @@
     "sources": [
       "https://www.fec.gov/data/candidate/H6TX20113/"
     ],
-    "positions": []
+    "positions": [],
+    "data_quality": {
+      "score": 12.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
+    }
   },
   "castro-joaquin": {
     "name": "Joaquin Castro",
@@ -2875,6 +3417,15 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 41.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "roy-chip": {
@@ -2973,6 +3524,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "hook-kristin": {
@@ -2992,6 +3551,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H4TX21108/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "nehls-troy": {
@@ -3090,6 +3658,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "gonzales-ernest": {
@@ -3109,6 +3685,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H0TX35015/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "limon-santos": {
@@ -3128,6 +3713,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H4TX23138/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "buchwald-jon": {
@@ -3147,6 +3741,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX24198/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "duyne-beth": {
@@ -3237,6 +3840,16 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 34.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography",
+        "no fec/bioguide id"
+      ]
     }
   },
   "marks-william": {
@@ -3249,7 +3862,17 @@
     "sources": [
       "https://www.fec.gov/data/candidate/H6TX25211/"
     ],
-    "positions": []
+    "positions": [],
+    "data_quality": {
+      "score": 12.0,
+      "tier": "D",
+      "missing": [
+        "no campaign finance",
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
+    }
   },
   "williams-roger": {
     "name": "Roger Williams",
@@ -3339,6 +3962,16 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 34.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography",
+        "no fec/bioguide id"
+      ]
     }
   },
   "gill-brandon": {
@@ -3437,6 +4070,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "cloud-michael": {
@@ -3528,6 +4169,15 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 41.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "cuellar-henry": {
@@ -3626,6 +4276,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "esparza-juan": {
@@ -3645,6 +4303,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "garcia-sylvia": {
@@ -3743,6 +4410,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "crockett-jasmine": {
@@ -3841,6 +4516,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "heise-gregor": {
@@ -3860,6 +4543,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX30187/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "carter-john": {
@@ -3951,6 +4643,15 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 41.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "stoker-gregory": {
@@ -3970,6 +4671,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX31169/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "bondar-paul": {
@@ -3989,6 +4699,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX32191/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "johnson-julie": {
@@ -4079,6 +4798,16 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 34.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography",
+        "no fec/bioguide id"
+      ]
     }
   },
   "allred-colin": {
@@ -4098,6 +4827,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H8TX32098/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "schwab-kurt": {
@@ -4117,6 +4855,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX33041/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "veasey-marc": {
@@ -4207,6 +4954,16 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 34.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography",
+        "no fec/bioguide id"
+      ]
     }
   },
   "mandel-charles": {
@@ -4226,6 +4983,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "gonzalez-vicente": {
@@ -4324,6 +5090,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "cruz-carlos": {
@@ -4343,6 +5117,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX35087/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "garcia-johnny": {
@@ -4362,6 +5145,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX35095/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "casar-greg": {
@@ -4452,6 +5244,16 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 34.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography",
+        "no fec/bioguide id"
+      ]
     }
   },
   "rogers-doug": {
@@ -4471,6 +5273,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX36028/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "babin-brian": {
@@ -4562,6 +5373,15 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 41.0,
+      "tier": "C",
+      "missing": [
+        "no campaign finance",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "pena-lauren": {
@@ -4581,6 +5401,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX35038/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "doggett-lloyd": {
@@ -4679,6 +5508,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "mcmenemy-alex": {
@@ -4698,6 +5535,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX38123/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "hunter-marvalette": {
@@ -4717,6 +5563,15 @@
       "cash_on_hand": null,
       "as_of": "2026-07-04",
       "source": "https://www.fec.gov/data/candidate/H6TX38024/"
+    },
+    "data_quality": {
+      "score": 37.0,
+      "tier": "C",
+      "missing": [
+        "no voting record",
+        "no issue positions",
+        "no biography"
+      ]
     }
   },
   "hunt-wesley": {
@@ -4815,6 +5670,14 @@
         }
       ],
       "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    },
+    "data_quality": {
+      "score": 66.0,
+      "tier": "B",
+      "missing": [
+        "no issue positions",
+        "no biography"
+      ]
     }
   }
 }
