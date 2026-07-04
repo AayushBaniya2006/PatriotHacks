@@ -77,5 +77,8 @@ precomputed insights make the app functional without it), `FEC_API_KEY` /
 
 **Railway**: two services from this monorepo — Civic Match (root
 `civic-match/`, Next.js autodetect) and the data backend (repo root:
-`railway.json` + `Procfile`, healthcheck `/healthz`, binds `$PORT`). Data
-ships in the repo; no post-deploy loading step.
+`railway.json` + `Procfile` + `nixpacks.toml` Python pin, healthcheck
+`/healthz`, binds `$PORT`). Data ships in the repo, so the service boots
+functional with zero setup; production additionally runs on Railway Postgres
+(`DATABASE_URL`, loaded via `pipeline/load_postgres.py`). The backend is live
+at `web-production-17c3f.up.railway.app` — full recipe in `railway.md`.

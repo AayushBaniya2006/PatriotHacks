@@ -469,7 +469,7 @@ export async function researchPolitician(
 
   const rawStances = clusterResults.flat();
   onEvent({ type: "verify", message: `Validating ${rawStances.length} stances (no source, no claim)`, progress: 0.75 });
-  let stances = validateStances(rawStances, retrievedAt);
+  const stances = validateStances(rawStances, retrievedAt);
 
   onEvent({ type: "verify", message: "Verifier agent double-checking placements", progress: 0.85 });
   const { corrections, contradictions } = await runVerifierAgent(name, stances);
