@@ -33,9 +33,14 @@ export default function CivitasChrome({ children }: { children: ReactNode }) {
 
   return (
     <div className="flex min-h-screen flex-col bg-navy text-cream-light">
-      <header className="border-b border-white/10 bg-navy/95">
+      <header className="civitas-site-header border-b border-white/10 bg-navy/95">
         <div className="mx-auto flex max-w-6xl flex-col gap-5 px-4 py-4 lg:flex-row lg:items-center lg:justify-between lg:px-6">
-          <Link href="/" className="flex items-center gap-3" aria-label="Civitas home">
+          <Link
+            href="/"
+            transitionTypes={["nav-back"]}
+            className="flex items-center gap-3"
+            aria-label="Civitas home"
+          >
             <StarIcon className="h-8 w-8 text-gold" />
             <span className="flex flex-col">
               <span className="font-serif text-2xl font-semibold leading-none tracking-wider text-white">
@@ -51,6 +56,7 @@ export default function CivitasChrome({ children }: { children: ReactNode }) {
               <Link
                 key={href}
                 href={href}
+                transitionTypes={["nav-forward"]}
                 className={`transition-colors hover:text-white ${
                   pathname === href ? "text-gold" : ""
                 }`}

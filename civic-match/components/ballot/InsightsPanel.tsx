@@ -56,67 +56,84 @@ export function InsightsPanel({
   // re-render instead of looping.
   useEffect(() => {
     if (!prefetched) return;
-    setCache((c) => {
-      let changed = false;
-      const next = { ...c };
-      for (const [id, result] of Object.entries(prefetched)) {
-        if (!(id in next)) {
-          next[id] = result;
-          changed = true;
-        }
-      }
-      return changed ? next : c;
-    });
-  }, [prefetched]);
-
-  useEffect(() => {
-    if (!raceId) {
-      setState({ status: "idle" });
-      return;
-    }
-
-    // "Opening" this race's insights — cached or freshly fetched — is what
-    // ballot-readiness means (improvements.md #2): mark it reviewed as soon
-    // as it's requested, not only once the fetch succeeds.
-    markReviewed(readinessKey(districts), raceId);
-
-    const cached = cache[raceId];
-    if (cached) {
-      setState({ status: "done", result: cached });
-      return;
-    }
-
     let cancelled = false;
-    setState({ status: "loading" });
-
-    fetch("/api/voter-insights", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ profile, race_id: raceId }),
-    })
-      .then(async (r) => {
-        const body = await r.json().catch(() => ({}));
-        if (!r.ok) throw new Error(body?.error ?? `Request failed (${r.status})`);
-        return body as InsightsResponse;
-      })
-      .then((result) => {
-        if (cancelled) return;
-        setCache((c) => ({ ...c, [raceId]: result }));
-        setState({ status: "done", result });
-      })
-      .catch((err: unknown) => {
-        if (cancelled) return;
-        setState({
-          status: "error",
-          message: err instanceof Error ? err.message : "Could not load insights",
-        });
+    queueMicrotask(() => {
+      if (cancelled) return;
+      setCache((c) => {
+        let changed = false;
+        const next = { ...c };
+        for (const [id, result] of Object.entries(prefetched)) {
+          if (!(id in next)) {
+            next[id] = result;
+            changed = true;
+          }
+        }
+        return changed ? next : c;
       });
+    });
 
     return () => {
       cancelled = true;
     };
-    // profile/districts are captured at click time; refetch only when the
-    // target race changes.
+  }, [prefetched]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    if (!raceId) {
+      queueMicrotask(() => {
+        if (!cancelled) setState({ status: "idle" });
+      });
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    queueMicrotask(() => {
+      if (cancelled) return;
+
+      // "Opening" this race's insights — cached or freshly fetched — is what
+      // ballot-readiness means (improvements.md #2): mark it reviewed as soon
+      // as it's requested, not only once the fetch succeeds.
+      markReviewed(readinessKey(districts), raceId);
+
+      const cached = cache[raceId];
+      if (cached) {
+        setState({ status: "done", result: cached });
+        return;
+      }
+
+      setState({ status: "loading" });
+
+      fetch("/api/voter-insights", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ profile, race_id: raceId }),
+      })
+        .then(async (r) => {
+          const body = await r.json().catch(() => ({}));
+          if (!r.ok) throw new Error(body?.error ?? `Request failed (${r.status})`);
+          return body as InsightsResponse;
+        })
+        .then((result) => {
+          if (cancelled) return;
+          setCache((c) => ({ ...c, [raceId]: result }));
+          setState({ status: "done", result });
+        })
+        .catch((err: unknown) => {
+          if (cancelled) return;
+          setState({
+            status: "error",
+            message: err instanceof Error ? err.message : "Could not load insights",
+          });
+        });
+    });
+
+    return () => {
+      cancelled = true;
+    };
+    // profile/districts/cache are captured at click time; refetch only when
+    // the target race changes.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [raceId]);
 

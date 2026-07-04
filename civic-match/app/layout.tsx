@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist_Mono, Inter, Playfair_Display } from "next/font/google";
+import { ViewTransition } from "react";
 import CivitasChrome from "@/components/civitas-chrome";
 import "./globals.css";
 
@@ -41,7 +42,21 @@ export default function RootLayout({
       className={`${inter.variable} ${geistMono.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-navy text-cream-light">
-        <CivitasChrome>{children}</CivitasChrome>
+        <ViewTransition
+          default="none"
+          enter={{
+            "nav-forward": "nav-forward",
+            "nav-back": "nav-back",
+            default: "none",
+          }}
+          exit={{
+            "nav-forward": "nav-forward",
+            "nav-back": "nav-back",
+            default: "none",
+          }}
+        >
+          <CivitasChrome>{children}</CivitasChrome>
+        </ViewTransition>
       </body>
     </html>
   );

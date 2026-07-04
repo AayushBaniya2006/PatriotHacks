@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   devIndicators: false,
+  experimental: {
+    viewTransition: true,
+  },
   // Keep the Postgres driver out of the server bundle — pg uses dynamic requires
   // that break when bundled.
   serverExternalPackages: ["pg"],

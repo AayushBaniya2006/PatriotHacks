@@ -243,14 +243,14 @@ export default function Home() {
 
   return (
     <div className="min-h-screen w-full overflow-x-hidden font-sans">
-      <nav className="absolute left-0 right-0 top-0 z-50 mx-auto flex w-full max-w-[1600px] items-center justify-between px-6 py-6 lg:px-12">
+      <nav className="landing-nav absolute left-0 right-0 top-0 z-50 mx-auto flex w-full max-w-[1600px] items-center justify-between px-6 py-6 lg:px-12">
         <CivitasMark />
 
         <div className="hidden items-center gap-10 text-sm uppercase tracking-widest text-white/90 lg:flex">
           <a href="#features" className="transition-colors hover:text-white">
             How It Works
           </a>
-          <Link href="/ballot" className="transition-colors hover:text-white">
+          <Link href="/ballot" transitionTypes={["nav-forward"]} className="transition-colors hover:text-white">
             Start
           </Link>
         </div>
@@ -261,22 +261,22 @@ export default function Home() {
             <MenuIcon className="h-8 w-8" />
           </summary>
           <div className="absolute right-0 mt-4 grid min-w-48 gap-3 border border-white/10 bg-navy-dark/95 p-4 text-sm uppercase tracking-widest text-white shadow-2xl">
-            <Link href="/ballot" className="hover:text-gold">
+            <Link href="/ballot" transitionTypes={["nav-forward"]} className="hover:text-gold">
               Your ballot
             </Link>
-            <Link href="/intake" className="hover:text-gold">
+            <Link href="/intake" transitionTypes={["nav-forward"]} className="hover:text-gold">
               Priorities
             </Link>
-            <Link href="/results" className="hover:text-gold">
+            <Link href="/results" transitionTypes={["nav-forward"]} className="hover:text-gold">
               Matches
             </Link>
-            <Link href="/future" className="hover:text-gold">
+            <Link href="/future" transitionTypes={["nav-forward"]} className="hover:text-gold">
               Future
             </Link>
-            <Link href="/debate" className="hover:text-gold">
+            <Link href="/debate" transitionTypes={["nav-forward"]} className="hover:text-gold">
               Debate
             </Link>
-            <Link href="/graph" className="hover:text-gold">
+            <Link href="/graph" transitionTypes={["nav-forward"]} className="hover:text-gold">
               Graph
             </Link>
           </div>
@@ -337,11 +337,12 @@ export default function Home() {
 
               <Link
                 href="/ballot"
-                className="mt-10 inline-flex w-full max-w-[320px] items-center justify-center gap-5 rounded-sm bg-[#822826] px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-cream-light shadow-[0_18px_42px_rgba(43,8,8,0.34),inset_0_1px_0_rgba(255,255,255,0.12)] ring-1 ring-white/10 transition-[background-color,box-shadow] hover:bg-[#72211f] hover:shadow-[0_22px_50px_rgba(43,8,8,0.42),inset_0_1px_0_rgba(255,255,255,0.16)] sm:mt-12 sm:w-auto sm:min-w-[350px] sm:max-w-none sm:px-8 sm:py-5"
+                transitionTypes={["nav-forward"]}
+                className="group mt-10 inline-flex w-full max-w-[320px] items-center justify-center gap-5 rounded-sm bg-[#822826] px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-cream-light shadow-[0_18px_42px_rgba(43,8,8,0.34),inset_0_1px_0_rgba(255,255,255,0.12)] ring-1 ring-white/10 transition-[background-color,box-shadow,transform] hover:-translate-y-0.5 hover:bg-[#72211f] hover:shadow-[0_22px_50px_rgba(43,8,8,0.42),inset_0_1px_0_rgba(255,255,255,0.16)] sm:mt-12 sm:w-auto sm:min-w-[350px] sm:max-w-none sm:px-8 sm:py-5"
                 data-hero-reveal="3"
               >
                 Check Your Election
-                <ArrowRightIcon className="h-5 w-5" />
+                <ArrowRightIcon className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
               <p className="mt-6 text-xs uppercase tracking-[0.25em] text-white/55" data-hero-reveal="3">
                 2 minutes to your ballot overview
@@ -398,14 +399,26 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="relative border-t border-white/5 bg-navy py-24 lg:py-32">
-          <div className="mx-auto max-w-4xl px-6 text-center" data-reveal="up">
-            <h2 className="mb-6 font-serif text-4xl text-white lg:text-6xl">Check in on your election.</h2>
-            <p className="mx-auto max-w-xl text-sm uppercase leading-relaxed tracking-widest text-white/70 lg:text-base">
+        <section className="relative border-t border-white/5 bg-navy py-24 lg:py-32" data-reveal-section>
+          <div className="mx-auto max-w-4xl px-6 text-center" data-stagger-group>
+            <h2 className="mb-6 font-serif text-4xl text-white lg:text-6xl" data-reveal="up">
+              Check in on your election.
+            </h2>
+            <p
+              className="mx-auto max-w-xl text-sm uppercase leading-relaxed tracking-widest text-white/70 lg:text-base"
+              data-reveal="up"
+              data-reveal-delay="1"
+            >
               Get a clear view of the races, candidates, and issues on your ballot.
             </p>
 
-            <form action="/ballot" method="get" className="mx-auto mt-12 max-w-2xl space-y-4">
+            <form
+              action="/ballot"
+              method="get"
+              className="mx-auto mt-12 max-w-2xl space-y-4"
+              data-reveal="up"
+              data-reveal-delay="2"
+            >
               <label className="relative flex items-center">
                 <span className="sr-only">Enter address or ZIP code</span>
                 <MapPinIcon className="absolute left-6 h-6 w-6 text-gold" />
@@ -418,10 +431,10 @@ export default function Home() {
               </label>
               <button
                 type="submit"
-                className="flex w-full items-center justify-center gap-3 rounded-md bg-red py-5 text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:bg-red/90"
+                className="group flex w-full items-center justify-center gap-3 rounded-md bg-red py-5 text-sm font-semibold uppercase tracking-wider text-white transition-[background-color,transform,box-shadow] hover:-translate-y-0.5 hover:bg-red/90 hover:shadow-[0_18px_40px_rgba(156,42,42,0.24)]"
               >
                 Check My Election
-                <ArrowRightIcon className="h-5 w-5" />
+                <ArrowRightIcon className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
               </button>
               <div className="mt-6 flex items-center justify-center gap-2 text-sm text-white/50">
                 <LockIcon className="h-4 w-4" />
@@ -431,7 +444,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="features" className="border-t border-white/5 bg-navy py-12 lg:py-24">
+        <section id="features" className="border-t border-white/5 bg-navy py-12 lg:py-24" data-reveal-section>
           <div className="mx-auto grid max-w-[1400px] grid-cols-1 gap-16 px-6 md:grid-cols-3 lg:gap-8 lg:px-12">
             <FeatureCard
               icon={<FileSearchIcon className="mb-6 h-12 w-12 text-gold lg:h-16 lg:w-16" />}
@@ -457,17 +470,19 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="relative overflow-hidden border-t border-white/5 bg-navy py-32">
+        <section className="relative overflow-hidden border-t border-white/5 bg-navy py-32" data-reveal-section>
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 z-10 w-full bg-gradient-to-r from-navy via-navy/90 to-transparent lg:w-2/3" />
             <div className="absolute inset-0 z-10 bg-navy/60 lg:hidden" />
-            <Image
-              src={ctaImage}
-              alt="Statue of Liberty detail"
-              fill
-              sizes="100vw"
-              className="object-cover object-right opacity-30 mix-blend-luminosity grayscale"
-            />
+            <div className="absolute inset-0" data-scroll-transition="cta-image">
+              <Image
+                src={ctaImage}
+                alt="Statue of Liberty detail"
+                fill
+                sizes="100vw"
+                className="object-cover object-right opacity-30 mix-blend-luminosity grayscale"
+              />
+            </div>
           </div>
 
           <div className="relative z-20 mx-auto max-w-4xl px-6 text-center" data-reveal="up">
@@ -487,10 +502,11 @@ export default function Home() {
             </p>
             <Link
               href="/ballot"
-              className="inline-flex items-center gap-4 rounded-sm bg-red px-8 py-4 text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:bg-red/90"
+              transitionTypes={["nav-forward"]}
+              className="group inline-flex items-center gap-4 rounded-sm bg-red px-8 py-4 text-sm font-semibold uppercase tracking-wider text-white transition-[background-color,transform,box-shadow] hover:-translate-y-0.5 hover:bg-red/90 hover:shadow-[0_18px_40px_rgba(156,42,42,0.24)]"
             >
               Check Your Election
-              <ArrowRightIcon className="h-5 w-5" />
+              <ArrowRightIcon className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
           </div>
         </section>
@@ -508,13 +524,13 @@ export default function Home() {
               <a href="#record" className="transition-colors hover:text-white">
                 About
               </a>
-              <Link href="/future" className="transition-colors hover:text-white">
+              <Link href="/future" transitionTypes={["nav-forward"]} className="transition-colors hover:text-white">
                 Insights
               </Link>
-              <Link href="/ballot" className="transition-colors hover:text-white lg:ml-8">
+              <Link href="/ballot" transitionTypes={["nav-forward"]} className="transition-colors hover:text-white lg:ml-8">
                 Privacy
               </Link>
-              <Link href="/intake" className="transition-colors hover:text-white">
+              <Link href="/intake" transitionTypes={["nav-forward"]} className="transition-colors hover:text-white">
                 Terms
               </Link>
             </div>

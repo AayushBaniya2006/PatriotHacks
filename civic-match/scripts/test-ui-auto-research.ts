@@ -19,6 +19,12 @@ interface TestResult {
   screenshot?: string;
 }
 
+interface PoliticianApiSummary {
+  id: string;
+  name: string;
+  stances?: unknown[];
+}
+
 const results: TestResult[] = [];
 
 function test(name: string, fn: () => Promise<void>) {
@@ -84,8 +90,8 @@ async function runUITests() {
     // Test 3: Load politician profile with insufficient data
     await test("Load politician profile with insufficient data", async () => {
       const politiciansResponse = await fetch(`${FRONTEND_URL}/api/politicians`);
-      const politicians = await politiciansResponse.json();
-      const insufficientData = politicians.find((p: any) => (p.stances?.length || 0) < 8);
+      const politicians = (await politiciansResponse.json()) as PoliticianApiSummary[];
+      const insufficientData = politicians.find((p) => (p.stances?.length || 0) < 8);
       
       if (!insufficientData) {
         console.log("  ⚠ All politicians have sufficient data");

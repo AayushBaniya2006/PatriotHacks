@@ -195,41 +195,52 @@ export default function ResultsPage() {
   };
 
   useEffect(() => {
-    const prefs = loadPrefs();
-    if (!prefs) {
-      setNoPrefs(true);
-      return;
-    }
-    setVoterName(prefs.profile?.name);
-    setVoterProfile(prefs.profile);
-    setAddress(prefs.address);
-    if (prefs.address) {
-      setBallotState({ status: "loading" });
-      fetch(`/api/ballot?address=${encodeURIComponent(prefs.address)}`)
-        .then(async (r) => {
-          const body = await r.json();
-          if (!r.ok) throw new Error(body?.error ?? `Request failed (${r.status})`);
-          return body as BallotResponse;
-        })
-        .then((data) => {
-          setBallotState({ status: "done", data });
-        })
-        .catch((err: unknown) =>
-          setBallotState({
-            status: "error",
-            message: err instanceof Error ? err.message : "Could not load your ballot",
+    let cancelled = false;
+
+    queueMicrotask(() => {
+      if (cancelled) return;
+      const prefs = loadPrefs();
+      if (!prefs) {
+        setNoPrefs(true);
+        return;
+      }
+      setVoterName(prefs.profile?.name);
+      setVoterProfile(prefs.profile);
+      setAddress(prefs.address);
+      if (prefs.address) {
+        setBallotState({ status: "loading" });
+        fetch(`/api/ballot?address=${encodeURIComponent(prefs.address)}`)
+          .then(async (r) => {
+            const body = await r.json();
+            if (!r.ok) throw new Error(body?.error ?? `Request failed (${r.status})`);
+            return body as BallotResponse;
           })
-        );
-    }
-    (async () => {
-      const list: PoliticianSummary[] = await fetch("/api/politicians").then((r) => r.json());
-      const res = await fetch("/api/match", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prefs, politician_ids: list.map((p) => p.id) }),
-      }).then((r) => r.json());
-      setResults(res.results);
-    })();
+          .then((data) => {
+            if (!cancelled) setBallotState({ status: "done", data });
+          })
+          .catch((err: unknown) => {
+            if (!cancelled) {
+              setBallotState({
+                status: "error",
+                message: err instanceof Error ? err.message : "Could not load your ballot",
+              });
+            }
+          });
+      }
+      (async () => {
+        const list: PoliticianSummary[] = await fetch("/api/politicians").then((r) => r.json());
+        const res = await fetch("/api/match", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ prefs, politician_ids: list.map((p) => p.id) }),
+        }).then((r) => r.json());
+        if (!cancelled) setResults(res.results);
+      })();
+    });
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   // P1 prefetch (design spec §4) -- once the ballot is in, warm
@@ -253,38 +264,41 @@ export default function ResultsPage() {
     if (!topRace) return;
 
     let cancelled = false;
-    setPrefetchPhase("loading");
-    fetch("/api/voter-insights", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ profile: voterProfile, race_id: topRace.race_id }),
-    })
-      .then(async (r) => {
-        const result = (await r.json().catch(() => null)) as (InsightsResponse & { error?: string }) | null;
-        if (cancelled) return;
-        if (!r.ok || !result) {
-          setPrefetchPhase("error");
-          setPrefetchDetail(result?.error ?? null);
-          return;
-        }
-        setPrefetchedInsights((prev) => ({ ...prev, [topRace.race_id]: result }));
-        if (result.mode === "unavailable") {
-          // Settled, but nothing to warm the cache with -- still a real,
-          // honest "sources" outcome, not a network failure.
-          setPrefetchPhase("error");
-          setPrefetchDetail(result.detail ?? null);
-        } else {
-          setPrefetchPhase("done");
-        }
+    queueMicrotask(() => {
+      if (cancelled) return;
+      setPrefetchPhase("loading");
+      fetch("/api/voter-insights", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ profile: voterProfile, race_id: topRace.race_id }),
       })
-      .catch(() => {
-        // Silent by design -- see comment above; still recorded for the
-        // staged-progress line (network-level failure, no backend detail
-        // text available).
-        if (cancelled) return;
-        setPrefetchPhase("error");
-        setPrefetchDetail(null);
-      });
+        .then(async (r) => {
+          const result = (await r.json().catch(() => null)) as (InsightsResponse & { error?: string }) | null;
+          if (cancelled) return;
+          if (!r.ok || !result) {
+            setPrefetchPhase("error");
+            setPrefetchDetail(result?.error ?? null);
+            return;
+          }
+          setPrefetchedInsights((prev) => ({ ...prev, [topRace.race_id]: result }));
+          if (result.mode === "unavailable") {
+            // Settled, but nothing to warm the cache with -- still a real,
+            // honest "sources" outcome, not a network failure.
+            setPrefetchPhase("error");
+            setPrefetchDetail(result.detail ?? null);
+          } else {
+            setPrefetchPhase("done");
+          }
+        })
+        .catch(() => {
+          // Silent by design -- see comment above; still recorded for the
+          // staged-progress line (network-level failure, no backend detail
+          // text available).
+          if (cancelled) return;
+          setPrefetchPhase("error");
+          setPrefetchDetail(null);
+        });
+    });
 
     return () => {
       cancelled = true;

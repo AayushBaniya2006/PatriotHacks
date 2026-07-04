@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { getPolitician, slugify } from "@/lib/db";
+import { getPolitician } from "@/lib/db";
 import { profileCoverage } from "@/lib/coverage";
 
 export const maxDuration = 30;
