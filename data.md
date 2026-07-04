@@ -87,20 +87,20 @@ candidate's own JSON, rewriting/dropping anything that doesn't. Live generation
 (`OPENROUTER_API_KEY` set, race has no cache) follows the same grounding rule at request time
 in `app/insights.py` — never the network-response text, only that candidate's stored record.
 
-### Freshness model — implemented today vs. target
+### Freshness model
 
-| | **IMPLEMENTED TODAY** | **TARGET (recommended evolution)** |
+| | **Current state** | Still open |
 |---|---|---|
-| Key | one row per `race_id` (Postgres PK `insights.race_id`) | `(race_id, archetype)` composite key |
-| Payload | single JSONB blob holding `base` + **all** archetypes nested inside | one row per archetype, independently regenerable |
-| Regeneration | rerun the precompute script → full `TRUNCATE` + reload of the whole `insights` table (`load_postgres.py`) | `generated_at` + `inputs_hash` (hash of that candidate's data slice) → skip regeneration when the hash is unchanged |
-| Write path | `INSERT ... ON CONFLICT (race_id) DO UPDATE` (see `pipeline/load_postgres.py`) | same latest-wins UPSERT, scoped to `(race_id, archetype)` |
-| Live LLM output | returned to the caller, not persisted | write-through cache into the same keyed table on first generation |
-| History | none — old payload is gone once TRUNCATEd | optional append-only `insights_history` table for audit/rollback |
+| Key | `(race_id, archetype)` composite key — one row per precomputed block, not per race | — |
+| Payload | one row per archetype, independently regenerable (`base` plus each of the 8 archetypes is its own row) | — |
+| Regeneration | `generated_at` + `inputs_hash` (sha256 over that race's candidate data) gate every reload — `pipeline/load_postgres.py` skips a row when the hash is unchanged, upserts it when the hash differs; `--reset` forces an unconditional full reload of `insights` | — |
+| Write path | latest-wins `INSERT ... ON CONFLICT (race_id, archetype) DO UPDATE`, scoped per block (`pipeline/load_postgres.py`, `app/datastore.py::put_insight_block`) | — |
+| Live LLM output | write-through cached into the same keyed table on first generation (`put_insight_block`), so a later request for the same `(race_id, archetype)` is served from cache | — |
+| History | none — an UPDATE overwrites the prior payload for that block | optional append-only `insights_history` table for audit/rollback |
 
-The target isn't a rewrite of the storage model — it's narrowing the grain of the existing
-`insights` table from "whole race" to "race × archetype" and adding a cheap change-detection
-hash, so a one-archetype edit doesn't force reloading (or invalidating) the other seven.
+The grain is `race × archetype`, not "whole race": a one-archetype edit (or one live
+LLM write-through) upserts exactly that row without touching the other seven archetypes
+or `base`.
 
 ---
 

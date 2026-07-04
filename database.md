@@ -88,7 +88,8 @@ psql "postgresql://postgres:postgres@localhost:5433/patriothacks" -c "\d races"
 # confirm columns/indexes match schema.md §2.1
 ```
 
-**Verify via the app (`/healthz`):**
+**Verify via the app (`/healthz`):** (this machine's demo box runs the backend on port
+8010 instead of 8000 — see `DEMO_PLAYBOOK.md`)
 ```bash
 DATABASE_URL=postgresql://postgres:postgres@localhost:5433/patriothacks \
   uvicorn app.main:app --reload &
@@ -136,12 +137,15 @@ about the demo requires a database to be provisioned.
 
 ## 5. Reload/rebuild flow after pipeline reruns
 
-`pipeline/load_postgres.py` is idempotent: the whole load runs in a single
-transaction that `TRUNCATE`s `insights, race_candidates, candidates, races`
-(cascading) and reinserts from whatever is currently on disk under
-`data/tx/`. Rerunning it after `pipeline/build_dataset.py` (or any manual edit
-to the gold JSON) always converges Postgres to match disk exactly — no manual
-cleanup needed:
+`pipeline/load_postgres.py` is idempotent: `race_candidates, candidates, races`
+are unconditionally `TRUNCATE`d and reinserted every run (cheap, deterministic
+re-derivations from gold JSON). `insights` defaults instead to an incremental,
+hash-gated UPSERT — a row is only rewritten when its stored `inputs_hash` no
+longer matches that race's current candidate data, so a live write-through-
+cached block survives a routine rerun; pass `--reset` to `TRUNCATE` and reload
+`insights` unconditionally too. Rerunning after `pipeline/build_dataset.py`
+(or any manual edit to the gold JSON) always converges Postgres to match disk
+— no manual cleanup needed:
 ```bash
 python3 pipeline/build_dataset.py          # regenerate gold JSON (if applicable)
 python3 pipeline/load_postgres.py --dry-run  # sanity-check counts first

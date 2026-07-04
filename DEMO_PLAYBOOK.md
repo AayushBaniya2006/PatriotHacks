@@ -24,18 +24,17 @@ cd civic-match
 npm run dev
 ```
 
-**`civic-match/.env.local`** — must set BOTH of these (the codebase has two independent
-env var names for the same backend today — `lib/dataBackend.ts` reads `DATA_BACKEND_URL`,
-`app/api/ballot/route.ts` reads `BALLOT_BACKEND_URL` — setting only one leaves the other
-route silently defaulting to `http://localhost:8000`, which is wrong once the backend is
-started on 8010):
+**`civic-match/.env.local`** — set:
 
 ```
 DATA_BACKEND_URL=http://localhost:8010
-BALLOT_BACKEND_URL=http://localhost:8010
 ```
 
-Restart `npm run dev` after editing `.env.local` — Next.js only reads it at process start.
+`DATA_BACKEND_URL` is the single canonical var — both `lib/dataBackend.ts` and
+`app/api/ballot/route.ts` read it (the route also accepts a legacy
+`BALLOT_BACKEND_URL` alias if `DATA_BACKEND_URL` is unset, but there's no need
+to set both). Restart `npm run dev` after editing `.env.local` — Next.js only
+reads it at process start.
 
 **Verify before anyone touches the keyboard on stage:**
 
@@ -132,9 +131,10 @@ race/profile also carries a `horizons` block** (a `now` vs. `long_term` split �
 restatement of the current record vs. explicitly-labeled, assumption-flagged
 projections, each still individually sourced), point at it as the newest layer: *"Right
 now" is what the record says today; "down the road" is a labeled projection, never
-presented as fact.* **Verify this beat is live before you rely on it** — as of
-2026-07-03 the frontend renders `horizons` when present but no precomputed insight file
-has that key populated yet, so check with:
+presented as fact.* **Confirmed populated for this exact demo combo** —
+`data/tx/insights/tx-cd28-2026.json` carries `horizons` under both `base` and
+the `veteran` archetype, so this beat works out of the box. Re-confirm right
+before stage anyway (cache files do get regenerated):
 
 ```bash
 curl -s -X POST http://127.0.0.1:8010/api/insights \
@@ -142,10 +142,11 @@ curl -s -X POST http://127.0.0.1:8010/api/insights \
   -d '{"profile":{"veteran":true},"race_id":"tx-cd28-2026"}' | python3 -c "import json,sys;print('horizons' in json.load(sys.stdin))"
 ```
 
-If that prints `False`, drop the horizons sentence and instead pivot to `/future`
-(same nav bar, "Down the line") and open the **U.S. Senate** scenario tree (Paxton vs.
-Talarico) — same address's statewide ballot, same "labeled projection with sources"
-idea, already fully built and populated for all 4 statewide races.
+If that ever prints `False` (stale cache, reverted data), drop the horizons
+sentence and instead pivot to `/future` (same nav bar, "Down the line") and
+open the **U.S. Senate** scenario tree (Paxton vs. Talarico) — same address's
+statewide ballot, same "labeled projection with sources" idea, already fully
+built and populated for all 4 statewide races.
 
 ### 2:45–3:00 — Close: the engineering beat (15s)
 
