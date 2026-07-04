@@ -22,7 +22,7 @@ type IssueEvidence = {
   summary: string;
   evidence_type: string;
   confidence: number;
-  recency: string;
+  recency?: string;
   sources: QASource[];
 };
 

@@ -870,7 +870,7 @@ export default function BallotPage() {
             <p className="mt-4 text-sm leading-6 text-white/68">
               Pick up to 5 issues. You can change this later.
             </p>
-            <div className="mt-7 grid flex-1 grid-cols-2 content-start gap-3 lg:grid-cols-4">
+            <div className="mt-7 grid grid-cols-2 content-start gap-3 lg:grid-cols-4">
               {selectedIssueDefs.map((issue) => {
                 const Icon = issueIcons[issue.id] ?? Scale;
                 const selected = priorities.includes(issue.id);
@@ -921,13 +921,13 @@ export default function BallotPage() {
             </div>
             <h1 className="mt-4 font-serif text-3xl leading-tight text-white">{issueLabel(currentStanceIssue)}</h1>
             <p className="mt-4 text-base leading-7 text-white/76">{currentStanceIssue.tradeoffQuestion}</p>
-            <div className="flex flex-1 flex-col justify-center py-10">
+            <div className="mt-8 flex flex-col py-4">
               <div
                 className="relative flex items-start justify-between"
                 role="radiogroup"
                 aria-label={`${issueLabel(currentStanceIssue)} position`}
               >
-                <div className="absolute left-5 right-5 top-3 h-px bg-white/20" />
+                <div className="absolute left-5 right-5 top-4 h-px bg-white/20" />
                 {stanceOptions.map((option) => {
                   const selected = positions[currentStanceIssue.id] === option.value;
                   return (
@@ -939,42 +939,42 @@ export default function BallotPage() {
                       onClick={() =>
                         setPositions((current) => ({ ...current, [currentStanceIssue.id]: option.value }))
                       }
-                      className="relative z-10 flex w-14 flex-col items-center gap-3"
+                      className="relative z-10 flex w-20 flex-col items-center gap-3"
                     >
                       <span
                         className={cn(
-                          "flex rounded-full border-2 bg-[#051628] transition-all",
+                          "flex h-8 w-8 items-center justify-center rounded-full border-2 bg-[#051628] transition-colors",
                           selected
-                            ? "h-8 w-8 border-[#d8a15b] p-1.5"
-                            : "mt-1 h-6 w-6 border-white/45 hover:border-white/70"
+                            ? "border-[#d8a15b]"
+                            : "border-white/45 hover:border-white/70"
                         )}
                       >
-                        {selected && <span className="h-full w-full rounded-full bg-[#d8a15b]" />}
+                        {selected && <span className="h-3.5 w-3.5 rounded-full bg-[#d8a15b]" />}
                       </span>
-                      <span className={cn("text-center text-[10px] leading-4", selected ? "text-[#d8a15b]" : "text-white/56")}>
+                      <span className={cn("text-center text-[11px] leading-4", selected ? "text-[#d8a15b]" : "text-white/62")}>
                         {option.label}
                       </span>
                     </button>
                   );
                 })}
               </div>
-              <div className="mt-10 grid grid-cols-2 gap-3 text-[11px] leading-4 text-white/45">
+              <div className="mt-6 grid grid-cols-2 gap-8 text-xs leading-5 text-white/58">
                 <span>{currentStanceIssue.axis0}</span>
                 <span className="text-right">{currentStanceIssue.axis1}</span>
               </div>
             </div>
-            <div className="mt-auto flex gap-3">
+            <div className="mt-8 flex gap-3">
               <button
                 type="button"
                 onClick={() => {
                   setPositions((current) => ({ ...current, [currentStanceIssue.id]: null }));
                   continueFromStance();
                 }}
-                className="flex-1 rounded-[10px] px-4 py-3 text-xs font-black uppercase tracking-[0.22em] text-[#d8a15b] transition hover:bg-[#d8a15b]/10"
+                className="flex-1 rounded-[10px] px-4 py-3 text-xs font-black uppercase tracking-[0.22em] text-[#d8a15b] transition hover:bg-[#d8a15b]/10 md:flex-none md:min-w-[180px]"
               >
                 Skip
               </button>
-              <div className="flex-1">
+              <div className="flex-1 md:flex-none">
                 <PrimaryButton onClick={continueFromStance}>
                   {stanceIndex + 1 < priorities.length ? "Next" : "Continue"}
                 </PrimaryButton>
@@ -989,7 +989,7 @@ export default function BallotPage() {
               When policy conflicts, what do you usually prefer?
             </h1>
             <p className="mt-7 font-serif text-lg text-white/90">Taxes and services</p>
-            <div className="mt-5 flex-1 space-y-3" role="radiogroup" aria-label="Taxes and services tradeoff">
+            <div className="mt-5 space-y-3" role="radiogroup" aria-label="Taxes and services tradeoff">
               {tradeoffOptions.map((option) => {
                 const selected = tradeoffStyle === option;
                 return (
@@ -1033,7 +1033,7 @@ export default function BallotPage() {
             <p className="mt-4 text-sm leading-6 text-white/68">
               Optional. Add any positions that should strongly count against a candidate.
             </p>
-            <div className="mt-7 flex-1 space-y-3">
+            <div className="mt-7 space-y-3">
               {dealbreakerOptions.map((option) => {
                 const selected = dealbreakers.includes(option);
                 return (
@@ -1063,11 +1063,11 @@ export default function BallotPage() {
               <button
                 type="button"
                 onClick={() => setStep("review")}
-                className="flex-1 rounded-[10px] px-3 py-3 text-[11px] font-black uppercase tracking-[0.18em] text-[#d8a15b] transition hover:bg-[#d8a15b]/10"
+                className="flex-1 rounded-[10px] px-3 py-3 text-[11px] font-black uppercase tracking-[0.18em] text-[#d8a15b] transition hover:bg-[#d8a15b]/10 md:flex-none md:min-w-[180px]"
               >
                 Skip for now
               </button>
-              <div className="flex-1">
+              <div className="flex-1 md:flex-none">
                 <PrimaryButton onClick={() => setStep("review")}>Continue</PrimaryButton>
               </div>
             </div>
@@ -1080,7 +1080,7 @@ export default function BallotPage() {
             <p className="mt-4 text-sm leading-6 text-white/68">
               You can edit anything before we show your matches.
             </p>
-            <div className="mt-7 flex-1 space-y-3">
+            <div className="mt-7 space-y-3">
               {[
                 {
                   title: "Election",

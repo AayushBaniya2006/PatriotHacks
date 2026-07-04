@@ -178,7 +178,19 @@ function RaceSnapshot({
           </thead>
           <tbody className="divide-y divide-white/8">
             {races.map((race) => (
-              <tr key={race.id} className="transition hover:bg-white/[0.025]">
+              <tr
+                key={race.id}
+                tabIndex={0}
+                aria-label={`Compare candidates in ${race.office}`}
+                onClick={() => onSelectRace(race.id, "compare")}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    onSelectRace(race.id, "compare");
+                  }
+                }}
+                className="cursor-pointer transition hover:bg-white/[0.025] focus-visible:bg-white/[0.035] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-gold/70"
+              >
                 <td className="px-5 py-4">
                   <div className="font-medium text-white">{race.office}</div>
                   <div className="mt-1 text-xs text-white/42">{race.location}</div>
@@ -217,7 +229,10 @@ function RaceSnapshot({
                 <td className="px-5 py-4 text-right">
                   <button
                     type="button"
-                    onClick={() => onSelectRace(race.id, "compare")}
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      onSelectRace(race.id, "compare");
+                    }}
                     className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-[0.14em] text-gold hover:text-white"
                   >
                     Compare <ChevronRight className="h-4 w-4" />
@@ -616,10 +631,11 @@ export default function CivitasDashboard({
             <button
               type="button"
               onClick={onEditSettings}
-              className="rounded-full p-2 text-white/55 transition hover:bg-white/5 hover:text-white"
+              className="inline-flex items-center gap-2 rounded-[8px] border border-white/12 px-3 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-white/58 transition hover:border-white/26 hover:bg-white/[0.035] hover:text-white"
               aria-label="Edit ballot settings"
             >
               <ArrowLeft className="h-5 w-5" />
+              <span>Edit settings</span>
             </button>
             <div>
               <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-gold">
