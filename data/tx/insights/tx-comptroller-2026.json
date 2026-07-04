@@ -13,7 +13,7 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
         },
         {
-          "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355 in campaign receipts and spent $7,841,416, per Texas Ethics Commission filings.",
+          "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355 in campaign receipts and spent $7,841,416, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total).",
           "source": "https://www.ethics.state.tx.us/search/cf/"
         }
       ],
@@ -27,13 +27,35 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
         },
         {
-          "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884 in campaign receipts and spent $58,912, per Texas Ethics Commission filings.",
+          "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884 in campaign receipts and spent $58,912, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total).",
           "source": "https://www.ethics.state.tx.us/search/cf/"
         }
       ]
     },
     "summary": "Texas Comptroller of Public Accounts race: Don Huffines, Sarah Eckhardt. This overview lists each candidate's party, background, and campaign finance where available in our data set.",
-    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and campaign finance totals where a filing was found (federal candidates file with the FEC; Texas state offices file with the Texas Ethics Commission -- each finance bullet names which). We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set."
+    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and campaign finance totals where a filing was found (federal candidates file with the FEC; Texas state offices file with the Texas Ethics Commission -- each finance bullet names which). We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set.",
+    "horizons": {
+      "huffines-don": {
+        "now": [
+          {
+            "text": "No recorded evidence in our set to project from for Don Huffines.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+            "basis": "none"
+          }
+        ],
+        "long_term": []
+      },
+      "eckhardt-sarah": {
+        "now": [
+          {
+            "text": "No recorded evidence in our set to project from for Sarah Eckhardt.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+            "basis": "none"
+          }
+        ],
+        "long_term": []
+      }
+    }
   },
   "archetypes": {
     "renter_young_worker": {
@@ -48,7 +70,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -62,13 +84,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
       "summary": "For a renter young worker voter looking at the Texas Comptroller of Public Accounts race (Don Huffines, Sarah Eckhardt): our data set does not contain candidate-specific positions or voting records on housing costs, rent, or renters' protections for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to renter young worker concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to renter young worker concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "huffines-don": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Don Huffines on housing costs, rent, or renters' protections.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "eckhardt-sarah": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Sarah Eckhardt on housing costs, rent, or renters' protections.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "homeowner_parent": {
       "candidates": {
@@ -82,7 +126,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -96,13 +140,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
       "summary": "For a homeowner parent voter looking at the Texas Comptroller of Public Accounts race (Don Huffines, Sarah Eckhardt): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "huffines-don": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Don Huffines on property taxes or public school funding.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "eckhardt-sarah": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Sarah Eckhardt on property taxes or public school funding.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "small_business_owner": {
       "candidates": {
@@ -116,7 +182,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -130,13 +196,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
       "summary": "For a small business owner voter looking at the Texas Comptroller of Public Accounts race (Don Huffines, Sarah Eckhardt): our data set does not contain candidate-specific positions or voting records on small business taxes or regulation for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to small business owner concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to small business owner concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "huffines-don": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Don Huffines on small business taxes or regulation.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "eckhardt-sarah": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Sarah Eckhardt on small business taxes or regulation.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "healthcare_aca_or_uninsured": {
       "candidates": {
@@ -150,7 +238,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -164,13 +252,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
       "summary": "For a healthcare aca or uninsured voter looking at the Texas Comptroller of Public Accounts race (Don Huffines, Sarah Eckhardt): our data set does not contain candidate-specific positions or voting records on health coverage, the ACA, or Medicaid for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to healthcare aca or uninsured concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to healthcare aca or uninsured concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "huffines-don": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Don Huffines on health coverage, the ACA, or Medicaid.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "eckhardt-sarah": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Sarah Eckhardt on health coverage, the ACA, or Medicaid.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "medicare_retiree": {
       "candidates": {
@@ -184,7 +294,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -198,13 +308,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
       "summary": "For a medicare retiree voter looking at the Texas Comptroller of Public Accounts race (Don Huffines, Sarah Eckhardt): our data set does not contain candidate-specific positions or voting records on Medicare, Social Security, or retiree benefits for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to medicare retiree concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to medicare retiree concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "huffines-don": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Don Huffines on Medicare, Social Security, or retiree benefits.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "eckhardt-sarah": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Sarah Eckhardt on Medicare, Social Security, or retiree benefits.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "veteran": {
       "candidates": {
@@ -218,7 +350,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -232,13 +364,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
       "summary": "For a veteran voter looking at the Texas Comptroller of Public Accounts race (Don Huffines, Sarah Eckhardt): our data set does not contain candidate-specific positions or voting records on veterans' benefits or services for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to veteran concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to veteran concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "huffines-don": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Don Huffines on veterans' benefits or services.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "eckhardt-sarah": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Sarah Eckhardt on veterans' benefits or services.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "student": {
       "candidates": {
@@ -252,7 +406,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -266,13 +420,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
       "summary": "For a student voter looking at the Texas Comptroller of Public Accounts race (Don Huffines, Sarah Eckhardt): our data set does not contain candidate-specific positions or voting records on higher education funding or student costs for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to student concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to student concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "huffines-don": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Don Huffines on higher education funding or student costs.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "eckhardt-sarah": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Sarah Eckhardt on higher education funding or student costs.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "rural_agriculture": {
       "candidates": {
@@ -286,7 +462,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-02-21, Don Huffines's campaign had raised $1,327,355, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -300,13 +476,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
           },
           {
-            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-02-21, Sarah Eckhardt's campaign had raised $57,884, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
       "summary": "For a rural agriculture voter looking at the Texas Comptroller of Public Accounts race (Don Huffines, Sarah Eckhardt): our data set does not contain candidate-specific positions or voting records on farming, ranching, water rights, or rural infrastructure for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to rural agriculture concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to rural agriculture concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "huffines-don": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Don Huffines on farming, ranching, water rights, or rural infrastructure.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "eckhardt-sarah": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Sarah Eckhardt on farming, ranching, water rights, or rural infrastructure.",
+              "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     }
   }
 }
