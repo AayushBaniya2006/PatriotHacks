@@ -33,6 +33,14 @@ can tell a still-fresh row from a stale one without an LLM call.
 Geocode cache: Postgres `geocode_cache` table when live, else a JSON file
 data/geocode_cache.json (read-write, gitignored). The JSON file is written
 atomically (temp file + os.replace) so a crash mid-write can't corrupt it.
+Optional Google Civic enrichment (voting_info/division_check, app/main.py +
+app/google_civic.py) rides along in the same per-address cache entry via
+geocode_cache_get_civic/geocode_cache_put_civic -- a civic_json column in
+Postgres, a "civic_json" key in the JSON file. Both are additive and
+backward-compatible: an existing cache entry simply lacks that key/column
+and reads back as "not yet looked up" rather than erroring, and a Postgres
+table that hasn't been migrated with the civic_json column degrades to the
+JSON file for that call, same as every other Postgres failure here.
 
 Caching: ballot assembly is memoized via functools.lru_cache keyed on
 (cd, sd, hd) so repeated lookups for the same district triple are free.
@@ -40,7 +48,8 @@ Caching: ballot assembly is memoized via functools.lru_cache keyed on
 Public primitives -- signatures are a contract with app/main.py, do not
 change them: get_ballot, get_race, get_candidate, list_races,
 search_candidates, get_insights, put_insight_block, compute_inputs_hash,
-stats, geocode_cache_get, geocode_cache_put, data_is_pending.
+stats, geocode_cache_get, geocode_cache_put, geocode_cache_get_civic,
+geocode_cache_put_civic, data_is_pending.
 """
 
 from __future__ import annotations
@@ -673,4 +682,80 @@ def geocode_cache_put(
             "matched_address": matched_address,
             "ts": time.time(),
         }
+        _write_geocode_cache_json(cache)
+
+
+# ---------------------------------------------------------------------------
+# Optional Google Civic enrichment cache -- rides along on the same
+# per-address entry as the geocode cache above (civic_json column/key).
+# Entirely additive: app/main.py only ever calls these when
+# GOOGLE_CIVIC_API_KEY is set, so with no key nothing here is ever invoked
+# and no cache entry ever gains a civic_json key/column.
+# ---------------------------------------------------------------------------
+
+
+def geocode_cache_get_civic(address: str) -> Optional[dict[str, Any]]:
+    """Cached {"voting_info", "division_check"} for this normalized address,
+    or None if it has never been looked up (a genuine cache miss -- the
+    caller should fetch it). A known "no coverage" address is cached as
+    {"voting_info": None, "division_check": None} by geocode_cache_put_civic
+    and returned here as that same (non-None) dict, so it's never re-fetched
+    from the Civic API.
+
+    Postgres: if the geocode_cache table hasn't been migrated with a
+    civic_json column yet, the query raises and is caught exactly like every
+    other Postgres failure in this module -- falls back to the JSON file for
+    this call rather than breaking the geocode cache (missing column
+    handled, per the module docstring)."""
+    norm = _normalize_address(address)
+    pool = _get_pool()
+    if pool is not None:
+        try:
+            with pool.connection() as conn:
+                row = conn.execute(
+                    "SELECT civic_json FROM geocode_cache WHERE address_norm = %s",
+                    (norm,),
+                ).fetchone()
+            if row is None:
+                return None
+            return _parse_json_field(row["civic_json"], None)
+        except Exception as exc:  # noqa: BLE001 -- e.g. undefined column civic_json
+            logger.warning("Postgres geocode_cache civic_json read failed (%s); falling back to JSON file", exc)
+    with _geocode_cache_file_lock:
+        entry = _load_geocode_cache_json().get(norm)
+    if not isinstance(entry, dict):
+        return None
+    civic = entry.get("civic_json")
+    return civic if isinstance(civic, dict) else None
+
+
+def geocode_cache_put_civic(address: str, civic_json: dict[str, Any]) -> None:
+    """Write-through counterpart to geocode_cache_get_civic. Atomic on the
+    JSON-file path (temp file + os.replace, same as every other write in
+    this module) and best-effort throughout -- never raises to the caller.
+
+    Assumes a base geocode_cache row for this address already exists:
+    app/main.py always resolves and caches districts before ever calling
+    this. If it doesn't (Postgres live but no such row), the UPDATE below
+    simply affects zero rows rather than erroring; the JSON-file branch
+    still records the civic data under this address's key either way."""
+    norm = _normalize_address(address)
+    pool = _get_pool()
+    if pool is not None:
+        try:
+            with pool.connection() as conn:
+                conn.execute(
+                    "UPDATE geocode_cache SET civic_json = %s WHERE address_norm = %s",
+                    (Jsonb(civic_json), norm),
+                )
+            return
+        except Exception as exc:  # noqa: BLE001 -- e.g. undefined column civic_json
+            logger.warning("Postgres geocode_cache civic_json write failed (%s); falling back to JSON file", exc)
+    with _geocode_cache_file_lock:
+        cache = _load_geocode_cache_json()
+        entry = cache.get(norm)
+        if not isinstance(entry, dict):
+            entry = {}
+        entry["civic_json"] = civic_json
+        cache[norm] = entry
         _write_geocode_cache_json(cache)
