@@ -24,7 +24,7 @@ Official APIs                pipeline/fetch_*.py       data/tx/raw/*.json
                              ┌──────────────────────────────────┴───┐
                              ▼                                      ▼
               pipeline/build_insights_*.py            pipeline/load_postgres.py
-              pipeline/precompute_marquee_*.py               (PLANNED)
+              pipeline/precompute_marquee_*.py
                              │                                      │
                              ▼                                      ▼
               data/tx/insights/{race_id}.json               PostgreSQL
@@ -38,7 +38,7 @@ Official APIs                pipeline/fetch_*.py       data/tx/raw/*.json
                      FastAPI app/main.py — GET /healthz, /api/ballot, POST /api/insights
                                             │
                                             ▼   (server-to-server; no browser CORS hop)
-            civic-match Next.js same-origin proxy routes  (planned: /api/ballot, /api/voter-insights)
+            civic-match Next.js same-origin proxy routes  (app/api/ballot, app/api/voter-insights)
                                             │  reads DATA_BACKEND_URL
                                             ▼
                                          Browser
@@ -234,8 +234,13 @@ incumbency facts, independent of the more specific `finance.source` /
 
 ### 2.3 `insights` table / files
 
-One row (Postgres) or one file `data/tx/insights/{race_id}.json` (JSON
-fallback) per race. Real shape, from `data/tx/insights/tx-sen-2026.json`:
+Keyed by **(race_id, archetype)** — one Postgres row, or one nested block
+inside `data/tx/insights/{race_id}.json` (JSON fallback), per precomputed
+block (`base` plus each of the 8 voter archetypes). `app/datastore.py::get_insights`
+reassembles a race's Postgres rows back into the same `{race_id, base,
+archetypes: {key: ...}}` shape the JSON file already has, so `app/main.py`
+consumes an identical structure regardless of backend. Real shape, from
+`data/tx/insights/tx-sen-2026.json`:
 
 ```json
 {
@@ -263,32 +268,33 @@ fallback) per race. Real shape, from `data/tx/insights/tx-sen-2026.json`:
 }
 ```
 
-**MIGRATION note**: `app/main.py`'s `_select_cached_bullets` currently reads
-`cached.get("candidates", {})` at the *top level* of this file, but the real
-file (and every `pipeline/build_insights_*.py` / `precompute_marquee_*.py`
-writer) nests candidates under `base` and `archetypes.{key}` instead. This
-is a known, tracked mismatch (CLAUDE.md: "insights-shape selection" queued
-as a contract fix) — the reader needs to select `payload["archetypes"].get(archetype, payload["base"])["candidates"]`
-with fallback to `base`. Until fixed, `POST /api/insights` returns empty
-candidate bullets for every cached race. Base-vs-archetype depth rule: only
+`app/main.py`'s `_select_cached_bullets` selects the requested archetype's
+block from `archetypes.{key}` when present, else falls back to `base` (and
+falls back further to a flat/legacy shape defensively) — this matches the
+on-disk/reassembled shape above. Base-vs-archetype depth rule: only
 "competitive" races (last_result margin_pct < 10, or no incumbent in the
 race) get all 8 archetypes precomputed; safe races get `base` only.
 
 ### 2.4 Load path
 
-- `pipeline/load_postgres.py` — **present.** Reads `data/tx/races.json` +
-  `candidates.json` + `insights/*.json`, runs the DDL above
-  (`CREATE TABLE IF NOT EXISTS`), then reloads all gold-derived tables in one
-  transaction (idempotent, safe to rerun after every gold-data change);
-  `geocode_cache` is left untouched (live runtime cache). Driven entirely by
-  `DATABASE_URL`; `--dry-run` validates the inputs without touching a DB.
-  `requirements.txt` ships the `psycopg[binary,pool]` client it needs.
-- **JSON fallback**: `app/datastore.py` is Postgres-when-set — it connects
-  via `DATABASE_URL` (psycopg3 + connection pool) and falls back to reading
-  `races.json` + `candidates.json` directly when the var is unset, psycopg is
-  missing, or the first connection fails (logged once, never fatal). Same
-  logical schema either way — one JSON object per race/candidate, keyed the
-  same way. SQLite is fully removed. If neither source is reachable, every
+- `pipeline/load_postgres.py` reads `data/tx/races.json` + `candidates.json`
+  + `insights/*.json`, runs `CREATE TABLE IF NOT EXISTS` for the DDL above,
+  and loads it: `races`/`candidates`/`race_candidates` are unconditionally
+  `TRUNCATE`d and reinserted every run (cheap, deterministic re-derivations
+  from gold JSON); `insights` defaults to an incremental, hash-gated UPSERT
+  keyed on `(race_id, archetype)` — a row is only rewritten when its stored
+  `inputs_hash` no longer matches the race's current candidate data, so a
+  live write-through-cached block survives a routine rerun — `--reset`
+  forces an unconditional full reload of `insights` too. Driven entirely by
+  `DATABASE_URL`; `--dry-run` parses/counts with no DB connection.
+  `requirements.txt` includes the Postgres client (`psycopg[binary,pool]`).
+- **JSON fallback**: `app/datastore.py` is the only data-access layer.
+  Postgres (via a lazily-created connection pool) is tried first whenever
+  `DATABASE_URL` is set; on any failure (unset var, `psycopg` missing, first
+  connection attempt fails) it logs once and falls back to the flat gold
+  JSON — `races.json` + `candidates.json` read directly, same logical
+  schema. SQLite (`data/tx/app.db`) has been removed from this path
+  entirely. If neither Postgres nor the JSON files are reachable, every
   call degrades to empty results and `stats()`/`get_ballot()` surface
   `data_pending: true` rather than erroring — the app must still boot.
 
@@ -302,15 +308,15 @@ race) get all 8 archetypes precomputed; safe races get `base` only.
 | `fetch_fec.py` | TX federal (House+Senate) 2026 candidates + finance | OpenFEC `/v1`, `FEC_API_KEY` or `DEMO_KEY` | `data/tx/raw/fec.json` |
 | `fetch_votes.py` | TX delegation roster, 8 House roll calls, senator sponsored-legislation | Congress.gov `/v3` + `congress-legislators` YAML fallback + `clerk.house.gov` XML | `data/tx/raw/incumbent_votes.json` |
 | `fetch_context.py` | 2024 prior-cycle results/toplines (`context.last_result`/`margin_pct`) | Wikipedia (not OpenElections CSVs — see gap below) | `data/tx/raw/district_context.json` |
-| `build_dataset.py` | bronze → gold merge, heuristic joins (FEC filer ↔ incumbent, dedup) | all 4 `raw/*.json` | `races.json`, `candidates.json`, legacy `app.db`, `unjoined_report.json` |
+| `build_dataset.py` | bronze → gold merge, heuristic joins (FEC filer ↔ incumbent, dedup) | all 4 `raw/*.json` | `races.json`, `candidates.json`, `unjoined_report.json` |
 | `build_insights_house.py` / `build_insights_tx20_38.py` | authors base+archetype bullets, no LLM | TX-01..19 / TX-20..38 gold data | `data/tx/insights/tx-cd{NN}-2026.json` |
 | `precompute_marquee_insights.py` | same, statewide + US Senate | gold data, `district == null` | `data/tx/insights/{tx-gov,tx-sen,...}-2026.json` |
-| `validate_data.py` | schema/source/join integrity checks | gold JSON + sqlite | PASS/FAIL to stdout |
+| `validate_data.py` | schema/source/join integrity checks | gold JSON | PASS/FAIL to stdout |
 | `validate_insights_*.py` | verifies every bullet's `source` traces to that candidate's JSON, drops/rewrites any that don't | `data/tx/insights/*.json` | rewrites in place |
 | `precache_demo.py` | hits live app for 3 fixed addresses (San Marcos, Austin, Houston), freezes responses as stage-crash safety net | running FastAPI | `data/demo_cache/*.json` |
 | `smoke_backend.py` | in-process FastAPI smoke test | — | PASS/FAIL to stdout |
-| `load_postgres.py` | creates schema + upserts all gold rows | gold JSON + insights | Postgres via `DATABASE_URL` |
-| `export_civic_match.py` **(planned)** | not present yet | our candidate evidence | merges into `civic-match/data/politicians/*.json` |
+| `load_postgres.py` | gold JSON + insights (idempotent, hash-gated upsert for `insights`) | `data/tx/*.json` | Postgres via `DATABASE_URL` |
+| `export_civic_match.py` | our sourced candidate evidence | `data/tx/candidates.json` | merges non-destructively into `civic-match/data/politicians/*.json` |
 
 All rerun as `python3 pipeline/<script>.py`; each is idempotent/deterministic and never mutates `raw/`.
 
@@ -353,7 +359,7 @@ Query param: `address` (required, `min_length=3`, free text — e.g.
 `"601 University Dr, San Marcos, TX 78666"`).
 
 Flow: normalize + check `geocode_cache` (Postgres table / `data/geocode_cache.json`
-fallback) → on miss, call the Census geocoder (`geocoding.geo.census.gov`,
+JSON fallback) → on miss, call the Census geocoder (`geocoding.geo.census.gov`,
 8s timeout) → extract CD/SD/HD/county from the `119th Congressional
 Districts` / `2024 State Legislative Districts - Upper` / `- Lower` /
 `Counties` geography layers → cache the result → `datastore.get_ballot`.
@@ -369,7 +375,7 @@ Response 200:
 | `districts.county` | string \| null | |
 | `races[]` | array | statewide races + the race matching `districts.cd` (+ `sd`/`hd` if populated) |
 | `races[].race_id`, `.office`, `.level`, `.district`, `.context` | — | per §2.1/§2.2 |
-| `races[].candidates` | **array** of candidate objects (see migration note below) | |
+| `races[].candidates` | **array** of candidate objects (see note below) | |
 | `candidates[].candidate_id`, `.name`, `.party`, `.incumbent`, `.fec_id` | — | |
 | `candidates[].finance` | object \| omitted | §2.2 |
 | `candidates[].record.key_votes[]` | array | `{bill, question, plain_english, position, date, result, source}` |
@@ -418,12 +424,11 @@ Example (truncated to 1 race, 1 candidate, `key_votes` truncated to 1):
 }
 ```
 
-**MIGRATION note**: the contract is `races[].candidates` as an **array of
-candidate objects**. The current code (`app/datastore.py:_embed_candidates`)
-builds a **dict keyed by `candidate_id`** instead
-(`{"crenshaw-daniel": {...}, ...}`) — a migration agent is converting this
-to the array shape in parallel; treat the array as authoritative for any new
-client code.
+`races[].candidates` is an **array of candidate objects**
+(`app/datastore.py:_embed_candidates` builds this list, in `candidate_ids`
+order, injecting `candidate_id` into each embedded dict) — not an object
+keyed by `candidate_id`. This is a hard API-contract requirement and is what
+ships today.
 
 #### `voting_info` / `division_check` — OPTIONAL Google Civic enrichment
 
@@ -477,7 +482,7 @@ Example (both fields populated):
 ```
 
 Both fields are cached per normalized address alongside the Census geocode
-result (`datastore.geocode_cache_get_civic`/`put_civic` — a `civic_json`
+result (`datastore.geocode_cache_get_civic`/`put_civic` — a `civic`
 column/key riding on the same `geocode_cache` row/entry as §2.1's table, so
 a repeat address never re-hits the Civic API, including a repeat "no
 coverage yet" result). Failure modes (no key, 403, quota exceeded, timeout,
@@ -577,30 +582,28 @@ of `housing: "renter"`.
 Browser
   │  fetch("/api/ballot?address=...")   ── same-origin, no CORS needed
   ▼
-civic-match Next.js route handler (planned: app/api/ballot/route.ts,
-  app/api/voter-insights/route.ts — not present in the repo yet)
-  │  server-to-server fetch, reads DATA_BACKEND_URL env var
+civic-match Next.js route handlers (app/api/ballot/route.ts,
+  app/api/voter-insights/route.ts)
+  │  server-to-server fetch via lib/dataBackend.ts, reads DATA_BACKEND_URL
+  │  (app/api/ballot/route.ts also accepts a legacy BALLOT_BACKEND_URL alias)
   ▼
 FastAPI  GET /api/ballot | POST /api/insights   (this repo, CORS opened for
   civic-match's origins as a defense-in-depth measure, but not required on
   this path since the browser never calls FastAPI directly)
 ```
 
-`civic-match/lib/dataBackend.ts` (planned, not present yet) is meant to be
-the single typed client wrapping these two calls — analogous to how
-`civic-match/lib/types.ts` (exists today) already defines the frontend's own
-`PoliticianProfile` / `VoterProfile` / `MatchResult` shapes; read it for the
-target TS types the exporter must translate our JSON into. Until the proxy
-routes and `dataBackend.ts` land, civic-match consumes only its own
-Kimi-researched `data/politicians/*.json`, not this backend.
+`civic-match/lib/dataBackend.ts` is the single typed client wrapping these
+two calls — analogous to how `civic-match/lib/types.ts` already defines the
+frontend's own `PoliticianProfile` / `VoterProfile` / `MatchResult` shapes;
+read it for the target TS types the exporter translates our JSON into.
 
-Slug convention mismatch to translate in the exporter: this backend uses
+Slug convention mismatch translated in the exporter: this backend uses
 `lastname-firstname` (`crenshaw-daniel`), civic-match's `lib/db.ts slugify`
-uses `firstname-lastname` (`daniel-crenshaw`). `pipeline/
-export_civic_match.py` (planned) translates this when it merges our
-sourced evidence into their `PoliticianProfile` shape, non-destructively,
-and must never rewrite civic-match's own `texas.json` — new district-level
-House races go in a separate `civic-match/data/elections/texas-house.json`.
+uses `firstname-lastname` (`daniel-crenshaw`). `pipeline/export_civic_match.py`
+translates this when it merges our sourced evidence into their
+`PoliticianProfile` shape, non-destructively, and never rewrites civic-match's
+own `texas.json` — district-level House races live in a separate
+`civic-match/data/elections/texas-house.json`.
 
 ---
 
@@ -608,13 +611,13 @@ House races go in a separate `civic-match/data/elections/texas-house.json`.
 
 | Var | Side | Required? | Purpose |
 |---|---|---|---|
-| `DATABASE_URL` | backend | optional | Postgres connection string; unset → JSON/sqlite fallback, app still fully functional |
+| `DATABASE_URL` | backend | optional | Postgres connection string; unset → JSON fallback, app still fully functional |
 | `OPENROUTER_API_KEY` | backend | optional | live insight generation fallback only; unset → precomputed-only, `mode: "unavailable"` for uncached races |
 | `CORS_ORIGINS` | backend | recommended | allow civic-match's localhost:3000 + its Railway/Vercel domain |
 | `FEC_API_KEY` | pipeline only | optional | `pipeline/fetch_fec.py`; `DEMO_KEY` works meanwhile |
 | `CONGRESS_GOV_API_KEY` | pipeline only | optional | `pipeline/fetch_votes.py`; `DEMO_KEY` is rate-limited (see §3 gaps) |
 | `OPENSTATES_API_KEY` | pipeline only | stretch goal | TX Legislature (150 HD/~15 SD), not pulled in current dataset |
-| `DATA_BACKEND_URL` | civic-match | required once proxy routes land | base URL of this FastAPI service, used by planned `app/api/ballot`, `app/api/voter-insights` route handlers |
+| `DATA_BACKEND_URL` | civic-match | recommended (defaults to `http://localhost:8000`) | base URL of this FastAPI service; read by `lib/dataBackend.ts` and the `app/api/ballot`/`app/api/voter-insights` route handlers — `app/api/ballot/route.ts` also accepts a legacy `BALLOT_BACKEND_URL` alias |
 
 ### Local run
 
@@ -622,9 +625,9 @@ House races go in a separate `civic-match/data/elections/texas-house.json`.
 pip install -r requirements.txt
 uvicorn app.main:app --reload            # data backend, http://localhost:8000 (/healthz)
 
-# optional, for Railway-parity locally:
-docker compose up -d                     # local Postgres (docker-compose.yml)
-python3 pipeline/load_postgres.py        # idempotent load into Postgres
+# optional — JSON fallback works fully with neither of these:
+docker compose up -d                      # local Postgres (docker-compose.yml, port 5433)
+python3 pipeline/load_postgres.py        # idempotent load into it
 
 cd civic-match && npm install
 npm run seed                              # auto-discover TX races + research candidates
@@ -637,15 +640,11 @@ Two services + Railway Postgres add-on:
 
 - **backend**: this repo root. `railway.json` (`NIXPACKS` builder,
   `startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT`,
-  `healthcheckPath: /healthz`) + matching `Procfile`; `nixpacks.toml` pins
-  `providers=["python"]` and `.python-version` pins 3.12 (a stray root
-  `package.json` once flipped Nixpacks to the Node provider and broke the
-  deploy — don't reintroduce one). Data ships committed in the repo (gold
-  JSON + insights), so the service boots functional even without Postgres.
-  Env vars: optional `OPENROUTER_API_KEY`, plus `DATABASE_URL` referencing
-  the project's Postgres service (`${{Postgres.DATABASE_URL}}` — live in
-  prod as of 2026-07-04, loaded via `python3 pipeline/load_postgres.py`
-  against the DB's public URL; rerun after any gold-data change).
+  `healthcheckPath: /healthz`) + matching `Procfile`. Data ships committed
+  in the repo (gold JSON + insights), so the service boots functional even
+  before Postgres is wired up. Only required env var today is optional
+  `OPENROUTER_API_KEY`; add `DATABASE_URL` (Railway auto-injects this for a
+  linked Postgres plugin) and run `pipeline/load_postgres.py` to populate it.
 - **frontend**: `civic-match/` as its own Railway (or Vercel) service,
   `DATA_BACKEND_URL` pointed at the backend service's public URL.
 

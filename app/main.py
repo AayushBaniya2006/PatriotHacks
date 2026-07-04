@@ -228,6 +228,12 @@ async def _live_geocode(address: str) -> dict[str, Any]:
     existing 503 -- the geocoder is occasionally slow rather than actually
     down, and one retry meaningfully cuts spurious 503s without materially
     slowing down the genuinely-down case."""
+    if os.environ.get("GEOCODER_DISABLED") == "1":
+        # Ops/test escape hatch only (unset in normal operation): forces the
+        # same 503 a genuinely-down geocoder produces, so app/datastore.py's
+        # seed/runtime cache layers can be proven sufficient on their own --
+        # see pipeline/build_geocode_seed.py.
+        raise HTTPException(status_code=503, detail="District lookup unavailable, try again")
     params = {
         "address": address,
         "benchmark": "Public_AR_Current",

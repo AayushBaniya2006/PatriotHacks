@@ -30,16 +30,25 @@ block carries an inputs_hash (compute_inputs_hash) -- sha256 over that
 race's candidate data -- so a later bulk reload (pipeline/load_postgres.py)
 can tell a still-fresh row from a stale one without an LLM call.
 
-Geocode cache: Postgres `geocode_cache` table when live, else a JSON file
-data/geocode_cache.json (read-write, gitignored). The JSON file is written
-atomically (temp file + os.replace) so a crash mid-write can't corrupt it.
+Geocode cache: four-layer lookup, cheapest first -- (1) an in-process LRU
+(bounded, warmed on every hit and every write, gone on restart), (2) the
+runtime cache (Postgres `geocode_cache` table when live, else the
+read-write, gitignored JSON file data/geocode_cache.json -- atomic writes
+via temp file + os.replace so a crash mid-write can't corrupt it), (3) the
+committed, read-only warm seed data/tx/geocode_seed.json
+(pipeline/build_geocode_seed.py is its only writer -- known demo addresses
+resolved once and shipped in the repo, so a cold restart never needs the
+live geocoder for them), then (4) app/main.py's live Census geocoder call.
+A seed hit is written through to the runtime cache via geocode_cache_put
+(same path a live geocode result takes), so the seed file is read at most
+once per address per process.
 Optional Google Civic enrichment (voting_info/division_check, app/main.py +
 app/google_civic.py) rides along in the same per-address cache entry via
-geocode_cache_get_civic/geocode_cache_put_civic -- a civic_json column in
-Postgres, a "civic_json" key in the JSON file. Both are additive and
+geocode_cache_get_civic/geocode_cache_put_civic -- a civic column in
+Postgres, a "civic" key in the JSON file. Both are additive and
 backward-compatible: an existing cache entry simply lacks that key/column
 and reads back as "not yet looked up" rather than erroring, and a Postgres
-table that hasn't been migrated with the civic_json column degrades to the
+table that hasn't been migrated with the civic column degrades to the
 JSON file for that call, same as every other Postgres failure here.
 
 Caching: ballot assembly is memoized via functools.lru_cache keyed on
@@ -63,6 +72,7 @@ import re
 import tempfile
 import threading
 import time
+from collections import OrderedDict
 from functools import lru_cache
 from pathlib import Path
 from typing import Any, Optional
@@ -88,6 +98,7 @@ CANDIDATES_JSON_PATH = DATA_DIR / "candidates.json"
 INSIGHTS_DIR = DATA_DIR / "insights"
 
 GEOCODE_CACHE_JSON_PATH = REPO_ROOT / "data" / "geocode_cache.json"
+GEOCODE_SEED_JSON_PATH = DATA_DIR / "geocode_seed.json"
 
 
 # ---------------------------------------------------------------------------
@@ -575,12 +586,16 @@ def stats() -> dict[str, Any]:
 
 
 # ---------------------------------------------------------------------------
-# Geocode cache -- Postgres geocode_cache table when live, else a JSON file
-# (data/geocode_cache.json, gitignored) so repeat addresses never hit the
-# live Census geocoder.
+# Geocode cache -- lookup order is memory -> runtime (Postgres/JSON) -> the
+# committed seed file -> the live geocoder (app/main.py). See the module
+# docstring's "Geocode cache" section above for the full contract.
 # ---------------------------------------------------------------------------
 
 _geocode_cache_file_lock = threading.Lock()
+
+_GEOCODE_MEMORY_CACHE_MAXSIZE = 256
+_geocode_memory_cache: "OrderedDict[str, dict[str, Any]]" = OrderedDict()
+_geocode_memory_lock = threading.Lock()
 
 
 def _normalize_address(address: str) -> str:
@@ -615,8 +630,63 @@ def _write_geocode_cache_json(data: dict[str, Any]) -> None:
         raise
 
 
+def _memory_cache_get(norm: str) -> Optional[dict[str, Any]]:
+    with _geocode_memory_lock:
+        hit = _geocode_memory_cache.get(norm)
+        if hit is not None:
+            _geocode_memory_cache.move_to_end(norm)
+        return hit
+
+
+def _memory_cache_put(norm: str, value: dict[str, Any]) -> None:
+    with _geocode_memory_lock:
+        _geocode_memory_cache[norm] = value
+        _geocode_memory_cache.move_to_end(norm)
+        while len(_geocode_memory_cache) > _GEOCODE_MEMORY_CACHE_MAXSIZE:
+            _geocode_memory_cache.popitem(last=False)
+
+
+# Committed, read-only warm seed (data/tx/geocode_seed.json) -- reuses
+# _JsonFileCache exactly like the races/candidates gold files above, so a
+# rebuild (pipeline/build_geocode_seed.py) is picked up on its next mtime
+# change with no restart required. Never written to at runtime -- that
+# pipeline script is its only writer.
+_geocode_seed_cache = _JsonFileCache(GEOCODE_SEED_JSON_PATH, default={})
+
+
+def _geocode_seed_get(norm: str) -> Optional[dict[str, Any]]:
+    seed = _geocode_seed_cache.get()
+    return seed.get(norm) if isinstance(seed, dict) else None
+
+
+def _geocode_seed_fill(address: str, norm: str) -> Optional[dict[str, Any]]:
+    """Seed layer: a hit is written through via geocode_cache_put (which also
+    warms the memory cache), so the seed file is consulted at most once per
+    address per process -- every lookup after that is served from the
+    runtime cache exactly like a live geocode result would be. Returns None
+    (a genuine miss) if this address was never seeded, leaving app/main.py's
+    live-geocoder fallback path reachable."""
+    seed_hit = _geocode_seed_get(norm)
+    if seed_hit is None:
+        return None
+    geocode_cache_put(
+        address,
+        cd=seed_hit.get("cd"),
+        sd=seed_hit.get("sd"),
+        hd=seed_hit.get("hd"),
+        county=seed_hit.get("county"),
+        matched_address=seed_hit.get("matched_address"),
+    )
+    return _memory_cache_get(norm)
+
+
 def geocode_cache_get(address: str) -> Optional[dict[str, Any]]:
     norm = _normalize_address(address)
+
+    mem_hit = _memory_cache_get(norm)
+    if mem_hit is not None:
+        return mem_hit
+
     pool = _get_pool()
     if pool is not None:
         try:
@@ -626,10 +696,13 @@ def geocode_cache_get(address: str) -> Optional[dict[str, Any]]:
                     "FROM geocode_cache WHERE address_norm = %s",
                     (norm,),
                 ).fetchone()
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Postgres geocode_cache read failed (%s); falling back to JSON file", exc)
+        else:
             if row is None:
-                return None
+                return _geocode_seed_fill(address, norm)
             created_at = row["created_at"]
-            return {
+            result = {
                 "cd": row["cd"],
                 "sd": row["sd"],
                 "hd": row["hd"],
@@ -637,10 +710,15 @@ def geocode_cache_get(address: str) -> Optional[dict[str, Any]]:
                 "matched_address": row["matched_address"],
                 "ts": created_at.timestamp() if created_at is not None else None,
             }
-        except Exception as exc:  # noqa: BLE001
-            logger.warning("Postgres geocode_cache read failed (%s); falling back to JSON file", exc)
+            _memory_cache_put(norm, result)
+            return result
+
     with _geocode_cache_file_lock:
-        return _load_geocode_cache_json().get(norm)
+        json_hit = _load_geocode_cache_json().get(norm)
+    if json_hit is not None:
+        _memory_cache_put(norm, json_hit)
+        return json_hit
+    return _geocode_seed_fill(address, norm)
 
 
 def geocode_cache_put(
@@ -669,13 +747,17 @@ def geocode_cache_put(
                     """,
                     (norm, matched_address, cd, sd, hd, county),
                 )
+            _memory_cache_put(
+                norm,
+                {"cd": cd, "sd": sd, "hd": hd, "county": county, "matched_address": matched_address, "ts": time.time()},
+            )
             return
         except Exception as exc:  # noqa: BLE001
             logger.warning("Postgres geocode_cache write failed (%s); falling back to JSON file", exc)
     with _geocode_cache_file_lock:
         cache = _load_geocode_cache_json()
         existing = cache.get(norm) if isinstance(cache.get(norm), dict) else {}
-        cache[norm] = {
+        entry = {
             "cd": cd,
             "sd": sd,
             "hd": hd,
@@ -684,66 +766,18 @@ def geocode_cache_put(
             "ts": time.time(),
         }
         if "civic" in existing:
-            cache[norm]["civic"] = existing["civic"]
+            entry["civic"] = existing["civic"]
+        cache[norm] = entry
         _write_geocode_cache_json(cache)
-
-
-def geocode_cache_get_civic(address: str) -> Optional[dict[str, Any]]:
-    norm = _normalize_address(address)
-    pool = _get_pool()
-    if pool is not None:
-        try:
-            with pool.connection() as conn:
-                row = conn.execute(
-                    "SELECT civic FROM geocode_cache WHERE address_norm = %s",
-                    (norm,),
-                ).fetchone()
-            if row is not None and row.get("civic") is not None:
-                civic = _parse_json_field(row["civic"], None)
-                return civic if isinstance(civic, dict) else None
-        except Exception as exc:  # noqa: BLE001
-            logger.warning("Postgres civic geocode_cache read failed (%s); falling back to JSON file", exc)
-    with _geocode_cache_file_lock:
-        entry = _load_geocode_cache_json().get(norm)
-    if isinstance(entry, dict) and "civic" in entry:
-        civic = entry.get("civic")
-        return civic if isinstance(civic, dict) else None
-    return None
-
-
-def geocode_cache_put_civic(address: str, civic: dict[str, Any]) -> None:
-    norm = _normalize_address(address)
-    pool = _get_pool()
-    if pool is not None:
-        try:
-            with pool.connection() as conn:
-                conn.execute(
-                    """
-                    INSERT INTO geocode_cache (address_norm, civic)
-                    VALUES (%s, %s)
-                    ON CONFLICT (address_norm) DO UPDATE SET
-                        civic = EXCLUDED.civic
-                    """,
-                    (norm, Jsonb(civic) if Jsonb is not None else json.dumps(civic)),
-                )
-            return
-        except Exception as exc:  # noqa: BLE001
-            logger.warning("Postgres civic geocode_cache write failed (%s); falling back to JSON file", exc)
-    with _geocode_cache_file_lock:
-        cache = _load_geocode_cache_json()
-        existing = cache.get(norm) if isinstance(cache.get(norm), dict) else {}
-        existing["civic"] = civic
-        existing.setdefault("ts", time.time())
-        cache[norm] = existing
-        _write_geocode_cache_json(cache)
+    _memory_cache_put(norm, entry)
 
 
 # ---------------------------------------------------------------------------
 # Optional Google Civic enrichment cache -- rides along on the same
-# per-address entry as the geocode cache above (civic_json column/key).
+# per-address entry as the geocode cache above (civic column/key).
 # Entirely additive: app/main.py only ever calls these when
 # GOOGLE_CIVIC_API_KEY is set, so with no key nothing here is ever invoked
-# and no cache entry ever gains a civic_json key/column.
+# and no cache entry ever gains a civic key/column.
 # ---------------------------------------------------------------------------
 
 
@@ -756,33 +790,37 @@ def geocode_cache_get_civic(address: str) -> Optional[dict[str, Any]]:
     from the Civic API.
 
     Postgres: if the geocode_cache table hasn't been migrated with a
-    civic_json column yet, the query raises and is caught exactly like every
+    civic column yet, the query raises and is caught exactly like every
     other Postgres failure in this module -- falls back to the JSON file for
     this call rather than breaking the geocode cache (missing column
     handled, per the module docstring)."""
     norm = _normalize_address(address)
+    mem_hit = _memory_cache_get(norm)
+    if isinstance(mem_hit, dict) and isinstance(mem_hit.get("civic"), dict):
+        return mem_hit["civic"]
+
     pool = _get_pool()
     if pool is not None:
         try:
             with pool.connection() as conn:
                 row = conn.execute(
-                    "SELECT civic_json FROM geocode_cache WHERE address_norm = %s",
+                    "SELECT civic FROM geocode_cache WHERE address_norm = %s",
                     (norm,),
                 ).fetchone()
             if row is None:
                 return None
-            return _parse_json_field(row["civic_json"], None)
-        except Exception as exc:  # noqa: BLE001 -- e.g. undefined column civic_json
-            logger.warning("Postgres geocode_cache civic_json read failed (%s); falling back to JSON file", exc)
+            return _parse_json_field(row["civic"], None)
+        except Exception as exc:  # noqa: BLE001 -- e.g. undefined column civic
+            logger.warning("Postgres geocode_cache civic read failed (%s); falling back to JSON file", exc)
     with _geocode_cache_file_lock:
         entry = _load_geocode_cache_json().get(norm)
     if not isinstance(entry, dict):
         return None
-    civic = entry.get("civic_json")
+    civic = entry.get("civic")
     return civic if isinstance(civic, dict) else None
 
 
-def geocode_cache_put_civic(address: str, civic_json: dict[str, Any]) -> None:
+def geocode_cache_put_civic(address: str, civic: dict[str, Any]) -> None:
     """Write-through counterpart to geocode_cache_get_civic. Atomic on the
     JSON-file path (temp file + os.replace, same as every other write in
     this module) and best-effort throughout -- never raises to the caller.
@@ -798,17 +836,29 @@ def geocode_cache_put_civic(address: str, civic_json: dict[str, Any]) -> None:
         try:
             with pool.connection() as conn:
                 conn.execute(
-                    "UPDATE geocode_cache SET civic_json = %s WHERE address_norm = %s",
-                    (Jsonb(civic_json), norm),
+                    """
+                    INSERT INTO geocode_cache (address_norm, civic)
+                    VALUES (%s, %s)
+                    ON CONFLICT (address_norm) DO UPDATE SET
+                        civic = EXCLUDED.civic
+                    """,
+                    (norm, Jsonb(civic) if Jsonb is not None else json.dumps(civic)),
                 )
+            mem_hit = _memory_cache_get(norm)
+            if isinstance(mem_hit, dict):
+                updated = dict(mem_hit)
+                updated["civic"] = civic
+                _memory_cache_put(norm, updated)
             return
-        except Exception as exc:  # noqa: BLE001 -- e.g. undefined column civic_json
-            logger.warning("Postgres geocode_cache civic_json write failed (%s); falling back to JSON file", exc)
+        except Exception as exc:  # noqa: BLE001 -- e.g. undefined column civic
+            logger.warning("Postgres geocode_cache civic write failed (%s); falling back to JSON file", exc)
     with _geocode_cache_file_lock:
         cache = _load_geocode_cache_json()
         entry = cache.get(norm)
         if not isinstance(entry, dict):
             entry = {}
-        entry["civic_json"] = civic_json
+        entry["civic"] = civic
+        entry.setdefault("ts", time.time())
         cache[norm] = entry
         _write_geocode_cache_json(cache)
+    _memory_cache_put(norm, entry)

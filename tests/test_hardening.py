@@ -22,6 +22,7 @@ Run:
 
 from __future__ import annotations
 
+import json
 import sys
 from pathlib import Path
 
@@ -312,3 +313,48 @@ def test_cors_never_pairs_wildcard_origin_with_credentials(monkeypatch):
         assert reloaded._cors_allow_credentials is False
     finally:
         importlib.reload(main_module)  # restore normal module state for any later test
+
+
+def test_geocode_cache_get_falls_back_to_committed_seed(monkeypatch, tmp_path):
+    """Restart-proof seed layer (kills the live-geocoder hot-path risk): with
+    the runtime cache empty -- as after a cold restart, no Postgres, no
+    data/geocode_cache.json -- a demo address already resolved into the
+    committed data/tx/geocode_seed.json must still resolve, and that
+    resolution must write through to the runtime cache so it's this cheap
+    for every request after the first, restart or not."""
+    seed_path = REPO_ROOT / "data" / "tx" / "geocode_seed.json"
+    if not seed_path.exists():
+        pytest.skip("data/tx/geocode_seed.json not generated yet (run pipeline/build_geocode_seed.py)")
+    seed = json.loads(seed_path.read_text(encoding="utf-8"))
+
+    address = "1100 E Monroe St, Brownsville, TX 78520"
+    norm = datastore._normalize_address(address)
+    expected = seed.get(norm)
+    if expected is None:
+        pytest.skip(f"{address!r} not present in the committed seed file")
+
+    empty_runtime_cache = tmp_path / "geocode_cache.json"
+    monkeypatch.setattr(datastore, "GEOCODE_CACHE_JSON_PATH", empty_runtime_cache)
+    saved_memory_cache = dict(datastore._geocode_memory_cache)
+    datastore._geocode_memory_cache.clear()
+    try:
+        result = datastore.geocode_cache_get(address)
+        assert result is not None, "a seeded address must resolve even with an empty runtime cache"
+        assert result["cd"] == expected["cd"]
+        assert result["sd"] == expected["sd"]
+        assert result["hd"] == expected["hd"]
+        assert result["county"] == expected["county"]
+        assert result["matched_address"] == expected["matched_address"]
+
+        # Write-through: the previously empty runtime cache now has this
+        # address, so the seed file is consulted at most once per address.
+        assert empty_runtime_cache.exists()
+        runtime_contents = json.loads(empty_runtime_cache.read_text(encoding="utf-8"))
+        assert norm in runtime_contents
+
+        # A never-seeded, never-cached address must still miss cleanly, so
+        # app/main.py's live-geocoder fallback path stays reachable.
+        assert datastore.geocode_cache_get("1 Nowhere Rd, Nonexistent, TX 00000") is None
+    finally:
+        datastore._geocode_memory_cache.clear()
+        datastore._geocode_memory_cache.update(saved_memory_cache)

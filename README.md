@@ -68,7 +68,7 @@ Congress.gov, House Clerk roll-call XML, MediaWiki):
 
 ```bash
 pip install -r requirements.txt
-uvicorn app.main:app --reload   # http://localhost:8000 — /healthz for status
+uvicorn app.main:app --reload   # http://localhost:8000 (this machine's demo box runs it on 8010 instead — see DEMO_PLAYBOOK.md) — /healthz for status
 ```
 
 Env vars (all optional): `OPENROUTER_API_KEY` (live insight fallback only —
