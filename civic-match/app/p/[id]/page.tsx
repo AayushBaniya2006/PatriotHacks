@@ -143,6 +143,80 @@ export default async function PoliticianPage({
         </div>
       </section>
 
+      {p.promise_record && p.promise_record.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-lg font-semibold mb-1">Promise vs. record</h2>
+          <p className="text-xs text-zinc-500 mb-3">
+            What they said, what they did — with receipts. Ground truth on both sides
+            of every verdict.
+          </p>
+          <div className="space-y-3">
+            {p.promise_record.map((r, i) => {
+              const style =
+                r.verdict === "kept"
+                  ? "border-emerald-500/40 text-emerald-300 bg-emerald-500/10"
+                  : r.verdict === "broken"
+                  ? "border-red-500/40 text-red-300 bg-red-500/10"
+                  : r.verdict === "partial"
+                  ? "border-yellow-500/40 text-yellow-300 bg-yellow-500/10"
+                  : "border-zinc-600 text-zinc-400 bg-zinc-800/40";
+              return (
+                <details key={i} className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4">
+                  <summary className="cursor-pointer list-none">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="min-w-0">
+                        <div className="text-sm text-zinc-300">
+                          <span className="text-zinc-500">Said:</span> {r.promise}
+                        </div>
+                        <div className="text-sm text-zinc-300 mt-1">
+                          <span className="text-zinc-500">Did:</span> {r.action}
+                        </div>
+                      </div>
+                      <span className={`shrink-0 rounded-full border px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide ${style}`}>
+                        {r.verdict}
+                      </span>
+                    </div>
+                  </summary>
+                  <div className="mt-3 border-t border-zinc-800 pt-3 text-xs space-y-2">
+                    <p className="text-zinc-400">{r.explanation}</p>
+                    <div className="grid gap-2 sm:grid-cols-2">
+                      <div className="rounded-lg bg-zinc-950 p-3">
+                        <div className="text-zinc-500 mb-1">
+                          Promise receipt {r.promised_at ? `(${r.promised_at})` : ""}
+                        </div>
+                        <a href={r.promise_source.url} target="_blank" className="text-emerald-400 hover:underline">
+                          {r.promise_source.title} — {r.promise_source.publisher} ↗
+                        </a>
+                        {r.promise_source.quote && (
+                          <blockquote className="mt-1 border-l-2 border-zinc-700 pl-2 italic text-zinc-500">
+                            “{r.promise_source.quote}”
+                          </blockquote>
+                        )}
+                      </div>
+                      <div className="rounded-lg bg-zinc-950 p-3">
+                        <div className="text-zinc-500 mb-1">
+                          Action receipts {r.action_at ? `(${r.action_at})` : ""}
+                        </div>
+                        {r.action_sources.length === 0 ? (
+                          <span className="text-zinc-600">none yet (untested)</span>
+                        ) : (
+                          r.action_sources.map((s) => (
+                            <a key={s.source_id} href={s.url} target="_blank" className="block text-emerald-400 hover:underline">
+                              {s.title} — {s.publisher} ↗
+                            </a>
+                          ))
+                        )}
+                      </div>
+                    </div>
+                    <p className="text-[10px] text-zinc-600">confidence {Math.round(r.confidence * 100)}%</p>
+                  </div>
+                </details>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
       {p.contradictions.length > 0 && (
         <section className="mb-10">
           <h2 className="text-lg font-semibold mb-3">Contradictions detected</h2>

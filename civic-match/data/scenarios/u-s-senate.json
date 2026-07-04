@@ -1,0 +1,349 @@
+{
+  "race": "U.S. Senate",
+  "race_slug": "u-s-senate",
+  "built_at": "2026-07-04T01:07:09.431Z",
+  "root": {
+    "id": "root",
+    "label": "2026 Texas U.S. Senate Election: Paxton vs. Talarico",
+    "timeframe": "2026-11",
+    "kind": "fact",
+    "description": "General election on November 3, 2026 for Texas's Class 2 U.S. Senate seat, currently held by John Cornyn who lost the Republican primary runoff to Ken Paxton on May 27, 2026.",
+    "issue_ids": [
+      "elections"
+    ],
+    "affected_groups": [],
+    "sources": [
+      {
+        "title": "Poll: Paxton and Talarico are virtually tied in Senate race",
+        "url": "https://www.texastribune.org/2026/06/23/texas-us-senate-poll-ken-paxton-james-talarico-ut-austin/",
+        "publisher": "Texas Tribune"
+      },
+      {
+        "title": "TX Senate 2026 - Cook Political Report",
+        "url": "https://www.cookpolitical.com/senate/race/488686",
+        "publisher": "Cook Political Report"
+      }
+    ],
+    "children": [
+      {
+        "id": "paxton-wins",
+        "label": "Ken Paxton (R) wins Senate seat",
+        "timeframe": "2026-11",
+        "kind": "inference",
+        "likelihood": "medium",
+        "description": "Paxton defeats Talarico, flipping a seat held by Cornyn since 2002. Victory would give Texas two Republican senators aligned with Trump, with Paxton replacing a traditional conservative with a populist nationalist.",
+        "issue_ids": [
+          "economy",
+          "energy",
+          "abortion",
+          "civil_rights",
+          "lgbtq",
+          "ethics"
+        ],
+        "affected_groups": [
+          "small_business_owner",
+          "employer"
+        ],
+        "sources": [
+          {
+            "title": "Poll: Paxton and Talarico are virtually tied in Senate race",
+            "url": "https://www.texastribune.org/2026/06/23/texas-us-senate-poll-ken-paxton-james-talarico-ut-austin/",
+            "publisher": "Texas Tribune"
+          }
+        ],
+        "children": [
+          {
+            "id": "paxton-vacates-ag",
+            "label": "Attorney General vacancy; Mayes Middleton succeeds",
+            "timeframe": "2027",
+            "kind": "fact",
+            "description": "Texas Constitution Article IV, Section 12: When AG resigns to take another office, governor appoints successor to complete term. Gov. Greg Abbott would appoint Republican state Sen. Mayes Middleton, who leads Democrat Nathan Johnson by 5 points per June 2026 polling for the 2026 AG election.",
+            "issue_ids": [
+              "elections"
+            ],
+            "affected_groups": [],
+            "sources": [
+              {
+                "title": "Poll: Paxton and Talarico are virtually tied in Senate race",
+                "url": "https://www.texastribune.org/2026/06/23/texas-us-senate-poll-ken-paxton-james-talarico-ut-austin/",
+                "publisher": "Texas Tribune"
+              },
+              {
+                "title": "Texas Constitution - Article IV",
+                "url": "https://statutes.capitol.texas.gov/Docs/CN/htm/CN.4.htm",
+                "publisher": "Texas Legislature"
+              }
+            ],
+            "children": [
+              {
+                "id": "middleton-2028",
+                "label": "Middleton runs for full AG term in 2028",
+                "timeframe": "2028+",
+                "kind": "inference",
+                "likelihood": "high",
+                "description": "If appointed, Middleton would seek election to a full four-year term in November 2028. Texas AG elections occur in midterm years; no Senate seat is on ballot in 2028.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "paxton-senate-policy",
+            "label": "Paxton Senate voting record: deregulation, energy expansion, abortion restrictions",
+            "timeframe": "2027",
+            "kind": "inference",
+            "likelihood": "high",
+            "description": "Based on AG tenure and campaign positions: Paxton would support bills to expand domestic oil/gas production, oppose climate mandates, back abortion restrictions at federal level, and oppose LGBTQ civil rights expansions. Would likely join Senate Judiciary Committee given legal background.",
+            "issue_ids": [
+              "energy",
+              "climate",
+              "abortion",
+              "lgbtq",
+              "economy",
+              "judiciary"
+            ],
+            "affected_groups": [
+              "small_business_owner",
+              "employer"
+            ],
+            "sources": [
+              {
+                "title": "James Talarico, Ken Paxton launch Texas ads in U.S. Senate race",
+                "url": "https://www.texastribune.org/2026/05/27/james-talarico-ken-paxton-launch-attack-ads-in-texas-u-s-senate-race/",
+                "publisher": "Texas Tribune"
+              }
+            ],
+            "children": [
+              {
+                "id": "paxton-2028-presidential",
+                "label": "Paxton as potential 2028 presidential contender",
+                "timeframe": "2028+",
+                "kind": "inference",
+                "likelihood": "low",
+                "description": "Paxton's national profile and Trump alliance could position him for 2028 presidential run if Trump does not run. However, ongoing FBI investigation and impeachment history create significant electability concerns in general election.",
+                "issue_ids": [
+                  "elections",
+                  "ethics"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": []
+              },
+              {
+                "id": "paxton-committee-seniority",
+                "label": "Committee seniority path: Judiciary, Energy, or Homeland Security",
+                "timeframe": "2027-2033",
+                "kind": "inference",
+                "likelihood": "medium",
+                "description": "Freshman senators typically receive lower-tier committee assignments, but Paxton's AG experience and relationships with Cruz/Cornyn could accelerate placement on Judiciary (immigration, judicial nominations) or Energy and Natural Resources. Would support Cruz's anti-immigration reform stance.",
+                "issue_ids": [
+                  "immigration",
+                  "judiciary",
+                  "energy"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "paxton-ethics-senate",
+            "label": "Senate Ethics Committee scrutiny of Paxton",
+            "timeframe": "2027",
+            "kind": "inference",
+            "likelihood": "medium",
+            "description": "Senate Rules require ethics review of members under federal investigation. FBI investigation into Paxton's alleged misuse of office for Nate Paul could trigger Ethics Committee inquiry, potentially limiting committee assignments or requiring recusals on DOJ-related votes.",
+            "issue_ids": [
+              "ethics",
+              "judiciary"
+            ],
+            "affected_groups": [],
+            "sources": [
+              {
+                "title": "James Talarico, Ken Paxton launch Texas ads in U.S. Senate race",
+                "url": "https://www.texastribune.org/2026/05/27/james-talarico-ken-paxton-launch-attack-ads-in-texas-u-s-senate-race/",
+                "publisher": "Texas Tribune"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "talarico-wins",
+        "label": "James Talarico (D) wins Senate seat",
+        "timeframe": "2026-11",
+        "kind": "inference",
+        "likelihood": "medium",
+        "description": "Talarico defeats Paxton, becoming first Democratic Texas senator since Bob Krueger (1993) and only the second since 1970. Would flip seat to Democrats, giving them potential 51-seat majority if other races break favorably. Would be youngest senator at 37.",
+        "issue_ids": [
+          "elections"
+        ],
+        "affected_groups": [
+          "student",
+          "renter",
+          "uninsured"
+        ],
+        "sources": [
+          {
+            "title": "Poll: Paxton and Talarico are virtually tied in Senate race",
+            "url": "https://www.texastribune.org/2026/06/23/texas-us-senate-poll-ken-paxton-james-talarico-ut-austin/",
+            "publisher": "Texas Tribune"
+          }
+        ],
+        "children": [
+          {
+            "id": "talarico-vacates-house",
+            "label": "Texas House District 50 vacancy; special election required",
+            "timeframe": "2027",
+            "kind": "fact",
+            "description": "Texas Election Code Section 203.001: When state representative resigns to take another office, governor must call special election within 20 days to fill unexpired term. HD-50 (Round Rock/Pflugerville) is competitive: Biden+12 in 2020, but Talarico won by 14 points in 2022.",
+            "issue_ids": [
+              "elections"
+            ],
+            "affected_groups": [],
+            "sources": [
+              {
+                "title": "Texas Election Code - Chapter 203",
+                "url": "https://statutes.capitol.texas.gov/Docs/EL/htm/EL.203.htm",
+                "publisher": "Texas Legislature"
+              }
+            ],
+            "children": [
+              {
+                "id": "hd50-special-candidates",
+                "label": "HD-50 special election: potential Democratic candidates",
+                "timeframe": "2027",
+                "kind": "inference",
+                "likelihood": "medium",
+                "description": "Potential Democratic candidates: former HD-50 candidate Jennifer Skidonenko, Travis County Commissioner Ann Howard, or Round Rock ISD trustee. Republicans would target seat given 2024 rightward shift in suburban Texas districts.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": [
+                  {
+                    "id": "hd50-2028-regular",
+                    "label": "HD-50 regular election November 2028",
+                    "timeframe": "2028+",
+                    "kind": "fact",
+                    "description": "Winner of special election would stand for full two-year term in November 2028. Redistricting after 2030 census could alter district boundaries.",
+                    "issue_ids": [
+                      "elections"
+                    ],
+                    "affected_groups": [],
+                    "sources": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "talarico-senate-policy",
+            "label": "Talarico Senate voting record: Medicare expansion, climate action, labor protections",
+            "timeframe": "2027",
+            "kind": "inference",
+            "likelihood": "high",
+            "description": "Based on legislative record and campaign: Talarico would support Medicare for All who want it, Green New Deal-style climate investments, PRO Act labor protections, and immigration reform with pathway to citizenship. Would likely seek Health, Education, Labor and Pensions Committee.",
+            "issue_ids": [
+              "healthcare",
+              "medicare_medicaid",
+              "climate",
+              "labor",
+              "immigration"
+            ],
+            "affected_groups": [
+              "uninsured",
+              "student",
+              "renter"
+            ],
+            "sources": [
+              {
+                "title": "James Talarico, Ken Paxton launch Texas ads in U.S. Senate race",
+                "url": "https://www.texastribune.org/2026/05/27/james-talarico-ken-paxton-launch-attack-ads-in-texas-u-s-senate-race/",
+                "publisher": "Texas Tribune"
+              }
+            ],
+            "children": [
+              {
+                "id": "talarico-2028-reelection",
+                "label": "Talarico 2028 reelection: first defense in presidential year",
+                "timeframe": "2028+",
+                "kind": "inference",
+                "likelihood": "high",
+                "description": "Talarico would face reelection in November 2028, a presidential year with expected high Republican turnout in Texas. Would need to maintain suburban gains while defending against 'extremist' attacks on his progressive record. Potential GOP opponents: Rep. Dan Crenshaw, former Rep. Will Hurd, or AG Mayes Middleton.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": []
+              },
+              {
+                "id": "talarico-national-ambitions",
+                "label": "Talarico as potential 2032 presidential contender",
+                "timeframe": "2028+",
+                "kind": "inference",
+                "likelihood": "low",
+                "description": "At 37, Talarico would be youngest senator; could build national profile through youth/religious left coalition. However, 'Six-Gender Jimmy' attacks and progressive record create electability questions for national ticket. More likely VP prospect than presidential nominee.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "talarico-texas-downballot",
+            "label": "Democratic coattails in Texas state races",
+            "timeframe": "2026-11",
+            "kind": "inference",
+            "likelihood": "medium",
+            "description": "Talarico victory would indicate Democratic surge in suburban Texas, potentially affecting downballot races: AG (Middleton vs. Johnson), Comptroller (Huffines vs. Eckhardt), and competitive state House districts. Could improve Democratic chances of breaking GOP supermajority in Texas House.",
+            "issue_ids": [
+              "elections"
+            ],
+            "affected_groups": [],
+            "sources": [
+              {
+                "title": "Poll: Paxton and Talarico are virtually tied in Senate race",
+                "url": "https://www.texastribune.org/2026/06/23/texas-us-senate-poll-ken-paxton-james-talarico-ut-austin/",
+                "publisher": "Texas Tribune"
+              }
+            ],
+            "children": [
+              {
+                "id": "texas-2028-statewide",
+                "label": "2028 Texas statewide races open up",
+                "timeframe": "2028+",
+                "kind": "fact",
+                "description": "Texas constitutional officers (Governor, Lt. Governor, AG, Comptroller, Land Commissioner, Agriculture Commissioner) serve four-year terms with 2026 elections. Next elections: 2030. However, special elections or resignations could create openings.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [
+                  {
+                    "title": "Texas Constitution - Article IV",
+                    "url": "https://statutes.capitol.texas.gov/Docs/CN/htm/CN.4.htm",
+                    "publisher": "Texas Legislature"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

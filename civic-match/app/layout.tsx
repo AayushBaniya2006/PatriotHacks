@@ -36,8 +36,11 @@ export default function RootLayout({
               Civic<span className="text-emerald-400">Match</span>
             </Link>
             <nav className="flex gap-5 text-sm text-zinc-400">
+              <Link href="/ballot" className="hover:text-zinc-100">Your ballot</Link>
               <Link href="/intake" className="hover:text-zinc-100">Your priorities</Link>
               <Link href="/results" className="hover:text-zinc-100">Your matches</Link>
+              <Link href="/future" className="hover:text-zinc-100">Down the line</Link>
+              <Link href="/graph" className="hover:text-zinc-100">Graph</Link>
             </nav>
           </div>
         </header>

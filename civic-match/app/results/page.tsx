@@ -136,6 +136,15 @@ export default function ResultsPage() {
                   {r.party && <span className="text-xs text-zinc-500">({r.party})</span>}
                 </div>
                 <div className="text-sm text-zinc-400">{r.overall_tier}</div>
+                {r.warnings.length > 0 && (
+                  <div className="mt-1 flex flex-wrap gap-1.5">
+                    {r.warnings.map((w) => (
+                      <span key={w} className="rounded-full border border-red-500/40 bg-red-500/10 px-2 py-0.5 text-[10px] text-red-300">
+                        ⚠ {w}
+                      </span>
+                    ))}
+                  </div>
+                )}
                 <div className="mt-1 flex gap-4 text-xs text-zinc-500">
                   <span>Issue alignment: <b className="text-zinc-300">{r.score}%</b></span>
                   <span>

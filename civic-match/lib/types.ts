@@ -219,6 +219,7 @@ export interface MatchResult {
     qualitative_component: number; // from character dimensions (integrity etc.)
     conflict_penalty: number; // subtracted for high-weight conflicts
   };
+  warnings: string[]; // ground-truth-backed cautions (broken promises, integrity flags, contradictions)
   qualitative_composite: number | null; // 0-1, null if not researched
   qualitative: {
     id: string;
