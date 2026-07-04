@@ -16,9 +16,19 @@ Storage contract:
     start cleanly: every query returns empty results and stats()/get_ballot()
     surface a data_pending flag via data_is_pending().
 
-Insights: Postgres `insights` table (payload JSONB, keyed by race_id) when
-Postgres is live, else data/tx/insights/{race_id}.json parsed as-is. Returns
-None if the race has no cached insights in whichever backend is active.
+Insights: Postgres `insights` table when Postgres is live, else
+data/tx/insights/{race_id}.json parsed as-is. The table is keyed by
+(race_id, archetype) -- one row per precomputed block ('base' plus each
+voter archetype) -- rather than one row per race, so get_insights()
+reassembles the rows for a race back into the same {race_id, base,
+archetypes} shape the JSON file has, for app/main.py to consume unchanged.
+Returns None if the race has no cached insights in whichever backend is
+active. put_insight_block(race_id, archetype, payload) is the write-through
+counterpart: called after a live LLM generation succeeds so the next
+request for that (race_id, archetype) is served from cache. Each row/file
+block carries an inputs_hash (compute_inputs_hash) -- sha256 over that
+race's candidate data -- so a later bulk reload (pipeline/load_postgres.py)
+can tell a still-fresh row from a stale one without an LLM call.
 
 Geocode cache: Postgres `geocode_cache` table when live, else a JSON file
 data/geocode_cache.json (read-write, gitignored). The JSON file is written
@@ -29,12 +39,14 @@ Caching: ballot assembly is memoized via functools.lru_cache keyed on
 
 Public primitives -- signatures are a contract with app/main.py, do not
 change them: get_ballot, get_race, get_candidate, list_races,
-search_candidates, get_insights, stats, geocode_cache_get, geocode_cache_put,
-data_is_pending.
+search_candidates, get_insights, put_insight_block, compute_inputs_hash,
+stats, geocode_cache_get, geocode_cache_put, data_is_pending.
 """
 
 from __future__ import annotations
 
+import datetime
+import hashlib
 import json
 import logging
 import os
@@ -380,12 +392,34 @@ def get_ballot(cd: Optional[str] = None, sd: Optional[str] = None, hd: Optional[
 
 
 def get_insights(race_id: str) -> Optional[dict[str, Any]]:
+    """Reassemble a race's insight blocks into the same shape the JSON file
+    has: {race_id, base: <payload of archetype='base'>, archetypes: {key:
+    payload, ...}}. Postgres now stores one row per (race_id, archetype)
+    block rather than one row per race (see pipeline/load_postgres.py's DDL
+    comment), so this does one SELECT for the whole race and reassembles --
+    app/main.py's _select_cached_bullets is unaware of the split and keeps
+    reading cached["base"] / cached["archetypes"][archetype] exactly as
+    before. Returns None if the race has no rows/file at all (not merely an
+    empty one) -- same "no cached insights" contract as before.
+    """
     pool = _get_pool()
     if pool is not None:
         try:
             with pool.connection() as conn:
-                row = conn.execute("SELECT payload FROM insights WHERE race_id = %s", (race_id,)).fetchone()
-            return row["payload"] if row is not None else None
+                rows = conn.execute(
+                    "SELECT archetype, payload FROM insights WHERE race_id = %s", (race_id,)
+                ).fetchall()
+            if rows:
+                base_payload: Any = None
+                archetypes_payload: dict[str, Any] = {}
+                for row in rows:
+                    payload = _parse_json_field(row["payload"], {})
+                    if row["archetype"] == "base":
+                        base_payload = payload
+                    else:
+                        archetypes_payload[row["archetype"]] = payload
+                return {"race_id": race_id, "base": base_payload, "archetypes": archetypes_payload}
+            return None
         except Exception as exc:  # noqa: BLE001
             logger.warning("Postgres insights query failed (%s); falling back to file for this call", exc)
     path = INSIGHTS_DIR / f"{race_id}.json"
@@ -398,12 +432,120 @@ def get_insights(race_id: str) -> Optional[dict[str, Any]]:
         return None
 
 
+def compute_inputs_hash(race_id: str) -> str:
+    """sha256 hex digest over this race's candidates' canonical JSON
+    (json.dumps with sort_keys=True) -- the same algorithm
+    pipeline/load_postgres.py uses (computed there directly from the
+    on-disk gold JSON; here via the normal get_race/get_candidate
+    primitives, Postgres if live else the JSON fallback, since this runs
+    inside an already-serving process rather than a bulk loader). Used to
+    hash-gate insight regeneration: unchanged candidate data means an
+    unchanged hash, so a stored row/block can be recognized as still fresh.
+
+    The "candidate_id" field is stripped from each candidate dict before
+    hashing, since it's a storage-shape artifact (Postgres rows carry it
+    explicitly via _candidate_row_to_dict; the raw candidates.json value
+    does not) that must not perturb the hash -- keep this normalization in
+    sync with pipeline/load_postgres.py's own copy of this algorithm.
+    """
+    race = get_race(race_id) or {}
+    payload: dict[str, Any] = {}
+    for cid in race.get("candidate_ids", []):
+        candidate = get_candidate(cid)
+        if candidate is None:
+            continue
+        payload[cid] = {k: v for k, v in candidate.items() if k != "candidate_id"}
+    canonical = json.dumps(payload, sort_keys=True, default=str)
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
+_insights_file_lock = threading.Lock()
+
+
+def _put_insight_block_json(race_id: str, archetype: str, payload: dict[str, Any]) -> None:
+    """JSON-fallback half of put_insight_block: atomically merge one block
+    into data/tx/insights/{race_id}.json, creating the file if it doesn't
+    exist yet. Only the targeted block ("base" or archetypes[archetype]) is
+    set; everything else already in the file is preserved untouched."""
+    path = INSIGHTS_DIR / f"{race_id}.json"
+    with _insights_file_lock:
+        doc: dict[str, Any] = {}
+        if path.exists():
+            try:
+                with path.open("r", encoding="utf-8") as f:
+                    loaded = json.load(f)
+                if isinstance(loaded, dict):
+                    doc = loaded
+            except (json.JSONDecodeError, OSError):
+                pass  # treat an unreadable file as absent rather than crash
+        doc.setdefault("race_id", race_id)
+        doc.setdefault("generated_at", datetime.date.today().isoformat())
+
+        if archetype == "base":
+            doc["base"] = payload
+        else:
+            archetypes = doc.get("archetypes")
+            if not isinstance(archetypes, dict):
+                archetypes = {}
+            archetypes[archetype] = payload
+            doc["archetypes"] = archetypes
+
+        INSIGHTS_DIR.mkdir(parents=True, exist_ok=True)
+        fd, tmp_path = tempfile.mkstemp(dir=str(INSIGHTS_DIR), prefix=f".{path.stem}.", suffix=".tmp")
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8") as f:
+                json.dump(doc, f, ensure_ascii=False, indent=2)
+            os.replace(tmp_path, path)
+        except BaseException:
+            try:
+                os.unlink(tmp_path)
+            except OSError:
+                pass
+            raise
+
+
+def put_insight_block(race_id: str, archetype: str, payload: dict[str, Any]) -> None:
+    """Write-through cache: persist one (race_id, archetype) insight block
+    right after a live LLM generation succeeds, so the next request for the
+    same (race_id, archetype) is served from cache instead of calling the
+    LLM again. Postgres upsert (latest-wins, inputs_hash recomputed fresh)
+    when live; otherwise an atomic merge into the JSON file. Never raises on
+    a Postgres failure -- falls back to the JSON file for that call, same
+    policy as every other write path in this module; callers should still
+    treat this as best-effort (see app/main.py, which logs rather than
+    fails the request if this itself raises)."""
+    pool = _get_pool()
+    if pool is not None:
+        try:
+            inputs_hash = compute_inputs_hash(race_id)
+            with pool.connection() as conn:
+                conn.execute(
+                    """
+                    INSERT INTO insights (race_id, archetype, payload, inputs_hash)
+                    VALUES (%s, %s, %s, %s)
+                    ON CONFLICT (race_id, archetype) DO UPDATE SET
+                        payload = EXCLUDED.payload,
+                        inputs_hash = EXCLUDED.inputs_hash,
+                        generated_at = now()
+                    """,
+                    (race_id, archetype, Jsonb(payload), inputs_hash),
+                )
+            return
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Postgres insights write failed (%s); falling back to JSON file", exc)
+    _put_insight_block_json(race_id, archetype, payload)
+
+
 def _count_insights() -> int:
+    """Count of races with cached insights (not row/block count) -- kept
+    consistent between backends: Postgres now has multiple rows per race
+    (one per archetype block), so this counts DISTINCT race_id to match the
+    JSON fallback's "one file per race" count."""
     pool = _get_pool()
     if pool is not None:
         try:
             with pool.connection() as conn:
-                row = conn.execute("SELECT COUNT(*) AS n FROM insights").fetchone()
+                row = conn.execute("SELECT COUNT(DISTINCT race_id) AS n FROM insights").fetchone()
             return int(row["n"]) if row is not None else 0
         except Exception as exc:  # noqa: BLE001
             logger.warning("Postgres insights count failed (%s); falling back to file count", exc)
