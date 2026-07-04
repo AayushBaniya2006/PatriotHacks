@@ -64,15 +64,6 @@ html {
   }
 }
 
-@keyframes hero-image-drift {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.045) translate3d(-0.8%, 0, 0);
-  }
-}
-
 @keyframes cue-bob {
   0%,
   100% {
@@ -99,11 +90,6 @@ html {
 
   [data-hero-reveal="3"] {
     animation-delay: 330ms;
-  }
-
-  .hero-image-motion {
-    animation: hero-image-drift 16s ease-in-out infinite alternate;
-    transform-origin: center right;
   }
 
   .scroll-cue {

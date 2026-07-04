@@ -284,7 +284,7 @@ export default function Home() {
       </nav>
 
       <main>
-        <section className="relative flex min-h-[90vh] items-center pb-16 pt-36 lg:min-h-screen lg:pb-20 lg:pt-44">
+        <section className="relative flex min-h-[86svh] items-center pb-10 pt-28 sm:min-h-[90vh] sm:pb-16 sm:pt-36 lg:min-h-screen lg:pb-20 lg:pt-44">
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 z-10 bg-navy/60 lg:hidden" />
             <div className="absolute inset-0 z-10 hidden w-[66%] bg-gradient-to-r from-navy via-navy/95 to-transparent lg:block" />
@@ -295,56 +295,43 @@ export default function Home() {
               fill
               loading="eager"
               sizes="100vw"
-              className="hero-image-motion object-cover object-[70%_50%] lg:scale-[1.2] lg:translate-x-[7%] lg:object-center"
+              className="object-cover object-[70%_50%] lg:scale-[1.2] lg:translate-x-[7%] lg:object-center"
             />
           </div>
 
           <div className="relative z-20 mx-auto w-full max-w-[1600px] px-6 lg:px-24">
             <div className="max-w-3xl">
               <h1
-                className="font-serif text-5xl font-normal leading-[1.05] text-cream-light lg:text-[6rem] xl:text-[6.25rem]"
+                className="font-serif text-[2.5rem] font-normal leading-[1.04] text-cream-light sm:text-5xl lg:text-[6rem] xl:text-[6.25rem]"
                 data-hero-reveal="0"
               >
-                Know your ballot.
+                Better Data.
                 <br />
-                Follow the sources.
+                Stronger Republic.
               </h1>
-              <div className="mb-8 mt-9 h-1 w-24 bg-red" data-hero-reveal="1" />
+              <div className="mb-6 mt-7 h-1 w-24 bg-red sm:mb-8 sm:mt-9" data-hero-reveal="1" />
               <p
-                className="max-w-lg text-lg font-light leading-relaxed text-white/75 lg:text-xl"
+                className="max-w-md text-base font-light leading-relaxed text-white/75 sm:max-w-lg sm:text-lg lg:text-xl"
                 data-hero-reveal="2"
               >
-                Enter a Texas address to see the races, candidates, records, and citations that
-                matter for your election.
+                Civic data and analytics that power smarter decisions for stronger communities.
               </p>
 
-              <form action="/ballot" method="get" className="mt-10 max-w-xl space-y-3" data-hero-reveal="3">
-                <label className="relative flex items-center">
-                  <span className="sr-only">Enter Texas address</span>
-                  <MapPinIcon className="absolute left-5 h-5 w-5 text-gold" />
-                  <input
-                    type="text"
-                    name="address"
-                    placeholder="Enter your Texas address"
-                    className="w-full rounded-md border border-gold/50 bg-navy-dark/90 py-4 pl-14 pr-5 text-base text-white placeholder:text-white/45 transition-colors focus:border-gold focus:outline-none"
-                  />
-                </label>
-                <button
-                  type="submit"
-                  className="inline-flex w-full items-center justify-center gap-3 rounded-md bg-red px-8 py-4 text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:bg-red/90 sm:w-auto"
-                >
-                  Check My Election
-                  <ArrowRightIcon className="h-5 w-5" />
-                </button>
-                <div className="flex items-center gap-2 text-sm text-white/55">
-                  <LockIcon className="h-4 w-4" />
-                  <span>Your address is only used to identify your ballot.</span>
-                </div>
-              </form>
+              <Link
+                href="/ballot"
+                className="mt-10 inline-flex w-full items-center justify-center gap-8 rounded-md bg-red px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-red/90 sm:mt-12 sm:w-auto sm:min-w-[420px] sm:py-5"
+                data-hero-reveal="3"
+              >
+                Check Your Election
+                <ArrowRightIcon className="h-5 w-5" />
+              </Link>
+              <p className="mt-6 text-xs uppercase tracking-[0.25em] text-white/55" data-hero-reveal="3">
+                2 minutes to your ballot overview
+              </p>
             </div>
           </div>
 
-          <div className="scroll-cue absolute bottom-8 left-1/2 z-20 flex -translate-x-1/2 flex-col items-center gap-2">
+          <div className="scroll-cue absolute bottom-8 left-1/2 z-20 hidden -translate-x-1/2 flex-col items-center gap-2 md:flex">
             <span className="text-[0.65rem] uppercase tracking-[0.2em] text-gold">Scroll</span>
             <StarIcon className="h-3 w-3 text-gold" />
             <div className="h-12 w-px bg-gold/30" />
