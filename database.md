@@ -12,7 +12,9 @@ Ranked by what a hackathon teammate should actually do:
 1. **Railway Postgres plugin (recommended for deploy/demo).** Fully covered in
    [`railway.md`](railway.md) § "Step 1 — Project + Postgres" and § "Step 2.4
    Load the data into Postgres" — follow those steps as written, then come back
-   here only for the load/verify/troubleshoot commands (§3, §6).
+   here only for the load/verify/troubleshoot commands (§3, §6). **Prod status:
+   already done (2026-07-04)** — the `pretty-prosperity` project's `Postgres`
+   service is provisioned, loaded, and wired to the `web` service.
 2. **Docker (recommended for local dev).**
    ```bash
    docker compose up -d
@@ -62,7 +64,7 @@ python3 pipeline/load_postgres.py --dry-run
 ```
 Expected output:
 ```
-Parsed from disk: races=46 candidates=96 race_candidates=<N> insights=46
+Parsed from disk: races=46 candidates=96 race_candidates=96 insight_blocks=126 (insight_files=46)
 --dry-run: no database connection made, no writes performed.
 ```
 
@@ -74,7 +76,7 @@ DATABASE_URL=postgresql://postgres:postgres@localhost:5433/patriothacks \
 ```
 Expected output:
 ```
-Loaded into Postgres: races=46 candidates=96 race_candidates=<N> insights=46
+Loaded into Postgres: races=46 candidates=96 race_candidates=96 insight_blocks: loaded=126 skipped=0 updated=0 (total=126)
 ```
 
 **Verify via `psql`:**

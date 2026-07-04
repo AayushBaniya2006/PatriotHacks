@@ -152,8 +152,8 @@ idea, already fully built and populated for all 4 statewide races.
 *"Under all of that: 46 races, 96 candidates, 290 individual roll-call vote records,
 pulled from official APIs — Census, FEC, Congress.gov, the House Clerk. It's all
 precomputed and quality-scored ahead of time, so the whole demo you just watched ran
-with zero LLM calls. It's Postgres-ready — JSON fallback right now, same code path
-flips to Postgres the moment `DATABASE_URL` is set."*
+with zero LLM calls. And it's live in production on Railway right now, served out of
+PostgreSQL — with a JSON fallback so even the database going down couldn't stop it."*
 
 ---
 

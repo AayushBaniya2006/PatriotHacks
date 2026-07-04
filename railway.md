@@ -3,13 +3,25 @@
 Everything needed to take this monorepo live on Railway. Local demo works without any of
 this (JSON fallback + localhost); Railway is the scale path. Total setup: ~15 minutes.
 
+## Current prod state (2026-07-04 — already done)
+
+The backend is **live**. Project `pretty-prosperity`, tracking `main`:
+
+| Component | Actual name | State |
+|---|---|---|
+| Backend service | `web` | Active — `https://web-production-17c3f.up.railway.app` (`/healthz` → 46 races / 96 candidates / 46 insights) |
+| PostgreSQL | `Postgres` | provisioned, loaded (46 races / 96 candidates / 126 insight blocks), wired to `web` via `DATABASE_URL=${{Postgres.DATABASE_URL}}` — DB write-through verified via `geocode_cache` |
+| civic-match service | — | **not yet deployed** — follow Step 3 below |
+
+Steps 1–2 below are the recipe that produced this (kept for rebuilds/new projects).
+
 ## What gets created
 
 One Railway **project** containing three components:
 
 | Component | Source | Purpose |
 |---|---|---|
-| `data-backend` service | this repo, root directory `/` | FastAPI — ballot resolution, candidate data, insights |
+| backend service (ours is named `web`) | this repo, root directory `/` | FastAPI — ballot resolution, candidate data, insights |
 | `civic-match` service | this repo, root directory `civic-match/` | Next.js product UI (Kimi swarm, scoring, ballot view) |
 | PostgreSQL database | Railway plugin | serving layer for the gold dataset |
 
@@ -88,9 +100,14 @@ railway run python pipeline/load_postgres.py   # seed Postgres
 
 ## Gotchas / troubleshooting
 
-- **Deploys re-trigger on every push** to the tracked branch (default `main`). Point the
-  services at the `data-backend` branch (Service → Settings → Source → Branch) if you
-  want deploys to track our branch instead — or leave on `main` and deploy on merge.
+- **Nixpacks picking Node instead of Python** (this bit us in prod 2026-07-03: build ran
+  `npm ci` only, `uvicorn` was never installed, healthcheck failed for the whole retry
+  window). Cause: any `package.json` at the repo **root** flips provider detection.
+  Guards now committed: `nixpacks.toml` (`providers = ["python"]`) + `.python-version`
+  (3.12). Don't add a root `package.json`; Node deps belong in `civic-match/`.
+- **Deploys re-trigger on every push** to the tracked branch (our `web` service tracks
+  `main`, so PR merges deploy). Point a service at another branch via
+  Service → Settings → Source → Branch if needed.
 - **Healthcheck failing** → the app must bind `0.0.0.0:$PORT`. Never hardcode a port
   (already enforced in `railway.json`/`Procfile`).
 - **`data_loaded: false`** → Postgres is attached but empty (run Step 2.4) — or fine to
