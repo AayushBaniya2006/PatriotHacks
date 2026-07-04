@@ -511,6 +511,19 @@ export async function researchPolitician(
     source_coverage_score: coveredIssues.size / Object.keys(ISSUE_MAP()).length,
     researched_at: retrievedAt,
     research_status: stances.length > 0 ? "complete" : "failed",
+    // Explicit per-agent markers: every agent RAN; "found" records whether it
+    // returned anything verifiable. Distinguishes "researched, found nothing"
+    // from "never researched" (no marker) for backfill scripts and coverage UI.
+    data_quality: {
+      stances: { researched: true, found: stances.length > 0, checked_at: retrievedAt },
+      qualitative: { researched: true, found: qualitative.length > 0, checked_at: retrievedAt },
+      accountability: { researched: true, found: promiseRecord.length > 0, checked_at: retrievedAt },
+      finance: {
+        researched: true,
+        found: !!(finance && (finance.top_donors.length > 0 || finance.correlations.length > 0 || finance.total_raised)),
+        checked_at: retrievedAt,
+      },
+    },
   };
 
   await savePolitician(profile);

@@ -1,0 +1,2166 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/de.csv",
+  "state": "DE",
+  "politicians": [
+    {
+      "politician_id": "berry-alonna-de-hd20",
+      "name": "Alonna Berry",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-20)",
+      "state": "DE",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e9301c44-8042-4031-8ed0-4731c64a5a66"
+      },
+      "contact": {
+        "email": "alonna.berry@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-20/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2025/08/Untitled-design-1-710x710.png",
+      "sources": [
+        "https://ballotpedia.org/Alonna_Berry",
+        "https://en.wikipedia.org/wiki/Alonna_Berry",
+        "https://housedems.delaware.gov/members/house-district-20",
+        "https://www.linkedin.com/in/alonna-b-468922186",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "pettyjohn-brian-de-sd19",
+      "name": "Brian Pettyjohn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-19)",
+      "state": "DE",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8b5f6201-6c2f-4847-8d69-737ae776c44b"
+      },
+      "contact": {
+        "email": "brian.pettyjohn@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Pettyjohn"
+      },
+      "bio": {
+        "birth_date": "1974-01-11",
+        "gender": "Male"
+      },
+      "image": "https://senategop.delaware.gov/wp-content/blogs.dir/216/files/sites/216/2022/10/Pettyjohn_Brian_Member_Card-min-1.png",
+      "sources": [
+        "https://ballotpedia.org/Brian_Pettyjohn",
+        "https://en.wikipedia.org/wiki/Brian_G._Pettyjohn",
+        "https://legis.delaware.gov/AssemblyMember/150/Pettyjohn",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=9",
+        "https://legis.delaware.gov/Senate",
+        "https://senategop.delaware.gov/members/senate-district-19",
+        "https://www.linkedin.com/in/brianpettyjohn",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "townsend-bryan-de-sd11",
+      "name": "Bryan Townsend",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-11)",
+      "state": "DE",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f35b571a-d734-4086-b358-ff21382d802f"
+      },
+      "contact": {
+        "email": "bryan.townsend@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Townsend"
+      },
+      "bio": {
+        "birth_date": "1981-05-19",
+        "gender": "Male"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2022/09/Townsend-1-1-710x710.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bryan_Townsend",
+        "https://en.wikipedia.org/wiki/Bryan_Townsend_(American_politician)",
+        "https://legis.delaware.gov/AssemblyMember/150/Townsend",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-11",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "shupe-bryan-de-hd36",
+      "name": "Bryan Shupe",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-36)",
+      "state": "DE",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/11732933-9dce-46b4-8683-67e8449b315b"
+      },
+      "contact": {
+        "email": "bryan.shupe@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-36/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2022/08/Shupe_Bryan_Member_Card.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bryan_Shupe",
+        "https://en.wikipedia.org/wiki/Bryan_Shupe",
+        "https://housegop.delaware.gov/members/house-district-36",
+        "https://justfacts.votesmart.org/candidate/biography/184912/bryan-shupe",
+        "https://legis.delaware.gov/AssemblyMember/150/Shupe",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13599",
+        "https://www.linkedin.com/in/bryan-shupe-8706ba16",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "richardson-bryant-de-sd21",
+      "name": "Bryant Richardson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-21)",
+      "state": "DE",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5a29dfb1-14b5-4535-b8ee-da8f432d0727"
+      },
+      "contact": {
+        "email": "bryant.richardson@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/151/Richardson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senategop.delaware.gov/wp-content/blogs.dir/216/files/sites/216/2022/10/Richardson.Headshot.2023.Downsized-710x710.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bryant_Richardson",
+        "https://en.wikipedia.org/wiki/Bryant_Richardson",
+        "https://justfacts.votesmart.org/candidate/biography/142575/bryant-richardson",
+        "https://legis.delaware.gov/AssemblyMember/151/Richardson",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=10",
+        "https://legis.delaware.gov/Senate",
+        "https://senategop.delaware.gov/members/senat-district-21",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "postles-charles-de-hd33",
+      "name": "Charles Postles",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-33)",
+      "state": "DE",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4f6f337c-16e7-4d39-a503-6b4b36650d2d"
+      },
+      "contact": {
+        "email": "charles.postles@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-33/"
+      },
+      "bio": {
+        "birth_date": "1949-07-30",
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2022/08/Charlie_Postles_Member_Card_710x710.png",
+      "sources": [
+        "https://ballotpedia.org/Charles_S._Postles,_Jr.",
+        "https://en.wikipedia.org/wiki/Charles_Postles_Jr.",
+        "https://housegop.delaware.gov/members/house-district-33",
+        "https://justfacts.votesmart.org/candidate/biography/154268/charles-postles-jr",
+        "https://legis.delaware.gov/AssemblyMember/150/Postles",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=3133",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "snyder-hall-claire-de-hd14",
+      "name": "Claire Snyder-Hall",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-14)",
+      "state": "DE",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/933a1f48-bea2-43f7-9ccb-a793ac4ac71d"
+      },
+      "contact": {
+        "email": "claire.snyder-hall@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-14/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2024/11/image-3-710x710.jpg",
+      "sources": [
+        "https://ballotpedia.org/Claire_Snyder-Hall",
+        "https://clairesnyderhall.com/bio",
+        "https://en.wikipedia.org/wiki/Claire_Snyder-Hall",
+        "https://housedems.delaware.gov/members/house-district-14",
+        "https://www.linkedin.com/in/clairesnyderhall",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "romer-cyndie-de-hd25",
+      "name": "Cyndie Romer",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-25)",
+      "state": "DE",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d187436c-b3d3-4512-9172-b7a868942fe4"
+      },
+      "contact": {
+        "email": "cyndie.romer@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-25/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Romer.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cyndie_Romer",
+        "https://housedems.delaware.gov/members/house-district-25",
+        "https://legis.delaware.gov/AssemblyMember/152/Romer",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24310",
+        "https://www.linkedin.com/in/cyndie-romer-8a124b43",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "cruce-dan-de-sd1",
+      "name": "Dan Cruce",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-1)",
+      "state": "DE",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2341b6b1-2501-4aae-908a-b83346da21eb"
+      },
+      "contact": {
+        "email": "daniel.cruce@delaware.gov",
+        "website": "https://senatedems.delaware.gov/members/senate-district-1/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2022/09/Cruce-Headshot-2025-710x710.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dan_Cruce",
+        "https://en.wikipedia.org/wiki/Dan_Cruce",
+        "https://senatedems.delaware.gov/members/senate-district-1",
+        "https://www.linkedin.com/in/dancruce",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "short-danny-de-hd39",
+      "name": "Danny Short",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-39)",
+      "state": "DE",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/947a912f-49e7-4697-896e-fbcd1bcf41d3"
+      },
+      "contact": {
+        "email": "daniel.short@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-39/"
+      },
+      "bio": {
+        "birth_date": "1961-07-11",
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2022/08/Daniel_Short_Member_Card.jpg",
+      "sources": [
+        "https://ballotpedia.org/Daniel_Short",
+        "https://en.wikipedia.org/wiki/Daniel_Short",
+        "https://housegop.delaware.gov/members/house-district-39",
+        "https://justfacts.votesmart.org/candidate/biography/30692/danny-short",
+        "https://legis.delaware.gov/AssemblyMember/150/DShort",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=89",
+        "https://legis.delaware.gov/legislature.nsf/bydistrict/representative39",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-darius-de-sd2",
+      "name": "Darius Brown",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-2)",
+      "state": "DE",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8c5ff346-9896-489e-be96-db9d46d846da"
+      },
+      "contact": {
+        "email": "darius.brown@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Brown"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Brown.png",
+      "sources": [
+        "https://ballotpedia.org/Darius_Brown",
+        "https://en.wikipedia.org/wiki/Darius_J._Brown",
+        "https://legis.delaware.gov/AssemblyMember/150/Brown",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13600",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-2",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "lawson-dave-de-sd15",
+      "name": "Dave Lawson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-15)",
+      "state": "DE",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/44e38555-6698-43cb-aa8b-f47de87ba4e3"
+      },
+      "contact": {
+        "email": "dave.lawson@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Lawson"
+      },
+      "bio": {
+        "birth_date": "1946-10-29",
+        "gender": "Male"
+      },
+      "image": "https://senategop.delaware.gov/wp-content/blogs.dir/216/files/sites/216/2022/10/Lawson_Dave_Member_Card-min-1.png",
+      "sources": [
+        "https://ballotpedia.org/David_G._Lawson",
+        "https://en.wikipedia.org/wiki/David_G._Lawson",
+        "https://legis.delaware.gov/AssemblyMember/150/Lawson",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=86",
+        "https://legis.delaware.gov/Senate",
+        "https://senategop.delaware.gov/members/senate-district-15",
+        "https://www.linkedin.com/in/david-lawson-338604b1",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "wilson-dave-de-sd18",
+      "name": "Dave Wilson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-18)",
+      "state": "DE",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0b53dd28-648e-4fe1-a05a-36a21ec12e63"
+      },
+      "contact": {
+        "email": "david.l.wilson@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Wilson"
+      },
+      "bio": {
+        "birth_date": "1950-01-08",
+        "gender": "Male"
+      },
+      "image": "https://senategop.delaware.gov/wp-content/blogs.dir/216/files/sites/216/2022/10/Wilson_David_Member_Card-min-1.png",
+      "sources": [
+        "https://ballotpedia.org/David_Wilson_(Delaware)",
+        "https://en.wikipedia.org/wiki/David_L._Wilson",
+        "https://justfacts.votesmart.org/candidate/109426/david-wilson",
+        "https://legis.delaware.gov/AssemblyMember/150/Wilson",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=92",
+        "https://legis.delaware.gov/Senate",
+        "https://senategop.delaware.gov/members/senate-district-18",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "sokola-dave-de-sd8",
+      "name": "Dave Sokola",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-8)",
+      "state": "DE",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/25071aeb-2a5c-4e8b-b166-4a313b3ac22d"
+      },
+      "contact": {
+        "email": "david.sokola@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Sokola"
+      },
+      "bio": {
+        "birth_date": "1955-07-28",
+        "gender": "Male"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Sokola.png",
+      "sources": [
+        "https://ballotpedia.org/David_Sokola",
+        "https://en.wikipedia.org/wiki/David_Sokola",
+        "https://justfacts.votesmart.org/candidate/biography/5739/david-sokola",
+        "https://legis.delaware.gov/AssemblyMember/150/Sokola",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=90",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-8",
+        "https://www.linkedin.com/in/david-p-sokola-76b291a6",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "neal-deshanna-de-hd13",
+      "name": "DeShanna Neal",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-13)",
+      "state": "DE",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5c5f5bf8-d155-4911-8e06-eb6cc664859e"
+      },
+      "contact": {
+        "email": "deshanna.neal@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-13/"
+      },
+      "bio": {
+        "birth_date": "1981-11-16",
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Neal.jpg",
+      "sources": [
+        "https://ballotpedia.org/DeShanna_Neal",
+        "https://en.wikipedia.org/wiki/DeShanna_Neal",
+        "https://housedems.delaware.gov/members/house-district-13",
+        "https://legis.delaware.gov/AssemblyMember/152/Neal",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24307",
+        "https://www.linkedin.com/in/deshanna-neal-a32184171",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "heffernan-debra-de-hd6",
+      "name": "Debra Heffernan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-6)",
+      "state": "DE",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7e631da1-ef0f-4c6f-ba17-e5ae2860dad6"
+      },
+      "contact": {
+        "email": "debra.heffernan@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-6/"
+      },
+      "bio": {
+        "birth_date": "1962-04-08",
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Heffernan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Debra_Heffernan",
+        "https://en.wikipedia.org/wiki/Debra_Heffernan",
+        "https://housedems.delaware.gov/members/house-district-6",
+        "https://legis.delaware.gov/AssemblyMember/150/Heffernan",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=97",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "osienski-ed-de-hd24",
+      "name": "Ed Osienski",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-24)",
+      "state": "DE",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/07cb3c97-de4e-4210-8c83-b7276c001024"
+      },
+      "contact": {
+        "email": "edward.osienski@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-24/"
+      },
+      "bio": {
+        "birth_date": "1958-07-26",
+        "gender": "Male"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Osienski.jpg",
+      "sources": [
+        "https://ballotpedia.org/Edward_Osienski",
+        "https://en.wikipedia.org/wiki/Edward_Osienski",
+        "https://housedems.delaware.gov/members/house-district-24",
+        "https://justfacts.votesmart.org/candidate/biography/126460/ed-osienski",
+        "https://legis.delaware.gov/AssemblyMember/150/Osienski",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=112",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "buckson-eric-de-sd16",
+      "name": "Eric Buckson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-16)",
+      "state": "DE",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fb743246-9c86-45f5-95eb-34bc1e11bef1"
+      },
+      "contact": {
+        "email": "eric.buckson@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/152/Buckson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senategop.delaware.gov/wp-content/blogs.dir/216/files/sites/216/2022/11/Buckson.Headshot.2023.Downsized-710x710.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eric_Buckson",
+        "https://en.wikipedia.org/wiki/Eric_Buckson",
+        "https://legis.delaware.gov/AssemblyMember/152/Buckson",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24305",
+        "https://senategop.delaware.gov/members/senate-district-16",
+        "https://www.linkedin.com/in/eric-buckson-782a1519",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "morrison-eric-de-hd27",
+      "name": "Eric Morrison",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-27)",
+      "state": "DE",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bfab3b33-30ff-45fc-a45f-ae796d43de68"
+      },
+      "contact": {
+        "email": "eric.morrison@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-27/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Morrison-NEW-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eric_Morrison_(Delaware)",
+        "https://en.wikipedia.org/wiki/Eric_Morrison",
+        "https://housedems.delaware.gov/members/house-district-27",
+        "https://justfacts.votesmart.org/candidate/195158/eric-morrison",
+        "https://legis.delaware.gov/AssemblyMember/151/Morrison",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24001",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "burns-frank-de-hd21",
+      "name": "Frank Burns",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-21)",
+      "state": "DE",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f94d59b8-6120-43d2-9788-b30fe945d8d2"
+      },
+      "contact": {
+        "email": "frank.burns@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-21/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2024/11/Untitled-design-5-710x710.png",
+      "sources": [
+        "https://ballotpedia.org/Frank_Burns_(Delaware)",
+        "https://en.wikipedia.org/wiki/Frank_Burns_(Delaware_politician)",
+        "https://housedems.delaware.gov/members/house-district-21",
+        "https://www.linkedin.com/in/frank-burns-919a139",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "cooke-frank-de-hd16",
+      "name": "Frank Cooke",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-16)",
+      "state": "DE",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0cac3293-534b-4188-93e3-37ef6cd333ae"
+      },
+      "contact": {
+        "email": "franklind.cooke@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-16/"
+      },
+      "bio": {
+        "birth_date": "1958-07-21",
+        "gender": "Male"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Cooke.jpg",
+      "sources": [
+        "https://ballotpedia.org/Franklin_Cooke_Jr.",
+        "https://en.wikipedia.org/wiki/Franklin_Cooke_Jr.",
+        "https://housedems.delaware.gov/members/house-district-16",
+        "https://legis.delaware.gov/AssemblyMember/150/Cooke",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13594",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "hocker-gerald-de-sd20",
+      "name": "Gerald Hocker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-20)",
+      "state": "DE",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7d5fb783-232d-4cc2-b7c7-fdbf4d06eb69"
+      },
+      "contact": {
+        "email": "gerald.hocker@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Hocker"
+      },
+      "bio": {
+        "birth_date": "1948-01-09",
+        "gender": "Male"
+      },
+      "image": "https://senategop.delaware.gov/wp-content/blogs.dir/216/files/sites/216/2022/10/Hocker_Gerald_Member_Card-min.png",
+      "sources": [
+        "https://ballotpedia.org/Gerald_Hocker",
+        "https://en.wikipedia.org/wiki/Gerald_Hocker",
+        "https://legis.delaware.gov/AssemblyMember/150/Hocker",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=126",
+        "https://legis.delaware.gov/Senate",
+        "https://senategop.delaware.gov/members/senate-district-20",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "hilovsky-jeff-de-hd4",
+      "name": "Jeff Hilovsky",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-4)",
+      "state": "DE",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aa0846e8-7d8d-46ed-b4c9-54c9c2243d16"
+      },
+      "contact": {
+        "email": "jeff.hilovsky@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-4/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2022/12/JeffHilovsky2023-square-710x710.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Hilovsky",
+        "https://en.wikipedia.org/wiki/Jeff_Hilovsky",
+        "https://housegop.delaware.gov/members/house-district-4",
+        "https://legis.delaware.gov/AssemblyMember/152/Hilovsky",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24306",
+        "https://www.linkedin.com/in/jeffrey-hilovsky-715001182",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "spiegelman-jeff-de-hd11",
+      "name": "Jeff Spiegelman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-11)",
+      "state": "DE",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ef94fe15-3a43-405c-8ec6-d446784dfb32"
+      },
+      "contact": {
+        "email": "jeff.spiegelman@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-11/"
+      },
+      "bio": {
+        "birth_date": "1983-09-27",
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2022/08/spiegelman-headshot-compressed-jan-231.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Jeffrey_Spiegelman",
+        "https://en.wikipedia.org/wiki/Jeffrey_Spiegelman",
+        "https://housegop.delaware.gov/members/house-district-11",
+        "https://legis.delaware.gov/AssemblyMember/150/Spiegelman",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=169",
+        "https://legis.delaware.gov/legislature.nsf/FSMain?OpenFrameset&Frame=right&src=/legislature.nsf/52087754EC8B9261852569C10055DF42/5F0BC58760EF76C585257E0E005D8DB1",
+        "https://legis.delaware.gov/Legislature.nsf/Reps?openview",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "vanderwende-jesse-de-hd35",
+      "name": "Jesse Vanderwende",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-35)",
+      "state": "DE",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4932afab-9381-40d2-837f-f735d1c14b88"
+      },
+      "contact": {
+        "email": "jesse.vanderwende@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-35/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2022/08/Vanderwende_Jesse_Member_Card.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jesse_Vanderwende",
+        "https://en.wikipedia.org/wiki/Jesse_Vanderwende",
+        "https://housegop.delaware.gov/members/house-district-35",
+        "https://justfacts.votesmart.org/candidate/biography/184884/jesse-vanderwende",
+        "https://legis.delaware.gov/AssemblyMember/150/Vanderwende",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13598",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "walsh-jack-de-sd9",
+      "name": "Jack Walsh",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-9)",
+      "state": "DE",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7188a518-8d78-42e8-b618-ee38a10d20a4"
+      },
+      "contact": {
+        "email": "john.walsh@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Walsh"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Walsh.png",
+      "sources": [
+        "https://ballotpedia.org/Jack_Walsh_(Delaware)",
+        "https://en.wikipedia.org/wiki/Jack_Walsh_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/174060/jack-walsh",
+        "https://legis.delaware.gov/AssemblyMember/150/Walsh",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=3131",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-9",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "ortega-josue-de-hd3",
+      "name": "Josue Ortega",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-3)",
+      "state": "DE",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d020ca16-1926-4279-adc8-c0a6cddeac6e"
+      },
+      "contact": {
+        "email": "josue.ortega@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-3/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2024/11/image-1-1.png",
+      "sources": [
+        "https://ballotpedia.org/Josue_Ortega",
+        "https://housedems.delaware.gov/members/house-district-3",
+        "https://www.linkedin.com/in/josue-ortega-975a05136",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-kam-de-hd15",
+      "name": "Kam Smith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-15)",
+      "state": "DE",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5b43a977-2fe9-49e8-b3de-6873eab0692c"
+      },
+      "contact": {
+        "email": "kamela.smith@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-15/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2024/11/image-4-710x710.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kamela_Smith",
+        "https://en.wikipedia.org/wiki/Kamela_Smith",
+        "https://housedems.delaware.gov/members/house-district-15",
+        "https://justfacts.votesmart.org/candidate/219340/kamela-smith",
+        "https://www.kamelasmith.com",
+        "https://www.linkedin.com/in/kamelasmithmed",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-kendra-de-hd5",
+      "name": "Kendra Johnson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-5)",
+      "state": "DE",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b24cb06f-0cb1-4682-8038-d31b8ebc76fb"
+      },
+      "contact": {
+        "email": "kendra.johnson@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-5/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/K-Johnson.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kendra_Johnson",
+        "https://en.wikipedia.org/wiki/Kendra_Johnson",
+        "https://housedems.delaware.gov/members/house-district-5",
+        "https://legis.delaware.gov/AssemblyMember/150/KJohnson",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13591",
+        "https://www.linkedin.com/in/kendraljohnson",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "harris-kerri-de-hd32",
+      "name": "Kerri Harris",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-32)",
+      "state": "DE",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7ae371b6-0fd5-457a-af26-032432dd381b"
+      },
+      "contact": {
+        "email": "kerrievelyn.harris@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-32/"
+      },
+      "bio": {
+        "birth_date": "1979-12-24",
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Harris.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kerri_Evelyn_Harris",
+        "https://en.wikipedia.org/wiki/Kerri_Evelyn_Harris",
+        "https://housedems.delaware.gov/members/house-district-32",
+        "https://legis.delaware.gov/AssemblyMember/152/Harris",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24311",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "hensley-kevin-de-hd9",
+      "name": "Kevin Hensley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-9)",
+      "state": "DE",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d1020a85-27a1-4458-9ae2-90b09367be2c"
+      },
+      "contact": {
+        "email": "kevin.hensley@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-9/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2022/08/hensley-headshot-cropped-jan-231.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Kevin_S._Hensley",
+        "https://en.wikipedia.org/wiki/Kevin_Hensley_(politician)",
+        "https://housegop.delaware.gov/members/house-district-9",
+        "https://legis.delaware.gov/AssemblyMember/150/Hensley",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=193",
+        "https://www.linkedin.com/in/kevin-hensley-04ba803",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "williams-kim-de-hd19",
+      "name": "Kim Williams",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-19)",
+      "state": "DE",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/80dfa709-d199-4950-a067-2dafc40241b9"
+      },
+      "contact": {
+        "email": "kimberly.williams@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-19/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Williams.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kimberly_Williams",
+        "https://en.wikipedia.org/wiki/Kimberly_Williams_%28politician%29",
+        "https://housedems.delaware.gov/members/house-district-19",
+        "https://legis.delaware.gov/AssemblyMember/150/KWilliams",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=198",
+        "https://www.linkedin.com/in/kimberly-williams-32134840",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "griffith-krista-de-hd12",
+      "name": "Krista Griffith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-12)",
+      "state": "DE",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0dc99b9c-115c-4da0-81b1-22aa5b6750e0"
+      },
+      "contact": {
+        "email": "krista.griffith@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-12/"
+      },
+      "bio": {
+        "birth_date": "1972-10-04",
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2022/09/Griffith-headshot.jpg",
+      "sources": [
+        "https://ballotpedia.org/Krista_Griffith",
+        "https://en.wikipedia.org/wiki/Krista_Griffith",
+        "https://housedems.delaware.gov/members/house-district-12",
+        "https://legis.delaware.gov/AssemblyMember/150/Griffith",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13593",
+        "https://www.linkedin.com/in/krista-griffith-2564a8b9",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "hoffner-kyra-de-sd14",
+      "name": "Kyra Hoffner",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-14)",
+      "state": "DE",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b5a52e58-da64-49a2-85b2-84f55427fa83"
+      },
+      "contact": {
+        "email": "kyra.hoffner@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/152/Hoffner"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2022/09/54321266879_820e6ac631_c-640x710.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kyra_Hoffner",
+        "https://en.wikipedia.org/wiki/Kyra_Hoffner",
+        "https://legis.delaware.gov/AssemblyMember/152/Hoffner",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24304",
+        "https://senatedems.delaware.gov/members/senate-district-14",
+        "https://www.kyrahoffner4senate.com/about",
+        "https://www.linkedin.com/in/kyra-hoffner-74681b16",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "lambert-larry-de-hd7",
+      "name": "Larry Lambert",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-7)",
+      "state": "DE",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e6f6e97-5c95-4351-afe2-d8843f7897bc"
+      },
+      "contact": {
+        "email": "larry.lambert@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-7/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Lambert.jpg",
+      "sources": [
+        "https://ballotpedia.org/Larry_Lambert",
+        "https://en.wikipedia.org/wiki/Larry_Lambert",
+        "https://housedems.delaware.gov/members/house-district-7",
+        "https://justfacts.votesmart.org/candidate/184869/larry-lambert",
+        "https://legis.delaware.gov/AssemblyMember/151/Lambert",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24002",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "sturgeon-laura-de-sd4",
+      "name": "Laura Sturgeon",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-4)",
+      "state": "DE",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0bd9610-eafd-4e25-931a-6674762e4c03"
+      },
+      "contact": {
+        "email": "laura.sturgeon@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Sturgeon"
+      },
+      "bio": {
+        "birth_date": "1965-02-15",
+        "gender": "Female"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Sturgeon.png",
+      "sources": [
+        "https://ballotpedia.org/Laura_Sturgeon",
+        "https://en.wikipedia.org/wiki/Laura_Sturgeon",
+        "https://justfacts.votesmart.org/candidate/biography/184886/laura-sturgeon",
+        "https://legis.delaware.gov/AssemblyMember/150/Sturgeon",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13602",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-4",
+        "https://www.linkedin.com/in/laura-sturgeon-833b9b10a",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "yearick-lyndon-de-hd34",
+      "name": "Lyndon Yearick",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-34)",
+      "state": "DE",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/85f716aa-751a-4258-a68b-f6ed94b2daa0"
+      },
+      "contact": {
+        "email": "lyndon.yearick@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-34/"
+      },
+      "bio": {
+        "birth_date": "1964-11-03",
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2022/08/Lyndon_D_Yearick_710x710-710x710.png",
+      "sources": [
+        "https://ballotpedia.org/Lyndon_Dean_Yearick",
+        "https://en.wikipedia.org/wiki/Lyndon_Yearick",
+        "https://housegop.delaware.gov/members/house-district-34",
+        "https://legis.delaware.gov/AssemblyMember/150/Yearick",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=223",
+        "https://www.linkedin.com/in/lyndonyearick",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "wilson-anton-madinah-de-hd26",
+      "name": "Madinah Wilson-Anton",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-26)",
+      "state": "DE",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6c816294-3378-48c1-b2fd-bb5cd57a9deb"
+      },
+      "contact": {
+        "email": "madinah.wilson-anton@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-26/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Wilson-Anton.jpg",
+      "sources": [
+        "https://ballotpedia.org/Madinah_Wilson-Anton",
+        "https://en.wikipedia.org/wiki/Madinah_Wilson-Anton",
+        "https://housedems.delaware.gov/members/house-district-26",
+        "https://legis.delaware.gov/AssemblyMember/151/WilsonAnton",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=232",
+        "https://www.linkedin.com/in/madinah-wilson-anton-76506542",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "gorman-mara-de-hd23",
+      "name": "Mara Gorman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-23)",
+      "state": "DE",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1f51da39-f7e2-4489-9307-f2121e9e8adf"
+      },
+      "contact": {
+        "email": "mara.gorman@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-23/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MaraGorman2024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Mara_Gorman",
+        "https://housedems.delaware.gov/members/house-district-23",
+        "https://www.linkedin.com/in/maragorman",
+        "https://www.marafordelaware.com/about-mara",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "pinkney-marie-de-sd13",
+      "name": "Marie Pinkney",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-13)",
+      "state": "DE",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eee736fd-ee29-403a-9bbc-713961c734b7"
+      },
+      "contact": {
+        "email": "marie.pinkney@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/151/Pinkney"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Pinkney.png",
+      "sources": [
+        "https://ballotpedia.org/Marie_Pinkney",
+        "https://en.wikipedia.org/wiki/Marie_Pinkney",
+        "https://justfacts.votesmart.org/candidate/195144/marie-pinkney",
+        "https://legis.delaware.gov/AssemblyMember/151/Pinkney",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24000",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-13",
+        "https://www.linkedin.com/in/sen-marie-pinkney-lcsw-8797a41b4",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "ross-levin-melanie-de-hd10",
+      "name": "Melanie Ross Levin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-10)",
+      "state": "DE",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ec594c77-7bbe-45c5-9ffd-0f6a3aad1e36"
+      },
+      "contact": {
+        "email": "melanie.rosslevin@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-10/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2024/11/image-2-1-710x710.jpg",
+      "sources": [
+        "https://ballotpedia.org/Melanie_Ross_Levin",
+        "https://housedems.delaware.gov/members/house-district-10",
+        "https://www.linkedin.com/in/melanierosslevin",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "minor-brown-melissa-de-hd17",
+      "name": "Melissa Minor-Brown",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-17)",
+      "state": "DE",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2ceeb021-8aee-405f-afd6-f53f0c3d0bb7"
+      },
+      "contact": {
+        "email": "melissa.minorbrown@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-17/"
+      },
+      "bio": {
+        "birth_date": "1984-04-19",
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Minor-Brown.jpg",
+      "sources": [
+        "https://ballotpedia.org/Melissa_Minor-Brown",
+        "https://en.wikipedia.org/wiki/Melissa_Minor-Brown",
+        "https://housedems.delaware.gov/members/house-district-17",
+        "https://justfacts.votesmart.org/candidate/biography/184879/melissa-minor-brown",
+        "https://legis.delaware.gov/AssemblyMember/150/MinorBrown",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13595",
+        "https://www.linkedin.com/in/melissa-minor-brown-8718b933",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-mike-de-hd22",
+      "name": "Mike Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-22)",
+      "state": "DE",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c9f1393e-01c8-4597-a6e5-6d43330264dc"
+      },
+      "contact": {
+        "email": "michael.f.smith@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-22/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ilikemikesmith.com/wp-content/uploads/2022/07/Screen-Shot-2022-07-19-at-7.22.01-AM.png",
+      "sources": [
+        "https://ballotpedia.org/Michael_Smith_(Delaware)",
+        "https://en.wikipedia.org/wiki/Michael_F._Smith",
+        "https://housegop.delaware.gov/members/house-district-22",
+        "https://legis.delaware.gov/AssemblyMember/150/MichaelSmith",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13596",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "poore-nicole-de-sd12",
+      "name": "Nicole Poore",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-12)",
+      "state": "DE",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5e54d79a-5ba8-4966-93aa-2e05788a3ddc"
+      },
+      "contact": {
+        "email": "nicole.poore@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Poore"
+      },
+      "bio": {
+        "birth_date": "1972-11-14",
+        "gender": "Female"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Poore.png",
+      "sources": [
+        "https://ballotpedia.org/Nicole_Poore",
+        "https://en.wikipedia.org/wiki/Nicole_Poore",
+        "https://legis.delaware.gov/AssemblyMember/150/Poore",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=249",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-12",
+        "https://www.linkedin.com/in/nicole-poore-state-senator-a4a79655",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "chukwuocha-nnamdi-de-hd1",
+      "name": "Nnamdi Chukwuocha",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-1)",
+      "state": "DE",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fdf8cd7b-933f-469b-b1b7-119b39ba5e86"
+      },
+      "contact": {
+        "email": "nnamdi.chukwuocha@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-1/"
+      },
+      "bio": {
+        "birth_date": "1970-11-16",
+        "gender": "Male"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Chukwuocha.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nnamdi_Chukwuocha",
+        "https://en.wikipedia.org/wiki/Nnamdi_Chukwuocha",
+        "https://housedems.delaware.gov/members/house-district-1",
+        "https://justfacts.votesmart.org/candidate/biography/143826/nnamdi-chukwuocha",
+        "https://legis.delaware.gov/AssemblyMember/150/Chukwuocha",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13589",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "seigfried-ray-de-sd5",
+      "name": "Ray Seigfried",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-5)",
+      "state": "DE",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e841e17b-6ea1-4401-b3d3-9b99237b6366"
+      },
+      "contact": {
+        "email": "ray.seigfried@delaware.gov",
+        "website": "https://senatedems.delaware.gov/members/senate-district-5/"
+      },
+      "bio": {
+        "birth_date": "1950-08-23",
+        "gender": "Male"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2022/09/8344182d-3f96-487f-aee1-554e065f16c4-533x710.jpg",
+      "sources": [
+        "https://ballotpedia.org/Raymond_Seigfried",
+        "https://en.wikipedia.org/wiki/Ray_Seigfried",
+        "https://senatedems.delaware.gov/members/senate-district-5",
+        "https://www.linkedin.com/in/raymondjseigfried",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "collins-rich-de-hd41",
+      "name": "Rich Collins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-41)",
+      "state": "DE",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/26490cf5-c29c-485e-bdc5-1e340a4c10f6"
+      },
+      "contact": {
+        "email": "rich.collins@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-41/"
+      },
+      "bio": {
+        "birth_date": "1949-08-15",
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2022/08/Rich_Collins_Member_Card_710x710.png",
+      "sources": [
+        "https://ballotpedia.org/Richard_Collins_(Delaware)",
+        "https://en.wikipedia.org/wiki/Richard_G._Collins",
+        "https://housegop.delaware.gov/members/house-district-41",
+        "https://legis.delaware.gov/AssemblyMember/150/Collins",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=284",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "gray-ron-de-hd38",
+      "name": "Ron Gray",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-38)",
+      "state": "DE",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5cd844e2-9346-40d9-a804-7531aa49ccd4"
+      },
+      "contact": {
+        "email": "ronald.gray@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-38/"
+      },
+      "bio": {
+        "birth_date": "1955-12-15",
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2022/08/Ron_Gray_Member_Card.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ronald_Gray",
+        "https://en.wikipedia.org/wiki/Ronald_E._Gray",
+        "https://housegop.delaware.gov/members/house-district-38",
+        "https://legis.delaware.gov/AssemblyMember/150/Gray",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=290",
+        "https://www.linkedin.com/in/ron-gray-9230b339",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "huxtable-russ-de-sd6",
+      "name": "Russ Huxtable",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-6)",
+      "state": "DE",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d96a4018-ca3f-40a6-a12c-cc38d757e9f0"
+      },
+      "contact": {
+        "email": "russell.huxtable@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/152/Huxtable"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Huxtable.png",
+      "sources": [
+        "https://ballotpedia.org/Russ_Huxtable",
+        "https://en.wikipedia.org/wiki/Russ_Huxtable",
+        "https://legis.delaware.gov/AssemblyMember/152/Huxtable",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24303",
+        "https://senatedems.delaware.gov/members/senate-district-6",
+        "https://www.linkedin.com/in/russell-huxtable",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "lockman-tizzy-de-sd3",
+      "name": "Tizzy Lockman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-3)",
+      "state": "DE",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ca88dc3b-bbc6-4eb8-af32-9821268ebda5"
+      },
+      "contact": {
+        "email": "elizabeth.lockman@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Lockman"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Lockman.png",
+      "sources": [
+        "https://ballotpedia.org/S._Elizabeth_Lockman",
+        "https://en.wikipedia.org/wiki/Elizabeth_Lockman",
+        "https://legis.delaware.gov/AssemblyMember/150/Lockman",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13601",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-3",
+        "https://www.linkedin.com/in/selockman",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "lynn-sean-de-hd31",
+      "name": "Sean Lynn",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-31)",
+      "state": "DE",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6fd6e720-822c-45ee-8fac-933b4eb9ccb5"
+      },
+      "contact": {
+        "email": "sean.lynn@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-31/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2022/09/Lynn_Sean_Member_Card-min-710x710.png",
+      "sources": [
+        "https://ballotpedia.org/Sean_M._Lynn",
+        "https://en.wikipedia.org/wiki/Sean_Lynn",
+        "https://housedems.delaware.gov/members/house-district-31",
+        "https://legis.delaware.gov/AssemblyMember/150/Lynn",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=317",
+        "https://seanlynnlaw.com",
+        "https://www.linkedin.com/in/sean-m-lynn-5b152821",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-rae-de-hd8",
+      "name": "Rae Moore",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-8)",
+      "state": "DE",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6a8995a4-deab-416f-89ce-987c8c6557aa"
+      },
+      "contact": {
+        "email": "rae.moore@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-8/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2022/09/Moore_Sheraea_Member_Card-min-710x710.png",
+      "sources": [
+        "https://ballotpedia.org/Sherae%27a_Moore",
+        "https://en.wikipedia.org/wiki/Sherae%27a_Moore",
+        "https://housedems.delaware.gov/members/house-district-8",
+        "https://justfacts.votesmart.org/candidate/195151/sheraea-moore",
+        "https://legis.delaware.gov/AssemblyMember/151/SMoore",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=3143",
+        "https://www.linkedin.com/in/sherae-a-rae-moore-959a64102",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "phillips-sophie-de-hd18",
+      "name": "Sophie Phillips",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-18)",
+      "state": "DE",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0a452e37-d7e7-403d-97ff-740c1d257eda"
+      },
+      "contact": {
+        "email": "sophie.phillips@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-18/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Phillips.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sophie_Phillips",
+        "https://housedems.delaware.gov/members/house-district-18",
+        "https://legis.delaware.gov/AssemblyMember/152/Phillips",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=24308",
+        "https://www.linkedin.com/in/sophie-phillips-5402821b6",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "mantzavinos-spiros-de-sd7",
+      "name": "Spiros Mantzavinos",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-7)",
+      "state": "DE",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a42132e6-9070-44a4-81be-70797c4ea2bb"
+      },
+      "contact": {
+        "email": "spiros.mantzavinos@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/151/Mantzavinos"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Mantzavinos.png",
+      "sources": [
+        "https://ballotpedia.org/Spiros_Mantzavinos",
+        "https://en.wikipedia.org/wiki/Spiros_Mantzavinos",
+        "https://legis.delaware.gov/AssemblyMember/151/Mantzavinos",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=1272",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-7",
+        "https://www.linkedin.com/in/spirosmantzavinos",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "hansen-stephanie-de-sd10",
+      "name": "Stephanie Hansen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-10)",
+      "state": "DE",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/24e001be-be7a-4110-8488-2e385315ff5b"
+      },
+      "contact": {
+        "email": "stephanie.hansen@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Hansen"
+      },
+      "bio": {
+        "birth_date": "1961-07-24",
+        "gender": "Female"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Hansen.png",
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Hansen_(Delaware)",
+        "https://en.wikipedia.org/wiki/Stephanie_Hansen",
+        "https://legis.delaware.gov/AssemblyMember/150/Hansen",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=3212",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-10",
+        "https://www.linkedin.com/in/stephanie-hansen-00623812",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "bolden-stephanie-de-hd2",
+      "name": "Stephanie Bolden",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-2)",
+      "state": "DE",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3ad8467d-5ec5-4626-aab5-11e42b62ad60"
+      },
+      "contact": {
+        "email": "stephaniet.bolden@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-2/"
+      },
+      "bio": {
+        "birth_date": "1946-08-16",
+        "gender": "Female"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Bolden.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Bolden",
+        "https://en.wikipedia.org/wiki/Stephanie_Bolden",
+        "https://housedems.delaware.gov/members/house-district-2",
+        "https://legis.delaware.gov/AssemblyMember/150/Bolden",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=332",
+        "https://legis.delaware.gov/legislature.nsf/FSMain?OpenFrameset&Frame=right&src=/legislature.nsf/52087754EC8B9261852569C10055DF42/4729338B9BBCC16B85257E0E005D8DCB",
+        "https://legis.delaware.gov/Legislature.nsf/Reps?openview",
+        "https://www.linkedin.com/in/stephanie-t-bolden-08731062",
+        "https://www.linkedin.com/in/stephanie-t-bolden-423910137",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "dukes-tim-de-hd40",
+      "name": "Tim Dukes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-40)",
+      "state": "DE",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/101c752d-fbe4-471c-ae50-f2b1409a328f"
+      },
+      "contact": {
+        "email": "timothy.dukes@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-40/"
+      },
+      "bio": {
+        "birth_date": "1964-09-30",
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2023/01/dukes-headshot-compressed2-jan-23.png",
+      "sources": [
+        "https://ballotpedia.org/Timothy_Dukes_(Delaware)",
+        "https://en.wikipedia.org/wiki/Timothy_Dukes",
+        "https://housegop.delaware.gov/members/house-district-40",
+        "https://justfacts.votesmart.org/candidate/biography/142597/tim-dukes",
+        "https://legis.delaware.gov/AssemblyMember/150/Dukes",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=352",
+        "https://www.linkedin.com/in/tim-dukes-65250a40",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "paradee-trey-de-sd17",
+      "name": "Trey Paradee",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Senator (SD-17)",
+      "state": "DE",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/89be0266-5ecf-40ac-9f5c-3dba2ce79a0d"
+      },
+      "contact": {
+        "email": "trey.paradee@delaware.gov",
+        "website": "https://legis.delaware.gov/AssemblyMember/150/Paradee"
+      },
+      "bio": {
+        "birth_date": "1969-07-18",
+        "gender": "Male"
+      },
+      "image": "https://senatedems.delaware.gov/wp-content/blogs.dir/219/files/sites/219/2023/03/Senator-Paradee.png",
+      "sources": [
+        "https://ballotpedia.org/W._Charles_Paradee",
+        "https://en.wikipedia.org/wiki/W._Charles_Paradee",
+        "https://justfacts.votesmart.org/candidate/biography/109397/trey-paradee-iii",
+        "https://legis.delaware.gov/AssemblyMember/150/Paradee",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/Senate/GetSenators",
+        "https://legis.delaware.gov/LegislatorDetail?personId=355",
+        "https://legis.delaware.gov/Senate",
+        "https://senatedems.delaware.gov/members/senate-district-17",
+        "https://www.linkedin.com/in/trey-paradee-58757920a",
+        "https://www.paradeefinancial.com/trey-paradee",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "giltner-valerie-de-hd37",
+      "name": "Valerie Giltner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-37)",
+      "state": "DE",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/312de86b-37d6-4ffe-a47c-63163e4177c0"
+      },
+      "contact": {
+        "email": "valerie.jonesgiltner@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-37/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2024/01/RepJonesGiltner-headshot-jan-25-resized.jpg",
+      "sources": [
+        "https://ballotpedia.org/Valerie_Jones_Giltner",
+        "https://housegop.delaware.gov/members/house-district-37",
+        "https://legis.delaware.gov/AssemblyMember/152/JonesGiltner",
+        "https://www.linkedin.com/in/valerie-giltner-rn-23b7087b",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "morris-shannon-de-hd30",
+      "name": "Shannon Morris",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-30)",
+      "state": "DE",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1952d6d2-3cd8-4a2c-b663-f16052b948c3"
+      },
+      "contact": {
+        "email": "shannon.morris@delaware.gov",
+        "website": "https://housegop.delaware.gov/members/house-district-30/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housegop.delaware.gov/wp-content/blogs.dir/207/files/sites/207/2023/02/morris-headshot-compressed-jan-23.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Shannon_Morris",
+        "https://en.wikipedia.org/wiki/W._Shannon_Morris",
+        "https://housegop.delaware.gov/members/house-district-30",
+        "https://justfacts.votesmart.org/candidate/biography/184908/shannon-morris",
+        "https://legis.delaware.gov/AssemblyMember/150/Morris",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=13597",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "bush-bill-de-hd29",
+      "name": "Bill Bush",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-29)",
+      "state": "DE",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fccfb524-6aee-40a9-8469-081e961dd072"
+      },
+      "contact": {
+        "email": "william.bush@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-29/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Bush.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Bush",
+        "https://en.wikipedia.org/wiki/William_Bush_IV",
+        "https://housedems.delaware.gov/members/house-district-29",
+        "https://justfacts.votesmart.org/candidate/biography/184906/william-bush",
+        "https://legis.delaware.gov/AssemblyMember/150/Bush",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=369",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    },
+    {
+      "politician_id": "carson-bill-de-hd28",
+      "name": "Bill Carson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Delaware State Representative (HD-28)",
+      "state": "DE",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "DE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/35bf376a-ffc2-4468-b6ab-0ef72cc8d05b"
+      },
+      "contact": {
+        "email": "william.carson@delaware.gov",
+        "website": "https://housedems.delaware.gov/members/house-district-28/"
+      },
+      "bio": {
+        "birth_date": "1950-12-24",
+        "gender": "Male"
+      },
+      "image": "https://housedems.delaware.gov/wp-content/blogs.dir/210/files/sites/210/2023/02/Carson.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Carson_Jr.",
+        "https://en.wikipedia.org/wiki/William_Carson_Jr.",
+        "https://housedems.delaware.gov/members/house-district-28",
+        "https://justfacts.votesmart.org/candidate/biography/102387/william-carson-jr",
+        "https://legis.delaware.gov/AssemblyMember/150/Carson",
+        "https://legis.delaware.gov/House",
+        "https://legis.delaware.gov/json/House/GetRepresentatives",
+        "https://legis.delaware.gov/LegislatorDetail?personId=370",
+        "https://data.openstates.org/people/current/de.csv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/dc.csv",
+  "state": "DC",
+  "politicians": [
+    {
+      "politician_id": "bonds-anita-dc-hdat-large",
+      "name": "Anita Bonds",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-At-Large)",
+      "state": "DC",
+      "district": "HD-At-Large",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/860fa95b-c737-43bd-948d-1dd6dc1b734e"
+      },
+      "contact": {
+        "email": "abonds@dccouncil.gov",
+        "district_voice": "202-724-8064",
+        "website": "https://dccouncil.gov/council/anita-bonds/"
+      },
+      "social": {
+        "twitter": "AnitaBondsDC",
+        "facebook": "anitabondsdc"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2017/03/Anita-Bonds-Official-Portrait-Shot-002-75x75-c-default.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anita_Bonds",
+        "https://dccouncil.gov/council/anita-bonds",
+        "https://dccouncil.gov/council/anita-bonds/",
+        "https://dccouncil.us/council/anita-bonds",
+        "https://dccouncil.us/council/anita-bonds/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://en.wikipedia.org/wiki/Anita_Bonds",
+        "https://www.linkedin.com/in/anita-d-bonds-67343a84",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "nadeau-brianne-dc-hdward-1",
+      "name": "Brianne Nadeau",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-Ward 1)",
+      "state": "DC",
+      "district": "HD-Ward 1",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4e806a33-bba3-4484-95f8-d723769b99f1"
+      },
+      "contact": {
+        "email": "bnadeau@dccouncil.gov",
+        "district_voice": "202-724-8181",
+        "website": "https://brianneknadeau.com/"
+      },
+      "social": {
+        "twitter": "BrianneKNadeau",
+        "facebook": "brianneknadeau."
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2017/03/Copy-of-IMG_0900_Fotor-scaled-75x75-c-default.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brianne_Nadeau",
+        "https://brianneknadeau.com",
+        "https://dccouncil.gov/council/brianne-nadeau",
+        "https://dccouncil.gov/council/brianne-nadeau/",
+        "https://dccouncil.us/council/brianne-nadeau",
+        "https://dccouncil.us/council/brianne-nadeau/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://en.wikipedia.org/wiki/Brianne_Nadeau",
+        "https://www.brianneknadeau.com",
+        "https://www.brianneknadeau.com/",
+        "https://www.linkedin.com/in/brianneknadeau",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "pinto-brooke-dc-hdward-2",
+      "name": "Brooke Pinto",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-Ward 2)",
+      "state": "DC",
+      "district": "HD-Ward 2",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bf329860-076e-4d14-bed2-969d0d13dfec"
+      },
+      "contact": {
+        "email": "bpinto@dccouncil.gov",
+        "district_voice": "202-724-8058",
+        "website": "https://dccouncil.gov/council/ward-2-councilmember-brooke-pinto/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2020/06/cmbphs-scaled-75x75-c-default.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brooke_Pinto",
+        "https://dccouncil.gov/council/ward-2-councilmember-brooke-pinto",
+        "https://dccouncil.gov/council/ward-2-councilmember-brooke-pinto/",
+        "https://dccouncil.us/council/ward-2-councilmember-brooke-pinto",
+        "https://dccouncil.us/council/ward-2-councilmember-brooke-pinto/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://www.brookepintodc.com",
+        "https://www.linkedin.com/in/brooke-pinto-09561344",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "allen-charles-dc-hdward-6",
+      "name": "Charles Allen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-Ward 6)",
+      "state": "DC",
+      "district": "HD-Ward 6",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ab8e39c8-583e-4e9d-b481-0f43c21318ba"
+      },
+      "contact": {
+        "email": "callen@dccouncil.gov",
+        "district_voice": "202-724-8072",
+        "website": "https://dccouncil.gov/council/councilmember-allen/"
+      },
+      "social": {
+        "twitter": "CMCharlesAllen",
+        "facebook": "CMcharlesallen"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2017/06/C._Allen_small_1-75x75-c-default.jpg",
+      "sources": [
+        "https://ballotpedia.org/Charles_Allen_(Washington_DC)",
+        "https://dccouncil.gov/council/councilmember-allen",
+        "https://dccouncil.gov/council/councilmember-allen/",
+        "https://dccouncil.us/council/councilmember-allen",
+        "https://dccouncil.us/council/councilmember-allen/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://en.wikipedia.org/wiki/Charles_Allen_%28Washington,_D.C._politician%29",
+        "https://www.charlesallenward6.com",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "henderson-christina-dc-hdat-large",
+      "name": "Christina Henderson",
+      "party": "Independent",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-At-Large)",
+      "state": "DC",
+      "district": "HD-At-Large",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/43dcb6c4-0eb1-48c7-965b-4979eb747b5b"
+      },
+      "contact": {
+        "email": "chenderson@dccouncil.gov",
+        "district_voice": "202-724-8105",
+        "website": "https://dccouncil.gov/council/at-large-councilmember-christina-henderson/"
+      },
+      "social": {
+        "twitter": "CMCHenderson",
+        "facebook": "christinahendersondc"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2021/01/Headshot-Official-scaled-75x75-c-default.jpg",
+      "sources": [
+        "https://ballotpedia.org/Christina_Henderson",
+        "https://dccouncil.gov/council/at-large-councilmember-christina-henderson",
+        "https://dccouncil.gov/council/at-large-councilmember-christina-henderson/",
+        "https://dccouncil.us/council/at-large-councilmember-christina-henderson",
+        "https://dccouncil.us/council/at-large-councilmember-christina-henderson/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://en.wikipedia.org/wiki/Christina_Henderson_(politician)",
+        "https://www.christinahenderson.org",
+        "https://www.linkedin.com/in/christina-henderson-54093620",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "crawford-doni-dc-hdat-large",
+      "name": "Doni Crawford",
+      "party": "Independent",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-At-Large)",
+      "state": "DC",
+      "district": "HD-At-Large",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5b179576-4f3f-453c-b40a-32917d38d751"
+      },
+      "contact": {
+        "email": "dcrawford@dccouncil.gov",
+        "district_voice": "202-724-7772",
+        "website": "https://dccouncil.gov/council/at-large-councilmember-doni-crawford/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2026/01/Bio-Pic-scaled-125x125-c-default.jpeg",
+      "sources": [
+        "https://dccouncil.gov/council/at-large-councilmember-doni-crawford",
+        "https://dccouncil.gov/council/at-large-councilmember-doni-crawford/",
+        "https://en.wikipedia.org/wiki/Doni_Crawford",
+        "https://www.linkedin.com/in/donicrawford",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "lewis-george-janeese-dc-hdward-4",
+      "name": "Janeese Lewis George",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-Ward 4)",
+      "state": "DC",
+      "district": "HD-Ward 4",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4fc6d65b-d6d2-46d7-bdea-48b5458576ab"
+      },
+      "contact": {
+        "email": "jlewisgeorge@dccouncil.gov",
+        "district_voice": "202-724-8052",
+        "website": "https://dccouncil.gov/council/ward-4-councilmember-janeese-lewis-george/"
+      },
+      "bio": {
+        "birth_date": "1988-04-30",
+        "gender": "Female"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2021/01/0EB064A9-D1C7-4387-945B-4DDD13AF8415-75x75-c-default.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Janeese_Lewis_George",
+        "https://dccouncil.gov/council/ward-4-councilmember-janeese-lewis-george",
+        "https://dccouncil.gov/council/ward-4-councilmember-janeese-lewis-george/",
+        "https://dccouncil.us/council/ward-4-councilmember-janeese-lewis-george",
+        "https://dccouncil.us/council/ward-4-councilmember-janeese-lewis-george/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://en.wikipedia.org/wiki/Janeese_Lewis_George",
+        "https://janeeseward4.com",
+        "https://janeeseward4.com/",
+        "https://www.linkedin.com/in/janeeselewis",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "frumin-matt-dc-hdward-3",
+      "name": "Matt Frumin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-Ward 3)",
+      "state": "DC",
+      "district": "HD-Ward 3",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3451eb73-5042-4269-91b5-0287e527e72e"
+      },
+      "contact": {
+        "email": "mfrumin@dccouncil.gov",
+        "district_voice": "202-724-8062",
+        "website": "https://dccouncil.gov/council/ward-3-councilmember-matthew-frumin/"
+      },
+      "social": {
+        "twitter": "CMFrumin",
+        "facebook": "cmfrumin"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2023/01/Headshot1-scaled-75x75-c-default.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Frumin",
+        "https://dccouncil.gov/council/ward-3-councilmember-matthew-frumin",
+        "https://dccouncil.gov/council/ward-3-councilmember-matthew-frumin/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://en.wikipedia.org/wiki/Matthew_Frumin",
+        "https://www.linkedin.com/in/matthew-frumin-75990745",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "mendelson-phil-dc-hdchairman",
+      "name": "Phil Mendelson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-Chairman)",
+      "state": "DC",
+      "district": "HD-Chairman",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e3b9567d-67ff-4cc1-89eb-1ed1af646393"
+      },
+      "contact": {
+        "email": "pmendelson@dccouncil.gov",
+        "district_voice": "202-724-8032",
+        "website": "https://chairmanmendelson.com/"
+      },
+      "social": {
+        "twitter": "ChmnMendelson",
+        "facebook": "ChairmanPhilMendelson"
+      },
+      "bio": {
+        "birth_date": "1952-11-08",
+        "gender": "Male"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2017/03/Photo-107-002-110x110-c-default.jpg",
+      "sources": [
+        "https://ballotpedia.org/Phil_Mendelson",
+        "https://chairmanmendelson.com",
+        "https://chairmanmendelson.com/about-phil",
+        "https://dccouncil.gov/council/phil-mendelson",
+        "https://dccouncil.gov/council/phil-mendelson/",
+        "https://dccouncil.us/council/phil-mendelson",
+        "https://dccouncil.us/council/phil-mendelson/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://en.wikipedia.org/wiki/Phil_Mendelson",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "white-robert-dc-hdat-large",
+      "name": "Robert White",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-At-Large)",
+      "state": "DC",
+      "district": "HD-At-Large",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/07b9c384-a232-40d5-b445-61db9e4bb65b"
+      },
+      "contact": {
+        "email": "rwhite@dccouncil.gov",
+        "district_voice": "202-724-8174",
+        "website": "https://dccouncil.gov/council/councilmember-robert-c-white-jr/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2017/06/CM-Robert-White-Headshot_Photo-credit-Sebastian-Vizcarra-scaled-75x75-c-default.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_White_(District_of_Columbia)",
+        "https://dccouncil.gov/council/councilmember-robert-c-white-jr",
+        "https://dccouncil.gov/council/councilmember-robert-c-white-jr/",
+        "https://dccouncil.us/council/councilmember-robert-c-white-jr",
+        "https://dccouncil.us/council/councilmember-robert-c-white-jr/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://en.wikipedia.org/wiki/Robert_White_(Washington,_D.C._politician)",
+        "https://www.linkedin.com/in/robert-white-503b825",
+        "https://www.robertwhiteatlarge.com",
+        "https://www.robertwhiteatlarge.com/",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "white-trayon-dc-hdward-8",
+      "name": "Trayon White",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-Ward 8)",
+      "state": "DC",
+      "district": "HD-Ward 8",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8c48b12b-59a2-41bb-96c5-fc3b367637aa"
+      },
+      "contact": {
+        "email": "twhite@dccouncil.gov",
+        "district_voice": "202-724-8045",
+        "website": "https://dccouncil.gov/council/councilmember-trayon-white-sr/"
+      },
+      "bio": {
+        "birth_date": "1984-05-11",
+        "gender": "Male"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2017/06/tw-75x75-c-default.jpg",
+      "sources": [
+        "https://ballotpedia.org/Trayon_White",
+        "https://dccouncil.gov/council/councilmember-trayon-white-sr",
+        "https://dccouncil.gov/council/councilmember-trayon-white-sr/",
+        "https://dccouncil.us/council/councilmember-trayon-white-sr",
+        "https://dccouncil.us/council/councilmember-trayon-white-sr/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://en.wikipedia.org/wiki/Trayon_White",
+        "https://www.linkedin.com/in/trayon-white-52b54431",
+        "https://www.trayonwhite8.com",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "felder-wendell-dc-hdward-7",
+      "name": "Wendell Felder",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-Ward 7)",
+      "state": "DC",
+      "district": "HD-Ward 7",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f71836b9-1112-4210-a794-40b9d2c1e648"
+      },
+      "contact": {
+        "email": "wfelder@dccouncil.gov",
+        "website": "https://dccouncil.gov/council/ward-7-councilmember-wendell-felder/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Wendell_Felder",
+        "https://dccouncil.gov/council/ward-7-councilmember-wendell-felder",
+        "https://en.wikipedia.org/wiki/Wendell_Felder",
+        "https://www.linkedin.com/in/wendell-felder-7a117757",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    },
+    {
+      "politician_id": "parker-zachary-dc-hdward-5",
+      "name": "Zachary Parker",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "District of Columbia State Representative (HD-Ward 5)",
+      "state": "DC",
+      "district": "HD-Ward 5",
+      "chamber": "legislature",
+      "jurisdiction": "DC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/30cb555a-f684-418e-8b63-8101e7a34552"
+      },
+      "contact": {
+        "email": "zparker@dccouncil.gov",
+        "district_voice": "202-724-8028",
+        "website": "https://dccouncil.gov/council/ward-5-councilmember-zachary-parker/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dccouncil.gov/wp-content/uploads/2023/01/Zachary-Parker-Headshot-75x75-c-default.jpg",
+      "sources": [
+        "https://ballotpedia.org/Zachary_Parker_(District_of_Columbia)",
+        "https://dccouncil.gov/council/ward-5-councilmember-zachary-parker",
+        "https://dccouncil.gov/council/ward-5-councilmember-zachary-parker/",
+        "https://dccouncil.us/councilmembers",
+        "https://dccouncil.us/councilmembers/",
+        "https://www.linkedin.com/in/zachary-parker-673a93b",
+        "https://www.zacharyforward5.com/about",
+        "https://zacharyparkerward5.com",
+        "https://data.openstates.org/people/current/dc.csv"
+      ]
+    }
+  ]
+}

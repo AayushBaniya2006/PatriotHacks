@@ -195,13 +195,19 @@ export default function ResultsPage() {
               className="flex w-full items-center gap-5 p-5 text-left hover:bg-white/[0.035]"
               onClick={() => toggleExpand(r.politician_id)}
             >
-              <MetricSeal value={r.overall} label="OVR" className={ovrColor(r.overall)} />
+              {r.insufficient_data ? (
+                <MetricSeal value="-" label="No data" className="border-dashed border-white/18 text-white/45" />
+              ) : (
+                <MetricSeal value={r.overall} label="OVR" className={ovrColor(r.overall)} />
+              )}
               <div className="min-w-0 flex-1">
                 <div className="flex items-baseline gap-2">
                   <span className="truncate font-serif text-xl text-white">{r.politician_name}</span>
                   {r.party && <span className="text-xs text-white/42">({r.party})</span>}
                 </div>
-                <div className="text-sm text-white/58">{r.overall_tier}</div>
+                <div className="text-sm text-white/58">
+                  {r.insufficient_data ? "Limited data — research pending" : r.overall_tier}
+                </div>
                 {r.warnings.length > 0 && (
                   <div className="mt-1 flex flex-wrap gap-1.5">
                     {r.warnings.map((w) => (
@@ -209,17 +215,37 @@ export default function ResultsPage() {
                     ))}
                   </div>
                 )}
-                <div className="mt-2 flex flex-wrap gap-4 text-xs text-white/45">
-                  <span>Issue alignment: <b className="text-white/75">{r.score}%</b></span>
-                  <span>
-                    Record quality:{" "}
-                    <b className="text-white/75">
-                      {r.qualitative_composite !== null
-                        ? `${Math.round(r.qualitative_composite * 100)}%`
-                        : "n/a"}
-                    </b>
-                  </span>
-                  <span>Evidence: <b className="text-white/75">{r.confidence}</b></span>
+                <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-white/45">
+                  {r.insufficient_data ? (
+                    <span>
+                      Not scored — sourced evidence on{" "}
+                      <b className="text-white/75">
+                        {r.coverage.scored_issues} of your {r.coverage.user_issues}
+                      </b>{" "}
+                      issues ({r.coverage.profile_stances} researched position
+                      {r.coverage.profile_stances === 1 ? "" : "s"} total)
+                    </span>
+                  ) : (
+                    <>
+                      <span>Issue alignment: <b className="text-white/75">{r.score}%</b></span>
+                      <span>
+                        Scored on{" "}
+                        <b className="text-white/75">
+                          {r.coverage.scored_issues} of your {r.coverage.user_issues}
+                        </b>{" "}
+                        issues
+                      </span>
+                      <span>
+                        Record quality:{" "}
+                        <b className="text-white/75">
+                          {r.qualitative_composite !== null
+                            ? `${Math.round(r.qualitative_composite * 100)}%`
+                            : "n/a"}
+                        </b>
+                      </span>
+                      <span>Evidence: <b className="text-white/75">{r.confidence}</b></span>
+                    </>
+                  )}
                 </div>
               </div>
               <Link
@@ -272,26 +298,35 @@ export default function ResultsPage() {
                   })()
                 ) : null}
 
-                <div className="grid grid-cols-3 gap-3 text-center text-xs">
-                  <div className="rounded-[8px] border border-white/10 bg-navy-dark/60 p-3">
-                    <div className="font-serif text-xl text-gold">
-                      +{r.overall_components.alignment_component}
-                    </div>
-                    <div className="text-white/42">from issue alignment (quant)</div>
+                {r.insufficient_data ? (
+                  <div className="rounded-[8px] border border-dashed border-white/14 bg-navy-dark/60 p-3 text-xs text-white/48">
+                    <span className="font-medium text-white/72">Limited data — research pending.</span>{" "}
+                    Our research set doesn&apos;t have enough sourced positions for this
+                    candidate to compute an honest score, so no rating is shown. This
+                    reflects our coverage, not the candidate&apos;s record.
                   </div>
-                  <div className="rounded-[8px] border border-white/10 bg-navy-dark/60 p-3">
-                    <div className="font-serif text-xl text-gold">
-                      +{r.overall_components.qualitative_component}
+                ) : (
+                  <div className="grid grid-cols-3 gap-3 text-center text-xs">
+                    <div className="rounded-[8px] border border-white/10 bg-navy-dark/60 p-3">
+                      <div className="font-serif text-xl text-gold">
+                        +{r.overall_components.alignment_component}
+                      </div>
+                      <div className="text-white/42">from issue alignment (quant)</div>
                     </div>
-                    <div className="text-white/42">from record quality (qual)</div>
-                  </div>
-                  <div className="rounded-[8px] border border-white/10 bg-navy-dark/60 p-3">
-                    <div className="font-serif text-xl text-red-100">
-                      −{r.overall_components.conflict_penalty}
+                    <div className="rounded-[8px] border border-white/10 bg-navy-dark/60 p-3">
+                      <div className="font-serif text-xl text-gold">
+                        +{r.overall_components.qualitative_component}
+                      </div>
+                      <div className="text-white/42">from record quality (qual)</div>
                     </div>
-                    <div className="text-white/42">conflicts on your top issues</div>
+                    <div className="rounded-[8px] border border-white/10 bg-navy-dark/60 p-3">
+                      <div className="font-serif text-xl text-red-100">
+                        −{r.overall_components.conflict_penalty}
+                      </div>
+                      <div className="text-white/42">conflicts on your top issues</div>
+                    </div>
                   </div>
-                </div>
+                )}
 
                 {r.qualitative.length > 0 && (
                   <div>

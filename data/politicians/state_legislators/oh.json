@@ -1,0 +1,4513 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/oh.csv",
+  "state": "OH",
+  "politicians": [
+    {
+      "politician_id": "bird-adam-oh-hd63",
+      "name": "Adam Bird",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-63)",
+      "state": "OH",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0c6a7bcf-e990-41a0-b59c-923f05771880"
+      },
+      "contact": {
+        "email": "rep63@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/adam-c-bird"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/adam-c-bird/headshots/thumbnails/medium/adam-c-bird-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adam_Bird",
+        "https://en.wikipedia.org/wiki/Adam_Bird",
+        "https://justfacts.votesmart.org/candidate/biography/189482/adam-bird",
+        "https://ohiohouse.gov/members/adam-c-bird",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "holmes-adam-oh-hd97",
+      "name": "Adam Holmes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-97)",
+      "state": "OH",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/78912d95-3dac-4487-810a-74be41508ebb"
+      },
+      "contact": {
+        "email": "rep97@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/adam-holmes"
+      },
+      "bio": {
+        "birth_date": "1967-07-31",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/adam-holmes/headshots/thumbnails/medium/adam-holmes-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adam_Holmes",
+        "https://en.wikipedia.org/wiki/Adam_Holmes",
+        "https://justfacts.votesmart.org/candidate/biography/186245/adam-holmes",
+        "https://ohiohouse.gov/adam-holmes",
+        "https://ohiohouse.gov/members/adam-holmes",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/adamholmes2016",
+        "https://www.ohiohouse.gov/members/adam-holmes",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "mathews-adam-oh-hd56",
+      "name": "Adam Mathews",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-56)",
+      "state": "OH",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b04e2962-e7c6-46b8-9a99-d7a6d3a32717"
+      },
+      "contact": {
+        "email": "rep56@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/adam-mathews"
+      },
+      "bio": {
+        "birth_date": "1988-01-07",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/adam-mathews/headshots/thumbnails/medium/adam-mathews-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adam_Mathews",
+        "https://en.wikipedia.org/wiki/Adam_Mathews",
+        "https://ohiohouse.gov/members/adam-mathews",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/adamfmathews",
+        "https://www.ohiohouse.gov/members/adam-mathews",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "cutrona-al-oh-sd33",
+      "name": "Al Cutrona",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-33)",
+      "state": "OH",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6a1fc3b1-ebfd-47b7-adec-ddcd84d137c9"
+      },
+      "contact": {
+        "email": "sd33@ohiosenate.gov",
+        "website": "https://ohiohouse.gov/al-cutrona"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/al-cutrona/headshots/thumbnails/medium/al-cutrona-february-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alessandro_Cutrona",
+        "https://en.wikipedia.org/wiki/Alessandro_Cutrona",
+        "https://ohiohouse.gov/al-cutrona",
+        "https://ohiohouse.gov/members/al-cutrona",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/al-cutrona",
+        "https://www.ohiosenate.gov/members/al-cutrona",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "landis-al-oh-sd31",
+      "name": "Al Landis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-31)",
+      "state": "OH",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/debec71d-fcfb-4422-9c9e-c6a8709cbb3a"
+      },
+      "contact": {
+        "email": "sd31@ohiosenate.gov",
+        "website": "https://ohiosenate.gov/members/al-landis"
+      },
+      "bio": {
+        "birth_date": "1954-11-02",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/al-landis/headshots/thumbnails/medium/al-landis-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Al_Landis",
+        "https://en.wikipedia.org/wiki/Al_Landis",
+        "https://justfacts.votesmart.org/candidate/biography/120624/al-landis",
+        "https://ohiosenate.gov/members/al-landis",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "white-andrea-oh-hd36",
+      "name": "Andrea White",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-36)",
+      "state": "OH",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/07c054e9-9a51-41b2-994a-8f63b0148d07"
+      },
+      "contact": {
+        "email": "rep36@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/andrea-white"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/andrea-white/headshots/thumbnails/medium/andrea-white-march-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Andrea_White",
+        "https://en.wikipedia.org/wiki/Andrea_White_(politician)",
+        "https://justfacts.votesmart.org/candidate/189450/andrea-white",
+        "https://ohiohouse.gov/andrea-white",
+        "https://ohiohouse.gov/members/andrea-white",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/andrea-white-99104b18a",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "brenner-andrew-oh-sd19",
+      "name": "Andrew Brenner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-19)",
+      "state": "OH",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c61c8eaf-1de9-419d-a5dc-c96787315578"
+      },
+      "contact": {
+        "email": "sd19@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/andrew-o-brenner"
+      },
+      "bio": {
+        "birth_date": "1971-01-14",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/andrew-o-brenner/headshots/thumbnails/medium/andrew-o-brenner-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Andrew_Brenner",
+        "https://en.wikipedia.org/wiki/Andrew_Brenner",
+        "https://justfacts.votesmart.org/candidate/biography/120481/andrew-brenner",
+        "https://ohiosenate.gov/members/andrew-o-brenner",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/andrew-brenner-4471316",
+        "https://www.linkedin.com/in/andrew-brenner-a44714309",
+        "https://www.ohiosenate.gov/members/andrew-o-brenner",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "king-angie-oh-hd84",
+      "name": "Angie King",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-84)",
+      "state": "OH",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4ed8184a-01ff-4bdc-a06c-cbf8b4c73fd6"
+      },
+      "contact": {
+        "email": "rep84@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/angela-n-king"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/angela-n-king/headshots/thumbnails/medium/angela-n-king-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Angela_King",
+        "https://en.wikipedia.org/wiki/Angela_King_(Ohio_politician)",
+        "https://ohiohouse.gov/members/angela-n-king",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/angie-king-mba-2430523",
+        "https://www.ohiohouse.gov/members/angela-n-king",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "somani-anita-oh-hd8",
+      "name": "Anita Somani",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-8)",
+      "state": "OH",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3bfe0748-5423-4fcf-9962-905d2b747f23"
+      },
+      "contact": {
+        "email": "rep08@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/anita-somani"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/anita-somani/headshots/thumbnails/medium/anita-somani-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anita_Somani",
+        "https://en.wikipedia.org/wiki/Anita_Somani",
+        "https://justfacts.votesmart.org/candidate/biography/210315/anita-somani",
+        "https://ohiohouse.gov/members/anita-somani",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/anita-somani-5a64942a",
+        "https://www.ohiohouse.gov/members/anita-somani",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "bryant-bailey-ashley-oh-hd26",
+      "name": "Ashley Bryant Bailey",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-26)",
+      "state": "OH",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6d39391d-7068-4ad3-866d-4ee59890ce6e"
+      },
+      "contact": {
+        "email": "rep26@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/ashley-bryant-bailey"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ashleybryantbailey.com",
+        "https://ballotpedia.org/Ashley_Bryant_Bailey",
+        "https://ohiohouse.gov/members/ashley-bryant-bailey",
+        "https://www.linkedin.com/in/ashleylbryant",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "willis-bernie-oh-hd74",
+      "name": "Bernie Willis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-74)",
+      "state": "OH",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/550986e6-b595-4fa8-9424-8e09327cf060"
+      },
+      "contact": {
+        "email": "rep74@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/bernard-willis"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/bernard-willis/headshots/thumbnails/medium/bernard-willis-february-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bernard_Willis",
+        "https://justfacts.votesmart.org/candidate/biography/209726/bernard-willis",
+        "https://ohiohouse.gov/members/bernard-willis",
+        "https://willisforohio.nationbuilder.com/about_bernie",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/bernie-willis-754b04257",
+        "https://www.linkedin.com/in/colonel-bernie-bunyan-willis-2a57b538",
+        "https://www.ohiohouse.gov/members/bernard-willis",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "piccolantonio-beryl-oh-hd4",
+      "name": "Beryl Piccolantonio",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-4)",
+      "state": "OH",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dc1a25bf-ebf6-4d5c-b5c3-32f9fdb8b2ed"
+      },
+      "contact": {
+        "email": "rep04@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/beryl-piccolantonio"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Beryl_Brown_Piccolantonio",
+        "https://ohiohouse.gov/members/beryl-piccolantonio",
+        "https://www.linkedin.com/in/berylpiccolantonio",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "lear-beth-oh-hd61",
+      "name": "Beth Lear",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-61)",
+      "state": "OH",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de0a6483-7c16-43e1-a76b-c0cc98a9d7ed"
+      },
+      "contact": {
+        "email": "rep61@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/beth-lear"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/beth-lear/headshots/thumbnails/medium/beth-lear-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Beth_Lear",
+        "https://en.wikipedia.org/wiki/Beth_Lear",
+        "https://ohiohouse.gov/members/beth-lear",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/beth-lear-1010ba19",
+        "https://www.ohiohouse.gov/members/beth-lear",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "liston-beth-oh-sd16",
+      "name": "Beth Liston",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-16)",
+      "state": "OH",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2d01ff0c-25a8-49a2-b571-ab3a7866fcf2"
+      },
+      "contact": {
+        "email": "sd16@ohiosenate.gov",
+        "website": "https://ohiohouse.gov/beth-liston"
+      },
+      "bio": {
+        "birth_date": "1974-10-26",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/beth-liston/headshots/thumbnails/medium/beth-liston-november-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Beth_Liston",
+        "https://en.wikipedia.org/wiki/Beth_Liston",
+        "https://ohiohouse.gov/beth-liston",
+        "https://ohiohouse.gov/members/beth-liston",
+        "https://ohiosenate.gov/members/beth-liston",
+        "https://ohiosenate.gov/members/beth-liston/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/beth-liston-462811131",
+        "https://www.ohiohouse.gov/members/beth-liston",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "reineke-bill-oh-sd26",
+      "name": "Bill Reineke",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-26)",
+      "state": "OH",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/10733ff7-ee19-4e86-9b5e-65619ddbf7bf"
+      },
+      "contact": {
+        "email": "sd26@ohiosenate.gov",
+        "website": "https://www.ohiohouse.gov/bill-reineke"
+      },
+      "bio": {
+        "birth_date": "1954-10-09",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/bill-reineke/headshots/thumbnails/medium/bill-reineke-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bill_Reineke",
+        "https://en.wikipedia.org/wiki/Bill_Reineke",
+        "https://ohiosenate.gov/members/bill-reineke",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiosenate.gov/members/bill-reineke",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "roemer-bill-oh-hd31",
+      "name": "Bill Roemer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-31)",
+      "state": "OH",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4cece9f3-e252-438b-8255-a2150a4ed599"
+      },
+      "contact": {
+        "email": "rep31@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/bill-roemer"
+      },
+      "bio": {
+        "birth_date": "1956-08-21",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/bill-roemer/headshots/thumbnails/medium/bill-roemer-january-2019-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bill_Roemer",
+        "https://en.wikipedia.org/wiki/Bill_Roemer",
+        "https://justfacts.votesmart.org/candidate/biography/134327/bill-roemer",
+        "https://ohiohouse.gov/bill-roemer",
+        "https://ohiohouse.gov/members/bill-roemer",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/bill-roemer-557a1b1b",
+        "https://www.ohiohouse.gov/members/bill-roemer",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "peterson-bob-oh-hd91",
+      "name": "Bob Peterson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-91)",
+      "state": "OH",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cdc9f705-514e-4445-ac17-9aeac8f67e97"
+      },
+      "contact": {
+        "email": "rep91@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/bob-peterson"
+      },
+      "bio": {
+        "birth_date": "1962-03-15",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/bob-peterson/headshots/thumbnails/medium/bob-peterson-november-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bob_Peterson_(Ohio)",
+        "https://en.wikipedia.org/wiki/Bob_Peterson_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/95755/bob-peterson",
+        "https://ohiohouse.gov/members/bob-peterson",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/bob-peterson-80952b12",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "lampton-brian-oh-hd70",
+      "name": "Brian Lampton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-70)",
+      "state": "OH",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1895e223-ba42-4e25-8cd0-915ca5cc2829"
+      },
+      "contact": {
+        "email": "rep70@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/brian-e-lampton"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/brian-e-lampton/headshots/thumbnails/medium/brian-e-lampton-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Lampton",
+        "https://en.wikipedia.org/wiki/Brian_Lampton",
+        "https://justfacts.votesmart.org/candidate/biography/102740/brian-lampton",
+        "https://ohiohouse.gov/brian-e-lampton",
+        "https://ohiohouse.gov/members/brian-e-lampton",
+        "https://ohiohouse.gov/members/brian-lampton",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/brian-lampton-a6555614",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "lorenz-brian-oh-hd60",
+      "name": "Brian Lorenz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-60)",
+      "state": "OH",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a3ccce64-ea28-47dc-8bab-3af6ed2dd860"
+      },
+      "contact": {
+        "email": "rep60@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/brian-lorenz"
+      },
+      "bio": {
+        "birth_date": "1973-01-26",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/brian-lorenz/headshots/thumbnails/medium/brian-lorenz-november-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Lorenz",
+        "https://brianlorenzohio.com",
+        "https://en.wikipedia.org/wiki/Brian_Lorenz",
+        "https://ohiohouse.gov/members/brian-lorenz",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/brianlorenz79",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "chavez-brian-oh-sd30",
+      "name": "Brian Chavez",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-30)",
+      "state": "OH",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eb5ff860-2126-4ac5-8267-9d2d924c3967"
+      },
+      "contact": {
+        "email": "sd30@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/brian-m-chavez"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/brian-m-chavez/headshots/thumbnails/medium/brian-m-chavez-december-2023-headshot-10001385_medium.jpg",
+      "sources": [
+        "https://ohiosenate.gov/members/brian-m-chavez",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/brian-chavez-263012232",
+        "https://www.ohiosenate.gov/members/brian-m-chavez",
+        "https://www.ohiosenate.gov/members/brian-m-chavez/biography",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "stewart-brian-oh-hd12",
+      "name": "Brian Stewart",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-12)",
+      "state": "OH",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f4e6c51a-89bd-4841-848b-b1097fd3fc9d"
+      },
+      "contact": {
+        "email": "rep12@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/brian-stewart"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/brian-stewart/headshots/thumbnails/medium/brian-stewart-november-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Stewart_(Ohio)",
+        "https://en.wikipedia.org/wiki/Brian_Stewart_(politician)",
+        "https://ohiohouse.gov/brian-stewart",
+        "https://ohiohouse.gov/members/brian-stewart",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/brianstewartohio",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "sweeney-bride-oh-hd16",
+      "name": "Bride Sweeney",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-16)",
+      "state": "OH",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2481dfc7-d260-49c6-9461-9e6048ed27a2"
+      },
+      "contact": {
+        "email": "rep16@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/bride-rose-sweeney"
+      },
+      "bio": {
+        "birth_date": "1992-07-21",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/bride-rose-sweeney/headshots/thumbnails/medium/bride-rose-sweeney-january-2019-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bride_Rose_Sweeney",
+        "https://en.wikipedia.org/wiki/Bride_Rose_Sweeney",
+        "https://justfacts.votesmart.org/candidate/biography/179029/bride-sweeney",
+        "https://ohiohouse.gov/bride-rose-sweeney",
+        "https://ohiohouse.gov/members/bride-rose-sweeney",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/bride-rose-sweeney",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "russo-allison-oh-hd7",
+      "name": "Allison Russo",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-7)",
+      "state": "OH",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c58b6767-730d-4486-a08e-462ea3af3bfe"
+      },
+      "contact": {
+        "email": "rep07@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/c-allison-russo"
+      },
+      "bio": {
+        "birth_date": "1976-10-15",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/c-allison-russo/headshots/thumbnails/medium/c-allison-russo-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Allison_Russo",
+        "https://en.wikipedia.org/wiki/Allison_Russo",
+        "https://ohiohouse.gov/c-allison-russo",
+        "https://ohiohouse.gov/members/c-allison-russo",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/allison-russo-2244765",
+        "https://www.ohiohouse.gov/members/c-allison-russo",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "weinstein-casey-oh-sd28",
+      "name": "Casey Weinstein",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-28)",
+      "state": "OH",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d7949531-f267-4e99-9611-87b3ec3e04ac"
+      },
+      "contact": {
+        "email": "sd28@ohiosenate.gov",
+        "website": "https://ohiohouse.gov/casey-weinstein"
+      },
+      "bio": {
+        "birth_date": "1982-08-27",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/casey-weinstein/headshots/thumbnails/medium/casey-weinstein-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Casey_Weinstein",
+        "https://en.wikipedia.org/wiki/Casey_Weinstein",
+        "https://justfacts.votesmart.org/candidate/biography/175731/casey-weinstein",
+        "https://ohiohouse.gov/casey-weinstein",
+        "https://ohiohouse.gov/members/casey-weinstein",
+        "https://ohiosenate.gov/members/casey-weinstein",
+        "https://ohiosenate.gov/members/casey-weinstein/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/casey-weinstein-b383754",
+        "https://www.ohiohouse.gov/members/casey-weinstein",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "ingram-catherine-oh-sd9",
+      "name": "Catherine Ingram",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-9)",
+      "state": "OH",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/94ba65dd-57c5-4ab0-b607-5e310d50cae0"
+      },
+      "contact": {
+        "email": "sd09@ohiosenate.gov",
+        "website": "https://ohiohouse.gov/catherine-d-ingram"
+      },
+      "social": {
+        "twitter": "cingram32"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/catherine-d-ingram/headshots/thumbnails/medium/catherine-d-ingram-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Catherine_Ingram",
+        "https://en.wikipedia.org/wiki/Catherine_Ingram",
+        "https://ohiohouse.gov/catherine-d-ingram",
+        "https://ohiosenate.gov/members/catherine-d-ingram",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/catherine-ingram-mba-558b9253",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiosenate.gov/members/catherine-d-ingram",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "thomas-cecil-oh-hd25",
+      "name": "Cecil Thomas",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-25)",
+      "state": "OH",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5ba7ae7d-2f10-42b7-8784-8e734507ce33"
+      },
+      "contact": {
+        "email": "rep25@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/cecil-thomas"
+      },
+      "bio": {
+        "birth_date": "1952-10-21",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/cecil-thomas/headshots/thumbnails/medium/cecil-thomas-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cecil_Thomas",
+        "https://en.wikipedia.org/wiki/Cecil_Thomas_(politician)",
+        "https://ohiohouse.gov/members/cecil-thomas",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/cecil-thomas-37933a9b",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "glassburn-chris-oh-hd15",
+      "name": "Chris Glassburn",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-15)",
+      "state": "OH",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/80daf159-0742-4a3f-9575-e6492155c911"
+      },
+      "contact": {
+        "email": "rep15@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/chris-glassburn"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://img1.wsimg.com/isteam/ip/fdba7286-8a27-4b98-a8ec-557eff11bd3a/IMG_3635.jpg/:/cr=t:5.66%25,l:0%25,w:94.34%25,h:94.34%25/rs=w:365,h:487,cg:true,m",
+      "sources": [
+        "https://ballotpedia.org/Chris_Glassburn",
+        "https://ohiohouse.gov/members/chris-glassburn",
+        "https://ohiohouse.gov/members/chris-glassburn/biography",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "cockley-christine-oh-hd6",
+      "name": "Christine Cockley",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-6)",
+      "state": "OH",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b76c6e1e-8b9d-42bf-b615-73270b132773"
+      },
+      "contact": {
+        "email": "rep06@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/christine-cockley"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ChristineCockley2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Christine_Cockley",
+        "https://ohiohouse.gov/members/christine-cockley",
+        "https://ohiohouse.gov/members/christine-cockley/biography",
+        "https://www.linkedin.com/in/christinecockley",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "abrams-cindy-oh-hd29",
+      "name": "Cindy Abrams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-29)",
+      "state": "OH",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9ae0194c-0f5b-44c6-b84f-a0ec4d3f3a61"
+      },
+      "contact": {
+        "email": "rep29@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/cindy-abrams"
+      },
+      "bio": {
+        "birth_date": "1973-11-19",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/cindy-abrams/headshots/thumbnails/medium/cindy-abrams-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cindy_Abrams",
+        "https://en.wikipedia.org/wiki/Cindy_Abrams",
+        "https://justfacts.votesmart.org/candidate/biography/187372/cindy-abrams",
+        "https://ohiohouse.gov/cindy-abrams",
+        "https://ohiohouse.gov/members/cindy-abrams",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/cindy-abrams-661707a4",
+        "https://www.ohiohouse.gov/members/cindy-abrams",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "lett-crystal-oh-hd11",
+      "name": "Crystal Lett",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-11)",
+      "state": "OH",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aede29b6-7798-45b7-8401-5004cf1c29f9"
+      },
+      "contact": {
+        "email": "rep11@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/crystal-lett"
+      },
+      "bio": {
+        "birth_date": "1986-02-27",
+        "gender": "Female"
+      },
+      "image": "https://i0.wp.com/lettsgoohio.com/wp-content/uploads/2024/07/Meet-Crystal.webp?resize=674%2C1024&ssl=1",
+      "sources": [
+        "https://ballotpedia.org/Crystal_Lett",
+        "https://justfacts.votesmart.org/candidate/biography/189384/crystal-lett",
+        "https://ohiohouse.gov/members/crystal-lett",
+        "https://ohiohouse.gov/members/crystal-lett/biography",
+        "https://www.linkedin.com/in/crystal-lett-93846410",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "swearingen-d-j-oh-hd89",
+      "name": "D.J. Swearingen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-89)",
+      "state": "OH",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cb2ddd04-e5b0-4c96-b217-d02b732eb896"
+      },
+      "contact": {
+        "email": "rep89@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/d-j-swearingen"
+      },
+      "bio": {
+        "birth_date": "1986-04-04",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/d-j-swearingen/headshots/thumbnails/medium/d-j-swearingen-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/D.J._Swearingen",
+        "https://en.wikipedia.org/wiki/D._J._Swearingen",
+        "https://en.wikipedia.org/wiki/Douglas_Swearingen,_Jr.",
+        "https://ohiohouse.gov/d-j-swearingen",
+        "https://ohiohouse.gov/members/d-j-swearingen",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/d-j-swearingen-5059bb25",
+        "https://www.ohiohouse.gov/members/d-j-swearingen",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.wickenslaw.com/team-member/douglas-swearingen-esq",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "isaacsohn-dani-oh-hd24",
+      "name": "Dani Isaacsohn",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-24)",
+      "state": "OH",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1cc15373-6101-48fb-9597-d731c115eb70"
+      },
+      "contact": {
+        "email": "rep24@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/dani-isaacsohn"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/dani-isaacsohn/headshots/thumbnails/medium/dani-isaacsohn-april-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dani_Isaacsohn",
+        "https://en.wikipedia.org/wiki/Dani_Isaacsohn",
+        "https://ohiohouse.gov/members/dani-isaacsohn",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/dani-isaacsohn-22b351135",
+        "https://www.ohiohouse.gov/members/dani-isaacsohn",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "troy-dan-oh-hd23",
+      "name": "Dan Troy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-23)",
+      "state": "OH",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/04d4dc4f-a38a-4d50-8962-ea961550b2ff"
+      },
+      "contact": {
+        "email": "rep23@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/daniel-p-troy"
+      },
+      "bio": {
+        "birth_date": "1948-06-06",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/daniel-p-troy/headshots/thumbnails/medium/daniel-p-troy-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dan_Troy",
+        "https://en.wikipedia.org/wiki/Dan_Troy",
+        "https://justfacts.votesmart.org/candidate/biography/8405/daniel-troy",
+        "https://ohiohouse.gov/daniel-p-troy",
+        "https://ohiohouse.gov/members/daniel-p-troy",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/﻿troy﻿﻿-dan﻿﻿iel-25044a13",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "brewer-darnell-oh-hd22",
+      "name": "Darnell Brewer",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-22)",
+      "state": "OH",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a75181f0-f0e8-4af3-aefd-6cc08543af1a"
+      },
+      "contact": {
+        "email": "rep22@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/darnell-t-brewer"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/darnell-t-brewer/headshots/thumbnails/medium/darnell-t-brewer-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Darnell_Brewer",
+        "https://ohiohouse.gov/members/darnell-t-brewer",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/darnell-brewer-73a9866",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "thomas-david-oh-hd65",
+      "name": "David Thomas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-65)",
+      "state": "OH",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/170299dd-f2e4-463e-8b8b-ea3b75946120"
+      },
+      "contact": {
+        "email": "rep65@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/david-thomas"
+      },
+      "bio": {
+        "birth_date": "1993-04-05",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/DavidThomas2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Thomas_(Ohio)",
+        "https://ohiohouse.gov/members/david-thomas",
+        "https://ohiohouse.gov/members/david-thomas/biography",
+        "https://www.linkedin.com/in/david-thomas-9a605a56",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-derrick-oh-hd34",
+      "name": "Derrick Hall",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-34)",
+      "state": "OH",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/826530cc-f105-42c8-96db-e5ff7d1a966d"
+      },
+      "contact": {
+        "email": "rep34@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/derrick-hall"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://derrickhallforohio.com/wp-content/uploads/2024/01/derrick-hall.jpg",
+      "sources": [
+        "https://ballotpedia.org/Derrick_Hall",
+        "https://ohiohouse.gov/members/derrick-hall",
+        "https://ohiohouse.gov/members/derrick-hall/biography",
+        "https://www.linkedin.com/in/thederrickhall",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "tims-desire-oh-hd38",
+      "name": "Desireè Tims",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-38)",
+      "state": "OH",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86352961-5ebc-408a-9f16-8d801c7476dc"
+      },
+      "contact": {
+        "email": "rep38@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/desiree-tims"
+      },
+      "bio": {
+        "birth_date": "1970-10-04",
+        "gender": "Female"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/651c6aab7b083a0ae328c9b0/bdc196f5-d426-4103-bd2c-a29517a8e9cf/headshot+state+rep.JPG?format=500w",
+      "sources": [
+        "https://ballotpedia.org/Desiree_Tims",
+        "https://ohiohouse.gov/members/desiree-tims",
+        "https://ohiohouse.gov/members/desiree-tims/biography",
+        "https://www.desireetims.com",
+        "https://www.linkedin.com/in/desiree-t-47880b201",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "mullins-diane-oh-hd47",
+      "name": "Diane Mullins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-47)",
+      "state": "OH",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/deed175e-5c44-48f0-b2c0-baa342b2baf1"
+      },
+      "contact": {
+        "email": "rep47@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/diane-mullins"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://assets.civicengine.com/uploads/candidate/headshot/401180/401180.jpg",
+      "sources": [
+        "https://ballotpedia.org/Diane_Mullins",
+        "https://ohiohouse.gov/members/diane-mullins",
+        "https://ohiohouse.gov/members/diane-mullins/biography",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "jarrells-dontavius-oh-hd1",
+      "name": "Dontavius Jarrells",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-1)",
+      "state": "OH",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/74c1210d-fb56-4522-8d3a-0a2bb08c972b"
+      },
+      "contact": {
+        "email": "rep01@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/dontavius-l-jarrells"
+      },
+      "bio": {
+        "birth_date": "1988-04-04",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/dontavius-l-jarrells/headshots/thumbnails/medium/dontavius-l-jarrells-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dontavius_Jarrells",
+        "https://en.wikipedia.org/wiki/Dontavius_Jarrells",
+        "https://justfacts.votesmart.org/candidate/166992/dontavius-jarrells",
+        "https://ohiohouse.gov/dontavius-l-jarrells",
+        "https://ohiohouse.gov/members/dontavius-l-jarrells",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/iamDontavius",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "rogers-elgin-oh-hd42",
+      "name": "Elgin Rogers",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-42)",
+      "state": "OH",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bfe003c4-6a28-46d6-b831-07bfe8662926"
+      },
+      "contact": {
+        "email": "rep42@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/elgin-rogers-jr"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/elgin-rogers-jr/headshots/thumbnails/medium/elgin-rogers-jr-november-2022-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Elgin_Rogers_Jr.",
+        "https://ohiohouse.gov/members/elgin-rogers-jr",
+        "https://ohiohouse.gov/members/elgin-rogers-jr/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "synenberg-eric-oh-hd21",
+      "name": "Eric Synenberg",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-21)",
+      "state": "OH",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ebfe182-1b49-4e69-b7f3-2fd528c70d73"
+      },
+      "contact": {
+        "email": "rep21@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/eric-synenberg"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://synenberg.com/wp-content/uploads/2018/07/synenberg-eric-e1532726812589.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eric_Synenberg",
+        "https://ohiohouse.gov/members/eric-synenberg",
+        "https://ohiohouse.gov/members/eric-synenberg/biography",
+        "https://synenberg.com/people/eric-synenberg",
+        "https://www.linkedin.com/in/eric-synenberg-93a81ba1",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "white-erika-oh-hd41",
+      "name": "Erika White",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-41)",
+      "state": "OH",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ab851536-a9e6-45d7-b2fe-fad70f5acf07"
+      },
+      "contact": {
+        "email": "rep41@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/erika-white"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://i0.wp.com/erikaforohio.org/wp-content/uploads/2024/06/Erika_2024_enhanced.png?fit=600%2C742&ssl=1",
+      "sources": [
+        "https://ballotpedia.org/Erika_White",
+        "https://ohiohouse.gov/members/erika-white",
+        "https://ohiohouse.gov/members/erika-white/biography",
+        "https://www.linkedin.com/in/erika-d-white-31840024",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "click-gary-oh-hd88",
+      "name": "Gary Click",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-88)",
+      "state": "OH",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/04e3c98a-4ede-4501-b914-4fa13fbad194"
+      },
+      "contact": {
+        "email": "rep88@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/gary-click"
+      },
+      "bio": {
+        "birth_date": "1965-12-29",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/gary-click/headshots/thumbnails/medium/gary-click-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gary_Click",
+        "https://en.wikipedia.org/wiki/Gary_Click",
+        "https://justfacts.votesmart.org/candidate/biography/189500/gary-click",
+        "https://ohiohouse.gov/gary-click",
+        "https://ohiohouse.gov/members/gary-click",
+        "https://ohiohouse.gov/members/gary-click/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/gary-click-b19388148",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "manning-gayle-oh-hd52",
+      "name": "Gayle Manning",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-52)",
+      "state": "OH",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b29aadca-f2da-4f09-8a1d-7aa328768507"
+      },
+      "contact": {
+        "email": "rep52@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/gayle-manning"
+      },
+      "bio": {
+        "birth_date": "1950-03-02",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/gayle-manning/headshots/thumbnails/medium/gayle-manning-january-2019-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gayle_L._Manning",
+        "https://en.wikipedia.org/wiki/Gayle_Manning",
+        "https://ohiohouse.gov/gayle-manning",
+        "https://ohiohouse.gov/members/gayle-manning",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/gayle-manning80-42669a43",
+        "https://www.ohiohouse.gov/members/gayle-manning",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "lang-george-oh-sd4",
+      "name": "George Lang",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-4)",
+      "state": "OH",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/445d3fc7-d9a5-48d8-8869-f023aa274ae7"
+      },
+      "contact": {
+        "email": "sd04@ohiosenate.gov",
+        "website": "https://www.ohiohouse.gov/george-f-lang"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/george-f-lang/headshots/thumbnails/medium/george-f-lang-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/George_Lang",
+        "https://en.wikipedia.org/wiki/George_Lang_(Ohio_politician)",
+        "https://ohiosenate.gov/members/george-f-lang",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiosenate.gov/members/george-f-lang",
+        "https://www.ohiosenate.gov/members/george-f-lang/biography",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "ghanbari-haraz-oh-hd75",
+      "name": "Haraz Ghanbari",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-75)",
+      "state": "OH",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/82dd3548-078a-41a8-8c5b-6c652d88d0d2"
+      },
+      "contact": {
+        "email": "rep75@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/haraz-n-ghanbari"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/haraz-n-ghanbari/headshots/thumbnails/medium/haraz-n-ghanbari-november-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Haraz_Ghanbari",
+        "https://en.wikipedia.org/wiki/Haraz_Ghanbari",
+        "https://justfacts.votesmart.org/candidate/biography/186374/haraz-ghanbari",
+        "https://ohiohouse.gov/haraz-n-ghanbari",
+        "https://ohiohouse.gov/members/haraz-n-ghanbari",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/haraznghanbari",
+        "https://www.ohiohouse.gov/members/haraz-n-ghanbari",
+        "https://www.ohiohouse.gov/members/haraz-n-ghanbari/biography",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "craig-hearcel-oh-sd15",
+      "name": "Hearcel Craig",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-15)",
+      "state": "OH",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ed858ef9-97dc-4be8-97ab-006ea96923ae"
+      },
+      "contact": {
+        "email": "sd15@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/hearcel-f-craig"
+      },
+      "social": {
+        "twitter": "hearcelcraig",
+        "facebook": "senatorhearcelcraig",
+        "instagram": "hearcelcraig"
+      },
+      "bio": {
+        "birth_date": "1949-07-01",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/hearcel-f-craig/headshots/thumbnails/medium/hearcel-f-craig-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Hearcel_Craig",
+        "https://en.wikipedia.org/wiki/Hearcel_Craig",
+        "https://justfacts.votesmart.org/candidate/biography/75244/hearcel-craig",
+        "https://ohiosenate.gov/members/hearcel-f-craig",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiosenate.gov/members/hearcel-f-craig",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "workman-heidi-oh-hd72",
+      "name": "Heidi Workman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-72)",
+      "state": "OH",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/098614cd-1972-4b98-ade6-4f5fa7cefe5b"
+      },
+      "contact": {
+        "email": "rep72@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/heidi-workman"
+      },
+      "bio": {
+        "birth_date": "1980-12-12",
+        "gender": "Female"
+      },
+      "image": "https://www.record-courier.com/gcdn/authoring/authoring-images/2024/03/05/NREC/72855871007-heidi-workman.jpg?width=412&height=872&fit=crop&format=pjpg&auto=webp",
+      "sources": [
+        "https://ballotpedia.org/Heidi_Workman",
+        "https://ohiohouse.gov/members/heidi-workman",
+        "https://ohiohouse.gov/members/heidi-workman/biography",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "mohamed-ismail-oh-hd3",
+      "name": "Ismail Mohamed",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-3)",
+      "state": "OH",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ed31c4e5-e835-4c4c-9352-217f5dcf1037"
+      },
+      "contact": {
+        "email": "rep03@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/ismail-mohamed"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/ismail-mohamed/headshots/thumbnails/medium/ismail-mohamed-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ismail_Mohamed",
+        "https://en.wikipedia.org/wiki/Ismail_Mohamed_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/179050/ismail-mohamed",
+        "https://ohiohouse.gov/members/ismail-mohamed",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/ismail-mohamed-39a82681",
+        "https://www.ohiohouse.gov/members/ismail-mohamed",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "daniels-jack-oh-hd32",
+      "name": "Jack Daniels",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-32)",
+      "state": "OH",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9c459852-5ff7-4607-a09a-6ee2480dece1"
+      },
+      "contact": {
+        "email": "rep32@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/jack-k-daniels"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JackKDaniels24.png",
+      "sources": [
+        "https://ballotpedia.org/Jack_K._Daniels_(Ohio)",
+        "https://www.linkedin.com/in/jack-daniels-539b48285",
+        "https://www.ohiohouse.gov/members/jack-k-daniels",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "hoops-jim-oh-hd81",
+      "name": "Jim Hoops",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-81)",
+      "state": "OH",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1a598246-01e8-44c8-beca-2c41e1bafb77"
+      },
+      "contact": {
+        "email": "rep81@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/james-m-hoops"
+      },
+      "bio": {
+        "birth_date": "1959-03-09",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/james-m-hoops/headshots/thumbnails/medium/james-m-hoops-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/James_Hoops",
+        "https://en.wikipedia.org/wiki/Jim_Hoops",
+        "https://justfacts.votesmart.org/candidate/biography/23423/jim-hoops",
+        "https://ohiohouse.gov/james-m-hoops",
+        "https://ohiohouse.gov/members/james-m-hoops",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "callender-jamie-oh-hd57",
+      "name": "Jamie Callender",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-57)",
+      "state": "OH",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4b7cbc16-7a67-4a61-8fd5-77a857270774"
+      },
+      "contact": {
+        "email": "rep57@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/jamie-callender"
+      },
+      "bio": {
+        "birth_date": "1965-01-09",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/jamie-callender/headshots/thumbnails/medium/jamie-callender-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jamie_Callender",
+        "https://en.wikipedia.org/wiki/Jamie_Callender",
+        "https://justfacts.votesmart.org/candidate/biography/10051/james-callender",
+        "https://ohiohouse.gov/jamie-callender",
+        "https://ohiohouse.gov/members/jamie-callender",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/jamie-callender-6919b91a",
+        "https://www.ohiohouse.gov/members/jamie-callender",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "timken-jane-oh-sd29",
+      "name": "Jane Timken",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-29)",
+      "state": "OH",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c3b1dc5e-4913-4e2f-b2a8-4db5b3faa1bd"
+      },
+      "contact": {
+        "email": "sd29@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/jane-m-timken"
+      },
+      "bio": {
+        "birth_date": "1966-11-05",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jane_Timken",
+        "https://en.wikipedia.org/wiki/Jane_Timken",
+        "https://www.linkedin.com/in/jane-timken-0391737",
+        "https://www.ohiosenate.gov/members/jane-m-timken",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "stephens-jason-oh-hd93",
+      "name": "Jason Stephens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-93)",
+      "state": "OH",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fbd5ca34-d2ed-41d0-a0f8-03ee8eca8a4d"
+      },
+      "contact": {
+        "email": "rep93@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/jason-stephens"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/jason-stephens/headshots/thumbnails/medium/jason-stephens-november-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jason_Stephens_(Ohio)",
+        "https://en.wikipedia.org/wiki/Jason_Stephens_(politician)",
+        "https://ohiohouse.gov/jason-stephens",
+        "https://ohiohouse.gov/members/jason-stephens",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/jason-stephens-6828784a",
+        "https://www.ohiohouse.gov/members/jason-stephens",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "schmidt-jean-oh-hd62",
+      "name": "Jean Schmidt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-62)",
+      "state": "OH",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/392629a2-7bb2-47df-8128-d4cd7d858324"
+      },
+      "contact": {
+        "email": "rep62@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/jean-schmidt"
+      },
+      "bio": {
+        "birth_date": "1951-11-29",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jean_Schmidt_(Ohio)",
+        "https://en.wikipedia.org/wiki/Jean_Schmidt",
+        "https://ohiohouse.gov/jean-schmidt",
+        "https://ohiohouse.gov/members/jean-schmidt",
+        "https://www.govtrack.us/congress/members/jean_schmidt/412010",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "lare-jeff-oh-hd73",
+      "name": "Jeff LaRe",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-73)",
+      "state": "OH",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/60fdc824-a8ab-44fa-80ca-053d8698218e"
+      },
+      "contact": {
+        "email": "rep73@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/jeff-lare"
+      },
+      "bio": {
+        "birth_date": "1976-02-09",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/jeff-lare/headshots/thumbnails/medium/jeff-lare-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeff_LaRe",
+        "https://en.wikipedia.org/wiki/Jeff_LaRe",
+        "https://en.wikipedia.org/wiki/Jeffrey_LaRe",
+        "https://ohiohouse.gov/jeff-lare",
+        "https://ohiohouse.gov/members/jeff-lare",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/jeff-lare-b90729103",
+        "https://www.ohiohouse.gov/members/jeff-lare",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "gross-jennifer-oh-hd45",
+      "name": "Jennifer Gross",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-45)",
+      "state": "OH",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4817cf28-df1f-4ccc-bc09-25809222e530"
+      },
+      "contact": {
+        "email": "rep45@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/jennifer-gross"
+      },
+      "bio": {
+        "birth_date": "1964-06-07",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/jennifer-gross/headshots/thumbnails/medium/jennifer-gross-july-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Gross",
+        "https://en.wikipedia.org/wiki/Jennifer_Gross_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/189460/jennifer-gross",
+        "https://ohiohouse.gov/jennifer-gross",
+        "https://ohiohouse.gov/members/jennifer-gross",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/jengross",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "cirino-jerry-oh-sd18",
+      "name": "Jerry Cirino",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-18)",
+      "state": "OH",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b27fdceb-e9c1-46b8-9fc2-323c3f6f784c"
+      },
+      "contact": {
+        "email": "sd18@ohiosenate.gov",
+        "website": "https://ohiosenate.gov/members/jerry-c-cirino"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/jerry-c-cirino/headshots/thumbnails/medium/jerry-c-cirino-march-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jerry_Cirino",
+        "https://en.wikipedia.org/wiki/Jerry_Cirino",
+        "https://justfacts.votesmart.org/candidate/biography/189392/jerry-cirino",
+        "https://ohiosenate.gov/members/jerry-c-cirino",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/jerry-cirino-348b5815",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "thomas-jim-oh-hd49",
+      "name": "Jim Thomas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-49)",
+      "state": "OH",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ba95511f-3692-426c-bf85-c41ff737eeec"
+      },
+      "contact": {
+        "email": "rep49@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/jim-thomas"
+      },
+      "bio": {
+        "birth_date": "1974-09-24",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/jim-thomas/headshots/thumbnails/medium/jim-thomas-november-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jim_Thomas",
+        "https://en.wikipedia.org/wiki/Jim_Thomas_(tennis)",
+        "https://justfacts.votesmart.org/candidate/biography/209777/jim-thomas",
+        "https://ohiohouse.gov/members/jim-thomas",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/jim-thomas",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "salvo-jodi-oh-hd51",
+      "name": "Jodi Salvo",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-51)",
+      "state": "OH",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f1715f7b-6a29-4dd2-a34f-b94c87088890"
+      },
+      "contact": {
+        "email": "rep51@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/jodi-salvo"
+      },
+      "bio": {
+        "birth_date": "1969-07-01",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JodiSalvo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jodi_Salvo",
+        "https://justfacts.votesmart.org/candidate/biography/214050/jodi-salvo",
+        "https://ohiohouse.gov/members/jodi-salvo",
+        "https://ohiohouse.gov/members/jodi-salvo/biography",
+        "https://www.linkedin.com/in/jodi-salvo-a83ba7217",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "newman-johnathan-oh-hd80",
+      "name": "Johnathan Newman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-80)",
+      "state": "OH",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9d7cc971-9ed9-4918-b93f-39d41d35e565"
+      },
+      "contact": {
+        "email": "rep80@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/johnathan-newman"
+      },
+      "bio": {
+        "birth_date": "1968-07-05",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JohnathanNewman2024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Johnathan_Newman",
+        "https://justfacts.votesmart.org/candidate/biography/214038/johnathan-newman",
+        "https://ohiohouse.gov/members/johnathan-newman",
+        "https://ohiohouse.gov/members/johnathan-newman/biography",
+        "https://www.linkedin.com/in/johnathan-newman-848993290",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-joe-oh-hd53",
+      "name": "Joe Miller",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-53)",
+      "state": "OH",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9b5a9ff9-b35a-49aa-aa64-5d2bab574843"
+      },
+      "contact": {
+        "email": "rep53@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/joseph-a-miller-iii"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/joseph-a-miller-iii/headshots/thumbnails/medium/joseph-a-miller-iii-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joe_Miller_(Ohio_House_District_53)",
+        "https://ballotpedia.org/Joe_Miller_(Ohio_House_District_56)",
+        "https://en.wikipedia.org/wiki/Joe_Miller_(Ohio_politician)",
+        "https://ohiohouse.gov/joseph-a-miller-iii",
+        "https://ohiohouse.gov/members/joseph-a-miller-iii",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/joe-miller-b7970618",
+        "https://www.ohiohouse.gov/members/joseph-a-miller-iii",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "williams-josh-oh-hd44",
+      "name": "Josh Williams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-44)",
+      "state": "OH",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e52d1da-3e5c-442e-a460-d63b62709edf"
+      },
+      "contact": {
+        "email": "rep44@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/josh-williams"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/josh-williams/headshots/thumbnails/medium/josh-williams-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Josh_Williams",
+        "https://ohiohouse.gov/members/josh-williams",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/joshua-williams-712038122",
+        "https://www.ohiohouse.gov/members/josh-williams",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "brent-juanita-oh-hd18",
+      "name": "Juanita Brent",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-18)",
+      "state": "OH",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ede2c8b0-9c35-4ebf-9a4a-4349fe4cc224"
+      },
+      "contact": {
+        "email": "rep18@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/juanita-o-brent"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/juanita-o-brent/headshots/thumbnails/medium/juanita-o-brent-january-2019-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Juanita_Brent",
+        "https://en.wikipedia.org/wiki/Juanita_Brent",
+        "https://justfacts.votesmart.org/candidate/biography/179026/juanita-brent",
+        "https://ohiohouse.gov/juanita-o-brent",
+        "https://ohiohouse.gov/members/juanita-o-brent",
+        "https://ohiohouse.gov/members/juanita-o-brent/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/juanita-o-brent",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "pizzulli-justin-oh-hd90",
+      "name": "Justin Pizzulli",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-90)",
+      "state": "OH",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9892fcd7-9432-425f-85a6-7599fbe3177d"
+      },
+      "contact": {
+        "email": "rep90@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/justin-pizzulli"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/justin-pizzulli/headshots/thumbnails/medium/justin-pizzulli-july-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Justin_Pizzulli",
+        "https://en.wikipedia.org/wiki/Justin_Pizzulli",
+        "https://ohiohouse.gov/members/justin-pizzulli",
+        "https://ohiohouse.gov/members/justin-pizzulli/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/justin-pizzulli-031540279",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "brownlee-karen-oh-hd28",
+      "name": "Karen Brownlee",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-28)",
+      "state": "OH",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a13af74a-5ade-4769-8a76-db942fe71002"
+      },
+      "contact": {
+        "email": "rep28@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/karen-brownlee"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.gongwer-oh.com/public/KarenBrownlee_Cropped.png",
+      "sources": [
+        "https://ballotpedia.org/Karen_Brownlee",
+        "https://ohiohouse.gov/members/karen-brownlee",
+        "https://ohiohouse.gov/members/karen-brownlee/biography",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "deeter-kellie-oh-hd54",
+      "name": "Kellie Deeter",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-54)",
+      "state": "OH",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/97821235-4116-44d1-b58b-acf822bbdc58"
+      },
+      "contact": {
+        "email": "rep54@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/kellie-deeter"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Kellie_Deeter_20240829_073240.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kellie_Deeter",
+        "https://en.wikipedia.org/wiki/Kellie_Deeter",
+        "https://justfacts.votesmart.org/candidate/biography/213991/kellie-deeter",
+        "https://ohiohouse.gov/members/kellie-deeter",
+        "https://ohiohouse.gov/members/kellie-deeter/biography",
+        "https://www.linkedin.com/in/dr-kellie-deeter-crna-cnp-a4203623",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-kent-oh-sd21",
+      "name": "Kent Smith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-21)",
+      "state": "OH",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d9c3dfce-8b7f-402f-9dec-5179e38b528f"
+      },
+      "contact": {
+        "email": "sd21@ohiosenate.gov",
+        "website": "https://ohiohouse.gov/kent-smith"
+      },
+      "bio": {
+        "birth_date": "1966-09-04",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/kent-smith/headshots/thumbnails/medium/kent-smith-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kent_Smith",
+        "https://en.wikipedia.org/wiki/Kent_Smith_(American_politician)",
+        "https://en.wikipedia.org/wiki/Kent_Smith_(politician)",
+        "https://ohiohouse.gov/kent-smith",
+        "https://ohiosenate.gov/members/kent-smith",
+        "https://www.kentsmith.org/about",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/kentksmith",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-kevin-oh-hd69",
+      "name": "Kevin Miller",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-69)",
+      "state": "OH",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cefb7a31-f46c-4145-9f38-901be3b70e60"
+      },
+      "contact": {
+        "email": "rep69@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/kevin-d-miller"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/kevin-d-miller/headshots/thumbnails/medium/kevin-d-miller-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kevin_Miller_(Ohio)",
+        "https://en.wikipedia.org/wiki/Kevin_D._Miller",
+        "https://ohiohouse.gov/kevin-d-miller",
+        "https://ohiohouse.gov/members/kevin-d-miller",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "ritter-kevin-oh-hd94",
+      "name": "Kevin Ritter",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-94)",
+      "state": "OH",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/94df9e98-c52e-466a-ba6b-29cc21ee02ea"
+      },
+      "contact": {
+        "email": "rep94@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/kevin-ritter"
+      },
+      "bio": {
+        "birth_date": "1967-08-05",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Kevin_KevinRitter_20240808_092548.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kevin_Ritter",
+        "https://ohiohouse.gov/members/kevin-ritter",
+        "https://ohiohouse.gov/members/kevin-ritter/biography",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "roegner-kristina-oh-sd27",
+      "name": "Kristina Roegner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-27)",
+      "state": "OH",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/936e5d50-e145-494b-a397-f56570530816"
+      },
+      "contact": {
+        "email": "sd27@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/kristina-d-roegner"
+      },
+      "bio": {
+        "birth_date": "1968-11-27",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/kristina-d-roegner/headshots/thumbnails/medium/kristina-d-roegner-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kristina_Daley_Roegner",
+        "https://en.wikipedia.org/wiki/Kristina_Roegner",
+        "https://ohiosenate.gov/members/kristina-d-roegner",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/kristina-roegner-728b7617",
+        "https://www.ohiosenate.gov/members/kristina-d-roegner",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "koehler-kyle-oh-sd10",
+      "name": "Kyle Koehler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-10)",
+      "state": "OH",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9578948b-5af3-46fd-9567-8438c67fa148"
+      },
+      "contact": {
+        "email": "sd10@ohiosenate.gov",
+        "website": "https://ohiosenate.gov/members/kyle-koehler"
+      },
+      "bio": {
+        "birth_date": "1961-10-05",
+        "gender": "Male"
+      },
+      "image": "http://www.ohiohouse.gov/Assets/Headshots/Small/79.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kyle_Koehler",
+        "https://en.wikipedia.org/wiki/Kyle_Koehler",
+        "https://ohiohouse.gov/j-kyle-koehler",
+        "https://ohiosenate.gov/members/kyle-koehler",
+        "https://ohiosenate.gov/members/kyle-koehler/biography",
+        "https://www.linkedin.com/in/kylekoehler",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "humphrey-latyna-oh-hd2",
+      "name": "Latyna Humphrey",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-2)",
+      "state": "OH",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b2c76bf8-569f-4e80-bd3d-fa8273a8356c"
+      },
+      "contact": {
+        "email": "rep02@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/latyna-m-humphrey"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/latyna-m-humphrey/headshots/thumbnails/medium/latyna-m-humphrey-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Latyna_Humphrey",
+        "https://en.wikipedia.org/wiki/Latyna_Humphrey",
+        "https://ohiohouse.gov/latyna-m-humphrey",
+        "https://ohiohouse.gov/members/latyna-m-humphrey",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/latyna-m-humphrey-a25a47b4",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "mcnally-lauren-oh-hd58",
+      "name": "Lauren McNally",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-58)",
+      "state": "OH",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/19cbe255-2cdb-47c4-b70a-693b6bf6665b"
+      },
+      "contact": {
+        "email": "rep58@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/lauren-mcnally"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/lauren-mcnally/headshots/thumbnails/medium/lauren-mcnally-february-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lauren_McNally",
+        "https://justfacts.votesmart.org/candidate/biography/174636/lauren-mcnally",
+        "https://ohiohouse.gov/members/lauren-mcnally",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/laurenmcnallyytown",
+        "https://www.ohiohouse.gov/members/lauren-mcnally",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "dean-levi-oh-hd71",
+      "name": "Levi Dean",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-71)",
+      "state": "OH",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1dcb1bfa-861d-4d16-8d7d-02364e1b4def"
+      },
+      "contact": {
+        "email": "rep71@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/levi-dean"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://assets.civicengine.com/uploads/candidate/headshot/678132/678132.jpg",
+      "sources": [
+        "https://ballotpedia.org/Levi_Dean",
+        "https://en.wikipedia.org/wiki/Levi_Dean",
+        "https://ohiohouse.gov/members/levi-dean",
+        "https://ohiohouse.gov/members/levi-dean/biography",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "blessing-bill-oh-sd8",
+      "name": "Bill Blessing",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-8)",
+      "state": "OH",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5a9b2a16-6827-4e00-961a-f3de39538749"
+      },
+      "contact": {
+        "email": "sd08@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/louis-w-blessing-iii"
+      },
+      "bio": {
+        "birth_date": "1980-11-11",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/louis-w-blessing-iii/headshots/thumbnails/medium/louis-w-blessing-iii-march-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Louis_W._Blessing,_III",
+        "https://en.wikipedia.org/wiki/Louis_Blessing",
+        "https://ohiosenate.gov/members/louis-w-blessing-iii",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/louis-blessing-3928431a",
+        "https://www.ohiosenate.gov/members/louis-w-blessing-iii",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "john-marilyn-oh-hd76",
+      "name": "Marilyn John",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-76)",
+      "state": "OH",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e4f9416c-1043-4737-899e-31410e94af1d"
+      },
+      "contact": {
+        "email": "rep76@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/marilyn-s-john"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/marilyn-s-john/headshots/thumbnails/medium/marilyn-s-john-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marilyn_John",
+        "https://en.wikipedia.org/wiki/Marilyn_John",
+        "https://justfacts.votesmart.org/candidate/biography/161969/marilyn-john",
+        "https://ohiohouse.gov/marilyn-s-john",
+        "https://ohiohouse.gov/members/marilyn-john",
+        "https://ohiohouse.gov/members/marilyn-s-john",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/marilyn-john-78679a14a",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "hiner-mark-oh-hd98",
+      "name": "Mark Hiner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-98)",
+      "state": "OH",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/292d1329-8a45-402b-8d6e-8f3b4726187a"
+      },
+      "contact": {
+        "email": "rep98@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/mark-hiner"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Mark_Hiner.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Hiner",
+        "https://ohiohouse.gov/members/mark-hiner",
+        "https://ohiohouse.gov/members/mark-hiner/biography",
+        "https://www.linkedin.com/in/mark-hiner-36204712",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-mark-oh-hd92",
+      "name": "Mark Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-92)",
+      "state": "OH",
+      "district": "HD-92",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4af0e8db-ad18-424f-abfa-ce31e37c0b7d"
+      },
+      "contact": {
+        "email": "rep92@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/mark-johnson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/mark-johnson/headshots/thumbnails/medium/mark-johnson-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Johnson_(Ohio)",
+        "https://en.wikipedia.org/wiki/Mark_Johnson_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/189503/mark-johnson",
+        "https://ohiohouse.gov/mark-johnson",
+        "https://ohiohouse.gov/members/mark-johnson",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/mark-johnson-35a57b30",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "romanchuk-mark-oh-sd22",
+      "name": "Mark Romanchuk",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-22)",
+      "state": "OH",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2ae62dc8-e902-4a8e-99b7-182477c50bc3"
+      },
+      "contact": {
+        "email": "sd22@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/mark-romanchuk"
+      },
+      "bio": {
+        "birth_date": "1962-09-22",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/mark-romanchuk/headshots/thumbnails/medium/mark-romanchuk-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Romanchuk",
+        "https://en.wikipedia.org/wiki/Mark_Romanchuk",
+        "https://justfacts.votesmart.org/candidate/135742/mark-romanchuk",
+        "https://ohiosenate.gov/members/mark-romanchuk",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/mark-romanchuk-46b63a6",
+        "https://www.ohiosenate.gov/members/mark-romanchuk",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "sigrist-mark-oh-hd10",
+      "name": "Mark Sigrist",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-10)",
+      "state": "OH",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8750be20-9a0c-41e4-bb32-4061c787a7e2"
+      },
+      "contact": {
+        "email": "rep10@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/mark-sigrist"
+      },
+      "bio": {
+        "birth_date": "1961-10-17",
+        "gender": "Male"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/662d9bb55b29343555b12d33/fdca756a-8e4a-41ea-aed9-0ec72d720e82/cropped.jpg?format=750w",
+      "sources": [
+        "https://ballotpedia.org/Mark_Sigrist",
+        "https://ohiohouse.gov/members/mark-sigrist",
+        "https://ohiohouse.gov/members/mark-sigrist/biography",
+        "https://www.linkedin.com/in/mark-sigrist-1013b86",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "huffman-matt-oh-hd78",
+      "name": "Matt Huffman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-78)",
+      "state": "OH",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/23d51717-c6eb-4a2c-bd55-038c72593a61"
+      },
+      "contact": {
+        "email": "rep78@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/matt-huffman"
+      },
+      "social": {
+        "twitter": "matthuffman1"
+      },
+      "bio": {
+        "birth_date": "1960-04-01",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/matt-huffman/headshots/thumbnails/medium/matt-huffman-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matt_Huffman",
+        "https://en.wikipedia.org/wiki/Matt_Huffman",
+        "https://ohiohouse.gov/members/matt-huffman",
+        "https://ohiohouse.gov/members/matt-huffman/biography",
+        "https://ohiosenate.gov/members/matt-huffman",
+        "https://www.540westmarket.com/people/matthew-c-huffman",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/matt-huffman-b9370052",
+        "https://www.ohiosenate.gov/members/matt-huffman",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "kishman-matt-oh-hd50",
+      "name": "Matt Kishman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-50)",
+      "state": "OH",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7ab0cf86-d569-4a6e-8677-8cd7721a9475"
+      },
+      "contact": {
+        "email": "rep50@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/matthew-kishman"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/65a09d4d50790252eca6f810/be978e73-e9f1-4978-9bcf-9553f9a6d410/Kishman+Matthew_2270.jpg?format=500w",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Kishman",
+        "https://ohiohouse.gov/members/matthew-kishman",
+        "https://ohiohouse.gov/members/matthew-kishman/biography",
+        "https://www.linkedin.com/in/matthew-kishman-927b2025",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-melanie-oh-hd67",
+      "name": "Melanie Miller",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-67)",
+      "state": "OH",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fb957ddc-f41c-400d-ae32-47f7e729555b"
+      },
+      "contact": {
+        "email": "rep67@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/melanie-miller"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/melanie-miller/headshots/thumbnails/medium/melanie-miller-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Melanie_Miller",
+        "https://en.wikipedia.org/wiki/Melanie_Miller_(politician)",
+        "https://ohiohouse.gov/members/melanie-miller",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/melanie-miller-5a2a087",
+        "https://www.melaniemillerforohio.com/meet-melanie",
+        "https://www.ohiohouse.gov/members/melanie-miller",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "craig-meredith-oh-hd77",
+      "name": "Meredith Craig",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-77)",
+      "state": "OH",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/75257af6-5d83-4d3b-b127-744aaa377c9f"
+      },
+      "contact": {
+        "email": "rep77@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/meredith-craig"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.meredithcraigforohio.com/dejilah/sites/522/2024/08/craig-new-photo.png",
+      "sources": [
+        "https://ballotpedia.org/Meredith_Craig",
+        "https://ohiohouse.gov/members/meredith-craig",
+        "https://ohiohouse.gov/members/meredith-craig/biography",
+        "https://www.linkedin.com/in/meredithccraig",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "lawson-rowe-meredith-oh-hd5",
+      "name": "Meredith Lawson‐Rowe",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-5)",
+      "state": "OH",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4b1e7c00-c159-407e-83d8-2eb24ba175db"
+      },
+      "contact": {
+        "email": "rep05@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/meredith-r-lawson-rowe"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://thenewamericansmag.com/wp-content/uploads/2024/03/Meredith-Lawson-Rowe.jpg",
+      "sources": [
+        "https://ballotpedia.org/Meredith_Lawson%E2%80%90Rowe",
+        "https://justfacts.votesmart.org/candidate/biography/213953/meredith-lawson-rowe",
+        "https://ohiohouse.gov/members/meredith-r-lawson-rowe",
+        "https://ohiohouse.gov/members/meredith-r-lawson-rowe/biography",
+        "https://www.linkedin.com/in/meredith-lawson-rowe-b0854311",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "grim-michele-oh-hd43",
+      "name": "Michele Grim",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-43)",
+      "state": "OH",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/100ae6b0-0c5d-4b97-9ac5-8ccb42b9168b"
+      },
+      "contact": {
+        "email": "rep43@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/michele-grim"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/michele-grim/headshots/thumbnails/medium/michele-grim-november-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michele_Grim",
+        "https://justfacts.votesmart.org/candidate/biography/209757/michele-grim",
+        "https://ohiohouse.gov/members/michele-grim",
+        "https://ohiohouse.gov/members/michele-grim/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/michelegrim",
+        "https://www.ohiohouse.gov/members/michele-grim",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "reynolds-michele-oh-sd3",
+      "name": "Michele Reynolds",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-3)",
+      "state": "OH",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/79af20c0-6eb6-44a2-ba79-9c7e5e10ea04"
+      },
+      "contact": {
+        "email": "reynolds@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/michele-reynolds"
+      },
+      "bio": {
+        "birth_date": "1974-02-04",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/michele-reynolds/headshots/thumbnails/medium/michele-reynolds-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michele_Reynolds",
+        "https://en.wikipedia.org/wiki/Michele_Reynolds",
+        "https://justfacts.votesmart.org/candidate/biography/209658/michele-reynolds",
+        "https://ohiosenate.gov/members/michele-reynolds",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/michele-reynolds-500545a6",
+        "https://www.ohiosenate.gov/members/michele-reynolds",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "teska-michelle-oh-hd55",
+      "name": "Michelle Teska",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-55)",
+      "state": "OH",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d06c06f8-2f63-4a29-8388-ed0747b97f48"
+      },
+      "contact": {
+        "email": "rep55@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/michelle-teska"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://static.wixstatic.com/media/57b3a5_db008a611c184fbeb2cf20bb55a41080~mv2.jpg/v1/fill/w_689,h_812,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Michelle%20(15%20of%2024)%20(1)_edited.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michelle_Teska",
+        "https://en.wikipedia.org/wiki/Michelle_Teska",
+        "https://justfacts.votesmart.org/candidate/biography/214059/michelle-teska",
+        "https://ohiohouse.gov/members/michelle-teska",
+        "https://ohiohouse.gov/members/michelle-teska/biography",
+        "https://www.linkedin.com/in/michelle-teska-9551b713a",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "dovilla-mike-oh-hd17",
+      "name": "Mike Dovilla",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-17)",
+      "state": "OH",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cc85c295-299f-4de7-bb56-1de3a451951e"
+      },
+      "contact": {
+        "email": "rep17@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/michael-d-dovilla"
+      },
+      "bio": {
+        "birth_date": "1975-03-13",
+        "gender": "Male"
+      },
+      "image": "http://www.ohiohouse.gov/Assets/Headshots/Small/7.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Dovilla",
+        "https://en.wikipedia.org/wiki/Mike_Dovilla",
+        "https://www.linkedin.com/in/michaeldovilla",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/michael-d-dovilla",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "odioso-mike-oh-hd30",
+      "name": "Mike Odioso",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-30)",
+      "state": "OH",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/72bb7360-10c1-42d9-8781-32ddf8fef5fd"
+      },
+      "contact": {
+        "email": "rep30@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/mike-odioso"
+      },
+      "bio": {
+        "birth_date": "1963-02-06",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MikeOdioso2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Odioso",
+        "https://justfacts.votesmart.org/candidate/biography/213980/mike-odioso",
+        "https://ohiohouse.gov/members/mike-odioso",
+        "https://ohiohouse.gov/members/mike-odioso/biography",
+        "https://www.linkedin.com/in/mike-odioso-01913b36",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "blasdel-monica-oh-hd79",
+      "name": "Monica Blasdel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-79)",
+      "state": "OH",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/062b9622-c2fa-4af2-bbea-704f0450dd47"
+      },
+      "contact": {
+        "email": "rep79@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/monica-robb-blasdel"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/monica-robb-blasdel/headshots/thumbnails/medium/monica-robb-blasdel-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Monica_Robb_Blasdel",
+        "https://en.wikipedia.org/wiki/Monica_Robb_Blasdel",
+        "https://justfacts.votesmart.org/candidate/biography/209711/monica-blasdel",
+        "https://ohiohouse.gov/members/monica-robb-blasdel",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/monica-robb-blasdel-89305940",
+        "https://www.ohiohouse.gov/members/monica-robb-blasdel",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "abdullahi-munira-oh-hd9",
+      "name": "Munira Abdullahi",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-9)",
+      "state": "OH",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/538fefb8-d8ae-48f5-bb07-4161e2ccac55"
+      },
+      "contact": {
+        "email": "rep09@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/munira-abdullahi"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/munira-abdullahi/headshots/thumbnails/medium/munira-yasin-abdullahi-february-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Munira_Abdullahi",
+        "https://en.wikipedia.org/wiki/Munira_Abdullahi",
+        "https://justfacts.votesmart.org/candidate/biography/209687/munira-abdullahi",
+        "https://ohiohouse.gov/members/munira-abdullahi",
+        "https://ohiohouse.gov/members/munira-yasin-abdullahi",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/munira-abdullahi-0b41b71a3",
+        "https://www.ohiohouse.gov/members/munira-abdullahi",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "manning-nathan-oh-sd13",
+      "name": "Nathan Manning",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-13)",
+      "state": "OH",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d3508136-3927-461f-a2f0-a85665845ab1"
+      },
+      "contact": {
+        "email": "sd13@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/nathan-h-manning"
+      },
+      "bio": {
+        "birth_date": "1982-01-13",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/nathan-h-manning/headshots/thumbnails/medium/nathan-h-manning-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nathan_Manning",
+        "https://en.wikipedia.org/wiki/Nathan_Manning",
+        "https://justfacts.votesmart.org/candidate/biography/150617/nathan-manning",
+        "https://ohiosenate.gov/members/nathan-h-manning",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiosenate.gov/members/nathan-h-manning",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "santucci-nick-oh-hd64",
+      "name": "Nick Santucci",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-64)",
+      "state": "OH",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/64305698-f25c-486e-b57f-00298cfbe15d"
+      },
+      "contact": {
+        "email": "rep64@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/nick-santucci"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/nick-santucci/headshots/thumbnails/medium/nick-santucci-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nick_Santucci",
+        "https://ohiohouse.gov/members/nick-santucci",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/nickssantucci",
+        "https://www.ohiohouse.gov/members/nick-santucci",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "antonio-nickie-oh-sd23",
+      "name": "Nickie Antonio",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-23)",
+      "state": "OH",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/df5c391c-65e8-4d61-a9b9-0249ff6eddb7"
+      },
+      "contact": {
+        "email": "sd23@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/nickie-j-antonio"
+      },
+      "bio": {
+        "birth_date": "1955-06-02",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/nickie-j-antonio/headshots/thumbnails/medium/nickie-j-antonio-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nickie_Antonio",
+        "https://en.wikipedia.org/wiki/Nickie_Antonio",
+        "https://justfacts.votesmart.org/candidate/76941/nickie-antonio",
+        "https://ohiosenate.gov/members/nickie-j-antonio",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/nickieantonio",
+        "https://www.ohiosenate.gov/members/nickie-j-antonio",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "hicks-hudson-paula-oh-sd11",
+      "name": "Paula Hicks-Hudson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-11)",
+      "state": "OH",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3329274c-22b6-4b0a-b12a-e64c5733bef9"
+      },
+      "contact": {
+        "email": "sd11@ohiosenate.gov",
+        "website": "https://ohiohouse.gov/paula-hicks-hudson"
+      },
+      "social": {
+        "twitter": "paulahickshuds1",
+        "instagram": "hickshudsonpaula"
+      },
+      "bio": {
+        "birth_date": "1951-05-28",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/paula-hicks-hudson/headshots/thumbnails/medium/paula-hicks-hudson-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paula_Hicks-Hudson",
+        "https://en.wikipedia.org/wiki/Paula_Hicks-Hudson",
+        "https://justfacts.votesmart.org/candidate/biography/134208/paula-hicks-hudson",
+        "https://ohiohouse.gov/paula-hicks-hudson",
+        "https://ohiosenate.gov/members/paula-hicks-hudson",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/paula-hicks-hudson-a369b16",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "plummer-phil-oh-hd39",
+      "name": "Phil Plummer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-39)",
+      "state": "OH",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e218942-95f6-43fe-b935-b19ab70fd5fc"
+      },
+      "contact": {
+        "email": "rep39@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/phil-plummer"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/phil-plummer/headshots/thumbnails/medium/phil-plummer-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Phil_Plummer",
+        "https://en.wikipedia.org/wiki/Phil_Plummer",
+        "https://ohiohouse.gov/members/phil-plummer",
+        "https://ohiohouse.gov/phil-plummer",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/phil-plummer-4a423110",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/phil-plummer",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "robinson-phil-oh-hd19",
+      "name": "Phil Robinson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-19)",
+      "state": "OH",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/78d5adbb-ec6a-4212-9cc7-335f5d9ded8c"
+      },
+      "contact": {
+        "email": "rep19@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/phillip-m-robinson-jr"
+      },
+      "bio": {
+        "birth_date": "1980-12-28",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/phillip-m-robinson-jr/headshots/thumbnails/medium/phillip-m-robinson-jr-january-2019-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Phil_Robinson",
+        "https://en.wikipedia.org/wiki/Phil_Robinson_(politician)",
+        "https://ohiohouse.gov/members/phillip-m-robinson-jr",
+        "https://ohiohouse.gov/phillip-m-robinson-jr",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/phillip-m-robinson-jr-698b274",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/phillip-m-robinson-jr",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "baker-rachel-oh-hd27",
+      "name": "Rachel Baker",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-27)",
+      "state": "OH",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/36f320a8-be34-43c2-ac73-ee87fbce6b0c"
+      },
+      "contact": {
+        "email": "rep27@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/rachel-b-baker"
+      },
+      "bio": {
+        "birth_date": "1975-05-29",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/rachel-b-baker/headshots/thumbnails/medium/rachel-b-baker-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rachel_Baker",
+        "https://en.wikipedia.org/wiki/Rachel_Baker",
+        "https://ohiohouse.gov/members/rachel-b-baker",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/rachelbbaker",
+        "https://www.ohiohouse.gov/members/rachel-b-baker",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "mcclain-riordan-oh-hd87",
+      "name": "Riordan McClain",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-87)",
+      "state": "OH",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d6ca7e4f-dcf2-4aad-a919-a2740bae649a"
+      },
+      "contact": {
+        "email": "rep87@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/riordan-t-mcclain"
+      },
+      "bio": {
+        "birth_date": "1983-10-19",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/riordan-t-mcclain/headshots/thumbnails/medium/riordan-t-mcclain-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Riordan_McClain",
+        "https://en.wikipedia.org/wiki/Riordan_McClain",
+        "https://ohiohouse.gov/members/riordan-t-mcclain",
+        "https://ohiohouse.gov/riordan-t-mcclain",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/riordan-mcclain-5a12a163",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "mccolley-rob-oh-sd1",
+      "name": "Rob McColley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-1)",
+      "state": "OH",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0d52f86-e997-4299-9e50-972a2c208c20"
+      },
+      "contact": {
+        "email": "sd01@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/rob-mccolley"
+      },
+      "social": {
+        "twitter": "rob_mccolley",
+        "facebook": "mccolley4ohio"
+      },
+      "bio": {
+        "birth_date": "1984-10-14",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/rob-mccolley/headshots/thumbnails/medium/rob-mccolley-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_McColley",
+        "https://en.wikipedia.org/wiki/Rob_McColley",
+        "https://ohiosenate.gov/members/rob-mccolley",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/rob-mccolley-294b963",
+        "https://www.ohiosenate.gov/members/rob-mccolley",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "creech-rodney-oh-hd40",
+      "name": "Rodney Creech",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-40)",
+      "state": "OH",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c34a852a-71fc-4b21-a594-bc4a75b799c8"
+      },
+      "contact": {
+        "email": "rep40@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/rodney-creech"
+      },
+      "bio": {
+        "birth_date": "1976-06-30",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/rodney-creech/headshots/thumbnails/medium/rodney-creech-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rodney_Creech",
+        "https://en.wikipedia.org/wiki/Rodney_Creech",
+        "https://justfacts.votesmart.org/candidate/161959/rodney-creech",
+        "https://ohiohouse.gov/members/rodney-creech",
+        "https://ohiohouse.gov/rodney-creech",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "ferguson-ron-oh-hd96",
+      "name": "Ron Ferguson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-96)",
+      "state": "OH",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/52608475-9678-45ce-823a-74f9c931682c"
+      },
+      "contact": {
+        "email": "rep96@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/ron-ferguson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/ron-ferguson/headshots/thumbnails/medium/ron-ferguson-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ron_Ferguson",
+        "https://en.wikipedia.org/wiki/Ron_Ferguson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/150567/ron-ferguson",
+        "https://ohiohouse.gov/members/ron-ferguson",
+        "https://ohiohouse.gov/members/ron-ferguson/biography",
+        "https://ohiohouse.gov/ron-ferguson",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/ronaldferguson",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "klopfenstein-roy-oh-hd82",
+      "name": "Roy Klopfenstein",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-82)",
+      "state": "OH",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/73e72147-0d40-4478-bbf6-3419f0e00b46"
+      },
+      "contact": {
+        "email": "rep82@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/roy-klopfenstein"
+      },
+      "bio": {
+        "birth_date": "1960-11-20",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/roy-klopfenstein/headshots/thumbnails/medium/roy-klopfenstein-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roy_Klopfenstein",
+        "https://en.wikipedia.org/wiki/Roy_Klopfenstein",
+        "https://justfacts.votesmart.org/candidate/biography/161926/roy-klopfenstein",
+        "https://ohiohouse.gov/members/roy-klopfenstein",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/roy-klopfenstein",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "o-brien-sandy-oh-sd32",
+      "name": "Sandy O'Brien",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-32)",
+      "state": "OH",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d665e333-f7e3-43e2-b440-17920f62c60b"
+      },
+      "contact": {
+        "email": "sd32@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/sandra-obrien"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/sandra-obrien/headshots/thumbnails/medium/sandra-obrien-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sandra_O%27Brien_(Ohio)",
+        "https://en.wikipedia.org/wiki/Sandra_O%27Brien",
+        "https://justfacts.votesmart.org/candidate/biography/45864/sandra-obrien",
+        "https://ohiosenate.gov/members/sandra-obrien",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiosenate.gov/members/sandra-obrien",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "fowler-arthur-sarah-oh-hd99",
+      "name": "Sarah Fowler Arthur",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-99)",
+      "state": "OH",
+      "district": "HD-99",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5b3a7d10-e745-4985-ade9-d7fff6ae6af4"
+      },
+      "contact": {
+        "email": "rep99@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/sarah-fowler-arthur"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/sarah-fowler-arthur/headshots/thumbnails/medium/sarah-fowler-arthur-february-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sarah_Fowler",
+        "https://en.wikipedia.org/wiki/Sarah_Fowler_Arthur",
+        "https://justfacts.votesmart.org/candidate/biography/155716/sarah-fowler-arthur",
+        "https://ohiohouse.gov/members/sarah-fowler-arthur",
+        "https://ohiohouse.gov/sarah-fowler-arthur",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "oelslager-scott-oh-hd48",
+      "name": "Scott Oelslager",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-48)",
+      "state": "OH",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/52424e91-a002-4908-a205-4ea27cfe68da"
+      },
+      "contact": {
+        "email": "rep48@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/scott-oelslager"
+      },
+      "bio": {
+        "birth_date": "1953-10-15",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/scott-oelslager/headshots/thumbnails/medium/scott-oelslager-february-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Oelslager",
+        "https://en.wikipedia.org/wiki/Scott_Oelslager",
+        "https://ohiohouse.gov/members/scott-oelslager",
+        "https://ohiohouse.gov/scott-oelslager",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/scott-oelslager",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "brennan-sean-oh-hd14",
+      "name": "Sean Brennan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-14)",
+      "state": "OH",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/993f089c-60bf-418d-9704-fa92e4f01c71"
+      },
+      "contact": {
+        "email": "rep14@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/sean-p-brennan"
+      },
+      "bio": {
+        "birth_date": "1970-01-01",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/sean-p-brennan/headshots/thumbnails/medium/sean-p-brennan-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sean_Brennan",
+        "https://justfacts.votesmart.org/candidate/biography/77347/sean-brennan",
+        "https://ohiohouse.gov/members/sean-p-brennan",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/sean-brennan-2a722839",
+        "https://www.ohiohouse.gov/members/sean-p-brennan",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "wilkin-shane-oh-sd17",
+      "name": "Shane Wilkin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-17)",
+      "state": "OH",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bb1ae016-cdfe-48aa-8bc5-9e3636e430f3"
+      },
+      "contact": {
+        "email": "sd17@ohiosenate.gov",
+        "website": "https://ohiohouse.gov/shane-wilkin"
+      },
+      "bio": {
+        "birth_date": "1970-08-08",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/shane-wilkin/headshots/thumbnails/medium/shane-wilkin-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shane_Wilkin",
+        "https://en.wikipedia.org/wiki/Shane_Wilkin",
+        "https://ohiohouse.gov/shane-wilkin",
+        "https://ohiosenate.gov/members/shane-wilkin",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/shane-wilkin-32947920",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "ray-sharon-oh-hd66",
+      "name": "Sharon Ray",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-66)",
+      "state": "OH",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/352d7ee9-256c-4195-a673-17b7ee200948"
+      },
+      "contact": {
+        "email": "rep66@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/sharon-a-ray"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/sharon-a-ray/headshots/thumbnails/medium/sharon-a-ray-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sharon_Ray",
+        "https://en.wikipedia.org/wiki/Sharon_Ray",
+        "https://justfacts.votesmart.org/candidate/biography/94663/sharon-ray",
+        "https://ohiohouse.gov/members/sharon-a-ray",
+        "https://ohiohouse.gov/sharon-a-ray",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/sharon-ray-9532bb11",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "huffman-steve-oh-sd5",
+      "name": "Steve Huffman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-5)",
+      "state": "OH",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b21d9dcd-21e9-4071-936d-f89fc5d8f643"
+      },
+      "contact": {
+        "email": "sd05@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/stephen-a-huffman"
+      },
+      "bio": {
+        "birth_date": "1964-11-14",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/stephen-a-huffman/headshots/thumbnails/medium/stephen-a-huffman-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephen_Huffman",
+        "https://en.wikipedia.org/wiki/Steve_Huffman_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/150587/stephen-huffman",
+        "https://ohiosenate.gov/members/stephen-a-huffman",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/drstevehuffman",
+        "https://www.ohiosenate.gov/members/stephen-a-huffman",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "demetriou-steve-oh-hd35",
+      "name": "Steve Demetriou",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-35)",
+      "state": "OH",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/854b6ce3-a4e1-46db-959a-aa286e4e8942"
+      },
+      "contact": {
+        "email": "rep35@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/steve-demetriou"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/steve-demetriou/headshots/thumbnails/medium/steve-demetriou-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Demetriou",
+        "https://en.wikipedia.org/wiki/Steve_Demetriou",
+        "https://justfacts.votesmart.org/candidate/biography/209747/steve-demetriou",
+        "https://ohiohouse.gov/members/steve-demetriou",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/sjd3",
+        "https://www.ohiohouse.gov/members/steve-demetriou",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "wilson-steve-oh-sd7",
+      "name": "Steve Wilson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-7)",
+      "state": "OH",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/26444e7e-72b2-4838-bc24-31899c90d504"
+      },
+      "contact": {
+        "email": "sd07@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/steve-wilson"
+      },
+      "social": {
+        "twitter": "stevewilsonoh",
+        "facebook": "stevewilsonoh"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/steve-wilson/headshots/thumbnails/medium/steve-wilson-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Wilson",
+        "https://en.wikipedia.org/wiki/Steve_Wilson_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/176515/steve-wilson",
+        "https://ohiosenate.gov/members/steve-wilson",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/steve-wilson-133354b5",
+        "https://www.ohiosenate.gov/members/steve-wilson",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "manchester-susan-oh-sd12",
+      "name": "Susan Manchester",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-12)",
+      "state": "OH",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0e44b586-f6a4-44ee-b6b7-37fa8dc2e8cd"
+      },
+      "contact": {
+        "email": "sd12@ohiosenate.gov",
+        "district_voice": "419-820-8151",
+        "website": "https://ohiohouse.gov/susan-manchester"
+      },
+      "bio": {
+        "birth_date": "1987-06-22",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/susan-manchester/headshots/thumbnails/medium/susan-manchester-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Susan_Manchester",
+        "https://en.wikipedia.org/wiki/Susan_Manchester",
+        "https://ohiohouse.gov/members/susan-manchester",
+        "https://ohiohouse.gov/susan-manchester",
+        "https://ohiosenate.gov/members/susan-manchester",
+        "https://ohiosenate.gov/members/susan-manchester/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/susan-manchester-14b16067",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/susan-manchester",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "upchurch-terrence-oh-hd20",
+      "name": "Terrence Upchurch",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-20)",
+      "state": "OH",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a4c53220-d4a7-4591-b2d8-109516dc9401"
+      },
+      "contact": {
+        "email": "rep20@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/terrence-upchurch"
+      },
+      "bio": {
+        "birth_date": "1988-10-17",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/terrence-upchurch/headshots/thumbnails/medium/terrence-upchurch-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Terrence_Upchurch",
+        "https://en.wikipedia.org/wiki/Terrence_Upchurch",
+        "https://justfacts.votesmart.org/candidate/biography/179023/terrence-upchurch",
+        "https://ohiohouse.gov/members/terrence-upchurch",
+        "https://ohiohouse.gov/terrence-upchurch",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/terrence-upchurch-179096109",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/terrence-upchurch",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-terry-oh-sd14",
+      "name": "Terry Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-14)",
+      "state": "OH",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/57300c34-0e2d-4e85-bdce-c4fb8c781541"
+      },
+      "contact": {
+        "email": "sd14@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/terry-johnson"
+      },
+      "bio": {
+        "birth_date": "1956-06-04",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/terry-johnson/headshots/thumbnails/medium/terry-johnson-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Terry_Johnson,_Ohio_Politician",
+        "https://en.wikipedia.org/wiki/Terry_Johnson_(Ohio_politician)",
+        "https://ohiosenate.gov/members/terry-johnson",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiosenate.gov/members/terry-johnson",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "fischer-tex-oh-hd59",
+      "name": "Tex Fischer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-59)",
+      "state": "OH",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/16e469e4-8014-4ba2-8fc4-91804d6ef491"
+      },
+      "contact": {
+        "email": "rep59@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/houseapp/members/tex-fischer"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://ogden_images.s3.amazonaws.com/www.salemnews.net/images/2024/06/27232837/Fischer-Tex.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tex_Fischer",
+        "https://ohiohouse.gov/houseapp/members/tex-fischer",
+        "https://www.linkedin.com/in/tex-fischer-65613570",
+        "https://www.ohiohouse.gov/members/tex-fischer",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "claggett-thad-oh-hd68",
+      "name": "Thad Claggett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-68)",
+      "state": "OH",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/081534e7-8952-47f0-a722-ed627fb32069"
+      },
+      "contact": {
+        "email": "rep68@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/thaddeus-j-claggett"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/thaddeus-j-claggett/headshots/thumbnails/medium/thaddeus-j-claggett-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thaddeus_Claggett",
+        "https://en.wikipedia.org/wiki/Thaddeus_Claggett",
+        "https://justfacts.votesmart.org/candidate/biography/189487/thaddeus-claggett",
+        "https://ohiohouse.gov/members/thaddeus-j-claggett",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/thaddeus-claggett-27386310",
+        "https://www.ohiohouse.gov/members/thaddeus-j-claggett",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "gavarone-theresa-oh-sd2",
+      "name": "Theresa Gavarone",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-2)",
+      "state": "OH",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0fe32749-fe89-4f96-87d3-3d831bea2459"
+      },
+      "contact": {
+        "email": "sd02@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/theresa-gavarone"
+      },
+      "bio": {
+        "birth_date": "1966-06-30",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/theresa-gavarone/headshots/thumbnails/medium/theresa-gavarone-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Theresa_Gavarone",
+        "https://en.wikipedia.org/wiki/Theresa_Gavarone",
+        "https://ohiosenate.gov/members/theresa-gavarone",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.ohiosenate.gov/members/theresa-gavarone",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "patton-tom-oh-sd24",
+      "name": "Tom Patton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-24)",
+      "state": "OH",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a57f6c78-ac58-4f7d-870e-0d8052984cd9"
+      },
+      "contact": {
+        "email": "sd24@ohiosenate.gov",
+        "website": "https://ohiohouse.gov/thomas-f-patton"
+      },
+      "bio": {
+        "birth_date": "1953-11-03",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/thomas-f-patton/headshots/thumbnails/medium/thomas-f-patton-november-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Patton",
+        "https://en.wikipedia.org/wiki/Tom_Patton",
+        "https://ohiohouse.gov/members/thomas-f-patton",
+        "https://ohiohouse.gov/thomas-f-patton",
+        "https://ohiosenate.gov/members/thomas-f-patton",
+        "https://ohiosenate.gov/members/thomas-f-patton/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/tom-patton-b4864389",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/thomas-f-patton",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-thomas-oh-hd46",
+      "name": "Thomas Hall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-46)",
+      "state": "OH",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7948afad-ec3c-4e4c-a073-305fb8cd1b21"
+      },
+      "contact": {
+        "email": "rep46@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/thomas-hall"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/thomas-hall/headshots/thumbnails/medium/thomas-hall-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Hall",
+        "https://en.wikipedia.org/wiki/Thomas_Hall_%28Ohio_politician%29",
+        "https://justfacts.votesmart.org/candidate/189462/thomas-hall",
+        "https://ohiohouse.gov/members/thomas-hall",
+        "https://ohiohouse.gov/thomas-hall",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/thomas-hall-513a2215a",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "barhorst-tim-oh-hd85",
+      "name": "Tim Barhorst",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-85)",
+      "state": "OH",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fa5ff978-34ff-49d1-958e-4e356a8ef9d4"
+      },
+      "contact": {
+        "email": "rep85@ohiohouse.gov",
+        "website": "https://www.ohiohouse.gov/members/tim-barhorst"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/tim-barhorst/headshots/thumbnails/medium/tim-barhorst-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tim_Barhorst",
+        "https://en.wikipedia.org/wiki/Tim_Barhorst",
+        "https://ohiohouse.gov/members/tim-barhorst",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/tim-barhorst",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "schaffer-tim-oh-sd20",
+      "name": "Tim Schaffer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-20)",
+      "state": "OH",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/01a80305-a667-4dda-9676-1e678bddde12"
+      },
+      "contact": {
+        "email": "sd20@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/tim-schaffer"
+      },
+      "bio": {
+        "birth_date": "1963-01-25",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/tim-schaffer/headshots/thumbnails/medium/tim-schaffer-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tim_Schaffer",
+        "https://en.wikipedia.org/wiki/Tim_Schaffer",
+        "https://justfacts.votesmart.org/candidate/biography/45832/tim-schaffer",
+        "https://ohiosenate.gov/members/tim-schaffer",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/tim-schaffer-68849b22",
+        "https://www.ohiosenate.gov/members/tim-schaffer",
+        "https://www.ohiosenate.gov/senators",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "young-tom-oh-hd37",
+      "name": "Tom Young",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-37)",
+      "state": "OH",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d2ecec1d-db13-4a47-836b-9e75f3a31c78"
+      },
+      "contact": {
+        "email": "rep37@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/tom-young"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/tom-young/headshots/thumbnails/medium/tom-young-january-2021-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Young_(Ohio)",
+        "https://en.wikipedia.org/wiki/Tom_Young_(Ohio_politician)",
+        "https://justfacts.votesmart.org/candidate/189452/tom-young",
+        "https://ohiohouse.gov/members/tom-young",
+        "https://ohiohouse.gov/tom-young",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.linkedin.com/in/tom-young-46823011",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "richardson-tracy-oh-hd86",
+      "name": "Tracy Richardson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-86)",
+      "state": "OH",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7bcb4dfa-e4d3-46cd-b158-057b1b4b9a0a"
+      },
+      "contact": {
+        "email": "rep86@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/tracy-m-richardson"
+      },
+      "bio": {
+        "birth_date": "1965-01-21",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/tracy-m-richardson/headshots/thumbnails/medium/tracy-m-richardson-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tracy_Richardson",
+        "https://en.wikipedia.org/wiki/Tracy_Richardson",
+        "https://justfacts.votesmart.org/candidate/biography/179156/tracy-richardson",
+        "https://ohiohouse.gov/members/tracy-m-richardson",
+        "https://ohiohouse.gov/tracy-m-richardson",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://www.ohiohouse.gov/members/member-directory",
+        "https://www.ohiohouse.gov/members/tracy-m-richardson",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "rader-tristan-oh-hd13",
+      "name": "Tristan Rader",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-13)",
+      "state": "OH",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/18864718-3e48-4236-9afb-b1a61e4c52e2"
+      },
+      "contact": {
+        "email": "rep13@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/tristan-rader"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/TristanRader2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tristan_Rader",
+        "https://ohiohouse.gov/members/tristan-rader",
+        "https://ohiohouse.gov/members/tristan-rader/biography",
+        "https://www.linkedin.com/in/twrader",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "mathews-ty-oh-hd83",
+      "name": "Ty Mathews",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-83)",
+      "state": "OH",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/09c752d1-59eb-4f43-b401-5092d801f4c1"
+      },
+      "contact": {
+        "email": "rep83@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/ty-d-mathews"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/TyMathews2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ty_Mathews",
+        "https://ohiohouse.gov/members/ty-d-mathews",
+        "https://ohiohouse.gov/members/ty-d-mathews/biography",
+        "https://www.linkedin.com/in/ty-mathews-494a16222",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-ty-oh-hd95",
+      "name": "Ty Moore",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-95)",
+      "state": "OH",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/392b392f-7424-4826-9f65-6b84a805473b"
+      },
+      "contact": {
+        "email": "rep95@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/ty-moore"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Ty_Moore.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ty_Moore",
+        "https://ohiohouse.gov/members/ty-moore",
+        "https://www.linkedin.com/in/ty-moore-36233031",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "sims-veronica-oh-hd33",
+      "name": "Veronica Sims",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Representative (HD-33)",
+      "state": "OH",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8b367fce-9be2-4848-837a-a475c3d531e4"
+      },
+      "contact": {
+        "email": "rep33@ohiohouse.gov",
+        "website": "https://ohiohouse.gov/members/veronica-r-sims"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Veronica_Sims.jpg",
+      "sources": [
+        "https://ballotpedia.org/Veronica_Sims",
+        "https://ohiohouse.gov/members/veronica-r-sims",
+        "https://ohiohouse.gov/members/veronica-r-sims/biography",
+        "https://ohiohouse.gov/members/veronica-sims",
+        "https://www.linkedin.com/in/veronica-r-sims-b21b857",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "demora-bill-oh-sd25",
+      "name": "Bill DeMora",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-25)",
+      "state": "OH",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bdc3493a-a22f-4a6b-b50e-b590216d8cfd"
+      },
+      "contact": {
+        "email": "sd25@ohiosenate.gov",
+        "website": "https://www.ohiosenate.gov/members/william-p-demora"
+      },
+      "social": {
+        "twitter": "senbilldemora",
+        "instagram": "senbilldemora"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/william-p-demora/headshots/thumbnails/medium/william-p-demora-may-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_DeMora",
+        "https://en.wikipedia.org/wiki/Bill_DeMora",
+        "https://justfacts.votesmart.org/candidate/biography/23376/william-demora",
+        "https://ohiosenate.gov/members/william-p-demora",
+        "https://www.legislature.ohio.gov/legislators/senate-directory",
+        "https://www.linkedin.com/in/billdemora",
+        "https://www.ohiosenate.gov/members/william-p-demora",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    },
+    {
+      "politician_id": "blackshear-willis-oh-sd6",
+      "name": "Willis Blackshear",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Ohio State Senator (SD-6)",
+      "state": "OH",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "OH",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/23c443b0-e2f7-4c7a-af1e-d67d7aa366ce"
+      },
+      "contact": {
+        "email": "sd06@ohiosenate.gov",
+        "website": "https://ohiohouse.gov/members/willis-e-blackshear-jr"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.ohio.gov/assets/people/willis-e-blackshear-jr/headshots/thumbnails/medium/willis-e-blackshear-jr-january-2023-headshot_medium.jpg",
+      "sources": [
+        "https://ballotpedia.org/Willis_Blackshear_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/189447/willis-blackshear-jr",
+        "https://ohiohouse.gov/members/willis-e-blackshear-jr",
+        "https://ohiohouse.gov/willis-e-blackshear-jr",
+        "https://ohiosenate.gov/members/willis-e-blackshear-jr",
+        "https://ohiosenate.gov/members/willis-e-blackshear-jr/biography",
+        "https://www.legislature.ohio.gov/legislators/house-directory",
+        "https://data.openstates.org/people/current/oh.csv"
+      ]
+    }
+  ]
+}

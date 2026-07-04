@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getPolitician } from "@/lib/db";
 import { getIssueMap, getUI } from "@/lib/config";
 import { CivitasPage, CivitasPanel, MetricSeal, SourceLink, StatusPill } from "@/components/civitas-ui";
+import { missingDataNote, profileCoverage } from "@/lib/coverage";
 import QABox from "./qa-box";
 
 export const dynamic = "force-dynamic";
@@ -18,6 +19,8 @@ export default async function PoliticianPage({
   const ISSUE_MAP = getIssueMap();
   const ui = getUI();
   const QUAL_LABELS = ui.qualitative_labels;
+  const cov = profileCoverage(p);
+  const gaps = missingDataNote(cov);
 
   return (
     <CivitasPage
@@ -80,6 +83,23 @@ export default async function PoliticianPage({
         </CivitasPanel>
       </div>
 
+      {cov.tier !== "full" && (
+        <CivitasPanel className="mb-8 border-dashed border-gold/35 bg-gold/[0.055] p-4">
+          <div className="mb-1 text-sm font-medium text-gold">
+            {cov.tier === "minimal"
+              ? "Limited data — research pending"
+              : "Partial data — research in progress"}
+          </div>
+          <p className="text-xs leading-5 text-white/55">
+            {cov.researched
+              ? `Our research set has ${cov.stances} sourced position${cov.stances === 1 ? "" : "s"} for this candidate so far.`
+              : "Our research swarm has not found verifiable, sourced evidence for this candidate yet."}{" "}
+            {gaps.length > 0 && <>Not yet in our set: {gaps.join(", ")}. </>}
+            Gaps here reflect our research coverage, not the candidate&apos;s actual record.
+          </p>
+        </CivitasPanel>
+      )}
+
       <nav className="mb-8 flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-[0.16em]">
         <a href="#positions" className="rounded-full border border-white/12 px-3 py-1.5 text-white/50 hover:border-gold/50 hover:text-gold">
           Issues
@@ -130,6 +150,13 @@ export default async function PoliticianPage({
 
       <section id="positions" className="mb-10 scroll-mt-24">
         <h2 className="mb-3 font-serif text-2xl font-normal text-white">Positions ({p.stances.length})</h2>
+        {p.stances.length === 0 && (
+          <CivitasPanel className="mb-3 border-dashed border-white/14 p-4 text-sm leading-6 text-white/48">
+            No sourced positions in our research set yet — research pending. This does
+            not mean the candidate has no positions; we haven&apos;t verified any against
+            primary sources yet (no source, no claim).
+          </CivitasPanel>
+        )}
         <div className="space-y-3">
           {p.stances.map((s) => {
             const issue = ISSUE_MAP[s.issue_id];

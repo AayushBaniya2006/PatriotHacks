@@ -1,0 +1,325 @@
+{
+  "results": [
+    {
+      "test": "Ballot Lookup: Progressive Urban Voter",
+      "passed": true,
+      "details": {
+        "address": "1100 Congress Ave, Austin, TX 78701",
+        "districts": {
+          "cd": "TX-37",
+          "sd": "SD-14",
+          "hd": "HD-49",
+          "county": "Travis County"
+        },
+        "race_count": 9,
+        "candidate_count": 26
+      },
+      "screenshot": "/tmp/test-ballot-Progressive-Urban-Voter-1783134567874.png"
+    },
+    {
+      "test": "Ballot Lookup: Conservative Rural Voter",
+      "passed": true,
+      "details": {
+        "address": "500 E San Antonio Ave, El Paso, TX 79901",
+        "districts": {
+          "cd": "TX-16",
+          "sd": "SD-29",
+          "hd": "HD-77",
+          "county": "El Paso County"
+        },
+        "race_count": 9,
+        "candidate_count": 26
+      },
+      "screenshot": "/tmp/test-ballot-Conservative-Rural-Voter-1783134571272.png"
+    },
+    {
+      "test": "Ballot Lookup: Moderate Suburban Parent",
+      "passed": true,
+      "details": {
+        "address": "1000 Houston St, Laredo, TX 78040",
+        "districts": {
+          "cd": "TX-28",
+          "sd": "SD-21",
+          "hd": "HD-42",
+          "county": "Webb County"
+        },
+        "race_count": 9,
+        "candidate_count": 26
+      },
+      "screenshot": "/tmp/test-ballot-Moderate-Suburban-Parent-1783134574596.png"
+    },
+    {
+      "test": "Ballot Lookup: Libertarian Tech Worker",
+      "passed": true,
+      "details": {
+        "address": "601 University Dr, San Marcos, TX 78666",
+        "districts": {
+          "cd": "TX-35",
+          "sd": "SD-21",
+          "hd": "HD-45",
+          "county": "Hays County"
+        },
+        "race_count": 9,
+        "candidate_count": 27
+      },
+      "screenshot": "/tmp/test-ballot-Libertarian-Tech-Worker-1783134578028.png"
+    },
+    {
+      "test": "Ballot Lookup: Senior on Medicare",
+      "passed": true,
+      "details": {
+        "address": "901 Bagby St, Houston, TX 77002",
+        "districts": {
+          "cd": "TX-18",
+          "sd": "SD-13",
+          "hd": "HD-147",
+          "county": "Harris County"
+        },
+        "race_count": 9,
+        "candidate_count": 26
+      },
+      "screenshot": "/tmp/test-ballot-Senior-on-Medicare-1783134581323.png"
+    },
+    {
+      "test": "Ballot Lookup: Military Veteran",
+      "passed": true,
+      "details": {
+        "address": "1100 E Monroe St, Brownsville, TX 78520",
+        "districts": {
+          "cd": "TX-34",
+          "sd": "SD-27",
+          "hd": "HD-38",
+          "county": "Cameron County"
+        },
+        "race_count": 9,
+        "candidate_count": 26
+      },
+      "screenshot": "/tmp/test-ballot-Military-Veteran-1783134584726.png"
+    },
+    {
+      "test": "Ballot Lookup: College Student",
+      "passed": true,
+      "details": {
+        "address": "100 W Cano St, Edinburg, TX 78539",
+        "districts": {
+          "cd": "TX-15",
+          "sd": "SD-20",
+          "hd": "HD-41",
+          "county": "Hidalgo County"
+        },
+        "race_count": 9,
+        "candidate_count": 25
+      },
+      "screenshot": "/tmp/test-ballot-College-Student-1783134588195.png"
+    },
+    {
+      "test": "Ballot Lookup: Healthcare Worker",
+      "passed": true,
+      "details": {
+        "address": "255 Parkway Blvd, Coppell, TX 75019",
+        "districts": {
+          "cd": "TX-24",
+          "sd": "SD-12",
+          "hd": "HD-115",
+          "county": "Dallas County"
+        },
+        "race_count": 9,
+        "candidate_count": 26
+      },
+      "screenshot": "/tmp/test-ballot-Healthcare-Worker-1783134591915.png"
+    },
+    {
+      "test": "Ballot Lookup: Independent Swing Voter",
+      "passed": true,
+      "details": {
+        "address": "1100 Congress Ave, Austin, TX 78701",
+        "districts": {
+          "cd": "TX-37",
+          "sd": "SD-14",
+          "hd": "HD-49",
+          "county": "Travis County"
+        },
+        "race_count": 9,
+        "candidate_count": 26
+      },
+      "screenshot": "/tmp/test-ballot-Independent-Swing-Voter-1783134595265.png"
+    },
+    {
+      "test": "Ballot Lookup: Pro-Union Worker",
+      "passed": true,
+      "details": {
+        "address": "901 Bagby St, Houston, TX 77002",
+        "districts": {
+          "cd": "TX-18",
+          "sd": "SD-13",
+          "hd": "HD-147",
+          "county": "Harris County"
+        },
+        "race_count": 9,
+        "candidate_count": 26
+      },
+      "screenshot": "/tmp/test-ballot-Pro-Union-Worker-1783134598642.png"
+    },
+    {
+      "test": "Voting Record Verification: Greg Abbott",
+      "passed": true,
+      "details": {
+        "note": "No voting record to verify"
+      }
+    },
+    {
+      "test": "FEC Verification: Greg Abbott",
+      "passed": true,
+      "details": {
+        "note": "No FEC data to verify (state race or no fec_id)"
+      }
+    },
+    {
+      "test": "Voting Record Verification: Gina Hinojosa",
+      "passed": true,
+      "details": {
+        "note": "No voting record to verify"
+      }
+    },
+    {
+      "test": "FEC Verification: Gina Hinojosa",
+      "passed": true,
+      "details": {
+        "note": "No FEC data to verify (state race or no fec_id)"
+      }
+    },
+    {
+      "test": "Voting Record Verification: Dan Patrick",
+      "passed": true,
+      "details": {
+        "note": "No voting record to verify"
+      }
+    },
+    {
+      "test": "FEC Verification: Dan Patrick",
+      "passed": true,
+      "details": {
+        "note": "No FEC data to verify (state race or no fec_id)"
+      }
+    },
+    {
+      "test": "Voting Record Verification: Vikki Goodwin",
+      "passed": true,
+      "details": {
+        "note": "No voting record to verify"
+      }
+    },
+    {
+      "test": "FEC Verification: Vikki Goodwin",
+      "passed": true,
+      "details": {
+        "note": "No FEC data to verify (state race or no fec_id)"
+      }
+    },
+    {
+      "test": "Voting Record Verification: Mayes Middleton",
+      "passed": true,
+      "details": {
+        "note": "No voting record to verify"
+      }
+    },
+    {
+      "test": "FEC Verification: Mayes Middleton",
+      "passed": true,
+      "details": {
+        "note": "No FEC data to verify (state race or no fec_id)"
+      }
+    },
+    {
+      "test": "Voting Record Verification: Nathan Johnson",
+      "passed": true,
+      "details": {
+        "note": "No voting record to verify"
+      }
+    },
+    {
+      "test": "FEC Verification: Nathan Johnson",
+      "passed": true,
+      "details": {
+        "note": "No FEC data to verify (state race or no fec_id)"
+      }
+    },
+    {
+      "test": "Q&A Groundedness: greg-abbott",
+      "passed": true,
+      "details": {
+        "question": "What is their position on healthcare?",
+        "has_sources": true,
+        "honest_short_circuit": false,
+        "response_length": 139463
+      },
+      "screenshot": "/tmp/test-qa-greg-abbott-1783134602327.png"
+    },
+    {
+      "test": "Q&A Groundedness: gina-hinojosa",
+      "passed": true,
+      "details": {
+        "question": "What is their position on healthcare?",
+        "has_sources": true,
+        "honest_short_circuit": false,
+        "response_length": 146809
+      },
+      "screenshot": "/tmp/test-qa-gina-hinojosa-1783134605853.png"
+    },
+    {
+      "test": "Q&A Groundedness: james-talarico",
+      "passed": true,
+      "details": {
+        "question": "What is their position on healthcare?",
+        "has_sources": true,
+        "honest_short_circuit": false,
+        "response_length": 206635
+      },
+      "screenshot": "/tmp/test-qa-james-talarico-1783134610124.png"
+    },
+    {
+      "test": "Q&A Groundedness: ken-paxton",
+      "passed": true,
+      "details": {
+        "question": "What is their position on healthcare?",
+        "has_sources": true,
+        "honest_short_circuit": false,
+        "response_length": 162161
+      },
+      "screenshot": "/tmp/test-qa-ken-paxton-1783134613620.png"
+    },
+    {
+      "test": "Debate: greg-abbott vs gina-hinojosa",
+      "passed": true,
+      "details": {
+        "has_sources": true,
+        "has_judge_verdict": true,
+        "content_length": 13386
+      },
+      "screenshot": "/tmp/test-debate-greg-abbott-vs-gina-hinojosa-1783134615772.png"
+    },
+    {
+      "test": "Scenario Trees",
+      "passed": true,
+      "details": {
+        "has_scenarios": true,
+        "has_sources": true,
+        "has_fact_inference_labels": true
+      },
+      "screenshot": "/tmp/test-scenario-trees-1783134617852.png"
+    },
+    {
+      "test": "Knowledge Graph",
+      "passed": true,
+      "details": {
+        "has_graph_elements": true
+      },
+      "screenshot": "/tmp/test-knowledge-graph-1783134621885.png"
+    }
+  ],
+  "summary": {
+    "passed": 29,
+    "failed": 0,
+    "total": 29
+  }
+}

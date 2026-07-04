@@ -4,6 +4,7 @@ import { getPolitician } from "@/lib/db";
 import { scoreMatch } from "@/lib/scoring";
 import { chat, extractJSON, FAST_MODEL } from "@/lib/llm";
 import { getIssueMap } from "@/lib/config";
+import { missingDataNote, profileCoverage } from "@/lib/coverage";
 import { kvGet, kvSet, NS } from "@/lib/store";
 import type { UserPreferences } from "@/lib/types";
 
@@ -30,6 +31,24 @@ export async function POST(req: NextRequest) {
   if (!profile) return Response.json({ error: "unknown politician" }, { status: 404 });
 
   const match = scoreMatch(prefs, profile);
+
+  // Honest short-circuit: with essentially nothing to ground on (no scored
+  // issues), calling the LLM invites hallucination. Return a deterministic,
+  // truthful explanation instead — no model call.
+  const scoredIssues = match.breakdown.filter((b) => b.status !== "unknown");
+  if (scoredIssues.length === 0) {
+    const cov = profileCoverage(profile);
+    const explanation: QualitativeExplanation = {
+      headline: `We don't have enough sourced data on ${profile.name} to explain a match — research is pending.`,
+      agreements: [],
+      conflicts: [],
+      caveat: cov.stances === 0
+        ? `Our research set contains no sourced issue positions for ${profile.name} yet, so no alignment could be computed on your priorities.`
+        : `${profile.name} has ${cov.stances} sourced position${cov.stances === 1 ? "" : "s"} in our set, but none overlap your weighted priorities.`,
+      evidence_note: `Missing from our data set: ${missingDataNote(cov).join(", ") || "nothing"}. This reflects our research coverage, not the candidate's record.`,
+    };
+    return Response.json({ explanation, match, cached: false });
+  }
 
   const hash = crypto
     .createHash("sha1")
@@ -73,6 +92,9 @@ export async function POST(req: NextRequest) {
         evidence: stanceEvidence(profile, b.issue_id),
       })),
     unknown_issues: match.unknown_issues.map((b) => b.issue_name),
+    // What our research set simply doesn't have on this candidate — the model
+    // must name these as gaps, never fill them.
+    data_gaps: missingDataNote(profileCoverage(profile)),
     contradictions: profile.contradictions.map((c) => c.description),
   };
 
@@ -90,6 +112,7 @@ HARD GROUNDING RULES:
 - Describe the user's view ONLY as stated in "user_wants". Never attribute any other preference to the user.
 - Candidate claims must come from the "evidence" fields provided.
 - If there are no entries with status match or partial, say there were no strong evidence-backed agreements.
+- "unknown_issues" and "data_gaps" list what our research set does NOT cover for this candidate. When relevant, say "no public data in our set on X" — NEVER fill these gaps from memory or general knowledge, and never treat missing data as evidence for or against the candidate.
 
 STYLE RULES: no persuasion, no telling the user how to vote, no emotional language. Characterize matches as "based on your stated priorities". Mention evidence types (voting record vs campaign platform vs statement). Always include the main caveat honestly.
 

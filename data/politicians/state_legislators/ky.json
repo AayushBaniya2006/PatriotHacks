@@ -1,0 +1,4749 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/ky.csv",
+  "state": "KY",
+  "politicians": [
+    {
+      "politician_id": "reed-aaron-ky-sd7",
+      "name": "Aaron Reed",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-7)",
+      "state": "KY",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e46eb488-2e34-4f33-840f-917496473c64"
+      },
+      "contact": {
+        "email": "aaron.reed@kylegislature.gov",
+        "district_voice": "502-233-3689",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=107"
+      },
+      "bio": {
+        "birth_date": "1977-07-20",
+        "gender": "Male"
+      },
+      "image": "https://gunleash.com/wp-content/uploads/2023/11/Aaron_Reed.jpg",
+      "sources": [
+        "https://ballotpedia.org/Aaron_Reed",
+        "https://en.wikipedia.org/wiki/Aaron_Reed",
+        "https://justfacts.votesmart.org/candidate/biography/201476/aaron-reed",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=107",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "thompson-aaron-ky-hd98",
+      "name": "Aaron Thompson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-98)",
+      "state": "KY",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1439bad2-f18b-49e2-94ca-21f2b563dfdd"
+      },
+      "contact": {
+        "email": "aaron.thompson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=98"
+      },
+      "bio": {
+        "birth_date": "1991-05-31",
+        "gender": "Male"
+      },
+      "image": "https://content.campaignpartner.net/images/126420/Headshot.jpg",
+      "sources": [
+        "https://ballotpedia.org/Aaron_Thompson_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Aaron_Thompson_(politician)",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=98",
+        "https://www.linkedin.com/in/aaron-thompson-092b5854",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "bowling-adam-ky-hd87",
+      "name": "Adam Bowling",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-87)",
+      "state": "KY",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e7f7a316-4eb0-4be9-adf9-e7067b20dcfc"
+      },
+      "contact": {
+        "email": "adam.bowling@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=87"
+      },
+      "social": {
+        "twitter": "ABowlingKY"
+      },
+      "bio": {
+        "birth_date": "1982-02-04",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house87.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adam_Bowling",
+        "https://en.wikipedia.org/wiki/Adam_Bowling",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=87",
+        "https://www.linkedin.com/in/adam-bowling-3090094b",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-adam-ky-hd45",
+      "name": "Adam Moore",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-45)",
+      "state": "KY",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ce736fd-c1ca-4366-a235-9509fdb2dcaf"
+      },
+      "contact": {
+        "email": "adam.moore@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=45"
+      },
+      "bio": {
+        "birth_date": "1984-11-30",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/AdamMoore2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adam_Moore_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Adam_Moore_(politician)",
+        "https://justfacts.votesmart.org/candidate/214186/adam-moore",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=45",
+        "https://www.linkedin.com/in/adam-moore-1a398629",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "camuel-adrielle-ky-hd93",
+      "name": "Adrielle Camuel",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-93)",
+      "state": "KY",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/943724d5-5e02-4d0f-bd79-a74e30f18d1a"
+      },
+      "contact": {
+        "email": "adrielle.camuel@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=93"
+      },
+      "social": {
+        "twitter": "camuelforky"
+      },
+      "bio": {
+        "birth_date": "1972-05-26",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house93.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adrielle_Camuel",
+        "https://camuel4ky.com/about",
+        "https://en.wikipedia.org/wiki/Adrielle_Camuel",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=93",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "gentry-al-ky-hd46",
+      "name": "Al Gentry",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-46)",
+      "state": "KY",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dfaa3769-decc-4c1c-9c0b-7195153ab6c8"
+      },
+      "contact": {
+        "email": "al.gentry@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=46"
+      },
+      "social": {
+        "twitter": "kyalgentry"
+      },
+      "bio": {
+        "birth_date": "1964-10-12",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house46.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alan_Gentry",
+        "https://en.wikipedia.org/wiki/Al_Gentry_(politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=46",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "bledsoe-amanda-ky-sd12",
+      "name": "Amanda Bledsoe",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-12)",
+      "state": "KY",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7c03bd44-8541-49b0-9794-a9e606c292ce"
+      },
+      "contact": {
+        "email": "amanda.maysbledsoe@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=112"
+      },
+      "social": {
+        "twitter": "amandambledsoe"
+      },
+      "bio": {
+        "birth_date": "1978-02-15",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate112.jpg",
+      "sources": [
+        "https://amandamaysbledsoe.com/about",
+        "https://ballotpedia.org/Amanda_Mays_Bledsoe",
+        "https://en.wikipedia.org/wiki/Amanda_Mays_Bledsoe",
+        "https://justfacts.votesmart.org/candidate/biography/159716/amanda-bledsoe",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=112",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/amanda-mays-bledsoe-a4008259",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "neighbors-amy-ky-hd21",
+      "name": "Amy Neighbors",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-21)",
+      "state": "KY",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f7bb262c-026f-4af2-9e17-939692c96e89"
+      },
+      "contact": {
+        "email": "amy.neighbors@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=21"
+      },
+      "social": {
+        "twitter": "aneigh"
+      },
+      "bio": {
+        "birth_date": "1975-11-12",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house21.jpg",
+      "sources": [
+        "https://ballotpedia.org/Amy_Neighbors",
+        "https://en.wikipedia.org/wiki/Amy_Neighbors",
+        "https://justfacts.votesmart.org/candidate/biography/201514/amy-neighbors",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=21",
+        "https://www.linkedin.com/in/amy-neighbors-59377b20",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "donworth-anne-ky-hd76",
+      "name": "Anne Donworth",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-76)",
+      "state": "KY",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2b9ac6b5-8979-40b1-b2d1-8241b93061a7"
+      },
+      "contact": {
+        "email": "anne.donworth@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=76"
+      },
+      "bio": {
+        "birth_date": "1983-05-16",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/AnneDonworth.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Anne_Donworth",
+        "https://en.wikipedia.org/wiki/Anne_Donworth",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=76",
+        "https://www.linkedin.com/in/anne-donworth-51958112",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "laferty-ashley-ky-hd95",
+      "name": "Ashley Laferty",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-95)",
+      "state": "KY",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6bc2a8c3-3370-4586-b0b7-a5028f336d12"
+      },
+      "contact": {
+        "email": "ashley.tackettlaferty@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=95"
+      },
+      "bio": {
+        "birth_date": "1979-05-10",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house95.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ashley_Tackett_Laferty",
+        "https://en.wikipedia.org/wiki/Ashley_Tackett_Laferty",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=95",
+        "https://www.kirkandcrum.com/meet-our-attorneys/ashley-t-laferty",
+        "https://www.kirklawfirm.net/our-attorneys/ashley-tackett-laferty",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "chester-burton-beverly-ky-hd44",
+      "name": "Beverly Chester-Burton",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-44)",
+      "state": "KY",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c8a9f2cf-9a79-45f6-94df-346b546e1d9b"
+      },
+      "contact": {
+        "email": "beverly.chesterburton@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=44"
+      },
+      "bio": {
+        "birth_date": "1961-10-03",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house44.jpg",
+      "sources": [
+        "https://ballotpedia.org/Beverly_Chester-Burton",
+        "https://en.wikipedia.org/wiki/Beverly_Chester-Burton",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=44",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "wesley-bill-ky-hd91",
+      "name": "Bill Wesley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-91)",
+      "state": "KY",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/91eec267-436a-49a5-9d41-b6b2632d0a51"
+      },
+      "contact": {
+        "email": "bill.wesley@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=91"
+      },
+      "bio": {
+        "birth_date": "1971-10-26",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house91.jpg",
+      "sources": [
+        "https://ballotpedia.org/Billy_Wesley",
+        "https://en.wikipedia.org/wiki/Bill_Wesley",
+        "https://justfacts.votesmart.org/candidate/189608/bill-wesley",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=91",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "mccool-bobby-ky-hd97",
+      "name": "Bobby McCool",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-97)",
+      "state": "KY",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/22e056d2-728a-425a-a0a1-19e0e5cc59cb"
+      },
+      "contact": {
+        "email": "bobby.mccool@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=97"
+      },
+      "bio": {
+        "birth_date": "1959-05-07",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house97.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bobby_McCool",
+        "https://en.wikipedia.org/wiki/Bobby_McCool_(politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=97",
+        "https://www.linkedin.com/in/bobby-mccool-0a8a4b34",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-brandon-ky-sd30",
+      "name": "Brandon Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-30)",
+      "state": "KY",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/209d5334-d4a2-45f3-b910-0cd52f96dd4e"
+      },
+      "contact": {
+        "email": "brandon.smith@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=130"
+      },
+      "social": {
+        "twitter": "Smithkysenate"
+      },
+      "bio": {
+        "birth_date": "1967-06-14",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate130.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brandon_Smith_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Brandon_Smith_%28politician%29",
+        "https://justfacts.votesmart.org/candidate/34928/brandon-smith",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=130",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "storm-brandon-ky-sd21",
+      "name": "Brandon Storm",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-21)",
+      "state": "KY",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/257271f3-68b1-4481-94e5-f98300493413"
+      },
+      "contact": {
+        "email": "brandon.storm@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=121"
+      },
+      "bio": {
+        "birth_date": "1976-05-14",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate121.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brandon_Storm",
+        "https://en.wikipedia.org/wiki/Brandon_J._Storm",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=121",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/brandon-storm-0a801b30",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "massaroni-candy-ky-hd50",
+      "name": "Candy Massaroni",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-50)",
+      "state": "KY",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/70d58905-dd36-4e9a-b281-639600e6b945"
+      },
+      "contact": {
+        "email": "candy.massaroni@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=50"
+      },
+      "bio": {
+        "birth_date": "1980-07-30",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house50.jpg",
+      "sources": [
+        "https://ballotpedia.org/Candy_Massaroni",
+        "https://en.wikipedia.org/wiki/Candy_Massaroni",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=50",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "armstrong-cassie-ky-sd19",
+      "name": "Cassie Armstrong",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-19)",
+      "state": "KY",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8dbecabb-ef15-4925-8e50-26331e738a05"
+      },
+      "contact": {
+        "email": "cassie.armstrong@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=119"
+      },
+      "social": {
+        "twitter": "cassieforky"
+      },
+      "bio": {
+        "birth_date": "1986-09-30",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate119.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cassie_Chambers_Armstrong",
+        "https://en.wikipedia.org/wiki/Cassie_Chambers_Armstrong",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=119",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://louisville.edu/law/faculty-staff/faculty-directory/armstrong-cassie-chambers",
+        "https://www.cassieforky.com/about",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "aull-chad-ky-hd79",
+      "name": "Chad Aull",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-79)",
+      "state": "KY",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/51dc7033-7377-44d4-a5d8-7bd36b371896"
+      },
+      "contact": {
+        "email": "chad.aull@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=79"
+      },
+      "social": {
+        "twitter": "chadaull"
+      },
+      "bio": {
+        "birth_date": "1982-01-28",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house79.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chad_Aull",
+        "https://en.wikipedia.org/wiki/Chad_Aull",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=79",
+        "https://www.linkedin.com/in/chad-aull-2987714",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "freeland-chris-ky-hd6",
+      "name": "Chris Freeland",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-6)",
+      "state": "KY",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/db36edd8-6c2f-4441-aa30-5b4dc48b3357"
+      },
+      "contact": {
+        "email": "chris.freeland@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=6"
+      },
+      "bio": {
+        "birth_date": "1969-01-07",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house6.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Freeland",
+        "https://en.wikipedia.org/wiki/Chris_Freeland",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=6",
+        "https://www.linkedin.com/in/chris-freeland-9b231aa4",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "fugate-chris-ky-hd84",
+      "name": "Chris Fugate",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-84)",
+      "state": "KY",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6843e90b-a30a-4dbf-885c-7321ccc8f73f"
+      },
+      "contact": {
+        "email": "chris.fugate@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=84"
+      },
+      "bio": {
+        "birth_date": "1969-12-28",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house84.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Fugate",
+        "https://en.wikipedia.org/wiki/Chris_Fugate",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=84",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "lewis-chris-ky-hd29",
+      "name": "Chris Lewis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-29)",
+      "state": "KY",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7da80b33-fc71-4d7f-8c96-e6068bd4c19b"
+      },
+      "contact": {
+        "email": "chris.lewis@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=29"
+      },
+      "bio": {
+        "birth_date": "1979-12-14",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ChrisLewis2024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Lewis_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Chris_Lewis_(American_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/214167/chris-lewis",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=29",
+        "https://www.linkedin.com/in/chris-lewis-20231a6",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "mcdaniel-chris-ky-sd23",
+      "name": "Chris McDaniel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-23)",
+      "state": "KY",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b32a95c9-42ba-449b-8581-97b9cef73c6a"
+      },
+      "contact": {
+        "email": "chris.mcdaniel@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=123"
+      },
+      "social": {
+        "twitter": "kychrismcdaniel"
+      },
+      "bio": {
+        "birth_date": "1977-07-19",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate123.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_McDaniel_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Christian_McDaniel",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=123",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "richardson-craig-ky-sd3",
+      "name": "Craig Richardson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-3)",
+      "state": "KY",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3109e3ae-10c1-417e-bf7f-bf4f539bd3c8"
+      },
+      "contact": {
+        "email": "craig.richardson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=103"
+      },
+      "bio": {
+        "birth_date": "1984-09-28",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate103.jpg",
+      "sources": [
+        "https://ballotpedia.org/Craig_Richardson",
+        "https://en.wikipedia.org/wiki/Craig_Richardson",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=103",
+        "https://www.linkedin.com/in/craig-richardson-56228a1ab",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-d-j-ky-hd13",
+      "name": "D.J. Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-13)",
+      "state": "KY",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ed9307f1-cd95-4004-9e72-46970ea64adf"
+      },
+      "contact": {
+        "email": "dj.johnson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=13"
+      },
+      "bio": {
+        "birth_date": "1957-11-02",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house13.jpg",
+      "sources": [
+        "https://ballotpedia.org/D.J._Johnson_(Kentucky)",
+        "https://en.wikipedia.org/wiki/DJ_Johnson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/167586/dj-johnson",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=13",
+        "https://www.djforkentucky.com/about",
+        "https://www.linkedin.com/in/dj-johnson-49146b66",
+        "https://www.lrc.ky.gov/legislator/H013.htm",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "elliott-daniel-ky-hd54",
+      "name": "Daniel Elliott",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-54)",
+      "state": "KY",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d93e2493-49a8-4395-b7e0-5842893344e1"
+      },
+      "contact": {
+        "email": "daniel.elliott@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=54"
+      },
+      "bio": {
+        "birth_date": "1984-08-12",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house54.jpg",
+      "sources": [
+        "https://ballotpedia.org/Daniel_Elliott_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Daniel_Elliott_(Kentucky_politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=54",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "fister-dan-ky-hd56",
+      "name": "Dan Fister",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-56)",
+      "state": "KY",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c88c6162-de24-4d8b-98a9-f1788390d043"
+      },
+      "contact": {
+        "email": "daniel.fister@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=56"
+      },
+      "bio": {
+        "birth_date": "1958-07-30",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house56.jpg",
+      "sources": [
+        "https://ballotpedia.org/Daniel_Fister",
+        "https://en.wikipedia.org/wiki/Daniel_Fister",
+        "https://justfacts.votesmart.org/candidate/biography/167625/dan-fister",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=56",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "grossberg-daniel-ky-hd30",
+      "name": "Daniel Grossberg",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-30)",
+      "state": "KY",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d4dd968d-1508-476b-bde1-7504a47288f0"
+      },
+      "contact": {
+        "email": "daniel.grossberg@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=30"
+      },
+      "social": {
+        "twitter": "Grossberg4KY"
+      },
+      "bio": {
+        "birth_date": "1978-09-30",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house30.jpg",
+      "sources": [
+        "https://ballotpedia.org/Daniel_Grossberg",
+        "https://en.wikipedia.org/wiki/Daniel_Grossberg",
+        "https://justfacts.votesmart.org/candidate/156156/daniel-grossberg",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=30",
+        "https://www.linkedin.com/in/danielbgrossberg",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "carroll-danny-ky-sd2",
+      "name": "Danny Carroll",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-2)",
+      "state": "KY",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0ec7d376-4235-44e7-a6d7-d63962dff167"
+      },
+      "contact": {
+        "email": "danny.carroll@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=102"
+      },
+      "social": {
+        "twitter": "dannycarrollky"
+      },
+      "bio": {
+        "birth_date": "1963-11-04",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate102.jpg",
+      "sources": [
+        "https://ballotpedia.org/Danny_Carroll",
+        "https://en.wikipedia.org/wiki/Danny_Carroll_(Kentucky_politician)",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=102",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "hale-david-ky-hd74",
+      "name": "David Hale",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-74)",
+      "state": "KY",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ebd5f90d-e3cc-45ef-97ff-d51ff1685bcc"
+      },
+      "contact": {
+        "email": "david.hale@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=74"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house74.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Hale_(Kentucky)",
+        "https://en.wikipedia.org/wiki/David_Hale_(Kentucky_politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=74",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "meade-david-ky-hd80",
+      "name": "David Meade",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-80)",
+      "state": "KY",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3643503c-1da8-4a57-90f1-54f063b1d25e"
+      },
+      "contact": {
+        "email": "david.meade@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=80"
+      },
+      "social": {
+        "twitter": "DavidMeadeKY"
+      },
+      "bio": {
+        "birth_date": "1976-06-22",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house80.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Meade",
+        "https://en.wikipedia.org/wiki/David_Meade",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=80",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "osborne-david-ky-hd59",
+      "name": "David Osborne",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-59)",
+      "state": "KY",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bf8bfdc3-66f2-417c-8178-9ed16bf8843f"
+      },
+      "contact": {
+        "email": "david.osborne@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=59"
+      },
+      "social": {
+        "twitter": "reposborne"
+      },
+      "bio": {
+        "birth_date": "1964-03-27",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house59.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Osborne",
+        "https://en.wikipedia.org/wiki/David_W._Osborne",
+        "https://justfacts.votesmart.org/candidate/biography/35099/david-osborne",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=59",
+        "https://www.linkedin.com/in/david-osborne-086b1750",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "givens-david-ky-sd9",
+      "name": "David Givens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-9)",
+      "state": "KY",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5594a97f-7358-427e-af84-43150a21c97e"
+      },
+      "contact": {
+        "email": "david.givens@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=109"
+      },
+      "social": {
+        "twitter": "kydavidgivens"
+      },
+      "bio": {
+        "birth_date": "1966-12-26",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate109.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Givens",
+        "https://en.wikipedia.org/wiki/David_P._Givens",
+        "https://justfacts.votesmart.org/candidate/biography/102311/david-givens",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=109",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "gordon-deanna-ky-hd81",
+      "name": "Deanna Gordon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-81)",
+      "state": "KY",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/96ab59e2-44c2-4c3d-ac8a-1ee24acc5b55"
+      },
+      "contact": {
+        "email": "deanna.gordon@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=81"
+      },
+      "social": {
+        "twitter": "deanna_ky"
+      },
+      "bio": {
+        "birth_date": "1969-08-23",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house81.jpg",
+      "sources": [
+        "https://ballotpedia.org/Deanna_Frazier",
+        "https://en.wikipedia.org/wiki/Deanna_Frazier_Gordon",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=81",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "lewis-derek-ky-hd90",
+      "name": "Derek Lewis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-90)",
+      "state": "KY",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/60ef609e-8aed-4698-a626-664f536a6122"
+      },
+      "contact": {
+        "email": "derek.lewis@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=90"
+      },
+      "bio": {
+        "birth_date": "1986-10-31",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house90.jpg",
+      "sources": [
+        "https://ballotpedia.org/Derek_Lewis_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Derek_Lewis_(American_politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=90",
+        "https://www.linkedin.com/in/derek-lewis-mba-b1407428",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "douglas-don-ky-sd22",
+      "name": "Don Douglas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-22)",
+      "state": "KY",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a7cd8577-c315-4bf0-b95f-3259ab7dfce7"
+      },
+      "contact": {
+        "email": "donald.douglas@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=122"
+      },
+      "bio": {
+        "birth_date": "1957-03-06",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate122.jpg",
+      "sources": [
+        "https://ballotpedia.org/Donald_Douglas",
+        "https://en.wikipedia.org/wiki/Donald_Douglas_(politician)",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=122",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "callaway-emily-ky-hd37",
+      "name": "Emily Callaway",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-37)",
+      "state": "KY",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/67b233b8-474d-49ce-81a8-7f48eec3c79a"
+      },
+      "contact": {
+        "email": "emily.callaway@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=37"
+      },
+      "social": {
+        "twitter": "Miz_Emc"
+      },
+      "bio": {
+        "birth_date": "1978-06-06",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house37.jpg",
+      "sources": [
+        "https://ballotpedia.org/Emily_Callaway",
+        "https://en.wikipedia.org/wiki/Emily_Callaway",
+        "https://justfacts.votesmart.org/candidate/201593/emily-callaway",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=37",
+        "https://www.emilycallaway.net/about",
+        "https://www.linkedin.com/in/emily-callaway-bb590361",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "hancock-erika-ky-hd57",
+      "name": "Erika Hancock",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-57)",
+      "state": "KY",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4ce23404-165d-4c96-9130-56acaf2e73a7"
+      },
+      "contact": {
+        "email": "erika.hancock@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=57"
+      },
+      "bio": {
+        "birth_date": "1978-07-16",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house57.jpg",
+      "sources": [
+        "https://ballotpedia.org/Erika_Hancock",
+        "https://en.wikipedia.org/wiki/Erika_Hancock",
+        "https://justfacts.votesmart.org/candidate/biography/214197/erika-hancock",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=57",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "rabourn-felicia-ky-hd47",
+      "name": "Felicia Rabourn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-47)",
+      "state": "KY",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4342be62-2791-4d48-b601-43949239cd94"
+      },
+      "contact": {
+        "email": "felicia.rabourn@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=47"
+      },
+      "bio": {
+        "birth_date": "1990-12-22",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house47.jpg",
+      "sources": [
+        "https://ballotpedia.org/Felicia_Rabourn",
+        "https://en.wikipedia.org/wiki/Felicia_Rabourn",
+        "https://justfacts.votesmart.org/candidate/biography/189557/felicia-rabourn",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=47",
+        "https://www.linkedin.com/in/felicia-rabourn-24aa2a54",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "boswell-gary-ky-sd8",
+      "name": "Gary Boswell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-8)",
+      "state": "KY",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2d6a7358-f685-4476-aa31-b92cf72b11ec"
+      },
+      "contact": {
+        "email": "gary.boswell@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=108"
+      },
+      "bio": {
+        "birth_date": "1954-06-19",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate108.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gary_Boswell",
+        "https://en.wikipedia.org/wiki/Gary_Boswell",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=108",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "clemons-gary-ky-sd37",
+      "name": "Gary Clemons",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-37)",
+      "state": "KY",
+      "district": "SD-37",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b0cb8f76-4b91-472c-97e2-106ef21f3342"
+      },
+      "contact": {
+        "email": "gary.clemons@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=137"
+      },
+      "bio": {
+        "birth_date": "1974-08-06",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Gary_Clemons",
+        "https://en.wikipedia.org/wiki/Gary_Clemons",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=137",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-george-ky-hd77",
+      "name": "George Brown",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-77)",
+      "state": "KY",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bb3e5fee-3bda-4a5d-95ee-dc31ff9defed"
+      },
+      "contact": {
+        "email": "george.brown@kylegislature.gov",
+        "district_voice": "859-312-7513",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=77"
+      },
+      "social": {
+        "twitter": "GeorgeBrownky77"
+      },
+      "bio": {
+        "birth_date": "1948-11-14",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house77.jpg",
+      "sources": [
+        "https://ballotpedia.org/George_A._Brown_Jr.",
+        "https://en.wikipedia.org/wiki/George_Brown_Jr._(Kentucky_politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=77",
+        "https://www.linkedin.com/in/george-brown-52ab6775",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "neal-gerald-ky-sd33",
+      "name": "Gerald Neal",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-33)",
+      "state": "KY",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0d92a09c-ce23-46cd-9582-b7d1b08d76dd"
+      },
+      "contact": {
+        "email": "gerald.neal@kylegislature.gov",
+        "district_voice": "502-776-1222",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=133"
+      },
+      "social": {
+        "twitter": "GeraldNeal33"
+      },
+      "bio": {
+        "birth_date": "1945-09-22",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate133.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gerald_Neal",
+        "https://en.wikipedia.org/wiki/Gerald_Neal",
+        "https://justfacts.votesmart.org/candidate/4041/gerald-neal",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=133",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "williams-gex-ky-sd20",
+      "name": "Gex Williams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-20)",
+      "state": "KY",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6aa07729-a16f-4465-a605-7afbbe982882"
+      },
+      "contact": {
+        "email": "gex.williams@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=120"
+      },
+      "bio": {
+        "birth_date": "1952-08-22",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate120.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gex_Williams",
+        "https://en.wikipedia.org/wiki/Gex_Williams",
+        "https://justfacts.votesmart.org/candidate/biography/4055/jay-williams-iii",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=120",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/egex3",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "elkins-greg-ky-sd28",
+      "name": "Greg Elkins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-28)",
+      "state": "KY",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/139d004c-7a19-4153-a58b-919a1b70180e"
+      },
+      "contact": {
+        "email": "greg.elkins@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=128"
+      },
+      "bio": {
+        "birth_date": "1964-10-10",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate128.jpg",
+      "sources": [
+        "https://ballotpedia.org/Greg_Elkins",
+        "https://en.wikipedia.org/wiki/Greg_Elkins",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=128",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/greg-elkins-8177252b",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "payne-j-t-ky-hd11",
+      "name": "J.T. Payne",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-11)",
+      "state": "KY",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fded60a9-de72-47ba-bf20-90dddd9f9138"
+      },
+      "contact": {
+        "email": "jt.payne@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=11"
+      },
+      "bio": {
+        "birth_date": "1998-06-12",
+        "gender": "Male"
+      },
+      "image": "https://thenews.org/wp-content/uploads/2018/08/7BD9AD2B-7439-4C90-86BE-692CC9C4D09A-777x437.jpeg",
+      "sources": [
+        "https://ballotpedia.org/J.T._Payne_(Kentucky)",
+        "https://en.wikipedia.org/wiki/J._T._Payne",
+        "https://justfacts.votesmart.org/candidate/biography/214152/jt-payne",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=11",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "tipton-james-ky-hd53",
+      "name": "James Tipton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-53)",
+      "state": "KY",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d6c9aa9b-3c6b-411a-bff1-fc1c38d4bce0"
+      },
+      "contact": {
+        "email": "james.tipton@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=53"
+      },
+      "social": {
+        "twitter": "JamesATipton"
+      },
+      "bio": {
+        "birth_date": "1959-12-07",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house53.jpg",
+      "sources": [
+        "https://ballotpedia.org/James_A._Tipton",
+        "https://en.wikipedia.org/wiki/James_Tipton",
+        "https://justfacts.votesmart.org/candidate/biography/148972/james-tipton",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=53",
+        "https://www.linkedin.com/in/james-tipton-55541311",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "bauman-jared-ky-hd28",
+      "name": "Jared Bauman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-28)",
+      "state": "KY",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b86f4912-39b1-44a0-90a8-0b233921a094"
+      },
+      "contact": {
+        "email": "jared.bauman@kylegislature.gov",
+        "district_voice": "502-544-1846",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=28"
+      },
+      "bio": {
+        "birth_date": "1984-09-15",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house28.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jared_Bauman",
+        "https://en.wikipedia.org/wiki/Jared_Bauman",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=28",
+        "https://www.linkedin.com/in/jared-bauman-855aa61a8",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "carpenter-jared-ky-sd34",
+      "name": "Jared Carpenter",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-34)",
+      "state": "KY",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b2299f51-c122-46ac-9937-3a6a7b682bb8"
+      },
+      "contact": {
+        "email": "jared.carpenter@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=134"
+      },
+      "social": {
+        "twitter": "JCarpenterKY"
+      },
+      "bio": {
+        "birth_date": "1977-04-26",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate134.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jared_Carpenter",
+        "https://en.wikipedia.org/wiki/Jared_Carpenter",
+        "https://justfacts.votesmart.org/candidate/biography/117573/jared-carpenter",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=134",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "howell-jason-ky-sd1",
+      "name": "Jason Howell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-1)",
+      "state": "KY",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a796965c-0c0f-43b2-975b-d9726b34acd8"
+      },
+      "contact": {
+        "email": "jason.howell@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=101"
+      },
+      "social": {
+        "twitter": "jasonghowell"
+      },
+      "bio": {
+        "birth_date": "1970-12-19",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate101.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jason_Howell_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Jason_Howell",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=101",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/jason-howell-509682",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "nemes-jason-ky-hd33",
+      "name": "Jason Nemes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-33)",
+      "state": "KY",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c56fc398-975e-47b9-919a-fbdd0c9f721d"
+      },
+      "contact": {
+        "email": "jason.nemes@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=33"
+      },
+      "social": {
+        "twitter": "jmnemes"
+      },
+      "bio": {
+        "birth_date": "1978-03-27",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house33.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jason_Michael_Nemes",
+        "https://en.wikipedia.org/wiki/Jason_Nemes",
+        "https://justfacts.votesmart.org/candidate/175824/jason-nemes",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=33",
+        "https://www.linkedin.com/in/jasonnemes",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "petrie-jason-ky-hd16",
+      "name": "Jason Petrie",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-16)",
+      "state": "KY",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3fac3a9c-78ad-4b24-8483-f1786fac9c9e"
+      },
+      "contact": {
+        "email": "jason.petrie@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=16"
+      },
+      "bio": {
+        "birth_date": "1971-02-27",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house16.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jason_Petrie",
+        "https://en.wikipedia.org/wiki/Jason_Petrie",
+        "https://justfacts.votesmart.org/candidate/biography/154004/jason-petrie",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=16",
+        "https://www.jasonpetrie.com/about",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "decker-jennifer-ky-hd58",
+      "name": "Jennifer Decker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-58)",
+      "state": "KY",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2c5c20cc-807b-44c8-a1a9-582fe69ca87c"
+      },
+      "contact": {
+        "email": "jennifer.decker@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=58"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house58.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Decker",
+        "https://en.wikipedia.org/wiki/Jennifer_Decker_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/189567/jennifer-decker",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=58",
+        "https://www.linkedin.com/in/jennifer-decker-80b78463",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "gooch-jim-ky-hd12",
+      "name": "Jim Gooch",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-12)",
+      "state": "KY",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f40ed494-ce37-43f4-b323-1bc2b6197831"
+      },
+      "contact": {
+        "email": "jim.gooch@kylegislature.gov",
+        "district_voice": "270-667-7327",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=12"
+      },
+      "bio": {
+        "birth_date": "1951-04-13",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house12.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jim_Gooch,_Jr.",
+        "https://en.wikipedia.org/wiki/Jim_Gooch_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/4096/jim-gooch-jr",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=12",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "higdon-jimmy-ky-sd14",
+      "name": "Jimmy Higdon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-14)",
+      "state": "KY",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4042b29b-c6bb-407e-856d-9197a03d55ff"
+      },
+      "contact": {
+        "email": "jimmy.higdon@kylegislature.gov",
+        "district_voice": "270-692-6945",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=114"
+      },
+      "social": {
+        "twitter": "SenatorJimmy"
+      },
+      "bio": {
+        "birth_date": "1953-07-15",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate114.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jimmy_Higdon",
+        "https://en.wikipedia.org/wiki/Jimmy_Higdon",
+        "https://justfacts.votesmart.org/candidate/biography/35042/jimmy-higdon",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=114",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "blanton-john-ky-hd92",
+      "name": "John Blanton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-92)",
+      "state": "KY",
+      "district": "HD-92",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7cda4251-f26b-4bab-bf88-ed61b947018e"
+      },
+      "contact": {
+        "email": "john.blanton@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=92"
+      },
+      "social": {
+        "twitter": "repblanton92"
+      },
+      "bio": {
+        "birth_date": "1968-05-08",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house92.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Blanton",
+        "https://en.wikipedia.org/wiki/John_Blanton",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=92",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "hodgson-john-ky-hd36",
+      "name": "John Hodgson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-36)",
+      "state": "KY",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2f3255d6-7801-4089-a275-f01e00444ee0"
+      },
+      "contact": {
+        "email": "john.hodgson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=36"
+      },
+      "bio": {
+        "birth_date": "1961-07-11",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house36.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Hodgson",
+        "https://en.wikipedia.org/wiki/John_Hodgson_(Kentucky_politician)",
+        "https://justfacts.votesmart.org/candidate/201590/john-hodgson",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=36",
+        "https://www.linkedin.com/in/hodgson",
+        "https://www.linkedin.com/in/hodgson4ky",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "branscum-josh-ky-hd83",
+      "name": "Josh Branscum",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-83)",
+      "state": "KY",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ff91cf3b-77a1-47b0-81b3-1c18f006349a"
+      },
+      "contact": {
+        "email": "josh.branscum@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=83"
+      },
+      "social": {
+        "twitter": "BranscumforKY"
+      },
+      "bio": {
+        "birth_date": "1982-06-13",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house83.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joshua_Branscum",
+        "https://en.wikipedia.org/wiki/Josh_Branscum",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=83",
+        "https://www.bloomberg.com/profile/person/20027693",
+        "https://www.linkedin.com/in/josh-branscum-302276192",
+        "https://www.linkedin.com/in/josh-branscum-baa4856",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "bray-josh-ky-hd71",
+      "name": "Josh Bray",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-71)",
+      "state": "KY",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a110d6ba-f17f-4847-b0e9-327c82cd7122"
+      },
+      "contact": {
+        "email": "josh.bray@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=71"
+      },
+      "social": {
+        "twitter": "BrayforKy"
+      },
+      "bio": {
+        "birth_date": "1985-03-29",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house71.jpg",
+      "sources": [
+        "https://ballotpedia.org/Josh_Bray",
+        "https://ballotpedia.org/Josh_Bray_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Josh_Bray_(politician)",
+        "https://justfacts.votesmart.org/candidate/189584/josh-bray",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=71",
+        "https://www.linkedin.com/in/joshua-bray-b95419129",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "calloway-josh-ky-hd10",
+      "name": "Josh Calloway",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-10)",
+      "state": "KY",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f218fb5a-2336-4f82-b192-acc3893dabdf"
+      },
+      "contact": {
+        "email": "josh.calloway@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=10"
+      },
+      "bio": {
+        "birth_date": "1979-02-03",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Josh_Calloway",
+        "https://en.wikipedia.org/wiki/Josh_Calloway",
+        "https://justfacts.votesmart.org/candidate/biography/177911/josh-calloway",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=10",
+        "https://www.linkedin.com/in/josh-calloway-68a32277",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "watkins-joshua-ky-hd42",
+      "name": "Joshua Watkins",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-42)",
+      "state": "KY",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/118003d1-9f48-4ef8-bbd0-748d17ebb699"
+      },
+      "contact": {
+        "email": "joshua.watkins@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=42"
+      },
+      "bio": {
+        "birth_date": "1985-09-27",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JoshuaWatkins2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joshua_Watkins",
+        "https://en.wikipedia.org/wiki/Joshua_Watkins",
+        "https://justfacts.votesmart.org/candidate/biography/214183/joshua-watkins",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=42",
+        "https://www.linkedin.com/in/joshuawatkinsprojectmanager",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "adams-julie-ky-sd36",
+      "name": "Julie Adams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-36)",
+      "state": "KY",
+      "district": "SD-36",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/38ae421f-f4fa-40f6-b025-a75bc6b42f35"
+      },
+      "contact": {
+        "email": "julie.adams@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=136"
+      },
+      "social": {
+        "twitter": "jrajra"
+      },
+      "bio": {
+        "birth_date": "1969-06-11",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate136.jpg",
+      "sources": [
+        "https://ballotpedia.org/Julie_Adams",
+        "https://en.wikipedia.org/wiki/Julie_Adams_(politician)",
+        "https://justfacts.votesmart.org/candidate/73611/julie-raque-adams",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=136",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/julie-raque-adams-9249a611",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "berg-karen-ky-sd26",
+      "name": "Karen Berg",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-26)",
+      "state": "KY",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b45a3156-f662-4884-9c13-b33a4c2d9105"
+      },
+      "contact": {
+        "email": "karen.berg@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=126"
+      },
+      "bio": {
+        "birth_date": "1961-12-30",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate126.jpg",
+      "sources": [
+        "https://ballotpedia.org/Karen_Berg",
+        "https://en.wikipedia.org/wiki/Karen_Berg_(politician)",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=126",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "fleming-ken-ky-hd48",
+      "name": "Ken Fleming",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-48)",
+      "state": "KY",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d7b86c25-2f90-4d8b-a92e-4b4ef5dd0512"
+      },
+      "contact": {
+        "email": "ken.fleming@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=48"
+      },
+      "bio": {
+        "birth_date": "1960-12-27",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house48.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ken_Fleming",
+        "https://en.wikipedia.org/wiki/Ken_Fleming_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/73588/ken-fleming",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=48",
+        "https://www.linkedin.com/in/kenfleming1",
+        "https://www.lrc.ky.gov/legislator/H048.htm",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "upchurch-ken-ky-hd52",
+      "name": "Ken Upchurch",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-52)",
+      "state": "KY",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7aa13bf4-126a-4901-bfeb-2244bd2d3cc3"
+      },
+      "contact": {
+        "email": "ken.upchurch@kylegislature.gov",
+        "district_voice": "606-340-8490",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=52"
+      },
+      "social": {
+        "twitter": "KenUpchurch"
+      },
+      "bio": {
+        "birth_date": "1969-06-04",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house52.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ken_Upchurch",
+        "https://en.wikipedia.org/wiki/Ken_Upchurch",
+        "https://justfacts.votesmart.org/candidate/biography/18799/ken-upchurch",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=52",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "herron-keturah-ky-sd35",
+      "name": "Keturah Herron",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-35)",
+      "state": "KY",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/15b970f1-bd55-4876-80d5-13570b8f1a1a"
+      },
+      "contact": {
+        "email": "keturah.herron@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=135"
+      },
+      "bio": {
+        "birth_date": "1980-03-22",
+        "gender": "X"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate135.jpg",
+      "sources": [
+        "https://ballotpedia.org/Keturah_Herron",
+        "https://en.wikipedia.org/wiki/Keturah_Herron",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=135",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=42",
+        "https://www.linkedin.com/in/keturah-herron-60425959",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-kevin-ky-hd20",
+      "name": "Kevin Jackson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-20)",
+      "state": "KY",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0e905c68-fbcc-4392-865e-a4dbc5d2ea42"
+      },
+      "contact": {
+        "email": "kevin.jackson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=20"
+      },
+      "bio": {
+        "birth_date": "1958-11-21",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house20.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kevin_Jackson",
+        "https://ballotpedia.org/Kevin_Jackson_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Kevin_Jackson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/201509/kevin-jackson",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=20",
+        "https://www.linkedin.com/in/kevinjackson1121",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "banta-kim-ky-hd63",
+      "name": "Kim Banta",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-63)",
+      "state": "KY",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/27b951aa-c951-4160-9373-721ca3b6a9db"
+      },
+      "contact": {
+        "email": "kim.banta@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=63"
+      },
+      "bio": {
+        "birth_date": "1964-01-17",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house63.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kimberly_Banta",
+        "https://en.wikipedia.org/wiki/Kim_Banta",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=63",
+        "https://www.linkedin.com/in/kimberly-banta-414738139",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "holloway-kim-ky-hd2",
+      "name": "Kim Holloway",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-2)",
+      "state": "KY",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5cb48d67-2db5-4b6e-89b1-1509110bd708"
+      },
+      "contact": {
+        "email": "kim.holloway@kylegislature.gov",
+        "district_voice": "270-978-0583",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=2"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://npr.brightspotcdn.com/01/2a/8d768d42405b8992ce1c5dcb8159/244626154-114463787658953-2523667072088681096-n.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kimberly_Holloway_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Kimberly_Holloway",
+        "https://justfacts.votesmart.org/candidate/biography/201490/kimberly-holloway",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=2",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "king-kim-ky-hd55",
+      "name": "Kim King",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-55)",
+      "state": "KY",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cd95ada0-14f0-4b63-aeea-f4a92525eeaf"
+      },
+      "contact": {
+        "email": "kim.king@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=55"
+      },
+      "social": {
+        "twitter": "KimberlyKingGOP"
+      },
+      "bio": {
+        "birth_date": "1962-11-29",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house55.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kim_King",
+        "https://en.wikipedia.org/wiki/Kim_King_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/117329/kim-king",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=55",
+        "https://www.linkedin.com/in/kimberly-king-10814611",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "moser-kim-ky-hd64",
+      "name": "Kim Moser",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-64)",
+      "state": "KY",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/92511255-ca06-4241-bd91-0cafd92e3d5c"
+      },
+      "contact": {
+        "email": "kimberly.moser@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=64"
+      },
+      "bio": {
+        "birth_date": "1962-06-08",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house64.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kimberly_Poore_Moser",
+        "https://en.wikipedia.org/wiki/Kimberly_Poore_Moser",
+        "https://justfacts.votesmart.org/candidate/biography/167634/kim-moser",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=64",
+        "https://www.linkedin.com/in/kimberly-poore-moser-a065aa2",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "burke-lindsey-ky-hd75",
+      "name": "Lindsey Burke",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-75)",
+      "state": "KY",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8048f367-9d46-4be5-9cb8-7a249d06cb13"
+      },
+      "contact": {
+        "email": "lindsey.burke@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=75"
+      },
+      "bio": {
+        "birth_date": "1984-01-29",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house75.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lindsey_Burke",
+        "https://en.wikipedia.org/wiki/Lindsey_Burke",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=75",
+        "https://micahlegal.org/attorney-lindsey-burke",
+        "https://www.linkedin.com/in/lindseytburke",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "tichenor-lindsey-ky-sd6",
+      "name": "Lindsey Tichenor",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-6)",
+      "state": "KY",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/db2324a8-1ae2-4e3a-81e5-ac83cb7bbb05"
+      },
+      "contact": {
+        "email": "lindsey.tichenor@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=106"
+      },
+      "social": {
+        "twitter": "tichenor4ky"
+      },
+      "bio": {
+        "birth_date": "1977-01-29",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate106.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lindsey_Tichenor",
+        "https://en.wikipedia.org/wiki/Lindsey_Tichenor",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=106",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/lindsey-tichenor-0751a398",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "willner-lisa-ky-hd35",
+      "name": "Lisa Willner",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-35)",
+      "state": "KY",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6dd815a4-fc3c-4e79-8cd5-a574d8cf0af8"
+      },
+      "contact": {
+        "email": "lisa.willner@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=35"
+      },
+      "social": {
+        "twitter": "lgwillner"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house35.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Willner",
+        "https://en.wikipedia.org/wiki/Lisa_Willner",
+        "https://justfacts.votesmart.org/candidate/177950/lisa-willner",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=35",
+        "https://lisawillner.com",
+        "https://www.linkedin.com/in/lisa-willner-ph-d-0a373590",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "proctor-marianne-ky-hd60",
+      "name": "Marianne Proctor",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-60)",
+      "state": "KY",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ad4657b-84d4-4ce1-864e-2f1f75686cc7"
+      },
+      "contact": {
+        "email": "marianne.proctor@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=60"
+      },
+      "bio": {
+        "birth_date": "1968-02-24",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house60.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marianne_Proctor",
+        "https://en.wikipedia.org/wiki/Marianne_Proctor",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=60",
+        "https://proctorky.com/about-marianne-proctor",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "hart-mark-ky-hd78",
+      "name": "Mark Hart",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-78)",
+      "state": "KY",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b1a31b02-5d89-42be-97d4-7d08d99161d8"
+      },
+      "contact": {
+        "email": "mark.hart@kylegislature.gov",
+        "district_voice": "859-654-4278",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=78"
+      },
+      "bio": {
+        "birth_date": "1968-12-09",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house78.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Hart",
+        "https://en.wikipedia.org/wiki/Mark_Hart_(politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=78",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "imes-mary-beth-ky-hd5",
+      "name": "Mary Beth Imes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-5)",
+      "state": "KY",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ad063b4f-a860-48c3-abfb-18e977a21caf"
+      },
+      "contact": {
+        "email": "marybeth.imes@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=5"
+      },
+      "bio": {
+        "birth_date": "1948-03-31",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house5.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mary_Imes",
+        "https://en.wikipedia.org/wiki/Mary_Beth_Imes",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=5",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "marzian-mary-lou-ky-hd41",
+      "name": "Mary Lou Marzian",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-41)",
+      "state": "KY",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86342422-7a28-4631-b3d7-3912eb444ffd"
+      },
+      "contact": {
+        "email": "marylou.marzian@kylegislature.gov",
+        "district_voice": "502-541-1376",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=34"
+      },
+      "bio": {
+        "birth_date": "1954-09-16",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house41.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mary_Marzian",
+        "https://en.wikipedia.org/wiki/Mary_Lou_Marzian",
+        "https://justfacts.votesmart.org/candidate/biography/4109/mary-marzian",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=34",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=41",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "lehman-matt-ky-hd67",
+      "name": "Matt Lehman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-67)",
+      "state": "KY",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7afd2d36-9415-44ff-b96d-0010cf4f864e"
+      },
+      "contact": {
+        "email": "matt.lehman@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=67"
+      },
+      "bio": {
+        "birth_date": "1977-02-27",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MatthewLehman2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Lehman_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Matt_Lehman_(Kentucky_politician)",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=67",
+        "https://www.linkedin.com/in/matthew-lehman-53815a6",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "lockett-matt-ky-hd39",
+      "name": "Matt Lockett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-39)",
+      "state": "KY",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9a6d1b5a-6cb4-421e-b7c2-2cb27cfa4cc9"
+      },
+      "contact": {
+        "email": "matt.lockett@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=39"
+      },
+      "bio": {
+        "birth_date": "1974-06-08",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house39.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matt_Lockett",
+        "https://en.wikipedia.org/wiki/Matt_Lockett",
+        "https://justfacts.votesmart.org/candidate/biography/117291/matt-lockett",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=39",
+        "https://www.linkedin.com/in/mattlockett",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "nunn-matt-ky-sd17",
+      "name": "Matt Nunn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-17)",
+      "state": "KY",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86bd13c4-c404-4a34-aaf4-561621f2b2d8"
+      },
+      "contact": {
+        "email": "matt.nunn@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=117"
+      },
+      "bio": {
+        "birth_date": "1978-01-06",
+        "gender": "Male"
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkAwk-VsxWc9P7zUFu6kXXFswQiXfHR8HdEg&s",
+      "sources": [
+        "https://ballotpedia.org/Matt_Nunn",
+        "https://en.wikipedia.org/wiki/Matt_Nunn_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/214137/matt-nunn",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=117",
+        "https://www.linkedin.com/in/matthew-nunn-b51b128",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "deneen-matt-ky-sd10",
+      "name": "Matt Deneen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-10)",
+      "state": "KY",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b76a3218-b1bd-475c-a775-7a6cbefbc1f3"
+      },
+      "contact": {
+        "email": "matthew.deneen@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=110"
+      },
+      "social": {
+        "twitter": "MatthewDeneen1"
+      },
+      "bio": {
+        "birth_date": "1968-09-19",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate110.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Deneen",
+        "https://en.wikipedia.org/wiki/Matthew_Deneen",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=110",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/matthew-deneen-3734a4b7",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "koch-matt-ky-hd72",
+      "name": "Matt Koch",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-72)",
+      "state": "KY",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1b8bc567-b895-4fae-8b3f-7a7160ca5138"
+      },
+      "contact": {
+        "email": "matthew.koch@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=72"
+      },
+      "bio": {
+        "birth_date": "1978-05-11",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house72.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Koch",
+        "https://en.wikipedia.org/wiki/Matthew_Koch",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=72",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "wise-max-ky-sd16",
+      "name": "Max Wise",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-16)",
+      "state": "KY",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/32b5035e-6d1a-44b8-9f7a-4173a1cdb940"
+      },
+      "contact": {
+        "email": "max.wise@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=116"
+      },
+      "social": {
+        "twitter": "maxwellwise"
+      },
+      "bio": {
+        "birth_date": "1975-06-28",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate116.jpg",
+      "sources": [
+        "https://ballotpedia.org/Max_Wise",
+        "https://en.wikipedia.org/wiki/Max_Wise",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=116",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/max-wise-1a1b1970",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "nemes-mike-ky-sd38",
+      "name": "Mike Nemes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-38)",
+      "state": "KY",
+      "district": "SD-38",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/230c230d-7313-4a94-8eb3-60f57a86543c"
+      },
+      "contact": {
+        "email": "mike.nemes@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=138"
+      },
+      "bio": {
+        "birth_date": "1954-02-20",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate138.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Nemes",
+        "https://en.wikipedia.org/wiki/Michael_J._Nemes",
+        "https://en.wikipedia.org/wiki/Mike_Nemes",
+        "https://justfacts.votesmart.org/candidate/biography/117321/michael-nemes",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=138",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.lrc.ky.gov/legislator/H038.htm",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "meredith-michael-ky-hd19",
+      "name": "Michael Meredith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-19)",
+      "state": "KY",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f013115a-6bbc-48ac-aab4-7949dd902701"
+      },
+      "contact": {
+        "email": "michael.meredith@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=19"
+      },
+      "bio": {
+        "birth_date": "1985-04-25",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house19.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Meredith",
+        "https://en.wikipedia.org/wiki/Michael_Meredith_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/117313/michael-meredith",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=19",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "pollock-sarge-ky-hd51",
+      "name": "Sarge Pollock",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-51)",
+      "state": "KY",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3e417407-423f-45d3-b18a-c2845cd1ec57"
+      },
+      "contact": {
+        "email": "sarge.pollock@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=51"
+      },
+      "bio": {
+        "birth_date": "1966-05-27",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house51.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Pollock",
+        "https://en.wikipedia.org/wiki/Michael_Pollock_(politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=51",
+        "https://www.linkedin.com/in/michael-%E2%80%9Csarge%E2%80%9D-pollock-45b5741a3",
+        "https://www.linkedin.com/in/sarge-pollock-05593216",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "clines-mike-ky-hd68",
+      "name": "Mike Clines",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-68)",
+      "state": "KY",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/34a39b2d-1ff6-4ced-adf2-32f92fa781b1"
+      },
+      "contact": {
+        "email": "mike.clines@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=68"
+      },
+      "bio": {
+        "birth_date": "1968-08-04",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house68.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Clines",
+        "https://en.wikipedia.org/wiki/Mike_Clines",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=68",
+        "https://www.linkedin.com/in/mike-clines",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "wilson-mike-ky-sd32",
+      "name": "Mike Wilson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-32)",
+      "state": "KY",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/64af8584-1675-47fd-acfb-1cec59dfdda5"
+      },
+      "contact": {
+        "email": "mike.wilson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=132"
+      },
+      "social": {
+        "twitter": "mikewilson2018"
+      },
+      "bio": {
+        "birth_date": "1951-12-04",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate132.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Wilson_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Mike_Wilson_(Kentucky_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/117300/mike-wilson",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=132",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/mike-wilson-75091714",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "whitaker-mitch-ky-hd94",
+      "name": "Mitch Whitaker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-94)",
+      "state": "KY",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3f4b9459-8c62-4d89-b2d6-9d0e951ed24f"
+      },
+      "contact": {
+        "email": "mitchum.whitaker@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=94"
+      },
+      "bio": {
+        "birth_date": "1993-05-12",
+        "gender": "Male"
+      },
+      "image": "https://whitakerforky.com/wp-content/uploads/2023/10/174675061_4495865760430094_8296166563898892766_n-1024x1024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mitchum_Whitaker",
+        "https://en.wikipedia.org/wiki/Mitch_Whitaker",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=94",
+        "https://www.hfkylawyers.com/attorney/whitaker-mitchum-a",
+        "https://www.linkedin.com/in/mitchumaddisonwhitaker",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "dossett-myron-ky-hd9",
+      "name": "Myron Dossett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-9)",
+      "state": "KY",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c6904810-37a8-428d-8342-7831d7dc100c"
+      },
+      "contact": {
+        "email": "myron.dossett@kylegislature.gov",
+        "district_voice": "270-475-9503",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=9"
+      },
+      "bio": {
+        "birth_date": "1961-01-09",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house9.jpg",
+      "sources": [
+        "https://ballotpedia.org/Myron_Dossett",
+        "https://en.wikipedia.org/wiki/Myron_Dossett",
+        "https://justfacts.votesmart.org/candidate/biography/58221/myron-dossett",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=9",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "tate-nancy-ky-hd27",
+      "name": "Nancy Tate",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-27)",
+      "state": "KY",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/911af3e2-7435-4f82-a477-99cb078ea99b"
+      },
+      "contact": {
+        "email": "nancy.tate@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=27"
+      },
+      "bio": {
+        "birth_date": "1964-12-04",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house27.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nancy_Tate",
+        "https://en.wikipedia.org/wiki/Nancy_Tate",
+        "https://justfacts.votesmart.org/candidate/biography/177937/nancy-tate",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=27",
+        "https://www.linkedin.com/in/nancy-tate-67a396161",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "wilson-nick-ky-hd82",
+      "name": "Nick Wilson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-82)",
+      "state": "KY",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/716d7b2c-0576-4bf8-b5a9-b6fa2c1f8024"
+      },
+      "contact": {
+        "email": "nick.wilson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=82"
+      },
+      "bio": {
+        "birth_date": "1990-06-11",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house82.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nick_Wilson",
+        "https://ballotpedia.org/Nick_Wilson_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Nick_Wilson_(Survivor_contestant)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=82",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "kulkarni-nima-ky-hd40",
+      "name": "Nima Kulkarni",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-40)",
+      "state": "KY",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bee3f0dd-450a-41a2-b9b9-e056d0a0f14d"
+      },
+      "contact": {
+        "email": "nima.kulkarni@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=40"
+      },
+      "bio": {
+        "birth_date": "1978-12-23",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house40.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nima_Kulkarni",
+        "https://en.wikipedia.org/wiki/Nima_Kulkarni",
+        "https://justfacts.votesmart.org/candidate/biography/177957/nima-kulkarni",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=40",
+        "https://www.linkedin.com/in/nirupamakulkarni",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "stevenson-pamela-ky-hd43",
+      "name": "Pamela Stevenson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-43)",
+      "state": "KY",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/897f811e-273d-4fc1-9268-0087e57444cf"
+      },
+      "contact": {
+        "email": "pamela.stevenson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=43"
+      },
+      "bio": {
+        "birth_date": "1959-04-08",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house43.jpg",
+      "sources": [
+        "https://ballotpedia.org/Pamela_Stevenson",
+        "https://en.wikipedia.org/wiki/Pamela_Stevenson",
+        "https://justfacts.votesmart.org/candidate/biography/177964/pamela-stevenson",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=43",
+        "https://www.linkedin.com/in/pamela-stevenson-5166b116",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "flannery-patrick-ky-hd96",
+      "name": "Patrick Flannery",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-96)",
+      "state": "KY",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8ae56ea2-3f37-490b-a3dc-0dec9fe85c7c"
+      },
+      "contact": {
+        "email": "patrick.flannery@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=96"
+      },
+      "bio": {
+        "birth_date": "1980-12-29",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house96.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patrick_Flannery",
+        "https://en.wikipedia.org/wiki/Patrick_Flannery_(politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=96",
+        "https://www.linkedin.com/in/patrick-flannery-2466804",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "griffee-peyton-ky-hd26",
+      "name": "Peyton Griffee",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-26)",
+      "state": "KY",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eddce954-34a0-4b9a-aaca-6114e6bf418f"
+      },
+      "contact": {
+        "email": "peyton.griffee@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=26"
+      },
+      "bio": {
+        "birth_date": "1996-07-28",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/PeytonGriffee2024.png",
+      "sources": [
+        "https://ballotpedia.org/Peyton_Griffee",
+        "https://en.wikipedia.org/wiki/Peyton_Griffee",
+        "https://justfacts.votesmart.org/candidate/214162/peyton-griffee",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=26",
+        "https://www.linkedin.com/in/peyton-griffee-3b1153149",
+        "https://www.peytongriffee.com/about",
+        "https://www.sweatgriffee.com/attorney/griffee-peyton",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "wheeler-phillip-ky-sd31",
+      "name": "Phillip Wheeler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-31)",
+      "state": "KY",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/18063ded-67cb-46a9-b558-14d5da92b860"
+      },
+      "contact": {
+        "email": "phillip.wheeler@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=131"
+      },
+      "bio": {
+        "birth_date": "1978-04-13",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate131.jpg",
+      "sources": [
+        "https://ballotpedia.org/Phillip_Wheeler",
+        "https://en.wikipedia.org/wiki/Phillip_Wheeler",
+        "https://justfacts.votesmart.org/candidate/biography/167660/phillip-wheeler",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=131",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.kirkandcrum.com/meet-our-attorneys/phillip-wheeler",
+        "https://www.kirklawfirm.net/meet-our-attorneys/phillip-wheeler",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "roarx-rachel-ky-hd38",
+      "name": "Rachel Roarx",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-38)",
+      "state": "KY",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1217ac1a-4ca4-4fe4-953b-572beb008bed"
+      },
+      "contact": {
+        "email": "rachel.roarx@kylegislature.gov",
+        "district_voice": "502-724-7529",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=38"
+      },
+      "social": {
+        "twitter": "rachelroarx"
+      },
+      "bio": {
+        "birth_date": "1997-03-25",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house38.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rachel_Roarx",
+        "https://en.wikipedia.org/wiki/Rachel_Roarx",
+        "https://justfacts.votesmart.org/candidate/201594/rachel-roarx",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=38",
+        "https://www.linkedin.com/in/rachel-roarx-36918669",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "bridges-randy-ky-hd3",
+      "name": "Randy Bridges",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-3)",
+      "state": "KY",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c033dd77-f8d7-4558-8582-9e0088ae5406"
+      },
+      "contact": {
+        "email": "randy.bridges@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=3"
+      },
+      "bio": {
+        "birth_date": "1961-11-25",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house3.jpg",
+      "sources": [
+        "https://ballotpedia.org/Randy_Bridges",
+        "https://en.wikipedia.org/wiki/Randy_Bridges",
+        "https://justfacts.votesmart.org/candidate/biography/148927/randall-bridges",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=3",
+        "https://www.linkedin.com/in/randy-bridges-0a55627",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "raymer-rebecca-ky-hd15",
+      "name": "Rebecca Raymer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-15)",
+      "state": "KY",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be2fd4e3-6dfe-4d54-8c45-631eac63bc27"
+      },
+      "contact": {
+        "email": "rebecca.raymer@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=15"
+      },
+      "social": {
+        "twitter": "raymerforky"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house15.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rebecca_Raymer",
+        "https://en.wikipedia.org/wiki/Rebecca_Raymer",
+        "https://justfacts.votesmart.org/candidate/biography/201507/rebecca-raymer",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=15",
+        "https://www.linkedin.com/in/rebecca-raymer-990569189",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "thomas-reggie-ky-sd13",
+      "name": "Reggie Thomas",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-13)",
+      "state": "KY",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/42b259db-9ddb-4588-a463-b1a38c944c66"
+      },
+      "contact": {
+        "email": "reginald.thomas@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=113"
+      },
+      "social": {
+        "twitter": "ReggieThomasKY"
+      },
+      "bio": {
+        "birth_date": "1953-05-20",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate113.jpg",
+      "sources": [
+        "https://ballotpedia.org/Reggie_Thomas",
+        "https://en.wikipedia.org/wiki/Reggie_Thomas",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=113",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/reggie-thomas-35980b2a",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "white-richard-ky-hd99",
+      "name": "Richard White",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-99)",
+      "state": "KY",
+      "district": "HD-99",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/29b248e1-4033-41f6-ba30-136f2aa55045"
+      },
+      "contact": {
+        "email": "richard.white@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=99"
+      },
+      "social": {
+        "twitter": "RichardWhiteKY"
+      },
+      "bio": {
+        "birth_date": "1952-11-04",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house99.jpg",
+      "sources": [
+        "https://ballotpedia.org/Richard_White_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Richard_White_(Kentucky_politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=99",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "girdler-rick-ky-sd15",
+      "name": "Rick Girdler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-15)",
+      "state": "KY",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/34ed9881-46b8-41ba-b625-3d350140d2b9"
+      },
+      "contact": {
+        "email": "rick.girdler@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=115"
+      },
+      "bio": {
+        "birth_date": "1955-05-23",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate115.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rick_Girdler",
+        "https://en.wikipedia.org/wiki/Rick_Girdler",
+        "https://justfacts.votesmart.org/candidate/biography/167526/rick-girdler",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=115",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/rick-girdler-0b833958",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "mills-robby-ky-sd4",
+      "name": "Robby Mills",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-4)",
+      "state": "KY",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/366daab1-a877-49b9-86b8-e3c497143bf0"
+      },
+      "contact": {
+        "email": "robby.mills@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=104"
+      },
+      "social": {
+        "twitter": "robbymillsforky"
+      },
+      "bio": {
+        "birth_date": "1967-03-17",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate104.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robby_Mills",
+        "https://en.wikipedia.org/wiki/Robby_Mills",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=104",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "duvall-robert-ky-hd17",
+      "name": "Robert Duvall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-17)",
+      "state": "KY",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ad2d1d2a-b838-4727-ac0f-a6fb64298b14"
+      },
+      "contact": {
+        "email": "robert.duvall@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=17"
+      },
+      "bio": {
+        "birth_date": "1970-08-19",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house17.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Duvall_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Robert_Duvall_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/201508/robert-duvall",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=17",
+        "https://www.bgeyes.com/team/robert-b-duvall-od",
+        "https://www.linkedin.com/in/robert-duvall-2818298",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "stivers-robert-ky-sd25",
+      "name": "Robert Stivers",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-25)",
+      "state": "KY",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8659c7e3-ec01-4c40-b7ee-d21f37facff5"
+      },
+      "contact": {
+        "email": "robert.stivers@kylegislature.gov",
+        "district_voice": "606-598-2322",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=125"
+      },
+      "social": {
+        "twitter": "kysenatepres"
+      },
+      "bio": {
+        "birth_date": "1961-12-24",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate125.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Stivers",
+        "https://en.wikipedia.org/wiki/Robert_Stivers",
+        "https://justfacts.votesmart.org/candidate/biography/9609/robert-stivers-ii",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=125",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "webb-robin-ky-sd18",
+      "name": "Robin Webb",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-18)",
+      "state": "KY",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/42990da5-7020-4327-bbd8-496955b00040"
+      },
+      "contact": {
+        "email": "robin.webb@kylegislature.gov",
+        "district_voice": "606-474-5380",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=118"
+      },
+      "bio": {
+        "birth_date": "1960-09-06",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate118.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robin_Webb",
+        "https://en.wikipedia.org/wiki/Robin_L._Webb",
+        "https://justfacts.votesmart.org/candidate/biography/18710/robin-webb",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=118",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.linkedin.com/in/robin-webb-4936608",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "bivens-ryan-ky-hd24",
+      "name": "Ryan Bivens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-24)",
+      "state": "KY",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/af59339a-aedf-4d1c-94b6-de071030773b"
+      },
+      "contact": {
+        "email": "ryan.bivens@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=24"
+      },
+      "bio": {
+        "birth_date": "1979-01-29",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house24.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ryan_Bivens",
+        "https://en.wikipedia.org/wiki/Ryan_Bivens",
+        "https://justfacts.votesmart.org/candidate/biography/214159/ryan-bivens",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=24",
+        "https://www.linkedin.com/in/ryan-bivens-b4002864",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "dotson-ryan-ky-hd73",
+      "name": "Ryan Dotson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-73)",
+      "state": "KY",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/718ec3d2-325d-4ddf-b72b-728cea857222"
+      },
+      "contact": {
+        "email": "ryan.dotson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=73"
+      },
+      "bio": {
+        "birth_date": "1972-11-22",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house73.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ryan_Dotson",
+        "https://en.wikipedia.org/wiki/Ryan_Dotson",
+        "https://justfacts.votesmart.org/candidate/biography/117297/ryan-dotson",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=73",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "heavrin-samara-ky-hd18",
+      "name": "Samara Heavrin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-18)",
+      "state": "KY",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d3176059-683c-48be-9c43-a57da08a2f49"
+      },
+      "contact": {
+        "email": "ryan.dotson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=18"
+      },
+      "bio": {
+        "birth_date": "1992-03-12",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house18.jpg",
+      "sources": [
+        "https://ballotpedia.org/Samara_Heavrin",
+        "https://en.wikipedia.org/wiki/Samara_Heavrin",
+        "https://justfacts.votesmart.org/candidate/biography/187200/samara-heavrin",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=18",
+        "https://www.linkedin.com/in/samara-heavrin-67685442",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "stalker-sarah-ky-hd34",
+      "name": "Sarah Stalker",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-34)",
+      "state": "KY",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bb3f614a-7fa0-4e55-a76b-dedfea0fdaa9"
+      },
+      "contact": {
+        "email": "sarah.stalker@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=34"
+      },
+      "social": {
+        "twitter": "sarahforky"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house34.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sarah_Stalker",
+        "https://en.wikipedia.org/wiki/Sarah_Stalker",
+        "https://justfacts.votesmart.org/candidate/201588/sarah-stalker",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=34",
+        "https://www.linkedin.com/in/sstalker",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "maddox-savannah-ky-hd61",
+      "name": "Savannah Maddox",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-61)",
+      "state": "KY",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a8988de2-d65f-461c-96d1-4f1cddc6a969"
+      },
+      "contact": {
+        "email": "savannah.maddox@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=61"
+      },
+      "social": {
+        "twitter": "SavannahLMaddox"
+      },
+      "bio": {
+        "birth_date": "1987-11-02",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house61.jpg",
+      "sources": [
+        "https://ballotpedia.org/Savannah_Maddox",
+        "https://en.wikipedia.org/wiki/Savannah_Maddox",
+        "https://justfacts.votesmart.org/candidate/biography/178000/savannah-maddox",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=61",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "lewis-scott-ky-hd14",
+      "name": "Scott Lewis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-14)",
+      "state": "KY",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/07773b3f-387f-4e4e-ba79-571940c186f0"
+      },
+      "contact": {
+        "email": "scott.lewis@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=14"
+      },
+      "bio": {
+        "birth_date": "1961-06-02",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house14.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Lewis_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Scott_Lewis_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/177916/scott-lewis",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=14",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "madon-scott-ky-sd29",
+      "name": "Scott Madon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-29)",
+      "state": "KY",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d7adea26-9f4f-477f-a0bd-4b29ae9072b4"
+      },
+      "contact": {
+        "email": "scott.madon@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=129"
+      },
+      "bio": {
+        "birth_date": "1962-03-08",
+        "gender": "Male"
+      },
+      "image": "https://thecityofpineville.com/wp-content/uploads/2018/08/mayor-scott-madon-228x300.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Madon",
+        "https://en.wikipedia.org/wiki/Scott_Madon",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=129",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "sharp-scott-ky-hd100",
+      "name": "Scott Sharp",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-100)",
+      "state": "KY",
+      "district": "HD-100",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/65469c71-edc2-4c9f-87da-bcf4d3277591"
+      },
+      "contact": {
+        "email": "scott.sharp@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=100"
+      },
+      "bio": {
+        "birth_date": "1963-09-25",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house100.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Sharp",
+        "https://en.wikipedia.org/wiki/Scott_Sharp_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/178054/scott-sharp",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=100",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "baker-shane-ky-hd85",
+      "name": "Shane Baker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-85)",
+      "state": "KY",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2eab3a78-154d-43cd-8278-73ad2e166b08"
+      },
+      "contact": {
+        "email": "shane.baker@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=85"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house85.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shane_Baker",
+        "https://en.wikipedia.org/wiki/Shane_Baker",
+        "https://justfacts.votesmart.org/candidate/biography/189594/shane-baker",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=85",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "mcpherson-shawn-ky-hd22",
+      "name": "Shawn McPherson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-22)",
+      "state": "KY",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5a327e3b-ae91-4279-ae17-9214aad32fa9"
+      },
+      "contact": {
+        "email": "shawn.mcpherson@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=22"
+      },
+      "bio": {
+        "birth_date": "1965-07-05",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house22.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shawn_McPherson",
+        "https://en.wikipedia.org/wiki/Shawn_McPherson",
+        "https://justfacts.votesmart.org/candidate/biography/109767/shawn-mcpherson",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=22",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "frommeyer-shelley-ky-sd24",
+      "name": "Shelley Frommeyer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-24)",
+      "state": "KY",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b7112818-3357-413d-acae-a46bf3442b1d"
+      },
+      "contact": {
+        "email": "shelley.funkefrommeyer@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=124"
+      },
+      "social": {
+        "twitter": "FunkeShelley"
+      },
+      "bio": {
+        "birth_date": "1969-06-21",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate124.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shelley_Funke_Frommeyer",
+        "https://en.wikipedia.org/wiki/Shelley_Funke_Frommeyer",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=124",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://www.ffrwealthteam.com/team-members/shelley-funke-frommeyer",
+        "https://www.linkedin.com/in/shelley-funke-frommeyer",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "dietz-stephanie-ky-hd65",
+      "name": "Stephanie Dietz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-65)",
+      "state": "KY",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/737ae037-a61c-4649-9c08-bf5fe052ff36"
+      },
+      "contact": {
+        "email": "stephanie.dietz@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=65"
+      },
+      "social": {
+        "twitter": "sdietz2"
+      },
+      "bio": {
+        "birth_date": "1969-02-02",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house65.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephanie_A._Dietz",
+        "https://dofamilylaw.com/stephanie-a-dietz",
+        "https://en.wikipedia.org/wiki/Stephanie_Dietz",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=65",
+        "https://www.linkedin.com/in/stephanie-dietz-4a16156b",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "meredith-steve-ky-sd5",
+      "name": "Steve Meredith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-5)",
+      "state": "KY",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8915acb8-6089-451f-be08-c79b0be59c40"
+      },
+      "contact": {
+        "email": "stephen.meredith@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=105"
+      },
+      "bio": {
+        "birth_date": "1953-06-21",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate105.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephen_Meredith",
+        "https://en.wikipedia.org/wiki/Stephen_Meredith_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/135519/stephen-meredith",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=105",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "west-steve-ky-sd27",
+      "name": "Steve West",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-27)",
+      "state": "KY",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1f3bbab4-2be0-496c-9c3b-b8f340f6b404"
+      },
+      "contact": {
+        "email": "steve.west@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=127"
+      },
+      "social": {
+        "twitter": "SteveWestKY"
+      },
+      "bio": {
+        "birth_date": "1970-04-28",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate127.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_West_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Steve_West_(Kentucky_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/156107/steve-west",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=127",
+        "https://legislature.ky.gov/Legislators/senate",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "bratcher-steve-ky-hd25",
+      "name": "Steve Bratcher",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-25)",
+      "state": "KY",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0860aa8-43ba-4bf2-94d7-3632c7375ab6"
+      },
+      "contact": {
+        "email": "steve.bratcher@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=25"
+      },
+      "bio": {
+        "birth_date": "1970-04-08",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house25.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Bratcher",
+        "https://en.wikipedia.org/wiki/Steve_Bratcher",
+        "https://justfacts.votesmart.org/candidate/biography/201529/steve-bratcher",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=25",
+        "https://www.linkedin.com/in/steve-bratcher-79552918",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "rawlings-steve-ky-sd11",
+      "name": "Steve Rawlings",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Senator (SD-11)",
+      "state": "KY",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b702771e-135c-4444-b148-a321ee8088b2"
+      },
+      "contact": {
+        "email": "steve.rawlings@kylegislature.gov",
+        "district_voice": "859-757-7037",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=111"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/senate111.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Rawlings",
+        "https://en.wikipedia.org/wiki/Steve_Rawlings",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=111",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=66",
+        "https://rawlings4ky.com/about-steve-rawlings",
+        "https://www.linkedin.com/in/j-steven-rawlings-751316b7",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "riley-steve-ky-hd23",
+      "name": "Steve Riley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-23)",
+      "state": "KY",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/817df40b-8e76-460d-81cf-63277866268a"
+      },
+      "contact": {
+        "email": "steve.riley@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=23"
+      },
+      "bio": {
+        "birth_date": "1958-06-23",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house23.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Riley_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Steve_Riley_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/167592/steve-riley",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=23",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "doan-steven-ky-hd69",
+      "name": "Steven Doan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-69)",
+      "state": "KY",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a41c47ce-cbfa-49e3-8a21-5666f24ef96a"
+      },
+      "contact": {
+        "email": "steven.doan@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=69"
+      },
+      "social": {
+        "twitter": "stevedoanlaw"
+      },
+      "bio": {
+        "birth_date": "1986-10-14",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house69.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steven_Doan",
+        "https://en.wikipedia.org/wiki/Steven_Doan",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=69",
+        "https://www.linkedin.com/in/stevendoan",
+        "https://www.stevedoanlaw.com",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "rudy-steven-ky-hd1",
+      "name": "Steven Rudy",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-1)",
+      "state": "KY",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f73e54d0-9547-4688-b97d-4818b104d160"
+      },
+      "contact": {
+        "email": "steven.rudy@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=1"
+      },
+      "social": {
+        "twitter": "kyrudy"
+      },
+      "bio": {
+        "birth_date": "1978-08-09",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steven_Rudy",
+        "https://en.wikipedia.org/wiki/Steven_Rudy",
+        "https://justfacts.votesmart.org/candidate/biography/35156/steven-rudy",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=1",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "witten-susan-ky-hd31",
+      "name": "Susan Witten",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-31)",
+      "state": "KY",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c85ace8f-67e3-438d-afeb-e6442aec43cd"
+      },
+      "contact": {
+        "email": "susan.witten@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=31"
+      },
+      "social": {
+        "twitter": "catfaninthevill"
+      },
+      "bio": {
+        "birth_date": "1970-07-12",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house31.jpg",
+      "sources": [
+        "https://ballotpedia.org/Susan_Tyler_Witten",
+        "https://en.wikipedia.org/wiki/Susan_Witten",
+        "https://justfacts.votesmart.org/candidate/201585/susan-tyler-witten",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=31",
+        "https://www.linkedin.com/in/susan-witten-34a2056",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "miles-suzanne-ky-hd7",
+      "name": "Suzanne Miles",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-7)",
+      "state": "KY",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/92576283-508e-4613-b1a0-3d227edf4068"
+      },
+      "contact": {
+        "email": "suzanne.miles@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=7"
+      },
+      "social": {
+        "twitter": "MilesForKY"
+      },
+      "bio": {
+        "birth_date": "1970-11-18",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house7.jpg",
+      "sources": [
+        "https://ballotpedia.org/Suzanne_Miles",
+        "https://en.wikipedia.org/wiki/Suzanne_Miles",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=7",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "roberts-t-j-ky-hd66",
+      "name": "T.J. Roberts",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-66)",
+      "state": "KY",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1c369689-ed04-484c-ab53-c50bd6011192"
+      },
+      "contact": {
+        "email": "tj.roberts@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=66"
+      },
+      "bio": {
+        "birth_date": "1998-02-23",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/T.J._Roberts.png",
+      "sources": [
+        "https://ballotpedia.org/T.J._Roberts",
+        "https://en.wikipedia.org/wiki/T._J._Roberts_(politician)",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=66",
+        "https://www.linkedin.com/in/tj-roberts-172356185",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "huff-thomas-ky-hd49",
+      "name": "Thomas Huff",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-49)",
+      "state": "KY",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7d2b01df-9356-4eaa-923f-144e3f229860"
+      },
+      "contact": {
+        "email": "thomas.huff@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=49"
+      },
+      "bio": {
+        "birth_date": "1963-06-10",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house49.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Huff_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Thomas_Huff",
+        "https://justfacts.votesmart.org/candidate/biography/177970/thomas-huff",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=49",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "truett-timmy-ky-hd89",
+      "name": "Timmy Truett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-89)",
+      "state": "KY",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b2834b48-3186-4fbd-aa3e-daa1d38fa308"
+      },
+      "contact": {
+        "email": "timmy.truett@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=89"
+      },
+      "bio": {
+        "birth_date": "1977-12-01",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house89.jpg",
+      "sources": [
+        "https://ballotpedia.org/Timmy_Truett",
+        "https://en.wikipedia.org/wiki/Timmy_Truett",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=89",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "bojanowski-tina-ky-hd32",
+      "name": "Tina Bojanowski",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-32)",
+      "state": "KY",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/77db7bcf-dfa8-4365-bb3a-4ca0351a8368"
+      },
+      "contact": {
+        "email": "tina.bojanowski@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=32"
+      },
+      "social": {
+        "twitter": "tinaforkentucky"
+      },
+      "bio": {
+        "birth_date": "1964-08-29",
+        "gender": "Female"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house32.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tina_Bojanowski",
+        "https://en.wikipedia.org/wiki/Tina_Bojanowski",
+        "https://justfacts.votesmart.org/candidate/biography/177944/tina-bojanowski",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=32",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-tom-ky-hd86",
+      "name": "Tom Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-86)",
+      "state": "KY",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5764151d-bf80-422b-bc46-93ac2be910cc"
+      },
+      "contact": {
+        "email": "tom.smith@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=86"
+      },
+      "bio": {
+        "birth_date": "1958-11-20",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house86.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Smith_(Kentucky)",
+        "https://en.wikipedia.org/wiki/Tom_Smith_(Kentucky_politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=86",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "hampton-tony-ky-hd62",
+      "name": "Tony Hampton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-62)",
+      "state": "KY",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/79a62906-5436-4ac8-adea-0c566273bbde"
+      },
+      "contact": {
+        "email": "tony.hampton@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=62"
+      },
+      "bio": {
+        "birth_date": "1971-08-13",
+        "gender": "Male"
+      },
+      "image": "https://cdn.photos.sparkplatform.com/lex/20240524200530073416000000.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tony_Hampton",
+        "https://en.wikipedia.org/wiki/Tony_Hampton",
+        "https://justfacts.votesmart.org/candidate/biography/214204/tony-hampton",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=62",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "grossl-vanessa-ky-hd88",
+      "name": "Vanessa Grossl",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-88)",
+      "state": "KY",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bc34f3ad-05ad-494c-bb80-bd2eb99e4fe9"
+      },
+      "contact": {
+        "email": "vanessa.grossl@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=88"
+      },
+      "bio": {
+        "birth_date": "1980-02-22",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/VanessaGrossl.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Vanessa_Grossl",
+        "https://en.wikipedia.org/wiki/Vanessa_Grossl",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=88",
+        "https://www.linkedin.com/in/vgrossl",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "williams-wade-ky-hd4",
+      "name": "Wade Williams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-4)",
+      "state": "KY",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/66619aa2-a521-4318-b5d7-b4c36954b43d"
+      },
+      "contact": {
+        "email": "wade.williams@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=4"
+      },
+      "bio": {
+        "birth_date": "1973-04-30",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house4.jpg",
+      "sources": [
+        "https://ballotpedia.org/D._Wade_Williams",
+        "https://en.wikipedia.org/wiki/D._Wade_Williams",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=4",
+        "https://www.linkedin.com/in/wade-williams-teammate",
+        "https://www.wadewilliamsforkentucky.com/meet_wade",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "thomas-walker-ky-hd8",
+      "name": "Walker Thomas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-8)",
+      "state": "KY",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ec846db3-c75b-4460-ba72-3e2b3fd9e04d"
+      },
+      "contact": {
+        "email": "walker.thomas@kylegislature.gov",
+        "district_voice": "270-889-8091",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=8"
+      },
+      "social": {
+        "twitter": "walkerthomas_ky"
+      },
+      "bio": {
+        "birth_date": "1963-08-13",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house8.jpg",
+      "sources": [
+        "https://ballotpedia.org/Walker_Thomas",
+        "https://en.wikipedia.org/wiki/Walker_Thomas",
+        "https://justfacts.votesmart.org/candidate/biography/167582/walker-thomas",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=8",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    },
+    {
+      "politician_id": "lawrence-william-ky-hd70",
+      "name": "William Lawrence",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Kentucky State Representative (HD-70)",
+      "state": "KY",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "KY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3d3b33bc-8852-48fe-90cf-42ce9551424c"
+      },
+      "contact": {
+        "email": "william.lawrence@kylegislature.gov",
+        "website": "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=70"
+      },
+      "bio": {
+        "birth_date": "1989-01-19",
+        "gender": "Male"
+      },
+      "image": "https://legislature.ky.gov/Legislators%20Thumbnail%20Images/house70.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Lawrence_(Kentucky)",
+        "https://en.wikipedia.org/wiki/William_Lawrence_(Kentucky_politician)",
+        "https://legislature.ky.gov/Legislators/house-of-representatives",
+        "https://legislature.ky.gov/Legislators/Pages/Legislator-Profile.aspx?DistrictNumber=70",
+        "https://data.openstates.org/people/current/ky.csv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3282 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/co.csv",
+  "state": "CO",
+  "politicians": [
+    {
+      "politician_id": "benavidez-adrienne-co-sd21",
+      "name": "Adrienne Benavidez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-21)",
+      "state": "CO",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a033ad21-bdb7-4af2-be2e-e21c3e4cfa24"
+      },
+      "contact": {
+        "email": "adrienne.benavidez.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/adrienne-benavidez"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmlFQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--23746f2c8382ad88801fb500a0e47384becef5d8/Benavidez,%20Adrienne.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adrienne_Benavidez",
+        "https://en.wikipedia.org/wiki/Adrienne_Benavidez",
+        "https://justfacts.votesmart.org/candidate/biography/29901/adrienne-benavidez",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/adrienne-benavidez",
+        "https://www.linkedin.com/in/adrienne-benavidez-ba903a6",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "valdez-alex-co-hd5",
+      "name": "Alex Valdez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-5)",
+      "state": "CO",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/45c957a4-0017-4c0c-8650-393d656fc5a0"
+      },
+      "contact": {
+        "email": "alex.valdez.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/alex-valdez"
+      },
+      "bio": {
+        "birth_date": "1981-06-03",
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMU5UQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d081dee839aa2f1b43bce42882d1b5e679141a05/Valdez,%20Alex.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alex_Valdez_(Colorado)",
+        "https://en.wikipedia.org/wiki/Alex_Valdez",
+        "https://justfacts.votesmart.org/candidate/biography/181727/alex-valdez",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/alex-valdez",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "paschal-amy-co-hd18",
+      "name": "Amy Paschal",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-18)",
+      "state": "CO",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/34dbb5f1-239b-4924-911e-27ff91bde5cd"
+      },
+      "contact": {
+        "email": "amy.paschal.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/amy-paschal"
+      },
+      "bio": {
+        "birth_date": "1964-08-07",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/AmyPaschall24.jpg",
+      "sources": [
+        "https://ballotpedia.org/Amy_Paschal",
+        "https://en.wikipedia.org/wiki/Amy_Paschal",
+        "https://justfacts.votesmart.org/candidate/biography/217141/amy-paschal",
+        "https://leg.colorado.gov/legislators/amy-paschal",
+        "https://www.linkedin.com/in/amy-paschal",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "boesenecker-andy-co-hd53",
+      "name": "Andy Boesenecker",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-53)",
+      "state": "CO",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/278f042b-4fe3-4325-ad59-bc240e4fda0c"
+      },
+      "contact": {
+        "email": "andrew.boesenecker.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/andrew-boesenecker"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMGhUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--cfaae02348bca597a92a30ada0c08d3e68ecc93f/Boesenecker,%20Andrew.jpg",
+      "sources": [
+        "https://ballotpedia.org/Andrew_Boesenecker",
+        "https://en.wikipedia.org/wiki/Andrew_Boesenecker",
+        "https://justfacts.votesmart.org/candidate/biography/196267/andrew-boesenecker",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/andrew-boesenecker",
+        "https://www.linkedin.com/in/andrew-boesenecker-477657134",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "hartsook-tony-co-hd44",
+      "name": "Tony Hartsook",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-44)",
+      "state": "CO",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/561892b1-c618-43cb-9767-9237514f0a92"
+      },
+      "contact": {
+        "email": "anthony.hartsook.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/anthony-hartsook"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeVpUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--500af1f4202491ae4bd34d7f8e8196708b8f0019/Hartsook,Anthony.jpg",
+      "sources": [
+        "https://anthonyhartsook.home.blog",
+        "https://ballotpedia.org/Anthony_Hartsook",
+        "https://en.wikipedia.org/wiki/Anthony_Hartsook",
+        "https://justfacts.votesmart.org/candidate/biography/204894/anthony-hartsook",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/anthony-hartsook",
+        "https://www.linkedin.com/in/anthony-hartsook-a5a1ba3b",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "flanell-ava-co-hd14",
+      "name": "Ava Flanell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-14)",
+      "state": "CO",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/af9e96aa-fb8b-49bb-96d8-e6c2c1ceb2b5"
+      },
+      "contact": {
+        "email": "ava.flanell.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/ava-flanell"
+      },
+      "bio": {
+        "birth_date": "1986-07-22",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ava_Flanell",
+        "https://en.wikipedia.org/wiki/Ava_Flanell",
+        "https://justfacts.votesmart.org/candidate/biography/228974/ava-flanell",
+        "https://leg.colorado.gov/legislators/ava-flanell",
+        "https://www.linkedin.com/in/avaflanell",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "kirkmeyer-barbara-co-sd23",
+      "name": "Barbara Kirkmeyer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-23)",
+      "state": "CO",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6d1fcaf0-ed3d-4772-876f-09dc5e931556"
+      },
+      "contact": {
+        "email": "barbara.kirkmeyer.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/barbara-kirkmeyer"
+      },
+      "bio": {
+        "birth_date": "1958-09-15",
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBKzlTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b75364af53ed9e801f5b0adfea3ca5cd1bbb3cf9/Kirkmeyer,%20Barbara.jpg",
+      "sources": [
+        "https://ballotpedia.org/Barbara_Kirkmeyer",
+        "https://en.wikipedia.org/wiki/Barbara_Kirkmeyer",
+        "https://justfacts.votesmart.org/candidate/biography/29991/barbara-kirkmeyer",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/barbara-kirkmeyer",
+        "https://www.linkedin.com/in/barb-kirkmeyer-8173183b",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "marshall-bob-co-hd43",
+      "name": "Bob Marshall",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-43)",
+      "state": "CO",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ade56d2d-41d7-436d-b76b-85051f036c7a"
+      },
+      "contact": {
+        "email": "bob.marshall.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/bob-marshall"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM1pUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--18c815634a34450ae6caf0855eeb0406ea4582cc/Marshall,%20Bob.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Marshall_(Colorado)",
+        "https://en.wikipedia.org/wiki/Bob_Marshall_(Colorado_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/206203/robert-marshall",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/bob-marshall",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "bradley-brandi-co-hd39",
+      "name": "Brandi Bradley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-39)",
+      "state": "CO",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5a396024-8dcf-438c-beca-a730e972d9d8"
+      },
+      "contact": {
+        "email": "brandi.bradley.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/brandi-bradley"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMnhUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f00bc156e1af4f5ddf1b991b5f96817a5221767c/Bradley,%20Brandi.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brandi_Bradley",
+        "https://en.wikipedia.org/wiki/Brandi_Bradley",
+        "https://justfacts.votesmart.org/candidate/biography/206196/brandi-bradley",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/brandi-bradley",
+        "https://www.coloradohouserepublicans.com/brandi-bradley",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "titone-brianna-co-hd27",
+      "name": "Brianna Titone",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-27)",
+      "state": "CO",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fa9b604d-5981-4de1-97bc-9400e03909c9"
+      },
+      "contact": {
+        "email": "brianna.titone.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/brianna-titone"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeUZUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ee1a1cad1906ee93f20ffecfca5d9444e525ac05/Titone,%20Brianna.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brianna_Titone",
+        "https://en.wikipedia.org/wiki/Brianna_Titone",
+        "https://justfacts.votesmart.org/candidate/biography/181766/brianna-titone",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/brianna-titone",
+        "https://www.linkedin.com/in/brianna-titone-36b1419",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "pelton-byron-co-sd1",
+      "name": "Byron Pelton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-1)",
+      "state": "CO",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2d0d060c-6d5f-45da-a069-fe2be14547eb"
+      },
+      "contact": {
+        "email": "byron.pelton.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/byron-pelton"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdzk5QXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7602b8809ffd638d639b8a39132341d13e764130/Pelton,%20Byron.jpg",
+      "sources": [
+        "https://ballotpedia.org/Byron_Pelton",
+        "https://en.wikipedia.org/wiki/Byron_Pelton",
+        "https://justfacts.votesmart.org/candidate/biography/206103/byron-pelton",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/byron-pelton",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "barron-carlos-co-hd48",
+      "name": "Carlos Barron",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-48)",
+      "state": "CO",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5f8d1bd0-329b-4a87-8d2f-cb62b8f2e921"
+      },
+      "contact": {
+        "email": "carlos.barron.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/carlos-barron"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://i0.wp.com/coloradocommunitymedia.com/wp-content/uploads/2024/10/7A10C326-743A-4DF1-9625-6E709398C30F-JF-Services-Inc-Office-e1728345969755.jpg?resize=150%2C150&ssl=1",
+      "sources": [
+        "https://ballotpedia.org/Carlos_Barron",
+        "https://en.wikipedia.org/wiki/Carlos_Barron_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/217172/carlos-barron",
+        "https://leg.colorado.gov/legislators/carlos-barron",
+        "https://www.linkedin.com/in/representative-elect-carlos-barron-1664695a",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "kipp-cathy-co-sd14",
+      "name": "Cathy Kipp",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-14)",
+      "state": "CO",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0ddf3b75-c450-419e-8235-553157770e49"
+      },
+      "contact": {
+        "email": "cathy.kipp.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/cathy-kipp"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBLzFTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0c9240ecbd4ae088cff97b227aa60c5b2bf6ac83/Kipp,%20Cathy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cathy_Kipp",
+        "https://en.wikipedia.org/wiki/Cathy_Kipp",
+        "https://justfacts.votesmart.org/candidate/biography/21982/cathy-kipp",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/cathy-kipp",
+        "https://www.linkedin.com/in/cathy-kipp-009a3541",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "espenoza-cecelia-co-hd4",
+      "name": "Cecelia Espenoza",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-4)",
+      "state": "CO",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a34a6b10-12d9-4109-86d1-76c311463333"
+      },
+      "contact": {
+        "email": "cecelia.espenoza.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/cecelia-espenoza"
+      },
+      "bio": {
+        "birth_date": "1958-07-28",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/CeceliaEspenoza24.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cecelia_Espenoza",
+        "https://en.wikipedia.org/wiki/Cecelia_Espenoza",
+        "https://justfacts.votesmart.org/candidate/biography/217129/cecelia-espenoza",
+        "https://leg.colorado.gov/legislators/cecelia-espenoza",
+        "https://www.linkedin.com/in/cecelia-espenoza",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "clifford-chad-co-hd37",
+      "name": "Chad Clifford",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-37)",
+      "state": "CO",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/faaae748-7c57-47df-bdf7-1811e0a61458"
+      },
+      "contact": {
+        "email": "chad.clifford.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/chad-clifford"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Chad_Clifford",
+        "https://en.wikipedia.org/wiki/Chad_Clifford",
+        "https://justfacts.votesmart.org/candidate/biography/214547/chad-clifford",
+        "https://leg.colorado.gov/legislators/chad-clifford",
+        "https://www.linkedin.com/in/chadclifford",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "kolker-chris-co-sd16",
+      "name": "Chris Kolker",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-16)",
+      "state": "CO",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f72691ec-a5a0-413b-a344-e452009551a2"
+      },
+      "contact": {
+        "email": "chris.kolker.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/chris-kolker"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL2xTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--56397ac18c5c7504955ce6730cdb98acc6f36205/Kolker,%20Chris.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Kolker",
+        "https://en.wikipedia.org/wiki/Chris_Kolker",
+        "https://justfacts.votesmart.org/candidate/biography/181774/chris-kolker",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/chris-kolker",
+        "https://www.linkedin.com/in/christopher-kolker-7a07214",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "richardson-chris-co-hd56",
+      "name": "Chris Richardson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-56)",
+      "state": "CO",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0c428ee3-a327-4906-96c9-c46da7dfd7f1"
+      },
+      "contact": {
+        "email": "chris.richardson.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/chris-richardson"
+      },
+      "bio": {
+        "birth_date": "1966-08-19",
+        "gender": "Male"
+      },
+      "image": "https://i0.wp.com/coloradocommunitymedia.com/wp-content/uploads/2022/10/20221012-100004-Richardson20for20Facebook.jpg?resize=1200%2C782&ssl=1",
+      "sources": [
+        "https://ballotpedia.org/Chris_Richardson_(Colorado)",
+        "https://en.wikipedia.org/wiki/Chris_Richardson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/217179/chris-richardson",
+        "https://leg.colorado.gov/legislators/chris-richardson",
+        "https://www.linkedin.com/in/christopher-richardson-163a372",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "simpson-cleave-co-sd6",
+      "name": "Cleave Simpson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-6)",
+      "state": "CO",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/715df6f2-cef6-4b88-b745-0207c8ffb4ff"
+      },
+      "contact": {
+        "email": "cleave.simpson.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/cleave-simpson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL3hTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7513585dd62fce02f81a3e6d3a1c44d08d397b9b/Simpson,%20Cleave.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cleave_Simpson_Jr.",
+        "https://en.wikipedia.org/wiki/Cleave_Simpson",
+        "https://justfacts.votesmart.org/candidate/biography/191801/cleave-simpson",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/cleave-simpson",
+        "https://www.linkedin.com/in/cleave-simpson-48055038",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "woog-dan-co-hd19",
+      "name": "Dan Woog",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-19)",
+      "state": "CO",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/df050043-0b4f-4b51-8df0-ffd6cd6cd5b2"
+      },
+      "contact": {
+        "email": "dan.woog.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/dan-woog"
+      },
+      "bio": {
+        "birth_date": "1978-04-12",
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNEZUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6bf3d084b17e200e01f2ade18431e32df8e43a60/Rep%20Woog%202026.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dan_Woog",
+        "https://en.wikipedia.org/wiki/Dan_Woog",
+        "https://justfacts.votesmart.org/candidate/biography/191765/dan-woog",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/dan-woog",
+        "https://www.linkedin.com/in/dan-woog-9784b322",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-dusty-co-hd63",
+      "name": "Dusty Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-63)",
+      "state": "CO",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f38f9f4b-9d3a-4e79-a96f-fab94d553d89"
+      },
+      "contact": {
+        "email": "dustyforcolorado@gmail.com",
+        "website": "https://leg.colorado.gov/legislators/dusty-johnson"
+      },
+      "bio": {
+        "birth_date": "1995-03-07",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/DustyJohnsonCO.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dusty_Johnson_(Colorado)",
+        "https://en.wikipedia.org/wiki/Dusty_A._Johnson",
+        "https://justfacts.votesmart.org/candidate/biography/217185/dusty-johnson",
+        "https://leg.colorado.gov/legislators/dusty-johnson",
+        "https://www.linkedin.com/in/dusty-a-johnson-30a7b58b",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "roberts-dylan-co-sd8",
+      "name": "Dylan Roberts",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-8)",
+      "state": "CO",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4be512fb-5ebc-422c-a858-d250cb5568ad"
+      },
+      "contact": {
+        "email": "dylan.roberts.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/dylan-roberts"
+      },
+      "bio": {
+        "birth_date": "1989-07-17",
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOXhTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8f1c6929289275427225aba6c766440b456c3b1a/Roberts,%20Dylan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dylan_Roberts",
+        "https://en.wikipedia.org/wiki/Dylan_Roberts",
+        "https://justfacts.votesmart.org/candidate/biography/179465/dylan-roberts",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/dylan-roberts",
+        "https://www.linkedin.com/in/dylan-roberts-b214b933",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "hamrick-eliza-co-hd61",
+      "name": "Eliza Hamrick",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-61)",
+      "state": "CO",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c02b7bf5-a583-43c0-b6d6-2e757c7d42b7"
+      },
+      "contact": {
+        "email": "eliza.hamrick.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/eliza-hamrick"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3RUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--291f32764a20e23b89e6ea44560dea6151853b61/Hamrick,Eliza-.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eliza_Hamrick",
+        "https://en.wikipedia.org/wiki/Eliza_Hamrick",
+        "https://justfacts.votesmart.org/candidate/biography/206235/eliza-hamrick",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/eliza-hamrick",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "velasco-elizabeth-co-hd57",
+      "name": "Elizabeth Velasco",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-57)",
+      "state": "CO",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bd50bf12-cf63-4a3d-a887-93008333e694"
+      },
+      "contact": {
+        "email": "elizabeth.velasco.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/elizabeth-velasco"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNTltQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1fae82b072c31f28dbf73e893d992426893562a5/Velasco,%20Elizabeth.jpg",
+      "sources": [
+        "https://ballotpedia.org/Elizabeth_Velasco",
+        "https://en.wikipedia.org/wiki/Elizabeth_Velasco",
+        "https://justfacts.votesmart.org/candidate/biography/206233/elizabeth-velasco",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/elizabeth-velasco",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "sirota-emily-co-hd9",
+      "name": "Emily Sirota",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-9)",
+      "state": "CO",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c8c1a9c5-c7c2-4894-8829-fc83251bcaf2"
+      },
+      "contact": {
+        "email": "emily.sirota.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/emily-sirota"
+      },
+      "bio": {
+        "birth_date": "1979-08-07",
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeTVUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--14b86aa8d8dc84d49199d71d5ad732b0abe8eb38/Sirota,%20Emily.jpg",
+      "sources": [
+        "https://ballotpedia.org/Emily_Sirota",
+        "https://en.wikipedia.org/wiki/Emily_Sirota",
+        "https://justfacts.votesmart.org/candidate/biography/181733/emily-sirota",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/emily-sirota",
+        "https://www.linkedin.com/in/emilysirota",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "rydin-gretchen-co-hd38",
+      "name": "Gretchen Rydin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-38)",
+      "state": "CO",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0edd86c-a50d-4e78-96ac-f3e8217de4a8"
+      },
+      "contact": {
+        "email": "gretchen.rydin.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/gretchen-rydin"
+      },
+      "bio": {
+        "birth_date": "1984-01-01",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/GretchenRydin2024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Gretchen_Rydin",
+        "https://en.wikipedia.org/wiki/Gretchen_Rydin",
+        "https://justfacts.votesmart.org/candidate/biography/217161/gretchen-rydin",
+        "https://leg.colorado.gov/legislators/gretchen-rydin",
+        "https://www.linkedin.com/in/gretchen-rydin-32174b73",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "jodeh-iman-co-sd29",
+      "name": "Iman Jodeh",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-29)",
+      "state": "CO",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/506f18ea-3611-408b-aa0e-73adf9681efe"
+      },
+      "contact": {
+        "email": "iman.jodeh.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/iman-jodeh"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOXRTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--29b2053d4c36e8d2d5d661dd8e279ff5a4fa30e5/Iman_Jodeh.jpg",
+      "sources": [
+        "https://ballotpedia.org/Iman_Jodeh",
+        "https://en.wikipedia.org/wiki/Iman_Jodeh",
+        "https://justfacts.votesmart.org/candidate/biography/191807/iman-jodeh",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/iman-jodeh",
+        "https://www.linkedin.com/in/ijodeh",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "phillips-jacque-co-hd31",
+      "name": "Jacque Phillips",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-31)",
+      "state": "CO",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/48d0af72-b21b-44a5-afc2-325b80f1c551"
+      },
+      "contact": {
+        "email": "jacqueline.phillips.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/jacque-phillips"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/jacque_phillips.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jacque_Phillips",
+        "https://en.wikipedia.org/wiki/Jacqueline_Phillips",
+        "https://justfacts.votesmart.org/candidate/biography/173291/jacque-phillips",
+        "https://leg.colorado.gov/legislators/jacque-phillips",
+        "https://leg.colorado.gov/legislators/jacqueline-phillips",
+        "https://www.jacquephillips.com",
+        "https://www.linkedin.com/in/dr-jacque-phillips-esq-583b9512",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "coleman-james-co-sd33",
+      "name": "James Coleman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-33)",
+      "state": "CO",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e4e1f1a9-7134-4d90-9fed-2aa7a0e3a307"
+      },
+      "contact": {
+        "email": "james.coleman.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/james-coleman"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBKzVTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7a5daba3d83289b2d6431d3200c1731a422d6091/Coleman,%20James%20.jpg",
+      "sources": [
+        "https://ballotpedia.org/James_Coleman_(Colorado)",
+        "https://en.wikipedia.org/wiki/James_Coleman_(politician)",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/james-coleman",
+        "https://www.linkedin.com/in/james-coleman-54206612",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-jamie-co-hd41",
+      "name": "Jamie Jackson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-41)",
+      "state": "CO",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/09ef4f5a-7c9d-463a-8ab6-52c861f97a74"
+      },
+      "contact": {
+        "email": "jamie.jackson.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/jamie-jackson"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jamie_Jackson_Colorado_House.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jamie_Jackson_(Colorado)",
+        "https://leg.colorado.gov/legislators/jamie-jackson",
+        "https://www.linkedin.com/in/jamie-jackson-denver",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "marchman-janice-co-sd15",
+      "name": "Janice Marchman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-15)",
+      "state": "CO",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2718c918-a38c-49c2-a120-5503164f959f"
+      },
+      "contact": {
+        "email": "janice.marchman.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/janice-marchman"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL0ZTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fcb333a05c84defed2c15ce0bdf8723c605199f3/Marchman,%20Janice.jpg",
+      "sources": [
+        "https://ballotpedia.org/Janice_Marchman",
+        "https://en.wikipedia.org/wiki/Janice_Marchman",
+        "https://justfacts.votesmart.org/candidate/biography/206115/janice-marchman",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/janice-marchman",
+        "https://www.linkedin.com/in/janice-marchman-a123a32b",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "rich-janice-co-sd7",
+      "name": "Janice Rich",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-7)",
+      "state": "CO",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2372415a-2aea-4423-8a3a-bed2d40493a6"
+      },
+      "contact": {
+        "email": "janicerichsd7@gmail.com",
+        "website": "https://leg.colorado.gov/legislators/janice-rich"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBLzVTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--afd770f3635f91909fdcc0bde3b95c1599089da7/Rich,%20Janice.jpg",
+      "sources": [
+        "https://ballotpedia.org/Janice_Rich",
+        "https://en.wikipedia.org/wiki/Janice_Rich",
+        "https://justfacts.votesmart.org/candidate/biography/181791/janice-rich",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/janice-rich",
+        "https://www.linkedin.com/in/janice-rich-12205032",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "caldwell-jarvis-co-hd20",
+      "name": "Jarvis Caldwell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-20)",
+      "state": "CO",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/544a4247-320e-456a-b5dd-f0373bdad788"
+      },
+      "contact": {
+        "email": "jarvis.caldwell.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/jarvis-caldwell"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://coloradonewsline.com/wp-content/uploads/2023/12/jarvis-caldwell--200x300.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Jarvis_Caldwell",
+        "https://en.wikipedia.org/wiki/Jarvis_Caldwell",
+        "https://justfacts.votesmart.org/candidate/biography/217144/jarvis-caldwell",
+        "https://leg.colorado.gov/legislators/jarvis-caldwell",
+        "https://www.linkedin.com/in/jarvis-caldwell",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "mabrey-javier-co-hd1",
+      "name": "Javier Mabrey",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-1)",
+      "state": "CO",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d2b25169-0772-4e97-aa9e-49f82f0f5d08"
+      },
+      "contact": {
+        "email": "javier.mabrey.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/javier-mabrey"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeGhUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d5786817bd26f7bddab7f2d1085068af877cdf48/Mabrey,%20Javier.jpg",
+      "sources": [
+        "https://ballotpedia.org/Javier_Mabrey",
+        "https://justfacts.votesmart.org/candidate/biography/206129/javier-mabrey",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/javier-mabrey",
+        "https://www.linkedin.com/in/javier-mabrey-70571162",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "bridges-jeff-co-sd26",
+      "name": "Jeff Bridges",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-26)",
+      "state": "CO",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c2cade07-9c95-4439-938c-77ac4ed44fab"
+      },
+      "contact": {
+        "email": "jeff.bridges.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/jeff-bridges"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWhwQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1f18e804077a78214975ed08168ecc3aa4c6f896/Bridges,Jeff.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Bridges",
+        "https://en.wikipedia.org/wiki/Jeff_Bridges_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/169966/jeff-bridges",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/jeff-bridges",
+        "https://www.linkedin.com/in/jeffbridges",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "bacon-jennifer-co-hd7",
+      "name": "Jennifer Bacon",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-7)",
+      "state": "CO",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4aba3e11-9554-405d-b926-5435eb77fa26"
+      },
+      "contact": {
+        "email": "jennifer.bacon.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/jennifer-bacon"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeXhUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9cf98fe8dc3d759fedb356430b801c66ad2b1edd/Bacon,%20Jennifer.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Bacon",
+        "https://en.wikipedia.org/wiki/Jennifer_Bacon",
+        "https://justfacts.votesmart.org/candidate/191820/jennifer-bacon",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/jennifer-bacon",
+        "https://www.linkedin.com/in/jennifer-bacon-303",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "willford-jenny-co-hd34",
+      "name": "Jenny Willford",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-34)",
+      "state": "CO",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/655c629d-72f6-45d1-bd8f-a241e200d089"
+      },
+      "contact": {
+        "email": "jenny.willford.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/jenny-willford"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM0pUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1d5d85081063604c97df120526af629e099e84e1/Willford,%20Jenny.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jenny_Willford",
+        "https://en.wikipedia.org/wiki/Jenny_Willford",
+        "https://justfacts.votesmart.org/candidate/biography/199555/jenny-willford",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/jenny-willford",
+        "https://www.linkedin.com/in/jennyclaywillford",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "danielson-jessie-co-sd22",
+      "name": "Jessie Danielson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-22)",
+      "state": "CO",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c06af980-c553-4f79-a39d-295b7226f029"
+      },
+      "contact": {
+        "email": "jessie.danielson.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/jessie-danielson"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK1JTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--444190d18434e86fd51db8d0f3656887bb45824b/Danielson,%20Jessie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jessie_Danielson",
+        "https://en.wikipedia.org/wiki/Jessie_Danielson",
+        "https://justfacts.votesmart.org/candidate/biography/149351/jessie-danielson",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/jessie-danielson",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "carson-john-co-sd30",
+      "name": "John Carson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-30)",
+      "state": "CO",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8e95ac06-ddbb-4f6c-ba7e-854a92860be4"
+      },
+      "contact": {
+        "email": "john.carson.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/john-carson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://i0.wp.com/coloradocommunitymedia.com/wp-content/uploads/2024/06/DCO-0613-Commissioner-D3-race-2.jpg?w=768&ssl=1",
+      "sources": [
+        "https://ballotpedia.org/John_Carson_(Colorado)",
+        "https://en.wikipedia.org/wiki/John_Carson_(Colorado_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/220723/john-carson",
+        "https://leg.colorado.gov/legislators/john-carson",
+        "https://www.linkedin.com/in/johnkcarson",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "amabile-judy-co-sd18",
+      "name": "Judy Amabile",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-18)",
+      "state": "CO",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/829879ea-a9a3-42b6-8f5f-d209b1cc961d"
+      },
+      "contact": {
+        "email": "judy.amabile.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/judy-amabile"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUZTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b064f9311bf3386a06c699ba6aeee37a07444669/Judy%20Amabile.jpg",
+      "sources": [
+        "https://ballotpedia.org/Judith_Amabile",
+        "https://ballotpedia.org/Judy_Amabile",
+        "https://en.wikipedia.org/wiki/Judy_Amabile",
+        "https://justfacts.votesmart.org/candidate/biography/191835/judy-amabile",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/judy-amabile",
+        "https://www.linkedin.com/in/judyamabilehd13",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "gonzales-julie-co-sd34",
+      "name": "Julie Gonzales",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-34)",
+      "state": "CO",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8dae5ba5-6741-4aca-8c1e-24f014fda187"
+      },
+      "contact": {
+        "email": "julie.gonzales.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/julie-gonzales"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOXBTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f26a08c473c6f23699613abea473f8b3120e976c/Gonzales,%20Julie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Julie_Gonzales",
+        "https://en.wikipedia.org/wiki/Julie_Gonzales",
+        "https://justfacts.votesmart.org/candidate/biography/181717/julie-gonzales",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/julie-gonzales",
+        "https://www.linkedin.com/in/julie-gonzales-50aa3556",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "mccluskie-julie-co-hd13",
+      "name": "Julie McCluskie",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-13)",
+      "state": "CO",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/53facaaf-5673-4c76-b15a-6b5061965ae1"
+      },
+      "contact": {
+        "email": "julie.mccluskie.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/julie-mccluskie"
+      },
+      "bio": {
+        "birth_date": "1964-01-12",
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeEpUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--876516c8bc7b672caf43f253b83440d18b6eba1a/McCluskie,%20Julie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Julie_McCluskie",
+        "https://en.wikipedia.org/wiki/Julie_McCluskie",
+        "https://justfacts.votesmart.org/candidate/biography/181795/julie-mccluskie",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/julie-mccluskie",
+        "https://www.linkedin.com/in/juliemccluskie",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "joseph-junie-co-hd10",
+      "name": "Junie Joseph",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-10)",
+      "state": "CO",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0c2271df-5808-42ff-9550-700f454b8b3a"
+      },
+      "contact": {
+        "email": "junie.joseph.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/junie-joseph"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWRUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c05fd8101f2bb8458f9e92fcaac1e5d867b1b662/Joseph,Junie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Junie_Joseph",
+        "https://en.wikipedia.org/wiki/Junie_Joseph",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/junie-joseph",
+        "https://www.linkedin.com/in/junie-j-27a44a75",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "mccormick-karen-co-hd11",
+      "name": "Karen McCormick",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-11)",
+      "state": "CO",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7631027c-2467-4112-8f03-abad6c6ed8f2"
+      },
+      "contact": {
+        "email": "karen.mccormick.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/karen-mccormick"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMkJUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e6c90c7865f8557c6411c91a27f58280cf938f05/McCormick,%20Karen.jpg",
+      "sources": [
+        "https://ballotpedia.org/Karen_McCormick",
+        "https://en.wikipedia.org/wiki/Karen_McCormick",
+        "https://justfacts.votesmart.org/candidate/180213/karen-mccormick",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/karen-mccormick",
+        "https://www.linkedin.com/in/karen-mccormick-dvm-2400a812",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "stewart-katie-co-hd59",
+      "name": "Katie Stewart",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-59)",
+      "state": "CO",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fa06bf42-5305-4b04-95d0-a63f94ae8913"
+      },
+      "contact": {
+        "email": "katie.stewart.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/katie-stewart"
+      },
+      "bio": {
+        "birth_date": "1980-10-06",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/KatieStewart2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Katie_Stewart_(Colorado)",
+        "https://en.wikipedia.org/wiki/Katie_Stewart_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/217181/katie-stewart",
+        "https://leg.colorado.gov/legislators/katie-stewart",
+        "https://www.linkedin.com/in/katie-stewart-colorado",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "wallace-katie-co-sd17",
+      "name": "Katie Wallace",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-17)",
+      "state": "CO",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f0fa561d-39cf-48f3-ae8c-84b4d30d2662"
+      },
+      "contact": {
+        "email": "katie.wallace.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/katie-wallace"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Katie_Wallace",
+        "https://en.wikipedia.org/wiki/Katie_Wallace",
+        "https://justfacts.votesmart.org/candidate/biography/222022/katie-wallace",
+        "https://leg.colorado.gov/legislators/katie-wallace",
+        "https://www.linkedin.com/in/wallace-katie",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "degraaf-ken-co-hd22",
+      "name": "Ken DeGraaf",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-22)",
+      "state": "CO",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/767c8676-7cf0-45bf-9e20-e615d4d13c5e"
+      },
+      "contact": {
+        "email": "ken.degraaf.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/ken-degraaf"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeUJUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--375071f2707656fb29aac1700948de56433dd649/deGraaf,%20Ken.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kenneth_DeGraaf",
+        "https://en.wikipedia.org/wiki/Ken_DeGraaf",
+        "https://justfacts.votesmart.org/candidate/biography/206169/kenneth-degraaf",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/ken-degraaf",
+        "https://www.linkedin.com/in/kendegraaf",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "nguyen-kenny-co-hd33",
+      "name": "Kenny Nguyen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-33)",
+      "state": "CO",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f84befdc-bf1b-4b0b-92df-27155caf403f"
+      },
+      "contact": {
+        "email": "kenny.nguyen.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/kenny-nguyen"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kenny_Nguyen",
+        "https://en.wikipedia.org/wiki/Kenny_Nguyen_(politician)",
+        "https://leg.colorado.gov/legislators/kenny-nguyen",
+        "https://oedit.colorado.gov/kenny-nguyen",
+        "https://www.linkedin.com/in/kenny-nguyen-167638a0",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-kyle-co-hd12",
+      "name": "Kyle Brown",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-12)",
+      "state": "CO",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f376a75e-e0b0-4bf7-95b1-0931ade3bdb8"
+      },
+      "contact": {
+        "email": "kyle.brown.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/kyle-brown"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMEZUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4dbbcef24e21979fc4a8cd74bea005733c789d61/Brown,%20Kyle.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kyle_Brown_(Colorado)",
+        "https://en.wikipedia.org/wiki/Kyle_Brown_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/211356/kyle-brown",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/kyle-brown",
+        "https://www.linkedin.com/in/kyle-brown-0905677",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "mullica-kyle-co-sd24",
+      "name": "Kyle Mullica",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-24)",
+      "state": "CO",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ebf0c3de-2f58-436f-af67-12863f9cb552"
+      },
+      "contact": {
+        "email": "kyle.mullica.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/kyle-mullica"
+      },
+      "bio": {
+        "birth_date": "1986-07-31",
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK05TQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c8a05176c5f582700250b8669d5df16c090a5d05/Mullica,%20Kyle.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kyle_Mullica",
+        "https://en.wikipedia.org/wiki/Kyle_Mullica",
+        "https://justfacts.votesmart.org/candidate/biography/148897/kyle-mullica",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/kyle-mullica",
+        "https://www.linkedin.com/in/kyle-mullica-51aa9629",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "liston-larry-co-sd10",
+      "name": "Larry Liston",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-10)",
+      "state": "CO",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c9fd6b10-91a3-44ec-ac6a-48f73eee3ed1"
+      },
+      "contact": {
+        "email": "larry.liston.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/larry-liston"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK1pTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4e7ce4fd5e7d42b1e4e7ad102c27293ed3fd28c6/Liston,%20Larry.jpg",
+      "sources": [
+        "https://ballotpedia.org/Larry_Liston",
+        "https://en.wikipedia.org/wiki/Larry_Liston",
+        "https://justfacts.votesmart.org/candidate/biography/30002/larry-liston",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/larry-liston",
+        "https://www.linkedin.com/in/larry-liston-12120410",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "suckla-larry-co-hd58",
+      "name": "Larry Suckla",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-58)",
+      "state": "CO",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a2745e24-bcf2-40f8-aa77-fad08d873ab1"
+      },
+      "contact": {
+        "email": "larry.suckla.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/larry-don-suckla"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Larry_Suckla",
+        "https://en.wikipedia.org/wiki/Larry_Don_Suckla",
+        "https://justfacts.votesmart.org/candidate/biography/149010/larry-suckla",
+        "https://leg.colorado.gov/legislators/larry-don-suckla",
+        "https://leg.colorado.gov/legislators/larry-suckla",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-lesley-co-hd49",
+      "name": "Lesley Smith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-49)",
+      "state": "CO",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/475639af-fb56-4fde-9a78-213593db91d0"
+      },
+      "contact": {
+        "email": "lesley.smith.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/lesley-smith"
+      },
+      "bio": {
+        "birth_date": "1958-05-11",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Lesley_Smith_20230524_083227.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lesley_Smith_(Colorado)",
+        "https://en.wikipedia.org/wiki/Lesley_Smith_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/217173/lesley-smith",
+        "https://leg.colorado.gov/legislators/lesley-smith",
+        "https://www.linkedin.com/in/lesley-smith-colorado",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "gilchrist-lindsay-co-hd8",
+      "name": "Lindsay Gilchrist",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-8)",
+      "state": "CO",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d5ec869e-db7a-480f-b270-428805b90cee"
+      },
+      "contact": {
+        "email": "lindsay.gilchrist.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/lindsay-gilchrist"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/5ea0cb44b06d660224de3cc9/1588045290088-U5X5Z0VC06EFGHN9K1AC/lindsay-gilchrist.jpg?format=500w",
+      "sources": [
+        "https://ballotpedia.org/Lindsay_Gilchrist",
+        "https://en.wikipedia.org/wiki/Lindsay_Gilchrist",
+        "https://justfacts.votesmart.org/candidate/biography/217132/lindsay-gilchrist",
+        "https://leg.colorado.gov/legislators/lindsay-gilchrist",
+        "https://www.gilchristandcompany.com/lindsay-gilchrist",
+        "https://www.linkedin.com/in/lindsay-gilchrist-5a373214",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "daugherty-lindsey-co-sd19",
+      "name": "Lindsey Daugherty",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-19)",
+      "state": "CO",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2de0a3a1-a1e3-477f-88b9-3212fa52fb9c"
+      },
+      "contact": {
+        "email": "lindsey.daugherty.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/lindsey-daugherty"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL0pTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4a370bf5b571c75e61965486b4074d0d108d80b8/Daugherty,%20Lindsey.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lindsey_Daugherty",
+        "https://en.wikipedia.org/wiki/Lindsey_Daugherty",
+        "https://justfacts.votesmart.org/candidate/biography/191838/lindsey-daugherty",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/lindsey-daugherty",
+        "https://www.linkedin.com/in/lindsey-daugherty-6396aa21",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "cutter-lisa-co-sd20",
+      "name": "Lisa Cutter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-20)",
+      "state": "CO",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5226ebdd-0710-49da-b446-61fac19765ce"
+      },
+      "contact": {
+        "email": "lisa.cutter.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/lisa-cutter"
+      },
+      "bio": {
+        "birth_date": "1963-10-14",
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL3BTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f08a5431fd4e493fd52194b1418976fd5a250df8/Cutter,%20Lisa.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Cutter",
+        "https://en.wikipedia.org/wiki/Lisa_Cutter",
+        "https://justfacts.votesmart.org/candidate/biography/181764/lisa-cutter",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/lisa-cutter",
+        "https://www.linkedin.com/in/lisa-cutter-8525413",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "feret-lisa-co-hd24",
+      "name": "Lisa Feret",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-24)",
+      "state": "CO",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e1a861fa-2163-4ef5-a891-fc9d36c2504b"
+      },
+      "contact": {
+        "email": "lisa.feret.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/lisa-feret"
+      },
+      "bio": {
+        "birth_date": "1988-07-31",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Lisa_Feret_20240622_065004.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Feret",
+        "https://en.wikipedia.org/wiki/Lisa_Feret",
+        "https://justfacts.votesmart.org/candidate/biography/217148/lisa-feret",
+        "https://leg.colorado.gov/legislators/lisa-feret",
+        "https://www.linkedin.com/in/lisaferet",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "frizell-lisa-co-sd2",
+      "name": "Lisa Frizell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-2)",
+      "state": "CO",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fce5c955-f43d-4f80-bad5-8369223bc0ea"
+      },
+      "contact": {
+        "email": "lisa.frizell.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/lisa-frizell"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBODVTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2ea2d7fd307e8f1e762f9099be3a5b09bcb15f0a/Frizell,%20Lisa.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Frizell",
+        "https://en.wikipedia.org/wiki/Lisa_Frizell",
+        "https://justfacts.votesmart.org/candidate/biography/206207/lisa-frizell",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/lisa-frizell",
+        "https://www.linkedin.com/in/lisa-frizell",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "garc-a-lorena-co-hd35",
+      "name": "Lorena García",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-35)",
+      "state": "CO",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d7569723-ddde-4706-a857-422804198fa8"
+      },
+      "contact": {
+        "email": "lorena.garcia.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/lorena-garc%C3%ADa"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVZUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--000f403a3a00241cbcadbe814acab9558e10dde4/Garcia,%20Lorena.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lorena_Garcia",
+        "https://en.wikipedia.org/wiki/Lorena_Garcia_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/211290/lorena-garcia",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/lorena-garc%C3%ADa",
+        "https://leg.colorado.gov/legislators/lorena-garcia",
+        "https://www.linkedin.com/in/lorena-e-garcia",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "goldstein-lori-co-hd29",
+      "name": "Lori Goldstein",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-29)",
+      "state": "CO",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8de5b6ec-a488-4f1f-b96d-d78b90cb7fe7"
+      },
+      "contact": {
+        "email": "lori.goldstein.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/lori-goldstein"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Lori_Goldstein",
+        "https://en.wikipedia.org/wiki/Lori_Goldstein_(politician)",
+        "https://leg.colorado.gov/legislators/lori-goldstein",
+        "https://www.linkedin.com/in/lori-bryner-goldstein-50420765",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "garcia-sander-lori-co-hd65",
+      "name": "Lori Garcia Sander",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-65)",
+      "state": "CO",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d450c0d3-b829-4855-ad0d-1228c5284a4f"
+      },
+      "contact": {
+        "email": "lori garciasander.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/lori-garcia-sander"
+      },
+      "bio": {
+        "birth_date": "1972-08-15",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/LoriSander2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lori_Sander",
+        "https://en.wikipedia.org/wiki/Lori_Garcia_Sander",
+        "https://justfacts.votesmart.org/candidate/217188/lori-garcia-sander",
+        "https://leg.colorado.gov/legislators/lori-garcia-sander",
+        "https://www.linkedin.com/in/lori-garcia-sander-bb2552325",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "zamora-wilson-lynda-co-sd9",
+      "name": "Lynda Zamora Wilson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-9)",
+      "state": "CO",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e5055578-02cb-435c-9fe0-b877318e3b1b"
+      },
+      "contact": {
+        "email": "lynda.zamorawilson.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/lynda-zamora-wilson"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Lynda_Zamora_Wilson",
+        "https://en.wikipedia.org/wiki/Lynda_Zamora_Wilson",
+        "https://justfacts.votesmart.org/candidate/biography/206113/lynda-wilson",
+        "https://leg.colorado.gov/legislators/lynda-zamora-wilson",
+        "https://www.linkedin.com/in/lyndazamora",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "lindsay-mandy-co-hd42",
+      "name": "Mandy Lindsay",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-42)",
+      "state": "CO",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2582d3dd-20c0-4d15-83a0-3b6dab1e98d2"
+      },
+      "contact": {
+        "email": "mandy.lindsay.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/mandy-lindsay"
+      },
+      "bio": {
+        "birth_date": "1977-10-31",
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeFpUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--16f693f706022e86e268da5a37a9a93ff4aef1ba/Lindsay,%20Mandy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mandy_Lindsay",
+        "https://en.wikipedia.org/wiki/Mandy_Lindsay",
+        "https://justfacts.votesmart.org/candidate/biography/201403/mandy-lindsay",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/mandy-lindsay",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "rutinel-manny-co-hd32",
+      "name": "Manny Rutinel",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-32)",
+      "state": "CO",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ce4bd827-c1bc-4736-a580-f4f0215e727d"
+      },
+      "contact": {
+        "email": "manny.rutinel.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/manny-rutinel"
+      },
+      "bio": {
+        "birth_date": "1994-12-20",
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBelZUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ef4c74094f42d481f610cc35459aa4ca3a78b6eb/Rutinel,%20Manny.jpg",
+      "sources": [
+        "https://ballotpedia.org/Manny_Rutinel",
+        "https://en.wikipedia.org/wiki/Manny_Rutinel",
+        "https://justfacts.votesmart.org/candidate/biography/212843/manny-rutinel",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/manny-rutinel",
+        "https://www.linkedin.com/in/mannyrutinel",
+        "https://www.mannyforcolorado.com/meetmanny",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "catlin-marc-co-sd5",
+      "name": "Marc Catlin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-5)",
+      "state": "CO",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c0cfa7d3-2c5e-4b68-8692-2e1b6f1b3372"
+      },
+      "contact": {
+        "email": "marc.catlin.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/marc-catlin"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdzlUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a385166cb7a79caaf96ebfd19a9e619a73014264/Catlin,%20Marc.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marc_Catlin",
+        "https://en.wikipedia.org/wiki/Marc_Catlin",
+        "https://justfacts.votesmart.org/candidate/biography/176449/marc-catlin",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/marc-catlin",
+        "https://www.linkedin.com/in/marc-catlin-a35476b4",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "snyder-marc-co-sd12",
+      "name": "Marc Snyder",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-12)",
+      "state": "CO",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5dbb7ac2-a4c8-42b8-bfb1-1b012737fa74"
+      },
+      "contact": {
+        "email": "marc.snyder.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/marc-snyder"
+      },
+      "bio": {
+        "birth_date": "1961-01-06",
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWxwQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--af6fe2d0b4cf102c536ab81e2462d61d44783d1a/Snyder,%20Marc.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marc_Snyder",
+        "https://en.wikipedia.org/wiki/Marc_Snyder",
+        "https://justfacts.votesmart.org/candidate/biography/181752/marc-snyder",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/marc-snyder",
+        "https://www.linkedin.com/in/marc-snyder-5158716",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "baisley-mark-co-sd4",
+      "name": "Mark Baisley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-4)",
+      "state": "CO",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b4002b84-79a0-481a-94a8-00136c2dabb6"
+      },
+      "contact": {
+        "email": "mark.baisley@senate.co.com",
+        "website": "https://leg.colorado.gov/legislators/mark-baisley"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2hTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7e5bc18c718b71be8507a78ac7fd5c9f047b70ae/Baisley,%20Mark.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Baisley",
+        "https://en.wikipedia.org/wiki/Mark_Baisley",
+        "https://justfacts.votesmart.org/candidate/biography/66344/mark-baisley",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/mark-baisley",
+        "https://www.linkedin.com/in/mark-baisley-7946595",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "bradfield-mary-co-hd21",
+      "name": "Mary Bradfield",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-21)",
+      "state": "CO",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9e1ed481-cc42-4186-a8fe-891abba60162"
+      },
+      "contact": {
+        "email": "mary.bradfield.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/mary-bradfield"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXRUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e23010a39e960f0ad905ba4df19c5be9cf9ea5b9/Bradfield,Mary.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mary_Bradfield",
+        "https://en.wikipedia.org/wiki/Mary_Bradfield",
+        "https://justfacts.votesmart.org/candidate/biography/191847/mary-bradfield",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/mary-bradfield",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "ball-matt-co-sd31",
+      "name": "Matt Ball",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-31)",
+      "state": "CO",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4a72c7ee-c3e5-4c61-8e79-3301cb70a599"
+      },
+      "contact": {
+        "email": "matt.ball.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/matt-ball"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://images.squarespace-cdn.com/content/67330255adbf4c1a48d665b3/1732088535559-59YBHTFEFBLWVIPHRMDL/Matt+Ball+Headshot_park.jpeg?content-type=image%2Fjpeg",
+      "sources": [
+        "https://ballotpedia.org/Matt_Ball",
+        "https://en.wikipedia.org/wiki/Matthew_Ball_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/138590/matthew-ball",
+        "https://leg.colorado.gov/legislators/matt-ball",
+        "https://www.linkedin.com/in/matthew-ball-06385a261",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "soper-matt-co-hd54",
+      "name": "Matt Soper",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-54)",
+      "state": "CO",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9e529237-916b-407c-a60e-abd8e0708329"
+      },
+      "contact": {
+        "email": "matthew.soper.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/matt-soper"
+      },
+      "bio": {
+        "birth_date": "1984-07-30",
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVdUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--767a7057ff5fd758ce0cbddae6aa4c7b1ef907f2/Soper,%20Matthew.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matt_Soper",
+        "https://en.wikipedia.org/wiki/Matt_Soper",
+        "https://justfacts.votesmart.org/candidate/biography/181789/matt-soper",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/matt-soper",
+        "https://www.linkedin.com/in/matthewsoper",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "martinez-matt-co-hd62",
+      "name": "Matt Martinez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-62)",
+      "state": "CO",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/27716b46-14de-4097-a29c-1a882ae3cd3a"
+      },
+      "contact": {
+        "email": "matthew.martinez.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/matthew-martinez"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeEJUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4743a8832adf9daea6fe22f97942afef67ab8d1a/Martinez,%20Matthew.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Martinez",
+        "https://en.wikipedia.org/wiki/Matthew_Martinez_(Colorado_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/191769/matthew-martinez",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/matthew-martinez",
+        "https://www.linkedin.com/in/matthew-martinez-2a882094",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "brooks-max-co-hd45",
+      "name": "Max Brooks",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-45)",
+      "state": "CO",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fe11081d-5ca9-4f88-a143-04aed94e45f9"
+      },
+      "contact": {
+        "email": "max.brooks.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/max-brooks"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MaxBrooks2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Max_Brooks",
+        "https://en.wikipedia.org/wiki/Max_Brooks_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/217168/max-brooks",
+        "https://leg.colorado.gov/legislators/max-brooks",
+        "https://www.linkedin.com/in/maxbrooksmarketing",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "froelich-meg-co-hd3",
+      "name": "Meg Froelich",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-3)",
+      "state": "CO",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8e6bc6cb-fe7e-4640-a938-eb32536e95c5"
+      },
+      "contact": {
+        "email": "meg.froelich.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/meg-froelich"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeUpUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2f6a935d21bc9d78189accacc0743c3071e567a1/Froelich,%20Meg.jpg",
+      "sources": [
+        "https://ballotpedia.org/Meg_Froelich",
+        "https://en.wikipedia.org/wiki/Meg_Froelich",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/meg-froelich",
+        "https://www.linkedin.com/in/meg-froelich-2b6a823",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "lukens-meghan-co-hd26",
+      "name": "Meghan Lukens",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-26)",
+      "state": "CO",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c1a18202-08ad-487f-99bb-b1a606c15a22"
+      },
+      "contact": {
+        "email": "meghan.lukens.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/meghan-lukens"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM05UQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--16c3fe74431c9197b51b11e7bd64eb387369e758/Lukens,%20Meghan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Meghan_Lukens",
+        "https://en.wikipedia.org/wiki/Meghan_Lukens",
+        "https://justfacts.votesmart.org/candidate/biography/206173/meghan-lukens",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/meghan-lukens",
+        "https://www.linkedin.com/in/meghan-lukens-000a1513a",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "carter-michael-co-hd36",
+      "name": "Michael Carter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-36)",
+      "state": "CO",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9c2accab-1bbf-495c-8036-137e48ba684d"
+      },
+      "contact": {
+        "email": "michael.carter.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/michael-carter"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://aps.ss20.sharpschool.com/UserFiles/Servers/Server_3217444/Image/Board%20of%20Education/Members/Carter_Michael_152-200x300.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Carter_(Colorado)",
+        "https://leg.colorado.gov/legislators/michael-carter",
+        "https://www.linkedin.com/in/michael-carter-82a0196",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "weissman-mike-co-sd28",
+      "name": "Mike Weissman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-28)",
+      "state": "CO",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b680cb39-442c-4dd2-81bd-88696cfe9df2"
+      },
+      "contact": {
+        "email": "mike.weissman.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/mike-weissman"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUJTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8f5c3253e6bdff26fefd8864913fd683300d7176/Weissman,Mike.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Weissman",
+        "https://en.wikipedia.org/wiki/Mike_Weissman",
+        "https://justfacts.votesmart.org/candidate/biography/169997/mike-weissman",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/mike-weissman",
+        "https://www.linkedin.com/in/mjweissman",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "duran-monica-co-hd23",
+      "name": "Monica Duran",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-23)",
+      "state": "CO",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d8b6809c-61d9-4ea3-b21b-c846051468c2"
+      },
+      "contact": {
+        "email": "monica.duran.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/monica-duran"
+      },
+      "bio": {
+        "birth_date": "1960-01-08",
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeDVUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--807d51d68890b754bbaed0298372904fcf4a75d5/Duran,%20Monica.jpg",
+      "sources": [
+        "https://ballotpedia.org/Monica_Duran",
+        "https://en.wikipedia.org/wiki/Monica_Duran",
+        "https://justfacts.votesmart.org/candidate/biography/173284/monica-duran",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/monica-duran",
+        "https://www.linkedin.com/in/monica-duran-25a96726",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "ricks-naquetta-co-hd40",
+      "name": "Naquetta Ricks",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-40)",
+      "state": "CO",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/64f01ef4-238f-4e48-9657-e221e0d030c0"
+      },
+      "contact": {
+        "email": "naquetta.ricks.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/naquetta-ricks"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMjlUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6ad9235336da0cb9a035f6bb879b11838db6749e/Ricks,%20Naquetta.jpg",
+      "sources": [
+        "https://ballotpedia.org/Naquetta_Ricks",
+        "https://en.wikipedia.org/wiki/Naquetta_Ricks",
+        "https://justfacts.votesmart.org/candidate/191811/naquetta-ricks",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/naquetta-ricks",
+        "https://www.linkedin.com/in/naquetta-ricks-mba-726a19b",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "hinrichsen-nick-co-sd3",
+      "name": "Nick Hinrichsen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-3)",
+      "state": "CO",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d753f6e-b7e3-420d-a684-e9a27f7ab27b"
+      },
+      "contact": {
+        "email": "nick.hinrichsen.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/nick-hinrichsen"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmhUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4b49d3c681dec554da650bb248660b5dca8c032a/Hinrichsen,%20Nick.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nick_Hinrichsen",
+        "https://en.wikipedia.org/wiki/Nick_Hinrichsen",
+        "https://justfacts.votesmart.org/candidate/biography/202704/nick-hinrichsen",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/nick-hinrichsen",
+        "https://www.linkedin.com/in/nick-hinrichsen-b1722468",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "keltie-rebecca-co-hd16",
+      "name": "Rebecca Keltie",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-16)",
+      "state": "CO",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/04df7ed2-3683-4e00-ae08-9660cd6d878b"
+      },
+      "contact": {
+        "email": "rebecca.keltie.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/rebecca-keltie"
+      },
+      "bio": {
+        "birth_date": "1970-04-15",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Rebecca_Keltie_new.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Rebecca_Keltie",
+        "https://en.wikipedia.org/wiki/Rebecca_Keltie",
+        "https://justfacts.votesmart.org/candidate/biography/195381/rebecca-keltie",
+        "https://leg.colorado.gov/legislators/rebecca-keltie",
+        "https://www.linkedin.com/in/rebecca-keltie-9155b63",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "stewart-rebekah-co-hd30",
+      "name": "Rebekah Stewart",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-30)",
+      "state": "CO",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ef2507af-95ba-4a2f-84d5-84771785bfc2"
+      },
+      "contact": {
+        "email": "rebekah.stewart.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/rebekah-stewart"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/RebekahStewart2024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Rebekah_Stewart",
+        "https://justfacts.votesmart.org/candidate/biography/211176/rebekah-stewart",
+        "https://leg.colorado.gov/legislators/rebekah-stewart",
+        "https://www.linkedin.com/in/rebekahforco",
+        "https://www.linkedin.com/in/rebekahkstewart",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "english-regina-co-hd17",
+      "name": "Regina English",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-17)",
+      "state": "CO",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d5be5146-f7a9-46eb-86f9-b0d1cebc4e9c"
+      },
+      "contact": {
+        "email": "regina.english.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/regina-english"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBejFUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--854752db6d6188b1f926eb9e309d7791738093e5/English,%20Regina.jpg",
+      "sources": [
+        "https://ballotpedia.org/Regina_English",
+        "https://en.wikipedia.org/wiki/Regina_English",
+        "https://justfacts.votesmart.org/candidate/biography/206155/regina-english",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/regina-english",
+        "https://www.linkedin.com/in/regina-english-1b4bb218",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "taggart-rick-co-hd55",
+      "name": "Rick Taggart",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-55)",
+      "state": "CO",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5dae0c7f-430e-42a2-906d-9e177782f91b"
+      },
+      "contact": {
+        "email": "rick.taggart.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/rick-taggart"
+      },
+      "bio": {
+        "birth_date": "1950-09-28",
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3BUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6b1fb5526e7780f89f9b2fb79535d4e7c39fc37b/TaggartRick.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rick_Taggart",
+        "https://en.wikipedia.org/wiki/Rick_Taggart",
+        "https://justfacts.votesmart.org/candidate/biography/157546/rick-taggart",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/rick-taggart",
+        "https://www.linkedin.com/in/rick-taggart-b3b44128",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "rodriguez-robert-co-sd32",
+      "name": "Robert Rodriguez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-32)",
+      "state": "CO",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ab377224-ab70-4c20-a535-baa429520e7c"
+      },
+      "contact": {
+        "email": "robert.rodriguez.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/robert-rodriguez"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVZTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1d263d3105ce58458603b07ad78a431ab0fa5a38/Rodriguez,Robert.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Rodriguez_(Colorado)",
+        "https://en.wikipedia.org/wiki/Robert_Rodriguez_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/181713/robert-rodriguez",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/robert-rodriguez",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "pelton-rod-co-sd35",
+      "name": "Rod Pelton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-35)",
+      "state": "CO",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/45cd06eb-9967-4468-9e4e-677549e7638d"
+      },
+      "contact": {
+        "email": "rod.pelton.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/rod-pelton"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOU5TQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--08b2017b389fcad9ad2c05f5ffc23692931b3216/Pelton,%20Rod.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rod_Pelton",
+        "https://ballotpedia.org/Rodney_Pelton",
+        "https://en.wikipedia.org/wiki/Rod_Pelton",
+        "https://justfacts.votesmart.org/candidate/biography/148937/rod-pelton",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/rod-pelton",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "weinberg-ron-co-hd51",
+      "name": "Ron Weinberg",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-51)",
+      "state": "CO",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9b1256a4-11c6-4c9e-81e6-2e0a3c5871be"
+      },
+      "contact": {
+        "email": "ron.weinberg.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/ron-weinberg"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekpUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ff0c3a27e8b7c137cbdb5c5fde02af093a8db4b4/Rep%20Ron%20Weinberg.JPG",
+      "sources": [
+        "https://ballotpedia.org/Ron_Weinberg",
+        "https://en.wikipedia.org/wiki/Ron_Weinberg",
+        "https://justfacts.votesmart.org/candidate/biography/211297/ron-weinberg",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/ron-weinberg",
+        "https://www.linkedin.com/in/ron-weinberg-03129371",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "gonzalez-ryan-co-hd50",
+      "name": "Ryan Gonzalez",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-50)",
+      "state": "CO",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e7b1210b-3400-4ad4-a461-a55023e54042"
+      },
+      "contact": {
+        "email": "ryan.gonzalez.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/ryan-gonzalez"
+      },
+      "bio": {
+        "birth_date": "1994-12-25",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ryangonzalez.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Ryan_Gonzalez",
+        "https://en.wikipedia.org/wiki/Ryan_Gonzalez",
+        "https://justfacts.votesmart.org/candidate/biography/206221/ryan-gonzalez",
+        "https://leg.colorado.gov/legislators/ryan-gonzalez",
+        "https://www.linkedin.com/in/ryanagonzalez",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "bottoms-scott-co-hd15",
+      "name": "Scott Bottoms",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-15)",
+      "state": "CO",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/66254480-6178-4312-8a18-268ec84153cc"
+      },
+      "contact": {
+        "email": "scott.bottoms.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/scott-bottoms"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMCtIQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2fb56df7ac0ddd22f63e0eb99a03b0d30e48bff5/Rep%20Bottoms%202026.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Bottoms",
+        "https://en.wikipedia.org/wiki/Scott_Bottoms",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/scott-bottoms",
+        "https://www.coloradohouserepublicans.com/scott-bottoms",
+        "https://www.linkedin.com/in/scott-bottoms-48425b81",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "bright-scott-co-sd13",
+      "name": "Scott Bright",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-13)",
+      "state": "CO",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fb530f21-a08e-473c-b215-9a4de6a86ee9"
+      },
+      "contact": {
+        "email": "scott.bright.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/scott-bright"
+      },
+      "bio": {
+        "birth_date": "1970-03-20",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ScottBright.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Bright_(Colorado)",
+        "https://en.wikipedia.org/wiki/Scott_Bright",
+        "https://justfacts.votesmart.org/candidate/biography/217067/scott-bright",
+        "https://leg.colorado.gov/legislators/scott-bright",
+        "https://scottbright.net",
+        "https://www.linkedin.com/in/scott-bright-6874378",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "slaugh-scott-co-hd64",
+      "name": "Scott Slaugh",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-64)",
+      "state": "CO",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cba33581-a61a-41c5-9773-c949f2b06d0a"
+      },
+      "contact": {
+        "email": "scott.slaugh.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/scott-slaugh"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Scott_Slaugh",
+        "https://en.wikipedia.org/wiki/Scott_Slaugh",
+        "https://justfacts.votesmart.org/candidate/biography/229503/scott-slaugh",
+        "https://leg.colorado.gov/legislators/scott-slaugh",
+        "https://www.linkedin.com/in/scott-slaugh-myfallriverhome",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "camacho-sean-co-hd6",
+      "name": "Sean Camacho",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-6)",
+      "state": "CO",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/56e058a4-2a75-4864-8d5e-18c1c98f6960"
+      },
+      "contact": {
+        "email": "sean.camacho.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/sean-camacho"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/SeanCamacho2024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Sean_Camacho",
+        "https://en.wikipedia.org/wiki/Sean_Camacho",
+        "https://justfacts.votesmart.org/candidate/biography/206136/sean-camacho",
+        "https://leg.colorado.gov/legislators/sean-camacho",
+        "https://www.linkedin.com/in/sean-camacho-86462063",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "lieder-sheila-co-hd28",
+      "name": "Sheila Lieder",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-28)",
+      "state": "CO",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b44045eb-e2fb-4723-9e91-d68fb55c0bf7"
+      },
+      "contact": {
+        "email": "sheila.lieder.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/sheila-lieder"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeE5UQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bbb6f4456c06c54b1c8fffade0441c9a63ccf12e/Lieder,%20Sheila.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sheila_Lieder",
+        "https://en.wikipedia.org/wiki/Sheila_Lieder",
+        "https://justfacts.votesmart.org/candidate/biography/210740/sheila-lieder",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/sheila-lieder",
+        "https://www.linkedin.com/in/sheilalieder",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "luck-stephanie-co-hd60",
+      "name": "Stephanie Luck",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-60)",
+      "state": "CO",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3e7145a3-8729-497c-a168-db98d22cf015"
+      },
+      "contact": {
+        "email": "stephanie.luck.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/stephanie-luck"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdzVUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--30a0b950ff1755b8691052388ed9b70f8fe688cc/Luck,%20Stephanie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Luck",
+        "https://en.wikipedia.org/wiki/Stephanie_Luck",
+        "https://justfacts.votesmart.org/candidate/biography/181704/stephanie-luck",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/stephanie-luck",
+        "https://www.linkedin.com/in/smluck",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "woodrow-steven-co-hd2",
+      "name": "Steven Woodrow",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-2)",
+      "state": "CO",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/09af4a19-c07e-49b2-b320-104f3784705b"
+      },
+      "contact": {
+        "email": "steven.woodrow.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/steven-woodrow"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXhUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b28a2d8e234c37d646a99efd0b7aea44a198fe9d/Woodrow,Steven-.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steven_Woodrow",
+        "https://en.wikipedia.org/wiki/Steven_Woodrow",
+        "https://justfacts.votesmart.org/candidate/biography/189634/steven-woodrow",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/steven-woodrow",
+        "https://www.linkedin.com/in/stevenlezell",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "story-tammy-co-hd25",
+      "name": "Tammy Story",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-25)",
+      "state": "CO",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/489b3afa-1e08-40f4-918a-f01c186b6f73"
+      },
+      "contact": {
+        "email": "tammy.story.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/tammy-story"
+      },
+      "bio": {
+        "birth_date": "1959-02-24",
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBelJUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6eaeb97b2bd0b0a9f0bf46040f34663cd0c37112/Story,%20Tammy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tammy_Story",
+        "https://en.wikipedia.org/wiki/Tammy_Story",
+        "https://justfacts.votesmart.org/candidate/biography/169987/tammy-story",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/tammy-story",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "mauro-tisha-co-hd46",
+      "name": "Tisha Mauro",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-46)",
+      "state": "CO",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/851b5f31-0694-4674-a3b8-468b6eb1f0a8"
+      },
+      "contact": {
+        "email": "tisha.mauro.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/tisha-mauro"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMlJUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c083d9d0c61aec511c97d0802cd5873416f901d9/Mauro,%20Tisha.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tisha_Mauro",
+        "https://en.wikipedia.org/wiki/Tisha_Mauro",
+        "https://justfacts.votesmart.org/candidate/biography/206211/tisha-mauro",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/tisha-mauro",
+        "https://www.linkedin.com/in/tisha-mauro-248a5733",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "sullivan-tom-co-sd27",
+      "name": "Tom Sullivan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-27)",
+      "state": "CO",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dc9056b8-fb9c-4a66-99b8-210acce64bff"
+      },
+      "contact": {
+        "email": "tom.sullivan.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/tom-sullivan"
+      },
+      "bio": {
+        "birth_date": "1956-05-17",
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOWxTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--85d8c976f450d3f48b1dbe66ac712d2be0f5e86b/Sullivan,Tom.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Sullivan_(Colorado)",
+        "https://en.wikipedia.org/wiki/Tom_Sullivan_(Colorado_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/169958/tom-sullivan",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/tom-sullivan",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "exum-tony-co-sd11",
+      "name": "Tony Exum",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-11)",
+      "state": "CO",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/473bd095-778d-4418-8e61-96a2b8005c8e"
+      },
+      "contact": {
+        "email": "tony.exum.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/tony-exum"
+      },
+      "bio": {
+        "birth_date": "1952-06-16",
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBKzFTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d4163d37a59db187d2e91b1e4af903d1385df345/Exum,%20Tony%20SR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Exum,_Sr.",
+        "https://en.wikipedia.org/wiki/Tony_Exum",
+        "https://justfacts.votesmart.org/candidate/biography/138722/tony-exum-sr",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/tony-exum",
+        "https://www.linkedin.com/in/exum4citycouncil",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "winter-ty-co-hd47",
+      "name": "Ty Winter",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-47)",
+      "state": "CO",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f3cd2006-7729-41b0-a009-0c5cf64e95e0"
+      },
+      "contact": {
+        "email": "ty.winter.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/ty-winter"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmRUQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7e3263a1638a76c8a5732293d1ea8f844d2e9d25/Winter,Ty.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ty_Winter",
+        "https://en.wikipedia.org/wiki/Ty_Winter",
+        "https://justfacts.votesmart.org/candidate/biography/206214/ty-winter",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/ty-winter",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "lindstedt-william-co-sd25",
+      "name": "William Lindstedt",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Senator (SD-25)",
+      "state": "CO",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dbe86f29-2ecb-449e-aaf6-3fc91baf2e0e"
+      },
+      "contact": {
+        "email": "william.lindstedt.senate@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/william-lindstedt"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://leg.colorado.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK1ZTQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5f021c807d11e6b00e9c2e987dd101e88185bee0/Lindstedt,%20William.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Lindstedt",
+        "https://en.wikipedia.org/wiki/William_Lindstedt",
+        "https://justfacts.votesmart.org/candidate/biography/199491/william-lindstedt",
+        "https://leg.colorado.gov/legislators",
+        "https://leg.colorado.gov/legislators/william-lindstedt",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    },
+    {
+      "politician_id": "zokaie-yara-co-hd52",
+      "name": "Yara Zokaie",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Colorado State Representative (HD-52)",
+      "state": "CO",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "CO",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e8a7d2a2-1907-450d-8c61-8c328839e922"
+      },
+      "contact": {
+        "email": "yara.zokaie.house@coleg.gov",
+        "website": "https://leg.colorado.gov/legislators/yara-zokaie"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/yf.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Yara_Zokaie",
+        "https://en.wikipedia.org/wiki/Yara_Zokaie",
+        "https://justfacts.votesmart.org/candidate/191790/yara-zokaie",
+        "https://leg.colorado.gov/legislators/yara-zokaie",
+        "https://data.openstates.org/people/current/co.csv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5051 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/mt.csv",
+  "state": "MT",
+  "politicians": [
+    {
+      "politician_id": "griffith-alanah-mt-hd60",
+      "name": "Alanah Griffith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-60)",
+      "state": "MT",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1f3a2599-a310-46f5-9b72-ea57f7b59c9b"
+      },
+      "contact": {
+        "email": "alanah.griffith@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/234"
+      },
+      "bio": {
+        "birth_date": "1974-12-26",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/AlanahGriffith2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alanah_Griffith",
+        "https://en.wikipedia.org/wiki/Alanah_Griffith",
+        "https://legislators.legmt.gov/#/legislator/234",
+        "https://www.legmt.gov/legislators/1356",
+        "https://www.linkedin.com/in/alanah-griffith-8b39a723b",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "regier-amy-mt-hd6",
+      "name": "Amy Regier",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-6)",
+      "state": "MT",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/817877aa-a3ac-40a7-9f32-f40204840abf"
+      },
+      "contact": {
+        "email": "amy.regier@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6891"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Amy_Regier",
+        "https://en.wikipedia.org/wiki/Amy_Regier",
+        "https://leg.mt.gov/legislator-information/roster/individual/6891",
+        "https://leg.mt.gov/legislator-information/roster/individual/7578",
+        "https://legislators.legmt.gov/#/legislator/59",
+        "https://www.legmt.gov/legislators/1426",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "olsen-andrea-mt-sd48",
+      "name": "Andrea Olsen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-48)",
+      "state": "MT",
+      "district": "SD-48",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2dcaf4be-0227-4ced-b01c-aacd8376c45a"
+      },
+      "contact": {
+        "email": "andrea.olsen@legmt.gov",
+        "district_voice": "406-543-2666",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4842"
+      },
+      "bio": {
+        "birth_date": "1961-12-24",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Andrea_Olsen",
+        "https://en.wikipedia.org/wiki/Andrea_Olsen",
+        "https://justfacts.votesmart.org/candidate/biography/150515/andrea-olsen",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5159",
+        "https://leg.mt.gov/legislator-information/roster/individual/6941",
+        "https://leg.mt.gov/legislator-information/roster/individual/7573",
+        "https://legislators.legmt.gov/#/legislator/15",
+        "https://www.legmt.gov/legislators/1271",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "nicastro-anthony-mt-hd50",
+      "name": "Anthony Nicastro",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-50)",
+      "state": "MT",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/06fef2c8-9695-47b2-9015-999a5dd3bded"
+      },
+      "contact": {
+        "email": "anthony.nicastro@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/200"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Anthony_Nicastro",
+        "https://legislators.legmt.gov/#/legislator/200",
+        "https://www.legmt.gov/legislators/1411",
+        "https://www.linkedin.com/in/anthony-nicastro-15a7804",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "usher-barry-mt-sd19",
+      "name": "Barry Usher",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-19)",
+      "state": "MT",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/69cfa3aa-7091-4752-a99c-b6a42c70b17b"
+      },
+      "contact": {
+        "email": "barry.usher@legmt.gov",
+        "district_voice": "406-252-2888",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4782"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Barry_Usher",
+        "https://en.wikipedia.org/wiki/Barry_Usher",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5099",
+        "https://leg.mt.gov/legislator-information/roster/individual/6908",
+        "https://leg.mt.gov/legislator-information/roster/individual/7603",
+        "https://legislators.legmt.gov/#/legislator/128",
+        "https://www.legmt.gov/legislators/1259",
+        "https://www.linkedin.com/in/barry-usher-174b6411",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "beard-becky-mt-sd38",
+      "name": "Becky Beard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-38)",
+      "state": "MT",
+      "district": "SD-38",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f87d7b76-3065-48f4-bc3b-50bf00926180"
+      },
+      "contact": {
+        "email": "becky.beard@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7472"
+      },
+      "bio": {
+        "birth_date": "1960-06-22",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Becky_Beard",
+        "https://en.wikipedia.org/wiki/Becky_Beard",
+        "https://justfacts.votesmart.org/candidate/biography/168549/becky-beard",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5139",
+        "https://leg.mt.gov/legislator-information/roster/individual/6924",
+        "https://leg.mt.gov/legislator-information/roster/individual/7472",
+        "https://legislators.legmt.gov/#/legislator/94",
+        "https://www.legmt.gov/legislators/1494",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "edwards-becky-mt-hd61",
+      "name": "Becky Edwards",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-61)",
+      "state": "MT",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/94db4829-5bc5-433b-9617-f1e9740ad694"
+      },
+      "contact": {
+        "email": "becky.edwards@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/177"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Becky_Edwards_(Montana)",
+        "https://en.wikipedia.org/wiki/Becky_Edwards_(Montana_politician)",
+        "https://legislators.legmt.gov/#/legislator/177",
+        "https://www.legmt.gov/legislators/1332",
+        "https://www.linkedin.com/in/becky-edwards-b150397",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "carter-bob-mt-hd96",
+      "name": "Bob Carter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-96)",
+      "state": "MT",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ad9a1852-425f-4f4b-9b6e-270f2c282024"
+      },
+      "contact": {
+        "email": "bob.carter@legmt.gov",
+        "district_voice": "406-788-0089",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7622"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Bob_Carter",
+        "https://en.wikipedia.org/wiki/Bob_Carter_(American_politician)",
+        "https://leg.mt.gov/legislator-information/roster/individual/7622",
+        "https://legislators.legmt.gov/#/legislator/146",
+        "https://www.legmt.gov/legislators/1317",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "phalen-bob-mt-sd17",
+      "name": "Bob Phalen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-17)",
+      "state": "MT",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cf7f704c-87ac-4bcd-821a-9377bbbee43f"
+      },
+      "contact": {
+        "email": "bobby.phalen@legmt.gov",
+        "district_voice": "406-939-1187",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6843"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Bob_Phalen",
+        "https://en.wikipedia.org/wiki/Bob_Phalen",
+        "https://leg.mt.gov/legislator-information/roster/individual/6843",
+        "https://leg.mt.gov/legislator-information/roster/individual/7575",
+        "https://legislators.legmt.gov/#/legislator/45",
+        "https://www.legmt.gov/legislators/1276",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "barker-brad-mt-hd55",
+      "name": "Brad Barker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-55)",
+      "state": "MT",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e46e64b0-2c6e-4581-b281-bc4c0993fa5b"
+      },
+      "contact": {
+        "email": "brad.barker@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7618"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Brad_Barker",
+        "https://en.wikipedia.org/wiki/Brad_Barker",
+        "https://leg.mt.gov/legislator-information/roster/individual/7618",
+        "https://legislators.legmt.gov/#/legislator/83",
+        "https://mtgop.org/leaders/brad-barker",
+        "https://mtgop.org/leaders/brad-barker/",
+        "https://www.legmt.gov/legislators/1300",
+        "https://www.linkedin.com/in/brad-barker",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "ler-brandon-mt-hd33",
+      "name": "Brandon Ler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-33)",
+      "state": "MT",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/578dada9-9f18-470a-ae8f-e8516a5e9635"
+      },
+      "contact": {
+        "email": "brandon.ler@legmt.gov",
+        "district_voice": "406-480-5687",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6842"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Brandon_Ler",
+        "https://en.wikipedia.org/wiki/Brandon_Ler",
+        "https://leg.mt.gov/legislator-information/roster/individual/6842",
+        "https://leg.mt.gov/legislator-information/roster/individual/7548",
+        "https://legislators.legmt.gov/#/legislator/102",
+        "https://www.legmt.gov/legislators/1282",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "mitchell-braxton-mt-hd5",
+      "name": "Braxton Mitchell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-5)",
+      "state": "MT",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8664c246-dc7e-48aa-9db1-9e33055dcb67"
+      },
+      "contact": {
+        "email": "braxton.mitchell@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6890"
+      },
+      "bio": {
+        "birth_date": "2000-05-20",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Braxton_Mitchell",
+        "https://en.wikipedia.org/wiki/Braxton_Mitchell",
+        "https://leg.mt.gov/legislator-information/roster/individual/6890",
+        "https://leg.mt.gov/legislator-information/roster/individual/7563",
+        "https://legislators.legmt.gov/#/legislator/49",
+        "https://www.legmt.gov/legislators/1406",
+        "https://www.linkedin.com/in/braxton-mitchell-4b96b2211",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "close-brian-mt-hd65",
+      "name": "Brian Close",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-65)",
+      "state": "MT",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/733ea07d-29e9-4259-b489-6ae30bc76bce"
+      },
+      "contact": {
+        "email": "brian.close@legmt.gov",
+        "district_voice": "406-582-0478",
+        "website": "https://legislators.legmt.gov/#/legislator/201"
+      },
+      "bio": {
+        "birth_date": "1958-11-21",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Brian_Close_20240808_100432.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Close",
+        "https://justfacts.votesmart.org/candidate/biography/190685/brian-close",
+        "https://legislators.legmt.gov/#/legislator/201",
+        "https://www.legmt.gov/legislators/1319",
+        "https://www.linkedin.com/in/brian-close-081223135",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "gillespie-butch-mt-sd9",
+      "name": "Butch Gillespie",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-9)",
+      "state": "MT",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0bb87197-276c-4ea7-9e93-cf782879e010"
+      },
+      "contact": {
+        "email": "bruce.gillespie@legmt.gov",
+        "website": "https://archive.legmt.gov/legislator-information/roster/individual/7516"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://archive.legmt.gov/legislator-information/roster/individual/7516",
+        "https://ballotpedia.org/Bruce_Gillespie",
+        "https://en.wikipedia.org/wiki/Bruce_Gillespie_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/180635/bruce-gillespie",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5038",
+        "https://leg.mt.gov/legislator-information/roster/individual/6806",
+        "https://leg.mt.gov/legislator-information/roster/individual/7516",
+        "https://legislators.legmt.gov/#/legislator/97",
+        "https://www.linkedin.com/in/butch-gillespie-019a7a38",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "hinkle-caleb-mt-hd68",
+      "name": "Caleb Hinkle",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-68)",
+      "state": "MT",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b6bacabc-6ff6-4bc6-9631-fbbf067f9f0e"
+      },
+      "contact": {
+        "email": "caleb.hinkle@legmt.gov",
+        "website": "https://archive.legmt.gov/legislator-information/roster/individual/7530"
+      },
+      "bio": {
+        "birth_date": "1992-07-14",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://archive.legmt.gov/legislator-information/roster/individual/7530",
+        "https://ballotpedia.org/Caleb_Hinkle",
+        "https://en.wikipedia.org/wiki/Caleb_Hinkle",
+        "https://leg.mt.gov/legislator-information/roster/individual/6920",
+        "https://leg.mt.gov/legislator-information/roster/individual/7530",
+        "https://legislators.legmt.gov/#/legislator/67",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "glimm-carl-mt-sd3",
+      "name": "Carl Glimm",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-3)",
+      "state": "MT",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8cf123ff-85f6-4652-922a-87c0cb474573"
+      },
+      "contact": {
+        "email": "carl.glimm@legmt.gov",
+        "district_voice": "406-751-7334",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4749"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Carl_Glimm",
+        "https://en.wikipedia.org/wiki/Carl_Glimm",
+        "https://justfacts.votesmart.org/candidate/biography/120772/carl-glimm",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5064",
+        "https://leg.mt.gov/legislator-information/roster/individual/6931",
+        "https://leg.mt.gov/legislator-information/roster/individual/7519",
+        "https://legislators.legmt.gov/#/legislator/9",
+        "https://www.legmt.gov/legislators/1468",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "fitzpatrick-chip-mt-hd42",
+      "name": "Chip Fitzpatrick",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-42)",
+      "state": "MT",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/83bac865-b5d7-4797-ae5a-2cb5d29e9626"
+      },
+      "contact": {
+        "email": "sidney.fitzpatrick@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/237"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Sidney_Fitzpatrick",
+        "https://legislators.legmt.gov/#/legislator/237",
+        "https://www.legmt.gov/legislators/1340",
+        "https://www.linkedin.com/in/sidney-fitzpatrick-256a2672",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "pope-chris-mt-sd33",
+      "name": "Chris Pope",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-33)",
+      "state": "MT",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ab04d84a-c320-4d82-b211-d36206213195"
+      },
+      "contact": {
+        "email": "christopher.pope@legmt.gov",
+        "website": "https://leg.mt.gov/css/Sessions/64th/leg_info.asp?HouseID=0&SessionID=109&LAWSID=16520"
+      },
+      "bio": {
+        "birth_date": "1952-12-04",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Christopher_Pope",
+        "https://en.wikipedia.org/wiki/Christopher_Pope_(politician)",
+        "https://leg.mt.gov/content/sessions/64th/2015HouseMembers.txt",
+        "https://leg.mt.gov/css/Sessions/64th/leg_info.asp?HouseID=0&SessionID=109&LAWSID=16520",
+        "https://leg.mt.gov/legislator-information/roster/individual/6882",
+        "https://leg.mt.gov/legislator-information/roster/individual/7576",
+        "https://legislators.legmt.gov/#/legislator/31",
+        "https://www.legmt.gov/legislators/1489",
+        "https://www.linkedin.com/in/cspope",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "keogh-connie-mt-hd92",
+      "name": "Connie Keogh",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-92)",
+      "state": "MT",
+      "district": "HD-92",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d640b7b9-98c0-48f4-820d-24440c180667"
+      },
+      "contact": {
+        "email": "connie.keogh@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5150"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Connie_Keogh",
+        "https://conniekeoghforhd91.com/index.php/about/index.html",
+        "https://en.wikipedia.org/wiki/Connie_Keogh",
+        "https://justfacts.votesmart.org/candidate/biography/180758/connie-keogh",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5150",
+        "https://leg.mt.gov/legislator-information/roster/individual/6876",
+        "https://leg.mt.gov/legislator-information/roster/individual/7539",
+        "https://legislators.legmt.gov/#/legislator/51",
+        "https://www.legmt.gov/legislators/1378",
+        "https://www.linkedin.com/in/connie-keogh-91897313",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "neumann-cora-mt-sd30",
+      "name": "Cora Neumann",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-30)",
+      "state": "MT",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a7c31f94-f7bd-4d2c-b149-f26928cc934e"
+      },
+      "contact": {
+        "email": "cora.neumann@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/229"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Cora_Neumann",
+        "https://en.wikipedia.org/wiki/Cora_Neumann",
+        "https://justfacts.votesmart.org/candidate/biography/205251/cora-neumann",
+        "https://legislators.legmt.gov/#/legislator/229",
+        "https://www.legmt.gov/legislators/1486",
+        "https://www.linkedin.com/in/coraneumann",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "sprunger-courtenay-mt-hd7",
+      "name": "Courtenay Sprunger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-7)",
+      "state": "MT",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/db529569-d550-4ed9-b371-b5a1cae9e007"
+      },
+      "contact": {
+        "email": "courtenay.sprunger@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7646"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Courtenay_Sprunger",
+        "https://en.wikipedia.org/wiki/Courtenay_Sprunger",
+        "https://leg.mt.gov/legislator-information/roster/individual/7646",
+        "https://legislators.legmt.gov/#/legislator/142",
+        "https://www.courtenayforkalispell.com/my-story",
+        "https://www.legmt.gov/legislators/1445",
+        "https://www.linkedin.com/in/courtenaysprunger",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "cochran-curt-mt-hd90",
+      "name": "Curt Cochran",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-90)",
+      "state": "MT",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/81d4b739-eb62-4dae-85db-9e053fb0d886"
+      },
+      "contact": {
+        "email": "curtis.cochran@legmt.gov",
+        "district_voice": "406-280-0081",
+        "website": "https://legislators.legmt.gov/#/legislator/159"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Curtis_Cochran",
+        "https://legislators.legmt.gov/#/legislator/159",
+        "https://www.legmt.gov/legislators/1291",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "schomer-curtis-mt-hd48",
+      "name": "Curtis Schomer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-48)",
+      "state": "MT",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/72eca5f2-a7b5-463d-b49d-681eaf30ffea"
+      },
+      "contact": {
+        "email": "curtis.schomer@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/232"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Curtis_Schomer",
+        "https://legislators.legmt.gov/#/legislator/232",
+        "https://www.legmt.gov/legislators/1434",
+        "https://www.linkedin.com/in/curtis-schomer-322688108",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "emrich-daniel-mt-sd11",
+      "name": "Daniel Emrich",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-11)",
+      "state": "MT",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ab3accc3-6794-45c1-9f78-27d524aecc00"
+      },
+      "contact": {
+        "email": "daniel.emrich@legmt.gov",
+        "district_voice": "406-781-3955",
+        "website": "https://archive.legmt.gov/legislator-information/roster/individual/7624"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://archive.legmt.gov/legislator-information/roster/individual/7624",
+        "https://ballotpedia.org/Daniel_Emrich",
+        "https://en.wikipedia.org/wiki/Daniel_Emrich",
+        "https://leg.mt.gov/legislator-information/roster/individual/7624",
+        "https://legislators.legmt.gov/#/legislator/76",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "zolnikov-daniel-mt-sd22",
+      "name": "Daniel Zolnikov",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-22)",
+      "state": "MT",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/afffd4a2-fd6b-4cc5-8eff-8aa1f696db3a"
+      },
+      "contact": {
+        "email": "daniel.zolnikov@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7652"
+      },
+      "bio": {
+        "birth_date": "1987-01-29",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Daniel_Zolnikov",
+        "https://en.wikipedia.org/wiki/Daniel_Zolnikov",
+        "https://leg.mt.gov/legislator-information/roster/individual/7652",
+        "https://legislators.legmt.gov/#/legislator/89",
+        "https://www.legmt.gov/legislators/1260",
+        "https://www.linkedin.com/in/zolnikov",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "fern-dave-mt-sd2",
+      "name": "Dave Fern",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-2)",
+      "state": "MT",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9c542cad-1c8f-4dfd-b41f-12468fd2d806"
+      },
+      "contact": {
+        "email": "dave.fern@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4748"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Dave_Fern",
+        "https://en.wikipedia.org/wiki/Dave_Fern",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5063",
+        "https://leg.mt.gov/legislator-information/roster/individual/6856",
+        "https://leg.mt.gov/legislator-information/roster/individual/7502",
+        "https://legislators.legmt.gov/#/legislator/126",
+        "https://www.legmt.gov/legislators/1467",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "bedey-dave-mt-hd86",
+      "name": "Dave Bedey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-86)",
+      "state": "MT",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8583c5f0-fc55-4f5b-9664-19d44f7f25b3"
+      },
+      "contact": {
+        "email": "david.bedey@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5145"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/David_Bedey",
+        "https://en.wikipedia.org/wiki/David_Bedey",
+        "https://justfacts.votesmart.org/candidate/biography/180747/david-bedey",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5145",
+        "https://leg.mt.gov/legislator-information/roster/individual/6854",
+        "https://leg.mt.gov/legislator-information/roster/individual/7473",
+        "https://legislators.legmt.gov/#/legislator/99",
+        "https://www.legmt.gov/legislators/1305",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "powers-debo-mt-hd3",
+      "name": "Debo Powers",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-3)",
+      "state": "MT",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cf8ab221-3027-4ab8-81bc-66bc28e342fb"
+      },
+      "contact": {
+        "email": "debo.powers@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6334"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Debo_Powers",
+        "https://en.wikipedia.org/wiki/Debo_Powers",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/6334",
+        "https://legislators.legmt.gov/#/legislator/236",
+        "https://www.legmt.gov/legislators/1423",
+        "https://www.linkedin.com/in/debo-powers-99265b36",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "baum-denise-mt-hd45",
+      "name": "Denise Baum",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-45)",
+      "state": "MT",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9b4883f0-d68f-48df-b4f1-de6d401e420e"
+      },
+      "contact": {
+        "email": "denise.baum@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7619"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Denise_Baum",
+        "https://en.wikipedia.org/wiki/Denise_Baum",
+        "https://leg.mt.gov/legislator-information/roster/individual/7619",
+        "https://legislators.legmt.gov/#/legislator/82",
+        "https://www.legmt.gov/legislators/1302",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "hayman-denise-mt-sd32",
+      "name": "Denise Hayman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-32)",
+      "state": "MT",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/482e35af-a664-4010-a5db-33f21d902045"
+      },
+      "contact": {
+        "email": "denise.hayman@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4808"
+      },
+      "bio": {
+        "birth_date": "1951-01-01",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Denise_Hayman",
+        "https://en.wikipedia.org/wiki/Denise_Hayman",
+        "https://justfacts.votesmart.org/candidate/biography/149252/denise-hayman",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5125",
+        "https://leg.mt.gov/legislator-information/roster/individual/6831",
+        "https://leg.mt.gov/legislator-information/roster/individual/7526",
+        "https://legislators.legmt.gov/#/legislator/26",
+        "https://www.legmt.gov/legislators/1266",
+        "https://www.linkedin.com/in/denise-hayman-247a13b8",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "joy-denise-mt-hd46",
+      "name": "Denise Joy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-46)",
+      "state": "MT",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d0749550-4529-4d4b-8278-41e6a1a8da42"
+      },
+      "contact": {
+        "email": "denise.joy@legmt.gov",
+        "district_voice": "406-647-0337",
+        "website": "https://legislators.legmt.gov/#/legislator/304"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.billingsmt.gov/ImageRepository/Document?documentId=49492",
+      "sources": [
+        "https://legislators.legmt.gov/#/legislator/304",
+        "https://www.billingsmt.gov/directory.aspx?EID=388",
+        "https://www.legmt.gov/legislators/2056",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "loge-denley-mt-sd45",
+      "name": "Denley Loge",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-45)",
+      "state": "MT",
+      "district": "SD-45",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e5cf63ad-879c-435f-819e-a3326862b1b8"
+      },
+      "contact": {
+        "email": "denley.loge@legmt.gov",
+        "district_voice": "406-544-5220",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4757"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Denley_Loge",
+        "https://en.wikipedia.org/wiki/Denley_Loge",
+        "https://justfacts.votesmart.org/candidate/biography/168467/denley-loge",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5072",
+        "https://leg.mt.gov/legislator-information/roster/individual/6836",
+        "https://leg.mt.gov/legislator-information/roster/individual/7549",
+        "https://legislators.legmt.gov/#/legislator/23",
+        "https://www.legmt.gov/legislators/1503",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "lenz-dennis-mt-sd25",
+      "name": "Dennis Lenz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-25)",
+      "state": "MT",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0fd1ad64-349c-42d9-ae46-4ff7d3eb9495"
+      },
+      "contact": {
+        "email": "dennis.lenz@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4795"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Dennis_Lenz",
+        "https://en.wikipedia.org/wiki/Dennis_Lenz",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5112",
+        "https://leg.mt.gov/legislator-information/roster/individual/6847",
+        "https://leg.mt.gov/legislator-information/roster/individual/7547",
+        "https://legislators.legmt.gov/#/legislator/90",
+        "https://www.legmt.gov/legislators/1262",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "harvey-derek-mt-sd37",
+      "name": "Derek Harvey",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-37)",
+      "state": "MT",
+      "district": "SD-37",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ec4cdcd7-d8b8-4c37-84ce-a99749b22ca3"
+      },
+      "contact": {
+        "email": "derek.harvey@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5133"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Derek_Harvey",
+        "https://en.wikipedia.org/wiki/Derek_J._Harvey",
+        "https://justfacts.votesmart.org/candidate/biography/180738/derek-harvey",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5133",
+        "https://leg.mt.gov/legislator-information/roster/individual/6866",
+        "https://leg.mt.gov/legislator-information/roster/individual/7524",
+        "https://legislators.legmt.gov/#/legislator/39",
+        "https://www.legmt.gov/legislators/1492",
+        "https://www.linkedin.com/in/derek-harvey-b945b280",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "hawk-donavon-mt-hd72",
+      "name": "Donavon Hawk",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-72)",
+      "state": "MT",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/228fbd51-8789-433e-a790-52e395da0dd0"
+      },
+      "contact": {
+        "email": "donavon.hawk@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6867"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Donavon_Hawk",
+        "https://en.wikipedia.org/wiki/Donavon_Hawk",
+        "https://leg.mt.gov/legislator-information/roster/individual/6867",
+        "https://leg.mt.gov/legislator-information/roster/individual/7525",
+        "https://legislators.legmt.gov/#/legislator/106",
+        "https://www.legmt.gov/legislators/1360",
+        "https://www.linkedin.com/in/donavon-hawk-61b3bbb7",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "byrne-ed-mt-hd11",
+      "name": "Ed Byrne",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-11)",
+      "state": "MT",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/370cab6e-1802-49f1-938f-1b0d1c036cd8"
+      },
+      "contact": {
+        "email": "ed.byrne@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/226"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ed_Byrne",
+        "https://en.wikipedia.org/wiki/Ed_Byrne_(American_politician)",
+        "https://legislators.legmt.gov/#/legislator/226",
+        "https://www.legmt.gov/legislators/1314",
+        "https://www.linkedin.com/in/edward-byrne-b4619967",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "buttrey-ed-mt-hd21",
+      "name": "Ed Buttrey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-21)",
+      "state": "MT",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/29b81d32-dc72-49d8-8bef-ca4b60fe9c87"
+      },
+      "contact": {
+        "email": "ed.buttrey@legmt.gov",
+        "district_voice": "406-452-6460",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5079"
+      },
+      "bio": {
+        "birth_date": "1965-12-14",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Edward_Buttrey",
+        "https://en.wikipedia.org/wiki/Edward_Buttrey",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5079",
+        "https://leg.mt.gov/legislator-information/roster/individual/6899",
+        "https://leg.mt.gov/legislator-information/roster/individual/7484",
+        "https://legislators.legmt.gov/#/legislator/121",
+        "https://mtha.org/who_we_are/ed-buttrey",
+        "https://www.legmt.gov/legislators/1313",
+        "https://www.linkedin.com/in/ed-buttrey-44492730",
+        "https://www.linkedin.com/in/ed-buttrey-4671ba253",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "boldman-ellie-mt-sd47",
+      "name": "Ellie Boldman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-47)",
+      "state": "MT",
+      "district": "SD-47",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4e6ad74d-1e72-4d2b-ac0d-557f429b3e9a"
+      },
+      "contact": {
+        "email": "ellie.boldman@legmt.gov",
+        "district_voice": "406-218-9608",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6886"
+      },
+      "bio": {
+        "birth_date": "1975-06-30",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ellie_Hill",
+        "https://ballotpedia.org/Ellie_Hill_Smith",
+        "https://en.wikipedia.org/wiki/Ellie_Hill",
+        "https://leg.mt.gov/legislator-information/roster/individual/6886",
+        "https://leg.mt.gov/legislator-information/roster/individual/7479",
+        "https://legislators.legmt.gov/#/legislator/122",
+        "https://www.legmt.gov/legislators/1506",
+        "https://www.linkedin.com/in/ellie-hill-boldman-6954175",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "kerr-carpenter-emma-mt-sd23",
+      "name": "Emma Kerr-Carpenter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-23)",
+      "state": "MT",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86031b2b-034f-4791-8c0e-b0dd4d776eb6"
+      },
+      "contact": {
+        "email": "emma.kc@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5007"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Emma_Kerr-Carpenter",
+        "https://en.wikipedia.org/wiki/Emma_Kerr-Carpenter",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5108",
+        "https://leg.mt.gov/legislator-information/roster/individual/6860",
+        "https://leg.mt.gov/legislator-information/roster/individual/7541",
+        "https://legislators.legmt.gov/#/legislator/34",
+        "https://www.legmt.gov/legislators/1380",
+        "https://www.linkedin.com/in/emma-kerr-carpenter-b701b035",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "albus-eric-mt-hd28",
+      "name": "Eric Albus",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-28)",
+      "state": "MT",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3d8ef86d-689a-40ed-a09d-2f612a7ecf6a"
+      },
+      "contact": {
+        "email": "eric.albus@legmt.gov",
+        "district_voice": "406-648-7494",
+        "website": "https://legislators.legmt.gov/#/legislator/186"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Eric_Albus",
+        "https://legislators.legmt.gov/#/legislator/186",
+        "https://www.legmt.gov/legislators/1293",
+        "https://www.linkedin.com/in/eric-albus-75927613",
+        "https://www.linkedin.com/in/eric-albus-a7252940",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "matthews-eric-mt-hd66",
+      "name": "Eric Matthews",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-66)",
+      "state": "MT",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1cc82ae1-087a-497e-9f01-6a96201815e3"
+      },
+      "contact": {
+        "email": "eric.matthews@legmt.gov",
+        "district_voice": "406-600-1550",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7636"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Eric_Matthews_(Montana)",
+        "https://en.wikipedia.org/wiki/Eric_Matthews_(politician)",
+        "https://leg.mt.gov/legislator-information/roster/individual/7636",
+        "https://legislators.legmt.gov/#/legislator/73",
+        "https://www.legmt.gov/legislators/1401",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "tilleman-eric-mt-hd23",
+      "name": "Eric Tilleman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-23)",
+      "state": "MT",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/02b6c314-f7d8-4573-9747-b5d97d5b3960"
+      },
+      "contact": {
+        "email": "eric.tilleman@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7819"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Eric_Tilleman",
+        "https://en.wikipedia.org/wiki/Eric_Tilleman",
+        "https://leg.mt.gov/legislator-information/roster/individual/7819",
+        "https://legislators.legmt.gov/#/legislator/272",
+        "https://www.legmt.gov/legislators/1455",
+        "https://www.linkedin.com/in/tilleman-eric-41284334",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "nave-fiona-mt-hd56",
+      "name": "Fiona Nave",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-56)",
+      "state": "MT",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e47950ef-92f1-41d1-8f1c-5b579fb80e57"
+      },
+      "contact": {
+        "email": "fiona.nave@legmt.gov",
+        "district_voice": "406-321-4602",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6850"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Fiona_Nave",
+        "https://en.wikipedia.org/wiki/Fiona_Nave",
+        "https://leg.mt.gov/legislator-information/roster/individual/6850",
+        "https://leg.mt.gov/legislator-information/roster/individual/7567",
+        "https://legislators.legmt.gov/#/legislator/47",
+        "https://www.legmt.gov/legislators/1288",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "mandeville-forrest-mt-sd28",
+      "name": "Forrest Mandeville",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-28)",
+      "state": "MT",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/40c484e9-cba9-4fd5-8f99-7bcaf25fc4ac"
+      },
+      "contact": {
+        "email": "forrest.mandeville@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7635"
+      },
+      "bio": {
+        "birth_date": "1984-04-29",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Forrest_Mandeville",
+        "https://en.wikipedia.org/wiki/Forrest_Mandeville",
+        "https://justfacts.votesmart.org/candidate/biography/149244/forrest-mandeville",
+        "https://leg.mt.gov/legislator-information/roster/individual/7635",
+        "https://legislators.legmt.gov/#/legislator/29",
+        "https://www.legmt.gov/legislators/1263",
+        "https://www.linkedin.com/in/forrest-mandeville-aicp-1748793",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-frank-mt-hd31",
+      "name": "Frank Smith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-31)",
+      "state": "MT",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e9b6d4cf-9585-4cc4-8802-598065431e0e"
+      },
+      "contact": {
+        "email": "frank.smith@legmt.gov",
+        "website": "https://archive.legmt.gov/legislator-information/roster/individual/7591"
+      },
+      "bio": {
+        "birth_date": "1942-09-27",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://archive.legmt.gov/legislator-information/roster/individual/7591",
+        "https://ballotpedia.org/Frank_Smith_(Montana)",
+        "https://en.wikipedia.org/wiki/Frank_Smith_(Montana_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/20922/frank-smith",
+        "https://leg.mt.gov/content/sessions/62nd/2011HouseMembers.txt",
+        "https://leg.mt.gov/css/Sessions/62nd/leg_info.asp?HouseID=0&SessionID=105&LAWSID=7879",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5011",
+        "https://leg.mt.gov/legislator-information/roster/individual/6827",
+        "https://leg.mt.gov/legislator-information/roster/individual/7591",
+        "https://legislators.legmt.gov/#/legislator/4",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "parry-gary-mt-hd35",
+      "name": "Gary Parry",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-35)",
+      "state": "MT",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5492c1bb-9eb1-4cf9-a689-0de78812382f"
+      },
+      "contact": {
+        "email": "gary.parry@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7641"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Gary_Parry",
+        "https://en.wikipedia.org/wiki/Gary_Parry",
+        "https://leg.mt.gov/legislator-information/roster/individual/7641",
+        "https://legislators.legmt.gov/#/legislator/66",
+        "https://www.legmt.gov/legislators/1418",
+        "https://www.linkedin.com/in/gary-parry-13013a102",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "lammers-gayle-mt-sd21",
+      "name": "Gayle Lammers",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-21)",
+      "state": "MT",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/29925f97-152a-473e-951e-27d55dba532e"
+      },
+      "contact": {
+        "email": "gayle.lammers@legmt.gov",
+        "district_voice": "406-679-0020",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7810"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://static.wixstatic.com/media/bf4594_51bb3c90d2b140bc9f3286324b5fb6f6~mv2.jpg/v1/crop/x_0,y_0,w_420,h_496,q_80,enc_auto/bf4594_51bb3c90d2b140bc9f3286324b5fb6f6~mv2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gayle_Lammers",
+        "https://en.wikipedia.org/wiki/Gayle_Lammers",
+        "https://leg.mt.gov/legislator-information/roster/individual/7810",
+        "https://legislators.legmt.gov/#/legislator/152",
+        "https://www.legmt.gov/legislators/1478",
+        "https://www.linkedin.com/in/lammers-trading-post-gayle-lammers-47787b8a",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "nikolakakos-george-mt-hd22",
+      "name": "George Nikolakakos",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-22)",
+      "state": "MT",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0602a63c-7e36-4bb5-9a8a-21b7f684ff75"
+      },
+      "contact": {
+        "email": "george.nikolakakos@legmt.gov",
+        "district_voice": "406-823-0363",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7639"
+      },
+      "bio": {
+        "birth_date": "1979-11-24",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/George_Nikolakakos",
+        "https://en.wikipedia.org/wiki/George_Nikolakakos",
+        "https://justfacts.votesmart.org/candidate/biography/203602/george-nikolakakos",
+        "https://leg.mt.gov/legislator-information/roster/individual/7639",
+        "https://legislators.legmt.gov/#/legislator/77",
+        "https://www.georgeforus.com/meet-george.html",
+        "https://www.legmt.gov/legislators/1414",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "hertz-greg-mt-sd7",
+      "name": "Greg Hertz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-7)",
+      "state": "MT",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e085c6ea-bb53-4daf-8a02-5268818158bd"
+      },
+      "contact": {
+        "email": "greg.hertz@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4755"
+      },
+      "bio": {
+        "birth_date": "1957-12-30",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Greg_Hertz",
+        "https://en.wikipedia.org/wiki/Greg_Hertz",
+        "https://justfacts.votesmart.org/candidate/biography/136849/greg-hertz",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5070",
+        "https://leg.mt.gov/legislator-information/roster/individual/6818",
+        "https://leg.mt.gov/legislator-information/roster/individual/7528",
+        "https://legislators.legmt.gov/#/legislator/18",
+        "https://www.legmt.gov/legislators/1472",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "kmetz-greg-mt-hd36",
+      "name": "Greg Kmetz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-36)",
+      "state": "MT",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d5507f4a-a8ab-4249-a9ae-3ea728a6728b"
+      },
+      "contact": {
+        "email": "greg.kmetz@legmt.gov",
+        "district_voice": "406-853-1636",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7633"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Greg_Kmetz",
+        "https://en.wikipedia.org/wiki/Greg_Kmetz",
+        "https://leg.mt.gov/legislator-information/roster/individual/7633",
+        "https://legislators.legmt.gov/#/legislator/79",
+        "https://www.legmt.gov/legislators/1382",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "oblander-greg-mt-hd38",
+      "name": "Greg Oblander",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-38)",
+      "state": "MT",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8641b3dd-3687-4665-a96c-2e406740affc"
+      },
+      "contact": {
+        "email": "greg.oblander@legmt.gov",
+        "district_voice": "406-652-3553",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7640"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Greg_Oblander",
+        "https://en.wikipedia.org/wiki/Greg_Oblander",
+        "https://leg.mt.gov/legislator-information/roster/individual/7640",
+        "https://legislators.legmt.gov/#/legislator/69",
+        "https://www.legmt.gov/legislators/1284",
+        "https://www.linkedin.com/in/gregoryoblander",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "overstreet-greg-mt-hd88",
+      "name": "Greg Overstreet",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-88)",
+      "state": "MT",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/947a4007-eb7a-43c7-9519-8e77fb3a6919"
+      },
+      "contact": {
+        "email": "greg.overstreet@legmt.gov",
+        "district_voice": "406-209-8592",
+        "website": "https://legislators.legmt.gov/#/legislator/202"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Greg_Overstreet",
+        "https://en.wikipedia.org/wiki/Greg_Overstreet",
+        "https://legislators.legmt.gov/#/legislator/202",
+        "https://www.legmt.gov/legislators/1417",
+        "https://www.linkedin.com/in/greg-overstreet-7b2764b",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "hunter-gregg-mt-sd15",
+      "name": "Gregg Hunter",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-15)",
+      "state": "MT",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/419a79a5-8153-4a77-9533-0833b8b57fad"
+      },
+      "contact": {
+        "email": "gregg.hunter@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/154"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Gregg_Hunter",
+        "https://en.wikipedia.org/wiki/Gregg_Hunter",
+        "https://legislators.legmt.gov/#/legislator/154",
+        "https://www.legmt.gov/legislators/1275",
+        "https://www.linkedin.com/in/gregg-hunter-b2983266",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "morigeau-jacinda-mt-sd46",
+      "name": "Jacinda Morigeau",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-46)",
+      "state": "MT",
+      "district": "SD-46",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/06134a1a-df5e-43c6-9622-ca7f946faa88"
+      },
+      "contact": {
+        "email": "jacinda.morigeau@legmt.gov",
+        "district_voice": "406-298-3416",
+        "website": "https://legislators.legmt.gov/#/legislator/239"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://cdn.runforsomething.net/candidates/2024/05/campaign/190178bc3c51a6be225f4f2a711a5814.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jacinda_Morigeau",
+        "https://en.wikipedia.org/wiki/Jacinda_Morigeau",
+        "https://justfacts.votesmart.org/candidate/biography/215711/jacinda-morigeau",
+        "https://legislators.legmt.gov/#/legislator/239",
+        "https://www.legmt.gov/legislators/1505",
+        "https://www.linkedin.com/in/jacinda-morigeau-0b402a198",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "sooktis-jade-mt-hd41",
+      "name": "Jade Sooktis",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-41)",
+      "state": "MT",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/098c3584-23ff-4de0-a002-94955787083b"
+      },
+      "contact": {
+        "email": "jade.sooktis@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/233"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jade_Sooktis",
+        "https://en.wikipedia.org/wiki/Jade_Sooktis",
+        "https://legislators.legmt.gov/#/legislator/233",
+        "https://www.legmt.gov/legislators/1444",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "reavis-james-mt-hd47",
+      "name": "James Reavis",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-47)",
+      "state": "MT",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6fa7b921-7111-45a9-a5f9-1be6cc8ba2ea"
+      },
+      "contact": {
+        "email": "james.reavis@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/175"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/James_Reavis",
+        "https://legislators.legmt.gov/#/legislator/175",
+        "https://www.legmt.gov/legislators/1425",
+        "https://www.linkedin.com/in/james-reavis-3a04962a",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "isaly-jamie-mt-hd58",
+      "name": "Jamie Isaly",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-58)",
+      "state": "MT",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f04b91d7-0281-486a-abce-e96b5b1e5659"
+      },
+      "contact": {
+        "email": "jamie.isaly@legmt.gov",
+        "district_voice": "406-209-2568",
+        "website": "https://legislators.legmt.gov/#/legislator/178"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jamie_Isaly",
+        "https://en.wikipedia.org/wiki/Jamie_Isaly",
+        "https://legislators.legmt.gov/#/legislator/178",
+        "https://www.legmt.gov/legislators/1369",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "gillette-jane-mt-hd77",
+      "name": "Jane Gillette",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-77)",
+      "state": "MT",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/60009e1c-4fef-4511-b59b-02b39b406a1d"
+      },
+      "contact": {
+        "email": "jane.gillette@legmt.gov",
+        "district_voice": "406-868-1549",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6918"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jane_Gillette",
+        "https://en.wikipedia.org/wiki/Jane_Gillette",
+        "https://justfacts.votesmart.org/candidate/campaign-finance/185834/jane-gillette",
+        "https://leg.mt.gov/legislator-information/roster/individual/6918",
+        "https://leg.mt.gov/legislator-information/roster/individual/7517",
+        "https://legislators.legmt.gov/#/legislator/105",
+        "https://www.legmt.gov/legislators/1351",
+        "https://www.linkedin.com/in/jane-gillette-55489a145",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "weber-jane-mt-hd19",
+      "name": "Jane Weber",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-19)",
+      "state": "MT",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/19740d5e-e86e-4099-9121-9e70e6277775"
+      },
+      "contact": {
+        "email": "jane.weber@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/231"
+      },
+      "bio": {
+        "birth_date": "1954-01-21",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jane_Weber",
+        "https://en.wikipedia.org/wiki/Jane_Weber",
+        "https://legislators.legmt.gov/#/legislator/231",
+        "https://www.legmt.gov/legislators/1463",
+        "https://www.linkedin.com/in/jane-weber-aa7311335",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "ellis-janet-mt-sd41",
+      "name": "Janet Ellis",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-41)",
+      "state": "MT",
+      "district": "SD-41",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2062cc82-e160-435d-ab16-c57305a13db4"
+      },
+      "contact": {
+        "email": "janet.ellis@legmt.gov",
+        "website": "https://archive.legmt.gov/legislator-information/roster/individual/7495"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://archive.legmt.gov/legislator-information/roster/individual/7495",
+        "https://archive.legmt.gov/legislator-information/roster/individual/7495.html",
+        "https://ballotpedia.org/Janet_Ellis",
+        "https://en.wikipedia.org/wiki/Janet_Ellis_(politician)",
+        "https://janetellis4mt.com/about-janet",
+        "https://justfacts.votesmart.org/candidate/biography/149262/janet-ellis",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5053",
+        "https://leg.mt.gov/legislator-information/roster/individual/6799",
+        "https://leg.mt.gov/legislator-information/roster/individual/7495",
+        "https://legislators.legmt.gov/#/legislator/24",
+        "https://www.legmt.gov/legislators/1268",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "ellsworth-jason-mt-sd43",
+      "name": "Jason Ellsworth",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-43)",
+      "state": "MT",
+      "district": "SD-43",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f68bf624-cad5-4db2-9c74-a49a33348018"
+      },
+      "contact": {
+        "email": "jason.ellsworth@legmt.gov",
+        "district_voice": "406-360-0009",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5055"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jason_Ellsworth",
+        "https://en.wikipedia.org/wiki/Jason_Ellsworth",
+        "https://justfacts.votesmart.org/candidate/biography/180652/jason-ellsworth",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5055",
+        "https://leg.mt.gov/legislator-information/roster/individual/6816",
+        "https://leg.mt.gov/legislator-information/roster/individual/7496",
+        "https://legislators.legmt.gov/#/legislator/42",
+        "https://www.legmt.gov/legislators/1270",
+        "https://www.linkedin.com/in/jason-ellsworth-b036b915a",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "hinkle-jedediah-mt-hd67",
+      "name": "Jedediah Hinkle",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-67)",
+      "state": "MT",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8274985f-2a84-4d59-a4e4-d1ba9555e64b"
+      },
+      "contact": {
+        "email": "jedediah.hinkle@legmt.gov",
+        "district_voice": "406-992-1686",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4706"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jedediah_Hinkle",
+        "https://en.wikipedia.org/wiki/Jedediah_Hinkle",
+        "https://justfacts.votesmart.org/candidate/biography/120843/jedediah-hinkle",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/roster/individual/6919",
+        "https://leg.mt.gov/legislator-information/roster/individual/7531",
+        "https://legislators.legmt.gov/#/legislator/27",
+        "https://www.legmt.gov/legislators/1364",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "lynch-jennifer-mt-hd73",
+      "name": "Jennifer Lynch",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-73)",
+      "state": "MT",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9da66594-712c-4dee-9ed9-7cff10abc43a"
+      },
+      "contact": {
+        "email": "jennifer.lynch@legmt.gov",
+        "district_voice": "406-491-7523",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7634"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Lynch_(Montana)",
+        "https://en.wikipedia.org/wiki/Jennifer_Lynch_(politician)",
+        "https://leg.mt.gov/legislator-information/roster/individual/7634",
+        "https://legislators.legmt.gov/#/legislator/144",
+        "https://www.legmt.gov/legislators/1395",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "trebas-jeremy-mt-sd10",
+      "name": "Jeremy Trebas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-10)",
+      "state": "MT",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b51a470c-840d-404c-aebe-a7cb47c3edff"
+      },
+      "contact": {
+        "email": "jeremy.trebas@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4847"
+      },
+      "bio": {
+        "birth_date": "1984-06-03",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jeremy_Trebas",
+        "https://en.wikipedia.org/wiki/Jeremy_Trebas",
+        "https://justfacts.votesmart.org/candidate/biography/149229/jeremy-trebas",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/roster/individual/6904",
+        "https://leg.mt.gov/legislator-information/roster/individual/7601",
+        "https://legislators.legmt.gov/#/legislator/28",
+        "https://www.legmt.gov/legislators/1254",
+        "https://www.linkedin.com/in/jeremy-trebas-0a999612",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "schillinger-jerry-mt-hd34",
+      "name": "Jerry Schillinger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-34)",
+      "state": "MT",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d6bca004-d3ef-4015-9c88-b4d536110436"
+      },
+      "contact": {
+        "email": "jerry.schillinger@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6907"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jerry_Schillinger",
+        "https://en.wikipedia.org/wiki/Jerry_Schillinger",
+        "https://justfacts.votesmart.org/candidate/biography/180641/jerry-schillinger",
+        "https://leg.mt.gov/legislator-information/roster/individual/6907",
+        "https://leg.mt.gov/legislator-information/roster/individual/7587",
+        "https://legislators.legmt.gov/#/legislator/63",
+        "https://www.legmt.gov/legislators/1283",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "cohenour-jill-mt-hd83",
+      "name": "Jill Cohenour",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-83)",
+      "state": "MT",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/51c3b0b8-ee51-48bb-8b83-b50ea6f670ec"
+      },
+      "contact": {
+        "email": "jill.cohenour@legmt.gov",
+        "district_voice": "406-431-0912",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4703"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jill_Cohenour",
+        "https://en.wikipedia.org/wiki/Jill_Cohenour",
+        "https://justfacts.votesmart.org/candidate/biography/40669/jill-cohenour",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5054",
+        "https://leg.mt.gov/legislator-information/roster/individual/6800",
+        "https://leg.mt.gov/legislator-information/roster/individual/7488",
+        "https://legislators.legmt.gov/#/legislator/6",
+        "https://www.legmt.gov/legislators/1320",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "etchart-jodee-mt-hd51",
+      "name": "Jodee Etchart",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-51)",
+      "state": "MT",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b0d78104-aa08-4d01-9b7e-25d9aa422806"
+      },
+      "contact": {
+        "email": "jodee.etchart@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7625"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jodee_Etchart",
+        "https://en.wikipedia.org/wiki/Jodee_Etchart",
+        "https://leg.mt.gov/legislator-information/roster/individual/7625",
+        "https://legislators.legmt.gov/#/legislator/143",
+        "https://www.legmt.gov/legislators/1286",
+        "https://www.linkedin.com/in/jodee-e-7351b957",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "esp-john-mt-sd29",
+      "name": "John Esp",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-29)",
+      "state": "MT",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a936c9c8-0a8d-4bcf-8da0-1a9b9ac80ab2"
+      },
+      "contact": {
+        "email": "john.esp@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5049"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/John_Esp",
+        "https://en.wikipedia.org/wiki/John_Esp",
+        "https://justfacts.votesmart.org/candidate/biography/40362/john-esp",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5049",
+        "https://leg.mt.gov/legislator-information/roster/individual/6814",
+        "https://leg.mt.gov/legislator-information/roster/individual/7498",
+        "https://legislators.legmt.gov/#/legislator/87",
+        "https://www.legmt.gov/legislators/1264",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "fitzpatrick-john-mt-hd76",
+      "name": "John Fitzpatrick",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-76)",
+      "state": "MT",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bcfec03b-c046-4af3-9653-a8e5e4fa97b6"
+      },
+      "contact": {
+        "email": "john.fitzpatrick@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7627"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/John_Fitzpatrick_(Montana)",
+        "https://en.wikipedia.org/wiki/John_Fitzpatrick_(American_politician)",
+        "https://leg.mt.gov/legislator-information/roster/individual/7627",
+        "https://legislators.legmt.gov/#/legislator/148",
+        "https://www.legmt.gov/legislators/1341",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "fuller-john-mt-sd4",
+      "name": "John Fuller",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-4)",
+      "state": "MT",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/54fe073e-e061-43aa-9299-42fe869102d0"
+      },
+      "contact": {
+        "email": "john.fuller@legmt.gov",
+        "website": "https://archive.legmt.gov/legislator-information/roster/individual/7513"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://archive.legmt.gov/legislator-information/roster/individual/7513",
+        "https://ballotpedia.org/John_Fuller_(Montana)",
+        "https://en.wikipedia.org/wiki/John_Fuller_(Montana_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/40361/john-fuller",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5066",
+        "https://leg.mt.gov/legislator-information/roster/individual/6833",
+        "https://leg.mt.gov/legislator-information/roster/individual/7513",
+        "https://legislators.legmt.gov/#/legislator/44",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "karlen-jonathan-mt-hd98",
+      "name": "Jonathan Karlen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-98)",
+      "state": "MT",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5692ad8b-7258-409d-bbf3-63d6748e8b68"
+      },
+      "contact": {
+        "email": "jonathan.karlen@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7631"
+      },
+      "bio": {
+        "birth_date": "1999-08-27",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Karlen",
+        "https://en.wikipedia.org/wiki/Jonathan_Karlen",
+        "https://leg.mt.gov/legislator-information/roster/individual/7631",
+        "https://legislators.legmt.gov/#/legislator/84",
+        "https://www.legmt.gov/legislators/1375",
+        "https://www.linkedin.com/in/jonathan-karlen",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "windy-boy-jonathan-mt-sd16",
+      "name": "Jonathan Windy Boy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-16)",
+      "state": "MT",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aad657b3-2d8f-48cf-99b3-650ccddf258b"
+      },
+      "contact": {
+        "email": "jonathan.windyboy@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4774"
+      },
+      "bio": {
+        "birth_date": "1958-08-28",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Windy_Boy",
+        "https://en.wikipedia.org/wiki/Jonathan_Windy_Boy",
+        "https://justfacts.votesmart.org/candidate/biography/40464/jonathan-windy-boy",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5091",
+        "https://leg.mt.gov/legislator-information/roster/individual/6857",
+        "https://leg.mt.gov/legislator-information/roster/individual/7612",
+        "https://legislators.legmt.gov/#/legislator/118",
+        "https://www.legmt.gov/legislators/1475",
+        "https://www.linkedin.com/in/state-rep-jonathan-windy-boy-3444ab5b",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "seckinger-josh-mt-hd62",
+      "name": "Josh Seckinger",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-62)",
+      "state": "MT",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e395ea05-2482-4149-bda3-d553d4ec14d3"
+      },
+      "contact": {
+        "email": "joshua.seckinger@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/197"
+      },
+      "bio": {
+        "birth_date": "1989-10-09",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/May262020913AM_80182230_B56A0395.jpg",
+      "sources": [
+        "https://ballotpedia.org/Josh_Seckinger",
+        "https://justfacts.votesmart.org/candidate/biography/190693/josh-seckinger",
+        "https://legislators.legmt.gov/#/legislator/197",
+        "https://www.legmt.gov/legislators/1438",
+        "https://www.linkedin.com/in/josh-seckinger-844a7463",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "kassmier-josh-mt-sd13",
+      "name": "Josh Kassmier",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-13)",
+      "state": "MT",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/92191849-ad4d-479b-9168-582773a9f6bb"
+      },
+      "contact": {
+        "email": "josh.kassmier@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5086"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Joshua_Kassmier",
+        "https://en.wikipedia.org/wiki/Joshua_Kassmier",
+        "https://justfacts.votesmart.org/candidate/biography/180687/joshua-kassmier",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5086",
+        "https://leg.mt.gov/legislator-information/roster/individual/6838",
+        "https://leg.mt.gov/legislator-information/roster/individual/7536",
+        "https://legislators.legmt.gov/#/legislator/135",
+        "https://www.legmt.gov/legislators/1274",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "darling-julie-mt-hd84",
+      "name": "Julie Darling",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-84)",
+      "state": "MT",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7f228ad4-2fec-4ec3-8ae9-18cef8e8969a"
+      },
+      "contact": {
+        "email": "julie.darling@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5129"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Julie_Dooling",
+        "https://en.wikipedia.org/wiki/Julie_Dooling",
+        "https://justfacts.votesmart.org/candidate/biography/180731/julie-dooling",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5129",
+        "https://leg.mt.gov/legislator-information/roster/individual/6852",
+        "https://leg.mt.gov/legislator-information/roster/individual/7492",
+        "https://legislators.legmt.gov/#/legislator/38",
+        "https://www.legmt.gov/legislators/1330",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "love-kathy-mt-hd85",
+      "name": "Kathy Love",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-85)",
+      "state": "MT",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/66924fc4-cbd4-42c5-bdda-2348131b4518"
+      },
+      "contact": {
+        "email": "kathy.love@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/199"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kathy_Love",
+        "https://legislators.legmt.gov/#/legislator/199",
+        "https://www.legmt.gov/legislators/1394",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "fire-thunder-katie-mt-hd59",
+      "name": "Katie Fire Thunder",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-59)",
+      "state": "MT",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dabda7b3-b4b9-485d-aabd-9ceab215232b"
+      },
+      "contact": {
+        "email": "katie.firethunder@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/1841"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://bloximages.chicago2.vip.townnews.com/bozemandailychronicle.com/content/tncms/assets/v3/editorial/8/92/892e4c6d-1520-4244-b414-6a86e405c9bc/696545afef0c7.image.jpg?resize=333%2C500",
+      "sources": [
+        "https://ballotpedia.org/Katie_Fire_Thunder",
+        "https://en.wikipedia.org/wiki/Katie_Fire_Thunder",
+        "https://legislators.legmt.gov/#/legislator/1841",
+        "https://www.linkedin.com/in/katie-fire-thunder-b595ab202",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "sullivan-katie-mt-hd93",
+      "name": "Katie Sullivan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-93)",
+      "state": "MT",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c76a4d75-0213-4a09-8426-315007fe7290"
+      },
+      "contact": {
+        "email": "katie.sullivan@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5148"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Katie_Sullivan",
+        "https://en.wikipedia.org/wiki/Katie_Sullivan_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/180753/katie-sullivan",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5148",
+        "https://leg.mt.gov/legislator-information/roster/individual/6874",
+        "https://leg.mt.gov/legislator-information/roster/individual/7598",
+        "https://legislators.legmt.gov/#/legislator/53",
+        "https://www.legmt.gov/legislators/1451",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "zolnikov-katie-mt-hd44",
+      "name": "Katie Zolnikov",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-44)",
+      "state": "MT",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e48939a-8455-4a22-b545-7a908f2b9462"
+      },
+      "contact": {
+        "email": "katie.zolnikov@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6337"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Katie_Zolnikov",
+        "https://en.wikipedia.org/wiki/Katie_Zolnikov",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/6846",
+        "https://leg.mt.gov/legislator-information/roster/individual/7616",
+        "https://legislators.legmt.gov/#/legislator/57",
+        "https://www.legmt.gov/legislators/1285",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "kortum-kelly-mt-hd64",
+      "name": "Kelly Kortum",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-64)",
+      "state": "MT",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ef4c6827-f405-491c-a349-d1ede87549c1"
+      },
+      "contact": {
+        "email": "kelly.kortum@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6864"
+      },
+      "bio": {
+        "birth_date": "1985-02-23",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kelly_Kortum",
+        "https://en.wikipedia.org/wiki/Kelly_Kortum",
+        "https://justfacts.votesmart.org/candidate/biography/190695/kelly-kortum",
+        "https://leg.mt.gov/legislator-information/roster/individual/6864",
+        "https://leg.mt.gov/legislator-information/roster/individual/7545",
+        "https://legislators.legmt.gov/#/legislator/60",
+        "https://www.legmt.gov/legislators/1384",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "bogner-ken-mt-sd18",
+      "name": "Ken Bogner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-18)",
+      "state": "MT",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ea9c7cc2-da2d-430e-a997-824818295244"
+      },
+      "contact": {
+        "email": "kenneth.bogner@legmt.gov",
+        "district_voice": "406-916-9690",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5043"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kenneth_Bogner",
+        "https://en.wikipedia.org/wiki/Kenneth_Bogner",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5043",
+        "https://leg.mt.gov/legislator-information/roster/individual/6809",
+        "https://leg.mt.gov/legislator-information/roster/individual/7478",
+        "https://legislators.legmt.gov/#/legislator/48",
+        "https://www.legmt.gov/legislators/1258",
+        "https://www.linkedin.com/in/kennethbogner",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "walsh-ken-mt-hd69",
+      "name": "Ken Walsh",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-69)",
+      "state": "MT",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/89cfc24f-851d-46c8-ad39-9cc888a437a5"
+      },
+      "contact": {
+        "email": "kenneth.walsh@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6921"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kenneth_Walsh",
+        "https://en.wikipedia.org/wiki/Kenneth_Walsh_(politician)",
+        "https://leg.mt.gov/legislator-information/roster/individual/6921",
+        "https://leg.mt.gov/legislator-information/roster/individual/7607",
+        "https://legislators.legmt.gov/#/legislator/68",
+        "https://www.legmt.gov/legislators/1289",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "seekins-crowe-kerri-mt-hd39",
+      "name": "Kerri Seekins-Crowe",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-39)",
+      "state": "MT",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3f7c50cf-76f5-4948-9777-c4801fd63fdf"
+      },
+      "contact": {
+        "email": "kerri.seekins-crowe@legmt.gov",
+        "district_voice": "406-208-6587",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6909"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kerri_Seekins-Crowe",
+        "https://en.wikipedia.org/wiki/Kerri_Seekins-Crowe",
+        "https://justfacts.votesmart.org/candidate/biography/168510/kerri-seekins-crowe",
+        "https://leg.mt.gov/legislator-information/roster/individual/6909",
+        "https://leg.mt.gov/legislator-information/roster/individual/7588",
+        "https://legislators.legmt.gov/#/legislator/103",
+        "https://www.legmt.gov/legislators/1439",
+        "https://www.linkedin.com/in/kerri-crowe",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "brewster-larry-mt-hd43",
+      "name": "Larry Brewster",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-43)",
+      "state": "MT",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/18659b1f-64e3-4f2d-88d8-972821b26500"
+      },
+      "contact": {
+        "email": "larry.brewster@legmt.gov",
+        "district_voice": "406-670-0929",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6336"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Larry_Brewster",
+        "https://en.wikipedia.org/wiki/Larry_Brewster",
+        "https://justfacts.votesmart.org/candidate/biography/111852/larry-brewster",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/6910",
+        "https://leg.mt.gov/legislator-information/roster/individual/7480",
+        "https://legislators.legmt.gov/#/legislator/43",
+        "https://www.legmt.gov/legislators/1310",
+        "https://www.linkedin.com/in/larry-brewster-36950030",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-laura-mt-sd40",
+      "name": "Laura Smith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-40)",
+      "state": "MT",
+      "district": "SD-40",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/51492780-1440-4625-b487-63640ee2b11d"
+      },
+      "contact": {
+        "email": "laura.smith@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7644"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Laura_Smith_(Montana)",
+        "https://en.wikipedia.org/wiki/Laura_Smith_(American_politician)",
+        "https://leg.mt.gov/legislator-information/roster/individual/7644",
+        "https://legislators.legmt.gov/#/legislator/145",
+        "https://www.legmt.gov/legislators/1499",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "deming-lee-mt-hd54",
+      "name": "Lee Deming",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-54)",
+      "state": "MT",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/06d3f385-e129-46a1-b8a3-88d1b5efa2c8"
+      },
+      "contact": {
+        "email": "lee.deming@legmt.gov",
+        "district_voice": "406-671-2508",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7623"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Lee_Deming",
+        "https://en.wikipedia.org/wiki/Lee_Deming",
+        "https://leg.mt.gov/legislator-information/roster/individual/7623",
+        "https://legislators.legmt.gov/#/legislator/71",
+        "https://www.legmt.gov/legislators/1287",
+        "https://www.linkedin.com/in/lee-deming-953545a5",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "reksten-linda-mt-hd13",
+      "name": "Linda Reksten",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-13)",
+      "state": "MT",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7e2b7b5b-0e72-4dac-ab5d-cc44450aeb95"
+      },
+      "contact": {
+        "email": "linda.reksten@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6894"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Linda_Reksten",
+        "https://en.wikipedia.org/wiki/Linda_Reksten",
+        "https://leg.mt.gov/legislator-information/roster/individual/6894",
+        "https://leg.mt.gov/legislator-information/roster/individual/7581",
+        "https://legislators.legmt.gov/#/legislator/50",
+        "https://www.legmt.gov/legislators/1427",
+        "https://www.linkedin.com/in/linda-reksten-2478b364",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-llew-mt-hd18",
+      "name": "Llew Jones",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-18)",
+      "state": "MT",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ed3e498d-5160-4f6a-8580-ee2a4d877b5d"
+      },
+      "contact": {
+        "email": "llew.jones@legmt.gov",
+        "district_voice": "406-271-3104",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5076"
+      },
+      "bio": {
+        "birth_date": "1962-12-02",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Llew_Jones",
+        "https://en.wikipedia.org/wiki/Llew_Jones",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5076",
+        "https://leg.mt.gov/legislator-information/roster/individual/6837",
+        "https://leg.mt.gov/legislator-information/roster/individual/7534",
+        "https://legislators.legmt.gov/#/legislator/119",
+        "https://www.legmt.gov/legislators/1373",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "schubert-lukas-mt-hd8",
+      "name": "Lukas Schubert",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-8)",
+      "state": "MT",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/14a4fd05-5a3c-444e-82dc-5216deb9cd62"
+      },
+      "contact": {
+        "email": "lukas.schubert@legmt.gov",
+        "district_voice": "406-609-6099",
+        "website": "https://legislators.legmt.gov/#/legislator/174"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Lukas_Schubert",
+        "https://en.wikipedia.org/wiki/Lukas_Schubert_(politician)",
+        "https://legislators.legmt.gov/#/legislator/174",
+        "https://www.legmt.gov/legislators/1436",
+        "https://www.linkedin.com/in/lukasschubert",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "muszkiewicz-luke-mt-hd79",
+      "name": "Luke Muszkiewicz",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-79)",
+      "state": "MT",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b86dc3b3-7ea1-4fee-a11c-151130205f55"
+      },
+      "contact": {
+        "email": "luke.muszkiewicz@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/176"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Luke_Muszkiewicz",
+        "https://legislators.legmt.gov/#/legislator/176",
+        "https://muszkiewicz.com",
+        "https://www.legmt.gov/legislators/1410",
+        "https://www.linkedin.com/in/lmuszkie",
+        "https://www.lukeformontana.org",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "bennett-lyn-mt-hd4",
+      "name": "Lyn Bennett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-4)",
+      "state": "MT",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1d41145c-d88e-4976-b994-7781e8a6b777"
+      },
+      "contact": {
+        "email": "lyn.bennett@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/230"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Lyn_Bennett",
+        "https://en.wikipedia.org/wiki/Lyn_Bennett",
+        "https://legislators.legmt.gov/#/legislator/230",
+        "https://www.legmt.gov/legislators/1306",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "lee-marc-mt-hd74",
+      "name": "Marc Lee",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-74)",
+      "state": "MT",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/929408f9-eade-45b3-bb06-06da68b8e36d"
+      },
+      "contact": {
+        "email": "marc.lee@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/179"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Marc_Lee",
+        "https://legislators.legmt.gov/#/legislator/179",
+        "https://www.legmt.gov/legislators/1390",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "marler-marilyn-mt-hd94",
+      "name": "Marilyn Marler",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-94)",
+      "state": "MT",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e223fb67-4ad0-4f12-aa95-f0b8567d84c1"
+      },
+      "contact": {
+        "email": "marilyn.marler@legmt.gov",
+        "district_voice": "406-544-7189",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5149"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Marilyn_Marler",
+        "https://en.wikipedia.org/wiki/Marilyn_Marler",
+        "https://justfacts.votesmart.org/candidate/biography/74426/marilyn-marler",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5149",
+        "https://leg.mt.gov/legislator-information/roster/individual/6875",
+        "https://leg.mt.gov/legislator-information/roster/individual/7555",
+        "https://legislators.legmt.gov/#/legislator/100",
+        "https://www.legmt.gov/legislators/1399",
+        "https://www.linkedin.com/in/marilyn-marler-8a52b634",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "noland-mark-mt-sd6",
+      "name": "Mark Noland",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-6)",
+      "state": "MT",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9fe046dc-4a09-4f3a-8054-97718b4dc017"
+      },
+      "contact": {
+        "email": "mark.noland@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4753"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mark_Noland",
+        "https://en.wikipedia.org/wiki/Mark_Noland",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5068",
+        "https://leg.mt.gov/legislator-information/roster/individual/6893",
+        "https://leg.mt.gov/legislator-information/roster/individual/7570",
+        "https://legislators.legmt.gov/#/legislator/17",
+        "https://www.legmt.gov/legislators/1251",
+        "https://www.linkedin.com/in/mark-noland-b06bb295",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "reinschmidt-mark-mt-hd75",
+      "name": "Mark Reinschmidt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-75)",
+      "state": "MT",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d8ff9a89-7988-4c31-9548-cc968eea3b35"
+      },
+      "contact": {
+        "email": "mark.reinschmidt@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/1829"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.whitehallledger.com/IMG/GgZmsn7rWaScoesaeXeK1AhXw0Fk0/XPATH/home/cms_data/dfault/photos/stories/id/8/2/9982/s_bottomXEXT1570x35634is.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Reinschmidt",
+        "https://legislators.legmt.gov/#/legislator/1829",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "thane-mark-mt-hd89",
+      "name": "Mark Thane",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-89)",
+      "state": "MT",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/64bf2cec-e248-4708-9462-1c3a971ad653"
+      },
+      "contact": {
+        "email": "mark.thane@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6880"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mark_Thane",
+        "https://en.wikipedia.org/wiki/Mark_Thane",
+        "https://justfacts.votesmart.org/candidate/190740/mark-thane",
+        "https://leg.mt.gov/legislator-information/roster/individual/6880",
+        "https://leg.mt.gov/legislator-information/roster/individual/7600",
+        "https://legislators.legmt.gov/#/legislator/72",
+        "https://www.legmt.gov/legislators/1454",
+        "https://www.linkedin.com/in/mark-thane-0295aa37",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "dunwell-mary-ann-mt-sd42",
+      "name": "Mary Ann Dunwell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-42)",
+      "state": "MT",
+      "district": "SD-42",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3e82bb94-a815-40d2-b125-b9884517b1c3"
+      },
+      "contact": {
+        "email": "maryann.dunwell@legmt.gov",
+        "district_voice": "406-461-5358",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4826"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mary_Ann_Dunwell",
+        "https://en.wikipedia.org/wiki/Mary_Ann_Dunwell",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5143",
+        "https://leg.mt.gov/legislator-information/roster/individual/6873",
+        "https://leg.mt.gov/legislator-information/roster/individual/7493",
+        "https://legislators.legmt.gov/#/legislator/22",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "caferro-mary-mt-hd81",
+      "name": "Mary Caferro",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-81)",
+      "state": "MT",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c2eda1fb-6dc5-4326-a4b5-a295f26ee399"
+      },
+      "contact": {
+        "email": "mary.caferro@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5140"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mary_Caferro",
+        "https://en.wikipedia.org/wiki/Mary_Caferro",
+        "https://justfacts.votesmart.org/candidate/biography/40429/mary-caferro",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5140",
+        "https://leg.mt.gov/legislator-information/roster/individual/6870",
+        "https://leg.mt.gov/legislator-information/roster/individual/7485",
+        "https://legislators.legmt.gov/#/legislator/10",
+        "https://www.legmt.gov/legislators/1315",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "regier-matt-mt-sd5",
+      "name": "Matt Regier",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-5)",
+      "state": "MT",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/109f7bbf-905d-418c-b8e2-11705af0a5fb"
+      },
+      "contact": {
+        "email": "matt.regier@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4747"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Matt_Regier",
+        "https://en.wikipedia.org/wiki/Matt_Regier",
+        "https://justfacts.votesmart.org/candidate/biography/168448/matt-regier",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5062",
+        "https://leg.mt.gov/legislator-information/roster/individual/6832",
+        "https://leg.mt.gov/legislator-information/roster/individual/7580",
+        "https://legislators.legmt.gov/#/legislator/33",
+        "https://www.legmt.gov/legislators/1471",
+        "https://www.linkedin.com/in/matt-regier-571b2320",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "nikolakakos-melissa-mt-hd20",
+      "name": "Melissa Nikolakakos",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-20)",
+      "state": "MT",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0d5c67d4-7a66-40f3-8dbd-0136155955d2"
+      },
+      "contact": {
+        "email": "melissa.nikolakakos@legmt.gov",
+        "district_voice": "406-223-2380",
+        "website": "https://legislators.legmt.gov/#/legislator/180"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Melissa_Nikolakakos",
+        "https://en.wikipedia.org/wiki/Melissa_Nikolakakos",
+        "https://justfacts.votesmart.org/candidate/biography/215664/melissa-nikolakakos",
+        "https://legislators.legmt.gov/#/legislator/180",
+        "https://www.legmt.gov/legislators/1413",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "romano-melissa-mt-hd80",
+      "name": "Melissa Romano",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-80)",
+      "state": "MT",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/81f1ba67-a22c-4bdb-89b2-3351d7e1263d"
+      },
+      "contact": {
+        "email": "melissa.romano@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7642"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Melissa_Romano",
+        "https://en.wikipedia.org/wiki/Melissa_Romano",
+        "https://leg.mt.gov/legislator-information/roster/individual/7642",
+        "https://legislators.legmt.gov/#/legislator/116",
+        "https://www.legmt.gov/legislators/1429",
+        "https://www.linkedin.com/in/melissa-romano-b79a1579",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "cunningham-melody-mt-hd97",
+      "name": "Melody Cunningham",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-97)",
+      "state": "MT",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7bfc5a9c-40aa-4698-907c-578c772aef43"
+      },
+      "contact": {
+        "email": "melody.cunningham@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/240"
+      },
+      "bio": {
+        "birth_date": "1958-10-30",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/mcunningham.JPG",
+      "sources": [
+        "https://ballotpedia.org/Melody_Cunningham",
+        "https://justfacts.votesmart.org/candidate/biography/215310/melody-cunningham",
+        "https://legislators.legmt.gov/#/legislator/240",
+        "https://www.legmt.gov/legislators/1325",
+        "https://www.linkedin.com/in/melody-cunningham-91272b2b5",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "cuffe-mike-mt-sd1",
+      "name": "Mike Cuffe",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-1)",
+      "state": "MT",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/54c93c1b-968f-4b39-a17f-26ebcb266f69"
+      },
+      "contact": {
+        "email": "mike.cuffe@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5034"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mike_Cuffe",
+        "https://en.wikipedia.org/wiki/Mike_Cuffe",
+        "https://justfacts.votesmart.org/candidate/biography/120755/mike-cuffe",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5034",
+        "https://leg.mt.gov/legislator-information/roster/individual/6803",
+        "https://leg.mt.gov/legislator-information/roster/individual/7489",
+        "https://legislators.legmt.gov/#/legislator/88",
+        "https://www.legmt.gov/legislators/1249",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "fox-mike-mt-hd32",
+      "name": "Mike Fox",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-32)",
+      "state": "MT",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ef77e3ee-eec4-4274-ae22-7b1074227740"
+      },
+      "contact": {
+        "email": "michael.fox@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6817"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mike_Fox",
+        "https://en.wikipedia.org/wiki/Mike_Fox_(politician)",
+        "https://leg.mt.gov/legislator-information/roster/individual/6817",
+        "https://leg.mt.gov/legislator-information/roster/individual/7509",
+        "https://legislators.legmt.gov/#/legislator/136",
+        "https://www.legmt.gov/legislators/1344",
+        "https://www.linkedin.com/in/mike-fox-28b98b28",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "vinton-mike-mt-hd40",
+      "name": "Mike Vinton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-40)",
+      "state": "MT",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f04a0d34-6c7b-4d78-8215-d430eeff5fee"
+      },
+      "contact": {
+        "email": "mike.vinton@legmt.gov",
+        "district_voice": "406-855-3345",
+        "website": "https://legislators.legmt.gov/#/legislator/181"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mike_Vinton",
+        "https://justfacts.votesmart.org/candidate/biography/215591/mike-vinton",
+        "https://legislators.legmt.gov/#/legislator/181",
+        "https://www.legmt.gov/legislators/1461",
+        "https://www.linkedin.com/in/mike-vinton-279b6535",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "yakawich-mike-mt-sd24",
+      "name": "Mike Yakawich",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-24)",
+      "state": "MT",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3b95ca27-a496-4781-8fda-7d98db846f50"
+      },
+      "contact": {
+        "email": "mike.yakawich@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7650"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mike_Yakawich",
+        "https://en.wikipedia.org/wiki/Mike_Yakawich",
+        "https://justfacts.votesmart.org/candidate/147028/mike-yakawich",
+        "https://leg.mt.gov/legislator-information/roster/individual/7650",
+        "https://legislators.legmt.gov/#/legislator/110",
+        "https://www.legmt.gov/legislators/1481",
+        "https://www.linkedin.com/in/michael-yakawich-46961676",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "thiel-morgan-mt-hd30",
+      "name": "Morgan Thiel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-30)",
+      "state": "MT",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/181afb1f-2892-49da-bcd0-b7bc0da57b5a"
+      },
+      "contact": {
+        "email": "morgan.thiel@legmt.gov",
+        "district_voice": "406-480-6271",
+        "website": "https://legislators.legmt.gov/#/legislator/157"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.roundupweb.com/IMG/CW6HaGsPAQMKLKOUSxVmirLDbYqbX/XPATH/home/cms_data/dfault/photos/stories/id/0/1/20401/s_topXEXT1385x31824is.jpg",
+      "sources": [
+        "https://ballotpedia.org/Morgan_Thiel",
+        "https://justfacts.votesmart.org/candidate/biography/215641/morgan-thiel",
+        "https://legislators.legmt.gov/#/legislator/157",
+        "https://www.legmt.gov/legislators/1281",
+        "https://www.linkedin.com/in/morgan-thiel-504373135",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "duram-neil-mt-hd1",
+      "name": "Neil Duram",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-1)",
+      "state": "MT",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/51f462fa-2f25-40cf-a73f-3d9d60ea8936"
+      },
+      "contact": {
+        "email": "neil.duram@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5060"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Neil_Duram",
+        "https://en.wikipedia.org/wiki/Neil_Duram",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5060",
+        "https://leg.mt.gov/legislator-information/roster/individual/6889",
+        "https://leg.mt.gov/legislator-information/roster/individual/7494",
+        "https://legislators.legmt.gov/#/legislator/96",
+        "https://www.legmt.gov/legislators/1331",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "nicol-nelly-mt-hd53",
+      "name": "Nelly Nicol",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-53)",
+      "state": "MT",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e3347d94-a591-4c55-98fe-910536a94b2c"
+      },
+      "contact": {
+        "email": "nelly.nicol@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7638"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Nelly_Nicol",
+        "https://en.wikipedia.org/wiki/Nelly_Nicol",
+        "https://justfacts.votesmart.org/candidate/biography/189818/nelly-nicol",
+        "https://leg.mt.gov/legislator-information/roster/individual/7638",
+        "https://legislators.legmt.gov/#/legislator/112",
+        "https://www.legmt.gov/legislators/1412",
+        "https://www.linkedin.com/in/nellynicol",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "flowers-pat-mt-sd31",
+      "name": "Pat Flowers",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-31)",
+      "state": "MT",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4877fdac-4a93-4654-ad03-1b3038145c69"
+      },
+      "contact": {
+        "email": "pat.flowers@legmt.gov",
+        "district_voice": "406-580-0035",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5050"
+      },
+      "bio": {
+        "birth_date": "1956-03-02",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Pat_Flowers",
+        "https://en.wikipedia.org/wiki/Pat_Flowers_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/180648/pat-flowers",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5050",
+        "https://leg.mt.gov/legislator-information/roster/individual/6797",
+        "https://leg.mt.gov/legislator-information/roster/individual/7508",
+        "https://legislators.legmt.gov/#/legislator/101",
+        "https://www.legmt.gov/legislators/1265",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "fielder-paul-mt-hd14",
+      "name": "Paul Fielder",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-14)",
+      "state": "MT",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a379258c-d227-4861-998b-15bb543886e2"
+      },
+      "contact": {
+        "email": "paul.fielder@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6895"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Paul_Fielder",
+        "https://en.wikipedia.org/wiki/Paul_Fielder",
+        "https://leg.mt.gov/legislator-information/roster/individual/6895",
+        "https://leg.mt.gov/legislator-information/roster/individual/7503",
+        "https://legislators.legmt.gov/#/legislator/61",
+        "https://www.legmt.gov/legislators/1338",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "tuss-paul-mt-hd27",
+      "name": "Paul Tuss",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-27)",
+      "state": "MT",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d9cab5d-56c1-4262-9063-052b13b7d0c2"
+      },
+      "contact": {
+        "email": "paul.tuss@legmt.gov",
+        "district_voice": "406-945-0412",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7647"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Paul_Tuss",
+        "https://en.wikipedia.org/wiki/Paul_Tuss",
+        "https://leg.mt.gov/legislator-information/roster/individual/7647",
+        "https://legislators.legmt.gov/#/legislator/115",
+        "https://www.legmt.gov/legislators/1458",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "elverum-pete-mt-hd82",
+      "name": "Pete Elverum",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-82)",
+      "state": "MT",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/12136664-4944-4228-94c7-2e3a89308938"
+      },
+      "contact": {
+        "email": "pete.elverum@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/223"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Pete_Elverum",
+        "https://legislators.legmt.gov/#/legislator/223",
+        "https://www.legmt.gov/legislators/1333",
+        "https://www.linkedin.com/in/peter-elverum-394aaa71",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "strand-peter-mt-hd63",
+      "name": "Peter Strand",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-63)",
+      "state": "MT",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/15741bd0-a194-4a29-9339-d088add2e6b8"
+      },
+      "contact": {
+        "email": "peter.strand@legmt.gov",
+        "district_voice": "406-579-5130",
+        "website": "https://legislators.legmt.gov/#/legislator/184"
+      },
+      "bio": {
+        "birth_date": "1964-06-07",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/pstrand.jpg",
+      "sources": [
+        "https://ballotpedia.org/Peter_Strand_(Montana)",
+        "https://en.wikipedia.org/wiki/Peter_Strand",
+        "https://justfacts.votesmart.org/candidate/biography/215444/peter-strand",
+        "https://legislators.legmt.gov/#/legislator/184",
+        "https://www.legmt.gov/legislators/1450",
+        "https://www.linkedin.com/in/peter-strand-b92117b1",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "gregg-randyn-mt-hd78",
+      "name": "Randyn Gregg",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-78)",
+      "state": "MT",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/55023d46-1fcc-4df9-9b29-6b9f2e9e7a4d"
+      },
+      "contact": {
+        "email": "randyn.gregg@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/227"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/rgregg.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Randyn_Gregg",
+        "https://en.wikipedia.org/wiki/Randyn_Gregg",
+        "https://justfacts.votesmart.org/candidate/biography/203605/randyn-gregg",
+        "https://legislators.legmt.gov/#/legislator/227",
+        "https://www.legmt.gov/legislators/1355",
+        "https://www.linkedin.com/in/randyn-g-996220179",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "miner-russ-mt-hd26",
+      "name": "Russ Miner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-26)",
+      "state": "MT",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2c714bfa-23c8-496d-a0ad-718b806db836"
+      },
+      "contact": {
+        "email": "russel.miner@legmt.gov",
+        "district_voice": "406-899-4514",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7637"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Russ_Miner",
+        "https://en.wikipedia.org/wiki/Russ_Miner",
+        "https://leg.mt.gov/legislator-information/roster/individual/7637",
+        "https://legislators.legmt.gov/#/legislator/111",
+        "https://russminer.com/about-russ",
+        "https://www.legmt.gov/legislators/1279",
+        "https://www.linkedin.com/in/russ-miner-b8542486",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "tempel-russel-mt-sd14",
+      "name": "Russel Tempel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-14)",
+      "state": "MT",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8a8a229e-b35e-4fea-a4a9-114cc9f7488e"
+      },
+      "contact": {
+        "email": "russ.tempel@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4848"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Russel_Tempel",
+        "https://en.wikipedia.org/wiki/Russel_Tempel",
+        "https://justfacts.votesmart.org/candidate/biography/90103/russel-tempel",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5042",
+        "https://leg.mt.gov/legislator-information/roster/individual/6808",
+        "https://leg.mt.gov/legislator-information/roster/individual/7599",
+        "https://legislators.legmt.gov/#/legislator/32",
+        "https://www.legmt.gov/legislators/1257",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "novak-sara-mt-sd36",
+      "name": "Sara Novak",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-36)",
+      "state": "MT",
+      "district": "SD-36",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/45a7ac2a-90f6-4923-95e4-ebf6309e4a39"
+      },
+      "contact": {
+        "email": "sara.novak@legmt.gov",
+        "district_voice": "406-691-0069",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6868"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Sara_Novak",
+        "https://en.wikipedia.org/wiki/Sara_Novak",
+        "https://leg.mt.gov/legislator-information/roster/individual/6868",
+        "https://legislators.legmt.gov/#/legislator/162",
+        "https://www.legmt.gov/legislators/1491",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "demarois-scott-mt-hd71",
+      "name": "Scott DeMarois",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-71)",
+      "state": "MT",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b4eef5bc-1509-462d-905b-cd0f03ec3981"
+      },
+      "contact": {
+        "email": "scott.demarois@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/163"
+      },
+      "bio": {
+        "birth_date": "1972-02-08",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ScottDemarois2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_DeMarois",
+        "https://en.wikipedia.org/wiki/Scott_DeMarois",
+        "https://justfacts.votesmart.org/candidate/biography/215426/scott-demarois",
+        "https://legislators.legmt.gov/#/legislator/163",
+        "https://www.legmt.gov/legislators/1329",
+        "https://www.linkedin.com/in/scott-demarois-86a8bb9",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "rosenzweig-scott-mt-hd57",
+      "name": "Scott Rosenzweig",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-57)",
+      "state": "MT",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0ddba0a3-ab07-4d9a-ab04-5883d59a42f1"
+      },
+      "contact": {
+        "email": "scott.rosenzweig@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/293"
+      },
+      "bio": {
+        "birth_date": "1963-03-26",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Scott_Rosenzweig",
+        "https://en.wikipedia.org/wiki/Scott_Rosenzweig",
+        "https://justfacts.votesmart.org/candidate/biography/215452/scott-rosenzweig",
+        "https://legislators.legmt.gov/#/legislator/293",
+        "https://www.legmt.gov/legislators/1430",
+        "https://www.linkedin.com/in/scott-rosenzweig-410164",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "klakken-shane-mt-hd37",
+      "name": "Shane Klakken",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-37)",
+      "state": "MT",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2bb6ac7c-9a64-416f-a983-8382965c3a16"
+      },
+      "contact": {
+        "email": "shane.klakken@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/183"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Shane_Klakken",
+        "https://legislators.legmt.gov/#/legislator/183",
+        "https://www.legmt.gov/legislators/1381",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "morigeau-shane-mt-sd50",
+      "name": "Shane Morigeau",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-50)",
+      "state": "MT",
+      "district": "SD-50",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/83f50436-e02e-41b0-b6bb-dd44973665c8"
+      },
+      "contact": {
+        "email": "shane.morigeau@legmt.gov",
+        "district_voice": "406-546-4290",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4837"
+      },
+      "bio": {
+        "birth_date": "1984-09-08",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Shane_Morigeau",
+        "https://en.wikipedia.org/wiki/Shane_Morigeau",
+        "https://justfacts.votesmart.org/candidate/biography/168580/shane-morigeau",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5154",
+        "https://leg.mt.gov/legislator-information/roster/individual/6942",
+        "https://leg.mt.gov/legislator-information/roster/individual/7566",
+        "https://legislators.legmt.gov/#/legislator/150",
+        "https://www.legmt.gov/legislators/1273",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "maness-shannon-mt-hd70",
+      "name": "Shannon Maness",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-70)",
+      "state": "MT",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/998f9864-2081-4b53-b15e-aee33ceeacb9"
+      },
+      "contact": {
+        "email": "shannon.maness@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/158"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Shannon_Maness",
+        "https://en.wikipedia.org/wiki/Shannon_Maness",
+        "https://legislators.legmt.gov/#/legislator/158",
+        "https://www.legmt.gov/legislators/1290",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "vance-shelley-mt-sd34",
+      "name": "Shelley Vance",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-34)",
+      "state": "MT",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/307202d9-6626-46a3-9697-0cc5f80356e4"
+      },
+      "contact": {
+        "email": "shelley.vance@legmt.gov",
+        "website": "https://archive.legmt.gov/legislator-information/roster/individual/7648"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://archive.legmt.gov/legislator-information/roster/individual/7648",
+        "https://ballotpedia.org/Shelley_Vance",
+        "https://en.wikipedia.org/wiki/Shelley_Vance",
+        "https://leg.mt.gov/legislator-information/roster/individual/7648",
+        "https://legislators.legmt.gov/#/legislator/113",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "fyant-shelly-mt-hd91",
+      "name": "Shelly Fyant",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-91)",
+      "state": "MT",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/20bdbec3-719d-4b1c-b0ec-63ebb7a48dae"
+      },
+      "contact": {
+        "email": "shelly.fyant@legmt.gov",
+        "district_voice": "406-546-5633",
+        "website": "https://legislators.legmt.gov/#/legislator/228"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://shellyformontana.com/wp-content/uploads/sites/17/2024/03/headshot-1-scaled-e1709849197916.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shelly_Fyant",
+        "https://en.wikipedia.org/wiki/Shelly_Fyant",
+        "https://justfacts.votesmart.org/candidate/biography/215318/shelly-fyant",
+        "https://legislators.legmt.gov/#/legislator/228",
+        "https://www.legmt.gov/legislators/1347",
+        "https://www.linkedin.com/in/shelly-fyant-188087102",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "essmann-sherry-mt-hd49",
+      "name": "Sherry Essmann",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-49)",
+      "state": "MT",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a010acb1-3638-4369-ac44-23ce1661b36f"
+      },
+      "contact": {
+        "email": "sherry.essmann@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7499"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Sherry_Essmann",
+        "https://en.wikipedia.org/wiki/Sherry_Essmann",
+        "https://leg.mt.gov/legislator-information/roster/individual/7499",
+        "https://legislators.legmt.gov/#/legislator/109",
+        "https://www.legmt.gov/legislators/1335",
+        "https://www.linkedin.com/in/sherry-essmann-01994616",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "howell-s-j-mt-hd100",
+      "name": "S.J. Howell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-100)",
+      "state": "MT",
+      "district": "HD-100",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9f2826d8-7d78-45bd-b5a8-2bbc9f7eff2d"
+      },
+      "contact": {
+        "email": "sj.howell@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7630"
+      },
+      "bio": {
+        "birth_date": "1980-07-03",
+        "gender": "X"
+      },
+      "sources": [
+        "https://ballotpedia.org/SJ_Howell",
+        "https://en.wikipedia.org/wiki/SJ_Howell",
+        "https://leg.mt.gov/legislator-information/roster/individual/7630",
+        "https://legislators.legmt.gov/#/legislator/117",
+        "https://www.legmt.gov/legislators/1368",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "zinn-stacy-mt-hd52",
+      "name": "Stacy Zinn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-52)",
+      "state": "MT",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fb97e59c-6d06-476c-a834-06613cb8f9bd"
+      },
+      "contact": {
+        "email": "stacy.zinn@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/1840"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/_MG_3733.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stacy_Zinn",
+        "https://en.wikipedia.org/wiki/Stacy_Zinn",
+        "https://legislators.legmt.gov/#/legislator/1840",
+        "https://www.linkedin.com/in/stacy-zinn-5b6346354",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "fitzpatrick-steve-mt-hd24",
+      "name": "Steve Fitzpatrick",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-24)",
+      "state": "MT",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/afcd51eb-e3cf-4bc4-8093-80f884de54e2"
+      },
+      "contact": {
+        "email": "steve.fitzpatrick@legmt.gov",
+        "district_voice": "406-750-6764",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4723"
+      },
+      "bio": {
+        "birth_date": "1978-12-02",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Steve_Fitzpatrick",
+        "https://en.wikipedia.org/wiki/Steve_Fitzpatrick",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5009",
+        "https://leg.mt.gov/legislator-information/roster/individual/6819",
+        "https://leg.mt.gov/legislator-information/roster/individual/7506",
+        "https://legislators.legmt.gov/#/legislator/16",
+        "https://www.bkbh.com/person/steve-fitzpatrick",
+        "https://www.legmt.gov/legislators/1278",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "gist-steve-mt-hd25",
+      "name": "Steve Gist",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-25)",
+      "state": "MT",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/61c5bfdf-8d89-4ca3-b235-c55eb13c485e"
+      },
+      "contact": {
+        "email": "steven.gist@legmt.gov",
+        "district_voice": "406-231-4050",
+        "website": "https://archive.legmt.gov/legislator-information/roster/individual/7518"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://archive.legmt.gov/legislator-information/roster/individual/7518",
+        "https://archive.legmt.gov/legislator-information/roster/individual/7518.html",
+        "https://ballotpedia.org/Steve_Gist",
+        "https://en.wikipedia.org/wiki/Steve_Gist",
+        "https://leg.mt.gov/legislator-information/roster/individual/6903",
+        "https://leg.mt.gov/legislator-information/roster/individual/7518",
+        "https://legislators.legmt.gov/#/legislator/56",
+        "https://www.legmt.gov/legislators/1352",
+        "https://www.linkedin.com/in/steven-gist-021ab676",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "kelly-steve-mt-hd9",
+      "name": "Steve Kelly",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-9)",
+      "state": "MT",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/995231c8-96a0-412d-bd29-952b74c6745c"
+      },
+      "contact": {
+        "email": "steven.kelly@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/182"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Steven_Kelly_(Montana_House_of_Representatives_District_9)",
+        "https://en.wikipedia.org/wiki/Steven_Kelly_(politician)",
+        "https://legislators.legmt.gov/#/legislator/182",
+        "https://www.legmt.gov/legislators/1376",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "vinton-sue-mt-sd20",
+      "name": "Sue Vinton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-20)",
+      "state": "MT",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b4f79bac-c985-4bdc-9505-145cdd861198"
+      },
+      "contact": {
+        "email": "sue.vinton@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4798"
+      },
+      "bio": {
+        "birth_date": "1956-11-26",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Sue_Vinton",
+        "https://en.wikipedia.org/wiki/Sue_Vinton",
+        "https://justfacts.votesmart.org/candidate/biography/168517/sue-vinton",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5115",
+        "https://leg.mt.gov/legislator-information/roster/individual/6849",
+        "https://leg.mt.gov/legislator-information/roster/individual/7606",
+        "https://legislators.legmt.gov/#/legislator/37",
+        "https://www.legmt.gov/legislators/1477",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "webber-susan-mt-sd8",
+      "name": "Susan Webber",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-8)",
+      "state": "MT",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8a773a18-0be3-4292-9543-e6e5051e59f4"
+      },
+      "contact": {
+        "email": "susan.webber@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/5037"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Susan_Webber",
+        "https://en.wikipedia.org/wiki/Susan_Webber_(politician)",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5037",
+        "https://leg.mt.gov/legislator-information/roster/individual/6793",
+        "https://leg.mt.gov/legislator-information/roster/individual/7609",
+        "https://legislators.legmt.gov/#/legislator/92",
+        "https://www.legmt.gov/legislators/1252",
+        "https://www.linkedin.com/in/susan-webber-24427630",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "falk-terry-mt-hd10",
+      "name": "Terry Falk",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-10)",
+      "state": "MT",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be2c0041-9ca1-48d1-8244-023a31458b5e"
+      },
+      "contact": {
+        "email": "terry.falk@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7626"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Terry_Falk",
+        "https://en.wikipedia.org/wiki/Terry_Falk",
+        "https://leg.mt.gov/legislator-information/roster/individual/7626",
+        "https://legislators.legmt.gov/#/legislator/75",
+        "https://www.legmt.gov/legislators/1336",
+        "https://www.linkedin.com/in/terry-falk-2758b716",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "nelson-terry-mt-hd87",
+      "name": "Terry Nelson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-87)",
+      "state": "MT",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/34d1a14e-02b6-4f4e-91df-11f2236ec097"
+      },
+      "contact": {
+        "email": "terry.nelson@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/307"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Terry_Nelson.jpg",
+      "sources": [
+        "https://ballotpedia.org/Terry_Nelson",
+        "https://legislators.legmt.gov/#/legislator/307",
+        "https://www.legmt.gov/legislators/3815",
+        "https://www.linkedin.com/in/terry-nelson-42353129",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "crowe-thedis-mt-hd15",
+      "name": "Thedis Crowe",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-15)",
+      "state": "MT",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6b9930b6-a74b-420a-af6d-22675ad569dd"
+      },
+      "contact": {
+        "email": "thedis.crowe@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/185"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legmt.gov/wp-content/legislator-photos/lowres/1323.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thedis_Crowe",
+        "https://en.wikipedia.org/wiki/Thedis_Crowe",
+        "https://legislators.legmt.gov/#/legislator/185",
+        "https://www.legmt.gov/legislators/1323",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "manzella-theresa-mt-sd44",
+      "name": "Theresa Manzella",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-44)",
+      "state": "MT",
+      "district": "SD-44",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/97c7ced5-ba80-4a9a-80ca-349fd2040a64"
+      },
+      "contact": {
+        "email": "theresa.manzella@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4827"
+      },
+      "bio": {
+        "birth_date": "1964-11-26",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Theresa_Manzella",
+        "https://en.wikipedia.org/wiki/Theresa_Manzella",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5144",
+        "https://leg.mt.gov/legislator-information/roster/individual/6939",
+        "https://leg.mt.gov/legislator-information/roster/individual/7554",
+        "https://legislators.legmt.gov/#/legislator/124",
+        "https://www.legmt.gov/legislators/1500",
+        "https://www.linkedin.com/in/theresa-manzella-a0290939",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "france-tom-mt-hd99",
+      "name": "Tom France",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-99)",
+      "state": "MT",
+      "district": "HD-99",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d7ca6eb8-615f-4b3c-8651-3a5f86577f0a"
+      },
+      "contact": {
+        "email": "tom.france@legmt.gov",
+        "district_voice": "406-396-5085",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/6877"
+      },
+      "bio": {
+        "birth_date": "1951-06-15",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Tom_France",
+        "https://en.wikipedia.org/wiki/Tom_France",
+        "https://justfacts.votesmart.org/candidate/biography/168441/tom-france",
+        "https://leg.mt.gov/legislator-information/roster/individual/6877",
+        "https://leg.mt.gov/legislator-information/roster/individual/7510",
+        "https://legislators.legmt.gov/#/legislator/140",
+        "https://www.legmt.gov/legislators/1345",
+        "https://www.linkedin.com/in/tom-france-6711ba8",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "mcgillvray-tom-mt-sd26",
+      "name": "Tom McGillvray",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-26)",
+      "state": "MT",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3a84733c-95e7-4927-af5f-63f82cb8a884"
+      },
+      "contact": {
+        "email": "tom.mcgillvray@legmt.gov",
+        "district_voice": "406-698-4428",
+        "website": "https://leg.mt.gov/css/Sessions/62nd/leg_info.asp?HouseID=0&SessionID=105&LAWSID=3851"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Tom_McGillvray",
+        "https://en.wikipedia.org/wiki/Tom_McGillvray",
+        "https://leg.mt.gov/content/sessions/62nd/2011HouseMembers.txt",
+        "https://leg.mt.gov/css/Sessions/62nd/leg_info.asp?HouseID=0&SessionID=105&LAWSID=3851",
+        "https://leg.mt.gov/legislator-information/roster/individual/6822",
+        "https://leg.mt.gov/legislator-information/roster/individual/7559",
+        "https://legislators.legmt.gov/#/legislator/8",
+        "https://www.legmt.gov/legislators/1483",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "millett-tom-mt-hd2",
+      "name": "Tom Millett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-2)",
+      "state": "MT",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/53b80943-16fb-4e9a-a2ff-dc5d476af9de"
+      },
+      "contact": {
+        "email": "tom.millett@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/241"
+      },
+      "bio": {
+        "birth_date": "1965-11-13",
+        "gender": "Male"
+      },
+      "image": "https://www.legmt.gov/wp-content/legislator-photos/lowres/1403.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Millett",
+        "https://en.wikipedia.org/wiki/Tom_Millett",
+        "https://justfacts.votesmart.org/candidate/215706/tom-millett",
+        "https://legislators.legmt.gov/#/legislator/241",
+        "https://www.legmt.gov/legislators/1403",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "tezak-tony-mt-sd35",
+      "name": "Tony Tezak",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-35)",
+      "state": "MT",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3808001c-481b-413d-bf39-0f6dce17912a"
+      },
+      "contact": {
+        "email": "tony.tezak@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/1606"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Tony_Tezak",
+        "https://en.wikipedia.org/wiki/Tony_Tezak",
+        "https://legislators.legmt.gov/#/legislator/1606",
+        "https://www.legmt.gov/legislators/1277",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "sharp-tracy-mt-hd12",
+      "name": "Tracy Sharp",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-12)",
+      "state": "MT",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d4d8f309-a7ec-4ec4-9362-a25193c0e6a8"
+      },
+      "contact": {
+        "email": "tracy.sharp@legmt.gov",
+        "website": "https://legislators.legmt.gov/#/legislator/225"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Tracy_Sharp",
+        "https://legislators.legmt.gov/#/legislator/225",
+        "https://www.legmt.gov/legislators/1440",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "running-wolf-tyson-mt-hd16",
+      "name": "Tyson Running Wolf",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-16)",
+      "state": "MT",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/637f0db7-9c93-478e-904b-a36d0a2a67b1"
+      },
+      "contact": {
+        "email": "tyson.runningwolf@legmt.gov",
+        "website": "https://archive.legmt.gov/legislator-information/roster/individual/7583"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://archive.legmt.gov/legislator-information/roster/individual/7583",
+        "https://ballotpedia.org/Tyson_Runningwolf",
+        "https://en.wikipedia.org/wiki/Tyson_Running_Wolf",
+        "https://justfacts.votesmart.org/candidate/biography/180674/tyson-running-wolf",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5074",
+        "https://leg.mt.gov/legislator-information/roster/individual/6826",
+        "https://leg.mt.gov/legislator-information/roster/individual/7583",
+        "https://legislators.legmt.gov/#/legislator/134",
+        "https://www.linkedin.com/in/tyson-runningwolf-49640b73",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-valerie-mt-hd29",
+      "name": "Valerie Moore",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-29)",
+      "state": "MT",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/85361b50-c848-444c-9f54-c9203fe94777"
+      },
+      "contact": {
+        "email": "valerie.moore@legmt.gov",
+        "district_voice": "406-385-7983",
+        "website": "https://legislators.legmt.gov/#/legislator/156"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Valerie_Moore",
+        "https://en.wikipedia.org/wiki/Valerie_Moore",
+        "https://legislators.legmt.gov/#/legislator/156",
+        "https://www.legmt.gov/legislators/1280",
+        "https://www.linkedin.com/in/valerie-moore-405213110",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "ricci-vince-mt-sd27",
+      "name": "Vince Ricci",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-27)",
+      "state": "MT",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a86b7e4c-c7f9-46fa-89d5-3cce2317ae11"
+      },
+      "contact": {
+        "email": "vince.ricci@legmt.gov",
+        "district_voice": "406-855-9153",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4797"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Vince_Ricci",
+        "https://en.wikipedia.org/wiki/Vince_Ricci",
+        "https://justfacts.votesmart.org/candidate/biography/149242/vince-ricci",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5114",
+        "https://leg.mt.gov/legislator-information/roster/individual/6848",
+        "https://legislators.legmt.gov/#/legislator/160",
+        "https://www.legmt.gov/legislators/1485",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "mckamey-wendy-mt-sd12",
+      "name": "Wendy McKamey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-12)",
+      "state": "MT",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8f827a3b-16fe-4e09-bad0-c3e29c73d9c8"
+      },
+      "contact": {
+        "email": "wendy.mckamey@legmt.gov",
+        "district_voice": "406-868-5006",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4762"
+      },
+      "bio": {
+        "birth_date": "1946-12-15",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Wendy_McKamey",
+        "https://en.wikipedia.org/wiki/Wendy_McKamey",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5077",
+        "https://leg.mt.gov/legislator-information/roster/individual/6897",
+        "https://leg.mt.gov/legislator-information/roster/individual/7560",
+        "https://legislators.legmt.gov/#/legislator/125",
+        "https://www.linkedin.com/in/wendy-mckamey-1a5093a7",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "curdy-willis-mt-sd49",
+      "name": "Willis Curdy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-49)",
+      "state": "MT",
+      "district": "SD-49",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d6a3a052-3fb3-4dce-9ce0-074852fb2612"
+      },
+      "contact": {
+        "email": "willis.curdy@legmt.gov",
+        "district_voice": "406-728-0981",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4840"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Willis_Curdy",
+        "https://en.wikipedia.org/wiki/Willis_Curdy",
+        "https://justfacts.votesmart.org/candidate/biography/109827/willis-curdy",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5157",
+        "https://leg.mt.gov/legislator-information/roster/individual/6879",
+        "https://leg.mt.gov/legislator-information/roster/individual/7490",
+        "https://legislators.legmt.gov/#/legislator/91",
+        "https://www.legmt.gov/legislators/1272",
+        "https://www.linkedin.com/in/willis-curdy-57246825",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "galt-wylie-mt-sd39",
+      "name": "Wylie Galt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Senator (SD-39)",
+      "state": "MT",
+      "district": "SD-39",
+      "chamber": "upper",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4b0e74d3-19ae-449e-b712-ac96d2c1a165"
+      },
+      "contact": {
+        "email": "wylie.galt@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/4772"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Wylie_Galt",
+        "https://en.wikipedia.org/wiki/Wylie_Galt",
+        "https://justfacts.votesmart.org/candidate/biography/136947/wylie-galt",
+        "https://leg.mt.gov/legislator-information/?session_select=111",
+        "https://leg.mt.gov/legislator-information/?session_select=113",
+        "https://leg.mt.gov/legislator-information/roster/individual/5089",
+        "https://leg.mt.gov/legislator-information/roster/individual/6906",
+        "https://legislators.legmt.gov/#/legislator/161",
+        "https://www.legmt.gov/legislators/1496",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "wirth-zack-mt-hd17",
+      "name": "Zack Wirth",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-17)",
+      "state": "MT",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/01b5e40e-16c0-48df-8e7b-28877a05fe28"
+      },
+      "contact": {
+        "email": "zack.wirth@legmt.gov",
+        "district_voice": "406-750-5852",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7654"
+      },
+      "bio": {
+        "birth_date": "1951-06-09",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Zachary_Wirth",
+        "https://en.wikipedia.org/wiki/Zachary_Wirth",
+        "https://leg.mt.gov/legislator-information/roster/individual/7654",
+        "https://legislators.legmt.gov/#/legislator/86",
+        "https://www.legmt.gov/legislators/1464",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    },
+    {
+      "politician_id": "zephyr-zooey-mt-hd95",
+      "name": "Zooey Zephyr",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Montana State Representative (HD-95)",
+      "state": "MT",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "MT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ba9f3268-99c4-4f05-ac5b-c552e8c3aedc"
+      },
+      "contact": {
+        "email": "zooey.zephyr@legmt.gov",
+        "website": "https://leg.mt.gov/legislator-information/roster/individual/7651"
+      },
+      "bio": {
+        "birth_date": "1988-08-29",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Zooey_Zephyr",
+        "https://en.wikipedia.org/wiki/Zooey_Zephyr",
+        "https://leg.mt.gov/legislator-information/roster/individual/7651",
+        "https://legislators.legmt.gov/#/legislator/147",
+        "https://www.legmt.gov/legislators/1465",
+        "https://www.linkedin.com/in/zoandbehold",
+        "https://www.zooeyzephyr.com",
+        "https://data.openstates.org/people/current/mt.csv"
+      ]
+    }
+  ]
+}

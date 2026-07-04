@@ -289,7 +289,7 @@ function StepLayout({
   }, [step]);
 
   return (
-    <section ref={sectionRef} className="flex min-h-full flex-1 flex-col overflow-y-auto px-5 py-5 sm:px-7 sm:py-6 lg:px-10 lg:py-8">
+    <section ref={sectionRef} className="flex min-h-full flex-1 flex-col overflow-y-auto px-5 py-5 sm:px-7 sm:py-6 md:px-8 md:py-7 lg:px-10 lg:py-8">
       <div className="mb-7 flex h-8 items-center">
         {onBack && (
           <button
@@ -445,7 +445,7 @@ function DesktopRail({
     .join(", ");
 
   return (
-    <aside className="relative hidden h-full min-h-0 flex-col justify-between overflow-hidden bg-[#06192d] p-6 lg:flex">
+    <aside className="relative hidden h-full min-h-0 flex-col justify-between overflow-hidden bg-[#06192d] p-5 md:flex xl:p-6">
       <Image
         src={heroImage}
         alt=""
@@ -700,8 +700,8 @@ export default function BallotPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 lg:px-8 lg:py-6">
-      <main className="mx-auto grid min-h-[calc(100svh-2rem)] w-full max-w-[420px] lg:h-[calc(100svh-3rem)] lg:min-h-[640px] lg:max-w-6xl lg:grid-cols-[340px_minmax(0,1fr)] lg:overflow-hidden lg:rounded-[28px] lg:border lg:border-[#d8a15b]/30 lg:bg-[#051628] lg:shadow-[0_28px_90px_rgba(0,0,0,0.45)]">
+    <div className="min-h-screen bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 md:px-8 md:py-6">
+      <main className="mx-auto grid min-h-[calc(100svh-2rem)] w-full max-w-[420px] md:h-[calc(100svh-3rem)] md:min-h-[640px] md:max-w-6xl md:grid-cols-[300px_minmax(0,1fr)] md:overflow-hidden md:rounded-[28px] md:border md:border-[#d8a15b]/30 md:bg-[#051628] md:shadow-[0_28px_90px_rgba(0,0,0,0.45)] xl:grid-cols-[340px_minmax(0,1fr)]">
         <DesktopRail
           step={step}
           locationDisplay={locationDisplay}
@@ -710,9 +710,9 @@ export default function BallotPage() {
           issues={issues}
           tradeoffStyle={tradeoffStyle}
         />
-        <div className="flex min-h-[calc(100svh-2rem)] w-full flex-col overflow-hidden rounded-[24px] border border-[#d8a15b]/35 bg-[#051628] shadow-[0_28px_90px_rgba(0,0,0,0.45)] sm:min-h-[680px] lg:h-full lg:min-h-0 lg:rounded-none lg:border-0 lg:border-l lg:border-white/10 lg:shadow-none">
+        <div className="flex min-h-[calc(100svh-2rem)] w-full flex-col overflow-hidden rounded-[24px] border border-[#d8a15b]/35 bg-[#051628] shadow-[0_28px_90px_rgba(0,0,0,0.45)] sm:min-h-[680px] md:h-full md:min-h-0 md:rounded-none md:border-0 md:border-l md:border-white/10 md:shadow-none">
         {step === "welcome" && (
-          <section className="relative flex min-h-full flex-1 flex-col overflow-hidden p-7 lg:p-10">
+          <section className="relative flex min-h-full flex-1 flex-col overflow-hidden p-7 md:p-9 lg:p-10">
             <Image
               src={heroImage}
               alt=""
@@ -720,13 +720,13 @@ export default function BallotPage() {
               loading="eager"
               fetchPriority="high"
               className="object-cover object-[68%_50%] opacity-50 grayscale"
-              sizes="(min-width: 1024px) 760px, 420px"
+              sizes="(min-width: 768px) 760px, 420px"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-[#06192d]/55 via-[#06192d]/74 to-[#051628]" />
             <div className="relative z-10 flex flex-1 flex-col">
               <CivitasLogo />
               <div className="flex flex-1 flex-col justify-center py-12">
-                <h1 className="font-serif text-5xl leading-[0.98] text-white lg:text-6xl">
+                <h1 className="font-serif text-5xl leading-[0.98] text-white md:text-6xl">
                   Better
                   <br />
                   data.
@@ -736,7 +736,7 @@ export default function BallotPage() {
                   republic.
                 </h1>
                 <div className="mt-5 h-0.5 w-12 bg-[#b33a35]" />
-                <p className="mt-8 max-w-[320px] text-sm leading-6 text-white/72 lg:text-base lg:leading-7">
+                <p className="mt-8 max-w-[320px] text-sm leading-6 text-white/72 md:text-base md:leading-7">
                   Enter your location, compare candidates, and ask questions with sources.
                 </p>
               </div>
@@ -809,7 +809,7 @@ export default function BallotPage() {
                 {ballot.warning}
               </p>
             )}
-            <div className="mt-7 grid flex-1 content-start gap-3 overflow-y-auto pr-1 lg:grid-cols-2">
+            <div className="mt-7 grid flex-1 content-start gap-3 overflow-y-auto pr-1 md:grid-cols-2">
               {races.length > 0 ? (
                 races.slice(0, 7).map((race, index) => (
                   <SelectableCard
@@ -839,7 +839,7 @@ export default function BallotPage() {
           <StepLayout step={step} onBack={goBack}>
             <h1 className="font-serif text-3xl leading-tight text-white">What do you want to compare first?</h1>
             <p className="mt-4 text-sm leading-6 text-white/68">You can always explore the rest later.</p>
-            <div className="mt-7 grid flex-1 content-start gap-3 lg:grid-cols-2">
+            <div className="mt-7 grid flex-1 content-start gap-3 md:grid-cols-2">
               {focusOptions.map((option) => (
                 <SelectableCard
                   key={option.id}
@@ -1134,7 +1134,7 @@ export default function BallotPage() {
         {step === "matches" && (
           dashboardView ? (
             matchState.status === "loading" ? (
-              <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white lg:px-10 lg:py-8">
+              <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white md:px-8 md:py-7 lg:px-10 lg:py-8">
                 <CivitasLogo compact />
                 <div
                   role="status"
@@ -1154,7 +1154,7 @@ export default function BallotPage() {
                 </div>
               </section>
             ) : matchState.status === "error" ? (
-              <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white lg:px-10 lg:py-8">
+              <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white md:px-8 md:py-7 lg:px-10 lg:py-8">
                 <CivitasLogo compact />
                 <div
                   role="alert"
@@ -1181,7 +1181,7 @@ export default function BallotPage() {
               />
             )
           ) : (
-            <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white lg:px-10 lg:py-8">
+            <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white md:px-8 md:py-7 lg:px-10 lg:py-8">
               <CivitasLogo compact />
               <div className="mt-16 max-w-xl rounded-[10px] border border-white/12 bg-white/[0.035] p-5 text-sm text-white/58">
                 No ballot data is available yet. Go back and run the address lookup again.

@@ -1,0 +1,4609 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/nj.csv",
+  "state": "NJ",
+  "politicians": [
+    {
+      "politician_id": "abdelaziz-al-nj-hd35",
+      "name": "Al Abdelaziz",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-35)",
+      "state": "NJ",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d358cf84-b9ae-4bce-bb28-aa083fe082b4"
+      },
+      "contact": {
+        "email": "asmabdelaziz@njleg.org",
+        "district_voice": "862-264-2540",
+        "website": "https://www.assemblydems.com/388/Alaa-Al-Abdelaziz---District-35"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Alaa_Abdelaziz",
+        "https://en.wikipedia.org/wiki/Al_Abdelaziz",
+        "https://justfacts.votesmart.org/candidate/biography/187190/alaa-abdelaziz",
+        "https://www.assemblydems.com/388/Alaa-Al-Abdelaziz---District-35",
+        "https://www.njleg.state.nj.us/legislative-roster/498/assemblyman-abdelaziz",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "barlas-al-nj-hd40",
+      "name": "Al Barlas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-40)",
+      "state": "NJ",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/525b3307-b007-4cfa-8166-efb0810fcda7"
+      },
+      "contact": {
+        "email": "asmbarlas@njleg.org",
+        "district_voice": "862-702-8458",
+        "website": "https://www.njassemblygop.com/218/Al-Barlas"
+      },
+      "bio": {
+        "birth_date": "1981-06-21",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Al_Barlas",
+        "https://en.wikipedia.org/wiki/Al_Barlas",
+        "https://justfacts.votesmart.org/candidate/biography/211694/al-barlas",
+        "https://www.linkedin.com/in/al-b-50449a7a",
+        "https://www.njassemblygop.com/218/Al-Barlas",
+        "https://www.njassemblygop.com/asm-barlas",
+        "https://www.njleg.state.nj.us/legislative-roster/494/assemblyman-barlas",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "sauickie-alex-nj-hd12",
+      "name": "Alex Sauickie",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-12)",
+      "state": "NJ",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fc986c0e-c1cd-422f-80c1-4d3691f34f28"
+      },
+      "contact": {
+        "email": "asmsauickie@njleg.org",
+        "district_voice": "609-758-0205",
+        "website": "https://njleg.state.nj.us/legislative-roster/454/assemblyman-sauickie"
+      },
+      "bio": {
+        "birth_date": "1971-01-25",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://assemblymanalex.com",
+        "https://ballotpedia.org/Alex_Sauickie",
+        "https://en.wikipedia.org/wiki/Alex_Sauickie",
+        "https://justfacts.votesmart.org/candidate/biography/210460/alex-sauickie-iii",
+        "https://njleg.state.nj.us/legislative-roster/454/assemblyman-sauickie",
+        "https://www.linkedin.com/in/alexsauickie",
+        "https://www.njassemblygop.com/233/Alex-Sauickie",
+        "https://www.njassemblygop.com/sauickie",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/454",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/454/assemblyman-sauickie",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "collazos-gill-alixon-nj-hd27",
+      "name": "Alixon Collazos-Gill",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-27)",
+      "state": "NJ",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b5f9d8c9-0f98-4d89-8a5f-82152f41687d"
+      },
+      "contact": {
+        "email": "aswcollazosgill@njleg.org",
+        "district_voice": "973-509-0388",
+        "website": "https://www.assemblydems.com/204/Alixon-Collazos-Gill---District-27"
+      },
+      "bio": {
+        "birth_date": "1977-01-27",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Alixon_Collazos-Gill",
+        "https://en.wikipedia.org/wiki/Alixon_Collazos-Gill",
+        "https://justfacts.votesmart.org/candidate/biography/212204/alixon-collazos-gill",
+        "https://www.assemblydems.com/204/Alixon-Collazos-Gill---District-27",
+        "https://www.assemblydems.com/alixon-collazos-gill",
+        "https://www.linkedin.com/in/alixon-collazos-b2910b31",
+        "https://www.njleg.state.nj.us/legislative-roster/480/assemblywoman-collazos-gill",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "katz-andrea-nj-hd8",
+      "name": "Andrea Katz",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-8)",
+      "state": "NJ",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/acf3b54e-9725-4867-aaa5-9275ada21b37"
+      },
+      "contact": {
+        "email": "aswkatz@njleg.org",
+        "district_voice": "609-850-2397",
+        "website": "https://www.assemblydems.com/168/Andrea-Katz---District-8"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Andrea_Katz",
+        "https://en.wikipedia.org/wiki/Andrea_Katz",
+        "https://justfacts.votesmart.org/candidate/211630/andrea-katz",
+        "https://www.assemblydems.com/168/Andrea-Katz---District-8",
+        "https://www.assemblydems.com/andrea-katz-2",
+        "https://www.linkedin.com/in/aswandreakatz",
+        "https://www.njleg.state.nj.us/legislative-roster/496/assemblywoman-katz",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "macurdy-andrew-nj-hd21",
+      "name": "Andrew Macurdy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-21)",
+      "state": "NJ",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bd2c37cd-6c84-406e-9e38-95bd83f20f0f"
+      },
+      "contact": {
+        "email": "asmmacurdy@njleg.org",
+        "district_voice": "908-679-8499",
+        "website": "https://njleg.state.nj.us/legislative-roster/505/assemblyman-macurdy"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Andrew_Macurdy",
+        "https://en.wikipedia.org/wiki/Andrew_Macurdy",
+        "https://njleg.state.nj.us/legislative-roster/505/assemblyman-macurdy",
+        "https://sanfordheisler.com/team/andrew-macurdy",
+        "https://www.assemblydems.com/400/Andrew-Macurdy---District-21",
+        "https://www.linkedin.com/in/andrew-macurdy-22658a52",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "zwicker-andrew-nj-sd16",
+      "name": "Andrew Zwicker",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-16)",
+      "state": "NJ",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7782ffcd-73df-41b5-9857-fd7b10953bf3"
+      },
+      "contact": {
+        "email": "senzwicker@njleg.org",
+        "district_voice": "908-308-8672",
+        "website": "https://www.andrewzwicker.com"
+      },
+      "bio": {
+        "birth_date": "1964-05-17",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/zwicker_andrew_2019.jpg",
+      "sources": [
+        "https://ballotpedia.org/Andrew_Zwicker",
+        "https://en.wikipedia.org/wiki/Andrew_Zwicker",
+        "https://justfacts.votesmart.org/candidate/152123/andrew-zwicker",
+        "https://www.andrewzwicker.com",
+        "https://www.linkedin.com/in/andrew-zwicker-34a5028a",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/436",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/436/senator-zwicker",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=386",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=386",
+        "https://www.njsendems.org/senators/andrew-zwicker",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "mcknight-angela-nj-sd31",
+      "name": "Angela McKnight",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-31)",
+      "state": "NJ",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d8c826c4-95c7-465b-8448-1f05495bfc45"
+      },
+      "contact": {
+        "email": "senmcknight@njleg.org",
+        "district_voice": "201-360-2502",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/383/assemblywoman-mcknight"
+      },
+      "bio": {
+        "birth_date": "1977-03-10",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/mcknight_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Angela_McKnight",
+        "https://en.wikipedia.org/wiki/Angela_V._McKnight",
+        "https://justfacts.votesmart.org/candidate/biography/156554/angela-mcknight",
+        "https://www.angelacares.org/about",
+        "https://www.linkedin.com/in/angela-v-mcknight-33992420",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/383",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/383/assemblywoman-mcknight",
+        "https://www.njleg.state.nj.us/legislative-roster/483/senator-mcknight",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=383",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=383",
+        "https://www.njsendems.org/183/Angela-V-McKnight",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "quijano-annette-nj-hd20",
+      "name": "Annette Quijano",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-20)",
+      "state": "NJ",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ec370db8-c51e-4022-9868-5cad9c38e97d"
+      },
+      "contact": {
+        "email": "aswquijano@njleg.org",
+        "district_voice": "908-624-0880",
+        "website": "https://www.assemblydems.com/170/Annette-Quijano---District-20"
+      },
+      "bio": {
+        "birth_date": "1962-07-04",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/quijano_annette_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Annette_Quijano",
+        "https://en.wikipedia.org/wiki/Annette_Quijano",
+        "https://justfacts.votesmart.org/candidate/biography/110881/annette-quijano",
+        "https://www.assemblydems.com/170/Annette-Quijano---District-20",
+        "https://www.assemblydems.com/annette-quijano",
+        "https://www.linkedin.com/in/annette-quijano-58957a7",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/309",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/309/assemblywoman-quijano",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=309",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=309",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "angelozzi-anthony-nj-hd8",
+      "name": "Anthony Angelozzi",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-8)",
+      "state": "NJ",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/21b098a3-5f30-40c7-9169-1d4b92402a99"
+      },
+      "contact": {
+        "email": "asmangelozzi@njleg.org",
+        "district_voice": "640-600-4279",
+        "website": "https://njleg.state.nj.us/legislative-roster/502/assemblyman-angelozzi"
+      },
+      "bio": {
+        "birth_date": "1985-05-08",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Anthony_Angelozzi",
+        "https://en.wikipedia.org/wiki/Anthony_Angelozzi",
+        "https://justfacts.votesmart.org/candidate/biography/211631/anthony-angelozzi",
+        "https://njleg.state.nj.us/legislative-roster/502/assemblyman-angelozzi",
+        "https://www.assemblydems.com/398/Anthony-Angelozzi---District-8",
+        "https://www.linkedin.com/in/anthonyangelozzi85",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "bucco-tony-nj-sd25",
+      "name": "Tony Bucco",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-25)",
+      "state": "NJ",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f321f20f-b8af-4d0b-85ba-e7b8dcf9ae03"
+      },
+      "contact": {
+        "email": "senbucco@njleg.org",
+        "district_voice": "973-627-9700",
+        "website": "https://bucco.senatenj.com/"
+      },
+      "bio": {
+        "birth_date": "1962-04-12",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/bucco_a_m_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anthony_Bucco,_Jr.",
+        "https://en.wikipedia.org/wiki/Tony_Bucco",
+        "https://justfacts.votesmart.org/candidate/biography/122157/anthony-bucco-jr",
+        "https://www.linkedin.com/in/asmbucco",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/419",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/419/senator-bucco",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=419",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=419",
+        "https://www.senatenj.com/159/Anthony-M-Bucco---District-25---Republic",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "verrelli-anthony-nj-hd15",
+      "name": "Anthony Verrelli",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-15)",
+      "state": "NJ",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c6d61a12-eeb5-4400-943d-68a81b0728f0"
+      },
+      "contact": {
+        "email": "asmverrelli@njleg.org",
+        "district_voice": "609-292-0500",
+        "website": "https://www.assemblydems.com/177/Anthony-S-Verrelli---District-15"
+      },
+      "bio": {
+        "birth_date": "1964-01-06",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/verrelli_anthony_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anthony_Verrelli",
+        "https://en.wikipedia.org/wiki/Anthony_Verrelli",
+        "https://justfacts.votesmart.org/candidate/biography/185078/anthony-verrelli",
+        "https://www.assemblydems.com/177/Anthony-S-Verrelli---District-15",
+        "https://www.assemblydems.com/anthony-verrelli",
+        "https://www.linkedin.com/in/anthony-verrelli-224b206",
+        "https://www.linkedin.com/in/anthony-verrelli-79ab8167",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/416",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/416/assemblyman-verrelli",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=416",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=416",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "mcclellan-antwan-nj-hd1",
+      "name": "Antwan McClellan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-1)",
+      "state": "NJ",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4ebe8d6e-9814-4f68-aa9f-148c0942eaab"
+      },
+      "contact": {
+        "email": "asmmcclellan@njleg.org",
+        "district_voice": "609-778-2012",
+        "website": "https://www.njassemblygop.com/212/Antwan-McClellan"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.njleg.state.nj.us/members/memberphotos/mcclellan_antwan_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Antwan_McClellan",
+        "https://en.wikipedia.org/wiki/Antwan_McClellan",
+        "https://justfacts.votesmart.org/candidate/186292/antwan-mcclellan",
+        "https://www.linkedin.com/in/antwan-mcclellan-b95b2b86",
+        "https://www.njassemblygop.com/212/Antwan-McClellan",
+        "https://www.njassemblygop.com/mcclellan",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/425",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/425/assemblyman-mcclellan",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "dunn-aura-nj-hd25",
+      "name": "Aura Dunn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-25)",
+      "state": "NJ",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/03aa8bec-9d7e-41e7-ad20-b5ba1991cab6"
+      },
+      "contact": {
+        "email": "aswdunn@njleg.org",
+        "district_voice": "973-206-1876",
+        "website": "https://www.njassemblygop.com/221/Aura-Dunn"
+      },
+      "bio": {
+        "birth_date": "1971-11-15",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/dunn_aura_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Aura_Kenny_Dunn",
+        "https://en.wikipedia.org/wiki/Aura_K._Dunn",
+        "https://justfacts.votesmart.org/candidate/186342/aura-dunn",
+        "https://www.linkedin.com/in/aura-dunn-0b90265",
+        "https://www.linkedin.com/in/aura-kenny-dunn-0b90265",
+        "https://www.njassemblygop.com/221/Aura-Dunn",
+        "https://www.njassemblygop.com/dunn",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/428",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/428/assemblywoman-dunn",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "schnall-avi-nj-hd30",
+      "name": "Avi Schnall",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-30)",
+      "state": "NJ",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4dab8e3a-93be-4ad7-8cb1-5009e4c7d232"
+      },
+      "contact": {
+        "email": "asmschnall@njleg.org",
+        "district_voice": "848-245-9486",
+        "website": "https://www.assemblydems.com/210/Alexander-Avi-Schnall---District-30"
+      },
+      "bio": {
+        "birth_date": "1984-07-03",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Avi_Schnall",
+        "https://en.wikipedia.org/wiki/Avi_Schnall",
+        "https://justfacts.votesmart.org/candidate/biography/212883/avi-schnall",
+        "https://www.assemblydems.com/210/Alexander-Avi-Schnall---District-30",
+        "https://www.assemblydems.com/avi-schnall",
+        "https://www.assemblydems.com/avi-schnall/",
+        "https://www.linkedin.com/in/avischnall",
+        "https://www.njleg.state.nj.us/legislative-roster/482/assemblyman-schnall",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "singh-balvir-nj-hd7",
+      "name": "Balvir Singh",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-7)",
+      "state": "NJ",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a189187b-df3f-4f10-8e5c-744ad7071787"
+      },
+      "contact": {
+        "email": "asmsingh@njleg.org",
+        "district_voice": "856-461-3997",
+        "website": "https://www.assemblydems.com/389/Balvir-Singh---District-7"
+      },
+      "bio": {
+        "birth_date": "1984-11-09",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Balvir_Singh",
+        "https://en.wikipedia.org/wiki/Balvir_Singh",
+        "https://justfacts.votesmart.org/candidate/biography/200615/balvir-singh",
+        "https://www.assemblydems.com/389/Balvir-Singh---District-7",
+        "https://www.linkedin.com/in/BalvirSingh",
+        "https://www.njleg.state.nj.us/legislative-roster/500/assemblyman-singh",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "wimberly-benjie-nj-sd35",
+      "name": "Benjie Wimberly",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-35)",
+      "state": "NJ",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/18fa38fc-954e-43d9-a294-a2068828216e"
+      },
+      "contact": {
+        "email": "senwimberly@njleg.org",
+        "district_voice": "973-925-7061",
+        "website": "https://www.assemblydems.com/176/Benjie-E-Wimberly---District-35"
+      },
+      "bio": {
+        "birth_date": "1964-12-01",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/wimberly_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Benjie_Wimberly",
+        "https://en.wikipedia.org/wiki/Benjie_E._Wimberly",
+        "https://justfacts.votesmart.org/candidate/biography/129849/benjie-wimberly",
+        "https://www.assemblydems.com/176/Benjie-E-Wimberly---District-35",
+        "https://www.assemblydems.com/benjie-wimberly",
+        "https://www.linkedin.com/in/benjie-wimberly-9b360b17",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/347",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/347/assemblyman-wimberly",
+        "https://www.njleg.state.nj.us/legislative-roster/499/senator-wimberly",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=347",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=347",
+        "https://www.njsendems.org/241/Benjie-E-Wimberly",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-bob-nj-sd17",
+      "name": "Bob Smith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-17)",
+      "state": "NJ",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/177d44ba-0c93-4e26-b245-84aa2239f7b4"
+      },
+      "contact": {
+        "email": "senbsmith@njleg.org",
+        "district_voice": "732-752-0770",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/53/senator-smith"
+      },
+      "bio": {
+        "birth_date": "1947-03-25",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/smith_bob_2021.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bob_Smith,_New_Jersey_Senator",
+        "https://en.wikipedia.org/wiki/Bob_Smith_(New_Jersey_State_Senator)",
+        "https://justfacts.votesmart.org/candidate/biography/4201/bob-smith",
+        "https://www.linkedin.com/in/bob-smith-b9b7916",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/53",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/53/senator-smith",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=53",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=53",
+        "https://www.njsendems.org/senators/bob-smith",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "bergen-brian-nj-hd26",
+      "name": "Brian Bergen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-26)",
+      "state": "NJ",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/006c1bd9-54e9-49be-9d02-12dda1119149"
+      },
+      "contact": {
+        "email": "asmbergen@njleg.org",
+        "district_voice": "973-539-8113",
+        "website": "https://www.njassemblygop.com/161/Brian-Bergen"
+      },
+      "bio": {
+        "birth_date": "1979-07-08",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/bergen_brian_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Bergen",
+        "https://en.wikipedia.org/wiki/Brian_Bergen",
+        "https://justfacts.votesmart.org/candidate/biography/186340/brian-bergen",
+        "https://www.linkedin.com/in/briangbergen",
+        "https://www.njassemblygop.com/161/Brian-Bergen",
+        "https://www.njassemblygop.com/bergen",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/423",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/423/assemblyman-bergen",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=423",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=423",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "rumpf-brian-nj-hd9",
+      "name": "Brian Rumpf",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-9)",
+      "state": "NJ",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d6731a7f-a22e-48dd-8bba-fd2c155c16c3"
+      },
+      "contact": {
+        "email": "asmrumpf@njleg.org",
+        "district_voice": "609-693-6700",
+        "website": "https://www.njassemblygop.com/215/Brian-Rumpf"
+      },
+      "bio": {
+        "birth_date": "1964-05-11",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/rumpf_brian_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Rumpf",
+        "https://en.wikipedia.org/wiki/Brian_E._Rumpf",
+        "https://justfacts.votesmart.org/candidate/biography/43228/brian-rumpf",
+        "https://www.linkedin.com/in/brian-rumpf-b3a63b350",
+        "https://www.njassemblygop.com/215/Brian-Rumpf",
+        "https://www.njassemblygop.com/rumpf",
+        "https://www.njassemblygop.com/rumpf/",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/228",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/228/assemblyman-rumpf",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=228",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=228",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "stack-brian-nj-sd33",
+      "name": "Brian Stack",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-33)",
+      "state": "NJ",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6f616307-dafe-44ca-a6b3-5f9516d21f89"
+      },
+      "contact": {
+        "email": "senstack@njleg.org",
+        "district_voice": "201-721-5263",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/306/senator-stack"
+      },
+      "bio": {
+        "birth_date": "1966-05-16",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/stack_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Stack",
+        "https://en.wikipedia.org/wiki/Brian_P._Stack",
+        "https://justfacts.votesmart.org/candidate/biography/43373/brian-stack",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/306",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/306/senator-stack",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=306",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=306",
+        "https://www.njsendems.org/senators/brian-p-stack",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "timberlake-britnee-nj-sd34",
+      "name": "Britnee Timberlake",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-34)",
+      "state": "NJ",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/707e3027-d06f-4346-8c11-3ff1becbe725"
+      },
+      "contact": {
+        "email": "sentimberlake@njleg.org",
+        "district_voice": "973-395-1166",
+        "website": "https://www.assemblydems.com/britnee-timberlake/"
+      },
+      "bio": {
+        "birth_date": "1986-05-14",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/timberlake_britnee_2018.jpg",
+      "sources": [
+        "https://ballotpedia.org/Britnee_Timberlake",
+        "https://en.wikipedia.org/wiki/Britnee_Timberlake",
+        "https://www.linkedin.com/in/britnee-timberlake-655a2231",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/407",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/407/assemblywoman-timberlake",
+        "https://www.njleg.state.nj.us/legislative-roster/490/senator-timberlake",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=407",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=407",
+        "https://www.njsendems.org/senators/britnee-timberlake",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "amato-carmen-nj-sd9",
+      "name": "Carmen Amato",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-9)",
+      "state": "NJ",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0f0e1edc-6ab5-4fca-8999-2db3229c5d19"
+      },
+      "contact": {
+        "email": "senamato@njleg.org",
+        "district_voice": "609-693-6700",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/465/senator-amato"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Carmen_Amato_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/81264/carmen-amato-jr",
+        "https://www.linkedin.com/in/carmen-amato-b1422a177",
+        "https://www.njleg.state.nj.us/legislative-roster/465/senator-amato",
+        "https://www.senatenj.com/206/Carmen-Amato---District-9",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "morales-carmen-nj-hd34",
+      "name": "Carmen Morales",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-34)",
+      "state": "NJ",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/38f2061a-a83f-45bc-92a2-817f44d6b377"
+      },
+      "contact": {
+        "email": "aswmorales@njleg.org",
+        "district_voice": "973-450-0484",
+        "website": "https://www.assemblydems.com/237/Carmen-Morales---District-34"
+      },
+      "bio": {
+        "birth_date": "1977-10-13",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Carmen_Morales",
+        "https://en.wikipedia.org/wiki/Carmen_Morales_(New_Jersey_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/211688/carmen-morales",
+        "https://www.assemblydems.com/237/Carmen-Morales---District-34",
+        "https://www.assemblydems.com/carmen-morales",
+        "https://www.linkedin.com/in/carmen-t-morales-ed-d-0293939",
+        "https://www.linkedin.com/in/carmen-t-morales-ed-s-0293939",
+        "https://www.njleg.state.nj.us/legislative-roster/491/assemblywoman-morales",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "murphy-carol-nj-hd7",
+      "name": "Carol Murphy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-7)",
+      "state": "NJ",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c33b5f2b-0494-414f-aa84-d2286ae46095"
+      },
+      "contact": {
+        "email": "aswmurphy@njleg.org",
+        "district_voice": "856-242-2018",
+        "website": "https://www.assemblydems.com/167/Carol-Murphy---District-7"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/murphy_carol_2021.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carol_Murphy_(New_Jersey)",
+        "https://en.wikipedia.org/wiki/Carol_A._Murphy",
+        "https://justfacts.votesmart.org/candidate/biography/55121/carol-murphy",
+        "https://www.assemblydems.com/167/Carol-Murphy---District-7",
+        "https://www.assemblydems.com/carol-murphy",
+        "https://www.linkedin.com/in/assemblywoman-carol-murphy-29955416",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/397",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/397/assemblywoman-murphy",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=397",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=397",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "onyema-chigozie-nj-hd28",
+      "name": "Chigozie Onyema",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-28)",
+      "state": "NJ",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/383fdfc0-c14a-433f-8f1d-a29e6350c5ca"
+      },
+      "contact": {
+        "email": "asmonyema@njleg.org",
+        "district_voice": "973-762-1886",
+        "website": "https://njleg.state.nj.us/legislative-roster/507/assemblyman-onyema"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Chigozie_Onyema",
+        "https://njleg.state.nj.us/legislative-roster/507/assemblyman-onyema",
+        "https://www.assemblydems.com/406/Chigozie-Onyema---District-28",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "dephillips-chris-nj-hd40",
+      "name": "Chris DePhillips",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-40)",
+      "state": "NJ",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/33050562-f29d-4c4f-9e21-022822792a5c"
+      },
+      "contact": {
+        "email": "asmdephillips@njleg.org",
+        "website": "https://www.njassemblygop.com/213/Christopher-DePhillips"
+      },
+      "bio": {
+        "birth_date": "1965-03-30",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/dephillips_christopher_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Christopher_DePhillips",
+        "https://en.wikipedia.org/wiki/Christopher_DePhillips",
+        "https://justfacts.votesmart.org/candidate/biography/176343/christopher-dephillips",
+        "https://www.linkedin.com/in/cpdephillips",
+        "https://www.njassemblygop.com/213/Christopher-DePhillips",
+        "https://www.njassemblyrepublicans.com/dephillips",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/404",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/404/assemblyman-dephillips",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=404",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=404",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "tucker-cleopatra-nj-hd28",
+      "name": "Cleopatra Tucker",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-28)",
+      "state": "NJ",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c5469bd6-29bd-4054-9ac0-3577d17422d4"
+      },
+      "contact": {
+        "email": "aswtucker@njleg.org",
+        "district_voice": "973-926-4320",
+        "website": "https://www.assemblydems.com/199/Cleopatra-G-Tucker---District-28"
+      },
+      "bio": {
+        "birth_date": "1943-04-09",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/tucker_cleopatra_2017.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cleopatra_Tucker",
+        "https://en.wikipedia.org/wiki/Cleopatra_Tucker",
+        "https://justfacts.votesmart.org/candidate/biography/69745/cleopatra-tucker",
+        "https://www.assemblydems.com/199/Cleopatra-G-Tucker---District-28",
+        "https://www.assemblydems.com/cleopatra-tucker",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/285",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/285/assemblywoman-tucker",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=285",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=285",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "calabrese-clinton-nj-hd36",
+      "name": "Clinton Calabrese",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-36)",
+      "state": "NJ",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5475b510-25ec-4354-abb5-f1f03c3ea2c3"
+      },
+      "contact": {
+        "email": "asmcalabrese@njleg.org",
+        "district_voice": "201-943-0615",
+        "website": "https://www.assemblydems.com/226/Clinton-Calabrese---District-36"
+      },
+      "bio": {
+        "birth_date": "1986-03-04",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/calabrese_clinton_2018.jpg",
+      "sources": [
+        "https://ballotpedia.org/Clinton_Calabrese",
+        "https://en.wikipedia.org/wiki/Clinton_Calabrese",
+        "https://justfacts.votesmart.org/candidate/biography/178198/clinton-calabrese",
+        "https://www.assemblydems.com/226/Clinton-Calabrese---District-36",
+        "https://www.assemblydems.com/clinton-calabrese",
+        "https://www.linkedin.com/in/clinton-calabrese-45311531",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/408",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/408/assemblyman-calabrese",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=408",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=408",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-cody-nj-hd4",
+      "name": "Cody Miller",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-4)",
+      "state": "NJ",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fab6547d-4f37-4c02-a738-dc4fb0b707e7"
+      },
+      "contact": {
+        "email": "asmmiller@njleg.org",
+        "district_voice": "856-232-6700",
+        "website": "https://www.assemblydems.com/161/Cody-Miller---District-4"
+      },
+      "bio": {
+        "birth_date": "1990-12-12",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Cody_Miller",
+        "https://en.wikipedia.org/wiki/Cody_Miller_(New_Jersey_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/211624/cody-miller",
+        "https://www.assemblydems.com/161/Cody-Miller---District-4",
+        "https://www.assemblydems.com/cody-miller",
+        "https://www.linkedin.com/in/cody-d-miller-0960b936",
+        "https://www.njleg.state.nj.us/legislative-roster/463/assemblyman-miller",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "coughlin-craig-nj-hd19",
+      "name": "Craig Coughlin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-19)",
+      "state": "NJ",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9d1ae08a-66b3-4d68-bafe-956d4eaeb57f"
+      },
+      "contact": {
+        "email": "asmcoughlin@njleg.org",
+        "district_voice": "732-855-7441",
+        "website": "https://www.assemblydems.com/185/Craig-J-Coughlin---District-19"
+      },
+      "bio": {
+        "birth_date": "1958-01-31",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/coughlin_craig_2017.jpg",
+      "sources": [
+        "https://ballotpedia.org/Craig_Coughlin",
+        "https://en.wikipedia.org/wiki/Craig_Coughlin",
+        "https://justfacts.votesmart.org/candidate/biography/116275/craig-coughlin",
+        "https://www.assemblydems.com/185/Craig-J-Coughlin---District-19",
+        "https://www.assemblydems.com/craig-coughlin",
+        "https://www.linkedin.com/in/craig-coughlin-b4876619",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/319",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/319/assemblyman-coughlin",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=319",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=319",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "hutchison-dan-nj-hd4",
+      "name": "Dan Hutchison",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-4)",
+      "state": "NJ",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fa6aa5c6-0479-4d12-88c0-75480bfbe3a5"
+      },
+      "contact": {
+        "email": "asmhutchison@njleg.org",
+        "district_voice": "856-401-3073",
+        "website": "https://www.assemblydems.com/160/Dan-Hutchison---District-4"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Dan_Hutchison",
+        "https://en.wikipedia.org/wiki/Dan_Hutchinson",
+        "https://justfacts.votesmart.org/candidate/biography/43317/dan-hutchison",
+        "https://www.assemblydems.com/160/Dan-Hutchison---District-4",
+        "https://www.assemblydems.com/dan-hutchison",
+        "https://www.linkedin.com/in/dan-hutchison-b7360511",
+        "https://www.njleg.state.nj.us/legislative-roster/462/assemblyman-hutchison",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "bailey-dave-nj-hd3",
+      "name": "Dave Bailey",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-3)",
+      "state": "NJ",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/64a8c09d-24a2-4d4c-a071-d09f0a30c79f"
+      },
+      "contact": {
+        "email": "asmbailey@njleg.org",
+        "district_voice": "856-226-3530",
+        "website": "https://www.assemblydems.com/157/Dave-Bailey-Jr---District-3"
+      },
+      "bio": {
+        "birth_date": "1967-03-01",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Dave_Bailey_Jr.",
+        "https://en.wikipedia.org/wiki/David_Bailey_(New_Jersey_politician)",
+        "https://justfacts.votesmart.org/candidate/212234/dave-bailey",
+        "https://www.assemblydems.com/157/Dave-Bailey-Jr---District-3",
+        "https://www.assemblydems.com/dave-bailey",
+        "https://www.assemblydems.com/dave-bailey/",
+        "https://www.linkedin.com/in/dave-bailey-382969b",
+        "https://www.njleg.state.nj.us/legislative-roster/459/assemblyman-bailey",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "fantasia-dawn-nj-hd24",
+      "name": "Dawn Fantasia",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-24)",
+      "state": "NJ",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/790ac0bd-71fa-4446-b1fa-b013e4b4f33e"
+      },
+      "contact": {
+        "email": "aswfantasia@njleg.org",
+        "district_voice": "908-955-7429",
+        "website": "https://www.njassemblygop.com/222/Dawn-Fantasia"
+      },
+      "bio": {
+        "birth_date": "1974-01-02",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Dawn_Fantasia",
+        "https://en.wikipedia.org/wiki/Dawn_Fantasia",
+        "https://justfacts.votesmart.org/candidate/biography/211661/dawn-fantasia",
+        "https://www.linkedin.com/in/dawnfantasia",
+        "https://www.njassemblygop.com/222/Dawn-Fantasia",
+        "https://www.njassemblygop.com/fantasia",
+        "https://www.njleg.state.nj.us/legislative-roster/474/assemblywoman-fantasia",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "o-scanlon-declan-nj-sd13",
+      "name": "Declan O'Scanlon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-13)",
+      "state": "NJ",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ac044b70-7745-435a-9c38-c4af013d0b0e"
+      },
+      "contact": {
+        "email": "senoscanlon@njleg.org",
+        "district_voice": "732-444-1838",
+        "website": "https://oscanlon.senatenj.com/"
+      },
+      "bio": {
+        "birth_date": "1963-06-09",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/oscanlon_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Declan_O%27Scanlon,_Jr.",
+        "https://en.wikipedia.org/wiki/Declan_O%27Scanlon",
+        "https://justfacts.votesmart.org/candidate/biography/58171/declan-oscanlon-jr",
+        "https://www.linkedin.com/in/declan-o-scanlon-a028a96",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/394",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/394/senator-o'scanlon",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=394",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=394",
+        "https://www.senatenj.com/164/Declan-OScanlon---District-13",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "guardian-don-nj-hd2",
+      "name": "Don Guardian",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-2)",
+      "state": "NJ",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/df880b40-1e96-49d0-92bc-70732a1cce32"
+      },
+      "contact": {
+        "email": "asmguardian@njleg.org",
+        "district_voice": "609-677-8266",
+        "website": "https://www.njassemblygop.com/224/Donald-Guardian"
+      },
+      "bio": {
+        "birth_date": "1953-06-12",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Don_Guardian",
+        "https://en.wikipedia.org/wiki/Don_Guardian",
+        "https://justfacts.votesmart.org/candidate/161286/donald-guardian",
+        "https://www.njassemblygop.com/224/Donald-Guardian",
+        "https://www.njassemblygop.com/guardian",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/437",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/437/assemblyman-guardian",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "steinhardt-doug-nj-sd23",
+      "name": "Doug Steinhardt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-23)",
+      "state": "NJ",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2798197f-1516-44ef-9933-99e5b23f19c8"
+      },
+      "contact": {
+        "email": "sensteinhardt@njleg.org",
+        "district_voice": "908-835-0552",
+        "website": "https://steinhardt.senatenj.com/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Doug_Steinhardt",
+        "https://en.wikipedia.org/wiki/Doug_Steinhardt",
+        "https://justfacts.votesmart.org/candidate/biography/211289/douglas-steinhardt",
+        "https://www.linkedin.com/in/douglas-steinhardt-7b1532b",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/456",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/456/senator-steinhardt",
+        "https://www.senatenj.com/169/Doug-Steinhardt---District-23",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "rodriguez-ed-nj-hd20",
+      "name": "Ed Rodriguez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-20)",
+      "state": "NJ",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c17427d2-58a7-45f5-aa6c-a70ca914f8de"
+      },
+      "contact": {
+        "email": "asmrodriguez@njleg.org",
+        "district_voice": "908-445-7154",
+        "website": "https://njleg.state.nj.us/legislative-roster/503/assemblyman-rodriguez"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ed_Rodriguez_(New_Jersey)",
+        "https://njleg.state.nj.us/legislative-roster/503/assemblyman-rodriguez",
+        "https://www.assemblydems.com/399/Ed-Rodriguez---District-20",
+        "https://www.linkedin.com/in/eduardo-rodriguez-69885a3",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "pintor-marin-eliana-nj-hd29",
+      "name": "Eliana Pintor Marin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-29)",
+      "state": "NJ",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6056438b-65d3-4db4-b0ad-c367074bd47e"
+      },
+      "contact": {
+        "email": "aswpintormarin@njleg.org",
+        "district_voice": "973-589-0713",
+        "website": "https://www.assemblydems.com/173/Eliana-Pintor-Marin---District-29"
+      },
+      "bio": {
+        "birth_date": "1980-10-23",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/pintormarin_eliana_2017.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eliana_Pintor_Marin",
+        "https://en.wikipedia.org/wiki/Eliana_Pintor_Marin",
+        "https://justfacts.votesmart.org/candidate/biography/145240/eliana-pintor-marin",
+        "https://www.assemblydems.com/173/Eliana-Pintor-Marin---District-29",
+        "https://www.assemblydems.com/eliana-pintor-marin",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/362",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/362/assemblywoman-pintor-marin",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=362",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=362",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "park-ellen-nj-hd37",
+      "name": "Ellen Park",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-37)",
+      "state": "NJ",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e5da04d8-e25f-4ab3-a453-84e692fe89c4"
+      },
+      "contact": {
+        "email": "aswpark@njleg.org",
+        "district_voice": "201-308-7062",
+        "website": "https://www.assemblydems.com/206/Ellen-Park---District-37"
+      },
+      "bio": {
+        "birth_date": "1972-03-06",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ellen_Park",
+        "https://en.wikipedia.org/wiki/Ellen_Park",
+        "https://www.assemblydems.com/206/Ellen-Park---District-37",
+        "https://www.assemblydems.com/ellen-j-park",
+        "https://www.assemblydems.com/ellen-j-park/",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/453",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/453/assemblywoman-park",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "peterson-erik-nj-hd23",
+      "name": "Erik Peterson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-23)",
+      "state": "NJ",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/df6d2d1f-3fb0-4e93-93cf-26665cae9a23"
+      },
+      "contact": {
+        "email": "asmpeterson@njleg.org",
+        "district_voice": "908-238-0251",
+        "website": "https://www.njassemblygop.com/232/Erik-Peterson"
+      },
+      "bio": {
+        "birth_date": "1966-03-08",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/peterson_erik_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Erik_Peterson_(New_Jersey)",
+        "https://en.wikipedia.org/wiki/Erik_Peterson",
+        "https://en.wikipedia.org/wiki/Erik_Peterson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/90692/erik-peterson",
+        "https://www.njassemblygop.com/232/Erik-Peterson",
+        "https://www.njassemblygop.com/peterson",
+        "https://www.njassemblygop.com/peterson/",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/320",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/320/assemblyman-peterson",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=320",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=320",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "simonsen-erik-nj-hd1",
+      "name": "Erik Simonsen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-1)",
+      "state": "NJ",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7f9ebe1c-d4fa-4dd0-8948-7cf6248ffb6d"
+      },
+      "contact": {
+        "email": "asmsimonsen@njleg.org",
+        "district_voice": "609-778-2012",
+        "website": "https://www.njassemblygop.com/235/Erik-Simonsen"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.njleg.state.nj.us/members/memberphotos/simonsen_erik_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Erik_Simonsen",
+        "https://en.wikipedia.org/wiki/Erik_K._Simonsen",
+        "https://en.wikipedia.org/wiki/Erik_Simonsen_(politician)",
+        "https://justfacts.votesmart.org/candidate/186291/erik-simonsen",
+        "https://www.linkedin.com/in/asm-erik-simonsen-m-ed-59267929",
+        "https://www.njassemblygop.com/235/Erik-Simonsen",
+        "https://www.njassemblygop.com/simonsen",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/426",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/426/assemblyman-simonsen",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "rodriguez-gabe-nj-hd33",
+      "name": "Gabe Rodriguez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-33)",
+      "state": "NJ",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2078f4b2-3e69-4e01-aada-3ccf21ba6173"
+      },
+      "contact": {
+        "email": "asmrodriguez@njleg.org",
+        "district_voice": "201-223-4247",
+        "website": "https://www.assemblydems.com/223/Gabriel-Rodriguez---District-33"
+      },
+      "bio": {
+        "birth_date": "1978-12-06",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Gabriel_Rodriguez",
+        "https://en.wikipedia.org/wiki/Gabe_Rodriguez",
+        "https://justfacts.votesmart.org/candidate/biography/161653/gabriel-rodriguez",
+        "https://www.assemblydems.com/223/Gabriel-Rodriguez---District-33",
+        "https://www.assemblydems.com/gabriel-rodriguez",
+        "https://www.linkedin.com/in/gabriel-rodriguez-47b2438",
+        "https://www.linkedin.com/in/gabriel-rodriguez-emba-47b2438",
+        "https://www.njleg.state.nj.us/legislative-roster/489/assemblyman-rodriguez",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "schaer-gary-nj-hd36",
+      "name": "Gary Schaer",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-36)",
+      "state": "NJ",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/93a1a3ce-eb52-4e71-b01c-346f41b6bde4"
+      },
+      "contact": {
+        "email": "asmschaer@njleg.org",
+        "district_voice": "973-249-3665",
+        "website": "https://www.assemblydems.com/179/Gary-S-Schaer---District-36"
+      },
+      "bio": {
+        "birth_date": "1951-09-11",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/schaer_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gary_Schaer",
+        "https://en.wikipedia.org/wiki/Gary_Schaer",
+        "https://justfacts.votesmart.org/candidate/biography/58622/gary-schaer",
+        "https://www.assemblydems.com/179/Gary-S-Schaer---District-36",
+        "https://www.assemblydems.com/gary-schaer",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/258",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/258/assemblyman-schaer",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=258",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=258",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "scharfenberger-gerry-nj-hd13",
+      "name": "Gerry Scharfenberger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-13)",
+      "state": "NJ",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4323bf03-63e6-4f8b-9b2e-3554df7723bf"
+      },
+      "contact": {
+        "email": "asmscharfenberger@njleg.org",
+        "district_voice": "732-856-9294",
+        "website": "https://www.njassemblygop.com/234/Gerry-Scharfenberger"
+      },
+      "bio": {
+        "birth_date": "1958-11-29",
+        "gender": "Male"
+      },
+      "image": "http://www.njleg.state.nj.us/members/memberphotos/scharfenberger_gerard_2020a.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gerard_Scharfenberger",
+        "https://en.wikipedia.org/wiki/Gerard_Scharfenberger",
+        "https://justfacts.votesmart.org/candidate/biography/75413/gerard-scharfenberger",
+        "https://www.linkedin.com/in/gerry-scharfenberger-7a1a1228",
+        "https://www.njassemblygop.com/234/Gerry-Scharfenberger",
+        "https://www.njassemblygop.com/scharfenberger",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/422",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/422/assemblyman-scharfenberger",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=422",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-gordon-nj-sd37",
+      "name": "Gordon Johnson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-37)",
+      "state": "NJ",
+      "district": "SD-37",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/53fe6716-2bdb-4926-993f-4a2cf002ad51"
+      },
+      "contact": {
+        "email": "senjohnson@njleg.org",
+        "district_voice": "201-308-7060",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/434/senator-johnson"
+      },
+      "bio": {
+        "birth_date": "1949-12-16",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/johnson_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gordon_Johnson",
+        "https://en.wikipedia.org/wiki/Gordon_M._Johnson",
+        "https://justfacts.votesmart.org/candidate/55119/gordon-johnson",
+        "https://www.linkedin.com/in/gordon-johnson-10274012",
+        "https://www.linkedin.com/in/gordonmjohnson",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/434",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/434/senator-johnson",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=214",
+        "https://www.njsendems.org/senators/gordon-johnson",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "myhre-greg-nj-hd9",
+      "name": "Greg Myhre",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-9)",
+      "state": "NJ",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/85863833-b5e6-40f2-aafc-5a0fc5f790d0"
+      },
+      "contact": {
+        "email": "asmmyhre@njleg.org",
+        "district_voice": "732-678-1355",
+        "website": "https://www.njassemblygop.com/231/Gregory-Myhre"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Gregory_Myhre",
+        "https://en.wikipedia.org/wiki/Greg_Myhre",
+        "https://justfacts.votesmart.org/candidate/biography/211633/gregory-myhre",
+        "https://www.njassemblygop.com/231/Gregory-Myhre",
+        "https://www.njassemblygop.com/asm-myhre",
+        "https://www.njleg.state.nj.us/legislative-roster/466/assemblyman-myhre",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "mcguckin-greg-nj-hd10",
+      "name": "Greg McGuckin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-10)",
+      "state": "NJ",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2ac520a3-ae36-4936-a9c3-6842401b6c83"
+      },
+      "contact": {
+        "email": "asmmcguckin@njleg.org",
+        "district_voice": "732-840-9028",
+        "website": "https://www.njassemblygop.com/229/Gregory-McGuckin"
+      },
+      "bio": {
+        "birth_date": "1961-07-02",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/mcguckin_gregory_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gregory_McGuckin",
+        "https://en.wikipedia.org/wiki/Gregory_P._McGuckin",
+        "https://justfacts.votesmart.org/candidate/biography/76688/gregory-mcguckin",
+        "https://www.njassemblygop.com/229/Gregory-McGuckin",
+        "https://www.njassemblygop.com/McGuckin",
+        "https://www.njassemblygop.com/McGuckin/",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/341",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/341/assemblyman-mcguckin",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=341",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=341",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "simmons-heather-nj-hd3",
+      "name": "Heather Simmons",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-3)",
+      "state": "NJ",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5d619c98-5127-433c-99c6-adb888ab407b"
+      },
+      "contact": {
+        "email": "aswsimmons@njleg.org",
+        "district_voice": "856-226-3530",
+        "website": "https://www.assemblydems.com/159/Heather-Simmons---District-3"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Heather_Simmons",
+        "https://en.wikipedia.org/wiki/Heather_Simmons_(New_Jersey_politician)",
+        "https://justfacts.votesmart.org/candidate/133202/heather-simmons",
+        "https://www.assemblydems.com/159/Heather-Simmons---District-3",
+        "https://www.assemblydems.com/heather-simmons",
+        "https://www.linkedin.com/in/heather-simmons-b3288910",
+        "https://www.njleg.state.nj.us/legislative-roster/460/assemblywoman-simmons",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "schepisi-holly-nj-sd39",
+      "name": "Holly Schepisi",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-39)",
+      "state": "NJ",
+      "district": "SD-39",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/57fe7d05-af12-4f44-b143-e19814f2cfa2"
+      },
+      "contact": {
+        "email": "senschepisi@njleg.org",
+        "district_voice": "201-666-0881",
+        "website": "https://schepisi.senatenj.com/"
+      },
+      "bio": {
+        "birth_date": "1971-12-20",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/schepisi_holly_2021.jpg",
+      "sources": [
+        "https://ballotpedia.org/Holly_Schepisi",
+        "https://en.wikipedia.org/wiki/Holly_Schepisi",
+        "https://justfacts.votesmart.org/candidate/biography/134860/holly-schepisi",
+        "https://www.linkedin.com/in/holly-schepisi-78bb81",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/430",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/430/senator-schepisi",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=350",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=430",
+        "https://www.senatenj.com/167/Holly-Schepisi---District-39",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "beach-jim-nj-sd6",
+      "name": "Jim Beach",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-6)",
+      "state": "NJ",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/87714b2b-1868-4d3f-aa3f-a3d25db0fbc6"
+      },
+      "contact": {
+        "email": "senbeach@njleg.org",
+        "district_voice": "856-429-1572",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/310/senator-beach"
+      },
+      "bio": {
+        "birth_date": "1946-10-28",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/beach_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/James_Beach",
+        "https://en.wikipedia.org/wiki/James_Beach",
+        "https://justfacts.votesmart.org/candidate/biography/110944/james-beach",
+        "https://www.linkedin.com/in/james-beach-7010b58",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/310",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/310/senator-beach",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=310",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=310",
+        "https://www.njsendems.org/senators/james-beach",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "kennedy-jim-nj-hd22",
+      "name": "Jim Kennedy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-22)",
+      "state": "NJ",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d80f0df2-57cd-436b-a250-7413ec11fe27"
+      },
+      "contact": {
+        "email": "asmkennedy@njleg.org",
+        "district_voice": "732-943-2660",
+        "website": "https://www.assemblydems.com/195/James-J-Kennedy---District-22"
+      },
+      "bio": {
+        "birth_date": "1953-02-09",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/kennedy_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/James_J._Kennedy",
+        "https://en.wikipedia.org/wiki/James_J._Kennedy",
+        "https://justfacts.votesmart.org/candidate/biography/156538/james-kennedy",
+        "https://www.assemblydems.com/195/James-J-Kennedy---District-22",
+        "https://www.assemblydems.com/james-kennedy",
+        "https://www.linkedin.com/in/james-kennedy-4704b73a",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/381",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/381/assemblyman-kennedy",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=381",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=381",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "holzapfel-jim-nj-sd10",
+      "name": "Jim Holzapfel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-10)",
+      "state": "NJ",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/32e625c0-5e22-40b4-a6a3-4040d10e6ff0"
+      },
+      "contact": {
+        "email": "senholzapfel@njleg.org",
+        "district_voice": "732-840-9028",
+        "website": "https://holzapfel.senatenj.com/"
+      },
+      "bio": {
+        "birth_date": "1944-10-09",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/holzapfel_james_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/James_Holzapfel",
+        "https://en.wikipedia.org/wiki/James_W._Holzapfel",
+        "https://justfacts.votesmart.org/candidate/biography/4437/jim-holzapfel",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/334",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/334/senator-holzapfel",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=334",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=334",
+        "https://www.senatenj.com/163/Jim-Holzapfel---District-10",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "webber-jay-nj-hd26",
+      "name": "Jay Webber",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-26)",
+      "state": "NJ",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dbe67894-e4cd-46ea-bb59-877a8b4f26d0"
+      },
+      "contact": {
+        "email": "asmwebber@njleg.org",
+        "district_voice": "973-917-3420",
+        "website": "https://www.njassemblygop.com/238/Jay-Webber"
+      },
+      "bio": {
+        "birth_date": "1972-02-29",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/webber_jay_2019.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jay_Webber",
+        "https://en.wikipedia.org/wiki/Jay_Webber",
+        "https://justfacts.votesmart.org/candidate/biography/43279/jay-webber",
+        "https://www.linkedin.com/in/jay-webber-614b3989",
+        "https://www.njassemblygop.com/238/Jay-Webber",
+        "https://www.njassemblygop.com/webber",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/283",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/283/assemblyman-webber",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=283",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=283",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "walker-jerry-nj-hd31",
+      "name": "Jerry Walker",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-31)",
+      "state": "NJ",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cbdafb85-539d-4ef4-a3ee-30f4985969fa"
+      },
+      "contact": {
+        "email": "asmwalker@njleg.org",
+        "district_voice": "201-451-5100",
+        "website": "https://njleg.state.nj.us/legislative-roster/508/assemblyman-walker"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jerry_Walker_(New_Jersey)",
+        "https://justfacts.votesmart.org/candidate/biography/186428/jerry-walker",
+        "https://njleg.state.nj.us/legislative-roster/508/assemblyman-walker",
+        "https://www.assemblydems.com/405/Jerry-Walker---District-31",
+        "https://www.hcnj.us/countycommissioners/bio-jerry-walker",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "danielsen-joe-nj-hd17",
+      "name": "Joe Danielsen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-17)",
+      "state": "NJ",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/03acbfd3-a81b-4461-aff4-db7ecf5e8e48"
+      },
+      "contact": {
+        "email": "asmdanielsen@njleg.org",
+        "district_voice": "732-247-3999",
+        "website": "https://www.assemblydems.com/181/Joseph-Danielsen---District-17"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/danielsen_joe_2021.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Danielsen",
+        "https://en.wikipedia.org/wiki/Joseph_Danielsen",
+        "https://justfacts.votesmart.org/candidate/biography/155852/joseph-danielsen",
+        "https://www.assemblydems.com/181/Joseph-Danielsen---District-17",
+        "https://www.assemblydems.com/joseph-danielsen",
+        "https://www.linkedin.com/in/joseph-danielsen-2a36569",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/370",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/370/assemblyman-danielsen",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=370",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=370",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "azzariti-john-nj-hd39",
+      "name": "John Azzariti",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-39)",
+      "state": "NJ",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86641d6d-4538-453d-974f-aec40c42a33d"
+      },
+      "contact": {
+        "email": "asmazzariti@njleg.org",
+        "district_voice": "201-666-0881",
+        "website": "https://www.njassemblygop.com/217/John-Azzariti"
+      },
+      "bio": {
+        "birth_date": "1966-02-01",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/John_Azzariti",
+        "https://en.wikipedia.org/wiki/John_V._Azzariti",
+        "https://johnazzariti.com/meetjohn",
+        "https://justfacts.votesmart.org/candidate/biography/196168/john-azzariti-jr",
+        "https://www.njassemblygop.com/217/John-Azzariti",
+        "https://www.njassemblygop.com/asm-azzariti",
+        "https://www.njleg.state.nj.us/legislative-roster/493/assemblyman-azzariti",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "dimaio-john-nj-hd23",
+      "name": "John DiMaio",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-23)",
+      "state": "NJ",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dce6ec3a-7d62-4b33-8693-259364c85285"
+      },
+      "contact": {
+        "email": "asmdimaio@njleg.org",
+        "district_voice": "908-684-9550",
+        "website": "https://www.njassemblygop.com/211/John-DiMaio"
+      },
+      "bio": {
+        "birth_date": "1955-11-27",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/dimaio_john_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_DiMaio",
+        "https://en.wikipedia.org/wiki/John_DiMaio",
+        "https://justfacts.votesmart.org/candidate/biography/58033/john-dimaio",
+        "https://www.linkedin.com/in/john-dimaio-46491048",
+        "https://www.njassemblygop.com/211/John-DiMaio",
+        "https://www.njassemblygop.com/dimaio",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/313",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/313/assemblyman-dimaio",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=313",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=313",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "mckeon-john-nj-sd27",
+      "name": "John McKeon",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-27)",
+      "state": "NJ",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1fec06e0-00df-4d84-8c9a-18e80a6f29e2"
+      },
+      "contact": {
+        "email": "senmckeon@njleg.org",
+        "district_voice": "862-930-7071",
+        "website": "https://www.assemblydems.com/john-mckeon/"
+      },
+      "bio": {
+        "birth_date": "1958-06-03",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/mckeon_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_McKeon",
+        "https://ballotpedia.org/John_McKeon_(New_Jersey)",
+        "https://en.wikipedia.org/wiki/John_F._McKeon",
+        "https://justfacts.votesmart.org/candidate/biography/55071/john-mckeon",
+        "https://www.linkedin.com/in/john-mckeon-7bb671168",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/207",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/207/assemblyman-mckeon",
+        "https://www.njleg.state.nj.us/legislative-roster/478/senator-mckeon",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=207",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=207",
+        "https://www.njsendems.org/203/John-F-McKeon",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "burzichelli-john-nj-sd3",
+      "name": "John Burzichelli",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-3)",
+      "state": "NJ",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1b726d76-851a-487b-a6e6-42ee4fa5c050"
+      },
+      "contact": {
+        "email": "senburzichelli@njleg.org",
+        "district_voice": "856-226-3530",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/458/senator-burzichelli"
+      },
+      "bio": {
+        "birth_date": "1954-11-14",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/burzichelli_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Burzichelli",
+        "https://en.wikipedia.org/wiki/John_J._Burzichelli",
+        "https://justfacts.votesmart.org/candidate/biography/22547/john-burzichelli",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster/458/senator-burzichelli",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=200",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=200",
+        "https://www.njsendems.org/179/John-J-Burzichelli",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "bramnick-jon-nj-sd21",
+      "name": "Jon Bramnick",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-21)",
+      "state": "NJ",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/08a758f9-92fb-4e59-ac8f-edc75aaf3390"
+      },
+      "contact": {
+        "email": "senbramnick@njleg.org",
+        "district_voice": "908-232-2073",
+        "website": "https://bramnick.senatenj.com/"
+      },
+      "bio": {
+        "birth_date": "1953-02-24",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jon_Bramnick",
+        "https://en.wikipedia.org/wiki/Jon_Bramnick",
+        "https://justfacts.votesmart.org/candidate/biography/43406/jon-bramnick",
+        "https://www.jonbramnick.com/attorney-profiles/jon-m-bramnick",
+        "https://www.linkedin.com/in/jon-bramnick-6a78a053",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/433",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/433/senator-bramnick",
+        "https://www.senatenj.com/160/Jon-Bramnick--District-21",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "lagana-joe-nj-sd38",
+      "name": "Joe Lagana",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-38)",
+      "state": "NJ",
+      "district": "SD-38",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/90a0a109-2ce3-4a55-8761-1e07ff875703"
+      },
+      "contact": {
+        "email": "senlagana@njleg.org",
+        "district_voice": "201-576-9199",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/411/senator-lagana"
+      },
+      "bio": {
+        "birth_date": "1978-12-15",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/lagana_joseph_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Lagana",
+        "https://en.wikipedia.org/wiki/Joseph_Lagana",
+        "https://justfacts.votesmart.org/candidate/biography/145269/joseph-lagana",
+        "https://www.linkedin.com/in/joe-lagana-77b9552b",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/411",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/411/senator-lagana",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=411",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=411",
+        "https://www.njsendems.org/senators/joseph-lagana",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "vitale-joe-nj-sd19",
+      "name": "Joe Vitale",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-19)",
+      "state": "NJ",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/97fba3ff-adc8-4323-bf77-37acfe18b735"
+      },
+      "contact": {
+        "email": "senvitale@njleg.org",
+        "district_voice": "732-855-7441",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/175/senator-vitale"
+      },
+      "bio": {
+        "birth_date": "1954-11-10",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/vitale_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Vitale",
+        "https://en.wikipedia.org/wiki/Joe_F._Vitale",
+        "https://justfacts.votesmart.org/candidate/biography/24731/joseph-vitale",
+        "https://www.linkedin.com/in/joe-vitale-209b074",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/175",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/175/senator-vitale",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=175",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=175",
+        "https://www.njsendems.org/163/Joseph-F-Vitale",
+        "https://www.njsendems.org/category/senator/joseph-vitale",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "cryan-joe-nj-sd20",
+      "name": "Joe Cryan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-20)",
+      "state": "NJ",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5dcef6ac-7dbe-4c65-a53b-670c89a615e7"
+      },
+      "contact": {
+        "email": "sencryan@njleg.org",
+        "district_voice": "908-624-0880",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/406/senator-cryan"
+      },
+      "bio": {
+        "birth_date": "1961-09-01",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/cryan_joseph_2017.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Cryan",
+        "https://en.wikipedia.org/wiki/Joseph_Cryan",
+        "https://justfacts.votesmart.org/candidate/biography/55122/joe-cryan",
+        "https://www.linkedin.com/in/joecryan",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/406",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/406/senator-cryan",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=406",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=406",
+        "https://www.njsendems.org/senators/joseph-cryan",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "pennacchio-joe-nj-sd26",
+      "name": "Joe Pennacchio",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-26)",
+      "state": "NJ",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4bf4c8e4-5a97-4100-b34d-cb01da6ab266"
+      },
+      "contact": {
+        "email": "senpennacchio@njleg.org",
+        "district_voice": "973-227-4012",
+        "website": "https://pennacchio.senatenj.com/"
+      },
+      "bio": {
+        "birth_date": "1955-05-27",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/pennacchio_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Pennacchio",
+        "https://en.wikipedia.org/wiki/Joseph_Pennacchio",
+        "https://justfacts.votesmart.org/candidate/biography/55025/joseph-pennacchio",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/305",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/305/senator-pennacchio",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=305",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=305",
+        "https://www.senatenj.com/165/Joe-Pennacchio---District-26",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "brennan-katie-nj-hd32",
+      "name": "Katie Brennan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-32)",
+      "state": "NJ",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a04dc132-6a91-4e1b-a336-ede062d06884"
+      },
+      "contact": {
+        "email": "aswbrennan@njleg.org",
+        "district_voice": "551-256-7022",
+        "website": "https://njleg.state.nj.us/legislative-roster/510/assemblywoman-brennan"
+      },
+      "bio": {
+        "birth_date": "1987-06-24",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Katie_Brennan",
+        "https://en.wikipedia.org/wiki/Katie_Brennan_(politician)",
+        "https://njleg.state.nj.us/legislative-roster/510/assemblywoman-brennan",
+        "https://www.assemblydems.com/403/Katie-Brennan---District-32",
+        "https://www.linkedin.com/in/brennankatherine",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "stewart-kenyatta-nj-hd35",
+      "name": "Kenyatta Stewart",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-35)",
+      "state": "NJ",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0bf3c2a3-9004-40cb-8d3a-eeeca4b0b967"
+      },
+      "contact": {
+        "email": "asmstewart@njleg.org",
+        "district_voice": "973-925-7063",
+        "website": "https://njleg.state.nj.us/legislative-roster/512/assemblyman-stewart"
+      },
+      "bio": {
+        "birth_date": "1980-11-02",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kenyatta_Stewart",
+        "https://en.wikipedia.org/wiki/Kenyatta_Stewart",
+        "https://njleg.state.nj.us/legislative-roster/512/assemblyman-stewart",
+        "https://www.assemblydems.com/408/Kenyatta-Stewart---District-35",
+        "https://www.linkedin.com/in/kenyatta-stewart-432ba2354",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "egan-kevin-nj-hd17",
+      "name": "Kevin Egan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-17)",
+      "state": "NJ",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/59c25089-5752-4eb9-a96b-a005c1c46743"
+      },
+      "contact": {
+        "email": "asmegan@njleg.org",
+        "district_voice": "732-249-4550",
+        "website": "https://www.assemblydems.com/182/Kevin-P-Egan---District-17"
+      },
+      "bio": {
+        "birth_date": "1964-06-02",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kevin_Egan",
+        "https://en.wikipedia.org/wiki/Kevin_Egan_(New_Jersey_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/133034/kevin-egan",
+        "https://www.assemblydems.com/182/Kevin-P-Egan---District-17",
+        "https://www.assemblydems.com/kevin-egan",
+        "https://www.njleg.state.nj.us/legislative-roster/495/assemblyman-egan",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "corrado-kristin-nj-sd40",
+      "name": "Kristin Corrado",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-40)",
+      "state": "NJ",
+      "district": "SD-40",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0880a4b0-8e91-484b-aa12-6e0444838c44"
+      },
+      "contact": {
+        "email": "sencorrado@njleg.org",
+        "district_voice": "973-237-1360",
+        "website": "https://corrado.senatenj.com/"
+      },
+      "bio": {
+        "birth_date": "1965-06-24",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/corrado_kristin_2017.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kristin_Corrado",
+        "https://en.wikipedia.org/wiki/Kristin_Corrado",
+        "https://justfacts.votesmart.org/candidate/biography/176310/kristin-corrado",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/392",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/392/senator-corrado",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=392",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=392",
+        "https://www.senatenj.com/161/Kristin-Corrado---District-40",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "wainstein-larry-nj-hd33",
+      "name": "Larry Wainstein",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-33)",
+      "state": "NJ",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/036d00b8-5e0b-4bc0-ae46-f0bf5e1b9a73"
+      },
+      "contact": {
+        "email": "asmwainstein@njleg.org",
+        "district_voice": "201-305-5139",
+        "website": "https://njleg.state.nj.us/legislative-roster/511/assemblyman-wainstein"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Larry_Wainstein",
+        "https://en.wikipedia.org/wiki/Larry_Wainstein",
+        "https://njleg.state.nj.us/legislative-roster/511/assemblyman-wainstein",
+        "https://www.assemblydems.com/407/Larry-Wainstein---District-33",
+        "https://www.linkedin.com/in/larry-wainstein-674a482b",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "tiver-latham-nj-sd8",
+      "name": "Latham Tiver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-8)",
+      "state": "NJ",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0e989cd5-91f8-4595-8346-bbac4f3d2c9e"
+      },
+      "contact": {
+        "email": "sentiver@njleg.org",
+        "district_voice": "856-817-2143",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/464/senator-tiver"
+      },
+      "bio": {
+        "birth_date": "1973-07-05",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Latham_Tiver",
+        "https://en.wikipedia.org/wiki/Latham_Tiver",
+        "https://justfacts.votesmart.org/candidate/175222/latham-tiver",
+        "https://www.njleg.state.nj.us/legislative-roster/464/senator-tiver",
+        "https://www.senatenj.com/201/Latham-Tiver---District-8",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "greenstein-linda-nj-sd14",
+      "name": "Linda Greenstein",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-14)",
+      "state": "NJ",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/27646653-40e2-4c79-b608-0f2edcaa0322"
+      },
+      "contact": {
+        "email": "sengreenstein@njleg.org",
+        "district_voice": "609-395-9911",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/329/senator-greenstein"
+      },
+      "bio": {
+        "birth_date": "1950-06-07",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/greenstein_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Linda_Greenstein",
+        "https://en.wikipedia.org/wiki/Linda_R._Greenstein",
+        "https://justfacts.votesmart.org/candidate/biography/22544/linda-greenstein",
+        "https://www.linkedin.com/in/linda-greenstein-15749330",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/329",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/329/senator-greenstein",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=329",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=329",
+        "https://www.njsendems.org/senators/linda-greenstein",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "carter-linda-nj-hd22",
+      "name": "Linda Carter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-22)",
+      "state": "NJ",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/199dd5c8-3ef1-4a2c-9585-9de5def27e98"
+      },
+      "contact": {
+        "email": "aswcarter@njleg.org",
+        "district_voice": "908-561-5757",
+        "website": "https://www.assemblydems.com/194/Linda-S-Carter---District-22"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/carter_linda_2018a.jpg",
+      "sources": [
+        "https://ballotpedia.org/Linda_Carter_(New_Jersey)",
+        "https://en.wikipedia.org/wiki/Linda_Carter_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/76507/linda-carter",
+        "https://www.assemblydems.com/194/Linda-S-Carter---District-22",
+        "https://www.assemblydems.com/linda-carter",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/414",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/414/assemblywoman-carter",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=414",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=414",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "swain-lisa-nj-hd38",
+      "name": "Lisa Swain",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-38)",
+      "state": "NJ",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/28b4c7d2-d1c3-4735-b321-0f348ec27299"
+      },
+      "contact": {
+        "email": "aswswain@njleg.org",
+        "district_voice": "201-576-9199",
+        "website": "https://www.assemblydems.com/193/Lisa-Swain---District-38"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/swain_lisa_2018a.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Swain",
+        "https://en.wikipedia.org/wiki/Lisa_Swain",
+        "https://justfacts.votesmart.org/candidate/biography/75977/lisa-swain",
+        "https://www.assemblydems.com/193/Lisa-Swain---District-38",
+        "https://www.assemblydems.com/lisa-swain",
+        "https://www.linkedin.com/in/lisa-swain-155433a",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/413",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/413/assemblywoman-swain",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=413",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=413",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "greenwald-lou-nj-hd6",
+      "name": "Lou Greenwald",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-6)",
+      "state": "NJ",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a27823aa-f5a9-4d6c-8089-1d8ceee6f8e0"
+      },
+      "contact": {
+        "email": "asmgreenwald@njleg.org",
+        "district_voice": "856-435-1247",
+        "website": "https://nj-newjerseylegislativead.civicplus.com/165/Louis-D-Greenwald---District-6"
+      },
+      "bio": {
+        "birth_date": "1967-03-11",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/greenwald_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Louis_Greenwald",
+        "https://en.wikipedia.org/wiki/Louis_Greenwald",
+        "https://justfacts.votesmart.org/candidate/biography/8136/lou-greenwald",
+        "https://nj-newjerseylegislativead.civicplus.com/165/Louis-D-Greenwald---District-6",
+        "https://www.assemblydems.com/louis-greenwald",
+        "https://www.assemblydems.com/louis-greenwald/",
+        "https://www.linkedin.com/in/louis-d-greenwald-1a5a2039",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/155",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/155/assemblyman-greenwald",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=155",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=155",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "peterpaul-luanne-nj-hd11",
+      "name": "Luanne Peterpaul",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-11)",
+      "state": "NJ",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/589a73bd-a164-472a-8b50-4b4d0846cd24"
+      },
+      "contact": {
+        "email": "aswpeterpaul@njleg.org",
+        "district_voice": "732-704-3808",
+        "website": "https://www.assemblydems.com/172/Luanne-M-Peterpaul---District-11"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Luanne_Peterpaul",
+        "https://en.wikipedia.org/wiki/Luanne_Peterpaul",
+        "https://justfacts.votesmart.org/candidate/211636/luanne-peterpaul",
+        "https://peterpaullaw.com/meet-the-team",
+        "https://www.assemblydems.com/172/Luanne-M-Peterpaul---District-11",
+        "https://www.assemblydems.com/luanne-peterpaul",
+        "https://www.linkedin.com/in/luanne-peterpaul-267049a",
+        "https://www.njleg.state.nj.us/legislative-roster/469/assemblywoman-peterpaul",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "ruiz-teresa-nj-sd29",
+      "name": "Teresa Ruiz",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-29)",
+      "state": "NJ",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/907aae0b-1026-405a-9429-cadd01efd79d"
+      },
+      "contact": {
+        "email": "senruiz@njleg.org",
+        "district_voice": "973-484-1000",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/287/senator-ruiz"
+      },
+      "bio": {
+        "birth_date": "1974-06-28",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/ruiz_teresa_2021.jpg",
+      "sources": [
+        "https://ballotpedia.org/Teresa_Ruiz",
+        "https://ballotpedia.org/Teresa_Ruiz_(New_Jersey)",
+        "https://en.wikipedia.org/wiki/Teresa_Ruiz_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/69688/teresa-ruiz",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/287",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/287/senator-ruiz",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=287",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=287",
+        "https://www.njsendems.org/senators/m-teresa-ruiz",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "donlon-margie-nj-hd11",
+      "name": "Margie Donlon",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-11)",
+      "state": "NJ",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/78ee83b9-ead4-4a03-89e7-f976d0454408"
+      },
+      "contact": {
+        "email": "aswdonlon@njleg.org",
+        "district_voice": "732-704-3808",
+        "website": "https://www.assemblydems.com/171/Margie-M-Donlon---District-11"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Margie_Donlon",
+        "https://en.wikipedia.org/wiki/Margie_Donlon",
+        "https://justfacts.votesmart.org/candidate/211635/margie-donlon",
+        "https://www.assemblydems.com/171/Margie-M-Donlon---District-11",
+        "https://www.assemblydems.com/margie-donlon",
+        "https://www.linkedin.com/in/margie-donlon-2612782b",
+        "https://www.njleg.state.nj.us/legislative-roster/468/assemblywoman-donlon",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "sweeney-marisa-nj-hd25",
+      "name": "Marisa Sweeney",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-25)",
+      "state": "NJ",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/028a440f-10cb-49cc-9417-1dfd0cff83e2"
+      },
+      "contact": {
+        "email": "aswsweeney@njleg.org",
+        "district_voice": "973-933-2124",
+        "website": "https://njleg.state.nj.us/legislative-roster/506/assemblywoman-sweeney"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Marisa_Sweeney",
+        "https://en.wikipedia.org/wiki/Marisa_Sweeney",
+        "https://njleg.state.nj.us/legislative-roster/506/assemblywoman-sweeney",
+        "https://www.assemblydems.com/402/Marisa-Sweeney---District-25",
+        "https://www.linkedin.com/in/marisasweeney",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "rowan-maureen-nj-hd2",
+      "name": "Maureen Rowan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-2)",
+      "state": "NJ",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/af1dfa82-2c03-4b0c-bf63-1eef9e8b6616"
+      },
+      "contact": {
+        "email": "aswrowan@njleg.org",
+        "district_voice": "609-241-1905",
+        "website": "https://njleg.state.nj.us/legislative-roster/501/assemblywoman-rowan"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Maureen_Rowan",
+        "https://en.wikipedia.org/wiki/Maureen_Rowan",
+        "https://njleg.state.nj.us/legislative-roster/501/assemblywoman-rowan",
+        "https://www.assemblydems.com/397/Maureen-Rowan---District-2",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "kane-melinda-nj-hd6",
+      "name": "Melinda Kane",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-6)",
+      "state": "NJ",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a33ec105-c8ff-446b-ae8b-1a79f402f983"
+      },
+      "contact": {
+        "email": "aswkane@njleg.org",
+        "district_voice": "856-435-1247",
+        "website": "https://www.assemblydems.com/387/Melinda-Kane---District-6"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/168239.jpg",
+      "sources": [
+        "https://ballotpedia.org/Melinda_Kane",
+        "https://en.wikipedia.org/wiki/Melinda_Kane",
+        "https://justfacts.votesmart.org/candidate/biography/161726/melinda-kane",
+        "https://www.assemblydems.com/387/Melinda-Kane---District-6",
+        "https://www.njleg.state.nj.us/legislative-roster/497/assemblywoman-kane",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "testa-mike-nj-sd1",
+      "name": "Mike Testa",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-1)",
+      "state": "NJ",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4cb8db73-8982-4b4f-9c90-f86b20b217bc"
+      },
+      "contact": {
+        "email": "sentesta@njleg.org",
+        "district_voice": "609-778-2012",
+        "website": "https://testa.senatenj.com/testa.php"
+      },
+      "bio": {
+        "birth_date": "1976-05-01",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/testa_michael_2019.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Testa_Jr.",
+        "https://en.wikipedia.org/wiki/Mike_Testa",
+        "https://justfacts.votesmart.org/candidate/186423/mike-testa-jr",
+        "https://testa.senatenj.com/testa.php",
+        "https://www.linkedin.com/in/michael-testa-jr-b2266aa3",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/424",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/424/senator-testa",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=424",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=424",
+        "https://www.senatenj.com/170/Michael-Testa---District-1",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "inganamort-mike-nj-hd24",
+      "name": "Mike Inganamort",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-24)",
+      "state": "NJ",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9228b053-be5e-4490-aadc-ece59b7421fd"
+      },
+      "contact": {
+        "email": "asminganamort@njleg.org",
+        "district_voice": "908-955-7429",
+        "website": "https://www.njassemblygop.com/225/Michael-Inganamort"
+      },
+      "bio": {
+        "birth_date": "1984-02-14",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Michael_Inganamort",
+        "https://en.wikipedia.org/wiki/Mike_Inganamort",
+        "https://justfacts.votesmart.org/candidate/biography/211662/michael-inganamort",
+        "https://www.linkedin.com/in/mikeinganamort",
+        "https://www.njassemblygop.com/225/Michael-Inganamort",
+        "https://www.njassemblygop.com/asm-inganamort",
+        "https://www.njleg.state.nj.us/legislative-roster/475/assemblyman-inganamort",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "venezia-mike-nj-hd34",
+      "name": "Mike Venezia",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-34)",
+      "state": "NJ",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/96eb992c-0f0c-4db5-b146-76349604f4d3"
+      },
+      "contact": {
+        "email": "asmvenezia@njleg.org",
+        "district_voice": "973-893-5869",
+        "website": "https://www.assemblydems.com/238/Michael-Venezia---District-34"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Michael_Venezia",
+        "https://bloomfieldtownnj.iqm2.com/Citizens/Detail_BoardMember.aspx?ID=1024",
+        "https://en.wikipedia.org/wiki/Michael_Venezia_(New_Jersey_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/133320/michael-venezia",
+        "https://www.assemblydems.com/238/Michael-Venezia---District-34",
+        "https://www.linkedin.com/in/michael-venezia-26766b58",
+        "https://www.njleg.state.nj.us/legislative-roster/492/assemblyman-venezia",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "drulis-mitchelle-nj-hd16",
+      "name": "Mitchelle Drulis",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-16)",
+      "state": "NJ",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/97251dd4-e275-4347-a757-a05366fa5013"
+      },
+      "contact": {
+        "email": "aswdrulis@njleg.org",
+        "district_voice": "908-968-4329",
+        "website": "https://www.assemblydems.com/178/Mitchelle-Drulis---District-16"
+      },
+      "bio": {
+        "birth_date": "1973-02-14",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mitchelle_Drulis",
+        "https://en.wikipedia.org/wiki/Mitchelle_Drulis",
+        "https://justfacts.votesmart.org/candidate/biography/211642/mitchelle-drulis",
+        "https://www.assemblydems.com/178/Mitchelle-Drulis---District-16",
+        "https://www.assemblydems.com/mitchelle-drulis",
+        "https://www.linkedin.com/in/mitchelle-drulis-9bbb516",
+        "https://www.njleg.state.nj.us/legislative-roster/472/assemblywoman-drulis",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "scutari-nick-nj-sd22",
+      "name": "Nick Scutari",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-22)",
+      "state": "NJ",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d47b297-b5f4-4d83-94e6-bb95eb91ecd7"
+      },
+      "contact": {
+        "email": "senscutari@njleg.org",
+        "district_voice": "732-827-7480",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/237/senator-scutari"
+      },
+      "bio": {
+        "birth_date": "1968-11-18",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/scutari_nicholas_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nicholas_Scutari",
+        "https://en.wikipedia.org/wiki/Nicholas_Scutari",
+        "https://justfacts.votesmart.org/candidate/biography/43083/nicholas-scutari",
+        "https://www.linkedin.com/in/nicholas-scutari-1244269b",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/237",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/237/senator-scutari",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=237",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=237",
+        "https://www.njsendems.org/senators/nicholas-p-scutari",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "cruz-perez-nilsa-nj-sd5",
+      "name": "Nilsa Cruz-Perez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-5)",
+      "state": "NJ",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b656905a-de58-4d36-b433-276788233b1f"
+      },
+      "contact": {
+        "email": "sencruzperez@njleg.org",
+        "district_voice": "856-853-2960",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/371/senator-cruz-perez"
+      },
+      "bio": {
+        "birth_date": "1961-01-21",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/cruzperez_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nilsa_Cruz-Perez",
+        "https://en.wikipedia.org/wiki/Nilsa_Cruz-Perez",
+        "https://www.linkedin.com/in/nilsa-cruz-perez-2660274b",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/371",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/371/senator-cruz-perez",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=371",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=371",
+        "https://www.njsendems.org/senators/nilsa-cruz-perez",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "henry-owen-nj-sd12",
+      "name": "Owen Henry",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-12)",
+      "state": "NJ",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fee23b32-9f92-4951-889e-6d09749a78b9"
+      },
+      "contact": {
+        "email": "senhenry@njleg.org",
+        "district_voice": "732-607-7580",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/470/senator-henry"
+      },
+      "bio": {
+        "birth_date": "1959-05-30",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Owen_Henry",
+        "https://en.wikipedia.org/wiki/Owen_Henry",
+        "https://justfacts.votesmart.org/candidate/162039/owen-henry",
+        "https://www.linkedin.com/in/owen-henry-11826269",
+        "https://www.njleg.state.nj.us/legislative-roster/470/senator-henry",
+        "https://www.senatenj.com/177/Owen-Henry---District-12",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "tully-chris-nj-hd38",
+      "name": "Chris Tully",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-38)",
+      "state": "NJ",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/934c3022-709b-4768-b2df-635d25579128"
+      },
+      "contact": {
+        "email": "asmtully@njleg.org",
+        "district_voice": "201-576-9199",
+        "website": "https://www.assemblydems.com/211/Christopher-Tully---District-38"
+      },
+      "bio": {
+        "birth_date": "1982-03-31",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/tully_christopher_2018b.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Tully",
+        "https://en.wikipedia.org/wiki/Chris_Tully",
+        "https://justfacts.votesmart.org/candidate/biography/181776/chris-tully",
+        "https://www.assemblydems.com/211/Christopher-Tully---District-38",
+        "https://www.assemblydems.com/p-christopher-tully",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/412",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/412/assemblyman-tully",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=412",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=412",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "space-parker-nj-sd24",
+      "name": "Parker Space",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-24)",
+      "state": "NJ",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1dde507a-70ed-4f89-95f8-cd11748a753c"
+      },
+      "contact": {
+        "email": "senspace@njleg.org",
+        "district_voice": "973-300-0200",
+        "website": "https://www.njassemblygop.com/space/"
+      },
+      "bio": {
+        "birth_date": "1968-12-04",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/space_parker_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Parker_Space",
+        "https://en.wikipedia.org/wiki/Parker_Space",
+        "https://justfacts.votesmart.org/candidate/biography/133246/parker-space",
+        "https://www.linkedin.com/in/parker-space-a8757a29",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/358",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/358/assemblyman-space",
+        "https://www.njleg.state.nj.us/legislative-roster/473/senator-space",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=358",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=358",
+        "https://www.senatenj.com/158/202/Parker-Space---District-24",
+        "https://www.senatenj.com/202/Parker-Space---District-24",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "diegnan-patrick-nj-sd18",
+      "name": "Patrick Diegnan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-18)",
+      "state": "NJ",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/16048732-130c-4102-b6e7-2d8faa0c3f52"
+      },
+      "contact": {
+        "email": "sendiegnan@njleg.org",
+        "district_voice": "908-757-1677",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/387/senator-diegnan"
+      },
+      "bio": {
+        "birth_date": "1949-03-19",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/diegnan_2017.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patrick_Diegnan,_Jr.",
+        "https://en.wikipedia.org/wiki/Patrick_J._Diegnan",
+        "https://justfacts.votesmart.org/candidate/biography/55104/patrick-diegnan-jr",
+        "https://www.linkedin.com/in/patrick-diegnan-46969938",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/387",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/387/senator-diegnan",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=387",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=387",
+        "https://www.njsendems.org/senators/patrick-j-diegnanjr",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "sarlo-paul-nj-sd36",
+      "name": "Paul Sarlo",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-36)",
+      "state": "NJ",
+      "district": "SD-36",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1d8eb6cf-cff2-4948-ba03-7f31fcadd4ec"
+      },
+      "contact": {
+        "email": "sensarlo@njleg.org",
+        "district_voice": "201-804-8118",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/223/senator-sarlo"
+      },
+      "bio": {
+        "birth_date": "1968-08-31",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/sarlo_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paul_Sarlo",
+        "https://en.wikipedia.org/wiki/Paul_Sarlo",
+        "https://justfacts.votesmart.org/candidate/biography/55139/paul-sarlo",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/223",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/223/senator-sarlo",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=223",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=223",
+        "https://www.njsendems.org/senators/paul-a-sarlo",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "moriarty-paul-nj-sd4",
+      "name": "Paul Moriarty",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-4)",
+      "state": "NJ",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f15f8b7e-96ee-41e8-b59c-b277927985c0"
+      },
+      "contact": {
+        "email": "senmoriarty@njleg.org",
+        "district_voice": "856-401-3073",
+        "website": "https://www.assemblydems.com/paul-moriarty/"
+      },
+      "bio": {
+        "birth_date": "1956-09-25",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/moriarty_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paul_Moriarty_(New_Jersey)",
+        "https://en.wikipedia.org/wiki/Paul_D._Moriarty",
+        "https://justfacts.votesmart.org/candidate/biography/58078/paul-moriarty",
+        "https://www.linkedin.com/in/paul-moriarty-ab244a2",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/250",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/250/assemblyman-moriarty",
+        "https://www.njleg.state.nj.us/legislative-roster/461/senator-moriarty",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=250",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=250",
+        "https://www.njsendems.org/180/Paul-D-Moriarty",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "kanitra-paul-nj-hd10",
+      "name": "Paul Kanitra",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-10)",
+      "state": "NJ",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e4c2301b-6812-423e-b27a-c40919f4bd5d"
+      },
+      "contact": {
+        "email": "asmkanitra@njleg.org",
+        "district_voice": "732-840-9028",
+        "website": "https://www.njassemblygop.com/226/Paul-Kanitra"
+      },
+      "bio": {
+        "birth_date": "1979-08-02",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Paul_Kanitra",
+        "https://en.wikipedia.org/wiki/Paul_Kanitra",
+        "https://justfacts.votesmart.org/candidate/biography/211634/paul-kanitra",
+        "https://lobbyit.com",
+        "https://lobbyit.com/paul-kanitra",
+        "https://www.linkedin.com/in/pmkanitra",
+        "https://www.njassemblygop.com/226/Paul-Kanitra",
+        "https://www.njassemblygop.com/kanitra",
+        "https://www.njleg.state.nj.us/legislative-roster/467/assemblyman-kanitra",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "mukherji-raj-nj-sd32",
+      "name": "Raj Mukherji",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-32)",
+      "state": "NJ",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fe8bf5e4-85ed-423b-b2d8-301f29d3faea"
+      },
+      "contact": {
+        "email": "senmukherji@njleg.org",
+        "district_voice": "201-626-4000",
+        "website": "https://www.assemblydems.com/raj-mukherji/"
+      },
+      "bio": {
+        "birth_date": "1984-07-15",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/mukherji_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Raj_Mukherji",
+        "https://en.wikipedia.org/wiki/Raj_Mukherji",
+        "https://justfacts.votesmart.org/candidate/biography/144606/raj-mukherji",
+        "https://www.linkedin.com/in/rajmukherji",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/364",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/364/assemblyman-mukherji",
+        "https://www.njleg.state.nj.us/legislative-roster/485/senator-mukherji",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=364",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=364",
+        "https://www.njsendems.org/184/Raj-Mukherji",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "bhalla-ravi-nj-hd32",
+      "name": "Ravi Bhalla",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-32)",
+      "state": "NJ",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/27b085de-d164-466e-845b-fc1de27a2da9"
+      },
+      "contact": {
+        "email": "asmbhalla@njleg.org",
+        "district_voice": "201-683-7917",
+        "website": "https://njleg.state.nj.us/legislative-roster/509/assemblyman-bhalla"
+      },
+      "bio": {
+        "birth_date": "1973-05-10",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ravinder_Bhalla",
+        "https://en.wikipedia.org/wiki/Ravinder_Bhalla",
+        "https://njleg.state.nj.us/legislative-roster/509/assemblyman-bhalla",
+        "https://www.assemblydems.com/404/Ravinder-Ravi-Bhalla---District-32",
+        "https://www.linkedin.com/in/ravi-bhalla-36a1702b3",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "burgess-renee-nj-sd28",
+      "name": "Renee Burgess",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-28)",
+      "state": "NJ",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b8495630-20f7-4f9e-bf84-2a13a6da3794"
+      },
+      "contact": {
+        "email": "senburgess@njleg.org",
+        "district_voice": "862-231-6577",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/455/senator-burgess"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Renee_Burgess",
+        "https://en.wikipedia.org/wiki/Renee_Burgess",
+        "https://justfacts.votesmart.org/candidate/biography/161903/renee-burgess",
+        "https://www.linkedin.com/in/renee-burgess-9a310540",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/455",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/455/senator-burgess",
+        "https://www.njsendems.org/senators/renee-c-burgess",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "auth-bob-nj-hd39",
+      "name": "Bob Auth",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-39)",
+      "state": "NJ",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/acff039b-0a83-4184-8b6b-7b051cfcdc77"
+      },
+      "contact": {
+        "email": "asmauth@njleg.org",
+        "district_voice": "201-564-7420",
+        "website": "https://www.njassemblygop.com/216/Robert-Auth"
+      },
+      "bio": {
+        "birth_date": "1956-07-04",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/auth_robert_2017.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Auth",
+        "https://en.wikipedia.org/wiki/Robert_Auth",
+        "https://justfacts.votesmart.org/candidate/biography/144626/bob-auth",
+        "https://www.njassemblygop.com/216/Robert-Auth",
+        "https://www.njassemblygop.com/auth",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/366",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/366/assemblyman-auth",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=366",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=366",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "clifton-rob-nj-hd12",
+      "name": "Rob Clifton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-12)",
+      "state": "NJ",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b94db48b-9083-48c9-8b27-3603db14fa3e"
+      },
+      "contact": {
+        "email": "asmclifton@njleg.org",
+        "district_voice": "732-970-6386",
+        "website": "https://www.njassemblygop.com/220/Robert-Clifton"
+      },
+      "bio": {
+        "birth_date": "1968-12-31",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/clifton_robert_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Clifton",
+        "https://ballotpedia.org/Robert_Clifton_(New_Jersey)",
+        "https://en.wikipedia.org/wiki/Robert_D._Clifton",
+        "https://justfacts.votesmart.org/candidate/biography/144570/robert-clifton",
+        "https://www.linkedin.com/in/rob-clifton-20a87a213",
+        "https://www.njassemblygop.com/220/Robert-Clifton",
+        "https://www.njassemblygop.com/clifton",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/342",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/342/assemblyman-clifton",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=342",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=342",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "karabinchak-robert-nj-hd18",
+      "name": "Robert Karabinchak",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-18)",
+      "state": "NJ",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d6732f77-1c72-4ee6-8d52-5c9b79987976"
+      },
+      "contact": {
+        "email": "asmkarabinchak@njleg.org",
+        "district_voice": "732-548-1406",
+        "website": "https://robkarabinchak.com/"
+      },
+      "bio": {
+        "birth_date": "1956-04-11",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/karabinchak_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Karabinchak",
+        "https://en.wikipedia.org/wiki/Robert_Karabinchak",
+        "https://justfacts.votesmart.org/candidate/133356/robert-karabinchak",
+        "https://robkarabinchak.com",
+        "https://robkarabinchak.com/about",
+        "https://www.assemblydems.com/189/Robert-Karabinchak---District-18",
+        "https://www.assemblydems.com/robert-karabinchak",
+        "https://www.linkedin.com/in/robert-karabinchak-9713334",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/388",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/388/assemblyman-karabinchak",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=388",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=388",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "singer-bob-nj-sd30",
+      "name": "Bob Singer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-30)",
+      "state": "NJ",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/45219a29-080f-4452-9b05-92488e96f2f1"
+      },
+      "contact": {
+        "email": "sensinger@njleg.org",
+        "district_voice": "732-987-5669",
+        "website": "https://singer.senatenj.com/"
+      },
+      "bio": {
+        "birth_date": "1947-10-29",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/singer_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Singer",
+        "https://en.wikipedia.org/wiki/Robert_W._Singer",
+        "https://justfacts.votesmart.org/candidate/biography/4471/robert-singer",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/93",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/93/senator-singer",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=93",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=93",
+        "https://www.senatenj.com/168/Robert-Singer---District-30",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "bagolie-rosy-nj-hd27",
+      "name": "Rosy Bagolie",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-27)",
+      "state": "NJ",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f152f2d6-e4ff-4958-996d-532c310ddef1"
+      },
+      "contact": {
+        "email": "aswbagolie@njleg.org",
+        "district_voice": "973-535-5017",
+        "website": "https://www.assemblydems.com/203/Rosaura-Rosy-Bagolie---District-27"
+      },
+      "bio": {
+        "birth_date": "1980-06-14",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Rosy_Bagolie",
+        "https://en.wikipedia.org/wiki/Rosy_Bagolie",
+        "https://justfacts.votesmart.org/candidate/biography/212857/rosaura-bagolie",
+        "https://www.assemblydems.com/203/Rosaura-Rosy-Bagolie---District-27",
+        "https://www.assemblydems.com/rosy-bagolie",
+        "https://www.njleg.state.nj.us/legislative-roster/479/assemblywoman-bagolie",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "freiman-roy-nj-hd16",
+      "name": "Roy Freiman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-16)",
+      "state": "NJ",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/77b80e3f-bfdd-4c81-b92e-866c17abd398"
+      },
+      "contact": {
+        "email": "asmfreiman@njleg.org",
+        "district_voice": "908-968-4329",
+        "website": "https://www.assemblydems.com/180/Roy-Freiman---District-16"
+      },
+      "bio": {
+        "birth_date": "1959-04-30",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/freiman_roy_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roy_Freiman",
+        "https://en.wikipedia.org/wiki/Roy_Freiman",
+        "https://justfacts.votesmart.org/candidate/biography/176258/roy-freiman",
+        "https://www.assemblydems.com/180/Roy-Freiman---District-16",
+        "https://www.assemblydems.com/roy-freiman",
+        "https://www.assemblydems.com/roy-freiman/",
+        "https://www.linkedin.com/in/royfreiman",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/400",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/400/assemblyman-freiman",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=400",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=400",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "kean-sean-nj-hd30",
+      "name": "Sean Kean",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-30)",
+      "state": "NJ",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ac95c4e3-057b-43bc-8bee-752137bb2d12"
+      },
+      "contact": {
+        "email": "asmskean@njleg.org",
+        "district_voice": "732-974-0400",
+        "website": "https://www.njassemblygop.com/227/Sean-Kean"
+      },
+      "bio": {
+        "birth_date": "1963-05-21",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/kean_sean_2020.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sean_Kean",
+        "https://en.wikipedia.org/wiki/Sean_T._Kean",
+        "https://justfacts.votesmart.org/candidate/biography/43112/sean-kean",
+        "https://www.linkedin.com/in/sean-kean-653b1540",
+        "https://www.njassemblygop.com/227/Sean-Kean",
+        "https://www.njassemblygop.com/kean",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/333",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/333/assemblyman-kean",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=333",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=333",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "haider-shama-nj-hd37",
+      "name": "Shama Haider",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-37)",
+      "state": "NJ",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/49be7512-9343-4189-8769-4497ed129a92"
+      },
+      "contact": {
+        "email": "aswhaider@njleg.org",
+        "district_voice": "201-308-7061",
+        "website": "https://www.assemblydems.com/209/Shama-Haider---District-37"
+      },
+      "bio": {
+        "birth_date": "1948-12-20",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Shama_Haider",
+        "https://en.wikipedia.org/wiki/Shama_Haider",
+        "https://www.assemblydems.com/209/Shama-Haider---District-37",
+        "https://www.assemblydems.com/shama-haider",
+        "https://www.assemblydems.com/shama-haider/",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/452",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/452/assemblywoman-haider",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "speight-shanique-nj-hd29",
+      "name": "Shanique Speight",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-29)",
+      "state": "NJ",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/304c7552-b833-4b9c-b125-39030b8376ff"
+      },
+      "contact": {
+        "email": "aswspeight@njleg.org",
+        "website": "https://www.assemblydems.com/200/Shanique-Speight---District-29"
+      },
+      "bio": {
+        "birth_date": "1978-11-14",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/speight_shanique_2017.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shanique_Speight",
+        "https://en.wikipedia.org/wiki/Shanique_Speight",
+        "https://justfacts.votesmart.org/candidate/biography/176317/shanique-speight",
+        "https://www.assemblydems.com/200/Shanique-Speight---District-29",
+        "https://www.assemblydems.com/shanique-speight",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/403",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/403/assemblywoman-speight",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=403",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=403",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "turner-shirley-nj-sd15",
+      "name": "Shirley Turner",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-15)",
+      "state": "NJ",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/26eb8b3c-59a5-49ca-841c-13a569444994"
+      },
+      "contact": {
+        "email": "senturner@njleg.org",
+        "district_voice": "609-323-7239",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/47/senator-turner"
+      },
+      "bio": {
+        "birth_date": "1941-07-03",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/turner_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shirley_Turner",
+        "https://en.wikipedia.org/wiki/Shirley_Turner",
+        "https://justfacts.votesmart.org/candidate/biography/4452/shirley-turner",
+        "https://www.linkedin.com/in/shirley-turner-b7a55540",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/47",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/47/senator-turner",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=47",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=47",
+        "https://www.njsendems.org/senators/shirley-k-turner",
+        "https://www.senatorturner.com",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "stanley-sterley-nj-hd18",
+      "name": "Sterley Stanley",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-18)",
+      "state": "NJ",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/901f85af-77c2-4cff-8626-ac510fdc425f"
+      },
+      "contact": {
+        "email": "asmstanley@njleg.org",
+        "district_voice": "732-875-3833",
+        "website": "https://www.assemblydems.com/191/Sterley-Stanley---District-18"
+      },
+      "bio": {
+        "birth_date": "1966-06-24",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/stanley_sterley_2021.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sterley_Stanley",
+        "https://en.wikipedia.org/wiki/Sterley_Stanley",
+        "https://justfacts.votesmart.org/candidate/195785/sterley-stanley",
+        "https://www.assemblydems.com/191/Sterley-Stanley---District-18",
+        "https://www.assemblydems.com/sterleystanley",
+        "https://www.assemblydems.com/sterleystanley/",
+        "https://www.linkedin.com/in/sterley-stanley-3b5b6bb",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/429",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/429/assemblyman-stanley",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "mccoy-tennille-nj-hd14",
+      "name": "Tennille McCoy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-14)",
+      "state": "NJ",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c05a0080-95df-4576-a81c-d509fb4a5063"
+      },
+      "contact": {
+        "email": "aswmccoy@njleg.org",
+        "district_voice": "609-631-0198",
+        "website": "https://tennillermccoy.com/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Tennille_McCoy",
+        "https://en.wikipedia.org/wiki/Tennille_McCoy",
+        "https://justfacts.votesmart.org/candidate/211640/tennille-mccoy",
+        "https://tennillermccoy.com",
+        "https://www.assemblydems.com/175/Tennille-R-McCoy---District-14",
+        "https://www.assemblydems.com/tennille-mccoy",
+        "https://www.linkedin.com/in/tennillermccoy",
+        "https://www.njleg.state.nj.us/legislative-roster/471/assemblywoman-mccoy",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "singleton-troy-nj-sd7",
+      "name": "Troy Singleton",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-7)",
+      "state": "NJ",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a1c9ec59-4127-4973-b100-f35c30bb817c"
+      },
+      "contact": {
+        "email": "sensingleton@njleg.org",
+        "district_voice": "856-234-2790",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/395/senator-singleton"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/singleton_troy_2019.jpg",
+      "sources": [
+        "https://ballotpedia.org/Troy_Singleton",
+        "https://en.wikipedia.org/wiki/Troy_Singleton",
+        "https://justfacts.votesmart.org/candidate/129802/troy-singleton",
+        "https://www.linkedin.com/in/troy-singleton-a686976",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/395",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/395/senator-singleton",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=395",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=395",
+        "https://www.njsendems.org/176/Troy-Singleton",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "reynolds-jackson-verlina-nj-hd15",
+      "name": "Verlina Reynolds-Jackson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-15)",
+      "state": "NJ",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b432ec8c-f914-47dc-addd-740dfc95daaf"
+      },
+      "contact": {
+        "email": "aswreynoldsjackson@njleg.org",
+        "district_voice": "609-571-9638",
+        "website": "https://www.assemblydems.com/169/Verlina-Reynolds-Jackson---District-15"
+      },
+      "bio": {
+        "birth_date": "1971-07-26",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/reynolds-jackson_verlina_2018.jpg",
+      "sources": [
+        "https://ballotpedia.org/Verlina_Reynolds-Jackson",
+        "https://en.wikipedia.org/wiki/Verlina_Reynolds-Jackson",
+        "https://justfacts.votesmart.org/candidate/biography/133096/verlina-reynolds-jackson",
+        "https://www.assemblydems.com/169/Verlina-Reynolds-Jackson---District-15",
+        "https://www.assemblydems.com/verlina-reynolds-jackson",
+        "https://www.linkedin.com/in/verlina-reynolds-jackson-9863a234",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/409",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/409/assemblywoman-reynolds-jackson",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=409",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=409",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "flynn-vicky-nj-hd13",
+      "name": "Vicky Flynn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-13)",
+      "state": "NJ",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/379945ef-55af-4b76-96ce-fcddbcb0c1c6"
+      },
+      "contact": {
+        "email": "aswflynn@njleg.org",
+        "district_voice": "732-856-9833",
+        "website": "https://www.njassemblygop.com/223/Victoria-Flynn"
+      },
+      "bio": {
+        "birth_date": "1972-07-14",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Victoria_Flynn",
+        "https://en.wikipedia.org/wiki/Vicky_Flynn",
+        "https://justfacts.votesmart.org/candidate/biography/196090/vicky-flynn",
+        "https://www.linkedin.com/in/victoria-flynn-56043910",
+        "https://www.njassemblygop.com/223/Victoria-Flynn",
+        "https://www.njassemblygop.com/flynn",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/446",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/446/assemblywoman-flynn",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "gopal-vin-nj-sd11",
+      "name": "Vin Gopal",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-11)",
+      "state": "NJ",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/76afbcca-bed8-4e2e-bc3a-0fd6d53158a5"
+      },
+      "contact": {
+        "email": "sengopal@njleg.org",
+        "district_voice": "732-704-3808",
+        "website": "https://www.njleg.state.nj.us/legislative-roster/405/senator-gopal"
+      },
+      "bio": {
+        "birth_date": "1985-05-18",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/gopal_vin_2021.jpg",
+      "sources": [
+        "https://ballotpedia.org/Vin_Gopal",
+        "https://en.wikipedia.org/wiki/Vin_Gopal",
+        "https://justfacts.votesmart.org/candidate/biography/129810/vin-gopal",
+        "https://www.linkedin.com/in/vingopal",
+        "https://www.njld11.com",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/405",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/405/senator-gopal",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=405",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=405",
+        "https://www.njsendems.org/senators/vin-gopal",
+        "https://www.senatorgopal.com",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "polistina-vince-nj-sd2",
+      "name": "Vince Polistina",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Senator (SD-2)",
+      "state": "NJ",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5a6bf64a-7731-4e80-8208-e1a18f09762b"
+      },
+      "contact": {
+        "email": "senpolistina@njleg.org",
+        "district_voice": "609-677-8266",
+        "website": "https://polistina.senatenj.com/"
+      },
+      "bio": {
+        "birth_date": "1971-06-10",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/polistina_vincent_2021.jpg",
+      "sources": [
+        "https://ballotpedia.org/Vincent_Polistina",
+        "https://en.wikipedia.org/wiki/Vincent_J._Polistina",
+        "https://justfacts.votesmart.org/candidate/69652/vince-polistina",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/432",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/432/senator-polistina",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=432",
+        "https://www.senatenj.com/166/Vince-Polistina---District-2",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "kearney-vinnie-nj-hd21",
+      "name": "Vinnie Kearney",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-21)",
+      "state": "NJ",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3d57728e-0da2-4df4-891e-9cc8e0e9b219"
+      },
+      "contact": {
+        "email": "asmkearney@njleg.org",
+        "district_voice": "908-516-2880",
+        "website": "https://njleg.state.nj.us/legislative-roster/504/assemblyman-kearney"
+      },
+      "bio": {
+        "birth_date": "1976-10-12",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Vincent_Kearney",
+        "https://en.wikipedia.org/wiki/Vincent_Kearney_(politician)",
+        "https://njleg.state.nj.us/legislative-roster/504/assemblyman-kearney",
+        "https://www.assemblydems.com/401/Vincent-Kearney---District-21",
+        "https://www.linkedin.com/in/vmkearney",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "deangelo-wayne-nj-hd14",
+      "name": "Wayne DeAngelo",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-14)",
+      "state": "NJ",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/08016f74-f5d6-4554-91b4-385fdbd558a7"
+      },
+      "contact": {
+        "email": "asmdeangelo@njleg.org",
+        "district_voice": "609-631-7501",
+        "website": "https://www.assemblydems.com/174/Wayne-P-DeAngelo---District-14"
+      },
+      "bio": {
+        "birth_date": "1965-11-05",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/deangelo_color.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wayne_DeAngelo",
+        "https://en.wikipedia.org/wiki/Wayne_DeAngelo",
+        "https://justfacts.votesmart.org/candidate/69724/wayne-deangelo",
+        "https://www.assemblydems.com/174/Wayne-P-DeAngelo---District-14",
+        "https://www.assemblydems.com/wayne-deangelo",
+        "https://www.linkedin.com/in/wayne-deangelo-01915519",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/279",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/279/assemblyman-deangelo",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=279",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=279",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "sampson-will-nj-hd31",
+      "name": "Will Sampson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-31)",
+      "state": "NJ",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d624fdfb-366e-41f1-83a7-2a8421350d3c"
+      },
+      "contact": {
+        "email": "asmsampson@njleg.org",
+        "district_voice": "201-455-2966",
+        "website": "https://www.assemblydems.com/201/William-Sampson---District-31"
+      },
+      "bio": {
+        "birth_date": "1989-01-13",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/William_Sampson",
+        "https://en.wikipedia.org/wiki/William_Sampson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/196147/william-sampson",
+        "https://www.assemblydems.com/201/William-Sampson---District-31",
+        "https://www.assemblydems.com/william-sampson",
+        "https://www.assemblydems.com/william-sampson/",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/451",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/451/assemblyman-sampson",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "moen-bill-nj-hd5",
+      "name": "Bill Moen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-5)",
+      "state": "NJ",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e9cd368-349e-4ddc-a34d-8301d0ac4841"
+      },
+      "contact": {
+        "email": "asmmoen@njleg.org",
+        "district_voice": "856-853-2960",
+        "website": "https://www.assemblydems.com/163/William-F-Moen-Jr---District-5"
+      },
+      "bio": {
+        "birth_date": "1986-11-14",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/William_Moen_Jr.",
+        "https://en.wikipedia.org/wiki/William_Moen",
+        "https://justfacts.votesmart.org/candidate/biography/186296/bill-moen-jr",
+        "https://www.assemblydems.com/163/William-F-Moen-Jr---District-5",
+        "https://www.assemblydems.com/William-F-Moen-Jr",
+        "https://www.linkedin.com/in/billmoen",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/420",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/420/assemblyman-moen",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "spearman-bill-nj-hd5",
+      "name": "Bill Spearman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-5)",
+      "state": "NJ",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3d5d3c07-70ed-481a-91ba-a19fce581561"
+      },
+      "contact": {
+        "email": "asmspearman@njleg.org",
+        "district_voice": "856-853-2960",
+        "website": "https://www.assemblydems.com/162/William-W-Spearman---District-5"
+      },
+      "bio": {
+        "birth_date": "1958-02-27",
+        "gender": "Male"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/spearman_william_2018a.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Spearman",
+        "https://en.wikipedia.org/wiki/William_Spearman",
+        "https://justfacts.votesmart.org/candidate/biography/75377/william-spearman",
+        "https://www.assemblydems.com/162/William-W-Spearman---District-5",
+        "https://www.assemblydems.com/william-spearman",
+        "https://www.linkedin.com/in/william-spearman-33280838",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/415",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/415/assemblyman-spearman",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=415",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=415",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    },
+    {
+      "politician_id": "lopez-yvonne-nj-hd19",
+      "name": "Yvonne Lopez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Jersey State Representative (HD-19)",
+      "state": "NJ",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "NJ",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a0d9e9ac-6ede-4e36-8c9e-f7bd83cc704a"
+      },
+      "contact": {
+        "email": "aswlopez@njleg.org",
+        "district_voice": "732-638-5057",
+        "website": "https://www.assemblydems.com/188/Yvonne-Lopez---District-19"
+      },
+      "bio": {
+        "birth_date": "1957-07-28",
+        "gender": "Female"
+      },
+      "image": "https://www.njleg.state.nj.us/members/memberphotos/lopez_yvonne_2017.jpg",
+      "sources": [
+        "https://ballotpedia.org/Yvonne_Lopez",
+        "https://en.wikipedia.org/wiki/Yvonne_Lopez",
+        "https://justfacts.votesmart.org/candidate/biography/176265/yvonne-lopez",
+        "https://www.assemblydems.com/188/Yvonne-Lopez---District-19",
+        "https://www.assemblydems.com/yvonne-lopez",
+        "https://www.linkedin.com/in/yvonne-lopez-37b9a723",
+        "https://www.njleg.state.nj.us/api/legislatorData/legislatorBio/401",
+        "https://www.njleg.state.nj.us/downloads.asp",
+        "https://www.njleg.state.nj.us/legislative-roster",
+        "https://www.njleg.state.nj.us/legislative-roster/401/assemblywoman-lopez",
+        "https://www.njleg.state.nj.us/members/abcroster.asp",
+        "https://www.njleg.state.nj.us/members/bio.asp?Leg=401",
+        "https://www.njleg.state.nj.us/members/BIO.asp?Leg=401",
+        "https://data.openstates.org/people/current/nj.csv"
+      ]
+    }
+  ]
+}

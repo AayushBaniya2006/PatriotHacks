@@ -2,6 +2,7 @@ import { NextRequest } from "next/server";
 import { getPolitician } from "@/lib/db";
 import { chat, FAST_MODEL } from "@/lib/llm";
 import { getIssueMap } from "@/lib/config";
+import { missingDataNote, profileCoverage } from "@/lib/coverage";
 
 export const maxDuration = 120;
 
@@ -21,6 +22,15 @@ export async function POST(req: NextRequest) {
   const ISSUE_MAP = getIssueMap();
   const profile = await getPolitician(politician_id);
   if (!profile) return Response.json({ error: "unknown politician" }, { status: 404 });
+
+  // Honest short-circuit: an empty evidence base means any answer would come
+  // from model memory — exactly what this route forbids. No LLM call.
+  const cov = profileCoverage(profile);
+  if (profile.stances.length === 0 && (profile.qualitative ?? []).length === 0) {
+    return Response.json({
+      answer: `Our indexed evidence base has no sourced positions or record-quality research for ${profile.name} yet — research is pending. I can't answer from model memory (no source, no claim). Missing from our set: ${missingDataNote(cov).join(", ")}.`,
+    });
+  }
 
   const evidence = profile.stances.map((s) => ({
     issue: ISSUE_MAP[s.issue_id]?.name ?? s.issue_id,
@@ -66,6 +76,7 @@ STRICT RULES:
 
 POLITICIAN: ${profile.name} (${profile.party ?? "party unknown"}, ${profile.current_office ?? "office unknown"})
 ISSUES WITH NO INDEXED EVIDENCE: ${profile.unknowns.map((u) => ISSUE_MAP[u]?.name).filter(Boolean).join(", ") || "none"}
+DATA SECTIONS ABSENT FROM OUR SET (say "no public data in our set on X" if asked; NEVER fill from memory): ${missingDataNote(cov).join(", ") || "none"}
 
 EVIDENCE BASE — ISSUE POSITIONS:
 ${JSON.stringify(evidence)}

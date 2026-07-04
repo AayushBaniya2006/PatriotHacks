@@ -1,0 +1,3812 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/nm.csv",
+  "state": "NM",
+  "politicians": [
+    {
+      "politician_id": "martinez-alan-nm-hd23",
+      "name": "Alan Martinez",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-23)",
+      "state": "NM",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be61f240-c0ad-4a98-8ad5-d30f4c5f4a06"
+      },
+      "contact": {
+        "email": "alan.martinez@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HMAAL"
+      },
+      "bio": {
+        "birth_date": "1964-06-21",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HMAAL.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alan_Martinez_(New_Mexico)",
+        "https://en.wikipedia.org/wiki/Alan_Martinez",
+        "https://www.linkedin.com/in/alanmartinez",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HMAAL",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "reeb-andi-nm-hd64",
+      "name": "Andi Reeb",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-64)",
+      "state": "NM",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c4caca3c-faa3-445f-91e0-cce9edd53a5a"
+      },
+      "contact": {
+        "email": "andrea.reeb@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HREEB"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HREEB.jpg",
+      "sources": [
+        "https://andreareeb.com/meet-andrea",
+        "https://ballotpedia.org/Andrea_Reeb",
+        "https://en.wikipedia.org/wiki/Andrea_Reeb",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HREEB",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "romero-andrea-nm-hd46",
+      "name": "Andrea Romero",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-46)",
+      "state": "NM",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ed0ba54a-4fc3-4c50-aa0d-f74b1f0e86f6"
+      },
+      "contact": {
+        "email": "andrea@andrearomero.com",
+        "website": "https://www.linkedin.com/in/andreadromero/"
+      },
+      "social": {
+        "twitter": "aromero_nm",
+        "facebook": "andrearomeronm46",
+        "instagram": "andrearomero_nm46"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HROAN.jpg",
+      "sources": [
+        "https://ballotpedia.org/Andrea_Romero",
+        "https://en.wikipedia.org/wiki/Andrea_Romero",
+        "https://justfacts.votesmart.org/candidate/biography/180803/andrea-romero",
+        "https://www.linkedin.com/in/andreadromero",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HROAN",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "charley-angel-nm-sd30",
+      "name": "Angel Charley",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-30)",
+      "state": "NM",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/948ee9a0-a718-46f1-a1fe-35eb97f01fad"
+      },
+      "contact": {
+        "email": "angel.charley@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SCHAR"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/65a92fa05202ee2b13428333/630e642f-dfc6-48c0-930b-c25b16d80e76/Headshot.jpg",
+      "sources": [
+        "https://ballotpedia.org/Angel_Charley",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SCHAR",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "rubio-angelica-nm-hd35",
+      "name": "Angelica Rubio",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-35)",
+      "state": "NM",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ea2a9403-248c-4474-aea0-47b45265e0be"
+      },
+      "contact": {
+        "email": "angelica.rubio@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/angelicarubio/"
+      },
+      "social": {
+        "twitter": "anrubio",
+        "facebook": "RubioNM35",
+        "instagram": "roguerubio"
+      },
+      "bio": {
+        "birth_date": "1979-05-30",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HRUBI.jpg",
+      "sources": [
+        "https://ballotpedia.org/Angelica_Rubio",
+        "https://en.wikipedia.org/wiki/Angelica_Rubio",
+        "https://justfacts.votesmart.org/candidate/biography/168321/angelica-rubio",
+        "https://www.linkedin.com/in/angelicarubio",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HRUBI",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "mejia-angelita-nm-hd58",
+      "name": "Angelita Mejia",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-58)",
+      "state": "NM",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/75986bbd-3629-4520-a770-f86c46f423ab"
+      },
+      "contact": {
+        "email": "angelita.mejia@nmlegis.gov",
+        "district_voice": "575-347-1778",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HMEAN"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://bloximages.newyork1.vip.townnews.com/rdrnews.com/content/tncms/assets/v3/editorial/5/0f/50f20b06-de3c-11ee-8fb3-1b97c5eaf40c/65ec9fd35dc59.image.jpg?resize=457%2C500",
+      "sources": [
+        "https://ballotpedia.org/Angelita_Mejia",
+        "https://en.wikipedia.org/wiki/Angelita_Mejia",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HMEAN",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "gonzales-anita-nm-hd70",
+      "name": "Anita Gonzales",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-70)",
+      "state": "NM",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ee127909-55b5-4854-b3c6-2e45e19b7156"
+      },
+      "contact": {
+        "email": "anita.gonzales@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HGOAN"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://anita4newmexico.com/wp-content/uploads/2024/02/Anita-ABOUT.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anita_Gonzales",
+        "https://www.linkedin.com/in/anita-gonzales-1a07a645",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HGOAN",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "thornton-ant-nm-sd19",
+      "name": "Ant Thornton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-19)",
+      "state": "NM",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/02d806fd-fb8f-4d66-b9b8-6dacd2bd9656"
+      },
+      "contact": {
+        "email": "anthony.thornton@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=STHOR"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://antthorntonfornm.com/wp-content/uploads/2024/02/Ant-Thornton-768x768.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anthony_L._Thornton",
+        "https://www.linkedin.com/in/anthony-%E2%80%9Cant%E2%80%9D-thornton-25b2347",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=STHOR",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "sedillo-lopez-antoinette-nm-sd16",
+      "name": "Antoinette Sedillo Lopez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-16)",
+      "state": "NM",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3dcac810-1d9b-4a4d-9e82-8b6e49eba735"
+      },
+      "contact": {
+        "email": "a.sedillolopez@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/antoinette-sedillo-lopez-ab3a5014/"
+      },
+      "social": {
+        "twitter": "asl4justice4all",
+        "facebook": "NMStateSenatorAntoinetteSedilloLopezNMSD16",
+        "instagram": "antoinetteforjustice"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SSEDI.jpg",
+      "sources": [
+        "https://ballotpedia.org/Antoinette_Sedillo_Lopez",
+        "https://en.wikipedia.org/wiki/Antoinette_Sedillo_Lopez",
+        "https://www.linkedin.com/in/antoinette-sedillo-lopez-ab3a5014",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SSEDI",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "maestas-moe-nm-sd26",
+      "name": "Moe Maestas",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-26)",
+      "state": "NM",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2913173a-2bfe-4474-8bdc-d145f868c4de"
+      },
+      "contact": {
+        "email": "antonio.maestas@nmlegis.gov",
+        "website": "https://nmlegis.gov/Members/Legislator?SponCode=smaem"
+      },
+      "social": {
+        "twitter": "RepMoe",
+        "facebook": "repmoe"
+      },
+      "bio": {
+        "birth_date": "1968-07-06",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SMAEM.jpg",
+      "sources": [
+        "https://ballotpedia.org/Antonio_Maestas",
+        "https://en.wikipedia.org/wiki/Moe_Maestas",
+        "https://moejustice.com",
+        "https://nmlegis.gov/Members/Legislator?SponCode=smaem",
+        "https://www.linkedin.com/in/antonio-moe​-maestas-1262466",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HMAES",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SMAEM",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "de-la-cruz-art-nm-hd12",
+      "name": "Art De La Cruz",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-12)",
+      "state": "NM",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/057c7d79-a168-4b7b-ae96-66cf41e4f115"
+      },
+      "contact": {
+        "email": "art.delacruz@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HDELA"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HDELA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Art_De_La_Cruz",
+        "https://en.wikipedia.org/wiki/Art_De_La_Cruz",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HDELA",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "shendo-benny-nm-sd22",
+      "name": "Benny Shendo",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-22)",
+      "state": "NM",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/145aba4a-89ba-4c17-b1ec-2f4b568f5048"
+      },
+      "contact": {
+        "email": "benny.shendo@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SSHEN"
+      },
+      "social": {
+        "facebook": "BennyShendoforNMSenate"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SSHEN.jpg",
+      "sources": [
+        "https://ballotpedia.org/Benny_Shendo",
+        "https://en.wikipedia.org/wiki/Benny_Shendo",
+        "https://justfacts.votesmart.org/candidate/biography/102414/benny-shendo-jr",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SSHEN",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-bill-nm-hd3",
+      "name": "Bill Hall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-3)",
+      "state": "NM",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0e4fcc9-1e0c-49f8-894d-223c863d61f8"
+      },
+      "contact": {
+        "email": "bill.hall@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HHABI"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Bill_Hall_(New_Mexico)",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HHABI",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "baca-brian-nm-hd8",
+      "name": "Brian Baca",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-8)",
+      "state": "NM",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/05f3609c-c2a6-42fc-bf6a-5141f8050ff8"
+      },
+      "contact": {
+        "email": "brian.baca@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HBACB"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HBACB.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Baca",
+        "https://en.wikipedia.org/wiki/Brian_Baca",
+        "https://www.linkedin.com/in/brian-baca-03191bb2",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HBACB",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "ezzell-candy-nm-sd32",
+      "name": "Candy Ezzell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-32)",
+      "state": "NM",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/46464f19-1bda-489f-93cf-3772d0445407"
+      },
+      "contact": {
+        "email": "csecows@aol.com",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HEZZE"
+      },
+      "social": {
+        "twitter": "candyezzell",
+        "facebook": "candy.ezzell"
+      },
+      "bio": {
+        "birth_date": "1953-11-26",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HEZZE.jpg",
+      "sources": [
+        "https://ballotpedia.org/Candy_Spence_Ezzell",
+        "https://en.wikipedia.org/wiki/Candy_Ezzell",
+        "https://justfacts.votesmart.org/candidate/biography/43577/candy-ezzell",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HEZZE",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SEZZE",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "hamblen-carrie-nm-sd38",
+      "name": "Carrie Hamblen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-38)",
+      "state": "NM",
+      "district": "SD-38",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/83df260f-2110-4d39-8e19-6a2edc33491d"
+      },
+      "contact": {
+        "email": "carrie.hamblen@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SHAMB"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SHAMB.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carrie_Hamblen",
+        "https://en.wikipedia.org/wiki/Carrie_Hamblen",
+        "https://hamblennmsenate38.com/about-carrie",
+        "https://www.linkedin.com/in/carrie-hamblen-87a4a7b",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SHAMB",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "cullen-catherine-nm-hd57",
+      "name": "Catherine Cullen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-57)",
+      "state": "NM",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/35f36593-4252-4205-b123-cc7236e96954"
+      },
+      "contact": {
+        "email": "catherine.cullen@nmlegis.gov",
+        "district_voice": "505-710-4462",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HCUCA"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://cullen4nm.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGY3VsbGVuNG5tLmNvbSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAyNCUyRjA3JTJGSU1HXzMyMjguanBnJmNhY2hlTWFya2VyPTE3MzAxNTM0NzYtMTUyNzQyJnRva2VuPTU0MDM0MzcxMmJiYWYyZmY.q.jpg",
+      "sources": [
+        "https://ballotpedia.org/Catherine_Cullen",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HCUCA",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-cathrynn-nm-hd55",
+      "name": "Cathrynn Brown",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-55)",
+      "state": "NM",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8b51e39c-5f4c-48dd-affd-b97c6062d87e"
+      },
+      "contact": {
+        "email": "c.brown.nm55@gmail.com",
+        "website": "https://www.linkedin.com/in/cathrynnbrown/"
+      },
+      "social": {
+        "twitter": "cathrynnbrown",
+        "facebook": "RepCathrynnBrown"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HBROW.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cathrynn_Brown",
+        "https://en.wikipedia.org/wiki/Cathrynn_Brown",
+        "https://justfacts.votesmart.org/candidate/biography/110625/cathrynn-brown",
+        "https://www.linkedin.com/in/cathrynnbrown",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HBROW",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "little-charlotte-nm-hd68",
+      "name": "Charlotte Little",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-68)",
+      "state": "NM",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/052e06cd-7f58-4c3c-8640-be1d8842a19b"
+      },
+      "contact": {
+        "email": "charlotte.little@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HLITC"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HLITC.jpg",
+      "sources": [
+        "https://ballotpedia.org/Charlotte_Little",
+        "https://en.wikipedia.org/wiki/Charlotte_Little",
+        "https://www.linkedin.com/in/charlotte-little-6709974",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HLITC",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "chandler-chris-nm-hd43",
+      "name": "Chris Chandler",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-43)",
+      "state": "NM",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6ecab682-9ccf-4777-940d-afa418b601b8"
+      },
+      "contact": {
+        "email": "christine.chandler@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/christine-chandler-b567865a/"
+      },
+      "social": {
+        "twitter": "Christine4nm",
+        "facebook": "Christine4NM",
+        "instagram": "christine4nm"
+      },
+      "bio": {
+        "birth_date": "1958-06-21",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HCHAN.jpg",
+      "sources": [
+        "https://ballotpedia.org/Christine_Chandler",
+        "https://en.wikipedia.org/wiki/Christine_Chandler",
+        "https://www.linkedin.com/in/christine-chandler-b567865a",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HCHAN",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "nava-cindy-nm-sd9",
+      "name": "Cindy Nava",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-9)",
+      "state": "NM",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/631f715e-754c-4410-a967-1e5a928ae971"
+      },
+      "contact": {
+        "email": "cindy.nava@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SNACI"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/cms.ipressroom.com/175/files/20187/5b883c6f2cfac267c6377417_Cindy+Nava+1/Cindy+Nava+1_mid.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cindy_Nava",
+        "https://en.wikipedia.org/wiki/Cindy_Nava",
+        "https://www.linkedin.com/in/cindy-nava-77245b32",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SNACI",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "brandt-craig-nm-sd40",
+      "name": "Craig Brandt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-40)",
+      "state": "NM",
+      "district": "SD-40",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/365e015d-5011-4126-8b07-0b0f90a949c7"
+      },
+      "contact": {
+        "email": "craig.brandt@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/craigbrandtnm/"
+      },
+      "social": {
+        "twitter": "Craig4NM",
+        "facebook": "craig.brandt.31"
+      },
+      "bio": {
+        "birth_date": "1968-08-28",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SBRAN.jpg",
+      "sources": [
+        "https://ballotpedia.org/Craig_Brandt",
+        "https://en.wikipedia.org/wiki/Craig_Brandt",
+        "https://justfacts.votesmart.org/candidate/biography/139123/craig-brandt",
+        "https://www.linkedin.com/in/craigbrandtnm",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SBRAN",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "paraj-n-cristina-nm-hd25",
+      "name": "Cristina Parajón",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-25)",
+      "state": "NM",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8819e763-061e-4f30-9828-af635428b41a"
+      },
+      "contact": {
+        "email": "cristina.parajon@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HPARA"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HPARA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cristina_Paraj%C3%B3n",
+        "https://en.wikipedia.org/wiki/Cristina_Paraj%C3%B3n",
+        "https://www.linkedin.com/in/cristina-paraj%C3%B3n-8a2ab1146",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HPARA",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "brantley-crystal-nm-sd35",
+      "name": "Crystal Brantley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-35)",
+      "state": "NM",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ed6a003-54c1-4da3-b297-0cec8ddf4882"
+      },
+      "contact": {
+        "email": "crystal.diamond@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SBRAC"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SDIAM.jpg",
+      "sources": [
+        "https://ballotpedia.org/Crystal_Diamond_Brantley",
+        "https://en.wikipedia.org/wiki/Crystal_Diamond",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SBRAC",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SDIAM",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "borrego-cynthia-nm-hd17",
+      "name": "Cynthia Borrego",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-17)",
+      "state": "NM",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2e2ecadf-7236-48c5-8145-e7fea6fcd393"
+      },
+      "contact": {
+        "email": "cynthia.borrego@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HBORR"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HBORR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cynthia_Borrego",
+        "https://en.wikipedia.org/wiki/Cynthia_Borrego",
+        "https://www.linkedin.com/in/cynthia-d-borrego-899bb732",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HBORR",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-wonda-nm-hd5",
+      "name": "Wonda Johnson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-5)",
+      "state": "NM",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/69fcccf7-9cfb-4c8f-978a-c85fbd55922d"
+      },
+      "contact": {
+        "email": "dwonda.johnson@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HJOHD"
+      },
+      "social": {
+        "facebook": "DoreenWondaJohnson"
+      },
+      "bio": {
+        "birth_date": "1965-06-12",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HJOHD.jpg",
+      "sources": [
+        "https://ballotpedia.org/D._Wonda_Johnson",
+        "https://en.wikipedia.org/wiki/Doreen_Wonda_Johnson",
+        "https://www.linkedin.com/in/d-wanda-johnson-b4806211",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HJOHD",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "gallegos-david-nm-sd41",
+      "name": "David Gallegos",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-41)",
+      "state": "NM",
+      "district": "SD-41",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9d5296b7-b8b1-40c8-a8ce-246f719b8ff0"
+      },
+      "contact": {
+        "email": "david@ramirezandsonsinc.com",
+        "website": "https://www.linkedin.com/in/david-gallegos-02427756/"
+      },
+      "social": {
+        "twitter": "gallegos4nm"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SGADM.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_M._Gallegos",
+        "https://en.wikipedia.org/wiki/David_Gallegos",
+        "https://justfacts.votesmart.org/candidate/biography/139056/david-gallegos",
+        "https://www.linkedin.com/in/david-gallegos-02427756",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HGADV",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SGADM",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "hochman-vigil-day-nm-hd15",
+      "name": "Day Hochman-Vigil",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-15)",
+      "state": "NM",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/124f1c82-12f1-45ab-b21e-67cc4a529d18"
+      },
+      "contact": {
+        "email": "dayan.hochman-vigil@nmlegis.gov",
+        "district_voice": "505-633-8101",
+        "website": "https://www.linkedin.com/in/day-hochman-vigil-3536a036/"
+      },
+      "social": {
+        "twitter": "dayhochmanvigil",
+        "facebook": "DayHochmanVigil",
+        "instagram": "dayhochmanvigil"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HHOCH.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dayan_Hochman-Vigil",
+        "https://en.wikipedia.org/wiki/Dayan_Hochman-Vigil",
+        "https://justfacts.votesmart.org/candidate/biography/180778/day-hochman-vigil",
+        "https://www.linkedin.com/in/day-hochman-vigil-3536a036",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HHOCH",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "o-malley-debbie-nm-sd13",
+      "name": "Debbie O'Malley",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-13)",
+      "state": "NM",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e347c564-d1f5-4fb8-a24d-47218fa754e7"
+      },
+      "contact": {
+        "email": "debbie.o'malley@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SOMAL"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.naco.org/sites/default/files/styles/349x333/public/PIC_OMalley%2C%20Debbie.webp",
+      "sources": [
+        "https://ballotpedia.org/Debbie_O%27Malley",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SOMAL",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "sari-ana-debbie-nm-hd21",
+      "name": "Debbie Sariñana",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-21)",
+      "state": "NM",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8cb27ec7-dc78-49b1-bc3f-18ad2beb76b6"
+      },
+      "contact": {
+        "email": "debbie.sarinana@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/debra-sarinana-05a362141/"
+      },
+      "social": {
+        "twitter": "SarinanaDebbie",
+        "facebook": "debsarinana"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HSARI.jpg",
+      "sources": [
+        "https://ballotpedia.org/Debra_Marie_Sarinana",
+        "https://en.wikipedia.org/wiki/Debra_M._Sari%C3%B1ana",
+        "https://www.linkedin.com/in/debra-sarinana-05a362141",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HSARI",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "lente-derrick-nm-hd65",
+      "name": "Derrick Lente",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-65)",
+      "state": "NM",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0421351b-6a8c-4731-bf93-5029d6b4feab"
+      },
+      "contact": {
+        "email": "derrick.lente@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HLENT"
+      },
+      "social": {
+        "facebook": "derrickjlentefornmhousedistrict65",
+        "instagram": "djlente"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HLENT.jpg",
+      "sources": [
+        "https://ballotpedia.org/Derrick_J._Lente",
+        "https://en.wikipedia.org/wiki/Derrick_Lente",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HLENT",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "torres-vel-squez-diane-nm-hd30",
+      "name": "Diane Torres-Velásquez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-30)",
+      "state": "NM",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c8e6de13-632b-4e09-8d1f-ff8ab2431acc"
+      },
+      "contact": {
+        "email": "diane.torres-velasquez@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HTOLE"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://static.wixstatic.com/media/4db618_2eb9e70e0469459fa20a1b6a172d7f67~mv2.jpg/v1/fill/w_200,h_200,fp_0.47_0.36,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image000000.jpg",
+      "sources": [
+        "https://ballotpedia.org/Elizabeth_Torres-Velasquez",
+        "https://www.linkedin.com/in/diane-torres-velasquez-48a3702b",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HTOLE",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "gallegos-doreen-nm-hd52",
+      "name": "Doreen Gallegos",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-52)",
+      "state": "NM",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6563f869-64f5-42fb-9707-263fee6f59dc"
+      },
+      "contact": {
+        "email": "doreen.gallegos@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HGADO"
+      },
+      "social": {
+        "twitter": "doreen4staterep",
+        "facebook": "doreen.gallegos.9"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HGADO.jpg",
+      "sources": [
+        "https://ballotpedia.org/Doreen_Y._Gallegos",
+        "https://en.wikipedia.org/wiki/Doreen_Gallegos",
+        "https://justfacts.votesmart.org/candidate/biography/139044/doreen-gallegos",
+        "https://www.linkedin.com/in/doreen-gallegos-a3423b43",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HGADO",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "sena-cortez-elaine-nm-hd62",
+      "name": "Elaine Sena Cortez",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-62)",
+      "state": "NM",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/810e1619-ebae-4139-be1e-778e252a09b0"
+      },
+      "contact": {
+        "email": "elaine.senacortez@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HSEEL"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/6101dbe38853cb26aaf1d169/482eeab7-b7c0-4dfc-bc83-1b4ecc0e66b4/945A8275-Edit.jpg",
+      "sources": [
+        "https://ballotpedia.org/Elaine_Sena_Cortez",
+        "https://www.linkedin.com/in/dr-elaine-sena-cortez-117b37211",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HSEEL",
+        "https://www.senacortez.com",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "ch-vez-eleanor-nm-hd26",
+      "name": "Eleanor Chávez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-26)",
+      "state": "NM",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/19ad7971-bfe4-49e2-bc0f-c5416df1f241"
+      },
+      "contact": {
+        "email": "eleanor.chavez@nmlegis.gov",
+        "district_voice": "505-986-4247",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HCHAL"
+      },
+      "bio": {
+        "birth_date": "1953-07-30",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HCHAL.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eleanor_Chavez",
+        "https://en.wikipedia.org/wiki/Eleanor_Chavez",
+        "https://www.linkedin.com/in/eleanor-chavez-08378a12",
+        "https://www.nmlegis.gov/members/Legislator?SponCode=HCHAL",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HCHAL",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "stefanics-liz-nm-sd39",
+      "name": "Liz Stefanics",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-39)",
+      "state": "NM",
+      "district": "SD-39",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ed4e059-94c6-4404-b28e-0dc572112d03"
+      },
+      "contact": {
+        "email": "lstefanics@msn.com",
+        "district_voice": "505-699-4808",
+        "website": "https://www.linkedin.com/in/liz-stefanics-140488151/"
+      },
+      "social": {
+        "facebook": "SenatorLizStefanics"
+      },
+      "bio": {
+        "birth_date": "1950-11-09",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SSTEF.jpg",
+      "sources": [
+        "https://ballotpedia.org/Liz_Stefanics",
+        "https://en.wikipedia.org/wiki/Liz_Stefanics",
+        "https://justfacts.votesmart.org/candidate/biography/11985/elizabeth-stefanics",
+        "https://www.linkedin.com/in/liz-stefanics-0487b56",
+        "https://www.linkedin.com/in/liz-stefanics-140488151",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SSTEF",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "thomson-liz-nm-hd24",
+      "name": "Liz Thomson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-24)",
+      "state": "NM",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/13ad8eb1-a64f-4a08-8c68-a1488466128f"
+      },
+      "contact": {
+        "email": "liz.thomson@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HTHOE"
+      },
+      "social": {
+        "twitter": "lizthomsonnm",
+        "facebook": "lizthomsonnm"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HTHOE.jpg",
+      "sources": [
+        "https://ballotpedia.org/Elizabeth_L._Thomson",
+        "https://en.wikipedia.org/wiki/Elizabeth_Thomson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/138977/elizabeth-thomson",
+        "https://www.linkedin.com/in/liz-thomson-47a97a25",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HTHOE",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "romero-andr-s-nm-hd10",
+      "name": "Andrés Romero",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-10)",
+      "state": "NM",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5cf6976d-e616-4579-a194-ec3c37260ebd"
+      },
+      "contact": {
+        "email": "andres.romero@nmlegis.gov",
+        "district_voice": "505-514-9574",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HROMA"
+      },
+      "social": {
+        "twitter": "andresromeronm",
+        "facebook": "RomeroForDistrict10"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HROMA.jpg",
+      "sources": [
+        "https://ballotpedia.org/G._Andres_Romero",
+        "https://en.wikipedia.org/wiki/G._Andr%C3%A9s_Romero",
+        "https://justfacts.votesmart.org/candidate/biography/150987/andres-romero",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HROMA",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "ramos-gabriel-nm-sd28",
+      "name": "Gabriel Ramos",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-28)",
+      "state": "NM",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6677ca7f-f961-44f1-a241-d14280762f5d"
+      },
+      "contact": {
+        "email": "gabriel.ramos@nmlegis.gov",
+        "district_voice": "575-313-2077",
+        "website": "https://www.linkedin.com/in/gabriel-ramos-a5aa74109/"
+      },
+      "social": {
+        "facebook": "NMSenRamos"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.nmlegis.gov/Images/Legislators/Senate/SRAMO.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gabriel_Ramos",
+        "https://en.wikipedia.org/wiki/Gabriel_Ramos_(politician)",
+        "https://www.linkedin.com/in/gabriel-ramos-0a767457",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SRAMO",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "armstrong-gail-nm-hd49",
+      "name": "Gail Armstrong",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-49)",
+      "state": "NM",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9564298b-dc55-4037-8205-5eca1c2063dc"
+      },
+      "contact": {
+        "email": "gail@gailfornewmexico.com",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HARMG"
+      },
+      "social": {
+        "twitter": "gail4nm",
+        "facebook": "Gail4NM",
+        "instagram": "gail4nm"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HARMG.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gail_Armstrong",
+        "https://en.wikipedia.org/wiki/Gail_Armstrong_(politician)",
+        "https://www.linkedin.com/in/gail-armstrong-03029b63",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HARMG",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "mu-oz-george-nm-sd4",
+      "name": "George Muñoz",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-4)",
+      "state": "NM",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b4c20aea-b56c-4a19-a89a-788c53d995d7"
+      },
+      "contact": {
+        "email": "george.munoz@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SMUNO"
+      },
+      "social": {
+        "twitter": "munozfornm",
+        "facebook": "nmsenatormunoz"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SMUNO.jpg",
+      "sources": [
+        "https://ballotpedia.org/George_Munoz",
+        "https://en.wikipedia.org/wiki/George_Mu%C3%B1oz_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/103938/george-munoz",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SMUNO",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "vincent-harlan-nm-hd56",
+      "name": "Harlan Vincent",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-56)",
+      "state": "NM",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e7e8e973-411b-45fd-8fd7-7e4ea7d9f1be"
+      },
+      "contact": {
+        "email": "harlan.vincent@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HVINC"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HVINC.jpg",
+      "sources": [
+        "https://ballotpedia.org/Harlan_Vincent",
+        "https://en.wikipedia.org/wiki/Harlan_Vincent",
+        "https://harlanvincentfornm.com/about.php",
+        "https://www.linkedin.com/in/harlan-vincent-01357ba7",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HVINC",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "pope-harold-nm-sd23",
+      "name": "Harold Pope",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-23)",
+      "state": "NM",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/713e2881-4ecb-4d66-9bd3-6422c898df91"
+      },
+      "contact": {
+        "email": "harold.popejr@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SPOPE"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SPOPE.jpg",
+      "sources": [
+        "https://ballotpedia.org/Harold_Pope_Jr.",
+        "https://en.wikipedia.org/wiki/Harold_Pope_Jr.",
+        "https://www.linkedin.com/in/harold-pope-jr-53351321",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SPOPE",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "berghmans-heather-nm-sd15",
+      "name": "Heather Berghmans",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-15)",
+      "state": "NM",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e5d44d75-76df-41fc-87ae-27bc4c943d50"
+      },
+      "contact": {
+        "email": "heather.berghmans@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SBERG"
+      },
+      "bio": {
+        "birth_date": "1988-02-16",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/HeatherBerghmans24.jpg",
+      "sources": [
+        "https://ballotpedia.org/Heather_Berghmans",
+        "https://en.wikipedia.org/wiki/Heather_Berghmans",
+        "https://www.linkedin.com/in/hberghmans",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SBERG",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "chatfield-jack-nm-hd67",
+      "name": "Jack Chatfield",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-67)",
+      "state": "NM",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c41b373a-7376-4084-b0de-3648cfce9b05"
+      },
+      "contact": {
+        "email": "jack.chatfield@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HCHAT"
+      },
+      "social": {
+        "facebook": "jackchatfieldhd67"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HCHAT.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jackey_Chatfield",
+        "https://en.wikipedia.org/wiki/Jack_Chatfield",
+        "https://justfacts.votesmart.org/candidate/biography/180816/jack-chatfield",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HCHAT",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "townsend-jim-nm-sd34",
+      "name": "Jim Townsend",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-34)",
+      "state": "NM",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/667a8a3c-dbe9-4aba-b768-e90be503df88"
+      },
+      "contact": {
+        "email": "townsend@pvtn.net",
+        "website": "https://www.linkedin.com/in/jim-townsend-5897b633/"
+      },
+      "social": {
+        "twitter": "LeaderTownsend",
+        "facebook": "jimandpaula.townsend"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HTOWJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/James_Townsend_(New_Mexico)",
+        "https://en.wikipedia.org/wiki/James_G._Townsend",
+        "https://justfacts.votesmart.org/candidate/biography/168398/jim-townsend",
+        "https://www.linkedin.com/in/jim-townsend-5897b633",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HTOWJ",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=STOWJ",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "anyanonu-janelle-nm-hd19",
+      "name": "Janelle Anyanonu",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-19)",
+      "state": "NM",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bc8985ad-c6e6-42cd-b2d5-30688e4616a1"
+      },
+      "contact": {
+        "email": "janelle.anyanonu@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HANYA"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HANYA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Janelle_Anyanonu",
+        "https://en.wikipedia.org/wiki/Janelle_Anyanonu",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HANYA",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "mart-nez-javier-nm-hd11",
+      "name": "Javier Martínez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-11)",
+      "state": "NM",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/221a42af-f54f-4e66-b648-9b0028165595"
+      },
+      "contact": {
+        "email": "javier.martinez@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HMARJ"
+      },
+      "social": {
+        "twitter": "javierfornm",
+        "facebook": "javiermartinezfornewmexico",
+        "instagram": "javierfornm"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HMARJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Javier_I._Martinez",
+        "https://en.wikipedia.org/wiki/Javier_Mart%C3%ADnez_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/150977/javier-martinez",
+        "https://www.linkedin.com/in/javier-mart%C3%ADnez-719283145",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HMARJ",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "block-jay-nm-sd12",
+      "name": "Jay Block",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-12)",
+      "state": "NM",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ee5fab91-b6eb-43be-bf26-300302eec5d1"
+      },
+      "contact": {
+        "email": "jay.block@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SBLOC"
+      },
+      "bio": {
+        "birth_date": "1970-11-09",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jay_Block.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jay_Block",
+        "https://en.wikipedia.org/wiki/Jay_C._Block",
+        "https://www.linkedin.com/in/jay-block-lt-col-usaf-retired-35159589",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SBLOC",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "steinborn-jeff-nm-sd36",
+      "name": "Jeff Steinborn",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-36)",
+      "state": "NM",
+      "district": "SD-36",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/601202fc-f916-4be1-ae20-8c437293817e"
+      },
+      "contact": {
+        "email": "jeff.steinborn@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/jeff-steinborn-57879346/"
+      },
+      "social": {
+        "twitter": "jeff4nm",
+        "facebook": "jeff.steinborn.9"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SSTEI.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Steinborn",
+        "https://en.wikipedia.org/wiki/Jeff_Steinborn",
+        "https://www.linkedin.com/in/jeff-steinborn-57879346",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SSTEI",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-jenifer-nm-hd32",
+      "name": "Jenifer Jones",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-32)",
+      "state": "NM",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6968fa09-cbf8-42a5-a5a6-132b0b663103"
+      },
+      "contact": {
+        "email": "jenifer.jones@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HJONJ"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HJONJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jenifer_Jones",
+        "https://en.wikipedia.org/wiki/Jenifer_Jones",
+        "https://www.linkedin.com/in/jenifer-m-jones-91278026b",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HJONJ",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "mason-jimmy-nm-hd66",
+      "name": "Jimmy Mason",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-66)",
+      "state": "NM",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d92a32b1-e3ef-43d7-8e63-c24e59c52b3d"
+      },
+      "contact": {
+        "email": "jimmy.mason@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HMASO"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HMASO.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jimmy_Mason",
+        "https://en.wikipedia.org/wiki/Jimmy_Mason_(politician)",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HMASO",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "ferrary-joanne-nm-hd37",
+      "name": "Joanne Ferrary",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-37)",
+      "state": "NM",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/05309266-c7a0-455b-94f2-ebf1d436daff"
+      },
+      "contact": {
+        "email": "joanne.ferrary@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HFERJ"
+      },
+      "social": {
+        "twitter": "rjferrary53",
+        "facebook": "Ferrary4NM"
+      },
+      "bio": {
+        "birth_date": "1953-07-20",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HFERJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joanne_J._Ferrary",
+        "https://en.wikipedia.org/wiki/Joanne_Ferrary",
+        "https://justfacts.votesmart.org/candidate/biography/139018/joanne-ferrary",
+        "https://www.linkedin.com/in/joanne-ferrary-74a6b559",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HFERJ",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "block-john-nm-hd51",
+      "name": "John Block",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-51)",
+      "state": "NM",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fd2e3bdc-3ca7-495c-b853-8a4db020e4d0"
+      },
+      "contact": {
+        "email": "john.block@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HBLOC"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HBLOC.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Block",
+        "https://en.wikipedia.org/wiki/John_Block_(New_Mexico_politician)",
+        "https://pinonpost.com/about",
+        "https://www.linkedin.com/in/johnfornm",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HBLOC",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "henry-jon-nm-hd54",
+      "name": "Jon Henry",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-54)",
+      "state": "NM",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3c29303f-1a07-4767-9172-b7f453918d77"
+      },
+      "contact": {
+        "email": "jonathan.henry@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HHENR"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://assets.civicengine.com/uploads/candidate/headshot/810348/810348.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Henry",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HHENR",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "cervantes-joe-nm-sd31",
+      "name": "Joe Cervantes",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-31)",
+      "state": "NM",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/14f0186e-bf9b-46aa-aa00-1ccc8f58490b"
+      },
+      "contact": {
+        "email": "joseph.cervantes@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SCERV"
+      },
+      "social": {
+        "twitter": "senjoecervantes",
+        "facebook": "joe4nm"
+      },
+      "bio": {
+        "birth_date": "1961-01-19",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SCERV.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Cervantes",
+        "https://en.wikipedia.org/wiki/Joe_Cervantes",
+        "https://justfacts.votesmart.org/candidate/biography/55143/joe-cervantes",
+        "https://www.linkedin.com/in/joseph-cervantes-82846821",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SCERV",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "hernandez-joseph-nm-hd4",
+      "name": "Joseph Hernandez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-4)",
+      "state": "NM",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/854e0c8a-0093-4282-8544-8d20bafde8f6"
+      },
+      "contact": {
+        "email": "joseph.hernandez@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HHEJO"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://progressivevotersguide.com/sites/default/files/styles/candidate/public/new%20mexico/2024/general/Joseph%20H.jpg?itok=DRcr52HE",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Hernandez",
+        "https://www.linkedin.com/in/joseph-hernandez-877761117",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HHEJO",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "sanchez-joseph-nm-hd40",
+      "name": "Joseph Sanchez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-40)",
+      "state": "NM",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0ed175a3-3c71-4b42-bf53-9435d0f93f52"
+      },
+      "contact": {
+        "email": "joseph.sanchez@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HSAJO"
+      },
+      "social": {
+        "twitter": "josephsancheznm",
+        "facebook": "josephsanchezfornm"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HSAJO.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Sanchez_(New_Mexico)",
+        "https://en.wikipedia.org/wiki/Joseph_L._Sanchez",
+        "https://www.linkedin.com/in/joseph-sanchez-p-e-ba981141",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HSAJO",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "sanchez-joshua-nm-sd29",
+      "name": "Joshua Sanchez",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-29)",
+      "state": "NM",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/82528266-9d6a-4fb3-854e-be9ab6a549b7"
+      },
+      "contact": {
+        "email": "jas4nm@gmail.com",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SSANJ"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SSANJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joshua_A._Sanchez",
+        "https://en.wikipedia.org/wiki/Joshua_A._Sanchez",
+        "https://justfacts.votesmart.org/candidate/191188/joshua-sanchez",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SSANJ",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "hernandez-josh-nm-hd60",
+      "name": "Josh Hernandez",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-60)",
+      "state": "NM",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/71b8feb5-0bbd-45bd-9b25-c6dc7642962b"
+      },
+      "contact": {
+        "email": "joshua.hernandez@nmlegis.gov",
+        "district_voice": "505-234-6337",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HHERN"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HHERN.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joshua_Hernandez_(New_Mexico)",
+        "https://en.wikipedia.org/wiki/Joshua_Hernandez",
+        "https://www.linkedin.com/in/dapengi",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HHERN",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "garratt-joy-nm-hd29",
+      "name": "Joy Garratt",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-29)",
+      "state": "NM",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/930a9ffb-d292-49d5-8c43-c42bdab290ff"
+      },
+      "contact": {
+        "email": "joy.garratt@nmlegis.gov",
+        "district_voice": "505-977-5039",
+        "website": "https://www.linkedin.com/in/joygarratt/"
+      },
+      "social": {
+        "twitter": "joyousgarratt",
+        "facebook": "Joy4NewMexico",
+        "instagram": "jigarratt"
+      },
+      "bio": {
+        "birth_date": "1952-04-11",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HGARR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joy_I._Garratt",
+        "https://en.wikipedia.org/wiki/Joy_Garratt",
+        "https://justfacts.votesmart.org/candidate/biography/168124/joy-garratt",
+        "https://www.linkedin.com/in/joygarratt",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HGARR",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "cates-kathleen-nm-hd44",
+      "name": "Kathleen Cates",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-44)",
+      "state": "NM",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/73fc9839-619a-4ad5-bbbd-dfaf7f308e09"
+      },
+      "contact": {
+        "email": "kathleen.cates@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HCATE"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HCATE.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kathleen_Cates",
+        "https://en.wikipedia.org/wiki/Kathleen_Cates",
+        "https://www.linkedin.com/in/kathleen-holmes-cates-b179831ab",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HCATE",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "duhigg-katy-nm-sd10",
+      "name": "Katy Duhigg",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-10)",
+      "state": "NM",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cce76180-bf09-413a-9d9d-1cc8ae7cf2db"
+      },
+      "contact": {
+        "email": "katy.duhigg@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SDUHI"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SDUHI.jpg",
+      "sources": [
+        "https://ballotpedia.org/Katy_Duhigg",
+        "https://en.wikipedia.org/wiki/Katy_Duhigg",
+        "https://sutinfirm.com/lawyers/katy-m-duhigg",
+        "https://www.linkedin.com/in/katyduhigg",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SDUHI",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "ortez-kristina-nm-hd42",
+      "name": "Kristina Ortez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-42)",
+      "state": "NM",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0dd8a8ff-99c5-4d1a-90fb-3b74398a4141"
+      },
+      "contact": {
+        "email": "kristina.ortez@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HORTE"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HORTE.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kristina_Ortez",
+        "https://en.wikipedia.org/wiki/Kristina_Ortez",
+        "https://www.linkedin.com/in/kristina-ortez-703b3b43",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HORTE",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "scott-larry-nm-sd42",
+      "name": "Larry Scott",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-42)",
+      "state": "NM",
+      "district": "SD-42",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/febbd8f4-a85e-476c-b96f-52f4f759f8c7"
+      },
+      "contact": {
+        "email": "larry.scott@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HSCOT"
+      },
+      "bio": {
+        "birth_date": "1952-03-24",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HSCOT.jpg",
+      "sources": [
+        "https://ballotpedia.org/Larry_Scott",
+        "https://en.wikipedia.org/wiki/Larry_R._Scott",
+        "https://justfacts.votesmart.org/candidate/biography/150991/larry-scott",
+        "https://www.linkedin.com/in/larry-scott-9a94703b",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HSCOT",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SSCOL",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "jaramillo-leo-nm-sd5",
+      "name": "Leo Jaramillo",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-5)",
+      "state": "NM",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9b0d6912-d333-4ae7-b626-ce643099a43d"
+      },
+      "contact": {
+        "email": "leo.jaramillo@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SJARA"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SJARA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Leo_Jaramillo",
+        "https://en.wikipedia.org/wiki/Leo_Jaramillo",
+        "https://www.linkedin.com/in/leo-jaramillo-586963186",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SJARA",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "l-pez-linda-nm-sd11",
+      "name": "Linda López",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-11)",
+      "state": "NM",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ecc60fc8-8598-4650-8a55-6e91d24e991e"
+      },
+      "contact": {
+        "email": "linda.lopez@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/linda-lopez-018b9111/"
+      },
+      "social": {
+        "twitter": "lopez4gov",
+        "facebook": "linda.m.lopez.39"
+      },
+      "bio": {
+        "birth_date": "1964-03-13",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SLOPE.jpg",
+      "sources": [
+        "https://ballotpedia.org/Linda_Lopez,_New_Mexico_Senator",
+        "https://en.wikipedia.org/wiki/Linda_M._Lopez",
+        "https://justfacts.votesmart.org/candidate/biography/10302/linda-lopez",
+        "https://www.linkedin.com/in/linda-lopez-018b9111",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SLOPE",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "trujillo-linda-nm-sd24",
+      "name": "Linda Trujillo",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-24)",
+      "state": "NM",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4cbcf352-3f7a-412d-afc6-568dc4b94400"
+      },
+      "contact": {
+        "email": "linda.trujillo@nmlegis.gov",
+        "district_voice": "505-795-4324",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HTRUL"
+      },
+      "social": {
+        "twitter": "jellybeanlaw4"
+      },
+      "bio": {
+        "birth_date": "1959-05-20",
+        "gender": "Female"
+      },
+      "image": "http://www.nmlegis.gov/Images/Legislators/House/HTRUL.jpg",
+      "sources": [
+        "https://ballotpedia.org/Linda_Trujillo",
+        "https://en.wikipedia.org/wiki/Linda_Trujillo",
+        "https://justfacts.votesmart.org/candidate/biography/168393/linda-trujillo",
+        "https://www.linkedin.com/in/linda-trujillo-606472240",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HTRUL",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=STRUL",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "serrato-linda-nm-hd45",
+      "name": "Linda Serrato",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-45)",
+      "state": "NM",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/570bb94a-0500-44de-8983-ca259e0d4a60"
+      },
+      "contact": {
+        "email": "linda.serrato@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HSERR"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HSERR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Linda_Serrato",
+        "https://en.wikipedia.org/wiki/Linda_Serrato",
+        "https://www.linkedin.com/in/lindaserratoybarra",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HSERR",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "terrazas-luis-nm-hd39",
+      "name": "Luis Terrazas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-39)",
+      "state": "NM",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6f02eec7-0afe-4f15-ad56-653148da00c0"
+      },
+      "contact": {
+        "email": "luis.terrazas@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HTERR"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HTERR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Luis_Terrazas",
+        "https://en.wikipedia.org/wiki/Luis_Terrazas_(politician)",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HTERR",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "matthews-marian-nm-hd27",
+      "name": "Marian Matthews",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-27)",
+      "state": "NM",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c2fb0283-189c-4b0c-9d99-7b70d2f62c40"
+      },
+      "contact": {
+        "email": "marian.matthews@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/marianmatthews/"
+      },
+      "social": {
+        "twitter": "Hd27Marian",
+        "facebook": "MarianMatthewsHD27"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HMATT.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marian_Matthews",
+        "https://en.wikipedia.org/wiki/Marian_Matthews",
+        "https://www.linkedin.com/in/marianmatthews",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HMATT",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "anaya-marianna-nm-hd18",
+      "name": "Marianna Anaya",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-18)",
+      "state": "NM",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bc194113-8c8a-4cba-b1f4-25269c72a9fd"
+      },
+      "contact": {
+        "email": "marianna.anaya@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HANMA"
+      },
+      "bio": {
+        "gender": "X"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MariannaAnaya.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marianna_Anaya",
+        "https://en.wikipedia.org/wiki/Marianna_Anaya",
+        "https://www.linkedin.com/in/mariannaanaya",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HANMA",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "duncan-mark-nm-hd2",
+      "name": "Mark Duncan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-2)",
+      "state": "NM",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aa8f331c-d541-4acd-b025-e218e01764e2"
+      },
+      "contact": {
+        "email": "mark.duncan@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HDUNC"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HDUNC.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Duncan_(New_Mexico)",
+        "https://en.wikipedia.org/wiki/Mark_Duncan_(politician)",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HDUNC",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "murphy-mark-nm-hd59",
+      "name": "Mark Murphy",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-59)",
+      "state": "NM",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/406c0ab4-c372-42bc-ba14-77181dc7c418"
+      },
+      "contact": {
+        "email": "mark.murphy@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HMURP"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mark_Murphy_(New_Mexico)",
+        "https://www.linkedin.com/in/mark-murphy-909b7135",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HMURP",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "garcia-martha-nm-hd6",
+      "name": "Martha Garcia",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-6)",
+      "state": "NM",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fb0443f9-b6d7-4b3b-a87e-0d8b143ed64b"
+      },
+      "contact": {
+        "email": "martha.garcia@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/members/Legislator?SponCode=HGAMA"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Martha_Garcia_(New_Mexico)",
+        "https://www.nmlegis.gov/members/Legislator?SponCode=HGAMA",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "hickey-martin-nm-sd20",
+      "name": "Martin Hickey",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-20)",
+      "state": "NM",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/88fd357f-3fb1-4c2b-b49b-555231011c46"
+      },
+      "contact": {
+        "email": "martin.hickey@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SHICK"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SHICK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Martin_Hickey",
+        "https://en.wikipedia.org/wiki/Martin_Hickey",
+        "https://www.linkedin.com/in/martin-hickey-ab64894b",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SHICK",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "zamora-martin-nm-hd63",
+      "name": "Martin Zamora",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-63)",
+      "state": "NM",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dc968f82-503e-4246-9124-b880fd6ae3ae"
+      },
+      "contact": {
+        "email": "martin.zamora@nmlegis.gov",
+        "district_voice": "575-309-2334",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HZAMO"
+      },
+      "social": {
+        "twitter": "repmartinzamora"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HZAMO.jpg",
+      "sources": [
+        "https://ballotpedia.org/Martin_Ruben_Zamora",
+        "https://en.wikipedia.org/wiki/Martin_R._Zamora",
+        "https://justfacts.votesmart.org/candidate/biography/180813/martin-zamora",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HZAMO",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "mcqueen-matthew-nm-hd50",
+      "name": "Matthew McQueen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-50)",
+      "state": "NM",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e3affc46-1790-48ba-ae36-5c00473d6c35"
+      },
+      "contact": {
+        "email": "matthew.mcqueen@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/matthew-mcqueen-86a8322/"
+      },
+      "social": {
+        "twitter": "mcqueenfornm",
+        "facebook": "mcqueenfornm"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HMCQU.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matthew_McQueen",
+        "https://en.wikipedia.org/wiki/Matthew_McQueen_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/150981/matthew-mcqueen",
+        "https://www.linkedin.com/in/matthew-mcqueen-86a8322",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HMCQU",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "dixon-meredith-nm-hd20",
+      "name": "Meredith Dixon",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-20)",
+      "state": "NM",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ac49b3cf-9fb8-4fa1-af55-4b35a6570c87"
+      },
+      "contact": {
+        "email": "meredith.dixon@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HDIXO"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HDIXO.jpg",
+      "sources": [
+        "https://ballotpedia.org/Meredith_Dixon",
+        "https://en.wikipedia.org/wiki/Meredith_Dixon",
+        "https://www.linkedin.com/in/meredith-dixon-230b834",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HDIXO",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "cadena-micaela-nm-hd33",
+      "name": "Micaela Cadena",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-33)",
+      "state": "NM",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5b9af862-0f9f-42b2-a694-f80055129d6c"
+      },
+      "contact": {
+        "email": "micaela.cadena@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/micaela-cadena-95541a183/"
+      },
+      "social": {
+        "facebook": "laracadena4nm"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HCADA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Micaela_Lara_Cadena",
+        "https://en.wikipedia.org/wiki/Micaela_Lara_Cadena",
+        "https://www.linkedin.com/in/micaela-lara-cadena-95541a183",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HCADA",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "padilla-michael-nm-sd14",
+      "name": "Michael Padilla",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-14)",
+      "state": "NM",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ce888eff-62f5-41c0-9114-651c43f77aba"
+      },
+      "contact": {
+        "email": "michael.padilla@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/michaelpadilla1/"
+      },
+      "social": {
+        "twitter": "SenPadilla",
+        "facebook": "michael.padilla.31",
+        "instagram": "michael.padilla.31"
+      },
+      "bio": {
+        "birth_date": "1972-06-13",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SPADI.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Padilla_(New_Mexico)",
+        "https://en.wikipedia.org/wiki/Michael_Padilla",
+        "https://justfacts.votesmart.org/candidate/biography/103955/michael-padilla",
+        "https://www.linkedin.com/in/michaelpadilla1",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SPADI",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "garc-a-miguel-nm-hd14",
+      "name": "Miguel García",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-14)",
+      "state": "NM",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3363aa83-2490-4631-b04b-9a52fdbad14b"
+      },
+      "contact": {
+        "email": "miguel.garcia@nmlegis.gov",
+        "district_voice": "505-877-8131",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HGAMP"
+      },
+      "bio": {
+        "birth_date": "1951-01-19",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HGAMP.jpg",
+      "sources": [
+        "https://ballotpedia.org/Miguel_Garcia_(New_Mexico)",
+        "https://en.wikipedia.org/wiki/Miguel_Garcia_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/12346/miguel-garcia",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HGAMP",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "stewart-mimi-nm-sd17",
+      "name": "Mimi Stewart",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-17)",
+      "state": "NM",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f1144347-0a16-43e4-97b9-01308a890631"
+      },
+      "contact": {
+        "email": "mimi.stewart@nmlegis.gov",
+        "district_voice": "505-986-4733",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SSTEW"
+      },
+      "social": {
+        "twitter": "Sen_MimiStewart",
+        "facebook": "peopleformimistewart",
+        "instagram": "mimistewart9"
+      },
+      "bio": {
+        "birth_date": "1947-01-27",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SSTEW.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mimi_Stewart",
+        "https://en.wikipedia.org/wiki/Mimi_Stewart",
+        "https://justfacts.votesmart.org/candidate/biography/8357/mimi-stewart",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SSTEW",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "figueroa-natalie-nm-sd18",
+      "name": "Natalie Figueroa",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-18)",
+      "state": "NM",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/48969449-b004-4ca3-a72b-8508e95e0051"
+      },
+      "contact": {
+        "email": "natalie.figueroa@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/natalie-figueroa-150a0670/"
+      },
+      "social": {
+        "facebook": "Natalie4NM"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HFIGU.jpg",
+      "sources": [
+        "https://ballotpedia.org/Natalie_R._Figueroa",
+        "https://en.wikipedia.org/wiki/Natalie_Figueroa_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/168298/natalie-figueroa",
+        "https://www.linkedin.com/in/natalie-figueroa-150a0670",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HFIGU",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SFIGU",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "small-nathan-nm-hd36",
+      "name": "Nathan Small",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-36)",
+      "state": "NM",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/57440e55-06ad-4f1f-8aa5-3bdd31a805dd"
+      },
+      "contact": {
+        "email": "nathan.small@nmlegis.gov",
+        "district_voice": "575-496-9540",
+        "website": "https://www.linkedin.com/in/nathan-small-20685816/"
+      },
+      "social": {
+        "twitter": "nathanlcnm",
+        "facebook": "NathanForNM"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HSMAL.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nathan_P._Small",
+        "https://en.wikipedia.org/wiki/Nathan_Small",
+        "https://www.linkedin.com/in/nathan-small-20685816",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HSMAL",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "chavez-nicole-nm-hd31",
+      "name": "Nicole Chavez",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-31)",
+      "state": "NM",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f2ed2dd1-ba2d-48cd-8365-cbb149b459e9"
+      },
+      "contact": {
+        "email": "nicole.chavez@nmlegis.gov",
+        "district_voice": "505-235-7836",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HCHNI"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/NicoleChavez.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Nicole_Chavez",
+        "https://www.linkedin.com/in/nicole-chavez-a490a8a",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HCHNI",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "tobiassen-nicole-nm-sd21",
+      "name": "Nicole Tobiassen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-21)",
+      "state": "NM",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/daefbf8d-768f-4dab-8f4f-0a272e2cb697"
+      },
+      "contact": {
+        "email": "nicole.tobiassen@nmlegis.gov",
+        "district_voice": "505-209-7716",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=STOBI"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://nicolefornm.com/wp-content/uploads/2023/06/Nicole-Tobiassen-Headshot-3-768x512.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nicole_Tobiassen",
+        "https://en.wikipedia.org/wiki/Nicole_Tobiassen",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=STOBI",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "herndon-pamelya-nm-hd28",
+      "name": "Pamelya Herndon",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-28)",
+      "state": "NM",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/800d2a2e-1622-4ab2-b290-3c537b38bdf8"
+      },
+      "contact": {
+        "email": "pamelya.herndon@nmlegis.gov",
+        "district_voice": "505-205-0868",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HHEPA"
+      },
+      "bio": {
+        "birth_date": "1952-11-23",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HHEPA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Pamelya_Herndon",
+        "https://en.wikipedia.org/wiki/Pamelya_Herndon",
+        "https://www.linkedin.com/in/pamelya-herndon-4055929",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HHEPA",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "boone-pat-nm-sd27",
+      "name": "Pat Boone",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-27)",
+      "state": "NM",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4093c9b8-d07a-4a12-b13b-abbd4130b1fe"
+      },
+      "contact": {
+        "email": "pat.boone@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SBOON"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senatorpatboone.com/wp-content/uploads/2024/03/Pat-Boone-Photo-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patrick_Boone_IV",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SBOON",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "woods-pat-nm-sd7",
+      "name": "Pat Woods",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-7)",
+      "state": "NM",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6a28626b-9919-4d77-9b62-44ad1d45215d"
+      },
+      "contact": {
+        "email": "pat.woods@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/pat-woods-abb44b46/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SWOOD.jpg",
+      "sources": [
+        "https://ballotpedia.org/Pat_Woods",
+        "https://en.wikipedia.org/wiki/Pat_Woods_(politician)",
+        "https://www.linkedin.com/in/pat-woods-abb44b46",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SWOOD",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "lundstrom-patty-nm-hd9",
+      "name": "Patty Lundstrom",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-9)",
+      "state": "NM",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/94eed261-74bb-4f8b-a0ab-62b2a7ff8e98"
+      },
+      "contact": {
+        "email": "patricia.lundstrom@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/patty-lundstrom-a47ba450/"
+      },
+      "social": {
+        "facebook": "patricia.lundstrom.1"
+      },
+      "bio": {
+        "birth_date": "1959-02-06",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HLUND.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patricia_Lundstrom",
+        "https://en.wikipedia.org/wiki/Patricia_Lundstrom",
+        "https://www.linkedin.com/in/patty-lundstrom-a47ba450",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HLUND",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "roybal-caballero-pat-nm-hd13",
+      "name": "Pat Roybal Caballero",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-13)",
+      "state": "NM",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/20dc90cf-7805-4609-8631-45db1973cd5c"
+      },
+      "contact": {
+        "email": "pat.roybalcaballero@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/patricia-roybal-caballero-2007b135/"
+      },
+      "social": {
+        "twitter": "proybalcaballer",
+        "facebook": "patricia4nm",
+        "instagram": "state_rep_district_13"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HROYB.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patricia_A._Roybal_Caballero",
+        "https://en.wikipedia.org/wiki/Patricia_Roybal_Caballero",
+        "https://www.linkedin.com/in/patricia-roybal-caballero-2007b135",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HROYB",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "abeyta-paulene-nm-hd69",
+      "name": "Paulene Abeyta",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-69)",
+      "state": "NM",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8cc272e5-bf6a-441e-9b0a-407ed6361afa"
+      },
+      "contact": {
+        "email": "michelle.abeyta@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/members/Legislator?SponCode=HABMI"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://womencount.org/wp-content/uploads/2024/03/Michelle-Paulene-Abeyta-300x300.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Michelle_Abeyta",
+        "https://www.linkedin.com/in/michelle-paulene-abeyta-8265b8173",
+        "https://www.nmlegis.gov/members/Legislator?SponCode=HABMI",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "campos-pete-nm-sd8",
+      "name": "Pete Campos",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-8)",
+      "state": "NM",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e2f7dd70-36fc-4b65-8dfd-19fcc1d63e38"
+      },
+      "contact": {
+        "email": "pete.campos@nmlegis.gov",
+        "website": "https://petecampos.com"
+      },
+      "social": {
+        "twitter": "senpetecampos",
+        "facebook": "pete.campos.1426"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SCAMP.jpg",
+      "sources": [
+        "https://ballotpedia.org/Pete_Campos",
+        "https://en.wikipedia.org/wiki/Pete_Campos",
+        "https://justfacts.votesmart.org/candidate/biography/5789/pete-campos",
+        "https://petecampos.com",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SCAMP",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "wirth-peter-nm-sd25",
+      "name": "Peter Wirth",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-25)",
+      "state": "NM",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7595b557-0c70-44e3-a26b-af533d1ca94d"
+      },
+      "contact": {
+        "email": "peter.wirth@nmlegis.gov",
+        "district_voice": "505-986-4727",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SWIRT"
+      },
+      "social": {
+        "twitter": "senatorwirth"
+      },
+      "bio": {
+        "birth_date": "1961-12-03",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SWIRT.jpg",
+      "sources": [
+        "https://ballotpedia.org/Peter_Wirth",
+        "https://en.wikipedia.org/wiki/Peter_Wirth_(politician)",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SWIRT",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "pettigrew-randy-nm-hd61",
+      "name": "Randy Pettigrew",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-61)",
+      "state": "NM",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a36bdc41-5666-4208-b8f0-8d9012d31f22"
+      },
+      "contact": {
+        "email": "randall.pettigrew@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HPETT"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HPETT.jpg",
+      "sources": [
+        "https://ballotpedia.org/Randall_Pettigrew",
+        "https://en.wikipedia.org/wiki/Randall_Pettigrew",
+        "https://justfacts.votesmart.org/candidate/biography/191485/randall-pettigrew",
+        "https://www.linkedin.com/in/randall-t-pettigrew-pe-27133336",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HPETT",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "lara-ray-nm-hd34",
+      "name": "Ray Lara",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-34)",
+      "state": "NM",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e8d69d4c-dfd4-4e22-939a-cc356ba7ac05"
+      },
+      "contact": {
+        "email": "raymundo.lara@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HLARA"
+      },
+      "social": {
+        "facebook": "RayLaraforStateRepresentative"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HLARA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Raymundo_Lara",
+        "https://en.wikipedia.org/wiki/Raymundo_Lara",
+        "https://www.linkedin.com/in/raymundo-lara-1217b989",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HLARA",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "dow-rebecca-nm-hd38",
+      "name": "Rebecca Dow",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-38)",
+      "state": "NM",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2904a9a3-7e21-4c6f-b40a-e79288ca1b49"
+      },
+      "contact": {
+        "email": "rebecca.dow@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/rebecca-dow-43670a15/"
+      },
+      "social": {
+        "twitter": "reprebeccadow",
+        "facebook": "rebeccadowforhouse",
+        "instagram": "rebecca_dow"
+      },
+      "bio": {
+        "birth_date": "1973-06-26",
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HDOWR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rebecca_L._Dow",
+        "https://en.wikipedia.org/wiki/Rebecca_Dow",
+        "https://justfacts.votesmart.org/candidate/biography/168388/rebecca-dow",
+        "https://www.linkedin.com/in/rebecca-dow-43670a15",
+        "https://www.nmlegis.gov/Members/Former_Legislator?SponCode=HDOWR",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HDOWR",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "szczepanski-reena-nm-hd47",
+      "name": "Reena Szczepanski",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-47)",
+      "state": "NM",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0b7d9451-0462-4064-b28e-6d44123edd1e"
+      },
+      "contact": {
+        "email": "reena.szczepanski@nmlegis.gov",
+        "district_voice": "505-986-4780",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HSCZE"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HSZCZ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Reena_Szczepanski",
+        "https://en.wikipedia.org/wiki/Reena_Szczepanski",
+        "https://www.linkedin.com/in/reenaszcz",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HSCZE",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HSZCZ",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "wilson-rex-nm-sd33",
+      "name": "Rex Wilson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-33)",
+      "state": "NM",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0884aac3-cddb-4374-88e1-94bf623410f3"
+      },
+      "contact": {
+        "email": "rex.wilson@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SWIRE"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Rex_Wilson",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SWIRE",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "gonzales-bobby-nm-sd6",
+      "name": "Bobby Gonzales",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-6)",
+      "state": "NM",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5e9a828c-3dfb-4f88-8dfe-f8fccf11ef78"
+      },
+      "contact": {
+        "email": "roberto.gonzales@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SGONZ"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SGONZ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roberto_Gonzales",
+        "https://en.wikipedia.org/wiki/Roberto_Gonzales",
+        "https://justfacts.votesmart.org/candidate/biography/5837/roberto-gonzales",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SGONZ",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "montoya-rod-nm-hd1",
+      "name": "Rod Montoya",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-1)",
+      "state": "NM",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/948ba2f7-fd71-42ed-a35a-e692b76d2ca2"
+      },
+      "contact": {
+        "email": "rod.montoya@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HMONR"
+      },
+      "social": {
+        "facebook": "rod.montoya.186"
+      },
+      "bio": {
+        "birth_date": "1966-10-25",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HMONR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rodney_Montoya",
+        "https://en.wikipedia.org/wiki/Rod_Montoya",
+        "https://justfacts.votesmart.org/candidate/biography/150983/rod-montoya",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HMONR",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "silva-sarah-nm-hd53",
+      "name": "Sarah Silva",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-53)",
+      "state": "NM",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a9377979-b109-4e11-b338-89b203c04527"
+      },
+      "contact": {
+        "email": "sarah.silva@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HSISA"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/66d0e643284c6d63d067a073/8916e12c-d13c-49fb-810a-2c7ffb58d300/SilvaSarah.JPG",
+      "sources": [
+        "https://ballotpedia.org/Sarah_Silva",
+        "https://www.linkedin.com/in/sarah-silva-36369527",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HSISA",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "pinto-shannon-nm-sd3",
+      "name": "Shannon Pinto",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-3)",
+      "state": "NM",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fa98430a-5031-4c64-bd6d-8a6f0cc4043e"
+      },
+      "contact": {
+        "email": "shannon.pinto@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SPINS"
+      },
+      "social": {
+        "facebook": "Shannon4NM"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SPINS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shannon_Pinto",
+        "https://en.wikipedia.org/wiki/Shannon_Pinto",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SPINS",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "lord-stefani-nm-hd22",
+      "name": "Stefani Lord",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-22)",
+      "state": "NM",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eef5df5d-b9da-4ac3-9a3e-7f6ba775e6d7"
+      },
+      "contact": {
+        "email": "stefani.lord@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HLORD"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HLORD.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stefani_Lord",
+        "https://en.wikipedia.org/wiki/Stefani_Lord",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HLORD",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "lanier-steve-nm-sd2",
+      "name": "Steve Lanier",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-2)",
+      "state": "NM",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/82ac8832-cb59-4ea3-b6e7-a74e2115f37d"
+      },
+      "contact": {
+        "email": "steve.lanier@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SLANI"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.naco.org/sites/default/files/styles/349x333/public/Steve%20Lanier.webp",
+      "sources": [
+        "https://ballotpedia.org/Steve_Lanier",
+        "https://en.wikipedia.org/wiki/Steve_D._Lanier",
+        "https://justfacts.votesmart.org/candidate/biography/215387/steve-lanier",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SLANI",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "herrera-susan-nm-hd41",
+      "name": "Susan Herrera",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-41)",
+      "state": "NM",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d5d0e9d9-bd6f-4f28-9a3f-13a56cadcc0f"
+      },
+      "contact": {
+        "email": "susan.herrera@nmlegis.gov",
+        "website": "https://www.linkedin.com/in/susan-herrera-62757815/"
+      },
+      "social": {
+        "facebook": "NMDistrict41"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HHERS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Susan_Herrera",
+        "https://en.wikipedia.org/wiki/Susan_K._Herrera",
+        "https://www.linkedin.com/in/susan-herrera-62757815",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HHERS",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "moya-tanya-nm-hd7",
+      "name": "Tanya Moya",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-7)",
+      "state": "NM",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f2394325-2797-4403-8f77-7f4dd3db0bb9"
+      },
+      "contact": {
+        "email": "tanya.mirabalmoya@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HMIRA"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HMIRA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tanya_Mirabal_Moya",
+        "https://en.wikipedia.org/wiki/Tanya_Mirabal_Moya",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HMIRA",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "luj-n-tara-nm-hd48",
+      "name": "Tara Luján",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-48)",
+      "state": "NM",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a564eb5c-5c29-43ef-a40f-241efb70ef8d"
+      },
+      "contact": {
+        "email": "tara.lujan@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HLUTA"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HLUTA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tara_Lujan",
+        "https://en.wikipedia.org/wiki/Tara_Lujan",
+        "https://www.linkedin.com/in/tara-lujan-142531258",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HLUTA",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "sharer-bill-nm-sd1",
+      "name": "Bill Sharer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-1)",
+      "state": "NM",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7a7be318-78b1-49c6-bd98-f2b9b7476372"
+      },
+      "contact": {
+        "email": "bill@williamsharer.com",
+        "website": "https://www.linkedin.com/in/william-sharer-71248033/"
+      },
+      "social": {
+        "twitter": "billsharer",
+        "facebook": "bill.sharer.9"
+      },
+      "bio": {
+        "birth_date": "1959-09-22",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SSHAR.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Sharer",
+        "https://en.wikipedia.org/wiki/William_Sharer",
+        "https://justfacts.votesmart.org/candidate/biography/43442/bill-sharer",
+        "https://www.linkedin.com/in/william-sharer-71248033",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SSHAR",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "soules-bill-nm-sd37",
+      "name": "Bill Soules",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Senator (SD-37)",
+      "state": "NM",
+      "district": "SD-37",
+      "chamber": "upper",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/33aa9a6b-b106-4216-8ea5-82d85cd2250a"
+      },
+      "contact": {
+        "email": "bill.soules@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=SSOUL"
+      },
+      "social": {
+        "twitter": "senatorsoules",
+        "facebook": "Soules4Senate37",
+        "instagram": "soules_bill"
+      },
+      "bio": {
+        "birth_date": "1955-12-06",
+        "gender": "Male"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/Senate/SSOUL.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_P._Soules",
+        "https://en.wikipedia.org/wiki/William_Soules",
+        "https://justfacts.votesmart.org/candidate/biography/139118/bill-soules",
+        "https://www.linkedin.com/in/bill-soules-76792b7a",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=SSOUL",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=S",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    },
+    {
+      "politician_id": "gurrola-yanira-nm-hd16",
+      "name": "Yanira Gurrola",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "New Mexico State Representative (HD-16)",
+      "state": "NM",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "NM",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bc947ac1-c584-4e5f-84a9-ea9f6ac959c6"
+      },
+      "contact": {
+        "email": "yanira.gurrola@nmlegis.gov",
+        "website": "https://www.nmlegis.gov/Members/Legislator?SponCode=HGURR"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.nmlegis.gov/Images/Legislators/House/HGURR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Yanira_Gurrola_Valenzuela",
+        "https://en.wikipedia.org/wiki/Yanira_Gurrola",
+        "https://www.linkedin.com/in/yanira-gurrola-valenzuela-80594bb5",
+        "https://www.nmlegis.gov/members/Legislator?SponCode=HGURR",
+        "https://www.nmlegis.gov/Members/Legislator?SponCode=HGURR",
+        "https://www.nmlegis.gov/Members/Legislator_List?T=R",
+        "https://data.openstates.org/people/current/nm.csv"
+      ]
+    }
+  ]
+}

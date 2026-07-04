@@ -1,0 +1,5231 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/mi.csv",
+  "state": "MI",
+  "politicians": [
+    {
+      "politician_id": "farhat-alabas-mi-hd3",
+      "name": "Alabas Farhat",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-3)",
+      "state": "MI",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/788d408d-cb80-43fd-802a-4778a930894d"
+      },
+      "contact": {
+        "email": "alabasfarhat@house.mi.gov",
+        "website": "https://housedems.com/Alabas-Farhat/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Alabas_Farhat",
+        "https://en.wikipedia.org/wiki/Alabas_Farhat",
+        "https://housedems.com/Alabas-Farhat",
+        "https://housedems.com/Alabas-Farhat/",
+        "https://housedems.com/alabas-farhat/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/alabasf",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "st-germaine-alicia-mi-hd62",
+      "name": "Alicia St. Germaine",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-62)",
+      "state": "MI",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/81da0894-0569-4c8d-9c4e-befd39650fee"
+      },
+      "contact": {
+        "email": "aliciastgermaine@house.mi.gov",
+        "website": "https://gophouse.org/member/RepAliciaStGermaine/posts"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/St. Germaine-062.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alicia_St._Germaine",
+        "https://en.wikipedia.org/wiki/Alicia_St._Germaine",
+        "https://gophouse.org/member/RepAliciaStGermaine/posts",
+        "https://justfacts.votesmart.org/candidate/206712/alicia-st-germaine",
+        "https://RepStGermaine.com",
+        "https://www.aliciastgermaine.com/about-alicia",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repAliciaSt. Germaine",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "o-neal-amos-mi-hd94",
+      "name": "Amos O'Neal",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-94)",
+      "state": "MI",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5f160dff-1ce1-4606-a469-fdd08125beb4"
+      },
+      "contact": {
+        "email": "amosoneal@house.mi.gov",
+        "website": "https://housedems.com/amos-oneal/"
+      },
+      "bio": {
+        "birth_date": "1961-07-17",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Amos_O%27Neal",
+        "https://en.wikipedia.org/wiki/Amos_O%27Neal",
+        "https://housedems.com/amos-oneal",
+        "https://housedems.com/amos-oneal/",
+        "https://justfacts.votesmart.org/candidate/biography/76476/amos-oneal",
+        "https://www.gongwer.com/directories/bio.cfm?nameid=563201",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/amosoneal",
+        "https://www.michiganlcv.org/lawmaker/amos-oneal",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "rigas-angela-mi-hd79",
+      "name": "Angela Rigas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-79)",
+      "state": "MI",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/527d59db-a346-4a91-8f98-e1b57947b58c"
+      },
+      "contact": {
+        "email": "angelarigas@house.mi.gov",
+        "website": "https://gophouse.org/member/RepAngelaRigas/posts"
+      },
+      "bio": {
+        "birth_date": "1974-10-27",
+        "gender": "Female"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Rigas-079.jpg",
+      "sources": [
+        "https://ballotpedia.org/Angela_Rigas",
+        "https://en.wikipedia.org/wiki/Angela_Rigas",
+        "https://gophouse.org/member/RepAngelaRigas/about",
+        "https://gophouse.org/member/RepAngelaRigas/posts",
+        "https://justfacts.votesmart.org/candidate/biography/153583/angela-rigas",
+        "https://RepRigas.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repAngelaRigas",
+        "https://www.linkedin.com/in/angela-rigas-044280259",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "witwer-angela-mi-hd76",
+      "name": "Angela Witwer",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-76)",
+      "state": "MI",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0db39d07-a543-4e52-82b0-457f406855e8"
+      },
+      "contact": {
+        "email": "angelawitwer@house.mi.gov",
+        "website": "https://housedems.com/angela-witwer/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.com/sites/default/files/Images/Representative_Images/D071_Angela_Witwer/071_Witwer.jpg",
+      "sources": [
+        "https://ballotpedia.org/Angela_Witwer",
+        "https://en.wikipedia.org/wiki/Angela_Witwer",
+        "https://housedems.com/angela-witwer",
+        "https://housedems.com/angela-witwer/",
+        "https://housedems.com/witwer",
+        "https://justfacts.votesmart.org/candidate/182870/angela-witwer",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/angelawitwer",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "bollin-ann-mi-hd49",
+      "name": "Ann Bollin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-49)",
+      "state": "MI",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3a9d71dc-da5b-4bd3-8062-c8387292dc52"
+      },
+      "contact": {
+        "email": "annbollin@house.mi.gov",
+        "website": "https://gophouse.org/member/repannbollin/about"
+      },
+      "bio": {
+        "birth_date": "1960-08-18",
+        "gender": "Female"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2020/07/HS_AnnBollin_0119-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ann_Bollin",
+        "https://en.wikipedia.org/wiki/Ann_Bollin",
+        "https://gophouse.org/member/repannbollin/about",
+        "https://gophouse.org/representatives/southeast/bollin",
+        "https://gophouse.org/representatives/southeast/bollin/",
+        "https://justfacts.votesmart.org/candidate/biography/182799/ann-bollin",
+        "https://RepBollin.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/ann-bollin-4382676",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "nesbitt-aric-mi-sd20",
+      "name": "Aric Nesbitt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-20)",
+      "state": "MI",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6d11944d-f19f-4697-811c-0c9dca750c57"
+      },
+      "contact": {
+        "email": "senanesbitt@senate.michigan.gov",
+        "website": "https://www.senatoraricnesbitt.com"
+      },
+      "bio": {
+        "birth_date": "1980-01-25",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2019/01/Nesbitt-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Aric_Nesbitt",
+        "https://en.wikipedia.org/wiki/Aric_Nesbitt",
+        "https://justfacts.votesmart.org/candidate/biography/124278/aric-nesbitt",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/aric-nesbitt-9b5ab82",
+        "https://www.senatoraricnesbitt.com",
+        "https://www.senatoraricnesbitt.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "coffia-betsy-mi-hd103",
+      "name": "Betsy Coffia",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-103)",
+      "state": "MI",
+      "district": "HD-103",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/80ccf9a5-7303-4218-be3e-0ab6f8e90eee"
+      },
+      "contact": {
+        "email": "betsycoffia@house.mi.gov",
+        "website": "https://housedems.com/Betsy-Coffia/"
+      },
+      "bio": {
+        "birth_date": "1977-09-07",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Betsy_Coffia",
+        "https://en.wikipedia.org/wiki/Betsy_Coffia",
+        "https://housedems.com/Betsy-Coffia",
+        "https://housedems.com/Betsy-Coffia/",
+        "https://housedems.com/betsy-coffia/about",
+        "https://justfacts.votesmart.org/candidate/biography/140024/betsy-coffia",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/betsycoffia",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "schuette-bill-mi-hd95",
+      "name": "Bill Schuette",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-95)",
+      "state": "MI",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5355f558-55bb-4f29-81eb-89179f55d69a"
+      },
+      "contact": {
+        "email": "billschuette@house.mi.gov",
+        "website": "https://gophouse.org/member/RepBillGSchuette/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Schuette-095.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bill_G._Schuette",
+        "https://en.wikipedia.org/wiki/Bill_G._Schuette",
+        "https://gophouse.org/member/RepBillGSchuette/posts",
+        "https://gophouse.org/member/RepBillSchuette/about",
+        "https://gophouse.org/member/RepBillSchuette/posts",
+        "https://justfacts.votesmart.org/candidate/biography/213008/bill-schuette",
+        "https://RepSchuette.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repBillSchuette",
+        "https://www.linkedin.com/in/bill-g-schuette-807586171",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "paquette-brad-mi-hd37",
+      "name": "Brad Paquette",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-37)",
+      "state": "MI",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/04a88313-6387-44ab-972c-b000b3c316f4"
+      },
+      "contact": {
+        "email": "bradpaquette@house.mi.gov",
+        "website": "https://gophouse.org/member/repbradpaquette/about"
+      },
+      "bio": {
+        "birth_date": "1987-05-24",
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2020/07/HS_PAQUETTE_0119.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brad_Paquette",
+        "https://en.wikipedia.org/wiki/Brad_Paquette",
+        "https://gophouse.org/member/repbradpaquette/about",
+        "https://gophouse.org/representatives/southwest/paquette",
+        "https://gophouse.org/representatives/southwest/paquette/",
+        "https://justfacts.votesmart.org/candidate/biography/182888/brad-paquette",
+        "https://RepPaquette.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/brad-paquette-42755a31",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "slagh-brad-mi-hd85",
+      "name": "Brad Slagh",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-85)",
+      "state": "MI",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/38c62407-9471-40de-8a1c-44142573c79a"
+      },
+      "contact": {
+        "email": "bradleyslagh@house.mi.gov",
+        "website": "https://gophouse.org/member/repbradleyslagh/about"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2021/02/HS_SLAGH_0221_NSC_1065-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bradley_Slagh",
+        "https://en.wikipedia.org/wiki/Bradley_Slagh",
+        "https://gophouse.org/member/repbradleyslagh/about",
+        "https://gophouse.org/representatives/westmi/slagh",
+        "https://gophouse.org/representatives/westmi/slagh/",
+        "https://justfacts.votesmart.org/candidate/biography/182918/bradley-slagh",
+        "https://RepSlagh.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/bradley-slagh-6b06249",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "carter-brenda-mi-hd53",
+      "name": "Brenda Carter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-53)",
+      "state": "MI",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0019e62f-6671-4085-b2d3-55d3c4a23717"
+      },
+      "contact": {
+        "email": "brendacarter@house.mi.gov",
+        "website": "https://housedems.com/brenda-carter"
+      },
+      "bio": {
+        "birth_date": "1954-09-10",
+        "gender": "Female"
+      },
+      "image": "https://housedems.com/sites/default/files/Images/Representative_Images/D029_Brenda_Carter/029_Carter.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brenda_Carter_(Michigan)",
+        "https://en.wikipedia.org/wiki/Brenda_Carter",
+        "https://housedems.com/brenda-carter",
+        "https://housedems.com/brenda-carter/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/brenda-carter-67217326",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "begole-brian-mi-hd71",
+      "name": "Brian BeGole",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-71)",
+      "state": "MI",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/172b6e7c-3765-4978-bc03-3d19a92d5164"
+      },
+      "contact": {
+        "email": "brianbegole@house.mi.gov",
+        "website": "https://gophouse.org/member/RepBrianBeGole/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/BeGole-071.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_BeGole",
+        "https://en.wikipedia.org/wiki/Brian_BeGole",
+        "https://gophouse.org/member/RepBrianBeGole/posts",
+        "https://justfacts.votesmart.org/candidate/206746/brian-begole",
+        "https://RepBeGole.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repBrianBeGole",
+        "https://www.linkedin.com/in/brian-begole-72020aa3",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "posthumus-bryan-mi-hd90",
+      "name": "Bryan Posthumus",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-90)",
+      "state": "MI",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c925c469-552f-448d-a89f-ef456e15da21"
+      },
+      "contact": {
+        "email": "bryanposthumus@house.mi.gov",
+        "website": "https://gophouse.org/member/repbryanposthumus/about"
+      },
+      "bio": {
+        "birth_date": "1984-10-26",
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2021/01/Bryan-Posthumus_HS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bryan_Posthumus",
+        "https://en.wikipedia.org/wiki/Bryan_Posthumus",
+        "https://gophouse.org/member/repbryanposthumus/about",
+        "https://justfacts.votesmart.org/candidate/biography/193117/bryan-posthumus",
+        "https://repposthumus.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/bryan-posthumus-a9102414",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "cavitt-cam-mi-hd106",
+      "name": "Cam Cavitt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-106)",
+      "state": "MI",
+      "district": "HD-106",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/60ae519b-a739-4dc5-80bb-c0161269607a"
+      },
+      "contact": {
+        "email": "camcavitt@house.mi.gov",
+        "website": "https://gophouse.org/member/RepCamCavitt/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Cavitt-106.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cameron_Cavitt",
+        "https://en.wikipedia.org/wiki/Cam_Cavitt",
+        "https://gophouse.org/member/RepCamCavitt/about",
+        "https://gophouse.org/member/RepCamCavitt/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206561/cam-cavitt",
+        "https://RepCavitt.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repCameronCavitt",
+        "https://www.linkedin.com/in/cameron-cavitt-9582ba12",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "glanville-carol-mi-hd84",
+      "name": "Carol Glanville",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-84)",
+      "state": "MI",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86812673-e63a-4f36-aa3e-26de84380657"
+      },
+      "contact": {
+        "email": "caglanville@house.mi.gov",
+        "website": "https://housedems.com/carol-glanville/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Carol_Glanville",
+        "https://en.wikipedia.org/wiki/Carol_Glanville",
+        "https://housedems.com/carol-glanville",
+        "https://housedems.com/carol-glanville/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/caglanville",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "rheingans-carrie-mi-hd47",
+      "name": "Carrie Rheingans",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-47)",
+      "state": "MI",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2f75473d-b2e6-49fd-914e-1e552ebc38a6"
+      },
+      "contact": {
+        "email": "carrierheingans@house.mi.gov",
+        "website": "https://housedems.com/Carrie-Rheingans/"
+      },
+      "bio": {
+        "birth_date": "1981-10-02",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Carrie_Rheingans",
+        "https://en.wikipedia.org/wiki/Carrie_Rheingans",
+        "https://housedems.com/Carrie-Rheingans",
+        "https://housedems.com/Carrie-Rheingans/",
+        "https://housedems.com/carrie-rheingans/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/crheinga",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "greene-chedrick-mi-sd35",
+      "name": "Chedrick Greene",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-35)",
+      "state": "MI",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b5b41ca8-2f16-4df4-9808-66b2a13bfecc"
+      },
+      "contact": {
+        "email": "sencgreene@senate.michigan.gov",
+        "website": "https://senatedems.com/greene/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Chedrick_Greene_20251023_010156.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Chedrick_Greene",
+        "https://en.wikipedia.org/wiki/Chedrick_Greene",
+        "https://senatedems.com/greene",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "vanderwall-curt-mi-hd102",
+      "name": "Curt VanderWall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-102)",
+      "state": "MI",
+      "district": "HD-102",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b0804883-3f8c-4341-bbc1-26a0346b37c4"
+      },
+      "contact": {
+        "email": "curtisvanderwall@house.mi.gov",
+        "website": "https://gophouse.org/member/RepCurtisVanderWall/posts"
+      },
+      "bio": {
+        "birth_date": "1961-11-03",
+        "gender": "Male"
+      },
+      "image": "https://senate.michigan.gov/_images/35th.jpg",
+      "sources": [
+        "https://ballotpedia.org/Curt_VanderWall",
+        "https://en.wikipedia.org/wiki/Curt_VanderWall",
+        "https://gophouse.org/member/RepCurtisVanderWall/about",
+        "https://gophouse.org/member/RepCurtisVanderWall/posts",
+        "https://justfacts.votesmart.org/candidate/biography/132533/curt-vanderwall",
+        "https://RepVanderWall.com",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/curt-vanderwall-0620b4120",
+        "https://www.senatorcurtvanderwall.com",
+        "https://www.senatorcurtvanderwall.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "neeley-cynthia-mi-hd70",
+      "name": "Cynthia Neeley",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-70)",
+      "state": "MI",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7e3c6932-35bd-43f6-b1ca-d8fd6d5c0040"
+      },
+      "contact": {
+        "email": "cynthianeeley@house.mi.gov",
+        "website": "https://housedems.com/cynthia-neeley/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Cynthia_Neeley",
+        "https://en.wikipedia.org/wiki/Cynthia_Neeley",
+        "https://housedems.com/cynthia-neeley",
+        "https://housedems.com/cynthia-neeley/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/cynthia-neeley-400616199",
+        "https://www.linkedin.com/in/cynthia-neeley-ab6b16116",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "lauwers-dan-mi-sd25",
+      "name": "Dan Lauwers",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-25)",
+      "state": "MI",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/30afc35e-fa35-448c-b303-e0f6cc456c77"
+      },
+      "contact": {
+        "email": "sendlauwers@senate.michigan.gov",
+        "website": "https://www.senatordanlauwers.com"
+      },
+      "bio": {
+        "birth_date": "1963-01-15",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Lauwers-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dan_Lauwers",
+        "https://en.wikipedia.org/wiki/Dan_Lauwers",
+        "https://justfacts.votesmart.org/candidate/biography/139989/dan-lauwers",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/dan-lauwers-617a262b",
+        "https://www.senatordanlauwers.com",
+        "https://www.senatordanlauwers.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "camilleri-darrin-mi-sd4",
+      "name": "Darrin Camilleri",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-4)",
+      "state": "MI",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5d2fbcb4-0e27-4cb5-99bf-f94693b3aa12"
+      },
+      "contact": {
+        "email": "sendcamilleri@senate.michigan.gov",
+        "website": "https://housedems.com/camilleri"
+      },
+      "bio": {
+        "birth_date": "1992-01-28",
+        "gender": "Male"
+      },
+      "image": "https://senatedems.com/camilleri/wp-content/uploads/sites/10/2022/12/Portrait_Camilleri_Web.jpg",
+      "sources": [
+        "https://ballotpedia.org/Darrin_Camilleri",
+        "https://en.wikipedia.org/wiki/Darrin_Camilleri",
+        "https://housedems.com/camilleri",
+        "https://justfacts.votesmart.org/candidate/biography/170332/darrin-camilleri",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/camilleri",
+        "https://senatedems.com/camilleri/",
+        "https://senatedems.com/camilleri/bio",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/darrin-quiroz-camilleri-aa088928",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "martin-david-mi-hd68",
+      "name": "David Martin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-68)",
+      "state": "MI",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/95434509-a8fd-4e25-9f04-a952416d6da3"
+      },
+      "contact": {
+        "email": "davidmartin@house.mi.gov",
+        "website": "https://gophouse.org/member/repdavidmartin/posts"
+      },
+      "bio": {
+        "birth_date": "1961-05-12",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/David_Martin_(Michigan)",
+        "https://en.wikipedia.org/wiki/David_Martin_(Michigan_politician)",
+        "https://gophouse.org/member/repdavidmartin/posts",
+        "https://repmartin.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "prestin-dave-mi-hd108",
+      "name": "Dave Prestin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-108)",
+      "state": "MI",
+      "district": "HD-108",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/addfe9a4-4b73-4dec-95a9-4bb7cd0d6bd2"
+      },
+      "contact": {
+        "email": "daveprestin@house.mi.gov",
+        "website": "https://gophouse.org/member/RepDavePrestin/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Prestin-108.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Prestin",
+        "https://en.wikipedia.org/wiki/David_Prestin",
+        "https://gophouse.org/member/RepDavePrestin/about",
+        "https://gophouse.org/member/RepDavePrestin/posts",
+        "https://RepPrestin.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repDavidPrestin",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "polehanki-dayna-mi-sd5",
+      "name": "Dayna Polehanki",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-5)",
+      "state": "MI",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f266a938-3705-4c7c-994f-859b2b6024dc"
+      },
+      "contact": {
+        "email": "sendpolehanki@senate.michigan.gov",
+        "website": "https://senatedems.com/polehanki"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/polehanki/wp-content/uploads/sites/11/2022/12/Polehanki-Official-Portrait.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Dayna_Polehanki",
+        "https://en.wikipedia.org/wiki/Dayna_Polehanki",
+        "https://justfacts.votesmart.org/candidate/biography/182594/dayna-polehanki",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/polehanki",
+        "https://senatedems.com/polehanki/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "mentzer-denise-mi-hd61",
+      "name": "Denise Mentzer",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-61)",
+      "state": "MI",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7e4be084-8c26-421f-ab31-81893f7ac525"
+      },
+      "contact": {
+        "email": "denisementzer@house.mi.gov",
+        "website": "https://housedems.com/Denise-Mentzer/"
+      },
+      "bio": {
+        "birth_date": "1956-05-04",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Denise_Mentzer",
+        "https://housedems.com/Denise-Mentzer",
+        "https://housedems.com/Denise-Mentzer/",
+        "https://housedems.com/denise-mentzer/about",
+        "https://justfacts.votesmart.org/candidate/biography/206707/denise-mentzer",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/denise-mentzer-4b30268b",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "mckinney-donavan-mi-hd11",
+      "name": "Donavan McKinney",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-11)",
+      "state": "MI",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/36e87b55-c5db-4331-8088-8fe1dbc544f9"
+      },
+      "contact": {
+        "email": "donavanmckinney@house.mi.gov",
+        "website": "https://housedems.com/Donavan-McKinney/"
+      },
+      "bio": {
+        "birth_date": "1992-06-16",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Donavan_McKinney",
+        "https://en.wikipedia.org/wiki/Donavan_McKinney",
+        "https://housedems.com/Donavan-McKinney",
+        "https://housedems.com/Donavan-McKinney/",
+        "https://housedems.com/donavan-mckinney/about",
+        "https://justfacts.votesmart.org/candidate/biography/170162/donavan-mckinney",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/donavan-mckinney-9735b24a",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "steele-donni-mi-hd54",
+      "name": "Donni Steele",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-54)",
+      "state": "MI",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4a5a14f9-56b4-4f7a-ad0c-bfe3750912a3"
+      },
+      "contact": {
+        "email": "donnisteele@house.mi.gov",
+        "website": "https://gophouse.org/member/RepDonniSteele/posts"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Steele-054.jpg",
+      "sources": [
+        "https://ballotpedia.org/Donni_Steele",
+        "https://en.wikipedia.org/wiki/Donni_Steele",
+        "https://gophouse.org/member/RepDonniSteele/about",
+        "https://gophouse.org/member/RepDonniSteele/posts",
+        "https://justfacts.votesmart.org/candidate/146908/donni-steele",
+        "https://RepDonniSteele.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repDonniSteele",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "wozniak-doug-mi-hd59",
+      "name": "Doug Wozniak",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-59)",
+      "state": "MI",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2e512bae-42f3-4ce8-b565-df48469da08a"
+      },
+      "contact": {
+        "email": "douglaswozniak@house.mi.gov",
+        "website": "https://gophouse.org/member/repdougwozniak/posts"
+      },
+      "bio": {
+        "birth_date": "1947-01-17",
+        "gender": "Male"
+      },
+      "image": "https://senate.michigan.gov/_images/8th.jpg",
+      "sources": [
+        "https://ballotpedia.org/Douglas_Wozniak",
+        "https://en.wikipedia.org/wiki/Doug_Wozniak",
+        "https://gophouse.org/member/repdougwozniak/about",
+        "https://gophouse.org/member/repdougwozniak/posts",
+        "https://justfacts.votesmart.org/candidate/111696/douglas-wozniak",
+        "https://macombcountyrealestateattorney.com/attorneys",
+        "https://RepWozniak.com",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/douglas-wozniak-8317947",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "wegela-dylan-mi-hd26",
+      "name": "Dylan Wegela",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-26)",
+      "state": "MI",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/07ff51f1-6cd0-4004-b618-bc70e5a2e551"
+      },
+      "contact": {
+        "email": "dylanwegela@house.mi.gov",
+        "website": "https://housedems.com/Dylan-Wegela/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Dylan_Wegela",
+        "https://en.wikipedia.org/wiki/Dylan_Wegela",
+        "https://housedems.com/Dylan-Wegela",
+        "https://housedems.com/Dylan-Wegela/",
+        "https://housedems.com/dylan-wegela/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "mcbroom-ed-mi-sd38",
+      "name": "Ed McBroom",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-38)",
+      "state": "MI",
+      "district": "SD-38",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4fc7e235-2446-405d-9a56-5e010017f617"
+      },
+      "contact": {
+        "email": "senemcbroom@senate.michigan.gov",
+        "website": "https://senatoredmcbroom.com/"
+      },
+      "bio": {
+        "birth_date": "1981-05-30",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2019/01/McBroom-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ed_McBroom",
+        "https://en.wikipedia.org/wiki/Ed_McBroom",
+        "https://justfacts.votesmart.org/candidate/biography/124476/ed-mcbroom",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatoredmcbroom.com",
+        "https://www.senatoredmcbroom.com",
+        "https://www.senatoredmcbroom.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "dievendorf-emily-mi-hd77",
+      "name": "Emily Dievendorf",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-77)",
+      "state": "MI",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/10e1b0b6-8c1d-4f2b-b29a-08770991b1d4"
+      },
+      "contact": {
+        "email": "emilydievendorf@house.mi.gov",
+        "website": "https://housedems.com/Emily-Dievendorf/"
+      },
+      "bio": {
+        "gender": "X"
+      },
+      "sources": [
+        "https://ballotpedia.org/Emily_Dievendorf",
+        "https://en.wikipedia.org/wiki/Emily_Dievendorf",
+        "https://housedems.com/Emily-Dievendorf",
+        "https://housedems.com/Emily-Dievendorf/",
+        "https://housedems.com/emily-dievendorf/about",
+        "https://justfacts.votesmart.org/candidate/biography/206760/emily-dievendorf",
+        "https://www.gongwer.com/programming/bio.cfm?nameid=730401",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/emily-dievendorf-b078738a",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "geiss-erika-mi-sd1",
+      "name": "Erika Geiss",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-1)",
+      "state": "MI",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ebc9981a-cbe1-4d37-99b0-89d3c350fd3f"
+      },
+      "contact": {
+        "email": "senegeiss@senate.michigan.gov",
+        "website": "https://senatedems.com/geiss"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/geiss/wp-content/uploads/sites/7/2022/12/MDS_Geiss_DSC5413.jpg",
+      "sources": [
+        "https://ballotpedia.org/Erika_Geiss",
+        "https://en.wikipedia.org/wiki/Erika_Geiss",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/geiss",
+        "https://senatedems.com/geiss/",
+        "https://www.linkedin.com/in/erikaswansongeiss",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "byrnes-erin-mi-hd15",
+      "name": "Erin Byrnes",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-15)",
+      "state": "MI",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3d6727ea-1a91-414d-aac4-ba312cbfaabc"
+      },
+      "contact": {
+        "email": "erinbyrnes@house.mi.gov",
+        "website": "https://housedems.com/Erin-Byrnes/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Erin_Byrnes",
+        "https://en.wikipedia.org/wiki/Erin_Byrnes",
+        "https://housedems.com/Erin-Byrnes",
+        "https://housedems.com/Erin-Byrnes/",
+        "https://housedems.com/erin-byrnes/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/erin-byrnes",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "johnsen-gina-mi-hd78",
+      "name": "Gina Johnsen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-78)",
+      "state": "MI",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37cbe31c-4d9d-4f77-847f-ce463e1bec58"
+      },
+      "contact": {
+        "email": "ginajohnsen@house.mi.gov",
+        "website": "https://gophouse.org/member/RepGinaJohnsen/posts"
+      },
+      "bio": {
+        "birth_date": "1967-10-13",
+        "gender": "Female"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Johnsen-078.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gina_Johnsen",
+        "https://en.wikipedia.org/wiki/Gina_Johnsen",
+        "https://gophouse.org/member/RepGinaJohnsen/posts",
+        "https://RepJohnsen.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repGinaJohnsen",
+        "https://www.linkedin.com/in/gina-johnsen-a6b08030",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "vanwoerkom-greg-mi-hd88",
+      "name": "Greg VanWoerkom",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-88)",
+      "state": "MI",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/960d6487-b202-46fa-8905-e001b6954d5a"
+      },
+      "contact": {
+        "email": "gregvanwoerkom@house.mi.gov",
+        "website": "https://gophouse.org/member/repgregvanwoerkom/about"
+      },
+      "bio": {
+        "birth_date": "1980-07-24",
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2020/07/HS_VAN-WOERKOM_0119.jpg",
+      "sources": [
+        "https://ballotpedia.org/Greg_VanWoerkom",
+        "https://en.wikipedia.org/wiki/Greg_VanWoerkom",
+        "https://gophouse.org/member/repgregvanwoerkom/about",
+        "https://gophouse.org/representatives/westmi/vanwoerkom",
+        "https://gophouse.org/representatives/westmi/vanwoerkom/",
+        "https://justfacts.votesmart.org/candidate/biography/182920/greg-vanwoerkom",
+        "https://RepVanWoerkom.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/greg-vanwoerkom-916b8b5",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "alexander-greg-mi-hd98",
+      "name": "Greg Alexander",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-98)",
+      "state": "MI",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fc7627d7-6c08-49e7-9edc-6f419443ffaa"
+      },
+      "contact": {
+        "email": "gregalexander@house.mi.gov",
+        "website": "https://gophouse.org/member/repgregalexander/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Alexander-098.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gregory_Alexander_(Michigan_House_of_Representatives_District_98)",
+        "https://gophouse.org/member/repgregalexander/about",
+        "https://gophouse.org/member/repgregalexander/posts",
+        "https://RepGregAlexander.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repGregoryAlexander",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "markkanen-greg-mi-hd110",
+      "name": "Greg Markkanen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-110)",
+      "state": "MI",
+      "district": "HD-110",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a3b57cdd-ae52-49af-9456-bc1f212fe970"
+      },
+      "contact": {
+        "email": "gregmarkkanen@house.mi.gov",
+        "website": "https://gophouse.org/member/repgregmarkkanen/about"
+      },
+      "bio": {
+        "birth_date": "1958-03-07",
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2020/07/HS_MARKKAMEN_0119.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gregory_Markkanen",
+        "https://en.wikipedia.org/wiki/Gregory_Markkanen",
+        "https://gophouse.org/member/repgregmarkkanen/about",
+        "https://gophouse.org/representatives/up/markkanen",
+        "https://gophouse.org/representatives/up/markkanen/",
+        "https://justfacts.votesmart.org/candidate/biography/170685/gregory-markkanen",
+        "https://RepMarkkanen.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "scott-helena-mi-hd8",
+      "name": "Helena Scott",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-8)",
+      "state": "MI",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6751fa70-04e4-45e1-b3c5-6e0a5a397f8f"
+      },
+      "contact": {
+        "email": "helenascott@house.mi.gov",
+        "website": "https://housedems.com/helena-scott/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Helena_Scott",
+        "https://en.wikipedia.org/wiki/Helena_Scott_(politician)",
+        "https://housedems.com/helena-scott",
+        "https://housedems.com/helena-scott/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/hhelenascott",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "greene-jaime-mi-hd65",
+      "name": "Jaime Greene",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-65)",
+      "state": "MI",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fe33333e-a9ff-4279-ae47-1cc27703ee5c"
+      },
+      "contact": {
+        "email": "jaimegreene@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJaimeGreene/posts"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Greene-065.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jaime_Greene",
+        "https://en.wikipedia.org/wiki/Jaime_Greene",
+        "https://gophouse.org/member/RepJaimeGreene/posts",
+        "https://justfacts.votesmart.org/candidate/206721/jaime-greene",
+        "https://RepJaimeGreene.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJaimeGreene",
+        "https://www.linkedin.com/in/jaimegreene",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "desana-jim-mi-hd29",
+      "name": "Jim DeSana",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-29)",
+      "state": "MI",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/af4a0996-bcf0-4e8f-9165-4290343e905f"
+      },
+      "contact": {
+        "email": "jamesdesana@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJamesDeSana/posts"
+      },
+      "bio": {
+        "birth_date": "1963-06-21",
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/DeSana-029.jpg",
+      "sources": [
+        "https://ballotpedia.org/James_DeSana",
+        "https://en.wikipedia.org/wiki/James_DeSana",
+        "https://gophouse.org/member/RepJamesDeSana/about",
+        "https://gophouse.org/member/RepJamesDeSana/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206649/james-desana",
+        "https://RepDeSana.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJamesDeSana",
+        "https://www.linkedin.com/in/jim-desana-1423163b",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "thompson-jamie-mi-hd28",
+      "name": "Jamie Thompson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-28)",
+      "state": "MI",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ea1e2bf8-dd08-4785-a7f7-48e7c9e8a53c"
+      },
+      "contact": {
+        "email": "jamiethompson@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJamieThompson/posts"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Thompson-028.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jamie_Thompson",
+        "https://en.wikipedia.org/wiki/Jamie_Thompson_(politician)",
+        "https://gophouse.org/member/RepJamieThompson/about",
+        "https://gophouse.org/member/RepJamieThompson/posts",
+        "https://RepThompson.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJamieThompson",
+        "https://www.linkedin.com/in/jamie-thompson-92170939",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "hoskins-jason-mi-hd18",
+      "name": "Jason Hoskins",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-18)",
+      "state": "MI",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d6da4c9b-26ef-4fa9-a1c6-a79d843abe09"
+      },
+      "contact": {
+        "email": "jasonhoskins@house.mi.gov",
+        "website": "https://housedems.com/Jason-Hoskins/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jason_Hoskins",
+        "https://housedems.com/Jason-Hoskins",
+        "https://housedems.com/Jason-Hoskins/",
+        "https://housedems.com/jason-hoskins/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jasonmhoskins",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "morgan-jason-mi-hd23",
+      "name": "Jason Morgan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-23)",
+      "state": "MI",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9b0967d9-1238-4f90-8e03-233a17fc03e0"
+      },
+      "contact": {
+        "email": "jasonmorgan@house.mi.gov",
+        "website": "https://housedems.com/Jason-Morgan/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jason_Morgan",
+        "https://en.wikipedia.org/wiki/Jason_Morgan_(politician)",
+        "https://housedems.com/Jason-Morgan",
+        "https://housedems.com/Jason-Morgan/",
+        "https://housedems.com/jason-morgan/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jasontmorgan",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "woolford-jason-mi-hd50",
+      "name": "Jason Woolford",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-50)",
+      "state": "MI",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4831928f-e1e5-4905-928b-633128aefa77"
+      },
+      "contact": {
+        "email": "jasonwoolford@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJasonWoolford/"
+      },
+      "bio": {
+        "birth_date": "1972-02-26",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/jwoolford.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jason_Woolford",
+        "https://en.wikipedia.org/wiki/Jason_Woolford",
+        "https://gophouse.org/member/RepJasonWoolford",
+        "https://justfacts.votesmart.org/candidate/biography/206690/jason-woolford",
+        "https://www.linkedin.com/in/jason-woolford-949224b",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "martus-jaz-mi-hd69",
+      "name": "Jaz Martus",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-69)",
+      "state": "MI",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/124196c5-fa79-4958-97c1-364026ae5f36"
+      },
+      "contact": {
+        "email": "jaspermartus@house.mi.gov",
+        "website": "https://housedems.com/Jasper-Martus/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jasper_Martus",
+        "https://en.wikipedia.org/wiki/Jasper_Martus",
+        "https://housedems.com/Jasper-Martus",
+        "https://housedems.com/Jasper-Martus/",
+        "https://housedems.com/jasper-martus/about",
+        "https://justfacts.votesmart.org/candidate/biography/206738/jasper-martus",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jasperryanmartus00",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "deboyer-jay-mi-hd63",
+      "name": "Jay DeBoyer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-63)",
+      "state": "MI",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/569bf706-64ce-4dd7-8639-886beb018d8c"
+      },
+      "contact": {
+        "email": "jaydeboyer@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJayDeBoyer/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/DeBoyer-063.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jay_DeBoyer",
+        "https://en.wikipedia.org/wiki/Jay_DeBoyer",
+        "https://gophouse.org/member/RepJayDeBoyer/about",
+        "https://gophouse.org/member/RepJayDeBoyer/posts",
+        "https://RepDeBoyer.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJayDeBoyer",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "irwin-jeff-mi-sd15",
+      "name": "Jeff Irwin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-15)",
+      "state": "MI",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a1c1163d-af8d-4b88-9365-07717d4a45c3"
+      },
+      "contact": {
+        "email": "senjirwin@senate.michigan.gov",
+        "website": "https://senatedems.com/irwin"
+      },
+      "bio": {
+        "birth_date": "1977-06-19",
+        "gender": "Male"
+      },
+      "image": "https://senatedems.com/irwin/wp-content/uploads/sites/19/2022/12/MDS_Irwin_DSC5423.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Irwin",
+        "https://en.wikipedia.org/wiki/Jeff_Irwin_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/89555/jeff-irwin",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/irwin",
+        "https://senatedems.com/irwin/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "conlin-jennifer-mi-hd48",
+      "name": "Jennifer Conlin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-48)",
+      "state": "MI",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/99ac6698-e0f9-4ddf-9df6-2d82aa70468f"
+      },
+      "contact": {
+        "email": "jenniferconlin@house.mi.gov",
+        "website": "https://housedems.com/Jennifer-Conlin/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Conlin",
+        "https://en.wikipedia.org/wiki/Jennifer_Conlin",
+        "https://housedems.com/Jennifer-Conlin",
+        "https://housedems.com/Jennifer-Conlin/",
+        "https://housedems.com/jennifer-conlin/about",
+        "https://justfacts.votesmart.org/candidate/biography/206688/jennifer-conlin",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jennifer-conlin-543756",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "wortz-jennifer-mi-hd35",
+      "name": "Jennifer Wortz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-35)",
+      "state": "MI",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be12c20b-e96b-4326-a1c2-8cabe83f4f2b"
+      },
+      "contact": {
+        "email": "jenniferwortz@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJenniferWortz/posts"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://media-cdn.socastsrm.com/wordpress/wp-content/blogs.dir/2484/files/2024/08/screenshot-2024-08-07-003528.png",
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Wortz",
+        "https://en.wikipedia.org/wiki/Jennifer_Wortz",
+        "https://gophouse.org/member/RepJenniferWortz/about",
+        "https://gophouse.org/member/RepJenniferWortz/posts",
+        "https://justfacts.votesmart.org/candidate/biography/217238/jennifer-wortz",
+        "https://mdoe.state.mi.us/legislators/Legislator/LegislatorDetail/5679",
+        "https://www.linkedin.com/in/jennifer-wortz-52572213",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "moss-jeremy-mi-sd7",
+      "name": "Jeremy Moss",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-7)",
+      "state": "MI",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d1c4631b-145d-4418-8a29-24683b83ae44"
+      },
+      "contact": {
+        "email": "senjmoss@senate.michigan.gov",
+        "website": "https://senatedems.com/moss"
+      },
+      "bio": {
+        "birth_date": "1986-06-23",
+        "gender": "Male"
+      },
+      "image": "https://senatedems.com/moss/wp-content/uploads/sites/13/2023/01/MDS_Moss_W3A6000.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeremy_Moss",
+        "https://en.wikipedia.org/wiki/Jeremy_Moss",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/moss",
+        "https://senatedems.com/moss/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "neyer-jerry-mi-hd92",
+      "name": "Jerry Neyer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-92)",
+      "state": "MI",
+      "district": "HD-92",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/549e485e-c1ea-4582-8db3-91d1e15fe27a"
+      },
+      "contact": {
+        "email": "jerryneyer@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJerryNeyer/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Neyer-092.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jerry_Neyer",
+        "https://en.wikipedia.org/wiki/Jerry_Neyer",
+        "https://gophouse.org/member/RepJerryNeyer/about",
+        "https://gophouse.org/member/RepJerryNeyer/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206625/jerry-neyer",
+        "https://mdoe.state.mi.us/legislators/Legislator/LegislatorDetail/5650",
+        "https://RepNeyer.com",
+        "https://www.gongwer.com/directories/bio.cfm?nameid=736801",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJerryNeyer",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "runestad-jim-mi-sd23",
+      "name": "Jim Runestad",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-23)",
+      "state": "MI",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0a8928d-8ccc-4e1e-9ca5-d7f50642ff91"
+      },
+      "contact": {
+        "email": "senjrunestad@senate.michigan.gov",
+        "website": "https://www.senatorjimrunestad.com"
+      },
+      "bio": {
+        "birth_date": "1959-03-01",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2019/01/Runestad-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jim_Runestad",
+        "https://en.wikipedia.org/wiki/Jim_Runestad",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/jimrunestad",
+        "https://www.senatorjimrunestad.com",
+        "https://www.senatorjimrunestad.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "wilson-jimmie-mi-hd32",
+      "name": "Jimmie Wilson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-32)",
+      "state": "MI",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8560a009-9142-4824-bec4-67559d8d0add"
+      },
+      "contact": {
+        "email": "jimmiewilson@house.mi.gov",
+        "website": "https://housedems.com/Jimmie-Wilson-Jr/"
+      },
+      "bio": {
+        "birth_date": "1982-10-27",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jimmie_Wilson_Jr._(Michigan)",
+        "https://en.wikipedia.org/wiki/Jimmie_Wilson_Jr.",
+        "https://housedems.com/Jimmie-Wilson-Jr",
+        "https://housedems.com/Jimmie-Wilson-Jr/",
+        "https://housedems.com/jimmie-wilson-jr/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jimmie-wilson-jr-988765120",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "pavlov-joe-mi-hd64",
+      "name": "Joe Pavlov",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-64)",
+      "state": "MI",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/65bb5257-9a90-4b14-a7bd-aee9efd0ab55"
+      },
+      "contact": {
+        "email": "josephpavlov@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJosephGPavlov"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://i1.wp.com/www.joepavlov.com/wp-content/uploads/2024/08/JoePavolv-@-Wood-Door.jpg?resize=841%2C841&strip=info&ssl=1",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Pavlov",
+        "https://en.wikipedia.org/wiki/Joseph_G._Pavlov",
+        "https://gophouse.org/member/RepJosephGPavlov",
+        "https://justfacts.votesmart.org/candidate/biography/217283/joseph-pavlov",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "tate-joe-mi-hd9",
+      "name": "Joe Tate",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-9)",
+      "state": "MI",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/19b8cf37-0b98-4194-9d2c-db6da3fae35c"
+      },
+      "contact": {
+        "email": "joetate@house.mi.gov",
+        "website": "https://housedems.com/joe-tate/"
+      },
+      "bio": {
+        "birth_date": "1980-12-13",
+        "gender": "Male"
+      },
+      "image": "https://housedems.com/sites/default/files/Images/Representative_Images/D002_Joe_Tate/002_Tate.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Tate",
+        "https://en.wikipedia.org/wiki/Joe_Tate_(politician)",
+        "https://housedems.com/joe-tate",
+        "https://housedems.com/joe-tate/",
+        "https://housedems.com/tate",
+        "https://justfacts.votesmart.org/candidate/biography/170153/joe-tate",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/joetate1",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "andrews-joey-mi-hd38",
+      "name": "Joey Andrews",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-38)",
+      "state": "MI",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fd51ab83-f1b7-4044-b794-871ba167b504"
+      },
+      "contact": {
+        "email": "joeyandrews@house.mi.gov",
+        "website": "https://housedems.com/joey-andrews/"
+      },
+      "bio": {
+        "birth_date": "1988-02-22",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Joey_Andrews",
+        "https://en.wikipedia.org/wiki/Joey_Andrews",
+        "https://housedems.com/joey-andrews",
+        "https://housedems.com/Joey-Andrews",
+        "https://housedems.com/joey-andrews/",
+        "https://housedems.com/Joey-Andrews/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/jbandrewsiv",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "cherry-john-mi-sd27",
+      "name": "John Cherry",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-27)",
+      "state": "MI",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de1a4de4-aa34-4487-98f8-27b140fed784"
+      },
+      "contact": {
+        "email": "senjcherry@senate.michigan.gov",
+        "website": "https://housedems.com/cherry"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senatedems.com/cherry/wp-content/uploads/sites/22/2022/12/Portrait_Cherry_Web.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Cherry_(Michigan_representative)",
+        "https://en.wikipedia.org/wiki/John_Cherry_III_(politician)",
+        "https://housedems.com/cherry",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/cherry",
+        "https://senatedems.com/cherry/",
+        "https://senatedems.com/cherry/bio",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/john-cherry-0b1b7215",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "damoose-john-mi-sd37",
+      "name": "John Damoose",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-37)",
+      "state": "MI",
+      "district": "SD-37",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/071e391f-da3d-4e66-ae78-61a63bc23729"
+      },
+      "contact": {
+        "email": "senjdamoose@senate.michigan.gov",
+        "website": "https://repdamoose.com"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Damoose-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Damoose",
+        "https://en.wikipedia.org/wiki/John_Damoose",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/johndamoose",
+        "https://www.senatorjohndamoose.com",
+        "https://www.senatorjohndamoose.com/",
+        "https://www.senatorjohndamoose.com/meet-your-senator",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "fitzgerald-john-mi-hd83",
+      "name": "John Fitzgerald",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-83)",
+      "state": "MI",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9f4f8b82-e4ee-4e50-a2ea-d46bbf264d34"
+      },
+      "contact": {
+        "email": "johnfitzgerald@house.mi.gov",
+        "website": "https://housedems.com/John-Fitzgerald/"
+      },
+      "bio": {
+        "birth_date": "1990-09-26",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/John_Fitzgerald_(Michigan_House_candidate)",
+        "https://en.wikipedia.org/wiki/John_Wesley_Fitzgerald_(politician,_born_1990)",
+        "https://housedems.com/John-Fitzgerald",
+        "https://housedems.com/John-Fitzgerald/",
+        "https://housedems.com/john-fitzgerald/about",
+        "https://justfacts.votesmart.org/candidate/biography/199122/john-fitzgerald",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/john-fitzgerald-38b65980",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "roth-j-r-mi-hd104",
+      "name": "J.R. Roth",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-104)",
+      "state": "MI",
+      "district": "HD-104",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e1147656-e038-47fa-ad70-4d206233db72"
+      },
+      "contact": {
+        "email": "johnroth@house.mi.gov",
+        "website": "https://gophouse.org/member/repjohnroth/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2021/01/HS_ROTH_1220_NSC_7566-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Roth",
+        "https://en.wikipedia.org/wiki/John_Roth_(politician)",
+        "https://gophouse.org/member/repjohnroth/posts",
+        "https://justfacts.votesmart.org/candidate/193063/john-roth",
+        "https://reproth.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/john-roth-10b72822",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "bumstead-jon-mi-sd32",
+      "name": "Jon Bumstead",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-32)",
+      "state": "MI",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5a58fa81-639b-4304-87ca-7471ba9ade96"
+      },
+      "contact": {
+        "email": "senjbumstead@senate.michigan.gov",
+        "website": "https://www.senatorjonbumstead.com"
+      },
+      "bio": {
+        "birth_date": "1957-07-30",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Bumstead-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jon_Bumstead",
+        "https://en.wikipedia.org/wiki/Jon_Bumstead",
+        "https://justfacts.votesmart.org/candidate/biography/123095/jon-bumstead",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/jon-bumstead-74280118",
+        "https://www.senatorjonbumstead.com",
+        "https://www.senatorjonbumstead.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "lindsey-jonathan-mi-sd17",
+      "name": "Jonathan Lindsey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-17)",
+      "state": "MI",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a16e3693-0703-40fb-b508-3b2812079548"
+      },
+      "contact": {
+        "email": "senjlindsey@senate.michigan.gov",
+        "website": "https://www.senatorjonathanlindsey.com"
+      },
+      "bio": {
+        "birth_date": "1984-12-18",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Lindsey-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Lindsey",
+        "https://en.wikipedia.org/wiki/Jonathan_Lindsey",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.senatorjonathanlindsey.com",
+        "https://www.senatorjonathanlindsey.com/",
+        "https://www.senatorjonathanlindsey.com/meet-your-senator",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "aragona-joe-mi-hd60",
+      "name": "Joe Aragona",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-60)",
+      "state": "MI",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f66dcbe7-c834-4c23-83ca-38eb5d1a1ba9"
+      },
+      "contact": {
+        "email": "josepharagona@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJosephAragona/posts"
+      },
+      "bio": {
+        "birth_date": "1987-09-25",
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Aragona-060.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Aragona",
+        "https://en.wikipedia.org/wiki/Joseph_Aragona",
+        "https://gophouse.org/member/RepJosephAragona/posts",
+        "https://RepJoeAragona.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJosephAragona",
+        "https://www.linkedin.com/in/joseph-aragona-b5530411",
+        "https://www.linkedin.com/in/joseph-aragona-mba-b5530411",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "bellino-joe-mi-sd16",
+      "name": "Joe Bellino",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-16)",
+      "state": "MI",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e394293d-abd7-46a9-a60f-6c75e369468e"
+      },
+      "contact": {
+        "email": "senjbellino@senate.michigan.gov",
+        "website": "https://gophouse.org/representatives/southeast/bellino/"
+      },
+      "bio": {
+        "birth_date": "1958-06-10",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Bellino-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Bellino",
+        "https://en.wikipedia.org/wiki/Joe_Bellino_(politician)",
+        "https://gophouse.org/representatives/southeast/bellino",
+        "https://gophouse.org/representatives/southeast/bellino/",
+        "https://justfacts.votesmart.org/candidate/biography/170286/joe-bellino-jr",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.senatorjosephbellino.com",
+        "https://www.senatorjosephbellino.com/",
+        "https://www.senatorjosephbellino.com/meet-your-senator",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "fox-joseph-mi-hd101",
+      "name": "Joseph Fox",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-101)",
+      "state": "MI",
+      "district": "HD-101",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ba49b4ef-08fb-48a0-b8a9-495a3605ef0a"
+      },
+      "contact": {
+        "email": "josephfox@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJosephFox/posts"
+      },
+      "bio": {
+        "birth_date": "1954-09-14",
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Fox-101.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Fox",
+        "https://en.wikipedia.org/wiki/Joseph_Fox_(Michigan_politician)",
+        "https://gophouse.org/member/RepJosephFox/about",
+        "https://gophouse.org/member/RepJosephFox/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206571/joseph-fox",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJosephFox",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "schriver-josh-mi-hd66",
+      "name": "Josh Schriver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-66)",
+      "state": "MI",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f6df9fad-c6ec-4abf-b175-ac1e9d672759"
+      },
+      "contact": {
+        "email": "joshschriver@house.mi.gov",
+        "website": "https://gophouse.org/member/RepJoshSchriver/posts"
+      },
+      "bio": {
+        "birth_date": "1992-03-14",
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Schriver-066.jpg",
+      "sources": [
+        "https://ballotpedia.org/Josh_Schriver",
+        "https://en.wikipedia.org/wiki/Josh_Schriver",
+        "https://gophouse.org/member/RepJoshSchriver/about",
+        "https://gophouse.org/member/RepJoshSchriver/posts",
+        "https://joshuaschriver.com",
+        "https://justfacts.votesmart.org/candidate/206725/josh-schriver",
+        "https://RepSchriver.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repJoshSchriver",
+        "https://www.linkedin.com/in/josh-schriver-526473379",
+        "https://www.linkedin.com/in/joshua-schriver-2769012b",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "brixie-julie-mi-hd73",
+      "name": "Julie Brixie",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-73)",
+      "state": "MI",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/192ea166-adcc-4d74-b497-2fd4db882a00"
+      },
+      "contact": {
+        "email": "juliebrixie@house.mi.gov",
+        "website": "https://housedems.com/brixie"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.com/sites/default/files/Images/Representative_Images/D069_Julie_Brixie/069_Brixie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Julie_Brixie",
+        "https://en.wikipedia.org/wiki/Julie_Brixie",
+        "https://housedems.com/brixie",
+        "https://housedems.com/julie-brixie",
+        "https://housedems.com/julie-brixie/",
+        "https://justfacts.votesmart.org/candidate/biography/76611/julie-brixie",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/juliebrixie",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "rogers-julie-mi-hd41",
+      "name": "Julie Rogers",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-41)",
+      "state": "MI",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5154033e-e367-449c-a719-9437a309e269"
+      },
+      "contact": {
+        "email": "julierogers@house.mi.gov",
+        "website": "https://housedems.com/julie-rogers/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Julie_Rogers",
+        "https://en.wikipedia.org/wiki/Julie_Rogers_(politician)",
+        "https://housedems.com/julie-rogers",
+        "https://housedems.com/julie-rogers/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/julie-m-rogers-ba491070",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "hope-kara-mi-hd74",
+      "name": "Kara Hope",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-74)",
+      "state": "MI",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f5c9b37d-39a5-4c63-a526-6f35f45cf5cf"
+      },
+      "contact": {
+        "email": "karahope@house.mi.gov",
+        "website": "https://housedems.com/hope"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.com/sites/default/files/Images/Representative_Images/D067_Kara_Hope/067_Hope.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kara_Hope",
+        "https://en.wikipedia.org/wiki/Kara_Hope",
+        "https://housedems.com/hope",
+        "https://housedems.com/kara-hope",
+        "https://housedems.com/kara-hope/",
+        "https://justfacts.votesmart.org/candidate/biography/145282/kara-hope",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/kara-hope-523b2357",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "whitsett-karen-mi-hd4",
+      "name": "Karen Whitsett",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-4)",
+      "state": "MI",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1b71cbce-bf12-4009-b1cd-79da2f22b9aa"
+      },
+      "contact": {
+        "email": "karenwhitsett@house.mi.gov",
+        "website": "https://housedems.com/karen-whitsett/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://housedems.com/sites/default/files/Images/Representative_Images/D009_Karen_Whitsett/009_Whitsett.jpg",
+      "sources": [
+        "https://ballotpedia.org/Karen_Whitsett",
+        "https://en.wikipedia.org/wiki/Karen_Whitsett",
+        "https://housedems.com/karen-whitsett",
+        "https://housedems.com/karen-whitsett/",
+        "https://housedems.com/whitsett",
+        "https://justfacts.votesmart.org/candidate/biography/182699/karen-whitsett",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/karen-whitsett-135609219",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "bohnak-karl-mi-hd109",
+      "name": "Karl Bohnak",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-109)",
+      "state": "MI",
+      "district": "HD-109",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e3bae1dd-d4b9-48c3-8e40-112987214638"
+      },
+      "contact": {
+        "email": "karlbohnak@house.mi.gov",
+        "website": "https://gophouse.org/member/RepKarlBohnak/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://votebohnak.com/wp-content/uploads/2024/03/k5-400x266.jpg",
+      "sources": [
+        "https://ballotpedia.org/Karl_Bohnak",
+        "https://en.wikipedia.org/wiki/Karl_Bohnak",
+        "https://gophouse.org/member/RepKarlBohnak",
+        "https://www.linkedin.com/in/karl-bohnak-6337636",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "schmaltz-kathy-mi-hd46",
+      "name": "Kathy Schmaltz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-46)",
+      "state": "MI",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e21ee6f1-0fdc-4ee6-8432-6149de16046d"
+      },
+      "contact": {
+        "email": "kathyschmaltz@house.mi.gov",
+        "website": "https://gophouse.org/member/RepKathySchmaltz/posts"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Schmaltz-046.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kathy_Schmaltz",
+        "https://en.wikipedia.org/wiki/Kathy_Schmaltz",
+        "https://gophouse.org/member/RepKathySchmaltz/about",
+        "https://gophouse.org/member/RepKathySchmaltz/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206683/kathy-schmaltz",
+        "https://kathyschmaltz.com/aboutkathy",
+        "https://RepSchmaltz.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repKathySchmaltz",
+        "https://www.linkedin.com/in/kathy-schmaltz-0a106bb",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "breen-kelly-mi-hd21",
+      "name": "Kelly Breen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-21)",
+      "state": "MI",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6f366c7a-8dab-4d39-90b0-3a25760d2234"
+      },
+      "contact": {
+        "email": "kellybreen@house.mi.gov",
+        "website": "https://housedems.com/kelly-breen/"
+      },
+      "bio": {
+        "birth_date": "1978-08-18",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kelly_Breen",
+        "https://en.wikipedia.org/wiki/Kelly_Breen_(politician)",
+        "https://housedems.com/kelly-breen",
+        "https://housedems.com/kelly-breen/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/kelly-breen-06a2818",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "borton-ken-mi-hd105",
+      "name": "Ken Borton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-105)",
+      "state": "MI",
+      "district": "HD-105",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f38453af-388f-48fc-a18e-f709dba5153c"
+      },
+      "contact": {
+        "email": "kenborton@house.mi.gov",
+        "website": "https://gophouse.org/member/repkenborton/about"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2021/01/HS_BORTON_0121_NSC_7600-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ken_Borton",
+        "https://en.wikipedia.org/wiki/Ken_Borton",
+        "https://gophouse.org/member/repkenborton/about",
+        "https://justfacts.votesmart.org/candidate/biography/146979/ken-borton",
+        "https://repborton.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/ken-borton-1b8126189",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "daley-kevin-mi-sd26",
+      "name": "Kevin Daley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-26)",
+      "state": "MI",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cf7ed8de-2df4-41ff-9dcb-489980b031a0"
+      },
+      "contact": {
+        "email": "senkdaley@senate.michigan.gov",
+        "website": "https://senatorkevindaley.com/"
+      },
+      "bio": {
+        "birth_date": "1957-08-10",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Daley-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kevin_Daley",
+        "https://en.wikipedia.org/wiki/Kevin_Daley_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/105597/kevin-daley",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatorkevindaley.com",
+        "https://senatorkevindaley.com/",
+        "https://www.linkedin.com/in/kevin-daley-1913bb56",
+        "https://www.linkedin.com/in/kevin-daley-8229253b",
+        "https://www.senatorkevindaley.com",
+        "https://www.senatorkevindaley.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "hertel-kevin-mi-sd12",
+      "name": "Kevin Hertel",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-12)",
+      "state": "MI",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cbfd5eae-d312-4498-a988-bcb52883f637"
+      },
+      "contact": {
+        "email": "senkhertel@senate.michigan.gov",
+        "website": "https://housedems.com/hertel"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senatedems.com/hertel/wp-content/uploads/sites/16/2022/12/Hertel_Portrait.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kevin_Hertel",
+        "https://en.wikipedia.org/wiki/Kevin_Hertel",
+        "https://housedems.com/hertel",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/hertel",
+        "https://senatedems.com/hertel/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/kevin-hertel-404a7131",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "edwards-kimberly-mi-hd12",
+      "name": "Kimberly Edwards",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-12)",
+      "state": "MI",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e1d87954-4ee4-4668-9075-c6240dbe8c9b"
+      },
+      "contact": {
+        "email": "kimberlyedwards@house.mi.gov",
+        "website": "https://housedems.com/Kimberly-Edwards/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kimberly_Edwards",
+        "https://en.wikipedia.org/wiki/Kimberly_Edwards",
+        "https://housedems.com/Kimberly-Edwards",
+        "https://housedems.com/Kimberly-Edwards/",
+        "https://housedems.com/kimberly-edwards/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "grant-kristian-mi-hd82",
+      "name": "Kristian Grant",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-82)",
+      "state": "MI",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/642baa61-66d3-44c1-997f-58b2c5740b4f"
+      },
+      "contact": {
+        "email": "kristiangrant@house.mi.gov",
+        "website": "https://housedems.com/Kristian-Grant/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kristian_Grant",
+        "https://en.wikipedia.org/wiki/Kristian_Grant",
+        "https://housedems.com/Kristian-Grant",
+        "https://housedems.com/Kristian-Grant/",
+        "https://housedems.com/kristian-grant/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/kristiangrant",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "theis-lana-mi-sd22",
+      "name": "Lana Theis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-22)",
+      "state": "MI",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4fa99fea-71fd-4f21-9f75-157e6a946c80"
+      },
+      "contact": {
+        "email": "senltheis@senate.michigan.gov",
+        "website": "https://www.senatorlanatheis.com"
+      },
+      "bio": {
+        "birth_date": "1965-06-23",
+        "gender": "Female"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2019/01/Theis-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lana_Theis",
+        "https://en.wikipedia.org/wiki/Lana_Theis",
+        "https://justfacts.votesmart.org/candidate/biography/149672/lana-theis",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/lana-theis-707a2411",
+        "https://www.senatorlanatheis.com",
+        "https://www.senatorlanatheis.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "pohutsky-laurie-mi-hd17",
+      "name": "Laurie Pohutsky",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-17)",
+      "state": "MI",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/64f12acb-0356-4726-ab8e-0c9c1945d5b0"
+      },
+      "contact": {
+        "email": "lauriepohutsky@house.mi.gov",
+        "website": "https://housedems.com/laurie-pohutsky/"
+      },
+      "bio": {
+        "birth_date": "1988-04-28",
+        "gender": "Female"
+      },
+      "image": "https://housedems.com/sites/default/files/Images/Representative_Images/D019_Laurie_Pohutsky/019_Pohutsky.jpg",
+      "sources": [
+        "https://ballotpedia.org/Laurie_Pohutsky",
+        "https://en.wikipedia.org/wiki/Laurie_Pohutsky",
+        "https://housedems.com/laurie-pohutsky",
+        "https://housedems.com/laurie-pohutsky/",
+        "https://housedems.com/pohutsky",
+        "https://justfacts.votesmart.org/candidate/biography/182747/laurie-pohutsky",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/laurie-pohutsky-74311712a",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "meerman-luke-mi-hd89",
+      "name": "Luke Meerman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-89)",
+      "state": "MI",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/187a5c10-ccc0-4c94-a4c9-4c208ace4776"
+      },
+      "contact": {
+        "email": "lukemeerman@house.mi.gov",
+        "website": "https://gophouse.org/member/replukemeerman/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2020/07/HS_MEERMAN_0119.jpg",
+      "sources": [
+        "https://ballotpedia.org/Luke_Meerman",
+        "https://en.wikipedia.org/wiki/Luke_Meerman",
+        "https://gophouse.org/member/replukemeerman/about",
+        "https://gophouse.org/member/replukemeerman/posts",
+        "https://gophouse.org/representatives/southwest/meerman",
+        "https://gophouse.org/representatives/southwest/meerman/",
+        "https://justfacts.votesmart.org/candidate/biography/182913/luke-meerman",
+        "https://RepMeerman.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/luke-meerman-b3613b66",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "xiong-mai-mi-hd13",
+      "name": "Mai Xiong",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-13)",
+      "state": "MI",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cd44a574-079b-4fd8-82cd-0daea8d7ff96"
+      },
+      "contact": {
+        "email": "maixiong@house.mi.gov",
+        "website": "https://housedems.com/mai-xiong/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MaiXiong.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Mai_Xiong",
+        "https://en.wikipedia.org/wiki/Mai_Xiong",
+        "https://housedems.com/mai-xiong",
+        "https://www.linkedin.com/in/maixiongmi",
+        "https://www.voteformai.com/mai-xiongs-story-from-refugee-to-public-servant",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "mcmorrow-mallory-mi-sd8",
+      "name": "Mallory McMorrow",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-8)",
+      "state": "MI",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dc6ff9c0-f2b1-433d-a96b-292cf05bcb50"
+      },
+      "contact": {
+        "email": "senmmcmorrow@senate.michigan.gov",
+        "website": "https://senatedems.com/mcmorrow"
+      },
+      "bio": {
+        "birth_date": "1986-08-23",
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/mcmorrow/wp-content/uploads/sites/14/2023/02/MDS_McMorrow_DSC5342_dec20.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mallory_McMorrow",
+        "https://en.wikipedia.org/wiki/Mallory_McMorrow",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/mcmorrow",
+        "https://senatedems.com/mcmorrow/",
+        "https://www.linkedin.com/in/mallorymcmorrow",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "huizenga-mark-mi-sd30",
+      "name": "Mark Huizenga",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-30)",
+      "state": "MI",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8564d477-bb39-47a4-87e1-3ceacd7d3abe"
+      },
+      "contact": {
+        "email": "senmhuizenga@senate.michigan.gov",
+        "website": "https://SenatorMarkHuizenga.com"
+      },
+      "bio": {
+        "birth_date": "1967-07-21",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2021/11/Huizenga-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Huizenga",
+        "https://en.wikipedia.org/wiki/Mark_Huizenga",
+        "https://justfacts.votesmart.org/candidate/biography/182877/mark-huizenga",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/markhuizenga",
+        "https://www.senatormarkhuizenga.com",
+        "https://www.senatormarkhuizenga.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "tisdel-mark-mi-hd55",
+      "name": "Mark Tisdel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-55)",
+      "state": "MI",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a5bb89cb-ac42-47c0-bcc8-96bf18e4d865"
+      },
+      "contact": {
+        "email": "marktisdel@house.mi.gov",
+        "website": "https://gophouse.org/member/repmarktisdel/about"
+      },
+      "bio": {
+        "birth_date": "1955-09-21",
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2021/01/HS_TISDEL_0121_NSC_7619-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Tisdel",
+        "https://en.wikipedia.org/wiki/Mark_Tisdel",
+        "https://gophouse.org/member/repmarktisdel/about",
+        "https://justfacts.votesmart.org/candidate/biography/146854/mark-tisdel",
+        "https://reptisdel.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/mark-tisdel-64335636",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "cavanagh-mary-mi-sd6",
+      "name": "Mary Cavanagh",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-6)",
+      "state": "MI",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a9e6b2e4-016d-481e-9f34-1f1b33d857ca"
+      },
+      "contact": {
+        "email": "senmcavanagh@senate.michigan.gov",
+        "website": "https://housedems.com/mary-cavanagh/"
+      },
+      "bio": {
+        "birth_date": "1991-07-01",
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/cavanagh/wp-content/uploads/sites/12/2022/12/Cavanaugh_Web.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mary_Cavanagh",
+        "https://en.wikipedia.org/wiki/Mary_Cavanagh",
+        "https://justfacts.votesmart.org/candidate/biography/170222/mary-cavanagh",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/cavanagh",
+        "https://senatedems.com/cavanagh/",
+        "https://senatedems.com/cavanagh/bio",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/mary-cavanagh-21254a56",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "bierlein-matt-mi-hd97",
+      "name": "Matt Bierlein",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-97)",
+      "state": "MI",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/33fdbffe-7e3d-4146-bd91-bddc098a7bf3"
+      },
+      "contact": {
+        "email": "matthewbierlein@house.mi.gov",
+        "website": "https://gophouse.org/member/RepMatthewBierlein/posts"
+      },
+      "bio": {
+        "birth_date": "1982-04-21",
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Bierlein-097.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Bierlein",
+        "https://en.wikipedia.org/wiki/Matthew_Bierlein",
+        "https://gophouse.org/member/RepMatthewBierlein/about",
+        "https://gophouse.org/member/RepMatthewBierlein/posts",
+        "https://RepBierlein.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repMattBierlein",
+        "https://www.linkedin.com/in/matthew-bierlein-9a218261",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-matt-mi-hd42",
+      "name": "Matt Hall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-42)",
+      "state": "MI",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dc7344e8-b8bf-4f0d-924d-4f4b5ea40554"
+      },
+      "contact": {
+        "email": "matthall@house.mi.gov",
+        "website": "https://gophouse.org/member/repmatthall/about"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2023/01/Leader-Matt-Hall-headshot-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matt_Hall_(Michigan)",
+        "https://en.wikipedia.org/wiki/Matt_Hall_(politician)",
+        "https://gophouse.org/member/repmatthall/about",
+        "https://gophouse.org/representatives/southwest/hall",
+        "https://gophouse.org/representatives/southwest/hall/",
+        "https://justfacts.votesmart.org/candidate/biography/182843/matt-hall",
+        "https://RepMattHall.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/matt-hall-1651454a",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "koleszar-matt-mi-hd22",
+      "name": "Matt Koleszar",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-22)",
+      "state": "MI",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/42a456fa-8979-468f-b2a6-30f81ff20299"
+      },
+      "contact": {
+        "email": "mattkoleszar@house.mi.gov",
+        "website": "https://housedems.com/koleszar"
+      },
+      "bio": {
+        "birth_date": "1981-09-21",
+        "gender": "Male"
+      },
+      "image": "https://housedems.com/sites/default/files/Images/Representative_Images/D020_Matt_Koleszar/020_Koleszar.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matt_Koleszar",
+        "https://en.wikipedia.org/wiki/Matt_Koleszar",
+        "https://housedems.com/koleszar",
+        "https://housedems.com/matt-koleszar",
+        "https://housedems.com/matt-koleszar/",
+        "https://housedems.com/matt-koleszar/about",
+        "https://justfacts.votesmart.org/candidate/biography/182748/matt-koleszar",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/mattformichigan",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "longjohn-matt-mi-hd40",
+      "name": "Matt Longjohn",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-40)",
+      "state": "MI",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cf865d78-f3ea-43f7-b843-a06dbb4bf4be"
+      },
+      "contact": {
+        "email": "mattlongjohn@house.mi.gov",
+        "website": "https://housedems.com/matt-longjohn/"
+      },
+      "bio": {
+        "birth_date": "1971-06-08",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/mlongjohn.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matt_Longjohn",
+        "https://en.wikipedia.org/wiki/Matthew_Longjohn",
+        "https://housedems.com/matt-longjohn",
+        "https://housedems.com/matt-longjohn/about",
+        "https://justfacts.votesmart.org/candidate/181077/matt-longjohn",
+        "https://www.linkedin.com/in/matt-longjohn-a9b76a147",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "maddock-matt-mi-hd51",
+      "name": "Matt Maddock",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-51)",
+      "state": "MI",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/241c969f-c72f-4acb-9a37-529e6ec0d955"
+      },
+      "contact": {
+        "email": "mattmaddock@house.mi.gov",
+        "website": "https://gophouse.org/member/repmattmaddock/about"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2023/01/Maddock-051.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matt_Maddock",
+        "https://en.wikipedia.org/wiki/Matt_Maddock",
+        "https://gophouse.org/member/repmattmaddock/about",
+        "https://gophouse.org/representatives/southeast/maddock",
+        "https://gophouse.org/representatives/southeast/maddock/",
+        "https://justfacts.votesmart.org/candidate/biography/152509/matt-maddock",
+        "https://RepMaddock.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/matt-maddock-a7155711",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "webber-michael-mi-sd9",
+      "name": "Michael Webber",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-9)",
+      "state": "MI",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be2c96ad-1304-4c25-8cab-2c8ec5d6475f"
+      },
+      "contact": {
+        "email": "senmwebber@senate.michigan.gov",
+        "website": "https://www.senatormichaelwebber.com"
+      },
+      "bio": {
+        "birth_date": "1978-03-07",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Webber-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Webber",
+        "https://en.wikipedia.org/wiki/Michael_Webber_(politician)",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/michael-webber-5984328",
+        "https://www.senatormichaelwebber.com",
+        "https://www.senatormichaelwebber.com/",
+        "https://www.senatormichaelwebber.com/meet-your-senator",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "hoitenga-michele-mi-sd36",
+      "name": "Michele Hoitenga",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-36)",
+      "state": "MI",
+      "district": "SD-36",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0c9a2c44-5a9a-44cd-8470-5dad5c7b2c53"
+      },
+      "contact": {
+        "email": "senmhoitenga@senate.michigan.gov",
+        "website": "https://www.senatormichelehoitenga.com"
+      },
+      "bio": {
+        "birth_date": "1969-07-26",
+        "gender": "Female"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Hoitenga-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michele_Hoitenga",
+        "https://en.wikipedia.org/wiki/Michele_Hoitenga",
+        "https://justfacts.votesmart.org/candidate/biography/170642/michele-hoitenga",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/michele-hoitenga-74319a4a",
+        "https://www.senatormichelehoitenga.com",
+        "https://www.senatormichelehoitenga.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "harris-mike-mi-hd52",
+      "name": "Mike Harris",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-52)",
+      "state": "MI",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a93eaebe-bdac-4292-a28f-6a3b04efd191"
+      },
+      "contact": {
+        "email": "mikeharris@house.mi.gov",
+        "website": "https://gophouse.org/member/repmikeharris/posts"
+      },
+      "bio": {
+        "birth_date": "1973-03-16",
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2022/05/HS_HARRIS_0522_web-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_R._Harris_(Michigan_House_of_Representatives_candidate)",
+        "https://en.wikipedia.org/wiki/Mike_Harris_(Michigan_politician)",
+        "https://gophouse.org/member/repmikeharris",
+        "https://gophouse.org/member/repmikeharris/",
+        "https://gophouse.org/member/repmikeharris/posts",
+        "https://justfacts.votesmart.org/candidate/biography/201449",
+        "https://RepHarris.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/mike-harris-71a492203",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "hoadley-mike-mi-hd99",
+      "name": "Mike Hoadley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-99)",
+      "state": "MI",
+      "district": "HD-99",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0991c39a-0216-491e-a2c1-e7b61b11275d"
+      },
+      "contact": {
+        "email": "mikehoadley@house.mi.gov",
+        "website": "https://gophouse.org/member/RepMikeHoadley/posts"
+      },
+      "bio": {
+        "birth_date": "1970-05-09",
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Hoadley-099.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Hoadley",
+        "https://en.wikipedia.org/wiki/Mike_Hoadley",
+        "https://gophouse.org/member/RepMikeHoadley/about",
+        "https://gophouse.org/member/RepMikeHoadley/posts",
+        "https://RepHoadley.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repMikeHoadley",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "mcfall-mike-mi-hd14",
+      "name": "Mike McFall",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-14)",
+      "state": "MI",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b34263be-1f2e-49db-a261-b30e76ba790a"
+      },
+      "contact": {
+        "email": "mikemcfall@house.mi.gov",
+        "website": "https://housedems.com/Mike-McFall/"
+      },
+      "bio": {
+        "birth_date": "1974-03-04",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mike_McFall",
+        "https://en.wikipedia.org/wiki/Mike_McFall",
+        "https://housedems.com/Mike-McFall",
+        "https://housedems.com/Mike-McFall/",
+        "https://housedems.com/mike-mcfall/about",
+        "https://justfacts.votesmart.org/candidate/biography/206541/mike-mcfall",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/mcmcfall",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "mueller-mike-mi-hd72",
+      "name": "Mike Mueller",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-72)",
+      "state": "MI",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bdbada04-5616-4e9c-91db-f709e24d43f3"
+      },
+      "contact": {
+        "email": "mikemueller@house.mi.gov",
+        "website": "https://gophouse.org/member/repmikemueller/about"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2020/07/HS_MULLER_1218_DSC_9358.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Mueller",
+        "https://en.wikipedia.org/wiki/Mike_Mueller",
+        "https://gophouse.org/member/repmikemueller/about",
+        "https://gophouse.org/representatives/southeast/mueller",
+        "https://gophouse.org/representatives/southeast/mueller/",
+        "https://justfacts.votesmart.org/candidate/biography/182821/mike-mueller",
+        "https://RepMueller.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "foreman-morgan-mi-hd33",
+      "name": "Morgan Foreman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-33)",
+      "state": "MI",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0cec5462-4aa6-423a-a946-c13d03370565"
+      },
+      "contact": {
+        "email": "morganforeman@house.mi.gov",
+        "website": "https://housedems.com/morgan-foreman/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Nathan_Fallahi_20240808_091506.jpg",
+      "sources": [
+        "https://ballotpedia.org/Morgan_Foreman",
+        "https://en.wikipedia.org/wiki/Morgan_Foreman",
+        "https://housedems.com/morgan-foreman",
+        "https://housedems.com/morgan-foreman/about",
+        "https://justfacts.votesmart.org/candidate/217233/morgan-foreman",
+        "https://www.linkedin.com/in/morganforeman",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "deboer-nancy-mi-hd86",
+      "name": "Nancy DeBoer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-86)",
+      "state": "MI",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ffae0dee-fb80-4434-bc8c-8e510d3bc495"
+      },
+      "contact": {
+        "email": "nancydeboer@house.mi.gov",
+        "website": "https://gophouse.org/member/RepNancyDeBoer/posts"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/De Boer-086.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nancy_De_Boer",
+        "https://en.wikipedia.org/wiki/Nancy_DeBoer",
+        "https://gophouse.org/member/RepNancyDeBoer/posts",
+        "https://nancydeboer.com/meet-nancy",
+        "https://RepDeBoer.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repNancyDe Boer",
+        "https://www.house.mi.gov/repdetail/repNancyDeBoer",
+        "https://www.linkedin.com/in/nancy-de-boer-65b64411",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "jenkins-arno-nancy-mi-hd34",
+      "name": "Nancy Jenkins-Arno",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-34)",
+      "state": "MI",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b8703f11-7463-4df6-aedb-9b3d51560bcb"
+      },
+      "contact": {
+        "email": "nancyjenkinsarno@house.mi.gov",
+        "website": "https://gophouse.org/member/RepNancyJenkinsArno/"
+      },
+      "bio": {
+        "birth_date": "1964-06-02",
+        "gender": "Female"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/21022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nancy_Jenkins-Arno",
+        "https://en.wikipedia.org/wiki/Nancy_Jenkins",
+        "https://gophouse.org/member/RepNancyJenkinsArno",
+        "https://justfacts.votesmart.org/candidate/124164/nancy-jenkins-arno",
+        "https://www.linkedin.com/in/nancy-jenkins-60886717",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "price-natalie-mi-hd6",
+      "name": "Natalie Price",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-6)",
+      "state": "MI",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2c6f93a7-f08a-4ad4-9424-cdd857401e6e"
+      },
+      "contact": {
+        "email": "natalieprice@house.mi.gov",
+        "website": "https://housedems.com/Natalie-Price/"
+      },
+      "bio": {
+        "birth_date": "1981-10-01",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Natalie_Price",
+        "https://en.wikipedia.org/wiki/Natalie_Price_(politician)",
+        "https://housedems.com/Natalie-Price",
+        "https://housedems.com/Natalie-Price/",
+        "https://housedems.com/natalie-price/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/votenatalieprice",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "arbit-noah-mi-hd20",
+      "name": "Noah Arbit",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-20)",
+      "state": "MI",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3b59f672-58f4-4d87-8b6e-6f9cc63a4d4c"
+      },
+      "contact": {
+        "email": "noaharbit@house.mi.gov",
+        "website": "https://housedems.com/Noah-Arbit/"
+      },
+      "bio": {
+        "birth_date": "1995-09-21",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Noah_Arbit",
+        "https://en.wikipedia.org/wiki/Noah_Arbit",
+        "https://housedems.com/Noah-Arbit",
+        "https://housedems.com/Noah-Arbit/",
+        "https://housedems.com/noah-arbit/about",
+        "https://justfacts.votesmart.org/candidate/biography/206607/noah-arbit",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/narbit",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "fairbairn-parker-mi-hd107",
+      "name": "Parker Fairbairn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-107)",
+      "state": "MI",
+      "district": "HD-107",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9cf66125-7bd7-4991-bee6-ddc21fd23b5d"
+      },
+      "contact": {
+        "email": "parker.fairbairn@house.mi.gov",
+        "website": "https://gophouse.org/member/RepParkerFairbairn"
+      },
+      "bio": {
+        "birth_date": "1999-03-23",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ParkerFairbairn2024.JPG",
+      "sources": [
+        "https://ballotpedia.org/Parker_Fairbairn",
+        "https://en.wikipedia.org/wiki/Parker_Fairbairn",
+        "https://gophouse.org/member/RepParkerFairbairn",
+        "https://gophouse.org/member/RepParkerFairbairn/about",
+        "https://justfacts.votesmart.org/candidate/biography/206554/parker-fairbairn",
+        "https://www.linkedin.com/in/parker-fairbairn-mba-14b146149",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "outman-pat-mi-hd91",
+      "name": "Pat Outman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-91)",
+      "state": "MI",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1a809c60-e0a4-4b43-bdba-43f097021b1f"
+      },
+      "contact": {
+        "email": "patoutman@house.mi.gov",
+        "website": "https://gophouse.org/member/reppatoutman/about"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2021/01/HS_OUTMAN_0221_NSC_7638-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Pat_Outman",
+        "https://en.wikipedia.org/wiki/Pat_Outman",
+        "https://gophouse.org/member/reppatoutman/about",
+        "https://repoutman.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/patrick-outman-93732b167",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "wojno-paul-mi-sd10",
+      "name": "Paul Wojno",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-10)",
+      "state": "MI",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1d71200f-5f95-46e8-ac9b-a35c6c0178d8"
+      },
+      "contact": {
+        "email": "senpwojno@senate.michigan.gov",
+        "website": "https://senatedems.com/wojno"
+      },
+      "bio": {
+        "birth_date": "1956-03-30",
+        "gender": "Male"
+      },
+      "image": "https://senatedems.com/wojno/wp-content/uploads/sites/3/2023/01/MDS_Wojno_OfficialPortrait.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paul_Wojno",
+        "https://en.wikipedia.org/wiki/Paul_Wojno",
+        "https://justfacts.votesmart.org/candidate/biography/11873/paul-wojno",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/wojno",
+        "https://senatedems.com/wojno/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "wendzel-pauline-mi-hd39",
+      "name": "Pauline Wendzel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-39)",
+      "state": "MI",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f749bf7e-46bc-482d-ac6e-60288f3b722e"
+      },
+      "contact": {
+        "email": "paulinewendzel@house.mi.gov",
+        "website": "https://gophouse.org/member/reppaulinewendzel/about"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2020/07/HS_WENDZEL_1218_DSC_9364.jpg",
+      "sources": [
+        "https://ballotpedia.org/Pauline_Wendzel",
+        "https://en.wikipedia.org/wiki/Pauline_Wendzel",
+        "https://gophouse.org/member/reppaulinewendzel/about",
+        "https://gophouse.org/representatives/southwest/wendzel",
+        "https://gophouse.org/representatives/southwest/wendzel/",
+        "https://justfacts.votesmart.org/candidate/biography/182892/pauline-wendzel",
+        "https://RepWendzel.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/pauline-wendzel-08725b52",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "tsernoglou-penelope-mi-hd75",
+      "name": "Penelope Tsernoglou",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-75)",
+      "state": "MI",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/026c8d4d-bdd5-4b1f-838e-12c191323540"
+      },
+      "contact": {
+        "email": "penelopetsernoglou@house.mi.gov",
+        "website": "https://housedems.com/Penelope-Tsernoglou/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Penelope_Tsernoglou",
+        "https://en.wikipedia.org/wiki/Penelope_Tsernoglou",
+        "https://housedems.com/Penelope-Tsernoglou",
+        "https://housedems.com/Penelope-Tsernoglou/",
+        "https://housedems.com/penelope-tsernoglou/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/penelope-tsernoglou-6a267a6",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "herzberg-peter-mi-hd25",
+      "name": "Peter Herzberg",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-25)",
+      "state": "MI",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8e6c8809-d207-477d-8bdc-6646878249c5"
+      },
+      "contact": {
+        "email": "peterherzberg@house.mi.gov",
+        "website": "https://housedems.com/peter-herzberg/"
+      },
+      "bio": {
+        "birth_date": "1991-04-23",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/PeterHerzberg.jpg",
+      "sources": [
+        "https://ballotpedia.org/Peter_Herzberg",
+        "https://en.wikipedia.org/wiki/Peter_Herzberg",
+        "https://housedems.com/peter-herzberg",
+        "https://www.linkedin.com/in/peter-herzberg-607469179",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "green-phil-mi-hd67",
+      "name": "Phil Green",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-67)",
+      "state": "MI",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/67081474-baf6-465a-bcd2-b2b84ab5c36b"
+      },
+      "contact": {
+        "email": "repphilgreen@house.mi.gov",
+        "website": "https://gophouse.org/member/repphilgreen/about"
+      },
+      "bio": {
+        "birth_date": "1977-06-11",
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2022/06/HS_GREEN_0522_NSC5945-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Phil_Green",
+        "https://en.wikipedia.org/wiki/Phil_Green_(politician)",
+        "https://gophouse.org/member/repphilgreen/about",
+        "https://gophouse.org/representatives/thumb/green",
+        "https://gophouse.org/representatives/thumb/green/",
+        "https://justfacts.votesmart.org/candidate/biography/182905/phil-green",
+        "https://RepPhilGreen.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/phil-green-84032891",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "skaggs-phil-mi-hd80",
+      "name": "Phil Skaggs",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-80)",
+      "state": "MI",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a61c6338-85df-446c-854a-17991386d252"
+      },
+      "contact": {
+        "email": "philskaggs@house.mi.gov",
+        "website": "https://housedems.com/Phil-Skaggs/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Phil_Skaggs",
+        "https://en.wikipedia.org/wiki/Phil_Skaggs",
+        "https://housedems.com/Phil-Skaggs",
+        "https://housedems.com/Phil-Skaggs/",
+        "https://housedems.com/phil-skaggs/about",
+        "https://justfacts.votesmart.org/candidate/biography/187892/phil-skaggs",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/philskaggsmi",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "smit-rachelle-mi-hd43",
+      "name": "Rachelle Smit",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-43)",
+      "state": "MI",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6c955ba2-9448-43ae-8d7f-c3d76329ad60"
+      },
+      "contact": {
+        "email": "rachellesmit@house.mi.gov",
+        "website": "https://gophouse.org/member/RepRachelleSmit/posts"
+      },
+      "bio": {
+        "birth_date": "1980-09-16",
+        "gender": "Female"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Smit-043.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rachelle_Smit",
+        "https://en.wikipedia.org/wiki/Rachelle_Smit",
+        "https://gophouse.org/member/RepRachelleSmit/about",
+        "https://gophouse.org/member/RepRachelleSmit/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206922/rachelle-smit",
+        "https://RepSmit.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repRachelleSmit",
+        "https://www.linkedin.com/in/rachel-smit-247b47116",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "puri-ranjeev-mi-hd24",
+      "name": "Ranjeev Puri",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-24)",
+      "state": "MI",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1a16bef8-b655-46da-a5c5-07a8c5569eed"
+      },
+      "contact": {
+        "email": "ranjeevpuri@house.mi.gov",
+        "website": "https://housedems.com/ranjeev-puri/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ranjeev_Puri",
+        "https://en.wikipedia.org/wiki/Ranjeev_Puri",
+        "https://housedems.com/ranjeev-puri",
+        "https://housedems.com/ranjeev-puri/",
+        "https://housedems.com/ranjeev-puri/about",
+        "https://justfacts.votesmart.org/candidate/biography/193245/ranjeev-puri",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/ranjeevpuri",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-reggie-mi-hd31",
+      "name": "Reggie Miller",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-31)",
+      "state": "MI",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/50d75ced-0a70-4f88-aada-57015d799fd0"
+      },
+      "contact": {
+        "email": "reggiemiller@house.mi.gov",
+        "website": "https://housedems.com/Reggie-Miller/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Reggie_Miller",
+        "https://housedems.com/Reggie-Miller",
+        "https://housedems.com/Reggie-Miller/",
+        "https://housedems.com/reggie-miller/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/reggie-miller-87a0745b",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "weiss-regina-mi-hd5",
+      "name": "Regina Weiss",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-5)",
+      "state": "MI",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ae5a3a48-9948-4c6c-95c2-c2d0915fd866"
+      },
+      "contact": {
+        "email": "reginaweiss@house.mi.gov",
+        "website": "https://housedems.com/regina-weiss/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Regina_Weiss",
+        "https://en.wikipedia.org/wiki/Regina_Weiss",
+        "https://housedems.com/regina-weiss",
+        "https://housedems.com/regina-weiss/",
+        "https://housedems.com/regina-weiss/about",
+        "https://justfacts.votesmart.org/candidate/biography/193207/regina-weiss",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/regina-weiss-543a0789",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "outman-rick-mi-sd33",
+      "name": "Rick Outman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-33)",
+      "state": "MI",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9c525554-fb85-45f3-87fa-cf6a3208ce32"
+      },
+      "contact": {
+        "email": "senroutman@senate.michigan.gov",
+        "website": "https://www.senatorrickoutman.com"
+      },
+      "bio": {
+        "birth_date": "1963-12-15",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2019/01/Outman-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rick_Outman",
+        "https://en.wikipedia.org/wiki/Rick_Outman",
+        "https://justfacts.votesmart.org/candidate/biography/105560/rick-outman",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.senatorrickoutman.com",
+        "https://www.senatorrickoutman.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "hauck-roger-mi-sd34",
+      "name": "Roger Hauck",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-34)",
+      "state": "MI",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b6d8b86d-2975-4d07-83fe-a1841f39806b"
+      },
+      "contact": {
+        "email": "senrhauck@senate.michigan.gov",
+        "website": "https://gophouse.org/representatives/central/hauck/"
+      },
+      "bio": {
+        "birth_date": "1961-10-08",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Hauck-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roger_Hauck",
+        "https://en.wikipedia.org/wiki/Roger_Hauck",
+        "https://gophouse.org/representatives/central/hauck",
+        "https://gophouse.org/representatives/central/hauck/",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.senatorrogerhauck.com",
+        "https://www.senatorrogerhauck.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "victory-roger-mi-sd31",
+      "name": "Roger Victory",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-31)",
+      "state": "MI",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cd36ab04-a62b-41fa-8b91-d6c792f6719e"
+      },
+      "contact": {
+        "email": "senrvictory@senate.michigan.gov",
+        "website": "https://www.senatorrogervictory.com"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2019/01/Victory-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roger_Victory",
+        "https://en.wikipedia.org/wiki/Roger_Victory",
+        "https://justfacts.votesmart.org/candidate/biography/140004/roger-victory",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/roger-victory-a9b9ba70",
+        "https://www.linkedin.com/in/roger-victory-b5364898",
+        "https://www.senatorrogervictory.com",
+        "https://www.senatorrogervictory.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "robinson-ron-mi-hd58",
+      "name": "Ron Robinson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-58)",
+      "state": "MI",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cda45c1f-0a65-4c08-b912-a90cd945f4ec"
+      },
+      "contact": {
+        "email": "ronrobinson@house.mi.gov",
+        "website": "https://gophouse.org/member/RepRonRobinson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Ron_Robinson_20240808_093235.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ron_Robinson_(Michigan_House_of_Representatives_candidate)",
+        "https://en.wikipedia.org/wiki/Ron_Robinson_(politician)",
+        "https://gophouse.org/member/RepRonRobinson",
+        "https://www.linkedin.com/in/ron-robinson-b3027760",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "bayer-rosemary-mi-sd13",
+      "name": "Rosemary Bayer",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-13)",
+      "state": "MI",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3e24c95f-2ed8-442a-a41f-1a3a9a0b95ed"
+      },
+      "contact": {
+        "email": "senrbayer@senate.michigan.gov",
+        "website": "https://senatedems.com/bayer"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/bayer/wp-content/uploads/sites/17/2022/12/Bayer-Official-Portrait.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Rosemary_Bayer",
+        "https://en.wikipedia.org/wiki/Rosemary_Bayer",
+        "https://justfacts.votesmart.org/candidate/biography/182604/rosemary-bayer",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/bayer",
+        "https://senatedems.com/bayer/",
+        "https://www.linkedin.com/in/rosemarybayer",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-ruth-mi-sd24",
+      "name": "Ruth Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-24)",
+      "state": "MI",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8d0d58dd-a718-4f8f-bb7f-c530e039c0c5"
+      },
+      "contact": {
+        "email": "senrjohnson@senate.michigan.gov",
+        "website": "https://www.senatorruthjohnson.com"
+      },
+      "bio": {
+        "birth_date": "1955-01-08",
+        "gender": "Female"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Johnson-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ruth_Johnson",
+        "https://en.wikipedia.org/wiki/Ruth_Johnson",
+        "https://justfacts.votesmart.org/candidate/biography/20090/ruth-johnson",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.linkedin.com/in/ruth-johnson-609a9632",
+        "https://www.senatorruthjohnson.com",
+        "https://www.senatorruthjohnson.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "linting-rylee-mi-hd27",
+      "name": "Rylee Linting",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-27)",
+      "state": "MI",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c1ac9f88-970a-4930-8249-7c15e77210ed"
+      },
+      "contact": {
+        "email": "ryleelinting@house.mi.gov",
+        "website": "https://gophouse.org/member/RepRyleeLinting"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2024/07/26/PDTN/74565149007-rylee-linting.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rylee_Linting",
+        "https://en.wikipedia.org/wiki/Rylee_Linting",
+        "https://gophouse.org/member/RepRyleeLinting",
+        "https://www.linkedin.com/in/rylee-linting-89806221a",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "singh-sam-mi-sd28",
+      "name": "Sam Singh",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-28)",
+      "state": "MI",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9271c2c7-01d8-44f1-95a4-1496b8716268"
+      },
+      "contact": {
+        "email": "senssingh@senate.michigan.gov",
+        "website": "https://senatedems.com/singh"
+      },
+      "bio": {
+        "birth_date": "1971-03-04",
+        "gender": "Male"
+      },
+      "image": "https://senatedems.com/singh/wp-content/uploads/sites/23/2023/01/Singh-portrait.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sam_Singh",
+        "https://en.wikipedia.org/wiki/Sam_Singh",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/singh",
+        "https://senatedems.com/singh/",
+        "https://senatedems.com/singh/bio",
+        "https://www.linkedin.com/in/samsingh",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "steckloff-samantha-mi-hd19",
+      "name": "Samantha Steckloff",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-19)",
+      "state": "MI",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5a99ab1c-62e3-4424-9bb1-310ffcecc3e3"
+      },
+      "contact": {
+        "email": "samanthasteckloff@house.mi.gov",
+        "website": "https://housedems.com/samantha-steckloff/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Samantha_Steckloff",
+        "https://en.wikipedia.org/wiki/Samantha_Steckloff",
+        "https://housedems.com/samantha-steckloff",
+        "https://housedems.com/samantha-steckloff/",
+        "https://justfacts.votesmart.org/candidate/biography/146811/samantha-steckloff",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/samantha-steckloff-78a51158",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "anthony-sarah-mi-sd21",
+      "name": "Sarah Anthony",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-21)",
+      "state": "MI",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/08eac592-a25a-444f-aea7-db0cdfa79e7b"
+      },
+      "contact": {
+        "email": "sensanthony@senate.michigan.gov",
+        "website": "https://housedems.com/anthony"
+      },
+      "bio": {
+        "birth_date": "1983-12-02",
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/anthony/wp-content/uploads/sites/21/2022/12/MDS_Anthony_DSC5449.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sarah_Anthony",
+        "https://en.wikipedia.org/wiki/Sarah_Anthony",
+        "https://housedems.com/anthony",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/anthony",
+        "https://senatedems.com/anthony/",
+        "https://senatedems.com/anthony/bio",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/sarah-anthony-7a311624",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "lightner-sarah-mi-hd45",
+      "name": "Sarah Lightner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-45)",
+      "state": "MI",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ef5b60a6-d301-4433-8e85-6c14ba254011"
+      },
+      "contact": {
+        "email": "sarahlightner@house.mi.gov",
+        "website": "https://gophouse.org/member/repsarahlightner/about"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2021/04/HS_Lightner_0421_NSC_0141-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sarah_Lightner",
+        "https://en.wikipedia.org/wiki/Sarah_Lightner",
+        "https://gophouse.org/member/repsarahlightner/about",
+        "https://gophouse.org/representatives/central/lightner",
+        "https://gophouse.org/representatives/central/lightner/",
+        "https://RepLightner.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/sarah-lightner-4a5b41161",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "mccann-sean-mi-sd19",
+      "name": "Sean McCann",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-19)",
+      "state": "MI",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c15f272e-73f2-410c-8afe-1cc91ad3603a"
+      },
+      "contact": {
+        "email": "sensmccann@senate.michigan.gov",
+        "website": "https://senatedems.com/mccann"
+      },
+      "bio": {
+        "birth_date": "1971-09-21",
+        "gender": "Male"
+      },
+      "image": "https://senatedems.com/mccann/wp-content/uploads/sites/20/2022/12/MDS_McCann_DSC5430.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sean_McCann",
+        "https://en.wikipedia.org/wiki/Sean_McCann_(politician)",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/mccann",
+        "https://senatedems.com/mccann/",
+        "https://www.linkedin.com/in/sean-mccann-3164a3",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "macdonell-sharon-mi-hd56",
+      "name": "Sharon MacDonell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-56)",
+      "state": "MI",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/55a6fa48-006b-48ee-bffd-655ed7e56fce"
+      },
+      "contact": {
+        "email": "sharonmacdonell@house.mi.gov",
+        "website": "https://housedems.com/Sharon-MacDonell/"
+      },
+      "bio": {
+        "birth_date": "1962-04-09",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Sharon_MacDonell",
+        "https://en.wikipedia.org/wiki/Sharon_MacDonell",
+        "https://housedems.com/Sharon-MacDonell",
+        "https://housedems.com/Sharon-MacDonell/",
+        "https://housedems.com/sharon-macdonell/about",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/sharonmacd",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "chang-stephanie-mi-sd3",
+      "name": "Stephanie Chang",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-3)",
+      "state": "MI",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1d297b7e-2e51-4e1a-a208-2f5505e9f1f7"
+      },
+      "contact": {
+        "email": "senschang@senate.michigan.gov",
+        "district_voice": "313-922-6949",
+        "website": "https://senatedems.com/chang"
+      },
+      "bio": {
+        "birth_date": "1983-10-24",
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/chang/wp-content/uploads/sites/9/2022/12/MDS_Chang_DSC5412.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Chang",
+        "https://en.wikipedia.org/wiki/Stephanie_Chang",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/chang",
+        "https://senatedems.com/chang/",
+        "https://www.linkedin.com/in/stephanie-chang-a2286019",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "young-stephanie-mi-hd16",
+      "name": "Stephanie Young",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-16)",
+      "state": "MI",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ea254169-e403-4e29-ab06-8f40fb869ac2"
+      },
+      "contact": {
+        "email": "stephanieyoung@house.mi.gov",
+        "website": "https://housedems.com/stephanie-young/"
+      },
+      "bio": {
+        "birth_date": "1965-01-02",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Young",
+        "https://en.wikipedia.org/wiki/Stephanie_Young_(politician)",
+        "https://housedems.com/stephanie-young",
+        "https://housedems.com/stephanie-young/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/stephanie-a-young-56b68570",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "wooden-stephen-mi-hd81",
+      "name": "Stephen Wooden",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-81)",
+      "state": "MI",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a071cb31-2347-40a8-a88b-ec72bacdeffd"
+      },
+      "contact": {
+        "email": "stephenwooden@house.mi.gov",
+        "website": "https://housedems.com/stephen-wooden/"
+      },
+      "bio": {
+        "birth_date": "1991-08-06",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/swooden.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephen_Wooden",
+        "https://en.wikipedia.org/wiki/Stephen_Wooden",
+        "https://housedems.com/stephen-wooden",
+        "https://housedems.com/stephen-wooden/about",
+        "https://justfacts.votesmart.org/candidate/biography/187891/stephen-wooden",
+        "https://www.linkedin.com/in/stephenwooden",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "carra-steve-mi-hd36",
+      "name": "Steve Carra",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-36)",
+      "state": "MI",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4dee484b-79f4-4ca2-92dc-2ed7e0623d6b"
+      },
+      "contact": {
+        "email": "stevecarra@house.mi.gov",
+        "website": "https://gophouse.org/member/repstevecarra/about"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2021/05/HS_CARRA_0221_NSC_2360-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Carra",
+        "https://en.wikipedia.org/wiki/Steve_Carra",
+        "https://gophouse.org/member/repstevecarra/about",
+        "https://repcarra.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "frisbie-steve-mi-hd44",
+      "name": "Steve Frisbie",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-44)",
+      "state": "MI",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c62d1d8e-1e35-48c2-a869-6801ad396875"
+      },
+      "contact": {
+        "email": "stevefrisbie@house.mi.gov",
+        "website": "https://gophouse.org/member/RepSteveFrisbie/about"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkosbA1eo1rgLKVUU8dvxAKdj_-RAIjrqKtQ&s",
+      "sources": [
+        "https://ballotpedia.org/Steve_Frisbie",
+        "https://en.wikipedia.org/wiki/Steve_Frisbie",
+        "https://gophouse.org/member/RepSteveFrisbie/about",
+        "https://justfacts.votesmart.org/candidate/132236/steve-frisbie",
+        "https://www.linkedin.com/in/steve-frisbie-80428823",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "shink-sue-mi-sd14",
+      "name": "Sue Shink",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-14)",
+      "state": "MI",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/38c58e5f-715a-4943-a8d9-2b557db3db02"
+      },
+      "contact": {
+        "email": "sensshink@senate.michigan.gov",
+        "website": "https://senatedems.com/shink"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/shink/wp-content/uploads/sites/18/2022/12/Portrait_Shink_Web.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sue_Shink",
+        "https://en.wikipedia.org/wiki/Sue_Shink",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/shink",
+        "https://senatedems.com/shink/",
+        "https://senatedems.com/shink/bio",
+        "https://www.linkedin.com/in/sue-shink-521a80158",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "santana-sylvia-mi-sd2",
+      "name": "Sylvia Santana",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-2)",
+      "state": "MI",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8e302b97-4868-4575-a56f-3881e91ae0f8"
+      },
+      "contact": {
+        "email": "senssantana@senate.michigan.gov",
+        "website": "https://senatedems.com/santana"
+      },
+      "bio": {
+        "birth_date": "1979-11-23",
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/santana/wp-content/uploads/sites/8/2022/12/Santana-Official-Portrait.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Sylvia_Santana",
+        "https://en.wikipedia.org/wiki/Sylvia_Santana",
+        "https://justfacts.votesmart.org/candidate/biography/170218/sylvia-santana",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/santana",
+        "https://senatedems.com/santana/",
+        "https://www.linkedin.com/in/sylvia-santana-88968973",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "albert-thomas-mi-sd18",
+      "name": "Thomas Albert",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-18)",
+      "state": "MI",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c96aa62f-6a2c-4d37-9074-2c25875c639b"
+      },
+      "contact": {
+        "email": "sentalbert@senate.michigan.gov",
+        "website": "https://gophouse.org/representatives/westmi/albert/"
+      },
+      "bio": {
+        "birth_date": "1985-04-12",
+        "gender": "Male"
+      },
+      "image": "https://www.misenategop.com/wp-content/uploads/2023/01/Albert-580x770.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Albert_(Michigan)",
+        "https://en.wikipedia.org/wiki/Thomas_Albert_(politician)",
+        "https://gophouse.org/representatives/westmi/albert",
+        "https://gophouse.org/representatives/westmi/albert/",
+        "https://justfacts.votesmart.org/candidate/biography/170553/thomas-albert",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/thomas-albert-19587739",
+        "https://www.senatorthomasalbert.com",
+        "https://www.senatorthomasalbert.com/",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "kuhn-tom-mi-hd57",
+      "name": "Tom Kuhn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-57)",
+      "state": "MI",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/58e6e432-e6a2-44f4-8dda-cc3d8e01ca7e"
+      },
+      "contact": {
+        "email": "tomkuhn@house.mi.gov",
+        "website": "https://gophouse.org/member/RepTomKuhn/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Kuhn-057.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Kuhn",
+        "https://en.wikipedia.org/wiki/Thomas_Kuhn_(Michigan_politician)",
+        "https://gophouse.org/member/RepTomKuhn/about",
+        "https://gophouse.org/member/RepTomKuhn/posts",
+        "https://RepKuhn.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repThomasKuhn",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "kelly-tim-mi-hd93",
+      "name": "Tim Kelly",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-93)",
+      "state": "MI",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/679924dd-c6da-467c-9a9c-1f5a22aa1787"
+      },
+      "contact": {
+        "email": "timkelly@house.mi.gov",
+        "website": "https://gophouse.org/member/RepTimKelly/"
+      },
+      "bio": {
+        "birth_date": "1956-12-21",
+        "gender": "Male"
+      },
+      "image": "http://gophouse.org/wp-content/uploads/2015/01/HS_Kelly_0213_DSC6086_hr94-192x300.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tim_Kelly_(Michigan_state_representative)",
+        "https://en.wikipedia.org/wiki/Tim_Kelly_%28Michigan_politician%29",
+        "https://gophouse.org/member/RepTimKelly",
+        "https://gophouse.org/representatives/central/kelly",
+        "https://gophouse.org/representatives/central/kelly/",
+        "https://justfacts.votesmart.org/candidate/biography/65644/tim-kelly",
+        "https://www.linkedin.com/in/tim-kelly-2b67bb6",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "beson-timmy-mi-hd96",
+      "name": "Timmy Beson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-96)",
+      "state": "MI",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6b7aadaf-f690-487f-bec8-95f095f6b565"
+      },
+      "contact": {
+        "email": "timothybeson@house.mi.gov",
+        "website": "https://gophouse.org/member/reptimothybeson/about"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dtj5wlj7ond0z.cloudfront.net/uploads/2021/01/HS_BESON_1220_NSC_6238-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Timothy_Beson",
+        "https://en.wikipedia.org/wiki/Timothy_Beson",
+        "https://gophouse.org/member/reptimothybeson/about",
+        "https://justfacts.votesmart.org/candidate/biography/193073/timothy-beson",
+        "https://repbeson.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/timmy-beson-23604793",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "kunse-tom-mi-hd100",
+      "name": "Tom Kunse",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-100)",
+      "state": "MI",
+      "district": "HD-100",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/462dc80a-8642-40d7-9c22-f6234da5451e"
+      },
+      "contact": {
+        "email": "tomkunse@house.mi.gov",
+        "website": "https://gophouse.org/member/RepTomKunse/posts"
+      },
+      "bio": {
+        "birth_date": "1970-11-10",
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Kunse-100.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Kunse",
+        "https://en.wikipedia.org/wiki/Tom_Kunse",
+        "https://gophouse.org/member/RepTomKunse/about",
+        "https://gophouse.org/member/RepTomKunse/posts",
+        "https://RepKunse.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repTomKunse",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "phillips-tonya-mi-hd7",
+      "name": "Tonya Phillips",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-7)",
+      "state": "MI",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/787d9bda-d4dd-47fe-aaf0-348c505211e4"
+      },
+      "contact": {
+        "email": "tonyamyersphillips@house.mi.gov",
+        "website": "https://housedems.com/tonya-myers-phillips/"
+      },
+      "bio": {
+        "birth_date": "1977-03-18",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Tonya_Myers_Phillips_20241022_115414.png",
+      "sources": [
+        "https://ballotpedia.org/Tonya_Myers_Phillips",
+        "https://en.wikipedia.org/wiki/Tonya_Myers_Phillips",
+        "https://housedems.com/tonya-myers-phillips",
+        "https://justfacts.votesmart.org/candidate/biography/192381/tonya-phillips",
+        "https://www.linkedin.com/in/tonyamyersphillips",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "liberati-tullio-mi-hd2",
+      "name": "Tullio Liberati",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-2)",
+      "state": "MI",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d548157-c00e-4131-bf2b-5838ffc5281a"
+      },
+      "contact": {
+        "email": "tullioliberati@house.mi.gov",
+        "website": "https://housedems.com/tullio-liberati/"
+      },
+      "bio": {
+        "birth_date": "1968-07-03",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Tullio_Liberati",
+        "https://en.wikipedia.org/wiki/Tullio_Liberati",
+        "https://housedems.com/tullio-liberati",
+        "https://housedems.com/tullio-liberati/",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "carter-tyrone-mi-hd1",
+      "name": "Tyrone Carter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-1)",
+      "state": "MI",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/38d2f8c4-f40c-44b7-a2dd-57a4d5375572"
+      },
+      "contact": {
+        "email": "tyronecarter@house.mi.gov",
+        "website": "https://housedems.com/tyrone-carter"
+      },
+      "bio": {
+        "birth_date": "1962-05-24",
+        "gender": "Male"
+      },
+      "image": "https://housedems.com/sites/default/files/Images/Representative_Images/D006_Tyrone_Carter/006_Carter.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tyrone_Carter",
+        "https://en.wikipedia.org/wiki/Tyrone_Carter_(politician)",
+        "https://housedems.com/tyrone-carter",
+        "https://housedems.com/tyrone-carter/",
+        "https://justfacts.votesmart.org/candidate/biography/153394/tyrone-carter",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/MHRPublic/frmRepListMilenia.aspx?all=true",
+        "https://www.linkedin.com/in/michigan-state-rep-tyrone-carter-56945020",
+        "https://www.linkedin.com/in/tyrone-carter-56945020",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "klinefelt-veronica-mi-sd11",
+      "name": "Veronica Klinefelt",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-11)",
+      "state": "MI",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3cef42f4-ef0b-43c2-b0b8-01f7f399af2f"
+      },
+      "contact": {
+        "email": "senvklinefelt@senate.michigan.gov",
+        "website": "https://senatedems.com/klinefelt"
+      },
+      "bio": {
+        "birth_date": "1964-01-15",
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/klinefelt/wp-content/uploads/sites/15/2022/12/Portrait_Klinefelt_Web.jpg",
+      "sources": [
+        "https://ballotpedia.org/Veronica_Klinefelt",
+        "https://en.wikipedia.org/wiki/Veronica_Klinefelt",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/klinefelt",
+        "https://senatedems.com/klinefelt/",
+        "https://senatedems.com/klinefelt/bio",
+        "https://www.linkedin.com/in/veronica-klinefelt-13774b125",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "paiz-veronica-mi-hd10",
+      "name": "Veronica Paiz",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-10)",
+      "state": "MI",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8c335851-e7f6-40d6-b83c-fe413f21934e"
+      },
+      "contact": {
+        "email": "veronicapaiz@house.mi.gov",
+        "website": "https://housedems.com/Veronica-Paiz/"
+      },
+      "bio": {
+        "birth_date": "1957-09-23",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Veronica_Paiz",
+        "https://en.wikipedia.org/wiki/Veronica_Paiz",
+        "https://housedems.com/Veronica-Paiz",
+        "https://housedems.com/Veronica-Paiz/",
+        "https://housedems.com/veronica-paiz/about",
+        "https://justfacts.votesmart.org/candidate/206581/veronica-paiz",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/vpaiz",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "bruck-will-mi-hd30",
+      "name": "Will Bruck",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-30)",
+      "state": "MI",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a9f36e83-23ad-4912-a183-8b1e93ef3e81"
+      },
+      "contact": {
+        "email": "williambruck@house.mi.gov",
+        "website": "https://gophouse.org/member/RepWilliamBruck/posts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.house.mi.gov/media/Representatives/Bruck-030.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Bruck",
+        "https://en.wikipedia.org/wiki/William_Bruck",
+        "https://gophouse.org/member/RepWilliamBruck/posts",
+        "https://justfacts.votesmart.org/candidate/biography/206654/william-bruck",
+        "https://RepBruck.com",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.house.mi.gov/repdetail/repWilliamBruck",
+        "https://www.linkedin.com/in/william-bruck-29351284",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "snyder-will-mi-hd87",
+      "name": "Will Snyder",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Representative (HD-87)",
+      "state": "MI",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6f36a657-51ea-4c74-b1fd-7bc69ad222bd"
+      },
+      "contact": {
+        "email": "willsnyder@house.mi.gov",
+        "website": "https://housedems.com/Will-Snyder/"
+      },
+      "bio": {
+        "birth_date": "1993-02-08",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Will_Snyder_(Michigan)",
+        "https://en.wikipedia.org/wiki/Will_Snyder_(politician)",
+        "https://housedems.com/Will-Snyder",
+        "https://housedems.com/Will-Snyder/",
+        "https://housedems.com/will-snyder/about",
+        "https://justfacts.votesmart.org/candidate/biography/206639/will-snyder",
+        "https://www.house.mi.gov/AllRepresentatives",
+        "https://www.linkedin.com/in/william-snyder-97838454",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    },
+    {
+      "politician_id": "brinks-winnie-mi-sd29",
+      "name": "Winnie Brinks",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Michigan State Senator (SD-29)",
+      "state": "MI",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "MI",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de38477b-6f3e-44cd-96d0-bd81ff831948"
+      },
+      "contact": {
+        "email": "senwbrinks@senate.michigan.gov",
+        "website": "https://senatedems.com/brinks"
+      },
+      "bio": {
+        "birth_date": "1968-02-17",
+        "gender": "Female"
+      },
+      "image": "https://senatedems.com/brinks/wp-content/uploads/sites/6/2022/12/MDS_Brinks_DSC5456_536.jpg",
+      "sources": [
+        "https://ballotpedia.org/Winnie_Brinks",
+        "https://en.wikipedia.org/wiki/Winnie_Brinks",
+        "https://justfacts.votesmart.org/candidate/biography/143374/winnie-brinks",
+        "https://senate.michigan.gov/senatorinfo_list.html",
+        "https://senate.michigan.gov/senators/SenatorData.json",
+        "https://senate.michigan.gov/senators/senatorinfo_list.html",
+        "https://senatedems.com/brinks",
+        "https://senatedems.com/brinks/",
+        "https://www.linkedin.com/in/winnie-brinks-771a8a3a",
+        "https://data.openstates.org/people/current/mi.csv"
+      ]
+    }
+  ]
+}

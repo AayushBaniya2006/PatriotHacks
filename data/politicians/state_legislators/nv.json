@@ -1,0 +1,2110 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/nv.csv",
+  "state": "NV",
+  "politicians": [
+    {
+      "politician_id": "hansen-alexis-nv-hd32",
+      "name": "Alexis Hansen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-32)",
+      "state": "NV",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6fee4c5a-f125-46bc-b11a-d254e40428e4"
+      },
+      "contact": {
+        "email": "alexis.hansen@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=366"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Hansen.Alexis.366.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alexis_Hansen",
+        "https://en.wikipedia.org/wiki/Alexis_Hansen",
+        "https://justfacts.votesmart.org/candidate/180994/alexis-hansen",
+        "https://www.alexishansennv.com/about-alexis",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=366",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current                              \"",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/32",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "taylor-angie-nv-sd15",
+      "name": "Angie Taylor",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-15)",
+      "state": "NV",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d95b3a70-9bb4-43b8-a376-9d3151f9c44d"
+      },
+      "contact": {
+        "email": "angela.taylor@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/27"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Taylor.Angela.424.jpg",
+      "sources": [
+        "https://ballotpedia.org/Angie_Taylor",
+        "https://en.wikipedia.org/wiki/Angie_Taylor",
+        "https://justfacts.votesmart.org/candidate/121893/angela-taylor",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current                             \"",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/27",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/15",
+        "https://www.linkedin.com/in/angie-taylor",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "gurr-bert-nv-hd33",
+      "name": "Bert Gurr",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-33)",
+      "state": "NV",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/11f44d71-88c1-4022-a2f5-f8ca9b8795f2"
+      },
+      "contact": {
+        "email": "bert.gurr@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/33"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Assembly/Images/Gurr.Bert.402.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bert_Gurr",
+        "https://en.wikipedia.org/wiki/Bert_Gurr",
+        "https://justfacts.votesmart.org/candidate/204095/bert-gurr",
+        "https://www.gurr4nevada.com/about",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/33",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/33 \"",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "osborn-blayne-nv-hd39",
+      "name": "Blayne Osborn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-39)",
+      "state": "NV",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b89aa9d2-1550-4e73-8981-ffa49b7113ad"
+      },
+      "contact": {
+        "email": "blayne.osborn@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/36th2025Special/39"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.leg.state.nv.us/Session/36th2025Special/legislators/Assembly/Images/Osborn.Blayne.427.jpg",
+      "sources": [
+        "https://ballotpedia.org/Blayne_Osborn",
+        "https://en.wikipedia.org/wiki/Blayne_Osborn",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/36th2025Special/39",
+        "https://www.linkedin.com/in/blayne-osborn-73301b29",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "hibbetts-brian-nv-hd13",
+      "name": "Brian Hibbetts",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-13)",
+      "state": "NV",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/20c9828b-8026-440a-9328-0c2cbcbad016"
+      },
+      "contact": {
+        "email": "brian.hibbetts@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/13"
+      },
+      "bio": {
+        "birth_date": "1974-07-01",
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Assembly/Images/Hibbetts.Brian.394.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Hibbetts",
+        "https://en.wikipedia.org/wiki/Brian_Hibbetts",
+        "https://justfacts.votesmart.org/candidate/204187/brian-hibbetts",
+        "https://www.brianhibbetts.com/about",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/13",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/13                              \"                           \"",
+        "https://www.linkedin.com/in/brian-hibbetts-701326103",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-brittney-nv-hd5",
+      "name": "Brittney Miller",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-5)",
+      "state": "NV",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/287d0078-78f3-4717-8493-9f77d0eb57d6"
+      },
+      "contact": {
+        "email": "brittney.miller@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=304"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Miller.Brittney.304.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brittney_Miller",
+        "https://en.wikipedia.org/wiki/Brittney_Miller",
+        "https://justfacts.votesmart.org/candidate/biography/169513/brittney-miller",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=304",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/5",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/5                           \"                            \"",
+        "https://www.linkedin.com/in/brittney-miller-6227a865",
+        "https://www.miller4thepeople.com/meet-brittney",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "buck-carrie-nv-sd5",
+      "name": "Carrie Buck",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-5)",
+      "state": "NV",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/189d270a-96e5-45af-a2b8-bbcc2ad225c1"
+      },
+      "contact": {
+        "email": "carrie.buck@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=387"
+      },
+      "bio": {
+        "birth_date": "1971-07-19",
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Buck.Carrie.387.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carrie_Buck_(Nevada)",
+        "https://en.wikipedia.org/wiki/Carrie_A._Buck",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=387",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/5",
+        "https://www.linkedin.com/in/dr-carrie-a-buck-1111b488",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "gonz-lez-cecelia-nv-hd16",
+      "name": "Cecelia González",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-16)",
+      "state": "NV",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/67f22a3d-05c3-4256-8260-dac682607fc7"
+      },
+      "contact": {
+        "email": "cecelia.gonzalez@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=378"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Gonzlez.Cecelia.378.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cecelia_Gonz%C3%A1lez",
+        "https://en.wikipedia.org/wiki/Cecelia_Gonz%C3%A1lez",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=378",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/16",
+        "https://www.linkedin.com/in/cecelia-gonz%C3%A1lez-484738174",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-cinthia-nv-hd11",
+      "name": "Cinthia Moore",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-11)",
+      "state": "NV",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0828d1f5-5772-4e62-88d8-1650abb8b749"
+      },
+      "contact": {
+        "email": "cinthia.moore@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/11"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Moore.Cinthia.412.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cinthia_Moore",
+        "https://en.wikipedia.org/wiki/Cinthia_Zerme%C3%B1o_Moore",
+        "https://justfacts.votesmart.org/candidate/180969/cinthia-moore",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/11",
+        "https://www.linkedin.com/in/cinthia-moore-008a7445",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "monroe-moreno-daniele-nv-hd1",
+      "name": "Daniele Monroe-Moreno",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-1)",
+      "state": "NV",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b266a1bc-d8f5-472c-ba8d-e98e0d904ee3"
+      },
+      "contact": {
+        "email": "daniele.monroemoreno@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=307"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/MonroeMoreno.Daniele.307.jpg",
+      "sources": [
+        "https://ballotpedia.org/Daniele_Monroe-Moreno",
+        "https://en.wikipedia.org/wiki/Daniele_Monroe-Moreno",
+        "https://justfacts.votesmart.org/candidate/biography/169498/daniele-monroe-moreno",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=307",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/1",
+        "https://www.linkedin.com/in/daniele-monroe-moreno-8089062a",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "gallant-danielle-nv-hd23",
+      "name": "Danielle Gallant",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-23)",
+      "state": "NV",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bf8b61a8-585a-4357-82f8-bd8de898262b"
+      },
+      "contact": {
+        "email": "danielle.gallant@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/23"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Assembly/Images/Gallant.Danielle.397.jpg",
+      "sources": [
+        "https://ballotpedia.org/Danielle_Gallant",
+        "https://en.wikipedia.org/wiki/Danielle_Gallant",
+        "https://justfacts.votesmart.org/candidate/key-votes/204208/danielle-gallant",
+        "https://www.daniellefornv.com/about",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/23",
+        "https://www.linkedin.com/in/danielle-gallant-a5267721",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "orentlicher-david-nv-hd20",
+      "name": "David Orentlicher",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-20)",
+      "state": "NV",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7d16a086-5877-48e9-9e76-13c5159f89ce"
+      },
+      "contact": {
+        "email": "david.orentlicher@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=377"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.leg.state.nv.us/Session/36th2025Special/legislators/Assembly/Images/Orentlicher.David.377.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Orentlicher",
+        "https://en.wikipedia.org/wiki/David_Orentlicher",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=377",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/20",
+        "https://www.linkedin.com/in/davidorentlicher",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "neal-dina-nv-sd4",
+      "name": "Dina Neal",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-4)",
+      "state": "NV",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6da4be55-c493-4b72-b436-5257259247d2"
+      },
+      "contact": {
+        "email": "dina.neal@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=129"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/81st2021/legislators/Senators/Images/Neal.Dina.129.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dina_Neal",
+        "https://en.wikipedia.org/wiki/Dina_Neal",
+        "https://justfacts.votesmart.org/candidate/biography/121828/dina-neal",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=129",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/4",
+        "https://www.linkedin.com/in/dina-neal-juris-doctorate-8980b723",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "nguyen-duy-nv-hd8",
+      "name": "Duy Nguyen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-8)",
+      "state": "NV",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fb919fa4-e37e-4268-9f5d-e4c3e9490475"
+      },
+      "contact": {
+        "email": "duy.nguyen@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/8"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Assembly/Images/Nguyen.Duy.392.jpg",
+      "sources": [
+        "https://ballotpedia.org/Duy_Nguyen_(Nevada)",
+        "https://en.wikipedia.org/wiki/Duy_Nguyen",
+        "https://justfacts.votesmart.org/candidate/204172/duy-nguyen",
+        "https://www.duyfornv.com/about-duy",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/8",
+        "https://www.linkedin.com/in/duymba",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "flores-edgar-nv-sd2",
+      "name": "Edgar Flores",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-2)",
+      "state": "NV",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e5b06346-f5ee-4e1d-baed-342cc4a8ff36"
+      },
+      "contact": {
+        "email": "edgar.flores@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=273"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/81st2021/legislators/Assembly/Images/Flores.Edgar.273.jpg",
+      "sources": [
+        "https://ballotpedia.org/Edgar_Flores",
+        "https://en.wikipedia.org/wiki/Edgar_Flores_(politician)",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=273",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/28",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/2",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "marzola-elaine-nv-hd21",
+      "name": "Elaine Marzola",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-21)",
+      "state": "NV",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a76836f8-24c9-4f90-8e13-29f417a7ad9f"
+      },
+      "contact": {
+        "email": "elaine.marzola@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=376"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Marzola.Elaine.376.jpg",
+      "sources": [
+        "https://ballotpedia.org/Elaine_Marzola",
+        "https://en.wikipedia.org/wiki/Elaine_Marzola",
+        "https://justfacts.votesmart.org/candidate/191161/elaine-marzola",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=376",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/21",
+        "https://www.linkedin.com/in/elaine-marzola-964b51115",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "mosca-erica-nv-hd14",
+      "name": "Erica Mosca",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-14)",
+      "state": "NV",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/39e0ca55-992e-4558-aec5-279adb467de7"
+      },
+      "contact": {
+        "email": "erica.mosca@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/14"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Assembly/Images/Mosca.Erica.395.jpg",
+      "sources": [
+        "https://ballotpedia.org/Erica_Mosca",
+        "https://en.wikipedia.org/wiki/Erica_Mosca",
+        "https://justfacts.votesmart.org/candidate/169547/erica-mosca",
+        "https://www.ericamosca.com/about-erica",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/14",
+        "https://www.linkedin.com/in/emlv",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "roth-erica-nv-hd24",
+      "name": "Erica Roth",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-24)",
+      "state": "NV",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1555ff9d-7b4a-46d9-be19-6a4be444f574"
+      },
+      "contact": {
+        "email": "erica.roth@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/24"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Roth.Erica.413.jpg",
+      "sources": [
+        "https://ballotpedia.org/Erica_Roth",
+        "https://justfacts.votesmart.org/candidate/215856/erica-roth",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/24",
+        "https://www.linkedin.com/in/ericarothesq",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "do-ate-fabian-nv-sd10",
+      "name": "Fabian Doñate",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-10)",
+      "state": "NV",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bcad4dc1-c812-409b-9cc9-e1d8c91fdafa"
+      },
+      "contact": {
+        "email": "fabian.donate@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/10"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Senators/Images/Doate.Fabian.350.jpg",
+      "sources": [
+        "https://ballotpedia.org/Fabian_Donate",
+        "https://en.wikipedia.org/wiki/Fabian_Do%C3%B1ate",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/10",
+        "https://www.linkedin.com/in/fabiandonate",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "koenig-gregory-nv-hd38",
+      "name": "Gregory Koenig",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-38)",
+      "state": "NV",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1c4f97a9-c965-4d0d-b5b6-39b91aee4f49"
+      },
+      "contact": {
+        "email": "gregory.koenig@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/38"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.leg.state.nv.us/Session/36th2025Special/legislators/Assembly/Images/Koenig.Gregory.403.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gregory_Koenig",
+        "https://en.wikipedia.org/wiki/Gregory_Koenig",
+        "https://justfacts.votesmart.org/candidate/204098/gregory-koenig",
+        "https://koenigforassembly.com/about",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/38",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "hafen-greg-nv-hd36",
+      "name": "Greg Hafen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-36)",
+      "state": "NV",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/33330e1e-b22d-49d7-bce8-6964b289683a"
+      },
+      "contact": {
+        "email": "gregory.hafen@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=371"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Hafen.Gregory.371.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gregory_Hafen",
+        "https://en.wikipedia.org/wiki/Gregory_Hafen_II",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=371",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/36",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "nadeem-hanadi-nv-hd34",
+      "name": "Hanadi Nadeem",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-34)",
+      "state": "NV",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/684e4e66-da40-4914-943a-40ef578fa231"
+      },
+      "contact": {
+        "email": "hanadi.nadeem@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/34"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Hanadi_Nadeem1.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Hanadi_Nadeem",
+        "https://en.wikipedia.org/wiki/Hanadi_Nadeem",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/34",
+        "https://www.linkedin.com/in/hanadi-nadeem-b0ba8a38",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "goulding-heather-nv-hd27",
+      "name": "Heather Goulding",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-27)",
+      "state": "NV",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bedabc75-c6b4-4949-9e0e-76b9432e740f"
+      },
+      "contact": {
+        "email": "heather.goulding@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/27"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Goulding.Heather.416.jpg",
+      "sources": [
+        "https://ballotpedia.org/Heather_Goulding",
+        "https://en.wikipedia.org/wiki/Heather_Goulding",
+        "https://justfacts.votesmart.org/candidate/215861/heather-goulding",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/27",
+        "https://www.linkedin.com/in/heather-goulding-6b532511",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "kasama-heidi-nv-hd2",
+      "name": "Heidi Kasama",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-2)",
+      "state": "NV",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/61389b89-1169-49b3-a17b-c904f2111b4e"
+      },
+      "contact": {
+        "email": "heidi.kasama@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=379"
+      },
+      "bio": {
+        "birth_date": "1959-01-09",
+        "gender": "Female"
+      },
+      "image": "http://www.leg.state.nv.us/Session/36th2025Special/legislators/Assembly/Images/Kasama.Heidi.379.jpg",
+      "sources": [
+        "https://ballotpedia.org/Heidi_Kasama",
+        "https://en.wikipedia.org/wiki/Heidi_Kasama",
+        "https://justfacts.votesmart.org/candidate/191090/heidi-kasama",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=379",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/2",
+        "https://www.linkedin.com/in/heidikasama",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "watts-howard-nv-hd15",
+      "name": "Howard Watts",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-15)",
+      "state": "NV",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b88fd854-c97b-4908-a554-583b93bca5c4"
+      },
+      "contact": {
+        "email": "howard.watts@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=363"
+      },
+      "bio": {
+        "birth_date": "1987-12-14",
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Watts.Howard.363.jpg",
+      "sources": [
+        "https://ballotpedia.org/Howard_Watts_III",
+        "https://en.wikipedia.org/wiki/Howard_Watts_III",
+        "https://justfacts.votesmart.org/candidate/180976/howard-watts-iii",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=363",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/15",
+        "https://www.linkedin.com/in/howard-watts-iii-9a1321109",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "hansen-ira-nv-sd14",
+      "name": "Ira Hansen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-14)",
+      "state": "NV",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/94c7e249-88bb-4f83-b225-6b34f9361d0f"
+      },
+      "contact": {
+        "email": "ira.hansen@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=157"
+      },
+      "bio": {
+        "birth_date": "1960-10-05",
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Hansen.Ira.157.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ira_Hansen",
+        "https://en.wikipedia.org/wiki/Ira_Hansen",
+        "https://justfacts.votesmart.org/candidate/121908/ira-hansen",
+        "https://www.irahansen.com/about-ira",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=157",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/14",
+        "https://www.linkedin.com/in/ira-hansen-305b0149",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "ohrenschall-james-nv-sd21",
+      "name": "James Ohrenschall",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-21)",
+      "state": "NV",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/75d6c9b4-d0ee-49bb-aa17-ec20bb33e9eb"
+      },
+      "contact": {
+        "email": "james.ohrenschall@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=67"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/80th2019/legislators/Senators/Images/Ohrenschall.James.67.jpg",
+      "sources": [
+        "https://ballotpedia.org/James_Ohrenschall",
+        "https://en.wikipedia.org/wiki/James_Ohrenschall",
+        "https://justfacts.votesmart.org/candidate/biography/66853/james-ohrenschall",
+        "https://www.jamesohrenschall.com/about",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=67",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/21",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "patchett-jason-nv-hd19",
+      "name": "Jason Patchett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-19)",
+      "state": "NV",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4e25af9f-4cb3-4812-8a12-2f1012aa6cb7"
+      },
+      "contact": {
+        "email": "jason.patchett@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/19"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://media.lasvegassun.com/media/img/photos/2016/06/08/Patchett_Jason_t650.jpg?5711a3b57decb389a12ba40e20471e031ff69545",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jason_Patchett",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/19",
+        "https://www.linkedin.com/in/jason-b-patchett-esq-746247b4",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "stone-jeff-nv-sd20",
+      "name": "Jeff Stone",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-20)",
+      "state": "NV",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/00ad1837-b472-4ce8-872d-e1eac1c1c6db"
+      },
+      "contact": {
+        "email": "jeff.stone@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/20"
+      },
+      "bio": {
+        "birth_date": "1956-01-30",
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Stone.Jeff.390.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Stone_(California)",
+        "https://en.wikipedia.org/wiki/Jeff_Stone_(California_politician)",
+        "https://justfacts.votesmart.org/candidate/204154/jeffery-stone",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/20",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "dickman-jill-nv-hd31",
+      "name": "Jill Dickman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-31)",
+      "state": "NV",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/70e15282-2812-4486-9d7e-06862aa45cc3"
+      },
+      "contact": {
+        "email": "jill.dickman@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=277"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://www.leg.state.nv.us/Session/36th2025Special/legislators/Assembly/Images/Dickman.Jill.277.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jill_Dickman",
+        "https://en.wikipedia.org/wiki/Jill_Dickman",
+        "https://justfacts.votesmart.org/candidate/key-votes/152682/jill-dickman",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=277",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/31",
+        "https://www.linkedin.com/in/jill-dickman-59aa3985",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "dalia-joe-nv-hd29",
+      "name": "Joe Dalia",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-29)",
+      "state": "NV",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/282757f9-1693-4ac5-bd98-4315543cd61a"
+      },
+      "contact": {
+        "email": "joe.dalia@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/29"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Dalia.Joe.414.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joe_Dalia",
+        "https://en.wikipedia.org/wiki/Joe_Dalia",
+        "https://justfacts.votesmart.org/candidate/204215/joe-dalia",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/29",
+        "https://www.linkedin.com/in/joe-dalia-3b89a8166",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "ellison-john-nv-sd19",
+      "name": "John Ellison",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-19)",
+      "state": "NV",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/87e878e2-fd19-4b55-a7b5-b76adf520e84"
+      },
+      "contact": {
+        "email": "john.ellison@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=159"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/81st2021/legislators/Assembly/Images/Ellison.John.159.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Ellison",
+        "https://en.wikipedia.org/wiki/John_Ellison_%28politician%29",
+        "https://justfacts.votesmart.org/candidate/90566/john-ellison",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=159",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/33",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/19",
+        "https://www.linkedin.com/in/john-ellison-a7858246",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "steinbeck-john-nv-sd18",
+      "name": "John Steinbeck",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-18)",
+      "state": "NV",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/deb46b96-7bab-40be-a145-8d397b436d87"
+      },
+      "contact": {
+        "email": "john.steinbeck@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/18"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Steinbeck.John.418.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Steinbeck",
+        "https://en.wikipedia.org/wiki/John_Steinbeck_(politician)",
+        "https://justfacts.votesmart.org/candidate/215917/john-steinbeck",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/18",
+        "https://www.linkedin.com/in/john-steinbeck-aa6b97ab",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-jovan-nv-hd6",
+      "name": "Jovan Jackson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-6)",
+      "state": "NV",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b6a16a74-3cb4-43c1-83cd-1b6f211993a0"
+      },
+      "contact": {
+        "email": "jovan.jackson@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/6"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Jackson.Jovan.422.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jovan_Jackson",
+        "https://en.wikipedia.org/wiki/Jovan_Jackson",
+        "https://justfacts.votesmart.org/candidate/215893/jovan-jackson",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/6",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "pazina-julie-nv-sd12",
+      "name": "Julie Pazina",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-12)",
+      "state": "NV",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a12a3103-37b0-4ac4-81f0-100aaad494e3"
+      },
+      "contact": {
+        "email": "julie.pazina@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/12"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Senators/Images/Pazina.Julie.391.jpg",
+      "sources": [
+        "https://ballotpedia.org/Julie_Pazina",
+        "https://en.wikipedia.org/wiki/Julie_Pazina",
+        "https://justfacts.votesmart.org/candidate/biography/180946/julie-pazina",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/12",
+        "https://www.linkedin.com/in/julie-pazina-cem-ap-9b31a55",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "hunt-linda-nv-hd17",
+      "name": "Linda Hunt",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-17)",
+      "state": "NV",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9a681fc4-e005-4c1f-a16b-6fa2b02106e3"
+      },
+      "contact": {
+        "email": "linda.hunt@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/17"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Hunt.Linda.420.jpg",
+      "sources": [
+        "https://ballotpedia.org/Linda_Hunt_(Nevada)",
+        "https://en.wikipedia.org/wiki/Linda_Hunt_(politician)",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/17",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "cole-lisa-nv-hd4",
+      "name": "Lisa Cole",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-4)",
+      "state": "NV",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1707682b-c409-4d5e-9a2d-9505180de66c"
+      },
+      "contact": {
+        "email": "lisa.cole@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/4"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Cole.Lisa.410.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Cole_(Nevada)",
+        "https://en.wikipedia.org/wiki/Lisa_Cole_(politician)",
+        "https://justfacts.votesmart.org/candidate/215876/lisa-cole",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/4",
+        "https://www.linkedin.com/in/lisa-cole-48551264",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "krasner-lisa-nv-sd16",
+      "name": "Lisa Krasner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-16)",
+      "state": "NV",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b82b9b71-1d83-4f91-9a7f-8adec73b023f"
+      },
+      "contact": {
+        "email": "lisa.krasner@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=327"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Krasner.Lisa.327.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Krasner",
+        "https://en.wikipedia.org/wiki/Lisa_Krasner",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=327",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/26",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/16",
+        "https://www.linkedin.com/in/lisa-krasner-36a345b4",
+        "https://www.lisakrasnerfornevada.com/meet-lisa",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "rogich-lori-nv-sd11",
+      "name": "Lori Rogich",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-11)",
+      "state": "NV",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f3c4b2a7-2a24-4ba2-9894-421daed2d117"
+      },
+      "contact": {
+        "email": "lori.rogich@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/11"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://www.leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Rogich.Lori.425.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lori_Rogich",
+        "https://en.wikipedia.org/wiki/Lori_Rogich",
+        "https://justfacts.votesmart.org/candidate/biography/215911/lori-rogich",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/11",
+        "https://www.linkedin.com/in/lori-rogich-249029174",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "dondero-loop-marilyn-nv-sd8",
+      "name": "Marilyn Dondero Loop",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-8)",
+      "state": "NV",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0435a1f4-d8e4-43d9-9ac1-788a0aed92e4"
+      },
+      "contact": {
+        "email": "marilyn.donderoloop@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=92"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/80th2019/legislators/Senators/Images/DonderoLoop.Marilyn.92.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marilyn_Dondero_Loop",
+        "https://en.wikipedia.org/wiki/Marilyn_Dondero_Loop",
+        "https://justfacts.votesmart.org/candidate/biography/106888/marilyn-dondero-loop",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=92",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/8",
+        "https://www.linkedin.com/in/marilyn-dondero-loop-aa496b78",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "carter-max-nv-hd12",
+      "name": "Max Carter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-12)",
+      "state": "NV",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bd27bab3-8a47-439f-8ae5-8ce3ba534f90"
+      },
+      "contact": {
+        "email": "max.carter@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/12"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Assembly/Images/Carter.Max.393.jpg",
+      "sources": [
+        "https://ballotpedia.org/Max_Carter_II",
+        "https://en.wikipedia.org/wiki/Max_Carter",
+        "https://justfacts.votesmart.org/candidate/204180/max-carter",
+        "https://nevadarealtorssupport.com/max-carter-ii",
+        "https://www.carter4nv.com/about-max",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/12",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/12                               \"",
+        "https://www.linkedin.com/in/max-carter-ii-0b630867",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "scheible-melanie-nv-sd9",
+      "name": "Melanie Scheible",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-9)",
+      "state": "NV",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/860029b3-070b-4c23-a826-51948c5d995c"
+      },
+      "contact": {
+        "email": "melanie.scheible@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=358"
+      },
+      "bio": {
+        "birth_date": "1989-05-27",
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Scheible.Melanie.358.jpg",
+      "sources": [
+        "https://ballotpedia.org/Melanie_Scheible",
+        "https://en.wikipedia.org/wiki/Melanie_Scheible",
+        "https://justfacts.votesmart.org/candidate/biography/180937/melanie-scheible",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=358",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/9",
+        "https://www.linkedin.com/in/melanie-scheible-52351622",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "hardy-melissa-nv-hd22",
+      "name": "Melissa Hardy",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-22)",
+      "state": "NV",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5cafbfaf-3066-4080-9754-b53f337ba4ba"
+      },
+      "contact": {
+        "email": "melissa.hardy@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=364"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Hardy.Melissa.364.jpg",
+      "sources": [
+        "https://ballotpedia.org/Melissa_Hardy",
+        "https://en.wikipedia.org/wiki/Melissa_Hardy",
+        "https://justfacts.votesmart.org/candidate/180981/melissa-hardy",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=364",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/22",
+        "https://www.linkedin.com/in/melissa-hardy-59505a26",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "anderson-natha-nv-hd30",
+      "name": "Natha Anderson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-30)",
+      "state": "NV",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d4a1125a-69d2-4de1-a4b4-af2aae20de09"
+      },
+      "contact": {
+        "email": "natha.anderson@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=375"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Anderson.Natha.375.jpg",
+      "sources": [
+        "https://ballotpedia.org/Natha_Anderson",
+        "https://en.wikipedia.org/wiki/Natha_Anderson",
+        "https://justfacts.votesmart.org/candidate/biography/191357/natha-anderson",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=375",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/30",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "cannizzaro-nicole-nv-sd6",
+      "name": "Nicole Cannizzaro",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-6)",
+      "state": "NV",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d2ca0a59-3bf1-4e1c-b4d7-9da33a4c5152"
+      },
+      "contact": {
+        "email": "nicole.cannizzaro@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=347"
+      },
+      "bio": {
+        "birth_date": "1983-01-19",
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Cannizzaro.Nicole.347.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nicole_Cannizzaro",
+        "https://en.wikipedia.org/wiki/Nicole_Cannizzaro",
+        "https://justfacts.votesmart.org/candidate/biography/169489/nicole-cannizzaro",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=347",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/6",
+        "https://www.linkedin.com/in/nicole-cannizzaro-03152b7",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "o-neill-p-k-nv-hd40",
+      "name": "P.K. O'Neill",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-40)",
+      "state": "NV",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a964be66-bd32-48ab-b6c4-9ede22177328"
+      },
+      "contact": {
+        "email": "pk.oneill@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=285"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/81st2021/legislators/Assembly/Images/ONeill.PhilipPK.285.jpg",
+      "sources": [
+        "https://ballotpedia.org/Philip_O%27Neill",
+        "https://en.wikipedia.org/wiki/P._K._O%27Neill",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=285",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/40",
+        "https://www.linkedin.com/in/pk-oneill-19036037",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "edgeworth-rebecca-nv-hd35",
+      "name": "Rebecca Edgeworth",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-35)",
+      "state": "NV",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0460d67c-f5e3-4ff8-82c3-27caabeff9a2"
+      },
+      "contact": {
+        "email": "rebecca.edgeworth@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/35"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Edgeworth.Rebecca.411.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rebecca_Edgeworth",
+        "https://en.wikipedia.org/wiki/Rebecca_Edgeworth",
+        "https://justfacts.votesmart.org/candidate/215873/rebecca-edgeworth",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/35",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "d-silva-reuben-nv-hd28",
+      "name": "Reuben D'Silva",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-28)",
+      "state": "NV",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eae59702-f6de-431e-98f0-9c4bc5b6e059"
+      },
+      "contact": {
+        "email": "reuben.dsilva@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/28"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Assembly/Images/DSilva.Reuben.401.jpg",
+      "sources": [
+        "https://ballotpedia.org/Reuben_D%27Silva",
+        "https://dsilvafornevada.com/copy-of-biography",
+        "https://en.wikipedia.org/wiki/Reuben_D%27Silva",
+        "https://justfacts.votesmart.org/candidate/biography/169437/reuben-dsilva",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/28",
+        "https://www.linkedin.com/in/reuben-d-silva-90077414",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "delong-rich-nv-hd26",
+      "name": "Rich DeLong",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-26)",
+      "state": "NV",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/204b492e-4b29-4e8e-9c3e-d2d0f0a8ceea"
+      },
+      "contact": {
+        "email": "rich.delong@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/26"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Assembly/Images/DeLong.Rich.399.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rich_DeLong",
+        "https://en.wikipedia.org/wiki/Rich_DeLong",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/26",
+        "https://www.linkedin.com/in/richard-delong-b5771319",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "lange-roberta-nv-sd7",
+      "name": "Roberta Lange",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-7)",
+      "state": "NV",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/05dee0b4-bfea-4473-b253-739895818b0d"
+      },
+      "contact": {
+        "email": "roberta.lange@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=383"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Lange.Roberta.383.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roberta_Lange",
+        "https://en.wikipedia.org/wiki/Roberta_Lange",
+        "https://justfacts.votesmart.org/candidate/191084/roberta-lange",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=383",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/7",
+        "https://www.linkedin.com/in/robertalange",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "titus-robin-nv-sd17",
+      "name": "Robin Titus",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-17)",
+      "state": "NV",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6aa57859-c195-4a44-9404-b6e2bbe4ac04"
+      },
+      "contact": {
+        "email": "robin.titus@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=281"
+      },
+      "bio": {
+        "birth_date": "1954-02-21",
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/Titus.Robin.281.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robin_Titus",
+        "https://en.wikipedia.org/wiki/Robin_L._Titus",
+        "https://justfacts.votesmart.org/candidate/biography/151015/robin-titus",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=281",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/38",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/17",
+        "https://www.linkedin.com/in/dr-robin-titus-a4917126",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "nguyen-rochelle-nv-sd3",
+      "name": "Rochelle Nguyen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-3)",
+      "state": "NV",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d84ad99c-617a-4d33-a351-8bde19868746"
+      },
+      "contact": {
+        "email": "rochelle.nguyen@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=372"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Senators/Images/Nguyen.Rochelle.372.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rochelle_Nguyen",
+        "https://en.wikipedia.org/wiki/Rochelle_Nguyen",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=372",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/10",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/3",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "jauregui-sandra-nv-hd41",
+      "name": "Sandra Jauregui",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-41)",
+      "state": "NV",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/25e09131-39e3-4c58-96b0-6c1ac9e74b19"
+      },
+      "contact": {
+        "email": "sandra.jauregui@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=344"
+      },
+      "bio": {
+        "birth_date": "1983-10-31",
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Jauregui.Sandra.344.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sandra_Jauregui",
+        "https://en.wikipedia.org/wiki/Sandra_Jauregui",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=344",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/41",
+        "https://www.linkedin.com/in/sandra-jauregui-856631a7",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "la-rue-hatch-selena-nv-hd25",
+      "name": "Selena La Rue Hatch",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-25)",
+      "state": "NV",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/99f4f903-1c4f-49f0-835f-c0b9b1aa0317"
+      },
+      "contact": {
+        "email": "selena.la.rue.hatch@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/25"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Assembly/Images/LaRueHatch.Selena.398.jpg",
+      "sources": [
+        "https://ballotpedia.org/Selena_La_Rue_Hatch",
+        "https://en.wikipedia.org/wiki/Selena_La_Rue_Hatch",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/25",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "torres-fossett-selena-nv-hd3",
+      "name": "Selena Torres-Fossett",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-3)",
+      "state": "NV",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/59a3b5f2-a135-48e5-9baa-98585f8ff35e"
+      },
+      "contact": {
+        "email": "selena.torres@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=359"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Torres.Selena.359.jpg",
+      "sources": [
+        "https://ballotpedia.org/Selena_Torres",
+        "https://ballotpedia.org/Selena_Torres-Fossett",
+        "https://en.wikipedia.org/wiki/Selena_Torres",
+        "https://justfacts.votesmart.org/candidate/180952/selena-torres",
+        "https://justfacts.votesmart.org/candidate/biography/180952/selena-torres",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=359",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/3",
+        "https://www.linkedin.com/in/selena-torres-6a755683",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "backus-shea-nv-hd37",
+      "name": "Shea Backus",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-37)",
+      "state": "NV",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1fa69460-c910-4cf1-acfb-1d44c342e658"
+      },
+      "contact": {
+        "email": "shea.backus@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/37"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://www.leg.state.nv.us/Session/36th2025Special/legislators/Assembly/Images/Backus.Shea.368.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shea_Backus",
+        "https://en.wikipedia.org/wiki/Shea_Backus",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/37",
+        "https://www.linkedin.com/in/shea-backus-7369231b",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "crawford-shelly-nv-sd1",
+      "name": "Shelly Crawford",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-1)",
+      "state": "NV",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4acffaa7-5568-47e3-b476-bdf23867605e"
+      },
+      "contact": {
+        "email": "shelly.cruzcrawford@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/1"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Senators/Images/CruzCrawford.MicheleeShelly.419.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michelee_Crawford",
+        "https://en.wikipedia.org/wiki/Michelee_Crawford",
+        "https://justfacts.votesmart.org/candidate/215905/shelly-crawford",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/1",
+        "https://www.linkedin.com/in/michelee-crawford-ronnow-es-3ab761274",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "daly-skip-nv-sd13",
+      "name": "Skip Daly",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Senator (SD-13)",
+      "state": "NV",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a0553b6f-7142-4321-9e3a-c089447d3a78"
+      },
+      "contact": {
+        "email": "skip.daly@sen.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/13"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/82nd2023/legislators/Senators/Images/Daly.Skip.155.jpg",
+      "sources": [
+        "https://ballotpedia.org/Skip_Daly",
+        "https://en.wikipedia.org/wiki/Skip_Daly",
+        "https://justfacts.votesmart.org/candidate/biography/121904/skip-daly",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Senate/Current/13",
+        "https://www.linkedin.com/in/skip-daly-01a69a84",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "yeager-steve-nv-hd9",
+      "name": "Steve Yeager",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-9)",
+      "state": "NV",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4caae060-1c91-4d9d-a8f9-83d74c7d0f58"
+      },
+      "contact": {
+        "email": "steve.yeager@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=310"
+      },
+      "bio": {
+        "birth_date": "1978-10-13",
+        "gender": "Male"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Yeager.Steve.310.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Yeager",
+        "https://en.wikipedia.org/wiki/Steve_Yeager_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/152786/steve-yeager",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=310",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/9",
+        "https://www.linkedin.com/in/steve-yeager-a2598882",
+        "https://www.yeager4nevada.com/about.html",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "flanagan-tanya-nv-hd7",
+      "name": "Tanya Flanagan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-7)",
+      "state": "NV",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1af6f404-0dfc-424a-b6df-227f45782504"
+      },
+      "contact": {
+        "email": "tanya.flanagan@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/7"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/Flanagan.Tanya.423.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tanya_Flanagan",
+        "https://en.wikipedia.org/wiki/Tanya_Flanagan",
+        "https://justfacts.votesmart.org/candidate/political-courage-test/215897/tanya-flanagan",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/7",
+        "https://www.linkedin.com/in/tanya-flanagan-8676882",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-may-tracy-nv-hd42",
+      "name": "Tracy Brown-May",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-42)",
+      "state": "NV",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fc07db44-bc3c-412b-a15e-dd013220411a"
+      },
+      "contact": {
+        "email": "tracy.brownmay@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/42"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/83rd2025/legislators/Assembly/Images/BrownMay.Tracy.353.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tracy_Brown-May",
+        "https://en.wikipedia.org/wiki/Tracy_Brown-May",
+        "https://justfacts.votesmart.org/candidate/195813/tracy-brown-may",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/42",
+        "https://www.linkedin.com/in/tracy-brown-may-a660a639",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "considine-venicia-nv-hd18",
+      "name": "Venicia Considine",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-18)",
+      "state": "NV",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/00175071-948a-4814-b66e-b07b2ec7785d"
+      },
+      "contact": {
+        "email": "venicia.considine@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=380"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://leg.state.nv.us/Session/81st2021/legislators/Assembly/Images/Considine.Venicia.380.jpg",
+      "sources": [
+        "https://ballotpedia.org/Venicia_Considine",
+        "https://en.wikipedia.org/wiki/Venicia_Considine",
+        "https://justfacts.votesmart.org/candidate/biography/107008/venicia-considine",
+        "https://www.leg.state.nv.us/App/Legislator/A/api/81st2021/Legislator?id=380",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/18",
+        "https://www.linkedin.com/in/venicia-considine-532aa63",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    },
+    {
+      "politician_id": "karris-venise-nv-hd10",
+      "name": "Venise Karris",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nevada State Representative (HD-10)",
+      "state": "NV",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "NV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c1af6bc9-bae5-4174-a2f1-6b4d3c5fc496"
+      },
+      "contact": {
+        "email": "venise.karris@asm.state.nv.us",
+        "website": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/10"
+      },
+      "bio": {
+        "birth_date": "1957-02-01",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/VeniseKarris2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Venise_Karris",
+        "https://en.wikipedia.org/wiki/Venise_Karris",
+        "https://justfacts.votesmart.org/candidate/key-votes/215840/venise-karris",
+        "https://www.leg.state.nv.us/App/Legislator/A/Assembly/Current/10",
+        "https://data.openstates.org/people/current/nv.csv"
+      ]
+    }
+  ]
+}

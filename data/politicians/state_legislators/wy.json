@@ -1,0 +1,3281 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/wy.csv",
+  "state": "WY",
+  "politicians": [
+    {
+      "politician_id": "angelos-abby-wy-hd3",
+      "name": "Abby Angelos",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-3)",
+      "state": "WY",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9995703e-90eb-4d20-a2f6-bfd9542102bd"
+      },
+      "contact": {
+        "email": "abby.angelos@wyoleg.gov",
+        "website": "https://en.wikipedia.org/wiki/Abby_Angelos"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-AngelosAbby.jpg",
+      "sources": [
+        "https://ballotpedia.org/Abby_Angelos",
+        "https://en.wikipedia.org/wiki/Abby_Angelos",
+        "https://justfacts.votesmart.org/candidate/biography/207662/abby-angelos",
+        "https://www.wyoleg.gov/Legislators/2023/H/2091",
+        "https://www.wyoleg.gov/Legislators/2025/H/2091",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2091",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "byron-andrew-wy-hd22",
+      "name": "Andrew Byron",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-22)",
+      "state": "WY",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3198aa67-829e-4827-8b26-8955cbf36f4a"
+      },
+      "contact": {
+        "email": "andrew.byron@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2099"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-ByronAndrew.jpg",
+      "sources": [
+        "https://ballotpedia.org/Andrew_Byron",
+        "https://en.wikipedia.org/wiki/Andrew_Byron",
+        "https://justfacts.votesmart.org/candidate/biography/207687/andrew-byron",
+        "https://www.wyoleg.gov/Legislators/2023/H/2099",
+        "https://www.wyoleg.gov/Legislators/2025/H/2099",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2099",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "lucas-ann-wy-hd43",
+      "name": "Ann Lucas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-43)",
+      "state": "WY",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4665c34f-70f5-4bc0-af49-0239e0e907a1"
+      },
+      "contact": {
+        "email": "ann.lucas@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2025/H/2128"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-LucasAnn.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ann_Lucas",
+        "https://justfacts.votesmart.org/candidate/biography/218341/ann-lucas",
+        "https://www.linkedin.com/in/ann-lucas-aab8869",
+        "https://www.wyoleg.gov/Legislators/2025/H/2128",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "washut-art-wy-hd36",
+      "name": "Art Washut",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-36)",
+      "state": "WY",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/394ba273-63d7-409d-90cd-5d183e750ea4"
+      },
+      "contact": {
+        "email": "art.washut@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2058"
+      },
+      "bio": {
+        "birth_date": "1957-10-14",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-WashutArt.jpg",
+      "sources": [
+        "https://ballotpedia.org/Art_Washut",
+        "https://en.wikipedia.org/wiki/Art_Washut",
+        "https://justfacts.votesmart.org/candidate/biography/184074/art-washut",
+        "https://www.caspercollege.edu/directory/arthur-washut",
+        "https://www.linkedin.com/in/arthur-washut-9a03b3149",
+        "https://www.wyoleg.gov/Legislators/2023/H/2058",
+        "https://www.wyoleg.gov/Legislators/2025/H/2058",
+        "https://wyoleg.gov/Legislators/2019/R/2058",
+        "https://wyoleg.gov/Legislators/2021/R/2058",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2058",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "crago-barry-wy-sd22",
+      "name": "Barry Crago",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-22)",
+      "state": "WY",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c6578593-1ca0-4b7d-8635-67249df87c36"
+      },
+      "contact": {
+        "email": "barry.crago@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2078"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-CragoBarry.jpg",
+      "sources": [
+        "https://ballotpedia.org/Barry_Crago",
+        "https://en.wikipedia.org/wiki/Barry_Crago",
+        "https://justfacts.votesmart.org/candidate/194585/barry-crago",
+        "https://www.wyoleg.gov/Legislators/2023/H/2078",
+        "https://www.wyoleg.gov/Legislators/2025/S/2078",
+        "https://wyoleg.gov/Legislators/2021/R/2078",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2078",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "allemand-bill-wy-hd58",
+      "name": "Bill Allemand",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-58)",
+      "state": "WY",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2f0d84dc-df29-4c3d-83ea-aa56beca9839"
+      },
+      "contact": {
+        "email": "bill.allemand@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2114"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-AllemandBill.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bill_Allemand",
+        "https://en.wikipedia.org/wiki/Bill_Allemand",
+        "https://justfacts.votesmart.org/candidate/biography/207721/bill-allemand",
+        "https://www.wyoleg.gov/Legislators/2023/H/2114",
+        "https://www.wyoleg.gov/Legislators/2024/H/2114",
+        "https://www.wyoleg.gov/Legislators/2025/H/2114",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2114",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "landen-bill-wy-sd27",
+      "name": "Bill Landen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-27)",
+      "state": "WY",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0c25487-a7fb-406b-b637-c3a4de3c6770"
+      },
+      "contact": {
+        "email": "bill.landen@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/434"
+      },
+      "bio": {
+        "birth_date": "1956-02-21",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-LandenBill.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bill_Landen",
+        "https://en.wikipedia.org/wiki/Bill_Landen",
+        "https://justfacts.votesmart.org/candidate/93366/bill-landen",
+        "https://www.linkedin.com/in/william-r-landen-80838021",
+        "https://www.wyoleg.gov/Legislators/2023/S/434",
+        "https://www.wyoleg.gov/Legislators/2026/S/434",
+        "https://wyoleg.gov/Legislators/2019/R/434",
+        "https://wyoleg.gov/Legislators/2021/R/434",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/434",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "biteman-bo-wy-sd21",
+      "name": "Bo Biteman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-21)",
+      "state": "WY",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/016465da-4d49-4ffc-8bb0-cf9528bc6d0e"
+      },
+      "contact": {
+        "email": "bo.biteman@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2018/H/2044"
+      },
+      "bio": {
+        "birth_date": "1978-10-23",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-BitemanBo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bo_Biteman",
+        "https://en.wikipedia.org/wiki/Bo_Biteman",
+        "https://justfacts.votesmart.org/candidate/biography/171297/bo-biteman",
+        "https://www.linkedin.com/in/bobiteman",
+        "https://www.wyoleg.gov/Legislators/2018/H/2044",
+        "https://www.wyoleg.gov/Legislators/2023/S/2044",
+        "https://www.wyoleg.gov/Legislators/2025/S/2044",
+        "https://wyoleg.gov/Legislators/2019/R/2044",
+        "https://wyoleg.gov/Legislators/2021/R/2044",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2044",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "davis-bob-wy-hd47",
+      "name": "Bob Davis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-47)",
+      "state": "WY",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8ddb8078-482c-4df5-983d-ece9e5825cc2"
+      },
+      "contact": {
+        "email": "bob.davis@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2110"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-DavisBob.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Davis_(Wyoming)",
+        "https://en.wikipedia.org/wiki/Bob_Davis_(Wyoming_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/207713/robert-davis",
+        "https://www.wyoleg.gov/Legislators/2023/H/2110",
+        "https://www.wyoleg.gov/Legislators/2025/H/2110",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2110",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "ide-bob-wy-sd29",
+      "name": "Bob Ide",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-29)",
+      "state": "WY",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6d1c2665-46ea-444d-b88b-b22e2623e660"
+      },
+      "contact": {
+        "email": "bob.ide@wyoleg.gov",
+        "district_voice": "307-472-0233",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2089"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/67th-IdeBob.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Ide_(Wyoming)",
+        "https://en.wikipedia.org/wiki/Bob_Ide",
+        "https://justfacts.votesmart.org/candidate/biography/153744/bob-ide",
+        "https://www.linkedin.com/in/robert-ide-8a266040",
+        "https://www.wyoleg.gov/Legislators/2023/S/2089",
+        "https://www.wyoleg.gov/Legislators/2025/S/2089",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2089",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "nicholas-bob-wy-hd7",
+      "name": "Bob Nicholas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-7)",
+      "state": "WY",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6ff4eff9-e68c-42a1-9aa5-b964daa37a89"
+      },
+      "contact": {
+        "email": "bob.nicholas@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/1980"
+      },
+      "bio": {
+        "birth_date": "1957-10-14",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-NicholasBob.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bob_Nicholas",
+        "https://en.wikipedia.org/wiki/Bob_Nicholas",
+        "https://justfacts.votesmart.org/candidate/106111/bob-nicholas",
+        "https://www.wyoleg.gov/Legislators/2023/H/1980",
+        "https://www.wyoleg.gov/Legislators/2025/H/1980",
+        "https://wyoleg.gov/Legislators/2019/R/1980",
+        "https://wyoleg.gov/Legislators/2021/R/1980",
+        "https://wyoleg.gov/LsoService/api/legislator/1980",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "boner-brian-wy-sd2",
+      "name": "Brian Boner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-2)",
+      "state": "WY",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cfed8eb6-ad00-4414-9ceb-bd5d46c5974f"
+      },
+      "contact": {
+        "email": "brian.boner@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2021"
+      },
+      "bio": {
+        "birth_date": "1984-12-10",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-BonerBrian.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Boner",
+        "https://en.wikipedia.org/wiki/Brian_Boner",
+        "https://justfacts.votesmart.org/candidate/biography/156618/brian-boner",
+        "https://www.linkedin.com/in/brian-boner-40a4882a",
+        "https://www.wyoleg.gov/Legislators/2023/S/2021",
+        "https://www.wyoleg.gov/Legislators/2025/S/2021",
+        "https://wyoleg.gov/Legislators/2019/R/2021",
+        "https://wyoleg.gov/Legislators/2021/R/2021",
+        "https://wyoleg.gov/LsoService/api/legislator/2021",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "case-cale-wy-sd25",
+      "name": "Cale Case",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-25)",
+      "state": "WY",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0b07cbe8-73ba-4371-9acb-95cb7ecf6251"
+      },
+      "contact": {
+        "email": "cale.case@wyoleg.gov",
+        "district_voice": "307-332-7623",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/945"
+      },
+      "bio": {
+        "birth_date": "1958-06-02",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-CaseCale.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cale_Case",
+        "https://en.wikipedia.org/wiki/Cale_Case",
+        "https://justfacts.votesmart.org/candidate/biography/2744/cale-case",
+        "https://www.wyoleg.gov/Legislators/2023/S/945",
+        "https://www.wyoleg.gov/Legislators/2025/S/945",
+        "https://wyoleg.gov/Legislators/2019/R/945",
+        "https://wyoleg.gov/Legislators/2021/R/945",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/945",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "scott-charles-wy-sd30",
+      "name": "Charles Scott",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-30)",
+      "state": "WY",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a3ddc445-efa1-4c0c-809a-d21fc383fa59"
+      },
+      "contact": {
+        "email": "charles.scott@wyoleg.gov",
+        "district_voice": "307-473-2512",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/294"
+      },
+      "bio": {
+        "birth_date": "1945-08-19",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-ScottCharles.jpg",
+      "sources": [
+        "https://ballotpedia.org/Charles_Scott_(Wyoming)",
+        "https://en.wikipedia.org/wiki/Charles_Scott_(Wyoming_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/2756/charles-scott",
+        "https://www.wyoleg.gov/Legislators/2023/S/294",
+        "https://www.wyoleg.gov/Legislators/2025/S/294",
+        "https://wyoleg.gov/Legislators/2019/R/294",
+        "https://wyoleg.gov/Legislators/2021/R/294",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/294",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "steinmetz-cheri-wy-sd3",
+      "name": "Cheri Steinmetz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-3)",
+      "state": "WY",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9fe08ab5-b31c-4f7b-bb23-c7aff3cd3e4d"
+      },
+      "contact": {
+        "email": "cheri.steinmetz@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2011"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-SteinmetzCheri.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cheri_Steinmetz",
+        "https://en.wikipedia.org/wiki/Cheri_Steinmetz",
+        "https://justfacts.votesmart.org/candidate/biography/127266/cheri-steinmetz",
+        "https://www.wyoleg.gov/Legislators/2023/S/2011",
+        "https://www.wyoleg.gov/Legislators/2025/S/2011",
+        "https://wyoleg.gov/Legislators/2019/R/2011",
+        "https://wyoleg.gov/Legislators/2021/R/2011",
+        "https://wyoleg.gov/LsoService/api/legislator/2011",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "neiman-chip-wy-hd1",
+      "name": "Chip Neiman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-1)",
+      "state": "WY",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b9414bc4-f900-474b-b99c-8f2716419683"
+      },
+      "contact": {
+        "email": "chip.neiman@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2070"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-NeimanChip.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chip_Neiman",
+        "https://en.wikipedia.org/wiki/Chip_Neiman",
+        "https://justfacts.votesmart.org/candidate/biography/194490/chip-neiman",
+        "https://www.wyoleg.gov/Legislators/2023/H/2070",
+        "https://www.wyoleg.gov/Legislators/2025/H/2070",
+        "https://wyoleg.gov/Legislators/2021/R/2070",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2070",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "rothfuss-chris-wy-sd9",
+      "name": "Chris Rothfuss",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-9)",
+      "state": "WY",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/510546dd-c3ca-4ce4-9342-f77e05712f2e"
+      },
+      "contact": {
+        "email": "chris.rothfuss@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/1971"
+      },
+      "bio": {
+        "birth_date": "1972-10-21",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-RothfussChris.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Rothfuss",
+        "https://en.wikipedia.org/wiki/Chris_Rothfuss",
+        "https://www.linkedin.com/in/rothfuss",
+        "https://www.wyoleg.gov/Legislators/2023/S/1971",
+        "https://www.wyoleg.gov/Legislators/2025/S/1971",
+        "https://wyoleg.gov/Legislators/2019/D/1971",
+        "https://wyoleg.gov/Legislators/2021/D/1971",
+        "https://wyoleg.gov/LsoService/api/legislator/1971",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "knapp-chris-wy-hd53",
+      "name": "Chris Knapp",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-53)",
+      "state": "WY",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ffe52a1f-bc33-424a-bd8c-a2df967ac83a"
+      },
+      "contact": {
+        "email": "chris.knapp@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2086"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-KnappChristopher.jpg",
+      "sources": [
+        "https://ballotpedia.org/Christopher_Knapp",
+        "https://en.wikipedia.org/wiki/Chris_Knapp_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/100262/christopher-knapp",
+        "https://www.linkedin.com/in/chris-knapp-6027b329",
+        "https://www.wyoleg.gov/Legislators/2023/H/2086",
+        "https://www.wyoleg.gov/Legislators/2025/H/2086",
+        "https://wyoleg.gov/Legislators/2021/R/2086",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2086",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "styvar-clarence-wy-hd12",
+      "name": "Clarence Styvar",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-12)",
+      "state": "WY",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0df4327b-df46-4886-ab09-0c8a55639548"
+      },
+      "contact": {
+        "email": "clarence.styvar@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2051"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-StyvarClarence.jpg",
+      "sources": [
+        "https://ballotpedia.org/Clarence_Styvar",
+        "https://en.wikipedia.org/wiki/Clarence_Styvar",
+        "https://justfacts.votesmart.org/candidate/biography/171210/clarence-styvar",
+        "https://www.wyoleg.gov/Legislators/2023/H/2051",
+        "https://www.wyoleg.gov/Legislators/2025/H/2051",
+        "https://wyoleg.gov/Legislators/2019/R/2051",
+        "https://wyoleg.gov/Legislators/2021/R/2051",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2051",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "wylie-cody-wy-hd39",
+      "name": "Cody Wylie",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-39)",
+      "state": "WY",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9b6e58cd-4dbc-4554-a677-b362c913c069"
+      },
+      "contact": {
+        "email": "cody.wylie@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2107"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/67th-WylieCody.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cody_Wylie",
+        "https://en.wikipedia.org/wiki/Cody_Wylie",
+        "https://justfacts.votesmart.org/candidate/biography/207704/cody-wylie",
+        "https://www.wyoleg.gov/Legislators/2023/H/2107",
+        "https://www.wyoleg.gov/Legislators/2025/H/2107",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2107",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "banks-dalton-wy-hd26",
+      "name": "Dalton Banks",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-26)",
+      "state": "WY",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/416ee113-2983-43ab-bf24-3d7134767b41"
+      },
+      "contact": {
+        "email": "dalton.banks@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2101"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-BanksDalton.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dalton_Banks",
+        "https://en.wikipedia.org/wiki/Dalton_Banks",
+        "https://justfacts.votesmart.org/candidate/biography/207693/dalton-banks",
+        "https://www.linkedin.com/in/dalton-banks-164a3a228",
+        "https://www.wyoleg.gov/Legislators/2023/H/2101",
+        "https://www.wyoleg.gov/Legislators/2025/H/2101",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2101",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "dockstader-dan-wy-sd16",
+      "name": "Dan Dockstader",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-16)",
+      "state": "WY",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5395223c-9b56-410d-b18f-978d9e2a07a9"
+      },
+      "contact": {
+        "email": "dan.dockstader@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/1048"
+      },
+      "bio": {
+        "birth_date": "1958-02-13",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-DockstaderDan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dan_Dockstader",
+        "https://en.wikipedia.org/wiki/Dan_Dockstader",
+        "https://justfacts.votesmart.org/candidate/66202/dan-dockstader",
+        "https://www.wyoleg.gov/Legislators/2023/S/1048",
+        "https://www.wyoleg.gov/Legislators/2025/S/1048",
+        "https://www.wyoleg.gov/Legislators/2026/S/1048",
+        "https://wyoleg.gov/Legislators/2019/R/1048",
+        "https://wyoleg.gov/Legislators/2021/R/1048",
+        "https://wyoleg.gov/LsoService/api/legislator/1048",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "laursen-dan-wy-sd19",
+      "name": "Dan Laursen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-19)",
+      "state": "WY",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/982cdb50-2a81-47b4-97e8-cf80b92d1412"
+      },
+      "contact": {
+        "email": "dan.laursen@wyoleg.gov",
+        "district_voice": "307-271-0241",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2006"
+      },
+      "bio": {
+        "birth_date": "1960-03-09",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-LaursenDan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dan_Laursen",
+        "https://en.wikipedia.org/wiki/Dan_Laursen",
+        "https://justfacts.votesmart.org/candidate/153967/dan-laursen",
+        "https://www.linkedin.com/in/representative-laursen-965ba0101",
+        "https://www.wyoleg.gov/Legislators/2023/S/2006",
+        "https://www.wyoleg.gov/Legislators/2025/S/2006",
+        "https://wyoleg.gov/LsoService/api/legislator/2006",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "singh-daniel-wy-hd61",
+      "name": "Daniel Singh",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-61)",
+      "state": "WY",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0a177e23-5f49-46dd-bc32-b2403ea7124c"
+      },
+      "contact": {
+        "email": "daniel.singh@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2116"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-SinghDaniel.jpg",
+      "sources": [
+        "https://ballotpedia.org/Daniel_Singh",
+        "https://en.wikipedia.org/wiki/Daniel_Singh",
+        "https://justfacts.votesmart.org/candidate/biography/210274/daniel-singh",
+        "https://www.linkedin.com/in/daniel-singh-96b445227",
+        "https://www.wyoleg.gov/Legislators/2023/H/2116",
+        "https://www.wyoleg.gov/Legislators/2025/H/2116",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2116",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "mccann-darin-wy-hd48",
+      "name": "Darin McCann",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-48)",
+      "state": "WY",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ff389664-aac3-4241-abc7-3a8e781e5989"
+      },
+      "contact": {
+        "email": "darin.mccann@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2130"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-McCannDarin.jpg",
+      "sources": [
+        "https://ballotpedia.org/Darin_McCann",
+        "https://justfacts.votesmart.org/candidate/218347/darin-mccann",
+        "https://www.linkedin.com/in/darin-mccann-29258930",
+        "https://wyoleg.gov/Legislators/2025/H/2130",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "cooper-ed-wy-sd20",
+      "name": "Ed Cooper",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-20)",
+      "state": "WY",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/13022d64-c748-4603-b60e-bd176383b8f1"
+      },
+      "contact": {
+        "email": "ed.cooper@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2068"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-CooperEd.jpg",
+      "sources": [
+        "https://ballotpedia.org/Edward_Cooper",
+        "https://en.wikipedia.org/wiki/Ed_Cooper_(politician)",
+        "https://justfacts.votesmart.org/candidate/194474/ed-cooper",
+        "https://www.wyoleg.gov/Legislators/2023/S/2068",
+        "https://www.wyoleg.gov/Legislators/2025/S/2068",
+        "https://wyoleg.gov/Legislators/2021/R/2068",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2068",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "campbell-elissa-wy-hd56",
+      "name": "Elissa Campbell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-56)",
+      "state": "WY",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c0c75f8e-6d58-4197-9076-154528191d47"
+      },
+      "contact": {
+        "email": "elissa.campbell@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2133"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-CampbellElissa.jpg",
+      "sources": [
+        "https://ballotpedia.org/Elissa_Campbell",
+        "https://justfacts.votesmart.org/candidate/biography/218357/elissa-campbell",
+        "https://www.linkedin.com/in/elissa-campbell-b6511b11",
+        "https://wyoleg.gov/Legislators/2025/H/2133",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "barlow-eric-wy-sd23",
+      "name": "Eric Barlow",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-23)",
+      "state": "WY",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/afa67bb0-3191-4dce-94ab-ddb3a9e7475c"
+      },
+      "contact": {
+        "email": "eric.barlow@wyoleg.gov",
+        "district_voice": "307-682-9639",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/1995"
+      },
+      "bio": {
+        "birth_date": "1966-05-08",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-BarlowEric.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eric_Barlow",
+        "https://en.wikipedia.org/wiki/Eric_Barlow",
+        "https://justfacts.votesmart.org/candidate/140045/eric-barlow",
+        "https://www.wyoleg.gov/Legislators/2023/S/1995",
+        "https://www.wyoleg.gov/Legislators/2025/S/1995",
+        "https://wyoleg.gov/LsoService/api/legislator/1995",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "brennan-evie-wy-sd31",
+      "name": "Evie Brennan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-31)",
+      "state": "WY",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7f287d7d-8f05-4116-8bcf-33174ecf1e9c"
+      },
+      "contact": {
+        "email": "evie.brennan@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2090"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-BrennanEvie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Evie_Brennan",
+        "https://en.wikipedia.org/wiki/Evie_Brennan",
+        "https://justfacts.votesmart.org/candidate/biography/207660/evie-brennan",
+        "https://www.linkedin.com/in/evie-brennan-3bb99170",
+        "https://www.wyoleg.gov/Legislators/2023/S/2090",
+        "https://www.wyoleg.gov/Legislators/2025/S/2090",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2090",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-gary-wy-hd41",
+      "name": "Gary Brown",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-41)",
+      "state": "WY",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/472c50ea-da65-42c3-a9b3-3639a9881a7f"
+      },
+      "contact": {
+        "email": "gary.brown@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2140"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-BrownGary.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gary_Brown_(Wyoming)",
+        "https://justfacts.votesmart.org/candidate/biography/218338/gary-brown",
+        "https://wyoleg.gov/Legislators/2025/H/2140",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "crum-gary-wy-sd10",
+      "name": "Gary Crum",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-10)",
+      "state": "WY",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/84464d31-bdbb-4687-9757-27794e64d319"
+      },
+      "contact": {
+        "email": "gary.crum@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/S/2144"
+      },
+      "bio": {
+        "birth_date": "1959-08-12",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-CrumGary.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gary_Crum_(Wyoming)",
+        "https://en.wikipedia.org/wiki/Gary_Crum",
+        "https://justfacts.votesmart.org/candidate/218299/gary-crum",
+        "https://www.linkedin.com/in/gary-crum-9635b9126",
+        "https://wyoleg.gov/Legislators/2025/S/2144",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "posey-ivan-wy-hd33",
+      "name": "Ivan Posey",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-33)",
+      "state": "WY",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/df82de40-cf5b-4197-b276-5e5982146849"
+      },
+      "contact": {
+        "email": "ivan.posey@wyoleg.gov",
+        "website": "https://www.poseyforhd33.com/"
+      },
+      "bio": {
+        "birth_date": "1960-01-11",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-PoseyIvan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ivan_Posey",
+        "https://en.wikipedia.org/wiki/Ivan_Posey",
+        "https://justfacts.votesmart.org/candidate/218330/ivan-posey",
+        "https://www.linkedin.com/in/ivan-posey-802848132",
+        "https://www.poseyforhd33.com",
+        "https://www.poseyforhd33.com/about",
+        "https://wyoleg.gov/Legislators/2025/H/2141",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "williams-j-d-wy-hd2",
+      "name": "J.D. Williams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-2)",
+      "state": "WY",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fc63a597-e32a-4c94-a2f2-7420f7836aeb"
+      },
+      "contact": {
+        "email": "jd.williams@wyoleg.gov",
+        "website": "https://www.jdforstatehouse.com/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-WilliamsJD.jpg",
+      "sources": [
+        "https://ballotpedia.org/J.D._Williams",
+        "https://en.wikipedia.org/wiki/J._D._Williams_(Wyoming_politician)",
+        "https://justfacts.votesmart.org/candidate/200405/jd-williams",
+        "https://www.jdforstatehouse.com",
+        "https://www.jdforstatehouse.com/meet-jd",
+        "https://www.wyoleg.gov/Legislators/2025/H/2087",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2087",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "riggins-j-r-wy-hd59",
+      "name": "J.R. Riggins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-59)",
+      "state": "WY",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/25e8e592-1425-4e8d-bcce-97ec84ef66c3"
+      },
+      "contact": {
+        "email": "jr.riggins@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2135"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-RigginsJR.jpg",
+      "sources": [
+        "https://ballotpedia.org/J.R._Riggins",
+        "https://justfacts.votesmart.org/candidate/biography/218361/justin-riggins",
+        "https://wyoleg.gov/Legislators/2025/H/2135",
+        "https://wyoleg.gov/Legislators/2025/R/2135",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "larson-j-t-wy-hd17",
+      "name": "J.T. Larson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-17)",
+      "state": "WY",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2a0be03f-4f0a-4b2e-850b-50b4d0dade13"
+      },
+      "contact": {
+        "email": "jt.larson@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2096"
+      },
+      "bio": {
+        "birth_date": "2001-04-06",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-LarsonJT.jpg",
+      "sources": [
+        "https://ballotpedia.org/J.T._Larson",
+        "https://en.wikipedia.org/wiki/J.T._Larson",
+        "https://justfacts.votesmart.org/candidate/biography/207679/joshua-larson",
+        "https://www.linkedin.com/in/j-t-larson-4a80a1197",
+        "https://www.wyoleg.gov/Legislators/2023/H/2096",
+        "https://www.wyoleg.gov/Legislators/2025/H/2096",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2096",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "wasserburger-jacob-wy-hd11",
+      "name": "Jacob Wasserburger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-11)",
+      "state": "WY",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b598ad4e-6124-4863-ac74-dbb13630e7db"
+      },
+      "contact": {
+        "email": "jacob.wasserburger@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2139"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-WasserburgerJacob.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jacob_Wasserburger",
+        "https://en.wikipedia.org/wiki/Jacob_Wasserburger",
+        "https://justfacts.votesmart.org/candidate/biography/218313/jacob-wasserburger",
+        "https://wyoleg.gov/Legislators/2025/H/2139",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "olsen-jared-wy-sd8",
+      "name": "Jared Olsen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-8)",
+      "state": "WY",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/63e25ff3-1832-45c8-a9af-669bb74a3aa4"
+      },
+      "contact": {
+        "email": "jared.olsen@wyoleg.gov",
+        "website": "https://www.olsenforwyoming.com/"
+      },
+      "bio": {
+        "birth_date": "1987-10-10",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-OlsenJared.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jared_Olsen",
+        "https://en.wikipedia.org/wiki/Jared_Olsen",
+        "https://www.linkedin.com/in/jaredsolsen",
+        "https://www.olsenforwyoming.com",
+        "https://www.olsenforwyoming.com/about-jared",
+        "https://www.wyoleg.gov/Legislators/2023/H/2035",
+        "https://www.wyoleg.gov/Legislators/2025/S/2035",
+        "https://wyoleg.gov/Legislators/2019/R/2035",
+        "https://wyoleg.gov/Legislators/2021/R/2035",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2035",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "lien-jayme-wy-hd38",
+      "name": "Jayme Lien",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-38)",
+      "state": "WY",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/89408a3a-ae27-4a8d-aa93-0050a48cf93d"
+      },
+      "contact": {
+        "email": "jayme.lien@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2126"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-LienJayme.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jayme_Lien",
+        "https://justfacts.votesmart.org/candidate/biography/218333/jayme-lien",
+        "https://wyoleg.gov/Legislators/2025/H/2126",
+        "https://wyoleg.gov/Legislators/2025/R/2126",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "haroldson-jeremy-wy-hd4",
+      "name": "Jeremy Haroldson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-4)",
+      "state": "WY",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b9bbea38-a84b-4173-a599-cd9f5500b181"
+      },
+      "contact": {
+        "email": "jeremy.haroldson@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2071"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-HaroldsonJeremy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeremy_Haroldson",
+        "https://en.wikipedia.org/wiki/Jeremy_Haroldson",
+        "https://justfacts.votesmart.org/candidate/194492/jeremy-haroldson",
+        "https://www.wyoleg.gov/Legislators/2023/H/2071",
+        "https://www.wyoleg.gov/Legislators/2025/H/2071",
+        "https://wyoleg.gov/Legislators/2021/R/2071",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2071",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "anderson-jim-wy-sd28",
+      "name": "Jim Anderson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-28)",
+      "state": "WY",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f40c41d5-b371-49c5-a597-db8435e613a0"
+      },
+      "contact": {
+        "email": "jim.anderson@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/1985"
+      },
+      "bio": {
+        "birth_date": "1948-07-24",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-AndersonJim.jpg",
+      "sources": [
+        "https://ballotpedia.org/James_Anderson_(Wyoming_State_Senate_District_28)",
+        "https://en.wikipedia.org/wiki/James_Lee_Anderson",
+        "https://justfacts.votesmart.org/candidate/141984/jim-anderson",
+        "https://www.linkedin.com/in/jim-anderson-10882361",
+        "https://www.wyoleg.gov/Legislators/2023/S/1985",
+        "https://www.wyoleg.gov/Legislators/2025/S/1985",
+        "https://www.wyoleg.gov/Legislators/2026/S/1985",
+        "https://wyoleg.gov/Legislators/2019/R/1985",
+        "https://wyoleg.gov/Legislators/2021/R/1985",
+        "https://wyoleg.gov/LsoService/api/legislator/1985",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "webb-joe-wy-hd19",
+      "name": "Joe Webb",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-19)",
+      "state": "WY",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/19e421d2-03a4-4a0a-86e8-b18b63d13822"
+      },
+      "contact": {
+        "email": "joe.webb@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2120"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-WebbJoe.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Webb_(Wyoming)",
+        "https://en.wikipedia.org/wiki/Joe_Webb_(politician)",
+        "https://justfacts.votesmart.org/candidate/218322/joe-webb",
+        "https://www.linkedin.com/in/joewebb82937",
+        "https://wyoleg.gov/Legislators/2025/H/2120",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "guggenmos-joel-wy-hd55",
+      "name": "Joel Guggenmos",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-55)",
+      "state": "WY",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/39076643-ca3a-47d2-888e-d944eb4f5de9"
+      },
+      "contact": {
+        "email": "joel.guggenmos@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2132"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-GuggenmosJoel.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joel_Guggenmos",
+        "https://justfacts.votesmart.org/candidate/biography/218356/joel-guggenmos",
+        "https://wyoleg.gov/Legislators/2025/H/2132",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "bear-john-wy-hd31",
+      "name": "John Bear",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-31)",
+      "state": "WY",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/931a9e71-33a6-4e65-be91-703ad612447e"
+      },
+      "contact": {
+        "email": "john.bear@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2075"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-BearJohn.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Bear_(Wyoming)",
+        "https://en.wikipedia.org/wiki/John_Bear_%28politician%29",
+        "https://justfacts.votesmart.org/candidate/194580/john-bear",
+        "https://www.linkedin.com/in/john-bear-105729a6",
+        "https://www.wyoleg.gov/Legislators/2023/H/2075",
+        "https://www.wyoleg.gov/Legislators/2025/H/2075",
+        "https://wyoleg.gov/Legislators/2021/R/2075",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2075",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "kolb-john-wy-sd12",
+      "name": "John Kolb",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-12)",
+      "state": "WY",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a8a05d47-8306-4f20-a848-02c92db1fffe"
+      },
+      "contact": {
+        "email": "john.kolb@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2066"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-KolbJohn.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Kolb",
+        "https://en.wikipedia.org/wiki/John_Kolb",
+        "https://justfacts.votesmart.org/candidate/biography/129296/john-kolb",
+        "https://www.wyoleg.gov/Legislators/2023/S/2066",
+        "https://www.wyoleg.gov/Legislators/2025/S/2066",
+        "https://wyoleg.gov/Legislators/2021/R/2066",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2066",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "winter-john-wy-hd28",
+      "name": "John Winter",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-28)",
+      "state": "WY",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e79049b8-a6d9-4356-a190-fc1e90837d5d"
+      },
+      "contact": {
+        "email": "john.winter@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2056"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-WinterJohn.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Winter_(Wyoming)",
+        "https://en.wikipedia.org/wiki/John_Winter_(Wyoming_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/184072/john-winter",
+        "https://www.wyoleg.gov/Legislators/2023/H/2056",
+        "https://www.wyoleg.gov/Legislators/2025/H/2056",
+        "https://wyoleg.gov/Legislators/2019/R/2056",
+        "https://wyoleg.gov/Legislators/2021/R/2056",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2056",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "jarvis-julie-wy-hd57",
+      "name": "Julie Jarvis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-57)",
+      "state": "WY",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/64428f70-4a9b-453d-b2f5-bbbdcdb370e5"
+      },
+      "contact": {
+        "email": "julie.jarvis@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2134"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-JarvisJulie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Julie_Jarvis",
+        "https://justfacts.votesmart.org/candidate/biography/218360/julie-jarvis",
+        "https://www.linkedin.com/in/dr-julie-jarvis",
+        "https://wyoleg.gov/Legislators/2025/H/2134",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "fornstrom-justin-wy-hd10",
+      "name": "Justin Fornstrom",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-10)",
+      "state": "WY",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/970ff542-b60c-4a3b-bd63-492a38a0a878"
+      },
+      "contact": {
+        "email": "justin.fornstrom@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2025/H/2146"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-FornstromJustin.JPG",
+      "sources": [
+        "https://ballotpedia.org/Justin_Fornstrom",
+        "https://ballotpedia.org/Justin_Fornstrom_(Mayor_of_Pine_Bluffs,_Wyoming,_candidate_2024)",
+        "https://www.wyoleg.gov/Legislators/2025/H/2146",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "provenza-karlee-wy-hd45",
+      "name": "Karlee Provenza",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-45)",
+      "state": "WY",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/588c810c-0a65-475b-9593-46fa556cb962"
+      },
+      "contact": {
+        "email": "karlee.provenza@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2080"
+      },
+      "bio": {
+        "birth_date": "1989-10-09",
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-ProvenzaKarlee.jpg",
+      "sources": [
+        "https://ballotpedia.org/Karlee_Provenza",
+        "https://en.wikipedia.org/wiki/Karlee_Provenza",
+        "https://justfacts.votesmart.org/candidate/194589/karlee-provenza",
+        "https://www.linkedin.com/in/karlee-provenza-ph-d-057303207",
+        "https://www.linkedin.com/in/karlee-r-provenza-717776122",
+        "https://www.wyoleg.gov/Legislators/2023/H/2080",
+        "https://www.wyoleg.gov/Legislators/2025/H/2080",
+        "https://wyoleg.gov/Legislators/2021/D/2080",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2080",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "chestek-ken-wy-hd13",
+      "name": "Ken Chestek",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-13)",
+      "state": "WY",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dcc60e43-41b3-44ef-976c-0604a295b9cd"
+      },
+      "contact": {
+        "email": "ken.chestek@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2095"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-ChestekKen.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ken_Chestek",
+        "https://en.wikipedia.org/wiki/Ken_Chestek",
+        "https://justfacts.votesmart.org/candidate/biography/171292/ken-chestek",
+        "https://www.wyoleg.gov/Legislators/2023/H/2095",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2095",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "clouston-ken-wy-hd32",
+      "name": "Ken Clouston",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-32)",
+      "state": "WY",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/15ae95ba-274d-4b7b-a2c7-a5cfb5e2b089"
+      },
+      "contact": {
+        "email": "ken.clouston@wyoleg.gov",
+        "district_voice": "307-682-4900",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2104"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-CloustonKen.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ken_Clouston",
+        "https://en.wikipedia.org/wiki/Ken_Clouston",
+        "https://justfacts.votesmart.org/candidate/biography/196263/ken-clouston",
+        "https://www.gillettept.com/ken-clouston",
+        "https://www.linkedin.com/in/ken-clouston-7639081a2",
+        "https://www.wyoleg.gov/Legislators/2023/H/2104",
+        "https://www.wyoleg.gov/Legislators/2025/H/2104",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2104",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "pendergraft-ken-wy-hd29",
+      "name": "Ken Pendergraft",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-29)",
+      "state": "WY",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b7a5cb78-6473-4b7b-9c27-90c8ab2130a5"
+      },
+      "contact": {
+        "email": "ken.pendergraft@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2103"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-PendergraftKen.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ken_Pendergraft",
+        "https://en.wikipedia.org/wiki/Ken_Pendergraft",
+        "https://justfacts.votesmart.org/candidate/194538/ken-pendergraft",
+        "https://www.linkedin.com/in/ken-pendergraft-544a8210",
+        "https://www.wyoleg.gov/Legislators/2023/H/2103",
+        "https://www.wyoleg.gov/Legislators/2025/H/2103",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2103",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "campbell-kevin-wy-hd62",
+      "name": "Kevin Campbell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-62)",
+      "state": "WY",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e6242790-9cdf-48ec-a5d3-aae3e5439733"
+      },
+      "contact": {
+        "email": "kevin.campbell@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2136"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-CampbellKevin.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kevin_Campbell_(Wyoming)",
+        "https://justfacts.votesmart.org/candidate/218364/kevin-campbell",
+        "https://wyoleg.gov/Legislators/2025/H/2136",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-landon-wy-hd9",
+      "name": "Landon Brown",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-9)",
+      "state": "WY",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7052600a-c1b3-484d-80a3-232fc9815d7c"
+      },
+      "contact": {
+        "email": "landon.brown@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2034"
+      },
+      "bio": {
+        "birth_date": "1987-02-26",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-BrownLandon.jpg",
+      "sources": [
+        "https://ballotpedia.org/Landon_Brown",
+        "https://en.wikipedia.org/wiki/Landon_Brown",
+        "https://justfacts.votesmart.org/candidate/biography/171204/landon-brown",
+        "https://www.linkedin.com/in/landon-brown-mpa-30790076",
+        "https://www.wyoleg.gov/Legislators/2023/H/2034",
+        "https://www.wyoleg.gov/Legislators/2025/H/2034",
+        "https://wyoleg.gov/Legislators/2019/R/2034",
+        "https://wyoleg.gov/Legislators/2021/R/2034",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2034",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "hicks-larry-wy-sd11",
+      "name": "Larry Hicks",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-11)",
+      "state": "WY",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/286af01e-ace3-4de2-b1c3-44756370d932"
+      },
+      "contact": {
+        "email": "larry.hicks@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/1963"
+      },
+      "bio": {
+        "birth_date": "1958-12-30",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-HicksLarry.jpg",
+      "sources": [
+        "https://ballotpedia.org/Larry_S._Hicks_(Wyoming)",
+        "https://en.wikipedia.org/wiki/Larry_S._Hicks",
+        "https://justfacts.votesmart.org/candidate/52685/larry-hicks",
+        "https://www.wyoleg.gov/Legislators/2023/S/1963",
+        "https://www.wyoleg.gov/Legislators/2025/S/1963",
+        "https://wyoleg.gov/Legislators/2019/R/1963",
+        "https://wyoleg.gov/Legislators/2021/R/1963",
+        "https://wyoleg.gov/LsoService/api/legislator/1963",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "pearson-laura-wy-sd14",
+      "name": "Laura Pearson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-14)",
+      "state": "WY",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c6b78357-5a9d-41e9-b947-1d81227b0f15"
+      },
+      "contact": {
+        "email": "laura.pearson@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/R/2138"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-PearsonLaura.jpg",
+      "sources": [
+        "https://ballotpedia.org/Laura_Taliaferro_Pearson",
+        "https://en.wikipedia.org/wiki/Laura_Taliaferro_Pearson",
+        "https://justfacts.votesmart.org/candidate/218302/laura-taliaferro-pearson",
+        "https://www.linkedin.com/in/laura-pearson-80352334",
+        "https://wyoleg.gov/Legislators/2025/R/2138",
+        "https://wyoleg.gov/Legislators/2025/S/2138",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "bratten-laurie-wy-hd51",
+      "name": "Laurie Bratten",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-51)",
+      "state": "WY",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5eabff67-a57e-4fd5-b62c-3072d0374d56"
+      },
+      "contact": {
+        "email": "laurie.bratten@wyoleg.gov",
+        "district_voice": "307-683-1788",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2131"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-BrattenLaurie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Laurie_Bratten",
+        "https://justfacts.votesmart.org/candidate/biography/218354/laurie-bratten",
+        "https://www.linkedin.com/in/laurie-bratten-87591661",
+        "https://wyoleg.gov/Legislators/2025/H/2131",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "filer-lee-wy-hd44",
+      "name": "Lee Filer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-44)",
+      "state": "WY",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be3b0a04-4e00-42e4-9202-5c8f68aacedd"
+      },
+      "contact": {
+        "email": "lee.filer@wyoleg.gov",
+        "website": "https://legisweb.state.wy.us/LegislatorSummary/LegDetail.aspx?LegID=1990"
+      },
+      "bio": {
+        "birth_date": "1980-01-14",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-FilerLee.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lee_Filer",
+        "https://en.wikipedia.org/wiki/Lee_Filer",
+        "https://justfacts.votesmart.org/candidate/biography/140049/lee-filer",
+        "https://legisweb.state.wy.us/LegislatorSummary/LegDetail.aspx?LegID=1990",
+        "https://legisweb.state.wy.us/LegislatorSummary/LegislatorList.aspx?strHouse=H&strStatus=N",
+        "https://www.linkedin.com/in/lee-filer-4320806a",
+        "https://wyoleg.gov/Legislators/2025/H/1990",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "storer-liz-wy-hd23",
+      "name": "Liz Storer",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-23)",
+      "state": "WY",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7d3ea3c1-de6a-433f-83e2-c53dde09be61"
+      },
+      "contact": {
+        "email": "liz.storer@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2100"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-StorerLiz.jpg",
+      "sources": [
+        "https://ballotpedia.org/Liz_Storer",
+        "https://en.wikipedia.org/wiki/Liz_Storer",
+        "https://justfacts.votesmart.org/candidate/207688/liz-storer",
+        "https://www.linkedin.com/in/elizabeth-storer-4286198",
+        "https://www.wyoleg.gov/Legislators/2023/H/2100",
+        "https://www.wyoleg.gov/Legislators/2025/H/2100",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2100",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "larsen-lloyd-wy-hd54",
+      "name": "Lloyd Larsen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-54)",
+      "state": "WY",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6466bd0e-d531-4ac0-8667-3e7f34a32f9a"
+      },
+      "contact": {
+        "email": "lloyd.larsen@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/1988"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-LarsenLloyd.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lloyd_Charles_Larsen",
+        "https://en.wikipedia.org/wiki/Lloyd_Larsen",
+        "https://justfacts.votesmart.org/candidate/biography/140069/lloyd-larsen",
+        "https://www.linkedin.com/in/lloyd-larsen-ab29647",
+        "https://www.wyoleg.gov/Legislators/2023/H/1988",
+        "https://www.wyoleg.gov/Legislators/2025/H/1988",
+        "https://wyoleg.gov/Legislators/2019/R/1988",
+        "https://wyoleg.gov/Legislators/2021/R/1988",
+        "https://wyoleg.gov/LsoService/api/legislator/1988",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "hutchings-lynn-wy-sd5",
+      "name": "Lynn Hutchings",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-5)",
+      "state": "WY",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b91459e7-2049-4cf9-8b0b-f769ce373613"
+      },
+      "contact": {
+        "email": "lynn.hutchings@wyoleg.gov",
+        "website": "https://www.hutchingsforsenate.com/"
+      },
+      "bio": {
+        "birth_date": "1960-09-06",
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-HutchingsLynn.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lynn_Hutchings",
+        "https://en.wikipedia.org/wiki/Lynn_Hutchings",
+        "https://justfacts.votesmart.org/candidate/biography/127281/lynn-hutchings",
+        "https://www.hutchingsforsenate.com",
+        "https://www.hutchingsforsenate.com/message-about-lynn",
+        "https://www.wyoleg.gov/Legislators/2023/S/1997",
+        "https://www.wyoleg.gov/Legislators/2025/S/1997",
+        "https://wyoleg.gov/Legislators/2019/R/1997",
+        "https://wyoleg.gov/Legislators/2021/R/1997",
+        "https://wyoleg.gov/LsoService/api/legislator/1997",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "connolly-marilyn-wy-hd40",
+      "name": "Marilyn Connolly",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-40)",
+      "state": "WY",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/65ae499e-9549-42e2-ab16-65b56eb0f8ab"
+      },
+      "contact": {
+        "email": "marilyn.connolly@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2127"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-ConnollyMarilyn.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marilyn_Connoly",
+        "https://justfacts.votesmart.org/candidate/biography/218336/marilyn-connoly",
+        "https://wyoleg.gov/Legislators/2025/H/2127",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "brady-marlene-wy-hd60",
+      "name": "Marlene Brady",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-60)",
+      "state": "WY",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b2d0dc89-4104-4f6e-a1eb-bbc9dafbefa9"
+      },
+      "contact": {
+        "email": "marlene.brady@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2143"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-BradyMarlene.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marlene_Brady",
+        "https://en.wikipedia.org/wiki/Marlene_Brady",
+        "https://justfacts.votesmart.org/candidate/218362/marlene-brady",
+        "https://wyoleg.gov/Legislators/2025/H/2143",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "lawley-martha-wy-hd27",
+      "name": "Martha Lawley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-27)",
+      "state": "WY",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c954b74f-1933-4be4-801d-cc93f7f37ac0"
+      },
+      "contact": {
+        "email": "martha.lawley@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2102"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-LawleyMartha.jpg",
+      "sources": [
+        "https://ballotpedia.org/Martha_Lawley",
+        "https://en.wikipedia.org/wiki/Martha_Lawley",
+        "https://justfacts.votesmart.org/candidate/biography/207696/martha-lawley",
+        "https://www.marthalawley.com",
+        "https://www.wyoleg.gov/Legislators/2023/H/2102",
+        "https://www.wyoleg.gov/Legislators/2025/H/2102",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2102",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "erickson-mckay-wy-hd21",
+      "name": "McKay Erickson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-21)",
+      "state": "WY",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f3fe63a7-b938-41c4-b2f5-b4069949a163"
+      },
+      "contact": {
+        "email": "mckay.erickson@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/R/2122"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-EricksonMcKay.jpg",
+      "sources": [
+        "https://ballotpedia.org/McKay_Erickson",
+        "https://en.wikipedia.org/wiki/McKay_Erickson",
+        "https://justfacts.votesmart.org/candidate/biography/218324/mckay-erickson",
+        "https://wyoleg.gov/Legislators/2025/R/2122",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "gierau-mike-wy-sd17",
+      "name": "Mike Gierau",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-17)",
+      "state": "WY",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/587874e4-f0c9-4679-aa08-a2442b7d33b1"
+      },
+      "contact": {
+        "email": "mike.gierau@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2027"
+      },
+      "bio": {
+        "birth_date": "1959-03-18",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-GierauMike.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Gierau",
+        "https://en.wikipedia.org/wiki/Mike_Gierau",
+        "https://justfacts.votesmart.org/candidate/biography/52778/mike-gierau",
+        "https://www.linkedin.com/in/mike-gierau-0851ba2a",
+        "https://www.wyoleg.gov/Legislators/2023/S/2027",
+        "https://www.wyoleg.gov/Legislators/2025/S/2027",
+        "https://wyoleg.gov/Legislators/2019/D/2027",
+        "https://wyoleg.gov/Legislators/2021/D/2027",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2027",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "schmid-mike-wy-hd20",
+      "name": "Mike Schmid",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-20)",
+      "state": "WY",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4c9350f0-084c-4ba2-be0d-9ee0b5f6c629"
+      },
+      "contact": {
+        "email": "mike.schmid@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2121"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-SchmidMike.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Schmid",
+        "https://en.wikipedia.org/wiki/Mike_Schmid_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/207683/michael-schmid",
+        "https://www.linkedin.com/in/mike-schmid-5335a91a",
+        "https://wyoleg.gov/Legislators/2025/H/2121",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "yin-mike-wy-hd16",
+      "name": "Mike Yin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-16)",
+      "state": "WY",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/28649646-1108-4954-9381-4aa2d3b6f31b"
+      },
+      "contact": {
+        "email": "mike.yin@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2054"
+      },
+      "bio": {
+        "birth_date": "1986-03-14",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-YinMike.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Yin",
+        "https://en.wikipedia.org/wiki/Mike_Yin",
+        "https://justfacts.votesmart.org/candidate/biography/184068/mike-yin",
+        "https://www.linkedin.com/in/yincrash",
+        "https://www.wyoleg.gov/Legislators/2023/H/2054",
+        "https://www.wyoleg.gov/Legislators/2025/H/2054",
+        "https://wyoleg.gov/Legislators/2019/D/2054",
+        "https://wyoleg.gov/Legislators/2021/D/2054",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2054",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "webber-nina-wy-hd24",
+      "name": "Nina Webber",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-24)",
+      "state": "WY",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86d51e65-7fef-49ff-a19a-60984fe2fab2"
+      },
+      "contact": {
+        "email": "nina.webber@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2123"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-WebberNina.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nina_Webber",
+        "https://en.wikipedia.org/wiki/Nina_Webber",
+        "https://justfacts.votesmart.org/candidate/biography/194535/nina-webber",
+        "https://www.linkedin.com/in/nina-webber-798bb467",
+        "https://wyoleg.gov/Legislators/2025/H/2123",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "andrew-ocean-wy-hd46",
+      "name": "Ocean Andrew",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-46)",
+      "state": "WY",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d811f813-1093-449a-a4dc-5d02c704ee49"
+      },
+      "contact": {
+        "email": "ocean.andrew@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2081"
+      },
+      "bio": {
+        "birth_date": "1994-03-24",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/66th-AndrewOcean.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ocean_Andrew",
+        "https://en.wikipedia.org/wiki/Ocean_Andrew",
+        "https://justfacts.votesmart.org/candidate/biography/194591/ocean-andrew",
+        "https://www.linkedin.com/in/ocean-andrew-07a321b9",
+        "https://www.wyoleg.gov/Legislators/2023/H/2081",
+        "https://www.wyoleg.gov/Legislators/2025/H/2081",
+        "https://wyoleg.gov/Legislators/2021/R/2081",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2081",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "driskill-ogden-wy-sd1",
+      "name": "Ogden Driskill",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-1)",
+      "state": "WY",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e72a31cf-cefd-42c1-9620-967af32a2f48"
+      },
+      "contact": {
+        "email": "ogden.driskill@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/1972"
+      },
+      "bio": {
+        "birth_date": "1959-07-24",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-DriskillOgden.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ogden_Driskill",
+        "https://en.wikipedia.org/wiki/Ogden_Driskill",
+        "https://justfacts.votesmart.org/candidate/biography/52627/ogden-driskill",
+        "https://www.linkedin.com/in/ogden-driskill-b43bb610",
+        "https://www.wyoleg.gov/Legislators/2023/S/1972",
+        "https://www.wyoleg.gov/Legislators/2025/S/1972",
+        "https://wyoleg.gov/Legislators/2019/R/1972",
+        "https://wyoleg.gov/Legislators/2021/R/1972",
+        "https://wyoleg.gov/LsoService/api/legislator/1972",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "thayer-pam-wy-hd15",
+      "name": "Pam Thayer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-15)",
+      "state": "WY",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4e09e885-4101-4e95-8560-17d35caad18c"
+      },
+      "contact": {
+        "email": "pam.thayer@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2025/H/2119"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-ThayerPamela.jpg",
+      "sources": [
+        "https://ballotpedia.org/Pam_Thayer",
+        "https://en.wikipedia.org/wiki/Pam_Thayer",
+        "https://justfacts.votesmart.org/candidate/biography/218319/pamela-thayer",
+        "https://www.linkedin.com/in/pam-thayer-289a5918b",
+        "https://www.wyoleg.gov/Legislators/2025/H/2119",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "hoeft-paul-wy-hd25",
+      "name": "Paul Hoeft",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-25)",
+      "state": "WY",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d110d38a-8f1f-4056-b89d-d7d46613c72a"
+      },
+      "contact": {
+        "email": "paul.hoeft@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2124"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-HoeftPaul.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paul_Hoeft",
+        "https://justfacts.votesmart.org/candidate/biography/218326/paul-hoeft",
+        "https://www.linkedin.com/in/paul-hoeft-3b7017a2",
+        "https://wyoleg.gov/Legislators/2025/H/2124",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "ottman-pepper-wy-hd34",
+      "name": "Pepper Ottman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-34)",
+      "state": "WY",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9c9a9e1b-8107-40ac-b667-a8e75c5f806d"
+      },
+      "contact": {
+        "email": "pepper.ottman@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2076"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-OttmanPepper.jpg",
+      "sources": [
+        "https://ballotpedia.org/Pepper_Ottman",
+        "https://en.wikipedia.org/wiki/Pepper_Ottman",
+        "https://justfacts.votesmart.org/candidate/194583/pepper-ottman",
+        "https://www.wyoleg.gov/Legislators/2023/H/2076",
+        "https://www.wyoleg.gov/Legislators/2025/H/2076",
+        "https://wyoleg.gov/Legislators/2021/R/2076",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2076",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "rodriguez-williams-rachel-wy-hd50",
+      "name": "Rachel Rodriguez-Williams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-50)",
+      "state": "WY",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2fc47a70-0bf7-4d7c-bda2-5cdbf75a99ea"
+      },
+      "contact": {
+        "email": "rachel.rodriguez-williams@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2083"
+      },
+      "bio": {
+        "birth_date": "1978-02-14",
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-Rodriguez-WilliamsRachel.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rachel_Rodriguez-Williams",
+        "https://en.wikipedia.org/wiki/Rachel_Rodriguez-Williams",
+        "https://justfacts.votesmart.org/candidate/194595/rachel-rodriguez-williams",
+        "https://www.linkedin.com/in/rachel-rodriguez-williams-93335b80",
+        "https://www.wyoleg.gov/Legislators/2023/H/2083",
+        "https://www.wyoleg.gov/Legislators/2025/H/2083",
+        "https://wyoleg.gov/Legislators/2021/R/2083",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2083",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "tarver-reuben-wy-hd52",
+      "name": "Reuben Tarver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-52)",
+      "state": "WY",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8b636fd9-d6e2-4369-9764-c56803244076"
+      },
+      "contact": {
+        "email": "reuben.tarver@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2112"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-TarverReuben.jpg",
+      "sources": [
+        "https://ballotpedia.org/Reuben_Tarver",
+        "https://en.wikipedia.org/wiki/Reuben_Tarver",
+        "https://justfacts.votesmart.org/candidate/biography/207717/reuben-tarver",
+        "https://www.linkedin.com/in/reuben-tarver-70174178",
+        "https://www.wyoleg.gov/Legislators/2023/H/2112",
+        "https://www.wyoleg.gov/Legislators/2025/H/2112",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2112",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "geringer-rob-wy-hd42",
+      "name": "Rob Geringer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-42)",
+      "state": "WY",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/219dcec3-8f83-401b-91df-1a79ac725889"
+      },
+      "contact": {
+        "email": "rob.geringer@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2142"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-GeringerRob.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rob_Geringer",
+        "https://justfacts.votesmart.org/candidate/218339/rob-geringer",
+        "https://www.linkedin.com/in/robgeringer",
+        "https://wyoleg.gov/Legislators/2025/H/2142",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "wharff-bob-wy-hd49",
+      "name": "Bob Wharff",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-49)",
+      "state": "WY",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bc53e98d-bd3c-4a67-9822-68e609f45251"
+      },
+      "contact": {
+        "email": "robert.wharff@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2021/R/2082"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-WharffRobert.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Wharff",
+        "https://en.wikipedia.org/wiki/Robert_Wharff",
+        "https://justfacts.votesmart.org/candidate/biography/194594/robert-wharff",
+        "https://www.linkedin.com/in/robert-wharff-1143ba1a5",
+        "https://www.linkedin.com/in/robert-wharff-23584927",
+        "https://wyoleg.gov/Legislators/2021/R/2082",
+        "https://wyoleg.gov/Legislators/2025/H/2082",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2082",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "heiner-scott-wy-hd18",
+      "name": "Scott Heiner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-18)",
+      "state": "WY",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/232d6600-4cfd-40a1-abb9-8a1eecd84768"
+      },
+      "contact": {
+        "email": "scott.heiner@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2074"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-HeinerScott.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Heiner",
+        "https://en.wikipedia.org/wiki/Scott_Heiner",
+        "https://justfacts.votesmart.org/candidate/biography/171225/scott-heiner",
+        "https://www.linkedin.com/in/scott-heiner-9a1a8420",
+        "https://www.wyoleg.gov/Legislators/2023/H/2074",
+        "https://wyoleg.gov/Legislators/2021/R/2074",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2074",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-scott-wy-hd5",
+      "name": "Scott Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-5)",
+      "state": "WY",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/201b5fe9-4060-4dfa-ae2c-c59a3a3120ff"
+      },
+      "contact": {
+        "email": "scott.smith@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2093"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/67th-SmithScott.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Smith_(Wyoming)",
+        "https://en.wikipedia.org/wiki/Scott_Smith_%28Wyoming_politician%29",
+        "https://justfacts.votesmart.org/candidate/biography/207663/scott-smith",
+        "https://www.wyoleg.gov/Legislators/2023/H/2093",
+        "https://www.wyoleg.gov/Legislators/2025/H/2093",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2093",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-stacy-wy-sd13",
+      "name": "Stacy Jones",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-13)",
+      "state": "WY",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/343a76eb-5672-433a-9d39-f34b6f683cab"
+      },
+      "contact": {
+        "email": "stacy.jones@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2088"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-JonesStacy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stacy_Jones",
+        "https://en.wikipedia.org/wiki/Stacy_Jones_(Wyoming_politician)",
+        "https://justfacts.votesmart.org/candidate/207656/stacy-jones",
+        "https://www.linkedin.com/in/realtorwyo",
+        "https://www.wyoleg.gov/Legislators/2023/S/2088",
+        "https://www.wyoleg.gov/Legislators/2025/S/2088",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2088",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "pappas-stephan-wy-sd7",
+      "name": "Stephan Pappas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-7)",
+      "state": "WY",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f46abbfe-3a0a-4657-a4ac-fbc418adfcc7"
+      },
+      "contact": {
+        "email": "stephan.pappas@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2008"
+      },
+      "bio": {
+        "birth_date": "1950-12-14",
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-PappasStephan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephan_Pappas",
+        "https://en.wikipedia.org/wiki/Stephan_Pappas",
+        "https://justfacts.votesmart.org/candidate/153702/stephan-pappas",
+        "https://www.linkedin.com/in/stephanpappas",
+        "https://www.wyoleg.gov/Legislators/2023/S/2008",
+        "https://www.wyoleg.gov/Legislators/2025/S/2008",
+        "https://wyoleg.gov/Legislators/2019/R/2008",
+        "https://wyoleg.gov/Legislators/2021/R/2008",
+        "https://wyoleg.gov/LsoService/api/legislator/2008",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "harshman-steve-wy-hd37",
+      "name": "Steve Harshman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-37)",
+      "state": "WY",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1f6a3489-e152-487f-852a-23fc40a22185"
+      },
+      "contact": {
+        "email": "steve.harshman@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/717"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-HarshmanSteve.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Harshman",
+        "https://en.wikipedia.org/wiki/Steve_Harshman",
+        "https://justfacts.votesmart.org/candidate/52736/steve-harshman",
+        "https://www.wyoleg.gov/Legislators/2023/H/717",
+        "https://www.wyoleg.gov/Legislators/2025/H/717",
+        "https://wyoleg.gov/Legislators/2019/R/717",
+        "https://wyoleg.gov/Legislators/2021/R/717",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/717",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-steve-wy-hd8",
+      "name": "Steve Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-8)",
+      "state": "WY",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/51b4d190-c5b4-4860-acb9-a6569f26e064"
+      },
+      "contact": {
+        "email": "steve.johnson@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2118"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-JohnsonSteve.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Johnson_(Wyoming)",
+        "https://en.wikipedia.org/wiki/Steve_Johnson_(Wyoming_politician)",
+        "https://justfacts.votesmart.org/candidate/207671/stephen-johnson",
+        "https://wyoleg.gov/Legislators/2025/H/2118",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "love-taft-wy-sd6",
+      "name": "Taft Love",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-6)",
+      "state": "WY",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e6276406-b441-4265-a110-7e3f9b8b0e3f"
+      },
+      "contact": {
+        "email": "taft.love@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2026/R/2145"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-LoveTaft.jpg",
+      "sources": [
+        "https://ballotpedia.org/Taft_Love",
+        "https://en.wikipedia.org/wiki/Taft_Love",
+        "https://justfacts.votesmart.org/candidate/218298/taft-love",
+        "https://www.linkedin.com/in/taft-love-231148101",
+        "https://wyoleg.gov/Legislators/2026/R/2145",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "nethercott-tara-wy-sd4",
+      "name": "Tara Nethercott",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-4)",
+      "state": "WY",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f20c9c17-f2bd-4c88-9f6f-208af6a61f26"
+      },
+      "contact": {
+        "email": "tara.nethercott@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2029"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-NethercottTara.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tara_Nethercott",
+        "https://crowleyfleck.com/biography/tara-b-nethercott",
+        "https://en.wikipedia.org/wiki/Tara_Nethercott",
+        "https://justfacts.votesmart.org/candidate/biography/171165/tara-nethercott",
+        "https://www.wyoleg.gov/Legislators/2023/S/2029",
+        "https://www.wyoleg.gov/Legislators/2025/S/2029",
+        "https://wyoleg.gov/Legislators/2019/R/2029",
+        "https://wyoleg.gov/Legislators/2021/R/2029",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2029",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "french-tim-wy-sd18",
+      "name": "Tim French",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-18)",
+      "state": "WY",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/057afdb5-3c0e-4503-b6cd-50ba6df1aaab"
+      },
+      "contact": {
+        "email": "tim.french@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2067"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-FrenchTim.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tim_French",
+        "https://en.wikipedia.org/wiki/Tim_French",
+        "https://justfacts.votesmart.org/candidate/100304/tim-french",
+        "https://www.wyoleg.gov/Legislators/2023/S/2067",
+        "https://www.wyoleg.gov/Legislators/2025/S/2067",
+        "https://wyoleg.gov/Legislators/2021/R/2067",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2067",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "salazar-tim-wy-sd26",
+      "name": "Tim Salazar",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-26)",
+      "state": "WY",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4f702d02-54ad-4143-837a-09be9a03ee6e"
+      },
+      "contact": {
+        "email": "tim.salazar@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2028"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-SalazarTim.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tim_Salazar",
+        "https://en.wikipedia.org/wiki/Tim_Salazar",
+        "https://justfacts.votesmart.org/candidate/biography/153981/tim-salazar",
+        "https://www.wyoleg.gov/Legislators/2023/S/2028",
+        "https://www.wyoleg.gov/Legislators/2025/S/2028",
+        "https://wyoleg.gov/Legislators/2019/R/2028",
+        "https://wyoleg.gov/Legislators/2021/R/2028",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2028",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "kelly-tom-wy-hd30",
+      "name": "Tom Kelly",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-30)",
+      "state": "WY",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/312edf5d-1dad-475a-b3bd-4b58f5f98ad4"
+      },
+      "contact": {
+        "email": "tom.kelly@wyoleg.gov",
+        "website": "https://wyoleg.gov/Legislators/2025/H/2125"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-KellyTom.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Kelly_(Wyoming)",
+        "https://en.wikipedia.org/wiki/Tom_Kelly_(Wyoming_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/207650/thomas-kelly",
+        "https://www.linkedin.com/in/thomas-kelly-9052b6238",
+        "https://wyoleg.gov/Legislators/2025/H/2125",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "strock-tomi-wy-hd6",
+      "name": "Tomi Strock",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-6)",
+      "state": "WY",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d1ac363d-41ed-4c2c-a661-6e400d0b7d57"
+      },
+      "contact": {
+        "email": "tomi.strock@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2094"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-StrockTomi.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tomi_Strock",
+        "https://en.wikipedia.org/wiki/Tomi_Strock",
+        "https://justfacts.votesmart.org/candidate/biography/207664/tomi-strock",
+        "https://www.linkedin.com/in/tom-strock-665b2a92",
+        "https://www.wyoleg.gov/Legislators/2023/H/2094",
+        "https://www.wyoleg.gov/Legislators/2025/H/2094",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2094",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "locke-tony-wy-hd35",
+      "name": "Tony Locke",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-35)",
+      "state": "WY",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0cd9d0d3-09eb-4cf1-8e5b-bfc15a71b337"
+      },
+      "contact": {
+        "email": "tony.locke@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2106"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-LockeTony.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tony_Locke",
+        "https://en.wikipedia.org/wiki/Tony_Locke_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/207702/tony-locke",
+        "https://www.wyoleg.gov/Legislators/2023/H/2106",
+        "https://www.wyoleg.gov/Legislators/2025/H/2106",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2106",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "sherwood-trey-wy-hd14",
+      "name": "Trey Sherwood",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Representative (HD-14)",
+      "state": "WY",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b2265fcb-f768-4617-ad03-15f5b65af79f"
+      },
+      "contact": {
+        "email": "trey.sherwood@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/H/2072"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-SherwoodTrey.jpg",
+      "sources": [
+        "https://ballotpedia.org/Trey_Sherwood",
+        "https://en.wikipedia.org/wiki/Trey_Sherwood",
+        "https://www.linkedin.com/in/treysherwood",
+        "https://www.wyoleg.gov/Legislators/2023/H/2072",
+        "https://www.wyoleg.gov/Legislators/2025/H/2072",
+        "https://wyoleg.gov/Legislators/2021/D/2072",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/H",
+        "https://wyoleg.gov/LsoService/api/legislator/2072",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "mckeown-troy-wy-sd24",
+      "name": "Troy McKeown",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-24)",
+      "state": "WY",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c1525bf9-8a43-4807-b72a-e42f94267b09"
+      },
+      "contact": {
+        "email": "troy.mckeown@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2069"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-McKeownTroy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Troy_McKeown",
+        "https://en.wikipedia.org/wiki/Troy_McKeown",
+        "https://justfacts.votesmart.org/candidate/biography/194471/troy-mckeown",
+        "https://www.wyoleg.gov/Legislators/2023/S/2069",
+        "https://www.wyoleg.gov/Legislators/2025/S/2069",
+        "https://wyoleg.gov/Legislators/2021/R/2069",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2069",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    },
+    {
+      "politician_id": "schuler-wendy-wy-sd15",
+      "name": "Wendy Schuler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Wyoming State Senator (SD-15)",
+      "state": "WY",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "WY",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6dd13000-c423-47d8-9fbb-3cbcf730d7fe"
+      },
+      "contact": {
+        "email": "wendy.schuler@wyoleg.gov",
+        "website": "https://www.wyoleg.gov/Legislators/2023/S/2062"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://wyoleg.gov/LegislatorSummary/Photos/68th-SchulerWendy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wendy_Davis_Schuler",
+        "https://en.wikipedia.org/wiki/Wendy_Davis_Schuler",
+        "https://justfacts.votesmart.org/candidate/biography/184028/wendy-schuler",
+        "https://www.linkedin.com/in/wendy-schuler-872bb39b",
+        "https://www.wyoleg.gov/Legislators/2023/S/2062",
+        "https://www.wyoleg.gov/Legislators/2025/S/2062",
+        "https://wyoleg.gov/Legislators/2019/R/2062",
+        "https://wyoleg.gov/Legislators/2021/R/2062",
+        "https://wyoleg.gov/LsoService/api/legislator/2021/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2023/S",
+        "https://wyoleg.gov/LsoService/api/legislator/2062",
+        "https://data.openstates.org/people/current/wy.csv"
+      ]
+    }
+  ]
+}

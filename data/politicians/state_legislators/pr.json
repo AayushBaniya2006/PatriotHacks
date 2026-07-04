@@ -1,0 +1,2700 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/pr.csv",
+  "state": "PR",
+  "politicians": [
+    {
+      "politician_id": "lvarez-conde-ada-pr-sdat-large",
+      "name": "Ada Álvarez Conde",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d50dfedb-f016-4447-a258-a284a09cf36a"
+      },
+      "contact": {
+        "email": "aalvarez@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/hon-ada-m-%C3%A1lvarez-conde"
+      },
+      "bio": {
+        "birth_date": "1986-09-08",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ada_%C3%81lvarez_Conde",
+        "https://www.linkedin.com/in/ada-alvarez-conde-ph-d-b1897920",
+        "https://www.senado.pr.gov/hon-ada-m-%C3%A1lvarez-conde",
+        "https://www.senado.pr.gov/senators/hon-ada-m-%C3%A1lvarez-conde",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "guti-rrez-col-n-adriana-pr-hdat-large",
+      "name": "Adriana Gutiérrez Colón",
+      "party": "Partido Independentista Puertorriqueño",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/79ca9f1f-7684-470f-8590-a287e2240846"
+      },
+      "contact": {
+        "email": "agutierrez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/adriana-gutierrez-colon/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Adriana_Guti%C3%A9rrez_Col%C3%B3n",
+        "https://camara.registrok12.com/team/adriana-gutierrez-colon",
+        "https://es.wikipedia.org/wiki/Adriana_Guti%C3%A9rrez_Col%C3%B3n",
+        "https://www.camara.pr.gov/team/adriana-gutierrez-colon",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "gonz-lez-costa-adri-n-pr-sdat-large",
+      "name": "Adrián González Costa",
+      "party": "Partido Independentista Puertorriqueño",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f7c9b956-aed6-4512-9a3b-beb697170bb0"
+      },
+      "contact": {
+        "email": "adgonzalez@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/adrian-gonzalez-costa"
+      },
+      "bio": {
+        "birth_date": "1983-05-03",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Adri%C3%A1n_Gonz%C3%A1lez_Costa",
+        "https://www.senado.pr.gov/adrian-gonzalez-costa",
+        "https://www.senado.pr.gov/senators/adri%C3%A1n-gonz%C3%A1lez-costa",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "p-rez-soto-brenda-pr-sd3",
+      "name": "Brenda Pérez Soto",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-3)",
+      "state": "PR",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eae57c88-a659-4dab-86bb-874c4d5ec8b7"
+      },
+      "contact": {
+        "email": "bperez@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/brenda-p%C3%A9rez-soto"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Brenda_P%C3%A9rez_Soto",
+        "https://www.senado.pr.gov/brenda-p%C3%A9rez-soto",
+        "https://www.senado.pr.gov/senators/brenda-p%C3%A9rez-soto",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "m-ndez-n-ez-johnny-pr-hd36",
+      "name": "Johnny Méndez Núñez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-36)",
+      "state": "PR",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/668ff3c6-68b5-4c95-b982-a03fd9c8b1a3"
+      },
+      "contact": {
+        "email": "cmendez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/carlos-johnny-mendez-nunez/"
+      },
+      "bio": {
+        "birth_date": "1960-06-30",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/Carlos_Mendez_420px.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carlos_M%C3%A9ndez_N%C3%BA%C3%B1ez",
+        "https://camara.registrok12.com/team/carlos-johnny-mendez-nunez",
+        "https://en.wikipedia.org/wiki/Carlos_Johnny_M%C3%A9ndez",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/carlos-johnny-mendez-nunez",
+        "https://www.camara.pr.gov/team/carlos-johnny-mendez-nunez/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=39",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "r-os-santiago-carmelo-pr-sd2",
+      "name": "Carmelo Ríos Santiago",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-2)",
+      "state": "PR",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bb7a8a74-faec-492d-87f7-a7e8d3c11ac3"
+      },
+      "contact": {
+        "email": "crios@senado.pr.gov",
+        "website": "https://senado.pr.gov/senators/hon-carmelo-j-r%C3%ADos-santiago"
+      },
+      "bio": {
+        "birth_date": "1973-05-21",
+        "gender": "Male"
+      },
+      "image": "https://senado.pr.gov/document_vault/senator/17/FourYearPeriods/19/thumbnail/CARMELO%20R%C3%8DOS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carmelo_R%C3%ADos_Santiago",
+        "https://en.wikipedia.org/wiki/Carmelo_R%C3%ADos_Santiago",
+        "https://senado.pr.gov/index.cfm?module=senadores",
+        "https://senado.pr.gov/senators/hon-carmelo-j-r%C3%ADos-santiago",
+        "https://senado.pr.gov/senators/hon-carmelo-j-ríos-santiago",
+        "https://www.senado.pr.gov/hon-carmelo-j-r-os-santiago",
+        "https://www.senadopr.us/Pages/Senadores%20Distrito%20II.aspx",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "medina-calder-n-carmen-pr-hd37",
+      "name": "Carmen Medina Calderón",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-37)",
+      "state": "PR",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/10eb7d99-1165-4a62-9972-f6dad97b4979"
+      },
+      "contact": {
+        "email": "cmedina@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/carmen-medina-calderon/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Carmen_Medina_Calder%C3%B3n",
+        "https://camara.registrok12.com/team/carmen-medina-calderon",
+        "https://www.camara.pr.gov/team/carmen-medina-calderon",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "ocasio-chino-pr-hd2",
+      "name": "Chino Ocasio",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-2)",
+      "state": "PR",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/77ab4f8e-7665-428c-beb8-e10a0ff913ed"
+      },
+      "contact": {
+        "email": "rocasio@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/ricardo-chino-rey-ocasio-ramos/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ricardo_Rey_Ocasio_Ramos",
+        "https://camara.registrok12.com/team/ricardo-chino-rey-ocasio-ramos",
+        "https://www.camara.pr.gov/team/ricardo-chino-rey-ocasio-ramos",
+        "https://www.linkedin.com/in/ricardo-rey-ocasio-ramos-050129a6",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "roque-chino-pr-hd28",
+      "name": "Chino Roque",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-28)",
+      "state": "PR",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6dca879a-0c66-4642-90ea-3a8fc892b0d6"
+      },
+      "contact": {
+        "email": "aroque@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/axel-chino-roque-gracia/"
+      },
+      "bio": {
+        "birth_date": "1983-07-21",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Axel_Roque_Gracia",
+        "https://camara.registrok12.com/team/axel-chino-roque-gracia",
+        "https://en.wikipedia.org/wiki/Axel_Roque",
+        "https://www.camara.pr.gov/team/axel-chino-roque",
+        "https://www.camara.pr.gov/team/axel-chino-roque-gracia",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "muriel-christian-pr-hd34",
+      "name": "Christian Muriel",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-34)",
+      "state": "PR",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6535f2df-5ecc-488b-bac4-6cb4126da9fc"
+      },
+      "contact": {
+        "email": "cmuriel@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/christian-muriel-sanchez/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Christian_Muriel",
+        "https://camara.registrok12.com/team/christian-muriel-sanchez",
+        "https://www.camara.pr.gov/team/christian-muriel-sanchez",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "m-rquez-denis-pr-hdat-large",
+      "name": "Denis Márquez",
+      "party": "Partido Independentista Puertorriqueño",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dee6d0ff-ee3c-429c-bfa4-6b255acd8472"
+      },
+      "contact": {
+        "email": "dmarquez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/denis-marquez-lebron/"
+      },
+      "social": {
+        "twitter": "denismarquezpip",
+        "facebook": "denismarquezpip"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/REP.-DENNIS-MARQUEZ-ACUMULACION-2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Denis_M%C3%A1rquez_Lebr%C3%B3n",
+        "https://camara.registrok12.com/team/denis-marquez-lebron",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/denis-marquez-lebron",
+        "https://www.camara.pr.gov/team/denis-marquez-lebron/",
+        "https://www.linkedin.com/in/denis-marquez-lebron-74286783",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=210",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "torres-garc-a-domingo-pr-hd25",
+      "name": "Domingo Torres García",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-25)",
+      "state": "PR",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0bb123e5-c41d-4fb4-a6ee-7efb453d245a"
+      },
+      "contact": {
+        "email": "djtorres@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/domingo-j-torres-garcia/"
+      },
+      "social": {
+        "twitter": "djtorresgarcia",
+        "facebook": "domingotorres25"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._DOMINGO_TORRES_DIST._25_6_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Domingo_Torres_Garc%C3%ADa",
+        "https://camara.registrok12.com/team/domingo-j-torres-garcia",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=735",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/domingo-j-torres-garcia",
+        "https://www.camara.pr.gov/team/domingo-j-torres-garcia/",
+        "https://www.linkedin.com/in/domingo-torres-garcia-960182115",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "charbonier-eddie-pr-hd1",
+      "name": "Eddie Charbonier",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-1)",
+      "state": "PR",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/929bc23b-ebba-42aa-8335-7ddca4fef705"
+      },
+      "contact": {
+        "email": "echarbonier@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/eddie-charbonier-chinea/"
+      },
+      "bio": {
+        "birth_date": "1982-03-15",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/REP.-EDDIE-CHARBONIER-DIST-1-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eddie_Charbonier_Chinea",
+        "https://camara.registrok12.com/team/eddie-charbonier-chinea",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/eddie-charbonier-chinea",
+        "https://www.camara.pr.gov/team/eddie-charbonier-chinea/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=191",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "robles-edgar-pr-hd14",
+      "name": "Edgar Robles",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-14)",
+      "state": "PR",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/597b56bd-1d81-49d1-89e4-133f75d6fa17"
+      },
+      "contact": {
+        "email": "erobles@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/edgar-robles-rivera/"
+      },
+      "bio": {
+        "birth_date": "1975-09-21",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Edgar_Robles",
+        "https://camara.registrok12.com/team/edgar-robles-rivera",
+        "https://edgarroblesrivera.com",
+        "https://www.camara.pr.gov/team/edgar-robles",
+        "https://www.camara.pr.gov/team/edgar-robles-rivera",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "feliciano-edgardo-pr-hd12",
+      "name": "Edgardo Feliciano",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-12)",
+      "state": "PR",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/43fcbc03-037f-4ecf-916f-6a5925692a79"
+      },
+      "contact": {
+        "email": "efeliciano@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/edgardo-feliciano-sanchez/"
+      },
+      "social": {
+        "twitter": "FelicianoEdg",
+        "facebook": "Edgardo-Feliciano-Representante-Distrito-12-2100072300291099"
+      },
+      "bio": {
+        "birth_date": "1976-01-30",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._EDGARDO_FELICIANO_DIST_12_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Edgardo_Feliciano",
+        "https://camara.registrok12.com/team/edgardo-feliciano-sanchez",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=722",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/edgardo-feliciano-sanchez",
+        "https://www.camara.pr.gov/team/edgardo-feliciano-sanchez/",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "molina-eliezer-pr-sdat-large",
+      "name": "Eliezer Molina",
+      "party": "Independent",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e747a8b3-a7e3-4f4e-afea-2dccd3ab0bdf"
+      },
+      "contact": {
+        "email": "emolina@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/hon-eliezer-molina-p%C3%A9rez"
+      },
+      "bio": {
+        "birth_date": "1980-09-02",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Eliezer_Molina_P%C3%A9rez",
+        "https://www.senado.pr.gov/hon-eliezer-molina-p%C3%A9rez",
+        "https://www.senado.pr.gov/senators/hon-eliezer-molina-p%C3%A9rez",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "gonz-lez-aguayo-elinette-pr-hd11",
+      "name": "Elinette González Aguayo",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-11)",
+      "state": "PR",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a489c6db-1a98-4ed2-b951-8611ca9c2d36"
+      },
+      "contact": {
+        "email": "elgonzalez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/elinette-gonzalez-aguayo/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Elinette_Gonz%C3%A1lez_Aguayo",
+        "https://camara.registrok12.com/team/elinette-gonzalez-aguayo",
+        "https://www.camara.pr.gov/team/elinette-gonzalez-aguayo",
+        "https://www.linkedin.com/in/elinette-gonz%C3%A1lez-aguayo-47261136",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "carlo-emilio-pr-hd20",
+      "name": "Emilio Carlo",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-20)",
+      "state": "PR",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f65881be-58b6-45b2-b513-f2ccdb8831b4"
+      },
+      "contact": {
+        "email": "ecarlo@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/emilio-carlo-acosta/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Emilio_Carlo",
+        "https://camara.registrok12.com/team/emilio-carlo-acosta",
+        "https://www.camara.pr.gov/team/emilio-carlo",
+        "https://www.camara.pr.gov/team/emilio-carlo-acosta",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "rodr-guez-ensol-pr-hd23",
+      "name": "Ensol Rodríguez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-23)",
+      "state": "PR",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/40c49980-211e-4cf8-8ea1-3c6214989f9e"
+      },
+      "contact": {
+        "email": "enrodriguez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/ensol-a-rodriguez-torres/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ensol_Rodriguez_Yorres",
+        "https://camara.registrok12.com/team/ensol-a-rodriguez-torres",
+        "https://www.camara.pr.gov/team/ensol-a-rodriguez-torres",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "mart-nez-soto-estrella-pr-hd27",
+      "name": "Estrella Martínez Soto",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-27)",
+      "state": "PR",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a5b90d78-5c49-42e3-bc1c-44e6bb6cb85d"
+      },
+      "contact": {
+        "email": "emartinez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/estrella-martinez-soto/"
+      },
+      "social": {
+        "facebook": "EstrellaRepresentanteD27"
+      },
+      "bio": {
+        "birth_date": "1979-08-08",
+        "gender": "Female"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._ESTRELLA_MARTINEZ_DIST_27_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Estrella_Mart%C3%ADnez_Soto",
+        "https://camara.registrok12.com/team/estrella-martinez-soto",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=737",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/estrella-martinez-soto",
+        "https://www.camara.pr.gov/team/estrella-martinez-soto/",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "sanabria-col-n-fernando-pr-hd30",
+      "name": "Fernando Sanabria Colón",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-30)",
+      "state": "PR",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/450e6fce-57c0-4a19-8162-f2977725d05c"
+      },
+      "contact": {
+        "email": "fsanabria@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/fernando-sanabria-colon/"
+      },
+      "bio": {
+        "birth_date": "1973-04-27",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Fernando_Sanabria_Col%C3%B3n",
+        "https://camara.registrok12.com/team/fernando-sanabria-colon",
+        "https://www.camara.pr.gov/team/fernando-sanabria",
+        "https://www.camara.pr.gov/team/fernando-sanabria-colon",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "pacheco-f-lix-pr-hd9",
+      "name": "Félix Pacheco",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-9)",
+      "state": "PR",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ce3e5122-1c25-4375-84c8-0fe094dbf779"
+      },
+      "contact": {
+        "email": "fpacheco@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/felix-pacheco-burgos/"
+      },
+      "bio": {
+        "birth_date": "1988-12-03",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/F%C3%A9lix_Pacheco",
+        "https://camara.registrok12.com/team/felix-pacheco-burgos",
+        "https://www.camara.pr.gov/team/felix-pacheco",
+        "https://www.camara.pr.gov/team/felix-pacheco-burgos",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "rodr-guez-aguil-gabriel-pr-hdat-large",
+      "name": "Gabriel Rodríguez Aguiló",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3916fe08-dc43-497a-a286-ffafc0b5776b"
+      },
+      "contact": {
+        "email": "gfrodriguez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/gabriel-rodriguez-aguilo/"
+      },
+      "social": {
+        "facebook": "gabriel.rodriguezaguilo"
+      },
+      "bio": {
+        "birth_date": "1973-08-19",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._GABRIEL_RODRIGUEZ_AGUILO_DIST_13_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gabriel_Rodr%C3%ADguez_Aguil%C3%B3",
+        "https://camara.registrok12.com/team/gabriel-rodriguez-aguilo",
+        "https://en.wikipedia.org/wiki/Gabriel_Rodr%C3%ADguez_Aguil%C3%B3",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/gabriel-rodriguez-aguilo",
+        "https://www.camara.pr.gov/team/gabriel-rodriguez-aguilo/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=17",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "gonz-lez-gaby-pr-sd3",
+      "name": "Gaby González",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-3)",
+      "state": "PR",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0a3a6a9f-8f7d-4a19-8abb-098ca272de6d"
+      },
+      "contact": {
+        "email": "hgonzalez@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/h%C3%A9ctor-gabriel-gonz%C3%A1lez-l%C3%B3pez"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Gabriel_Gaby_Gonz%C3%A1les",
+        "https://www.senado.pr.gov/h%C3%A9ctor-gabriel-gonz%C3%A1lez-l%C3%B3pez",
+        "https://www.senado.pr.gov/senators/h%C3%A9ctor-gabriel-gonz%C3%A1lez-l%C3%B3pez",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "mat-as-gregorio-pr-sdat-large",
+      "name": "Gregorio Matías",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/beb1660c-fd16-4f3b-851f-1b6f40bdd62d"
+      },
+      "contact": {
+        "email": "gmatias@senado.pr.gov",
+        "website": "https://senado.pr.gov/senators/hon-gregorio-matias-rosario"
+      },
+      "bio": {
+        "birth_date": "1972-04-02",
+        "gender": "Male"
+      },
+      "image": "https://senado.pr.gov/document_vault/senator/18/FourYearPeriods/20/photo/GREGORIO MATIAS.jpg",
+      "sources": [
+        "https://senado.pr.gov/index.cfm?module=senadores",
+        "https://senado.pr.gov/senators/hon-gregorio-matias-rosario",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=709",
+        "https://www.senado.pr.gov/hon-gregorio-matias-rosario",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "hau-gretchen-pr-hd29",
+      "name": "Gretchen Hau",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-29)",
+      "state": "PR",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/76dae9be-424c-4da4-bf9f-9842fd3da06f"
+      },
+      "contact": {
+        "email": "ghau@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/gretchen-hau/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/REP-GRETCHEN-HAU-DIST-29.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gretchen_Hau",
+        "https://camara.registrok12.com/team/gretchen-hau",
+        "https://en.wikipedia.org/wiki/Gretchen_Hau",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=694",
+        "https://www.camara.pr.gov/team/gretchen-hau",
+        "https://www.camara.pr.gov/team/gretchen-hau/",
+        "https://www.linkedin.com/in/gretchen-marie-hau-esq-8b393255",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "ferrer-h-ctor-pr-hdat-large",
+      "name": "Héctor Ferrer",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0c318d9b-2b74-42c7-8ec2-7c89ee41955e"
+      },
+      "contact": {
+        "email": "hferrer@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/hector-e-ferrer-santiago/"
+      },
+      "social": {
+        "twitter": "HectorFerrerPR",
+        "facebook": "HectorFerrerPR",
+        "instagram": "hectorferrerpr/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._HECTOR_FERRER_JR._ACUMULACION_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/H%C3%A9ctor_Ferrer_Santiago",
+        "https://camara.registrok12.com/team/hector-e-ferrer-santiago",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=751",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/hector-e-ferrer-santiago",
+        "https://www.camara.pr.gov/team/hector-e-ferrer-santiago/",
+        "https://www.linkedin.com/in/hectorferrersantiago",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "s-nchez-lvarez-h-ctor-pr-sd8",
+      "name": "Héctor Sánchez Álvarez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-8)",
+      "state": "PR",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/38f02868-abca-42a6-8974-141a820343ee"
+      },
+      "contact": {
+        "email": "hsanchez@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/h%C3%A9ctor-joaqu%C3%ADn-s%C3%A1nchez-%C3%A1lvarez"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Hector_Joaquin_Sanchez_Alvarez",
+        "https://www.senado.pr.gov/h%C3%A9ctor-joaqu%C3%ADn-s%C3%A1nchez-%C3%A1lvarez",
+        "https://www.senado.pr.gov/senators/h%C3%A9ctor-joaqu%C3%ADn-s%C3%A1nchez-%C3%A1lvarez",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "barlucea-jamie-pr-sd5",
+      "name": "Jamie Barlucea",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-5)",
+      "state": "PR",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/30c2fbb8-324f-4b30-a42c-7b3a8768bd9b"
+      },
+      "contact": {
+        "email": "jbarlucea@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/jamie-barlucea-rodr%C3%ADguez"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jamie_Barlucea",
+        "https://www.senado.pr.gov/jamie-barlucea-rodr%C3%ADguez",
+        "https://www.senado.pr.gov/senators/jamie-barlucea-rodr%C3%ADguez",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "hern-ndez-ortiz-javy-pr-sdat-large",
+      "name": "Javy Hernández Ortiz",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aa4617e5-244d-4811-a2cf-6be1ca7f53f1"
+      },
+      "contact": {
+        "email": "luhernandez@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/luis-javier-hern-ndez-ortiz"
+      },
+      "bio": {
+        "birth_date": "1978-05-09",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Luis_Javier_Hern%C3%A1ndez_Ortiz",
+        "https://en.wikipedia.org/wiki/Luis_Javier_Hern%C3%A1ndez_Ortiz",
+        "https://www.senado.pr.gov/luis-javier-hern-ndez-ortiz",
+        "https://www.senado.pr.gov/senators/luis-javier-hern%C3%A1ndez-ortiz",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "rosa-jeison-pr-sd4",
+      "name": "Jeison Rosa",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-4)",
+      "state": "PR",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ca136080-4ad6-482c-b2dd-c2ad8c2d2824"
+      },
+      "contact": {
+        "email": "jrosa@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/jeison-rosa-ramos"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jeison_Rosa_Ramos",
+        "https://www.senado.pr.gov/jeison-rosa-ramos",
+        "https://www.senado.pr.gov/senators/jeison-rosa-ramos",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "nieves-jerry-pr-hd13",
+      "name": "Jerry Nieves",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-13)",
+      "state": "PR",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/452f8ea2-8d7e-453f-abb7-4a978e81c480"
+      },
+      "contact": {
+        "email": "jnieves@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/jerry-nieves-rosario/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jerry_Zahamir_Nieves_Rosario",
+        "https://camara.registrok12.com/team/jerry-nieves-rosario",
+        "https://www.camara.pr.gov/team/jerry-nieves-rosario",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "rodr-guez-veve-joanne-pr-sdat-large",
+      "name": "Joanne Rodríguez Veve",
+      "party": "Independent",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a67879ee-0450-4270-a99f-d186bed3f783"
+      },
+      "contact": {
+        "email": "joarodriguez@senado.pr.gov",
+        "website": "https://senado.pr.gov/senators/hon-joanne-m-rodr%C3%ADguez-veve"
+      },
+      "bio": {
+        "birth_date": "1983-02-03",
+        "gender": "Female"
+      },
+      "image": "https://senado.pr.gov/document_vault/senator/29/FourYearPeriods/31/thumbnail/JOANNE%20RODR%C3%8DGUEZ%20VEVE.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joanne_Rodr%C3%ADguez_Veve",
+        "https://en.wikipedia.org/wiki/Joanne_Rodr%C3%ADguez_Veve",
+        "https://senado.pr.gov/index.cfm?module=senadores",
+        "https://senado.pr.gov/senators/hon-joanne-m-rodr%C3%ADguez-veve",
+        "https://senado.pr.gov/senators/hon-joanne-m-rodríguez-veve",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=701",
+        "https://www.linkedin.com/in/joanne-rodr%C3%ADguez-veve-088952117",
+        "https://www.senado.pr.gov/hon-joanne-m-rodriguez-veve",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "franqui-atiles-joel-pr-hd15",
+      "name": "Joel Franqui Atiles",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-15)",
+      "state": "PR",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5bc0f1ac-d5bf-4915-be70-fec1a6693174"
+      },
+      "contact": {
+        "email": "jfranqui@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/joel-i-franqui-atiles/"
+      },
+      "bio": {
+        "birth_date": "1981-04-21",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/REP.-JOEL-FRANQUI-ATILES-DIST.-15-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joel_Franqui_Atiles",
+        "https://camara.registrok12.com/team/joel-i-franqui-atiles",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/joel-i-franqui-atiles",
+        "https://www.camara.pr.gov/team/joel-i-franqui-atiles/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=196",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "col-n-joito-pr-hd22",
+      "name": "Joito Colón",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-22)",
+      "state": "PR",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4b21c0ef-0e24-4e2a-92d4-5828b8d8b904"
+      },
+      "contact": {
+        "email": "joecolon@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/joe-joito-colon-rodriguez/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Joe_Col%C3%B3n",
+        "https://camara.registrok12.com/team/joe-joito-colon-rodriguez",
+        "https://www.camara.pr.gov/team/joe-joito-colon-rodriguez",
+        "https://www.camara.pr.gov/team/joe-joitocolon",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "navarro-su-rez-jorge-pr-hd5",
+      "name": "Jorge Navarro Suárez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-5)",
+      "state": "PR",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4243af78-477d-4221-ad97-b22e662e86d5"
+      },
+      "contact": {
+        "email": "jnavarro@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/jorge-navarro-suarez/"
+      },
+      "social": {
+        "facebook": "jorgenavarro.51"
+      },
+      "bio": {
+        "birth_date": "1964-07-08",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._JORGE_NAVARRO_DIST._5_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jorge_Navarro_Su%C3%A1rez",
+        "https://camara.registrok12.com/team/jorge-navarro-suarez",
+        "https://en.wikipedia.org/wiki/Jorge_Navarro_Su%C3%A1rez",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/jorge-navarro-suarez",
+        "https://www.camara.pr.gov/team/jorge-navarro-suarez/",
+        "https://www.linkedin.com/in/jorge-navarro-suarez-a1668915",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=10",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "torres-zamora-pichy-pr-hdat-large",
+      "name": "Pichy Torres Zamora",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ca4e7f3-fe25-4412-abe0-eba62eda6d1a"
+      },
+      "contact": {
+        "email": "jotorres@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/jose-e-torres-zamora/"
+      },
+      "bio": {
+        "birth_date": "1971-06-07",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._JOSE_PICHY_TORRES_ZAMORA_ACUMULACION_2_20.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jos%C3%A9_Torres_Zamora",
+        "https://camara.registrok12.com/team/jose-e-torres-zamora",
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Pichy_Torres_Zamora",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/jose-e-torres-zamora",
+        "https://www.camara.pr.gov/team/jose-e-torres-zamora/",
+        "https://www.linkedin.com/in/jose-pichy-torres-zamora-3046a2125",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=190",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "aponte-hern-ndez-jos-pr-hdat-large",
+      "name": "José Aponte Hernández",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2cdd7282-81fe-4c07-b50a-b162a16c4918"
+      },
+      "contact": {
+        "email": "japonte@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/jose-f-aponte-hernandez/"
+      },
+      "bio": {
+        "birth_date": "1958-01-19",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._JOSE_APONTE_HERNADEZ_ACUMULACION_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jos%C3%A9_Aponte_Hern%C3%A1ndez",
+        "https://camara.registrok12.com/team/jose-f-aponte-hernandez",
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Aponte_Hern%C3%A1ndez",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/jose-f-aponte-hernandez",
+        "https://www.camara.pr.gov/team/jose-f-aponte-hernandez/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=30",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "p-rez-cordero-jos-pr-hdat-large",
+      "name": "José Pérez Cordero",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/65f91ca5-2401-4bd4-b146-79b08b12fad6"
+      },
+      "contact": {
+        "email": "joperez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/jose-j-perez-cordero-2/"
+      },
+      "bio": {
+        "birth_date": "1981-04-14",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/REP.-JOSE-CHE-PEREZ-ACUMULACION-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jos%C3%A9_P%C3%A9rez_Cordero",
+        "https://camara.registrok12.com/team/jose-j-perez-cordero-2",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/jose-j-perez-cordero",
+        "https://www.camara.pr.gov/team/jose-j-perez-cordero-2",
+        "https://www.camara.pr.gov/team/jose-j-perez-cordero/",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "dalmau-santiago-jos-pr-sdat-large",
+      "name": "José Dalmau Santiago",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6f8348ec-b184-4c8d-b0dc-d82ef8dcb566"
+      },
+      "contact": {
+        "email": "jldalmau@senado.pr.gov",
+        "website": "https://senado.pr.gov/Pages/Senators/HON--JOSE-L--DALMAU-SANTIAGO.aspx"
+      },
+      "bio": {
+        "birth_date": "1966-09-19",
+        "gender": "Male"
+      },
+      "image": "https://senado.pr.gov/document_vault/senator/4/FourYearPeriods/7/photo/JOSE L DALMAU.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jos%C3%A9_Dalmau_Santiago",
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Luis_Dalmau",
+        "https://senado.pr.gov/index.cfm?module=senadores",
+        "https://senado.pr.gov/Pages/Senators/HON--JOSE-L--DALMAU-SANTIAGO.aspx",
+        "https://senado.pr.gov/senators/hon-jos%C3%A9-l-dalmau-santiago",
+        "https://senado.pr.gov/senators/hon-josé-l-dalmau-santiago",
+        "https://www.senado.pr.gov/hon-jos%C3%A9-l-dalmau-santiago",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "varela-conny-pr-hd32",
+      "name": "Conny Varela",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-32)",
+      "state": "PR",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a6de4da4-59cb-4214-8753-8b92683f3df4"
+      },
+      "contact": {
+        "email": "jvarela@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/jose-conny-varela/"
+      },
+      "social": {
+        "twitter": "connyvarelarep",
+        "facebook": "conny.representante",
+        "instagram": "connyvarelarep/"
+      },
+      "bio": {
+        "birth_date": "1954-02-13",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP.-JOSE-CONNY-VARELA-DIST.-32-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jos%C3%A9_Varela_Fern%C3%A1ndez",
+        "https://camara.registrok12.com/team/jose-conny-varela",
+        "https://en.wikipedia.org/wiki/Conny_Varela",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/jose-conny-varela",
+        "https://www.camara.pr.gov/team/jose-varela",
+        "https://www.camara.pr.gov/team/jose-varela/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=35",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "hern-ndez-che-to-pr-hd3",
+      "name": "Cheíto Hernández",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-3)",
+      "state": "PR",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8cd266da-71f0-4b96-aa14-d88569c76176"
+      },
+      "contact": {
+        "email": "jhernandez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/jose-hernandez-concepcion/"
+      },
+      "social": {
+        "facebook": "jose.hernandezconcepcion"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/JOSE-CHEITO-HERNANDEZ-DIST-3.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jos%C3%A9_Hern%C3%A1ndez_Concepci%C3%B3n",
+        "https://ballotpedia.org/Jose_Hernandez_(Puerto_Rico_house_candidate)",
+        "https://camara.registrok12.com/team/jose-hernandez-concepcion",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/jose-cheito-hernandez",
+        "https://www.camara.pr.gov/team/jose-cheito-hernandez/",
+        "https://www.camara.pr.gov/team/jose-hernandez-concepcion",
+        "https://www.camara.pr.gov/team/jose-hernandez-concepcion/",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "jim-nez-josean-pr-hd26",
+      "name": "Josean Jiménez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-26)",
+      "state": "PR",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ba0efd41-f7ff-4830-8068-054f40e2b650"
+      },
+      "contact": {
+        "email": "luijimenez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/luis-josean-jimenez-torres/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Luis_Jim%C3%A9nez_Torres",
+        "https://camara.registrok12.com/team/luis-josean-jimenez-torres",
+        "https://www.camara.pr.gov/team/luis-j-jimenez-torres",
+        "https://www.camara.pr.gov/team/luis-josean-jimenez-torres",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "santiago-rivera-josian-pr-sdat-large",
+      "name": "Josian Santiago Rivera",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/866332b6-4391-4b1c-b232-891a97013fe8"
+      },
+      "contact": {
+        "email": "jsantiago@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/jos%C3%A9-a-santiago-rivera"
+      },
+      "bio": {
+        "birth_date": "1957-08-27",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jos%C3%A9_Santiago_Rivera_(Puerto_Rico)",
+        "https://en.wikipedia.org/wiki/Josian_Santiago",
+        "https://www.senado.pr.gov/jos%C3%A9-a-santiago-rivera",
+        "https://www.senado.pr.gov/senators/jos%C3%A9-a-santiago-rivera",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "morales-juan-oscar-pr-sd1",
+      "name": "Juan Oscar Morales",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-1)",
+      "state": "PR",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/99800ecf-b7d7-43f5-ace4-53a770ee77eb"
+      },
+      "contact": {
+        "email": "jumorales@senado.pr.gov",
+        "website": "https://senado.pr.gov/senators/hon-juan-oscar-morales"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Juan_Morales_Rodr%C3%ADguez",
+        "https://senado.pr.gov/senators/hon-juan-oscar-morales",
+        "https://www.senado.pr.gov/hon-juan-oscar-morales",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "rom-n-karen-pr-sd4",
+      "name": "Karen Román",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-4)",
+      "state": "PR",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f90e073c-bfbb-4695-8a4c-527aa46c54c5"
+      },
+      "contact": {
+        "email": "kmroman@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/hon-karen-michelle-rom%C3%A1n-rodr%C3%ADguez"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Karen_Rom%C3%A1n_Rodr%C3%ADguez",
+        "https://www.senado.pr.gov/hon-karen-michelle-rom%C3%A1n-rodr%C3%ADguez",
+        "https://www.senado.pr.gov/senators/hon-karen-michelle-rom%C3%A1n-rodr%C3%ADguez",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "rosas-lilly-pr-hd19",
+      "name": "Lilly Rosas",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-19)",
+      "state": "PR",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/71cb1a9e-7449-4695-bec5-1f0349ad2e2c"
+      },
+      "contact": {
+        "email": "lrosas@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/lilibeth-lilly-rosas/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Lilibeth_Rosas",
+        "https://camara.registrok12.com/team/lilibeth-lilly-rosas",
+        "https://www.camara.pr.gov/team/lilibeth-lilly-rosas",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "burgos-lisie-pr-hdat-large",
+      "name": "Lisie Burgos",
+      "party": "Proyecto Dignidad",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/05dee06f-a941-43cc-a4ce-fef9f3132784"
+      },
+      "contact": {
+        "email": "lburgos@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/lisie-j-burgos-muniz/"
+      },
+      "social": {
+        "twitter": "lisieburgospr",
+        "facebook": "Lisieburgospr"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._LISIE_J._BURGOS_ACUMULACION_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lisie_Janet_Burgos_Mu%C3%B1iz",
+        "https://camara.registrok12.com/team/lisie-j-burgos-muniz",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=754",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/lisie-j-burgos-muniz",
+        "https://www.camara.pr.gov/team/lisie-j-burgos-muniz/",
+        "https://www.linkedin.com/in/lisie-burgos-mu%C3%B1iz-esq-62208146",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "col-n-la-santa-luis-daniel-pr-sd7",
+      "name": "Luis Daniel Colón La Santa",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-7)",
+      "state": "PR",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e6e8976-02d1-40e4-a3f7-d3eab8222e81"
+      },
+      "contact": {
+        "email": "ldcolon@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/luis-daniel-col%C3%B3n-la-santa"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Luis_Daniel_Col%C3%B3n_La_Santa",
+        "https://www.senado.pr.gov/luis-daniel-col%C3%B3n-la-santa",
+        "https://www.senado.pr.gov/senators/luis-daniel-col%C3%B3n-la-santa",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "p-rez-luis-pr-hd7",
+      "name": "Luis Pérez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-7)",
+      "state": "PR",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/76b29cd3-7c7d-4362-90f3-0067ece6bdca"
+      },
+      "contact": {
+        "email": "lperez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/luis-perez-ortiz/"
+      },
+      "social": {
+        "facebook": "jrperezortiz"
+      },
+      "bio": {
+        "birth_date": "1955-09-05",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._LUIS_JR._PEREZ_DIST._7_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Luis_P%C3%A9rez_Ortiz",
+        "https://camara.registrok12.com/team/luis-perez-ortiz",
+        "https://en.wikipedia.org/wiki/Luis_P%C3%A9rez_Ort%C3%ADz",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/luis-perez-ortiz",
+        "https://www.camara.pr.gov/team/luis-perez-ortiz/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=12",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "ramos-lourdes-pr-hdat-large",
+      "name": "Lourdes Ramos",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6978a4c8-ae95-48f2-aa28-0013484df43e"
+      },
+      "contact": {
+        "email": "lramos@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/maria-de-lourdes-ramos-rivera/"
+      },
+      "bio": {
+        "birth_date": "1960-08-06",
+        "gender": "Female"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/REP.-LOURDES-RAMOS-ACUMULACION-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mar%C3%ADa_de_Lourdes_Ramos_Rivera",
+        "https://camara.registrok12.com/team/maria-de-lourdes-ramos-rivera",
+        "https://en.wikipedia.org/wiki/Mar%C3%ADa_de_Lourdes_Ramos_Rivera",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/maria-de-lourdes-ramos-rivera",
+        "https://www.camara.pr.gov/team/maria-de-lourdes-ramos-rivera/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=44",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "santiago-negr-n-mar-a-de-lourdes-pr-sdat-large",
+      "name": "María de Lourdes Santiago Negrón",
+      "party": "Partido Independentista Puertorriqueño",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f583f4dd-fabe-4211-a565-657f7e690f2c"
+      },
+      "contact": {
+        "email": "mlsantiago@senado.pr.gov",
+        "website": "https://senado.pr.gov/senators/hon-mar%C3%ADa-de-l-santiago-negr%C3%B3n"
+      },
+      "bio": {
+        "birth_date": "1968-11-13",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Mar%C3%ADa_De_Lourdes_Santiago",
+        "https://en.wikipedia.org/wiki/Mar%C3%ADa_de_Lourdes_Santiago",
+        "https://senado.pr.gov/senators/hon-mar%C3%ADa-de-l-santiago-negr%C3%B3n",
+        "https://www.linkedin.com/in/maria-de-lourdes-santiago-b78b61b0",
+        "https://www.senado.pr.gov/hon-maria-de-l-santiago-negron",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "gonz-lez-marially-pr-sd5",
+      "name": "Marially González",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-5)",
+      "state": "PR",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dd5cfa44-9cb3-414b-a780-ea182b4fe217"
+      },
+      "contact": {
+        "email": "magonzalez@senado.pr.gov",
+        "website": "https://senado.pr.gov/senators/hon-marially-gonz%C3%A1lez-huertas"
+      },
+      "bio": {
+        "birth_date": "1981-08-16",
+        "gender": "Female"
+      },
+      "image": "https://senado.pr.gov/document_vault/senator/12/FourYearPeriods/14/photo/MARIALLY%20GONZALEZ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marially_Gonz%C3%A1lez",
+        "https://en.wikipedia.org/wiki/Marially_Gonz%C3%A1lez_Huertas",
+        "https://senado.pr.gov/index.cfm?module=senadores",
+        "https://senado.pr.gov/senators/hon-marially-gonz%C3%A1lez-huertas",
+        "https://senado.pr.gov/senators/hon-marially-gonzález-huertas",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=692",
+        "https://www.senado.pr.gov/hon-marially-gonz-lez-huertas",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "jim-nez-marissa-pr-sd8",
+      "name": "Marissa Jiménez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-8)",
+      "state": "PR",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9a9ebf96-43e3-41b9-976c-ffed31f5c0ec"
+      },
+      "contact": {
+        "email": "majimenez@senado.pr.gov",
+        "website": "https://senado.pr.gov/senators/hon-marissa-jim%C3%A9nez-santoni"
+      },
+      "bio": {
+        "birth_date": "1979-02-18",
+        "gender": "Female"
+      },
+      "image": "https://senado.pr.gov/document_vault/senator/21/FourYearPeriods/23/photo/MARISSA%20JIMENEZ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marissa_Jim%C3%A9nez",
+        "https://en.wikipedia.org/wiki/Marissa_Jim%C3%A9nez",
+        "https://senado.pr.gov/index.cfm?module=senadores",
+        "https://senado.pr.gov/senators/hon-marissa-jim%C3%A9nez-santoni",
+        "https://senado.pr.gov/senators/hon-marissa-jiménez-santoni",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=699",
+        "https://www.senado.pr.gov/hon-marissa-jim-nez-santoni",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "padilla-alvelo-migdalia-pr-sd2",
+      "name": "Migdalia Padilla Alvelo",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-2)",
+      "state": "PR",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b451e173-36b4-4664-ada7-ac5057ef8c9f"
+      },
+      "contact": {
+        "email": "mpadilla@senado.pr.gov",
+        "website": "https://senado.pr.gov/Pages/Senators/HON--MIGDALIA-PADILLA-ALVELO.aspx"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senado.pr.gov/document_vault/senator/22/FourYearPeriods/24/photo/Foto%20Oficial%20Sen%20Migdalia%20Padilla.jpg",
+      "sources": [
+        "https://ballotpedia.org/Migdalia_Padilla_Alvelo",
+        "https://en.wikipedia.org/wiki/Migdalia_Padilla",
+        "https://senado.pr.gov/index.cfm?module=senadores",
+        "https://senado.pr.gov/Pages/Senators/HON--MIGDALIA-PADILLA-ALVELO.aspx",
+        "https://senado.pr.gov/senators/hon-migdalia-padilla-alvelo",
+        "https://www.senado.pr.gov/hon-migdalia-padilla-alvelo",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "lebr-n-robles-nelie-pr-hdat-large",
+      "name": "Nelie Lebrón Robles",
+      "party": "Partido Independentista Puertorriqueño",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/22c8262b-8cd8-4cd9-a362-0cef505e9fed"
+      },
+      "contact": {
+        "email": "nlebron@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/nelie-lebron-robles/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Nelie_Lebron_Robels",
+        "https://camara.registrok12.com/team/nelie-lebron-robles",
+        "https://www.camara.pr.gov/team/nelie-lebron-robles",
+        "https://www.linkedin.com/in/nelie-lebron-robles-0677472",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "mor-n-nitza-pr-sd1",
+      "name": "Nitza Morán",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-1)",
+      "state": "PR",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/02d88e4b-3717-43c5-b7fd-14e6a2224043"
+      },
+      "contact": {
+        "email": "nmoran@senado.pr.gov",
+        "website": "https://senado.pr.gov/senators/hon-nitza-mor%C3%A1n-trinidad"
+      },
+      "bio": {
+        "birth_date": "1970-02-17",
+        "gender": "Female"
+      },
+      "image": "https://senado.pr.gov/document_vault/senator/23/FourYearPeriods/25/photo/NITZA%20MOR%C3%81N.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nitza_Mor%C3%A1n",
+        "https://en.wikipedia.org/wiki/Nitza_Mor%C3%A1n",
+        "https://senado.pr.gov/index.cfm?module=senadores",
+        "https://senado.pr.gov/senators/hon-nitza-mor%C3%A1n-trinidad",
+        "https://senado.pr.gov/senators/hon-nitza-morán-trinidad",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=685",
+        "https://www.senado.pr.gov/hon-nitza-mor-n-trinidad",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "gonz-lez-odalys-pr-hd18",
+      "name": "Odalys González",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-18)",
+      "state": "PR",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/26bc7931-4a5f-4f37-b79d-c050a4e2545a"
+      },
+      "contact": {
+        "email": "ogonzlaez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/odalys-gonzalez-gonzalez/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Odalys_Gonz%C3%A1lez_Gonz%C3%A1lez",
+        "https://camara.registrok12.com/team/odalys-gonzalez-gonzalez",
+        "https://www.camara.pr.gov/team/odalys-gonzalez-gonzalez",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "mart-nez-omayra-pr-hd21",
+      "name": "Omayra Martínez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-21)",
+      "state": "PR",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/62f8c6d0-e7cd-4dd9-b1b2-ddf97cb5aa1a"
+      },
+      "contact": {
+        "email": "omartinez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/omayra-m-martinez-vazquez/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Omayra_Mart%C3%ADnez",
+        "https://camara.registrok12.com/team/omayra-m-martinez-vazquez",
+        "https://www.camara.pr.gov/team/omayra-m-martinez-vazquez",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "santiago-pell-pr-hd10",
+      "name": "Pellé Santiago",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-10)",
+      "state": "PR",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/20b86a02-63a8-4bd4-baa2-3995871599ce"
+      },
+      "contact": {
+        "email": "psantiago@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/pedro-j-pelle-santiago-guzman/"
+      },
+      "bio": {
+        "birth_date": "1961-03-25",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://camara.registrok12.com/team/pedro-j-pelle-santiago-guzman",
+        "https://en.wikipedia.org/wiki/Pell%C3%A9_Santiago",
+        "https://www.camara.pr.gov/team/pedro-j-pelle-santiago-guzman",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "santos-rafy-pr-sd6",
+      "name": "Rafy Santos",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-6)",
+      "state": "PR",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ff8811ce-21b5-48db-a7cb-da94f0953105"
+      },
+      "contact": {
+        "email": "rasantos@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/rafael-santos-ortiz"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Rafael_Santos_Ortiz",
+        "https://www.linkedin.com/in/rafy-santos-a6b2b25a",
+        "https://www.senado.pr.gov/rafael-santos-ortiz",
+        "https://www.senado.pr.gov/senators/rafael-santos-ortiz",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "torres-ram-n-pr-hdat-large",
+      "name": "Ramón Torres",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ae89b237-98e6-4b4c-abb4-f0ba928ccd1e"
+      },
+      "contact": {
+        "email": "ramtorres@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/ramon-torres-cruz/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ram%C3%B3n_Torres",
+        "https://camara.registrok12.com/team/ramon-torres-cruz",
+        "https://www.camara.pr.gov/team/ramon-torres",
+        "https://www.camara.pr.gov/team/ramon-torres-cruz",
+        "https://www.linkedin.com/in/ram%C3%B3n-torres-4439a692",
+        "https://www.linkedin.com/in/rep-ram%C3%B3n-torres-4439a692",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "figueroa-rey-pr-hd16",
+      "name": "Rey Figueroa",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-16)",
+      "state": "PR",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0c0dc0a3-60fa-4993-a93e-01c376346c79"
+      },
+      "contact": {
+        "email": "reifigueroa@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/reinaldo-reyfigueroa/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Reinaldo_Figueroa",
+        "https://camara.registrok12.com/team/reinaldo-reyfigueroa",
+        "https://www.camara.pr.gov/team/reinaldo-reyfigueroa",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "l-pez-roberto-pr-hd31",
+      "name": "Roberto López",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-31)",
+      "state": "PR",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0dea759e-0b22-47bf-b3d1-2587d075dbf8"
+      },
+      "contact": {
+        "email": "roblopez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/roberto-lopez-roman/"
+      },
+      "bio": {
+        "birth_date": "1978-03-20",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Roberto_L%C3%B3pez_Rom%C3%A1n_(Puerto_Rico)",
+        "https://camara.registrok12.com/team/roberto-lopez-roman",
+        "https://en.wikipedia.org/wiki/Roberto_L%C3%B3pez_Rom%C3%A1n",
+        "https://www.camara.pr.gov/team/roberto-lopez-roman",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "rivera-ruiz-de-porras-roberto-pr-hd39",
+      "name": "Roberto Rivera Ruiz de Porras",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-39)",
+      "state": "PR",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c93982f8-324b-4201-9666-92f60f890817"
+      },
+      "contact": {
+        "email": "rrivera@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/roberto-rivera-ruiz-de-porras/"
+      },
+      "bio": {
+        "birth_date": "1950-10-28",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._ROBERTO_RIVERA_DIST_39_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roberto_Rivera_Ruiz_De_Porras",
+        "https://camara.registrok12.com/team/roberto-rivera-ruiz-de-porras",
+        "https://en.wikipedia.org/wiki/Roberto_Rivera_Ruiz",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/roberto-rivera-ruiz",
+        "https://www.camara.pr.gov/team/roberto-rivera-ruiz-de-porras",
+        "https://www.camara.pr.gov/team/roberto-rivera-ruiz/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=42",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "soto-aguil-roxanna-pr-sdat-large",
+      "name": "Roxanna Soto Aguilú",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/39c6f652-f65f-44c9-8440-58ae7128af99"
+      },
+      "contact": {
+        "email": "risoto@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/roxanna-i-soto-aguil%C3%BA"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Roxanna_Soto_Aguil%C3%BA",
+        "https://www.linkedin.com/in/roxanna-soto-aguilu-5792b577",
+        "https://www.senado.pr.gov/roxanna-i-soto-aguil%C3%BA",
+        "https://www.senado.pr.gov/senators/roxanna-i-soto-aguil%C3%BA",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "est-vez-sergio-pr-hd40",
+      "name": "Sergio Estévez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-40)",
+      "state": "PR",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/083b3bfe-e8be-4402-a644-814e7113d28f"
+      },
+      "contact": {
+        "email": "sestevez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/sergio-estevez-velez/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Sergio_Estevez",
+        "https://camara.registrok12.com/team/sergio-estevez-velez",
+        "https://www.camara.pr.gov/team/sergio-estevez",
+        "https://www.camara.pr.gov/team/sergio-estevez-velez",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "higgins-sol-pr-hd35",
+      "name": "Sol Higgins",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-35)",
+      "state": "PR",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/18257138-221f-4901-89d3-948b5c914950"
+      },
+      "contact": {
+        "email": "shiggins@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/sol-y-higgins-cuadrado/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._SOL_HIGGINS_CUADRADO_DIST_35_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sol_Higgins",
+        "https://camara.registrok12.com/team/sol-y-higgins-cuadrado",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=745",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/sol-y-higgins-cuadrado",
+        "https://www.camara.pr.gov/team/sol-y-higgins-cuadrado/",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "vargas-laureano-swanny-pr-hdat-large",
+      "name": "Swanny Vargas Laureano",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7ca1f9cc-27d4-4fea-a2e5-ab1951065143"
+      },
+      "contact": {
+        "email": "svargas@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/swanny-e-vargas-laureano/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Swanny_Enit_Vargas",
+        "https://camara.registrok12.com/team/swanny-e-vargas-laureano",
+        "https://www.camara.pr.gov/team/swanny-e-vargas-laureano",
+        "https://www.linkedin.com/in/swanny-enit",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "p-rez-ram-rez-tatiana-pr-hdat-large",
+      "name": "Tatiana Pérez Ramírez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-At-Large)",
+      "state": "PR",
+      "district": "HD-At-Large",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7a942bff-5989-4f9c-863e-0c30a5560ab8"
+      },
+      "contact": {
+        "email": "tperez@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/tatiana-perez-ramirez/"
+      },
+      "bio": {
+        "birth_date": "1988-05-21",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Tatiana_P%C3%A9rez_Ram%C3%ADrez",
+        "https://camara.registrok12.com/team/tatiana-perez-ramirez",
+        "https://en.wikipedia.org/wiki/Tatiana_P%C3%A9rez_Ram%C3%ADrez",
+        "https://es.wikipedia.org/wiki/Tatiana_P%C3%A9rez_Ram%C3%ADrez",
+        "https://www.camara.pr.gov/team/tatiana-perez-ramirez",
+        "https://www.linkedin.com/in/tatianaperezpr",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "rivera-schatz-thomas-pr-sdat-large",
+      "name": "Thomas Rivera Schatz",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3caf98b9-5210-45ab-bbde-794edfc41451"
+      },
+      "contact": {
+        "email": "trivera@senado.pr.gov",
+        "website": "https://senado.pr.gov/Pages/Senators/HON--THOMAS-RIVERA-SCHATZ.aspx"
+      },
+      "bio": {
+        "birth_date": "1966-06-10",
+        "gender": "Male"
+      },
+      "image": "https://senado.pr.gov/document_vault/senator/31/FourYearPeriods/33/photo/Foto oficial Hon. Thomas Rivera Schatz 500x599.JPG",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Thomas_Rivera_Schatz",
+        "https://senado.pr.gov/index.cfm?module=senadores",
+        "https://senado.pr.gov/Pages/Senators/HON--THOMAS-RIVERA-SCHATZ.aspx",
+        "https://senado.pr.gov/senators/hon-thomas-rivera-schatz",
+        "https://www.senado.pr.gov/hon-thomas-rivera-schatz",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "par-s-v-ctor-pr-hd4",
+      "name": "Víctor Parés",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-4)",
+      "state": "PR",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/90109872-9f06-48fb-8118-25453deb69c7"
+      },
+      "contact": {
+        "email": "vpares@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/victor-l-pares-otero/"
+      },
+      "bio": {
+        "birth_date": "1966-07-18",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._VICTOR_PARES_DIST_4_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/V%C3%ADctor_Par%C3%A9s_Otero",
+        "https://camara.registrok12.com/team/victor-l-pares-otero",
+        "https://en.wikipedia.org/wiki/V%C3%ADctor_Par%C3%A9s",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/victor-l-pares-otero",
+        "https://www.camara.pr.gov/team/victor-l-pares-otero/",
+        "https://www.linkedin.com/in/v%C3%ADctor-l-par%C3%A9s-otero-31878864",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=193",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "del-valle-correa-wanda-pr-hd38",
+      "name": "Wanda Del Valle Correa",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-38)",
+      "state": "PR",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ebbc5719-4209-4c46-9ae5-19f0753e1259"
+      },
+      "contact": {
+        "email": "wdelvalle@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/wanda-del-valle-correa/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/REP.-WANDA-DEL-VALLE-DIST-38-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wanda_Del_Valle_Correa",
+        "https://camara.registrok12.com/team/wanda-del-valle-correa",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=748",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/wanda-del-valle-correa",
+        "https://www.camara.pr.gov/team/wanda-del-valle-correa/",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "soto-wandy-pr-sd7",
+      "name": "Wandy Soto",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-7)",
+      "state": "PR",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7b837260-0288-4b92-823e-1c07dc2f49d3"
+      },
+      "contact": {
+        "email": "wsoto@senado.pr.gov",
+        "website": "https://senado.pr.gov/senators/hon-wanda-m-soto-tolentino"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senado.pr.gov/document_vault/senator/24/FourYearPeriods/26/thumbnail/WANDA%20SOTO.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wanda_Soto",
+        "https://en.wikipedia.org/wiki/Wanda_Soto_Tolentino",
+        "https://senado.pr.gov/index.cfm?module=senadores",
+        "https://senado.pr.gov/senators/hon-wanda-m-soto-tolentino",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=697",
+        "https://www.senado.pr.gov/hon-wanda-m-soto-tolentino",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "reyes-berr-os-wilmer-pr-sd6",
+      "name": "Wilmer Reyes Berríos",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-6)",
+      "state": "PR",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eeb0f90f-4d9f-439a-840f-9340a4c9edae"
+      },
+      "contact": {
+        "email": "wreyes@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/senators/wilmer-reyes-berr%C3%ADos"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Wilmer_Reyes_Berrios",
+        "https://www.linkedin.com/in/wilmer-reyes-berr%C3%ADos-6b3940219",
+        "https://www.senado.pr.gov/senators/wilmer-reyes-berr%C3%ADos",
+        "https://www.senado.pr.gov/wilmer-reyes-berr%C3%ADos",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "rom-n-wilson-pr-hd17",
+      "name": "Wilson Román",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-17)",
+      "state": "PR",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a8c74dd2-a9e8-44f3-9398-4b8b08f2f064"
+      },
+      "contact": {
+        "email": "wroman@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/wilson-j-roman-lopez/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/Wilson_Roman_420px.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wilson_Rom%C3%A1n_L%C3%B3pez",
+        "https://camara.registrok12.com/team/wilson-j-roman-lopez",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/wilson-j-roman-lopez",
+        "https://www.camara.pr.gov/team/wilson-j-roman-lopez/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=231",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "lebr-n-yashira-pr-hd8",
+      "name": "Yashira Lebrón",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-8)",
+      "state": "PR",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8d832fa0-e534-4a0e-ad30-0251f23c8ae5"
+      },
+      "contact": {
+        "email": "ylebron@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/yashira-lebron-rodriguez/"
+      },
+      "social": {
+        "facebook": "RepresentanteYashiraLebron"
+      },
+      "bio": {
+        "birth_date": "1981-07-24",
+        "gender": "Female"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2021/08/REP.-YASHIRA-LEBRON-DIST.-8-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Yashira_Lebr%C3%B3n_Rodr%C3%ADguez",
+        "https://camara.registrok12.com/team/yashira-lebron-rodriguez",
+        "https://en.wikipedia.org/wiki/Yashira_Lebr%C3%B3n_Rodr%C3%ADguez",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/yashira-lebron-rodriguez",
+        "https://www.camara.pr.gov/team/yashira-lebron-rodriguez/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=185",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "fourquet-ngel-pr-hd24",
+      "name": "Ángel Fourquet",
+      "party": "Partido Popular Democrático",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-24)",
+      "state": "PR",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4c98369a-5291-4b17-90da-e967d5d92657"
+      },
+      "contact": {
+        "email": "afourquet@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/angel-a-fourquet-cordero/"
+      },
+      "social": {
+        "twitter": "RepTitoFourquet",
+        "facebook": "angeltito.fourquetcordero",
+        "instagram": "angelfourquet/?hl=es"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._ANGEL_FOURQUET_DIST._24_1_10.jpg",
+      "sources": [
+        "https://ballotpedia.org/%C3%81ngel_Fourquet_Cordero",
+        "https://camara.registrok12.com/team/angel-a-fourquet-cordero",
+        "https://sutra.oslpr.org/osl/esutra/AdmLegisladorReg.aspx?rid=734",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/angel-a-fourquet-cordero",
+        "https://www.camara.pr.gov/team/angel-a-fourquet-cordero/",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "morey-noble-ngel-pr-hd6",
+      "name": "Ángel Morey Noble",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-6)",
+      "state": "PR",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e99c49b9-28da-46d9-9f6e-4c2ea65162a4"
+      },
+      "contact": {
+        "email": "amorey@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/angel-morey-noble/"
+      },
+      "bio": {
+        "birth_date": "1946-12-27",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._ANGEL_MOREY_DIST._6.jpg",
+      "sources": [
+        "https://ballotpedia.org/%C3%81ngel_Morey_Noble",
+        "https://camara.registrok12.com/team/angel-morey-noble",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/angel-morey-noble",
+        "https://www.camara.pr.gov/team/angel-morey-noble/",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "pe-a-ram-rez-ngel-pr-hd33",
+      "name": "Ángel Peña Ramírez",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Representative (HD-33)",
+      "state": "PR",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d32dffc7-d1f4-41fe-80a5-f1581d34d090"
+      },
+      "contact": {
+        "email": "anpena@camara.pr.gov",
+        "website": "https://camara.registrok12.com/team/angel-r-pena-ramirez/"
+      },
+      "social": {
+        "facebook": "angelpenajr"
+      },
+      "bio": {
+        "birth_date": "1978-04-13",
+        "gender": "Male"
+      },
+      "image": "https://www.camara.pr.gov/wp-content/uploads/2020/07/REP._ANGEL_PENA_DIST._33.jpg",
+      "sources": [
+        "https://ballotpedia.org/%C3%81ngel_Pe%C3%B1a_Ram%C3%ADrez",
+        "https://camara.registrok12.com/team/angel-r-pena-ramirez",
+        "https://en.wikipedia.org/wiki/Angel_Pe%C3%B1a_Ram%C3%ADrez",
+        "https://www.camara.pr.gov/page-team",
+        "https://www.camara.pr.gov/page-team/",
+        "https://www.camara.pr.gov/team/angel-r-pena-ramirez",
+        "https://www.camara.pr.gov/team/angel-r-pena-ramirez/",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/Biografia.aspx",
+        "https://www.tucamarapr.org/dnncamara/ComposiciondelaCamara/biografia.aspx?rep=27",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    },
+    {
+      "politician_id": "toledo-l-pez-ngel-pr-sdat-large",
+      "name": "Ángel Toledo López",
+      "party": "Partido Nuevo Progresista",
+      "level": "state",
+      "role": "legislator",
+      "office": "Puerto Rico State Senator (SD-At-Large)",
+      "state": "PR",
+      "district": "SD-At-Large",
+      "chamber": "upper",
+      "jurisdiction": "PR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ab4e4bba-4cbb-4508-a34c-203d1b18bd02"
+      },
+      "contact": {
+        "email": "atoledo@senado.pr.gov",
+        "website": "https://www.senado.pr.gov/%C3%A1ngel-toledo-l%C3%B3pez"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/%C3%81ngel_Antonio_Toledo_L%C3%B3pez",
+        "https://www.linkedin.com/in/%C3%A1ngel-toledo-l%C3%B3pez-2729964a",
+        "https://www.senado.pr.gov/%C3%A1ngel-toledo-l%C3%B3pez",
+        "https://www.senado.pr.gov/senators/%C3%A1ngel-toledo-l%C3%B3pez",
+        "https://data.openstates.org/people/current/pr.csv"
+      ]
+    }
+  ]
+}

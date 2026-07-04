@@ -1,0 +1,3648 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/ut.csv",
+  "state": "UT",
+  "politicians": [
+    {
+      "politician_id": "maloy-cory-ut-hd52",
+      "name": "Cory Maloy",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-52)",
+      "state": "UT",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8487aadf-5bd8-46b1-97a3-2db855c534a0"
+      },
+      "contact": {
+        "email": "corymaloy@le.utah.gov",
+        "district_voice": "801-477-0019",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414486"
+      },
+      "bio": {
+        "birth_date": "1962-07-31",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/MALOYC.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cory_Maloy",
+        "https://en.wikipedia.org/wiki/Cory_Maloy",
+        "https://house.utah.gov/rep/MALOYC",
+        "https://house.utah.gov/rep/MALOYC/",
+        "https://house.utleg.gov/rep/MALOYC",
+        "https://house.utleg.gov/rep/MALOYC/",
+        "https://justfacts.votesmart.org/candidate/biography/168612/cory-maloy",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/acorymaloy",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "stoddard-andrew-ut-hd40",
+      "name": "Andrew Stoddard",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-40)",
+      "state": "UT",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eac36970-1c63-4b4c-81b1-3a39536bd69d"
+      },
+      "contact": {
+        "email": "astoddard@le.utah.gov",
+        "district_voice": "385-256-3281",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415014"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/STODDA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Andrew_Stoddard",
+        "https://en.wikipedia.org/wiki/Andrew_Stoddard",
+        "https://house.utah.gov/rep/STODDA",
+        "https://house.utah.gov/rep/STODDA/",
+        "https://house.utleg.gov/rep/STODDA",
+        "https://house.utleg.gov/rep/STODDA/",
+        "https://justfacts.votesmart.org/candidate/182185/andrew-stoddard",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/andrewstoddard",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "romero-angela-ut-hd25",
+      "name": "Angela Romero",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-25)",
+      "state": "UT",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d987aff4-abcf-4f2a-826d-b5741d065d44"
+      },
+      "contact": {
+        "email": "angelaromero@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1411502"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/ROMERAY.jpg",
+      "sources": [
+        "https://ballotpedia.org/Angela_Romero",
+        "https://en.wikipedia.org/wiki/Angela_Romero",
+        "https://house.utah.gov/rep/ROMERAY",
+        "https://house.utah.gov/rep/ROMERAY/",
+        "https://house.utleg.gov/rep/ROMERAY",
+        "https://house.utleg.gov/rep/ROMERAY/",
+        "https://justfacts.votesmart.org/candidate/biography/137464/angela-romero",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/angela-romero-87754643",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "millner-ann-ut-sd5",
+      "name": "Ann Millner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-5)",
+      "state": "UT",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6b86542a-9b8a-418f-a275-6c261cdd86d2"
+      },
+      "contact": {
+        "email": "amillner@le.utah.gov",
+        "district_voice": "801-900-3897",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1412594"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/MILLNA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ann_Millner",
+        "https://en.wikipedia.org/wiki/Ann_Millner",
+        "https://justfacts.votesmart.org/candidate/biography/151613/ann-millner",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/MILLNA",
+        "https://senate.utah.gov/sen/MILLNA/",
+        "https://www.linkedin.com/in/annmillner",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "loubet-anthony-ut-hd27",
+      "name": "Anthony Loubet",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-27)",
+      "state": "UT",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7c0df02d-1ef0-4fa9-b708-ccafff35649e"
+      },
+      "contact": {
+        "email": "aloubet@le.utah.gov",
+        "district_voice": "801-657-0466",
+        "website": "https://house.utah.gov/rep/LOUBEA/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/LOUBEA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anthony_Loubet",
+        "https://en.wikipedia.org/wiki/Anthony_Loubet",
+        "https://house.utah.gov/rep/LOUBEA",
+        "https://house.utah.gov/rep/LOUBEA/",
+        "https://house.utleg.gov/rep/LOUBEA",
+        "https://house.utleg.gov/rep/LOUBEA/",
+        "https://justfacts.votesmart.org/candidate/biography/192305/anthony-loubet",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/anthonyloubet",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "defay-ariel-ut-hd15",
+      "name": "Ariel Defay",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-15)",
+      "state": "UT",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6d3d4043-1ec3-454c-a517-4036722c50ee"
+      },
+      "contact": {
+        "email": "adefay@le.utah.gov",
+        "district_voice": "801-793-8944",
+        "website": "https://house.utah.gov/rep/DEFAYA/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/DEFAYA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ariel_Defay",
+        "https://en.wikipedia.org/wiki/Ariel_Defay",
+        "https://house.utah.gov/rep/DEFAYA",
+        "https://house.utah.gov/rep/DEFAYA/",
+        "https://house.utleg.gov/rep/DEFAYA",
+        "https://house.utleg.gov/rep/DEFAYA/",
+        "https://justfacts.votesmart.org/candidate/biography/214281/ariel-defay",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/ariel-defay-635743189",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "matthews-ashlee-ut-hd37",
+      "name": "Ashlee Matthews",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-37)",
+      "state": "UT",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8a770a9d-d24e-4468-9194-fa2ff1f422e3"
+      },
+      "contact": {
+        "email": "amatthews@le.utah.gov",
+        "district_voice": "385-264-2024",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415432"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/MATTHA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ashlee_Matthews",
+        "https://en.wikipedia.org/wiki/Ashlee_Matthews",
+        "https://house.utah.gov/rep/MATTHA",
+        "https://house.utah.gov/rep/MATTHA/",
+        "https://house.utleg.gov/rep/MATTHA",
+        "https://house.utleg.gov/rep/MATTHA/",
+        "https://justfacts.votesmart.org/candidate/192320/ashlee-matthews",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/ashlee-matthews-10253032",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "brammer-brady-ut-sd21",
+      "name": "Brady Brammer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-21)",
+      "state": "UT",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b8751ce0-ba9b-44a0-8658-9cc9dc5f4c2c"
+      },
+      "contact": {
+        "email": "bbrammer@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415048"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/BRAMMB.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brady_Brammer",
+        "https://en.wikipedia.org/wiki/Brady_Brammer",
+        "https://house.utah.gov/rep/BRAMMB",
+        "https://house.utah.gov/rep/BRAMMB/",
+        "https://house.utleg.gov/rep/BRAMMB",
+        "https://house.utleg.gov/rep/BRAMMB/",
+        "https://justfacts.votesmart.org/candidate/biography/182164/brady-brammer",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/BRAMMB",
+        "https://www.linkedin.com/in/brammer",
+        "https://www.spauldinglaw.com/brady-brammer",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "bolinder-bridger-ut-hd29",
+      "name": "Bridger Bolinder",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-29)",
+      "state": "UT",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3e388e2d-1b4a-49dc-9aa5-38353166e08f"
+      },
+      "contact": {
+        "email": "bbolinder@le.utah.gov",
+        "district_voice": "435-255-3093",
+        "website": "https://house.utah.gov/rep/BOLINB/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/BOLINB.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bridger_Bolinder",
+        "https://en.wikipedia.org/wiki/Bridger_Bolinder",
+        "https://house.utah.gov/rep/BOLINB",
+        "https://house.utah.gov/rep/BOLINB/",
+        "https://house.utleg.gov/rep/BOLINB",
+        "https://house.utleg.gov/rep/BOLINB/",
+        "https://justfacts.votesmart.org/candidate/biography/204623/bridger-bolinder",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/bridger-bolinder-33307021a",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "roberts-cal-ut-hd46",
+      "name": "Cal Roberts",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-46)",
+      "state": "UT",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8e452a53-e405-49f9-9031-77d8a9f63bd3"
+      },
+      "contact": {
+        "email": "croberts@le.utah.gov",
+        "website": "https://house.utleg.gov/rep/ROBERC/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/CalRoberts2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cal_Roberts",
+        "https://en.wikipedia.org/wiki/Calvin_Roberts_(politician)",
+        "https://house.utleg.gov/rep/ROBERC",
+        "https://justfacts.votesmart.org/candidate/biography/214332/cal-roberts",
+        "https://www.linkedin.com/in/cal-roberts-a9761244",
+        "https://www.linkedin.com/in/calvin-roberts-a9761244",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "musselman-cal-ut-sd4",
+      "name": "Cal Musselman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-4)",
+      "state": "UT",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/036ab735-ad82-450e-a5ca-098b1436cb90"
+      },
+      "contact": {
+        "email": "cmusselman@le.utah.gov",
+        "district_voice": "801-773-1777",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415056"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/MUSSECR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Calvin_Musselman",
+        "https://en.wikipedia.org/wiki/Cal_Musselman",
+        "https://house.utah.gov/rep/MUSSECR",
+        "https://house.utah.gov/rep/MUSSECR/",
+        "https://house.utleg.gov/rep/MUSSECR",
+        "https://house.utleg.gov/rep/MUSSECR/",
+        "https://justfacts.votesmart.org/candidate/biography/182138/cal-musselman",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/MUSSECR",
+        "https://www.linkedin.com/in/calvin-ray-musselman-0414301b",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "pierucci-candice-ut-hd49",
+      "name": "Candice Pierucci",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-49)",
+      "state": "UT",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b4977f98-8a0d-4e4b-a43f-b8ee80adba2b"
+      },
+      "contact": {
+        "email": "cpierucci@le.utah.gov",
+        "district_voice": "385-414-1488",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415318"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/PIERUC.jpg",
+      "sources": [
+        "https://ballotpedia.org/Candice_Pierucci",
+        "https://en.wikipedia.org/wiki/Candice_Pierucci",
+        "https://house.utah.gov/rep/PIERUC",
+        "https://house.utah.gov/rep/PIERUC/",
+        "https://house.utleg.gov/rep/PIERUC",
+        "https://house.utleg.gov/rep/PIERUC/",
+        "https://justfacts.votesmart.org/candidate/biography/187653/candice-pierucci",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/d-candice-backus-pierucci-97822184",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "albrecht-carl-ut-hd70",
+      "name": "Carl Albrecht",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-70)",
+      "state": "UT",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8967df77-dc79-46e0-873c-b79f9cf73e1f"
+      },
+      "contact": {
+        "email": "carlalbrecht@le.utah.gov",
+        "district_voice": "435-979-6578",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414402"
+      },
+      "bio": {
+        "birth_date": "1952-04-09",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/ALBRECR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carl_R._Albrecht",
+        "https://en.wikipedia.org/wiki/Carl_Albrecht_(politician)",
+        "https://house.utah.gov/rep/ALBRECR",
+        "https://house.utah.gov/rep/ALBRECR/",
+        "https://house.utleg.gov/rep/ALBRECR",
+        "https://house.utleg.gov/rep/ALBRECR/",
+        "https://justfacts.votesmart.org/candidate/biography/168710/carl-albrecht",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "moss-carol-ut-hd34",
+      "name": "Carol Moss",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-34)",
+      "state": "UT",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8d06fd93-cc42-47e3-a00c-2229718b7226"
+      },
+      "contact": {
+        "email": "csmoss@le.utah.gov",
+        "district_voice": "801-647-8764",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1248"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/MOSSCS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carol_Moss",
+        "https://en.wikipedia.org/wiki/Carol_Spackman_Moss",
+        "https://house.utah.gov/rep/MOSSCS",
+        "https://house.utah.gov/rep/MOSSCS/",
+        "https://house.utleg.gov/rep/MOSSCS",
+        "https://house.utleg.gov/rep/MOSSCS/",
+        "https://justfacts.votesmart.org/candidate/biography/168659/carol-spackman-moss",
+        "https://justfacts.votesmart.org/candidate/biography/50719/carol-spackman-moss",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "snider-casey-ut-hd5",
+      "name": "Casey Snider",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-5)",
+      "state": "UT",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5d8ada2a-75c6-4aa6-b359-29720794fb7e"
+      },
+      "contact": {
+        "email": "csnider@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414881"
+      },
+      "bio": {
+        "birth_date": "1985-11-26",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/SNIDEC.jpg",
+      "sources": [
+        "https://ballotpedia.org/Casey_Snider",
+        "https://en.wikipedia.org/wiki/Casey_Snider",
+        "https://house.utah.gov/rep/SNIDEC",
+        "https://house.utah.gov/rep/SNIDEC/",
+        "https://house.utleg.gov/rep/SNIDEC",
+        "https://house.utleg.gov/rep/SNIDEC/",
+        "https://justfacts.votesmart.org/candidate/182132/casey-snider",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "acton-cheryl-ut-hd38",
+      "name": "Cheryl Acton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-38)",
+      "state": "UT",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/54fcc31c-a3e5-47ea-a044-d1223c6bce65"
+      },
+      "contact": {
+        "email": "cacton@le.utah.gov",
+        "district_voice": "801-809-3571",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414828"
+      },
+      "bio": {
+        "birth_date": "1964-05-22",
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/ACTONCK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cheryl_Acton",
+        "https://en.wikipedia.org/wiki/Cheryl_Acton",
+        "https://house.utah.gov/rep/ACTONCK",
+        "https://house.utah.gov/rep/ACTONCK/",
+        "https://house.utleg.gov/rep/ACTONCK",
+        "https://house.utleg.gov/rep/ACTONCK/",
+        "https://justfacts.votesmart.org/candidate/biography/177882/cheryl-acton",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "wilson-chris-ut-sd2",
+      "name": "Chris Wilson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-2)",
+      "state": "UT",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3acc854e-2a4d-43ff-9cfb-63d527bb8186"
+      },
+      "contact": {
+        "email": "cwilson@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415396"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/WILSOCH.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Wilson_(Utah)",
+        "https://en.wikipedia.org/wiki/Chris_H._Wilson",
+        "https://justfacts.votesmart.org/candidate/biography/192461/chris-wilson",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/WILSOCH",
+        "https://senate.utah.gov/sen/WILSOCH/",
+        "https://www.linkedin.com/in/chris-wilson-275333191",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "watkins-christine-ut-hd67",
+      "name": "Christine Watkins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-67)",
+      "state": "UT",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/052622aa-50ab-47c7-84b8-175d144a9d59"
+      },
+      "contact": {
+        "email": "christinewatkins@le.utah.gov",
+        "district_voice": "435-650-1969",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/2078"
+      },
+      "bio": {
+        "birth_date": "1950-05-18",
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/WATKICF.jpg",
+      "sources": [
+        "https://ballotpedia.org/Christine_Watkins",
+        "https://en.wikipedia.org/wiki/Christine_Watkins",
+        "https://house.utah.gov/rep/WATKICF",
+        "https://house.utah.gov/rep/WATKICF/",
+        "https://house.utleg.gov/rep/WATKICF",
+        "https://house.utleg.gov/rep/WATKICF/",
+        "https://justfacts.votesmart.org/candidate/biography/103747/christine-watkins",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/christine-watkins-45698aa",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "okerlund-clint-ut-hd42",
+      "name": "Clint Okerlund",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-42)",
+      "state": "UT",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/12581dac-c07b-40a8-b309-3c9ea167f913"
+      },
+      "contact": {
+        "email": "cokerlund@le.utah.gov",
+        "district_voice": "801-214-4948",
+        "website": "https://house.utleg.gov/rep/OKERLC/"
+      },
+      "bio": {
+        "birth_date": "1977-04-06",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ClintOkerlund2024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Clint_Okerlund",
+        "https://en.wikipedia.org/wiki/Clinton_Okerlund",
+        "https://house.utleg.gov/rep/OKERLC",
+        "https://justfacts.votesmart.org/candidate/214324/clint-okerlund",
+        "https://www.linkedin.com/in/clint-okerlund-6a6b1130",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "jack-colin-ut-hd73",
+      "name": "Colin Jack",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-73)",
+      "state": "UT",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2fb1aaec-83c2-41f3-b98a-8a8a34e7301e"
+      },
+      "contact": {
+        "email": "cjack@le.utah.gov",
+        "website": "https://house.utah.gov/rep/JACKC/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/JACKC.jpg",
+      "sources": [
+        "https://ballotpedia.org/Colin_Jack",
+        "https://house.utah.gov/rep/JACKC",
+        "https://house.utah.gov/rep/JACKC/",
+        "https://house.utleg.gov/rep/JACKC",
+        "https://house.utleg.gov/rep/JACKC/",
+        "https://justfacts.votesmart.org/candidate/204634/colin-jack",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "mccay-dan-ut-sd18",
+      "name": "Dan McCay",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-18)",
+      "state": "UT",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6540aa74-9456-4b29-9b56-cadd31104db2"
+      },
+      "contact": {
+        "email": "dmccay@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1411368"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/MCCAYD.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dan_McCay",
+        "https://en.wikipedia.org/wiki/Daniel_McCay",
+        "https://justfacts.votesmart.org/candidate/135315/dan-mccay",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/MCCAYD",
+        "https://senate.utah.gov/sen/MCCAYD/",
+        "https://www.linkedin.com/in/daniel-mccay-1813792",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "shallenberger-dave-ut-hd58",
+      "name": "Dave Shallenberger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-58)",
+      "state": "UT",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e26d3225-27da-440d-ac85-cad08bdb5ade"
+      },
+      "contact": {
+        "email": "dshallenberger@le.utah.gov",
+        "district_voice": "801-214-5989",
+        "website": "https://house.utleg.gov/rep/SHALLD/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://assets.civicengine.com/uploads/candidate/headshot/414685/414685.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Shallenberger",
+        "https://en.wikipedia.org/wiki/David_Shallenberger",
+        "https://house.utleg.gov/rep/SHALLD",
+        "https://justfacts.votesmart.org/candidate/biography/192335/david-shallenberger",
+        "https://www.linkedin.com/in/david-shallenberger-032975",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "hinkins-david-ut-sd26",
+      "name": "David Hinkins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-26)",
+      "state": "UT",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/78b7c95c-45a7-40cb-a82c-681db75f9529"
+      },
+      "contact": {
+        "email": "dhinkins@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/2095"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/HINKIDP.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Hinkins",
+        "https://en.wikipedia.org/wiki/David_Hinkins",
+        "https://justfacts.votesmart.org/candidate/biography/103541/david-hinkins",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/HINKIDP",
+        "https://senate.utah.gov/sen/HINKIDP/",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "owens-derrin-ut-sd27",
+      "name": "Derrin Owens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-27)",
+      "state": "UT",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ef1c9af3-b4f9-4eeb-b63d-a22f01c84262"
+      },
+      "contact": {
+        "email": "derrinowens@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414375"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/OWENSD.jpg",
+      "sources": [
+        "https://ballotpedia.org/Derrin_Owens",
+        "https://en.wikipedia.org/wiki/Derrin_Owens",
+        "https://justfacts.votesmart.org/candidate/164665/derrin-owens",
+        "https://justfacts.votesmart.org/candidate/biography/164665/derrin-owens",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/OWENSD",
+        "https://senate.utah.gov/sen/OWENSD/",
+        "https://www.linkedin.com/in/derrin-owens-491599136",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "ipson-don-ut-sd29",
+      "name": "Don Ipson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-29)",
+      "state": "UT",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cbfab19e-80f2-4edc-ae55-08f9e03a6d2f"
+      },
+      "contact": {
+        "email": "dipson@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/2052"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/IPSONDL.jpg",
+      "sources": [
+        "https://ballotpedia.org/Don_Ipson",
+        "https://en.wikipedia.org/wiki/Don_Ipson",
+        "https://justfacts.votesmart.org/candidate/biography/103769/don-ipson",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/IPSONDL",
+        "https://senate.utah.gov/sen/IPSONDL/",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "fiefia-doug-ut-hd48",
+      "name": "Doug Fiefia",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-48)",
+      "state": "UT",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ea11beb4-7128-4549-9174-fa7b40cacca8"
+      },
+      "contact": {
+        "email": "dfiefa@le.utah.gov",
+        "district_voice": "801-538-1029",
+        "website": "https://house.utleg.gov/rep/FIEFID/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://dougfiefia.com/wp-content/uploads/2023/11/Doug-Fiefia-header.png",
+      "sources": [
+        "https://ballotpedia.org/Doug_Fiefia",
+        "https://house.utleg.gov/rep/FIEFID",
+        "https://justfacts.votesmart.org/candidate/biography/214334/doug-fiefia",
+        "https://www.linkedin.com/in/dougfiefia",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "owens-doug-ut-hd33",
+      "name": "Doug Owens",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-33)",
+      "state": "UT",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b60609f0-e6df-42fc-bbca-9b67a2ed7254"
+      },
+      "contact": {
+        "email": "dougowens@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415426"
+      },
+      "bio": {
+        "birth_date": "1963-08-14",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/OWENSDO.jpg",
+      "sources": [
+        "https://ballotpedia.org/Doug_Owens",
+        "https://en.wikipedia.org/wiki/Doug_Owens",
+        "https://house.utah.gov/rep/OWENSDO",
+        "https://house.utah.gov/rep/OWENSDO/",
+        "https://house.utleg.gov/rep/OWENSDO",
+        "https://house.utleg.gov/rep/OWENSDO/",
+        "https://justfacts.votesmart.org/candidate/biography/151619/doug-owens",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "welton-doug-ut-hd65",
+      "name": "Doug Welton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-65)",
+      "state": "UT",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/725abf07-1cca-47a5-a5a7-223d763f5da0"
+      },
+      "contact": {
+        "email": "dwelton@le.utah.gov",
+        "district_voice": "385-977-3870",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415458"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/WELTOD.jpg",
+      "sources": [
+        "https://ballotpedia.org/Doug_Welton",
+        "https://en.wikipedia.org/wiki/Doug_Welton",
+        "https://house.utah.gov/rep/WELTOD",
+        "https://house.utah.gov/rep/WELTOD/",
+        "https://house.utleg.gov/rep/WELTOD",
+        "https://house.utleg.gov/rep/WELTOD/",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/doug-welton-aab05028",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "buss-emily-ut-sd11",
+      "name": "Emily Buss",
+      "party": "Forward",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-11)",
+      "state": "UT",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f5149921-03c9-4420-bb21-9b54c19e0c65"
+      },
+      "contact": {
+        "email": "ebuss@le.utah.gov",
+        "district_voice": "801-598-4734",
+        "website": "https://senate.utah.gov/sen/BUSSEM/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/Emily_Buss_(politician)",
+        "https://senate.utah.gov/sen/BUSSEM",
+        "https://www.linkedin.com/in/emilybu",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "vickers-evan-ut-sd28",
+      "name": "Evan Vickers",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-28)",
+      "state": "UT",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3ee27d8b-c865-4d86-b33e-9cfb34c3bac4"
+      },
+      "contact": {
+        "email": "evickers@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/2085"
+      },
+      "bio": {
+        "birth_date": "1954-05-15",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/VICKEEJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Evan_Vickers",
+        "https://en.wikipedia.org/wiki/Evan_Vickers",
+        "https://justfacts.votesmart.org/candidate/biography/103758/evan-vickers",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/VICKEEJ",
+        "https://senate.utah.gov/sen/VICKEEJ/",
+        "https://www.linkedin.com/in/evan-vickers-4a544713",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-grant-ut-hd24",
+      "name": "Grant Miller",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-24)",
+      "state": "UT",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/82be86b6-0047-471e-8983-a061e5cc91e2"
+      },
+      "contact": {
+        "email": "gmiller@le.utah.gov",
+        "district_voice": "801-520-0099",
+        "website": "https://house.utleg.gov/rep/MILLGR/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/gmiller2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Grant_Amjad_Miller",
+        "https://ballotpedia.org/Grant_Miller_(Utah)",
+        "https://en.wikipedia.org/wiki/Grant_Amjad_Miller",
+        "https://house.utleg.gov/rep/MILLGR",
+        "https://justfacts.votesmart.org/candidate/biography/214295/grant-miller",
+        "https://www.grantmillerforhouse24.com/bio",
+        "https://www.linkedin.com/in/grant-amjad-miller-955700b0",
+        "https://www.linkedin.com/in/grant-miller-955700b0",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "pace-grant-ut-hd60",
+      "name": "Grant Pace",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-60)",
+      "state": "UT",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/83efadab-9aba-4506-96d7-04a79581348c"
+      },
+      "contact": {
+        "email": "gpace@le.utah.gov",
+        "website": "https://house.utleg.gov/rep/PACEG/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://cdn-hdbdp.nitrocdn.com/iWmKbInheBqiLbgJHQSBxQqpIXvFXnqc/assets/images/optimized/rev-e4f0a15/juuva.com/wp-content/uploads/2021/04/grant-portrait-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Grant_Pace",
+        "https://house.utleg.gov/rep/PACEG",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "balderree-heidi-ut-sd22",
+      "name": "Heidi Balderree",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-22)",
+      "state": "UT",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/650616ca-3c57-4995-a514-37644fe1fa8f"
+      },
+      "contact": {
+        "email": "hbalderree@le.utah.gov",
+        "website": "https://le.utah.gov/asp/billsintro/SenResults.asp?Listbox2=BALDEH"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/BALDEH.jpg",
+      "sources": [
+        "https://ballotpedia.org/Heidi_Balderree",
+        "https://en.wikipedia.org/wiki/Heidi_Balderree",
+        "https://justfacts.votesmart.org/candidate/biography/212860/heidi-balderree",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/BALDEH",
+        "https://senate.utah.gov/sen/BALDEH/",
+        "https://www.linkedin.com/in/heidi-balderree-194650123",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "nguyen-hoang-ut-hd23",
+      "name": "Hoang Nguyen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-23)",
+      "state": "UT",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/efcd1f01-061f-4b35-9202-407576e22e77"
+      },
+      "contact": {
+        "email": "hnguyen@le.utah.gov",
+        "district_voice": "801-842-4220",
+        "website": "https://house.utleg.gov/rep/NGUYEH/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/HoangNguyen2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Hoang_Nguyen",
+        "https://en.wikipedia.org/wiki/Hoang_Nguyen",
+        "https://house.utleg.gov/rep/NGUYEH",
+        "https://justfacts.votesmart.org/candidate/214294/hoang-nguyen",
+        "https://www.linkedin.com/in/hoang-nguyen-54b062159",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "adams-stuart-ut-sd7",
+      "name": "Stuart Adams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-7)",
+      "state": "UT",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5b47c889-e555-4d3c-9b30-97d52ee02960"
+      },
+      "contact": {
+        "email": "jsadams@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1408736"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/ADAMSJS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stuart_Adams",
+        "https://en.wikipedia.org/wiki/J._Stuart_Adams",
+        "https://justfacts.votesmart.org/candidate/biography/50400/stuart-adams",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/ADAMSJS",
+        "https://senate.utah.gov/sen/ADAMSJS/",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "larson-jackie-ut-hd64",
+      "name": "Jackie Larson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-64)",
+      "state": "UT",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c078ef2d-7a7a-469a-a8bc-d6e5c16203c4"
+      },
+      "contact": {
+        "email": "jlarson@le.utah.gov",
+        "website": "https://house.utleg.gov/rep/LARSOJ/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://static.wixstatic.com/media/355155_bfae42d4d46d4e1f86e11a37eef18af1~mv2.jpeg/v1/fill/w_873,h_1484,fp_0.46_0.23,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/355155_bfae42d4d46d4e1f86e11a37eef18af1~mv2.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Jackie_Larson",
+        "https://house.utleg.gov/rep/LARSOJ",
+        "https://www.linkedin.com/in/jackie-larson-277bb981",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "fitisemanu-jake-ut-hd30",
+      "name": "Jake Fitisemanu",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-30)",
+      "state": "UT",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e68bfc15-5c1f-4903-ac1f-eb8ca44a816a"
+      },
+      "contact": {
+        "email": "jfitisemanu@le.utah.gov",
+        "district_voice": "801-633-4546",
+        "website": "https://house.utleg.gov/rep/FITISJ/"
+      },
+      "bio": {
+        "birth_date": "1982-03-27",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JakeFitisemanu2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jake_Fitisemanu",
+        "https://en.wikipedia.org/wiki/Jake_Fitisemanu",
+        "https://house.utleg.gov/rep/FITISJ",
+        "https://justfacts.votesmart.org/candidate/biography/187666/jacob-fitisemanu-jr",
+        "https://www.linkedin.com/in/jakefitisemanu",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "sawyer-jake-ut-hd9",
+      "name": "Jake Sawyer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-9)",
+      "state": "UT",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dd923550-9fd3-4476-9a43-219a199c8057"
+      },
+      "contact": {
+        "email": "jsawyer@le.utah.gov",
+        "district_voice": "385-641-5928",
+        "website": "https://house.utleg.gov/rep/SAWYEJ/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://static.wixstatic.com/media/d27656_26f8c475869649a59bad8ae179994b0f~mv2.jpg/v1/fill/w_317,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Jake_Website_edited.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jake_Sawyer",
+        "https://en.wikipedia.org/wiki/Jake_Sawyer",
+        "https://house.utleg.gov/rep/SAWYEJ",
+        "https://justfacts.votesmart.org/candidate/biography/214362/jake-sawyer",
+        "https://www.linkedin.com/in/jacob-sawyer62",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "dunnigan-jim-ut-hd36",
+      "name": "Jim Dunnigan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-36)",
+      "state": "UT",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/89b3cebe-884b-4798-b063-794d359ea891"
+      },
+      "contact": {
+        "email": "jdunnigan@le.utah.gov",
+        "district_voice": "801-538-1029",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1389"
+      },
+      "bio": {
+        "birth_date": "1953-03-31",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/DUNNIJA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jim_Dunnigan",
+        "https://en.wikipedia.org/wiki/James_Dunnigan_(politician)",
+        "https://house.utah.gov/rep/DUNNIJA",
+        "https://house.utah.gov/rep/DUNNIJA/",
+        "https://house.utleg.gov/rep/DUNNIJA",
+        "https://house.utleg.gov/rep/DUNNIJA/",
+        "https://justfacts.votesmart.org/candidate/biography/50739/james-dunnigan",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "kyle-jason-ut-hd8",
+      "name": "Jason Kyle",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-8)",
+      "state": "UT",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cb6f79ec-b7b4-418e-950e-f5f066489929"
+      },
+      "contact": {
+        "email": "jkyle@le.utah.gov",
+        "district_voice": "385-394-2424",
+        "website": "https://house.utah.gov/rep/KYLEJB/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/KYLEJB.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jason_Kyle",
+        "https://en.wikipedia.org/wiki/Jason_Kyle_(politician)",
+        "https://house.utah.gov/rep/KYLEJB",
+        "https://house.utah.gov/rep/KYLEJB/",
+        "https://house.utleg.gov/rep/KYLEJB",
+        "https://house.utleg.gov/rep/KYLEJB/",
+        "https://justfacts.votesmart.org/candidate/biography/182137/jason-kyle",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/jason-kyle-42011437",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "thompson-jason-ut-hd3",
+      "name": "Jason Thompson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-3)",
+      "state": "UT",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d7b06a16-ad92-4d55-af46-93a1f13253e7"
+      },
+      "contact": {
+        "email": "jthompson@le.utah.gov",
+        "district_voice": "801-505-8787",
+        "website": "https://house.utleg.gov/rep/THOMJA/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jason_Thompson2024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Jason_Thompson_(Utah)",
+        "https://en.wikipedia.org/wiki/Jason_Thompson_(politician)",
+        "https://house.utleg.gov/rep/THOMJA",
+        "https://justfacts.votesmart.org/candidate/biography/214306/jason-thompson",
+        "https://www.linkedin.com/in/jason-thompson-22442a5",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "dailey-provost-jen-ut-hd22",
+      "name": "Jen Dailey-Provost",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-22)",
+      "state": "UT",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b32f9174-73af-4db3-877b-1c368bd4e62e"
+      },
+      "contact": {
+        "email": "jdprovost@le.utah.gov",
+        "district_voice": "385-321-7827",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414811"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/DAILEJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jen_Dailey-Provost",
+        "https://en.wikipedia.org/wiki/Jennifer_Dailey-Provost",
+        "https://house.utah.gov/rep/DAILEJ",
+        "https://house.utah.gov/rep/DAILEJ/",
+        "https://house.utleg.gov/rep/DAILEJ",
+        "https://house.utleg.gov/rep/DAILEJ/",
+        "https://justfacts.votesmart.org/candidate/biography/182159/jen-dailey-provost",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/jenniferdaileyprovost",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "plumb-jen-ut-sd9",
+      "name": "Jen Plumb",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-9)",
+      "state": "UT",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bd870ade-5b3f-4ed3-9e6f-6bbab93a7d35"
+      },
+      "contact": {
+        "email": "jplumb@le.utah.gov",
+        "website": "https://le.utah.gov/asp/billsintro/SenResults.asp?Listbox2=PLUMBJ"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/PLUMBJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Plumb",
+        "https://en.wikipedia.org/wiki/Jennifer_Plumb",
+        "https://justfacts.votesmart.org/candidate/182107/jennifer-plumb",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/PLUMBJ",
+        "https://senate.utah.gov/sen/PLUMBJ/",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "stevenson-jerry-ut-sd6",
+      "name": "Jerry Stevenson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-6)",
+      "state": "UT",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3a04e48f-6d8c-47aa-b0aa-0e14994cd961"
+      },
+      "contact": {
+        "email": "jwstevenson@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1409402"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/STEVEJW.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jerry_Stevenson",
+        "https://en.wikipedia.org/wiki/Jerry_Stevenson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/117513/jerry-stevenson",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/STEVEJW",
+        "https://senate.utah.gov/sen/STEVEJW/",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "koford-jill-ut-hd10",
+      "name": "Jill Koford",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-10)",
+      "state": "UT",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/598a8b34-ab05-4438-b927-77b20437035d"
+      },
+      "contact": {
+        "email": "jkoford@le.utah.gov",
+        "district_voice": "801-300-2532",
+        "website": "https://house.utleg.gov/rep/KOFORJ/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JillKoford.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jill_Koford",
+        "https://en.wikipedia.org/wiki/Jill_Koford",
+        "https://house.utleg.gov/rep/KOFORJ",
+        "https://justfacts.votesmart.org/candidate/204614/jill-koford",
+        "https://www.linkedin.com/in/jill-koford-346358130",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "arthur-john-ut-hd41",
+      "name": "John Arthur",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-41)",
+      "state": "UT",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b5f1d356-e619-413b-8b9a-fec2d3d48362"
+      },
+      "contact": {
+        "email": "jarthur@le.utah.gov",
+        "district_voice": "801-518-3407",
+        "website": "https://house.utleg.gov/rep/ARTHUJ/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/John_Arthur_(Utah)",
+        "https://house.utleg.gov/rep/ARTHUJ",
+        "https://www.linkedin.com/in/john-arthur-nbct-162750245",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-john-ut-sd3",
+      "name": "John Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-3)",
+      "state": "UT",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0c8df9e4-cb46-4dc1-ab5b-6d181efd58e0"
+      },
+      "contact": {
+        "email": "jjohnson@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415473"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/JOHNSJD.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Johnson_(Utah)",
+        "https://en.wikipedia.org/wiki/John_D._Johnson_(politician)",
+        "https://justfacts.votesmart.org/candidate/192459/john-johnson",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/JOHNSJD",
+        "https://senate.utah.gov/sen/JOHNSJD/",
+        "https://www.linkedin.com/in/johndjohnsonusu",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "hawkins-jon-ut-hd55",
+      "name": "Jon Hawkins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-55)",
+      "state": "UT",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e214e4ef-2df9-41a2-9113-98715f5a791c"
+      },
+      "contact": {
+        "email": "jhawkins@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414969"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/HAWKIJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jon_Hawkins",
+        "https://en.wikipedia.org/wiki/Jon_Hawkins_(Utah_politician)",
+        "https://house.utah.gov/rep/HAWKIJ",
+        "https://house.utah.gov/rep/HAWKIJ/",
+        "https://house.utleg.gov/rep/HAWKIJ",
+        "https://house.utleg.gov/rep/HAWKIJ/",
+        "https://justfacts.votesmart.org/candidate/biography/182198/jon-hawkins",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/jonhawkins86",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "teuscher-jordan-ut-hd44",
+      "name": "Jordan Teuscher",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-44)",
+      "state": "UT",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4fb12ece-15d9-4fd2-9b0a-e96a0dbdd2ad"
+      },
+      "contact": {
+        "email": "jteuscher@le.utah.gov",
+        "district_voice": "801-810-6170",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415423"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/TEUSCJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jordan_Teuscher",
+        "https://en.wikipedia.org/wiki/Jordan_Teuscher",
+        "https://house.utah.gov/rep/TEUSCJ",
+        "https://house.utah.gov/rep/TEUSCJ/",
+        "https://house.utleg.gov/rep/TEUSCJ",
+        "https://house.utleg.gov/rep/TEUSCJ/",
+        "https://justfacts.votesmart.org/candidate/biography/192328/jordan-teuscher",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/jordanteuscher",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "elison-joseph-ut-hd72",
+      "name": "Joseph Elison",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-72)",
+      "state": "UT",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0d22b3d0-94f2-4f88-95e9-b830480f4be8"
+      },
+      "contact": {
+        "email": "jelison@le.utah.gov",
+        "district_voice": "801-657-1006",
+        "website": "https://house.utah.gov/rep/ELISOJ/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/ELISOJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Elison",
+        "https://en.wikipedia.org/wiki/Joseph_Elison",
+        "https://house.utah.gov/rep/ELISOJ",
+        "https://house.utah.gov/rep/ELISOJ/",
+        "https://house.utleg.gov/rep/ELISOJ",
+        "https://house.utleg.gov/rep/ELISOJ/",
+        "https://justfacts.votesmart.org/candidate/biography/204631/joseph-elison",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.elisonforutah.com/meet-joseph",
+        "https://www.linkedin.com/in/joseph-elison-03a87321",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "kwan-karen-ut-sd12",
+      "name": "Karen Kwan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-12)",
+      "state": "UT",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3ceb7500-0ea7-46ef-9a75-d00d378b86b7"
+      },
+      "contact": {
+        "email": "kkwan@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1412727"
+      },
+      "bio": {
+        "birth_date": "1964-02-12",
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/KWANK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Karen_Kwan",
+        "https://en.wikipedia.org/wiki/Karen_Kwan_(politician)",
+        "https://house.utah.gov/rep/KWANK",
+        "https://house.utah.gov/rep/KWANK/",
+        "https://justfacts.votesmart.org/candidate/biography/151596/karen-kwan",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/KWANK",
+        "https://senate.utah.gov/sen/KWANK/",
+        "https://www.linkedin.com/in/karen-kwan-106891291",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "peterson-karen-ut-hd13",
+      "name": "Karen Peterson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-13)",
+      "state": "UT",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3c2d4efe-dd4e-48cf-a83b-2a15791706a3"
+      },
+      "contact": {
+        "email": "kpeterson@le.utah.gov",
+        "district_voice": "385-285-6790",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415760"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/PETERK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Karen_Peterson_(Utah)",
+        "https://en.wikipedia.org/wiki/Karen_M._Peterson",
+        "https://house.utah.gov/rep/PETERK",
+        "https://house.utah.gov/rep/PETERK/",
+        "https://house.utleg.gov/rep/PETERK",
+        "https://house.utleg.gov/rep/PETERK/",
+        "https://justfacts.votesmart.org/candidate/biography/201421/karen-peterson",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/karen-m-peterson",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "lisonbee-karianne-ut-hd14",
+      "name": "Karianne Lisonbee",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-14)",
+      "state": "UT",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/59eb30b5-da7b-4161-85b3-8b48c01f4c2b"
+      },
+      "contact": {
+        "email": "karilisonbee@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414516"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/LISONK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Karianne_Lisonbee",
+        "https://en.wikipedia.org/wiki/Karianne_Lisonbee",
+        "https://house.utah.gov/rep/LISONK",
+        "https://house.utah.gov/rep/LISONK/",
+        "https://house.utleg.gov/rep/LISONK",
+        "https://house.utleg.gov/rep/LISONK/",
+        "https://justfacts.votesmart.org/candidate/168623/karianne-lisonbee",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/karianne-lisonbee-b618a35b",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "riebe-kathleen-ut-sd15",
+      "name": "Kathleen Riebe",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-15)",
+      "state": "UT",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/67c6161b-0222-4702-85ce-7409bc5bc86a"
+      },
+      "contact": {
+        "email": "kriebe@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414459"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/RIEBEK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kathleen_Riebe",
+        "https://en.wikipedia.org/wiki/Kathleen_Riebe",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/RIEBEK",
+        "https://senate.utah.gov/sen/RIEBEK/",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-katy-ut-hd11",
+      "name": "Katy Hall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-11)",
+      "state": "UT",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37301850-0f06-4bbd-ba85-faa7c4d39906"
+      },
+      "contact": {
+        "email": "khall@le.utah.gov",
+        "district_voice": "801-834-3059",
+        "website": "https://house.utah.gov/rep/HALLK/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/HALLK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Katy_Hall",
+        "https://en.wikipedia.org/wiki/Katy_Hall",
+        "https://house.utah.gov/rep/HALLK",
+        "https://house.utah.gov/rep/HALLK/",
+        "https://house.utleg.gov/rep/HALLK",
+        "https://house.utleg.gov/rep/HALLK/",
+        "https://justfacts.votesmart.org/candidate/biography/204601/katy-hall",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "christofferson-kay-ut-hd53",
+      "name": "Kay Christofferson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-53)",
+      "state": "UT",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aee56bc8-022b-4351-81c0-9b5050846a8b"
+      },
+      "contact": {
+        "email": "kchristofferson@le.utah.gov",
+        "district_voice": "801-592-5709",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1411621"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/CHRISKJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kay_Christofferson",
+        "https://en.wikipedia.org/wiki/Kay_Christofferson",
+        "https://house.utah.gov/rep/CHRISKJ",
+        "https://house.utah.gov/rep/CHRISKJ/",
+        "https://house.utleg.gov/rep/CHRISKJ",
+        "https://house.utleg.gov/rep/CHRISKJ/",
+        "https://justfacts.votesmart.org/candidate/biography/137523/kay-christofferson",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/kay-christofferson-15a1ab58",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "grover-keith-ut-sd23",
+      "name": "Keith Grover",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-23)",
+      "state": "UT",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7634ce2b-d172-4852-919c-7089eaa38db8"
+      },
+      "contact": {
+        "email": "keithgrover@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1913"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/GROVEK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Keith_Grover",
+        "https://en.wikipedia.org/wiki/Keith_Grover",
+        "https://justfacts.votesmart.org/candidate/biography/65348/keith-grover",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/GROVEK",
+        "https://senate.utah.gov/sen/GROVEK/",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "ivory-ken-ut-hd39",
+      "name": "Ken Ivory",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-39)",
+      "state": "UT",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c76bd4cf-9149-46e8-a001-e2c81c5942d5"
+      },
+      "contact": {
+        "email": "kivory@le.utah.gov",
+        "district_voice": "801-694-8380",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1409302"
+      },
+      "bio": {
+        "birth_date": "1963-01-12",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/IVORYK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ken_Ivory",
+        "https://en.wikipedia.org/wiki/Ken_Ivory",
+        "https://house.utah.gov/rep/IVORYK",
+        "https://house.utah.gov/rep/IVORYK/",
+        "https://house.utleg.gov/rep/IVORYK",
+        "https://house.utleg.gov/rep/IVORYK/",
+        "https://justfacts.votesmart.org/candidate/biography/121360/ken-ivory",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/ken-ivory-11423015",
+        "https://www.linkedin.com/in/kenivory",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "stratton-keven-ut-sd24",
+      "name": "Keven Stratton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-24)",
+      "state": "UT",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a919fa9b-f3f7-480f-b578-4a49bb4b572e"
+      },
+      "contact": {
+        "email": "kstratton@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1413031"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/STRATKJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/Keven_Stratton",
+        "https://en.wikipedia.org/wiki/Keven_Stratton",
+        "https://house.utah.gov/rep/STRATKJ",
+        "https://house.utah.gov/rep/STRATKJ/",
+        "https://house.utleg.gov/rep/STRATKJ",
+        "https://house.utleg.gov/rep/STRATKJ/",
+        "https://justfacts.votesmart.org/candidate/biography/137509/keven-stratton",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/STRATKJ",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "cullimore-kirk-ut-sd19",
+      "name": "Kirk Cullimore",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-19)",
+      "state": "UT",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c421a26f-c1c1-4398-be94-d77d312ea3fe"
+      },
+      "contact": {
+        "email": "kcullimore@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415051"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/CULLIKA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kirk_Cullimore",
+        "https://en.wikipedia.org/wiki/Kirk_Cullimore_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/182112/kirk-cullimore-jr",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/CULLIKA",
+        "https://senate.utah.gov/sen/CULLIKA/",
+        "https://www.linkedin.com/in/kirk-cullimore-b4309714",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "chevrier-kristen-ut-hd54",
+      "name": "Kristen Chevrier",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-54)",
+      "state": "UT",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d428d2ed-8644-459a-b374-7535561a1482"
+      },
+      "contact": {
+        "email": "kchevrier@le.utah.gov",
+        "district_voice": "801-520-6773",
+        "website": "https://house.utleg.gov/rep/CHEVRK/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kristen_Chevrier",
+        "https://en.wikipedia.org/wiki/Kristen_Chevrier",
+        "https://house.utleg.gov/rep/CHEVRK",
+        "https://justfacts.votesmart.org/candidate/biography/220762/kristen-chevrier",
+        "https://www.linkedin.com/in/kristen-chevrier-35a32a16",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "hansen-leah-ut-hd51",
+      "name": "Leah Hansen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-51)",
+      "state": "UT",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/72df7728-0455-4b7b-9432-745f4365d99e"
+      },
+      "contact": {
+        "email": "lhansen@le.utah.gov",
+        "website": "https://house.utleg.gov/rep/LHANSEN/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Leah_Hansen_(Utah)",
+        "https://house.utleg.gov/rep/LHANSEN",
+        "https://www.linkedin.com/in/leah-hansen-a13441104",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "fillmore-lincoln-ut-sd17",
+      "name": "Lincoln Fillmore",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-17)",
+      "state": "UT",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/74f25c67-1e6f-48f1-b3e3-49bbdf85539a"
+      },
+      "contact": {
+        "email": "lfillmore@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1413349"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/FILLML.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lincoln_Fillmore",
+        "https://en.wikipedia.org/wiki/Lincoln_Fillmore",
+        "https://justfacts.votesmart.org/candidate/biography/167242/lincoln-fillmore",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/FILLML",
+        "https://senate.utah.gov/sen/FILLML/",
+        "https://www.linkedin.com/in/lincoln-fillmore-485398209",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "shepherd-lisa-ut-hd61",
+      "name": "Lisa Shepherd",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-61)",
+      "state": "UT",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cc269dc8-cef7-4e8d-a3fc-0d658d1dcfcc"
+      },
+      "contact": {
+        "email": "lshepherd@le.utah.gov",
+        "district_voice": "801-903-8998",
+        "website": "https://house.utleg.gov/rep/SHEPHL/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://img1.wsimg.com/isteam/ip/214c6333-69cf-4437-a4a5-149983b67c86/123-bKwEnQhUdpI%20(1)%202.JPEG/:/cr=t:2.05%25,l:12.92%25,w:73.53%25,h:73.53%25/rs=w:355,h:355,cg:true,m",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Shepherd",
+        "https://en.wikipedia.org/wiki/Lisa_Shepherd",
+        "https://house.utleg.gov/rep/SHEPHL",
+        "https://justfacts.votesmart.org/candidate/biography/103721/lisa-shepherd",
+        "https://www.linkedin.com/in/lisa-shepherd-85284960",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "monson-logan-ut-hd69",
+      "name": "Logan Monson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-69)",
+      "state": "UT",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/afd0bd15-a816-44ae-b28e-cecf50dda45b"
+      },
+      "contact": {
+        "email": "lmonson@le.utah.gov",
+        "district_voice": "801-834-5270",
+        "website": "https://house.utleg.gov/rep/MONSOL/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/653bf32647727060129bd0cf/f7061061-f68f-4697-9dc5-fd2bcc264299/IMG_7508.jpg",
+      "sources": [
+        "https://ballotpedia.org/Logan_Monson",
+        "https://en.wikipedia.org/wiki/Logan_Monson",
+        "https://house.utleg.gov/rep/MONSOL",
+        "https://justfacts.votesmart.org/candidate/214359/logan-monson",
+        "https://www.linkedin.com/in/logan-monson-aa738a231",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "escamilla-luz-ut-sd10",
+      "name": "Luz Escamilla",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-10)",
+      "state": "UT",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6983c74c-3687-4e48-b462-38a80caeb260"
+      },
+      "contact": {
+        "email": "lescamilla@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1875"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/ESCAML.jpg",
+      "sources": [
+        "https://ballotpedia.org/Luz_Escamilla",
+        "https://en.wikipedia.org/wiki/Luz_Escamilla",
+        "https://justfacts.votesmart.org/candidate/biography/103492/luz-escamilla",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/ESCAML",
+        "https://senate.utah.gov/sen/ESCAML/",
+        "https://www.linkedin.com/in/luz-escamilla-518595156",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "strong-mark-ut-hd47",
+      "name": "Mark Strong",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-47)",
+      "state": "UT",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5d383c2b-0450-48db-92bf-e20977953cd8"
+      },
+      "contact": {
+        "email": "mstrong@le.utah.gov",
+        "district_voice": "385-275-5682",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415024"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/STRONMA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Strong",
+        "https://en.wikipedia.org/wiki/Mark_Strong_(politician)",
+        "https://house.utah.gov/rep/STRONMA",
+        "https://house.utah.gov/rep/STRONMA/",
+        "https://house.utleg.gov/rep/STRONMA",
+        "https://house.utleg.gov/rep/STRONMA/",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/mark-strong-743bb1b",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "macpherson-matt-ut-hd26",
+      "name": "Matt MacPherson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-26)",
+      "state": "UT",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ad88a882-c27b-4ceb-8476-b7a3d2a9dd19"
+      },
+      "contact": {
+        "email": "mmacpherson@le.utah.gov",
+        "district_voice": "801-520-2974",
+        "website": "https://house.utah.gov/rep/MACPHM/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/MACPHM.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matt_MacPherson",
+        "https://en.wikipedia.org/wiki/Matt_MacPherson",
+        "https://house.utah.gov/rep/MACPHM",
+        "https://house.utah.gov/rep/MACPHM/",
+        "https://house.utleg.gov/rep/MACPHM",
+        "https://house.utleg.gov/rep/MACPHM/",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/mattmacpherson",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "ballard-melissa-ut-hd20",
+      "name": "Melissa Ballard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-20)",
+      "state": "UT",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/861428f5-6456-4c94-b1ed-838b01a7d845"
+      },
+      "contact": {
+        "email": "mballard@le.utah.gov",
+        "district_voice": "801-633-6561",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415006"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/BALLAMG.jpg",
+      "sources": [
+        "https://ballotpedia.org/Melissa_Garff_Ballard",
+        "https://en.wikipedia.org/wiki/Melissa_Garff_Ballard",
+        "https://house.utah.gov/rep/BALLAMG",
+        "https://house.utah.gov/rep/BALLAMG/",
+        "https://house.utleg.gov/rep/BALLAMG",
+        "https://house.utleg.gov/rep/BALLAMG/",
+        "https://justfacts.votesmart.org/candidate/biography/182150/melissa-ballard",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/melissa-ballard-41719610",
+        "https://www.linkedin.com/in/melissa-garff-ballard-41719610",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "mckell-mike-ut-sd25",
+      "name": "Mike McKell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-25)",
+      "state": "UT",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8ffe791d-6a74-412b-a435-ee04045e0ad0"
+      },
+      "contact": {
+        "email": "mmckell@le.utah.gov",
+        "district_voice": "801-798-9000",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1411332"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/MCKELMK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_McKell",
+        "https://en.wikipedia.org/wiki/Mike_McKell",
+        "https://justfacts.votesmart.org/candidate/biography/137542/mike-mckell",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/MCKELMK",
+        "https://senate.utah.gov/sen/MCKELMK/",
+        "https://www.linkedin.com/in/michaelmckell",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "kohler-mike-ut-hd59",
+      "name": "Mike Kohler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-59)",
+      "state": "UT",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/656dec4e-3c95-43b1-9059-f2259300f88b"
+      },
+      "contact": {
+        "email": "mkohler@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415490"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/KOHLEM.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Kohler",
+        "https://en.wikipedia.org/wiki/Mike_Kohler",
+        "https://house.utah.gov/rep/KOHLEM",
+        "https://house.utah.gov/rep/KOHLEM/",
+        "https://house.utleg.gov/rep/KOHLEM",
+        "https://house.utleg.gov/rep/KOHLEM/",
+        "https://justfacts.votesmart.org/candidate/biography/95357/michael-kohler",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "petersen-mike-ut-hd2",
+      "name": "Mike Petersen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-2)",
+      "state": "UT",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e9792114-e077-4663-96c4-94d679c66ace"
+      },
+      "contact": {
+        "email": "mpetersen@le.utah.gov",
+        "district_voice": "435-770-6925",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415376"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/PETERM.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Petersen_(Utah)",
+        "https://en.wikipedia.org/wiki/Mike_Petersen_(Utah_politician)",
+        "https://house.utah.gov/rep/PETERM",
+        "https://house.utah.gov/rep/PETERM/",
+        "https://house.utleg.gov/rep/PETERM",
+        "https://house.utleg.gov/rep/PETERM/",
+        "https://justfacts.votesmart.org/candidate/biography/192260/michael-petersen",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/mike-petersen-phd-0b401a4",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "schultz-mike-ut-hd12",
+      "name": "Mike Schultz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-12)",
+      "state": "UT",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d1046a0c-ddd3-4fed-be41-13da161d6231"
+      },
+      "contact": {
+        "email": "mikeschultz@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1412688"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/SCHULM.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Schultz_(Utah)",
+        "https://en.wikipedia.org/wiki/Mike_Schultz_(politician)",
+        "https://house.utah.gov/rep/SCHULM",
+        "https://house.utah.gov/rep/SCHULM/",
+        "https://house.utleg.gov/rep/SCHULM",
+        "https://house.utleg.gov/rep/SCHULM/",
+        "https://justfacts.votesmart.org/candidate/biography/151632/mike-schultz",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "blouin-nate-ut-sd13",
+      "name": "Nate Blouin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-13)",
+      "state": "UT",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c9f2ef36-ee69-4e91-9da9-6c9311334912"
+      },
+      "contact": {
+        "email": "nblouin@le.utah.gov",
+        "website": "https://le.utah.gov/asp/billsintro/SenResults.asp?Listbox2=BLOUIN"
+      },
+      "bio": {
+        "birth_date": "1989-05-16",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/BLOUIN.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nate_Blouin",
+        "https://en.wikipedia.org/wiki/Nate_Blouin",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/BLOUIN",
+        "https://senate.utah.gov/sen/BLOUIN/",
+        "https://www.linkedin.com/in/nateblouin",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "abbott-nelson-ut-hd57",
+      "name": "Nelson Abbott",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-57)",
+      "state": "UT",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/00670b53-62f7-4c0f-b229-eb1fad6dbbbc"
+      },
+      "contact": {
+        "email": "nabbott@le.utah.gov",
+        "district_voice": "385-358-3269",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415393"
+      },
+      "bio": {
+        "birth_date": "1966-01-30",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/ABBOTN.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nelson_Abbott",
+        "https://en.wikipedia.org/wiki/Nelson_Abbott",
+        "https://house.utah.gov/rep/ABBOTN",
+        "https://house.utah.gov/rep/ABBOTN/",
+        "https://house.utleg.gov/rep/ABBOTN",
+        "https://house.utleg.gov/rep/ABBOTN/",
+        "https://justfacts.votesmart.org/candidate/192472/nelson-abbott",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/nelsonabbott",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "peck-nicholeen-ut-hd28",
+      "name": "Nicholeen Peck",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-28)",
+      "state": "UT",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/08c69398-e218-46a2-a843-9f1bfe088caa"
+      },
+      "contact": {
+        "email": "npeck@le.utah.gov",
+        "website": "https://house.utleg.gov/rep/PECKNI/"
+      },
+      "bio": {
+        "birth_date": "1975-03-29",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/NicholeenPeck2024c.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nicholeen_Peck",
+        "https://en.wikipedia.org/wiki/Nicholeen_P._Peck",
+        "https://house.utleg.gov/rep/PECKNI",
+        "https://justfacts.votesmart.org/candidate/biography/214303/nicholeen-peck",
+        "https://teachingselfgovernment.com",
+        "https://www.linkedin.com/in/nicholeen-peck-7844a31b",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "thurston-norm-ut-hd62",
+      "name": "Norm Thurston",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-62)",
+      "state": "UT",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8e36fabe-9e2a-4ccd-b29a-1395d6318560"
+      },
+      "contact": {
+        "email": "normthurston@le.utah.gov",
+        "district_voice": "801-477-5348",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1412615"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/THURSNK.jpg",
+      "sources": [
+        "https://ballotpedia.org/Norm_Thurston",
+        "https://en.wikipedia.org/wiki/Norm_Thurston",
+        "https://house.utah.gov/rep/THURSNK",
+        "https://house.utah.gov/rep/THURSNK/",
+        "https://house.utleg.gov/rep/THURSNK",
+        "https://house.utleg.gov/rep/THURSNK/",
+        "https://justfacts.votesmart.org/candidate/151648/norm-thurston",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/norman-thurston-4ba2426",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "cutler-paul-ut-hd18",
+      "name": "Paul Cutler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-18)",
+      "state": "UT",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d8c2c3ff-83a7-45f7-88bb-fb01b8cd624e"
+      },
+      "contact": {
+        "email": "pcutler@le.utah.gov",
+        "district_voice": "801-923-4618",
+        "website": "https://house.utah.gov/rep/CUTLEP/"
+      },
+      "bio": {
+        "birth_date": "1972-11-14",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/CUTLEP.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paul_Cutler",
+        "https://en.wikipedia.org/wiki/Paul_A._Cutler",
+        "https://house.utah.gov/rep/CUTLEP",
+        "https://house.utah.gov/rep/CUTLEP/",
+        "https://house.utleg.gov/rep/CUTLEP",
+        "https://house.utleg.gov/rep/CUTLEP/",
+        "https://justfacts.votesmart.org/candidate/biography/204606/paul-cutler",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/paul-cutler-364182",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "walter-neil-ut-hd74",
+      "name": "Neil Walter",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-74)",
+      "state": "UT",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5b90793c-f90a-4b0e-b9e6-78943bfaab1c"
+      },
+      "contact": {
+        "email": "nwalter@le.utah.gov",
+        "district_voice": "435-627-5720",
+        "website": "https://house.utah.gov/rep/WALTER/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/WALTER.jpg",
+      "sources": [
+        "https://ballotpedia.org/Neil_Walter",
+        "https://en.wikipedia.org/wiki/R._Neil_Walter",
+        "https://house.utah.gov/rep/WALTER",
+        "https://house.utah.gov/rep/WALTER/",
+        "https://house.utleg.gov/rep/WALTER",
+        "https://house.utleg.gov/rep/WALTER/",
+        "https://justfacts.votesmart.org/candidate/biography/169269/neil-walter",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/rneilwalter",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "ward-ray-ut-hd19",
+      "name": "Ray Ward",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-19)",
+      "state": "UT",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dbd3789a-5040-4015-9474-ac27b4a32010"
+      },
+      "contact": {
+        "email": "rayward@le.utah.gov",
+        "district_voice": "801-440-8765",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1412633"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/WARDR.jpg",
+      "sources": [
+        "https://ballotpedia.org/Raymond_Ward",
+        "https://en.wikipedia.org/wiki/Raymond_Ward",
+        "https://house.utah.gov/rep/WARDR",
+        "https://house.utah.gov/rep/WARDR/",
+        "https://house.utleg.gov/rep/WARDR",
+        "https://house.utleg.gov/rep/WARDR/",
+        "https://justfacts.votesmart.org/candidate/151655/ray-ward",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "shipp-rex-ut-hd71",
+      "name": "Rex Shipp",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-71)",
+      "state": "UT",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/66ec0903-117f-4006-8e05-e7326330fc63"
+      },
+      "contact": {
+        "email": "rshipp@le.utah.gov",
+        "district_voice": "435-590-1073",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414994"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/SHIPPRP.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rex_Shipp",
+        "https://en.wikipedia.org/wiki/Rex_Shipp",
+        "https://house.utah.gov/rep/SHIPPRP",
+        "https://house.utah.gov/rep/SHIPPRP/",
+        "https://house.utleg.gov/rep/SHIPPRP",
+        "https://house.utleg.gov/rep/SHIPPRP/",
+        "https://justfacts.votesmart.org/candidate/biography/182213/rex-shipp",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/rex-shipp-b4273557",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "bishop-rob-ut-hd6",
+      "name": "Rob Bishop",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-6)",
+      "state": "UT",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b68ab473-0a2e-41f5-9732-fbffd6738865"
+      },
+      "contact": {
+        "email": "rbishop@le.utah.gov",
+        "website": "https://house.utleg.gov/rep/BISHORW/"
+      },
+      "bio": {
+        "birth_date": "1951-07-13",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Rob_Bishop",
+        "https://en.wikipedia.org/wiki/Rob_Bishop",
+        "https://house.utleg.gov/rep/BISHORW",
+        "https://www.govtrack.us/congress/members/rob_bishop/400029",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "winterton-ron-ut-sd20",
+      "name": "Ron Winterton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-20)",
+      "state": "UT",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5079192a-3d15-4a00-b0c7-2cf29d320035"
+      },
+      "contact": {
+        "email": "rwinterton@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414932"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/WINTER.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ronald_Winterton",
+        "https://en.wikipedia.org/wiki/Ronald_Winterton",
+        "https://justfacts.votesmart.org/candidate/biography/114224/ronald-winterton",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/WINTER",
+        "https://senate.utah.gov/sen/WINTER/",
+        "https://www.linkedin.com/in/ronald-winterton-83144945",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "dominguez-rosalba-ut-hd35",
+      "name": "Rosalba Dominguez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-35)",
+      "state": "UT",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6944b102-0d94-4267-916f-59fbd6f2bb18"
+      },
+      "contact": {
+        "email": "rdominguez@le.utah.gov",
+        "district_voice": "801-419-3283",
+        "website": "https://house.utleg.gov/rep/DOMINR/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Rosalba_Dominguez_20240921_082723.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Rosalba_Dominguez",
+        "https://en.wikipedia.org/wiki/Rosalba_Dominguez",
+        "https://house.utleg.gov/rep/DOMINR",
+        "https://justfacts.votesmart.org/candidate/biography/214316/rosalba-dominguez",
+        "https://www.linkedin.com/in/rosalba-dominguez-22a027275",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "wilcox-ryan-ut-hd7",
+      "name": "Ryan Wilcox",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-7)",
+      "state": "UT",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9657724b-ade7-467e-b77d-b77fb98891c5"
+      },
+      "contact": {
+        "email": "ryanwilcox@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415472"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/WILCORD.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ryan_Wilcox",
+        "https://en.wikipedia.org/wiki/Ryan_Wilcox",
+        "https://house.utah.gov/rep/WILCORD",
+        "https://house.utah.gov/rep/WILCORD/",
+        "https://house.utleg.gov/rep/WILCORD",
+        "https://house.utleg.gov/rep/WILCORD/",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/ryan-d-wilcox-b724686",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "hayes-sahara-ut-hd32",
+      "name": "Sahara Hayes",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-32)",
+      "state": "UT",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b0a5ca40-5e04-495c-80e0-2c5d3608273d"
+      },
+      "contact": {
+        "email": "shayes@le.utah.gov",
+        "district_voice": "801-657-0395",
+        "website": "https://house.utah.gov/rep/HAYESS/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/HAYESS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sahara_Hayes",
+        "https://en.wikipedia.org/wiki/Sahara_Hayes",
+        "https://house.utah.gov/rep/HAYESS",
+        "https://house.utah.gov/rep/HAYESS/",
+        "https://house.utleg.gov/rep/HAYESS",
+        "https://house.utleg.gov/rep/HAYESS/",
+        "https://justfacts.votesmart.org/candidate/evaluations/204572/sahara-hayes",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "hollins-sandra-ut-hd21",
+      "name": "Sandra Hollins",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-21)",
+      "state": "UT",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8c8d32a7-32ed-4ef1-a03d-9661ca98fc5a"
+      },
+      "contact": {
+        "email": "shollins@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1412641"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/HOLLIS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sandra_Hollins",
+        "https://en.wikipedia.org/wiki/Sandra_Hollins",
+        "https://house.utah.gov/rep/HOLLIS",
+        "https://house.utah.gov/rep/HOLLIS/",
+        "https://house.utleg.gov/rep/HOLLIS",
+        "https://house.utleg.gov/rep/HOLLIS/",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/sandra-hollins-48a28b192",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "sandall-scott-ut-sd1",
+      "name": "Scott Sandall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-1)",
+      "state": "UT",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d1a1c031-9dce-4727-a298-ec92cb34fe40"
+      },
+      "contact": {
+        "email": "ssandall@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1412644"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/SANDASD.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Sandall",
+        "https://en.wikipedia.org/wiki/Scott_Sandall",
+        "https://justfacts.votesmart.org/candidate/biography/151629/scott-sandall",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/SANDASD",
+        "https://senate.utah.gov/sen/SANDASD/",
+        "https://www.linkedin.com/in/scott-sandall-582b19aa",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "chew-scott-ut-hd68",
+      "name": "Scott Chew",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-68)",
+      "state": "UT",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d7a3c337-4395-4e23-9e11-74cb55744f14"
+      },
+      "contact": {
+        "email": "scottchew@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1412742"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/CHEWSH.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_H._Chew",
+        "https://en.wikipedia.org/wiki/Scott_Chew",
+        "https://house.utah.gov/rep/CHEWSH",
+        "https://house.utah.gov/rep/CHEWSH/",
+        "https://house.utleg.gov/rep/CHEWSH",
+        "https://house.utleg.gov/rep/CHEWSH/",
+        "https://justfacts.votesmart.org/candidate/biography/151551/scott-chew",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "gricius-stephanie-ut-hd50",
+      "name": "Stephanie Gricius",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-50)",
+      "state": "UT",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/236ec233-4d24-4514-82a5-05a028c1de14"
+      },
+      "contact": {
+        "email": "sgricius@le.utah.gov",
+        "district_voice": "801-901-8251",
+        "website": "https://house.utah.gov/rep/GRICIS/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/GRICIS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Gricius",
+        "https://en.wikipedia.org/wiki/Stephanie_Gricius",
+        "https://house.utah.gov/rep/GRICIS",
+        "https://house.utah.gov/rep/GRICIS/",
+        "https://house.utleg.gov/rep/GRICIS",
+        "https://house.utleg.gov/rep/GRICIS/",
+        "https://justfacts.votesmart.org/candidate/biography/204518/stephanie-gricius",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "pitcher-stephanie-ut-sd14",
+      "name": "Stephanie Pitcher",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-14)",
+      "state": "UT",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/edf0f18c-4b89-4d34-a2eb-6ce79accdaa7"
+      },
+      "contact": {
+        "email": "spitcher@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414982"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/PITCHS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Pitcher",
+        "https://en.wikipedia.org/wiki/Stephanie_Pitcher",
+        "https://house.utah.gov/rep/PITCHS",
+        "https://house.utah.gov/rep/PITCHS/",
+        "https://justfacts.votesmart.org/candidate/biography/182179/stephanie-pitcher",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/PITCHS",
+        "https://senate.utah.gov/sen/PITCHS/",
+        "https://www.linkedin.com/in/stephaniepitcher",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "whyte-stephen-ut-hd63",
+      "name": "Stephen Whyte",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-63)",
+      "state": "UT",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/451ecbcb-42a9-467b-98c7-e0b3e5bd32d3"
+      },
+      "contact": {
+        "email": "swhyte@le.utah.gov",
+        "district_voice": "385-271-8435",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1415754"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/WHYTESL.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephen_Whyte",
+        "https://house.utah.gov/rep/WHYTESL",
+        "https://house.utah.gov/rep/WHYTESL/",
+        "https://house.utleg.gov/rep/WHYTESL",
+        "https://house.utleg.gov/rep/WHYTESL/",
+        "https://justfacts.votesmart.org/candidate/137410/stephen-whyte",
+        "https://le.utah.gov/data/legislators.json",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "eliason-steve-ut-hd43",
+      "name": "Steve Eliason",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-43)",
+      "state": "UT",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/06d334f0-dd19-4a8e-b1c9-5f1ae1d90e26"
+      },
+      "contact": {
+        "email": "seliason@le.utah.gov",
+        "district_voice": "801-673-4748",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1409528"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/ELIASS.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steven_Eliason",
+        "https://en.wikipedia.org/wiki/Steve_Eliason",
+        "https://house.utah.gov/rep/ELIASS",
+        "https://house.utah.gov/rep/ELIASS/",
+        "https://house.utleg.gov/rep/ELIASS",
+        "https://house.utleg.gov/rep/ELIASS/",
+        "https://justfacts.votesmart.org/candidate/biography/121355/steve-eliason",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/steve-eliason-786b01117",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "barlow-stewart-ut-hd17",
+      "name": "Stewart Barlow",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-17)",
+      "state": "UT",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b5285658-1e71-48a2-8641-a2bc75957b24"
+      },
+      "contact": {
+        "email": "sbarlow@le.utah.gov",
+        "district_voice": "801-289-6699",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1411299"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/BARLOSE.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stewart_Barlow",
+        "https://en.wikipedia.org/wiki/Stewart_Barlow",
+        "https://house.utah.gov/rep/BARLOSE",
+        "https://house.utah.gov/rep/BARLOSE/",
+        "https://house.utleg.gov/rep/BARLOSE",
+        "https://house.utleg.gov/rep/BARLOSE/",
+        "https://justfacts.votesmart.org/candidate/biography/134842/stewart-barlow",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/stewart-barlow-84287a42",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "peterson-tom-ut-hd1",
+      "name": "Tom Peterson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-1)",
+      "state": "UT",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/faa88790-ac92-4a09-b00e-7049cc8521b6"
+      },
+      "contact": {
+        "email": "tpeterson@le.utah.gov",
+        "district_voice": "435-720-3516",
+        "website": "https://house.utah.gov/rep/PETERT/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/PETERT.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Peterson_(Utah)",
+        "https://en.wikipedia.org/wiki/Thomas_Peterson_(politician)",
+        "https://house.utah.gov/rep/PETERT",
+        "https://house.utah.gov/rep/PETERT/",
+        "https://house.utleg.gov/rep/PETERT",
+        "https://house.utleg.gov/rep/PETERT/",
+        "https://justfacts.votesmart.org/candidate/biography/210882/thomas-peterson",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/tom-peterson-cbo-3487b842",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "auxier-tiara-ut-hd4",
+      "name": "Tiara Auxier",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-4)",
+      "state": "UT",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/85745a94-5b45-4ac2-a258-1a1f48dc33db"
+      },
+      "contact": {
+        "email": "tauxier@le.utah.gov",
+        "district_voice": "801-450-3701",
+        "website": "https://house.utleg.gov/rep/AUXIET/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://le.utah.gov/images/legislator/house/AUXIET.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tiara_Auxier",
+        "https://en.wikipedia.org/wiki/Tiara_Auxier",
+        "https://house.utleg.gov/rep/AUXIET",
+        "https://justfacts.votesmart.org/candidate/biography/220763/tiara-auxier",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "weiler-todd-ut-sd8",
+      "name": "Todd Weiler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-8)",
+      "state": "UT",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6d49f384-ea91-41f2-b703-229a0a7452d9"
+      },
+      "contact": {
+        "email": "tweiler@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1411361"
+      },
+      "bio": {
+        "birth_date": "1967-05-04",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/WEILET.jpg",
+      "sources": [
+        "https://ballotpedia.org/Todd_Weiler",
+        "https://en.wikipedia.org/wiki/Todd_Weiler",
+        "https://justfacts.votesmart.org/candidate/biography/50569/todd-weiler",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/WEILET",
+        "https://senate.utah.gov/sen/WEILET/",
+        "https://www.linkedin.com/in/todd-weiler-5463025",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-tracy-ut-hd45",
+      "name": "Tracy Miller",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-45)",
+      "state": "UT",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1460f74d-e7af-44a6-8e24-5c3fe8013251"
+      },
+      "contact": {
+        "email": "tmiller@le.utah.gov",
+        "district_voice": "801-707-5768",
+        "website": "https://house.utleg.gov/rep/MILLET/"
+      },
+      "bio": {
+        "birth_date": "1970-05-27",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Tracy_Miller.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Tracy_Miller",
+        "https://en.wikipedia.org/wiki/Tracy_Miller_(politician)",
+        "https://house.utleg.gov/rep/MILLET",
+        "https://justfacts.votesmart.org/candidate/214330/tracy-miller",
+        "https://www.linkedin.com/in/tracy-miller-3549b9122",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "lee-trevor-ut-hd16",
+      "name": "Trevor Lee",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-16)",
+      "state": "UT",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3187c9ea-c509-45f3-9eb4-a8ba2d8fd7d9"
+      },
+      "contact": {
+        "email": "tlee@le.utah.gov",
+        "district_voice": "801-721-7896",
+        "website": "https://house.utah.gov/rep/LEETA/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/LEETA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Trevor_Lee",
+        "https://en.wikipedia.org/wiki/Trevor_Lee_(politician)",
+        "https://house.utah.gov/rep/LEETA",
+        "https://house.utah.gov/rep/LEETA/",
+        "https://house.utleg.gov/rep/LEETA",
+        "https://house.utleg.gov/rep/LEETA/",
+        "https://justfacts.votesmart.org/candidate/biography/204605/trevor-lee",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/trevor-lee-025b64a1",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "shelley-troy-ut-hd66",
+      "name": "Troy Shelley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-66)",
+      "state": "UT",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7e80bacf-6b3d-4f33-b854-06dab80a29bd"
+      },
+      "contact": {
+        "email": "tshelley@le.utah.gov",
+        "website": "https://house.utleg.gov/rep/SHELLT/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://cdn.prod.website-files.com/659704f376348afc7dd40409/670080f6423ccdeef1b4812e_Troy-Shelley.png",
+      "sources": [
+        "https://ballotpedia.org/Troy_Shelley",
+        "https://en.wikipedia.org/wiki/Troy_Shelley",
+        "https://house.utleg.gov/rep/SHELLT",
+        "https://justfacts.votesmart.org/candidate/biography/214353/troy-shelley",
+        "https://www.linkedin.com/in/troy-shelley-049403152",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "peterson-val-ut-hd56",
+      "name": "Val Peterson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-56)",
+      "state": "UT",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8662eb2d-1ff1-4bd2-9a3b-41fa8770cc18"
+      },
+      "contact": {
+        "email": "vpeterson@le.utah.gov",
+        "district_voice": "801-224-4473",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1409531"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/PETERVL.jpg",
+      "sources": [
+        "https://ballotpedia.org/Val_Peterson",
+        "https://en.wikipedia.org/wiki/Val_Peterson_(Utah_politician)",
+        "https://house.utah.gov/rep/PETERVL",
+        "https://house.utah.gov/rep/PETERVL/",
+        "https://house.utleg.gov/rep/PETERVL",
+        "https://house.utleg.gov/rep/PETERVL/",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/valpeterson",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "mauga-verona-ut-hd31",
+      "name": "Verona Mauga",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-31)",
+      "state": "UT",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ba4559e4-0f36-4c48-afb9-3e142b670f86"
+      },
+      "contact": {
+        "email": "vmauga@le.utah.gov",
+        "district_voice": "801-573-8279",
+        "website": "https://house.utleg.gov/rep/MAUGAV/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/VeronaMauga.jpg",
+      "sources": [
+        "https://ballotpedia.org/Verona_Mauga",
+        "https://en.wikipedia.org/wiki/Verona_Mauga",
+        "https://house.utleg.gov/rep/MAUGAV",
+        "https://justfacts.votesmart.org/candidate/biography/214309/verona-mauga",
+        "https://www.linkedin.com/in/verona-sagato-mauga",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "brooks-walt-ut-hd75",
+      "name": "Walt Brooks",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Representative (HD-75)",
+      "state": "UT",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5cef5a01-f3ea-4c28-aa39-036449806388"
+      },
+      "contact": {
+        "email": "wbrooks@le.utah.gov",
+        "district_voice": "435-817-3530",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1414382"
+      },
+      "bio": {
+        "birth_date": "1973-01-21",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/BROOKW.jpg",
+      "sources": [
+        "https://ballotpedia.org/Walt_Brooks",
+        "https://en.wikipedia.org/wiki/Walt_Brooks",
+        "https://house.utah.gov/rep/BROOKW",
+        "https://house.utah.gov/rep/BROOKW/",
+        "https://house.utleg.gov/rep/BROOKW",
+        "https://house.utleg.gov/rep/BROOKW/",
+        "https://justfacts.votesmart.org/candidate/biography/168715/walt-brooks",
+        "https://le.utah.gov/data/legislators.json",
+        "https://www.linkedin.com/in/walt-brooks-643b6719",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    },
+    {
+      "politician_id": "harper-wayne-ut-sd16",
+      "name": "Wayne Harper",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Utah State Senator (SD-16)",
+      "state": "UT",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "UT",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c351d354-5397-4f6e-b67d-98c41cea0d2c"
+      },
+      "contact": {
+        "email": "wharper@le.utah.gov",
+        "website": "https://disclosures.utah.gov/Search/PublicSearch/FolderDetails/1070"
+      },
+      "bio": {
+        "birth_date": "1956-02-27",
+        "gender": "Male"
+      },
+      "image": "https://le.utah.gov/images/legislator/HARPEWA.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wayne_Harper",
+        "https://en.wikipedia.org/wiki/Wayne_Harper",
+        "https://justfacts.votesmart.org/candidate/biography/10551/wayne-harper",
+        "https://le.utah.gov/data/legislators.json",
+        "https://senate.utah.gov/sen/HARPEWA",
+        "https://senate.utah.gov/sen/HARPEWA/",
+        "https://data.openstates.org/people/current/ut.csv"
+      ]
+    }
+  ]
+}

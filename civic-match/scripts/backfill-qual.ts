@@ -8,7 +8,13 @@ import { runQualitativeAgent } from "../lib/agents";
 
 async function main() {
   const profiles = await listPoliticians();
-  const todo = profiles.filter((p) => !p.qualitative || p.qualitative.length === 0);
+  // Skip profiles already checked where the agent verifiably found nothing —
+  // data_quality distinguishes "researched, found nothing" from "never ran".
+  const todo = profiles.filter(
+    (p) =>
+      (!p.qualitative || p.qualitative.length === 0) &&
+      !(p.data_quality?.qualitative?.researched && !p.data_quality.qualitative.found)
+  );
   console.log(`${todo.length}/${profiles.length} profiles need qualitative backfill`);
 
   const queue = [...todo];
@@ -17,10 +23,18 @@ async function main() {
       const p = queue.shift()!;
       console.log(`[start] ${p.name}`);
       try {
-        const dims = await runQualitativeAgent(p.name, new Date().toISOString());
+        const checkedAt = new Date().toISOString();
+        const dims = await runQualitativeAgent(p.name, checkedAt);
         p.qualitative = dims;
+        // Explicit marker: researched, and whether anything verifiable came back.
+        p.data_quality = {
+          ...p.data_quality,
+          qualitative: { researched: true, found: dims.length > 0, checked_at: checkedAt },
+        };
         await savePolitician(p);
-        console.log(`[done]  ${p.name}: ${dims.map((d) => `${d.id}=${d.score.toFixed(2)}`).join(" ")}`);
+        console.log(
+          `[done]  ${p.name}: ${dims.length > 0 ? dims.map((d) => `${d.id}=${d.score.toFixed(2)}`).join(" ") : "nothing verifiable found (marked)"}`
+        );
       } catch (err) {
         console.error(`[fail]  ${p.name}:`, err instanceof Error ? err.message : err);
       }

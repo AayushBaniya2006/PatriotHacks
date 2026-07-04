@@ -159,6 +159,15 @@ export interface CampaignFinance {
   correlations: MoneyCorrelation[];
 }
 
+// Per-agent research outcome marker. Distinguishes "agent ran and found
+// nothing verifiable" (researched: true, found: false) from "agent never ran"
+// (no marker). Written by the swarm/backfill scripts — never by hand.
+export interface AgentDataQuality {
+  researched: boolean; // the agent ran to completion
+  found: boolean; // it produced at least one verifiable, sourced item
+  checked_at: string; // ISO timestamp of the attempt
+}
+
 export interface PoliticianProfile {
   id: string; // slug
   name: string;
@@ -180,6 +189,9 @@ export interface PoliticianProfile {
   source_coverage_score: number; // 0-1
   researched_at: string;
   research_status: "complete" | "partial" | "failed";
+  // Optional per-agent research markers (see AgentDataQuality). Keys:
+  // "stances" | "qualitative" | "accountability" | "finance".
+  data_quality?: Record<string, AgentDataQuality>;
 }
 
 // ---- User preference model (PRD 8.2) ----
@@ -242,6 +254,17 @@ export interface MatchResult {
   score: number; // 0-100 alignment
   confidence: "High" | "Medium" | "Low";
   confidence_value: number; // 0-1
+  // Honest-coverage state: when the profile has too little sourced stance data
+  // to score meaningfully, insufficient_data is true and the UI must show a
+  // "not enough data" state instead of the numeric OVR (a low score would read
+  // as "bad candidate" when the truth is "not researched yet").
+  insufficient_data: boolean;
+  coverage: {
+    scored_issues: number; // user priorities we could actually score
+    user_issues: number; // priorities the user weighted
+    profile_stances: number; // sourced stances on the profile overall
+    tier: "full" | "partial" | "minimal";
+  };
   // 2K-style overall rating: 60 = worst, 99 = best.
   // Blends quantitative issue alignment (taxes, economy, ...) with the
   // qualitative character assessment (corruption, public interest, ...).
