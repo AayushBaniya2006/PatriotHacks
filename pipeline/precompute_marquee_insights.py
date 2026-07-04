@@ -178,6 +178,46 @@ def candidate_top_position_bullet(cid, c):
     return {"text": text, "source": top.get("source")}
 
 
+def evidence_check_bullets(cid, c):
+    """One bullet per candidate.evidence_checks[] entry (set by
+    pipeline/detect_contradictions.py's deterministic SAYS-VS-VOTED cross
+    check between this candidate's OWN positions[] and record.key_votes[] --
+    both sourced, never inferred). Dual-cited: the bullet's 'source' field
+    is the STATED position's source (so validate_marquee_insights.py's
+    per-candidate source-provenance check passes); the recorded vote's own
+    source is named inline in the bullet text, so a reader sees both
+    citations. Neutral framing either way -- a contradiction is presented
+    as something to review, not a verdict; a consistency is presented the
+    same way a contradiction would be, as a trust signal, not praise."""
+    checks = c.get("evidence_checks") or []
+    if not checks:
+        return []
+    name = c.get("name", "This candidate")
+    bullets = []
+    for ec in checks:
+        stated = ec.get("stated") or {}
+        voted = ec.get("voted") or {}
+        stated_source = stated.get("source")
+        vote_source = voted.get("source")
+        if not stated_source or not vote_source:
+            continue  # can't dual-cite without both -- never show a half-sourced check
+        issue = ec.get("issue", "this issue")
+        bill = voted.get("bill", "a recorded vote")
+        if ec.get("kind") == "consistency":
+            text = (
+                f"Record check: {name}'s stated position on {issue} matches their vote on "
+                f"{bill} (both cited — vote source: {vote_source})."
+            )
+        else:
+            text = (
+                f"Record check: {name} has stated a position on {issue} "
+                f"({stated.get('summary', '')}), but voted {voted.get('position', '')} on "
+                f"{bill} — review both sources (vote source: {vote_source})."
+            )
+        bullets.append({"text": text, "source": stated_source})
+    return bullets
+
+
 def build_base_for_race(race, candidates):
     cand_bullets = {}
     for cid in race["candidate_ids"]:
@@ -190,10 +230,16 @@ def build_base_for_race(race, candidates):
             bullets.append(pos_bullet)
         bullets.append(candidate_background_bullet(cid, c))
         bullets.append(candidate_finance_or_missing_bullet(cid, c))
+        evidence_bullets = evidence_check_bullets(cid, c)
+        bullets.extend(evidence_bullets)
         # drop any bullet with no usable source; cap at 4 (3 + 1 extra
-        # slot only used when a real positions bullet is available)
+        # slot only used when a real positions bullet is available), plus
+        # one extra slot per evidence_checks bullet -- this rare, novel,
+        # dual-cited SAYS-VS-VOTED signal is never silently truncated off
+        # by the general cap.
         bullets = [b for b in bullets if b.get("source")]
-        cand_bullets[cid] = bullets[:4]
+        cap = 4 + len(evidence_bullets)
+        cand_bullets[cid] = bullets[:cap]
 
     names = [candidates[cid]["name"] for cid in race["candidate_ids"] if cid in candidates]
     summary = (

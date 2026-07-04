@@ -6,43 +6,88 @@
 // empty/unavailable data is shown honestly rather than papered over.
 import { useEffect, useState } from "react";
 import type {
+  Districts,
   HorizonBullet,
   InsightsResponse,
   LongTermHorizonBullet,
   Race,
 } from "@/lib/dataBackend";
 import type { VoterProfile } from "@/lib/types";
-import { CivitasPanel, SourceLink, StatusPill } from "@/components/civitas-ui";
+import { markReviewed, readinessKey } from "@/lib/readiness";
 
 type FetchState =
   | { status: "idle" }
-  | { status: "loading"; raceId: string }
-  | { status: "error"; raceId: string; message: string }
-  | { status: "done"; raceId: string; result: InsightsResponse };
+  | { status: "loading" }
+  | { status: "error"; message: string }
+  | { status: "done"; result: InsightsResponse };
 
 export function InsightsPanel({
   raceId,
   races,
   profile,
+  districts,
+  prefetched,
 }: {
   raceId: string | null;
   races: Race[];
   profile?: VoterProfile;
+  // OPTIONAL: pass `ballot.districts` from the /api/ballot response so
+  // opening this panel marks the race "reviewed" under the same
+  // district-keyed readiness bucket BallotSection reads (lib/readiness.ts).
+  districts?: Districts | null;
+  // OPTIONAL: race_id -> already-resolved InsightsResponse, warmed by
+  // app/results/page.tsx's post-ballot-load prefetch (design spec §4) for
+  // the single highest-signal demo race. Purely additive to the existing
+  // click-to-fetch flow below -- entries are folded into this panel's own
+  // `cache` (never overwriting a race already fetched live), so a click on
+  // an already-warmed race resolves from cache instantly instead of
+  // showing the loading state. Absent/empty behaves exactly as before this
+  // prop existed.
+  prefetched?: Record<string, InsightsResponse>;
 }) {
   const [state, setState] = useState<FetchState>({ status: "idle" });
   const [cache, setCache] = useState<Record<string, InsightsResponse>>({});
-  const visibleState: FetchState = !raceId
-    ? { status: "idle" }
-    : cache[raceId]
-      ? { status: "done", raceId, result: cache[raceId] }
-      : state.status !== "idle" && state.raceId === raceId
-        ? state
-        : { status: "loading", raceId };
+
+  // Fold newly-arrived prefetched entries into our own cache as they land
+  // (the prefetch resolves asynchronously, typically well after this panel
+  // has already mounted). Never overwrites an entry already present -- a
+  // race the user opened live keeps its own (identical) result. Returning
+  // the same `c` reference when nothing changed lets React bail out of the
+  // re-render instead of looping.
+  useEffect(() => {
+    if (!prefetched) return;
+    setCache((c) => {
+      let changed = false;
+      const next = { ...c };
+      for (const [id, result] of Object.entries(prefetched)) {
+        if (!(id in next)) {
+          next[id] = result;
+          changed = true;
+        }
+      }
+      return changed ? next : c;
+    });
+  }, [prefetched]);
 
   useEffect(() => {
-    if (!raceId || cache[raceId]) return;
+    if (!raceId) {
+      setState({ status: "idle" });
+      return;
+    }
+
+    // "Opening" this race's insights — cached or freshly fetched — is what
+    // ballot-readiness means (improvements.md #2): mark it reviewed as soon
+    // as it's requested, not only once the fetch succeeds.
+    markReviewed(readinessKey(districts), raceId);
+
+    const cached = cache[raceId];
+    if (cached) {
+      setState({ status: "done", result: cached });
+      return;
+    }
 
     let cancelled = false;
+    setState({ status: "loading" });
 
     fetch("/api/voter-insights", {
       method: "POST",
@@ -57,13 +102,12 @@ export function InsightsPanel({
       .then((result) => {
         if (cancelled) return;
         setCache((c) => ({ ...c, [raceId]: result }));
-        setState({ status: "done", raceId, result });
+        setState({ status: "done", result });
       })
       .catch((err: unknown) => {
         if (cancelled) return;
         setState({
           status: "error",
-          raceId,
           message: err instanceof Error ? err.message : "Could not load insights",
         });
       });
@@ -71,11 +115,14 @@ export function InsightsPanel({
     return () => {
       cancelled = true;
     };
-  }, [cache, profile, raceId]);
+    // profile/districts are captured at click time; refetch only when the
+    // target race changes.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [raceId]);
 
-  if (visibleState.status === "idle") {
+  if (state.status === "idle") {
     return (
-      <div className="rounded-[10px] border border-dashed border-white/14 p-5 text-sm leading-6 text-white/48">
+      <div className="rounded-xl border border-dashed border-zinc-800 p-5 text-sm text-zinc-500">
         Click “What this means for you” on any race above for a plain-English, source-linked read
         on what each candidate would likely mean for someone in your stated situation.
       </div>
@@ -85,23 +132,25 @@ export function InsightsPanel({
   const race = races.find((r) => r.race_id === raceId);
 
   return (
-    <CivitasPanel className="p-5">
-      <h3 className="mb-3 font-serif text-2xl font-normal text-white">
+    <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-5">
+      <h3 className="mb-3 font-semibold">
         What this means for you{race ? ` — ${race.office}` : ""}
       </h3>
 
-      {visibleState.status === "loading" && (
-        <div className="animate-pulse text-sm text-white/48">
+      {state.status === "loading" && (
+        <div className="animate-pulse text-sm text-zinc-500">
           Writing your evidence-grounded explanation…
         </div>
       )}
-      {visibleState.status === "error" && (
-        <div className="text-sm text-red-200">{visibleState.message}</div>
+      {state.status === "error" && (
+        <div className="rounded-lg border border-red-900/50 bg-red-950/20 p-4 text-sm text-red-400">
+          {state.message}
+        </div>
       )}
-      {visibleState.status === "done" && (
-        <InsightsBody result={visibleState.result} race={race} profile={profile} />
+      {state.status === "done" && (
+        <InsightsBody result={state.result} race={race} profile={profile} />
       )}
-    </CivitasPanel>
+    </div>
   );
 }
 
@@ -119,17 +168,24 @@ function HorizonBulletItem({
 }) {
   const assumption = projection ? (bullet as LongTermHorizonBullet).assumption : undefined;
   return (
-    <li className="text-xs leading-5 text-white/62">
+    <li className="text-xs text-zinc-400">
       {bullet.text}
       {projection && (
-        <StatusPill className="ml-1.5 align-middle" tone="gold">
+        <span className="ml-1.5 inline-block rounded-full border border-zinc-700 px-1.5 py-0 align-middle text-[9px] uppercase tracking-wide text-zinc-400">
           Projection
-        </StatusPill>
+        </span>
       )}
       {bullet.source && (
-        <SourceLink href={bullet.source} className="ml-1">source</SourceLink>
+        <a
+          href={bullet.source}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-1 text-emerald-400 hover:underline"
+        >
+          source ↗
+        </a>
       )}
-      {assumption && <span className="mt-0.5 block text-[11px] italic text-white/35">Assumes: {assumption}</span>}
+      {assumption && <span className="mt-0.5 block text-[11px] italic text-zinc-600">Assumes: {assumption}</span>}
     </li>
   );
 }
@@ -145,7 +201,7 @@ function InsightsBody({
 }) {
   if (result.mode === "unavailable") {
     return (
-      <p className="text-sm text-white/52">
+      <p className="text-sm text-zinc-500">
         {result.detail ?? "No personalized insights are available for this race yet."}
       </p>
     );
@@ -162,7 +218,7 @@ function InsightsBody({
 
   return (
     <div className="space-y-4">
-      <p className="text-xs leading-5 text-white/45">
+      <p className="text-xs text-zinc-500">
         {hasProfile
           ? `Personalized for your stated situation${
               result.archetype_used ? ` (${result.archetype_used.replace(/_/g, " ")} profile)` : ""
@@ -173,10 +229,10 @@ function InsightsBody({
           : "From our precomputed, source-checked set."}
       </p>
 
-      {result.summary && <p className="text-sm leading-6 text-white/72">{result.summary}</p>}
+      {result.summary && <p className="text-sm text-zinc-300">{result.summary}</p>}
 
       {candidateIds.length === 0 ? (
-        <p className="text-sm text-white/35">No candidate-level insights available for this race yet.</p>
+        <p className="text-sm text-zinc-600">No candidate-level insights available for this race yet.</p>
       ) : (
         <div className="grid gap-3 sm:grid-cols-2">
           {candidateIds.map((cid) => {
@@ -189,30 +245,37 @@ function InsightsBody({
             const longTermBullets = horizons?.long_term ?? [];
             const hasHorizons = nowBullets.length > 0 || longTermBullets.length > 0;
             return (
-              <div key={cid} className="rounded-[8px] border border-white/10 bg-navy-dark/60 p-3">
-                <div className="mb-1.5 font-serif text-lg text-white">{name}</div>
+              <div key={cid} className="rounded-lg bg-zinc-950 p-3">
+                <div className="mb-1.5 text-sm font-medium text-zinc-200">{name}</div>
                 {bullets.length > 0 ? (
                   <ul className="space-y-1.5">
                     {bullets.map((b, i) => (
-                      <li key={i} className="text-xs leading-5 text-white/62">
+                      <li key={i} className="text-xs text-zinc-400">
                         {b.text}
                         {b.source && (
-                          <SourceLink href={b.source} className="ml-1">source</SourceLink>
+                          <a
+                            href={b.source}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="ml-1 text-emerald-400 hover:underline"
+                          >
+                            source ↗
+                          </a>
                         )}
                       </li>
                     ))}
                   </ul>
                 ) : (
-                  <p className="text-xs text-white/35">
+                  <p className="text-xs text-zinc-600">
                     No public data in our set for this candidate here.
                   </p>
                 )}
 
                 {hasHorizons && (
-                  <div className="mt-3 space-y-3 border-t border-white/10 pt-2.5">
+                  <div className="mt-3 space-y-3 border-t border-zinc-800 pt-2.5">
                     {nowBullets.length > 0 && (
                       <div>
-                        <div className="mb-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-gold/80">
+                        <div className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-zinc-500">
                           Right now
                         </div>
                         <ul className="space-y-1.5">
@@ -224,7 +287,7 @@ function InsightsBody({
                     )}
                     {longTermBullets.length > 0 && (
                       <div>
-                        <div className="mb-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-gold/80">
+                        <div className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-zinc-500">
                           Down the road (projection)
                         </div>
                         <ul className="space-y-1.5">
@@ -243,8 +306,8 @@ function InsightsBody({
       )}
 
       {result.caveats && (
-        <p className="text-xs leading-5 text-white/45">
-          <span className="text-gold">Caveat:</span> {result.caveats}
+        <p className="text-xs text-zinc-500">
+          <span className="text-yellow-500/90">Caveat:</span> {result.caveats}
         </p>
       )}
     </div>

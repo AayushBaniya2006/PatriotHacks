@@ -10,14 +10,19 @@ requests under ~12 since DEMO_KEY is shared/rate-limited across agents.
 import json
 import os
 import re
+import sys
 import time
 import urllib.parse
-import urllib.request
 from datetime import datetime, timezone
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PIPELINE_DIR = os.path.dirname(os.path.abspath(__file__))
 ENV_PATH = os.path.join(REPO_ROOT, ".env")
 OUT_PATH = os.path.join(REPO_ROOT, "data", "tx", "raw", "fec.json")
+
+if PIPELINE_DIR not in sys.path:
+    sys.path.insert(0, PIPELINE_DIR)
+from lib_fetch import DriftError, expect_keys, get_with_retry  # noqa: E402
 
 BASE = "https://api.open.fec.gov/v1"
 ELECTION_YEAR = 2026
@@ -42,6 +47,12 @@ REQUEST_BUDGET = 12
 
 
 def api_get(path, params, max_retries=3):
+    """GET path with retry+backoff. Transport is pipeline/lib_fetch.get_with_retry
+    (stdlib urllib, single attempt per call: retries=1, backoff=0) wrapped in the
+    *same* outer budget-checked retry loop the original code used, so per-attempt
+    request-budget accounting and sleep timing are unchanged. A schema-drift
+    check (expect_keys) runs at the JSON parse boundary, right after the body
+    is decoded."""
     global REQUEST_COUNT
     params = dict(params)
     params["api_key"] = API_KEY
@@ -52,10 +63,17 @@ def api_get(path, params, max_retries=3):
             raise RuntimeError(f"Request budget of {REQUEST_BUDGET} exceeded; stopping.")
         REQUEST_COUNT += 1
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "patriothacks-fetch-fec/1.0"})
-            with urllib.request.urlopen(req, timeout=20) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                return data
+            result = get_with_retry(
+                url, retries=1, backoff=0, timeout=20, user_agent="patriothacks-fetch-fec/1.0"
+            )
+            data = json.loads(result.body.decode("utf-8"))
+            expect_keys(data, f"FEC {path} response", ["results", "pagination"])
+            return data
+        except DriftError:
+            # Schema drift is a shape problem, not a transient network problem --
+            # retrying gets the same (wrong) shape again, so fail immediately and
+            # loudly rather than burn the request budget re-fetching it.
+            raise
         except Exception as e:
             last_err = e
             time.sleep(1.5 * (attempt + 1))
@@ -73,6 +91,7 @@ def fetch_all_pages(path, params, max_pages=3):
         results = data.get("results", [])
         all_results.extend(results)
         pagination = data.get("pagination", {})
+        expect_keys(pagination, f"FEC {path} pagination (page {page})", ["pages"])
         total_pages = pagination.get("pages", 1)
         if page >= total_pages:
             break
