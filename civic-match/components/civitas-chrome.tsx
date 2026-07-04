@@ -29,7 +29,7 @@ const navItems = [
 export default function CivitasChrome({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
-  if (pathname === "/") return <>{children}</>;
+  if (pathname === "/" || pathname === "/ballot") return <>{children}</>;
 
   return (
     <div className="flex min-h-screen flex-col bg-navy text-cream-light">

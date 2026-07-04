@@ -5,8 +5,7 @@ import type { ReactNode, SVGProps } from "react";
 type IconProps = SVGProps<SVGSVGElement>;
 
 const heroImage = "/images/statue-of-liberty.png";
-const recordImage =
-  "https://images.unsplash.com/photo-1541872703-74c5e44368f9?q=80&w=2000&auto=format&fit=crop";
+const recordImage = "/images/stone-pillars.png";
 const ctaImage = "/images/statue-of-liberty.png";
 
 function StarIcon(props: IconProps) {
@@ -284,7 +283,10 @@ export default function Home() {
       </nav>
 
       <main>
-        <section className="relative flex min-h-[86svh] items-center pb-10 pt-28 sm:min-h-[90vh] sm:pb-16 sm:pt-36 lg:min-h-screen lg:pb-20 lg:pt-44">
+        <section
+          className="relative flex min-h-[86svh] items-center pb-10 pt-28 sm:min-h-[90vh] sm:pb-16 sm:pt-36 lg:min-h-screen lg:pb-20 lg:pt-44"
+          data-scroll-transition="hero-exit"
+        >
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 z-10 bg-navy/60 lg:hidden" />
             <div className="absolute inset-0 z-10 hidden w-[66%] bg-gradient-to-r from-navy via-navy/95 to-transparent lg:block" />
@@ -340,23 +342,24 @@ export default function Home() {
 
         <section
           id="record"
-          className="relative flex min-h-[70vh] items-center overflow-hidden bg-cream text-navy lg:min-h-[80vh] lg:bg-navy lg:text-white"
+          className="record-section relative flex min-h-[100svh] items-center overflow-hidden bg-navy text-white"
         >
-          <div className="absolute inset-0 z-0 lg:left-1/3">
-            <div className="absolute inset-0 z-10 h-full bg-gradient-to-t from-cream via-cream/80 to-transparent lg:hidden" />
-            <div className="absolute inset-0 z-10 hidden w-1/2 bg-gradient-to-r from-navy via-navy/90 to-transparent lg:block" />
+          <div className="absolute inset-0 z-0" data-scroll-transition="record-image">
+            <div className="absolute inset-0 z-10 bg-navy/20" />
+            <div className="absolute inset-0 z-10 bg-gradient-to-r from-navy via-navy/85 to-navy/10" />
+            <div className="absolute inset-0 z-10 bg-gradient-to-t from-navy/45 via-transparent to-navy/20" />
             <Image
               src={recordImage}
               alt="Civic building pillars"
               fill
               sizes="100vw"
-              className="object-cover object-bottom opacity-80 mix-blend-multiply lg:object-right lg:opacity-50 lg:mix-blend-luminosity"
+              className="object-cover object-[63%_50%] opacity-85 mix-blend-luminosity lg:object-[67%_50%]"
             />
           </div>
 
-          <div className="relative z-20 mx-auto w-full max-w-[1600px] px-6 py-20 lg:px-24 lg:py-0">
-            <div className="max-w-xl" data-reveal="left">
-              <h2 className="font-serif text-5xl font-normal leading-[1.1] lg:text-[4.5rem]">
+          <div className="relative z-20 mx-auto w-full max-w-[1600px] px-6 py-24 sm:py-32 lg:px-24">
+            <div className="max-w-2xl record-copy-transition" data-reveal="left">
+              <h2 className="font-serif text-[3.25rem] font-normal leading-[1.08] sm:text-[4.8rem] lg:text-[5.6rem] xl:text-[6rem]">
                 The public record
                 <br />
                 is scattered.
@@ -365,8 +368,8 @@ export default function Home() {
                 <br />
                 it readable.
               </h2>
-              <div className="mb-8 mt-8 h-1 w-16 bg-red" />
-              <p className="max-w-md text-lg font-light leading-relaxed opacity-90 lg:text-xl lg:text-white/80">
+              <div className="mb-8 mt-8 h-1 w-16 bg-red sm:w-20" />
+              <p className="max-w-md text-lg font-light leading-relaxed text-white/65 lg:text-xl">
                 Elections are decided through thousands of small details. Civitas organizes each
                 record around verifiable sources so you can see what is known and what is missing.
               </p>
