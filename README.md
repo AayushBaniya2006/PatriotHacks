@@ -7,7 +7,7 @@
 The product lives in [`civic-match/`](civic-match/) — full architecture diagrams in
 [`civic-match/README.md`](civic-match/README.md), data contracts in
 [`civic-match/docs/SCHEMAS.md`](civic-match/docs/SCHEMAS.md).
-
+https://www.figma.com/board/e54CLagy6noY84WtN5i8kn?utm_source=chatgpt&utm_content=edit_in_figjam&oai_id=v1%2FsKRWt3vrx2It2HJglW8SmZpweMdf6fChlIFSaVUDcnF9AhdNM94alj&request_id=fe217f64-27b5-40dc-8412-fa4bd98e2008
 ```
 Landing → Ballot lookup (address → your actual races)
         → Voter profile + 30-issue trade-off intake
