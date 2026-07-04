@@ -1,0 +1,41 @@
+
+> civic-match@0.1.0 dev
+> next dev --port 3001
+
+▲ Next.js 16.2.10 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.1.223:3001
+- Environments: .env.local
+✓ Ready in 220ms
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Volumes/CS_Stuff/PatriotHacks/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Volumes/CS_Stuff/PatriotHacks/civic-match/package-lock.json
+
+
+ GET /api/politicians 200 in 157ms (next.js: 133ms, application-code: 24ms)
+ GET / 200 in 1282ms (next.js: 1163ms, application-code: 119ms)
+ GET /intake 200 in 169ms (next.js: 154ms, application-code: 14ms)
+ GET /api/politicians 200 in 10ms (next.js: 1480µs, application-code: 8ms)
+ POST /api/match 200 in 41ms (next.js: 37ms, application-code: 4ms)
+ GET / 200 in 15ms (next.js: 1191µs, application-code: 14ms)
+ GET /intake 200 in 17ms (next.js: 3ms, application-code: 14ms)
+ GET /results 200 in 143ms (next.js: 131ms, application-code: 13ms)
+ GET /intake 200 in 21ms (next.js: 5ms, application-code: 15ms)
+ GET / 200 in 26ms (next.js: 1930µs, application-code: 24ms)
+ POST /api/match 200 in 12ms (next.js: 3ms, application-code: 9ms)
+ GET /p/greg-abbott 200 in 466ms (next.js: 410ms, application-code: 56ms)
+ POST /api/qa 200 in 3.5s (next.js: 47ms, application-code: 3.4s)
+✓ Compiled in 11ms
+✓ Compiled in 13ms
+✓ Compiled in 24ms
+✓ Compiled in 15ms
+✓ Compiled in 15ms
+✓ Compiled in 11ms
+✓ Compiled in 15ms
+✓ Compiled in 37ms
+ POST /api/explain 200 in 1609ms (next.js: 80ms, application-code: 1529ms)
+ POST /api/explain 200 in 3.8s (next.js: 6ms, application-code: 3.8s)
+ POST /api/explain 200 in 1047ms (next.js: 2ms, application-code: 1044ms)

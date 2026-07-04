@@ -308,9 +308,14 @@ export async function researchPolitician(
 
   onEvent({ type: "verify", message: "Verifier agent double-checking placements", progress: 0.85 });
   const { corrections, contradictions } = await runVerifierAgent(name, stances);
-  for (const c of corrections) {
-    const s = stances.find((s) => s.issue_id === c.issue_id);
-    if (s) s.position_scalar = c.position_scalar === null ? null : Math.max(0, Math.min(1, c.position_scalar));
+  // Guard: a verifier that nulls out a large share of stances is misbehaving —
+  // ignore its corrections rather than destroy researched placements.
+  const nullingCorrections = corrections.filter((c) => c.position_scalar === null).length;
+  if (nullingCorrections <= Math.max(2, stances.length * 0.3)) {
+    for (const c of corrections) {
+      const s = stances.find((s) => s.issue_id === c.issue_id);
+      if (s) s.position_scalar = c.position_scalar === null ? null : Math.max(0, Math.min(1, c.position_scalar));
+    }
   }
 
   const coveredIssues = new Set(stances.map((s) => s.issue_id));

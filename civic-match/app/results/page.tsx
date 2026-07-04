@@ -20,10 +20,46 @@ function ovrColor(overall: number) {
   return "text-red-400 border-red-500/40";
 }
 
+interface Explanation {
+  headline: string;
+  agreements: string[];
+  conflicts: string[];
+  caveat: string;
+  evidence_note: string;
+}
+
 export default function ResultsPage() {
   const [results, setResults] = useState<MatchResult[] | null>(null);
   const [noPrefs, setNoPrefs] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
+  const [explanations, setExplanations] = useState<Record<string, Explanation | "loading">>({});
+  const [voterName, setVoterName] = useState<string | undefined>();
+
+  const toggleExpand = (id: string) => {
+    const next = expanded === id ? null : id;
+    setExpanded(next);
+    if (next && !explanations[next]) {
+      const prefs = loadPrefs();
+      if (!prefs) return;
+      setExplanations((e) => ({ ...e, [next]: "loading" }));
+      fetch("/api/explain", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ politician_id: next, prefs }),
+      })
+        .then((r) => r.json())
+        .then((res) =>
+          setExplanations((e) => ({ ...e, [next]: res.explanation ?? undefined }))
+        )
+        .catch(() =>
+          setExplanations((e) => {
+            const copy = { ...e };
+            delete copy[next];
+            return copy;
+          })
+        );
+    }
+  };
 
   useEffect(() => {
     const prefs = loadPrefs();
@@ -31,6 +67,7 @@ export default function ResultsPage() {
       setNoPrefs(true);
       return;
     }
+    setVoterName(prefs.profile?.name);
     (async () => {
       const list: PoliticianSummary[] = await fetch("/api/politicians").then((r) => r.json());
       const res = await fetch("/api/match", {
@@ -64,7 +101,9 @@ export default function ResultsPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
       <div className="flex items-baseline justify-between mb-1">
-        <h1 className="text-2xl font-bold">Your candidate alignment</h1>
+        <h1 className="text-2xl font-bold">
+          {voterName ? `${voterName}, here's your alignment` : "Your candidate alignment"}
+        </h1>
         <Link href="/intake" className="text-xs text-zinc-400 hover:text-zinc-200">
           Edit priorities →
         </Link>
@@ -83,7 +122,7 @@ export default function ResultsPage() {
           >
             <button
               className="w-full flex items-center gap-5 p-5 text-left hover:bg-zinc-900"
-              onClick={() => setExpanded(expanded === r.politician_id ? null : r.politician_id)}
+              onClick={() => toggleExpand(r.politician_id)}
             >
               <div
                 className={`flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border-2 bg-zinc-950 ${ovrColor(r.overall)}`}
@@ -121,6 +160,45 @@ export default function ResultsPage() {
 
             {expanded === r.politician_id && (
               <div className="border-t border-zinc-800 p-5 text-sm space-y-4">
+                {explanations[r.politician_id] === "loading" ? (
+                  <div className="rounded-lg bg-zinc-950 p-4 text-zinc-500 animate-pulse text-sm">
+                    Writing your evidence-grounded explanation…
+                  </div>
+                ) : explanations[r.politician_id] ? (
+                  (() => {
+                    const ex = explanations[r.politician_id] as Explanation;
+                    return (
+                      <div className="rounded-lg bg-zinc-950 p-4 space-y-3">
+                        <p className="font-medium text-zinc-200">{ex.headline}</p>
+                        {ex.agreements.length > 0 && (
+                          <ul className="space-y-1 text-zinc-400">
+                            {ex.agreements.map((a, i) => (
+                              <li key={i} className="flex gap-2">
+                                <span className="text-emerald-400 shrink-0">+</span>
+                                {a}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                        {ex.conflicts.length > 0 && (
+                          <ul className="space-y-1 text-zinc-400">
+                            {ex.conflicts.map((c, i) => (
+                              <li key={i} className="flex gap-2">
+                                <span className="text-red-400 shrink-0">−</span>
+                                {c}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                        <p className="text-xs text-zinc-500">
+                          <span className="text-yellow-500/90">Caveat:</span> {ex.caveat}
+                        </p>
+                        <p className="text-xs text-zinc-600">{ex.evidence_note}</p>
+                      </div>
+                    );
+                  })()
+                ) : null}
+
                 <div className="grid grid-cols-3 gap-3 text-center text-xs">
                   <div className="rounded-lg bg-zinc-950 p-3">
                     <div className="text-lg font-bold text-emerald-400">

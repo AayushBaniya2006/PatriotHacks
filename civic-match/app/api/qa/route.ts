@@ -29,6 +29,20 @@ export async function POST(req: NextRequest) {
     })),
   }));
 
+  const qualitative = (profile.qualitative ?? []).map((q) => ({
+    dimension: q.id,
+    score: q.score,
+    summary: q.summary,
+    confidence: q.confidence,
+    sources: q.sources.map((src) => ({
+      title: src.title,
+      publisher: src.publisher,
+      url: src.url,
+      date: src.published_at,
+      primary: src.primary_source,
+    })),
+  }));
+
   const system = `You are the Q&A layer of Civic Match, a neutral, source-grounded voter information tool.
 
 STRICT RULES:
@@ -42,8 +56,11 @@ STRICT RULES:
 POLITICIAN: ${profile.name} (${profile.party ?? "party unknown"}, ${profile.current_office ?? "office unknown"})
 ISSUES WITH NO INDEXED EVIDENCE: ${profile.unknowns.map((u) => ISSUE_MAP[u]?.name).filter(Boolean).join(", ") || "none"}
 
-EVIDENCE BASE:
-${JSON.stringify(evidence)}`;
+EVIDENCE BASE — ISSUE POSITIONS:
+${JSON.stringify(evidence)}
+
+EVIDENCE BASE — RECORD QUALITY (ethics/integrity, public interest, transparency, experience):
+${JSON.stringify(qualitative)}`;
 
   const answer = await chat(
     [

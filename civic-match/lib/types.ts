@@ -79,9 +79,30 @@ export interface PoliticianProfile {
 }
 
 // ---- User preference model (PRD 8.2) ----
+// Everything here is EXPLICITLY user-stated. Never inferred, never sold,
+// stored locally in the browser. Used only to frame explanations
+// ("what this means for someone in your situation") — never for
+// sensitive-trait persuasion.
+
+export interface VoterProfile {
+  name?: string;
+  occupation?: string;
+  age_bracket?: "18-24" | "25-34" | "35-49" | "50-64" | "65+";
+  income_bracket?: "<30k" | "30-60k" | "60-100k" | "100-200k" | "200k+";
+  flags: {
+    homeowner?: boolean;
+    renter?: boolean;
+    kids_in_public_school?: boolean;
+    veteran?: boolean;
+    small_business_owner?: boolean;
+    student?: boolean;
+    healthcare?: "employer" | "aca" | "medicare" | "uninsured";
+  };
+}
 
 export interface UserPreferences {
   zip?: string;
+  profile?: VoterProfile;
   // issue_id -> weight 0..1 (normalized)
   priority_weights: Record<string, number>;
   // issue_id -> chosen scalar position 0..1, or null for "unsure / don't use"

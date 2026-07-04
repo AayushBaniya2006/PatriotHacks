@@ -48,22 +48,36 @@ export async function POST(req: NextRequest) {
   }
 
   // Compact, evidence-grounded context for the explainer (minimize context).
+  const voter = prefs.profile;
+  const voterContext = voter
+    ? {
+        name: voter.name,
+        occupation: voter.occupation,
+        age: voter.age_bracket,
+        income: voter.income_bracket,
+        situation: Object.entries(voter.flags ?? {})
+          .filter(([, v]) => v)
+          .map(([k, v]) => (k === "healthcare" ? `healthcare: ${v}` : k.replace(/_/g, " "))),
+      }
+    : null;
   const ctx = {
     politician: `${profile.name} (${profile.party ?? "?"})`,
+    voter: voterContext,
     score: match.score,
     confidence: match.confidence,
-    agreements: match.top_agreements.map((b) => ({
-      issue: b.issue_name,
-      user_wants: describePosition(b.issue_id, b.user_position),
-      candidate: b.candidate_label,
-      evidence: stanceEvidence(profile, b.issue_id),
-    })),
-    conflicts: match.top_conflicts.map((b) => ({
-      issue: b.issue_name,
-      user_wants: describePosition(b.issue_id, b.user_position),
-      candidate: b.candidate_label,
-      evidence: stanceEvidence(profile, b.issue_id),
-    })),
+    // All scored issues (by user weight), with status so the explainer can
+    // describe full matches, partial overlaps, and conflicts accurately.
+    issues: match.breakdown
+      .filter((b) => b.status !== "unknown")
+      .slice(0, 8)
+      .map((b) => ({
+        issue: b.issue_name,
+        status: b.status, // match | partial | conflict
+        alignment_pct: b.alignment !== null ? Math.round(b.alignment * 100) : null,
+        user_wants: describePosition(b.issue_id, b.user_position),
+        candidate: b.candidate_label,
+        evidence: stanceEvidence(profile, b.issue_id),
+      })),
     unknown_issues: match.unknown_issues.map((b) => b.issue_name),
     contradictions: profile.contradictions.map((c) => c.description),
   };
@@ -72,7 +86,18 @@ export async function POST(req: NextRequest) {
     [
       {
         role: "system",
-        content: `You write short, strictly neutral match explanations for a voter-information tool. Rules: no persuasion, no telling the user how to vote, no emotional language, no claims beyond the provided evidence. Characterize matches as "based on your stated priorities". Mention evidence types (voting record vs campaign platform vs statement). Always include the main caveat honestly.`,
+        content: `You write short, strictly neutral match explanations for a voter-information tool.
+
+HARD GROUNDING RULES:
+- Use ONLY the JSON provided. Every bullet must correspond to an entry in the "issues" array — never mention issues that are not listed there.
+- Respect each entry's "status": put match/partial entries in "agreements" (say "partially aligns" for partial), conflict entries in "conflicts".
+- Describe the user's view ONLY as stated in "user_wants". Never attribute any other preference to the user.
+- Candidate claims must come from the "evidence" fields provided.
+- If there are no entries with status match or partial, say there were no strong evidence-backed agreements.
+
+STYLE RULES: no persuasion, no telling the user how to vote, no emotional language. Characterize matches as "based on your stated priorities". Mention evidence types (voting record vs campaign platform vs statement). Always include the main caveat honestly.
+
+If voter context is provided (occupation, situation), you may note where a listed issue concretely intersects their stated situation (e.g. a renter and housing policy) — factual intersections only, never emotional appeals, never demographic generalizations, never "people like you should".`,
       },
       {
         role: "user",

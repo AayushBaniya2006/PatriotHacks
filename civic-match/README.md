@@ -17,21 +17,22 @@ and a source for every single claim.
 flowchart TB
     subgraph CLIENT["Frontend (Next.js)"]
         LANDING["Landing page<br/>Nov 2026 Texas election<br/>(auto-discovered races)"]
-        INTAKE["User info intake<br/>priority selection +<br/>trade-off questions"]
-        RESULTS["Results dashboard<br/>quantitative score +<br/>qualitative explanation"]
-        PRESENT["Presentation page<br/>politician info · policies ·<br/>sources · grounded Q&A"]
+        INTAKE["User intake<br/>1. voter profile (name, job,<br/>age, income, situation)<br/>2. issue picks (up to 30)<br/>3. trade-offs + importance"]
+        RESULTS["Results dashboard<br/>2K-style OVERALL (60-99) +<br/>decomposition + qualitative<br/>explanation card"]
+        PRESENT["Presentation page<br/>politician info · policies ·<br/>record quality · sources ·<br/>grounded Q&A"]
     end
 
     subgraph STAGING["Agent staging (minimize context)"]
-        ORCH["Orchestrator<br/>splits 30-issue taxonomy into<br/>4 clusters + 1 profile task<br/>each agent sees ONLY its slice"]
+        ORCH["Orchestrator<br/>splits 30-issue taxonomy into<br/>4 clusters + profile + qualitative<br/>each agent sees ONLY its slice"]
     end
 
-    subgraph SWARM["Kimi swarm — parallel research agents (kimi-k2 + web search)"]
+    subgraph SWARM["Kimi swarm — 6 parallel research agents (kimi-k2 + web search)"]
         A1["Economy agent<br/>econ · taxes · jobs · housing<br/>energy · trade · infra ..."]
         A2["Society agent<br/>healthcare · education ·<br/>abortion · labor · civil rights ..."]
         A3["Security agent<br/>immigration · crime · guns ·<br/>defense · foreign policy ..."]
         A4["Governance agent<br/>elections · ethics · AI ·<br/>privacy · judiciary ..."]
         A5["Profile agent<br/>bio · party · office ·<br/>jurisdiction · website"]
+        A6["Qualitative agent<br/>integrity · public interest ·<br/>transparency · experience"]
     end
 
     subgraph ENDPOINTS["Data endpoints (via web search)"]
@@ -43,31 +44,36 @@ flowchart TB
 
     subgraph OUTPUT["Output report + double checks"]
         VAL["Programmatic validator<br/>NO SOURCE → NO CLAIM<br/>URL check · scalar clamp ·<br/>dedupe by confidence"]
-        VER["Verifier agent (kimi-k2)<br/>double-checks axis placement ·<br/>flags contradictions"]
+        VER["Verifier agent (kimi-k2)<br/>double-checks axis placement ·<br/>flags contradictions ·<br/>guard: mass-nulling ignored"]
     end
 
     subgraph DB["db of politicians (cached, latency-first)"]
-        PROFILES[("data/politicians/*.json<br/>stances · sources · quotes ·<br/>confidence · unknowns ·<br/>contradictions")]
+        PROFILES[("data/politicians/*.json<br/>stances · sources · quotes ·<br/>qualitative dimensions ·<br/>unknowns · contradictions")]
         ELECTIONS[("data/elections/*.json<br/>auto-discovered races<br/>+ candidates")]
+        EXPL[("data/explanations/*.json<br/>cached explanation cards<br/>keyed by prefs-hash")]
     end
 
     subgraph SCORING["Scoring engine (pure computation, ~ms)"]
-        SCORE["Match score =<br/>Σ weight × alignment × confidence<br/>× recency × source quality"]
-        QUAL["Qualitative layer<br/>agreements · conflicts ·<br/>caveats · confidence label"]
+        SCORE["Quantitative: issue alignment<br/>Σ weight × alignment × confidence<br/>× recency × source quality"]
+        QUALS["Qualitative: record quality<br/>integrity · public interest ·<br/>transparency · experience"]
+        OVR["OVERALL (60-99, 2K style)<br/>60 + 39 × (0.6 quant + 0.4 qual<br/>− conflict penalty)"]
     end
 
     LANDING --> INTAKE
     INTAKE -->|"politician not cached"| ORCH
-    ORCH --> A1 & A2 & A3 & A4 & A5
+    ORCH --> A1 & A2 & A3 & A4 & A5 & A6
     A1 & A2 & A3 & A4 --> E1 & E2 & E3 & E4
-    A1 & A2 & A3 & A4 & A5 --> VAL
+    A6 --> E1 & E4
+    A1 & A2 & A3 & A4 & A5 & A6 --> VAL
     VAL --> VER
     VER --> PROFILES
     INTAKE -->|"politician cached (fast path)"| PROFILES
     ELECTIONS --> LANDING
-    PROFILES --> SCORE
-    SCORE --> QUAL
-    QUAL --> RESULTS
+    PROFILES --> SCORE & QUALS
+    SCORE --> OVR
+    QUALS --> OVR
+    OVR --> RESULTS
+    EXPL --> RESULTS
     PROFILES --> PRESENT
     RESULTS --> PRESENT
 ```
@@ -88,29 +94,31 @@ sequenceDiagram
     alt cache hit (fast path)
         D-->>U: profile in ~ms
     else cache miss
-        O->>S: fan out — each agent gets ONLY its issue cluster
-        par economy ∥ society ∥ security ∥ governance ∥ profile
-            S->>W: web search: votes, platforms, statements
+        O->>S: fan out — 6 agents, each gets ONLY its slice
+        par economy ∥ society ∥ security ∥ governance ∥ profile ∥ qualitative
+            S->>W: web search: votes, platforms, statements, ethics records
             W-->>S: evidence + URLs + quotes
         end
-        S-->>V: raw stances (JSON)
+        S-->>V: raw stances + qualitative dimensions (JSON)
         V->>V: drop claims without real source URLs
         V->>V: verify scalar vs. stated position (double check)
+        V->>V: guard: ignore verifier if it mass-nulls placements
         V->>V: detect contradictions (promise vs. vote)
         V->>D: save structured profile
         D-->>U: SSE progress events → complete
     end
 ```
 
-## Scoring: quantitative + qualitative
+## Scoring: quantitative + qualitative + OVERALL
 
-Every match returns **both**:
+Every match returns **three layers**, all decomposable:
 
 | Layer | What it is | How |
 |---|---|---|
-| Quantitative | `score` 0–100 + per-issue point decomposition | `Σ(weight × alignment × evidence_confidence × recency × source_quality)`, normalized to max achievable |
-| Confidence | High / Medium / Low, shown separately from alignment | how much of the user's weighted priorities are covered by real evidence |
-| Qualitative | short neutral explanation: top agreements, top conflicts, main caveat, missing evidence | generated from the scored breakdown, grounded only in indexed sources |
+| Quantitative | issue alignment 0–100 on the user's weighted priorities (taxes, economy, housing, …) | `Σ(weight × alignment × evidence_confidence × recency × source_quality)`, normalized to max achievable |
+| Qualitative | record quality, independent of the user's positions: integrity/ethics, public interest, transparency, experience | researched by the qualitative agent with sources; confidence-weighted composite |
+| **Overall** | **2K-style rating, 60 = worst, 99 = best** | `60 + 39 × (0.6 × quant + 0.4 × qual − conflict_penalty)`; penalty caps at 0.15 for conflicts on the user's highest-weight issues |
+| Confidence | High / Medium / Low, always shown separately from alignment | share of the user's weighted priorities covered by real evidence |
 
 Key rules (from the PRD):
 
@@ -119,12 +127,23 @@ Key rules (from the PRD):
 - **Conflicts are always shown** — "strongest match" still lists where you disagree.
 - **Facts vs. inference are labeled** — the Q&A layer answers only from the indexed evidence base.
 
-## The 30-issue taxonomy
+## The 30-issue taxonomy + voter profile
 
-User intake uses **trade-off questions**, not "do you care about X":
-each of the 30 issues (economy, inflation, taxes, … judicial appointments) defines a
-shared scalar axis (0.0 ↔ 1.0). The user's answer and the candidate's evidenced
-position land on the *same axis*, so alignment is a simple, auditable distance.
+User intake has three steps:
+
+1. **Voter profile (optional, local-only)** — name, occupation, age bracket,
+   income bracket, situation flags (homeowner/renter, kids in public school,
+   veteran, small business, student, health coverage). Used ONLY to explain what
+   positions mean for the user's stated situation — never inferred, never sold,
+   never used for demographic persuasion.
+2. **Issue picks** — any number (min 3) of the 30 issues, ordered by priority.
+3. **Trade-offs + importance** — each picked issue gets a trade-off question
+   (not "do you care?") plus an importance level (somewhat ×0.6, very ×1.0,
+   deal-breaker ×1.5) that multiplies the rank weight.
+
+Each issue defines a shared scalar axis (0.0 ↔ 1.0). The user's answer and the
+candidate's evidenced position land on the *same axis*, so alignment is a
+simple, auditable distance.
 
 ## Latency-first design
 
@@ -151,6 +170,11 @@ npm run dev                     # http://localhost:3000
 
 Other states: `npm run seed:state -- virginia`
 
+Maintenance scripts:
+
+- `npx tsx scripts/backfill-qual.ts` — add qualitative dimensions to profiles researched before that agent existed
+- `npx tsx scripts/repair.ts` — re-derive null axis placements from indexed evidence + normalize display names to ballot names
+
 ## API
 
 | Route | Method | Purpose |
@@ -159,16 +183,16 @@ Other states: `npm run seed:state -- virginia`
 | `/api/election` | POST | force live discovery agent |
 | `/api/research` | POST | SSE stream: run the Kimi swarm for one politician |
 | `/api/politicians` | GET | list cached profiles |
-| `/api/match` | POST | score prefs vs. cached profiles (pure computation) |
-| `/api/qa` | POST | grounded Q&A — answers only from indexed evidence |
+| `/api/match` | POST | score prefs vs. cached profiles → quant + qual + OVERALL (pure computation) |
+| `/api/explain` | POST | qualitative explanation card, personalized to the stated voter profile, cached by prefs-hash |
+| `/api/qa` | POST | grounded Q&A — answers only from indexed evidence (positions + record quality) |
 
 ## Models
 
 | Role | Model | Why |
 |---|---|---|
-| Research agents (×4 clusters + profile) | `moonshotai/kimi-k2-0905:online` | web search, long context, cheap parallel fan-out |
-| Verifier / output agent | `moonshotai/kimi-k2-0905` | fast double-check, no search needed |
-| Grounded Q&A | `moonshotai/kimi-k2-0905` | answers restricted to evidence base |
+| Research agents (×4 clusters + profile + qualitative) | `moonshotai/kimi-k2-0905:online` | web search, long context, cheap parallel fan-out |
+| Verifier / output agent, explanations, Q&A | `moonshotai/kimi-k2-0905` | fast double-check + generation, no search needed |
 
 Override with `RESEARCH_MODEL` / `FAST_MODEL` env vars.
 
