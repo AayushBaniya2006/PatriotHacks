@@ -40,9 +40,13 @@ export default function FuturePage() {
   const [available, setAvailable] = useState<{ race: string; slug: string }[]>([]);
   const [treeData, setTreeData] = useState<ScenarioTree | null>(null);
   const [loading, setLoading] = useState(true);
-  const [prefs] = useState<UserPreferences | null>(() => loadPrefs());
+  const [prefs, setPrefs] = useState<UserPreferences | null>(null);
   const [selected, setSelected] = useState<ScenarioNode | null>(null);
   const treePaneRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    setPrefs(loadPrefs());
+  }, []);
 
   const loadTree = useCallback((slug: string) => {
     setLoading(true);
@@ -146,6 +150,7 @@ export default function FuturePage() {
           <button
             key={a.slug}
             onClick={() => loadTree(a.slug)}
+            aria-pressed={treeData?.race_slug === a.slug}
             className={`rounded-full border px-4 py-1.5 text-sm ${
               treeData?.race_slug === a.slug
                 ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
@@ -164,7 +169,7 @@ export default function FuturePage() {
       </div>
 
       {loading ? (
-        <div className="text-zinc-500 animate-pulse">Loading scenario tree…</div>
+        <div role="status" aria-live="polite" className="text-zinc-500 animate-pulse">Loading scenario tree…</div>
       ) : !treeData || !layout ? (
         <p className="text-sm text-zinc-500 border border-dashed border-zinc-800 rounded-lg p-6">
           No scenario trees built yet — run <code className="text-zinc-300">npm run seed:graph</code>.
@@ -180,9 +185,10 @@ export default function FuturePage() {
               {mostLikely.path.slice(1).map((n, i) => (
                 <span key={n.id} className="flex items-center gap-1.5">
                   {i > 0 && <span className="text-zinc-600">→</span>}
-                  <button
-                    onClick={() => setSelected(n)}
-                    className="rounded-full border px-2.5 py-1 hover:bg-zinc-800"
+	                  <button
+	                    onClick={() => setSelected(n)}
+	                    aria-pressed={selected === n}
+	                    className="rounded-full border px-2.5 py-1 hover:bg-zinc-800"
                     style={{ borderColor: nodeColor(n), color: nodeColor(n) }}
                   >
                     {n.label.length > 44 ? n.label.slice(0, 43) + "…" : n.label}
@@ -225,10 +231,11 @@ export default function FuturePage() {
                 const isSel = selected === n.data;
                 const onPath = mostLikely.ids.has(n.data.id);
                 return (
-                  <button
-                    key={`${n.depth}-${n.data.id}`}
-                    onClick={() => setSelected(n.data)}
-                    className={`absolute rounded-lg border p-2.5 text-left transition hover:bg-zinc-800 ${
+	                  <button
+	                    key={`${n.depth}-${n.data.id}`}
+	                    onClick={() => setSelected(n.data)}
+	                    aria-pressed={isSel}
+	                    className={`absolute rounded-lg border p-2.5 text-left transition hover:bg-zinc-800 ${
                       isSel ? "ring-2 ring-white/70" : ""
                     } ${hits.length > 0 ? "shadow-[0_0_0_2px_rgba(52,211,153,0.5)]" : ""} ${
                       onPath ? "bg-zinc-800/90 border-2" : "bg-zinc-900 opacity-80"

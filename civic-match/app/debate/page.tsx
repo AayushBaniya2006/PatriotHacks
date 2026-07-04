@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { CivitasButton, CivitasPage, CivitasPanel, StatusPill } from "@/components/civitas-ui";
 import type { IssueDef } from "@/lib/issues";
 
 interface Turn { speaker: string; phase: string; text: string }
@@ -71,23 +72,31 @@ export default function DebatePage() {
         stayed truer to their actual record and flags every unsourced claim.
       </p>
 
-      <div className="flex flex-wrap gap-2 mb-6 items-center">
-        <select value={a} onChange={(e) => setA(e.target.value)}
-          className="rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm">
-          <option value="">Candidate A…</option>
-          {politicians.map((p) => <option key={p.id} value={p.id}>{p.name} ({p.party ?? "?"})</option>)}
-        </select>
-        <span className="text-zinc-500 text-sm">vs</span>
-        <select value={b} onChange={(e) => setB(e.target.value)}
-          className="rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm">
-          <option value="">Candidate B…</option>
-          {politicians.map((p) => <option key={p.id} value={p.id}>{p.name} ({p.party ?? "?"})</option>)}
-        </select>
-        <select value={topic} onChange={(e) => setTopic(e.target.value)}
-          className="rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm">
-          <option value="">All issues</option>
-          {issues.map((i) => <option key={i.id} value={i.id}>{i.name}</option>)}
-        </select>
+      <div className="mb-6 grid min-w-0 gap-3 sm:grid-cols-2 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,220px)_auto] lg:items-end">
+        <label className="grid min-w-0 gap-1.5 text-xs text-zinc-500">
+          Candidate A
+          <select value={a} onChange={(e) => setA(e.target.value)}
+            className="min-w-0 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-zinc-100">
+            <option value="">Choose candidate A…</option>
+            {politicians.map((p) => <option key={p.id} value={p.id}>{p.name} ({p.party ?? "?"})</option>)}
+          </select>
+        </label>
+        <label className="grid min-w-0 gap-1.5 text-xs text-zinc-500">
+          Candidate B
+          <select value={b} onChange={(e) => setB(e.target.value)}
+            className="min-w-0 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-zinc-100">
+            <option value="">Choose candidate B…</option>
+            {politicians.map((p) => <option key={p.id} value={p.id}>{p.name} ({p.party ?? "?"})</option>)}
+          </select>
+        </label>
+        <label className="grid min-w-0 gap-1.5 text-xs text-zinc-500">
+          Issue
+          <select value={topic} onChange={(e) => setTopic(e.target.value)}
+            className="min-w-0 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-zinc-100">
+            <option value="">All issues</option>
+            {issues.map((i) => <option key={i.id} value={i.id}>{i.name}</option>)}
+          </select>
+        </label>
         <button onClick={run} disabled={!a || !b || a === b || running}
           className="rounded-lg bg-emerald-500 px-5 py-2 text-sm font-medium text-zinc-950 disabled:opacity-40">
           {running ? "Debating…" : "Start debate"}
@@ -109,7 +118,7 @@ export default function DebatePage() {
             </div>
           </div>
         ))}
-        {status && <div className="text-sm text-zinc-500 animate-pulse">{status}</div>}
+        {status && <div role="status" aria-live="polite" className="text-sm text-zinc-500 animate-pulse">{status}</div>}
 
         {judge && (
           <div className="rounded-xl border border-amber-500/40 bg-amber-500/5 p-5">

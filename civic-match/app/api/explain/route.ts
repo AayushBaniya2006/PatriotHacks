@@ -76,11 +76,13 @@ export async function POST(req: NextRequest) {
     contradictions: profile.contradictions.map((c) => c.description),
   };
 
-  const out = await chat(
-    [
-      {
-        role: "system",
-        content: `You write short, strictly neutral match explanations for a voter-information tool.
+  let explanation: QualitativeExplanation;
+  try {
+    const out = await chat(
+      [
+        {
+          role: "system",
+          content: `You write short, strictly neutral match explanations for a voter-information tool.
 
 HARD GROUNDING RULES:
 - Use ONLY the JSON provided. Every bullet must correspond to an entry in the "issues" array — never mention issues that are not listed there.
@@ -92,20 +94,17 @@ HARD GROUNDING RULES:
 STYLE RULES: no persuasion, no telling the user how to vote, no emotional language. Characterize matches as "based on your stated priorities". Mention evidence types (voting record vs campaign platform vs statement). Always include the main caveat honestly.
 
 If voter context is provided (occupation, situation), you may note where a listed issue concretely intersects their stated situation (e.g. a renter and housing policy) — factual intersections only, never emotional appeals, never demographic generalizations, never "people like you should".`,
-      },
-      {
-        role: "user",
-        content: `Write the qualitative explanation for this match result. Return ONLY JSON:
+        },
+        {
+          role: "user",
+          content: `Write the qualitative explanation for this match result. Return ONLY JSON:
 {"headline": "one neutral sentence", "agreements": ["2-4 short evidence-grounded bullets"], "conflicts": ["1-3 bullets, empty array if none"], "caveat": "main caveat in one sentence", "evidence_note": "one sentence: what the evidence mostly is and how confident"}
 
 ${JSON.stringify(ctx)}`,
-      },
-    ],
-    { model: FAST_MODEL, maxTokens: 900, timeoutMs: 60_000 }
-  );
-
-  let explanation: QualitativeExplanation;
-  try {
+        },
+      ],
+      { model: FAST_MODEL, maxTokens: 900, timeoutMs: 60_000 }
+    );
     explanation = extractJSON<QualitativeExplanation>(out);
   } catch {
     // Deterministic fallback — still qualitative, still honest.

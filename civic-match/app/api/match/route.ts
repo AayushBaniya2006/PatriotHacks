@@ -6,10 +6,19 @@ import type { UserPreferences } from "@/lib/types";
 // POST /api/match { prefs: UserPreferences, politician_ids: string[] }
 // Pure computation over cached profiles — returns in milliseconds.
 export async function POST(req: NextRequest) {
-  const { prefs, politician_ids } = (await req.json()) as {
+  let body: {
     prefs: UserPreferences;
     politician_ids: string[];
   };
+  try {
+    body = (await req.json()) as {
+      prefs: UserPreferences;
+      politician_ids: string[];
+    };
+  } catch {
+    return Response.json({ error: "Invalid JSON body" }, { status: 400 });
+  }
+  const { prefs, politician_ids } = body;
   if (!prefs || !Array.isArray(politician_ids)) {
     return Response.json({ error: "prefs and politician_ids required" }, { status: 400 });
   }

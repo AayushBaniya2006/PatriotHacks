@@ -252,6 +252,34 @@ def test_no_key_returns_none_without_network(monkeypatch):
     assert asyncio.run(google_civic.get_divisions(SAN_MARCOS_ADDRESS)) is None
 
 
+def test_no_target_election_does_not_use_google_default(monkeypatch):
+    monkeypatch.setenv("GOOGLE_CIVIC_API_KEY", "fake-key")
+
+    def handler(url: str, params: dict[str, Any]):
+        if url.endswith("/elections"):
+            return (
+                200,
+                {
+                    "elections": [
+                        {
+                            "id": "current",
+                            "name": "Current Local Election",
+                            "electionDay": "2026-05-01",
+                            "ocdDivisionId": "ocd-division/country:us/state:tx",
+                        }
+                    ]
+                },
+            )
+        if url.endswith("/voterinfo"):
+            raise AssertionError("must not call voterinfo without a Nov. 3, 2026 electionId")
+        raise AssertionError(f"unexpected Civic API path requested: {url}")
+
+    _install_fake_civic_client(monkeypatch, handler)
+
+    assert asyncio.run(google_civic.get_voter_info(SAN_MARCOS_ADDRESS)) is None
+    assert asyncio.run(google_civic.get_divisions(SAN_MARCOS_ADDRESS)) is None
+
+
 # ---------------------------------------------------------------------------
 # 4. Division mismatch -> division_check.consistent is False
 # ---------------------------------------------------------------------------
@@ -266,12 +294,13 @@ def test_division_mismatch_consistent_false(monkeypatch):
 
     def handler(url: str, params: dict[str, Any]):
         if url.endswith("/elections"):
-            return (200, {"elections": []})
+            return (200, _happy_elections_body())
         if url.endswith("/voterinfo"):
+            assert params.get("electionId") == "9001"
             return (
                 200,
                 {
-                    "election": {},
+                    "election": {"id": "9001", "name": "Texas General Election 2026", "electionDay": "2026-11-03"},
                     "pollingLocations": [],
                     "earlyVoteSites": [],
                     "dropOffLocations": [],
@@ -292,8 +321,7 @@ def test_division_mismatch_consistent_false(monkeypatch):
         "consistent": False,
         "ocd_ids": ["ocd-division/country:us/state:tx/cd:07"],
     }
-    # No useful voting_info in this fixture (empty election + no locations).
-    assert "voting_info" not in body
+    assert body["voting_info"]["election"]["date"] == "2026-11-03"
 
 
 def test_division_match_consistent_true(monkeypatch):
@@ -303,12 +331,13 @@ def test_division_match_consistent_true(monkeypatch):
 
     def handler(url: str, params: dict[str, Any]):
         if url.endswith("/elections"):
-            return (200, {"elections": []})
+            return (200, _happy_elections_body())
         if url.endswith("/voterinfo"):
+            assert params.get("electionId") == "9001"
             return (
                 200,
                 {
-                    "election": {},
+                    "election": {"id": "9001", "name": "Texas General Election 2026", "electionDay": "2026-11-03"},
                     "pollingLocations": [],
                     "earlyVoteSites": [],
                     "dropOffLocations": [],

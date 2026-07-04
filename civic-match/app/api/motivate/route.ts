@@ -85,17 +85,19 @@ export async function POST(req: NextRequest) {
   }
 
   const voter = prefs.profile;
-  const out = await chat(
-    [
-      {
-        role: "system",
-        content: `You write personalized, NONPARTISAN voter-motivation cards for a ground-truth voter tool. You motivate the act of VOTING — never a candidate, party, or position. Use ONLY the provided JSON. Facts must carry their provided sources. Tone: direct, concrete, urgent but honest. Address the voter directly${voter?.name ? ` by name (${voter.name})` : ""}. Tie stakes to their stated priorities and situation.
+  let motivation: Motivation;
+  try {
+    const out = await chat(
+      [
+        {
+          role: "system",
+          content: `You write personalized, NONPARTISAN voter-motivation cards for a ground-truth voter tool. You motivate the act of VOTING — never a candidate, party, or position. Use ONLY the provided JSON. Facts must carry their provided sources. Tone: direct, concrete, urgent but honest. Address the voter directly${voter?.name ? ` by name (${voter.name})` : ""}. Tie stakes to their stated priorities and situation.
 
 FORBIDDEN: inventing adversaries or motives ("X is counting on you to stay home"), emotional manipulation, fear appeals beyond documented facts, any claim not present in the data. Urgency must come from real numbers: margins, turnout, candidate divergence, documented powers of the office.`,
-      },
-      {
-        role: "user",
-        content: `Build the motivation card. Return ONLY JSON:
+        },
+        {
+          role: "user",
+          content: `Build the motivation card. Return ONLY JSON:
 {"hook": "one sharp personal line about why THIS ballot is theirs to decide",
  "because": [{"text": "you should vote because <concrete, sourced reason tied to their priorities>", "source": {"title","url"}}, ... 2-4 items],
  "if_you_vote": "2-3 sentences: what their single vote concretely weighs in (use real margins from stakes) and what gets decided on their top issues",
@@ -109,13 +111,10 @@ candidate_divergence_on_their_issues: ${JSON.stringify(divergence)}
 race_stakes_margins_turnout: ${JSON.stringify(stakes)}
 scenario_branches_touching_them: ${JSON.stringify(relevantBranches.slice(0, 10))}
 election_date: "2026-11-03"`,
-      },
-    ],
-    { model: FAST_MODEL, maxTokens: 1200, timeoutMs: 90_000 }
-  );
-
-  let motivation: Motivation;
-  try {
+        },
+      ],
+      { model: FAST_MODEL, maxTokens: 1200, timeoutMs: 90_000 }
+    );
     motivation = extractJSON<Motivation>(out);
   } catch {
     motivation = {

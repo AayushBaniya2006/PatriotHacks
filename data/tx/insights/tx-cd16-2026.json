@@ -33,12 +33,7 @@
       ]
     },
     "summary": "This is the U.S. House race for TX-16. In the most recent election (2024-11-05), Veronica Escobar (DEM) won by about 19.08 points out of 220672 votes cast. The bullets below summarize each current candidate's public finance and voting-record data where available.",
-    "caveats": [
-      "This summary only includes facts found in our sourced dataset (FEC finance filings and U.S. House Clerk roll-call votes). It omits anything we could not verify from those sources.",
-      "No public data in our set on any candidate's policy positions for this race (the positions field was empty for every candidate as of this build).",
-      "No public data in our set on Hector Miguel Mr. Cabildo's policy positions.",
-      "No public data in our set on Veronica Escobar's policy positions."
-    ]
+    "caveats": "This summary only includes facts found in our sourced dataset (FEC finance filings and U.S. House Clerk roll-call votes). It omits anything we could not verify from those sources. No public data in our set on any candidate's policy positions for this race (the positions field was empty for every candidate as of this build). No public data in our set on Hector Miguel Mr. Cabildo's policy positions. No public data in our set on Veronica Escobar's policy positions."
   },
   "archetypes": {}
 }

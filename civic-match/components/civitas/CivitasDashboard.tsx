@@ -58,14 +58,14 @@ function statusIcon(status: CivitasStatus) {
 
 function scoreTone(score?: number) {
   if (score === undefined) return "text-white/42";
-  if (score >= 70) return "text-emerald-300";
-  if (score >= 45) return "text-amber-200";
+  if (score >= 70) return "text-gold";
+  if (score >= 45) return "text-cream";
   return "text-red-200";
 }
 
 function confidenceTone(confidence: CivitasConfidence) {
-  if (confidence === "High") return "bg-emerald-300";
-  if (confidence === "Medium") return "bg-amber-200";
+  if (confidence === "High") return "bg-gold";
+  if (confidence === "Medium") return "bg-cream";
   return "bg-red-200";
 }
 
@@ -657,7 +657,7 @@ export default function CivitasDashboard({
           </div>
         </div>
         {view.warning && (
-          <p className="mt-4 rounded-[8px] border border-amber-200/30 bg-amber-200/10 p-3 text-xs leading-5 text-amber-100">
+          <p className="mt-4 rounded-[8px] border border-gold/30 bg-gold/10 p-3 text-xs leading-5 text-gold">
             {view.warning}
           </p>
         )}

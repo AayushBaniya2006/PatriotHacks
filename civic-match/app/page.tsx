@@ -275,32 +275,45 @@ export default function Home() {
         <section
           className="relative flex min-h-[86svh] items-center pb-10 pt-28 sm:min-h-[90vh] sm:pb-16 sm:pt-36 lg:min-h-screen lg:pb-20 lg:pt-44"
           data-scroll-section="hero"
-          data-scroll-transition="hero-exit"
         >
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 z-10 bg-navy/60 lg:hidden" />
             <div className="absolute inset-0 z-10 hidden w-[66%] bg-gradient-to-r from-navy via-navy/95 to-transparent lg:block" />
             <div className="absolute inset-0 z-10 bg-gradient-to-t from-navy via-transparent to-navy/15" />
-            <Image
-              src={heroImage}
-              alt="Statue of Liberty"
-              fill
-              loading="eager"
-              fetchPriority="high"
-              sizes="100vw"
-              className="object-cover object-[70%_50%] lg:scale-[1.2] lg:translate-x-[7%] lg:object-center"
-            />
+            <div className="absolute inset-0" data-scroll-transition="hero-image-out">
+              <Image
+                src={heroImage}
+                alt="Statue of Liberty"
+                fill
+                loading="eager"
+                fetchPriority="high"
+                sizes="100vw"
+                className="object-cover object-[70%_50%] lg:scale-[1.2] lg:translate-x-[7%] lg:object-center"
+              />
+            </div>
+            <div
+              className="absolute inset-0 opacity-0"
+              data-scroll-transition="hero-record-crossfade"
+              aria-hidden="true"
+            >
+              <Image
+                src={recordImage}
+                alt=""
+                fill
+                sizes="100vw"
+                className="object-cover object-[63%_50%] opacity-80 mix-blend-luminosity lg:object-[67%_50%]"
+              />
+            </div>
           </div>
 
           <div className="relative z-20 mx-auto w-full max-w-[1600px] px-6 lg:px-24">
             <div className="max-w-5xl" data-scroll-transition="hero-copy">
               <h1
                 className="font-serif text-[2.5rem] font-normal leading-[1.04] text-cream-light sm:text-5xl lg:text-[6rem] xl:text-[6.25rem]"
-                data-hero-reveal="0"
+                data-headline-reveal="hero"
               >
-                Better Ballot Data.
-                <br />
-                Clearer Choices.
+                <span data-headline-line="0">Better Ballot Data.</span>
+                <span data-headline-line="1">Clearer Choices.</span>
               </h1>
               <div className="mb-6 mt-7 h-1 w-24 bg-red sm:mb-8 sm:mt-9" data-hero-reveal="1" />
               <p
@@ -312,7 +325,7 @@ export default function Home() {
 
               <Link
                 href="/ballot"
-                className="mt-10 inline-flex w-full items-center justify-center gap-8 rounded-md bg-red px-8 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-red/90 sm:mt-12 sm:w-auto sm:min-w-[420px] sm:py-5"
+                className="mt-10 inline-flex w-full max-w-[320px] items-center justify-center gap-5 rounded-sm bg-[#822826] px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-cream-light shadow-[0_18px_42px_rgba(43,8,8,0.34),inset_0_1px_0_rgba(255,255,255,0.12)] ring-1 ring-white/10 transition-[background-color,box-shadow] hover:bg-[#72211f] hover:shadow-[0_22px_50px_rgba(43,8,8,0.42),inset_0_1px_0_rgba(255,255,255,0.16)] sm:mt-12 sm:w-auto sm:min-w-[350px] sm:max-w-none sm:px-8 sm:py-5"
                 data-hero-reveal="3"
               >
                 Check Your Election
@@ -355,14 +368,14 @@ export default function Home() {
 
           <div className="relative z-20 mx-auto w-full max-w-[1600px] px-6 py-16 sm:py-20 lg:px-24 lg:py-24 2xl:py-32">
             <div className="max-w-3xl" data-scroll-transition="record-copy">
-              <h2 className="font-serif text-[3rem] font-normal leading-[1.03] sm:text-[4.1rem] lg:text-[4.8rem] xl:text-[5.4rem] 2xl:text-[6rem]">
-                The public record
-                <br />
-                is scattered.
-                <br />
-                Civitas makes
-                <br />
-                it readable.
+              <h2
+                className="font-serif text-[3rem] font-normal leading-[1.03] sm:text-[4.1rem] lg:text-[4.8rem] xl:text-[5.4rem] 2xl:text-[6rem]"
+                data-headline-reveal="scroll"
+              >
+                <span data-headline-line="0">The public record</span>
+                <span data-headline-line="1">is scattered.</span>
+                <span data-headline-line="2">Civitas makes</span>
+                <span data-headline-line="3">it readable.</span>
               </h2>
               <div className="mb-6 mt-6 h-1 w-16 bg-red sm:w-20 lg:mb-8 lg:mt-8" />
               <p className="max-w-md text-lg font-light leading-relaxed text-white/65 lg:text-xl">

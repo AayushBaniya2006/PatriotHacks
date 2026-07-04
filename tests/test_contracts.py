@@ -177,6 +177,8 @@ def test_insight_files_contract() -> None:
 
         base = payload.get("base")
         assert isinstance(base, dict), f"{path.name} must contain base object"
+        if "caveats" in base:
+            assert isinstance(base["caveats"], str), f"{path.name} base.caveats must be a string"
         candidates = base.get("candidates")
         assert isinstance(candidates, dict), f"{path.name} base.candidates must be an object"
 
@@ -192,6 +194,15 @@ def test_insight_files_contract() -> None:
                 _assert_source_url(
                     bullet.get("source"), f"{path.name} base.candidates.{candidate_id}[{idx}]"
                 )
+
+        archetypes = payload.get("archetypes")
+        if isinstance(archetypes, dict):
+            for key, block in archetypes.items():
+                assert isinstance(block, dict), f"{path.name} archetypes.{key} must be an object"
+                if "caveats" in block:
+                    assert isinstance(block["caveats"], str), (
+                        f"{path.name} archetypes.{key}.caveats must be a string"
+                    )
 
 
 def _test_client() -> Any:
@@ -268,3 +279,27 @@ def test_insights_endpoint_returns_mode() -> None:
     response = _test_client().post("/api/insights", json={"profile": {}, "race_id": race_id})
     assert response.status_code == 200
     assert response.json().get("mode") in {"cached", "live", "unavailable"}
+
+
+def test_insights_archetype_used_reports_base_when_block_missing() -> None:
+    if not INSIGHTS_DIR.exists():
+        pytest.skip("required directory does not exist yet: data/tx/insights")
+
+    race_id = None
+    for path in sorted(INSIGHTS_DIR.glob("*.json")):
+        payload = _load_json_file(path)
+        archetypes = payload.get("archetypes")
+        if not isinstance(archetypes, dict) or "veteran" not in archetypes:
+            race_id = path.stem
+            break
+    if race_id is None:
+        pytest.skip("all insight files have a veteran archetype block")
+
+    response = _test_client().post(
+        "/api/insights",
+        json={"profile": {"veteran": True}, "race_id": race_id},
+    )
+    assert response.status_code == 200
+    body = response.json()
+    assert body.get("mode") == "cached"
+    assert body.get("archetype_used") == "base"

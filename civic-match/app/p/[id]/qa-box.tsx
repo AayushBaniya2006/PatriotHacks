@@ -59,7 +59,7 @@ export default function QABox({
           </div>
         ))}
         {loading && (
-          <div className="animate-pulse text-sm text-white/45">
+          <div role="status" aria-live="polite" className="animate-pulse text-sm text-white/45">
             Checking the evidence base…
           </div>
         )}
@@ -72,7 +72,11 @@ export default function QABox({
         }}
         className="flex gap-2"
       >
+        <label htmlFor="candidate-question" className="sr-only">
+          Ask a question grounded in the sources above
+        </label>
         <input
+          id="candidate-question"
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Ask a question grounded in the sources above…"

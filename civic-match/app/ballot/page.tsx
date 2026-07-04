@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -29,8 +29,11 @@ import {
   Vote,
   type LucideIcon,
 } from "lucide-react";
+import CivitasDashboard from "@/components/civitas/CivitasDashboard";
+import { buildCivitasDashboard, type CivitasBallotLike } from "@/lib/civitasView";
 import { slugify } from "@/lib/db-client";
 import { savePrefs } from "@/lib/prefs";
+import type { Candidate as BackendCandidate, Districts, Race as BackendRace } from "@/lib/dataBackend";
 import type { IssueDef } from "@/lib/issues";
 import type { MatchResult, UserPreferences, VoterProfile } from "@/lib/types";
 
@@ -46,14 +49,9 @@ type WizardStep =
   | "review"
   | "matches";
 
-interface BallotCandidate {
-  candidate_id?: string;
-  name: string;
-  party?: string | null;
-  incumbent?: boolean | null;
-}
+type BallotCandidate = Partial<BackendCandidate> & { name: string };
 
-interface BallotRace {
+type BallotRace = Partial<Omit<BackendRace, "candidates">> & {
   race_id?: string;
   race?: string;
   office?: string;
@@ -66,18 +64,13 @@ interface BallotRace {
     sources?: string[];
     [key: string]: unknown;
   };
-}
+};
 
 interface BallotData {
   mode?: string;
   warning?: string;
   matched_address?: string;
-  districts?: {
-    cd?: string | null;
-    sd?: string | null;
-    hd?: string | null;
-    county?: string | null;
-  };
+  districts?: Partial<Districts>;
   races: BallotRace[];
 }
 
@@ -233,9 +226,9 @@ function filterRacesByFocus(races: BallotRace[], focus: string) {
 }
 
 function matchColor(score: number) {
-  if (score >= 70) return "text-emerald-300";
-  if (score >= 50) return "text-amber-300";
-  return "text-red-300";
+  if (score >= 70) return "text-gold";
+  if (score >= 50) return "text-cream";
+  return "text-red-200";
 }
 
 function matchSummary(result: MatchResult) {
@@ -249,6 +242,56 @@ function matchSummary(result: MatchResult) {
   return result.overall_tier;
 }
 
+function normalizeBallotCandidate(
+  candidate: BallotCandidate,
+  race: BallotRace,
+  index: number
+): BackendCandidate {
+  const office = raceTitle(race);
+  const fallbackId = `${slugify(office)}-${slugify(candidate.name || `candidate-${index + 1}`)}`;
+  return {
+    candidate_id: candidate.candidate_id ?? fallbackId,
+    name: candidate.name || `Candidate ${index + 1}`,
+    party: candidate.party,
+    office: candidate.office ?? office,
+    district: candidate.district ?? race.district ?? null,
+    incumbent: candidate.incumbent,
+    fec_id: candidate.fec_id,
+    finance: candidate.finance,
+    record: candidate.record,
+    positions: candidate.positions ?? [],
+    sources: candidate.sources ?? [],
+    data_missing: candidate.data_missing ?? !candidate.candidate_id,
+    data_quality: candidate.data_quality,
+  };
+}
+
+function normalizeBallotRace(race: BallotRace, index: number): BackendRace {
+  const office = raceTitle(race);
+  const id = race.race_id ?? slugify(office || `race-${index + 1}`);
+  return {
+    race_id: id,
+    office,
+    level: race.level ?? "state",
+    district: race.district ?? null,
+    context: race.context ?? {},
+    candidates: (race.candidates ?? []).map((candidate, candidateIndex) =>
+      normalizeBallotCandidate(candidate, race, candidateIndex)
+    ),
+    data_quality: race.data_quality,
+  };
+}
+
+function normalizeBallotForCivitas(ballot: BallotData): CivitasBallotLike {
+  return {
+    matched_address: ballot.matched_address,
+    districts: ballot.districts,
+    races: ballot.races.map(normalizeBallotRace),
+    mode: ballot.mode,
+    warning: ballot.warning,
+  };
+}
+
 function StepLayout({
   children,
   onBack,
@@ -259,8 +302,14 @@ function StepLayout({
   step: WizardStep;
 }) {
   const progress = progressFor(step);
+  const sectionRef = useRef<HTMLElement | null>(null);
+
+  useEffect(() => {
+    sectionRef.current?.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [step]);
+
   return (
-    <section className="flex min-h-full flex-1 flex-col overflow-y-auto px-5 py-5 sm:px-7 sm:py-6 lg:px-10 lg:py-8">
+    <section ref={sectionRef} className="flex min-h-full flex-1 flex-col overflow-y-auto px-5 py-5 sm:px-7 sm:py-6 lg:px-10 lg:py-8">
       <div className="mb-7 flex h-8 items-center">
         {onBack && (
           <button
@@ -372,6 +421,7 @@ function SelectableCard({
     <button
       type="button"
       onClick={onClick}
+      aria-pressed={selected}
       className={cn(
         "flex w-full items-center rounded-[10px] border p-3 text-left transition",
         selected
@@ -501,6 +551,10 @@ export default function BallotPage() {
   const [matchState, setMatchState] = useState<MatchState>({ status: "idle" });
 
   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [step]);
+
+  useEffect(() => {
     fetch("/api/config")
       .then((res) => res.json())
       .then((config) => setIssues(config.issues ?? []))
@@ -623,8 +677,17 @@ export default function BallotPage() {
     };
   };
 
+  const dashboardPrefs = buildPrefs();
+  const dashboardView = useMemo(() => {
+    if (!ballot) return null;
+    return buildCivitasDashboard(
+      normalizeBallotForCivitas(ballot),
+      matchState.status === "done" ? matchState.results : []
+    );
+  }, [ballot, matchState]);
+
   const loadMatches = async () => {
-    const prefs = buildPrefs();
+    const prefs = dashboardPrefs;
     savePrefs(prefs);
     setStep("matches");
     setMatchState({ status: "loading" });
@@ -637,16 +700,10 @@ export default function BallotPage() {
       });
       const body = await response.json();
       if (!response.ok) throw new Error(body.error ?? "Could not score candidates.");
-      const raceCandidateNames = new Set(
-        (selectedRace?.candidates ?? []).map((candidate) => candidate.name.toLowerCase())
-      );
       const allResults = (body.results ?? []) as MatchResult[];
-      const filteredResults = raceCandidateNames.size
-        ? allResults.filter((result) => raceCandidateNames.has(result.politician_name.toLowerCase()))
-        : allResults;
       setMatchState({
         status: "done",
-        results: (filteredResults.length ? filteredResults : allResults).slice(0, 6),
+        results: allResults,
       });
     } catch (error) {
       setMatchState({
@@ -770,7 +827,7 @@ export default function BallotPage() {
             <h1 className="font-serif text-3xl leading-tight text-white">We found your ballot</h1>
             <p className="mt-3 text-sm text-white/65">{locationDisplay}</p>
             {ballot?.warning && (
-              <p className="mt-4 rounded-[10px] border border-amber-300/30 bg-amber-300/10 p-3 text-xs leading-5 text-amber-100">
+              <p className="mt-4 rounded-[10px] border border-gold/30 bg-gold/10 p-3 text-xs leading-5 text-gold">
                 {ballot.warning}
               </p>
             )}
@@ -838,6 +895,7 @@ export default function BallotPage() {
                     key={issue.id}
                     type="button"
                     disabled={disabled}
+                    aria-pressed={selected}
                     onClick={() => togglePriority(issue.id)}
                     className={cn(
                       "relative flex min-h-[84px] flex-col items-start justify-between rounded-[10px] border p-3 text-left transition",
@@ -879,7 +937,11 @@ export default function BallotPage() {
             <h1 className="mt-4 font-serif text-3xl leading-tight text-white">{issueLabel(currentStanceIssue)}</h1>
             <p className="mt-4 text-base leading-7 text-white/76">{currentStanceIssue.tradeoffQuestion}</p>
             <div className="flex flex-1 flex-col justify-center py-10">
-              <div className="relative flex items-start justify-between">
+              <div
+                className="relative flex items-start justify-between"
+                role="radiogroup"
+                aria-label={`${issueLabel(currentStanceIssue)} position`}
+              >
                 <div className="absolute left-5 right-5 top-3 h-px bg-white/20" />
                 {stanceOptions.map((option) => {
                   const selected = positions[currentStanceIssue.id] === option.value;
@@ -887,6 +949,8 @@ export default function BallotPage() {
                     <button
                       key={option.label}
                       type="button"
+                      role="radio"
+                      aria-checked={selected}
                       onClick={() =>
                         setPositions((current) => ({ ...current, [currentStanceIssue.id]: option.value }))
                       }
@@ -940,13 +1004,15 @@ export default function BallotPage() {
               When policy conflicts, what do you usually prefer?
             </h1>
             <p className="mt-7 font-serif text-lg text-white/90">Taxes and services</p>
-            <div className="mt-5 flex-1 space-y-3">
+            <div className="mt-5 flex-1 space-y-3" role="radiogroup" aria-label="Taxes and services tradeoff">
               {tradeoffOptions.map((option) => {
                 const selected = tradeoffStyle === option;
                 return (
                   <button
                     key={option}
                     type="button"
+                    role="radio"
+                    aria-checked={selected}
                     onClick={() => setTradeoffStyle(option)}
                     className={cn(
                       "flex w-full items-center rounded-[10px] border p-4 text-left text-sm leading-5 transition",
@@ -989,6 +1055,7 @@ export default function BallotPage() {
                   <button
                     key={option}
                     type="button"
+                    aria-pressed={selected}
                     onClick={() =>
                       setDealbreakers((current) =>
                         selected ? current.filter((item) => item !== option) : [...current, option]
@@ -1087,88 +1154,62 @@ export default function BallotPage() {
         )}
 
         {step === "matches" && (
-          <section className="flex min-h-full flex-1 flex-col">
-            <header className="flex items-center justify-between border-b border-white/10 px-5 py-4 lg:px-10">
-              <CivitasLogo compact />
-              <button type="button" className="rounded-full p-2 text-white/55 hover:bg-white/5 hover:text-white" aria-label="Menu">
-                <Menu className="h-5 w-5" />
-              </button>
-            </header>
-            <div className="flex flex-1 flex-col px-5 py-6 lg:px-10 lg:py-8">
-              <div className="flex items-end justify-between gap-4">
-                <div>
-                  <h1 className="font-serif text-3xl leading-tight text-white">{raceTitle(selectedRace)}</h1>
-                  <p className="mt-2 text-sm text-white/58">
-                    {visibleCandidateCount} candidates
+          dashboardView ? (
+            matchState.status === "loading" ? (
+              <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white lg:px-10 lg:py-8">
+                <CivitasLogo compact />
+                <div
+                  role="status"
+                  aria-live="polite"
+                  className="mt-16 max-w-xl rounded-[10px] border border-white/12 bg-white/[0.035] p-5"
+                >
+                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#d8a15b]">
+                    Building dashboard
+                  </p>
+                  <h1 className="mt-4 font-serif text-4xl leading-tight text-white">
+                    Scoring candidates from your stated priorities.
+                  </h1>
+                  <p className="mt-4 text-sm leading-6 text-white/58">
+                    The ballot is resolved. Alignment rows will appear as soon as the local scoring
+                    engine finishes.
                   </p>
                 </div>
-                <Link href="/results" className="mb-1 text-xs text-[#d8a15b] hover:underline">
-                  How scores work
-                </Link>
-              </div>
-
-              <div className="mt-6 grid flex-1 content-start gap-3 lg:grid-cols-2">
-                {matchState.status === "loading" && (
-                  <div className="rounded-[10px] border border-white/12 bg-white/[0.035] p-4 text-sm text-white/55">
-                    Scoring candidates from your stated priorities…
-                  </div>
-                )}
-                {matchState.status === "error" && (
-                  <div className="rounded-[10px] border border-red-400/35 bg-red-500/10 p-4 text-sm text-red-100">
-                    {matchState.message}
-                  </div>
-                )}
-                {matchState.status === "done" && matchState.results.length === 0 && (
-                  <div className="rounded-[10px] border border-white/12 bg-white/[0.035] p-4 text-sm text-white/55">
-                    We did not find scoreable candidate profiles for this race yet.
-                  </div>
-                )}
-                {matchState.status === "done" &&
-                  matchState.results.map((result) => (
-                    <Link
-                      key={result.politician_id}
-                      href={`/p/${result.politician_id}`}
-                      className="flex items-center rounded-[10px] border border-white/12 bg-white/[0.035] p-3 text-left transition hover:border-white/26"
+              </section>
+            ) : matchState.status === "error" ? (
+              <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white lg:px-10 lg:py-8">
+                <CivitasLogo compact />
+                <div
+                  role="alert"
+                  className="mt-16 max-w-xl rounded-[10px] border border-red-400/35 bg-red-500/10 p-5 text-sm text-red-100"
+                >
+                  {matchState.message}
+                  <div className="mt-5">
+                    <button
+                      type="button"
+                      onClick={goBack}
+                      className="text-xs font-semibold uppercase tracking-[0.18em] text-[#d8a15b] hover:underline"
                     >
-                      <span className="mr-3 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-white/12 bg-[#10253a] font-serif text-lg text-[#d8a15b]">
-                        {result.politician_name
-                          .split(/\s+/)
-                          .slice(0, 2)
-                          .map((part) => part[0])
-                          .join("")}
-                      </span>
-                      <span className="min-w-0 flex-1">
-                        <span className="flex items-baseline justify-between gap-3">
-                          <span className="truncate text-sm font-semibold text-white">{result.politician_name}</span>
-                          <span className={cn("shrink-0 text-sm font-bold", matchColor(result.score))}>
-                            {result.score}% Match
-                          </span>
-                        </span>
-                        <span className="mt-1 block text-xs leading-5 text-white/55">{matchSummary(result)}</span>
-                      </span>
-                      <ChevronRight className="ml-2 h-5 w-5 shrink-0 text-white/30" />
-                    </Link>
-                  ))}
+                      Edit settings
+                    </button>
+                  </div>
+                </div>
+              </section>
+            ) : (
+              <CivitasDashboard
+                view={dashboardView}
+                initialRaceId={selectedRaceKey}
+                profile={dashboardPrefs.profile}
+                onEditSettings={goBack}
+              />
+            )
+          ) : (
+            <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white lg:px-10 lg:py-8">
+              <CivitasLogo compact />
+              <div className="mt-16 max-w-xl rounded-[10px] border border-white/12 bg-white/[0.035] p-5 text-sm text-white/58">
+                No ballot data is available yet. Go back and run the address lookup again.
               </div>
-
-              <div className="mt-6 space-y-3">
-                <Link
-                  href="/debate"
-                  className="flex w-full items-center justify-center gap-2 rounded-[10px] border border-white/16 px-4 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-white/80 transition hover:border-white/30 hover:bg-white/[0.035]"
-                >
-                  <MessageCircle className="h-4 w-4 text-[#d8a15b]" />
-                  Ask a question
-                </Link>
-                <button
-                  type="button"
-                  onClick={goBack}
-                  className="w-full text-center text-xs font-semibold uppercase tracking-[0.18em] text-[#d8a15b] hover:underline"
-                >
-                  Edit settings
-                </button>
-              </div>
-            </div>
-          </section>
+            </section>
+          )
         )}
         </div>
       </main>

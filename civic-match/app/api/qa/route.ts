@@ -8,7 +8,16 @@ export const maxDuration = 120;
 // POST /api/qa { politician_id, question }
 // Grounded Q&A: answers ONLY from the indexed evidence base (PRD 8.5).
 export async function POST(req: NextRequest) {
-  const { politician_id, question } = await req.json();
+  let body: { politician_id?: string; question?: string };
+  try {
+    body = await req.json();
+  } catch {
+    return Response.json({ error: "Invalid JSON body" }, { status: 400 });
+  }
+  const { politician_id, question } = body;
+  if (!politician_id) {
+    return Response.json({ error: "politician_id required" }, { status: 400 });
+  }
   const ISSUE_MAP = getIssueMap();
   const profile = await getPolitician(politician_id);
   if (!profile) return Response.json({ error: "unknown politician" }, { status: 404 });
@@ -64,13 +73,29 @@ ${JSON.stringify(evidence)}
 EVIDENCE BASE — RECORD QUALITY (ethics/integrity, public interest, transparency, experience):
 ${JSON.stringify(qualitative)}`;
 
-  const answer = await chat(
-    [
-      { role: "system", content: system },
-      { role: "user", content: `<question>${String(question).slice(0, 2000)}</question>` },
-    ],
-    { model: FAST_MODEL, maxTokens: 1500, timeoutMs: 90_000 }
-  );
+  let answer: string;
+  try {
+    answer = await chat(
+      [
+        { role: "system", content: system },
+        { role: "user", content: `<question>${String(question).slice(0, 2000)}</question>` },
+      ],
+      { model: FAST_MODEL, maxTokens: 1500, timeoutMs: 90_000 }
+    );
+  } catch {
+    const cited = evidence
+      .flatMap((item) =>
+        item.sources.slice(0, 1).map((source) => `${item.issue}: ${item.summary} [${source.title} - ${source.publisher}]`)
+      )
+      .slice(0, 3);
+    answer = cited.length
+      ? [
+          "Live Q&A is unavailable right now, so here is the indexed evidence instead:",
+          ...cited.map((line) => `- ${line}`),
+          "I found no additional source beyond the indexed evidence above.",
+        ].join("\n")
+      : "Live Q&A is unavailable right now, and I found no source in the indexed evidence covering this.";
+  }
 
   return Response.json({ answer });
 }

@@ -44,6 +44,13 @@ export default function GraphPage() {
           .force("charge", forceManyBody().strength(-160))
           .force("center", forceCenter(W / 2, H / 2))
           .force("collide", forceCollide(18));
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          sim.stop();
+          sim.tick(80);
+          setPositions(new Map(nodes.map((n) => [n.id, { x: n.x ?? 0, y: n.y ?? 0 }])));
+          simRef.current = sim;
+          return;
+        }
         sim.on("tick", () => {
           setPositions(new Map(nodes.map((n) => [n.id, { x: n.x ?? 0, y: n.y ?? 0 }])));
         });
@@ -55,7 +62,11 @@ export default function GraphPage() {
   }, []);
 
   if (!graph) {
-    return <div className="mx-auto max-w-5xl px-4 py-16 text-zinc-500 animate-pulse">Loading knowledge graph…</div>;
+    return (
+      <div role="status" aria-live="polite" className="mx-auto max-w-5xl px-4 py-16 text-zinc-500 animate-pulse">
+        Loading knowledge graph…
+      </div>
+    );
   }
   if (graph.nodes.length === 0) {
     return (
@@ -111,8 +122,23 @@ export default function GraphPage() {
               const dim = selected && selected.id !== n.id &&
                 !selectedEdges.some((e) => e.source === n.id || e.target === n.id);
               return (
-                <g key={n.id} transform={`translate(${p.x},${p.y})`} opacity={dim ? 0.3 : 1}
-                   className="cursor-pointer" onClick={() => setSelected(n)}>
+                <g
+                  key={n.id}
+                  transform={`translate(${p.x},${p.y})`}
+                  opacity={dim ? 0.3 : 1}
+                  className="cursor-pointer outline-none"
+                  role="button"
+                  tabIndex={0}
+                  aria-label={`Inspect ${n.label}, ${n.type}`}
+                  aria-pressed={selected?.id === n.id}
+                  onClick={() => setSelected(n)}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      setSelected(n);
+                    }
+                  }}
+                >
                   <circle r={n.type === "politician" ? 10 : 7} fill={TYPE_COLORS[n.type] ?? "#71717a"}
                           stroke={selected?.id === n.id ? "#fff" : "transparent"} strokeWidth={1.5} />
                   <text y={-12} textAnchor="middle" fontSize={9} fill="#a1a1aa">

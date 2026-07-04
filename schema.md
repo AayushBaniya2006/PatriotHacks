@@ -95,6 +95,7 @@ CREATE INDEX IF NOT EXISTS idx_cand_name ON candidates(name);
 CREATE TABLE IF NOT EXISTS race_candidates (
   race_id TEXT NOT NULL REFERENCES races(race_id) ON DELETE CASCADE,
   candidate_id TEXT NOT NULL REFERENCES candidates(candidate_id) ON DELETE CASCADE,
+  sort_order INTEGER NOT NULL DEFAULT 0,
   PRIMARY KEY (race_id, candidate_id)
 );
 
@@ -113,6 +114,7 @@ CREATE TABLE IF NOT EXISTS insights (
   payload JSONB NOT NULL,
   generated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   inputs_hash TEXT,
+  payload_hash TEXT,
   PRIMARY KEY (race_id, archetype)
 );
 
@@ -180,11 +182,12 @@ Real example (`crenshaw-daniel`):
 }
 ```
 
-Only federal candidates (US House/Senate) have `finance` — TX statewide
-offices don't file with the FEC, and Texas Ethics Commission state-finance
-data was a Tier-2/stretch source not pulled. As of `data/tx/quality_report.json`
+Federal candidates use FEC finance pages; Texas statewide candidates with
+matched state filings use Texas Ethics Commission finance. Candidates with
+no matched finance source omit the `finance` field entirely — never
+zero-filled. As of `data/tx/quality_report.json`
 (`source_coverage.fec_finance`), 79 of 96 candidates (82.3%) have a `finance`
-field; 17 of 96 have none — omitted, never zero-filled.
+field; 17 of 96 have none.
 
 #### `candidates.record`
 
@@ -307,9 +310,10 @@ race) get all 8 archetypes precomputed; safe races get `base` only.
   and loads it: `races`/`candidates`/`race_candidates` are unconditionally
   `TRUNCATE`d and reinserted every run (cheap, deterministic re-derivations
   from gold JSON); `insights` defaults to an incremental, hash-gated UPSERT
-  keyed on `(race_id, archetype)` — a row is only rewritten when its stored
-  `inputs_hash` no longer matches the race's current candidate data, so a
-  live write-through-cached block survives a routine rerun — `--reset`
+  keyed on `(race_id, archetype)` — a row is skipped only when both its
+  stored `inputs_hash` and `payload_hash` match the current candidate data
+  and on-disk insight block, so validator/precompute edits propagate while
+  unchanged live write-through-cached blocks survive a routine rerun — `--reset`
   forces an unconditional full reload of `insights` too. Driven entirely by
   `DATABASE_URL`; `--dry-run` parses/counts with no DB connection.
   `requirements.txt` includes the Postgres client (`psycopg[binary,pool]`).
