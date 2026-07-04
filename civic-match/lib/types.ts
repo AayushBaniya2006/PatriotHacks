@@ -57,6 +57,54 @@ export interface QualitativeDimension {
   sources: Source[];
 }
 
+// ---- Promise vs. record (accountability watchdog) ----
+
+export interface PromiseRecord {
+  promise: string; // what was promised, plain English
+  promised_at?: string; // ISO date if known
+  promise_source: Source;
+  action: string; // what they actually did (vote, signed law, inaction)
+  action_at?: string;
+  action_sources: Source[];
+  verdict: "kept" | "broken" | "partial" | "untested";
+  explanation: string; // neutral one-sentence reconciliation
+  confidence: number; // 0-1
+}
+
+// ---- Knowledge graph ----
+
+export type GraphNodeType =
+  | "politician"
+  | "office"
+  | "race"
+  | "issue"
+  | "organization"
+  | "event"; // e.g. "AG vacancy if Paxton wins"
+
+export interface GraphNode {
+  id: string;
+  type: GraphNodeType;
+  label: string;
+  meta?: Record<string, string | number | boolean | null>;
+}
+
+export interface GraphEdge {
+  source: string; // node id
+  target: string; // node id
+  rel: string; // running_for | holds | supports | opposes | leads_to | endorsed_by | funded_by | succession | could_win
+  label?: string;
+  description?: string;
+  kind: "fact" | "inference";
+  confidence: number;
+  sources: { title: string; url: string; publisher?: string }[];
+}
+
+export interface KnowledgeGraph {
+  nodes: GraphNode[];
+  edges: GraphEdge[];
+  built_at: string;
+}
+
 export interface PoliticianProfile {
   id: string; // slug
   name: string;
@@ -67,6 +115,7 @@ export interface PoliticianProfile {
   campaign_website?: string;
   stances: Stance[];
   qualitative?: QualitativeDimension[];
+  promise_record?: PromiseRecord[];
   unknowns: string[]; // issue_ids with no reliable evidence found
   contradictions: {
     issue_id: string;
