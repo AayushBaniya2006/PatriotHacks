@@ -43,3 +43,7 @@ next-env.d.ts
 
 # run/build logs
 *.log
+
+# playwright / test artifacts
+test-results/
+.playwright-mcp/
