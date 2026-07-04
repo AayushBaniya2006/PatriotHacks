@@ -1,0 +1,28 @@
+{
+  "archetype_used": "homeowner_parent",
+  "candidates": {
+    "eckhardt-sarah": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+        "text": "No public data in our set connects Sarah Eckhardt's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+        "text": "No public data in our set on Sarah Eckhardt's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ],
+    "huffines-don": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+        "text": "No public data in our set connects Don Huffines's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+        "text": "No public data in our set on Don Huffines's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ]
+  },
+  "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "mode": "cached",
+  "summary": "For a homeowner parent voter looking at the Texas Comptroller of Public Accounts race (Don Huffines, Sarah Eckhardt): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
+}

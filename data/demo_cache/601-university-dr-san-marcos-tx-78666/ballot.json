@@ -1,0 +1,1353 @@
+{
+  "districts": {
+    "cd": "TX-35",
+    "county": "Hays County",
+    "hd": "HD-45",
+    "sd": "SD-21"
+  },
+  "matched_address": "601 UNIVERSITY DR, SAN MARCOS, TX, 78666",
+  "races": [
+    {
+      "candidate_ids": [
+        "abbott-greg",
+        "hinojosa-gina",
+        "dixon-pat",
+        "raphoon-jenn"
+      ],
+      "candidates": [
+        {
+          "background": "Greg Abbott, incumbent governor (2015\u2013present).",
+          "candidate_id": "abbott-greg",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no fec/bioguide id"
+            ],
+            "score": 45.0,
+            "tier": "C"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": true,
+          "name": "Greg Abbott",
+          "office": "Governor of Texas",
+          "party": "Republican Party of Texas",
+          "positions": [
+            {
+              "confidence": 0.95,
+              "issue": "taxes",
+              "origin": "civic-match-research",
+              "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+              "summary": "Abbott has made property tax reduction a centerpiece of his governance, signing over $18 billion in property tax cuts in 2023 and seeking at least $10 billion more. He advocates for eliminating school property taxes for homeowners and raising business personal property exemptions."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "education",
+              "origin": "civic-match-research",
+              "source": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law",
+              "summary": "Abbott is a leading proponent of school choice, having signed Texas's landmark Education Savings Account program in 2025. He campaigned on 'education freedom,' supports diverting public funds to private options through ESAs, and emphasizes parental control over education decisions."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "abortion",
+              "origin": "civic-match-research",
+              "source": "https://www.legis.state.tx.us/tlodocs/87R/billtext/pdf/SB00008F.pdf",
+              "summary": "Abbott signed Texas Senate Bill 8, which prohibits abortion after detection of a fetal heartbeat (approximately 6 weeks) and authorizes private citizens to sue abortion providers. The law contains only narrow exceptions and represents one of the most restrictive abortion policies in the nation."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "immigration",
+              "origin": "civic-match-research",
+              "source": "https://gov.texas.gov/news/post/governor-abbott-signs-historic-border-security-measures-in-brownsville",
+              "summary": "Governor Abbott has signed multiple bills that criminalize illegal entry and re-entry, mandate prison sentences for smuggling, and expand physical barriers and prosecutorial tools against unauthorized migrants."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "economy",
+              "origin": "civic-match-research",
+              "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+              "summary": "Abbott consistently advocates for economic growth through deregulation, tax cuts, and business-friendly policies. He created the Small Business Freedom Council to slash state agency rules and fees, and emphasizes keeping state spending below constitutional limits."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "housing",
+              "origin": "civic-match-research",
+              "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+              "summary": "Abbott explicitly advocates for housing affordability through deregulation, cutting regulations, and speeding up permitting to make it easier to build. He also proposes a one-year tax exemption on home improvements."
+            }
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+            "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+            "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law",
+            "https://www.legis.state.tx.us/tlodocs/87R/billtext/pdf/SB00008F.pdf",
+            "https://gov.texas.gov/news/post/governor-abbott-signs-historic-border-security-measures-in-brownsville"
+          ]
+        },
+        {
+          "background": "Gina Hinojosa, state representative from the 49th district (2017\u2013present).",
+          "candidate_id": "hinojosa-gina",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no fec/bioguide id"
+            ],
+            "score": 43.0,
+            "tier": "C"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Gina Hinojosa",
+          "office": "Governor of Texas",
+          "party": "Texas Democratic Party",
+          "positions": [
+            {
+              "confidence": 0.95,
+              "issue": "education",
+              "origin": "civic-match-research",
+              "source": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/",
+              "summary": "Hinojosa is a strong advocate for public school funding and opposes school vouchers. She authored an opinion piece explicitly stating she opposes the governor's voucher plan, calling it 'irresponsible and harmful.' She emphasizes that Texas public schools need at least $40 billion to reach national per-student funding averages and has worked with bipartisan allies to block voucher legislation."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "abortion",
+              "origin": "civic-match-research",
+              "source": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+              "summary": "Hinojosa has a clear pro-choice voting record. She voted 'Nay' on HB1280, the 'backstop' bill to outlaw abortions if Roe v. Wade was overturned, and 'Nay' on SB8, which banned abortion at approximately 6 weeks without exceptions for rape and incest. She also authored a bill relating to exceptions to laws prohibiting abortion."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "elections",
+              "origin": "civic-match-research",
+              "source": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+              "summary": "Hinojosa consistently votes against Republican-backed voting restriction bills and supports expanding access. She voted against SB7 (2021) which limited voting methods, against HB3920 tightening disability mail voting restrictions, and participated in quorum breaks to protest redistricting. She frames voting access as a fundamental democratic right and criticizes Republican efforts as 'rigging' elections."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "economy",
+              "origin": "civic-match-research",
+              "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+              "summary": "Hinojosa advocates using state revenue to fund public schools and infrastructure, explicitly favoring public investment over corporate tax breaks."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "taxes",
+              "origin": "civic-match-research",
+              "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+              "summary": "She calls for ending corporate loopholes and using the proceeds to lower middle-class taxes while protecting neighborhood-school funding."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "healthcare",
+              "origin": "civic-match-research",
+              "source": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+              "summary": "Hinojosa has consistently supported expanding government healthcare coverage. She voted to extend Medicaid eligibility for 12 months after birth or miscarriage (HB133) and supported a pilot program for Medicaid coverage of doula services (HB158). Her campaign platform emphasizes fighting for affordable health care and strengthening health care access."
+            }
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+            "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/",
+            "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+            "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/"
+          ]
+        },
+        {
+          "background": "Pat Dixon (Libertarian), former chair of the Libertarian Party of Texas",
+          "candidate_id": "dixon-pat",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no fec/bioguide id"
+            ],
+            "score": 45.0,
+            "tier": "C"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Pat Dixon",
+          "office": "Governor of Texas",
+          "party": "Libertarian",
+          "positions": [
+            {
+              "confidence": 0.95,
+              "issue": "education",
+              "origin": "civic-match-research",
+              "source": "https://patdixon.org/school-choice/",
+              "summary": "Dixon strongly supports school choice, endorsing statewide voucher programs where education funding follows students to any school. He criticizes standardized testing mandates and 'Robin Hood' school funding redistribution, citing the Texas voucher plan that accepted 90,000 students as a model to expand rather than restrict."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "economy",
+              "origin": "civic-match-research",
+              "source": "https://patdixon.org/free-market-sustainability/",
+              "summary": "Dixon argues that growth should pay for itself through free-market mechanisms, opposes tax-funded corporate incentives, and emphasizes that those who create resource demand should bear the cost."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "taxes",
+              "origin": "civic-match-research",
+              "source": "https://patdixon.org/property-tax/",
+              "summary": "Dixon states that no party wants lower taxes more than the Libertarian Party, insists spending cuts must precede tax reductions, and opposes replacing property taxes with higher sales taxes without local control."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "debt spending",
+              "origin": "civic-match-research",
+              "source": "https://patdixon.org/property-tax/",
+              "summary": "Dixon pledges to identify specific spending cuts first\u2014citing Texas\u2019 $321 billion budget\u2014and rejects across-the-board cuts without detailing which departments or services would end."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "ai tech",
+              "origin": "civic-match-research",
+              "source": "https://patdixon.org/ai/",
+              "summary": "Dixon opposes new AI mandates, arguing private-sector adoption of voluntary standards is preferable to regulation that could slow innovation."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "elections",
+              "origin": "civic-match-research",
+              "source": "https://patdixon.org/election-integrity/",
+              "summary": "Dixon supports maintaining voter-ID rules, paper ballots, and hand audits, while also endorsing local adoption of Approval Voting to reduce negative campaigning."
+            }
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+            "https://patdixon.org/school-choice/",
+            "https://patdixon.org/free-market-sustainability/",
+            "https://patdixon.org/property-tax/",
+            "https://patdixon.org/ai/",
+            "https://patdixon.org/election-integrity/"
+          ]
+        },
+        {
+          "background": "Jenn Mack Raphoon (Independent)",
+          "candidate_id": "raphoon-jenn",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Jenn Mack Raphoon",
+          "office": "Governor of Texas",
+          "party": "Independent",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          ]
+        }
+      ],
+      "context": {
+        "last_result": "Incumbent prior to 2026: Greg Abbott",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        ]
+      },
+      "data_quality": {
+        "demo_rank": 2,
+        "score": 58.4,
+        "tier": "B"
+      },
+      "district": null,
+      "level": "state",
+      "office": "Governor of Texas",
+      "race_id": "tx-gov-2026"
+    },
+    {
+      "candidate_ids": [
+        "patrick-dan",
+        "goodwin-vikki",
+        "collier-mike",
+        "cristo-anthony",
+        "mccormick-kevin"
+      ],
+      "candidates": [
+        {
+          "background": "Dan Patrick, incumbent lieutenant governor (2015\u2013present).",
+          "candidate_id": "patrick-dan",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no fec/bioguide id"
+            ],
+            "score": 45.0,
+            "tier": "C"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": true,
+          "name": "Dan Patrick",
+          "office": "Lieutenant Governor of Texas",
+          "party": "Republican Party of Texas",
+          "positions": [
+            {
+              "confidence": 0.95,
+              "issue": "taxes",
+              "origin": "civic-match-research",
+              "source": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/",
+              "summary": "Dan Patrick has made property tax reduction a central priority, championing increases to the homestead exemption from $15,000 to $100,000 (now $140,000), with higher amounts for seniors. He supports constitutional amendments to make these permanent and has pushed for lowering rollback rates to restrict local government revenue growth."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "education",
+              "origin": "civic-match-research",
+              "source": "https://www.danpatrick.org/school-choice-passes/",
+              "summary": "Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership. The program prioritizes students with disabilities and lower-income families but is universally available."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "immigration",
+              "origin": "civic-match-research",
+              "source": "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-8-requiring-local-law-enforcement-to-assist-the-federal-governments-deportation-efforts/",
+              "summary": "Dan Patrick has consistently supported aggressive immigration enforcement, including state laws creating new crimes for illegal border crossing and requiring local law enforcement cooperation with federal deportation efforts. He has championed Texas taking unilateral action on border security."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "ai tech",
+              "origin": "civic-match-research",
+              "source": "https://www.ltgov.texas.gov/2025/03/12/lt-gov-dan-patrick-statement-on-the-unanimous-passage-of-senate-bill-20-stopping-ai-generated-child-pornography/",
+              "summary": "Patrick prioritized SB 20, which creates a felony for possessing or promoting any obscene AI-generated image that appears to depict a child, regardless of whether an actual child was used. He frames the measure as closing a technological loophole while not imposing broader AI safety mandates."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "elections",
+              "origin": "civic-match-research",
+              "source": "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-16-stopping-non-citizens-from-voting/",
+              "summary": "Patrick lists election security as a top priority, championing SB 16 to mandate documentary proof of citizenship for voter registration and supporting SB 2 to make illegal voting a felony again."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "energy",
+              "origin": "civic-match-research",
+              "source": "https://www.houstonchronicle.com/business/energy/article/texas-natural-gas-electricity-patrick-18639857.php",
+              "summary": "Patrick strongly supports expanding fossil fuel infrastructure, particularly natural gas power plants. He has proposed state-built natural gas plants if private investment is insufficient, citing grid reliability concerns. He acknowledges renewable growth but emphasizes 'dispatchable' fossil fuel power."
+            }
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
+            "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/",
+            "https://www.danpatrick.org/school-choice-passes/",
+            "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-8-requiring-local-law-enforcement-to-assist-the-federal-governments-deportation-efforts/",
+            "https://www.ltgov.texas.gov/2025/03/12/lt-gov-dan-patrick-statement-on-the-unanimous-passage-of-senate-bill-20-stopping-ai-generated-child-pornography/",
+            "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-16-stopping-non-citizens-from-voting/",
+            "https://www.houstonchronicle.com/business/energy/article/texas-natural-gas-electricity-patrick-18639857.php"
+          ]
+        },
+        {
+          "background": "Vikki Goodwin, state representative from the 47th district (2019\u2013present).",
+          "candidate_id": "goodwin-vikki",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no fec/bioguide id"
+            ],
+            "score": 45.0,
+            "tier": "C"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Vikki Goodwin",
+          "office": "Lieutenant Governor of Texas",
+          "party": "Texas Democratic Party",
+          "positions": [
+            {
+              "confidence": 0.95,
+              "issue": "guns",
+              "origin": "civic-match-research",
+              "source": "https://www.statesman.com/story/opinion/2022/06/05/rep-goodwin-we-have-address-obvious-guns-too-easy-get/7487952001/",
+              "summary": "She advocates universal background checks, raising the rifle-purchase age to 21, waiting periods, red-flag laws, and repealing permitless carry."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "elections",
+              "origin": "civic-match-research",
+              "source": "https://www.vikkigoodwin.com/issues",
+              "summary": "Rep. Goodwin advocates online voter registration, ranked-choice voting, and a constitutional amendment to let citizens place initiatives on statewide ballots."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "jobs",
+              "origin": "civic-match-research",
+              "source": "https://www.vikkigoodwin.com/issues",
+              "summary": "Goodwin explicitly champions increasing the minimum wage to $15 per hour and raising the tipped-worker wage, emphasizing that 'when working Texans thrive, our entire economy benefits.'"
+            },
+            {
+              "confidence": 0.9,
+              "issue": "education",
+              "origin": "civic-match-research",
+              "source": "https://www.vikkigoodwin.com/education",
+              "summary": "Rep. Goodwin strongly opposes school voucher programs, calling them a 'terrible deal for Texas kids' that diverts billions from public education to unaccountable private schools. She supports raising teacher pay, reducing standardized testing, and keeping public education dollars in public schools."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "medicare medicaid",
+              "origin": "civic-match-research",
+              "source": "https://www.vikkigoodwin.com/healthcare-priorities",
+              "summary": "Rep. Goodwin explicitly supports Medicaid expansion in Texas, noting the state has one of the highest uninsured rates in the nation. She has filed legislation (HJR 100/HB 1423) to expand coverage to approximately 726,000 uninsured adults."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "abortion",
+              "origin": "civic-match-research",
+              "source": "https://www.vikkigoodwin.com/healthcare-priorities",
+              "summary": "Rep. Goodwin supports broad access to abortion care and reproductive healthcare. She is filing legislation to broaden medical risk indications for abortion, protect doctors providing abortion care, and has proposed a constitutional amendment (HJR 33) establishing an individual's right to personal reproductive autonomy."
+            }
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election",
+            "https://www.statesman.com/story/opinion/2022/06/05/rep-goodwin-we-have-address-obvious-guns-too-easy-get/7487952001/",
+            "https://www.vikkigoodwin.com/issues",
+            "https://www.vikkigoodwin.com/education",
+            "https://www.vikkigoodwin.com/healthcare-priorities"
+          ]
+        },
+        {
+          "background": "Mike Collier (Independent), certified public accountant, Democratic nominee for Lt. Governor in 2018 and 2022, Democratic nominee for Comptroller in 2014",
+          "candidate_id": "collier-mike",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Mike Collier",
+          "office": "Lieutenant Governor of Texas",
+          "party": "Independent",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+          ]
+        },
+        {
+          "background": "Anthony Cristo (Libertarian), nominee for Texas's 15th congressional district in 2018, and nominee for Texas's 34th congressional district in 2020",
+          "candidate_id": "cristo-anthony",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Anthony Cristo",
+          "office": "Lieutenant Governor of Texas",
+          "party": "Libertarian",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+          ]
+        },
+        {
+          "background": "Kevin McCormick (Green), former teacher",
+          "candidate_id": "mccormick-kevin",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Kevin McCormick",
+          "office": "Lieutenant Governor of Texas",
+          "party": "Green",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+          ]
+        }
+      ],
+      "context": {
+        "last_result": "Incumbent prior to 2026: Dan Patrick",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+        ]
+      },
+      "data_quality": {
+        "demo_rank": 4,
+        "score": 54.7,
+        "tier": "B"
+      },
+      "district": null,
+      "level": "state",
+      "office": "Lieutenant Governor of Texas",
+      "race_id": "tx-ltgov-2026"
+    },
+    {
+      "candidate_ids": [
+        "middleton-mayes",
+        "johnson-nathan",
+        "oxford-tom"
+      ],
+      "candidates": [
+        {
+          "background": "Mayes Middleton, state senator from the 11th district (2023\u2013present).",
+          "candidate_id": "middleton-mayes",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Mayes Middleton",
+          "office": "Attorney General of Texas",
+          "party": "Republican Party (United States)",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+          ]
+        },
+        {
+          "background": "Nathan Johnson, state senator from the 16th district (2019\u2013present).",
+          "candidate_id": "johnson-nathan",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Nathan Johnson",
+          "office": "Attorney General of Texas",
+          "party": "Democratic Party (United States)",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+          ]
+        },
+        {
+          "background": "Tom Oxford (Libertarian), attorney and perennial candidate",
+          "candidate_id": "oxford-tom",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Tom Oxford",
+          "office": "Attorney General of Texas",
+          "party": "Libertarian",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+          ]
+        }
+      ],
+      "context": {
+        "last_result": "Incumbent prior to 2026: Ken Paxton",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+        ]
+      },
+      "data_quality": {
+        "demo_rank": 5,
+        "score": 50.2,
+        "tier": "B"
+      },
+      "district": null,
+      "level": "state",
+      "office": "Attorney General of Texas",
+      "race_id": "tx-ag-2026"
+    },
+    {
+      "candidate_ids": [
+        "paxton-ken",
+        "talarico-james"
+      ],
+      "candidates": [
+        {
+          "background": "Ken Paxton, attorney general of Texas (2015\u2013present).",
+          "candidate_id": "paxton-ken",
+          "data_quality": {
+            "missing": [
+              "no voting record"
+            ],
+            "score": 75.0,
+            "tier": "A"
+          },
+          "district": null,
+          "fec_id": "S6TX00388",
+          "finance": {
+            "as_of": "2026-07-04",
+            "cash_on_hand": null,
+            "disbursements": 5257745.82,
+            "receipts": 7605209.32,
+            "source": "https://www.fec.gov/data/candidate/S6TX00388/"
+          },
+          "incumbent": false,
+          "name": "Ken Paxton",
+          "office": "United States Senator from Texas",
+          "party": "Republican Party (United States)",
+          "positions": [
+            {
+              "confidence": 0.95,
+              "issue": "energy",
+              "origin": "civic-match-research",
+              "source": "https://www.texasattorneygeneral.gov/news/releases/texas-attorney-general-ken-paxton-fights-protect-texas-energy-industry-calls-president-biden",
+              "summary": "Paxton has strongly advocated for fossil fuel expansion, fighting to reinstate the Keystone XL pipeline, criticizing EPA rules targeting oil and gas, opposing FERC regulations on natural gas emissions, and arguing that 'green energy' cannot substitute for coal, nuclear, oil, and gas."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "abortion",
+              "origin": "civic-match-research",
+              "source": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+              "summary": "Paxton is strongly anti-abortion. He describes himself as 'pro-life' with a 'deeply personal' commitment to the 'sanctity of life.' As Attorney General, he defended Texas's Heartbeat Bill before the Supreme Court. He 'strongly agrees' that abortion providers including Planned Parenthood should not receive government funds. He has pursued legal action to enforce abortion restrictions and protect pro-life legislation."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "lgbtq",
+              "origin": "civic-match-research",
+              "source": "https://texasattorneygeneral.gov/sites/default/files/global/KP-0401.pdf",
+              "summary": "Paxton strongly opposes expanding LGBTQ+ protections. He issued an official opinion that gender-affirming medical procedures on children can constitute 'child abuse' under Texas law. He sued to block federal rules requiring doctors to perform gender transition procedures and to prevent Medicaid funding of such procedures. He 'strongly disagrees' with adding gender identity as a protected class and has fought against federal mandates on this issue."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "immigration",
+              "origin": "civic-match-research",
+              "source": "https://www.oag.state.tx.us/initiatives/border-security",
+              "summary": "Paxton has consistently advocated for strict immigration enforcement, including suing the Biden administration multiple times over border policies, supporting construction of a border wall, and defending Texas law SB 4 that makes illegal border crossing a state crime. He emphasizes border security as vital for public safety and has criticized federal immigration policies as 'disastrous.'"
+            },
+            {
+              "confidence": 0.95,
+              "issue": "ai tech",
+              "origin": "civic-match-research",
+              "source": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-reaches-settlement-first-its-kind-healthcare-generative-ai-investigation",
+              "summary": "Paxton\u2019s office secured a first-of-its-kind settlement requiring a healthcare AI firm to disclose accuracy limits and train users on risks, citing public safety in high-risk settings."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "privacy",
+              "origin": "civic-match-research",
+              "source": "https://www.oag.state.tx.us/news/releases/attorney-general-ken-paxton-leads-nation-protecting-americans-data-privacy-and-security-big-tech",
+              "summary": "Paxton has obtained record settlements against Google ($1.375 B) and Meta ($1.4 B) for unlawful data collection and created a dedicated privacy enforcement unit."
+            }
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+            "https://www.texasattorneygeneral.gov/news/releases/texas-attorney-general-ken-paxton-fights-protect-texas-energy-industry-calls-president-biden",
+            "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+            "https://texasattorneygeneral.gov/sites/default/files/global/KP-0401.pdf",
+            "https://www.oag.state.tx.us/initiatives/border-security",
+            "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-reaches-settlement-first-its-kind-healthcare-generative-ai-investigation",
+            "https://www.oag.state.tx.us/news/releases/attorney-general-ken-paxton-leads-nation-protecting-americans-data-privacy-and-security-big-tech"
+          ]
+        },
+        {
+          "background": "James Talarico, state representative from the 50th district (2018\u2013present).",
+          "candidate_id": "talarico-james",
+          "data_quality": {
+            "missing": [
+              "no voting record"
+            ],
+            "score": 75.0,
+            "tier": "A"
+          },
+          "district": null,
+          "fec_id": "S6TX00479",
+          "finance": {
+            "as_of": "2026-07-04",
+            "cash_on_hand": null,
+            "disbursements": 30425243.8,
+            "receipts": 40284109.15,
+            "source": "https://www.fec.gov/data/candidate/S6TX00479/"
+          },
+          "incumbent": false,
+          "name": "James Talarico",
+          "office": "United States Senator from Texas",
+          "party": "Democratic Party (United States)",
+          "positions": [
+            {
+              "confidence": 0.95,
+              "issue": "taxes",
+              "origin": "civic-match-research",
+              "source": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+              "summary": "Talarico explicitly calls for raising taxes on billionaires and corporations, including higher taxes on income and capital gains, ending 'buy, borrow, die' loopholes, raising corporate tax rates, and closing carried interest loopholes to fund working family tax cuts."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "healthcare",
+              "origin": "civic-match-research",
+              "source": "https://jamestalarico.com/issue/health-care/",
+              "summary": "Talarico supports allowing every American regardless of age to join Medicare as a public option, creating government-guaranteed coverage available to all while preserving private insurance competition. He has legislated to cap insulin costs and import cheaper drugs from Canada."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "education",
+              "origin": "civic-match-research",
+              "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+              "summary": "Talarico opposes private school vouchers and has made opposition to school choice diversion programs central to his campaign. He supports universal pre-K, capping class sizes, and increasing public school funding."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "social security",
+              "origin": "civic-match-research",
+              "source": "https://jamestalarico.com/issue/labor-business/",
+              "summary": "Talarico supports expanding Social Security benefits and funding them by eliminating the payroll tax cap on earnings over $400,000 annually. He opposes benefit cuts and privatization."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "medicare medicaid",
+              "origin": "civic-match-research",
+              "source": "https://jamestalarico.com/issue/health-care/",
+              "summary": "Talarico supports expanding Medicare eligibility to all ages as a public option and protecting Medicaid from cuts. He has opposed legislation that would kick people off Medicaid coverage."
+            },
+            {
+              "confidence": 0.95,
+              "issue": "abortion",
+              "origin": "civic-match-research",
+              "source": "https://jamestalarico.com/issue/health-care/",
+              "summary": "Talarico explicitly supports codifying Roe v. Wade and restoring access to abortion, contraception, and IVF. He opposes Texas's abortion ban and frames it as causing preventable deaths."
+            }
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+            "https://jamestalarico.com/issue/taxes-cost-of-living/",
+            "https://jamestalarico.com/issue/health-care/",
+            "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+            "https://jamestalarico.com/issue/labor-business/"
+          ]
+        }
+      ],
+      "context": {
+        "last_result": "Incumbent prior to 2026: John Cornyn",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
+        ]
+      },
+      "data_quality": {
+        "demo_rank": 1,
+        "score": 85.0,
+        "tier": "A"
+      },
+      "district": null,
+      "level": "federal",
+      "office": "United States Senator from Texas",
+      "race_id": "tx-sen-2026"
+    },
+    {
+      "candidate_ids": [
+        "huffines-don",
+        "eckhardt-sarah"
+      ],
+      "candidates": [
+        {
+          "background": "Don Huffines, former state senator from the 16th district (2015\u20132019) and candidate for governor in 2022.",
+          "candidate_id": "huffines-don",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Don Huffines",
+          "office": "Texas Comptroller of Public Accounts",
+          "party": "Republican",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
+          ]
+        },
+        {
+          "background": "Sarah Eckhardt, state senator from the 14th district (2020\u2013present).",
+          "candidate_id": "eckhardt-sarah",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Sarah Eckhardt",
+          "office": "Texas Comptroller of Public Accounts",
+          "party": "Democratic",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
+          ]
+        }
+      ],
+      "context": {
+        "last_result": "Incumbent prior to 2026: Don Huffines; (acting)",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
+        ]
+      },
+      "data_quality": {
+        "demo_rank": 6,
+        "score": 50.2,
+        "tier": "B"
+      },
+      "district": null,
+      "level": "state",
+      "office": "Texas Comptroller of Public Accounts",
+      "race_id": "tx-comptroller-2026"
+    },
+    {
+      "candidate_ids": [
+        "buckingham-dawn",
+        "flores-benjamin",
+        "snider-neill"
+      ],
+      "candidates": [
+        {
+          "background": "Dawn Buckingham, incumbent land commissioner.",
+          "candidate_id": "buckingham-dawn",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": true,
+          "name": "Dawn Buckingham",
+          "office": "Texas Land Commissioner",
+          "party": "Republican Party of Texas",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+          ]
+        },
+        {
+          "background": "Benjamin Flores, Bay City councilor (previously ran for governor).",
+          "candidate_id": "flores-benjamin",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Benjamin Flores",
+          "office": "Texas Land Commissioner",
+          "party": "Texas Democratic Party",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+          ]
+        },
+        {
+          "background": "Neill Snider (Libertarian)",
+          "candidate_id": "snider-neill",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Neill Snider",
+          "office": "Texas Land Commissioner",
+          "party": "Libertarian",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+          ]
+        }
+      ],
+      "context": {
+        "last_result": "Incumbent prior to 2026: Dawn Buckingham",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+        ]
+      },
+      "data_quality": {
+        "demo_rank": 7,
+        "score": 50.2,
+        "tier": "B"
+      },
+      "district": null,
+      "level": "state",
+      "office": "Texas Land Commissioner",
+      "race_id": "tx-landcomm-2026"
+    },
+    {
+      "candidate_ids": [
+        "sheets-nate",
+        "tucker-clayton"
+      ],
+      "candidates": [
+        {
+          "background": "Nate Sheets, beekeeper and small business owner.",
+          "candidate_id": "sheets-nate",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Nate Sheets",
+          "office": "Texas Commissioner of Agriculture",
+          "party": "Republican Party of Texas",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          ]
+        },
+        {
+          "background": "Clayton Tucker, rancher and founder of the Texas Progressive Caucus.",
+          "candidate_id": "tucker-clayton",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no fec/bioguide id"
+            ],
+            "score": 45.0,
+            "tier": "C"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Clayton Tucker",
+          "office": "Texas Commissioner of Agriculture",
+          "party": "Texas Democratic Party",
+          "positions": [
+            {
+              "confidence": 0.95,
+              "issue": "healthcare",
+              "origin": "civic-match-research",
+              "source": "https://www.claytontuckertx.com/healthcare",
+              "summary": "Clayton Tucker states that \"it is the government\u2019s responsibility to ensure everyone has health insurance\" and pledges to use the Agriculture office to lower prices and expand rural hospitals."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "inflation",
+              "origin": "civic-match-research",
+              "source": "https://www.claytontuckertx.com/fight_corporate_consolidation",
+              "summary": "Tucker attributes inflation primarily to corporate monopolies price-gouging consumers, not government spending. He supports direct intervention through breaking up monopolies and regulating corporate middlemen rather than reducing spending or regulation."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "infrastructure",
+              "origin": "civic-match-research",
+              "source": "https://www.claytontuckertx.com/rural_economy",
+              "summary": "Tucker explicitly calls for 'significant investments' in rural infrastructure including healthcare, broadband connectivity, and other incentives. Criticizes decades of underinvestment in rural areas."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "education",
+              "origin": "civic-match-research",
+              "source": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+              "summary": "Tucker supports taxpayer-funded public education \"through college,\" indicating strong backing for public-school funding rather than vouchers or charters."
+            },
+            {
+              "confidence": 0.9,
+              "issue": "ai tech",
+              "origin": "civic-match-research",
+              "source": "https://www.claytontuckertx.com/stop_ai_centers",
+              "summary": "Clayton Tucker advocates for strict oversight of AI data centers through mandatory 'Ag Impact Studies' and has outlined seven specific requirements for 'responsible' data centers, including restrictions on water/power usage, union labor requirements, and prohibitions on job automation. He frames unregulated data centers as threats to Texas communities that primarily benefit Wall Street and Big Tech."
+            },
+            {
+              "confidence": 0.85,
+              "issue": "economy",
+              "origin": "civic-match-research",
+              "source": "https://www.claytontuckertx.com/rural_economy",
+              "summary": "Tucker advocates for significant public investment in rural infrastructure, healthcare, and broadband to rebuild the rural economy, combined with aggressive antitrust action against corporate monopolies. He criticizes deregulation and offshoring policies from the 1980s-1990s."
+            }
+          ],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election",
+            "https://www.claytontuckertx.com/healthcare",
+            "https://www.claytontuckertx.com/fight_corporate_consolidation",
+            "https://www.claytontuckertx.com/rural_economy",
+            "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+            "https://www.claytontuckertx.com/stop_ai_centers"
+          ]
+        }
+      ],
+      "context": {
+        "last_result": "Incumbent prior to 2026: Sid Miller",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+        ]
+      },
+      "data_quality": {
+        "demo_rank": 3,
+        "score": 55.8,
+        "tier": "B"
+      },
+      "district": null,
+      "level": "state",
+      "office": "Texas Commissioner of Agriculture",
+      "race_id": "tx-agcomm-2026"
+    },
+    {
+      "candidate_ids": [
+        "french-bo",
+        "rosenthal-jon",
+        "dibianca-arthur"
+      ],
+      "candidates": [
+        {
+          "background": "Bo French, former chair of the Tarrant County Republican Party.",
+          "candidate_id": "french-bo",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Bo French",
+          "office": "Railroad Commissioner of Texas",
+          "party": "Republican Party of Texas",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          ]
+        },
+        {
+          "background": "Jon Rosenthal, state representative from the 135th district (2019\u2013present).",
+          "candidate_id": "rosenthal-jon",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Jon Rosenthal",
+          "office": "Railroad Commissioner of Texas",
+          "party": "Texas Democratic Party",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          ]
+        },
+        {
+          "background": "Arthur DiBianca (Libertarian)",
+          "candidate_id": "dibianca-arthur",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no voting record",
+              "no issue positions",
+              "no fec/bioguide id"
+            ],
+            "score": 17.0,
+            "tier": "D"
+          },
+          "district": null,
+          "fec_id": null,
+          "incumbent": false,
+          "name": "Arthur DiBianca",
+          "office": "Railroad Commissioner of Texas",
+          "party": "Libertarian",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          ]
+        }
+      ],
+      "context": {
+        "last_result": "Incumbent prior to 2026: Jim Wright",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        ]
+      },
+      "data_quality": {
+        "demo_rank": 8,
+        "score": 50.2,
+        "tier": "B"
+      },
+      "district": null,
+      "level": "state",
+      "office": "Railroad Commissioner of Texas",
+      "race_id": "tx-railroad-2026"
+    },
+    {
+      "candidate_ids": [
+        "cruz-carlos",
+        "garcia-johnny",
+        "casar-greg"
+      ],
+      "candidates": [
+        {
+          "candidate_id": "cruz-carlos",
+          "data_quality": {
+            "missing": [
+              "no voting record",
+              "no issue positions",
+              "no biography"
+            ],
+            "score": 37.0,
+            "tier": "C"
+          },
+          "district": "TX-35",
+          "fec_id": "H6TX35087",
+          "finance": {
+            "as_of": "2026-07-04",
+            "cash_on_hand": null,
+            "disbursements": 538555.9,
+            "receipts": 671448.14,
+            "source": "https://www.fec.gov/data/candidate/H6TX35087/"
+          },
+          "incumbent": false,
+          "name": "Carlos Jr. De La Cruz",
+          "office": "U.S. Representative, TX-35",
+          "party": "Republican",
+          "positions": [],
+          "sources": [
+            "https://www.fec.gov/data/candidate/H6TX35087/"
+          ]
+        },
+        {
+          "candidate_id": "garcia-johnny",
+          "data_quality": {
+            "missing": [
+              "no voting record",
+              "no issue positions",
+              "no biography"
+            ],
+            "score": 37.0,
+            "tier": "C"
+          },
+          "district": "TX-35",
+          "fec_id": "H6TX35095",
+          "finance": {
+            "as_of": "2026-07-04",
+            "cash_on_hand": null,
+            "disbursements": 267019.98,
+            "receipts": 328306.82,
+            "source": "https://www.fec.gov/data/candidate/H6TX35095/"
+          },
+          "incumbent": false,
+          "name": "Johnny Garcia",
+          "office": "U.S. Representative, TX-35",
+          "party": "Democratic",
+          "positions": [],
+          "sources": [
+            "https://www.fec.gov/data/candidate/H6TX35095/"
+          ]
+        },
+        {
+          "candidate_id": "casar-greg",
+          "data_quality": {
+            "missing": [
+              "no campaign finance",
+              "no issue positions",
+              "no biography",
+              "no fec/bioguide id"
+            ],
+            "score": 34.0,
+            "tier": "C"
+          },
+          "district": "TX-35",
+          "fec_id": null,
+          "incumbent": true,
+          "name": "Greg Casar",
+          "office": "U.S. Representative, TX-35",
+          "party": "Democrat",
+          "positions": [],
+          "record": {
+            "key_votes": [
+              {
+                "bill": "H R 29",
+                "date": "7-Jan-2025",
+                "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+                "position": "Nay",
+                "question": "On Passage",
+                "result": "Passed",
+                "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+              },
+              {
+                "bill": "H R 26",
+                "date": "7-Feb-2025",
+                "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+                "position": "Nay",
+                "question": "On Passage",
+                "result": "Passed",
+                "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+              },
+              {
+                "bill": "H R 1",
+                "date": "22-May-2025",
+                "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+                "position": "Nay",
+                "question": "On Passage",
+                "result": "Passed",
+                "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+              },
+              {
+                "bill": "H R 6703",
+                "date": "17-Dec-2025",
+                "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+                "position": "Nay",
+                "question": "On Passage",
+                "result": "Passed",
+                "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+              },
+              {
+                "bill": "H R 498",
+                "date": "18-Dec-2025",
+                "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+                "position": "Not Voting",
+                "question": "On Passage",
+                "result": "Passed",
+                "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+              },
+              {
+                "bill": "H R 7148",
+                "date": "22-Jan-2026",
+                "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+                "position": "Nay",
+                "question": "On Passage",
+                "result": "Passed",
+                "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+              },
+              {
+                "bill": "H R 4758",
+                "date": "25-Feb-2026",
+                "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+                "position": "Nay",
+                "question": "On Passage",
+                "result": "Passed",
+                "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+              },
+              {
+                "bill": "H R 7744",
+                "date": "5-Mar-2026",
+                "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+                "position": "Nay",
+                "question": "On Passage",
+                "result": "Passed",
+                "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+              }
+            ],
+            "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+          },
+          "sources": [
+            "https://clerk.house.gov/Votes",
+            "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+          ]
+        }
+      ],
+      "context": {
+        "last_result": "2024 winner: Greg Casar (DEM), margin 34.72 pts of 253119 votes cast",
+        "last_result_detail": {
+          "election_date": "2024-11-05",
+          "last_winner": "Greg Casar",
+          "margin_pct": 34.72,
+          "party": "DEM",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas",
+          "total_votes": 253119
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      },
+      "data_quality": {
+        "demo_rank": 31,
+        "score": 41.2,
+        "tier": "C"
+      },
+      "district": "TX-35",
+      "level": "federal",
+      "office": "U.S. House of Representatives, TX-35",
+      "race_id": "tx-cd35-2026"
+    }
+  ]
+}

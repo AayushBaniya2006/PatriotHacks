@@ -1,0 +1,38 @@
+{
+  "archetype_used": "homeowner_parent",
+  "candidates": {
+    "dibianca-arthur": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+        "text": "No public data in our set connects Arthur DiBianca's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+        "text": "No public data in our set on Arthur DiBianca's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ],
+    "french-bo": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+        "text": "No public data in our set connects Bo French's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+        "text": "No public data in our set on Bo French's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ],
+    "rosenthal-jon": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+        "text": "No public data in our set connects Jon Rosenthal's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+        "text": "No public data in our set on Jon Rosenthal's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ]
+  },
+  "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "mode": "cached",
+  "summary": "For a homeowner parent voter looking at the Railroad Commissioner of Texas race (Bo French, Jon Rosenthal, Arthur DiBianca): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
+}

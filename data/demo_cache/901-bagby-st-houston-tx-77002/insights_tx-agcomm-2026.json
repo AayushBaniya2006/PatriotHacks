@@ -1,0 +1,24 @@
+{
+  "archetype_used": "homeowner_parent",
+  "candidates": {
+    "sheets-nate": [
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election",
+        "text": "No public data in our set connects Nate Sheets's recorded background or positions specifically to property taxes or public school funding."
+      },
+      {
+        "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election",
+        "text": "No public data in our set on Nate Sheets's recorded votes or stated positions regarding property taxes or public school funding."
+      }
+    ],
+    "tucker-clayton": [
+      {
+        "source": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+        "text": "On education, Clayton Tucker's recorded position: Tucker supports taxpayer-funded public education \"through college,\" indicating strong backing for public-school funding rather than vouchers or charters."
+      }
+    ]
+  },
+  "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "mode": "cached",
+  "summary": "For a homeowner parent voter looking at the Texas Commissioner of Agriculture race (Nate Sheets, Clayton Tucker): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
+}
