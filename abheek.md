@@ -62,6 +62,9 @@ cd civic-match && npm run dev                       # product UI
 python3 pipeline/demo_readiness_gate.py             # last check before stage
 ```
 
+**Prod**: `https://web-production-17c3f.up.railway.app` (Railway, tracking `main`) —
+serving from Railway Postgres, loaded + write-through verified 2026-07-04.
+
 Follow `DEMO_PLAYBOOK.md` — 3-minute script, golden addresses, failure fallbacks.
 
 ## Docs map
