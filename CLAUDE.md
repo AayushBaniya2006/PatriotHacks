@@ -93,7 +93,7 @@ Precomputed-first: POST `/api/insights` {profile, race_id} maps the profile to a
 ## Sourcing + git policy
 
 - Prefer existing public APIs over scraping, always. Every current source is an API (MediaWiki API for Wikipedia content). HTML scraping is a last resort and needs a logged justification.
-- Commit at every milestone (docs locked, data landed, app landed, integration green) and push if a remote exists.
+- Commit at every milestone and at every agent completion. **Push ONLY to the `data-backend` branch — NEVER push to `main`.** `main` moves via PR merges only. Fetch origin and merge `origin/main` into `data-backend` regularly to stay conflict-free.
 - **Commits carry NO AI attribution — no `Co-Authored-By: Claude`, no "Generated with Claude Code" lines.** Author is the repo's configured git user, plain conventional messages.
 - Never commit `.env` or `data/cache.db`.
 
