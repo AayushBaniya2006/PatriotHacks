@@ -934,5 +934,258 @@
       "explanation": "Paxton claimed full compliance with disclosure requirements but years of records show he omitted multiple properties until forced by rule changes, and his 2025 disclosure still appears incomplete.",
       "confidence": 0.85
     }
-  ]
+  ],
+  "finance": {
+    "total_raised": "$7,600,511.94",
+    "cash_on_hand": "$2,342,950.49",
+    "as_of": "2026-05-06",
+    "overview_source": {
+      "source_id": "fin_overview_src_0",
+      "type": "campaign_finance",
+      "title": "KEN PAXTON FOR SENATE - committee overview | FEC",
+      "publisher": "Federal Election Commission",
+      "url": "https://www.fec.gov/data/committee/C00901918/",
+      "retrieved_at": "2026-07-04T01:17:48.454Z",
+      "primary_source": true,
+      "reliability_score": 0.95
+    },
+    "top_donors": [
+      {
+        "name": "Texans for Lawsuit Reform PAC",
+        "kind": "pac",
+        "amount": "$1,228,826.00",
+        "source": {
+          "source_id": "donor_0_src_0",
+          "type": "campaign_finance",
+          "title": "Ken Paxton - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:48.454Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "H Gary Heavin",
+        "kind": "individual",
+        "amount": "$1,195,000.00",
+        "source": {
+          "source_id": "donor_1_src_0",
+          "type": "campaign_finance",
+          "title": "Ken Paxton - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:48.454Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Republican Attorneys General Association",
+        "kind": "organization",
+        "amount": "$1,179,525.50",
+        "source": {
+          "source_id": "donor_2_src_0",
+          "type": "campaign_finance",
+          "title": "Ken Paxton - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:48.454Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Douglas Scharbauer",
+        "kind": "individual",
+        "amount": "$900,000.00",
+        "source": {
+          "source_id": "donor_3_src_0",
+          "type": "campaign_finance",
+          "title": "Ken Paxton - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:48.454Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Timothy M and Terri Dunn",
+        "kind": "individual",
+        "amount": "$755,000.00",
+        "source": {
+          "source_id": "donor_4_src_0",
+          "type": "campaign_finance",
+          "title": "Ken Paxton - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:48.454Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Kenny A and Lisa Troutt",
+        "kind": "individual",
+        "amount": "$650,000.00",
+        "source": {
+          "source_id": "donor_5_src_0",
+          "type": "campaign_finance",
+          "title": "Ken Paxton - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:48.454Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "S Javaid Anwar",
+        "kind": "individual",
+        "amount": "$595,000.00",
+        "source": {
+          "source_id": "donor_6_src_0",
+          "type": "campaign_finance",
+          "title": "Ken Paxton - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:48.454Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Texas Freedom Fund for the Advancement of Justice",
+        "kind": "organization",
+        "amount": "$500,000.00",
+        "source": {
+          "source_id": "donor_7_src_0",
+          "type": "campaign_finance",
+          "title": "Ken Paxton - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:48.454Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      }
+    ],
+    "correlations": [
+      {
+        "donor": "Texans for Lawsuit Reform PAC",
+        "issue_id": "small_business",
+        "position_or_vote": "Cut regulations and taxes on small businesses",
+        "note": "Texans for Lawsuit Reform advocates for tort reform and reduced regulatory burdens on businesses, while Paxton's documented position supports cutting regulations on small businesses; this correlation appears in public records without establishing causation.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_0_src_0",
+            "type": "campaign_finance",
+            "title": "Ken Paxton - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+            "retrieved_at": "2026-07-04T01:17:48.454Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Douglas Scharbauer",
+        "issue_id": "energy",
+        "position_or_vote": "Expand domestic oil, gas, and coal production",
+        "note": "Scharbauer is a Midland oilman from a prominent family in the Texas oil and gas sector, while Paxton's documented position supports expanding domestic oil and gas production; this correlation appears in public records without establishing causation.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "source_id": "corr_1_src_0",
+            "type": "campaign_finance",
+            "title": "The donors behind Cornyn and Paxton's Senate fight",
+            "publisher": "The Texas Tribune",
+            "url": "https://www.texastribune.org/2026/05/15/texas-us-senate-gop-primary-donors-john-cornyn-ken-paxton/",
+            "retrieved_at": "2026-07-04T01:17:48.454Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Republican Attorneys General Association",
+        "issue_id": "elections",
+        "position_or_vote": "Tighten rules: voter ID, state control",
+        "note": "The Republican Attorneys General Association has supported state-level election law changes and voter ID requirements, while Paxton's documented position supports tightening election rules with voter ID and state control; this correlation appears in public records without establishing causation.",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "source_id": "corr_2_src_0",
+            "type": "campaign_finance",
+            "title": "Ken Paxton - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+            "retrieved_at": "2026-07-04T01:17:48.454Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "H Gary Heavin",
+        "issue_id": "abortion",
+        "position_or_vote": "Supports significant restrictions; defended Texas heartbeat ban",
+        "note": "Heavin is an anti-abortion advocate and significant donor to conservative and Christian causes, while Paxton's documented position supports significant abortion restrictions including defending Texas's heartbeat ban; this correlation appears in public records without establishing causation.",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "source_id": "corr_3_src_0",
+            "type": "campaign_finance",
+            "title": "The donors behind Cornyn and Paxton's Senate fight",
+            "publisher": "The Texas Tribune",
+            "url": "https://www.texastribune.org/2026/05/15/texas-us-senate-gop-primary-donors-john-cornyn-ken-paxton/",
+            "retrieved_at": "2026-07-04T01:17:48.454Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Texas Freedom Fund for the Advancement of Justice",
+        "issue_id": "guns",
+        "position_or_vote": "Protect gun rights; oppose restrictive local regulations",
+        "note": "The Texas Freedom Fund for the Advancement of Justice supports conservative legal causes including Second Amendment protections, while Paxton's documented position supports protecting gun rights; this correlation appears in public records without establishing causation.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_4_src_0",
+            "type": "campaign_finance",
+            "title": "Ken Paxton - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+            "retrieved_at": "2026-07-04T01:17:48.454Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Timothy M and Terri Dunn",
+        "issue_id": "energy",
+        "position_or_vote": "Expand domestic oil, gas, and coal production",
+        "note": "The Dunn family has business interests in the energy sector, while Paxton's documented position supports expanding domestic oil and gas production; this correlation appears in public records without establishing causation.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_5_src_0",
+            "type": "campaign_finance",
+            "title": "Ken Paxton - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/ken-paxton/contributors?cycle=2015-to-now",
+            "retrieved_at": "2026-07-04T01:17:48.454Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      }
+    ]
+  }
 }

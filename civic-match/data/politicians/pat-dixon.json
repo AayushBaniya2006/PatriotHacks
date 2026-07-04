@@ -602,5 +602,22 @@
       "explanation": "Dixon's past service on city council matches his stated approach of addressing tax policy through comprehensive budget discussions.",
       "confidence": 0.7
     }
-  ]
+  ],
+  "finance": {
+    "total_raised": "$6,911.52",
+    "cash_on_hand": "$1,316.78",
+    "as_of": "2024-07-15",
+    "overview_source": {
+      "source_id": "fin_overview_src_0",
+      "type": "campaign_finance",
+      "title": "Candidate/Officeholder Campaign Finance Report Balance",
+      "publisher": "Texas Ethics Commission",
+      "url": "http://bbs.ethics.state.tx.us/public/457226.pdf",
+      "retrieved_at": "2026-07-04T01:18:36.120Z",
+      "primary_source": true,
+      "reliability_score": 0.95
+    },
+    "top_donors": [],
+    "correlations": []
+  }
 }

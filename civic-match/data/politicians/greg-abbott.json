@@ -838,5 +838,258 @@
       "explanation": "Abbott advocated for barring a state Obamacare exchange but the 2015 legislature took no final action, with the relevant bill dying in committee without reaching a floor vote.",
       "confidence": 0.92
     }
-  ]
+  ],
+  "finance": {
+    "total_raised": "$44,883,178",
+    "cash_on_hand": "$103,967,554",
+    "as_of": "2025-12-31",
+    "overview_source": {
+      "source_id": "fin_overview_src_0",
+      "type": "campaign_finance",
+      "title": "Greg Abbott - Texas Candidate - Contributions",
+      "publisher": "Transparency USA",
+      "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+      "retrieved_at": "2026-07-04T01:17:36.759Z",
+      "primary_source": false,
+      "reliability_score": 0.7
+    },
+    "top_donors": [
+      {
+        "name": "Dr Miriam Adelson",
+        "kind": "individual",
+        "amount": "$1,000,000.00",
+        "source": {
+          "source_id": "donor_0_src_0",
+          "type": "campaign_finance",
+          "title": "Greg Abbott - Texas Candidate - Contributions",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+          "retrieved_at": "2026-07-04T01:17:36.759Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "S. Javaid Anwar",
+        "kind": "individual",
+        "amount": "$1,500,000+ (including in-kind)",
+        "source": {
+          "source_id": "donor_1_src_0",
+          "type": "campaign_finance",
+          "title": "Abbott enters Texas governor's race with $106 million war chest",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/01/15/texas-governors-race-greg-abbott-gina-hinojosa-2026-election/",
+          "retrieved_at": "2026-07-04T01:17:36.759Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Texas Republican Leadership Fund",
+        "kind": "pac",
+        "amount": "$1,000,000.00",
+        "source": {
+          "source_id": "donor_2_src_0",
+          "type": "campaign_finance",
+          "title": "Greg Abbott - Texas Candidate - Contributions",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+          "retrieved_at": "2026-07-04T01:17:36.759Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Kelcy L Warren",
+        "kind": "individual",
+        "amount": "$1,000,000.00",
+        "source": {
+          "source_id": "donor_3_src_0",
+          "type": "campaign_finance",
+          "title": "Greg Abbott - Texas Candidate - Contributions",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+          "retrieved_at": "2026-07-04T01:17:36.759Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Edward Roski Jr",
+        "kind": "individual",
+        "amount": "$1,000,000.00",
+        "source": {
+          "source_id": "donor_4_src_0",
+          "type": "campaign_finance",
+          "title": "Greg Abbott - Texas Candidate - Contributions",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+          "retrieved_at": "2026-07-04T01:17:36.759Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Joseph Gebbia",
+        "kind": "individual",
+        "amount": "$1,000,000.00",
+        "source": {
+          "source_id": "donor_5_src_0",
+          "type": "campaign_finance",
+          "title": "Greg Abbott - Texas Candidate - Contributions",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+          "retrieved_at": "2026-07-04T01:17:36.759Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Kenneth Fisher",
+        "kind": "individual",
+        "amount": "$1,000,000.00",
+        "source": {
+          "source_id": "donor_6_src_0",
+          "type": "campaign_finance",
+          "title": "Greg Abbott - Texas Candidate - Contributions",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+          "retrieved_at": "2026-07-04T01:17:36.759Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Black Mountain Power LLC",
+        "kind": "organization",
+        "amount": "$500,000.00",
+        "source": {
+          "source_id": "donor_7_src_0",
+          "type": "campaign_finance",
+          "title": "Greg Abbott - Texas Candidate - Contributions",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+          "retrieved_at": "2026-07-04T01:17:36.759Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      }
+    ],
+    "correlations": [
+      {
+        "donor": "Kelcy L Warren / Energy Transfer",
+        "issue_id": "energy",
+        "position_or_vote": "Expand domestic oil, gas, and coal production; includes nuclear",
+        "note": "Kelcy Warren is Executive Chairman of Energy Transfer, one of the largest midstream energy companies in the U.S.; Abbott's documented energy position aligns with expanding fossil fuel production, though public records do not establish this donation caused any specific policy decision.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_0_src_0",
+            "type": "campaign_finance",
+            "title": "Greg Abbott - Texas Candidate - Contributions",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+            "retrieved_at": "2026-07-04T01:17:36.759Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "S. Javaid Anwar / Petroleum industry",
+        "issue_id": "energy",
+        "position_or_vote": "Expand domestic oil, gas, and coal production; includes nuclear",
+        "note": "Anwar is a Midland oil executive whom Abbott appointed to the Texas Higher Education Coordinating Board; Abbott's energy expansion position correlates with Anwar's industry interests, though no causal relationship is documented.",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "source_id": "corr_1_src_0",
+            "type": "campaign_finance",
+            "title": "Abbott enters Texas governor's race with $106 million war chest",
+            "publisher": "Texas Tribune",
+            "url": "https://www.texastribune.org/2026/01/15/texas-governors-race-greg-abbott-gina-hinojosa-2026-election/",
+            "retrieved_at": "2026-07-04T01:17:36.759Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Dr Miriam Adelson / Casino/gaming industry",
+        "issue_id": "small_business",
+        "position_or_vote": "Cut regulations and taxes on small businesses",
+        "note": "Adelson is a casino magnate whose business interests include gaming and hospitality; Abbott's position on reducing business regulations correlates with industry preferences, though no specific vote or action tied to this donation is documented.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_2_src_0",
+            "type": "campaign_finance",
+            "title": "Abbott enters Texas governor's race with $106 million war chest",
+            "publisher": "Texas Tribune",
+            "url": "https://www.texastribune.org/2026/01/15/texas-governors-race-greg-abbott-gina-hinojosa-2026-election/",
+            "retrieved_at": "2026-07-04T01:17:36.759Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Black Mountain Power LLC / Data center development",
+        "issue_id": "infrastructure",
+        "position_or_vote": "State investment with some private elements; major water investment",
+        "note": "Black Mountain Power is developing data centers requiring substantial energy and water infrastructure; Abbott's infrastructure position emphasizing state investment with private elements correlates with the company's project needs near Fort Worth.",
+        "confidence": 0.65,
+        "sources": [
+          {
+            "source_id": "corr_3_src_0",
+            "type": "campaign_finance",
+            "title": "Greg Abbott has $106M as he seeks record fourth term",
+            "publisher": "Austin American-Statesman",
+            "url": "https://www.statesman.com/politics/texas/article/greg-abbott-campaign-cash-21299196.php",
+            "retrieved_at": "2026-07-04T01:17:36.759Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Joseph Gebbia / Tech entrepreneur (Airbnb co-founder)",
+        "issue_id": "ai_tech",
+        "position_or_vote": "Mixed: pro-innovation with sector-specific regulation",
+        "note": "Gebbia co-founded Airbnb and has tech sector interests; Abbott's mixed position on technology—pro-innovation with sector-specific regulation—correlates with tech industry preferences for limited regulatory frameworks.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "source_id": "corr_4_src_0",
+            "type": "campaign_finance",
+            "title": "Greg Abbott - Texas Candidate - Contributions",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+            "retrieved_at": "2026-07-04T01:17:36.759Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Anthony Wood / Roku (streaming/media tech)",
+        "issue_id": "ai_tech",
+        "position_or_vote": "Mixed: pro-innovation with sector-specific regulation",
+        "note": "Wood founded Roku, a streaming media company; Abbott's technology position emphasizing innovation with targeted regulation correlates with streaming industry interests in maintaining open platforms.",
+        "confidence": 0.55,
+        "sources": [
+          {
+            "source_id": "corr_5_src_0",
+            "type": "campaign_finance",
+            "title": "Greg Abbott - Texas Candidate - Contributions",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/greg-abbott/contributions?cycle=2026-election-cycle",
+            "retrieved_at": "2026-07-04T01:17:36.759Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      }
+    ]
+  }
 }

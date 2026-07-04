@@ -143,6 +143,68 @@ export default async function PoliticianPage({
         </div>
       </section>
 
+      {p.finance && (p.finance.top_donors.length > 0 || p.finance.total_raised) && (
+        <section className="mb-10">
+          <h2 className="text-lg font-semibold mb-1">Follow the money</h2>
+          <p className="text-xs text-zinc-500 mb-3">
+            Who funds this campaign, and where funding lines up with positions.
+            Overlaps are correlations in public records — not proof of causation.
+          </p>
+          {p.finance.total_raised && (
+            <p className="text-sm text-zinc-300 mb-3">
+              Raised: <b>{p.finance.total_raised}</b>
+              {p.finance.cash_on_hand && <> · Cash on hand: <b>{p.finance.cash_on_hand}</b></>}
+              {p.finance.as_of && <span className="text-zinc-500"> (as of {p.finance.as_of})</span>}
+              {p.finance.overview_source && (
+                <a href={p.finance.overview_source.url} target="_blank" className="ml-2 text-xs text-emerald-400 hover:underline">
+                  {p.finance.overview_source.publisher} ↗
+                </a>
+              )}
+            </p>
+          )}
+          {p.finance.top_donors.length > 0 && (
+            <div className="grid gap-2 sm:grid-cols-2 mb-4">
+              {p.finance.top_donors.map((d, i) => (
+                <div key={i} className="rounded-lg border border-zinc-800 bg-zinc-900/50 p-3 text-sm flex items-center justify-between gap-2">
+                  <div className="min-w-0">
+                    <div className="truncate text-zinc-200">{d.name}</div>
+                    <div className="text-[10px] uppercase tracking-wide text-zinc-500">{d.kind}</div>
+                  </div>
+                  <div className="text-right shrink-0">
+                    {d.amount && <div className="font-mono text-xs text-zinc-300">{d.amount}</div>}
+                    <a href={d.source.url} target="_blank" className="text-[10px] text-emerald-400 hover:underline">
+                      {d.source.publisher} ↗
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+          {p.finance.correlations.length > 0 && (
+            <div className="space-y-2">
+              <h3 className="text-sm font-medium text-zinc-300">Money ↔ positions (correlation, not proof)</h3>
+              {p.finance.correlations.map((c, i) => (
+                <div key={i} className="rounded-lg border border-yellow-500/20 bg-yellow-500/5 p-3 text-sm">
+                  <div className="text-zinc-200">
+                    <span className="text-zinc-400">{c.donor}</span> ↔{" "}
+                    {ISSUE_MAP[c.issue_id]?.name ?? c.issue_id}: {c.position_or_vote}
+                  </div>
+                  <p className="mt-1 text-xs text-zinc-500 italic">{c.note}</p>
+                  <div className="mt-1 flex flex-wrap gap-2">
+                    {c.sources.map((s, j) => (
+                      <a key={j} href={s.url} target="_blank" className="text-[11px] text-emerald-400 hover:underline">
+                        {s.title.slice(0, 50)} ↗
+                      </a>
+                    ))}
+                    <span className="text-[10px] text-zinc-600">confidence {Math.round(c.confidence * 100)}%</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
+      )}
+
       {p.promise_record && p.promise_record.length > 0 && (
         <section className="mb-10">
           <h2 className="text-lg font-semibold mb-1">Promise vs. record</h2>
