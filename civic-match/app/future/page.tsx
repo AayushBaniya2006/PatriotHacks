@@ -147,19 +147,9 @@ export default function FuturePage() {
   const [available, setAvailable] = useState<{ race: string; slug: string }[]>([]);
   const [treeData, setTreeData] = useState<ScenarioTree | null>(null);
   const [loading, setLoading] = useState(true);
-  const [prefs, setPrefs] = useState<UserPreferences | null>(null);
+  const [prefs] = useState<UserPreferences | null>(() => loadPrefs());
   const [selected, setSelected] = useState<ScenarioNode | null>(null);
   const treePaneRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    let cancelled = false;
-    queueMicrotask(() => {
-      if (!cancelled) setPrefs(loadPrefs());
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
 
   const loadTree = useCallback((slug: string) => {
     setLoading(true);
