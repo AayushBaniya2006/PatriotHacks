@@ -312,6 +312,7 @@ export default function ResultsPage() {
   if (noPrefs) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-16 text-center">
+        <h1 className="mb-3 text-2xl font-bold text-zinc-100">Set your priorities first</h1>
         <p className="text-zinc-400 mb-4">You haven&apos;t set your priorities yet.</p>
         <Link href="/intake" className="rounded-lg bg-emerald-500 px-5 py-2.5 font-medium text-zinc-950">
           Pick your priorities
@@ -322,8 +323,9 @@ export default function ResultsPage() {
 
   if (!results) {
     return (
-      <div className="mx-auto max-w-3xl px-4 py-16 text-zinc-500 animate-pulse">
-        Scoring cached candidate profiles…
+      <div className="mx-auto max-w-3xl px-4 py-16">
+        <h1 className="mb-3 text-2xl font-bold text-zinc-100">Scoring candidate profiles</h1>
+        <p className="animate-pulse text-zinc-500">Scoring cached candidate profiles…</p>
       </div>
     );
   }
@@ -354,60 +356,68 @@ export default function ResultsPage() {
       <StakesBanner />
 
       <div className="space-y-4">
-        {results.map((r) => (
-          <div
-            key={r.politician_id}
-            className="rounded-xl border border-zinc-800 bg-zinc-900/50 overflow-hidden"
-          >
-            <button
-              className="w-full flex items-center gap-5 p-5 text-left hover:bg-zinc-900"
-              onClick={() => toggleExpand(r.politician_id)}
-            >
-              <div
-                className={`flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border-2 bg-zinc-950 ${ovrColor(r.overall)}`}
-              >
-                <span className="text-2xl font-black leading-none">{r.overall}</span>
-                <span className="text-[9px] uppercase tracking-widest opacity-80">OVR</span>
-              </div>
-              <div className="min-w-0 flex-1">
-                <div className="flex items-baseline gap-2">
-                  <span className="font-semibold truncate">{r.politician_name}</span>
-                  {r.party && <span className="text-xs text-zinc-500">({r.party})</span>}
-                </div>
-                <div className="text-sm text-zinc-400">{r.overall_tier}</div>
-                {r.warnings.length > 0 && (
-                  <div className="mt-1 flex flex-wrap gap-1.5">
-                    {r.warnings.map((w) => (
-                      <span key={w} className="rounded-full border border-red-500/40 bg-red-500/10 px-2 py-0.5 text-[10px] text-red-300">
-                        ⚠ {w}
-                      </span>
-                    ))}
-                  </div>
-                )}
-                <div className="mt-1 flex gap-4 text-xs text-zinc-500">
-                  <span>Issue alignment: <b className="text-zinc-300">{r.score}%</b></span>
-                  <span>
-                    Record quality:{" "}
-                    <b className="text-zinc-300">
-                      {r.qualitative_composite !== null
-                        ? `${Math.round(r.qualitative_composite * 100)}%`
-                        : "n/a"}
-                    </b>
-                  </span>
-                  <span>Evidence: <b className="text-zinc-300">{r.confidence}</b></span>
-                </div>
-              </div>
-              <Link
-                href={`/p/${r.politician_id}`}
-                onClick={(e) => e.stopPropagation()}
-                className="text-xs text-emerald-400 hover:underline shrink-0"
-              >
-                Full profile →
-              </Link>
-            </button>
+        {results.map((r) => {
+          const detailsId = `result-details-${r.politician_id}`;
+          const isExpanded = expanded === r.politician_id;
 
-            {expanded === r.politician_id && (
-              <div className="border-t border-zinc-800 p-5 text-sm space-y-4">
+          return (
+            <div
+              key={r.politician_id}
+              className="rounded-xl border border-zinc-800 bg-zinc-900/50 overflow-hidden"
+            >
+              <div className="flex items-stretch">
+                <button
+                  type="button"
+                  className="flex min-w-0 flex-1 items-center gap-5 p-5 text-left hover:bg-zinc-900"
+                  onClick={() => toggleExpand(r.politician_id)}
+                  aria-expanded={isExpanded}
+                  aria-controls={detailsId}
+                >
+                  <div
+                    className={`flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border-2 bg-zinc-950 ${ovrColor(r.overall)}`}
+                  >
+                    <span className="text-2xl font-black leading-none">{r.overall}</span>
+                    <span className="text-[9px] uppercase tracking-widest opacity-80">OVR</span>
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-baseline gap-2">
+                      <span className="font-semibold truncate">{r.politician_name}</span>
+                      {r.party && <span className="text-xs text-zinc-500">({r.party})</span>}
+                    </div>
+                    <div className="text-sm text-zinc-400">{r.overall_tier}</div>
+                    {r.warnings.length > 0 && (
+                      <div className="mt-1 flex flex-wrap gap-1.5">
+                        {r.warnings.map((w) => (
+                          <span key={w} className="rounded-full border border-red-500/40 bg-red-500/10 px-2 py-0.5 text-[10px] text-red-300">
+                            ⚠ {w}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                    <div className="mt-1 flex gap-4 text-xs text-zinc-500">
+                      <span>Issue alignment: <b className="text-zinc-300">{r.score}%</b></span>
+                      <span>
+                        Record quality:{" "}
+                        <b className="text-zinc-300">
+                          {r.qualitative_composite !== null
+                            ? `${Math.round(r.qualitative_composite * 100)}%`
+                            : "n/a"}
+                        </b>
+                      </span>
+                      <span>Evidence: <b className="text-zinc-300">{r.confidence}</b></span>
+                    </div>
+                  </div>
+                </button>
+                <Link
+                  href={`/p/${r.politician_id}`}
+                  className="my-5 mr-5 inline-flex shrink-0 items-center text-xs text-emerald-400 hover:underline"
+                >
+                  Full profile →
+                </Link>
+              </div>
+
+              {isExpanded && (
+                <div id={detailsId} className="border-t border-zinc-800 p-5 text-sm space-y-4">
                 {explanations[r.politician_id] === "loading" ? (
                   <div className="rounded-lg bg-zinc-950 p-4 text-zinc-500 animate-pulse text-sm">
                     Writing your evidence-grounded explanation…
@@ -527,10 +537,11 @@ export default function ResultsPage() {
                     no reliable evidence on {r.unknown_issues.map((u) => u.issue_name).join(", ")}.
                   </p>
                 )}
-              </div>
-            )}
-          </div>
-        ))}
+                </div>
+              )}
+            </div>
+          );
+        })}
       </div>
 
       {address && (

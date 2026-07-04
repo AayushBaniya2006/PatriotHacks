@@ -3,6 +3,10 @@ import { getPolitician } from "@/lib/db";
 import { scoreMatch } from "@/lib/scoring";
 import type { UserPreferences } from "@/lib/types";
 
+type LegacyUserPreferences = UserPreferences & {
+  issue_stances?: Record<string, number | null>;
+};
+
 // POST /api/match { prefs: UserPreferences, politician_ids: string[] }
 // Pure computation over cached profiles — returns in milliseconds.
 export async function POST(req: NextRequest) {
@@ -22,6 +26,7 @@ export async function POST(req: NextRequest) {
   if (!prefs || !Array.isArray(politician_ids)) {
     return Response.json({ error: "prefs and politician_ids required" }, { status: 400 });
   }
+  const legacyPrefs = prefs as LegacyUserPreferences;
   // Sanitize: weights/positions must be finite numbers in [0,1]-ish ranges
   prefs.priority_weights = Object.fromEntries(
     Object.entries(prefs.priority_weights ?? {})
@@ -29,7 +34,7 @@ export async function POST(req: NextRequest) {
       .map(([k, w]) => [k, Math.min(2, w as number)])
   );
   prefs.issue_positions = Object.fromEntries(
-    Object.entries(prefs.issue_positions ?? {}).map(([k, v]) => [
+    Object.entries(prefs.issue_positions ?? legacyPrefs.issue_stances ?? {}).map(([k, v]) => [
       k,
       v === null || !Number.isFinite(v) ? null : Math.max(0, Math.min(1, v as number)),
     ])

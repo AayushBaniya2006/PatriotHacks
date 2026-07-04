@@ -12,6 +12,10 @@ import type {
   UserPreferences,
 } from "./types";
 
+type LegacyUserPreferences = UserPreferences & {
+  issue_stances?: Record<string, number | null>;
+};
+
 const SOURCE_QUALITY: Record<string, number> = {
   voting_record: 1.0,
   sponsored_bill: 1.0,
@@ -46,8 +50,10 @@ export function scoreMatch(
 ): MatchResult {
   const ISSUE_MAP = getIssueMap();
   const breakdown: IssueScoreBreakdown[] = [];
+  const issuePositions =
+    prefs.issue_positions ?? (prefs as LegacyUserPreferences).issue_stances ?? {};
 
-  const weightEntries = Object.entries(prefs.priority_weights).filter(
+  const weightEntries = Object.entries(prefs.priority_weights ?? {}).filter(
     ([, w]) => w > 0
   );
   const totalWeight = weightEntries.reduce((s, [, w]) => s + w, 0) || 1;
@@ -56,7 +62,7 @@ export function scoreMatch(
     const issue = ISSUE_MAP[issueId];
     if (!issue) continue;
     const weight = rawWeight / totalWeight;
-    const userPos = prefs.issue_positions[issueId] ?? null;
+    const userPos = issuePositions[issueId] ?? null;
     const stance = stanceFor(profile, issueId);
 
     if (userPos === null || !stance || stance.position_scalar === null) {

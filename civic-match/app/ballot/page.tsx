@@ -289,7 +289,7 @@ function StepLayout({
 
   return (
     <section ref={sectionRef} className="flex min-h-full flex-1 flex-col overflow-y-auto px-5 py-5 sm:px-7 sm:py-6 md:px-8 md:py-7 lg:px-10 lg:py-8">
-      <div className="mb-7 flex h-8 items-center">
+      <div className={cn("mb-7 flex h-8 items-center", !onBack && "md:hidden")}>
         {onBack && (
           <button
             type="button"
@@ -301,7 +301,7 @@ function StepLayout({
           </button>
         )}
         {progress > 0 && (
-          <div className={cn("flex flex-1 gap-2", onBack ? "ml-3" : "")}>
+          <div className={cn("flex flex-1 gap-2 md:hidden", onBack ? "ml-3" : "")}>
             {[1, 2, 3, 4, 5].map((bar) => (
               <div
                 key={bar}
@@ -314,7 +314,7 @@ function StepLayout({
           </div>
         )}
       </div>
-      <div className="flex flex-1 flex-col">{children}</div>
+      <div className="flex flex-1 flex-col md:max-w-[760px]">{children}</div>
     </section>
   );
 }
@@ -335,7 +335,7 @@ function PrimaryButton({
       type={type}
       disabled={disabled}
       onClick={onClick}
-      className="w-full rounded-[10px] bg-[#d8a15b] px-5 py-3 text-xs font-black uppercase tracking-[0.22em] text-[#091320] shadow-[0_10px_28px_rgba(216,161,91,0.24)] transition hover:bg-[#e7b56f] disabled:cursor-not-allowed disabled:opacity-45"
+      className="w-full rounded-[10px] bg-[#d8a15b] px-5 py-3 text-xs font-black uppercase tracking-[0.22em] text-[#091320] shadow-[0_10px_28px_rgba(216,161,91,0.24)] transition hover:bg-[#e7b56f] disabled:cursor-not-allowed disabled:opacity-45 md:w-auto md:min-w-[280px] md:px-10"
     >
       {children}
     </button>
@@ -559,7 +559,7 @@ export default function BallotPage() {
       }
       const normalized: BallotData = { ...data, races: data.races ?? [] };
       setBallot(normalized);
-      setSelectedRaceKey(normalized.races[0] ? raceKey(normalized.races[0], 0) : null);
+      setSelectedRaceKey(null);
       setStep("found");
     } catch {
       setLookupError("Lookup failed. Try again.");
@@ -579,7 +579,10 @@ export default function BallotPage() {
 
   const races = useMemo(() => ballot?.races ?? [], [ballot]);
   const selectedRace = useMemo(
-    () => races.find((race, index) => raceKey(race, index) === selectedRaceKey) ?? races[0] ?? null,
+    () => {
+      if (!selectedRaceKey) return null;
+      return races.find((race, index) => raceKey(race, index) === selectedRaceKey) ?? null;
+    },
     [races, selectedRaceKey]
   );
 
@@ -697,18 +700,41 @@ export default function BallotPage() {
     );
   }
 
+  const isDashboardStep = step === "matches";
+
   return (
-    <div className="min-h-screen overflow-x-hidden bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 md:p-0">
-      <main className="mx-auto grid min-h-[calc(100svh-2rem)] w-full max-w-[420px] md:h-screen md:min-h-screen md:max-w-none md:grid-cols-[320px_minmax(0,1fr)] md:overflow-hidden md:bg-[#051628] xl:grid-cols-[360px_minmax(0,1fr)]">
-        <DesktopRail
-          step={step}
-          locationDisplay={locationDisplay}
-          selectedRace={selectedRace}
-          priorities={priorities}
-          issues={issues}
-          tradeoffStyle={tradeoffStyle}
-        />
-        <div className="flex min-h-[calc(100svh-2rem)] w-full flex-col overflow-hidden rounded-[24px] border border-[#d8a15b]/35 bg-[#051628] shadow-[0_28px_90px_rgba(0,0,0,0.45)] sm:min-h-[680px] md:h-full md:min-h-0 md:rounded-none md:border-0 md:border-l md:border-white/10 md:shadow-none">
+    <div
+      className={cn(
+        "min-h-screen overflow-x-hidden bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] text-white",
+        isDashboardStep ? "p-0" : "px-3 py-4 sm:px-6 sm:py-8 md:p-0"
+      )}
+    >
+      <main
+        className={cn(
+          "mx-auto grid w-full",
+          isDashboardStep
+            ? "h-[100svh] min-h-screen max-w-none overflow-hidden bg-navy"
+            : "min-h-[calc(100svh-2rem)] max-w-[420px] md:h-screen md:min-h-screen md:max-w-none md:grid-cols-[320px_minmax(0,1fr)] md:overflow-hidden md:bg-[#051628] xl:grid-cols-[360px_minmax(0,1fr)]"
+        )}
+      >
+        {!isDashboardStep && (
+          <DesktopRail
+            step={step}
+            locationDisplay={locationDisplay}
+            selectedRace={selectedRace}
+            priorities={priorities}
+            issues={issues}
+            tradeoffStyle={tradeoffStyle}
+          />
+        )}
+        <div
+          className={cn(
+            "flex w-full flex-col overflow-hidden bg-[#051628]",
+            isDashboardStep
+              ? "h-full min-h-0 rounded-none border-0 shadow-none"
+              : "min-h-[calc(100svh-2rem)] rounded-[24px] border border-[#d8a15b]/35 shadow-[0_28px_90px_rgba(0,0,0,0.45)] sm:min-h-[680px] md:h-full md:min-h-0 md:rounded-none md:border-0 md:border-l md:border-white/10 md:shadow-none"
+          )}
+        >
         {step === "location" && (
           <StepLayout step={step}>
             <form
@@ -748,11 +774,11 @@ export default function BallotPage() {
                   {lookupError}
                 </p>
               )}
-              <div className="mt-auto space-y-4 pt-8">
+              <div className="mt-auto space-y-4 pt-8 md:mt-10 md:flex md:items-center md:gap-5 md:space-y-0 md:pt-0">
                 <PrimaryButton type="submit" disabled={!location.street.trim() || lookupLoading}>
                   {lookupLoading ? "Finding election" : "Find my election"}
                 </PrimaryButton>
-                <div className="flex items-center justify-center gap-2 text-xs text-white/55">
+                <div className="flex items-center justify-center gap-2 text-xs text-white/55 md:justify-start">
                   <Lock className="h-4 w-4 text-[#d8a15b]" />
                   <span>Used only for election lookup.</span>
                 </div>
@@ -770,7 +796,7 @@ export default function BallotPage() {
                 {ballot.warning}
               </p>
             )}
-            <div className="mt-7 grid flex-1 content-start gap-3 overflow-x-hidden overflow-y-auto pr-1 md:grid-cols-2">
+            <div className="mt-7 grid flex-1 content-start gap-3 overflow-x-hidden overflow-y-auto pr-1 md:flex-none md:grid-cols-2">
               {races.length > 0 ? (
                 races.slice(0, 7).map((race, index) => (
                   <SelectableCard
@@ -790,7 +816,7 @@ export default function BallotPage() {
             </div>
             <div className="mt-7">
               <PrimaryButton disabled={!selectedRaceKey && races.length > 0} onClick={() => setStep("focus")}>
-                Choose an election
+                {selectedRaceKey ? "Continue with selected race" : "Select a race"}
               </PrimaryButton>
             </div>
           </StepLayout>
@@ -800,7 +826,7 @@ export default function BallotPage() {
           <StepLayout step={step} onBack={goBack}>
             <h1 className="font-serif text-3xl leading-tight text-white">What do you want to compare first?</h1>
             <p className="mt-4 text-sm leading-6 text-white/68">You can always explore the rest later.</p>
-            <div className="mt-7 grid flex-1 content-start gap-3 md:grid-cols-2">
+            <div className="mt-7 grid flex-1 content-start gap-3 md:flex-none md:grid-cols-2">
               {focusOptions.map((option) => (
                 <SelectableCard
                   key={option.id}
