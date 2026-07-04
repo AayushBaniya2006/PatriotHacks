@@ -438,7 +438,7 @@ def main():
 
         races.append({
             "race_id": f"tx-cd{i:02d}-2026",
-            "office": f"U.S. House of Representatives, {district}",
+            "office": f"U.S. Representative, {district}",
             "level": "federal",
             "district": district,
             "candidate_ids": candidate_ids,

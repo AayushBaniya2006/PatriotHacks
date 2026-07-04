@@ -88,27 +88,25 @@
     },
     "middleton-mayes": {
       "name": "Mayes Middleton",
-      "score": 42.0,
-      "tier": "C",
+      "score": 70.0,
+      "tier": "B",
       "missing": [
         "no voting record",
-        "no issue positions",
         "no fec/bioguide id"
       ]
     },
     "johnson-nathan": {
       "name": "Nathan Johnson",
-      "score": 42.0,
-      "tier": "C",
+      "score": 70.0,
+      "tier": "B",
       "missing": [
         "no voting record",
-        "no issue positions",
         "no fec/bioguide id"
       ]
     },
     "oxford-tom": {
       "name": "Tom Oxford",
-      "score": 42.0,
+      "score": 44.0,
       "tier": "C",
       "missing": [
         "no voting record",
@@ -970,23 +968,23 @@
         "archetype_fraction": 1.0,
         "candidate_count": 5
       },
-      "demo_rank": 4
+      "demo_rank": 5
     },
     "tx-ag-2026": {
       "office": "Attorney General of Texas",
       "level": "state",
       "district": null,
-      "score": 65.2,
+      "score": 73.3,
       "tier": "B",
       "detail": {
-        "mean_candidate_score": 42.0,
-        "min_candidate_score": 42.0,
+        "mean_candidate_score": 61.3,
+        "min_candidate_score": 44.0,
         "last_result_present": true,
         "insights_exists": true,
         "archetype_fraction": 1.0,
         "candidate_count": 3
       },
-      "demo_rank": 5
+      "demo_rank": 3
     },
     "tx-sen-2026": {
       "office": "United States Senator from Texas",
@@ -1050,7 +1048,7 @@
         "archetype_fraction": 1.0,
         "candidate_count": 2
       },
-      "demo_rank": 3
+      "demo_rank": 4
     },
     "tx-railroad-2026": {
       "office": "Railroad Commissioner of Texas",
@@ -1069,7 +1067,7 @@
       "demo_rank": 8
     },
     "tx-cd01-2026": {
-      "office": "U.S. House of Representatives, TX-01",
+      "office": "U.S. Representative, TX-01",
       "level": "federal",
       "district": "TX-01",
       "score": 43.0,
@@ -1085,7 +1083,7 @@
       "demo_rank": 42
     },
     "tx-cd02-2026": {
-      "office": "U.S. House of Representatives, TX-02",
+      "office": "U.S. Representative, TX-02",
       "level": "federal",
       "district": "TX-02",
       "score": 49.6,
@@ -1101,7 +1099,7 @@
       "demo_rank": 27
     },
     "tx-cd03-2026": {
-      "office": "U.S. House of Representatives, TX-03",
+      "office": "U.S. Representative, TX-03",
       "level": "federal",
       "district": "TX-03",
       "score": 48.0,
@@ -1117,7 +1115,7 @@
       "demo_rank": 18
     },
     "tx-cd04-2026": {
-      "office": "U.S. House of Representatives, TX-04",
+      "office": "U.S. Representative, TX-04",
       "level": "federal",
       "district": "TX-04",
       "score": 48.0,
@@ -1133,7 +1131,7 @@
       "demo_rank": 33
     },
     "tx-cd05-2026": {
-      "office": "U.S. House of Representatives, TX-05",
+      "office": "U.S. Representative, TX-05",
       "level": "federal",
       "district": "TX-05",
       "score": 48.0,
@@ -1149,7 +1147,7 @@
       "demo_rank": 23
     },
     "tx-cd06-2026": {
-      "office": "U.S. House of Representatives, TX-06",
+      "office": "U.S. Representative, TX-06",
       "level": "federal",
       "district": "TX-06",
       "score": 49.6,
@@ -1165,7 +1163,7 @@
       "demo_rank": 28
     },
     "tx-cd07-2026": {
-      "office": "U.S. House of Representatives, TX-07",
+      "office": "U.S. Representative, TX-07",
       "level": "federal",
       "district": "TX-07",
       "score": 48.0,
@@ -1181,7 +1179,7 @@
       "demo_rank": 14
     },
     "tx-cd08-2026": {
-      "office": "U.S. House of Representatives, TX-08",
+      "office": "U.S. Representative, TX-08",
       "level": "federal",
       "district": "TX-08",
       "score": 49.6,
@@ -1197,7 +1195,7 @@
       "demo_rank": 32
     },
     "tx-cd09-2026": {
-      "office": "U.S. House of Representatives, TX-09",
+      "office": "U.S. Representative, TX-09",
       "level": "federal",
       "district": "TX-09",
       "score": 41.3,
@@ -1213,7 +1211,7 @@
       "demo_rank": 43
     },
     "tx-cd10-2026": {
-      "office": "U.S. House of Representatives, TX-10",
+      "office": "U.S. Representative, TX-10",
       "level": "federal",
       "district": "TX-10",
       "score": 48.0,
@@ -1229,7 +1227,7 @@
       "demo_rank": 25
     },
     "tx-cd11-2026": {
-      "office": "U.S. House of Representatives, TX-11",
+      "office": "U.S. Representative, TX-11",
       "level": "federal",
       "district": "TX-11",
       "score": 48.0,
@@ -1245,7 +1243,7 @@
       "demo_rank": 44
     },
     "tx-cd12-2026": {
-      "office": "U.S. House of Representatives, TX-12",
+      "office": "U.S. Representative, TX-12",
       "level": "federal",
       "district": "TX-12",
       "score": 49.6,
@@ -1261,7 +1259,7 @@
       "demo_rank": 22
     },
     "tx-cd13-2026": {
-      "office": "U.S. House of Representatives, TX-13",
+      "office": "U.S. Representative, TX-13",
       "level": "federal",
       "district": "TX-13",
       "score": 33.0,
@@ -1277,7 +1275,7 @@
       "demo_rank": 45
     },
     "tx-cd14-2026": {
-      "office": "U.S. House of Representatives, TX-14",
+      "office": "U.S. Representative, TX-14",
       "level": "federal",
       "district": "TX-14",
       "score": 41.0,
@@ -1293,7 +1291,7 @@
       "demo_rank": 34
     },
     "tx-cd15-2026": {
-      "office": "U.S. House of Representatives, TX-15",
+      "office": "U.S. Representative, TX-15",
       "level": "federal",
       "district": "TX-15",
       "score": 49.6,
@@ -1309,7 +1307,7 @@
       "demo_rank": 11
     },
     "tx-cd16-2026": {
-      "office": "U.S. House of Representatives, TX-16",
+      "office": "U.S. Representative, TX-16",
       "level": "federal",
       "district": "TX-16",
       "score": 43.0,
@@ -1325,7 +1323,7 @@
       "demo_rank": 12
     },
     "tx-cd17-2026": {
-      "office": "U.S. House of Representatives, TX-17",
+      "office": "U.S. Representative, TX-17",
       "level": "federal",
       "district": "TX-17",
       "score": 48.0,
@@ -1341,7 +1339,7 @@
       "demo_rank": 30
     },
     "tx-cd18-2026": {
-      "office": "U.S. House of Representatives, TX-18",
+      "office": "U.S. Representative, TX-18",
       "level": "federal",
       "district": "TX-18",
       "score": 45.0,
@@ -1357,7 +1355,7 @@
       "demo_rank": 37
     },
     "tx-cd19-2026": {
-      "office": "U.S. House of Representatives, TX-19",
+      "office": "U.S. Representative, TX-19",
       "level": "federal",
       "district": "TX-19",
       "score": 48.0,
@@ -1373,7 +1371,7 @@
       "demo_rank": 39
     },
     "tx-cd20-2026": {
-      "office": "U.S. House of Representatives, TX-20",
+      "office": "U.S. Representative, TX-20",
       "level": "federal",
       "district": "TX-20",
       "score": 33.0,
@@ -1389,7 +1387,7 @@
       "demo_rank": 46
     },
     "tx-cd21-2026": {
-      "office": "U.S. House of Representatives, TX-21",
+      "office": "U.S. Representative, TX-21",
       "level": "federal",
       "district": "TX-21",
       "score": 48.0,
@@ -1405,7 +1403,7 @@
       "demo_rank": 20
     },
     "tx-cd22-2026": {
-      "office": "U.S. House of Representatives, TX-22",
+      "office": "U.S. Representative, TX-22",
       "level": "federal",
       "district": "TX-22",
       "score": 49.6,
@@ -1421,7 +1419,7 @@
       "demo_rank": 16
     },
     "tx-cd23-2026": {
-      "office": "U.S. House of Representatives, TX-23",
+      "office": "U.S. Representative, TX-23",
       "level": "federal",
       "district": "TX-23",
       "score": 42.2,
@@ -1437,7 +1435,7 @@
       "demo_rank": 17
     },
     "tx-cd24-2026": {
-      "office": "U.S. House of Representatives, TX-24",
+      "office": "U.S. Representative, TX-24",
       "level": "federal",
       "district": "TX-24",
       "score": 41.0,
@@ -1453,7 +1451,7 @@
       "demo_rank": 13
     },
     "tx-cd25-2026": {
-      "office": "U.S. House of Representatives, TX-25",
+      "office": "U.S. Representative, TX-25",
       "level": "federal",
       "district": "TX-25",
       "score": 31.6,
@@ -1469,7 +1467,7 @@
       "demo_rank": 41
     },
     "tx-cd26-2026": {
-      "office": "U.S. House of Representatives, TX-26",
+      "office": "U.S. Representative, TX-26",
       "level": "federal",
       "district": "TX-26",
       "score": 49.6,
@@ -1485,7 +1483,7 @@
       "demo_rank": 21
     },
     "tx-cd27-2026": {
-      "office": "U.S. House of Representatives, TX-27",
+      "office": "U.S. Representative, TX-27",
       "level": "federal",
       "district": "TX-27",
       "score": 34.6,
@@ -1501,7 +1499,7 @@
       "demo_rank": 29
     },
     "tx-cd28-2026": {
-      "office": "U.S. House of Representatives, TX-28",
+      "office": "U.S. Representative, TX-28",
       "level": "federal",
       "district": "TX-28",
       "score": 68.0,
@@ -1517,7 +1515,7 @@
       "demo_rank": 10
     },
     "tx-cd29-2026": {
-      "office": "U.S. House of Representatives, TX-29",
+      "office": "U.S. Representative, TX-29",
       "level": "federal",
       "district": "TX-29",
       "score": 49.6,
@@ -1533,7 +1531,7 @@
       "demo_rank": 26
     },
     "tx-cd30-2026": {
-      "office": "U.S. House of Representatives, TX-30",
+      "office": "U.S. Representative, TX-30",
       "level": "federal",
       "district": "TX-30",
       "score": 48.0,
@@ -1549,7 +1547,7 @@
       "demo_rank": 40
     },
     "tx-cd31-2026": {
-      "office": "U.S. House of Representatives, TX-31",
+      "office": "U.S. Representative, TX-31",
       "level": "federal",
       "district": "TX-31",
       "score": 43.0,
@@ -1565,7 +1563,7 @@
       "demo_rank": 24
     },
     "tx-cd32-2026": {
-      "office": "U.S. House of Representatives, TX-32",
+      "office": "U.S. Representative, TX-32",
       "level": "federal",
       "district": "TX-32",
       "score": 41.0,
@@ -1581,7 +1579,7 @@
       "demo_rank": 15
     },
     "tx-cd33-2026": {
-      "office": "U.S. House of Representatives, TX-33",
+      "office": "U.S. Representative, TX-33",
       "level": "federal",
       "district": "TX-33",
       "score": 41.2,
@@ -1597,7 +1595,7 @@
       "demo_rank": 35
     },
     "tx-cd34-2026": {
-      "office": "U.S. House of Representatives, TX-34",
+      "office": "U.S. Representative, TX-34",
       "level": "federal",
       "district": "TX-34",
       "score": 68.0,
@@ -1613,7 +1611,7 @@
       "demo_rank": 9
     },
     "tx-cd35-2026": {
-      "office": "U.S. House of Representatives, TX-35",
+      "office": "U.S. Representative, TX-35",
       "level": "federal",
       "district": "TX-35",
       "score": 41.2,
@@ -1629,7 +1627,7 @@
       "demo_rank": 31
     },
     "tx-cd36-2026": {
-      "office": "U.S. House of Representatives, TX-36",
+      "office": "U.S. Representative, TX-36",
       "level": "federal",
       "district": "TX-36",
       "score": 43.0,
@@ -1645,7 +1643,7 @@
       "demo_rank": 36
     },
     "tx-cd37-2026": {
-      "office": "U.S. House of Representatives, TX-37",
+      "office": "U.S. Representative, TX-37",
       "level": "federal",
       "district": "TX-37",
       "score": 48.0,
@@ -1661,7 +1659,7 @@
       "demo_rank": 38
     },
     "tx-cd38-2026": {
-      "office": "U.S. House of Representatives, TX-38",
+      "office": "U.S. Representative, TX-38",
       "level": "federal",
       "district": "TX-38",
       "score": 46.1,
@@ -1680,8 +1678,8 @@
   "tier_distribution": {
     "candidates": {
       "A": 2,
-      "B": 29,
-      "C": 62,
+      "B": 31,
+      "C": 60,
       "D": 3
     },
     "races": {
@@ -1717,7 +1715,7 @@
   "golden_demo_districts": [
     {
       "race_id": "tx-cd34-2026",
-      "office": "U.S. House of Representatives, TX-34",
+      "office": "U.S. Representative, TX-34",
       "district": "TX-34",
       "demo_rank": 9,
       "tier": "B",
@@ -1731,7 +1729,7 @@
     },
     {
       "race_id": "tx-cd28-2026",
-      "office": "U.S. House of Representatives, TX-28",
+      "office": "U.S. Representative, TX-28",
       "district": "TX-28",
       "demo_rank": 10,
       "tier": "B",
@@ -1745,7 +1743,7 @@
     },
     {
       "race_id": "tx-cd15-2026",
-      "office": "U.S. House of Representatives, TX-15",
+      "office": "U.S. Representative, TX-15",
       "district": "TX-15",
       "demo_rank": 11,
       "tier": "C",
@@ -1759,7 +1757,7 @@
     },
     {
       "race_id": "tx-cd16-2026",
-      "office": "U.S. House of Representatives, TX-16",
+      "office": "U.S. Representative, TX-16",
       "district": "TX-16",
       "demo_rank": 12,
       "tier": "C",
@@ -1773,7 +1771,7 @@
     },
     {
       "race_id": "tx-cd24-2026",
-      "office": "U.S. House of Representatives, TX-24",
+      "office": "U.S. Representative, TX-24",
       "district": "TX-24",
       "demo_rank": 13,
       "tier": "C",
@@ -1784,6 +1782,20 @@
         "matched_address": "255 PARKWAY BLVD, COPPELL, TX, 75019",
         "cd": "TX-24"
       }
+    }
+  ],
+  "name_collisions_not_merged": [
+    {
+      "name": "Sarah Eckhardt",
+      "candidate_ids": [
+        "eckhardt-sarah",
+        "eckhardt-sarah-tx10"
+      ],
+      "offices": {
+        "eckhardt-sarah": "Texas Comptroller of Public Accounts",
+        "eckhardt-sarah-tx10": "U.S. Representative, TX-10"
+      },
+      "note": "Same normalized name, different candidate_id. Kept as separate records -- identity (same real person vs. two different people sharing a name) is NOT confirmed by this pipeline. Do not merge without independent confirmation; each record's own sources belong only to that record."
     }
   ]
 }

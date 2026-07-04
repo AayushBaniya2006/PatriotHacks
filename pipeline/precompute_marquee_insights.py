@@ -104,6 +104,18 @@ def finance_source_label(source_url):
     return "campaign finance filings on record"
 
 
+def finance_period_clause(fin):
+    """Non-empty only when the finance record's own 'basis' field marks it
+    as a single reporting period rather than a cycle-to-date total (the
+    Texas Ethics Commission backfill is per_report_period; FEC totals in
+    this data set are cycle-to-date and carry no 'basis' field at all).
+    Without this clause, "raised $X" reads as a cumulative total to a
+    voter -- which is exactly what a per-period figure is not."""
+    if fin.get("basis") == "per_report_period":
+        return " (this filing period only, not a cycle-to-date total)"
+    return ""
+
+
 def candidate_office_bullet(cid, c):
     party = c.get("party", "an unlisted party")
     office = c.get("office", "this office")
@@ -142,7 +154,8 @@ def candidate_finance_or_missing_bullet(cid, c):
             parts.append(f"spent {disb}")
         detail = " and ".join(parts) if parts else "reported campaign finance activity"
         label = finance_source_label(fin.get("source"))
-        text = f"As of {as_of}, {c['name']}'s campaign had {detail}, per {label}."
+        period = finance_period_clause(fin)
+        text = f"As of {as_of}, {c['name']}'s campaign had {detail}, per {label}{period}."
         return {"text": text, "source": fin.get("source", src_fallback)}
     else:
         text = (
@@ -258,9 +271,10 @@ def archetype_finance_context_bullet(cid, c, archetype):
     as_of = fin.get("as_of")
     receipts = money(fin.get("receipts"))
     label = finance_source_label(fin.get("source"))
+    period = finance_period_clause(fin)
     text = (
-        f"As of {as_of}, {c['name']}'s campaign had raised {receipts} in total, per "
-        f"{label}. That is general campaign-finance context; it does not tell us "
+        f"As of {as_of}, {c['name']}'s campaign had raised {receipts}, per "
+        f"{label}{period}. That is general campaign-finance context; it does not tell us "
         f"the candidate's stance on {ARCHETYPE_ISSUE_PHRASE[archetype]}."
     )
     return {"text": text, "source": fin.get("source")}
