@@ -35,7 +35,6 @@ import type { IssueDef } from "@/lib/issues";
 import type { MatchResult, UserPreferences, VoterProfile } from "@/lib/types";
 
 type WizardStep =
-  | "welcome"
   | "location"
   | "found"
   | "focus"
@@ -181,7 +180,7 @@ function displayLocation(ballot: BallotData | null, fallback: string) {
     const parts = [districts.cd, districts.sd, districts.hd, districts.county].filter(Boolean);
     if (parts.length) return parts.join(" · ");
   }
-  return fallback || "Texas";
+  return fallback;
 }
 
 function progressFor(step: WizardStep) {
@@ -510,7 +509,7 @@ function DesktopRail({
 
 export default function BallotPage() {
   const [issues, setIssues] = useState<IssueDef[] | null>(null);
-  const [step, setStep] = useState<WizardStep>("welcome");
+  const [step, setStep] = useState<WizardStep>("location");
   const [location, setLocation] = useState(() => {
     const initialAddress =
       typeof window === "undefined"
@@ -596,10 +595,9 @@ export default function BallotPage() {
     return issues.find((issue) => issue.id === priorities[stanceIndex]) ?? null;
   }, [issues, priorities, stanceIndex]);
 
-  const locationDisplay = displayLocation(ballot, [location.cityState, location.zip].filter(Boolean).join(" "));
+  const locationDisplay = displayLocation(ballot, [location.street, location.cityState, location.zip].filter(Boolean).join(", "));
 
   const goBack = () => {
-    if (step === "location") setStep("welcome");
     if (step === "found") setStep("location");
     if (step === "focus") setStep("found");
     if (step === "priorities") setStep("focus");
@@ -711,45 +709,8 @@ export default function BallotPage() {
           tradeoffStyle={tradeoffStyle}
         />
         <div className="flex min-h-[calc(100svh-2rem)] w-full flex-col overflow-hidden rounded-[24px] border border-[#d8a15b]/35 bg-[#051628] shadow-[0_28px_90px_rgba(0,0,0,0.45)] sm:min-h-[680px] md:h-full md:min-h-0 md:rounded-none md:border-0 md:border-l md:border-white/10 md:shadow-none">
-        {step === "welcome" && (
-          <section className="relative flex min-h-full flex-1 flex-col overflow-hidden p-7 md:p-9 lg:p-10">
-            <Image
-              src={heroImage}
-              alt=""
-              fill
-              loading="eager"
-              fetchPriority="high"
-              className="object-cover object-[68%_50%] opacity-50 grayscale"
-              sizes="(min-width: 768px) 760px, 420px"
-            />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#06192d]/55 via-[#06192d]/74 to-[#051628]" />
-            <div className="relative z-10 flex flex-1 flex-col">
-              <CivitasLogo />
-              <div className="flex flex-1 flex-col justify-center py-12">
-                <h1 className="font-serif text-5xl leading-[0.98] text-white md:text-6xl">
-                  Better
-                  <br />
-                  data.
-                  <br />
-                  Stronger
-                  <br />
-                  republic.
-                </h1>
-                <div className="mt-5 h-0.5 w-12 bg-[#b33a35]" />
-                <p className="mt-8 max-w-[320px] text-sm leading-6 text-white/72 md:text-base md:leading-7">
-                  Enter your location, compare candidates, and ask questions with sources.
-                </p>
-              </div>
-              <div className="space-y-4">
-                <PrimaryButton onClick={() => setStep("location")}>Find my election</PrimaryButton>
-                <p className="text-center text-sm text-white/70">No account required</p>
-              </div>
-            </div>
-          </section>
-        )}
-
         {step === "location" && (
-          <StepLayout step={step} onBack={goBack}>
+          <StepLayout step={step}>
             <form
               className="flex flex-1 flex-col"
               onSubmit={(event) => {
