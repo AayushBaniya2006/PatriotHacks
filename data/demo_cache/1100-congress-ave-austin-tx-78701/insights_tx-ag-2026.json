@@ -3,22 +3,30 @@
   "candidates": {
     "johnson-nathan": [
       {
-        "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-        "text": "No public data in our set connects Nathan Johnson's recorded background or positions specifically to property taxes or public school funding."
+        "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+        "text": "On education, Nathan Johnson's recorded position: Johnson has said he would not defend Texas's law requiring the Ten Commandments be displayed in public school classrooms if elected attorney general, calling it unconstitutional: 'I will not defend the legislature's passage of a requirement that schools place the Ten Commandments in classrooms because it's unconstitutional.'"
       },
       {
-        "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-        "text": "No public data in our set on Nathan Johnson's recorded votes or stated positions regarding property taxes or public school funding."
+        "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849",
+        "text": "On taxes, Nathan Johnson's recorded position: On the Legislature's property-tax-cut package, Johnson said it had 'too much frosting on the cupcake' and was 'too big' given it relied on a one-time budget surplus, but that faced with an up-or-down vote he supported it: 'It's either property tax reduction, or no property tax reduction. And in principle, I support the whole thing.'"
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-05-16, Nathan Johnson's campaign had raised $365,981, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "middleton-mayes": [
       {
-        "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-        "text": "No public data in our set connects Mayes Middleton's recorded background or positions specifically to property taxes or public school funding."
+        "source": "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/",
+        "text": "On education, Mayes Middleton's recorded position: In a January 2025 Senate committee hearing on Senate Bill 2 (education savings accounts), Middleton spoke in support of the program and said he expects it to 'create opportunities for more private schools to open that specialize in providing special education services.'"
       },
       {
-        "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
-        "text": "No public data in our set on Mayes Middleton's recorded votes or stated positions regarding property taxes or public school funding."
+        "source": "https://www.fox4news.com/news/education-savings-account-texas",
+        "text": "On education, Mayes Middleton's recorded position: State Sen. Mayes Middleton authored Senate Bill 176 (2023), which would create education savings accounts letting participating families receive 'the average amount of money it costs Texas public schools to educate each of their children' -- about $10,000 a year -- to spend on private-school tuition, online schooling, tutoring, or higher-education costs."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-05-16, Mayes Middleton's campaign had raised $5,719,372, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "oxford-tom": [
@@ -29,10 +37,82 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
         "text": "No public data in our set on Tom Oxford's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-06-30, Tom Oxford's campaign had raised $394, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ]
   },
   "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "horizons": {
+    "johnson-nathan": {
+      "long_term": [
+        {
+          "assumption": "Assumes Nathan Johnson keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: education",
+          "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+          "text": "If Nathan Johnson's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        },
+        {
+          "assumption": "Assumes Nathan Johnson keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: taxes",
+          "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849",
+          "text": "If Nathan Johnson's recorded position on taxes holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        }
+      ],
+      "now": [
+        {
+          "basis": "position: education",
+          "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+          "text": "On education, Nathan Johnson's recorded position is: \"Johnson has said he would not defend Texas's law requiring the Ten Commandments be displayed in public school classrooms if elected attorney general, calling it unconstitutional: 'I will not defend the legislature's passage of a requirement that schools place the Ten Commandments in classrooms because it's unconstitutional.'\" That's what people focused on property taxes or public school funding can expect from Nathan Johnson this term."
+        },
+        {
+          "basis": "position: taxes",
+          "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849",
+          "text": "On taxes, Nathan Johnson's recorded position is: \"On the Legislature's property-tax-cut package, Johnson said it had 'too much frosting on the cupcake' and was 'too big' given it relied on a one-time budget surplus, but that faced with an up-or-down vote he supported it: 'It's either property tax reduction, or no property tax reduction. And in principle, I support the whole thing.'\" That's what people focused on property taxes or public school funding can expect from Nathan Johnson this term."
+        }
+      ]
+    },
+    "middleton-mayes": {
+      "long_term": [
+        {
+          "assumption": "Assumes Mayes Middleton keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: education",
+          "source": "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/",
+          "text": "If Mayes Middleton's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        },
+        {
+          "assumption": "Assumes Mayes Middleton keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: education",
+          "source": "https://www.fox4news.com/news/education-savings-account-texas",
+          "text": "If Mayes Middleton's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        }
+      ],
+      "now": [
+        {
+          "basis": "position: education",
+          "source": "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/",
+          "text": "On education, Mayes Middleton's recorded position is: \"In a January 2025 Senate committee hearing on Senate Bill 2 (education savings accounts), Middleton spoke in support of the program and said he expects it to 'create opportunities for more private schools to open that specialize in providing special education services.'\" That's what people focused on property taxes or public school funding can expect from Mayes Middleton this term."
+        },
+        {
+          "basis": "position: education",
+          "source": "https://www.fox4news.com/news/education-savings-account-texas",
+          "text": "On education, Mayes Middleton's recorded position is: \"State Sen. Mayes Middleton authored Senate Bill 176 (2023), which would create education savings accounts letting participating families receive 'the average amount of money it costs Texas public schools to educate each of their children' -- about $10,000 a year -- to spend on private-school tuition, online schooling, tutoring, or higher-education costs.\" That's what people focused on property taxes or public school funding can expect from Mayes Middleton this term."
+        }
+      ]
+    },
+    "oxford-tom": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+          "text": "No recorded evidence in our set to project from for Tom Oxford on property taxes or public school funding."
+        }
+      ]
+    }
+  },
   "mode": "cached",
   "summary": "For a homeowner parent voter looking at the Attorney General of Texas race (Mayes Middleton, Nathan Johnson, Tom Oxford): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
 }

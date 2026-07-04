@@ -375,6 +375,8 @@ Response 200:
 | `candidates[].positions[]` | array | currently always `[]` |
 | `candidates[].sources[]` | array of URLs | |
 | `warning` | string, optional | `"data_pending: race/candidate data not yet loaded for this district"` |
+| `voting_info` | object, **OPTIONAL — enrichment** | only present when `GOOGLE_CIVIC_API_KEY` is set AND Google has data for this address; see below |
+| `division_check` | object, **OPTIONAL — enrichment** | only present when the above key is set AND Google returned at least one OCD division with a comparable congressional-district number; see below |
 
 Example (truncated to 1 race, 1 candidate, `key_votes` truncated to 1):
 
@@ -420,6 +422,65 @@ builds a **dict keyed by `candidate_id`** instead
 (`{"crenshaw-daniel": {...}, ...}`) — a migration agent is converting this
 to the array shape in parallel; treat the array as authoritative for any new
 client code.
+
+#### `voting_info` / `division_check` — OPTIONAL Google Civic enrichment
+
+Added 2026-07-03 (`app/google_civic.py`), gracefully degrading and entirely
+additive: absent `GOOGLE_CIVIC_API_KEY`, the response is byte-identical to
+the contract above. Backed by the Google Civic Information API's
+`elections`/`voterInfoQuery` endpoints only — its `representatives` resource
+was shut down in 2025 and is never called (see
+`data/endpoint_inventory.json`'s `google-civic` entry, the ground truth for
+this integration).
+
+`voting_info` (present only when the key is set AND Google has *useful*
+data for this address — an election name/date or at least one location;
+an all-empty hit is treated the same as no coverage and the field is
+omitted):
+
+| field | type | notes |
+|---|---|---|
+| `voting_info.election.name` | string \| null | |
+| `voting_info.election.date` | string \| null | e.g. `"2026-11-03"` |
+| `voting_info.polling_locations[]` | array of `{name, address, hours}` | possibly empty |
+| `voting_info.early_vote_sites[]` | array of `{name, address, hours}` | possibly empty |
+| `voting_info.dropoff_locations[]` | array of `{name, address, hours}` | possibly empty |
+| `voting_info.contests_present` | bool | whether Google has ballot contests loaded for this address |
+| `voting_info.source` | string (URL) | always `"https://developers.google.com/civic-information"` |
+
+`division_check` (present only when Google returned at least one OCD
+division ID with a parseable `cd:NN` congressional-district number — a live
+cross-validation of our own Census-derived resolver, not fabricated when
+there's nothing comparable on either side):
+
+| field | type | notes |
+|---|---|---|
+| `division_check.consistent` | bool | whether `districts.cd`'s district number matches one of Google's OCD division IDs for this address |
+| `division_check.ocd_ids[]` | array of strings | Google's OCD division IDs for this address, e.g. `"ocd-division/country:us/state:tx/cd:35"` |
+
+Example (both fields populated):
+
+```json
+{
+  "voting_info": {
+    "election": {"name": "Texas General Election 2026", "date": "2026-11-03"},
+    "polling_locations": [{"name": "San Marcos City Hall", "address": "630 E Hopkins St, San Marcos TX 78666", "hours": "7:00am-7:00pm"}],
+    "early_vote_sites": [],
+    "dropoff_locations": [],
+    "contests_present": true,
+    "source": "https://developers.google.com/civic-information"
+  },
+  "division_check": {"consistent": true, "ocd_ids": ["ocd-division/country:us/state:tx/cd:35"]}
+}
+```
+
+Both fields are cached per normalized address alongside the Census geocode
+result (`datastore.geocode_cache_get_civic`/`put_civic` — a `civic_json`
+column/key riding on the same `geocode_cache` row/entry as §2.1's table, so
+a repeat address never re-hits the Civic API, including a repeat "no
+coverage yet" result). Failure modes (no key, 403, quota exceeded, timeout,
+no election data loaded this far from Nov 2026) all degrade to the fields
+simply being omitted — never a 4xx/5xx caused by this enrichment.
 
 ### `POST /api/insights`
 

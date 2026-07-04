@@ -105,7 +105,8 @@ Doc set: `schema.md` (contracts), `database.md` (Postgres creation/integration),
 
 Tier 1: Census Geocoder (no key), OpenFEC (`DEMO_KEY`/free key), Congress.gov API (free key), Wikipedia 2026 TX race pages (candidate lists post-primary), House Clerk roll-call XML (no key), Open States v3 (free key).
 Tier 2 (stretch): Texas Ethics Commission (state campaign finance — not in original docx), OpenElections TX CSVs, Federal Register, USAspending, LegiScan.
-Skip: courts stack, US Code bulk, EAC/NIST, SAM.gov, Google Civic representatives (deprecated 2025), all non-US sources.
+Skip: courts stack, US Code bulk, EAC/NIST, SAM.gov, all non-US sources.
+Google Civic Information API: `representatives` endpoint dead (shut down 2025 — do not use). `elections`/`voterInfoQuery`/`divisions` integrated 2026-07-03 as an OPTIONAL, gracefully-degrading enrichment (`app/google_civic.py`) behind `GOOGLE_CIVIC_API_KEY` (not yet in `.env` as of this writing) — adds `/api/ballot`'s `voting_info` + `division_check` when the key is set, invisible/byte-identical otherwise.
 
 ### Keys — human action items
 
