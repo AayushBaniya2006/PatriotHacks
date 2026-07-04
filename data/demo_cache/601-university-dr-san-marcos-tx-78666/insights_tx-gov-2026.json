@@ -9,6 +9,10 @@
       {
         "source": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law",
         "text": "On education, Greg Abbott's recorded position: Abbott is a leading proponent of school choice, having signed Texas's landmark Education Savings Account program in 2025. He campaigned on 'education freedom,' supports diverting public funds to private options through ESAs, and emphasizes parental control over education decisions."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "dixon-pat": [
@@ -19,6 +23,10 @@
       {
         "source": "https://patdixon.org/property-tax/",
         "text": "On taxes, Pat Dixon's recorded position: Dixon states that no party wants lower taxes more than the Libertarian Party, insists spending cuts must precede tax reductions, and opposes replacing property taxes with higher sales taxes without local control."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "hinojosa-gina": [
@@ -29,6 +37,10 @@
       {
         "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
         "text": "On taxes, Gina Hinojosa's recorded position: She calls for ending corporate loopholes and using the proceeds to lower middle-class taxes while protecting neighborhood-school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ],
     "raphoon-jenn": [
@@ -39,10 +51,110 @@
       {
         "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
         "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding property taxes or public school funding."
+      },
+      {
+        "source": "https://www.ethics.state.tx.us/search/cf/",
+        "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding."
       }
     ]
   },
   "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+  "horizons": {
+    "abbott-greg": {
+      "long_term": [
+        {
+          "assumption": "Assumes Greg Abbott keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: taxes",
+          "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "text": "If Greg Abbott's recorded position on taxes holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        },
+        {
+          "assumption": "Assumes Greg Abbott keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: education",
+          "source": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law",
+          "text": "If Greg Abbott's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        }
+      ],
+      "now": [
+        {
+          "basis": "position: taxes",
+          "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "text": "On taxes, Greg Abbott's recorded position is: \"Abbott has made property tax reduction a centerpiece of his governance, signing over $18 billion in property tax cuts in 2023 and seeking at least $10 billion more. He advocates for eliminating school property taxes for homeowners and raising business personal property exemptions.\" That's what people focused on property taxes or public school funding can expect from Greg Abbott this term."
+        },
+        {
+          "basis": "position: education",
+          "source": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law",
+          "text": "On education, Greg Abbott's recorded position is: \"Abbott is a leading proponent of school choice, having signed Texas's landmark Education Savings Account program in 2025. He campaigned on 'education freedom,' supports diverting public funds to private options through ESAs, and emphasizes parental control over education decisions.\" That's what people focused on property taxes or public school funding can expect from Greg Abbott this term."
+        }
+      ]
+    },
+    "dixon-pat": {
+      "long_term": [
+        {
+          "assumption": "Assumes Pat Dixon keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: education",
+          "source": "https://patdixon.org/school-choice/",
+          "text": "If Pat Dixon's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        },
+        {
+          "assumption": "Assumes Pat Dixon keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: taxes",
+          "source": "https://patdixon.org/property-tax/",
+          "text": "If Pat Dixon's recorded position on taxes holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        }
+      ],
+      "now": [
+        {
+          "basis": "position: education",
+          "source": "https://patdixon.org/school-choice/",
+          "text": "On education, Pat Dixon's recorded position is: \"Dixon strongly supports school choice, endorsing statewide voucher programs where education funding follows students to any school. He criticizes standardized testing mandates and 'Robin Hood' school funding redistribution, citing the Texas voucher plan that accepted 90,000 students as a model to expand rather than restrict.\" That's what people focused on property taxes or public school funding can expect from Pat Dixon this term."
+        },
+        {
+          "basis": "position: taxes",
+          "source": "https://patdixon.org/property-tax/",
+          "text": "On taxes, Pat Dixon's recorded position is: \"Dixon states that no party wants lower taxes more than the Libertarian Party, insists spending cuts must precede tax reductions, and opposes replacing property taxes with higher sales taxes without local control.\" That's what people focused on property taxes or public school funding can expect from Pat Dixon this term."
+        }
+      ]
+    },
+    "hinojosa-gina": {
+      "long_term": [
+        {
+          "assumption": "Assumes Gina Hinojosa keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: education",
+          "source": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/",
+          "text": "If Gina Hinojosa's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        },
+        {
+          "assumption": "Assumes Gina Hinojosa keeps this position and it turns into lasting policy, rather than changing later or staying just talk.",
+          "basis": "position: taxes",
+          "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "text": "If Gina Hinojosa's recorded position on taxes holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee."
+        }
+      ],
+      "now": [
+        {
+          "basis": "position: education",
+          "source": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/",
+          "text": "On education, Gina Hinojosa's recorded position is: \"Hinojosa is a strong advocate for public school funding and opposes school vouchers. She authored an opinion piece explicitly stating she opposes the governor's voucher plan, calling it 'irresponsible and harmful.' She emphasizes that Texas public schools need at least $40 billion to reach national per-student funding averages and has worked with bipartisan allies to block voucher legislation.\" That's what people focused on property taxes or public school funding can expect from Gina Hinojosa this term."
+        },
+        {
+          "basis": "position: taxes",
+          "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "text": "On taxes, Gina Hinojosa's recorded position is: \"She calls for ending corporate loopholes and using the proceeds to lower middle-class taxes while protecting neighborhood-school funding.\" That's what people focused on property taxes or public school funding can expect from Gina Hinojosa this term."
+        }
+      ]
+    },
+    "raphoon-jenn": {
+      "long_term": [],
+      "now": [
+        {
+          "basis": "none",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+          "text": "No recorded evidence in our set to project from for Jenn Mack Raphoon on property taxes or public school funding."
+        }
+      ]
+    }
+  },
   "mode": "cached",
   "summary": "For a homeowner parent voter looking at the Governor of Texas race (Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance."
 }

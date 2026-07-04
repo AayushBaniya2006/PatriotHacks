@@ -20,19 +20,30 @@
           "candidate_id": "abbott-greg",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no fec/bioguide id"
             ],
-            "score": 45.0,
-            "tier": "C"
+            "score": 70.0,
+            "tier": "B"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-02-21",
+            "basis": "per_report_period",
+            "cash_on_hand": 569675.55,
+            "disbursements": 42592.76,
+            "filer_id": "00019652",
+            "flags": [
+              "spend_exceeds_receipts_check_basis"
+            ],
+            "receipts": 0.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": true,
           "name": "Greg Abbott",
           "office": "Governor of Texas",
-          "party": "Republican Party of Texas",
+          "party": "Republican",
           "positions": [
             {
               "confidence": 0.95,
@@ -90,19 +101,27 @@
           "candidate_id": "hinojosa-gina",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no fec/bioguide id"
             ],
-            "score": 43.0,
-            "tier": "C"
+            "score": 68.0,
+            "tier": "B"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-02-21",
+            "basis": "per_report_period",
+            "cash_on_hand": 617635.11,
+            "disbursements": 673404.86,
+            "filer_id": "00080440",
+            "receipts": 951069.37,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Gina Hinojosa",
           "office": "Governor of Texas",
-          "party": "Texas Democratic Party",
+          "party": "Democratic",
           "positions": [
             {
               "confidence": 0.95,
@@ -159,15 +178,23 @@
           "candidate_id": "dixon-pat",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no fec/bioguide id"
             ],
-            "score": 45.0,
-            "tier": "C"
+            "score": 70.0,
+            "tier": "B"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2025-12-31",
+            "basis": "per_report_period",
+            "cash_on_hand": 300.0,
+            "disbursements": 0.0,
+            "filer_id": "00055583",
+            "receipts": 4050.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Pat Dixon",
           "office": "Governor of Texas",
@@ -230,16 +257,24 @@
           "candidate_id": "raphoon-jenn",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2025-06-30",
+            "basis": "per_report_period",
+            "cash_on_hand": 0.0,
+            "disbursements": 0.0,
+            "filer_id": "00088719",
+            "receipts": 0.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Jenn Mack Raphoon",
           "office": "Governor of Texas",
@@ -258,7 +293,7 @@
       },
       "data_quality": {
         "demo_rank": 2,
-        "score": 58.4,
+        "score": 73.4,
         "tier": "B"
       },
       "district": null,
@@ -280,19 +315,27 @@
           "candidate_id": "patrick-dan",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no fec/bioguide id"
             ],
-            "score": 45.0,
-            "tier": "C"
+            "score": 70.0,
+            "tier": "B"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-02-21",
+            "basis": "per_report_period",
+            "cash_on_hand": 457.51,
+            "disbursements": 169406.9,
+            "filer_id": "00057897",
+            "receipts": 150000.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": true,
           "name": "Dan Patrick",
           "office": "Lieutenant Governor of Texas",
-          "party": "Republican Party of Texas",
+          "party": "Republican",
           "positions": [
             {
               "confidence": 0.95,
@@ -352,19 +395,27 @@
           "candidate_id": "goodwin-vikki",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no fec/bioguide id"
             ],
-            "score": 45.0,
-            "tier": "C"
+            "score": 70.0,
+            "tier": "B"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-05-16",
+            "basis": "per_report_period",
+            "cash_on_hand": 145994.41,
+            "disbursements": 232357.45,
+            "filer_id": "00081436",
+            "receipts": 239668.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Vikki Goodwin",
           "office": "Lieutenant Governor of Texas",
-          "party": "Texas Democratic Party",
+          "party": "Democratic",
           "positions": [
             {
               "confidence": 0.95,
@@ -422,16 +473,24 @@
           "candidate_id": "collier-mike",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2025-12-31",
+            "basis": "per_report_period",
+            "cash_on_hand": 40931.47,
+            "disbursements": 42090.07,
+            "filer_id": "00069397",
+            "receipts": 50292.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Mike Collier",
           "office": "Lieutenant Governor of Texas",
@@ -446,16 +505,24 @@
           "candidate_id": "cristo-anthony",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2025-12-31",
+            "basis": "per_report_period",
+            "cash_on_hand": 0.0,
+            "disbursements": 0.0,
+            "filer_id": "00090296",
+            "receipts": 3750.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Anthony Cristo",
           "office": "Lieutenant Governor of Texas",
@@ -470,16 +537,27 @@
           "candidate_id": "mccormick-kevin",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2025-12-31",
+            "basis": "per_report_period",
+            "cash_on_hand": 0.0,
+            "disbursements": 3848.25,
+            "filer_id": "00090462",
+            "flags": [
+              "spend_exceeds_receipts_check_basis"
+            ],
+            "receipts": 0.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Kevin McCormick",
           "office": "Lieutenant Governor of Texas",
@@ -497,8 +575,8 @@
         ]
       },
       "data_quality": {
-        "demo_rank": 4,
-        "score": 54.7,
+        "demo_rank": 5,
+        "score": 69.7,
         "tier": "B"
       },
       "district": null,
@@ -514,75 +592,198 @@
       ],
       "candidates": [
         {
-          "background": "Mayes Middleton, state senator from the 11th district (2023\u2013present).",
+          "background": "Mayes Middleton is a Republican state senator representing Senate District 11 (elected 2022, serving since January 2023) who previously served two terms in the Texas House (2019-2023) chairing the Texas House Freedom Caucus; he is president of Middleton Oil Company, an independent oil and gas firm, and is the Republican nominee for Texas Attorney General in 2026.",
           "candidate_id": "middleton-mayes",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
-              "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 70.0,
+            "tier": "B"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-05-16",
+            "basis": "per_report_period",
+            "cash_on_hand": 2211738.07,
+            "disbursements": 9309283.08,
+            "filer_id": "00081727",
+            "receipts": 5719372.05,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Mayes Middleton",
           "office": "Attorney General of Texas",
-          "party": "Republican Party (United States)",
-          "positions": [],
+          "party": "Republican",
+          "positions": [
+            {
+              "confidence": 0.9,
+              "issue": "immigration",
+              "origin": "web-research",
+              "source": "https://mayesmiddleton.com/",
+              "summary": "Middleton's attorney general campaign platform pledges to sue to stop so-called 'sanctuary cities' from 'ignoring the law and harboring illegal criminals' and to 'aggressively enforce President Trump's border security agenda and deportation orders.'"
+            },
+            {
+              "confidence": 0.85,
+              "issue": "elections",
+              "origin": "web-research",
+              "source": "https://www.texastribune.org/2026/04/22/texas-2026-attorney-general-runoff-chip-roy-mayes-middleton-q-and-a/",
+              "summary": "Middleton has said the 2020 presidential election was 'stolen' from Donald Trump and has pledged to create an 'election integrity division' within the attorney general's office with 'broad law enforcement power to investigate allegations of voter fraud,' pointing to his role passing legislation letting the AG pursue election-fraud cases independently."
+            },
+            {
+              "confidence": 0.8,
+              "issue": "education",
+              "origin": "web-research",
+              "source": "https://www.fox4news.com/news/education-savings-account-texas",
+              "summary": "State Sen. Mayes Middleton authored Senate Bill 176 (2023), which would create education savings accounts letting participating families receive 'the average amount of money it costs Texas public schools to educate each of their children' -- about $10,000 a year -- to spend on private-school tuition, online schooling, tutoring, or higher-education costs."
+            },
+            {
+              "confidence": 0.85,
+              "issue": "education",
+              "origin": "web-research",
+              "source": "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/",
+              "summary": "In a January 2025 Senate committee hearing on Senate Bill 2 (education savings accounts), Middleton spoke in support of the program and said he expects it to 'create opportunities for more private schools to open that specialize in providing special education services.'"
+            },
+            {
+              "confidence": 0.8,
+              "issue": "consumer protection",
+              "origin": "web-research",
+              "source": "https://mayesmiddleton.com/",
+              "summary": "Middleton's campaign platform lists suing 'corporations for deceptive trade practices to protect consumers' among his stated attorney-general priorities, alongside fighting to prevent 'foreign adversaries' from acquiring Texas assets."
+            },
+            {
+              "confidence": 0.7,
+              "issue": "healthcare",
+              "origin": "web-research",
+              "source": "https://ivoterguide.com/candidate/39321/race/28750/election/1433",
+              "summary": "In a candidate questionnaire, Middleton selected the position that 'Medicaid and Medicare should remain available, but no other taxpayer-funded [healthcare] programs are necessary,' and said he opposes government medical databases over concerns about 'abuse and violations of privacy.'"
+            }
+          ],
           "sources": [
-            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+            "https://mayesmiddleton.com/",
+            "https://www.texastribune.org/2026/04/22/texas-2026-attorney-general-runoff-chip-roy-mayes-middleton-q-and-a/",
+            "https://www.fox4news.com/news/education-savings-account-texas",
+            "https://www.texastribune.org/2025/01/28/texas-senate-education-hearing-school-vouchers/",
+            "https://ivoterguide.com/candidate/39321/race/28750/election/1433",
+            "https://en.wikipedia.org/wiki/Mayes_Middleton",
+            "https://senate.texas.gov/member.php?d=11"
           ]
         },
         {
-          "background": "Nathan Johnson, state senator from the 16th district (2019\u2013present).",
+          "background": "Nathan Johnson is a Democratic state senator representing Senate District 16 in Dallas County (since January 2019) and a business litigator at Thompson Coburn LLP; he is the Democratic nominee for Texas Attorney General in 2026 after winning a May 2026 primary runoff.",
           "candidate_id": "johnson-nathan",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
-              "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 70.0,
+            "tier": "B"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-05-16",
+            "basis": "per_report_period",
+            "cash_on_hand": 90855.45,
+            "disbursements": 442785.18,
+            "filer_id": "00081605",
+            "receipts": 365981.04,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Nathan Johnson",
           "office": "Attorney General of Texas",
-          "party": "Democratic Party (United States)",
-          "positions": [],
+          "party": "Democratic",
+          "positions": [
+            {
+              "confidence": 0.8,
+              "issue": "healthcare",
+              "origin": "web-research",
+              "source": "https://www.nathanfortexas.com/",
+              "summary": "Johnson's campaign site says that after seeing Texas's 'worst-in-the-nation uninsured rate,' he 'became the state's leading voice on Medicaid expansion' in the state Senate, and describes his work reforming 'the Texas marketplace to enable hundreds of thousands of Texans to buy private health insurance.'"
+            },
+            {
+              "confidence": 0.9,
+              "issue": "education",
+              "origin": "web-research",
+              "source": "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+              "summary": "Johnson has said he would not defend Texas's law requiring the Ten Commandments be displayed in public school classrooms if elected attorney general, calling it unconstitutional: 'I will not defend the legislature's passage of a requirement that schools place the Ten Commandments in classrooms because it's unconstitutional.'"
+            },
+            {
+              "confidence": 0.65,
+              "issue": "taxes",
+              "origin": "web-research",
+              "source": "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849",
+              "summary": "On the Legislature's property-tax-cut package, Johnson said it had 'too much frosting on the cupcake' and was 'too big' given it relied on a one-time budget surplus, but that faced with an up-or-down vote he supported it: 'It's either property tax reduction, or no property tax reduction. And in principle, I support the whole thing.'"
+            },
+            {
+              "confidence": 0.85,
+              "issue": "elections",
+              "origin": "web-research",
+              "source": "https://www.houstonvotersguide.org/attorney-general-dem/Nathan-Johnson",
+              "summary": "In a League of Women Voters of Houston questionnaire, Johnson said 'we have good laws to keep elections secure, provided that enforcement and audits are fair and consistent,' and noted he has filed Senate legislation to protect election workers from harassment, enable same-day voter registration, and move redistricting to an independent commission."
+            },
+            {
+              "confidence": 0.85,
+              "issue": "immigration",
+              "origin": "web-research",
+              "source": "https://www.houstonvotersguide.org/attorney-general-dem/Nathan-Johnson",
+              "summary": "In the same questionnaire, Johnson said he would have the attorney general's office work with federal authorities to 'speed processing of asylum claims and treat applicants humanely,' stated that 'the U.S. Constitution grants due process to everyone in the United States, including undocumented immigrants,' and proposed revising Texas's 287(g) immigration-enforcement agreements and expanding guest-worker programs."
+            },
+            {
+              "confidence": 0.8,
+              "issue": "consumer protection",
+              "origin": "web-research",
+              "source": "https://www.nathanfortexas.com/priorities",
+              "summary": "Johnson's campaign platform pledges to 'protect consumers and make life more affordable' by enforcing existing consumer-protection laws against businesses engaged in 'price gouging, consumer scams, and unfair competition.'"
+            }
+          ],
           "sources": [
-            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+            "https://www.nathanfortexas.com/",
+            "https://www.cbsnews.com/texas/news/democratic-candidates-for-texas-attorney-general-call-the-states-taxpayer-funded-school-choice-program-and-ten-commandments-law-unconstitutional/",
+            "https://www.wfaa.com/article/news/politics/inside-politics/texas-politics/state-senator-nathan-johnson-property-tax-reduction-texas/287-f541449f-c830-45df-b60e-980b7977e849",
+            "https://www.houstonvotersguide.org/attorney-general-dem/Nathan-Johnson",
+            "https://www.nathanfortexas.com/priorities",
+            "https://en.wikipedia.org/wiki/Nathan_M._Johnson",
+            "https://senate.texas.gov/member.php?d=16"
           ]
         },
         {
-          "background": "Tom Oxford (Libertarian), attorney and perennial candidate",
+          "background": "Tom Oxford is a Beaumont, Texas attorney who has practiced personal injury and immigration law with the Waldman Smallwood firm; running as the Libertarian Party's nominee, he previously ran unsuccessfully for the Texas Supreme Court, Place 3, in 2022.",
           "candidate_id": "oxford-tom",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 44.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-06-30",
+            "basis": "per_report_period",
+            "cash_on_hand": 0.0,
+            "disbursements": 0.0,
+            "filer_id": "00055017",
+            "receipts": 393.89,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Tom Oxford",
           "office": "Attorney General of Texas",
           "party": "Libertarian",
           "positions": [],
           "sources": [
-            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+            "https://sanantonioreport.org/profile/thomas-oxford/"
           ]
         }
       ],
@@ -593,8 +794,8 @@
         ]
       },
       "data_quality": {
-        "demo_rank": 5,
-        "score": 50.2,
+        "demo_rank": 3,
+        "score": 73.3,
         "tier": "B"
       },
       "district": null,
@@ -630,7 +831,7 @@
           "incumbent": false,
           "name": "Ken Paxton",
           "office": "United States Senator from Texas",
-          "party": "Republican Party (United States)",
+          "party": "Republican",
           "positions": [
             {
               "confidence": 0.95,
@@ -707,7 +908,7 @@
           "incumbent": false,
           "name": "James Talarico",
           "office": "United States Senator from Texas",
-          "party": "Democratic Party (United States)",
+          "party": "Democratic",
           "positions": [
             {
               "confidence": 0.95,
@@ -788,16 +989,27 @@
           "candidate_id": "huffines-don",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-02-21",
+            "basis": "per_report_period",
+            "cash_on_hand": 2548529.04,
+            "disbursements": 7841416.1,
+            "filer_id": "00069651",
+            "flags": [
+              "spend_exceeds_receipts_check_basis"
+            ],
+            "receipts": 1327355.49,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Don Huffines",
           "office": "Texas Comptroller of Public Accounts",
@@ -812,16 +1024,24 @@
           "candidate_id": "eckhardt-sarah",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-02-21",
+            "basis": "per_report_period",
+            "cash_on_hand": 145643.63,
+            "disbursements": 58911.89,
+            "filer_id": "00084783",
+            "receipts": 57884.39,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Sarah Eckhardt",
           "office": "Texas Comptroller of Public Accounts",
@@ -840,7 +1060,7 @@
       },
       "data_quality": {
         "demo_rank": 6,
-        "score": 50.2,
+        "score": 65.2,
         "tier": "B"
       },
       "district": null,
@@ -860,20 +1080,28 @@
           "candidate_id": "buckingham-dawn",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2025-12-31",
+            "basis": "per_report_period",
+            "cash_on_hand": 2814830.36,
+            "disbursements": 579951.24,
+            "filer_id": "00069001",
+            "receipts": 1258999.43,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": true,
           "name": "Dawn Buckingham",
           "office": "Texas Land Commissioner",
-          "party": "Republican Party of Texas",
+          "party": "Republican",
           "positions": [],
           "sources": [
             "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
@@ -884,20 +1112,31 @@
           "candidate_id": "flores-benjamin",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-02-21",
+            "basis": "per_report_period",
+            "cash_on_hand": 24938.0,
+            "disbursements": 43715.44,
+            "filer_id": "00089819",
+            "flags": [
+              "spend_exceeds_receipts_check_basis"
+            ],
+            "receipts": 2885.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Benjamin Flores",
           "office": "Texas Land Commissioner",
-          "party": "Texas Democratic Party",
+          "party": "Democratic",
           "positions": [],
           "sources": [
             "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
@@ -908,16 +1147,27 @@
           "candidate_id": "snider-neill",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2025-12-31",
+            "basis": "per_report_period",
+            "cash_on_hand": 0.0,
+            "disbursements": 3750.0,
+            "filer_id": "00058885",
+            "flags": [
+              "spend_exceeds_receipts_check_basis"
+            ],
+            "receipts": 0.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Neill Snider",
           "office": "Texas Land Commissioner",
@@ -936,7 +1186,7 @@
       },
       "data_quality": {
         "demo_rank": 7,
-        "score": 50.2,
+        "score": 65.2,
         "tier": "B"
       },
       "district": null,
@@ -955,20 +1205,28 @@
           "candidate_id": "sheets-nate",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-02-21",
+            "basis": "per_report_period",
+            "cash_on_hand": 150202.05,
+            "disbursements": 1238316.64,
+            "filer_id": "00089619",
+            "receipts": 1064677.4,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Nate Sheets",
           "office": "Texas Commissioner of Agriculture",
-          "party": "Republican Party of Texas",
+          "party": "Republican",
           "positions": [],
           "sources": [
             "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
@@ -979,19 +1237,27 @@
           "candidate_id": "tucker-clayton",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no fec/bioguide id"
             ],
-            "score": 45.0,
-            "tier": "C"
+            "score": 70.0,
+            "tier": "B"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-02-21",
+            "basis": "per_report_period",
+            "cash_on_hand": 52507.58,
+            "disbursements": 13464.92,
+            "filer_id": "00084053",
+            "receipts": 17611.44,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Clayton Tucker",
           "office": "Texas Commissioner of Agriculture",
-          "party": "Texas Democratic Party",
+          "party": "Democratic",
           "positions": [
             {
               "confidence": 0.95,
@@ -1053,8 +1319,8 @@
         ]
       },
       "data_quality": {
-        "demo_rank": 3,
-        "score": 55.8,
+        "demo_rank": 4,
+        "score": 70.8,
         "tier": "B"
       },
       "district": null,
@@ -1074,20 +1340,28 @@
           "candidate_id": "french-bo",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2026-05-16",
+            "basis": "per_report_period",
+            "cash_on_hand": 78840.73,
+            "disbursements": 1023660.68,
+            "filer_id": "00088180",
+            "receipts": 1473367.03,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Bo French",
           "office": "Railroad Commissioner of Texas",
-          "party": "Republican Party of Texas",
+          "party": "Republican",
           "positions": [],
           "sources": [
             "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
@@ -1098,20 +1372,28 @@
           "candidate_id": "rosenthal-jon",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2025-12-31",
+            "basis": "per_report_period",
+            "cash_on_hand": 30062.7,
+            "disbursements": 58709.64,
+            "filer_id": "00082332",
+            "receipts": 59722.8,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Jon Rosenthal",
           "office": "Railroad Commissioner of Texas",
-          "party": "Texas Democratic Party",
+          "party": "Democratic",
           "positions": [],
           "sources": [
             "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
@@ -1122,16 +1404,24 @@
           "candidate_id": "dibianca-arthur",
           "data_quality": {
             "missing": [
-              "no campaign finance",
               "no voting record",
               "no issue positions",
               "no fec/bioguide id"
             ],
-            "score": 17.0,
-            "tier": "D"
+            "score": 42.0,
+            "tier": "C"
           },
           "district": null,
           "fec_id": null,
+          "finance": {
+            "as_of": "2025-12-31",
+            "basis": "per_report_period",
+            "cash_on_hand": 0.0,
+            "disbursements": 0.0,
+            "filer_id": "00052055",
+            "receipts": 3750.0,
+            "source": "https://www.ethics.state.tx.us/search/cf/"
+          },
           "incumbent": false,
           "name": "Arthur DiBianca",
           "office": "Railroad Commissioner of Texas",
@@ -1150,7 +1440,7 @@
       },
       "data_quality": {
         "demo_rank": 8,
-        "score": 50.2,
+        "score": 65.2,
         "tier": "B"
       },
       "district": null,
@@ -1268,7 +1558,7 @@
       },
       "district": "TX-18",
       "level": "federal",
-      "office": "U.S. House of Representatives, TX-18",
+      "office": "U.S. Representative, TX-18",
       "race_id": "tx-cd18-2026"
     }
   ]
