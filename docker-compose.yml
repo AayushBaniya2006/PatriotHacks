@@ -1,0 +1,30 @@
+# Local Postgres for the serving layer (see CLAUDE.md "Storage" + schema.md).
+# Not required to run the app -- with no DATABASE_URL set, app/datastore.py
+# falls back to the gold JSON files and the app works fully. This is for
+# teammates/CI that have Docker and want Railway-parity locally.
+#
+# Usage:
+#   docker compose up -d
+#   DATABASE_URL=postgresql://postgres:postgres@localhost:5433/patriothacks \
+#     python3 pipeline/load_postgres.py
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: patriothacks
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - patriothacks_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d patriothacks"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+volumes:
+  patriothacks_pgdata:

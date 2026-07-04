@@ -4,6 +4,7 @@
 
 # Local geocode cache (repeat-address lookups; races/candidates data ships in-repo)
 data/cache.db
+data/geocode_cache.json
 
 # Node
 node_modules/

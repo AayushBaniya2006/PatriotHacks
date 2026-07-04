@@ -6,8 +6,11 @@ Reads data/tx/raw/{statewide,fec,incumbent_votes,district_context}.json
 Writes:
   data/tx/races.json
   data/tx/candidates.json
-  data/tx/app.db          (sqlite serving layer, schema is a contract with app/datastore.py)
   data/tx/unjoined_report.json  (every heuristic join decision / gap, logged not guessed)
+
+The gold JSON (races.json + candidates.json) is the source of truth. The
+serving layer is PostgreSQL, loaded from this JSON by pipeline/load_postgres.py
+(run that separately); this script no longer emits a sqlite db.
 
 Rerunnable: safe to run multiple times, always overwrites outputs deterministically
 from the raw/*.json inputs (never mutates raw/).
@@ -20,7 +23,6 @@ from __future__ import annotations
 
 import json
 import re
-import sqlite3
 import unicodedata
 from pathlib import Path
 
@@ -35,7 +37,6 @@ CONTEXT_PATH = RAW / "district_context.json"
 
 RACES_OUT = OUT_DIR / "races.json"
 CANDIDATES_OUT = OUT_DIR / "candidates.json"
-DB_OUT = OUT_DIR / "app.db"
 UNJOINED_OUT = OUT_DIR / "unjoined_report.json"
 
 ELECTION_DATE = "2026-11-03"
@@ -455,75 +456,6 @@ def main():
         json.dump(candidates, f, indent=2, ensure_ascii=False)
     with open(UNJOINED_OUT, "w", encoding="utf-8") as f:
         json.dump(unjoined, f, indent=2, ensure_ascii=False)
-
-    # -----------------------------------------------------------------
-    # sqlite serving layer (contract with app/datastore.py)
-    # -----------------------------------------------------------------
-    if DB_OUT.exists():
-        DB_OUT.unlink()
-    conn = sqlite3.connect(DB_OUT)
-    cur = conn.cursor()
-    cur.executescript(
-        """
-        CREATE TABLE races (
-            race_id TEXT PRIMARY KEY,
-            office TEXT,
-            level TEXT,
-            district TEXT,
-            context TEXT
-        );
-        CREATE TABLE candidates (
-            candidate_id TEXT PRIMARY KEY,
-            name TEXT,
-            party TEXT,
-            office TEXT,
-            district TEXT,
-            incumbent INTEGER,
-            fec_id TEXT,
-            finance TEXT,
-            record TEXT,
-            positions TEXT,
-            sources TEXT
-        );
-        CREATE TABLE race_candidates (
-            race_id TEXT,
-            candidate_id TEXT,
-            PRIMARY KEY(race_id, candidate_id)
-        );
-        CREATE INDEX idx_races_district ON races(district);
-        CREATE INDEX idx_races_level ON races(level);
-        CREATE INDEX idx_cand_district ON candidates(district);
-        CREATE INDEX idx_cand_name ON candidates(name);
-        """
-    )
-
-    for r in races:
-        cur.execute(
-            "INSERT INTO races (race_id, office, level, district, context) VALUES (?,?,?,?,?)",
-            (r["race_id"], r["office"], r["level"], r["district"], json.dumps(r["context"], ensure_ascii=False)),
-        )
-        for cid in r["candidate_ids"]:
-            cur.execute(
-                "INSERT INTO race_candidates (race_id, candidate_id) VALUES (?,?)",
-                (r["race_id"], cid),
-            )
-
-    for cid, c in candidates.items():
-        cur.execute(
-            """INSERT INTO candidates
-               (candidate_id, name, party, office, district, incumbent, fec_id, finance, record, positions, sources)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
-            (
-                cid, c["name"], c["party"], c["office"], c["district"],
-                1 if c["incumbent"] else 0, c.get("fec_id"),
-                json.dumps(c["finance"], ensure_ascii=False) if c.get("finance") else None,
-                json.dumps(c["record"], ensure_ascii=False) if c.get("record") else None,
-                json.dumps(c.get("positions", []), ensure_ascii=False),
-                json.dumps(c.get("sources", []), ensure_ascii=False),
-            ),
-        )
-    conn.commit()
-    conn.close()
 
     # -----------------------------------------------------------------
     # summary

@@ -1,10 +1,12 @@
 """FastAPI backend for the Texas voter-info tool.
 
-Built PRECOMPUTE-FIRST: everything is served from local data (SQLite/JSON
-under data/tx/, written by other agents) via app/datastore.py, the only
-data-access layer. Live network calls happen only where unavoidable:
+Built PRECOMPUTE-FIRST: everything is served from precomputed data (Postgres
+when DATABASE_URL is set, else the JSON files under data/tx/) via
+app/datastore.py, the only data-access layer. Live network calls happen only
+where unavoidable:
   - Census geocoder, to turn an address into CD/SD/HD districts (cached
-    after the first lookup, in data/cache.db).
+    after the first lookup -- Postgres geocode_cache table, or the JSON file
+    data/geocode_cache.json when Postgres isn't configured).
   - OpenRouter (via app/insights.py), only as a fallback when a race has no
     precomputed insights file AND OPENROUTER_API_KEY is set.
 
@@ -24,6 +26,7 @@ from typing import Any, Optional
 import httpx
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
@@ -39,7 +42,23 @@ GEOCODER_TIMEOUT_SECONDS = 8.0
 
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 
+DEFAULT_CORS_ORIGINS = "http://localhost:3000,http://127.0.0.1:3000"
+
 app = FastAPI(title="TX Voter Info API")
+
+# civic-match (the product frontend) calls this API cross-origin from
+# localhost:3000 in dev and its Railway/Vercel domain in prod.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        origin.strip()
+        for origin in os.environ.get("CORS_ORIGINS", DEFAULT_CORS_ORIGINS).split(",")
+        if origin.strip()
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 # ---------------------------------------------------------------------------
@@ -222,7 +241,9 @@ def _profile_archetype(profile: dict[str, Any]) -> str:
     if profile.get("kids_public_school"):
         return "homeowner_parent"
 
-    if profile.get("renter"):
+    housing = str(profile.get("housing") or "").strip().lower()
+    is_renter = housing == "renter" or bool(profile.get("renter"))  # "renter" bool kept for legacy callers
+    if is_renter:
         age_num = _parse_age_lower_bound(age_bracket)
         if age_num is not None and age_num < 40:
             return "renter_young_worker"
@@ -248,23 +269,43 @@ def _parse_age_lower_bound(age_bracket: str) -> Optional[int]:
 
 
 def _select_cached_bullets(cached: dict[str, Any], archetype: str) -> dict[str, Any]:
-    """Cached insight files are expected to key candidate bullet-lists by
-    archetype, e.g. {"candidates": {cid: {"base": [...], "veteran": [...]}}}.
-    Falls back gracefully to a flat (non-archetype-keyed) shape if that's what
-    the precompute agent produced, and to 'base' if the requested archetype
-    key is absent."""
-    candidates_block = cached.get("candidates", {}) if isinstance(cached, dict) else {}
-    out: dict[str, Any] = {}
-    for cid, entry in candidates_block.items():
-        if isinstance(entry, dict):
-            # archetype-keyed shape
-            out[cid] = entry.get(archetype) or entry.get("base") or []
-        elif isinstance(entry, list):
-            # flat shape: same bullets regardless of archetype
-            out[cid] = entry
-        else:
-            out[cid] = []
-    return out
+    """Select the {candidates, summary, caveats} block to serve from a cached
+    insight file.
+
+    Actual on-disk shape (data/tx/insights/{race_id}.json):
+        {race_id, generated_at,
+         "base": {"candidates": {cid: [{text, source}, ...]}, "summary", "caveats"},
+         "archetypes": {archetype_key: {"candidates": {...}, "summary", "caveats"}, ...}}
+
+    Selection: the requested archetype's block if archetype != 'base' and
+    that key is present under "archetypes", else the "base" block. Falls back
+    defensively to a flat/legacy top-level {"candidates", "summary",
+    "caveats"} shape so an unexpected file never crashes the request.
+    """
+    if not isinstance(cached, dict):
+        return {"candidates": {}, "summary": "", "caveats": ""}
+
+    base_block = cached.get("base")
+    archetypes_block = cached.get("archetypes")
+
+    block: Optional[dict[str, Any]] = None
+    if archetype != "base" and isinstance(archetypes_block, dict):
+        candidate_block = archetypes_block.get(archetype)
+        if isinstance(candidate_block, dict):
+            block = candidate_block
+    if block is None and isinstance(base_block, dict):
+        block = base_block
+
+    if block is None:
+        # Defensive fallback: an unexpected/legacy flat shape.
+        block = cached
+
+    candidates_field = block.get("candidates", {})
+    return {
+        "candidates": candidates_field if isinstance(candidates_field, dict) else {},
+        "summary": block.get("summary", ""),
+        "caveats": block.get("caveats", ""),
+    }
 
 
 @app.post("/api/insights")
@@ -274,12 +315,13 @@ def post_insights(body: InsightsRequest) -> dict[str, Any]:
 
     cached = datastore.get_insights(race_id)
     if cached is not None:
+        selected = _select_cached_bullets(cached, archetype)
         return {
             "mode": "cached",
             "archetype_used": archetype,
-            "candidates": _select_cached_bullets(cached, archetype),
-            "summary": cached.get("summary", ""),
-            "caveats": cached.get("caveats", ""),
+            "candidates": selected["candidates"],
+            "summary": selected["summary"],
+            "caveats": selected["caveats"],
         }
 
     if OPENROUTER_API_KEY:
