@@ -1,0 +1,790 @@
+{
+  "generated_by": "pipeline/clean_gold.py",
+  "race_count": 46,
+  "one_sided_race_count": 9,
+  "races": [
+    {
+      "race_id": "tx-gov-2026",
+      "office": "Governor of Texas",
+      "level": "state",
+      "district": null,
+      "candidate_count": 4,
+      "parties_present": [
+        "Democratic",
+        "Independent",
+        "Libertarian",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 4,
+      "candidates_with_votes": 0,
+      "candidates_with_positions": 3,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 8
+    },
+    {
+      "race_id": "tx-ltgov-2026",
+      "office": "Lieutenant Governor of Texas",
+      "level": "state",
+      "district": null,
+      "candidate_count": 5,
+      "parties_present": [
+        "Democratic",
+        "Green",
+        "Independent",
+        "Libertarian",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 5,
+      "candidates_with_votes": 0,
+      "candidates_with_positions": 2,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 8
+    },
+    {
+      "race_id": "tx-ag-2026",
+      "office": "Attorney General of Texas",
+      "level": "state",
+      "district": null,
+      "candidate_count": 3,
+      "parties_present": [
+        "Democratic",
+        "Libertarian",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 3,
+      "candidates_with_votes": 0,
+      "candidates_with_positions": 2,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 8
+    },
+    {
+      "race_id": "tx-sen-2026",
+      "office": "United States Senator from Texas",
+      "level": "federal",
+      "district": null,
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 0,
+      "candidates_with_positions": 2,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 8
+    },
+    {
+      "race_id": "tx-comptroller-2026",
+      "office": "Texas Comptroller of Public Accounts",
+      "level": "state",
+      "district": null,
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 0,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 8
+    },
+    {
+      "race_id": "tx-landcomm-2026",
+      "office": "Texas Land Commissioner",
+      "level": "state",
+      "district": null,
+      "candidate_count": 3,
+      "parties_present": [
+        "Democratic",
+        "Libertarian",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 3,
+      "candidates_with_votes": 0,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 8
+    },
+    {
+      "race_id": "tx-agcomm-2026",
+      "office": "Texas Commissioner of Agriculture",
+      "level": "state",
+      "district": null,
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 0,
+      "candidates_with_positions": 1,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 8
+    },
+    {
+      "race_id": "tx-railroad-2026",
+      "office": "Railroad Commissioner of Texas",
+      "level": "state",
+      "district": null,
+      "candidate_count": 3,
+      "parties_present": [
+        "Democratic",
+        "Libertarian",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 3,
+      "candidates_with_votes": 0,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 8
+    },
+    {
+      "race_id": "tx-cd01-2026",
+      "office": "U.S. Representative, TX-01",
+      "level": "federal",
+      "district": "TX-01",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd02-2026",
+      "office": "U.S. Representative, TX-02",
+      "level": "federal",
+      "district": "TX-02",
+      "candidate_count": 1,
+      "parties_present": [
+        "Republican"
+      ],
+      "one_sided": true,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd03-2026",
+      "office": "U.S. Representative, TX-03",
+      "level": "federal",
+      "district": "TX-03",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd04-2026",
+      "office": "U.S. Representative, TX-04",
+      "level": "federal",
+      "district": "TX-04",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd05-2026",
+      "office": "U.S. Representative, TX-05",
+      "level": "federal",
+      "district": "TX-05",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd06-2026",
+      "office": "U.S. Representative, TX-06",
+      "level": "federal",
+      "district": "TX-06",
+      "candidate_count": 1,
+      "parties_present": [
+        "Republican"
+      ],
+      "one_sided": true,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd07-2026",
+      "office": "U.S. Representative, TX-07",
+      "level": "federal",
+      "district": "TX-07",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd08-2026",
+      "office": "U.S. Representative, TX-08",
+      "level": "federal",
+      "district": "TX-08",
+      "candidate_count": 1,
+      "parties_present": [
+        "Republican"
+      ],
+      "one_sided": true,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd09-2026",
+      "office": "U.S. Representative, TX-09",
+      "level": "federal",
+      "district": "TX-09",
+      "candidate_count": 4,
+      "parties_present": [
+        "Democratic",
+        "Independent",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 3,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd10-2026",
+      "office": "U.S. Representative, TX-10",
+      "level": "federal",
+      "district": "TX-10",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd11-2026",
+      "office": "U.S. Representative, TX-11",
+      "level": "federal",
+      "district": "TX-11",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd12-2026",
+      "office": "U.S. Representative, TX-12",
+      "level": "federal",
+      "district": "TX-12",
+      "candidate_count": 1,
+      "parties_present": [
+        "Republican"
+      ],
+      "one_sided": true,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd13-2026",
+      "office": "U.S. Representative, TX-13",
+      "level": "federal",
+      "district": "TX-13",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 0,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd14-2026",
+      "office": "U.S. Representative, TX-14",
+      "level": "federal",
+      "district": "TX-14",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd15-2026",
+      "office": "U.S. Representative, TX-15",
+      "level": "federal",
+      "district": "TX-15",
+      "candidate_count": 1,
+      "parties_present": [
+        "Republican"
+      ],
+      "one_sided": true,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd16-2026",
+      "office": "U.S. Representative, TX-16",
+      "level": "federal",
+      "district": "TX-16",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd17-2026",
+      "office": "U.S. Representative, TX-17",
+      "level": "federal",
+      "district": "TX-17",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd18-2026",
+      "office": "U.S. Representative, TX-18",
+      "level": "federal",
+      "district": "TX-18",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd19-2026",
+      "office": "U.S. Representative, TX-19",
+      "level": "federal",
+      "district": "TX-19",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd20-2026",
+      "office": "U.S. Representative, TX-20",
+      "level": "federal",
+      "district": "TX-20",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 0,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd21-2026",
+      "office": "U.S. Representative, TX-21",
+      "level": "federal",
+      "district": "TX-21",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd22-2026",
+      "office": "U.S. Representative, TX-22",
+      "level": "federal",
+      "district": "TX-22",
+      "candidate_count": 1,
+      "parties_present": [
+        "Republican"
+      ],
+      "one_sided": true,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd23-2026",
+      "office": "U.S. Representative, TX-23",
+      "level": "federal",
+      "district": "TX-23",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 0,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd24-2026",
+      "office": "U.S. Representative, TX-24",
+      "level": "federal",
+      "district": "TX-24",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd25-2026",
+      "office": "U.S. Representative, TX-25",
+      "level": "federal",
+      "district": "TX-25",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 0,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd26-2026",
+      "office": "U.S. Representative, TX-26",
+      "level": "federal",
+      "district": "TX-26",
+      "candidate_count": 1,
+      "parties_present": [
+        "Republican"
+      ],
+      "one_sided": true,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd27-2026",
+      "office": "U.S. Representative, TX-27",
+      "level": "federal",
+      "district": "TX-27",
+      "candidate_count": 1,
+      "parties_present": [
+        "Republican"
+      ],
+      "one_sided": true,
+      "candidates_with_finance": 0,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd28-2026",
+      "office": "U.S. Representative, TX-28",
+      "level": "federal",
+      "district": "TX-28",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 8
+    },
+    {
+      "race_id": "tx-cd29-2026",
+      "office": "U.S. Representative, TX-29",
+      "level": "federal",
+      "district": "TX-29",
+      "candidate_count": 1,
+      "parties_present": [
+        "Democratic"
+      ],
+      "one_sided": true,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd30-2026",
+      "office": "U.S. Representative, TX-30",
+      "level": "federal",
+      "district": "TX-30",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd31-2026",
+      "office": "U.S. Representative, TX-31",
+      "level": "federal",
+      "district": "TX-31",
+      "candidate_count": 2,
+      "parties_present": [
+        "Green",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd32-2026",
+      "office": "U.S. Representative, TX-32",
+      "level": "federal",
+      "district": "TX-32",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd33-2026",
+      "office": "U.S. Representative, TX-33",
+      "level": "federal",
+      "district": "TX-33",
+      "candidate_count": 3,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd34-2026",
+      "office": "U.S. Representative, TX-34",
+      "level": "federal",
+      "district": "TX-34",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 8
+    },
+    {
+      "race_id": "tx-cd35-2026",
+      "office": "U.S. Representative, TX-35",
+      "level": "federal",
+      "district": "TX-35",
+      "candidate_count": 3,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd36-2026",
+      "office": "U.S. Representative, TX-36",
+      "level": "federal",
+      "district": "TX-36",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 1,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd37-2026",
+      "office": "U.S. Representative, TX-37",
+      "level": "federal",
+      "district": "TX-37",
+      "candidate_count": 2,
+      "parties_present": [
+        "Democratic",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 2,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    },
+    {
+      "race_id": "tx-cd38-2026",
+      "office": "U.S. Representative, TX-38",
+      "level": "federal",
+      "district": "TX-38",
+      "candidate_count": 3,
+      "parties_present": [
+        "Democratic",
+        "Green",
+        "Republican"
+      ],
+      "one_sided": false,
+      "candidates_with_finance": 3,
+      "candidates_with_votes": 1,
+      "candidates_with_positions": 0,
+      "insights_base_present": true,
+      "insights_archetypes_covered": 0
+    }
+  ]
+}

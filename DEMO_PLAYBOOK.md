@@ -54,6 +54,12 @@ compile (avoids a 3-5s stall live on the intake→results transition).
 — if anything on the frontend looks wrong live, this tab proves the backend data is fine
 and the bug is frontend-side, not "our data is broken."
 
+Run `python3 pipeline/demo_readiness_gate.py` last, right before going on stage — it starts
+the backend if needed, live-checks the ballot API for all 8 precache+golden addresses,
+verifies marquee insight/horizons completeness, scans for finance-source misattribution, and
+confirms the demo cache isn't stale; it exits non-zero and prints exactly what's wrong if
+anything fails.
+
 ---
 
 ## (b) The script, minute by minute
