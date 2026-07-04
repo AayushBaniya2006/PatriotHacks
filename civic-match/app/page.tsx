@@ -7,8 +7,7 @@ type IconProps = SVGProps<SVGSVGElement>;
 const heroImage = "/images/statue-of-liberty.png";
 const recordImage =
   "https://images.unsplash.com/photo-1541872703-74c5e44368f9?q=80&w=2000&auto=format&fit=crop";
-const ctaImage =
-  "https://images.unsplash.com/photo-1580211843063-9585a9df0008?q=80&w=2000&auto=format&fit=crop";
+const ctaImage = "/images/statue-of-liberty.png";
 
 function StarIcon(props: IconProps) {
   return (
@@ -193,11 +192,11 @@ function MailIcon(props: IconProps) {
 function CivitasMark({ compact = false }: { compact?: boolean }) {
   return (
     <Link href="/" className="flex items-center gap-3" aria-label="Civitas home">
-      <StarIcon className={`${compact ? "h-8 w-8" : "h-8 w-8 lg:h-10 lg:w-10"} text-gold`} />
+      <StarIcon className={`${compact ? "h-8 w-8" : "h-8 w-8 lg:h-12 lg:w-12"} text-gold`} />
       <span className="flex flex-col">
         <span
           className={`font-serif ${
-            compact ? "text-2xl" : "text-2xl lg:text-3xl"
+            compact ? "text-2xl" : "text-2xl lg:text-4xl"
           } font-semibold leading-none tracking-wider text-white`}
         >
           CIVITAS
@@ -285,34 +284,34 @@ export default function Home() {
       </nav>
 
       <main>
-        <section className="relative flex min-h-[90vh] items-center pt-24 lg:min-h-screen lg:pt-0">
+        <section className="relative flex min-h-[90vh] items-center pb-16 pt-36 lg:min-h-screen lg:pb-20 lg:pt-44">
           <div className="absolute inset-0 z-0">
-            <div className="absolute inset-0 z-10 bg-navy lg:hidden" />
-            <div className="absolute inset-0 z-10 hidden w-2/3 bg-gradient-to-r from-navy via-navy/90 to-transparent lg:block" />
-            <div className="absolute inset-0 z-10 h-full bg-gradient-to-t from-navy via-navy/50 to-transparent lg:hidden" />
+            <div className="absolute inset-0 z-10 bg-navy/60 lg:hidden" />
+            <div className="absolute inset-0 z-10 hidden w-[66%] bg-gradient-to-r from-navy via-navy/95 to-transparent lg:block" />
+            <div className="absolute inset-0 z-10 bg-gradient-to-t from-navy via-transparent to-navy/15" />
             <Image
               src={heroImage}
               alt="Statue of Liberty"
               fill
-              priority
+              loading="eager"
               sizes="100vw"
-              className="hero-image-motion object-cover object-[72%_35%] opacity-70 mix-blend-luminosity lg:object-right lg:opacity-100"
+              className="hero-image-motion object-cover object-[70%_50%] lg:scale-[1.2] lg:translate-x-[7%] lg:object-center"
             />
           </div>
 
           <div className="relative z-20 mx-auto w-full max-w-[1600px] px-6 lg:px-24">
-            <div className="max-w-2xl">
+            <div className="max-w-3xl">
               <h1
-                className="font-serif text-5xl font-normal leading-[1.05] text-white lg:text-[5.5rem]"
+                className="font-serif text-5xl font-normal leading-[1.05] text-cream-light lg:text-[6rem] xl:text-[6.25rem]"
                 data-hero-reveal="0"
               >
                 Know your ballot.
                 <br />
                 Follow the sources.
               </h1>
-              <div className="mb-8 mt-8 h-1 w-16 bg-red" data-hero-reveal="1" />
+              <div className="mb-8 mt-9 h-1 w-24 bg-red" data-hero-reveal="1" />
               <p
-                className="max-w-xl text-lg font-light leading-relaxed text-white/80 lg:text-xl"
+                className="max-w-lg text-lg font-light leading-relaxed text-white/75 lg:text-xl"
                 data-hero-reveal="2"
               >
                 Enter a Texas address to see the races, candidates, records, and citations that
@@ -453,7 +452,7 @@ export default function Home() {
             <div className="absolute inset-0 z-10 bg-navy/60 lg:hidden" />
             <Image
               src={ctaImage}
-              alt="Eagle motif"
+              alt="Statue of Liberty detail"
               fill
               sizes="100vw"
               className="object-cover object-right opacity-30 mix-blend-luminosity grayscale"
