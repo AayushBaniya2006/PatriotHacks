@@ -1,0 +1,66 @@
+{
+  "100 w cano st, edinburg, tx 78539": {
+    "cd": "TX-15",
+    "county": "Hidalgo County",
+    "hd": "HD-41",
+    "matched_address": "100 W CANO ST, EDINBURG, TX, 78539",
+    "sd": "SD-20",
+    "seeded_at": "2026-07-03"
+  },
+  "1000 houston st, laredo, tx 78040": {
+    "cd": "TX-28",
+    "county": "Webb County",
+    "hd": "HD-42",
+    "matched_address": "1000 HOUSTON ST, LAREDO, TX, 78040",
+    "sd": "SD-21",
+    "seeded_at": "2026-07-03"
+  },
+  "1100 congress ave, austin, tx 78701": {
+    "cd": "TX-37",
+    "county": "Travis County",
+    "hd": "HD-49",
+    "matched_address": "1100 CONGRESS AVE, AUSTIN, TX, 78701",
+    "sd": "SD-14",
+    "seeded_at": "2026-07-03"
+  },
+  "1100 e monroe st, brownsville, tx 78520": {
+    "cd": "TX-34",
+    "county": "Cameron County",
+    "hd": "HD-38",
+    "matched_address": "1100 E MONROE ST, BROWNSVILLE, TX, 78520",
+    "sd": "SD-27",
+    "seeded_at": "2026-07-03"
+  },
+  "255 parkway blvd, coppell, tx 75019": {
+    "cd": "TX-24",
+    "county": "Dallas County",
+    "hd": "HD-115",
+    "matched_address": "255 PARKWAY BLVD, COPPELL, TX, 75019",
+    "sd": "SD-12",
+    "seeded_at": "2026-07-03"
+  },
+  "500 e san antonio ave, el paso, tx 79901": {
+    "cd": "TX-16",
+    "county": "El Paso County",
+    "hd": "HD-77",
+    "matched_address": "500 E SAN ANTONIO AVE, EL PASO, TX, 79901",
+    "sd": "SD-29",
+    "seeded_at": "2026-07-03"
+  },
+  "601 university dr, san marcos, tx 78666": {
+    "cd": "TX-35",
+    "county": "Hays County",
+    "hd": "HD-45",
+    "matched_address": "601 UNIVERSITY DR, SAN MARCOS, TX, 78666",
+    "sd": "SD-21",
+    "seeded_at": "2026-07-03"
+  },
+  "901 bagby st, houston, tx 77002": {
+    "cd": "TX-18",
+    "county": "Harris County",
+    "hd": "HD-147",
+    "matched_address": "901 BAGBY ST, HOUSTON, TX, 77002",
+    "sd": "SD-13",
+    "seeded_at": "2026-07-03"
+  }
+}
