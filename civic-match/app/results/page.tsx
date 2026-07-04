@@ -11,6 +11,70 @@ import VotingPlan from "@/components/ballot/VotingPlan";
 import StakesBanner from "@/components/stakes-banner";
 import MotivationCard from "@/components/motivation-card";
 
+// Auto-research handler — triggers the research agent swarm for a
+// candidate whose profile has insufficient sourced data to score, and
+// streams its SSE progress into the inline status line rendered next to
+// the "Auto-Research" button below. Reloads the page on completion so the
+// freshly-researched profile flows back through the normal scoring path.
+async function handleResearchNow(slug: string) {
+  const statusEl = document.getElementById(`research-status-${slug}`);
+  const messageEl = document.getElementById(`research-message-${slug}`);
+
+  if (statusEl && messageEl) {
+    statusEl.classList.remove("hidden");
+    messageEl.textContent = "Starting research swarm...";
+  }
+
+  try {
+    const response = await fetch("/api/research", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name: slug, force: false }),
+    });
+
+    if (!response.ok) throw new Error("Research failed");
+
+    const reader = response.body?.getReader();
+    const decoder = new TextDecoder();
+
+    if (reader) {
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        const chunk = decoder.decode(value);
+        const lines = chunk.split("\n\n");
+
+        for (const line of lines) {
+          if (line.startsWith("data: ")) {
+            const event = JSON.parse(line.slice(6));
+
+            if (event.type === "progress" && messageEl) {
+              messageEl.textContent = event.message || "Researching...";
+            } else if (event.type === "complete") {
+              if (messageEl) {
+                messageEl.textContent = "✓ Research complete! Reloading...";
+              }
+              // Reload the page to show updated data
+              setTimeout(() => window.location.reload(), 1500);
+              return;
+            } else if (event.type === "error") {
+              if (messageEl) {
+                messageEl.textContent = `✗ Error: ${event.message}`;
+              }
+              return;
+            }
+          }
+        }
+      }
+    }
+  } catch (error) {
+    if (messageEl) {
+      messageEl.textContent = `✗ Error: ${error instanceof Error ? error.message : "Research failed"}`;
+    }
+  }
+}
+
 interface PoliticianSummary {
   id: string;
   name: string;
@@ -19,11 +83,11 @@ interface PoliticianSummary {
 }
 
 function ovrColor(overall: number) {
-  if (overall >= 90) return "text-emerald-300 border-emerald-400/60";
-  if (overall >= 83) return "text-emerald-400 border-emerald-500/40";
-  if (overall >= 75) return "text-yellow-300 border-yellow-400/40";
-  if (overall >= 68) return "text-orange-300 border-orange-400/40";
-  return "text-red-400 border-red-500/40";
+  if (overall >= 88) return "text-gold border-gold/55";
+  if (overall >= 78) return "text-cream-light border-cream/30";
+  if (overall >= 70) return "text-white/75 border-white/25";
+  if (overall >= 62) return "text-white/55 border-white/18";
+  return "text-red-300 border-red-400/35";
 }
 
 interface Explanation {
@@ -126,7 +190,7 @@ function deriveStage(
 // show at all.
 function BallotStageStatus({ stage }: { stage: Stage }) {
   if (stage.key === "ready") {
-    return <p className="mb-4 text-xs text-emerald-400/80">✓ Ready</p>;
+    return <p className="mb-4 text-xs text-gold/80">✓ Ready</p>;
   }
   if (stage.key === "finding_failed") {
     return (
@@ -299,7 +363,7 @@ export default function ResultsPage() {
     return (
       <div className="mx-auto max-w-2xl px-4 py-16 text-center">
         <p className="text-zinc-400 mb-4">You haven&apos;t set your priorities yet.</p>
-        <Link href="/intake" className="rounded-lg bg-emerald-500 px-5 py-2.5 font-medium text-zinc-950">
+        <Link href="/intake" className="rounded-lg bg-gold px-5 py-2.5 font-medium text-navy-dark">
           Pick your priorities
         </Link>
       </div>
@@ -349,18 +413,27 @@ export default function ResultsPage() {
               className="w-full flex items-center gap-5 p-5 text-left hover:bg-zinc-900"
               onClick={() => toggleExpand(r.politician_id)}
             >
-              <div
-                className={`flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border-2 bg-zinc-950 ${ovrColor(r.overall)}`}
-              >
-                <span className="text-2xl font-black leading-none">{r.overall}</span>
-                <span className="text-[9px] uppercase tracking-widest opacity-80">OVR</span>
-              </div>
+              {r.insufficient_data ? (
+                <div className="flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border-2 border-dashed border-zinc-700 bg-zinc-950 text-zinc-500">
+                  <span className="text-2xl font-black leading-none">–</span>
+                  <span className="text-[9px] uppercase tracking-widest opacity-80">no data</span>
+                </div>
+              ) : (
+                <div
+                  className={`flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border-2 bg-zinc-950 ${ovrColor(r.overall)}`}
+                >
+                  <span className="text-2xl font-black leading-none">{r.overall}</span>
+                  <span className="text-[9px] uppercase tracking-widest opacity-80">OVR</span>
+                </div>
+              )}
               <div className="min-w-0 flex-1">
                 <div className="flex items-baseline gap-2">
                   <span className="font-semibold truncate">{r.politician_name}</span>
                   {r.party && <span className="text-xs text-zinc-500">({r.party})</span>}
                 </div>
-                <div className="text-sm text-zinc-400">{r.overall_tier}</div>
+                <div className="text-sm text-zinc-400">
+                  {r.insufficient_data ? "Limited data — research pending" : r.overall_tier}
+                </div>
                 {r.warnings.length > 0 && (
                   <div className="mt-1 flex flex-wrap gap-1.5">
                     {r.warnings.map((w) => (
@@ -370,23 +443,43 @@ export default function ResultsPage() {
                     ))}
                   </div>
                 )}
-                <div className="mt-1 flex gap-4 text-xs text-zinc-500">
-                  <span>Issue alignment: <b className="text-zinc-300">{r.score}%</b></span>
-                  <span>
-                    Record quality:{" "}
-                    <b className="text-zinc-300">
-                      {r.qualitative_composite !== null
-                        ? `${Math.round(r.qualitative_composite * 100)}%`
-                        : "n/a"}
-                    </b>
-                  </span>
-                  <span>Evidence: <b className="text-zinc-300">{r.confidence}</b></span>
+                <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-xs text-zinc-500">
+                  {r.insufficient_data ? (
+                    <span>
+                      Not scored — sourced evidence on{" "}
+                      <b className="text-zinc-300">
+                        {r.coverage.scored_issues} of your {r.coverage.user_issues}
+                      </b>{" "}
+                      issues ({r.coverage.profile_stances} researched position
+                      {r.coverage.profile_stances === 1 ? "" : "s"} total)
+                    </span>
+                  ) : (
+                    <>
+                      <span>Issue alignment: <b className="text-zinc-300">{r.score}%</b></span>
+                      <span>
+                        Scored on{" "}
+                        <b className="text-zinc-300">
+                          {r.coverage.scored_issues} of your {r.coverage.user_issues}
+                        </b>{" "}
+                        issues
+                      </span>
+                      <span>
+                        Record quality:{" "}
+                        <b className="text-zinc-300">
+                          {r.qualitative_composite !== null
+                            ? `${Math.round(r.qualitative_composite * 100)}%`
+                            : "n/a"}
+                        </b>
+                      </span>
+                      <span>Evidence: <b className="text-zinc-300">{r.confidence}</b></span>
+                    </>
+                  )}
                 </div>
               </div>
               <Link
                 href={`/p/${r.politician_id}`}
                 onClick={(e) => e.stopPropagation()}
-                className="text-xs text-emerald-400 hover:underline shrink-0"
+                className="text-xs text-gold hover:underline shrink-0"
               >
                 Full profile →
               </Link>
@@ -408,7 +501,7 @@ export default function ResultsPage() {
                           <ul className="space-y-1 text-zinc-400">
                             {ex.agreements.map((a, i) => (
                               <li key={i} className="flex gap-2">
-                                <span className="text-emerald-400 shrink-0">+</span>
+                                <span className="text-gold shrink-0">+</span>
                                 {a}
                               </li>
                             ))}
@@ -425,7 +518,7 @@ export default function ResultsPage() {
                           </ul>
                         )}
                         <p className="text-xs text-zinc-500">
-                          <span className="text-yellow-500/90">Caveat:</span> {ex.caveat}
+                          <span className="text-gold/90">Caveat:</span> {ex.caveat}
                         </p>
                         <p className="text-xs text-zinc-600">{ex.evidence_note}</p>
                       </div>
@@ -433,26 +526,46 @@ export default function ResultsPage() {
                   })()
                 ) : null}
 
-                <div className="grid grid-cols-3 gap-3 text-center text-xs">
-                  <div className="rounded-lg bg-zinc-950 p-3">
-                    <div className="text-lg font-bold text-emerald-400">
-                      +{r.overall_components.alignment_component}
+                {r.insufficient_data ? (
+                  <div className="space-y-2">
+                    <div className="rounded-lg border border-dashed border-zinc-700 bg-zinc-950 p-3 text-xs text-zinc-400">
+                      <span className="text-zinc-300 font-medium">Limited data — research pending.</span>{" "}
+                      Our research set doesn&apos;t have enough sourced positions for this
+                      candidate to compute an honest score, so no rating is shown. This
+                      reflects our coverage, not the candidate&apos;s record.
                     </div>
-                    <div className="text-zinc-500">from issue alignment (quant)</div>
-                  </div>
-                  <div className="rounded-lg bg-zinc-950 p-3">
-                    <div className="text-lg font-bold text-sky-400">
-                      +{r.overall_components.qualitative_component}
+                    <button
+                      onClick={() => handleResearchNow(r.politician_id)}
+                      className="w-full rounded-md bg-gold/15 border border-gold/40 px-3 py-2 text-xs font-medium text-gold hover:bg-gold/25 transition-colors"
+                    >
+                      🔬 Auto-Research via Agent Swarm (Uses Government Data)
+                    </button>
+                    <div id={`research-status-${r.politician_id}`} className="hidden rounded-lg bg-zinc-950 p-3 text-xs text-zinc-400">
+                      <span id={`research-message-${r.politician_id}`} />
                     </div>
-                    <div className="text-zinc-500">from record quality</div>
                   </div>
-                  <div className="rounded-lg bg-zinc-950 p-3">
-                    <div className="text-lg font-bold text-red-400">
-                      −{r.overall_components.conflict_penalty}
+                ) : (
+                  <div className="grid grid-cols-3 gap-3 text-center text-xs">
+                    <div className="rounded-lg bg-zinc-950 p-3">
+                      <div className="text-lg font-bold text-gold">
+                        +{r.overall_components.alignment_component}
+                      </div>
+                      <div className="text-zinc-500">from issue alignment (quant)</div>
                     </div>
-                    <div className="text-zinc-500">conflicts on your top issues</div>
+                    <div className="rounded-lg bg-zinc-950 p-3">
+                      <div className="text-lg font-bold text-sky-400">
+                        +{r.overall_components.qualitative_component}
+                      </div>
+                      <div className="text-zinc-500">from record quality</div>
+                    </div>
+                    <div className="rounded-lg bg-zinc-950 p-3">
+                      <div className="text-lg font-bold text-red-400">
+                        −{r.overall_components.conflict_penalty}
+                      </div>
+                      <div className="text-zinc-500">conflicts on your top issues</div>
+                    </div>
                   </div>
-                </div>
+                )}
 
                 {r.qualitative.length > 0 && (
                   <div>
@@ -484,9 +597,9 @@ export default function ResultsPage() {
                             <div
                               className={`h-2 rounded ${
                                 b.status === "match"
-                                  ? "bg-emerald-400"
+                                  ? "bg-gold"
                                   : b.status === "partial"
-                                  ? "bg-yellow-400"
+                                  ? "bg-cream"
                                   : "bg-red-400"
                               }`}
                               style={{ width: `${(b.alignment ?? 0) * 100}%` }}
@@ -533,7 +646,7 @@ export default function ResultsPage() {
           {ballotState.status === "done" && (
             <>
               {ballotState.data.warning && (
-                <p className="mb-4 text-xs text-yellow-500/90">{ballotState.data.warning}</p>
+                <p className="mb-4 text-xs text-gold/90">{ballotState.data.warning}</p>
               )}
               <BallotSection
                 races={ballotState.data.races}
