@@ -8,6 +8,7 @@
 //
 // Railway injects DATABASE_URL automatically when a Postgres plugin is attached.
 import { Pool } from "pg";
+import { randomUUID } from "crypto";
 import { promises as fs } from "fs";
 import path from "path";
 
@@ -35,7 +36,7 @@ async function fileSet(namespace: string, key: string, value: unknown): Promise<
   const file = fileFor(namespace, key);
   await fs.mkdir(path.dirname(file), { recursive: true });
   // atomic: write temp then rename, so concurrent readers never see partial JSON
-  const tmp = `${file}.${process.pid}.${Date.now()}.tmp`;
+  const tmp = `${file}.${process.pid}.${Date.now()}.${randomUUID()}.tmp`;
   await fs.writeFile(tmp, JSON.stringify(value, null, 2), "utf-8");
   await fs.rename(tmp, file);
 }
