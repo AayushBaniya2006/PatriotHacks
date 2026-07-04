@@ -358,3 +358,55 @@ def test_geocode_cache_get_falls_back_to_committed_seed(monkeypatch, tmp_path):
     finally:
         datastore._geocode_memory_cache.clear()
         datastore._geocode_memory_cache.update(saved_memory_cache)
+
+
+def test_geocode_cache_put_preserves_existing_civic_json(monkeypatch, tmp_path):
+    """CLOBBER-FIX regression: geocode_cache_put's JSON-fallback path used to
+    replace cache[norm] wholesale, so re-geocoding an address that already
+    had Google Civic enrichment cached (geocode_cache_put_civic) silently
+    destroyed its civic_json key. A later geocode_cache_put for the same
+    address (e.g. a routine re-resolve) must merge-preserve civic_json (and
+    any other unknown key), only updating the district/matched_address/ts
+    fields it actually owns."""
+    runtime_cache_path = tmp_path / "geocode_cache.json"
+    monkeypatch.setattr(datastore, "GEOCODE_CACHE_JSON_PATH", runtime_cache_path)
+    saved_memory_cache = dict(datastore._geocode_memory_cache)
+    datastore._geocode_memory_cache.clear()
+    try:
+        address = "123 Regression Test Ave, Somewhere, TX 78700"
+        norm = datastore._normalize_address(address)
+
+        datastore.geocode_cache_put(
+            address,
+            cd="TX-99",
+            sd="SD-1",
+            hd="HD-1",
+            county="Test County",
+            matched_address="123 REGRESSION TEST AVE",
+        )
+        civic_payload = {"voting_info": {"foo": "bar"}, "division_check": None}
+        datastore.geocode_cache_put_civic(address, civic_payload)
+
+        # Sanity: civic_json is present before the second geocode_cache_put.
+        assert datastore.geocode_cache_get_civic(address) == civic_payload
+
+        # A later geocode_cache_put (e.g. a re-geocode) must not clobber it.
+        datastore.geocode_cache_put(
+            address,
+            cd="TX-99",
+            sd="SD-1",
+            hd="HD-1",
+            county="Test County",
+            matched_address="123 REGRESSION TEST AVE UPDATED",
+        )
+
+        assert datastore.geocode_cache_get_civic(address) == civic_payload, (
+            "geocode_cache_put clobbered an existing civic_json cache entry"
+        )
+
+        on_disk = json.loads(runtime_cache_path.read_text(encoding="utf-8"))
+        assert on_disk[norm]["civic_json"] == civic_payload
+        assert on_disk[norm]["matched_address"] == "123 REGRESSION TEST AVE UPDATED"
+    finally:
+        datastore._geocode_memory_cache.clear()
+        datastore._geocode_memory_cache.update(saved_memory_cache)

@@ -756,14 +756,23 @@ def geocode_cache_put(
             logger.warning("Postgres geocode_cache write failed (%s); falling back to JSON file", exc)
     with _geocode_cache_file_lock:
         cache = _load_geocode_cache_json()
-        entry = {
-            "cd": cd,
-            "sd": sd,
-            "hd": hd,
-            "county": county,
-            "matched_address": matched_address,
-            "ts": time.time(),
-        }
+        # Merge-preserve: start from any existing entry for this address (which
+        # may already carry a "civic_json" key from geocode_cache_put_civic, or
+        # any other future additive key) rather than replacing cache[norm]
+        # wholesale -- a re-geocode of an already-enriched address must not
+        # silently destroy its civic_json.
+        existing = cache.get(norm)
+        entry = dict(existing) if isinstance(existing, dict) else {}
+        entry.update(
+            {
+                "cd": cd,
+                "sd": sd,
+                "hd": hd,
+                "county": county,
+                "matched_address": matched_address,
+                "ts": time.time(),
+            }
+        )
         cache[norm] = entry
         _write_geocode_cache_json(cache)
     _memory_cache_put(norm, entry)

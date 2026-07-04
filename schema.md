@@ -116,10 +116,18 @@ CREATE TABLE IF NOT EXISTS insights (
   PRIMARY KEY (race_id, archetype)
 );
 
+-- civic_json is additive: optional Google Civic enrichment
+-- (voting_info/division_check) riding along on the same per-address row as
+-- the geocode result (app/datastore.py::geocode_cache_get_civic/
+-- geocode_cache_put_civic). A table created before this column existed picks
+-- it up via the defensive `ALTER TABLE ... ADD COLUMN IF NOT EXISTS` that
+-- pipeline/load_postgres.py runs right after this CREATE TABLE, since
+-- CREATE TABLE IF NOT EXISTS alone does not migrate an already-existing table.
 CREATE TABLE IF NOT EXISTS geocode_cache (
   address_norm TEXT PRIMARY KEY,
   matched_address TEXT,
   cd TEXT, sd TEXT, hd TEXT, county TEXT,
+  civic_json JSONB,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 ```
@@ -174,8 +182,9 @@ Real example (`crenshaw-daniel`):
 
 Only federal candidates (US House/Senate) have `finance` — TX statewide
 offices don't file with the FEC, and Texas Ethics Commission state-finance
-data was a Tier-2/stretch source not pulled. 39 of 96 candidates have no
-`finance` field at all — omitted, never zero-filled.
+data was a Tier-2/stretch source not pulled. As of `data/tx/quality_report.json`
+(`source_coverage.fec_finance`), 79 of 96 candidates (82.3%) have a `finance`
+field; 17 of 96 have none — omitted, never zero-filled.
 
 #### `candidates.record`
 
@@ -208,13 +217,31 @@ only exist for sitting House/Senate members).
 
 #### `candidates.positions[]`
 
-Contract shape: `{"issue": string, "summary": string, "source": string}`.
-**Honest gap**: `positions` is `[]` for all 96 candidates today — no
-Tier-1 API surfaced issue-by-issue stances within the build window, so
-nothing was invented. `civic-match`'s own Kimi research swarm *does*
-produce issue stances (`Stance[]` in `lib/types.ts`); a planned
-reverse-bridge imports their researched stances into this field
-non-destructively — not landed yet.
+Contract shape: `{"issue": string, "summary": string, "source": string}`, plus
+two optional fields used by the two enrichment passes below: `origin`
+(`"civic-match-research"` or `"web-research"`) and `confidence` (float).
+
+No Tier-1 government API surfaced issue-by-issue stances within the original
+build window, so nothing there was invented — that gap is still real for
+most candidates. It has since been partly closed by two non-destructive,
+append-only passes, both landed:
+
+- **`pipeline/import_civicmatch_positions.py`** (the reverse-bridge) —
+  imports `civic-match`'s own Kimi research swarm's issue stances
+  (`Stance[]` in `lib/types.ts`, matched by normalized name + party guard)
+  into our `positions[]`, tagged `origin: "civic-match-research"`.
+- **`pipeline/enrich_ag_race.py`** — hand-researched, cited stances for the
+  `tx-ag-2026` race specifically, tagged `origin: "web-research"`.
+
+Current totals (per `data/tx/candidates.json`, measured directly): **10 of 96
+candidates have a non-empty `positions[]`, totaling 60 position records**
+(48 from the civic-match reverse-bridge across 8 candidates: `abbott-greg`,
+`dixon-pat`, `goodwin-vikki`, `hinojosa-gina`, `patrick-dan`, `paxton-ken`,
+`talarico-james`, `tucker-clayton`; 12 from the AG-race enrichment across 2
+candidates: `middleton-mayes`, `johnson-nathan` — `oxford-tom`'s positions[]
+is intentionally still empty, per that script's own research finding no
+stated AG-relevant position for him). The remaining 86 candidates still have
+`positions: []` — an honest gap, not zero-filled or guessed.
 
 #### `candidates.sources[]`
 
@@ -315,6 +342,8 @@ race) get all 8 archetypes precomputed; safe races get `base` only.
 | `smoke_backend.py` | in-process FastAPI smoke test | — | PASS/FAIL to stdout |
 | `load_postgres.py` | gold JSON + insights (idempotent, hash-gated upsert for `insights`) | `data/tx/*.json` | Postgres via `DATABASE_URL` |
 | `export_civic_match.py` | our sourced candidate evidence | `data/tx/candidates.json` | merges non-destructively into `civic-match/data/politicians/*.json` |
+| `import_civicmatch_positions.py` | the reverse-bridge: `civic-match`'s researched issue stances (name+party matched) | `civic-match/data/politicians/*.json` | merges non-destructively into `data/tx/candidates.json` `positions[]` |
+| `enrich_ag_race.py` | hand-researched, cited positions + background for `tx-ag-2026` | campaign sites, news coverage (see script docstring) | merges non-destructively into `data/tx/candidates.json` |
 
 All rerun as `python3 pipeline/<script>.py`; each is idempotent/deterministic and never mutates `raw/`.
 
@@ -323,10 +352,11 @@ All rerun as `python3 pipeline/<script>.py`; each is idempotent/deterministic an
 - **7 incumbents lost their FEC join to 2025 redistricting** (`incumbent_added_without_fec_match`) — e.g. Al Green (TX-09), Randy Weber (TX-14), Beth Van Duyne (TX-24), Roger Williams (TX-25): found in the legislators roster but no matching 2026 FEC filer for the *current* district lines; carry roster/vote data but no `finance`.
 - **30 ambiguous same-party filer groups** (`ambiguous_same_party_filers`) — resolved by heuristic "prefer `incumbent_challenge='Incumbent'`, then highest receipts," alternates logged, never silently dropped.
 - **9 districts needed a looser FEC filter** (`house_district_zero_party_coverage`) — e.g. TX-01 force-included a `has_activity=false` incumbent row so the real `fec_id` wins over a synthetic one; TX-13 fell back to `candidate_status='C'` regardless of activity.
-- **`positions[]` and `sponsored_highlights` are empty pipeline-wide** — no Tier-1 source surfaced issue stances; Congress.gov `/sponsored-legislation` 429'd on `DEMO_KEY` the whole build window (logged in `upstream_fetch_gaps`, not guessed).
+- **`sponsored_highlights` is empty pipeline-wide** — Congress.gov `/sponsored-legislation` 429'd on `DEMO_KEY` the whole build window (logged in `upstream_fetch_gaps`, not guessed); no other Tier-1 source substitutes for it.
+- **`positions[]` is empty for most candidates, no longer empty pipeline-wide** — no Tier-1 government API surfaced issue-by-issue stances during the original build window, but the civic-match reverse-bridge (`pipeline/import_civicmatch_positions.py`) and the `tx-ag-2026` hand-research pass (`pipeline/enrich_ag_race.py`) have since landed and non-destructively populated it for 10/96 candidates — see §2.2 for exact counts.
 - **TX-23 has no current House member in the roster fallback** — `legislators-current.yaml` lag / vacant-seat ambiguity; omitted rather than guessed.
 - **2024 "last_result" context deliberately avoids OpenElections CSVs** — an earlier attempt aggregated only ~184/254 TX counties and produced a verifiably wrong statewide topline (showed Harris winning TX). Switched to Wikipedia's district-by-district tables, which match known 2024 outcomes.
-- Current totals (validated): **46 races / 96 candidates / 290 vote records**, 39/96 candidates missing `finance`, 0 with non-empty `positions` or `sponsored_highlights`.
+- Current totals (per `data/tx/quality_report.json` and direct measurement of `data/tx/candidates.json`): **46 races / 96 candidates / 290 vote records**, 17/96 candidates missing `finance` (79/96, 82.3%, have it), 10/96 candidates with non-empty `positions[]` (60 records total), 0 with non-empty `sponsored_highlights`.
 
 ---
 

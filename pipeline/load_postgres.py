@@ -121,8 +121,17 @@ CREATE TABLE IF NOT EXISTS geocode_cache (
   address_norm TEXT PRIMARY KEY,
   matched_address TEXT,
   cd TEXT, sd TEXT, hd TEXT, county TEXT,
+  civic_json JSONB,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+-- Defensive migration: CREATE TABLE IF NOT EXISTS above does not add a new
+-- column to an already-existing table, so a geocode_cache table created
+-- before civic_json existed would otherwise lack it -- app/datastore.py's
+-- geocode_cache_get_civic/geocode_cache_put_civic already degrade to the
+-- JSON file if this column is missing (any Postgres failure does), but this
+-- ALTER TABLE lets a pre-existing table pick up the column on the next load
+-- instead of silently staying degraded forever.
+ALTER TABLE geocode_cache ADD COLUMN IF NOT EXISTS civic_json JSONB;
 """
 
 
