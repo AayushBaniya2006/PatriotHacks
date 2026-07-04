@@ -49,6 +49,17 @@ Checks (each reported individually):
      would show pre-cleaning data if the live backend/network ever failed
      during the demo. Fix: rerun pipeline/precache_demo.py.
 
+  5. Golden path (zero-LLM proof) -- the #1-ranked golden demo address (read
+     live from data/tx/quality_report.json's golden_demo_districts[0],
+     falling back to the committed data/tx/QUALITY.md snapshot): live
+     /api/ballot for that address returns its expected race_id set
+     (every district-less marquee/statewide race plus that address's own
+     district race). The #1 overall demo_rank race (QUALITY.md's top row,
+     e.g. tx-sen-2026): live /api/insights returns mode=="cached" (proof the
+     demo path needs zero live LLM calls) with every bullet carrying
+     non-empty text + source. Prints a distinct "GOLDEN PATH: PASS/FAIL"
+     line in addition to being folded into the overall verdict.
+
 Usage:
     python3 pipeline/demo_readiness_gate.py [--base-url http://127.0.0.1:8010]
 
@@ -118,6 +129,16 @@ FALLBACK_GOLDEN_ADDRESSES = [
     ("500 E San Antonio Ave, El Paso, TX 79901", "TX-16"),
     ("255 Parkway Blvd, Coppell, TX 75019", "TX-24"),
 ]
+
+# Golden-path constants (see data/tx/QUALITY.md): the #1-ranked golden demo
+# district (first row of the "Golden demo districts" table, demo_rank 9
+# overall since statewide races outrank it but aren't geocodable) and the
+# #1 overall demo_rank race (row 1 of "Top 15 races", a district-less
+# statewide/Senate race present on every ballot). These fallbacks mirror the
+# committed QUALITY.md snapshot and are used only if quality_report.json is
+# missing/unreadable.
+FALLBACK_TOP_GOLDEN_RACE_ID = "tx-cd34-2026"
+FALLBACK_TOP_DEMO_RANK_RACE_ID = "tx-sen-2026"
 
 
 class GateFailure(Exception):
@@ -512,6 +533,174 @@ def check_freshness() -> tuple[bool, list[str]]:
 
 
 # ---------------------------------------------------------------------------
+# 5. Golden path (zero-LLM proof) -- the #1 golden address's /api/ballot
+#    must return its expected race_id set, and the #1 overall demo_rank
+#    race's /api/insights must come back mode=="cached" (proving the demo
+#    can run this exact path with zero live LLM calls) with every bullet
+#    carrying non-empty text + source.
+# ---------------------------------------------------------------------------
+
+
+def resolve_top_golden_address() -> tuple[Optional[str], Optional[str], Optional[str]]:
+    """(address, expected_cd, expected_race_id) for the #1-ranked golden demo
+    district -- the first row of data/tx/QUALITY.md's "Golden demo
+    districts" table. Prefers the live data/tx/quality_report.json (each
+    entry there carries its own race_id); falls back to the committed
+    QUALITY.md snapshot if that file is missing/unreadable/empty."""
+    if QUALITY_REPORT_PATH.exists():
+        try:
+            with open(QUALITY_REPORT_PATH, "r", encoding="utf-8") as f:
+                report = json.load(f)
+            golden = report.get("golden_demo_districts") or []
+            if golden and isinstance(golden[0], dict):
+                g = golden[0]
+                address, district, race_id = g.get("address"), g.get("district"), g.get("race_id")
+                if address and race_id:
+                    return address, district, race_id
+            print(f"WARNING: {QUALITY_REPORT_PATH} has no usable golden_demo_districts[0]; using fallback")
+        except (OSError, json.JSONDecodeError, KeyError, IndexError) as exc:
+            print(f"WARNING: could not read top golden address from {QUALITY_REPORT_PATH} ({exc}); using fallback")
+    else:
+        print(f"WARNING: {QUALITY_REPORT_PATH} does not exist; using fallback golden address")
+    addr, cd = FALLBACK_GOLDEN_ADDRESSES[0]
+    return addr, cd, FALLBACK_TOP_GOLDEN_RACE_ID
+
+
+def resolve_top_demo_rank_race_id() -> Optional[str]:
+    """race_id with demo_rank == 1 overall (row 1 of QUALITY.md's "Top 15
+    races" table). Read live from quality_report.json's races map; falls
+    back to the committed constant if that file is missing/unreadable."""
+    if QUALITY_REPORT_PATH.exists():
+        try:
+            with open(QUALITY_REPORT_PATH, "r", encoding="utf-8") as f:
+                report = json.load(f)
+            races = report.get("races") or {}
+            if isinstance(races, dict) and races:
+                top_id, _ = min(races.items(), key=lambda kv: kv[1].get("demo_rank", 10**9))
+                return top_id
+            print(f"WARNING: {QUALITY_REPORT_PATH} has no usable races map; using fallback top demo_rank race")
+        except (OSError, json.JSONDecodeError, KeyError, ValueError) as exc:
+            print(f"WARNING: could not read top demo_rank race from {QUALITY_REPORT_PATH} ({exc}); using fallback")
+    else:
+        print(f"WARNING: {QUALITY_REPORT_PATH} does not exist; using fallback top demo_rank race")
+    return FALLBACK_TOP_DEMO_RANK_RACE_ID
+
+
+def check_golden_path(client: httpx.Client) -> list[tuple[str, bool, str]]:
+    """Runs the two golden-path assertions and returns (name, passed, detail)
+    tuples in the same shape main()'s record() expects."""
+    out: list[tuple[str, bool, str]] = []
+
+    address, expected_cd, expected_race_id = resolve_top_golden_address()
+    top_race_id = resolve_top_demo_rank_race_id()
+
+    if not address or not expected_race_id:
+        out.append(("golden_path_ballot_race_set", False, "could not resolve #1 golden address/race_id"))
+        return out
+
+    # -- /api/ballot: expected race_id set --
+    try:
+        resp = client.get("/api/ballot", params={"address": address})
+    except httpx.HTTPError as exc:
+        out.append(("golden_path_ballot_race_set", False, f"request failed: {exc}"))
+        return out
+
+    if resp.status_code != 200:
+        out.append(("golden_path_ballot_race_set", False, f"address={address!r} status={resp.status_code}"))
+        return out
+
+    try:
+        payload = resp.json()
+    except ValueError:
+        out.append(("golden_path_ballot_race_set", False, "response body was not valid JSON"))
+        return out
+
+    races_field = payload.get("races") if isinstance(payload, dict) else None
+    actual_race_ids = (
+        {r.get("race_id") for r in races_field if isinstance(r, dict)} if isinstance(races_field, list) else set()
+    )
+
+    # Expected set = every district-less (marquee/statewide) race the gold
+    # dataset knows about, plus this golden address's own district race --
+    # exactly what a correct geocode + ballot lookup for this address must
+    # return. Derived from races.json (never hardcoded) so this can't drift.
+    try:
+        with open(RACES_PATH, "r", encoding="utf-8") as f:
+            all_races = json.load(f).get("races", [])
+        expected_race_ids = {r["race_id"] for r in all_races if r.get("district") is None}
+    except (OSError, json.JSONDecodeError, KeyError) as exc:
+        out.append(("golden_path_ballot_race_set", False, f"could not read {RACES_PATH}: {exc}"))
+        return out
+    expected_race_ids.add(expected_race_id)
+
+    missing = expected_race_ids - actual_race_ids
+    ok = not missing
+    detail = f"address={address!r} expected={sorted(expected_race_ids)} actual={sorted(actual_race_ids)}"
+    if missing:
+        detail += f"; missing={sorted(missing)}"
+    out.append(("golden_path_ballot_race_set", ok, detail))
+
+    districts = payload.get("districts") if isinstance(payload, dict) else None
+    actual_cd = districts.get("cd") if isinstance(districts, dict) else None
+    if expected_cd:
+        out.append(("golden_path_ballot_cd", actual_cd == expected_cd, f"expected={expected_cd} actual={actual_cd!r}"))
+
+    # -- /api/insights for the #1 overall demo_rank race: mode=="cached" --
+    # (zero-LLM proof) with every bullet sourced.
+    if not top_race_id:
+        out.append(("golden_path_insights_cached", False, "could not resolve top demo_rank race_id"))
+        return out
+
+    try:
+        iresp = client.post("/api/insights", json={"profile": {}, "race_id": top_race_id})
+    except httpx.HTTPError as exc:
+        out.append(("golden_path_insights_cached", False, f"request failed: {exc}"))
+        return out
+
+    if iresp.status_code != 200:
+        out.append(("golden_path_insights_cached", False, f"race_id={top_race_id} status={iresp.status_code}"))
+        return out
+
+    try:
+        idoc = iresp.json()
+    except ValueError:
+        out.append(("golden_path_insights_cached", False, "response body was not valid JSON"))
+        return out
+
+    mode = idoc.get("mode") if isinstance(idoc, dict) else None
+    out.append((
+        "golden_path_insights_cached",
+        mode == "cached",
+        f"race_id={top_race_id} mode={mode!r} (zero-LLM proof)",
+    ))
+
+    cand_map = idoc.get("candidates") if isinstance(idoc, dict) else None
+    problems: list[str] = []
+    bullets_checked = 0
+    if not isinstance(cand_map, dict) or not cand_map:
+        problems.append("no candidates in response")
+    else:
+        for cid, bullets in cand_map.items():
+            if not isinstance(bullets, list) or not bullets:
+                problems.append(f"{cid}: no bullets")
+                continue
+            for b in bullets:
+                bullets_checked += 1
+                bullet_ok, reason = _bullet_ok(b)
+                if not bullet_ok:
+                    problems.append(f"{cid}: bad bullet ({reason})")
+
+    detail = f"race_id={top_race_id} {bullets_checked} bullet(s) checked"
+    if problems:
+        detail += "; problems: " + "; ".join(problems[:8])
+        if len(problems) > 8:
+            detail += f" ... and {len(problems) - 8} more"
+    out.append(("golden_path_insights_sourced", not problems, detail))
+
+    return out
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -590,6 +779,17 @@ def main(argv: Optional[list[str]] = None) -> int:
     print("\n-- 4. Freshness --")
     fresh_ok, fresh_detail = check_freshness()
     record("demo_cache_freshness", fresh_ok, "ok" if fresh_ok else "; ".join(fresh_detail))
+
+    print("\n-- 5. Golden path (zero-LLM proof) --")
+    if backend_up:
+        with httpx.Client(base_url=base_url, timeout=REQUEST_TIMEOUT) as client:
+            golden_results = check_golden_path(client)
+    else:
+        golden_results = [("golden_path_ballot_race_set", False, "skipped: backend unreachable")]
+    for name, passed, detail in golden_results:
+        record(name, passed, detail)
+    golden_pass = bool(golden_results) and all(passed for _, passed, _ in golden_results)
+    print(f"\nGOLDEN PATH: {'PASS' if golden_pass else 'FAIL'}")
 
     overall = all(passed for _, passed, _ in results)
     print("\n=== FINAL VERDICT:", "PASS" if overall else "FAIL", "===")

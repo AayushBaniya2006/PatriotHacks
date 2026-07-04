@@ -68,6 +68,15 @@ export interface DataQuality {
   score?: number;
   tier?: "A" | "B" | "C" | "D";
   missing?: string[];
+  // Race-only (pipeline/score_quality.py writes race.data_quality =
+  // {score, tier, demo_rank} vs candidate.data_quality = {score, tier,
+  // missing} -- the two payloads share this one interface but not every
+  // field). 1-indexed ascending across the WHOLE dataset: demo_rank 1 is
+  // the single best/most-demoable race, not the highest score. Used by
+  // app/results/page.tsx to prefetch insights for the top demo race
+  // (design spec §4). Absent on candidate-level DataQuality and on any
+  // cached payload predating this field.
+  demo_rank?: number;
 }
 
 export interface Candidate {
@@ -119,11 +128,45 @@ interface RawRace extends Omit<Race, "candidates"> {
   candidates?: Candidate[] | Record<string, Candidate> | null;
 }
 
+// ---------------------------------------------------------------------------
+// Optional Google Civic enrichment (backend: app/google_civic.py). Present
+// on BallotResponse only when the backend's GOOGLE_CIVIC_API_KEY is set AND
+// Google has data for this address -- absent otherwise, never a hollow
+// object. Field shapes mirror schema.md's "voting_info / division_check —
+// OPTIONAL Google Civic enrichment" section exactly.
+// ---------------------------------------------------------------------------
+
+export interface VotingLocation {
+  name?: string | null;
+  address?: string | null;
+  hours?: string | null;
+}
+
+export interface VotingInfo {
+  election: { name?: string | null; date?: string | null };
+  polling_locations: VotingLocation[];
+  early_vote_sites: VotingLocation[];
+  dropoff_locations: VotingLocation[];
+  contests_present: boolean;
+  source: string;
+}
+
+// A live cross-validation of our Census-derived `districts.cd` against
+// Google's OCD division data for the same address -- present only when
+// Google returned at least one division with a comparable congressional-
+// district number to compare against.
+export interface DivisionCheck {
+  consistent: boolean;
+  ocd_ids: string[];
+}
+
 export interface BallotResponse {
   matched_address: string;
   districts: Districts;
   races: Race[];
   warning?: string;
+  voting_info?: VotingInfo;
+  division_check?: DivisionCheck;
 }
 
 export type BackendResult<T> =
@@ -251,6 +294,8 @@ export async function getBallot(address: string): Promise<BackendResult<BallotRe
     districts: Districts;
     races: RawRace[];
     warning?: string;
+    voting_info?: VotingInfo;
+    division_check?: DivisionCheck;
   }>(url, { method: "GET" }, BALLOT_TIMEOUT_MS);
   if (!result.ok) return result;
   const { data } = result;
@@ -261,6 +306,8 @@ export async function getBallot(address: string): Promise<BackendResult<BallotRe
       districts: data.districts,
       races: (data.races ?? []).map(normalizeRace),
       warning: data.warning,
+      voting_info: data.voting_info,
+      division_check: data.division_check,
     },
   };
 }

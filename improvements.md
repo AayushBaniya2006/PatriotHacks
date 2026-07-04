@@ -14,6 +14,25 @@ Winning lane:
 
 This is not a persuasion app. It is a ballot evidence app: real address, real ballot, real candidate records, every claim cited.
 
+## What Better Means
+
+A judge should believe a normal voter can use Civic Match in two minutes and trust it more than a generic chatbot.
+
+Optimize for this exact path:
+
+> Enter address -> Your ballot -> Featured race -> Source-backed insight -> How we know -> You're ballot-ready -> Make plan
+
+The best demo is narrow and undeniable:
+
+- one golden address
+- one clear ballot
+- one featured race
+- one cited personalized insight
+- one visible missing-data caveat
+- one voting-plan ending
+
+Do not show every capability unless asked. The core flow must be understandable without narration.
+
 ## Non-Negotiables
 
 - Neutral, voter-facing language only.
@@ -22,6 +41,102 @@ This is not a persuasion app. It is a ballot evidence app: real address, real ba
 - The demo path must not depend on a new live API key or live LLM call.
 - Do not build a map, chatbot, social counter, or broad new feature.
 - Prefer one excellent golden race over shallow polish across the whole app.
+- Do not say the app recommends who to vote for. Say it helps voters review public evidence.
+
+## Repo Hygiene Requirements
+
+Before adding more UI polish, make the repository safe to work from.
+
+Current distinction:
+
+- **Merge conflicts** are files Git marks as unmerged, usually with conflict markers like `<<<<<<<`, `=======`, and `>>>>>>>`. These must be resolved before normal commits, builds, or reviews.
+- **Dirty worktree changes** are modified or untracked files that are not necessarily conflicts. They can be valid work, generated output, or accidental churn, but they still need an explicit keep/discard decision before pushing.
+
+Required checks:
+
+```bash
+git status -sb
+git diff --name-only --diff-filter=U
+rg -n "^(<<<<<<<|=======|>>>>>>>)" .
+```
+
+Acceptance:
+
+- `git diff --name-only --diff-filter=U` prints nothing.
+- No conflict markers exist in tracked source/docs.
+- Every modified/untracked file is classified as one of:
+  - keep and commit
+  - generated but intentional
+  - ignore/local-only
+  - discard only with explicit approval
+- Do not stage broad paths. Stage exact files only.
+- Do not commit `local-only/` competitive analysis.
+- Do not push unless explicitly asked.
+
+Known hygiene risks to resolve before final judging:
+
+- Demo cache JSON churn can be valid if refreshed, but it should be intentional and explained.
+- New frontend/test files must be wired into the app or kept out of the final commit.
+- If the branch is behind remote, pull/rebase only after confirming no teammate work will be overwritten.
+- A passing backend gate does not prove frontend UX polish is wired; verify both.
+
+Demo artifact source of truth:
+
+- Demo-critical audited artifacts must be versioned or reproducibly generated from a checked-in seed.
+- Scratch analysis, competitive notes, and temporary audit work should stay ignored.
+- If an ignored working copy produces final demo data, promote only the minimal reviewed artifact into the repo and document how a fresh checkout receives it.
+- Seed/import code must not overwrite an audit or data refresh that is already in progress.
+- Fresh-checkout reproducibility matters as much as local demo success.
+
+Minimum validation before calling the repo demo-ready:
+
+```bash
+python3 -m pytest tests/test_e2e_demo.py -q
+python3 pipeline/demo_readiness_gate.py --base-url http://127.0.0.1:8010
+cd civic-match && npm run lint
+```
+
+## Demo UX Requirements
+
+### Staged Progress
+
+Use short status labels so the app feels deliberate and reliable:
+
+- `Finding your ballot`
+- `Loading public records`
+- `Checking sources`
+- `Ready`
+
+Do not use fake progress to hide failures. If a stage fails, show the specific missing dependency or missing data.
+
+### Plain Trust Labels
+
+Keep internal data tiers if useful, but user-facing labels should be:
+
+- `Strong public record`
+- `Good public record`
+- `Partial public record`
+- `Thin public record`
+
+### Intentional Caveats
+
+Show at least one caveat deliberately in the golden demo, for example:
+
+- `No roll-call voting record found for this candidate.`
+- `No public finance record found in our current dataset.`
+
+Frame this as the product refusing to guess. Generic AI would often fill the gap; Civic Match should not.
+
+### End With Action
+
+After the featured insight, show a simple `Make a voting plan` ending:
+
+- Election Day or early voting
+- time window
+- client-side `.ics` reminder if feasible
+- official VoteTexas.gov link
+
+Do not claim a polling place unless that location is verified.
 
 ## Competitor-Inspired Threat Model
 
@@ -32,6 +147,7 @@ Observed patterns to beat:
 - The easiest voter-flow competitor has a strong completion loop: progress, reviewed races, plan, reminder.
 - The most rigorous research competitor makes citation integrity obvious and acts on selected evidence before asking AI to synthesize.
 - The strongest visual-demo competitor uses polished artifacts, audit rationale, and fail-closed compliance framing.
+- The strongest demo-hygiene pattern keeps completed audit artifacts in a clear source of truth instead of relying on ignored local temp data.
 - The strongest trust UX uses plain verdict/confidence labels instead of abstract data codes.
 - The strongest demo-hardening competitor validates cached demo payloads before the presenter is on stage.
 - The strongest workflow competitor uses one-question-at-a-time clarification and visible step/status affordances.
@@ -41,7 +157,9 @@ Our response:
 - Keep the voter journey simpler than the UX competitor.
 - Make sources more visible than the research competitor.
 - Make trust/compliance more explicit than the visual-demo competitor.
+- Make final demo artifacts reproducible from a fresh checkout.
 - Make the golden demo more reliable than every live-key path.
+- Make the story sharper than analytics-heavy competitors: real ballot, public evidence, sourced insight, concrete voter action.
 
 ## Use Subagents
 

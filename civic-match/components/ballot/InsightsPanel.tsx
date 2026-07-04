@@ -6,42 +6,88 @@
 // empty/unavailable data is shown honestly rather than papered over.
 import { useEffect, useState } from "react";
 import type {
+  Districts,
   HorizonBullet,
   InsightsResponse,
   LongTermHorizonBullet,
   Race,
 } from "@/lib/dataBackend";
 import type { VoterProfile } from "@/lib/types";
+import { markReviewed, readinessKey } from "@/lib/readiness";
 
 type FetchState =
   | { status: "idle" }
-  | { status: "loading"; raceId: string }
-  | { status: "error"; raceId: string; message: string }
-  | { status: "done"; raceId: string; result: InsightsResponse };
+  | { status: "loading" }
+  | { status: "error"; message: string }
+  | { status: "done"; result: InsightsResponse };
 
 export function InsightsPanel({
   raceId,
   races,
   profile,
+  districts,
+  prefetched,
 }: {
   raceId: string | null;
   races: Race[];
   profile?: VoterProfile;
+  // OPTIONAL: pass `ballot.districts` from the /api/ballot response so
+  // opening this panel marks the race "reviewed" under the same
+  // district-keyed readiness bucket BallotSection reads (lib/readiness.ts).
+  districts?: Districts | null;
+  // OPTIONAL: race_id -> already-resolved InsightsResponse, warmed by
+  // app/results/page.tsx's post-ballot-load prefetch (design spec §4) for
+  // the single highest-signal demo race. Purely additive to the existing
+  // click-to-fetch flow below -- entries are folded into this panel's own
+  // `cache` (never overwriting a race already fetched live), so a click on
+  // an already-warmed race resolves from cache instantly instead of
+  // showing the loading state. Absent/empty behaves exactly as before this
+  // prop existed.
+  prefetched?: Record<string, InsightsResponse>;
 }) {
   const [state, setState] = useState<FetchState>({ status: "idle" });
   const [cache, setCache] = useState<Record<string, InsightsResponse>>({});
-  const visibleState: FetchState = !raceId
-    ? { status: "idle" }
-    : cache[raceId]
-      ? { status: "done", raceId, result: cache[raceId] }
-      : state.status !== "idle" && state.raceId === raceId
-        ? state
-        : { status: "loading", raceId };
+
+  // Fold newly-arrived prefetched entries into our own cache as they land
+  // (the prefetch resolves asynchronously, typically well after this panel
+  // has already mounted). Never overwrites an entry already present -- a
+  // race the user opened live keeps its own (identical) result. Returning
+  // the same `c` reference when nothing changed lets React bail out of the
+  // re-render instead of looping.
+  useEffect(() => {
+    if (!prefetched) return;
+    setCache((c) => {
+      let changed = false;
+      const next = { ...c };
+      for (const [id, result] of Object.entries(prefetched)) {
+        if (!(id in next)) {
+          next[id] = result;
+          changed = true;
+        }
+      }
+      return changed ? next : c;
+    });
+  }, [prefetched]);
 
   useEffect(() => {
-    if (!raceId || cache[raceId]) return;
+    if (!raceId) {
+      setState({ status: "idle" });
+      return;
+    }
+
+    // "Opening" this race's insights — cached or freshly fetched — is what
+    // ballot-readiness means (improvements.md #2): mark it reviewed as soon
+    // as it's requested, not only once the fetch succeeds.
+    markReviewed(readinessKey(districts), raceId);
+
+    const cached = cache[raceId];
+    if (cached) {
+      setState({ status: "done", result: cached });
+      return;
+    }
 
     let cancelled = false;
+    setState({ status: "loading" });
 
     fetch("/api/voter-insights", {
       method: "POST",
@@ -56,13 +102,12 @@ export function InsightsPanel({
       .then((result) => {
         if (cancelled) return;
         setCache((c) => ({ ...c, [raceId]: result }));
-        setState({ status: "done", raceId, result });
+        setState({ status: "done", result });
       })
       .catch((err: unknown) => {
         if (cancelled) return;
         setState({
           status: "error",
-          raceId,
           message: err instanceof Error ? err.message : "Could not load insights",
         });
       });
@@ -70,9 +115,12 @@ export function InsightsPanel({
     return () => {
       cancelled = true;
     };
-  }, [cache, profile, raceId]);
+    // profile/districts are captured at click time; refetch only when the
+    // target race changes.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [raceId]);
 
-  if (visibleState.status === "idle") {
+  if (state.status === "idle") {
     return (
       <div className="rounded-xl border border-dashed border-zinc-800 p-5 text-sm text-zinc-500">
         Click “What this means for you” on any race above for a plain-English, source-linked read
@@ -89,16 +137,18 @@ export function InsightsPanel({
         What this means for you{race ? ` — ${race.office}` : ""}
       </h3>
 
-      {visibleState.status === "loading" && (
+      {state.status === "loading" && (
         <div className="animate-pulse text-sm text-zinc-500">
           Writing your evidence-grounded explanation…
         </div>
       )}
-      {visibleState.status === "error" && (
-        <div className="text-sm text-red-400">{visibleState.message}</div>
+      {state.status === "error" && (
+        <div className="rounded-lg border border-red-900/50 bg-red-950/20 p-4 text-sm text-red-400">
+          {state.message}
+        </div>
       )}
-      {visibleState.status === "done" && (
-        <InsightsBody result={visibleState.result} race={race} profile={profile} />
+      {state.status === "done" && (
+        <InsightsBody result={state.result} race={race} profile={profile} />
       )}
     </div>
   );
@@ -121,7 +171,7 @@ function HorizonBulletItem({
     <li className="text-xs text-zinc-400">
       {bullet.text}
       {projection && (
-        <span className="ml-1.5 inline-block rounded-full border border-zinc-700 px-1.5 py-0 align-middle text-[9px] uppercase tracking-wide text-zinc-500">
+        <span className="ml-1.5 inline-block rounded-full border border-zinc-700 px-1.5 py-0 align-middle text-[9px] uppercase tracking-wide text-zinc-400">
           Projection
         </span>
       )}
@@ -129,7 +179,7 @@ function HorizonBulletItem({
         <a
           href={bullet.source}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="ml-1 text-emerald-400 hover:underline"
         >
           source ↗
@@ -206,7 +256,7 @@ function InsightsBody({
                           <a
                             href={b.source}
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                             className="ml-1 text-emerald-400 hover:underline"
                           >
                             source ↗
