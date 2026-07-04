@@ -1,0 +1,44 @@
+{
+  "race_id": "tx-cd17-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "mitchell-james": [
+        {
+          "text": "James Gordon Mitchell (Democratic) is a candidate for U.S. Representative, TX-17.",
+          "source": "https://www.fec.gov/data/candidate/H6TX17143/"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show James Gordon Mitchell had raised $19,378 and spent $19,018 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H6TX17143/"
+        },
+        {
+          "text": "No public voting record in our set for James Gordon Mitchell (not currently a member of Congress).",
+          "source": "https://www.fec.gov/data/candidate/H6TX17143/"
+        }
+      ],
+      "sessions-pete": [
+        {
+          "text": "Pete Sessions (Republican) is the current officeholder running for U.S. Representative, TX-17.",
+          "source": "https://clerk.house.gov/Votes"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Pete Sessions had raised $901,426 and spent $454,306 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H2TX03126/"
+        },
+        {
+          "text": "On 7-Jan-2025, Pete Sessions voted Yea on H R 29. A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        }
+      ]
+    },
+    "summary": "This is the U.S. House race for TX-17. In the most recent election (2024-11-05), Pete Sessions (REP) won by about 32.7 points out of 291042 votes cast. The bullets below summarize each current candidate's public finance and voting-record data where available.",
+    "caveats": [
+      "This summary only includes facts found in our sourced dataset (FEC finance filings and U.S. House Clerk roll-call votes). It omits anything we could not verify from those sources.",
+      "No public data in our set on any candidate's policy positions for this race (the positions field was empty for every candidate as of this build).",
+      "No public data in our set on James Gordon Mitchell's policy positions.",
+      "No public data in our set on Pete Sessions's policy positions."
+    ]
+  },
+  "archetypes": {}
+}

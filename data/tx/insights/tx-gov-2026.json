@@ -1,0 +1,436 @@
+{
+  "race_id": "tx-gov-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "abbott-greg": [
+        {
+          "text": "Greg Abbott is a candidate for Governor of Texas, running with Republican Party of Texas.",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        },
+        {
+          "text": "Greg Abbott is the incumbent in this race. Recorded background: Greg Abbott, incumbent governor (2015\u2013present).",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        },
+        {
+          "text": "No public data in our set on Greg Abbott's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        }
+      ],
+      "hinojosa-gina": [
+        {
+          "text": "Gina Hinojosa is a candidate for Governor of Texas, running with Texas Democratic Party.",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        },
+        {
+          "text": "Gina Hinojosa's recorded background: Gina Hinojosa, state representative from the 49th district (2017\u2013present).",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        },
+        {
+          "text": "No public data in our set on Gina Hinojosa's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        }
+      ],
+      "dixon-pat": [
+        {
+          "text": "Pat Dixon is a candidate for Governor of Texas, running with Libertarian.",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        },
+        {
+          "text": "Pat Dixon's recorded background: Pat Dixon (Libertarian), former chair of the Libertarian Party of Texas",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        },
+        {
+          "text": "No public data in our set on Pat Dixon's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        }
+      ],
+      "raphoon-jenn": [
+        {
+          "text": "Jenn Mack Raphoon is a candidate for Governor of Texas, running with Independent.",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        },
+        {
+          "text": "Jenn Mack Raphoon's recorded background: Jenn Mack Raphoon (Independent)",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        },
+        {
+          "text": "No public data in our set on Jenn Mack Raphoon's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        }
+      ]
+    },
+    "summary": "Governor of Texas race: Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon. This overview lists each candidate's party, background, and campaign finance where available in our data set.",
+    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and (for federal candidates only) FEC campaign finance totals. We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set; state executive offices generally do not file with the FEC, so campaign finance is not available for most of them here."
+  },
+  "archetypes": {
+    "renter_young_worker": {
+      "candidates": {
+        "abbott-greg": [
+          {
+            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "hinojosa-gina": [
+          {
+            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "dixon-pat": [
+          {
+            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "raphoon-jenn": [
+          {
+            "text": "No public data in our set connects Jenn Mack Raphoon's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ]
+      },
+      "summary": "For a renter young worker voter looking at the Governor of Texas race (Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon): our data set does not contain candidate-specific positions or voting records on housing costs, rent, or renters' protections for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to renter young worker concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "homeowner_parent": {
+      "candidates": {
+        "abbott-greg": [
+          {
+            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "hinojosa-gina": [
+          {
+            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "dixon-pat": [
+          {
+            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "raphoon-jenn": [
+          {
+            "text": "No public data in our set connects Jenn Mack Raphoon's recorded background or positions specifically to property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ]
+      },
+      "summary": "For a homeowner parent voter looking at the Governor of Texas race (Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "small_business_owner": {
+      "candidates": {
+        "abbott-greg": [
+          {
+            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "hinojosa-gina": [
+          {
+            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "dixon-pat": [
+          {
+            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "raphoon-jenn": [
+          {
+            "text": "No public data in our set connects Jenn Mack Raphoon's recorded background or positions specifically to small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ]
+      },
+      "summary": "For a small business owner voter looking at the Governor of Texas race (Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon): our data set does not contain candidate-specific positions or voting records on small business taxes or regulation for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to small business owner concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "healthcare_aca_or_uninsured": {
+      "candidates": {
+        "abbott-greg": [
+          {
+            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "hinojosa-gina": [
+          {
+            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "dixon-pat": [
+          {
+            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "raphoon-jenn": [
+          {
+            "text": "No public data in our set connects Jenn Mack Raphoon's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ]
+      },
+      "summary": "For a healthcare aca or uninsured voter looking at the Governor of Texas race (Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon): our data set does not contain candidate-specific positions or voting records on health coverage, the ACA, or Medicaid for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to healthcare aca or uninsured concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "medicare_retiree": {
+      "candidates": {
+        "abbott-greg": [
+          {
+            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "hinojosa-gina": [
+          {
+            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "dixon-pat": [
+          {
+            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "raphoon-jenn": [
+          {
+            "text": "No public data in our set connects Jenn Mack Raphoon's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ]
+      },
+      "summary": "For a medicare retiree voter looking at the Governor of Texas race (Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon): our data set does not contain candidate-specific positions or voting records on Medicare, Social Security, or retiree benefits for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to medicare retiree concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "veteran": {
+      "candidates": {
+        "abbott-greg": [
+          {
+            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "hinojosa-gina": [
+          {
+            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "dixon-pat": [
+          {
+            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "raphoon-jenn": [
+          {
+            "text": "No public data in our set connects Jenn Mack Raphoon's recorded background or positions specifically to veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ]
+      },
+      "summary": "For a veteran voter looking at the Governor of Texas race (Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon): our data set does not contain candidate-specific positions or voting records on veterans' benefits or services for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to veteran concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "student": {
+      "candidates": {
+        "abbott-greg": [
+          {
+            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "hinojosa-gina": [
+          {
+            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "dixon-pat": [
+          {
+            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "raphoon-jenn": [
+          {
+            "text": "No public data in our set connects Jenn Mack Raphoon's recorded background or positions specifically to higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ]
+      },
+      "summary": "For a student voter looking at the Governor of Texas race (Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon): our data set does not contain candidate-specific positions or voting records on higher education funding or student costs for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to student concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "rural_agriculture": {
+      "candidates": {
+        "abbott-greg": [
+          {
+            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "hinojosa-gina": [
+          {
+            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "dixon-pat": [
+          {
+            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ],
+        "raphoon-jenn": [
+          {
+            "text": "No public data in our set connects Jenn Mack Raphoon's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          }
+        ]
+      },
+      "summary": "For a rural agriculture voter looking at the Governor of Texas race (Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon): our data set does not contain candidate-specific positions or voting records on farming, ranching, water rights, or rural infrastructure for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to rural agriculture concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    }
+  }
+}

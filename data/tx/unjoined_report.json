@@ -1,0 +1,998 @@
+{
+  "ambiguous_same_party_filers": [
+    {
+      "district": "TX-02",
+      "party": "Republican",
+      "picked": {
+        "name": "Daniel Crenshaw",
+        "fec_id": "H8TX02166",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 2671297.23
+      },
+      "alternates": [
+        {
+          "name": "Martin Etwop",
+          "fec_id": "H2TX08232",
+          "incumbent_challenge": "Challenger",
+          "receipts": 13787.96
+        },
+        {
+          "name": "Nicholas Lee Mr. Plumb",
+          "fec_id": "H6TX02236",
+          "incumbent_challenge": "Challenger",
+          "receipts": 9244.85
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-05",
+      "party": "Republican",
+      "picked": {
+        "name": "Lance Gooden",
+        "fec_id": "H8TX05144",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 1170229.83
+      },
+      "alternates": [
+        {
+          "name": "Travis Edwards",
+          "fec_id": "H6TX05171",
+          "incumbent_challenge": "Challenger",
+          "receipts": 17628.25
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-07",
+      "party": "Republican",
+      "picked": {
+        "name": "Alexander Zachary Kalai",
+        "fec_id": "H6TX07169",
+        "incumbent_challenge": "Challenger",
+        "receipts": 315097.86
+      },
+      "alternates": [
+        {
+          "name": "Alexander Hale",
+          "fec_id": "H6TX07151",
+          "incumbent_challenge": "Challenger",
+          "receipts": 61760.99
+        },
+        {
+          "name": "Tina Cohen",
+          "fec_id": "H2TX07119",
+          "incumbent_challenge": "Challenger",
+          "receipts": 25.0
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-08",
+      "party": "Republican",
+      "picked": {
+        "name": "Morgan Joe Luttrell",
+        "fec_id": "H2TX08182",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 333122.24
+      },
+      "alternates": [
+        {
+          "name": "Brett Jensen",
+          "fec_id": "H6TX08233",
+          "incumbent_challenge": "Open seat",
+          "receipts": 2860439.61
+        },
+        {
+          "name": "Jessica Hart Steinmann",
+          "fec_id": "H6TX08209",
+          "incumbent_challenge": "Open seat",
+          "receipts": 1824372.47
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-09",
+      "party": "Republican",
+      "picked": {
+        "name": "Alexandra Mealer",
+        "fec_id": "H6TX09140",
+        "incumbent_challenge": "Challenger",
+        "receipts": 1770300.92
+      },
+      "alternates": [
+        {
+          "name": "Briscoe Rowell Cain",
+          "fec_id": "H6TX09124",
+          "incumbent_challenge": "Challenger",
+          "receipts": 583247.76
+        },
+        {
+          "name": "Dan Mims",
+          "fec_id": "H6TX09165",
+          "incumbent_challenge": "Challenger",
+          "receipts": 420385.29
+        },
+        {
+          "name": "Steve Stockman",
+          "fec_id": "H0TX09077",
+          "incumbent_challenge": "Challenger",
+          "receipts": 251742.29
+        },
+        {
+          "name": "Jaimy Blanco",
+          "fec_id": "H8TX29110",
+          "incumbent_challenge": "Challenger",
+          "receipts": 121905.95
+        },
+        {
+          "name": "Crystal Sarmiento",
+          "fec_id": "H6TX09199",
+          "incumbent_challenge": "Challenger",
+          "receipts": 79458.23
+        },
+        {
+          "name": "Dwayne Bradley Stovall",
+          "fec_id": "H6TX09157",
+          "incumbent_challenge": "Challenger",
+          "receipts": 27695.58
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-09",
+      "party": "Democratic",
+      "picked": {
+        "name": "R. Todd Dr. Ivey",
+        "fec_id": "H6TX09215",
+        "incumbent_challenge": "Challenger",
+        "receipts": 192629.5
+      },
+      "alternates": [
+        {
+          "name": "James Buford",
+          "fec_id": "H4TX06232",
+          "incumbent_challenge": "Challenger",
+          "receipts": 72951.0
+        },
+        {
+          "name": "Leticia Gutierrez",
+          "fec_id": "H6TX09231",
+          "incumbent_challenge": "Challenger",
+          "receipts": 40024.26
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-10",
+      "party": "Republican",
+      "picked": {
+        "name": "Michael Mccaul",
+        "fec_id": "H4TX10093",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 271697.2
+      },
+      "alternates": [
+        {
+          "name": "Chris Gober",
+          "fec_id": "H6TX10221",
+          "incumbent_challenge": "Open seat",
+          "receipts": 2271919.07
+        },
+        {
+          "name": "Kara King",
+          "fec_id": "H6TX10247",
+          "incumbent_challenge": "Open seat",
+          "receipts": 231138.66
+        },
+        {
+          "name": "Scott Macleod",
+          "fec_id": "H6TX10239",
+          "incumbent_challenge": "Open seat",
+          "receipts": 199957.68
+        },
+        {
+          "name": "Jessica Karlsruher",
+          "fec_id": "H6TX21343",
+          "incumbent_challenge": "Challenger",
+          "receipts": 197880.24
+        },
+        {
+          "name": "Rob Altman",
+          "fec_id": "H6TX10288",
+          "incumbent_challenge": "Open seat",
+          "receipts": 193487.56
+        },
+        {
+          "name": "Jeremy Story",
+          "fec_id": "H6TX10304",
+          "incumbent_challenge": "Open seat",
+          "receipts": 48667.62
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-10",
+      "party": "Democratic",
+      "picked": {
+        "name": "Sarah Eckhardt",
+        "fec_id": "H6TX10262",
+        "incumbent_challenge": "Open seat",
+        "receipts": 113352.55
+      },
+      "alternates": [
+        {
+          "name": "Tayhlor Coleman",
+          "fec_id": "H6TX10171",
+          "incumbent_challenge": "Open seat",
+          "receipts": 70843.65
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-17",
+      "party": "Democratic",
+      "picked": {
+        "name": "James Gordon Mitchell",
+        "fec_id": "H6TX17143",
+        "incumbent_challenge": "Challenger",
+        "receipts": 19378.06
+      },
+      "alternates": [
+        {
+          "name": "Casey Shepard",
+          "fec_id": "H6TX17168",
+          "incumbent_challenge": "Challenger",
+          "receipts": 8003.93
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-18",
+      "party": "Democratic",
+      "picked": {
+        "name": "Christian Menefee",
+        "fec_id": "H6TX18232",
+        "incumbent_challenge": "Challenger",
+        "receipts": 3463829.06
+      },
+      "alternates": [
+        {
+          "name": "Alexander Green",
+          "fec_id": "H4TX09095",
+          "incumbent_challenge": "Incumbent",
+          "receipts": 1510813.93
+        },
+        {
+          "name": "Amanda Edwards",
+          "fec_id": "H4TX18138",
+          "incumbent_challenge": "Challenger",
+          "receipts": 1895211.56
+        },
+        {
+          "name": "Stephen Huey",
+          "fec_id": "H6TX18372",
+          "incumbent_challenge": "Challenger",
+          "receipts": 37856.57
+        },
+        {
+          "name": "Gretchen Brown",
+          "fec_id": "H6TX18471",
+          "incumbent_challenge": "Challenger",
+          "receipts": 17587.88
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-19",
+      "party": "Republican",
+      "picked": {
+        "name": "Jodey Arrington",
+        "fec_id": "H6TX19099",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 1680093.8
+      },
+      "alternates": [
+        {
+          "name": "Abraham Enriquez",
+          "fec_id": "H6TX19222",
+          "incumbent_challenge": "Open seat",
+          "receipts": 641879.41
+        },
+        {
+          "name": "Donald R May",
+          "fec_id": "H6TX19230",
+          "incumbent_challenge": "Open seat",
+          "receipts": 254579.45
+        },
+        {
+          "name": "James Bob Mr. Barbee",
+          "fec_id": "H6TX19248",
+          "incumbent_challenge": "Open seat",
+          "receipts": 16000.0
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-21",
+      "party": "Republican",
+      "picked": {
+        "name": "Chip Roy",
+        "fec_id": "H8TX21307",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 782580.55
+      },
+      "alternates": [
+        {
+          "name": "Jason Cahill",
+          "fec_id": "H6TX21350",
+          "incumbent_challenge": "Open seat",
+          "receipts": 382588.62
+        },
+        {
+          "name": "Daniel Betts",
+          "fec_id": "H6TX21285",
+          "incumbent_challenge": "Open seat",
+          "receipts": 177457.03
+        },
+        {
+          "name": "Paul Rojas",
+          "fec_id": "H6TX21384",
+          "incumbent_challenge": "Open seat",
+          "receipts": 165026.0
+        },
+        {
+          "name": "Ezekiel Enriquez",
+          "fec_id": "H6TX23216",
+          "incumbent_challenge": "Open seat",
+          "receipts": 114589.97
+        },
+        {
+          "name": "Weston Charles Martinez",
+          "fec_id": "H6TX21426",
+          "incumbent_challenge": "Open seat",
+          "receipts": 26383.77
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-22",
+      "party": "Republican",
+      "picked": {
+        "name": "Troy Nehls",
+        "fec_id": "H0TX22302",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 425953.76
+      },
+      "alternates": [
+        {
+          "name": "Trever Nehls",
+          "fec_id": "H6TX22283",
+          "incumbent_challenge": "Open seat",
+          "receipts": 182538.02
+        },
+        {
+          "name": "Rebecca Clark",
+          "fec_id": "H6TX22267",
+          "incumbent_challenge": "Open seat",
+          "receipts": 51639.12
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-23",
+      "party": "Republican",
+      "picked": {
+        "name": "Ernest Anthony Tony Gonzales",
+        "fec_id": "H0TX35015",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 2270926.15
+      },
+      "alternates": [
+        {
+          "name": "Francisco 'Quico' Raul Canseco",
+          "fec_id": "H4TX28046",
+          "incumbent_challenge": "Open seat",
+          "receipts": 80050.0
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-23",
+      "party": "Democratic",
+      "picked": {
+        "name": "Santos M. Limon",
+        "fec_id": "H4TX23138",
+        "incumbent_challenge": "Open seat",
+        "receipts": 356755.0
+      },
+      "alternates": [
+        {
+          "name": "Katy Padilla Stout",
+          "fec_id": "H6TX23273",
+          "incumbent_challenge": "Open seat",
+          "receipts": 238440.98
+        },
+        {
+          "name": "Gretel Marysdatter Enck",
+          "fec_id": "H6TX23257",
+          "incumbent_challenge": "Open seat",
+          "receipts": 98534.36
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-24",
+      "party": "Democratic",
+      "picked": {
+        "name": "Jon Buchwald",
+        "fec_id": "H6TX24198",
+        "incumbent_challenge": "Challenger",
+        "receipts": 191410.17
+      },
+      "alternates": [
+        {
+          "name": "Kevin Beryl Burge",
+          "fec_id": "H6TX24172",
+          "incumbent_challenge": "Challenger",
+          "receipts": 164571.39
+        },
+        {
+          "name": "Nathan Thomas Hawks",
+          "fec_id": "H6TX24206",
+          "incumbent_challenge": "Challenger",
+          "receipts": 19134.17
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-27",
+      "party": "Republican",
+      "picked": {
+        "name": "Michael Cloud",
+        "fec_id": "H8TX27049",
+        "incumbent_challenge": "Incumbent",
+        "receipts": null
+      },
+      "alternates": [
+        {
+          "name": "Chris Hatley",
+          "fec_id": "H6TX27126",
+          "incumbent_challenge": "Challenger",
+          "receipts": 55601.57
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-29",
+      "party": "Democratic",
+      "picked": {
+        "name": "Sylvia R Garcia",
+        "fec_id": "H8TX29052",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 903166.11
+      },
+      "alternates": [
+        {
+          "name": "Jarvis Johnson",
+          "fec_id": "H6TX18406",
+          "incumbent_challenge": "Challenger",
+          "receipts": 142143.0
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-30",
+      "party": "Democratic",
+      "picked": {
+        "name": "Jasmine Crockett",
+        "fec_id": "H2TX30178",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 7906948.49
+      },
+      "alternates": [
+        {
+          "name": "Barbara Mallory Caraway",
+          "fec_id": "H0TX30073",
+          "incumbent_challenge": "Open seat",
+          "receipts": 19126.0
+        },
+        {
+          "name": "Rodney Labruce",
+          "fec_id": "H6TX30153",
+          "incumbent_challenge": "Open seat",
+          "receipts": 5520.0
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-30",
+      "party": "Republican",
+      "picked": {
+        "name": "Gregor Heinrich Heise",
+        "fec_id": "H6TX30187",
+        "incumbent_challenge": "Open seat",
+        "receipts": 173647.36
+      },
+      "alternates": [
+        {
+          "name": "Everett Honorable Jackson",
+          "fec_id": "H6TX30211",
+          "incumbent_challenge": "Open seat",
+          "receipts": 16948.48
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-31",
+      "party": "Republican",
+      "picked": {
+        "name": "John R Rep. Carter",
+        "fec_id": "H2TX31044",
+        "incumbent_challenge": "Incumbent",
+        "receipts": null
+      },
+      "alternates": [
+        {
+          "name": "Raymond H Hamden",
+          "fec_id": "H6TX31086",
+          "incumbent_challenge": "Challenger",
+          "receipts": 145681.77
+        },
+        {
+          "name": "Valentina Gomez Noriega",
+          "fec_id": "H6TX31078",
+          "incumbent_challenge": "Challenger",
+          "receipts": 122957.13
+        },
+        {
+          "name": "Elvis Arturo Lossa",
+          "fec_id": "H6TX31177",
+          "incumbent_challenge": "Challenger",
+          "receipts": 11382.91
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-32",
+      "party": "Republican",
+      "picked": {
+        "name": "Paul Bondar",
+        "fec_id": "H6TX32191",
+        "incumbent_challenge": "Challenger",
+        "receipts": 3202936.6
+      },
+      "alternates": [
+        {
+          "name": "Darrell Day",
+          "fec_id": "H2TX32182",
+          "incumbent_challenge": "Challenger",
+          "receipts": 102105.07
+        },
+        {
+          "name": "Monty Montanez",
+          "fec_id": "H6TX32126",
+          "incumbent_challenge": "Challenger",
+          "receipts": 46113.46
+        },
+        {
+          "name": "Eric Niehaus",
+          "fec_id": "H6TX32142",
+          "incumbent_challenge": "Challenger",
+          "receipts": 35269.47
+        },
+        {
+          "name": "Aimee Carrasco",
+          "fec_id": "H6TX32134",
+          "incumbent_challenge": "Challenger",
+          "receipts": 34575.0
+        },
+        {
+          "name": "Zain Shaito",
+          "fec_id": "H6TX32118",
+          "incumbent_challenge": "Challenger",
+          "receipts": 8987.8
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-33",
+      "party": "Democratic",
+      "picked": {
+        "name": "Colin Allred",
+        "fec_id": "H8TX32098",
+        "incumbent_challenge": "Open seat",
+        "receipts": 6842415.57
+      },
+      "alternates": [
+        {
+          "name": "Julie Johnson",
+          "fec_id": "H4TX32089",
+          "incumbent_challenge": "Open seat",
+          "receipts": 2252003.95
+        },
+        {
+          "name": "Zeeshan Hafeez",
+          "fec_id": "H6TX33074",
+          "incumbent_challenge": "Open seat",
+          "receipts": 409934.65
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-34",
+      "party": "Republican",
+      "picked": {
+        "name": "Charles Mandel",
+        "fec_id": "H4TX27105",
+        "incumbent_challenge": "Challenger",
+        "receipts": 1002821.43
+      },
+      "alternates": [
+        {
+          "name": "Keith Allen",
+          "fec_id": "H6TX34049",
+          "incumbent_challenge": "Challenger",
+          "receipts": 156626.79
+        },
+        {
+          "name": "Luis F Buentello",
+          "fec_id": "H6TX34114",
+          "incumbent_challenge": "Challenger",
+          "receipts": 45004.29
+        },
+        {
+          "name": "Jay Nagy",
+          "fec_id": "H6TX34130",
+          "incumbent_challenge": "Challenger",
+          "receipts": 15459.24
+        },
+        {
+          "name": "Mauro Everett Mr. Garza",
+          "fec_id": "H8TX21331",
+          "incumbent_challenge": "Challenger",
+          "receipts": 12502.48
+        },
+        {
+          "name": "Gregory Scott Jr. Kunkle",
+          "fec_id": "H2TX34220",
+          "incumbent_challenge": "Challenger",
+          "receipts": 9155.0
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-34",
+      "party": "Democratic",
+      "picked": {
+        "name": "Vicente Gonzalez",
+        "fec_id": "H6TX15162",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 2907549.31
+      },
+      "alternates": [
+        {
+          "name": "Etienne Ph.d. Rosas",
+          "fec_id": "H6TX34064",
+          "incumbent_challenge": "Challenger",
+          "receipts": 170356.11
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-35",
+      "party": "Republican",
+      "picked": {
+        "name": "Carlos Jr. De La Cruz",
+        "fec_id": "H6TX35087",
+        "incumbent_challenge": "Challenger",
+        "receipts": 671448.14
+      },
+      "alternates": [
+        {
+          "name": "John Lujan",
+          "fec_id": "H6TX35053",
+          "incumbent_challenge": "Challenger",
+          "receipts": 644856.73
+        },
+        {
+          "name": "Jay Commander Furman",
+          "fec_id": "H4TX28129",
+          "incumbent_challenge": "Challenger",
+          "receipts": 462556.38
+        },
+        {
+          "name": "Ryan P Krause",
+          "fec_id": "H6TX35020",
+          "incumbent_challenge": "Challenger",
+          "receipts": 237646.11
+        },
+        {
+          "name": "Randal Haskel Adams",
+          "fec_id": "H6TX35111",
+          "incumbent_challenge": "Challenger",
+          "receipts": 24493.0
+        },
+        {
+          "name": "Vanessa F. Hicks-Callaway",
+          "fec_id": "H6TX35137",
+          "incumbent_challenge": "Challenger",
+          "receipts": 6394.01
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-35",
+      "party": "Democratic",
+      "picked": {
+        "name": "Johnny Garcia",
+        "fec_id": "H6TX35095",
+        "incumbent_challenge": "Challenger",
+        "receipts": 328306.82
+      },
+      "alternates": [
+        {
+          "name": "John Lira",
+          "fec_id": "H6TX35079",
+          "incumbent_challenge": "Challenger",
+          "receipts": 144966.71
+        },
+        {
+          "name": "Whitney Masterson-Moyes",
+          "fec_id": "H6TX35061",
+          "incumbent_challenge": "Challenger",
+          "receipts": 62723.95
+        },
+        {
+          "name": "Maureen Galindo",
+          "fec_id": "H6TX35103",
+          "incumbent_challenge": "Challenger",
+          "receipts": 10917.11
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-37",
+      "party": "Republican",
+      "picked": {
+        "name": "Lauren B. Pena",
+        "fec_id": "H6TX35038",
+        "incumbent_challenge": "Open seat",
+        "receipts": 112442.1
+      },
+      "alternates": [
+        {
+          "name": "Ge'Nell Gary",
+          "fec_id": "H6TX37026",
+          "incumbent_challenge": "Open seat",
+          "receipts": 4984.63
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-37",
+      "party": "Democratic",
+      "picked": {
+        "name": "Lloyd Doggett",
+        "fec_id": "H4TX10028",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 471289.18
+      },
+      "alternates": [
+        {
+          "name": "Greg Casar",
+          "fec_id": "H2TX35144",
+          "incumbent_challenge": "Open seat",
+          "receipts": 1057595.98
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    },
+    {
+      "district": "TX-38",
+      "party": "Republican",
+      "picked": {
+        "name": "Wesley Hunt",
+        "fec_id": "H0TX07170",
+        "incumbent_challenge": "Incumbent",
+        "receipts": 0.0
+      },
+      "alternates": [
+        {
+          "name": "Shelly Dezevallos",
+          "fec_id": "H6TX38065",
+          "incumbent_challenge": "Open seat",
+          "receipts": 1016100.33
+        },
+        {
+          "name": "Michael Pratt",
+          "fec_id": "H6TX38081",
+          "incumbent_challenge": "Open seat",
+          "receipts": 374707.44
+        }
+      ],
+      "heuristic": "prefer incumbent_challenge='Incumbent', then highest receipts"
+    }
+  ],
+  "duplicate_fec_registrations_collapsed": [
+    {
+      "district": "TX-05",
+      "party": "Democratic",
+      "name": "Chelsey Alexandra Hockett",
+      "kept_fec_id": "H6TX05189",
+      "dropped_fec_ids": [
+        "H6TX05197"
+      ]
+    },
+    {
+      "district": "TX-10",
+      "party": "Democratic",
+      "name": "Sarah Eckhardt",
+      "kept_fec_id": "H6TX10262",
+      "dropped_fec_ids": [
+        "H6TX10254"
+      ]
+    },
+    {
+      "district": "TX-30",
+      "party": "Democratic",
+      "name": "Barbara Mallory Caraway",
+      "kept_fec_id": "H0TX30073",
+      "dropped_fec_ids": [
+        "H6TX30252"
+      ]
+    }
+  ],
+  "incumbent_added_without_fec_match": [
+    {
+      "district": "TX-09",
+      "name": "Al Green",
+      "bioguide_id": "G000553",
+      "reason": "sitting incumbent found in legislators-current.yaml roster but no matching FEC 2026 filer in fec.json for this district"
+    },
+    {
+      "district": "TX-14",
+      "name": "Randy K. Weber, Sr.",
+      "bioguide_id": "W000814",
+      "reason": "sitting incumbent found in legislators-current.yaml roster but no matching FEC 2026 filer in fec.json for this district"
+    },
+    {
+      "district": "TX-24",
+      "name": "Beth Van Duyne",
+      "bioguide_id": "V000134",
+      "reason": "sitting incumbent found in legislators-current.yaml roster but no matching FEC 2026 filer in fec.json for this district"
+    },
+    {
+      "district": "TX-25",
+      "name": "Roger Williams",
+      "bioguide_id": "W000816",
+      "reason": "sitting incumbent found in legislators-current.yaml roster but no matching FEC 2026 filer in fec.json for this district"
+    },
+    {
+      "district": "TX-32",
+      "name": "Julie Johnson",
+      "bioguide_id": "J000310",
+      "reason": "sitting incumbent found in legislators-current.yaml roster but no matching FEC 2026 filer in fec.json for this district"
+    },
+    {
+      "district": "TX-33",
+      "name": "Marc A. Veasey",
+      "bioguide_id": "V000131",
+      "reason": "sitting incumbent found in legislators-current.yaml roster but no matching FEC 2026 filer in fec.json for this district"
+    },
+    {
+      "district": "TX-35",
+      "name": "Greg Casar",
+      "bioguide_id": "C001131",
+      "reason": "sitting incumbent found in legislators-current.yaml roster but no matching FEC 2026 filer in fec.json for this district"
+    }
+  ],
+  "incumbent_fec_flag_no_bioguide_match": [
+    {
+      "district": "TX-23",
+      "name": "Ernest Anthony Tony Gonzales",
+      "reason": "FEC flags this filer as 'Incumbent' but no bioguide match found in legislators-current.yaml roster for this district (possible redistricting mismatch)"
+    }
+  ],
+  "statewide_finance_unmatched": [],
+  "house_district_zero_party_coverage": [
+    {
+      "district": "TX-01",
+      "note": "sitting incumbent's FEC row had has_activity=false/status!='C' and was excluded by the standard filter; force-included so the real fec_id is used instead of a synthetic entry",
+      "candidate_ids": [
+        "H2TX01112"
+      ]
+    },
+    {
+      "district": "TX-13",
+      "note": "no has_activity=true candidates; fell back to candidate_status='C' regardless of activity",
+      "candidate_ids": [
+        "H6TX13159",
+        "H0TX13228"
+      ]
+    },
+    {
+      "district": "TX-16",
+      "note": "sitting incumbent's FEC row had has_activity=false/status!='C' and was excluded by the standard filter; force-included so the real fec_id is used instead of a synthetic entry",
+      "candidate_ids": [
+        "H8TX16109"
+      ]
+    },
+    {
+      "district": "TX-20",
+      "note": "no has_activity=true candidates; fell back to candidate_status='C' regardless of activity",
+      "candidate_ids": [
+        "H6TX20113",
+        "H2TX35011"
+      ]
+    },
+    {
+      "district": "TX-25",
+      "note": "no has_activity=true candidates; fell back to candidate_status='C' regardless of activity",
+      "candidate_ids": [
+        "H6TX25211"
+      ]
+    },
+    {
+      "district": "TX-27",
+      "note": "sitting incumbent's FEC row had has_activity=false/status!='C' and was excluded by the standard filter; force-included so the real fec_id is used instead of a synthetic entry",
+      "candidate_ids": [
+        "H8TX27049"
+      ]
+    },
+    {
+      "district": "TX-31",
+      "note": "sitting incumbent's FEC row had has_activity=false/status!='C' and was excluded by the standard filter; force-included so the real fec_id is used instead of a synthetic entry",
+      "candidate_ids": [
+        "H2TX31044"
+      ]
+    },
+    {
+      "district": "TX-36",
+      "note": "sitting incumbent's FEC row had has_activity=false/status!='C' and was excluded by the standard filter; force-included so the real fec_id is used instead of a synthetic entry",
+      "candidate_ids": [
+        "H6TX02079"
+      ]
+    },
+    {
+      "district": "TX-38",
+      "note": "sitting incumbent's FEC row had has_activity=false/status!='C' and was excluded by the standard filter; force-included so the real fec_id is used instead of a synthetic entry",
+      "candidate_ids": [
+        "H0TX07170"
+      ]
+    }
+  ],
+  "upstream_fetch_gaps": [
+    "congress.gov /v3/member/congress/119/TX returned 429 OVER_RATE_LIMIT on DEMO_KEY for the entire build window (no CONGRESS_GOV_API_KEY in .env); used unitedstates/congress-legislators legislators-current.yaml as a public-domain fallback for the roster (same bioguide IDs).",
+    "legislators-current.yaml fallback has no current House member listed for TX-23 (vacant seat or dataset lag) — omitted rather than guessed.",
+    "congress.gov /v3/member/C001056/sponsored-legislation unavailable (429 OVER_RATE_LIMIT on DEMO_KEY); omitted.",
+    "congress.gov /v3/member/C001098/sponsored-legislation unavailable (429 OVER_RATE_LIMIT on DEMO_KEY); omitted."
+  ]
+}

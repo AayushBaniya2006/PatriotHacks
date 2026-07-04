@@ -1,0 +1,263 @@
+{
+  "race_id": "tx-cd34-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "mandel-charles": [
+        {
+          "text": "As of 2026-07-04, FEC filings show Charles Mandel's campaign has raised $1,002,821 and spent $758,563.",
+          "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+        },
+        {
+          "text": "No U.S. House roll-call voting record was in our data set for Charles Mandel (non-incumbent candidates have no floor votes to record). Public candidate filings are listed at the source below.",
+          "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+        }
+      ],
+      "gonzalez-vicente": [
+        {
+          "text": "As of 2026-07-04, FEC filings show Vicente Gonzalez's campaign has raised $2,907,549 and spent $1,293,623.",
+          "source": "https://www.fec.gov/data/candidate/H6TX15162/"
+        },
+        {
+          "text": "On H R 1 (22-May-2025), Vicente Gonzalez voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "text": "On H R 29 (7-Jan-2025), Vicente Gonzalez voted Yea. A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        }
+      ]
+    },
+    "summary": "TX-34: 2 candidate(s) on file for U.S. House of Representatives, TX-34. Bullets below summarize each candidate's FEC-reported campaign finance and, for sitting U.S. House members, selected 2025-2026 roll-call votes on file. This is comparative, sourced information only -- it does not recommend a choice.",
+    "caveats": [
+      "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time.",
+      "Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history."
+    ]
+  },
+  "archetypes": {
+    "renter_young_worker": {
+      "candidates": {
+        "mandel-charles": [
+          {
+            "text": "No public data in our set connects this candidate's record to renters and young workers. (Charles Mandel)",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Charles Mandel's campaign has raised $1,002,821 and spent $758,563.",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          }
+        ],
+        "gonzalez-vicente": [
+          {
+            "text": "On H R 1 (22-May-2025), Vicente Gonzalez voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+            "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Vicente Gonzalez's campaign has raised $2,907,549 and spent $1,293,623.",
+            "source": "https://www.fec.gov/data/candidate/H6TX15162/"
+          }
+        ]
+      },
+      "summary": "TX-34: how each candidate's on-file record connects to renters and young workers, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "homeowner_parent": {
+      "candidates": {
+        "mandel-charles": [
+          {
+            "text": "No public data in our set connects this candidate's record to homeowners with kids. (Charles Mandel)",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Charles Mandel's campaign has raised $1,002,821 and spent $758,563.",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          }
+        ],
+        "gonzalez-vicente": [
+          {
+            "text": "On H R 4758 (25-Feb-2026), Vicente Gonzalez voted Nay. A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+            "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+          },
+          {
+            "text": "On H R 1 (22-May-2025), Vicente Gonzalez voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+            "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+          }
+        ]
+      },
+      "summary": "TX-34: how each candidate's on-file record connects to homeowners with kids, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "small_business_owner": {
+      "candidates": {
+        "mandel-charles": [
+          {
+            "text": "No public data in our set connects this candidate's record to small business owners. (Charles Mandel)",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Charles Mandel's campaign has raised $1,002,821 and spent $758,563.",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          }
+        ],
+        "gonzalez-vicente": [
+          {
+            "text": "On H R 1 (22-May-2025), Vicente Gonzalez voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+            "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Vicente Gonzalez's campaign has raised $2,907,549 and spent $1,293,623.",
+            "source": "https://www.fec.gov/data/candidate/H6TX15162/"
+          }
+        ]
+      },
+      "summary": "TX-34: how each candidate's on-file record connects to small business owners, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "healthcare_aca_or_uninsured": {
+      "candidates": {
+        "mandel-charles": [
+          {
+            "text": "No public data in our set connects this candidate's record to people on ACA marketplace plans or without insurance. (Charles Mandel)",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Charles Mandel's campaign has raised $1,002,821 and spent $758,563.",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          }
+        ],
+        "gonzalez-vicente": [
+          {
+            "text": "On H R 6703 (17-Dec-2025), Vicente Gonzalez voted Nay. A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+            "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+          },
+          {
+            "text": "On H R 498 (18-Dec-2025), Vicente Gonzalez voted Yea. A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+            "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+          }
+        ]
+      },
+      "summary": "TX-34: how each candidate's on-file record connects to people on ACA marketplace plans or without insurance, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "medicare_retiree": {
+      "candidates": {
+        "mandel-charles": [
+          {
+            "text": "No public data in our set on Medicare-specific votes for this candidate. (Charles Mandel)",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Charles Mandel's campaign has raised $1,002,821 and spent $758,563.",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          }
+        ],
+        "gonzalez-vicente": [
+          {
+            "text": "No public data in our set on Medicare-specific votes for this candidate. (Vicente Gonzalez)",
+            "source": "https://clerk.house.gov/Votes"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Vicente Gonzalez's campaign has raised $2,907,549 and spent $1,293,623.",
+            "source": "https://www.fec.gov/data/candidate/H6TX15162/"
+          }
+        ]
+      },
+      "summary": "TX-34: how each candidate's on-file record connects to Medicare-age retirees, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "veteran": {
+      "candidates": {
+        "mandel-charles": [
+          {
+            "text": "No public data in our set on veteran-specific votes or positions for this candidate. (Charles Mandel)",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Charles Mandel's campaign has raised $1,002,821 and spent $758,563.",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          }
+        ],
+        "gonzalez-vicente": [
+          {
+            "text": "No public data in our set on veteran-specific votes or positions for this candidate. (Vicente Gonzalez)",
+            "source": "https://clerk.house.gov/Votes"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Vicente Gonzalez's campaign has raised $2,907,549 and spent $1,293,623.",
+            "source": "https://www.fec.gov/data/candidate/H6TX15162/"
+          }
+        ]
+      },
+      "summary": "TX-34: how each candidate's on-file record connects to veterans, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "student": {
+      "candidates": {
+        "mandel-charles": [
+          {
+            "text": "No public data in our set on education or student-loan votes for this candidate. (Charles Mandel)",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Charles Mandel's campaign has raised $1,002,821 and spent $758,563.",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          }
+        ],
+        "gonzalez-vicente": [
+          {
+            "text": "No public data in our set on education or student-loan votes for this candidate. (Vicente Gonzalez)",
+            "source": "https://clerk.house.gov/Votes"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Vicente Gonzalez's campaign has raised $2,907,549 and spent $1,293,623.",
+            "source": "https://www.fec.gov/data/candidate/H6TX15162/"
+          }
+        ]
+      },
+      "summary": "TX-34: how each candidate's on-file record connects to students, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "rural_agriculture": {
+      "candidates": {
+        "mandel-charles": [
+          {
+            "text": "No public data in our set connects this candidate's record to rural and agricultural voters. (Charles Mandel)",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Charles Mandel's campaign has raised $1,002,821 and spent $758,563.",
+            "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+          }
+        ],
+        "gonzalez-vicente": [
+          {
+            "text": "On H R 26 (7-Feb-2025), Vicente Gonzalez voted Yea. A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+            "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+          },
+          {
+            "text": "On H R 7744 (5-Mar-2026), Vicente Gonzalez voted Nay. A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+            "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+          }
+        ]
+      },
+      "summary": "TX-34: how each candidate's on-file record connects to rural and agricultural voters, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    }
+  }
+}

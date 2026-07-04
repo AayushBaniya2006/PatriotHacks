@@ -1,0 +1,4439 @@
+{
+  "abbott-greg": {
+    "name": "Greg Abbott",
+    "party": "Republican Party of Texas",
+    "office": "Governor of Texas",
+    "district": null,
+    "incumbent": true,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+    ],
+    "background": "Greg Abbott, incumbent governor (2015–present)."
+  },
+  "hinojosa-gina": {
+    "name": "Gina Hinojosa",
+    "party": "Texas Democratic Party",
+    "office": "Governor of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+    ],
+    "background": "Gina Hinojosa, state representative from the 49th district (2017–present)."
+  },
+  "dixon-pat": {
+    "name": "Pat Dixon",
+    "party": "Libertarian",
+    "office": "Governor of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+    ],
+    "background": "Pat Dixon (Libertarian), former chair of the Libertarian Party of Texas"
+  },
+  "raphoon-jenn": {
+    "name": "Jenn Mack Raphoon",
+    "party": "Independent",
+    "office": "Governor of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+    ],
+    "background": "Jenn Mack Raphoon (Independent)"
+  },
+  "patrick-dan": {
+    "name": "Dan Patrick",
+    "party": "Republican Party of Texas",
+    "office": "Lieutenant Governor of Texas",
+    "district": null,
+    "incumbent": true,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+    ],
+    "background": "Dan Patrick, incumbent lieutenant governor (2015–present)."
+  },
+  "goodwin-vikki": {
+    "name": "Vikki Goodwin",
+    "party": "Texas Democratic Party",
+    "office": "Lieutenant Governor of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+    ],
+    "background": "Vikki Goodwin, state representative from the 47th district (2019–present)."
+  },
+  "collier-mike": {
+    "name": "Mike Collier",
+    "party": "Independent",
+    "office": "Lieutenant Governor of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+    ],
+    "background": "Mike Collier (Independent), certified public accountant, Democratic nominee for Lt. Governor in 2018 and 2022, Democratic nominee for Comptroller in 2014"
+  },
+  "cristo-anthony": {
+    "name": "Anthony Cristo",
+    "party": "Libertarian",
+    "office": "Lieutenant Governor of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+    ],
+    "background": "Anthony Cristo (Libertarian), nominee for Texas's 15th congressional district in 2018, and nominee for Texas's 34th congressional district in 2020"
+  },
+  "mccormick-kevin": {
+    "name": "Kevin McCormick",
+    "party": "Green",
+    "office": "Lieutenant Governor of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+    ],
+    "background": "Kevin McCormick (Green), former teacher"
+  },
+  "middleton-mayes": {
+    "name": "Mayes Middleton",
+    "party": "Republican Party (United States)",
+    "office": "Attorney General of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+    ],
+    "background": "Mayes Middleton, state senator from the 11th district (2023–present)."
+  },
+  "johnson-nathan": {
+    "name": "Nathan Johnson",
+    "party": "Democratic Party (United States)",
+    "office": "Attorney General of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+    ],
+    "background": "Nathan Johnson, state senator from the 16th district (2019–present)."
+  },
+  "oxford-tom": {
+    "name": "Tom Oxford",
+    "party": "Libertarian",
+    "office": "Attorney General of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+    ],
+    "background": "Tom Oxford (Libertarian), attorney and perennial candidate"
+  },
+  "paxton-ken": {
+    "name": "Ken Paxton",
+    "party": "Republican Party (United States)",
+    "office": "United States Senator from Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": "S6TX00388",
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
+    ],
+    "background": "Ken Paxton, attorney general of Texas (2015–present).",
+    "finance": {
+      "receipts": 7605209.32,
+      "disbursements": 5257745.82,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/S6TX00388/"
+    }
+  },
+  "talarico-james": {
+    "name": "James Talarico",
+    "party": "Democratic Party (United States)",
+    "office": "United States Senator from Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": "S6TX00479",
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
+    ],
+    "background": "James Talarico, state representative from the 50th district (2018–present).",
+    "finance": {
+      "receipts": 40284109.15,
+      "disbursements": 30425243.8,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/S6TX00479/"
+    }
+  },
+  "huffines-don": {
+    "name": "Don Huffines",
+    "party": "Republican",
+    "office": "Texas Comptroller of Public Accounts",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
+    ],
+    "background": "Don Huffines, former state senator from the 16th district (2015–2019) and candidate for governor in 2022."
+  },
+  "eckhardt-sarah": {
+    "name": "Sarah Eckhardt",
+    "party": "Democratic",
+    "office": "Texas Comptroller of Public Accounts",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
+    ],
+    "background": "Sarah Eckhardt, state senator from the 14th district (2020–present)."
+  },
+  "buckingham-dawn": {
+    "name": "Dawn Buckingham",
+    "party": "Republican Party of Texas",
+    "office": "Texas Land Commissioner",
+    "district": null,
+    "incumbent": true,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+    ],
+    "background": "Dawn Buckingham, incumbent land commissioner."
+  },
+  "flores-benjamin": {
+    "name": "Benjamin Flores",
+    "party": "Texas Democratic Party",
+    "office": "Texas Land Commissioner",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+    ],
+    "background": "Benjamin Flores, Bay City councilor (previously ran for governor)."
+  },
+  "snider-neill": {
+    "name": "Neill Snider",
+    "party": "Libertarian",
+    "office": "Texas Land Commissioner",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+    ],
+    "background": "Neill Snider (Libertarian)"
+  },
+  "sheets-nate": {
+    "name": "Nate Sheets",
+    "party": "Republican Party of Texas",
+    "office": "Texas Commissioner of Agriculture",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+    ],
+    "background": "Nate Sheets, beekeeper and small business owner."
+  },
+  "tucker-clayton": {
+    "name": "Clayton Tucker",
+    "party": "Texas Democratic Party",
+    "office": "Texas Commissioner of Agriculture",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+    ],
+    "background": "Clayton Tucker, rancher and founder of the Texas Progressive Caucus."
+  },
+  "french-bo": {
+    "name": "Bo French",
+    "party": "Republican Party of Texas",
+    "office": "Railroad Commissioner of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+    ],
+    "background": "Bo French, former chair of the Tarrant County Republican Party."
+  },
+  "rosenthal-jon": {
+    "name": "Jon Rosenthal",
+    "party": "Texas Democratic Party",
+    "office": "Railroad Commissioner of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+    ],
+    "background": "Jon Rosenthal, state representative from the 135th district (2019–present)."
+  },
+  "dibianca-arthur": {
+    "name": "Arthur DiBianca",
+    "party": "Libertarian",
+    "office": "Railroad Commissioner of Texas",
+    "district": null,
+    "incumbent": false,
+    "fec_id": null,
+    "positions": [],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+    ],
+    "background": "Arthur DiBianca (Libertarian)"
+  },
+  "alexander-dax": {
+    "name": "Dax Cornell Alexander",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-01",
+    "district": "TX-01",
+    "incumbent": false,
+    "fec_id": "H6TX01337",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX01337/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 12466.68,
+      "disbursements": 10893.2,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX01337/"
+    }
+  },
+  "moran-nathaniel": {
+    "name": "Nathaniel Quentin Moran",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-01",
+    "district": "TX-01",
+    "incumbent": true,
+    "fec_id": "H2TX01112",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H2TX01112/"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "crenshaw-daniel": {
+    "name": "Daniel Crenshaw",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-02",
+    "district": "TX-02",
+    "incumbent": true,
+    "fec_id": "H8TX02166",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H8TX02166/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 2671297.23,
+      "disbursements": 3097368.05,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H8TX02166/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Not Voting",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "hunt-evan": {
+    "name": "Evan Hunt",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-03",
+    "district": "TX-03",
+    "incumbent": false,
+    "fec_id": "H6TX03234",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX03234/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 336981.48,
+      "disbursements": 305935.33,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX03234/"
+    }
+  },
+  "self-keith": {
+    "name": "Keith Alan Self",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-03",
+    "district": "TX-03",
+    "incumbent": true,
+    "fec_id": "H2TX00064",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H2TX00064/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 504420.2,
+      "disbursements": 482949.58,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H2TX00064/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Nay",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "pearce-jason": {
+    "name": "Jason Pearce",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-04",
+    "district": "TX-04",
+    "incumbent": false,
+    "fec_id": "H6TX04174",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX04174/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 11783.19,
+      "disbursements": 10905.87,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX04174/"
+    }
+  },
+  "fallon-patrick": {
+    "name": "Patrick Fallon",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-04",
+    "district": "TX-04",
+    "incumbent": true,
+    "fec_id": "H0TX04219",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H0TX04219/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 685489.02,
+      "disbursements": 283211.67,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H0TX04219/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "hockett-chelsey": {
+    "name": "Chelsey Alexandra Hockett",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-05",
+    "district": "TX-05",
+    "incumbent": false,
+    "fec_id": "H6TX05189",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX05189/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 11104.66,
+      "disbursements": -9689.93,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX05189/"
+    }
+  },
+  "gooden-lance": {
+    "name": "Lance Gooden",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-05",
+    "district": "TX-05",
+    "incumbent": true,
+    "fec_id": "H8TX05144",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H8TX05144/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 1170229.83,
+      "disbursements": 554886.51,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H8TX05144/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "ellzey-john": {
+    "name": "John Kevin Sr. Ellzey",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-06",
+    "district": "TX-06",
+    "incumbent": true,
+    "fec_id": "H8TX06266",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H8TX06266/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 3705546.41,
+      "disbursements": 2700451.77,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H8TX06266/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "kalai-alexander": {
+    "name": "Alexander Zachary Kalai",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-07",
+    "district": "TX-07",
+    "incumbent": false,
+    "fec_id": "H6TX07169",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX07169/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 315097.86,
+      "disbursements": 315097.86,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX07169/"
+    }
+  },
+  "fletcher-elizabeth": {
+    "name": "Elizabeth Fletcher",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-07",
+    "district": "TX-07",
+    "incumbent": true,
+    "fec_id": "H8TX07140",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H8TX07140/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 1229656.69,
+      "disbursements": 795424.58,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H8TX07140/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Nay",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Nay",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Nay",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Nay",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "luttrell-morgan": {
+    "name": "Morgan Joe Luttrell",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-08",
+    "district": "TX-08",
+    "incumbent": true,
+    "fec_id": "H2TX08182",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H2TX08182/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 333122.24,
+      "disbursements": 636769.03,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H2TX08182/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "mealer-alexandra": {
+    "name": "Alexandra Mealer",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-09",
+    "district": "TX-09",
+    "incumbent": false,
+    "fec_id": "H6TX09140",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX09140/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 1770300.92,
+      "disbursements": 1355774.84,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX09140/"
+    }
+  },
+  "ivey-r": {
+    "name": "R. Todd Dr. Ivey",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-09",
+    "district": "TX-09",
+    "incumbent": false,
+    "fec_id": "H6TX09215",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX09215/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 192629.5,
+      "disbursements": 176088.36,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX09215/"
+    }
+  },
+  "morales-roy": {
+    "name": "Roy Morales",
+    "party": "IND",
+    "office": "U.S. Representative, TX-09",
+    "district": "TX-09",
+    "incumbent": false,
+    "fec_id": "H6TX09173",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX09173/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 5008.0,
+      "disbursements": 1225.83,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX09173/"
+    }
+  },
+  "green-al": {
+    "name": "Al Green",
+    "party": "Democrat",
+    "office": "U.S. Representative, TX-09",
+    "district": "TX-09",
+    "incumbent": true,
+    "fec_id": null,
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Nay",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Nay",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Nay",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Nay",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "mccaul-michael": {
+    "name": "Michael Mccaul",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-10",
+    "district": "TX-10",
+    "incumbent": true,
+    "fec_id": "H4TX10093",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H4TX10093/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 271697.2,
+      "disbursements": 400945.82,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H4TX10093/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "eckhardt-sarah-tx10": {
+    "name": "Sarah Eckhardt",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-10",
+    "district": "TX-10",
+    "incumbent": false,
+    "fec_id": "H6TX10262",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX10262/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 113352.55,
+      "disbursements": 110495.8,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX10262/"
+    }
+  },
+  "pfluger-august": {
+    "name": "August Lee Pfluger",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-11",
+    "district": "TX-11",
+    "incumbent": true,
+    "fec_id": "H0TX11230",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H0TX11230/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 2649050.19,
+      "disbursements": 2201576.92,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H0TX11230/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "reynolds-claire": {
+    "name": "Claire Anne Reynolds",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-11",
+    "district": "TX-11",
+    "incumbent": false,
+    "fec_id": "H6TX11112",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX11112/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 42200.78,
+      "disbursements": 31164.86,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX11112/"
+    }
+  },
+  "goldman-craig": {
+    "name": "Craig Goldman",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-12",
+    "district": "TX-12",
+    "incumbent": true,
+    "fec_id": "H4TX12065",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H4TX12065/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 1516551.54,
+      "disbursements": 659713.2,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H4TX12065/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "nair-mark": {
+    "name": "Mark Nair",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-13",
+    "district": "TX-13",
+    "incumbent": false,
+    "fec_id": "H6TX13159",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX13159/"
+    ],
+    "positions": []
+  },
+  "jackson-ronny": {
+    "name": "Ronny Lynn Jackson",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-13",
+    "district": "TX-13",
+    "incumbent": true,
+    "fec_id": "H0TX13228",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H0TX13228/"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "davis-richard": {
+    "name": "Richard Harvey Davis",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-14",
+    "district": "TX-14",
+    "incumbent": false,
+    "fec_id": "H6TX14173",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX14173/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 31761.49,
+      "disbursements": 31761.49,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX14173/"
+    }
+  },
+  "weber-randy": {
+    "name": "Randy K. Weber, Sr.",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-14",
+    "district": "TX-14",
+    "incumbent": true,
+    "fec_id": null,
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "cruz-monica": {
+    "name": "Monica De La Cruz",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-15",
+    "district": "TX-15",
+    "incumbent": true,
+    "fec_id": "H0TX15124",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H0TX15124/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 4240747.08,
+      "disbursements": 2520270.55,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H0TX15124/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "cabildo-hector": {
+    "name": "Hector Miguel Mr. Cabildo",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-16",
+    "district": "TX-16",
+    "incumbent": false,
+    "fec_id": "H6TX16160",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX16160/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 10964.3,
+      "disbursements": 5702.53,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX16160/"
+    }
+  },
+  "escobar-veronica": {
+    "name": "Veronica Escobar",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-16",
+    "district": "TX-16",
+    "incumbent": true,
+    "fec_id": "H8TX16109",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H8TX16109/"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Nay",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Nay",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Nay",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Nay",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "mitchell-james": {
+    "name": "James Gordon Mitchell",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-17",
+    "district": "TX-17",
+    "incumbent": false,
+    "fec_id": "H6TX17143",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX17143/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 19378.06,
+      "disbursements": 19017.76,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX17143/"
+    }
+  },
+  "sessions-pete": {
+    "name": "Pete Sessions",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-17",
+    "district": "TX-17",
+    "incumbent": true,
+    "fec_id": "H2TX03126",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H2TX03126/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 901425.75,
+      "disbursements": 454306.1,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H2TX03126/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "menefee-christian": {
+    "name": "Christian Menefee",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-18",
+    "district": "TX-18",
+    "incumbent": true,
+    "fec_id": "H6TX18232",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H6TX18232/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 3463829.06,
+      "disbursements": 3145794.38,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX18232/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Not Voting",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "berry-allen": {
+    "name": "Allen D Dr Berry",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-18",
+    "district": "TX-18",
+    "incumbent": false,
+    "fec_id": "H6TX18323",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX18323/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 8512.13,
+      "disbursements": 8683.42,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX18323/"
+    }
+  },
+  "arrington-jodey": {
+    "name": "Jodey Arrington",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-19",
+    "district": "TX-19",
+    "incumbent": true,
+    "fec_id": "H6TX19099",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H6TX19099/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 1680093.8,
+      "disbursements": 1837094.25,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX19099/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "rable-kyle": {
+    "name": "Kyle Rable",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-19",
+    "district": "TX-19",
+    "incumbent": false,
+    "fec_id": "H6TX19198",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX19198/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 21086.36,
+      "disbursements": 12557.01,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX19198/"
+    }
+  },
+  "baez-edgardo": {
+    "name": "Edgardo Rafael Dr Baez",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-20",
+    "district": "TX-20",
+    "incumbent": false,
+    "fec_id": "H6TX20113",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX20113/"
+    ],
+    "positions": []
+  },
+  "castro-joaquin": {
+    "name": "Joaquin Castro",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-20",
+    "district": "TX-20",
+    "incumbent": true,
+    "fec_id": "H2TX35011",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H2TX35011/"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Nay",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Nay",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Nay",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Nay",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Nay",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "roy-chip": {
+    "name": "Chip Roy",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-21",
+    "district": "TX-21",
+    "incumbent": true,
+    "fec_id": "H8TX21307",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H8TX21307/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 782580.55,
+      "disbursements": 2826893.56,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H8TX21307/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Nay",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "hook-kristin": {
+    "name": "Kristin A Dr. Hook",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-21",
+    "district": "TX-21",
+    "incumbent": false,
+    "fec_id": "H4TX21108",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H4TX21108/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 154725.23,
+      "disbursements": 106142.91,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H4TX21108/"
+    }
+  },
+  "nehls-troy": {
+    "name": "Troy Nehls",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-22",
+    "district": "TX-22",
+    "incumbent": true,
+    "fec_id": "H0TX22302",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H0TX22302/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 425953.76,
+      "disbursements": 528865.31,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H0TX22302/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "gonzales-ernest": {
+    "name": "Ernest Anthony Tony Gonzales",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-23",
+    "district": "TX-23",
+    "incumbent": true,
+    "fec_id": "H0TX35015",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H0TX35015/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 2270926.15,
+      "disbursements": 3402505.03,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H0TX35015/"
+    }
+  },
+  "limon-santos": {
+    "name": "Santos M. Limon",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-23",
+    "district": "TX-23",
+    "incumbent": false,
+    "fec_id": "H4TX23138",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H4TX23138/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 356755.0,
+      "disbursements": 6815.0,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H4TX23138/"
+    }
+  },
+  "buchwald-jon": {
+    "name": "Jon Buchwald",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-24",
+    "district": "TX-24",
+    "incumbent": false,
+    "fec_id": "H6TX24198",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX24198/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 191410.17,
+      "disbursements": 186600.33,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX24198/"
+    }
+  },
+  "duyne-beth": {
+    "name": "Beth Van Duyne",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-24",
+    "district": "TX-24",
+    "incumbent": true,
+    "fec_id": null,
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "marks-william": {
+    "name": "William James Marks",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-25",
+    "district": "TX-25",
+    "incumbent": false,
+    "fec_id": "H6TX25211",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX25211/"
+    ],
+    "positions": []
+  },
+  "williams-roger": {
+    "name": "Roger Williams",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-25",
+    "district": "TX-25",
+    "incumbent": true,
+    "fec_id": null,
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "gill-brandon": {
+    "name": "Brandon Gill",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-26",
+    "district": "TX-26",
+    "incumbent": true,
+    "fec_id": "H4TX26149",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H4TX26149/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 3099175.58,
+      "disbursements": 2216085.18,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H4TX26149/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Nay",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "cloud-michael": {
+    "name": "Michael Cloud",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-27",
+    "district": "TX-27",
+    "incumbent": true,
+    "fec_id": "H8TX27049",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H8TX27049/"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "cuellar-henry": {
+    "name": "Henry R. Cuellar",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-28",
+    "district": "TX-28",
+    "incumbent": true,
+    "fec_id": "H2TX23082",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H2TX23082/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 1620505.27,
+      "disbursements": 904427.24,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H2TX23082/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Nay",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "esparza-juan": {
+    "name": "Juan Esparza",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-28",
+    "district": "TX-28",
+    "incumbent": false,
+    "fec_id": "H6TX28082",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX28082/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 32403.99,
+      "disbursements": 32403.99,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+    }
+  },
+  "garcia-sylvia": {
+    "name": "Sylvia R Garcia",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-29",
+    "district": "TX-29",
+    "incumbent": true,
+    "fec_id": "H8TX29052",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H8TX29052/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 903166.11,
+      "disbursements": 1099257.73,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H8TX29052/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Not Voting",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Nay",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Nay",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Nay",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "crockett-jasmine": {
+    "name": "Jasmine Crockett",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-30",
+    "district": "TX-30",
+    "incumbent": true,
+    "fec_id": "H2TX30178",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H2TX30178/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 7906948.49,
+      "disbursements": 9445643.5,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H2TX30178/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Nay",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Nay",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Nay",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Not Voting",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "heise-gregor": {
+    "name": "Gregor Heinrich Heise",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-30",
+    "district": "TX-30",
+    "incumbent": false,
+    "fec_id": "H6TX30187",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX30187/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 173647.36,
+      "disbursements": 165158.11,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX30187/"
+    }
+  },
+  "carter-john": {
+    "name": "John R Rep. Carter",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-31",
+    "district": "TX-31",
+    "incumbent": true,
+    "fec_id": "H2TX31044",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H2TX31044/"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "stoker-gregory": {
+    "name": "Gregory James Stoker",
+    "party": "Green",
+    "office": "U.S. Representative, TX-31",
+    "district": "TX-31",
+    "incumbent": false,
+    "fec_id": "H6TX31169",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX31169/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 48041.74,
+      "disbursements": 33965.18,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX31169/"
+    }
+  },
+  "bondar-paul": {
+    "name": "Paul Bondar",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-32",
+    "district": "TX-32",
+    "incumbent": false,
+    "fec_id": "H6TX32191",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX32191/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 3202936.6,
+      "disbursements": 2919650.45,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX32191/"
+    }
+  },
+  "johnson-julie": {
+    "name": "Julie Johnson",
+    "party": "Democrat",
+    "office": "U.S. Representative, TX-32",
+    "district": "TX-32",
+    "incumbent": true,
+    "fec_id": null,
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Nay",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Nay",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Not Voting",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "allred-colin": {
+    "name": "Colin Allred",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-33",
+    "district": "TX-33",
+    "incumbent": false,
+    "fec_id": "H8TX32098",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H8TX32098/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 6842415.57,
+      "disbursements": 6175184.89,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H8TX32098/"
+    }
+  },
+  "schwab-kurt": {
+    "name": "Kurt Schwab",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-33",
+    "district": "TX-33",
+    "incumbent": false,
+    "fec_id": "H6TX33041",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX33041/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 13215.0,
+      "disbursements": 12344.75,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX33041/"
+    }
+  },
+  "veasey-marc": {
+    "name": "Marc A. Veasey",
+    "party": "Democrat",
+    "office": "U.S. Representative, TX-33",
+    "district": "TX-33",
+    "incumbent": true,
+    "fec_id": null,
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Nay",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Nay",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Nay",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "mandel-charles": {
+    "name": "Charles Mandel",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-34",
+    "district": "TX-34",
+    "incumbent": false,
+    "fec_id": "H4TX27105",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H4TX27105/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 1002821.43,
+      "disbursements": 758563.18,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H4TX27105/"
+    }
+  },
+  "gonzalez-vicente": {
+    "name": "Vicente Gonzalez",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-34",
+    "district": "TX-34",
+    "incumbent": true,
+    "fec_id": "H6TX15162",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H6TX15162/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 2907549.31,
+      "disbursements": 1293622.86,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX15162/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Nay",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "cruz-carlos": {
+    "name": "Carlos Jr. De La Cruz",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-35",
+    "district": "TX-35",
+    "incumbent": false,
+    "fec_id": "H6TX35087",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX35087/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 671448.14,
+      "disbursements": 538555.9,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX35087/"
+    }
+  },
+  "garcia-johnny": {
+    "name": "Johnny Garcia",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-35",
+    "district": "TX-35",
+    "incumbent": false,
+    "fec_id": "H6TX35095",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX35095/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 328306.82,
+      "disbursements": 267019.98,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX35095/"
+    }
+  },
+  "casar-greg": {
+    "name": "Greg Casar",
+    "party": "Democrat",
+    "office": "U.S. Representative, TX-35",
+    "district": "TX-35",
+    "incumbent": true,
+    "fec_id": null,
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Nay",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Nay",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Not Voting",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Nay",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Nay",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "rogers-doug": {
+    "name": "Doug Rogers",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-36",
+    "district": "TX-36",
+    "incumbent": false,
+    "fec_id": "H6TX36028",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX36028/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 230985.0,
+      "disbursements": 201056.61,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX36028/"
+    }
+  },
+  "babin-brian": {
+    "name": "Brian Babin",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-36",
+    "district": "TX-36",
+    "incumbent": true,
+    "fec_id": "H6TX02079",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H6TX02079/"
+    ],
+    "positions": [],
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Yea",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Yea",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Yea",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "pena-lauren": {
+    "name": "Lauren B. Pena",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-37",
+    "district": "TX-37",
+    "incumbent": false,
+    "fec_id": "H6TX35038",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX35038/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 112442.1,
+      "disbursements": 111242.43,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX35038/"
+    }
+  },
+  "doggett-lloyd": {
+    "name": "Lloyd Doggett",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-37",
+    "district": "TX-37",
+    "incumbent": true,
+    "fec_id": "H4TX10028",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H4TX10028/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 471289.18,
+      "disbursements": 235863.34,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H4TX10028/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Nay",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Nay",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Nay",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Nay",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Not Voting",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Nay",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Nay",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Nay",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  },
+  "mcmenemy-alex": {
+    "name": "Alex Mcmenemy",
+    "party": "Green",
+    "office": "U.S. Representative, TX-38",
+    "district": "TX-38",
+    "incumbent": false,
+    "fec_id": "H6TX38123",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX38123/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 9887.9,
+      "disbursements": 8312.34,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX38123/"
+    }
+  },
+  "hunter-marvalette": {
+    "name": "Marvalette Hunter",
+    "party": "Democratic",
+    "office": "U.S. Representative, TX-38",
+    "district": "TX-38",
+    "incumbent": false,
+    "fec_id": "H6TX38024",
+    "sources": [
+      "https://www.fec.gov/data/candidate/H6TX38024/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 135999.39,
+      "disbursements": 134273.87,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H6TX38024/"
+    }
+  },
+  "hunt-wesley": {
+    "name": "Wesley Hunt",
+    "party": "Republican",
+    "office": "U.S. Representative, TX-38",
+    "district": "TX-38",
+    "incumbent": true,
+    "fec_id": "H0TX07170",
+    "sources": [
+      "https://clerk.house.gov/Votes",
+      "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml",
+      "https://www.fec.gov/data/candidate/H0TX07170/"
+    ],
+    "positions": [],
+    "finance": {
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": null,
+      "as_of": "2026-07-04",
+      "source": "https://www.fec.gov/data/candidate/H0TX07170/"
+    },
+    "record": {
+      "key_votes": [
+        {
+          "bill": "H R 29",
+          "question": "On Passage",
+          "plain_english": "A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "position": "Yea",
+          "date": "7-Jan-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        },
+        {
+          "bill": "H R 26",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+          "position": "Yea",
+          "date": "7-Feb-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+        },
+        {
+          "bill": "H R 1",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "position": "Yea",
+          "date": "22-May-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "bill": "H R 6703",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+          "position": "Yea",
+          "date": "17-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+        },
+        {
+          "bill": "H R 498",
+          "question": "On Passage",
+          "plain_english": "A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+          "position": "Not Voting",
+          "date": "18-Dec-2025",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+        },
+        {
+          "bill": "H R 7148",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Consolidated Appropriations Act, 2026, funding most of the federal government for the fiscal year and averting a shutdown.",
+          "position": "Not Voting",
+          "date": "22-Jan-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll045.xml"
+        },
+        {
+          "bill": "H R 4758",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+          "position": "Not Voting",
+          "date": "25-Feb-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+        },
+        {
+          "bill": "H R 7744",
+          "question": "On Passage",
+          "plain_english": "A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+          "position": "Yea",
+          "date": "5-Mar-2026",
+          "result": "Passed",
+          "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+        }
+      ],
+      "source": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/legislators-current.yaml"
+    }
+  }
+}

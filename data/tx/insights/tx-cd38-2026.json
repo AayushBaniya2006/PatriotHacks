@@ -1,0 +1,47 @@
+{
+  "race_id": "tx-cd38-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "mcmenemy-alex": [
+        {
+          "text": "As of 2026-07-04, FEC filings show Alex Mcmenemy's campaign has raised $9,888 and spent $8,312.",
+          "source": "https://www.fec.gov/data/candidate/H6TX38123/"
+        },
+        {
+          "text": "No U.S. House roll-call voting record was in our data set for Alex Mcmenemy (non-incumbent candidates have no floor votes to record). Public candidate filings are listed at the source below.",
+          "source": "https://www.fec.gov/data/candidate/H6TX38123/"
+        }
+      ],
+      "hunter-marvalette": [
+        {
+          "text": "As of 2026-07-04, FEC filings show Marvalette Hunter's campaign has raised $135,999 and spent $134,274.",
+          "source": "https://www.fec.gov/data/candidate/H6TX38024/"
+        },
+        {
+          "text": "No U.S. House roll-call voting record was in our data set for Marvalette Hunter (non-incumbent candidates have no floor votes to record). Public candidate filings are listed at the source below.",
+          "source": "https://www.fec.gov/data/candidate/H6TX38024/"
+        }
+      ],
+      "hunt-wesley": [
+        {
+          "text": "As of 2026-07-04, FEC filings show Wesley Hunt's campaign has raised $0 and spent $0.",
+          "source": "https://www.fec.gov/data/candidate/H0TX07170/"
+        },
+        {
+          "text": "On H R 1 (22-May-2025), Wesley Hunt voted Yea. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "text": "On H R 29 (7-Jan-2025), Wesley Hunt voted Yea. A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        }
+      ]
+    },
+    "summary": "TX-38: 3 candidate(s) on file for U.S. House of Representatives, TX-38. Bullets below summarize each candidate's FEC-reported campaign finance and, for sitting U.S. House members, selected 2025-2026 roll-call votes on file. This is comparative, sourced information only -- it does not recommend a choice.",
+    "caveats": [
+      "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time.",
+      "Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history."
+    ]
+  }
+}

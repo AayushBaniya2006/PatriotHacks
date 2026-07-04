@@ -1,0 +1,342 @@
+{
+  "race_id": "tx-railroad-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "french-bo": [
+        {
+          "text": "Bo French is a candidate for Railroad Commissioner of Texas, running with Republican Party of Texas.",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        },
+        {
+          "text": "Bo French's recorded background: Bo French, former chair of the Tarrant County Republican Party.",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        },
+        {
+          "text": "No public data in our set on Bo French's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        }
+      ],
+      "rosenthal-jon": [
+        {
+          "text": "Jon Rosenthal is a candidate for Railroad Commissioner of Texas, running with Texas Democratic Party.",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        },
+        {
+          "text": "Jon Rosenthal's recorded background: Jon Rosenthal, state representative from the 135th district (2019\u2013present).",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        },
+        {
+          "text": "No public data in our set on Jon Rosenthal's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        }
+      ],
+      "dibianca-arthur": [
+        {
+          "text": "Arthur DiBianca is a candidate for Railroad Commissioner of Texas, running with Libertarian.",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        },
+        {
+          "text": "Arthur DiBianca's recorded background: Arthur DiBianca (Libertarian)",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        },
+        {
+          "text": "No public data in our set on Arthur DiBianca's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
+          "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        }
+      ]
+    },
+    "summary": "Railroad Commissioner of Texas race: Bo French, Jon Rosenthal, Arthur DiBianca. This overview lists each candidate's party, background, and campaign finance where available in our data set.",
+    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and (for federal candidates only) FEC campaign finance totals. We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set; state executive offices generally do not file with the FEC, so campaign finance is not available for most of them here."
+  },
+  "archetypes": {
+    "renter_young_worker": {
+      "candidates": {
+        "french-bo": [
+          {
+            "text": "No public data in our set connects Bo French's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Bo French's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "rosenthal-jon": [
+          {
+            "text": "No public data in our set connects Jon Rosenthal's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Jon Rosenthal's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "dibianca-arthur": [
+          {
+            "text": "No public data in our set connects Arthur DiBianca's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Arthur DiBianca's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ]
+      },
+      "summary": "For a renter young worker voter looking at the Railroad Commissioner of Texas race (Bo French, Jon Rosenthal, Arthur DiBianca): our data set does not contain candidate-specific positions or voting records on housing costs, rent, or renters' protections for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to renter young worker concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "homeowner_parent": {
+      "candidates": {
+        "french-bo": [
+          {
+            "text": "No public data in our set connects Bo French's recorded background or positions specifically to property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Bo French's recorded votes or stated positions regarding property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "rosenthal-jon": [
+          {
+            "text": "No public data in our set connects Jon Rosenthal's recorded background or positions specifically to property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Jon Rosenthal's recorded votes or stated positions regarding property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "dibianca-arthur": [
+          {
+            "text": "No public data in our set connects Arthur DiBianca's recorded background or positions specifically to property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Arthur DiBianca's recorded votes or stated positions regarding property taxes or public school funding.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ]
+      },
+      "summary": "For a homeowner parent voter looking at the Railroad Commissioner of Texas race (Bo French, Jon Rosenthal, Arthur DiBianca): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "small_business_owner": {
+      "candidates": {
+        "french-bo": [
+          {
+            "text": "No public data in our set connects Bo French's recorded background or positions specifically to small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Bo French's recorded votes or stated positions regarding small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "rosenthal-jon": [
+          {
+            "text": "No public data in our set connects Jon Rosenthal's recorded background or positions specifically to small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Jon Rosenthal's recorded votes or stated positions regarding small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "dibianca-arthur": [
+          {
+            "text": "No public data in our set connects Arthur DiBianca's recorded background or positions specifically to small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Arthur DiBianca's recorded votes or stated positions regarding small business taxes or regulation.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ]
+      },
+      "summary": "For a small business owner voter looking at the Railroad Commissioner of Texas race (Bo French, Jon Rosenthal, Arthur DiBianca): our data set does not contain candidate-specific positions or voting records on small business taxes or regulation for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to small business owner concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "healthcare_aca_or_uninsured": {
+      "candidates": {
+        "french-bo": [
+          {
+            "text": "No public data in our set connects Bo French's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Bo French's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "rosenthal-jon": [
+          {
+            "text": "No public data in our set connects Jon Rosenthal's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Jon Rosenthal's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "dibianca-arthur": [
+          {
+            "text": "No public data in our set connects Arthur DiBianca's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Arthur DiBianca's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ]
+      },
+      "summary": "For a healthcare aca or uninsured voter looking at the Railroad Commissioner of Texas race (Bo French, Jon Rosenthal, Arthur DiBianca): our data set does not contain candidate-specific positions or voting records on health coverage, the ACA, or Medicaid for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to healthcare aca or uninsured concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "medicare_retiree": {
+      "candidates": {
+        "french-bo": [
+          {
+            "text": "No public data in our set connects Bo French's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Bo French's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "rosenthal-jon": [
+          {
+            "text": "No public data in our set connects Jon Rosenthal's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Jon Rosenthal's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "dibianca-arthur": [
+          {
+            "text": "No public data in our set connects Arthur DiBianca's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Arthur DiBianca's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ]
+      },
+      "summary": "For a medicare retiree voter looking at the Railroad Commissioner of Texas race (Bo French, Jon Rosenthal, Arthur DiBianca): our data set does not contain candidate-specific positions or voting records on Medicare, Social Security, or retiree benefits for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to medicare retiree concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "veteran": {
+      "candidates": {
+        "french-bo": [
+          {
+            "text": "No public data in our set connects Bo French's recorded background or positions specifically to veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Bo French's recorded votes or stated positions regarding veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "rosenthal-jon": [
+          {
+            "text": "No public data in our set connects Jon Rosenthal's recorded background or positions specifically to veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Jon Rosenthal's recorded votes or stated positions regarding veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "dibianca-arthur": [
+          {
+            "text": "No public data in our set connects Arthur DiBianca's recorded background or positions specifically to veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Arthur DiBianca's recorded votes or stated positions regarding veterans' benefits or services.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ]
+      },
+      "summary": "For a veteran voter looking at the Railroad Commissioner of Texas race (Bo French, Jon Rosenthal, Arthur DiBianca): our data set does not contain candidate-specific positions or voting records on veterans' benefits or services for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to veteran concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "student": {
+      "candidates": {
+        "french-bo": [
+          {
+            "text": "No public data in our set connects Bo French's recorded background or positions specifically to higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Bo French's recorded votes or stated positions regarding higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "rosenthal-jon": [
+          {
+            "text": "No public data in our set connects Jon Rosenthal's recorded background or positions specifically to higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Jon Rosenthal's recorded votes or stated positions regarding higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "dibianca-arthur": [
+          {
+            "text": "No public data in our set connects Arthur DiBianca's recorded background or positions specifically to higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Arthur DiBianca's recorded votes or stated positions regarding higher education funding or student costs.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ]
+      },
+      "summary": "For a student voter looking at the Railroad Commissioner of Texas race (Bo French, Jon Rosenthal, Arthur DiBianca): our data set does not contain candidate-specific positions or voting records on higher education funding or student costs for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to student concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    },
+    "rural_agriculture": {
+      "candidates": {
+        "french-bo": [
+          {
+            "text": "No public data in our set connects Bo French's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Bo French's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "rosenthal-jon": [
+          {
+            "text": "No public data in our set connects Jon Rosenthal's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Jon Rosenthal's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ],
+        "dibianca-arthur": [
+          {
+            "text": "No public data in our set connects Arthur DiBianca's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          },
+          {
+            "text": "No public data in our set on Arthur DiBianca's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          }
+        ]
+      },
+      "summary": "For a rural agriculture voter looking at the Railroad Commissioner of Texas race (Bo French, Jon Rosenthal, Arthur DiBianca): our data set does not contain candidate-specific positions or voting records on farming, ranching, water rights, or rural infrastructure for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
+      "caveats": "We only show a connection to rural agriculture concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+    }
+  }
+}

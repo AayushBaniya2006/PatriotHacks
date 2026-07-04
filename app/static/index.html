@@ -1,0 +1,737 @@
+<title>Texas Ballot Guide — 2026 General Election</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="See who's on your Texas ballot and what it could mean for you.">
+<style>
+  :root{
+    --paper:#f7f3e8;
+    --paper-alt:#efe8d6;
+    --ink:#1b2130;
+    --navy:#1f3a5f;
+    --accent:#7d2430;
+    --accent-ink:#fff8f0;
+    --rule:#d8cfb6;
+    --muted:#6c6858;
+    --rep:#9c2b2b;
+    --dem:#1e4b7a;
+    --oth:#5b5748;
+    --radius:3px;
+    --serif:Georgia,'Iowan Old Style','Times New Roman',Times,serif;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#181611;
+      --paper-alt:#1f1c16;
+      --ink:#ece6d6;
+      --navy:#9fc1e8;
+      --accent:#e08b93;
+      --accent-ink:#241012;
+      --rule:#3a362a;
+      --muted:#a39c86;
+      --rep:#e28b8b;
+      --dem:#8bb4e0;
+      --oth:#b3ac95;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#181611;--paper-alt:#1f1c16;--ink:#ece6d6;--navy:#9fc1e8;--accent:#e08b93;
+    --accent-ink:#241012;--rule:#3a362a;--muted:#a39c86;--rep:#e28b8b;--dem:#8bb4e0;--oth:#b3ac95;
+  }
+  :root[data-theme="light"]{
+    --paper:#f7f3e8;--paper-alt:#efe8d6;--ink:#1b2130;--navy:#1f3a5f;--accent:#7d2430;
+    --accent-ink:#fff8f0;--rule:#d8cfb6;--muted:#6c6858;--rep:#9c2b2b;--dem:#1e4b7a;--oth:#5b5748;
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--navy);}
+  a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,.chip:focus-visible{
+    outline:2px solid var(--accent);outline-offset:2px;
+  }
+  .wrap{max-width:900px;margin:0 auto;padding:0 20px;}
+
+  /* ---------- masthead / hero ---------- */
+  .masthead{
+    border-bottom:3px double var(--ink);
+    padding:22px 0 14px;
+  }
+  .masthead .wrap{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;}
+  .brand{font-family:var(--serif);font-weight:700;font-size:1.5rem;letter-spacing:.2px;}
+  .brand .seal{
+    display:inline-block;width:.62em;height:.62em;border-radius:50%;
+    background:var(--accent);margin-right:.4em;vertical-align:middle;
+  }
+  .kicker{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+
+  .hero{padding:44px 0 30px;border-bottom:1px solid var(--rule);}
+  .hero h1{
+    font-family:var(--serif);font-weight:700;
+    font-size:clamp(1.7rem,4vw,2.5rem);
+    line-height:1.15;margin:0 0 22px;max-width:19ch;
+  }
+  .address-form{display:flex;gap:10px;flex-wrap:wrap;}
+  .address-form input[type=text]{
+    flex:1 1 320px;min-width:0;
+    font-family:var(--sans);font-size:1rem;
+    padding:13px 14px;border:1.5px solid var(--ink);border-radius:var(--radius);
+    background:var(--paper);color:var(--ink);
+  }
+  .btn{
+    font-family:var(--sans);font-size:.95rem;font-weight:600;
+    padding:13px 22px;border-radius:var(--radius);border:1.5px solid var(--accent);
+    background:var(--accent);color:var(--accent-ink);cursor:pointer;white-space:nowrap;
+  }
+  .btn:hover{filter:brightness(1.08);}
+  .btn:disabled{opacity:.55;cursor:default;}
+  .btn-ghost{
+    background:transparent;color:var(--accent);border:1.5px solid var(--accent);
+  }
+  .btn-ghost:hover{background:var(--accent);color:var(--accent-ink);}
+  .btn-small{padding:8px 14px;font-size:.85rem;}
+
+  /* ---------- profile panel ---------- */
+  details.profile-panel{margin-top:20px;}
+  details.profile-panel summary{
+    cursor:pointer;font-size:.92rem;color:var(--navy);font-weight:600;
+    list-style:none;display:inline-flex;align-items:center;gap:6px;
+  }
+  details.profile-panel summary::-webkit-details-marker{display:none;}
+  details.profile-panel summary::before{content:"+";display:inline-block;width:1em;font-weight:700;}
+  details.profile-panel[open] summary::before{content:"–";}
+  .profile-body{
+    margin-top:16px;padding:18px 20px;background:var(--paper-alt);
+    border:1px solid var(--rule);border-radius:var(--radius);
+  }
+  .field-row{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px;}
+  .field-row label{
+    font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);
+    display:block;margin-bottom:5px;
+  }
+  .field{flex:1 1 200px;min-width:0;}
+  .field input,.field select{
+    width:100%;font-family:var(--sans);font-size:.92rem;padding:9px 10px;
+    border:1px solid var(--rule);border-radius:var(--radius);background:var(--paper);color:var(--ink);
+  }
+  .chip-groups{display:flex;flex-direction:column;gap:10px;}
+  .chip-group-label{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:5px;}
+  .chip{
+    font-family:var(--sans);font-size:.85rem;padding:7px 13px;border-radius:16px;
+    border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;
+  }
+  .chip[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:var(--accent-ink);}
+
+  /* ---------- ballot view ---------- */
+  #ballot-view{padding:34px 0 60px;}
+  .districts-banner{
+    font-family:var(--serif);font-size:1.05rem;
+    background:var(--paper-alt);border:1px solid var(--rule);border-left:5px solid var(--navy);
+    padding:14px 18px;border-radius:var(--radius);margin-bottom:10px;
+  }
+  .districts-banner b{color:var(--navy);}
+  .banner{
+    padding:13px 18px;border-radius:var(--radius);font-size:.92rem;margin-bottom:18px;
+    border:1px solid var(--rule);
+  }
+  .banner-warning{background:#fbf0d9;border-left:5px solid #a9760c;color:#4a3a10;}
+  .banner-error{background:#fbe4e2;border-left:5px solid var(--rep);color:#4a1414;}
+  :root[data-theme="dark"] .banner-warning,body{}
+  @media (prefers-color-scheme:dark){
+    .banner-warning{background:#2a2210;color:#f0dfa8;}
+    .banner-error{background:#301616;color:#f2c7c2;}
+  }
+  :root[data-theme="dark"] .banner-warning{background:#2a2210;color:#f0dfa8;}
+  :root[data-theme="dark"] .banner-error{background:#301616;color:#f2c7c2;}
+
+  .section-label{
+    font-family:var(--serif);font-size:.82rem;text-transform:uppercase;letter-spacing:.16em;
+    color:var(--muted);margin:34px 0 14px;padding-bottom:6px;border-bottom:1px solid var(--rule);
+  }
+  .section-label:first-child{margin-top:0;}
+
+  .race-card{
+    background:var(--paper-alt);border:1px solid var(--rule);border-radius:var(--radius);
+    padding:20px 22px;margin-bottom:22px;
+  }
+  .race-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;margin-bottom:4px;}
+  .race-title{font-family:var(--serif);font-weight:700;font-size:1.28rem;margin:0;}
+  .race-desc{font-size:.9rem;color:var(--muted);margin:3px 0 14px;max-width:60ch;}
+  .margin-pill{
+    font-size:.76rem;font-weight:700;white-space:nowrap;padding:4px 10px;border-radius:12px;
+    background:var(--paper);border:1px solid var(--ink);color:var(--ink);
+  }
+
+  .cand-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));}
+  .cand-col{
+    background:var(--paper);border:1px solid var(--rule);border-radius:var(--radius);
+    padding:14px 15px;
+  }
+  .cand-name{font-family:var(--serif);font-weight:700;font-size:1.08rem;margin:0 0 6px;}
+  .badge-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;}
+  .party-badge{
+    font-size:.7rem;font-weight:700;letter-spacing:.03em;padding:2px 8px;border-radius:3px;color:#fff;
+  }
+  .party-badge.R{background:var(--rep);}
+  .party-badge.D{background:var(--dem);}
+  .party-badge.O{background:var(--oth);}
+  .incumbent-tag{
+    font-size:.7rem;font-weight:600;padding:2px 8px;border-radius:3px;
+    border:1px solid var(--navy);color:var(--navy);
+  }
+  .data-row{margin:11px 0;font-size:.88rem;}
+  .data-row .dl{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:3px;}
+  .money-amt{font-family:var(--sans);font-weight:700;font-size:1.05rem;}
+  .as-of{color:var(--muted);font-size:.76rem;}
+  .vote-item,.pos-item{margin-bottom:8px;padding-left:0;font-size:.86rem;line-height:1.45;}
+  .vote-item .label,.pos-item .label{font-weight:600;}
+  .empty-note{color:var(--muted);font-size:.83rem;font-style:italic;}
+  .src-chip{
+    display:inline-block;font-size:.68rem;font-family:var(--sans);color:var(--navy);
+    border:1px solid var(--navy);border-radius:3px;padding:0 5px;margin-left:5px;
+    text-decoration:none;vertical-align:middle;white-space:nowrap;
+  }
+  .src-chip:hover{background:var(--navy);color:var(--paper);}
+
+  .insight-btn-row{margin-top:16px;padding-top:14px;border-top:1px solid var(--rule);}
+  .insights-area{margin-top:14px;}
+  .insight-cand{margin-bottom:14px;}
+  .insight-cand h4{font-family:var(--serif);font-size:.98rem;margin:0 0 6px;}
+  .insight-bullet{font-size:.87rem;margin-bottom:6px;line-height:1.5;}
+  .insight-summary{
+    margin-top:12px;padding:12px 14px;background:var(--paper-alt);border-left:4px solid var(--navy);
+    font-size:.87rem;border-radius:var(--radius);
+  }
+  .insight-caveats{margin-top:8px;font-size:.78rem;color:var(--muted);font-style:italic;}
+
+  /* skeletons */
+  .skel{background:linear-gradient(90deg,var(--rule) 25%,var(--paper) 50%,var(--rule) 75%);
+    background-size:200% 100%;animation:shimmer 1.3s infinite;border-radius:3px;}
+  @keyframes shimmer{0%{background-position:200% 0;}100%{background-position:-200% 0;}}
+  .skel-line{height:12px;margin:8px 0;}
+  .skel-card{padding:20px 22px;margin-bottom:22px;background:var(--paper-alt);border:1px solid var(--rule);border-radius:var(--radius);}
+  @media (prefers-reduced-motion:reduce){.skel{animation:none;}}
+
+  footer{border-top:3px double var(--ink);padding:26px 0 40px;margin-top:40px;}
+  footer h5{
+    font-family:var(--serif);font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;
+    color:var(--muted);margin:0 0 10px;
+  }
+  footer ul{list-style:none;margin:0 0 16px;padding:0;display:flex;flex-wrap:wrap;gap:4px 18px;font-size:.85rem;}
+  .tagline{font-family:var(--serif);font-style:italic;color:var(--muted);font-size:.9rem;}
+
+  [hidden]{display:none !important;}
+  @media (max-width:520px){
+    .wrap{padding:0 15px;}
+    .hero{padding:30px 0 24px;}
+    .address-form{flex-direction:column;}
+    .btn{width:100%;}
+  }
+</style>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="brand"><span class="seal" aria-hidden="true"></span>Texas Ballot Guide</div>
+    <div class="kicker">General Election · Nov 3, 2026</div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>See who's on your ballot — and what it could mean for you.</h1>
+    <form class="address-form" id="address-form">
+      <input type="text" id="address-input" placeholder="Enter your home address (e.g. 123 Main St, San Marcos, TX)" autocomplete="street-address" required>
+      <button type="submit" class="btn" id="submit-btn">See my ballot</button>
+    </form>
+
+    <details class="profile-panel" id="profile-panel">
+      <summary>About you (optional — makes insights personal)</summary>
+      <div class="profile-body">
+        <div class="field-row">
+          <div class="field">
+            <label for="occupation-input">Occupation</label>
+            <input type="text" id="occupation-input" placeholder="e.g. nurse, teacher, contractor">
+          </div>
+          <div class="field">
+            <label for="age-select">Age</label>
+            <select id="age-select">
+              <option value="">Prefer not to say</option>
+              <option value="18-24">18–24</option>
+              <option value="25-34">25–34</option>
+              <option value="35-44">35–44</option>
+              <option value="45-54">45–54</option>
+              <option value="55-64">55–64</option>
+              <option value="65+">65+</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="income-select">Household income</label>
+            <select id="income-select">
+              <option value="">Prefer not to say</option>
+              <option value="<25k">Under $25k</option>
+              <option value="25-50k">$25k–$50k</option>
+              <option value="50-75k">$50k–$75k</option>
+              <option value="75-100k">$75k–$100k</option>
+              <option value="100-150k">$100k–$150k</option>
+              <option value="150k+">Over $150k</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="chip-groups">
+          <div>
+            <div class="chip-group-label">Housing</div>
+            <div class="chips" data-group="housing" data-mode="single">
+              <button type="button" class="chip" data-value="homeowner">Homeowner</button>
+              <button type="button" class="chip" data-value="renter">Renter</button>
+            </div>
+          </div>
+          <div>
+            <div class="chip-group-label">Health coverage</div>
+            <div class="chips" data-group="health_coverage" data-mode="single">
+              <button type="button" class="chip" data-value="employer">Employer plan</button>
+              <button type="button" class="chip" data-value="aca">ACA marketplace</button>
+              <button type="button" class="chip" data-value="medicare">Medicare</button>
+              <button type="button" class="chip" data-value="uninsured">Uninsured</button>
+            </div>
+          </div>
+          <div>
+            <div class="chip-group-label">Other</div>
+            <div class="chips" data-group="flags" data-mode="multi">
+              <button type="button" class="chip" data-value="kids_in_school">Kids in public school</button>
+              <button type="button" class="chip" data-value="veteran">Veteran</button>
+              <button type="button" class="chip" data-value="small_business_owner">Small business owner</button>
+              <button type="button" class="chip" data-value="student">Student</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </details>
+  </div>
+</section>
+
+<main class="wrap">
+  <div id="error-banner" class="banner banner-error" hidden role="alert"></div>
+
+  <div id="skeleton-loading" hidden aria-live="polite" aria-label="Loading your ballot">
+    <div class="skel-card">
+      <div class="skel skel-line" style="width:40%;height:18px;"></div>
+      <div class="skel skel-line" style="width:70%;"></div>
+      <div class="skel skel-line" style="width:55%;"></div>
+    </div>
+    <div class="skel-card">
+      <div class="skel skel-line" style="width:35%;height:18px;"></div>
+      <div class="skel skel-line" style="width:65%;"></div>
+      <div class="skel skel-line" style="width:50%;"></div>
+    </div>
+  </div>
+
+  <div id="ballot-view" hidden>
+    <div id="districts-banner" class="districts-banner"></div>
+    <div id="warning-banner" class="banner banner-warning" hidden></div>
+    <div id="races-container"></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <h5>Where this data comes from</h5>
+    <ul>
+      <li><a href="https://api.open.fec.gov/" target="_blank" rel="noopener">FEC (campaign finance)</a></li>
+      <li><a href="https://api.congress.gov/" target="_blank" rel="noopener">Congress.gov (voting records)</a></li>
+      <li><a href="https://clerk.house.gov/" target="_blank" rel="noopener">U.S. House Clerk (roll calls)</a></li>
+      <li><a href="https://en.wikipedia.org/" target="_blank" rel="noopener">Wikipedia (2026 TX race pages)</a></li>
+      <li><a href="https://www.census.gov/" target="_blank" rel="noopener">Census (district lookup)</a></li>
+    </ul>
+    <p class="tagline">This tool informs, it does not endorse.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  var state = {
+    profile: {
+      occupation: "",
+      age_bracket: "",
+      income_bracket: "",
+      housing: null,
+      health_coverage: null,
+      kids_in_school: false,
+      veteran: false,
+      small_business_owner: false,
+      student: false
+    }
+  };
+
+  var OFFICE_BLURBS = [
+    [/governor of texas|^governor$/i, "Runs the executive branch of Texas state government: signs or vetoes bills, oversees state agencies, and can call special legislative sessions."],
+    [/lieutenant governor/i, "Presides over the Texas Senate and controls which bills get a vote — one of the most powerful roles in Texas government."],
+    [/attorney general/i, "Texas's top lawyer: defends state laws in court, issues legal opinions, and enforces consumer-protection and election law."],
+    [/comptroller/i, "Manages the state's finances, certifies the budget, and collects state taxes."],
+    [/land commissioner/i, "Oversees state-owned lands, the Veterans Land Board, and coastal and mineral resources."],
+    [/agriculture commissioner/i, "Regulates farming, food safety, and weights and measures across Texas."],
+    [/railroad commission/i, "Regulates the oil and gas industry in Texas (despite the name, not railroads)."],
+    [/us senate|u\.s\. senate|united states senate/i, "Represents all of Texas in the U.S. Senate: votes on federal laws, judges, and treaties."],
+    [/us house|u\.s\. house|united states representative|us representative/i, "Represents your district in the U.S. House: votes on federal laws, taxes, and the federal budget."],
+    [/state senate|texas senate|^sd-/i, "Represents your district in the Texas Senate: votes on state laws, the state budget, and confirms governor appointments."],
+    [/state house|texas house|^hd-/i, "Represents your district in the Texas House: votes on state laws and the state budget."]
+  ];
+  function officeBlurb(office){
+    office = office || "";
+    for (var i=0;i<OFFICE_BLURBS.length;i++){
+      if (OFFICE_BLURBS[i][0].test(office)) return OFFICE_BLURBS[i][1];
+    }
+    return "An elected office on your ballot this election.";
+  }
+
+  var LEVEL_LABEL = { federal: "Federal", state: "Statewide", state_leg: "Texas Legislature" };
+  var LEVEL_RANK = { federal: 0, state: 1, state_leg: 2 };
+
+  function esc(s){
+    if (s === null || s === undefined) return "";
+    return String(s)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+      .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+  }
+
+  function fmtMoney(n){
+    if (n === null || n === undefined || isNaN(n)) return null;
+    n = Number(n);
+    if (Math.abs(n) >= 1000000) return "$" + (n/1000000).toFixed(1) + "M";
+    if (Math.abs(n) >= 1000) return "$" + (n/1000).toFixed(0) + "K";
+    return "$" + n.toFixed(0);
+  }
+
+  function srcChip(url, label){
+    if (!url) return "";
+    return '<a class="src-chip" href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(label || "source") + '</a>';
+  }
+
+  function partyInfo(party){
+    var p = (party || "").trim();
+    var upper = p.toUpperCase();
+    if (/^R(EP(UBLICAN)?)?$/.test(upper)) return {cls:"R", label:"Republican"};
+    if (/^D(EM(OCRAT(IC)?)?)?$/.test(upper)) return {cls:"D", label:"Democrat"};
+    if (!p) return {cls:"O", label:"Unknown"};
+    return {cls:"O", label:p};
+  }
+
+  function marginPill(context){
+    if (!context) return "";
+    var text = null;
+    if (typeof context === "string") text = context;
+    else if (typeof context === "object") text = context.last_result || context.margin || context.last_margin || null;
+    if (!text) return "";
+    return '<span class="margin-pill">Last election: ' + esc(text) + '</span>';
+  }
+
+  /* ---------------- profile chips ---------------- */
+  document.querySelectorAll(".chips").forEach(function(group){
+    var mode = group.getAttribute("data-mode");
+    var key = group.getAttribute("data-group");
+    group.querySelectorAll(".chip").forEach(function(chip){
+      chip.setAttribute("aria-pressed","false");
+      chip.addEventListener("click", function(){
+        var val = chip.getAttribute("data-value");
+        if (mode === "single"){
+          var already = chip.getAttribute("aria-pressed") === "true";
+          group.querySelectorAll(".chip").forEach(function(c){ c.setAttribute("aria-pressed","false"); });
+          if (!already){
+            chip.setAttribute("aria-pressed","true");
+            state.profile[key] = val;
+          } else {
+            state.profile[key] = null;
+          }
+        } else {
+          var pressed = chip.getAttribute("aria-pressed") === "true";
+          chip.setAttribute("aria-pressed", pressed ? "false" : "true");
+          state.profile[val] = !pressed;
+        }
+      });
+    });
+  });
+
+  document.getElementById("occupation-input").addEventListener("input", function(e){
+    state.profile.occupation = e.target.value;
+  });
+  document.getElementById("age-select").addEventListener("change", function(e){
+    state.profile.age_bracket = e.target.value;
+  });
+  document.getElementById("income-select").addEventListener("change", function(e){
+    state.profile.income_bracket = e.target.value;
+  });
+
+  /* ---------------- ballot fetch ---------------- */
+  var form = document.getElementById("address-form");
+  var submitBtn = document.getElementById("submit-btn");
+  var errorBanner = document.getElementById("error-banner");
+  var skeleton = document.getElementById("skeleton-loading");
+  var ballotView = document.getElementById("ballot-view");
+  var districtsBanner = document.getElementById("districts-banner");
+  var warningBanner = document.getElementById("warning-banner");
+  var racesContainer = document.getElementById("races-container");
+
+  form.addEventListener("submit", function(e){
+    e.preventDefault();
+    var address = document.getElementById("address-input").value.trim();
+    if (!address) return;
+    fetchBallot(address);
+  });
+
+  function showError(msg){
+    errorBanner.textContent = msg;
+    errorBanner.hidden = false;
+  }
+  function hideError(){
+    errorBanner.hidden = true;
+    errorBanner.textContent = "";
+  }
+
+  function fetchBallot(address){
+    hideError();
+    ballotView.hidden = true;
+    skeleton.hidden = false;
+    submitBtn.disabled = true;
+
+    fetch("/api/ballot?address=" + encodeURIComponent(address))
+      .then(function(resp){
+        if (resp.status === 404 || resp.status === 400){
+          return resp.json().catch(function(){ return {}; }).then(function(body){
+            throw { kind: "scope", detail: (body && body.detail) || "This demo covers Texas addresses." };
+          });
+        }
+        if (!resp.ok){
+          throw { kind: "busy" };
+        }
+        return resp.json();
+      })
+      .then(function(data){
+        renderBallot(data);
+      })
+      .catch(function(err){
+        skeleton.hidden = true;
+        if (err && err.kind === "scope"){
+          showError(err.detail);
+        } else if (err && err.kind === "busy"){
+          showError("District lookup is busy — try again.");
+        } else {
+          showError("District lookup is busy — try again.");
+        }
+      })
+      .then(function(){
+        submitBtn.disabled = false;
+      });
+  }
+
+  function renderBallot(data){
+    skeleton.hidden = true;
+    ballotView.hidden = false;
+
+    var districts = data.districts || {};
+    var parts = [];
+    if (districts.cd) parts.push("TX-" + String(districts.cd).replace(/^TX-?/i,""));
+    if (districts.sd) parts.push("SD-" + String(districts.sd).replace(/^SD-?/i,""));
+    if (districts.hd) parts.push("HD-" + String(districts.hd).replace(/^HD-?/i,""));
+    var districtLine = parts.length ? parts.join(" · ") : "district lookup incomplete";
+    var countyLine = districts.county ? " — " + esc(districts.county) + " County" : "";
+    districtsBanner.innerHTML = "Your districts: <b>" + esc(districtLine) + "</b>" + countyLine +
+      (data.matched_address ? '<div style="font-size:.78rem;color:var(--muted);margin-top:5px;font-family:var(--sans);">Matched to: ' + esc(data.matched_address) + "</div>" : "");
+
+    if (data.warning){
+      warningBanner.textContent = data.warning;
+      warningBanner.hidden = false;
+    } else {
+      warningBanner.hidden = true;
+    }
+
+    var races = (data.races || []).slice().sort(function(a,b){
+      var ra = LEVEL_RANK.hasOwnProperty(a.level) ? LEVEL_RANK[a.level] : 9;
+      var rb = LEVEL_RANK.hasOwnProperty(b.level) ? LEVEL_RANK[b.level] : 9;
+      return ra - rb;
+    });
+
+    racesContainer.innerHTML = "";
+    if (!races.length){
+      racesContainer.innerHTML = '<p class="empty-note">No races found for this address yet.</p>';
+      return;
+    }
+
+    var lastLevel = null;
+    races.forEach(function(race){
+      if (race.level !== lastLevel){
+        var label = document.createElement("div");
+        label.className = "section-label";
+        label.textContent = LEVEL_LABEL[race.level] || race.level || "Other races";
+        racesContainer.appendChild(label);
+        lastLevel = race.level;
+      }
+      racesContainer.appendChild(renderRaceCard(race));
+    });
+  }
+
+  function renderRaceCard(race){
+    var card = document.createElement("section");
+    card.className = "race-card";
+    var raceId = race.race_id;
+
+    var head = document.createElement("div");
+    head.className = "race-head";
+    head.innerHTML =
+      '<div><h3 class="race-title">' + esc(race.office || "") +
+      (race.district ? ' <span style="font-weight:400;color:var(--muted);font-size:.85rem;">(' + esc(race.district) + ')</span>' : '') +
+      '</h3><p class="race-desc">' + esc(officeBlurb(race.office)) + '</p></div>' +
+      marginPill(race.context);
+    card.appendChild(head);
+
+    var grid = document.createElement("div");
+    grid.className = "cand-grid";
+    (race.candidates || []).forEach(function(c){
+      grid.appendChild(renderCandidateColumn(c));
+    });
+    card.appendChild(grid);
+
+    var insightRow = document.createElement("div");
+    insightRow.className = "insight-btn-row";
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "btn btn-ghost btn-small";
+    btn.textContent = "What this means for you";
+    var area = document.createElement("div");
+    area.className = "insights-area";
+    area.hidden = true;
+    btn.addEventListener("click", function(){
+      fetchInsights(raceId, race, btn, area);
+    });
+    insightRow.appendChild(btn);
+    insightRow.appendChild(area);
+    card.appendChild(insightRow);
+
+    return card;
+  }
+
+  function renderCandidateColumn(c){
+    var col = document.createElement("div");
+    col.className = "cand-col";
+    var pi = partyInfo(c.party);
+
+    var html = '<h4 class="cand-name">' + esc(c.name || "Unnamed candidate") + '</h4>';
+    html += '<div class="badge-row"><span class="party-badge ' + pi.cls + '">' + esc(pi.label) + '</span>';
+    if (c.incumbent) html += '<span class="incumbent-tag">Incumbent</span>';
+    html += '</div>';
+
+    // finance
+    html += '<div class="data-row"><div class="dl">Money raised</div>';
+    if (c.finance && (c.finance.receipts !== undefined && c.finance.receipts !== null)){
+      var amt = fmtMoney(c.finance.receipts);
+      html += '<span class="money-amt">' + esc(amt) + '</span>' + srcChip(c.finance.source, "source");
+      if (c.finance.as_of) html += '<div class="as-of">as of ' + esc(c.finance.as_of) + '</div>';
+    } else {
+      html += '<span class="empty-note">No public finance data found for this candidate.</span>';
+    }
+    html += '</div>';
+
+    // record: how they voted
+    html += '<div class="data-row"><div class="dl">How they voted</div>';
+    var votes = (c.record && c.record.key_votes) ? c.record.key_votes.slice(0,3) : [];
+    if (votes.length){
+      votes.forEach(function(v){
+        var label = v.plain_english || v.vote || v.bill || "Vote";
+        html += '<div class="vote-item"><span class="label">' + esc(label) + ':</span> ' + esc(v.position || "") +
+          (v.date ? ' <span class="as-of">(' + esc(v.date) + ')</span>' : '') + srcChip(v.source, "source") + '</div>';
+      });
+    } else {
+      html += '<span class="empty-note">No voting record on file yet.</span>';
+    }
+    html += '</div>';
+
+    // positions
+    html += '<div class="data-row"><div class="dl">Positions</div>';
+    var positions = (c.positions || []).slice(0,3);
+    if (positions.length){
+      positions.forEach(function(p){
+        html += '<div class="pos-item"><span class="label">' + esc(p.issue || "") + ':</span> ' + esc(p.summary || "") + srcChip(p.source, "source") + '</div>';
+      });
+    } else {
+      html += '<span class="empty-note">No stated positions on file yet.</span>';
+    }
+    html += '</div>';
+
+    col.innerHTML = html;
+    return col;
+  }
+
+  /* ---------------- insights ---------------- */
+  function fetchInsights(raceId, race, btn, area){
+    area.hidden = false;
+    btn.disabled = true;
+    area.innerHTML =
+      '<div class="skel skel-line" style="width:80%;"></div>' +
+      '<div class="skel skel-line" style="width:60%;"></div>' +
+      '<div class="skel skel-line" style="width:70%;"></div>';
+
+    fetch("/api/insights", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ profile: state.profile, race_id: raceId })
+    })
+      .then(function(resp){
+        if (resp.status === 503){
+          return resp.json().catch(function(){ return {}; }).then(function(body){
+            throw { kind:"unavailable", detail: (body && body.detail) || "Insights are temporarily unavailable." };
+          });
+        }
+        if (!resp.ok){
+          throw { kind:"error" };
+        }
+        return resp.json();
+      })
+      .then(function(data){
+        renderInsights(data, race, area);
+      })
+      .catch(function(err){
+        var msg = (err && err.kind === "unavailable") ? err.detail : "Personalized insights aren't available right now — try again shortly.";
+        area.innerHTML = '<p class="empty-note">' + esc(msg) + '</p>';
+      })
+      .then(function(){
+        btn.disabled = false;
+      });
+  }
+
+  function renderInsights(data, race, area){
+    var byId = {};
+    (race.candidates || []).forEach(function(c){ byId[c.candidate_id || c.name] = c; });
+
+    var html = "";
+    var candidates = (data && data.candidates) || {};
+    var ids = Object.keys(candidates);
+    if (!ids.length){
+      html += '<p class="empty-note">No personalized insights available for this race.</p>';
+    } else {
+      ids.forEach(function(cid){
+        var cand = byId[cid];
+        var name = cand ? cand.name : cid;
+        html += '<div class="insight-cand"><h4>' + esc(name) + '</h4>';
+        (candidates[cid] || []).forEach(function(item){
+          html += '<div class="insight-bullet">' + esc(item.text) + srcChip(item.source, "source") + '</div>';
+        });
+        html += '</div>';
+      });
+    }
+    if (data && data.summary){
+      html += '<div class="insight-summary">' + esc(data.summary) + '</div>';
+    }
+    if (data && data.caveats){
+      html += '<div class="insight-caveats">' + esc(data.caveats) + '</div>';
+    }
+    area.innerHTML = html;
+  }
+
+})();
+</script>

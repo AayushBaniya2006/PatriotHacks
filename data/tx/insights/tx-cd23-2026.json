@@ -1,0 +1,33 @@
+{
+  "race_id": "tx-cd23-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "gonzales-ernest": [
+        {
+          "text": "As of 2026-07-04, FEC filings show Ernest Anthony Tony Gonzales's campaign has raised $2,270,926 and spent $3,402,505.",
+          "source": "https://www.fec.gov/data/candidate/H0TX35015/"
+        },
+        {
+          "text": "No U.S. House roll-call voting record was in our data set for Ernest Anthony Tony Gonzales (non-incumbent candidates have no floor votes to record). Public candidate filings are listed at the source below.",
+          "source": "https://www.fec.gov/data/candidate/H0TX35015/"
+        }
+      ],
+      "limon-santos": [
+        {
+          "text": "As of 2026-07-04, FEC filings show Santos M. Limon's campaign has raised $356,755 and spent $6,815.",
+          "source": "https://www.fec.gov/data/candidate/H4TX23138/"
+        },
+        {
+          "text": "No U.S. House roll-call voting record was in our data set for Santos M. Limon (non-incumbent candidates have no floor votes to record). Public candidate filings are listed at the source below.",
+          "source": "https://www.fec.gov/data/candidate/H4TX23138/"
+        }
+      ]
+    },
+    "summary": "TX-23: 2 candidate(s) on file for U.S. House of Representatives, TX-23. Bullets below summarize each candidate's FEC-reported campaign finance and, for sitting U.S. House members, selected 2025-2026 roll-call votes on file. This is comparative, sourced information only -- it does not recommend a choice.",
+    "caveats": [
+      "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time.",
+      "Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history."
+    ]
+  }
+}

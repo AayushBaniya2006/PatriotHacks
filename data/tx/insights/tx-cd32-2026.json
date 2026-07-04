@@ -1,0 +1,33 @@
+{
+  "race_id": "tx-cd32-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "bondar-paul": [
+        {
+          "text": "As of 2026-07-04, FEC filings show Paul Bondar's campaign has raised $3,202,937 and spent $2,919,650.",
+          "source": "https://www.fec.gov/data/candidate/H6TX32191/"
+        },
+        {
+          "text": "No U.S. House roll-call voting record was in our data set for Paul Bondar (non-incumbent candidates have no floor votes to record). Public candidate filings are listed at the source below.",
+          "source": "https://www.fec.gov/data/candidate/H6TX32191/"
+        }
+      ],
+      "johnson-julie": [
+        {
+          "text": "On H R 1 (22-May-2025), Julie Johnson voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "text": "On H R 29 (7-Jan-2025), Julie Johnson voted Nay. A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        }
+      ]
+    },
+    "summary": "TX-32: 2 candidate(s) on file for U.S. House of Representatives, TX-32. Bullets below summarize each candidate's FEC-reported campaign finance and, for sitting U.S. House members, selected 2025-2026 roll-call votes on file. This is comparative, sourced information only -- it does not recommend a choice.",
+    "caveats": [
+      "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time.",
+      "Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history."
+    ]
+  }
+}

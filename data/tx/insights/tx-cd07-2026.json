@@ -1,0 +1,44 @@
+{
+  "race_id": "tx-cd07-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "kalai-alexander": [
+        {
+          "text": "Alexander Zachary Kalai (Republican) is a candidate for U.S. Representative, TX-07.",
+          "source": "https://www.fec.gov/data/candidate/H6TX07169/"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Alexander Zachary Kalai had raised $315,098 and spent $315,098 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H6TX07169/"
+        },
+        {
+          "text": "No public voting record in our set for Alexander Zachary Kalai (not currently a member of Congress).",
+          "source": "https://www.fec.gov/data/candidate/H6TX07169/"
+        }
+      ],
+      "fletcher-elizabeth": [
+        {
+          "text": "Elizabeth Fletcher (Democratic) is the current officeholder running for U.S. Representative, TX-07.",
+          "source": "https://clerk.house.gov/Votes"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Elizabeth Fletcher had raised $1,229,657 and spent $795,425 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H8TX07140/"
+        },
+        {
+          "text": "On 7-Jan-2025, Elizabeth Fletcher voted Nay on H R 29. A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        }
+      ]
+    },
+    "summary": "This is the U.S. House race for TX-07. In the most recent election (2024-11-05), Lizzie Fletcher (DEM) won by about 22.46 points out of 244471 votes cast. The bullets below summarize each current candidate's public finance and voting-record data where available.",
+    "caveats": [
+      "This summary only includes facts found in our sourced dataset (FEC finance filings and U.S. House Clerk roll-call votes). It omits anything we could not verify from those sources.",
+      "No public data in our set on any candidate's policy positions for this race (the positions field was empty for every candidate as of this build).",
+      "No public data in our set on Alexander Zachary Kalai's policy positions.",
+      "No public data in our set on Elizabeth Fletcher's policy positions."
+    ]
+  },
+  "archetypes": {}
+}

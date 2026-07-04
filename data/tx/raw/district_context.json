@@ -1,0 +1,341 @@
+{
+  "state": "TX",
+  "context_election_date": "2024-11-05",
+  "note": "Prior-cycle (2024) results, provided as historical context ahead of the 2026-11-03 general. Source: Wikipedia district-by-district summary table (U.S. House) and statewide Results tables (President, U.S. Senate), which cite AP/NYT/TX Secretary of State certified results.",
+  "districts": {
+    "TX-01": {
+      "last_winner": "Nathaniel Moran",
+      "party": "REP",
+      "margin_pct": 100.0,
+      "total_votes": 258523,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-02": {
+      "last_winner": "Dan Crenshaw",
+      "party": "REP",
+      "margin_pct": 31.32,
+      "total_votes": 326883,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-03": {
+      "last_winner": "Keith Self",
+      "party": "REP",
+      "margin_pct": 24.91,
+      "total_votes": 380747,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-04": {
+      "last_winner": "Pat Fallon",
+      "party": "REP",
+      "margin_pct": 36.77,
+      "total_votes": 353299,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-05": {
+      "last_winner": "Lance Gooden",
+      "party": "REP",
+      "margin_pct": 28.17,
+      "total_votes": 299897,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-06": {
+      "last_winner": "Jake Ellzey",
+      "party": "REP",
+      "margin_pct": 31.36,
+      "total_votes": 286438,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-07": {
+      "last_winner": "Lizzie Fletcher",
+      "party": "DEM",
+      "margin_pct": 22.46,
+      "total_votes": 244471,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-08": {
+      "last_winner": "Morgan Luttrell",
+      "party": "REP",
+      "margin_pct": 36.43,
+      "total_votes": 342177,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-09": {
+      "last_winner": "Al Green",
+      "party": "DEM",
+      "margin_pct": 100.0,
+      "total_votes": 184141,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-10": {
+      "last_winner": "Michael McCaul",
+      "party": "REP",
+      "margin_pct": 29.59,
+      "total_votes": 347818,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-11": {
+      "last_winner": "August Pfluger",
+      "party": "REP",
+      "margin_pct": 100.0,
+      "total_votes": 211975,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-12": {
+      "last_winner": "Craig Goldman",
+      "party": "REP",
+      "margin_pct": 26.9,
+      "total_votes": 339718,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-13": {
+      "last_winner": "Ronny Jackson",
+      "party": "REP",
+      "margin_pct": 100.0,
+      "total_votes": 240622,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-14": {
+      "last_winner": "Randy Weber",
+      "party": "REP",
+      "margin_pct": 37.37,
+      "total_votes": 306195,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-15": {
+      "last_winner": "Monica De La Cruz",
+      "party": "REP",
+      "margin_pct": 14.15,
+      "total_votes": 223769,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-16": {
+      "last_winner": "Veronica Escobar",
+      "party": "DEM",
+      "margin_pct": 19.08,
+      "total_votes": 220672,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-17": {
+      "last_winner": "Pete Sessions",
+      "party": "REP",
+      "margin_pct": 32.7,
+      "total_votes": 291042,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-18": {
+      "last_winner": "Sylvester Turner",
+      "party": "DEM",
+      "margin_pct": 38.87,
+      "total_votes": 218720,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-19": {
+      "last_winner": "Jodey Arrington",
+      "party": "REP",
+      "margin_pct": 61.38,
+      "total_votes": 265875,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-20": {
+      "last_winner": "Joaquin Castro",
+      "party": "DEM",
+      "margin_pct": 100.0,
+      "total_votes": 157890,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-21": {
+      "last_winner": "Chip Roy",
+      "party": "REP",
+      "margin_pct": 25.79,
+      "total_votes": 426423,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-22": {
+      "last_winner": "Troy Nehls",
+      "party": "REP",
+      "margin_pct": 24.24,
+      "total_votes": 336889,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-23": {
+      "last_winner": "Tony Gonzales",
+      "party": "REP",
+      "margin_pct": 24.6,
+      "total_votes": 290093,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-24": {
+      "last_winner": "Beth Van Duyne",
+      "party": "REP",
+      "margin_pct": 20.6,
+      "total_votes": 376626,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-25": {
+      "last_winner": "Roger Williams",
+      "party": "REP",
+      "margin_pct": 98.74,
+      "total_votes": 264703,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-26": {
+      "last_winner": "Brandon Gill",
+      "party": "REP",
+      "margin_pct": 26.4,
+      "total_votes": 388427,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-27": {
+      "last_winner": "Michael Cloud",
+      "party": "REP",
+      "margin_pct": 32.08,
+      "total_votes": 278576,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-28": {
+      "last_winner": "Henry Cuellar",
+      "party": "DEM",
+      "margin_pct": 5.62,
+      "total_votes": 237607,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-29": {
+      "last_winner": "Sylvia Garcia",
+      "party": "DEM",
+      "margin_pct": 30.58,
+      "total_votes": 152209,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-30": {
+      "last_winner": "Jasmine Crockett",
+      "party": "DEM",
+      "margin_pct": 69.79,
+      "total_votes": 232825,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-31": {
+      "last_winner": "John Carter",
+      "party": "REP",
+      "margin_pct": 28.86,
+      "total_votes": 354479,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-32": {
+      "last_winner": "Julie Johnson",
+      "party": "DEM",
+      "margin_pct": 23.48,
+      "total_votes": 232464,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-33": {
+      "last_winner": "Marc Veasey",
+      "party": "DEM",
+      "margin_pct": 37.58,
+      "total_votes": 165068,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-34": {
+      "last_winner": "Vicente Gonzalez",
+      "party": "DEM",
+      "margin_pct": 2.58,
+      "total_votes": 200077,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-35": {
+      "last_winner": "Greg Casar",
+      "party": "DEM",
+      "margin_pct": 34.72,
+      "total_votes": 253119,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-36": {
+      "last_winner": "Brian Babin",
+      "party": "REP",
+      "margin_pct": 38.72,
+      "total_votes": 295997,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-37": {
+      "last_winner": "Lloyd Doggett",
+      "party": "DEM",
+      "margin_pct": 50.64,
+      "total_votes": 333346,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    },
+    "TX-38": {
+      "last_winner": "Wesley Hunt",
+      "party": "REP",
+      "margin_pct": 25.49,
+      "total_votes": 342764,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+    }
+  },
+  "statewide_2024": {
+    "president": {
+      "winner": "Donald Trump / JD Vance",
+      "party": "REP",
+      "margin_pct": 13.68,
+      "total_votes": 11388674,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_Texas"
+    },
+    "senate": {
+      "winner": "Ted Cruz",
+      "party": "REP",
+      "margin_pct": 8.49,
+      "total_votes": 11291854,
+      "election_date": "2024-11-05",
+      "source": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Texas"
+    }
+  },
+  "meta": {
+    "source_pages": [
+      "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas",
+      "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_Texas",
+      "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Texas"
+    ],
+    "method": "Parsed Wikipedia raw wikitext (action=raw), no API key required.",
+    "prior_source_rejected": "An earlier version of this script aggregated OpenElections openelections-data-tx county CSVs (184/254 counties present). That produced an incorrect statewide presidential winner (Harris) contradicting the actual certified 2024 TX result (Trump won by ~13.7 points), so it was discarded in favor of Wikipedia.",
+    "known_data_note": "TX-20 (Castro) row in the Wikipedia summary table lists a 'Total' column value (218,720) that is inconsistent with its own Democratic votes/percentage figures (157,890 votes at 100.00%) -- likely a stale copy from the TX-18 row. We recompute total_votes as the sum of the Republican+Democratic+Other vote columns for every district rather than trusting the printed 'Total' column, to avoid propagating that error.",
+    "fetch_errors": [],
+    "generated_at": "2026-07-04T00:39:28Z"
+  }
+}

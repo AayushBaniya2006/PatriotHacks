@@ -1,0 +1,74 @@
+{
+  "race_id": "tx-cd09-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "mealer-alexandra": [
+        {
+          "text": "Alexandra Mealer (Republican) is a candidate for U.S. Representative, TX-09.",
+          "source": "https://www.fec.gov/data/candidate/H6TX09140/"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Alexandra Mealer had raised $1,770,301 and spent $1,355,775 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H6TX09140/"
+        },
+        {
+          "text": "No public voting record in our set for Alexandra Mealer (not currently a member of Congress).",
+          "source": "https://www.fec.gov/data/candidate/H6TX09140/"
+        }
+      ],
+      "ivey-r": [
+        {
+          "text": "R. Todd Dr. Ivey (Democratic) is a candidate for U.S. Representative, TX-09.",
+          "source": "https://www.fec.gov/data/candidate/H6TX09215/"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show R. Todd Dr. Ivey had raised $192,630 and spent $176,088 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H6TX09215/"
+        },
+        {
+          "text": "No public voting record in our set for R. Todd Dr. Ivey (not currently a member of Congress).",
+          "source": "https://www.fec.gov/data/candidate/H6TX09215/"
+        }
+      ],
+      "morales-roy": [
+        {
+          "text": "Roy Morales (IND) is a candidate for U.S. Representative, TX-09.",
+          "source": "https://www.fec.gov/data/candidate/H6TX09173/"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Roy Morales had raised $5,008 and spent $1,226 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H6TX09173/"
+        },
+        {
+          "text": "No public voting record in our set for Roy Morales (not currently a member of Congress).",
+          "source": "https://www.fec.gov/data/candidate/H6TX09173/"
+        }
+      ],
+      "green-al": [
+        {
+          "text": "Al Green (Democrat) is the current officeholder running for U.S. Representative, TX-09.",
+          "source": "https://clerk.house.gov/Votes"
+        },
+        {
+          "text": "No public FEC campaign finance data in our set for Al Green.",
+          "source": "https://clerk.house.gov/Votes"
+        },
+        {
+          "text": "On 7-Jan-2025, Al Green voted Nay on H R 29. A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        }
+      ]
+    },
+    "summary": "This is the U.S. House race for TX-09. In the most recent election (2024-11-05), Al Green (DEM) won by about 100.0 points out of 184141 votes cast. The bullets below summarize each current candidate's public finance and voting-record data where available.",
+    "caveats": [
+      "This summary only includes facts found in our sourced dataset (FEC finance filings and U.S. House Clerk roll-call votes). It omits anything we could not verify from those sources.",
+      "No public data in our set on any candidate's policy positions for this race (the positions field was empty for every candidate as of this build).",
+      "No public data in our set on Al Green's policy positions.",
+      "No public data in our set on Alexandra Mealer's policy positions.",
+      "No public data in our set on R. Todd Dr. Ivey's policy positions.",
+      "No public data in our set on Roy Morales's policy positions."
+    ]
+  },
+  "archetypes": {}
+}

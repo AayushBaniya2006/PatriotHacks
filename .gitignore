@@ -2,6 +2,9 @@
 .env
 .env.local
 
+# Local geocode cache (repeat-address lookups; races/candidates data ships in-repo)
+data/cache.db
+
 # Node
 node_modules/
 npm-debug.log*
@@ -18,3 +21,9 @@ env/
 
 # OS
 .DS_Store
+
+# Deprecated sqlite artifact (Postgres is the serving layer now)
+data/tx/app.db
+
+# Agent workspaces
+.codex/

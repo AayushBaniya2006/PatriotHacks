@@ -1,0 +1,263 @@
+{
+  "race_id": "tx-cd28-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "cuellar-henry": [
+        {
+          "text": "As of 2026-07-04, FEC filings show Henry R. Cuellar's campaign has raised $1,620,505 and spent $904,427.",
+          "source": "https://www.fec.gov/data/candidate/H2TX23082/"
+        },
+        {
+          "text": "On H R 1 (22-May-2025), Henry R. Cuellar voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+          "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+        },
+        {
+          "text": "On H R 29 (7-Jan-2025), Henry R. Cuellar voted Yea. A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        }
+      ],
+      "esparza-juan": [
+        {
+          "text": "As of 2026-07-04, FEC filings show Juan Esparza's campaign has raised $32,404 and spent $32,404.",
+          "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+        },
+        {
+          "text": "No U.S. House roll-call voting record was in our data set for Juan Esparza (non-incumbent candidates have no floor votes to record). Public candidate filings are listed at the source below.",
+          "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+        }
+      ]
+    },
+    "summary": "TX-28: 2 candidate(s) on file for U.S. House of Representatives, TX-28. Bullets below summarize each candidate's FEC-reported campaign finance and, for sitting U.S. House members, selected 2025-2026 roll-call votes on file. This is comparative, sourced information only -- it does not recommend a choice.",
+    "caveats": [
+      "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time.",
+      "Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history."
+    ]
+  },
+  "archetypes": {
+    "renter_young_worker": {
+      "candidates": {
+        "cuellar-henry": [
+          {
+            "text": "On H R 1 (22-May-2025), Henry R. Cuellar voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+            "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Henry R. Cuellar's campaign has raised $1,620,505 and spent $904,427.",
+            "source": "https://www.fec.gov/data/candidate/H2TX23082/"
+          }
+        ],
+        "esparza-juan": [
+          {
+            "text": "No public data in our set connects this candidate's record to renters and young workers. (Juan Esparza)",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Juan Esparza's campaign has raised $32,404 and spent $32,404.",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          }
+        ]
+      },
+      "summary": "TX-28: how each candidate's on-file record connects to renters and young workers, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "homeowner_parent": {
+      "candidates": {
+        "cuellar-henry": [
+          {
+            "text": "On H R 4758 (25-Feb-2026), Henry R. Cuellar voted Nay. A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners.",
+            "source": "https://clerk.house.gov/evs/2026/roll078.xml"
+          },
+          {
+            "text": "On H R 1 (22-May-2025), Henry R. Cuellar voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+            "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+          }
+        ],
+        "esparza-juan": [
+          {
+            "text": "No public data in our set connects this candidate's record to homeowners with kids. (Juan Esparza)",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Juan Esparza's campaign has raised $32,404 and spent $32,404.",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          }
+        ]
+      },
+      "summary": "TX-28: how each candidate's on-file record connects to homeowners with kids, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "small_business_owner": {
+      "candidates": {
+        "cuellar-henry": [
+          {
+            "text": "On H R 1 (22-May-2025), Henry R. Cuellar voted Nay. A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit.",
+            "source": "https://clerk.house.gov/evs/2025/roll145.xml"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Henry R. Cuellar's campaign has raised $1,620,505 and spent $904,427.",
+            "source": "https://www.fec.gov/data/candidate/H2TX23082/"
+          }
+        ],
+        "esparza-juan": [
+          {
+            "text": "No public data in our set connects this candidate's record to small business owners. (Juan Esparza)",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Juan Esparza's campaign has raised $32,404 and spent $32,404.",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          }
+        ]
+      },
+      "summary": "TX-28: how each candidate's on-file record connects to small business owners, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "healthcare_aca_or_uninsured": {
+      "candidates": {
+        "cuellar-henry": [
+          {
+            "text": "On H R 6703 (17-Dec-2025), Henry R. Cuellar voted Nay. A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans.",
+            "source": "https://clerk.house.gov/evs/2025/roll349.xml"
+          },
+          {
+            "text": "On H R 498 (18-Dec-2025), Henry R. Cuellar voted Yea. A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors.",
+            "source": "https://clerk.house.gov/evs/2025/roll362.xml"
+          }
+        ],
+        "esparza-juan": [
+          {
+            "text": "No public data in our set connects this candidate's record to people on ACA marketplace plans or without insurance. (Juan Esparza)",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Juan Esparza's campaign has raised $32,404 and spent $32,404.",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          }
+        ]
+      },
+      "summary": "TX-28: how each candidate's on-file record connects to people on ACA marketplace plans or without insurance, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "medicare_retiree": {
+      "candidates": {
+        "cuellar-henry": [
+          {
+            "text": "No public data in our set on Medicare-specific votes for this candidate. (Henry R. Cuellar)",
+            "source": "https://clerk.house.gov/Votes"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Henry R. Cuellar's campaign has raised $1,620,505 and spent $904,427.",
+            "source": "https://www.fec.gov/data/candidate/H2TX23082/"
+          }
+        ],
+        "esparza-juan": [
+          {
+            "text": "No public data in our set on Medicare-specific votes for this candidate. (Juan Esparza)",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Juan Esparza's campaign has raised $32,404 and spent $32,404.",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          }
+        ]
+      },
+      "summary": "TX-28: how each candidate's on-file record connects to Medicare-age retirees, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "veteran": {
+      "candidates": {
+        "cuellar-henry": [
+          {
+            "text": "No public data in our set on veteran-specific votes or positions for this candidate. (Henry R. Cuellar)",
+            "source": "https://clerk.house.gov/Votes"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Henry R. Cuellar's campaign has raised $1,620,505 and spent $904,427.",
+            "source": "https://www.fec.gov/data/candidate/H2TX23082/"
+          }
+        ],
+        "esparza-juan": [
+          {
+            "text": "No public data in our set on veteran-specific votes or positions for this candidate. (Juan Esparza)",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Juan Esparza's campaign has raised $32,404 and spent $32,404.",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          }
+        ]
+      },
+      "summary": "TX-28: how each candidate's on-file record connects to veterans, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "student": {
+      "candidates": {
+        "cuellar-henry": [
+          {
+            "text": "No public data in our set on education or student-loan votes for this candidate. (Henry R. Cuellar)",
+            "source": "https://clerk.house.gov/Votes"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Henry R. Cuellar's campaign has raised $1,620,505 and spent $904,427.",
+            "source": "https://www.fec.gov/data/candidate/H2TX23082/"
+          }
+        ],
+        "esparza-juan": [
+          {
+            "text": "No public data in our set on education or student-loan votes for this candidate. (Juan Esparza)",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Juan Esparza's campaign has raised $32,404 and spent $32,404.",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          }
+        ]
+      },
+      "summary": "TX-28: how each candidate's on-file record connects to students, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    },
+    "rural_agriculture": {
+      "candidates": {
+        "cuellar-henry": [
+          {
+            "text": "On H R 26 (7-Feb-2025), Henry R. Cuellar voted Yea. A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval.",
+            "source": "https://clerk.house.gov/evs/2025/roll035.xml"
+          },
+          {
+            "text": "On H R 7744 (5-Mar-2026), Henry R. Cuellar voted Yea. A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year.",
+            "source": "https://clerk.house.gov/evs/2026/roll087.xml"
+          }
+        ],
+        "esparza-juan": [
+          {
+            "text": "No public data in our set connects this candidate's record to rural and agricultural voters. (Juan Esparza)",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          },
+          {
+            "text": "As of 2026-07-04, FEC filings show Juan Esparza's campaign has raised $32,404 and spent $32,404.",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/"
+          }
+        ]
+      },
+      "summary": "TX-28: how each candidate's on-file record connects to rural and agricultural voters, based only on sourced finance/voting data.",
+      "caveats": [
+        "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+      ]
+    }
+  }
+}

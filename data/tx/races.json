@@ -1,0 +1,1050 @@
+{
+  "state": "TX",
+  "election_date": "2026-11-03",
+  "races": [
+    {
+      "race_id": "tx-gov-2026",
+      "office": "Governor of Texas",
+      "level": "state",
+      "district": null,
+      "candidate_ids": [
+        "abbott-greg",
+        "hinojosa-gina",
+        "dixon-pat",
+        "raphoon-jenn"
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Greg Abbott"
+      }
+    },
+    {
+      "race_id": "tx-ltgov-2026",
+      "office": "Lieutenant Governor of Texas",
+      "level": "state",
+      "district": null,
+      "candidate_ids": [
+        "patrick-dan",
+        "goodwin-vikki",
+        "collier-mike",
+        "cristo-anthony",
+        "mccormick-kevin"
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Dan Patrick"
+      }
+    },
+    {
+      "race_id": "tx-ag-2026",
+      "office": "Attorney General of Texas",
+      "level": "state",
+      "district": null,
+      "candidate_ids": [
+        "middleton-mayes",
+        "johnson-nathan",
+        "oxford-tom"
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Ken Paxton"
+      }
+    },
+    {
+      "race_id": "tx-sen-2026",
+      "office": "United States Senator from Texas",
+      "level": "federal",
+      "district": null,
+      "candidate_ids": [
+        "paxton-ken",
+        "talarico-james"
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
+        ],
+        "last_result": "Incumbent prior to 2026: John Cornyn"
+      }
+    },
+    {
+      "race_id": "tx-comptroller-2026",
+      "office": "Texas Comptroller of Public Accounts",
+      "level": "state",
+      "district": null,
+      "candidate_ids": [
+        "huffines-don",
+        "eckhardt-sarah"
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Don Huffines; (acting)"
+      }
+    },
+    {
+      "race_id": "tx-landcomm-2026",
+      "office": "Texas Land Commissioner",
+      "level": "state",
+      "district": null,
+      "candidate_ids": [
+        "buckingham-dawn",
+        "flores-benjamin",
+        "snider-neill"
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Dawn Buckingham"
+      }
+    },
+    {
+      "race_id": "tx-agcomm-2026",
+      "office": "Texas Commissioner of Agriculture",
+      "level": "state",
+      "district": null,
+      "candidate_ids": [
+        "sheets-nate",
+        "tucker-clayton"
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Sid Miller"
+      }
+    },
+    {
+      "race_id": "tx-railroad-2026",
+      "office": "Railroad Commissioner of Texas",
+      "level": "state",
+      "district": null,
+      "candidate_ids": [
+        "french-bo",
+        "rosenthal-jon",
+        "dibianca-arthur"
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Jim Wright"
+      }
+    },
+    {
+      "race_id": "tx-cd01-2026",
+      "office": "U.S. House of Representatives, TX-01",
+      "level": "federal",
+      "district": "TX-01",
+      "candidate_ids": [
+        "alexander-dax",
+        "moran-nathaniel"
+      ],
+      "context": {
+        "last_result": "2024 winner: Nathaniel Moran (REP), margin 100.0 pts of 258523 votes cast",
+        "last_result_detail": {
+          "last_winner": "Nathaniel Moran",
+          "party": "REP",
+          "margin_pct": 100.0,
+          "total_votes": 258523,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd02-2026",
+      "office": "U.S. House of Representatives, TX-02",
+      "level": "federal",
+      "district": "TX-02",
+      "candidate_ids": [
+        "crenshaw-daniel"
+      ],
+      "context": {
+        "last_result": "2024 winner: Dan Crenshaw (REP), margin 31.32 pts of 326883 votes cast",
+        "last_result_detail": {
+          "last_winner": "Dan Crenshaw",
+          "party": "REP",
+          "margin_pct": 31.32,
+          "total_votes": 326883,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd03-2026",
+      "office": "U.S. House of Representatives, TX-03",
+      "level": "federal",
+      "district": "TX-03",
+      "candidate_ids": [
+        "hunt-evan",
+        "self-keith"
+      ],
+      "context": {
+        "last_result": "2024 winner: Keith Self (REP), margin 24.91 pts of 380747 votes cast",
+        "last_result_detail": {
+          "last_winner": "Keith Self",
+          "party": "REP",
+          "margin_pct": 24.91,
+          "total_votes": 380747,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd04-2026",
+      "office": "U.S. House of Representatives, TX-04",
+      "level": "federal",
+      "district": "TX-04",
+      "candidate_ids": [
+        "pearce-jason",
+        "fallon-patrick"
+      ],
+      "context": {
+        "last_result": "2024 winner: Pat Fallon (REP), margin 36.77 pts of 353299 votes cast",
+        "last_result_detail": {
+          "last_winner": "Pat Fallon",
+          "party": "REP",
+          "margin_pct": 36.77,
+          "total_votes": 353299,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd05-2026",
+      "office": "U.S. House of Representatives, TX-05",
+      "level": "federal",
+      "district": "TX-05",
+      "candidate_ids": [
+        "hockett-chelsey",
+        "gooden-lance"
+      ],
+      "context": {
+        "last_result": "2024 winner: Lance Gooden (REP), margin 28.17 pts of 299897 votes cast",
+        "last_result_detail": {
+          "last_winner": "Lance Gooden",
+          "party": "REP",
+          "margin_pct": 28.17,
+          "total_votes": 299897,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd06-2026",
+      "office": "U.S. House of Representatives, TX-06",
+      "level": "federal",
+      "district": "TX-06",
+      "candidate_ids": [
+        "ellzey-john"
+      ],
+      "context": {
+        "last_result": "2024 winner: Jake Ellzey (REP), margin 31.36 pts of 286438 votes cast",
+        "last_result_detail": {
+          "last_winner": "Jake Ellzey",
+          "party": "REP",
+          "margin_pct": 31.36,
+          "total_votes": 286438,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd07-2026",
+      "office": "U.S. House of Representatives, TX-07",
+      "level": "federal",
+      "district": "TX-07",
+      "candidate_ids": [
+        "kalai-alexander",
+        "fletcher-elizabeth"
+      ],
+      "context": {
+        "last_result": "2024 winner: Lizzie Fletcher (DEM), margin 22.46 pts of 244471 votes cast",
+        "last_result_detail": {
+          "last_winner": "Lizzie Fletcher",
+          "party": "DEM",
+          "margin_pct": 22.46,
+          "total_votes": 244471,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd08-2026",
+      "office": "U.S. House of Representatives, TX-08",
+      "level": "federal",
+      "district": "TX-08",
+      "candidate_ids": [
+        "luttrell-morgan"
+      ],
+      "context": {
+        "last_result": "2024 winner: Morgan Luttrell (REP), margin 36.43 pts of 342177 votes cast",
+        "last_result_detail": {
+          "last_winner": "Morgan Luttrell",
+          "party": "REP",
+          "margin_pct": 36.43,
+          "total_votes": 342177,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd09-2026",
+      "office": "U.S. House of Representatives, TX-09",
+      "level": "federal",
+      "district": "TX-09",
+      "candidate_ids": [
+        "mealer-alexandra",
+        "ivey-r",
+        "morales-roy",
+        "green-al"
+      ],
+      "context": {
+        "last_result": "2024 winner: Al Green (DEM), margin 100.0 pts of 184141 votes cast",
+        "last_result_detail": {
+          "last_winner": "Al Green",
+          "party": "DEM",
+          "margin_pct": 100.0,
+          "total_votes": 184141,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd10-2026",
+      "office": "U.S. House of Representatives, TX-10",
+      "level": "federal",
+      "district": "TX-10",
+      "candidate_ids": [
+        "mccaul-michael",
+        "eckhardt-sarah-tx10"
+      ],
+      "context": {
+        "last_result": "2024 winner: Michael McCaul (REP), margin 29.59 pts of 347818 votes cast",
+        "last_result_detail": {
+          "last_winner": "Michael McCaul",
+          "party": "REP",
+          "margin_pct": 29.59,
+          "total_votes": 347818,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd11-2026",
+      "office": "U.S. House of Representatives, TX-11",
+      "level": "federal",
+      "district": "TX-11",
+      "candidate_ids": [
+        "pfluger-august",
+        "reynolds-claire"
+      ],
+      "context": {
+        "last_result": "2024 winner: August Pfluger (REP), margin 100.0 pts of 211975 votes cast",
+        "last_result_detail": {
+          "last_winner": "August Pfluger",
+          "party": "REP",
+          "margin_pct": 100.0,
+          "total_votes": 211975,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd12-2026",
+      "office": "U.S. House of Representatives, TX-12",
+      "level": "federal",
+      "district": "TX-12",
+      "candidate_ids": [
+        "goldman-craig"
+      ],
+      "context": {
+        "last_result": "2024 winner: Craig Goldman (REP), margin 26.9 pts of 339718 votes cast",
+        "last_result_detail": {
+          "last_winner": "Craig Goldman",
+          "party": "REP",
+          "margin_pct": 26.9,
+          "total_votes": 339718,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd13-2026",
+      "office": "U.S. House of Representatives, TX-13",
+      "level": "federal",
+      "district": "TX-13",
+      "candidate_ids": [
+        "nair-mark",
+        "jackson-ronny"
+      ],
+      "context": {
+        "last_result": "2024 winner: Ronny Jackson (REP), margin 100.0 pts of 240622 votes cast",
+        "last_result_detail": {
+          "last_winner": "Ronny Jackson",
+          "party": "REP",
+          "margin_pct": 100.0,
+          "total_votes": 240622,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd14-2026",
+      "office": "U.S. House of Representatives, TX-14",
+      "level": "federal",
+      "district": "TX-14",
+      "candidate_ids": [
+        "davis-richard",
+        "weber-randy"
+      ],
+      "context": {
+        "last_result": "2024 winner: Randy Weber (REP), margin 37.37 pts of 306195 votes cast",
+        "last_result_detail": {
+          "last_winner": "Randy Weber",
+          "party": "REP",
+          "margin_pct": 37.37,
+          "total_votes": 306195,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd15-2026",
+      "office": "U.S. House of Representatives, TX-15",
+      "level": "federal",
+      "district": "TX-15",
+      "candidate_ids": [
+        "cruz-monica"
+      ],
+      "context": {
+        "last_result": "2024 winner: Monica De La Cruz (REP), margin 14.15 pts of 223769 votes cast",
+        "last_result_detail": {
+          "last_winner": "Monica De La Cruz",
+          "party": "REP",
+          "margin_pct": 14.15,
+          "total_votes": 223769,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd16-2026",
+      "office": "U.S. House of Representatives, TX-16",
+      "level": "federal",
+      "district": "TX-16",
+      "candidate_ids": [
+        "cabildo-hector",
+        "escobar-veronica"
+      ],
+      "context": {
+        "last_result": "2024 winner: Veronica Escobar (DEM), margin 19.08 pts of 220672 votes cast",
+        "last_result_detail": {
+          "last_winner": "Veronica Escobar",
+          "party": "DEM",
+          "margin_pct": 19.08,
+          "total_votes": 220672,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd17-2026",
+      "office": "U.S. House of Representatives, TX-17",
+      "level": "federal",
+      "district": "TX-17",
+      "candidate_ids": [
+        "mitchell-james",
+        "sessions-pete"
+      ],
+      "context": {
+        "last_result": "2024 winner: Pete Sessions (REP), margin 32.7 pts of 291042 votes cast",
+        "last_result_detail": {
+          "last_winner": "Pete Sessions",
+          "party": "REP",
+          "margin_pct": 32.7,
+          "total_votes": 291042,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd18-2026",
+      "office": "U.S. House of Representatives, TX-18",
+      "level": "federal",
+      "district": "TX-18",
+      "candidate_ids": [
+        "menefee-christian",
+        "berry-allen"
+      ],
+      "context": {
+        "last_result": "2024 winner: Sylvester Turner (DEM), margin 38.87 pts of 218720 votes cast",
+        "last_result_detail": {
+          "last_winner": "Sylvester Turner",
+          "party": "DEM",
+          "margin_pct": 38.87,
+          "total_votes": 218720,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd19-2026",
+      "office": "U.S. House of Representatives, TX-19",
+      "level": "federal",
+      "district": "TX-19",
+      "candidate_ids": [
+        "arrington-jodey",
+        "rable-kyle"
+      ],
+      "context": {
+        "last_result": "2024 winner: Jodey Arrington (REP), margin 61.38 pts of 265875 votes cast",
+        "last_result_detail": {
+          "last_winner": "Jodey Arrington",
+          "party": "REP",
+          "margin_pct": 61.38,
+          "total_votes": 265875,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd20-2026",
+      "office": "U.S. House of Representatives, TX-20",
+      "level": "federal",
+      "district": "TX-20",
+      "candidate_ids": [
+        "baez-edgardo",
+        "castro-joaquin"
+      ],
+      "context": {
+        "last_result": "2024 winner: Joaquin Castro (DEM), margin 100.0 pts of 157890 votes cast",
+        "last_result_detail": {
+          "last_winner": "Joaquin Castro",
+          "party": "DEM",
+          "margin_pct": 100.0,
+          "total_votes": 157890,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd21-2026",
+      "office": "U.S. House of Representatives, TX-21",
+      "level": "federal",
+      "district": "TX-21",
+      "candidate_ids": [
+        "roy-chip",
+        "hook-kristin"
+      ],
+      "context": {
+        "last_result": "2024 winner: Chip Roy (REP), margin 25.79 pts of 426423 votes cast",
+        "last_result_detail": {
+          "last_winner": "Chip Roy",
+          "party": "REP",
+          "margin_pct": 25.79,
+          "total_votes": 426423,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd22-2026",
+      "office": "U.S. House of Representatives, TX-22",
+      "level": "federal",
+      "district": "TX-22",
+      "candidate_ids": [
+        "nehls-troy"
+      ],
+      "context": {
+        "last_result": "2024 winner: Troy Nehls (REP), margin 24.24 pts of 336889 votes cast",
+        "last_result_detail": {
+          "last_winner": "Troy Nehls",
+          "party": "REP",
+          "margin_pct": 24.24,
+          "total_votes": 336889,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd23-2026",
+      "office": "U.S. House of Representatives, TX-23",
+      "level": "federal",
+      "district": "TX-23",
+      "candidate_ids": [
+        "gonzales-ernest",
+        "limon-santos"
+      ],
+      "context": {
+        "last_result": "2024 winner: Tony Gonzales (REP), margin 24.6 pts of 290093 votes cast",
+        "last_result_detail": {
+          "last_winner": "Tony Gonzales",
+          "party": "REP",
+          "margin_pct": 24.6,
+          "total_votes": 290093,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd24-2026",
+      "office": "U.S. House of Representatives, TX-24",
+      "level": "federal",
+      "district": "TX-24",
+      "candidate_ids": [
+        "buchwald-jon",
+        "duyne-beth"
+      ],
+      "context": {
+        "last_result": "2024 winner: Beth Van Duyne (REP), margin 20.6 pts of 376626 votes cast",
+        "last_result_detail": {
+          "last_winner": "Beth Van Duyne",
+          "party": "REP",
+          "margin_pct": 20.6,
+          "total_votes": 376626,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd25-2026",
+      "office": "U.S. House of Representatives, TX-25",
+      "level": "federal",
+      "district": "TX-25",
+      "candidate_ids": [
+        "marks-william",
+        "williams-roger"
+      ],
+      "context": {
+        "last_result": "2024 winner: Roger Williams (REP), margin 98.74 pts of 264703 votes cast",
+        "last_result_detail": {
+          "last_winner": "Roger Williams",
+          "party": "REP",
+          "margin_pct": 98.74,
+          "total_votes": 264703,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd26-2026",
+      "office": "U.S. House of Representatives, TX-26",
+      "level": "federal",
+      "district": "TX-26",
+      "candidate_ids": [
+        "gill-brandon"
+      ],
+      "context": {
+        "last_result": "2024 winner: Brandon Gill (REP), margin 26.4 pts of 388427 votes cast",
+        "last_result_detail": {
+          "last_winner": "Brandon Gill",
+          "party": "REP",
+          "margin_pct": 26.4,
+          "total_votes": 388427,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd27-2026",
+      "office": "U.S. House of Representatives, TX-27",
+      "level": "federal",
+      "district": "TX-27",
+      "candidate_ids": [
+        "cloud-michael"
+      ],
+      "context": {
+        "last_result": "2024 winner: Michael Cloud (REP), margin 32.08 pts of 278576 votes cast",
+        "last_result_detail": {
+          "last_winner": "Michael Cloud",
+          "party": "REP",
+          "margin_pct": 32.08,
+          "total_votes": 278576,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd28-2026",
+      "office": "U.S. House of Representatives, TX-28",
+      "level": "federal",
+      "district": "TX-28",
+      "candidate_ids": [
+        "cuellar-henry",
+        "esparza-juan"
+      ],
+      "context": {
+        "last_result": "2024 winner: Henry Cuellar (DEM), margin 5.62 pts of 237607 votes cast",
+        "last_result_detail": {
+          "last_winner": "Henry Cuellar",
+          "party": "DEM",
+          "margin_pct": 5.62,
+          "total_votes": 237607,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd29-2026",
+      "office": "U.S. House of Representatives, TX-29",
+      "level": "federal",
+      "district": "TX-29",
+      "candidate_ids": [
+        "garcia-sylvia"
+      ],
+      "context": {
+        "last_result": "2024 winner: Sylvia Garcia (DEM), margin 30.58 pts of 152209 votes cast",
+        "last_result_detail": {
+          "last_winner": "Sylvia Garcia",
+          "party": "DEM",
+          "margin_pct": 30.58,
+          "total_votes": 152209,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd30-2026",
+      "office": "U.S. House of Representatives, TX-30",
+      "level": "federal",
+      "district": "TX-30",
+      "candidate_ids": [
+        "crockett-jasmine",
+        "heise-gregor"
+      ],
+      "context": {
+        "last_result": "2024 winner: Jasmine Crockett (DEM), margin 69.79 pts of 232825 votes cast",
+        "last_result_detail": {
+          "last_winner": "Jasmine Crockett",
+          "party": "DEM",
+          "margin_pct": 69.79,
+          "total_votes": 232825,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd31-2026",
+      "office": "U.S. House of Representatives, TX-31",
+      "level": "federal",
+      "district": "TX-31",
+      "candidate_ids": [
+        "carter-john",
+        "stoker-gregory"
+      ],
+      "context": {
+        "last_result": "2024 winner: John Carter (REP), margin 28.86 pts of 354479 votes cast",
+        "last_result_detail": {
+          "last_winner": "John Carter",
+          "party": "REP",
+          "margin_pct": 28.86,
+          "total_votes": 354479,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd32-2026",
+      "office": "U.S. House of Representatives, TX-32",
+      "level": "federal",
+      "district": "TX-32",
+      "candidate_ids": [
+        "bondar-paul",
+        "johnson-julie"
+      ],
+      "context": {
+        "last_result": "2024 winner: Julie Johnson (DEM), margin 23.48 pts of 232464 votes cast",
+        "last_result_detail": {
+          "last_winner": "Julie Johnson",
+          "party": "DEM",
+          "margin_pct": 23.48,
+          "total_votes": 232464,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd33-2026",
+      "office": "U.S. House of Representatives, TX-33",
+      "level": "federal",
+      "district": "TX-33",
+      "candidate_ids": [
+        "allred-colin",
+        "schwab-kurt",
+        "veasey-marc"
+      ],
+      "context": {
+        "last_result": "2024 winner: Marc Veasey (DEM), margin 37.58 pts of 165068 votes cast",
+        "last_result_detail": {
+          "last_winner": "Marc Veasey",
+          "party": "DEM",
+          "margin_pct": 37.58,
+          "total_votes": 165068,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd34-2026",
+      "office": "U.S. House of Representatives, TX-34",
+      "level": "federal",
+      "district": "TX-34",
+      "candidate_ids": [
+        "mandel-charles",
+        "gonzalez-vicente"
+      ],
+      "context": {
+        "last_result": "2024 winner: Vicente Gonzalez (DEM), margin 2.58 pts of 200077 votes cast",
+        "last_result_detail": {
+          "last_winner": "Vicente Gonzalez",
+          "party": "DEM",
+          "margin_pct": 2.58,
+          "total_votes": 200077,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd35-2026",
+      "office": "U.S. House of Representatives, TX-35",
+      "level": "federal",
+      "district": "TX-35",
+      "candidate_ids": [
+        "cruz-carlos",
+        "garcia-johnny",
+        "casar-greg"
+      ],
+      "context": {
+        "last_result": "2024 winner: Greg Casar (DEM), margin 34.72 pts of 253119 votes cast",
+        "last_result_detail": {
+          "last_winner": "Greg Casar",
+          "party": "DEM",
+          "margin_pct": 34.72,
+          "total_votes": 253119,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd36-2026",
+      "office": "U.S. House of Representatives, TX-36",
+      "level": "federal",
+      "district": "TX-36",
+      "candidate_ids": [
+        "rogers-doug",
+        "babin-brian"
+      ],
+      "context": {
+        "last_result": "2024 winner: Brian Babin (REP), margin 38.72 pts of 295997 votes cast",
+        "last_result_detail": {
+          "last_winner": "Brian Babin",
+          "party": "REP",
+          "margin_pct": 38.72,
+          "total_votes": 295997,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd37-2026",
+      "office": "U.S. House of Representatives, TX-37",
+      "level": "federal",
+      "district": "TX-37",
+      "candidate_ids": [
+        "pena-lauren",
+        "doggett-lloyd"
+      ],
+      "context": {
+        "last_result": "2024 winner: Lloyd Doggett (DEM), margin 50.64 pts of 333346 votes cast",
+        "last_result_detail": {
+          "last_winner": "Lloyd Doggett",
+          "party": "DEM",
+          "margin_pct": 50.64,
+          "total_votes": 333346,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    },
+    {
+      "race_id": "tx-cd38-2026",
+      "office": "U.S. House of Representatives, TX-38",
+      "level": "federal",
+      "district": "TX-38",
+      "candidate_ids": [
+        "mcmenemy-alex",
+        "hunter-marvalette",
+        "hunt-wesley"
+      ],
+      "context": {
+        "last_result": "2024 winner: Wesley Hunt (REP), margin 25.49 pts of 342764 votes cast",
+        "last_result_detail": {
+          "last_winner": "Wesley Hunt",
+          "party": "REP",
+          "margin_pct": 25.49,
+          "total_votes": 342764,
+          "election_date": "2024-11-05",
+          "source": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        },
+        "sources": [
+          "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_Texas"
+        ]
+      }
+    }
+  ]
+}

@@ -71,6 +71,16 @@ Every fact carries a `source` URL. Missing data = omit the field, never invent.
 
 District resolution at runtime: Census geocoder returns CD + SLDU + SLDL GEOIDs → look up statewide races + that CD race (+ SD/HD races if stretch goal lands).
 
+## API contract (backend ⇄ any JS frontend)
+
+Stateless JSON over HTTP; nothing about the user is ever stored (address + profile live only in the request).
+
+- `GET /api/ballot?address=<free text>` → 200 `{matched_address, districts:{cd:"TX-35", sd:"SD-21", hd:"HD-45", county}, races:[{race_id, office, level, district, context, candidates:[{candidate_id, name, party, incumbent, fec_id, finance{receipts,disbursements,cash_on_hand,as_of,source}, record{key_votes:[{bill,position,plain_english,date,source}], sponsored_highlights}, positions:[{issue,summary,source}], sources}]}], warning?}` · 422 address no-match · 400 non-Texas · 503 geocoder down.
+- `POST /api/insights` body `{profile, race_id}` → 200 `{mode:"cached"|"live"|"unavailable", archetype_used, candidates:{<candidate_id>:[{text, source}]}, summary, caveats}`.
+- `GET /healthz` → `{status, data_loaded, races, candidates, insights_cached}`.
+- `profile` object (all fields optional): `{occupation:string, age_bracket:"18_24"|"25_34"|"35_49"|"50_64"|"65_plus", income_bracket:"under_35k"|"35_75k"|"75_150k"|"150k_plus", housing:"renter"|"homeowner", kids_public_school:bool, health_coverage:"employer"|"aca"|"medicare"|"uninsured", veteran:bool, small_business_owner:bool, student:bool}`.
+- **CORS**: FastAPI must allow the civic-match origins (localhost:3000 + its Railway/Vercel domain) — add CORSMiddleware in the integration pass.
+
 ## Voter profile fields (frontend form)
 
 Address (required). Optional: occupation (free text), age bracket, income bracket, and flags: homeowner/renter, kids in public school, health coverage (employer/ACA/medicare/uninsured), veteran, small-business owner, student.

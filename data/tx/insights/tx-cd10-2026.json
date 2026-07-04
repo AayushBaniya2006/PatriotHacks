@@ -1,0 +1,44 @@
+{
+  "race_id": "tx-cd10-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "mccaul-michael": [
+        {
+          "text": "Michael Mccaul (Republican) is the current officeholder running for U.S. Representative, TX-10.",
+          "source": "https://clerk.house.gov/Votes"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Michael Mccaul had raised $271,697 and spent $400,946 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H4TX10093/"
+        },
+        {
+          "text": "On 7-Jan-2025, Michael Mccaul voted Yea on H R 29. A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        }
+      ],
+      "eckhardt-sarah-tx10": [
+        {
+          "text": "Sarah Eckhardt (Democratic) is a candidate for U.S. Representative, TX-10.",
+          "source": "https://www.fec.gov/data/candidate/H6TX10262/"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Sarah Eckhardt had raised $113,353 and spent $110,496 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H6TX10262/"
+        },
+        {
+          "text": "No public voting record in our set for Sarah Eckhardt (not currently a member of Congress).",
+          "source": "https://www.fec.gov/data/candidate/H6TX10262/"
+        }
+      ]
+    },
+    "summary": "This is the U.S. House race for TX-10. In the most recent election (2024-11-05), Michael McCaul (REP) won by about 29.59 points out of 347818 votes cast. The bullets below summarize each current candidate's public finance and voting-record data where available.",
+    "caveats": [
+      "This summary only includes facts found in our sourced dataset (FEC finance filings and U.S. House Clerk roll-call votes). It omits anything we could not verify from those sources.",
+      "No public data in our set on any candidate's policy positions for this race (the positions field was empty for every candidate as of this build).",
+      "No public data in our set on Michael Mccaul's policy positions.",
+      "No public data in our set on Sarah Eckhardt's policy positions."
+    ]
+  },
+  "archetypes": {}
+}

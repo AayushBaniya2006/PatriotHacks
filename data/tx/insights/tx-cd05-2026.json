@@ -1,0 +1,44 @@
+{
+  "race_id": "tx-cd05-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "hockett-chelsey": [
+        {
+          "text": "Chelsey Alexandra Hockett (Democratic) is a candidate for U.S. Representative, TX-05.",
+          "source": "https://www.fec.gov/data/candidate/H6TX05189/"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Chelsey Alexandra Hockett had raised $11,105 and spent $-9,690 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H6TX05189/"
+        },
+        {
+          "text": "No public voting record in our set for Chelsey Alexandra Hockett (not currently a member of Congress).",
+          "source": "https://www.fec.gov/data/candidate/H6TX05189/"
+        }
+      ],
+      "gooden-lance": [
+        {
+          "text": "Lance Gooden (Republican) is the current officeholder running for U.S. Representative, TX-05.",
+          "source": "https://clerk.house.gov/Votes"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Lance Gooden had raised $1,170,230 and spent $554,887 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H8TX05144/"
+        },
+        {
+          "text": "On 7-Jan-2025, Lance Gooden voted Yea on H R 29. A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        }
+      ]
+    },
+    "summary": "This is the U.S. House race for TX-05. In the most recent election (2024-11-05), Lance Gooden (REP) won by about 28.17 points out of 299897 votes cast. The bullets below summarize each current candidate's public finance and voting-record data where available.",
+    "caveats": [
+      "This summary only includes facts found in our sourced dataset (FEC finance filings and U.S. House Clerk roll-call votes). It omits anything we could not verify from those sources.",
+      "No public data in our set on any candidate's policy positions for this race (the positions field was empty for every candidate as of this build).",
+      "No public data in our set on Chelsey Alexandra Hockett's policy positions.",
+      "No public data in our set on Lance Gooden's policy positions."
+    ]
+  },
+  "archetypes": {}
+}

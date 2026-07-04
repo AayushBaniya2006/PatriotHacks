@@ -1,0 +1,356 @@
+{
+  "races": [
+    {
+      "race_id": "tx-gov-2026",
+      "office": "Governor of Texas",
+      "level": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Greg Abbott",
+          "party": "Republican Party of Texas",
+          "incumbent": true,
+          "background": "Greg Abbott, incumbent governor (2015–present).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          ]
+        },
+        {
+          "name": "Gina Hinojosa",
+          "party": "Texas Democratic Party",
+          "incumbent": false,
+          "background": "Gina Hinojosa, state representative from the 49th district (2017–present).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          ]
+        },
+        {
+          "name": "Pat Dixon",
+          "party": "Libertarian",
+          "incumbent": false,
+          "background": "Pat Dixon (Libertarian), former chair of the Libertarian Party of Texas",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          ]
+        },
+        {
+          "name": "Jenn Mack Raphoon",
+          "party": "Independent",
+          "incumbent": false,
+          "background": "Jenn Mack Raphoon (Independent)",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          ]
+        }
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Greg Abbott"
+      }
+    },
+    {
+      "race_id": "tx-ltgov-2026",
+      "office": "Lieutenant Governor of Texas",
+      "level": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Dan Patrick",
+          "party": "Republican Party of Texas",
+          "incumbent": true,
+          "background": "Dan Patrick, incumbent lieutenant governor (2015–present).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+          ]
+        },
+        {
+          "name": "Vikki Goodwin",
+          "party": "Texas Democratic Party",
+          "incumbent": false,
+          "background": "Vikki Goodwin, state representative from the 47th district (2019–present).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+          ]
+        },
+        {
+          "name": "Mike Collier",
+          "party": "Independent",
+          "incumbent": false,
+          "background": "Mike Collier (Independent), certified public accountant, Democratic nominee for Lt. Governor in 2018 and 2022, Democratic nominee for Comptroller in 2014",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+          ]
+        },
+        {
+          "name": "Anthony Cristo",
+          "party": "Libertarian",
+          "incumbent": false,
+          "background": "Anthony Cristo (Libertarian), nominee for Texas's 15th congressional district in 2018, and nominee for Texas's 34th congressional district in 2020",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+          ]
+        },
+        {
+          "name": "Kevin McCormick",
+          "party": "Green",
+          "incumbent": false,
+          "background": "Kevin McCormick (Green), former teacher",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+          ]
+        }
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Dan Patrick"
+      }
+    },
+    {
+      "race_id": "tx-ag-2026",
+      "office": "Attorney General of Texas",
+      "level": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Mayes Middleton",
+          "party": "Republican Party (United States)",
+          "incumbent": false,
+          "background": "Mayes Middleton, state senator from the 11th district (2023–present).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+          ]
+        },
+        {
+          "name": "Nathan Johnson",
+          "party": "Democratic Party (United States)",
+          "incumbent": false,
+          "background": "Nathan Johnson, state senator from the 16th district (2019–present).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+          ]
+        },
+        {
+          "name": "Tom Oxford",
+          "party": "Libertarian",
+          "incumbent": false,
+          "background": "Tom Oxford (Libertarian), attorney and perennial candidate",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+          ]
+        }
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Ken Paxton"
+      }
+    },
+    {
+      "race_id": "tx-sen-2026",
+      "office": "United States Senator from Texas",
+      "level": "federal",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Ken Paxton",
+          "party": "Republican Party (United States)",
+          "incumbent": false,
+          "background": "Ken Paxton, attorney general of Texas (2015–present).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
+          ]
+        },
+        {
+          "name": "James Talarico",
+          "party": "Democratic Party (United States)",
+          "incumbent": false,
+          "background": "James Talarico, state representative from the 50th district (2018–present).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
+          ]
+        }
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
+        ],
+        "last_result": "Incumbent prior to 2026: John Cornyn"
+      }
+    },
+    {
+      "race_id": "tx-comptroller-2026",
+      "office": "Texas Comptroller of Public Accounts",
+      "level": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Don Huffines",
+          "party": "Republican",
+          "incumbent": false,
+          "background": "Don Huffines, former state senator from the 16th district (2015–2019) and candidate for governor in 2022.",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
+          ]
+        },
+        {
+          "name": "Sarah Eckhardt",
+          "party": "Democratic",
+          "incumbent": false,
+          "background": "Sarah Eckhardt, state senator from the 14th district (2020–present).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
+          ]
+        }
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Don Huffines; (acting)"
+      }
+    },
+    {
+      "race_id": "tx-landcomm-2026",
+      "office": "Texas Land Commissioner",
+      "level": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Dawn Buckingham",
+          "party": "Republican Party of Texas",
+          "incumbent": true,
+          "background": "Dawn Buckingham, incumbent land commissioner.",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+          ]
+        },
+        {
+          "name": "Benjamin Flores",
+          "party": "Texas Democratic Party",
+          "incumbent": false,
+          "background": "Benjamin Flores, Bay City councilor (previously ran for governor).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+          ]
+        },
+        {
+          "name": "Neill Snider",
+          "party": "Libertarian",
+          "incumbent": false,
+          "background": "Neill Snider (Libertarian)",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+          ]
+        }
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Dawn Buckingham"
+      }
+    },
+    {
+      "race_id": "tx-agcomm-2026",
+      "office": "Texas Commissioner of Agriculture",
+      "level": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Nate Sheets",
+          "party": "Republican Party of Texas",
+          "incumbent": false,
+          "background": "Nate Sheets, beekeeper and small business owner.",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          ]
+        },
+        {
+          "name": "Clayton Tucker",
+          "party": "Texas Democratic Party",
+          "incumbent": false,
+          "background": "Clayton Tucker, rancher and founder of the Texas Progressive Caucus.",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          ]
+        }
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Sid Miller"
+      }
+    },
+    {
+      "race_id": "tx-railroad-2026",
+      "office": "Railroad Commissioner of Texas",
+      "level": "state",
+      "district": null,
+      "candidates": [
+        {
+          "name": "Bo French",
+          "party": "Republican Party of Texas",
+          "incumbent": false,
+          "background": "Bo French, former chair of the Tarrant County Republican Party.",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          ]
+        },
+        {
+          "name": "Jon Rosenthal",
+          "party": "Texas Democratic Party",
+          "incumbent": false,
+          "background": "Jon Rosenthal, state representative from the 135th district (2019–present).",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          ]
+        },
+        {
+          "name": "Arthur DiBianca",
+          "party": "Libertarian",
+          "incumbent": false,
+          "background": "Arthur DiBianca (Libertarian)",
+          "positions": [],
+          "sources": [
+            "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+          ]
+        }
+      ],
+      "context": {
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election"
+        ],
+        "last_result": "Incumbent prior to 2026: Jim Wright"
+      }
+    }
+  ]
+}

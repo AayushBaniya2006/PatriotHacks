@@ -1,0 +1,44 @@
+{
+  "race_id": "tx-cd03-2026",
+  "generated_at": "2026-07-03",
+  "base": {
+    "candidates": {
+      "hunt-evan": [
+        {
+          "text": "Evan Hunt (Democratic) is a candidate for U.S. Representative, TX-03.",
+          "source": "https://www.fec.gov/data/candidate/H6TX03234/"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Evan Hunt had raised $336,981 and spent $305,935 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H6TX03234/"
+        },
+        {
+          "text": "No public voting record in our set for Evan Hunt (not currently a member of Congress).",
+          "source": "https://www.fec.gov/data/candidate/H6TX03234/"
+        }
+      ],
+      "self-keith": [
+        {
+          "text": "Keith Alan Self (Republican) is the current officeholder running for U.S. Representative, TX-03.",
+          "source": "https://clerk.house.gov/Votes"
+        },
+        {
+          "text": "As of 2026-07-04, FEC records show Keith Alan Self had raised $504,420 and spent $482,950 for this campaign.",
+          "source": "https://www.fec.gov/data/candidate/H2TX00064/"
+        },
+        {
+          "text": "On 7-Jan-2025, Keith Alan Self voted Yea on H R 29. A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions.",
+          "source": "https://clerk.house.gov/evs/2025/roll006.xml"
+        }
+      ]
+    },
+    "summary": "This is the U.S. House race for TX-03. In the most recent election (2024-11-05), Keith Self (REP) won by about 24.91 points out of 380747 votes cast. The bullets below summarize each current candidate's public finance and voting-record data where available.",
+    "caveats": [
+      "This summary only includes facts found in our sourced dataset (FEC finance filings and U.S. House Clerk roll-call votes). It omits anything we could not verify from those sources.",
+      "No public data in our set on any candidate's policy positions for this race (the positions field was empty for every candidate as of this build).",
+      "No public data in our set on Evan Hunt's policy positions.",
+      "No public data in our set on Keith Alan Self's policy positions."
+    ]
+  },
+  "archetypes": {}
+}
