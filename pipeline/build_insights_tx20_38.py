@@ -60,9 +60,9 @@ ARCHETYPE_LABELS = {
 }
 
 ARCHETYPE_NO_DATA_NOTE = {
-    "medicare_retiree": "No public data in our set on Medicare-specific votes for this candidate.",
-    "veteran": "No public data in our set on veteran-specific votes or positions for this candidate.",
-    "student": "No public data in our set on education or student-loan votes for this candidate.",
+    "medicare_retiree": "no public data in our set on Medicare-specific votes",
+    "veteran": "no public data in our set on veteran-specific votes or positions",
+    "student": "no public data in our set on education or student-loan votes",
 }
 
 
@@ -109,6 +109,22 @@ def vote_bullet(cand, vote):
     plain = vote["plain_english"]
     date_ = vote.get("date", "")
     text = f"On {bill} ({date_}), {name} voted {position}. {plain}"
+    return {"text": text, "source": vote["source"]}
+
+
+def archetype_vote_bullet(cand, vote, archetype):
+    """Same recorded vote as vote_bullet(), but framed for the archetype
+    reading it -- without this prefix an archetype block's vote bullet was
+    indistinguishable from the base block's (same sentence, no signal for
+    *why* it was picked for this reader). Matches the 'For {label}:'
+    convention build_insights_house.py already uses for TX-01..19."""
+    name = cand["name"]
+    bill = vote["bill"]
+    position = vote["position"]
+    plain = vote["plain_english"]
+    date_ = vote.get("date", "")
+    label = ARCHETYPE_LABELS.get(archetype, archetype.replace("_", " "))
+    text = f"For {label}: on {bill} ({date_}), {name} voted {position}. {plain}"
     return {"text": text, "source": vote["source"]}
 
 
@@ -219,17 +235,20 @@ def build_archetype_bullets(cand, archetype):
             break
 
     for v in matched[:2]:
-        bullets.append(vote_bullet(cand, v))
+        bullets.append(archetype_vote_bullet(cand, v, archetype))
 
     if not bullets:
-        # Explicit uncertainty per archetype, backed by whatever source exists.
+        # Explicit uncertainty per archetype, backed by whatever source
+        # exists -- leads with the candidate's name instead of tacking it on
+        # in a trailing parenthetical, and always keeps the literal
+        # "no ... in our set" phrasing our no-data detectors key on (see
+        # pipeline/validate_citations.py's _NO_DATA_RE).
         src = first_source(cand)
-        note = ARCHETYPE_NO_DATA_NOTE.get(
-            archetype,
-            f"No public data in our set connects this candidate's record to {ARCHETYPE_LABELS.get(archetype, archetype)}.",
-        )
+        name = cand["name"]
+        label = ARCHETYPE_LABELS.get(archetype, archetype.replace("_", " "))
+        note = ARCHETYPE_NO_DATA_NOTE.get(archetype, f"no public data in our set ties their record to {label}")
         if src:
-            bullets.append({"text": f"{note} ({cand['name']})", "source": src})
+            bullets.append({"text": f"{name}: {note}.", "source": src})
 
     # If we still have room, add the finance bullet for grounding (money is
     # relevant context for every archetype: campaign scale/access).
@@ -260,10 +279,10 @@ def build_race_insights(race, candidates):
         f"for sitting U.S. House members, selected 2025-2026 roll-call votes on file. "
         f"This is comparative, sourced information only -- it does not recommend a choice."
     )
-    caveats = [
-        "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time.",
-        "Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history.",
-    ]
+    caveats = (
+        "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time. "
+        "Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history."
+    )
 
     result = {
         "race_id": race_id,
@@ -292,9 +311,9 @@ def build_race_insights(race, candidates):
                 f"{district}: how each candidate's on-file record connects to "
                 f"{ARCHETYPE_LABELS.get(key, key)}, based only on sourced finance/voting data."
             )
-            arch_caveats = [
-                "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly.",
-            ]
+            arch_caveats = (
+                "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
+            )
             archetypes[key] = {
                 "candidates": arch_candidates,
                 "summary": arch_summary,

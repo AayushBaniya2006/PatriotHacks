@@ -216,6 +216,10 @@ export interface CandidateHorizons {
 export interface InsightsResponse {
   mode: "cached" | "live" | "unavailable";
   archetype_used?: string;
+  // Present on mode "cached" — the precomputed insight doc's own top-level
+  // `generated_at` (YYYY-MM-DD), passed through by app/main.py's cached
+  // branch. Absent on "live"/"unavailable" (no precomputed doc behind it).
+  generated_at?: string;
   candidates: Record<string, InsightBullet[]>;
   horizons?: Record<string, CandidateHorizons>;
   summary?: string;

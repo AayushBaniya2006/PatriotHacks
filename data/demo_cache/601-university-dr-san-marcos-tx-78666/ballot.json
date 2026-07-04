@@ -229,11 +229,12 @@
               "summary": "Dixon pledges to identify specific spending cuts first\u2014citing Texas\u2019 $321 billion budget\u2014and rejects across-the-board cuts without detailing which departments or services would end."
             },
             {
-              "confidence": 0.9,
+              "confidence": 0.55,
               "issue": "ai tech",
               "origin": "civic-match-research",
               "source": "https://patdixon.org/ai/",
-              "summary": "Dixon opposes new AI mandates, arguing private-sector adoption of voluntary standards is preferable to regulation that could slow innovation."
+              "source_status": "content-unsupported",
+              "summary": "Dixon is skeptical of 'expansive' AI regulation, arguing on his campaign site that expectations about AI's future impact 'may themselves be overstated' and that lawmakers should weigh lighter forms of regulation before defaulting to the most restrictive one. The page stops short of a specific policy commitment (e.g., it does not say he opposes AI mandates or endorses voluntary industry standards)."
             },
             {
               "confidence": 0.9,
@@ -851,7 +852,7 @@
               "confidence": 0.95,
               "issue": "lgbtq",
               "origin": "civic-match-research",
-              "source": "https://texasattorneygeneral.gov/sites/default/files/global/KP-0401.pdf",
+              "source": "https://www.texasattorneygeneral.gov/sites/default/files/global/KP-0401.pdf",
               "summary": "Paxton strongly opposes expanding LGBTQ+ protections. He issued an official opinion that gender-affirming medical procedures on children can constitute 'child abuse' under Texas law. He sued to block federal rules requiring doctors to perform gender transition procedures and to prevent Medicaid funding of such procedures. He 'strongly disagrees' with adding gender identity as a protected class and has fought against federal mandates on this issue."
             },
             {
@@ -880,7 +881,7 @@
             "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
             "https://www.texasattorneygeneral.gov/news/releases/texas-attorney-general-ken-paxton-fights-protect-texas-energy-industry-calls-president-biden",
             "https://ivoterguide.com/candidate/2902/race/13668/election/871",
-            "https://texasattorneygeneral.gov/sites/default/files/global/KP-0401.pdf",
+            "https://www.texasattorneygeneral.gov/sites/default/files/global/KP-0401.pdf",
             "https://www.oag.state.tx.us/initiatives/border-security",
             "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-reaches-settlement-first-its-kind-healthcare-generative-ai-investigation",
             "https://www.oag.state.tx.us/news/releases/attorney-general-ken-paxton-leads-nation-protecting-americans-data-privacy-and-security-big-tech"

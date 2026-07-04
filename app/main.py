@@ -599,6 +599,7 @@ def post_insights(body: InsightsRequest) -> dict[str, Any]:
             "summary": selected["summary"],
             "caveats": selected["caveats"],
             "horizons": selected.get("horizons", {}),
+            "generated_at": cached.get("generated_at"),
         }
 
     # Validate the race actually exists regardless of whether the live

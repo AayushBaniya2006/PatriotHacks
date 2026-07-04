@@ -1,4 +1,12 @@
 {
+  "100 e main st, pflugerville, tx 78660": {
+    "cd": "TX-10",
+    "county": "Travis County",
+    "hd": "HD-46",
+    "matched_address": "100 E MAIN ST, PFLUGERVILLE, TX, 78660",
+    "sd": "SD-14",
+    "seeded_at": "2026-07-03"
+  },
   "100 w cano st, edinburg, tx 78539": {
     "cd": "TX-15",
     "county": "Hidalgo County",
@@ -7,12 +15,44 @@
     "sd": "SD-20",
     "seeded_at": "2026-07-03"
   },
+  "100 w center st, kyle, tx 78640": {
+    "cd": "TX-21",
+    "county": "Hays County",
+    "hd": "HD-45",
+    "matched_address": "100 W CENTER ST, KYLE, TX, 78640",
+    "sd": "SD-21",
+    "seeded_at": "2026-07-03"
+  },
   "1000 houston st, laredo, tx 78040": {
     "cd": "TX-28",
     "county": "Webb County",
     "hd": "HD-42",
     "matched_address": "1000 HOUSTON ST, LAREDO, TX, 78040",
     "sd": "SD-21",
+    "seeded_at": "2026-07-03"
+  },
+  "10414 mckalla pl, austin, tx 78758": {
+    "cd": "TX-37",
+    "county": "Travis County",
+    "hd": "HD-49",
+    "matched_address": "10414 MC KALLA PL, AUSTIN, TX, 78758",
+    "sd": "SD-14",
+    "seeded_at": "2026-07-03"
+  },
+  "105 e eggleston st, manor, tx 78653": {
+    "cd": "TX-35",
+    "county": "Travis County",
+    "hd": "HD-46",
+    "matched_address": "105 E EGGLESTON ST, MANOR, TX, 78653",
+    "sd": "SD-14",
+    "seeded_at": "2026-07-03"
+  },
+  "110 inner campus dr, austin, tx 78712": {
+    "cd": "TX-37",
+    "county": "Travis County",
+    "hd": "HD-49",
+    "matched_address": "110 INNER CAMPUS DR, AUSTIN, TX, 78712",
+    "sd": "SD-14",
     "seeded_at": "2026-07-03"
   },
   "1100 congress ave, austin, tx 78701": {
@@ -31,12 +71,76 @@
     "sd": "SD-27",
     "seeded_at": "2026-07-03"
   },
+  "1102 lohmans crossing rd, lakeway, tx 78734": {
+    "cd": "TX-10",
+    "county": "Travis County",
+    "hd": "HD-19",
+    "matched_address": "1102 LOHMANS CROSSING RD, LAKEWAY, TX, 78734",
+    "sd": "SD-25",
+    "seeded_at": "2026-07-03"
+  },
+  "11410 century oaks ter, austin, tx 78758": {
+    "cd": "TX-37",
+    "county": "Travis County",
+    "hd": "HD-50",
+    "matched_address": "11410 CENTURY OAKS TER, AUSTIN, TX, 78758",
+    "sd": "SD-14",
+    "seeded_at": "2026-07-03"
+  },
+  "201 e pecan st, pflugerville, tx 78660": {
+    "cd": "TX-10",
+    "county": "Travis County",
+    "hd": "HD-50",
+    "matched_address": "201 E PECAN ST, PFLUGERVILLE, TX, 78660",
+    "sd": "SD-14",
+    "seeded_at": "2026-07-03"
+  },
+  "2100 barton springs rd, austin, tx 78704": {
+    "cd": "TX-37",
+    "county": "Travis County",
+    "hd": "HD-48",
+    "matched_address": "2100 BARTON SPRINGS RD, AUSTIN, TX, 78746",
+    "sd": "SD-14",
+    "seeded_at": "2026-07-03"
+  },
+  "221 e main st, round rock, tx 78664": {
+    "cd": "TX-17",
+    "county": "Williamson County",
+    "hd": "HD-136",
+    "matched_address": "221 E MAIN AVE, ROUND ROCK, TX, 78664",
+    "sd": "SD-5",
+    "seeded_at": "2026-07-03"
+  },
   "255 parkway blvd, coppell, tx 75019": {
     "cd": "TX-24",
     "county": "Dallas County",
     "hd": "HD-115",
     "matched_address": "255 PARKWAY BLVD, COPPELL, TX, 75019",
     "sd": "SD-12",
+    "seeded_at": "2026-07-03"
+  },
+  "301 w 2nd st, austin, tx 78701": {
+    "cd": "TX-37",
+    "county": "Travis County",
+    "hd": "HD-49",
+    "matched_address": "301 W 2ND ST, AUSTIN, TX, 78701",
+    "sd": "SD-14",
+    "seeded_at": "2026-07-03"
+  },
+  "3600 presidential blvd, austin, tx 78719": {
+    "cd": "TX-35",
+    "county": "Travis County",
+    "hd": "HD-51",
+    "matched_address": "3600 PRESIDENTIAL BLVD, AUSTIN, TX, 78719",
+    "sd": "SD-21",
+    "seeded_at": "2026-07-03"
+  },
+  "450 cypress creek rd, cedar park, tx 78613": {
+    "cd": "TX-10",
+    "county": "Williamson County",
+    "hd": "HD-20",
+    "matched_address": "450 CYPRESS CREEK RD, CEDAR PARK, TX, 78613",
+    "sd": "SD-24",
     "seeded_at": "2026-07-03"
   },
   "500 e san antonio ave, el paso, tx 79901": {
@@ -47,12 +151,68 @@
     "sd": "SD-29",
     "seeded_at": "2026-07-03"
   },
+  "511 sportsplex dr, dripping springs, tx 78620": {
+    "cd": "TX-21",
+    "county": "Hays County",
+    "hd": "HD-73",
+    "matched_address": "511 SPORTSPLEX TRL, DRIPPING SPRINGS, TX, 78620",
+    "sd": "SD-25",
+    "seeded_at": "2026-07-03"
+  },
   "601 university dr, san marcos, tx 78666": {
     "cd": "TX-35",
     "county": "Hays County",
     "hd": "HD-45",
     "matched_address": "601 UNIVERSITY DR, SAN MARCOS, TX, 78666",
     "sd": "SD-21",
+    "seeded_at": "2026-07-03"
+  },
+  "630 e hopkins st, san marcos, tx 78666": {
+    "cd": "TX-35",
+    "county": "Hays County",
+    "hd": "HD-45",
+    "matched_address": "630 E HOPKINS ST, SAN MARCOS, TX, 78666",
+    "sd": "SD-21",
+    "seeded_at": "2026-07-03"
+  },
+  "701 w riverside dr, austin, tx 78704": {
+    "cd": "TX-37",
+    "county": "Travis County",
+    "hd": "HD-51",
+    "matched_address": "701 W RIVERSIDE DR, AUSTIN, TX, 78704",
+    "sd": "SD-14",
+    "seeded_at": "2026-07-03"
+  },
+  "710 s main st, georgetown, tx 78626": {
+    "cd": "TX-31",
+    "county": "Williamson County",
+    "hd": "HD-20",
+    "matched_address": "710 S MAIN ST, GEORGETOWN, TX, 78626",
+    "sd": "SD-5",
+    "seeded_at": "2026-07-03"
+  },
+  "710 w cesar chavez st, austin, tx 78701": {
+    "cd": "TX-37",
+    "county": "Travis County",
+    "hd": "HD-49",
+    "matched_address": "710 W CESAR CHAVEZ ST, AUSTIN, TX, 78701",
+    "sd": "SD-14",
+    "seeded_at": "2026-07-03"
+  },
+  "808 martin luther king jr st, georgetown, tx 78626": {
+    "cd": "TX-31",
+    "county": "Williamson County",
+    "hd": "HD-20",
+    "matched_address": "808 MARTIN LUTHER KING ST, GEORGETOWN, TX, 78626",
+    "sd": "SD-5",
+    "seeded_at": "2026-07-03"
+  },
+  "900 chicon st, austin, tx 78702": {
+    "cd": "TX-35",
+    "county": "Travis County",
+    "hd": "HD-46",
+    "matched_address": "900 CHICON ST, AUSTIN, TX, 78702",
+    "sd": "SD-14",
     "seeded_at": "2026-07-03"
   },
   "901 bagby st, houston, tx 77002": {

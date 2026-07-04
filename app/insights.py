@@ -196,7 +196,8 @@ def generate_insights(
 ) -> dict[str, Any]:
     """Call OpenRouter (Claude Sonnet 4.5) for a grounded, cited comparison.
 
-    Returns {"candidates": {candidate_id: [{"text","source"}, ...]}, "summary": str, "caveats": str}
+    Returns {"candidates": {candidate_id: [{"text","source"}, ...]}, "summary": str, "caveats": str,
+    "horizons": dict} -- "horizons" mirrors the cached-path shape (currently always {} on the live path).
     Raises ValueError on unparseable model output (caller maps to an HTTP error).
     """
     client = OpenAI(base_url=OPENROUTER_BASE_URL, api_key=api_key)

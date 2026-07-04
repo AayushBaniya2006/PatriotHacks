@@ -6,6 +6,49 @@
 // request a personalized read via <InsightsPanel/> (owned by the parent),
 // and a per-race "How we know" disclosure. A readiness bar up top tracks
 // how many races the voter has opened (lib/readiness.ts).
+//
+// AESTHETIC QA PASS (spacing / type hierarchy / alignment / contrast /
+// states / density) applied on top of the existing structure:
+//   - text-zinc-500/600 -> text-zinc-400 throughout: both former shades sit
+//     below WCAG AA (4.5:1) against this module's actual card surfaces
+//     (zinc-950 tiles, zinc-900/50-on-navy shells) -- verified in Python
+//     (relative-luminance contrast, not eyeballed). zinc-400 clears 7:1+ on
+//     every surface in this file, so one muted tier replaces two failing
+//     ones rather than patching them to different values.
+//   - border-zinc-700/800 -> border-zinc-500 throughout: at 1px, the old
+//     borders measured 1.2-1.9:1 against every surface here (navy page,
+//     zinc-900/50 shell, zinc-950 tile) -- far under the 3:1 AA floor for
+//     UI-component boundaries. zinc-500 is the lightest *unmodified* zinc
+//     step that clears 3:1 on all of them (3.3-4.1:1), so every card/chip/
+//     button/divider border in this module now reads as an actual boundary
+//     instead of nearly disappearing into the navy backdrop.
+//   - Money/Votes field labels promoted to the same uppercase/tracked/
+//     semibold micro-label treatment already used for the horizon eyebrows
+//     ("Right now" / "Down the road" in InsightsPanel) and this file's own
+//     level-group headers -- was plain sentence-case with an inconsistent
+//     mb-0.5 vs mb-1 gap; now one consistent label idiom + one gap value.
+//   - Candidate row switched from flex-wrap+flex-1 to a fixed 1/2-col grid:
+//     flex-basis:0 with a min-w floor means a race with an odd candidate
+//     count (this ballot's Governor race has 4) leaves an orphan candidate
+//     alone on its row that then STRETCHES to the full card width while its
+//     siblings stay ~220px -- a real, reproducible unequal-column bug, not
+//     hypothetical. CSS Grid with explicit tracks keeps every column the
+//     same width on every row regardless of how the last row fills, and
+//     bonus: grid's default `align-items: stretch` equalizes row heights
+//     for free (a 0-vote candidate's card no longer looks shorter next to a
+//     3-vote one).
+//   - RaceCard's office name promoted from a bare <div> to <h4> (nested one
+//     level under "Your ballot" h2 -> level-group h3 -> race h4) so each
+//     race card has exactly one real heading, matching SecondaryRaceRow.
+//   - Featured race gets p-6 (vs secondary's p-5) so it visibly breathes in
+//     its own right, on top of the existing expanded-vs-collapsed density
+//     split; its accent border bumped gold/40 -> gold/60 to
+//     actually clear 3:1 (was 2.15:1) -- now matches the "Featured race"
+//     pill's own border token instead of a different, failing one.
+//   - ReadinessBar's progress track gets a visible border (was indistinguishable
+//     from its own card background at 1.2:1); HowWeKnow's disclosure body
+//     gets max-w-prose so its source/coverage sentences don't run the full
+//     card width on a wide featured race.
 import { useSyncExternalStore } from "react";
 import type { Candidate, DataQuality, Districts, Race, VotingInfo, VotingLocation } from "@/lib/dataBackend";
 import { getReviewed, readinessKey, subscribeReviewed } from "@/lib/readiness";
@@ -31,14 +74,23 @@ function formatMoney(n?: number | null): string | null {
   });
 }
 
-function marginPill(race: Race): string | null {
+// Returns the pill's text plus its source URL (when the structured
+// last_result_detail carries one, per schema.md) SEPARATELY rather than as
+// one pre-joined string, so both render sites below can attach the same
+// clickable "source ↗" affordance every other sourced number in this file
+// gets -- this margin-pct figure is a citable fact like money/votes and must
+// not be the one number in the module that renders with no citation at all.
+// The unstructured `last_result` string fallback has no discrete `source`
+// field in the schema, so it's surfaced with source left undefined rather
+// than guessing/attaching one -- never invent a citation that isn't there.
+function marginPill(race: Race): { text: string; source?: string } | null {
   const detail = race.context?.last_result_detail;
   if (detail && typeof detail.margin_pct === "number") {
     const who = detail.last_winner ?? "Last winner";
     const party = detail.party ? ` (${detail.party})` : "";
-    return `${who}${party} won by ${detail.margin_pct.toFixed(1)} pts`;
+    return { text: `${who}${party} won by ${detail.margin_pct.toFixed(1)} pts`, source: detail.source };
   }
-  if (race.context?.last_result) return race.context.last_result;
+  if (race.context?.last_result) return { text: race.context.last_result };
   return null;
 }
 
@@ -70,12 +122,18 @@ function QualityChip({ quality }: { quality?: DataQuality }) {
   return (
     <span
       title={title}
-      className="inline-flex shrink-0 items-center rounded-full border border-zinc-700 px-2 py-0.5 text-[10px] uppercase tracking-wide text-zinc-400"
+      className="inline-flex shrink-0 items-center rounded-full border border-zinc-500 px-2 py-0.5 text-[10px] uppercase tracking-wide text-zinc-400"
     >
       {label}
     </span>
   );
 }
+
+// Shared micro-label recipe for in-card field labels ("Money", "Votes") —
+// matches the horizon eyebrows in InsightsPanel.tsx ("Right now" / "Down
+// the road") so the same visual language for "this is a field label, not a
+// value" holds across both files in this module.
+const FIELD_LABEL = "mb-1 text-[10px] font-semibold uppercase tracking-wide text-zinc-400";
 
 // Visible-by-default, "refusing to guess" phrasing for a candidate's genuine
 // data gaps (improvements.md "Intentional Caveats": show at least one
@@ -113,22 +171,23 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
     // Mirrors the populated card's row-for-row layout (name / party / money /
     // votes) instead of one short blob, so a "no data" column holds the same
     // visual weight as its siblings in the same race rather than shrinking
-    // and reading as a lesser candidate.
+    // and reading as a lesser candidate. `min-w-0` (not a fixed min-width)
+    // because the grid parent now owns column sizing.
     return (
-      <div className="min-w-[220px] flex-1 rounded-lg border border-dashed border-zinc-800 bg-zinc-950/50 p-4">
+      <div className="min-w-0 rounded-lg border border-dashed border-zinc-500 bg-zinc-950/50 p-4">
         <div className="mb-1 flex items-start justify-between gap-2">
-          <span className="font-medium leading-snug text-zinc-500">{candidate.name}</span>
+          <span className="font-medium leading-snug text-zinc-400">{candidate.name}</span>
         </div>
         <div className="mb-3 flex min-h-[22px] flex-wrap items-center gap-1.5">
-          <span className="text-xs text-zinc-600">No party data in our set</span>
+          <span className="text-xs text-zinc-400">No party data in our set</span>
         </div>
         <div className="mb-3 text-xs">
-          <div className="mb-0.5 text-zinc-500">Money</div>
-          <div className="text-zinc-600">No candidate data available in our set yet.</div>
+          <div className={FIELD_LABEL}>Money</div>
+          <div className="text-zinc-400">No candidate data available in our set yet.</div>
         </div>
         <div className="text-xs">
-          <div className="mb-1 text-zinc-500">Votes</div>
-          <div className="text-zinc-600">No candidate data available in our set yet.</div>
+          <div className={FIELD_LABEL}>Votes</div>
+          <div className="text-zinc-400">No candidate data available in our set yet.</div>
         </div>
       </div>
     );
@@ -140,11 +199,11 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
   const votesMissingReason = candidateMissingReason(candidate, "voting record");
 
   return (
-    <div className="min-w-[220px] flex-1 rounded-lg border border-zinc-800 bg-zinc-950 p-4">
+    <div className="min-w-0 rounded-lg border border-zinc-500 bg-zinc-950 p-4">
       <div className="mb-1 flex items-start justify-between gap-2">
         <span className="font-medium leading-snug">{candidate.name}</span>
         {candidate.incumbent && (
-          <span className="shrink-0 rounded-full border border-zinc-700 px-2 py-0.5 text-[10px] uppercase tracking-wide text-zinc-400">
+          <span className="shrink-0 rounded-full border border-zinc-500 px-2 py-0.5 text-[10px] uppercase tracking-wide text-zinc-400">
             Incumbent
           </span>
         )}
@@ -154,7 +213,7 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
           not this candidate has a party/quality chip to show. */}
       <div className="mb-3 flex min-h-[22px] flex-wrap items-center gap-1.5">
         {candidate.party && (
-          <span className="inline-block rounded-full border border-zinc-700 px-2 py-0.5 text-xs text-zinc-400">
+          <span className="inline-block rounded-full border border-zinc-500 px-2 py-0.5 text-xs text-zinc-400">
             {candidate.party}
           </span>
         )}
@@ -162,12 +221,12 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
       </div>
 
       <div className="mb-3 text-xs">
-        <div className="mb-0.5 text-zinc-500">Money</div>
+        <div className={FIELD_LABEL}>Money</div>
         {receipts ? (
           <div className="text-zinc-300">
             {receipts}
             {candidate.finance?.as_of && (
-              <span className="text-zinc-600"> as of {candidate.finance.as_of}</span>
+              <span className="text-zinc-400"> as of {candidate.finance.as_of}</span>
             )}
             {candidate.finance?.source && (
               <a
@@ -181,14 +240,14 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
             )}
           </div>
         ) : (
-          <div className="text-zinc-600">
+          <div className="text-zinc-400">
             {financeMissingReason ? refusingToGuessCaveat(financeMissingReason) : "No finance data in our set"}
           </div>
         )}
       </div>
 
       <div className="text-xs">
-        <div className="mb-1 text-zinc-500">Votes</div>
+        <div className={FIELD_LABEL}>Votes</div>
         {votes.length > 0 ? (
           <ul className="space-y-1.5">
             {votes.map((v, i) => (
@@ -196,7 +255,7 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
                 <span className="text-zinc-300">{v.bill ?? v.vote ?? "Vote"}</span>
                 {v.position ? `: ${v.position}` : ""}
                 {v.plain_english && (
-                  <span className="block text-[11px] text-zinc-500">{v.plain_english}</span>
+                  <span className="block text-[11px] text-zinc-400">{v.plain_english}</span>
                 )}
                 {v.source && (
                   <a
@@ -212,7 +271,7 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
             ))}
           </ul>
         ) : (
-          <div className="text-zinc-600">
+          <div className="text-zinc-400">
             {votesMissingReason ? refusingToGuessCaveat(votesMissingReason) : "No recorded votes in our set"}
           </div>
         )}
@@ -292,9 +351,12 @@ function HowWeKnow({ race }: { race: Race }) {
   const caveat = missingCaveat(race, counts);
 
   return (
-    <details className="mt-4 rounded-lg border border-zinc-800 bg-zinc-950/40 p-3 text-xs text-zinc-400">
+    <details className="mt-4 rounded-lg border border-zinc-500 bg-zinc-950/40 p-3 text-xs text-zinc-400">
       <summary className="cursor-pointer select-none font-medium text-zinc-300">How we know</summary>
-      <div className="mt-2 space-y-1.5">
+      {/* max-w-prose: this can run 2-3 sentences long, and the featured
+          race's card is the widest in the module — cap the measure instead
+          of letting a paragraph stretch the full card width. */}
+      <div className="mt-2 max-w-prose space-y-1.5">
         <p>
           <span className="text-zinc-300">Sources — </span>
           Money: {financeSources.length > 0 ? financeSources.join(", ") : "no finance source on file for this race"}
@@ -304,7 +366,7 @@ function HowWeKnow({ race }: { race: Race }) {
           {counts.withFinance} of {counts.total} candidates have finance data, {counts.withVotes} of {counts.total}{" "}
           have recorded votes, {counts.withPositions} of {counts.total} have stated positions.
         </p>
-        <p className="text-zinc-500">{caveat}</p>
+        <p className="text-zinc-400">{caveat}</p>
       </div>
     </details>
   );
@@ -319,30 +381,41 @@ function RaceCard({
   race: Race;
   active: boolean;
   onExplain: (raceId: string) => void;
-  // The single demo_rank-1 race gets a subtle accent border so "visually
-  // primary" (improvements.md "Featured race") holds even once a secondary
-  // race is expanded to this exact same card -- the label above (in
-  // BallotSection) is what actually says "Featured race"; this is just the
-  // one purely-visual difference between the two densities.
+  // The single demo_rank-1 race gets a subtle accent border AND a touch more
+  // padding (p-6 vs p-5) so "visually primary" (improvements.md "Featured
+  // race") holds as real breathing room, not just a label -- while every
+  // candidate/vote/money row inside stays byte-for-byte the same component
+  // as a secondary race's, so "featured" never means "more generous data,"
+  // only "more space and default-open."
   featured?: boolean;
 }) {
   const pill = marginPill(race);
   return (
     <div
-      className={`rounded-xl border p-5 ${
-        featured ? "border-gold/40 bg-gold/[0.03]" : "border-zinc-800 bg-zinc-900/50"
+      className={`rounded-xl border ${
+        featured ? "border-gold/60 bg-gold/[0.03] p-6" : "border-zinc-500 bg-zinc-900/50 p-5"
       }`}
     >
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <div>
-          <div className="font-semibold">{race.office}</div>
-          {race.district && <div className="text-xs text-zinc-500">{race.district}</div>}
+          <h4 className="font-semibold leading-snug">{race.office}</h4>
+          {race.district && <div className="text-xs text-zinc-400">{race.district}</div>}
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <QualityChip quality={race.data_quality} />
           {pill && (
-            <span className="rounded-full border border-zinc-700 px-2.5 py-1 text-[11px] text-zinc-400">
-              {pill}
+            <span className="inline-flex items-center gap-1 rounded-full border border-zinc-500 px-2 py-0.5 text-[11px] text-zinc-400">
+              {pill.text}
+              {pill.source && (
+                <a
+                  href={pill.source}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gold hover:underline"
+                >
+                  source ↗
+                </a>
+              )}
             </span>
           )}
           <button
@@ -350,7 +423,7 @@ function RaceCard({
             className={`rounded-lg border px-3 py-1.5 text-xs font-medium transition ${
               active
                 ? "border-gold bg-gold/15 text-gold"
-                : "border-zinc-700 text-zinc-300 hover:border-gold/60"
+                : "border-zinc-500 text-zinc-300 hover:border-gold/60"
             }`}
           >
             What this means for you
@@ -359,13 +432,19 @@ function RaceCard({
       </div>
 
       {race.candidates.length > 0 ? (
-        <div className="flex flex-wrap gap-3">
+        // Fixed 1/2-col grid (not flex-wrap+flex-1): every column is exactly
+        // as wide as its row-mates regardless of candidate count, and an odd
+        // last candidate (e.g. this ballot's 4-candidate Governor race, or a
+        // 5-candidate race) sits alone in its own row instead of stretching
+        // to the full card width. `items-stretch` (grid's default) also
+        // equalizes each row's candidate-card heights for free.
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           {race.candidates.map((c) => (
             <CandidateColumn key={c.candidate_id} candidate={c} />
           ))}
         </div>
       ) : (
-        <p className="text-xs text-zinc-600">No candidate data available for this race yet.</p>
+        <p className="text-xs text-zinc-400">No candidate data available for this race yet.</p>
       )}
 
       {race.candidates.length > 0 && <HowWeKnow race={race} />}
@@ -393,15 +472,31 @@ function SecondaryRaceRow({
   const pill = marginPill(race);
   const names = race.candidates.map((c) => c.name).join(" vs. ") || "No candidates yet";
   return (
-    <details className="rounded-xl border border-zinc-800 bg-zinc-900/50" open={active}>
+    <details className="rounded-xl border border-zinc-500 bg-zinc-900/50" open={active}>
       <summary className="flex cursor-pointer select-none flex-wrap items-center gap-2 p-4 text-sm">
-        <span className="font-semibold">{race.office}</span>
-        {race.district && <span className="text-xs text-zinc-500">{race.district}</span>}
+        <h4 className="font-semibold">{race.office}</h4>
+        {race.district && <span className="text-xs text-zinc-400">{race.district}</span>}
         <QualityChip quality={race.data_quality} />
         {pill && (
-          <span className="rounded-full border border-zinc-700 px-2 py-0.5 text-[11px] text-zinc-400">{pill}</span>
+          <span className="inline-flex items-center gap-1 rounded-full border border-zinc-500 px-2 py-0.5 text-[11px] text-zinc-400">
+            {pill.text}
+            {pill.source && (
+              <a
+                href={pill.source}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gold hover:underline"
+              >
+                source ↗
+              </a>
+            )}
+          </span>
         )}
-        <span className="truncate text-xs text-zinc-500">{names}</span>
+        {/* Explicit min-w-0 + max-w so this reliably truncates with an
+            ellipsis at 375px instead of relying on flex-wrap shrink alone
+            (which can just wrap the whole name list to its own full-width
+            line instead of eliding it). */}
+        <span className="min-w-0 max-w-[16rem] truncate text-xs text-zinc-400">{names}</span>
       </summary>
       <div className="px-4 pb-4 pt-1">
         <RaceCard race={race} active={active} onExplain={onExplain} />
@@ -426,11 +521,11 @@ function VotingLocationLine({
 }) {
   return (
     <div className="text-xs text-zinc-400">
-      <span className="text-zinc-500">{label}: </span>
+      <span>{label}: </span>
       <span className="text-zinc-300">{location.name ?? "Location"}</span>
       {location.address && <span>, {location.address}</span>}
-      {location.hours && <span className="text-zinc-500"> ({location.hours})</span>}
-      {extraCount > 0 && <span className="text-zinc-500"> and {extraCount} more</span>}
+      {location.hours && <span> ({location.hours})</span>}
+      {extraCount > 0 && <span> and {extraCount} more</span>}
     </div>
   );
 }
@@ -448,7 +543,7 @@ function VotingInfoCard({ votingInfo }: { votingInfo?: VotingInfo }) {
   if (!electionLabel && polling.length === 0 && early.length === 0) return null;
 
   return (
-    <div className="mb-6 rounded-lg border border-zinc-800 bg-zinc-900/50 p-4">
+    <div className="mb-6 rounded-lg border border-zinc-500 bg-zinc-900/50 p-4">
       <div className="mb-2 text-xs font-semibold uppercase tracking-wider text-gold">Your voting info</div>
       {electionLabel && <div className="mb-2 text-sm text-zinc-200">{electionLabel}</div>}
       <div className="space-y-1">
@@ -482,21 +577,26 @@ function ReadinessBar({ reviewedCount, total }: { reviewedCount: number; total: 
   const complete = total > 0 && reviewedCount >= total;
 
   return (
-    <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4">
+    <div className="rounded-xl border border-zinc-500 bg-zinc-900/50 p-4">
       <div className="mb-2 flex items-center justify-between gap-3 text-sm">
         <span className={complete ? "font-medium text-gold" : "text-zinc-300"}>
           {complete ? "You're ballot-ready ✓" : `Reviewed ${reviewedCount} of ${total} races`}
         </span>
-        <span className="text-xs text-zinc-500">{pct}%</span>
+        <span className="text-xs text-zinc-400">{pct}%</span>
       </div>
-      <div className="h-2 w-full rounded bg-zinc-800">
+      {/* Track needs its own visible border: at bg-zinc-800 inside a
+          bg-zinc-900/50-on-navy card, the track was measured at 1.2:1
+          against its own container -- effectively invisible until the fill
+          renders. A 1px zinc-500 ring gives the meter a perceivable extent
+          regardless of fill %. */}
+      <div className="h-2 w-full rounded border border-zinc-500 bg-zinc-800">
         <div
-          className={`h-2 rounded transition-all ${complete ? "bg-gold" : "bg-gold/70"}`}
+          className={`h-full rounded-sm transition-all ${complete ? "bg-gold" : "bg-gold/70"}`}
           style={{ width: `${pct}%` }}
         />
       </div>
       {!complete && (
-        <p className="mt-2 text-xs text-zinc-500">
+        <p className="mt-2 text-xs text-zinc-400">
           Open “What this means for you” on a race below to mark it reviewed.
         </p>
       )}
@@ -517,10 +617,7 @@ export function BallotSection({
   onExplain: (raceId: string) => void;
   // OPTIONAL: pass `ballot.voting_info` from the /api/ballot response to
   // surface a compact "Your voting info" card above the races. Renders
-  // nothing when omitted. NOT YET WIRED from app/results/page.tsx (out of
-  // scope for this change) -- once its <BallotSection .../> call also
-  // passes votingInfo={ballotState.data.voting_info}, this activates with no
-  // further change needed here.
+  // nothing when omitted.
   votingInfo?: VotingInfo;
   // OPTIONAL: pass `ballot.districts` from the /api/ballot response so the
   // readiness bar keys its localStorage state by district triple (cd|sd|hd)
@@ -533,8 +630,7 @@ export function BallotSection({
   // other race, which render at compact/secondary density instead
   // (improvements.md "one featured race... remaining races listed
   // compactly"). Omitted/unmatched -> every race renders at the original
-  // uniform density, unchanged from before this prop existed. Candidate
-  // treatment WITHIN any single race never varies by this prop.
+  // uniform density, unchanged from before this prop existed.
   featuredRaceId?: string | null;
 }) {
   const reviewKey = readinessKey(districts);
@@ -548,7 +644,7 @@ export function BallotSection({
     return (
       <>
         <VotingInfoCard votingInfo={votingInfo} />
-        <p className="text-sm text-zinc-500">
+        <p className="text-sm text-zinc-400">
           No races found for this address yet — the district may not be loaded in our data set.
         </p>
       </>
@@ -587,7 +683,7 @@ export function BallotSection({
             <span className="rounded-full border border-gold/60 bg-gold/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-gold">
               Featured race
             </span>
-            <span className="text-xs text-zinc-500">The race we can show you the most about right now.</span>
+            <span className="text-xs text-zinc-400">The race we can show you the most about right now.</span>
           </div>
           <RaceCard
             race={featuredRace}
@@ -600,7 +696,7 @@ export function BallotSection({
 
       {groups.map((g) => (
         <div key={g.level}>
-          <h3 className="mb-3 text-xs uppercase tracking-wider text-zinc-500">
+          <h3 className="mb-3 text-xs uppercase tracking-wider text-zinc-400">
             {LEVEL_LABELS[g.level] ?? g.level}
           </h3>
           <div className="space-y-3">

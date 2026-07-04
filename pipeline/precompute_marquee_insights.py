@@ -88,6 +88,32 @@ def money(n):
     return f"${n:,.0f}"
 
 
+BULLET_CHAR_LIMIT = 420
+
+
+def render_position_bullet(issue, name, summary, source):
+    """'On {issue}, {name}'s recorded position: {summary}' -- capped at
+    BULLET_CHAR_LIMIT so a long verbatim positions[].summary (real,
+    sourced text we don't rewrite) can never push a single bullet past the
+    ~8th-grade READABLE budget. Truncates at the last sentence boundary
+    that fits, marks the cut with an ellipsis, and never touches the
+    source -- the full statement is still one click away."""
+    prefix = f"On {issue}, {name}'s recorded position: "
+    full = f"{prefix}{summary}"
+    if len(full) <= BULLET_CHAR_LIMIT:
+        return {"text": full, "source": source}
+    budget = BULLET_CHAR_LIMIT - len(prefix) - 1  # room for a trailing ellipsis char
+    cut = summary[:budget]
+    last_stop = max(cut.rfind(". "), cut.rfind("; "))
+    if last_stop >= budget // 2:  # prefer a clean sentence break if it isn't too aggressive
+        cut = cut[: last_stop + 1]
+    else:
+        last_space = cut.rfind(" ")  # else fall back to the last whole word, never mid-word
+        cut = cut[:last_space] if last_space > 0 else cut
+    text = f"{prefix}{cut.rstrip()}…"
+    return {"text": text, "source": source}
+
+
 def finance_source_label(source_url):
     """Human-readable regulator name for a finance record, derived from its
     actual source URL -- never hardcoded to assume FEC. TX statewide offices
@@ -117,10 +143,10 @@ def finance_period_clause(fin):
 
 
 def candidate_office_bullet(cid, c):
-    party = c.get("party", "an unlisted party")
+    party = c.get("party") or "no listed party"
     office = c.get("office", "this office")
     src = (c.get("sources") or [None])[0]
-    text = f"{c['name']} is a candidate for {office}, running with {party}."
+    text = f"{c['name']} ({party}) is a candidate for {office}."
     return {"text": text, "source": src}
 
 
@@ -174,8 +200,7 @@ def candidate_top_position_bullet(cid, c):
     if not positions:
         return None
     top = max(positions, key=lambda p: p.get("confidence", 0))
-    text = f"On {top['issue']}, {c['name']}'s recorded position: {top['summary']}"
-    return {"text": text, "source": top.get("source")}
+    return render_position_bullet(top["issue"], c["name"], top["summary"], top.get("source"))
 
 
 def evidence_check_bullets(cid, c):
@@ -259,33 +284,27 @@ def build_base_for_race(race, candidates):
 
 
 def archetype_background_bullet(cid, c, archetype):
-    """If the candidate's own recorded background genuinely mentions something
-    tied to this archetype, cite it. Otherwise state plainly that we have
-    no recorded connection -- never invent a stance."""
+    """One bullet covering this candidate's archetype connection -- not two
+    near-duplicate sentences. If the candidate's own recorded background
+    genuinely mentions something tied to this archetype, lead with that
+    record (it already names the candidate, so we don't echo the name a
+    second time) and note the position gap in the same sentence. Otherwise
+    state plainly, in a single sentence, that neither their background nor
+    their votes/positions connect here -- never invent a stance."""
     src = (c.get("sources") or [None])[0]
     bg = (c.get("background") or "")
     bg_lower = bg.lower()
     for keyword, arch in BACKGROUND_ARCHETYPE_HINTS:
         if arch == archetype and keyword in bg_lower:
             text = (
-                f"{c['name']}'s recorded background ({bg}) is directly relevant to "
-                f"{archetype.replace('_', ' ')} voters, though our data set does not "
-                f"include a specific stated position from them on "
-                f"{ARCHETYPE_ISSUE_PHRASE[archetype]}."
+                f"{bg.rstrip('.')} -- that record connects directly to "
+                f"{archetype.replace('_', ' ')} voters, though we have no specific "
+                f"stated position from them on {ARCHETYPE_ISSUE_PHRASE[archetype]}."
             )
             return {"text": text, "source": src}
     text = (
-        f"No public data in our set connects {c['name']}'s recorded background or "
-        f"positions specifically to {ARCHETYPE_ISSUE_PHRASE[archetype]}."
-    )
-    return {"text": text, "source": src}
-
-
-def archetype_positions_missing_bullet(cid, c, archetype):
-    src = (c.get("sources") or [None])[0]
-    text = (
-        f"No public data in our set on {c['name']}'s recorded votes or stated "
-        f"positions regarding {ARCHETYPE_ISSUE_PHRASE[archetype]}."
+        f"No public data in our set ties {c['name']}'s background, votes, or stated "
+        f"positions to {ARCHETYPE_ISSUE_PHRASE[archetype]}."
     )
     return {"text": text, "source": src}
 
@@ -305,8 +324,7 @@ def archetype_positions_bullets(cid, c, archetype):
     matches.sort(key=lambda p: p.get("confidence", 0), reverse=True)
     bullets = []
     for p in matches[:2]:
-        text = f"On {p['issue']}, {c['name']}'s recorded position: {p['summary']}"
-        bullets.append({"text": text, "source": p.get("source")})
+        bullets.append(render_position_bullet(p["issue"], c["name"], p["summary"], p.get("source")))
     return bullets
 
 
@@ -320,8 +338,8 @@ def archetype_finance_context_bullet(cid, c, archetype):
     period = finance_period_clause(fin)
     text = (
         f"As of {as_of}, {c['name']}'s campaign had raised {receipts}, per "
-        f"{label}{period}. That is general campaign-finance context; it does not tell us "
-        f"the candidate's stance on {ARCHETYPE_ISSUE_PHRASE[archetype]}."
+        f"{label}{period} -- fundraising scale only, not a stance on "
+        f"{ARCHETYPE_ISSUE_PHRASE[archetype]}."
     )
     return {"text": text, "source": fin.get("source")}
 
@@ -336,10 +354,7 @@ def build_archetype_for_race(race, candidates, archetype):
         if pos_bullets:
             bullets = list(pos_bullets)
         else:
-            bullets = [
-                archetype_background_bullet(cid, c, archetype),
-                archetype_positions_missing_bullet(cid, c, archetype),
-            ]
+            bullets = [archetype_background_bullet(cid, c, archetype)]
         fin_bullet = archetype_finance_context_bullet(cid, c, archetype)
         if fin_bullet:
             bullets.append(fin_bullet)

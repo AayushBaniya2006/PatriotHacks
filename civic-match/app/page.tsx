@@ -256,7 +256,7 @@ export default function Home() {
         </div>
 
         <details className="group relative lg:hidden">
-          <summary className="list-none text-white/90 marker:hidden [&::-webkit-details-marker]:hidden">
+          <summary className="list-none p-2 -m-2 text-white/90 marker:hidden [&::-webkit-details-marker]:hidden">
             <span className="sr-only">Open navigation</span>
             <MenuIcon className="h-8 w-8" />
           </summary>
@@ -520,13 +520,13 @@ export default function Home() {
             </div>
 
             <div className="mt-4 flex items-center gap-6 text-white/50 lg:mt-0">
-              <a href="mailto:sybatx@gmail.com" aria-label="Email Civitas" className="transition-colors hover:text-white">
+              <a href="mailto:sybatx@gmail.com" aria-label="Email Civitas" className="p-3 -m-3 transition-colors hover:text-white">
                 <MailIcon className="h-5 w-5" />
               </a>
-              <a href="/future" aria-label="Civitas insights" className="transition-colors hover:text-white">
+              <a href="/future" aria-label="Civitas insights" className="p-3 -m-3 transition-colors hover:text-white">
                 <TwitterXIcon className="h-5 w-5" />
               </a>
-              <a href="/graph" aria-label="Civitas graph" className="transition-colors hover:text-white">
+              <a href="/graph" aria-label="Civitas graph" className="p-3 -m-3 transition-colors hover:text-white">
                 <LinkedinIcon className="h-5 w-5" />
               </a>
             </div>

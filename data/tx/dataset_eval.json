@@ -1,0 +1,4180 @@
+{
+  "generated_by": "pipeline/eval_dataset.py",
+  "election_date": "2026-11-03",
+  "inputs_used": {
+    "coverage_report_json": true,
+    "quality_report_json": true,
+    "unjoined_report_json": true,
+    "raw_fec_json": true,
+    "geocode_seed_json": true,
+    "address_sweep_report_json": true,
+    "address_sweep_report_path": "data/tx/address_sweep_report.json",
+    "detect_contradictions_script_present": true
+  },
+  "breadth": {
+    "race_count": {
+      "actual": 46,
+      "expected": 46,
+      "expected_breakdown": {
+        "state_executive": 7,
+        "us_senate": 1,
+        "us_house": 38
+      },
+      "completeness_pct": 100.0
+    },
+    "declared_out_of_scope_note": "TX Legislature (150 House + 31 Senate districts, 181 more possible races) is an explicit STRETCH GOAL per CLAUDE.md LOCKED DECISIONS, not part of EXPECTED_RACE_COUNT. Judged against a citizen's REAL full ballot (which also includes state legislature + county/local races), this dataset covers statewide + US House only -- a deliberate, declared scope cut, not a defect.",
+    "level_balance": {
+      "counts": {
+        "state": 7,
+        "federal": 39
+      },
+      "marquee_district_null_count": 8,
+      "us_house_race_count": 38
+    },
+    "us_house_districts": {
+      "present": 38,
+      "expected": 38,
+      "full_coverage": true,
+      "district_list": [
+        "TX-01",
+        "TX-02",
+        "TX-03",
+        "TX-04",
+        "TX-05",
+        "TX-06",
+        "TX-07",
+        "TX-08",
+        "TX-09",
+        "TX-10",
+        "TX-11",
+        "TX-12",
+        "TX-13",
+        "TX-14",
+        "TX-15",
+        "TX-16",
+        "TX-17",
+        "TX-18",
+        "TX-19",
+        "TX-20",
+        "TX-21",
+        "TX-22",
+        "TX-23",
+        "TX-24",
+        "TX-25",
+        "TX-26",
+        "TX-27",
+        "TX-28",
+        "TX-29",
+        "TX-30",
+        "TX-31",
+        "TX-32",
+        "TX-33",
+        "TX-34",
+        "TX-35",
+        "TX-36",
+        "TX-37",
+        "TX-38"
+      ]
+    },
+    "contested_races": {
+      "ge2_candidates_count": 37,
+      "single_candidate_count": 9,
+      "pct_contested": 80.4
+    },
+    "one_sided_by_party": {
+      "count": 9,
+      "pct": 19.6
+    },
+    "party_diversity_histogram": {
+      "1": 9,
+      "2": 30,
+      "3": 5,
+      "4": 1,
+      "5": 1
+    },
+    "all_parties_seen": [
+      "Democratic",
+      "Green",
+      "Independent",
+      "Libertarian",
+      "Republican"
+    ],
+    "per_race": [
+      {
+        "race_id": "tx-gov-2026",
+        "office": "Governor of Texas",
+        "level": "state",
+        "district": null,
+        "candidate_count": 4,
+        "parties_present": [
+          "Democratic",
+          "Independent",
+          "Libertarian",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-ltgov-2026",
+        "office": "Lieutenant Governor of Texas",
+        "level": "state",
+        "district": null,
+        "candidate_count": 5,
+        "parties_present": [
+          "Democratic",
+          "Green",
+          "Independent",
+          "Libertarian",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-ag-2026",
+        "office": "Attorney General of Texas",
+        "level": "state",
+        "district": null,
+        "candidate_count": 3,
+        "parties_present": [
+          "Democratic",
+          "Libertarian",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-sen-2026",
+        "office": "United States Senator from Texas",
+        "level": "federal",
+        "district": null,
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-comptroller-2026",
+        "office": "Texas Comptroller of Public Accounts",
+        "level": "state",
+        "district": null,
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-landcomm-2026",
+        "office": "Texas Land Commissioner",
+        "level": "state",
+        "district": null,
+        "candidate_count": 3,
+        "parties_present": [
+          "Democratic",
+          "Libertarian",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-agcomm-2026",
+        "office": "Texas Commissioner of Agriculture",
+        "level": "state",
+        "district": null,
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-railroad-2026",
+        "office": "Railroad Commissioner of Texas",
+        "level": "state",
+        "district": null,
+        "candidate_count": 3,
+        "parties_present": [
+          "Democratic",
+          "Libertarian",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd01-2026",
+        "office": "U.S. Representative, TX-01",
+        "level": "federal",
+        "district": "TX-01",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd02-2026",
+        "office": "U.S. Representative, TX-02",
+        "level": "federal",
+        "district": "TX-02",
+        "candidate_count": 1,
+        "parties_present": [
+          "Republican"
+        ],
+        "one_sided": true
+      },
+      {
+        "race_id": "tx-cd03-2026",
+        "office": "U.S. Representative, TX-03",
+        "level": "federal",
+        "district": "TX-03",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd04-2026",
+        "office": "U.S. Representative, TX-04",
+        "level": "federal",
+        "district": "TX-04",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd05-2026",
+        "office": "U.S. Representative, TX-05",
+        "level": "federal",
+        "district": "TX-05",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd06-2026",
+        "office": "U.S. Representative, TX-06",
+        "level": "federal",
+        "district": "TX-06",
+        "candidate_count": 1,
+        "parties_present": [
+          "Republican"
+        ],
+        "one_sided": true
+      },
+      {
+        "race_id": "tx-cd07-2026",
+        "office": "U.S. Representative, TX-07",
+        "level": "federal",
+        "district": "TX-07",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd08-2026",
+        "office": "U.S. Representative, TX-08",
+        "level": "federal",
+        "district": "TX-08",
+        "candidate_count": 1,
+        "parties_present": [
+          "Republican"
+        ],
+        "one_sided": true
+      },
+      {
+        "race_id": "tx-cd09-2026",
+        "office": "U.S. Representative, TX-09",
+        "level": "federal",
+        "district": "TX-09",
+        "candidate_count": 4,
+        "parties_present": [
+          "Democratic",
+          "Independent",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd10-2026",
+        "office": "U.S. Representative, TX-10",
+        "level": "federal",
+        "district": "TX-10",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd11-2026",
+        "office": "U.S. Representative, TX-11",
+        "level": "federal",
+        "district": "TX-11",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd12-2026",
+        "office": "U.S. Representative, TX-12",
+        "level": "federal",
+        "district": "TX-12",
+        "candidate_count": 1,
+        "parties_present": [
+          "Republican"
+        ],
+        "one_sided": true
+      },
+      {
+        "race_id": "tx-cd13-2026",
+        "office": "U.S. Representative, TX-13",
+        "level": "federal",
+        "district": "TX-13",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd14-2026",
+        "office": "U.S. Representative, TX-14",
+        "level": "federal",
+        "district": "TX-14",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd15-2026",
+        "office": "U.S. Representative, TX-15",
+        "level": "federal",
+        "district": "TX-15",
+        "candidate_count": 1,
+        "parties_present": [
+          "Republican"
+        ],
+        "one_sided": true
+      },
+      {
+        "race_id": "tx-cd16-2026",
+        "office": "U.S. Representative, TX-16",
+        "level": "federal",
+        "district": "TX-16",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd17-2026",
+        "office": "U.S. Representative, TX-17",
+        "level": "federal",
+        "district": "TX-17",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd18-2026",
+        "office": "U.S. Representative, TX-18",
+        "level": "federal",
+        "district": "TX-18",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd19-2026",
+        "office": "U.S. Representative, TX-19",
+        "level": "federal",
+        "district": "TX-19",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd20-2026",
+        "office": "U.S. Representative, TX-20",
+        "level": "federal",
+        "district": "TX-20",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd21-2026",
+        "office": "U.S. Representative, TX-21",
+        "level": "federal",
+        "district": "TX-21",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd22-2026",
+        "office": "U.S. Representative, TX-22",
+        "level": "federal",
+        "district": "TX-22",
+        "candidate_count": 1,
+        "parties_present": [
+          "Republican"
+        ],
+        "one_sided": true
+      },
+      {
+        "race_id": "tx-cd23-2026",
+        "office": "U.S. Representative, TX-23",
+        "level": "federal",
+        "district": "TX-23",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd24-2026",
+        "office": "U.S. Representative, TX-24",
+        "level": "federal",
+        "district": "TX-24",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd25-2026",
+        "office": "U.S. Representative, TX-25",
+        "level": "federal",
+        "district": "TX-25",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd26-2026",
+        "office": "U.S. Representative, TX-26",
+        "level": "federal",
+        "district": "TX-26",
+        "candidate_count": 1,
+        "parties_present": [
+          "Republican"
+        ],
+        "one_sided": true
+      },
+      {
+        "race_id": "tx-cd27-2026",
+        "office": "U.S. Representative, TX-27",
+        "level": "federal",
+        "district": "TX-27",
+        "candidate_count": 1,
+        "parties_present": [
+          "Republican"
+        ],
+        "one_sided": true
+      },
+      {
+        "race_id": "tx-cd28-2026",
+        "office": "U.S. Representative, TX-28",
+        "level": "federal",
+        "district": "TX-28",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd29-2026",
+        "office": "U.S. Representative, TX-29",
+        "level": "federal",
+        "district": "TX-29",
+        "candidate_count": 1,
+        "parties_present": [
+          "Democratic"
+        ],
+        "one_sided": true
+      },
+      {
+        "race_id": "tx-cd30-2026",
+        "office": "U.S. Representative, TX-30",
+        "level": "federal",
+        "district": "TX-30",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd31-2026",
+        "office": "U.S. Representative, TX-31",
+        "level": "federal",
+        "district": "TX-31",
+        "candidate_count": 2,
+        "parties_present": [
+          "Green",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd32-2026",
+        "office": "U.S. Representative, TX-32",
+        "level": "federal",
+        "district": "TX-32",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd33-2026",
+        "office": "U.S. Representative, TX-33",
+        "level": "federal",
+        "district": "TX-33",
+        "candidate_count": 3,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd34-2026",
+        "office": "U.S. Representative, TX-34",
+        "level": "federal",
+        "district": "TX-34",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd35-2026",
+        "office": "U.S. Representative, TX-35",
+        "level": "federal",
+        "district": "TX-35",
+        "candidate_count": 3,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd36-2026",
+        "office": "U.S. Representative, TX-36",
+        "level": "federal",
+        "district": "TX-36",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd37-2026",
+        "office": "U.S. Representative, TX-37",
+        "level": "federal",
+        "district": "TX-37",
+        "candidate_count": 2,
+        "parties_present": [
+          "Democratic",
+          "Republican"
+        ],
+        "one_sided": false
+      },
+      {
+        "race_id": "tx-cd38-2026",
+        "office": "U.S. Representative, TX-38",
+        "level": "federal",
+        "district": "TX-38",
+        "candidate_count": 3,
+        "parties_present": [
+          "Democratic",
+          "Green",
+          "Republican"
+        ],
+        "one_sided": false
+      }
+    ],
+    "address_resolution": {
+      "structural_proof": {
+        "cds_present": 38,
+        "cds_expected": 38,
+        "full_coverage": true,
+        "reasoning": "Any address the Census geocoder places in a TX congressional district (always one of CD 1-38 post-redistricting) resolves to that district's race PLUS all 8 marquee statewide/Senate races, which appear on every ballot unconditionally. Full CD coverage is therefore a structural proof of ballot resolution, not merely a sample statistic.",
+        "score": 100.0
+      },
+      "sample_spot_check": {
+        "available": true,
+        "sample_size": 21,
+        "pass_count": 21,
+        "results": [
+          {
+            "address": "100 W CANO ST, EDINBURG, TX, 78539",
+            "resolved_cd": "TX-15",
+            "expected_race_id": "tx-cd15-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "1000 HOUSTON ST, LAREDO, TX, 78040",
+            "resolved_cd": "TX-28",
+            "expected_race_id": "tx-cd28-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "10414 MC KALLA PL, AUSTIN, TX, 78758",
+            "resolved_cd": "TX-37",
+            "expected_race_id": "tx-cd37-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "105 E EGGLESTON ST, MANOR, TX, 78653",
+            "resolved_cd": "TX-35",
+            "expected_race_id": "tx-cd35-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "110 INNER CAMPUS DR, AUSTIN, TX, 78712",
+            "resolved_cd": "TX-37",
+            "expected_race_id": "tx-cd37-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "1100 CONGRESS AVE, AUSTIN, TX, 78701",
+            "resolved_cd": "TX-37",
+            "expected_race_id": "tx-cd37-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "1100 E MONROE ST, BROWNSVILLE, TX, 78520",
+            "resolved_cd": "TX-34",
+            "expected_race_id": "tx-cd34-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "1102 LOHMANS CROSSING RD, LAKEWAY, TX, 78734",
+            "resolved_cd": "TX-10",
+            "expected_race_id": "tx-cd10-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "201 E PECAN ST, PFLUGERVILLE, TX, 78660",
+            "resolved_cd": "TX-10",
+            "expected_race_id": "tx-cd10-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "221 E MAIN AVE, ROUND ROCK, TX, 78664",
+            "resolved_cd": "TX-17",
+            "expected_race_id": "tx-cd17-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "255 PARKWAY BLVD, COPPELL, TX, 75019",
+            "resolved_cd": "TX-24",
+            "expected_race_id": "tx-cd24-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "301 W 2ND ST, AUSTIN, TX, 78701",
+            "resolved_cd": "TX-37",
+            "expected_race_id": "tx-cd37-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "3600 PRESIDENTIAL BLVD, AUSTIN, TX, 78719",
+            "resolved_cd": "TX-35",
+            "expected_race_id": "tx-cd35-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "450 CYPRESS CREEK RD, CEDAR PARK, TX, 78613",
+            "resolved_cd": "TX-10",
+            "expected_race_id": "tx-cd10-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "500 E SAN ANTONIO AVE, EL PASO, TX, 79901",
+            "resolved_cd": "TX-16",
+            "expected_race_id": "tx-cd16-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "511 SPORTSPLEX TRL, DRIPPING SPRINGS, TX, 78620",
+            "resolved_cd": "TX-21",
+            "expected_race_id": "tx-cd21-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "601 UNIVERSITY DR, SAN MARCOS, TX, 78666",
+            "resolved_cd": "TX-35",
+            "expected_race_id": "tx-cd35-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "701 W RIVERSIDE DR, AUSTIN, TX, 78704",
+            "resolved_cd": "TX-37",
+            "expected_race_id": "tx-cd37-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "710 S MAIN ST, GEORGETOWN, TX, 78626",
+            "resolved_cd": "TX-31",
+            "expected_race_id": "tx-cd31-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "900 CHICON ST, AUSTIN, TX, 78702",
+            "resolved_cd": "TX-35",
+            "expected_race_id": "tx-cd35-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          },
+          {
+            "address": "901 BAGBY ST, HOUSTON, TX, 77002",
+            "resolved_cd": "TX-18",
+            "expected_race_id": "tx-cd18-2026",
+            "race_on_file": true,
+            "marquee_races_included": 8
+          }
+        ],
+        "note": "Sample is small (n=21) and geographically curated (demo/golden addresses committed in data/tx/geocode_seed.json), not a random statewide draw -- it corroborates CD-tagging correctness, it is not the completeness proof itself (that's the structural 38/38 check above)."
+      },
+      "address_sweep_report": {
+        "present": true,
+        "parsed": true,
+        "generated_at": "2026-07-04T03:31:03.877438+00:00",
+        "generated_by": "pipeline/sweep_addresses.py",
+        "new_sweep_addresses": 18,
+        "new_sweep_ok": 18,
+        "distinct_cds_new_sweep": 18,
+        "regression_pass": 8,
+        "regression_fail": 0,
+        "total_failures": 0,
+        "distinct_cds_covered_all_entries": [
+          "TX-01",
+          "TX-11",
+          "TX-12",
+          "TX-13",
+          "TX-15",
+          "TX-16",
+          "TX-17",
+          "TX-18",
+          "TX-19",
+          "TX-21",
+          "TX-22",
+          "TX-23",
+          "TX-24",
+          "TX-25",
+          "TX-27",
+          "TX-28",
+          "TX-29",
+          "TX-30",
+          "TX-32",
+          "TX-34",
+          "TX-35",
+          "TX-36",
+          "TX-37"
+        ],
+        "cds_without_a_race_on_file": [],
+        "note": "Live HTTP sweep (pipeline/sweep_addresses.py) against a running backend -- an independent, complementary corroboration of the structural 38/38 CD proof above, using real geocoder + API round-trips rather than a committed static sample."
+      },
+      "combined_empirical_verification": {
+        "distinct_cds_verified_live": 25,
+        "of_total_cds": 38,
+        "cd_list": [
+          "TX-01",
+          "TX-10",
+          "TX-11",
+          "TX-12",
+          "TX-13",
+          "TX-15",
+          "TX-16",
+          "TX-17",
+          "TX-18",
+          "TX-19",
+          "TX-21",
+          "TX-22",
+          "TX-23",
+          "TX-24",
+          "TX-25",
+          "TX-27",
+          "TX-28",
+          "TX-29",
+          "TX-30",
+          "TX-31",
+          "TX-32",
+          "TX-34",
+          "TX-35",
+          "TX-36",
+          "TX-37"
+        ],
+        "cds_never_live_verified": [
+          "TX-02",
+          "TX-03",
+          "TX-04",
+          "TX-05",
+          "TX-06",
+          "TX-07",
+          "TX-08",
+          "TX-09",
+          "TX-14",
+          "TX-20",
+          "TX-26",
+          "TX-33",
+          "TX-38"
+        ],
+        "note": "Union of geocode_seed.json's 8 committed addresses and address_sweep_report.json's live HTTP sweep (if present) -- two independent verification methods, not blended into any score, purely a corroborating empirical count on top of the structural 38/38 proof."
+      }
+    },
+    "breadth_score": 94.1,
+    "breadth_score_tier": "A"
+  },
+  "depth": {
+    "races": {
+      "tx-gov-2026": {
+        "office": "Governor of Texas",
+        "level": "state",
+        "district": null,
+        "score": 80.0,
+        "tier": "A",
+        "candidate_count": 4,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 75.0,
+          "bio_coverage": 100.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 100.0,
+          "votes_coverage": 0.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 8,
+        "insights_base_present": true,
+        "avg_distinct_sources": 5.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "abbott-greg",
+            "name": "Greg Abbott",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": true,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 6
+          },
+          {
+            "candidate_id": "hinojosa-gina",
+            "name": "Gina Hinojosa",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": true,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 5
+          },
+          {
+            "candidate_id": "dixon-pat",
+            "name": "Pat Dixon",
+            "party": "Libertarian",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": true,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 7
+          },
+          {
+            "candidate_id": "raphoon-jenn",
+            "name": "Jenn Mack Raphoon",
+            "party": "Independent",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          }
+        ]
+      },
+      "tx-ltgov-2026": {
+        "office": "Lieutenant Governor of Texas",
+        "level": "state",
+        "district": null,
+        "score": 71.0,
+        "tier": "B",
+        "candidate_count": 5,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 40.0,
+          "bio_coverage": 100.0,
+          "sourcing_richness": 80.0,
+          "insight_depth": 100.0,
+          "votes_coverage": 0.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 8,
+        "insights_base_present": true,
+        "avg_distinct_sources": 4.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "patrick-dan",
+            "name": "Dan Patrick",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": true,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 8
+          },
+          {
+            "candidate_id": "goodwin-vikki",
+            "name": "Vikki Goodwin",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": true,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 6
+          },
+          {
+            "candidate_id": "collier-mike",
+            "name": "Mike Collier",
+            "party": "Independent",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          },
+          {
+            "candidate_id": "cristo-anthony",
+            "name": "Anthony Cristo",
+            "party": "Libertarian",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          },
+          {
+            "candidate_id": "mccormick-kevin",
+            "name": "Kevin McCormick",
+            "party": "Green",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          }
+        ]
+      },
+      "tx-ag-2026": {
+        "office": "Attorney General of Texas",
+        "level": "state",
+        "district": null,
+        "score": 92.2,
+        "tier": "A",
+        "candidate_count": 3,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 66.7,
+          "bio_coverage": 100.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [
+          "votes_coverage"
+        ],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 8,
+        "insights_base_present": true,
+        "avg_distinct_sources": 7.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "middleton-mayes",
+            "name": "Mayes Middleton",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": true,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 9
+          },
+          {
+            "candidate_id": "johnson-nathan",
+            "name": "Nathan Johnson",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": true,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 9
+          },
+          {
+            "candidate_id": "oxford-tom",
+            "name": "Tom Oxford",
+            "party": "Libertarian",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 3
+          }
+        ]
+      },
+      "tx-sen-2026": {
+        "office": "United States Senator from Texas",
+        "level": "federal",
+        "district": null,
+        "score": 100.0,
+        "tier": "A",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 100.0,
+          "bio_coverage": 100.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [
+          "votes_coverage"
+        ],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 8,
+        "insights_base_present": true,
+        "avg_distinct_sources": 7.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "paxton-ken",
+            "name": "Ken Paxton",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": true,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 8
+          },
+          {
+            "candidate_id": "talarico-james",
+            "name": "James Talarico",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": true,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 6
+          }
+        ]
+      },
+      "tx-comptroller-2026": {
+        "office": "Texas Comptroller of Public Accounts",
+        "level": "state",
+        "district": null,
+        "score": 69.4,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 100.0,
+          "sourcing_richness": 40.0,
+          "insight_depth": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [
+          "votes_coverage"
+        ],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 8,
+        "insights_base_present": true,
+        "avg_distinct_sources": 2.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "huffines-don",
+            "name": "Don Huffines",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          },
+          {
+            "candidate_id": "eckhardt-sarah",
+            "name": "Sarah Eckhardt",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          }
+        ]
+      },
+      "tx-landcomm-2026": {
+        "office": "Texas Land Commissioner",
+        "level": "state",
+        "district": null,
+        "score": 59.0,
+        "tier": "B",
+        "candidate_count": 3,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 100.0,
+          "sourcing_richness": 40.0,
+          "insight_depth": 100.0,
+          "votes_coverage": 0.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 8,
+        "insights_base_present": true,
+        "avg_distinct_sources": 2.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "buckingham-dawn",
+            "name": "Dawn Buckingham",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          },
+          {
+            "candidate_id": "flores-benjamin",
+            "name": "Benjamin Flores",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          },
+          {
+            "candidate_id": "snider-neill",
+            "name": "Neill Snider",
+            "party": "Libertarian",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          }
+        ]
+      },
+      "tx-agcomm-2026": {
+        "office": "Texas Commissioner of Agriculture",
+        "level": "state",
+        "district": null,
+        "score": 87.1,
+        "tier": "A",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 50.0,
+          "bio_coverage": 100.0,
+          "sourcing_richness": 90.0,
+          "insight_depth": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [
+          "votes_coverage"
+        ],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 8,
+        "insights_base_present": true,
+        "avg_distinct_sources": 4.5,
+        "candidate_detail": [
+          {
+            "candidate_id": "sheets-nate",
+            "name": "Nate Sheets",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          },
+          {
+            "candidate_id": "tucker-clayton",
+            "name": "Clayton Tucker",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": true,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 7
+          }
+        ]
+      },
+      "tx-railroad-2026": {
+        "office": "Railroad Commissioner of Texas",
+        "level": "state",
+        "district": null,
+        "score": 69.4,
+        "tier": "B",
+        "candidate_count": 3,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 100.0,
+          "sourcing_richness": 40.0,
+          "insight_depth": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [
+          "votes_coverage"
+        ],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 8,
+        "insights_base_present": true,
+        "avg_distinct_sources": 2.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "french-bo",
+            "name": "Bo French",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          },
+          {
+            "candidate_id": "rosenthal-jon",
+            "name": "Jon Rosenthal",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          },
+          {
+            "candidate_id": "dibianca-arthur",
+            "name": "Arthur DiBianca",
+            "party": "Libertarian",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": true,
+            "has_evidence_checks": false,
+            "distinct_source_count": 2
+          }
+        ]
+      },
+      "tx-cd01-2026": {
+        "office": "U.S. Representative, TX-01",
+        "level": "federal",
+        "district": "TX-01",
+        "score": 49.5,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 50.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "alexander-dax",
+            "name": "Dax Cornell Alexander",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "moran-nathaniel",
+            "name": "Nathaniel Quentin Moran",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd02-2026": {
+        "office": "U.S. Representative, TX-02",
+        "level": "federal",
+        "district": "TX-02",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 1,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 11.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "crenshaw-daniel",
+            "name": "Daniel Crenshaw",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd03-2026": {
+        "office": "U.S. Representative, TX-03",
+        "level": "federal",
+        "district": "TX-03",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "hunt-evan",
+            "name": "Evan Hunt",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "self-keith",
+            "name": "Keith Alan Self",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd04-2026": {
+        "office": "U.S. Representative, TX-04",
+        "level": "federal",
+        "district": "TX-04",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "pearce-jason",
+            "name": "Jason Pearce",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "fallon-patrick",
+            "name": "Patrick Fallon",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd05-2026": {
+        "office": "U.S. Representative, TX-05",
+        "level": "federal",
+        "district": "TX-05",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "hockett-chelsey",
+            "name": "Chelsey Alexandra Hockett",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "gooden-lance",
+            "name": "Lance Gooden",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd06-2026": {
+        "office": "U.S. Representative, TX-06",
+        "level": "federal",
+        "district": "TX-06",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 1,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 11.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "ellzey-john",
+            "name": "John Kevin Sr. Ellzey",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd07-2026": {
+        "office": "U.S. Representative, TX-07",
+        "level": "federal",
+        "district": "TX-07",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "kalai-alexander",
+            "name": "Alexander Zachary Kalai",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "fletcher-elizabeth",
+            "name": "Elizabeth Fletcher",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd08-2026": {
+        "office": "U.S. Representative, TX-08",
+        "level": "federal",
+        "district": "TX-08",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 1,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 11.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "luttrell-morgan",
+            "name": "Morgan Joe Luttrell",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd09-2026": {
+        "office": "U.S. Representative, TX-09",
+        "level": "federal",
+        "district": "TX-09",
+        "score": 51.0,
+        "tier": "B",
+        "candidate_count": 4,
+        "components": {
+          "finance_coverage": 75.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 65.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 3.25,
+        "candidate_detail": [
+          {
+            "candidate_id": "mealer-alexandra",
+            "name": "Alexandra Mealer",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "ivey-r",
+            "name": "R. Todd Dr. Ivey",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "morales-roy",
+            "name": "Roy Morales",
+            "party": "Independent",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "green-al",
+            "name": "Al Green",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 10
+          }
+        ]
+      },
+      "tx-cd10-2026": {
+        "office": "U.S. Representative, TX-10",
+        "level": "federal",
+        "district": "TX-10",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "mccaul-michael",
+            "name": "Michael McCaul",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          },
+          {
+            "candidate_id": "eckhardt-sarah-tx10",
+            "name": "Sarah Eckhardt",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          }
+        ]
+      },
+      "tx-cd11-2026": {
+        "office": "U.S. Representative, TX-11",
+        "level": "federal",
+        "district": "TX-11",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "pfluger-august",
+            "name": "August Lee Pfluger",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          },
+          {
+            "candidate_id": "reynolds-claire",
+            "name": "Claire Anne Reynolds",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          }
+        ]
+      },
+      "tx-cd12-2026": {
+        "office": "U.S. Representative, TX-12",
+        "level": "federal",
+        "district": "TX-12",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 1,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 11.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "goldman-craig",
+            "name": "Craig Goldman",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd13-2026": {
+        "office": "U.S. Representative, TX-13",
+        "level": "federal",
+        "district": "TX-13",
+        "score": 32.8,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 0.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0
+        },
+        "na_components": [
+          "temporal_grounding"
+        ],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "nair-mark",
+            "name": "Mark Nair",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": false,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "jackson-ronny",
+            "name": "Ronny Lynn Jackson",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd14-2026": {
+        "office": "U.S. Representative, TX-14",
+        "level": "federal",
+        "district": "TX-14",
+        "score": 49.5,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 50.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 5.5,
+        "candidate_detail": [
+          {
+            "candidate_id": "davis-richard",
+            "name": "Richard Harvey Davis",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "weber-randy",
+            "name": "Randy K. Weber, Sr.",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 10
+          }
+        ]
+      },
+      "tx-cd15-2026": {
+        "office": "U.S. Representative, TX-15",
+        "level": "federal",
+        "district": "TX-15",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 1,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 11.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "cruz-monica",
+            "name": "Monica De La Cruz",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd16-2026": {
+        "office": "U.S. Representative, TX-16",
+        "level": "federal",
+        "district": "TX-16",
+        "score": 49.5,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 50.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "cabildo-hector",
+            "name": "Hector Miguel Mr. Cabildo",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "escobar-veronica",
+            "name": "Veronica Escobar",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd17-2026": {
+        "office": "U.S. Representative, TX-17",
+        "level": "federal",
+        "district": "TX-17",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "mitchell-james",
+            "name": "James Gordon Mitchell",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "sessions-pete",
+            "name": "Pete Sessions",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd18-2026": {
+        "office": "U.S. Representative, TX-18",
+        "level": "federal",
+        "district": "TX-18",
+        "score": 55.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 60.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 3.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "menefee-christian",
+            "name": "Christian Menefee",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 5
+          },
+          {
+            "candidate_id": "berry-allen",
+            "name": "Allen D Dr Berry",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          }
+        ]
+      },
+      "tx-cd19-2026": {
+        "office": "U.S. Representative, TX-19",
+        "level": "federal",
+        "district": "TX-19",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "arrington-jodey",
+            "name": "Jodey Arrington",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          },
+          {
+            "candidate_id": "rable-kyle",
+            "name": "Kyle Rable",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          }
+        ]
+      },
+      "tx-cd20-2026": {
+        "office": "U.S. Representative, TX-20",
+        "level": "federal",
+        "district": "TX-20",
+        "score": 32.8,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 0.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0
+        },
+        "na_components": [
+          "temporal_grounding"
+        ],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "baez-edgardo",
+            "name": "Edgardo Rafael Dr Baez",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": false,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "castro-joaquin",
+            "name": "Joaquin Castro",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd21-2026": {
+        "office": "U.S. Representative, TX-21",
+        "level": "federal",
+        "district": "TX-21",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "roy-chip",
+            "name": "Chip Roy",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          },
+          {
+            "candidate_id": "hook-kristin",
+            "name": "Kristin A Dr. Hook",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          }
+        ]
+      },
+      "tx-cd22-2026": {
+        "office": "U.S. Representative, TX-22",
+        "level": "federal",
+        "district": "TX-22",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 1,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 11.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "nehls-troy",
+            "name": "Troy Nehls",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd23-2026": {
+        "office": "U.S. Representative, TX-23",
+        "level": "federal",
+        "district": "TX-23",
+        "score": 36.5,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 20.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 0.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 1.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "gonzales-ernest",
+            "name": "Ernest Anthony Tony Gonzales",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "limon-santos",
+            "name": "Santos M. Limon",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          }
+        ]
+      },
+      "tx-cd24-2026": {
+        "office": "U.S. Representative, TX-24",
+        "level": "federal",
+        "district": "TX-24",
+        "score": 49.5,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 50.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 5.5,
+        "candidate_detail": [
+          {
+            "candidate_id": "buchwald-jon",
+            "name": "Jon Buchwald",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "duyne-beth",
+            "name": "Beth Van Duyne",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 10
+          }
+        ]
+      },
+      "tx-cd25-2026": {
+        "office": "U.S. Representative, TX-25",
+        "level": "federal",
+        "district": "TX-25",
+        "score": 32.8,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 0.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0
+        },
+        "na_components": [
+          "temporal_grounding"
+        ],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 5.5,
+        "candidate_detail": [
+          {
+            "candidate_id": "marks-william",
+            "name": "William James Marks",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": false,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "williams-roger",
+            "name": "Roger Williams",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 10
+          }
+        ]
+      },
+      "tx-cd26-2026": {
+        "office": "U.S. Representative, TX-26",
+        "level": "federal",
+        "district": "TX-26",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 1,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 11.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "gill-brandon",
+            "name": "Brandon Gill",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd27-2026": {
+        "office": "U.S. Representative, TX-27",
+        "level": "federal",
+        "district": "TX-27",
+        "score": 32.8,
+        "tier": "C",
+        "candidate_count": 1,
+        "components": {
+          "finance_coverage": 0.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0
+        },
+        "na_components": [
+          "temporal_grounding"
+        ],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 11.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "cloud-michael",
+            "name": "Michael Cloud",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd28-2026": {
+        "office": "U.S. Representative, TX-28",
+        "level": "federal",
+        "district": "TX-28",
+        "score": 70.0,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 100.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 8,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "cuellar-henry",
+            "name": "Henry R. Cuellar",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          },
+          {
+            "candidate_id": "esparza-juan",
+            "name": "Juan Esparza",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          }
+        ]
+      },
+      "tx-cd29-2026": {
+        "office": "U.S. Representative, TX-29",
+        "level": "federal",
+        "district": "TX-29",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 1,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 11.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "garcia-sylvia",
+            "name": "Sylvia R Garcia",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd30-2026": {
+        "office": "U.S. Representative, TX-30",
+        "level": "federal",
+        "district": "TX-30",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "crockett-jasmine",
+            "name": "Jasmine Crockett",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          },
+          {
+            "candidate_id": "heise-gregor",
+            "name": "Gregor Heinrich Heise",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          }
+        ]
+      },
+      "tx-cd31-2026": {
+        "office": "U.S. Representative, TX-31",
+        "level": "federal",
+        "district": "TX-31",
+        "score": 49.5,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 50.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "carter-john",
+            "name": "John R Rep. Carter",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          },
+          {
+            "candidate_id": "stoker-gregory",
+            "name": "Gregory James Stoker",
+            "party": "Green",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          }
+        ]
+      },
+      "tx-cd32-2026": {
+        "office": "U.S. Representative, TX-32",
+        "level": "federal",
+        "district": "TX-32",
+        "score": 49.5,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 50.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 5.5,
+        "candidate_detail": [
+          {
+            "candidate_id": "bondar-paul",
+            "name": "Paul Bondar",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "johnson-julie",
+            "name": "Julie Johnson",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 10
+          }
+        ]
+      },
+      "tx-cd33-2026": {
+        "office": "U.S. Representative, TX-33",
+        "level": "federal",
+        "district": "TX-33",
+        "score": 50.8,
+        "tier": "B",
+        "candidate_count": 3,
+        "components": {
+          "finance_coverage": 66.7,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 80.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 4.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "allred-colin",
+            "name": "Colin Allred",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "schwab-kurt",
+            "name": "Kurt Schwab",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "veasey-marc",
+            "name": "Marc A. Veasey",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 10
+          }
+        ]
+      },
+      "tx-cd34-2026": {
+        "office": "U.S. Representative, TX-34",
+        "level": "federal",
+        "district": "TX-34",
+        "score": 70.0,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 100.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 8,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "mandel-charles",
+            "name": "Charles Mandel",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "gonzalez-vicente",
+            "name": "Vicente Gonzalez",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd35-2026": {
+        "office": "U.S. Representative, TX-35",
+        "level": "federal",
+        "district": "TX-35",
+        "score": 50.8,
+        "tier": "B",
+        "candidate_count": 3,
+        "components": {
+          "finance_coverage": 66.7,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 80.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 4.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "cruz-carlos",
+            "name": "Carlos Jr. De La Cruz",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "garcia-johnny",
+            "name": "Johnny Garcia",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "casar-greg",
+            "name": "Greg Casar",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 10
+          }
+        ]
+      },
+      "tx-cd36-2026": {
+        "office": "U.S. Representative, TX-36",
+        "level": "federal",
+        "district": "TX-36",
+        "score": 49.5,
+        "tier": "C",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 50.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "rogers-doug",
+            "name": "Doug Rogers",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "babin-brian",
+            "name": "Brian Babin",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": false,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd37-2026": {
+        "office": "U.S. Representative, TX-37",
+        "level": "federal",
+        "district": "TX-37",
+        "score": 59.5,
+        "tier": "B",
+        "candidate_count": 2,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 100.0,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 6.0,
+        "candidate_detail": [
+          {
+            "candidate_id": "pena-lauren",
+            "name": "Lauren B. Pena",
+            "party": "Republican",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "doggett-lloyd",
+            "name": "Lloyd Doggett",
+            "party": "Democratic",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      },
+      "tx-cd38-2026": {
+        "office": "U.S. Representative, TX-38",
+        "level": "federal",
+        "district": "TX-38",
+        "score": 58.2,
+        "tier": "B",
+        "candidate_count": 3,
+        "components": {
+          "finance_coverage": 100.0,
+          "positions_coverage": 0.0,
+          "bio_coverage": 0.0,
+          "sourcing_richness": 86.7,
+          "insight_depth": 30.0,
+          "votes_coverage": 100.0,
+          "temporal_grounding": 100.0
+        },
+        "weights_applied": {
+          "finance_coverage": 20.0,
+          "positions_coverage": 20.0,
+          "bio_coverage": 10.0,
+          "sourcing_richness": 10.0,
+          "insight_depth": 15.0,
+          "votes_coverage": 15.0,
+          "temporal_grounding": 10.0
+        },
+        "na_components": [],
+        "evidence_checks_candidate_count": 0,
+        "archetype_coverage": 0,
+        "insights_base_present": true,
+        "avg_distinct_sources": 4.33,
+        "candidate_detail": [
+          {
+            "candidate_id": "mcmenemy-alex",
+            "name": "Alex McMenemy",
+            "party": "Green",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "hunter-marvalette",
+            "name": "Marvalette Hunter",
+            "party": "Democratic",
+            "incumbent": false,
+            "has_finance": true,
+            "has_votes": false,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 1
+          },
+          {
+            "candidate_id": "hunt-wesley",
+            "name": "Wesley Hunt",
+            "party": "Republican",
+            "incumbent": true,
+            "has_finance": true,
+            "has_votes": true,
+            "has_positions": false,
+            "has_bio": false,
+            "has_evidence_checks": false,
+            "distinct_source_count": 11
+          }
+        ]
+      }
+    },
+    "dataset_rollup": {
+      "depth_score_mean": 58.2,
+      "depth_score_mean_tier": "B",
+      "depth_score_candidate_weighted": 59.4,
+      "by_level_bucket": {
+        "state_executive": {
+          "candidate_count": 22,
+          "finance_pct": 100.0,
+          "votes_pct": 0.0,
+          "positions_pct": 36.4,
+          "bio_pct": 100.0
+        },
+        "us_senate": {
+          "candidate_count": 2,
+          "finance_pct": 100.0,
+          "votes_pct": 0.0,
+          "positions_pct": 100.0,
+          "bio_pct": 100.0
+        },
+        "us_house": {
+          "candidate_count": 72,
+          "finance_pct": 76.4,
+          "votes_pct": 51.4,
+          "positions_pct": 0.0,
+          "bio_pct": 0.0
+        }
+      },
+      "sources_per_candidate": {
+        "avg_top_level_sources_field": 2.24,
+        "avg_distinct_source_urls": 5.51,
+        "distinct_source_distribution": {
+          "1": 35,
+          "2": 13,
+          "3": 1,
+          "5": 2,
+          "6": 3,
+          "7": 2,
+          "8": 2,
+          "9": 2,
+          "10": 7,
+          "11": 29
+        },
+        "note": "avg_distinct_source_urls unions sources[] + finance.source + record.source + every key_votes[].source + every positions[].source; it is consistently higher than avg_top_level_sources_field because many citations live only inline on the fact they support and are never rolled up into the candidate's own top-level sources[] array (see findings)."
+      },
+      "as_of_coverage": {
+        "finance_objects": 79,
+        "finance_with_valid_as_of": 79,
+        "finance_as_of_pct": 100.0,
+        "key_vote_entries": 290,
+        "key_vote_entries_dated": 290,
+        "key_vote_dated_pct": 100.0
+      },
+      "positions_origin_breakdown": {
+        "civic-match-research": 48,
+        "web-research": 12
+      },
+      "coverage_counts": {
+        "finance": 79,
+        "votes": 37,
+        "positions": 10,
+        "bio": 24,
+        "total_candidates": 96
+      },
+      "insight_layer": {
+        "base_present_races": 46,
+        "total_races": 46,
+        "races_with_full_archetypes": [
+          "tx-ag-2026",
+          "tx-agcomm-2026",
+          "tx-cd28-2026",
+          "tx-cd34-2026",
+          "tx-comptroller-2026",
+          "tx-gov-2026",
+          "tx-landcomm-2026",
+          "tx-ltgov-2026",
+          "tx-railroad-2026",
+          "tx-sen-2026"
+        ],
+        "races_with_partial_archetypes": [],
+        "races_without_archetypes": [
+          "tx-cd01-2026",
+          "tx-cd02-2026",
+          "tx-cd03-2026",
+          "tx-cd04-2026",
+          "tx-cd05-2026",
+          "tx-cd06-2026",
+          "tx-cd07-2026",
+          "tx-cd08-2026",
+          "tx-cd09-2026",
+          "tx-cd10-2026",
+          "tx-cd11-2026",
+          "tx-cd12-2026",
+          "tx-cd13-2026",
+          "tx-cd14-2026",
+          "tx-cd15-2026",
+          "tx-cd16-2026",
+          "tx-cd17-2026",
+          "tx-cd18-2026",
+          "tx-cd19-2026",
+          "tx-cd20-2026",
+          "tx-cd21-2026",
+          "tx-cd22-2026",
+          "tx-cd23-2026",
+          "tx-cd24-2026",
+          "tx-cd25-2026",
+          "tx-cd26-2026",
+          "tx-cd27-2026",
+          "tx-cd29-2026",
+          "tx-cd30-2026",
+          "tx-cd31-2026",
+          "tx-cd32-2026",
+          "tx-cd33-2026",
+          "tx-cd35-2026",
+          "tx-cd36-2026",
+          "tx-cd37-2026",
+          "tx-cd38-2026"
+        ],
+        "insight_layer_score": 60.9
+      },
+      "sourcing_index": 100.0,
+      "evidence_checks": {
+        "landed": false,
+        "candidates_with_both_votes_and_positions_today": 0,
+        "candidate_ids": [],
+        "note": "Feature not present under any checked key name; not scored into any race's depth (see module docstring). Even if it landed today, it would have zero candidates to operate on: votes-data (US House incumbents) and positions-data (mostly statewide/AG candidates) currently do not overlap on a single candidate anywhere in the dataset."
+      }
+    }
+  },
+  "completeness_index": {
+    "score": 72.6,
+    "tier": "B",
+    "formula": "0.4 * BREADTH_SCORE + 0.6 * DEPTH_SCORE",
+    "sub_scores": {
+      "breadth_score": 94.1,
+      "depth_score": 58.2
+    },
+    "diagnostic_only_sub_scores": {
+      "insight_layer_score": 60.9,
+      "sourcing_index": 100.0,
+      "note": "These two are detail views INTO depth_score's own components (insight_depth, sourcing_richness, temporal_grounding) -- shown separately for visibility into the two biggest fixable gaps, but NOT re-weighted into the top-line score a second time."
+    }
+  },
+  "coverage_report_drift_check": {
+    "available": true,
+    "fresh_matches_cached": true,
+    "diff_count": 0,
+    "diffs": []
+  },
+  "recoverable_fec_join_rescan": {
+    "available": true,
+    "targets_checked": 7,
+    "possible_recoverable": 3,
+    "no_match_in_fetch": 4,
+    "results": [
+      {
+        "our_district": "TX-09",
+        "our_name": "Al Green",
+        "bioguide_id": "G000553",
+        "surname_matches_in_raw_fec_json": [
+          {
+            "fec_name": "Alexander Green",
+            "fec_id": "H4TX09095",
+            "district_in_raw_fetch": "TX-18",
+            "incumbent_challenge": "Incumbent",
+            "receipts": 1510813.93
+          }
+        ],
+        "verdict": "POSSIBLE_RECOVERABLE_JOIN"
+      },
+      {
+        "our_district": "TX-14",
+        "our_name": "Randy K. Weber, Sr.",
+        "bioguide_id": "W000814",
+        "surname_matches_in_raw_fec_json": [],
+        "verdict": "NO_MATCH_IN_CURRENT_FETCH"
+      },
+      {
+        "our_district": "TX-24",
+        "our_name": "Beth Van Duyne",
+        "bioguide_id": "V000134",
+        "surname_matches_in_raw_fec_json": [],
+        "verdict": "NO_MATCH_IN_CURRENT_FETCH"
+      },
+      {
+        "our_district": "TX-25",
+        "our_name": "Roger Williams",
+        "bioguide_id": "W000816",
+        "surname_matches_in_raw_fec_json": [],
+        "verdict": "NO_MATCH_IN_CURRENT_FETCH"
+      },
+      {
+        "our_district": "TX-32",
+        "our_name": "Julie Johnson",
+        "bioguide_id": "J000310",
+        "surname_matches_in_raw_fec_json": [
+          {
+            "fec_name": "Jarvis Johnson",
+            "fec_id": "H6TX18406",
+            "district_in_raw_fetch": "TX-29",
+            "incumbent_challenge": "Challenger",
+            "receipts": 142143.0
+          },
+          {
+            "fec_name": "Julie Johnson",
+            "fec_id": "H4TX32089",
+            "district_in_raw_fetch": "TX-33",
+            "incumbent_challenge": "Open seat",
+            "receipts": 2252003.95
+          }
+        ],
+        "verdict": "POSSIBLE_RECOVERABLE_JOIN"
+      },
+      {
+        "our_district": "TX-33",
+        "our_name": "Marc A. Veasey",
+        "bioguide_id": "V000131",
+        "surname_matches_in_raw_fec_json": [],
+        "verdict": "NO_MATCH_IN_CURRENT_FETCH"
+      },
+      {
+        "our_district": "TX-35",
+        "our_name": "Greg Casar",
+        "bioguide_id": "C001131",
+        "surname_matches_in_raw_fec_json": [
+          {
+            "fec_name": "Greg Casar",
+            "fec_id": "H2TX35144",
+            "district_in_raw_fetch": "TX-37",
+            "incumbent_challenge": "Open seat",
+            "receipts": 1057595.98
+          }
+        ],
+        "verdict": "POSSIBLE_RECOVERABLE_JOIN"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "DEFECT-01",
+      "type": "DEFECT",
+      "title": "Personalized (archetype) insights only computed for 10/46 races",
+      "summary": "10/46 races have full 8-archetype personalized insight coverage; 36/46 have base-only insights (no per-voter-profile personalization at all). Confirmed this is NOT a bug in how the existing 'competitive races only' rule was applied (every race matching pipeline/build_insights_house.py + pipeline/build_insights_tx20_38.py's own documented gate -- last_result margin_pct < 10 OR no incumbent, OR marquee/district-null -- does have full archetype coverage; zero rule-violation anomalies found). It is a real depth gap because the generation itself is a deterministic, no-network, no-LLM authoring pass over ALREADY-INGESTED gold data (per both scripts' own docstrings) -- extending it to all 46 races requires no new fetching.",
+      "evidence": {
+        "races_without_archetypes": [
+          "tx-cd01-2026",
+          "tx-cd02-2026",
+          "tx-cd03-2026",
+          "tx-cd04-2026",
+          "tx-cd05-2026",
+          "tx-cd06-2026",
+          "tx-cd07-2026",
+          "tx-cd08-2026",
+          "tx-cd09-2026",
+          "tx-cd10-2026",
+          "tx-cd11-2026",
+          "tx-cd12-2026",
+          "tx-cd13-2026",
+          "tx-cd14-2026",
+          "tx-cd15-2026",
+          "tx-cd16-2026",
+          "tx-cd17-2026",
+          "tx-cd18-2026",
+          "tx-cd19-2026",
+          "tx-cd20-2026",
+          "tx-cd21-2026",
+          "tx-cd22-2026",
+          "tx-cd23-2026",
+          "tx-cd24-2026",
+          "tx-cd25-2026",
+          "tx-cd26-2026",
+          "tx-cd27-2026",
+          "tx-cd29-2026",
+          "tx-cd30-2026",
+          "tx-cd31-2026",
+          "tx-cd32-2026",
+          "tx-cd33-2026",
+          "tx-cd35-2026",
+          "tx-cd36-2026",
+          "tx-cd37-2026",
+          "tx-cd38-2026"
+        ]
+      },
+      "exact_fix": "In pipeline/build_insights_house.py and pipeline/build_insights_tx20_38.py, remove (or add a --all flag bypassing) the 'archetypes only for competitive races' gate so archetypes are computed for every race in range; rerun both scripts; then rerun pipeline/clean_gold.py and pipeline/score_quality.py so coverage_report.json/quality_report.json/QUALITY.md pick up the new archetype_fraction values; rerun this script to confirm insight_layer_score rises.",
+      "effort": "LOW (~20-30 min: two script edits + three reruns + spot-check, no new data)",
+      "impact": "HIGH -- this is the single largest lever on both DEPTH_SCORE and the completeness index"
+    },
+    {
+      "id": "DEFECT-02",
+      "type": "DEFECT",
+      "title": "Candidate top-level sources[] materially undercounts actual citation depth",
+      "summary": "Average top-level sources[] length is 2.24, but the average number of DISTINCT source URLs actually cited across finance/record/key_votes/positions is 5.51 -- more than double. Any consumer (a future 'N sources' UI badge, an export step) that reads only the top-level array undercounts credibility signal.",
+      "evidence": {
+        "distribution": {
+          "1": 35,
+          "2": 13,
+          "3": 1,
+          "5": 2,
+          "6": 3,
+          "7": 2,
+          "8": 2,
+          "9": 2,
+          "10": 7,
+          "11": 29
+        }
+      },
+      "exact_fix": "Add a small deterministic pass (new script or a function in pipeline/clean_gold.py) that sets each candidate's sources[] = sorted(union(existing sources[], finance.source, record.source, every key_votes[].source, every positions[].source)), reusing clean_gold.py's existing clean_url_list() dedup helper. Idempotent, no new fetches.",
+      "effort": "LOW (~30-45 min incl. a rerun of validate_data.py)",
+      "impact": "MEDIUM -- cosmetic/credibility-signal fix, not a factual-content gap"
+    },
+    {
+      "id": "DEFECT-03-CANDIDATE",
+      "type": "DEFECT_CANDIDATE",
+      "title": "3 of 7 FEC-unmatched incumbents have a same-surname record already sitting in raw/fec.json",
+      "summary": "unjoined_report.json lists incumbents added from the legislators roster with no FEC 2026 filer match for their (new, redistricted) district. A same-surname rescan of data/tx/raw/fec.json across ALL districts (not just the exact assigned one) finds a candidate record for some of them tagged under a DIFFERENT district -- consistent with this dataset's own already-documented redistricting-tag mismatches (unjoined_report.json's 'ambiguous_same_party_filers' shows the same TX-32-rooted-FEC-id-tagged-as-TX-33 pattern for a still-successfully-joined candidate). This is evidence of a RECOVERABLE join, not confirmation -- same-surname is not the same as same-person, and this project's own culture (see quality_report.json's name_collisions_not_merged) deliberately never auto-merges on name alone.",
+      "evidence": {
+        "recoverable": [
+          {
+            "our_district": "TX-09",
+            "our_name": "Al Green",
+            "bioguide_id": "G000553",
+            "surname_matches_in_raw_fec_json": [
+              {
+                "fec_name": "Alexander Green",
+                "fec_id": "H4TX09095",
+                "district_in_raw_fetch": "TX-18",
+                "incumbent_challenge": "Incumbent",
+                "receipts": 1510813.93
+              }
+            ],
+            "verdict": "POSSIBLE_RECOVERABLE_JOIN"
+          },
+          {
+            "our_district": "TX-32",
+            "our_name": "Julie Johnson",
+            "bioguide_id": "J000310",
+            "surname_matches_in_raw_fec_json": [
+              {
+                "fec_name": "Jarvis Johnson",
+                "fec_id": "H6TX18406",
+                "district_in_raw_fetch": "TX-29",
+                "incumbent_challenge": "Challenger",
+                "receipts": 142143.0
+              },
+              {
+                "fec_name": "Julie Johnson",
+                "fec_id": "H4TX32089",
+                "district_in_raw_fetch": "TX-33",
+                "incumbent_challenge": "Open seat",
+                "receipts": 2252003.95
+              }
+            ],
+            "verdict": "POSSIBLE_RECOVERABLE_JOIN"
+          },
+          {
+            "our_district": "TX-35",
+            "our_name": "Greg Casar",
+            "bioguide_id": "C001131",
+            "surname_matches_in_raw_fec_json": [
+              {
+                "fec_name": "Greg Casar",
+                "fec_id": "H2TX35144",
+                "district_in_raw_fetch": "TX-37",
+                "incumbent_challenge": "Open seat",
+                "receipts": 1057595.98
+              }
+            ],
+            "verdict": "POSSIBLE_RECOVERABLE_JOIN"
+          }
+        ]
+      },
+      "exact_fix": "For each candidate_ids listed in evidence.recoverable: manually confirm (against the FEC candidate page + Texas Legislative Council's official 2025 congressional redistricting map or a current Ballotpedia district-boundary source) whether the raw/fec.json record is the SAME person as our roster incumbent and whether their correct 2026 district is ours or the one tagged in the FEC row. If confirmed, wire finance{} into that candidate in candidates.json with the verified district, citing both sources. If NOT the same person, leave as-is (already correctly honest: no finance data). Do not script an automatic merge.",
+      "effort": "MEDIUM (~10-15 min PER candidate of careful manual verification; do not batch-automate)",
+      "impact": "MEDIUM -- recovers finance{} for a handful of otherwise-honest-gap incumbents, IF confirmed"
+    },
+    {
+      "id": "GAP-01",
+      "type": "HONEST_GAP",
+      "subtype": "not_yet_fetched",
+      "title": "4 FEC-unmatched incumbents have no same-surname record anywhere in our current raw/fec.json fetch",
+      "summary": "No FEC candidate record under any district/name variant was found in the current raw fetch for: Randy K. Weber, Sr., Beth Van Duyne, Roger Williams, Marc A. Veasey. This is NOT confirmed as 'FEC has nothing for them' -- our raw fetch may be incomplete for their district/cycle, or they may genuinely not have filed 2026 FEC paperwork yet as of the fetch date.",
+      "evidence": {
+        "names": [
+          "Randy K. Weber, Sr.",
+          "Beth Van Duyne",
+          "Roger Williams",
+          "Marc A. Veasey"
+        ]
+      },
+      "recommendation": "Re-query FEC's live candidate API directly by name/bioguide (not just by our current per-district raw/fec.json snapshot) with a registered FEC_API_KEY (DEMO_KEY rate-limits hard) to confirm absence vs incomplete fetch.",
+      "effort": "LOW-MEDIUM (~15 min once FEC_API_KEY is set, per CLAUDE.md human action items)",
+      "impact": "LOW-MEDIUM (7 candidates total across the dataset)"
+    },
+    {
+      "id": "GAP-02",
+      "type": "HONEST_GAP",
+      "subtype": "not_yet_fetched",
+      "title": "US House candidates: near-zero issue positions and biography coverage",
+      "summary": "US House candidates (n=72, 75% of all candidates in the dataset) show positions_pct=0.0% and bio_pct=0.0%, versus finance_pct=76.4% and votes_pct=51.4%. The civic-match Kimi research swarm that produced positions[] (origin='civic-match-research') only researched statewide/marquee candidates (per CLAUDE.md's status log: 9 TX candidates fully researched); it was never pointed at any of the 38 US House races. Likely available in scattered public form (campaign sites, Ballotpedia, VoteSmart) but requires genuine per-candidate research effort -- this is not a file sitting already-fetched and unused.",
+      "evidence": {
+        "by_level_bucket": {
+          "state_executive": {
+            "candidate_count": 22,
+            "finance_pct": 100.0,
+            "votes_pct": 0.0,
+            "positions_pct": 36.4,
+            "bio_pct": 100.0
+          },
+          "us_senate": {
+            "candidate_count": 2,
+            "finance_pct": 100.0,
+            "votes_pct": 0.0,
+            "positions_pct": 100.0,
+            "bio_pct": 100.0
+          },
+          "us_house": {
+            "candidate_count": 72,
+            "finance_pct": 76.4,
+            "votes_pct": 51.4,
+            "positions_pct": 0.0,
+            "bio_pct": 0.0
+          }
+        }
+      },
+      "recommendation": "Extend the civic-match researched-positions pipeline (or an equivalent web-research pass, see pipeline/import_civicmatch_positions.py's matching logic) to US House candidates, prioritizing the 37 who already have a voting record on file (positions research on THOSE candidates is double-value: it also unlocks a real says-vs-voted comparison the moment that feature lands, see GAP-04 below).",
+      "effort": "HIGH (72 candidates x issue research -- realistically a fresh multi-agent research pass, not a script)",
+      "impact": "HIGH -- this is the largest single depth hole in the dataset by candidate count"
+    },
+    {
+      "id": "GAP-03",
+      "type": "HONEST_GAP",
+      "subtype": "needs_key",
+      "title": "sponsored_highlights empty dataset-wide; roster fetched via fallback -- congress.gov DEMO_KEY rate-limited",
+      "summary": "data/tx/unjoined_report.json's upstream_fetch_gaps records that congress.gov's member and sponsored-legislation endpoints returned 429 OVER_RATE_LIMIT on the shared DEMO_KEY for the entire build window (no CONGRESS_GOV_API_KEY configured in .env). The legislator roster was recovered via the public-domain unitedstates/congress-legislators fallback (same bioguide IDs), but sponsored_highlights has no equivalent fallback and is empty for every candidate.",
+      "evidence": {
+        "upstream_fetch_gaps": [
+          "congress.gov /v3/member/congress/119/TX returned 429 OVER_RATE_LIMIT on DEMO_KEY for the entire build window (no CONGRESS_GOV_API_KEY in .env); used unitedstates/congress-legislators legislators-current.yaml as a public-domain fallback for the roster (same bioguide IDs).",
+          "legislators-current.yaml fallback has no current House member listed for TX-23 (vacant seat or dataset lag) — omitted rather than guessed.",
+          "congress.gov /v3/member/C001056/sponsored-legislation unavailable (429 OVER_RATE_LIMIT on DEMO_KEY); omitted.",
+          "congress.gov /v3/member/C001098/sponsored-legislation unavailable (429 OVER_RATE_LIMIT on DEMO_KEY); omitted."
+        ]
+      },
+      "recommendation": "Sign up for a free CONGRESS_GOV_API_KEY (https://api.congress.gov/sign-up/, instant per CLAUDE.md) and rerun the sponsored-legislation fetch step -- this is purely a rate-limit block, the data is public and the fetch code already exists.",
+      "effort": "LOW (~5 min signup + a rerun, once the key exists)",
+      "impact": "MEDIUM (adds a currently-100%-empty field across most/all candidates)"
+    },
+    {
+      "id": "GAP-04",
+      "type": "HONEST_GAP",
+      "subtype": "not_yet_fetched",
+      "title": "Says-vs-voted detector now exists (pipeline/detect_contradictions.py) but is not yet run, and would currently be a no-op",
+      "summary": "pipeline/detect_contradictions.py has landed (a concurrent commit during this eval) and writes candidate.evidence_checks[] -- exactly the key name this script already checks for. It has not yet been run against data/tx/candidates.json (no candidate carries the field yet). Its own documented gate requires a candidate to have BOTH positions[] AND record.key_votes[] non-empty; this script independently counts 0 such candidates in the current gold dataset -- so running it today, while cheap, would produce zero checks. The detector is not the bottleneck; GAP-02 is.",
+      "evidence": {
+        "candidates_with_both_votes_and_positions": 0,
+        "detector_script_present": true
+      },
+      "recommendation": "Running `python3 pipeline/detect_contradictions.py` now is safe and cheap but will find nothing to report. Prioritize GAP-02 (positions research for the 37 US House incumbents who already have key_votes) -- every candidate that gains a same-issue position immediately becomes eligible for a real says-vs-voted check the next time this script is rerun.",
+      "effort": "LOW to run (~1 min)",
+      "impact": "LOW right now (0 candidates eligible regardless of whether the script runs); HIGH once GAP-02 unblocks it"
+    },
+    {
+      "id": "GAP-05",
+      "type": "HONEST_GAP",
+      "subtype": "declared_out_of_scope",
+      "title": "TX Legislature (150 House + 31 Senate districts) not covered",
+      "summary": "TX Legislature (150 House + 31 Senate districts, 181 more possible races) is an explicit STRETCH GOAL per CLAUDE.md LOCKED DECISIONS, not part of EXPECTED_RACE_COUNT. Judged against a citizen's REAL full ballot (which also includes state legislature + county/local races), this dataset covers statewide + US House only -- a deliberate, declared scope cut, not a defect.",
+      "evidence": {},
+      "recommendation": "Stretch goal per CLAUDE.md; only pursue after the 46-race dataset is fully deep.",
+      "effort": "HIGH (181 more districts, new Open States/LegiScan integration, key-gated)",
+      "impact": "Would make the ballot genuinely complete rather than statewide+US-House-only"
+    },
+    {
+      "id": "DEFECT-04",
+      "type": "DEFECT",
+      "title": "quality_report.json's source_coverage.civic_match_positions undercounts true positions coverage",
+      "summary": "quality_report.json reports civic_match_positions as candidates with an origin=='civic-match-research' position (8/96, 8.3%). The true count of candidates with ANY position on file (including origin=='web-research', e.g. the AG race enrichment) is 10/96 (10.4%). Not a data gap -- a metric-definition/labeling gap in the reporting script.",
+      "evidence": {
+        "positions_origin_breakdown": {
+          "civic-match-research": 48,
+          "web-research": 12
+        }
+      },
+      "exact_fix": "In pipeline/score_quality.py's source_coverage block, add an any_positions count alongside the existing origin-filtered civic_match_positions count (five-line change), then rerun it.",
+      "effort": "LOW (~10 min)",
+      "impact": "LOW -- reporting accuracy only, does not change served data"
+    },
+    {
+      "id": "GAP-06",
+      "type": "HONEST_GAP",
+      "subtype": "not_yet_fetched",
+      "title": "State-executive candidates: positions coverage is partial, not complete",
+      "summary": "State-executive candidates (n=22) show positions_pct=36.4%, versus finance_pct=100.0% and bio_pct=100.0% both near-complete. The civic-match Kimi swarm fully researched a subset (governor, lt gov, AG, a few others per CLAUDE.md's status log) but not every candidate in every statewide race (e.g. third-party/minor candidates).",
+      "evidence": {
+        "by_level_bucket_state_executive": {
+          "candidate_count": 22,
+          "finance_pct": 100.0,
+          "votes_pct": 0.0,
+          "positions_pct": 36.4,
+          "bio_pct": 100.0
+        }
+      },
+      "recommendation": "Extend civic-match's researched-candidate list to the remaining statewide minor-party/challenger candidates.",
+      "effort": "MEDIUM (per-candidate research, smaller n than GAP-02)",
+      "impact": "MEDIUM (statewide races are the highest-traffic/marquee races)"
+    }
+  ],
+  "prioritized_improvements": [
+    {
+      "rank": 1,
+      "id": "DEFECT-01",
+      "type": "DEFECT",
+      "title": "Personalized (archetype) insights only computed for 10/46 races",
+      "effort": "LOW (~20-30 min: two script edits + three reruns + spot-check, no new data)",
+      "impact": "HIGH -- this is the single largest lever on both DEPTH_SCORE and the completeness index",
+      "action": "In pipeline/build_insights_house.py and pipeline/build_insights_tx20_38.py, remove (or add a --all flag bypassing) the 'archetypes only for competitive races' gate so archetypes are computed for every race in range; rerun both scripts; then rerun pipeline/clean_gold.py and pipeline/score_quality.py so coverage_report.json/quality_report.json/QUALITY.md pick up the new archetype_fraction values; rerun this script to confirm insight_layer_score rises."
+    },
+    {
+      "rank": 2,
+      "id": "DEFECT-02",
+      "type": "DEFECT",
+      "title": "Candidate top-level sources[] materially undercounts actual citation depth",
+      "effort": "LOW (~30-45 min incl. a rerun of validate_data.py)",
+      "impact": "MEDIUM -- cosmetic/credibility-signal fix, not a factual-content gap",
+      "action": "Add a small deterministic pass (new script or a function in pipeline/clean_gold.py) that sets each candidate's sources[] = sorted(union(existing sources[], finance.source, record.source, every key_votes[].source, every positions[].source)), reusing clean_gold.py's existing clean_url_list() dedup helper. Idempotent, no new fetches."
+    },
+    {
+      "rank": 3,
+      "id": "DEFECT-04",
+      "type": "DEFECT",
+      "title": "quality_report.json's source_coverage.civic_match_positions undercounts true positions coverage",
+      "effort": "LOW (~10 min)",
+      "impact": "LOW -- reporting accuracy only, does not change served data",
+      "action": "In pipeline/score_quality.py's source_coverage block, add an any_positions count alongside the existing origin-filtered civic_match_positions count (five-line change), then rerun it."
+    },
+    {
+      "rank": 4,
+      "id": "DEFECT-03-CANDIDATE",
+      "type": "DEFECT_CANDIDATE",
+      "title": "3 of 7 FEC-unmatched incumbents have a same-surname record already sitting in raw/fec.json",
+      "effort": "MEDIUM (~10-15 min PER candidate of careful manual verification; do not batch-automate)",
+      "impact": "MEDIUM -- recovers finance{} for a handful of otherwise-honest-gap incumbents, IF confirmed",
+      "action": "For each candidate_ids listed in evidence.recoverable: manually confirm (against the FEC candidate page + Texas Legislative Council's official 2025 congressional redistricting map or a current Ballotpedia district-boundary source) whether the raw/fec.json record is the SAME person as our roster incumbent and whether their correct 2026 district is ours or the one tagged in the FEC row. If confirmed, wire finance{} into that candidate in candidates.json with the verified district, citing both sources. If NOT the same person, leave as-is (already correctly honest: no finance data). Do not script an automatic merge."
+    },
+    {
+      "rank": 5,
+      "id": "GAP-02",
+      "type": "HONEST_GAP",
+      "title": "US House candidates: near-zero issue positions and biography coverage",
+      "effort": "HIGH (72 candidates x issue research -- realistically a fresh multi-agent research pass, not a script)",
+      "impact": "HIGH -- this is the largest single depth hole in the dataset by candidate count",
+      "action": "Extend the civic-match researched-positions pipeline (or an equivalent web-research pass, see pipeline/import_civicmatch_positions.py's matching logic) to US House candidates, prioritizing the 37 who already have a voting record on file (positions research on THOSE candidates is double-value: it also unlocks a real says-vs-voted comparison the moment that feature lands, see GAP-04 below)."
+    },
+    {
+      "rank": 6,
+      "id": "GAP-03",
+      "type": "HONEST_GAP",
+      "title": "sponsored_highlights empty dataset-wide; roster fetched via fallback -- congress.gov DEMO_KEY rate-limited",
+      "effort": "LOW (~5 min signup + a rerun, once the key exists)",
+      "impact": "MEDIUM (adds a currently-100%-empty field across most/all candidates)",
+      "action": "Sign up for a free CONGRESS_GOV_API_KEY (https://api.congress.gov/sign-up/, instant per CLAUDE.md) and rerun the sponsored-legislation fetch step -- this is purely a rate-limit block, the data is public and the fetch code already exists."
+    },
+    {
+      "rank": 7,
+      "id": "GAP-06",
+      "type": "HONEST_GAP",
+      "title": "State-executive candidates: positions coverage is partial, not complete",
+      "effort": "MEDIUM (per-candidate research, smaller n than GAP-02)",
+      "impact": "MEDIUM (statewide races are the highest-traffic/marquee races)",
+      "action": "Extend civic-match's researched-candidate list to the remaining statewide minor-party/challenger candidates."
+    },
+    {
+      "rank": 8,
+      "id": "GAP-01",
+      "type": "HONEST_GAP",
+      "title": "4 FEC-unmatched incumbents have no same-surname record anywhere in our current raw/fec.json fetch",
+      "effort": "LOW-MEDIUM (~15 min once FEC_API_KEY is set, per CLAUDE.md human action items)",
+      "impact": "LOW-MEDIUM (7 candidates total across the dataset)",
+      "action": "Re-query FEC's live candidate API directly by name/bioguide (not just by our current per-district raw/fec.json snapshot) with a registered FEC_API_KEY (DEMO_KEY rate-limits hard) to confirm absence vs incomplete fetch."
+    },
+    {
+      "rank": 9,
+      "id": "GAP-05",
+      "type": "HONEST_GAP",
+      "title": "TX Legislature (150 House + 31 Senate districts) not covered",
+      "effort": "HIGH (181 more districts, new Open States/LegiScan integration, key-gated)",
+      "impact": "Would make the ballot genuinely complete rather than statewide+US-House-only",
+      "action": "Stretch goal per CLAUDE.md; only pursue after the 46-race dataset is fully deep."
+    },
+    {
+      "rank": 10,
+      "id": "GAP-04",
+      "type": "HONEST_GAP",
+      "title": "Says-vs-voted detector now exists (pipeline/detect_contradictions.py) but is not yet run, and would currently be a no-op",
+      "effort": "LOW to run (~1 min)",
+      "impact": "LOW right now (0 candidates eligible regardless of whether the script runs); HIGH once GAP-02 unblocks it",
+      "action": "Running `python3 pipeline/detect_contradictions.py` now is safe and cheap but will find nothing to report. Prioritize GAP-02 (positions research for the 37 US House incumbents who already have key_votes) -- every candidate that gains a same-issue position immediately becomes eligible for a real says-vs-voted check the next time this script is rerun."
+    }
+  ]
+}

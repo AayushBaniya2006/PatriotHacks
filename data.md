@@ -176,6 +176,51 @@ python3 pipeline/load_postgres.py              # reload Postgres
 
 ---
 
+## 8. Cache robustness
+
+All three caches — geocode (`app/datastore.py`, 4-layer: memory LRU → runtime Postgres/JSON →
+committed seed `data/tx/geocode_seed.json` → live Census geocoder), insights (keyed
+`(race_id, archetype)`, `inputs_hash` change-detection, write-through — see §4 above), and demo
+(`data/demo_cache/**`, frozen responses replayed vs. live) — are proven end-to-end by
+`tests/test_cache_robustness.py`, self-proving throughout: every invariant below is exercised by
+injecting the failure, watching the relevant test go RED, then confirming it's GREEN again on the
+real, uncorrupted code/data. `pipeline/validate_cache.py` is the one-command, no-server,
+no-network version of the same checks (PASS/FAIL per check, wired into `DEMO_PLAYBOOK.md`'s
+pre-stage checklist).
+
+- **Geocode layering.** A seeded address resolves even with an empty runtime cache and the live
+  geocoder unreachable (proves the seed layer alone is sufficient); that hit write-throughs into
+  the runtime cache and warms the in-process memory LRU, so a repeat lookup never re-reads the
+  runtime store. A never-seeded address always reaches the live geocoder (or a mocked
+  equivalent in tests) or a clean 503 — never a silently fabricated district. A corrupted runtime
+  `geocode_cache.json` is tolerated as a miss (falls through to the seed layer) rather than
+  crashing the request; `_JsonFileCache` (backs `races.json`/`candidates.json`/the seed file
+  itself) goes further and keeps serving its last-known-good parse across a transient bad read.
+  The seed file is also cross-checked against independently-recorded ground truth so a
+  seed/live disagreement (e.g. a bad hand-edit, a shifted district boundary) can't silently ship.
+- **civic_json preservation.** `geocode_cache_put`'s JSON-fallback path merges into any existing
+  cache entry rather than replacing it wholesale, so a re-geocode of an address already enriched
+  with Google Civic data (`geocode_cache_put_civic`) can never clobber its `civic_json`. Proven
+  RED (a naive replace-not-merge implementation clobbers it) then GREEN (the real code preserves
+  it while still applying the new district fields).
+- **Insights invalidation.** `compute_inputs_hash` (sha256 over a race's candidate JSON, sorted
+  keys, `candidate_id` stripped) is deterministic for unchanged data and changes the moment
+  candidate data does — the exact signal `pipeline/load_postgres.py`'s incremental upsert uses to
+  decide skip-vs-rewrite per `(race_id, archetype)` row; its independent copy of the hash
+  algorithm is checked against `app/datastore.py`'s own for drift on every race.
+  `get_insights` reassembles Postgres's one-row-per-block storage back into the
+  `{race_id, base, archetypes}` file shape losslessly, and a `put_insight_block` write-through is
+  served cached on the very next call without disturbing any other block already cached for that
+  race.
+- **Demo-cache freshness.** Every `data/demo_cache/**` file is checked against a fresh in-process
+  `TestClient` response. A staleness-detection self-proof mutates an isolated tmp copy of a real
+  cached file (the committed file itself is never opened for writing) and confirms the freshness
+  check fails, naming the drifted file and race, then passes again once restored. Every cached
+  ballot's candidates are additionally checked against the current `pipeline/score_quality.py`
+  `data_quality` shape (`{score, tier, missing}`).
+
+---
+
 ## Cross-links
 
 - [`CLAUDE.md`](CLAUDE.md) — project scope, locked decisions, status log.

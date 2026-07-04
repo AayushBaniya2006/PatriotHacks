@@ -73,6 +73,8 @@ compile (avoids a 3-5s stall live on the intake→results transition).
 — if anything on the frontend looks wrong live, this tab proves the backend data is fine
 and the bug is frontend-side, not "our data is broken."
 
+Before that, run `python3 pipeline/validate_cache.py` — a fast, no-server, no-network cache-integrity check (geocode seed covers every demo address, every `data/demo_cache/**` file parses and still matches a real race, `inputs_hash` is reproducible) that prints PASS/FAIL per check; it catches a corrupted or stale cache cheaply, before the slower live gate below even starts.
+
 Run `python3 pipeline/demo_readiness_gate.py` last, right before going on stage — it starts
 the backend if needed, live-checks the ballot API for all 8 precache+golden addresses,
 verifies marquee insight/horizons completeness, scans for finance-source misattribution, and
@@ -104,6 +106,9 @@ On `/intake`:
    *Backup if this address ever fails to resolve live:* **`1100 E Monroe St,
    Brownsville, TX 78520`** → CD TX-34 / SD-27 / HD-38, Cameron County (Gonzalez vs.
    Mandel, 2024 margin 2.6 pts — the single best-scoring House district in the set).
+   *Want to show one metro splitting several ways instead?* Austin/Central Texas is
+   fully seeded across 6 districts (TX-10/17/21/31/35/37) — see `data/tx/AUSTIN_DEMO.md`
+   for the address list and which are strongest to lead with.
 2. Occupation / age / income — fill in anything plausible (doesn't affect the demo).
 3. Situation flags — click **Veteran**. This is the archetype-flipping moment: the
    precomputed insight the app serves later is keyed off this flag (deterministic

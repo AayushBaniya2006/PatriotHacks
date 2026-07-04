@@ -12,6 +12,19 @@
 // to BallotSection are needed. Never gated on that state; the plan is fully
 // usable at any point, reviewed or not.
 //
+// AESTHETIC QA PASS: text-zinc-500/600 -> text-zinc-400 and
+// border-zinc-700/800 -> border-zinc-500, same measured reason as the other
+// two files in this module (old shades measured 1.2-3.8:1 against this
+// card's zinc-900/50-on-navy / zinc-950 surfaces, under the WCAG AA 3:1 /
+// 4.5:1 floors; the new shades clear both with margin). The "ballot-ready"
+// card's own accent border was border-gold/30 (1.7:1 against the
+// page -- effectively invisible, so the one card meant to feel celebratory
+// didn't visibly have a border at all); bumped to solid border-gold
+// (9.5:1), which is also the exact token this file already uses for every
+// other "active/selected" state (the Election Day / Early voting toggle,
+// the time-window select's sibling controls), so the ready-state border
+// now reads as the same accent language instead of a separate, fainter one.
+//
 // No polling place is ever claimed here (Do-Not-Build: "Full polling-place
 // map") -- the card always points to VoteTexas.gov to confirm one. Early
 // voting dates are county-specific and NOT present anywhere in this repo's
@@ -183,8 +196,8 @@ export function VotingPlan({
     <div
       className={
         ballotReady
-          ? "rounded-2xl border border-gold/30 bg-gradient-to-br from-gold/10 to-transparent p-5 transition"
-          : "rounded-xl border border-zinc-800 bg-zinc-900/50 p-5 transition"
+          ? "rounded-2xl border border-gold bg-gradient-to-br from-gold/10 to-transparent p-5 transition"
+          : "rounded-xl border border-zinc-500 bg-zinc-900/50 p-5 transition"
       }
     >
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
@@ -198,7 +211,7 @@ export function VotingPlan({
 
       <div className="space-y-4">
         <div>
-          <div className="mb-2 text-xs uppercase tracking-wider text-zinc-500">When are you voting?</div>
+          <div className="mb-2 text-xs uppercase tracking-wider text-zinc-400">When are you voting?</div>
           <div className="flex flex-wrap gap-2">
             <button
               type="button"
@@ -207,7 +220,7 @@ export function VotingPlan({
               className={`rounded-lg border px-3 py-1.5 text-sm font-medium transition ${
                 timing === "election_day"
                   ? "border-gold bg-gold/15 text-gold"
-                  : "border-zinc-700 text-zinc-300 hover:border-gold/60"
+                  : "border-zinc-500 text-zinc-300 hover:border-gold/60"
               }`}
             >
               Election Day ({ELECTION_DATE_LABEL})
@@ -219,7 +232,7 @@ export function VotingPlan({
               className={`rounded-lg border px-3 py-1.5 text-sm font-medium transition ${
                 timing === "early_voting"
                   ? "border-gold bg-gold/15 text-gold"
-                  : "border-zinc-700 text-zinc-300 hover:border-gold/60"
+                  : "border-zinc-500 text-zinc-300 hover:border-gold/60"
               }`}
             >
               Early voting (check dates at VoteTexas.gov)
@@ -228,7 +241,7 @@ export function VotingPlan({
         </div>
 
         <div>
-          <label htmlFor="voting-plan-window" className="mb-2 block text-xs uppercase tracking-wider text-zinc-500">
+          <label htmlFor="voting-plan-window" className="mb-2 block text-xs uppercase tracking-wider text-zinc-400">
             What time works?
           </label>
           <select
@@ -238,7 +251,7 @@ export function VotingPlan({
               setWindowId(e.target.value);
               setDownloaded(false);
             }}
-            className="w-full max-w-xs rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm text-zinc-200"
+            className="w-full max-w-xs rounded-lg border border-zinc-500 bg-zinc-950 px-3 py-2 text-sm text-zinc-200"
           >
             {TIME_WINDOWS.map((w) => (
               <option key={w.id} value={w.id}>
@@ -249,7 +262,7 @@ export function VotingPlan({
         </div>
 
         {timing === "early_voting" && (
-          <p className="text-xs text-zinc-500">
+          <p className="max-w-prose text-xs text-zinc-400">
             We don&apos;t have your county&apos;s specific early-voting dates, so the calendar reminder below is set
             for Election Day instead — check VoteTexas.gov for your actual early-voting window.
           </p>
@@ -266,7 +279,7 @@ export function VotingPlan({
           {downloaded && <span className="text-xs text-gold">Calendar file downloaded ✓</span>}
         </div>
 
-        <p className="text-xs text-zinc-600">
+        <p className="max-w-prose text-xs text-zinc-400">
           Downloads a .ics reminder for {ELECTION_DATE_LABEL}, {selectedWindow.label.toLowerCase()} — works with
           Google Calendar, Apple Calendar, Outlook, and most calendar apps.{" "}
           <a

@@ -5,7 +5,7 @@
     "candidates": {
       "patrick-dan": [
         {
-          "text": "Dan Patrick is a candidate for Lieutenant Governor of Texas, running with Republican.",
+          "text": "Dan Patrick (Republican) is a candidate for Lieutenant Governor of Texas.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
         },
         {
@@ -23,7 +23,7 @@
       ],
       "goodwin-vikki": [
         {
-          "text": "Vikki Goodwin is a candidate for Lieutenant Governor of Texas, running with Democratic.",
+          "text": "Vikki Goodwin (Democratic) is a candidate for Lieutenant Governor of Texas.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
         },
         {
@@ -41,7 +41,7 @@
       ],
       "collier-mike": [
         {
-          "text": "Mike Collier is a candidate for Lieutenant Governor of Texas, running with Independent.",
+          "text": "Mike Collier (Independent) is a candidate for Lieutenant Governor of Texas.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
         },
         {
@@ -55,7 +55,7 @@
       ],
       "cristo-anthony": [
         {
-          "text": "Anthony Cristo is a candidate for Lieutenant Governor of Texas, running with Libertarian.",
+          "text": "Anthony Cristo (Libertarian) is a candidate for Lieutenant Governor of Texas.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
         },
         {
@@ -69,7 +69,7 @@
       ],
       "mccormick-kevin": [
         {
-          "text": "Kevin McCormick is a candidate for Lieutenant Governor of Texas, running with Green.",
+          "text": "Kevin McCormick (Green) is a candidate for Lieutenant Governor of Texas.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
         },
         {
@@ -156,15 +156,11 @@
       "candidates": {
         "patrick-dan": [
           {
-            "text": "No public data in our set connects Dan Patrick's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "text": "No public data in our set ties Dan Patrick's background, votes, or stated positions to housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Dan Patrick's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on housing costs, rent, or renters' protections.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -174,49 +170,37 @@
             "source": "https://www.vikkigoodwin.com/issues"
           },
           {
-            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on housing costs, rent, or renters' protections.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "collier-mike": [
           {
-            "text": "No public data in our set connects Mike Collier's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "text": "No public data in our set ties Mike Collier's background, votes, or stated positions to housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Mike Collier's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on housing costs, rent, or renters' protections.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "cristo-anthony": [
           {
-            "text": "No public data in our set connects Anthony Cristo's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "text": "No public data in our set ties Anthony Cristo's background, votes, or stated positions to housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Anthony Cristo's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on housing costs, rent, or renters' protections.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "mccormick-kevin": [
           {
-            "text": "No public data in our set connects Kevin McCormick's recorded background or positions specifically to housing costs, rent, or renters' protections.",
+            "text": "No public data in our set ties Kevin McCormick's background, votes, or stated positions to housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Kevin McCormick's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on housing costs, rent, or renters' protections.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -291,11 +275,11 @@
             "source": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/"
           },
           {
-            "text": "On education, Dan Patrick's recorded position: Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership. The program prioritizes students with disabilities and lower-income families but is universally available.",
+            "text": "On education, Dan Patrick's recorded position: Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership.\u2026",
             "source": "https://www.danpatrick.org/school-choice-passes/"
           },
           {
-            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -305,49 +289,37 @@
             "source": "https://www.vikkigoodwin.com/education"
           },
           {
-            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "collier-mike": [
           {
-            "text": "No public data in our set connects Mike Collier's recorded background or positions specifically to property taxes or public school funding.",
+            "text": "No public data in our set ties Mike Collier's background, votes, or stated positions to property taxes or public school funding.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Mike Collier's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "cristo-anthony": [
           {
-            "text": "No public data in our set connects Anthony Cristo's recorded background or positions specifically to property taxes or public school funding.",
+            "text": "No public data in our set ties Anthony Cristo's background, votes, or stated positions to property taxes or public school funding.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Anthony Cristo's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "mccormick-kevin": [
           {
-            "text": "No public data in our set connects Kevin McCormick's recorded background or positions specifically to property taxes or public school funding.",
+            "text": "No public data in our set ties Kevin McCormick's background, votes, or stated positions to property taxes or public school funding.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Kevin McCormick's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on property taxes or public school funding.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -440,63 +412,47 @@
             "source": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/"
           },
           {
-            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on small business taxes or regulation.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "goodwin-vikki": [
           {
-            "text": "No public data in our set connects Vikki Goodwin's recorded background or positions specifically to small business taxes or regulation.",
+            "text": "No public data in our set ties Vikki Goodwin's background, votes, or stated positions to small business taxes or regulation.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Vikki Goodwin's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on small business taxes or regulation.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "collier-mike": [
           {
-            "text": "Mike Collier's recorded background (Mike Collier (Independent), certified public accountant, Democratic nominee for Lt. Governor in 2018 and 2022, Democratic nominee for Comptroller in 2014) is directly relevant to small business owner voters, though our data set does not include a specific stated position from them on small business taxes or regulation.",
+            "text": "Mike Collier (Independent), certified public accountant, Democratic nominee for Lt. Governor in 2018 and 2022, Democratic nominee for Comptroller in 2014 -- that record connects directly to small business owner voters, though we have no specific stated position from them on small business taxes or regulation.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Mike Collier's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on small business taxes or regulation.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "cristo-anthony": [
           {
-            "text": "No public data in our set connects Anthony Cristo's recorded background or positions specifically to small business taxes or regulation.",
+            "text": "No public data in our set ties Anthony Cristo's background, votes, or stated positions to small business taxes or regulation.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Anthony Cristo's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on small business taxes or regulation.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "mccormick-kevin": [
           {
-            "text": "No public data in our set connects Kevin McCormick's recorded background or positions specifically to small business taxes or regulation.",
+            "text": "No public data in our set ties Kevin McCormick's background, votes, or stated positions to small business taxes or regulation.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Kevin McCormick's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on small business taxes or regulation.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -567,71 +523,51 @@
       "candidates": {
         "patrick-dan": [
           {
-            "text": "No public data in our set connects Dan Patrick's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "text": "No public data in our set ties Dan Patrick's background, votes, or stated positions to health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Dan Patrick's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "goodwin-vikki": [
           {
-            "text": "No public data in our set connects Vikki Goodwin's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "text": "No public data in our set ties Vikki Goodwin's background, votes, or stated positions to health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Vikki Goodwin's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "collier-mike": [
           {
-            "text": "No public data in our set connects Mike Collier's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "text": "No public data in our set ties Mike Collier's background, votes, or stated positions to health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Mike Collier's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "cristo-anthony": [
           {
-            "text": "No public data in our set connects Anthony Cristo's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "text": "No public data in our set ties Anthony Cristo's background, votes, or stated positions to health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Anthony Cristo's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "mccormick-kevin": [
           {
-            "text": "No public data in our set connects Kevin McCormick's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
+            "text": "No public data in our set ties Kevin McCormick's background, votes, or stated positions to health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Kevin McCormick's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -695,15 +631,11 @@
       "candidates": {
         "patrick-dan": [
           {
-            "text": "No public data in our set connects Dan Patrick's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "text": "No public data in our set ties Dan Patrick's background, votes, or stated positions to Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Dan Patrick's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -713,49 +645,37 @@
             "source": "https://www.vikkigoodwin.com/healthcare-priorities"
           },
           {
-            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "collier-mike": [
           {
-            "text": "No public data in our set connects Mike Collier's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "text": "No public data in our set ties Mike Collier's background, votes, or stated positions to Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Mike Collier's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "cristo-anthony": [
           {
-            "text": "No public data in our set connects Anthony Cristo's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "text": "No public data in our set ties Anthony Cristo's background, votes, or stated positions to Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Anthony Cristo's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "mccormick-kevin": [
           {
-            "text": "No public data in our set connects Kevin McCormick's recorded background or positions specifically to Medicare, Social Security, or retiree benefits.",
+            "text": "No public data in our set ties Kevin McCormick's background, votes, or stated positions to Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Kevin McCormick's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -826,71 +746,51 @@
       "candidates": {
         "patrick-dan": [
           {
-            "text": "No public data in our set connects Dan Patrick's recorded background or positions specifically to veterans' benefits or services.",
+            "text": "No public data in our set ties Dan Patrick's background, votes, or stated positions to veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Dan Patrick's recorded votes or stated positions regarding veterans' benefits or services.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on veterans' benefits or services.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "goodwin-vikki": [
           {
-            "text": "No public data in our set connects Vikki Goodwin's recorded background or positions specifically to veterans' benefits or services.",
+            "text": "No public data in our set ties Vikki Goodwin's background, votes, or stated positions to veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Vikki Goodwin's recorded votes or stated positions regarding veterans' benefits or services.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on veterans' benefits or services.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "collier-mike": [
           {
-            "text": "No public data in our set connects Mike Collier's recorded background or positions specifically to veterans' benefits or services.",
+            "text": "No public data in our set ties Mike Collier's background, votes, or stated positions to veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Mike Collier's recorded votes or stated positions regarding veterans' benefits or services.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on veterans' benefits or services.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "cristo-anthony": [
           {
-            "text": "No public data in our set connects Anthony Cristo's recorded background or positions specifically to veterans' benefits or services.",
+            "text": "No public data in our set ties Anthony Cristo's background, votes, or stated positions to veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Anthony Cristo's recorded votes or stated positions regarding veterans' benefits or services.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on veterans' benefits or services.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "mccormick-kevin": [
           {
-            "text": "No public data in our set connects Kevin McCormick's recorded background or positions specifically to veterans' benefits or services.",
+            "text": "No public data in our set ties Kevin McCormick's background, votes, or stated positions to veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Kevin McCormick's recorded votes or stated positions regarding veterans' benefits or services.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on veterans' benefits or services.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -954,11 +854,11 @@
       "candidates": {
         "patrick-dan": [
           {
-            "text": "On education, Dan Patrick's recorded position: Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership. The program prioritizes students with disabilities and lower-income families but is universally available.",
+            "text": "On education, Dan Patrick's recorded position: Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership.\u2026",
             "source": "https://www.danpatrick.org/school-choice-passes/"
           },
           {
-            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on higher education funding or student costs.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
@@ -968,49 +868,37 @@
             "source": "https://www.vikkigoodwin.com/education"
           },
           {
-            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on higher education funding or student costs.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "collier-mike": [
           {
-            "text": "No public data in our set connects Mike Collier's recorded background or positions specifically to higher education funding or student costs.",
+            "text": "No public data in our set ties Mike Collier's background, votes, or stated positions to higher education funding or student costs.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Mike Collier's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on higher education funding or student costs.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "cristo-anthony": [
           {
-            "text": "No public data in our set connects Anthony Cristo's recorded background or positions specifically to higher education funding or student costs.",
+            "text": "No public data in our set ties Anthony Cristo's background, votes, or stated positions to higher education funding or student costs.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Anthony Cristo's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on higher education funding or student costs.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "mccormick-kevin": [
           {
-            "text": "Kevin McCormick's recorded background (Kevin McCormick (Green), former teacher) is directly relevant to student voters, though our data set does not include a specific stated position from them on higher education funding or student costs.",
+            "text": "Kevin McCormick (Green), former teacher -- that record connects directly to student voters, though we have no specific stated position from them on higher education funding or student costs.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Kevin McCormick's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on higher education funding or student costs.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
@@ -1088,71 +976,51 @@
       "candidates": {
         "patrick-dan": [
           {
-            "text": "No public data in our set connects Dan Patrick's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "text": "No public data in our set ties Dan Patrick's background, votes, or stated positions to farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Dan Patrick's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-02-21, Dan Patrick's campaign had raised $150,000, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "goodwin-vikki": [
           {
-            "text": "No public data in our set connects Vikki Goodwin's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "text": "No public data in our set ties Vikki Goodwin's background, votes, or stated positions to farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Vikki Goodwin's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-05-16, Vikki Goodwin's campaign had raised $239,668, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "collier-mike": [
           {
-            "text": "No public data in our set connects Mike Collier's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "text": "No public data in our set ties Mike Collier's background, votes, or stated positions to farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Mike Collier's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2025-12-31, Mike Collier's campaign had raised $50,292, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "cristo-anthony": [
           {
-            "text": "No public data in our set connects Anthony Cristo's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "text": "No public data in our set ties Anthony Cristo's background, votes, or stated positions to farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Anthony Cristo's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2025-12-31, Anthony Cristo's campaign had raised $3,750, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "mccormick-kevin": [
           {
-            "text": "No public data in our set connects Kevin McCormick's recorded background or positions specifically to farming, ranching, water rights, or rural infrastructure.",
+            "text": "No public data in our set ties Kevin McCormick's background, votes, or stated positions to farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
           },
           {
-            "text": "No public data in our set on Kevin McCormick's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_lieutenant_gubernatorial_election"
-          },
-          {
-            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total). That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2025-12-31, Kevin McCormick's campaign had raised $0, per Texas Ethics Commission filings (this filing period only, not a cycle-to-date total) -- fundraising scale only, not a stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
