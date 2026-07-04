@@ -9,6 +9,10 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
         },
         {
+          "text": "On taxes, Greg Abbott's recorded position: Abbott has made property tax reduction a centerpiece of his governance, signing over $18 billion in property tax cuts in 2023 and seeking at least $10 billion more. He advocates for eliminating school property taxes for homeowners and raising business personal property exemptions.",
+          "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address"
+        },
+        {
           "text": "Greg Abbott is the incumbent in this race. Recorded background: Greg Abbott, incumbent governor (2015\u2013present).",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
         },
@@ -23,6 +27,10 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
         },
         {
+          "text": "On education, Gina Hinojosa's recorded position: Hinojosa is a strong advocate for public school funding and opposes school vouchers. She authored an opinion piece explicitly stating she opposes the governor's voucher plan, calling it 'irresponsible and harmful.' She emphasizes that Texas public schools need at least $40 billion to reach national per-student funding averages and has worked with bipartisan allies to block voucher legislation.",
+          "source": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/"
+        },
+        {
           "text": "Gina Hinojosa's recorded background: Gina Hinojosa, state representative from the 49th district (2017\u2013present).",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
         },
@@ -35,6 +43,10 @@
         {
           "text": "Pat Dixon is a candidate for Governor of Texas, running with Libertarian.",
           "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+        },
+        {
+          "text": "On education, Pat Dixon's recorded position: Dixon strongly supports school choice, endorsing statewide voucher programs where education funding follows students to any school. He criticizes standardized testing mandates and 'Robin Hood' school funding redistribution, citing the Texas voucher plan that accepted 90,000 students as a model to expand rather than restrict.",
+          "source": "https://patdixon.org/school-choice/"
         },
         {
           "text": "Pat Dixon's recorded background: Pat Dixon (Libertarian), former chair of the Libertarian Party of Texas",
@@ -68,12 +80,8 @@
       "candidates": {
         "abbott-greg": [
           {
-            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On housing, Greg Abbott's recorded position: Abbott explicitly advocates for housing affordability through deregulation, cutting regulations, and speeding up permitting to make it easier to build. He also proposes a one-year tax exemption on home improvements.",
+            "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address"
           }
         ],
         "hinojosa-gina": [
@@ -114,32 +122,32 @@
       "candidates": {
         "abbott-greg": [
           {
-            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On taxes, Greg Abbott's recorded position: Abbott has made property tax reduction a centerpiece of his governance, signing over $18 billion in property tax cuts in 2023 and seeking at least $10 billion more. He advocates for eliminating school property taxes for homeowners and raising business personal property exemptions.",
+            "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address"
           },
           {
-            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On education, Greg Abbott's recorded position: Abbott is a leading proponent of school choice, having signed Texas's landmark Education Savings Account program in 2025. He campaigned on 'education freedom,' supports diverting public funds to private options through ESAs, and emphasizes parental control over education decisions.",
+            "source": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law"
           }
         ],
         "hinojosa-gina": [
           {
-            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On education, Gina Hinojosa's recorded position: Hinojosa is a strong advocate for public school funding and opposes school vouchers. She authored an opinion piece explicitly stating she opposes the governor's voucher plan, calling it 'irresponsible and harmful.' She emphasizes that Texas public schools need at least $40 billion to reach national per-student funding averages and has worked with bipartisan allies to block voucher legislation.",
+            "source": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/"
           },
           {
-            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On taxes, Gina Hinojosa's recorded position: She calls for ending corporate loopholes and using the proceeds to lower middle-class taxes while protecting neighborhood-school funding.",
+            "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/"
           }
         ],
         "dixon-pat": [
           {
-            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On education, Pat Dixon's recorded position: Dixon strongly supports school choice, endorsing statewide voucher programs where education funding follows students to any school. He criticizes standardized testing mandates and 'Robin Hood' school funding redistribution, citing the Texas voucher plan that accepted 90,000 students as a model to expand rather than restrict.",
+            "source": "https://patdixon.org/school-choice/"
           },
           {
-            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding property taxes or public school funding.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On taxes, Pat Dixon's recorded position: Dixon states that no party wants lower taxes more than the Libertarian Party, insists spending cuts must precede tax reductions, and opposes replacing property taxes with higher sales taxes without local control.",
+            "source": "https://patdixon.org/property-tax/"
           }
         ],
         "raphoon-jenn": [
@@ -160,32 +168,20 @@
       "candidates": {
         "abbott-greg": [
           {
-            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On taxes, Greg Abbott's recorded position: Abbott has made property tax reduction a centerpiece of his governance, signing over $18 billion in property tax cuts in 2023 and seeking at least $10 billion more. He advocates for eliminating school property taxes for homeowners and raising business personal property exemptions.",
+            "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address"
           }
         ],
         "hinojosa-gina": [
           {
-            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On taxes, Gina Hinojosa's recorded position: She calls for ending corporate loopholes and using the proceeds to lower middle-class taxes while protecting neighborhood-school funding.",
+            "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/"
           }
         ],
         "dixon-pat": [
           {
-            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding small business taxes or regulation.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On taxes, Pat Dixon's recorded position: Dixon states that no party wants lower taxes more than the Libertarian Party, insists spending cuts must precede tax reductions, and opposes replacing property taxes with higher sales taxes without local control.",
+            "source": "https://patdixon.org/property-tax/"
           }
         ],
         "raphoon-jenn": [
@@ -216,12 +212,8 @@
         ],
         "hinojosa-gina": [
           {
-            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On healthcare, Gina Hinojosa's recorded position: Hinojosa has consistently supported expanding government healthcare coverage. She voted to extend Medicaid eligibility for 12 months after birth or miscarriage (HB133) and supported a pilot program for Medicaid coverage of doula services (HB158). Her campaign platform emphasizes fighting for affordable health care and strengthening health care access.",
+            "source": "https://www.tlok.org/itx-lege/record_legislators.php?id=106"
           }
         ],
         "dixon-pat": [
@@ -344,32 +336,20 @@
       "candidates": {
         "abbott-greg": [
           {
-            "text": "No public data in our set connects Greg Abbott's recorded background or positions specifically to higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On education, Greg Abbott's recorded position: Abbott is a leading proponent of school choice, having signed Texas's landmark Education Savings Account program in 2025. He campaigned on 'education freedom,' supports diverting public funds to private options through ESAs, and emphasizes parental control over education decisions.",
+            "source": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law"
           }
         ],
         "hinojosa-gina": [
           {
-            "text": "No public data in our set connects Gina Hinojosa's recorded background or positions specifically to higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On education, Gina Hinojosa's recorded position: Hinojosa is a strong advocate for public school funding and opposes school vouchers. She authored an opinion piece explicitly stating she opposes the governor's voucher plan, calling it 'irresponsible and harmful.' She emphasizes that Texas public schools need at least $40 billion to reach national per-student funding averages and has worked with bipartisan allies to block voucher legislation.",
+            "source": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/"
           }
         ],
         "dixon-pat": [
           {
-            "text": "No public data in our set connects Pat Dixon's recorded background or positions specifically to higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
-          },
-          {
-            "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding higher education funding or student costs.",
-            "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+            "text": "On education, Pat Dixon's recorded position: Dixon strongly supports school choice, endorsing statewide voucher programs where education funding follows students to any school. He criticizes standardized testing mandates and 'Robin Hood' school funding redistribution, citing the Texas voucher plan that accepted 90,000 students as a model to expand rather than restrict.",
+            "source": "https://patdixon.org/school-choice/"
           }
         ],
         "raphoon-jenn": [
