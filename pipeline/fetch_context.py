@@ -46,7 +46,7 @@ PRESIDENT_PAGE = "2024_United_States_presidential_election_in_Texas"
 WIKI_RAW_URL = "https://en.wikipedia.org/w/index.php?title={title}&action=raw"
 WIKI_HUMAN_URL = "https://en.wikipedia.org/wiki/{title}"
 
-OUT_DIR = "/home/abheekp/vulcan/PatriotHacks/data/tx/raw"
+OUT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "tx", "raw")
 OUT_PATH = os.path.join(OUT_DIR, "district_context.json")
 
 GENERAL_DATE = "2024-11-05"

@@ -22,7 +22,7 @@ import os
 import re
 import sys
 
-REPO = "/home/abheekp/vulcan/PatriotHacks"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RACES_PATH = os.path.join(REPO, "data/tx/races.json")
 CANDIDATES_PATH = os.path.join(REPO, "data/tx/candidates.json")
 OUT_DIR = os.path.join(REPO, "data/tx/insights")

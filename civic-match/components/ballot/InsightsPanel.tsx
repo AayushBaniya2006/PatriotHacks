@@ -12,6 +12,7 @@ import type {
   Race,
 } from "@/lib/dataBackend";
 import type { VoterProfile } from "@/lib/types";
+import { CivitasPanel, SourceLink, StatusPill } from "@/components/civitas-ui";
 
 type FetchState =
   | { status: "idle" }
@@ -74,7 +75,7 @@ export function InsightsPanel({
 
   if (visibleState.status === "idle") {
     return (
-      <div className="rounded-xl border border-dashed border-zinc-800 p-5 text-sm text-zinc-500">
+      <div className="rounded-[10px] border border-dashed border-white/14 p-5 text-sm leading-6 text-white/48">
         Click “What this means for you” on any race above for a plain-English, source-linked read
         on what each candidate would likely mean for someone in your stated situation.
       </div>
@@ -84,23 +85,23 @@ export function InsightsPanel({
   const race = races.find((r) => r.race_id === raceId);
 
   return (
-    <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-5">
-      <h3 className="mb-3 font-semibold">
+    <CivitasPanel className="p-5">
+      <h3 className="mb-3 font-serif text-2xl font-normal text-white">
         What this means for you{race ? ` — ${race.office}` : ""}
       </h3>
 
       {visibleState.status === "loading" && (
-        <div className="animate-pulse text-sm text-zinc-500">
+        <div className="animate-pulse text-sm text-white/48">
           Writing your evidence-grounded explanation…
         </div>
       )}
       {visibleState.status === "error" && (
-        <div className="text-sm text-red-400">{visibleState.message}</div>
+        <div className="text-sm text-red-200">{visibleState.message}</div>
       )}
       {visibleState.status === "done" && (
         <InsightsBody result={visibleState.result} race={race} profile={profile} />
       )}
-    </div>
+    </CivitasPanel>
   );
 }
 
@@ -118,24 +119,17 @@ function HorizonBulletItem({
 }) {
   const assumption = projection ? (bullet as LongTermHorizonBullet).assumption : undefined;
   return (
-    <li className="text-xs text-zinc-400">
+    <li className="text-xs leading-5 text-white/62">
       {bullet.text}
       {projection && (
-        <span className="ml-1.5 inline-block rounded-full border border-zinc-700 px-1.5 py-0 align-middle text-[9px] uppercase tracking-wide text-zinc-500">
+        <StatusPill className="ml-1.5 align-middle" tone="gold">
           Projection
-        </span>
+        </StatusPill>
       )}
       {bullet.source && (
-        <a
-          href={bullet.source}
-          target="_blank"
-          rel="noreferrer"
-          className="ml-1 text-emerald-400 hover:underline"
-        >
-          source ↗
-        </a>
+        <SourceLink href={bullet.source} className="ml-1">source</SourceLink>
       )}
-      {assumption && <span className="mt-0.5 block text-[11px] italic text-zinc-600">Assumes: {assumption}</span>}
+      {assumption && <span className="mt-0.5 block text-[11px] italic text-white/35">Assumes: {assumption}</span>}
     </li>
   );
 }
@@ -151,7 +145,7 @@ function InsightsBody({
 }) {
   if (result.mode === "unavailable") {
     return (
-      <p className="text-sm text-zinc-500">
+      <p className="text-sm text-white/52">
         {result.detail ?? "No personalized insights are available for this race yet."}
       </p>
     );
@@ -168,7 +162,7 @@ function InsightsBody({
 
   return (
     <div className="space-y-4">
-      <p className="text-xs text-zinc-500">
+      <p className="text-xs leading-5 text-white/45">
         {hasProfile
           ? `Personalized for your stated situation${
               result.archetype_used ? ` (${result.archetype_used.replace(/_/g, " ")} profile)` : ""
@@ -179,10 +173,10 @@ function InsightsBody({
           : "From our precomputed, source-checked set."}
       </p>
 
-      {result.summary && <p className="text-sm text-zinc-300">{result.summary}</p>}
+      {result.summary && <p className="text-sm leading-6 text-white/72">{result.summary}</p>}
 
       {candidateIds.length === 0 ? (
-        <p className="text-sm text-zinc-600">No candidate-level insights available for this race yet.</p>
+        <p className="text-sm text-white/35">No candidate-level insights available for this race yet.</p>
       ) : (
         <div className="grid gap-3 sm:grid-cols-2">
           {candidateIds.map((cid) => {
@@ -195,37 +189,30 @@ function InsightsBody({
             const longTermBullets = horizons?.long_term ?? [];
             const hasHorizons = nowBullets.length > 0 || longTermBullets.length > 0;
             return (
-              <div key={cid} className="rounded-lg bg-zinc-950 p-3">
-                <div className="mb-1.5 text-sm font-medium text-zinc-200">{name}</div>
+              <div key={cid} className="rounded-[8px] border border-white/10 bg-navy-dark/60 p-3">
+                <div className="mb-1.5 font-serif text-lg text-white">{name}</div>
                 {bullets.length > 0 ? (
                   <ul className="space-y-1.5">
                     {bullets.map((b, i) => (
-                      <li key={i} className="text-xs text-zinc-400">
+                      <li key={i} className="text-xs leading-5 text-white/62">
                         {b.text}
                         {b.source && (
-                          <a
-                            href={b.source}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="ml-1 text-emerald-400 hover:underline"
-                          >
-                            source ↗
-                          </a>
+                          <SourceLink href={b.source} className="ml-1">source</SourceLink>
                         )}
                       </li>
                     ))}
                   </ul>
                 ) : (
-                  <p className="text-xs text-zinc-600">
+                  <p className="text-xs text-white/35">
                     No public data in our set for this candidate here.
                   </p>
                 )}
 
                 {hasHorizons && (
-                  <div className="mt-3 space-y-3 border-t border-zinc-800 pt-2.5">
+                  <div className="mt-3 space-y-3 border-t border-white/10 pt-2.5">
                     {nowBullets.length > 0 && (
                       <div>
-                        <div className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-zinc-500">
+                        <div className="mb-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-gold/80">
                           Right now
                         </div>
                         <ul className="space-y-1.5">
@@ -237,7 +224,7 @@ function InsightsBody({
                     )}
                     {longTermBullets.length > 0 && (
                       <div>
-                        <div className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-zinc-500">
+                        <div className="mb-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-gold/80">
                           Down the road (projection)
                         </div>
                         <ul className="space-y-1.5">
@@ -256,8 +243,8 @@ function InsightsBody({
       )}
 
       {result.caveats && (
-        <p className="text-xs text-zinc-500">
-          <span className="text-yellow-500/90">Caveat:</span> {result.caveats}
+        <p className="text-xs leading-5 text-white/45">
+          <span className="text-gold">Caveat:</span> {result.caveats}
         </p>
       )}
     </div>

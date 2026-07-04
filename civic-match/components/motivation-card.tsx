@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { CivitasPanel, SourceLink } from "@/components/civitas-ui";
 import { loadPrefs } from "@/lib/prefs";
 import type { Motivation } from "@/app/api/motivate/route";
 
@@ -25,40 +26,47 @@ export default function MotivationCard() {
   if (!m) return null;
 
   return (
-    <div className="rounded-2xl border border-emerald-500/30 bg-gradient-to-br from-emerald-500/10 to-transparent p-6 mb-8">
-      <h2 className="text-2xl font-bold tracking-tight mb-4">{m.hook}</h2>
+    <CivitasPanel className="mb-8 overflow-hidden p-6">
+      <div className="mb-4 flex items-center gap-3">
+        <div className="h-px flex-1 bg-gold/25" />
+        <span className="text-[10px] font-semibold uppercase tracking-[0.24em] text-gold">
+          Stakes
+        </span>
+        <div className="h-px flex-1 bg-gold/25" />
+      </div>
+      <h2 className="font-serif text-3xl font-normal leading-tight text-white">{m.hook}</h2>
 
-      <div className="space-y-2 mb-5">
+      <div className="mb-5 mt-5 space-y-3">
         {m.because.map((b, i) => (
-          <div key={i} className="flex gap-2 text-sm text-zinc-300">
-            <span className="text-emerald-400 font-bold shrink-0">→</span>
+          <div key={i} className="flex gap-3 text-sm leading-6 text-white/72">
+            <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
             <span>
               {b.text}{" "}
               {b.source && (
-                <a href={b.source.url} target="_blank" className="text-emerald-400 text-xs hover:underline">
-                  [{b.source.title.slice(0, 40)}] ↗
-                </a>
+                <SourceLink href={b.source.url} className="text-xs">
+                  {b.source.title.slice(0, 40)}
+                </SourceLink>
               )}
             </span>
           </div>
         ))}
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 mb-5 text-sm">
-        <div className="rounded-xl bg-zinc-950/60 p-4">
-          <div className="text-xs uppercase tracking-wider text-emerald-400 mb-1.5">
+      <div className="mb-5 grid gap-4 text-sm sm:grid-cols-2">
+        <div className="border-l border-gold/35 bg-navy-dark/55 p-4">
+          <div className="mb-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-gold">
             If you vote
           </div>
-          <p className="text-zinc-300">{m.if_you_vote}</p>
+          <p className="leading-6 text-white/72">{m.if_you_vote}</p>
         </div>
-        <div className="rounded-xl bg-zinc-950/60 p-4">
-          <div className="text-xs uppercase tracking-wider text-sky-400 mb-1.5">
+        <div className="border-l border-white/20 bg-navy-dark/55 p-4">
+          <div className="mb-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/55">
             Long term
           </div>
-          <p className="text-zinc-300">
+          <p className="leading-6 text-white/72">
             {m.long_term}{" "}
-            <Link href="/future" className="text-emerald-400 text-xs hover:underline">
-              see the full tree →
+            <Link href="/future" className="text-xs font-semibold text-gold hover:text-white">
+              see the full tree
             </Link>
           </p>
         </div>
@@ -68,14 +76,15 @@ export default function MotivationCard() {
         <a
           href="https://www.votetexas.gov/"
           target="_blank"
-          className="rounded-lg bg-emerald-500 px-5 py-2.5 text-sm font-semibold text-zinc-950 hover:bg-emerald-400"
+          rel="noreferrer"
+          className="inline-flex items-center justify-center rounded-[8px] bg-red px-5 py-3 text-xs font-black uppercase tracking-[0.2em] text-white shadow-[0_12px_28px_rgba(156,42,42,0.28)] transition hover:bg-red/90"
         >
           {m.cta}
         </a>
-        <span className="text-[10px] text-zinc-600">
-          Official state election site (VoteTexas.gov) — registration, dates, polling places.
+        <span className="text-[10px] uppercase tracking-[0.14em] text-white/42">
+          Official state election site for registration, dates, and polling places.
         </span>
       </div>
-    </div>
+    </CivitasPanel>
   );
 }

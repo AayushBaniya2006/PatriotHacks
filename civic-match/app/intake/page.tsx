@@ -6,6 +6,7 @@ import { savePrefs } from "@/lib/prefs";
 import type { VoterProfile } from "@/lib/types";
 import type { IssueDef } from "@/lib/issues";
 import type { UIConfig } from "@/lib/config";
+import { CivitasButton, CivitasPage, CivitasPanel } from "@/components/civitas-ui";
 
 export default function IntakePage() {
   const router = useRouter();
@@ -73,9 +74,11 @@ export default function IntakePage() {
 
   if (!ui || !issues) {
     return (
-      <div className="mx-auto max-w-2xl px-4 py-16 text-zinc-500 animate-pulse">
+      <CivitasPage eyebrow="Priorities" title="Loading your ballot intake">
+      <div className="animate-pulse text-sm text-white/45">
         Loading…
       </div>
+      </CivitasPage>
     );
   }
 
@@ -89,60 +92,65 @@ export default function IntakePage() {
     const setFlag = (key: keyof VoterProfile["flags"], value: boolean) =>
       setProfile((p) => ({ ...p, flags: { ...p.flags, [key]: value || undefined } }));
     return (
-      <div className="mx-auto max-w-2xl px-4 py-10">
-        <h1 className="text-2xl font-bold mb-1">A little about you</h1>
-        <p className="text-zinc-400 text-sm mb-6">
+      <CivitasPage
+        eyebrow="Voter profile"
+        title="A little about you"
+        description={
+          <>
           All optional. This stays in your browser and is only used to explain what
           candidates&apos; positions mean <em>for your situation</em> — never to
           target or persuade you.
-        </p>
+          </>
+        }
+      >
+        <CivitasPanel className="p-5 sm:p-6">
 
         <div className="space-y-5">
           <div className="grid grid-cols-2 gap-3">
             <label className="block">
-              <span className="text-xs text-zinc-500">First name (optional)</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">First name (optional)</span>
               <input
                 value={profile.name ?? ""}
                 onChange={(e) => setProfile((p) => ({ ...p, name: e.target.value || undefined }))}
                 placeholder="e.g. Sam"
-                className="mt-1 w-full rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm outline-none focus:border-emerald-400/60"
+                className="mt-2 w-full rounded-[8px] border border-white/14 bg-navy-dark px-3 py-2 text-sm text-white outline-none placeholder:text-white/30 focus:border-gold/70"
               />
             </label>
             <label className="block">
-              <span className="text-xs text-zinc-500">ZIP code (optional)</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">ZIP code (optional)</span>
               <input
                 value={zip}
                 onChange={(e) => setZip(e.target.value.replace(/\D/g, "").slice(0, 5))}
                 placeholder="78666"
-                className="mt-1 w-full rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm outline-none focus:border-emerald-400/60"
+                className="mt-2 w-full rounded-[8px] border border-white/14 bg-navy-dark px-3 py-2 text-sm text-white outline-none placeholder:text-white/30 focus:border-gold/70"
               />
             </label>
           </div>
 
           <label className="block">
-            <span className="text-xs text-zinc-500">
+            <span className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">
               Street address (optional — shows your actual ballot: races, candidates, sourced info)
             </span>
             <input
               value={address}
               onChange={(e) => setAddress(e.target.value)}
               placeholder="e.g. 601 University Dr, San Marcos, TX 78666"
-              className="mt-1 w-full rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm outline-none focus:border-emerald-400/60"
+              className="mt-2 w-full rounded-[8px] border border-white/14 bg-navy-dark px-3 py-2 text-sm text-white outline-none placeholder:text-white/30 focus:border-gold/70"
             />
           </label>
 
           <label className="block">
-            <span className="text-xs text-zinc-500">Occupation (optional)</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">Occupation (optional)</span>
             <input
               value={profile.occupation ?? ""}
               onChange={(e) => setProfile((p) => ({ ...p, occupation: e.target.value || undefined }))}
               placeholder="e.g. nurse, teacher, software engineer, rancher"
-              className="mt-1 w-full rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm outline-none focus:border-emerald-400/60"
+              className="mt-2 w-full rounded-[8px] border border-white/14 bg-navy-dark px-3 py-2 text-sm text-white outline-none placeholder:text-white/30 focus:border-gold/70"
             />
           </label>
 
           <div>
-            <span className="text-xs text-zinc-500">Age</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">Age</span>
             <div className="mt-1 flex flex-wrap gap-2">
               {(ui.intake.age_brackets as VoterProfile["age_bracket"][]).map((a) => a && (
                 <button
@@ -150,8 +158,8 @@ export default function IntakePage() {
                   onClick={() => setProfile((p) => ({ ...p, age_bracket: p.age_bracket === a ? undefined : a }))}
                   className={`rounded-full border px-3 py-1.5 text-sm ${
                     profile.age_bracket === a
-                      ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                      : "border-zinc-700 text-zinc-400 hover:border-zinc-500"
+                      ? "border-gold bg-gold/12 text-gold"
+                      : "border-white/14 text-white/55 hover:border-gold/50 hover:text-white"
                   }`}
                 >
                   {a}
@@ -161,7 +169,7 @@ export default function IntakePage() {
           </div>
 
           <div>
-            <span className="text-xs text-zinc-500">Household income</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">Household income</span>
             <div className="mt-1 flex flex-wrap gap-2">
               {(ui.intake.income_brackets as VoterProfile["income_bracket"][]).map((b) => b && (
                 <button
@@ -169,8 +177,8 @@ export default function IntakePage() {
                   onClick={() => setProfile((p) => ({ ...p, income_bracket: p.income_bracket === b ? undefined : b }))}
                   className={`rounded-full border px-3 py-1.5 text-sm ${
                     profile.income_bracket === b
-                      ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                      : "border-zinc-700 text-zinc-400 hover:border-zinc-500"
+                      ? "border-gold bg-gold/12 text-gold"
+                      : "border-white/14 text-white/55 hover:border-gold/50 hover:text-white"
                   }`}
                 >
                   {b}
@@ -180,7 +188,7 @@ export default function IntakePage() {
           </div>
 
           <div>
-            <span className="text-xs text-zinc-500">Applies to you</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">Applies to you</span>
             <div className="mt-1 flex flex-wrap gap-2">
               {(ui.intake.flag_labels as { key: keyof VoterProfile["flags"]; label: string }[]).map((f) => (
                 <button
@@ -188,8 +196,8 @@ export default function IntakePage() {
                   onClick={() => setFlag(f.key, !profile.flags[f.key])}
                   className={`rounded-full border px-3 py-1.5 text-sm ${
                     profile.flags[f.key]
-                      ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                      : "border-zinc-700 text-zinc-400 hover:border-zinc-500"
+                      ? "border-gold bg-gold/12 text-gold"
+                      : "border-white/14 text-white/55 hover:border-gold/50 hover:text-white"
                   }`}
                 >
                   {f.label}
@@ -199,7 +207,7 @@ export default function IntakePage() {
           </div>
 
           <div>
-            <span className="text-xs text-zinc-500">Health coverage</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">Health coverage</span>
             <div className="mt-1 flex flex-wrap gap-2">
               {(ui.intake.healthcare_options as { key: NonNullable<VoterProfile["flags"]["healthcare"]>; label: string }[]).map((h) => (
                 <button
@@ -212,8 +220,8 @@ export default function IntakePage() {
                   }
                   className={`rounded-full border px-3 py-1.5 text-sm ${
                     profile.flags.healthcare === h.key
-                      ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                      : "border-zinc-700 text-zinc-400 hover:border-zinc-500"
+                      ? "border-gold bg-gold/12 text-gold"
+                      : "border-white/14 text-white/55 hover:border-gold/50 hover:text-white"
                   }`}
                 >
                   {h.label}
@@ -224,40 +232,42 @@ export default function IntakePage() {
         </div>
 
         <div className="mt-8 flex items-center gap-4">
-          <button
-            onClick={() => setStep("pick")}
-            className="rounded-lg bg-emerald-500 px-6 py-2.5 font-medium text-zinc-950 hover:bg-emerald-400"
-          >
+          <CivitasButton onClick={() => setStep("pick")}>
             Next: your issues
-          </button>
-          <button onClick={() => setStep("pick")} className="text-sm text-zinc-500 hover:text-zinc-300">
+          </CivitasButton>
+          <button onClick={() => setStep("pick")} className="text-sm text-white/45 hover:text-white">
             Skip
           </button>
         </div>
-      </div>
+        </CivitasPanel>
+      </CivitasPage>
     );
   }
 
   if (step === "pick") {
     return (
-      <div className="mx-auto max-w-3xl px-4 py-10">
-        <h1 className="text-2xl font-bold mb-1">What matters most to you?</h1>
-        <p className="text-zinc-400 text-sm mb-4">
+      <CivitasPage
+        eyebrow="Priorities"
+        title="What matters most to you?"
+        description={
+          <>
           Pick at least {MIN_PICKS} issues — as many as you want, most important
           first. Order sets the base weight; you&apos;ll refine each one next.
-        </p>
-        <div className="flex gap-2 mb-6 text-xs">
-          <button onClick={selectAll} className="rounded border border-zinc-700 px-3 py-1.5 text-zinc-300 hover:border-zinc-500">
+          </>
+        }
+      >
+        <div className="mb-6 flex gap-2 text-xs">
+          <button onClick={selectAll} className="rounded-[6px] border border-gold/35 px-3 py-1.5 text-gold hover:border-gold hover:bg-gold/10">
             Select all 30
           </button>
-          <button onClick={clearAll} className="rounded border border-zinc-800 px-3 py-1.5 text-zinc-500 hover:border-zinc-600">
+          <button onClick={clearAll} className="rounded-[6px] border border-white/12 px-3 py-1.5 text-white/45 hover:border-white/25 hover:text-white">
             Clear
           </button>
         </div>
 
         {Object.entries(clusters).map(([cluster, ids]) => (
           <div key={cluster} className="mb-6">
-            <h2 className="text-xs uppercase tracking-wider text-zinc-500 mb-2">
+            <h2 className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-gold/80">
               {ui.intake.cluster_labels[cluster] ?? cluster}
             </h2>
             <div className="flex flex-wrap gap-2">
@@ -272,8 +282,8 @@ export default function IntakePage() {
                     title={issue.voterQuestion}
                     className={`rounded-full border px-4 py-2 text-sm transition ${
                       selected
-                        ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                        : "border-zinc-700 text-zinc-300 hover:border-zinc-500"
+                        ? "border-gold bg-gold/12 text-gold"
+                        : "border-white/14 text-white/70 hover:border-gold/50 hover:text-white"
                     }`}
                   >
                     {selected && (
@@ -287,36 +297,34 @@ export default function IntakePage() {
           </div>
         ))}
 
-        <button
+        <CivitasButton
           disabled={picked.length < MIN_PICKS}
           onClick={() => setStep("tradeoffs")}
-          className="rounded-lg bg-emerald-500 px-6 py-2.5 font-medium text-zinc-950 disabled:opacity-40 hover:bg-emerald-400"
         >
           Next: trade-offs ({picked.length} picked)
-        </button>
-      </div>
+        </CivitasButton>
+      </CivitasPage>
     );
   }
 
   if (!currentIssue) return null;
 
   return (
-    <div className="mx-auto max-w-2xl px-4 py-10">
+    <CivitasPage eyebrow="Trade-offs" title={currentIssue.name}>
       <div className="mb-6">
-        <div className="text-xs text-zinc-500 mb-2">
+        <div className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-white/45">
           Question {idx + 1} of {picked.length} · your priority #{idx + 1}
         </div>
-        <div className="h-1 rounded bg-zinc-800">
+        <div className="h-1 rounded bg-white/12">
           <div
-            className="h-1 rounded bg-emerald-400 transition-all"
+            className="h-1 rounded bg-gold transition-all"
             style={{ width: `${(idx / picked.length) * 100}%` }}
           />
         </div>
       </div>
 
-      <h1 className="text-xl font-bold mb-1">{currentIssue.name}</h1>
-      <p className="text-zinc-500 text-sm mb-1">{currentIssue.voterQuestion}</p>
-      <p className="text-zinc-300 mb-5">{currentIssue.tradeoffQuestion}</p>
+      <p className="mb-1 text-sm text-white/45">{currentIssue.voterQuestion}</p>
+      <p className="mb-5 text-white/72">{currentIssue.tradeoffQuestion}</p>
 
       <div className="space-y-3 mb-6">
         {currentIssue.options.map((o) => (
@@ -325,11 +333,11 @@ export default function IntakePage() {
             onClick={() => setPendingScalar(o.scalar)}
             className={`w-full rounded-xl border px-5 py-4 text-left transition ${
               pendingScalar === o.scalar
-                ? "border-emerald-400 bg-emerald-500/10"
-                : "border-zinc-700 bg-zinc-900/50 hover:border-zinc-500"
+                ? "border-gold bg-gold/10 text-white"
+                : "border-white/14 bg-white/[0.035] text-white/72 hover:border-gold/45"
             }`}
           >
-            <span className="mr-3 font-mono text-emerald-400">{o.key}.</span>
+            <span className="mr-3 font-mono text-gold">{o.key}.</span>
             {o.label}
           </button>
         ))}
@@ -337,8 +345,8 @@ export default function IntakePage() {
           onClick={() => setPendingScalar(null)}
           className={`w-full rounded-xl border border-dashed px-5 py-3 text-left text-sm transition ${
             pendingScalar === null
-              ? "border-emerald-400/60 text-emerald-300"
-              : "border-zinc-800 text-zinc-500 hover:border-zinc-600"
+              ? "border-gold/60 text-gold"
+              : "border-white/12 text-white/45 hover:border-white/25"
           }`}
         >
           Not sure / don&apos;t use this answer in my match score
@@ -346,19 +354,19 @@ export default function IntakePage() {
       </div>
 
       <div className={pendingScalar === undefined ? "opacity-40 pointer-events-none" : ""}>
-        <p className="text-sm text-zinc-400 mb-2">How important is this to your vote?</p>
+        <p className="mb-2 text-sm text-white/62">How important is this to your vote?</p>
         <div className="grid grid-cols-3 gap-2">
           {ui.intake.importance_levels.map((im) => (
             <button
               key={im.label}
               onClick={() => submitIssue(im.mult)}
-              className="rounded-lg border border-zinc-700 px-3 py-2.5 text-sm hover:border-emerald-400/60 hover:bg-zinc-900"
+              className="rounded-[8px] border border-white/14 px-3 py-2.5 text-sm text-white/72 hover:border-gold/60 hover:bg-gold/10"
             >
               {im.label}
             </button>
           ))}
         </div>
       </div>
-    </div>
+    </CivitasPage>
   );
 }

@@ -160,10 +160,13 @@ async def _voter_info_raw(address: str, election_id: Optional[str]) -> Optional[
                 target = _select_target_election(elections)
                 if target is not None:
                     target_election_id = target.get("id")
-            # No matching election found -> fall through and call
-            # voterInfoQuery without an electionId; Google's API accepts
-            # that and applies its own default election for the address.
-            # A "no coverage yet" outcome from here on is expected, not a bug.
+            # No matching Nov. 3, 2026 election found means Google has no
+            # target coverage for our locked demo election yet. Do not call
+            # voterInfoQuery without an electionId: Google would apply a
+            # default/current election, which would be accurate data for the
+            # wrong election.
+            if target_election_id is None:
+                return None
 
         params: dict[str, Any] = {"address": address, "key": api_key}
         if target_election_id:
@@ -183,7 +186,11 @@ async def get_voter_info(address: str, election_id: Optional[str] = None) -> Opt
     if data is None:
         return None
     try:
-        return _normalize_voter_info(data)
+        normalized = _normalize_voter_info(data)
+        election_date = (normalized.get("election") or {}).get("date")
+        if election_date and election_date != TARGET_ELECTION_DAY:
+            return None
+        return normalized
     except Exception:  # noqa: BLE001 -- a malformed response shape must not raise
         logger.warning("Google Civic voterInfoQuery returned an unexpected response shape")
         return None

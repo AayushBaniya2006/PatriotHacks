@@ -31,6 +31,17 @@ html {
   scroll-behavior: smooth;
 }
 
+@supports selector(:has(*)) {
+  html:has(.landing-scroll-flow) {
+    scroll-snap-type: y mandatory;
+  }
+}
+
+.landing-scroll-flow > [data-scroll-section] {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
 @keyframes hero-reveal {
   from {
     opacity: 0;
@@ -64,6 +75,54 @@ html {
   }
 }
 
+@keyframes hero-scroll-exit {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    opacity: 0.34;
+    transform: translate3d(0, -48px, 0) scale(0.985);
+  }
+}
+
+@keyframes hero-copy-exit {
+  from {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -74px, 0);
+  }
+}
+
+@keyframes record-image-enter {
+  from {
+    opacity: 0.42;
+    filter: blur(7px);
+    transform: scale(1.08) translate3d(0, 38px, 0);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes record-copy-enter {
+  from {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translate3d(0, 52px, 0);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 @keyframes cue-bob {
   0%,
   100% {
@@ -71,28 +130,6 @@ html {
   }
   50% {
     transform: translate3d(-50%, 8px, 0);
-  }
-}
-
-@keyframes hero-scroll-exit {
-  from {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    opacity: 0.28;
-    transform: translate3d(0, -36px, 0);
-  }
-}
-
-@keyframes record-image-settle {
-  from {
-    opacity: 0.48;
-    transform: scale(1.08) translate3d(0, 26px, 0);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1) translate3d(0, 0, 0);
   }
 }
 
@@ -121,14 +158,26 @@ html {
   [data-scroll-transition="hero-exit"] {
     animation: hero-scroll-exit linear both;
     animation-timeline: view();
-    animation-range: exit 0% exit 85%;
+    animation-range: exit 0% exit 82%;
+  }
+
+  [data-scroll-transition="hero-copy"] {
+    animation: hero-copy-exit linear both;
+    animation-timeline: view();
+    animation-range: exit 8% exit 68%;
   }
 
   [data-scroll-transition="record-image"] {
-    animation: record-image-settle linear both;
+    animation: record-image-enter linear both;
     animation-timeline: view();
-    animation-range: entry 0% cover 55%;
+    animation-range: entry 0% cover 58%;
     transform-origin: center right;
+  }
+
+  [data-scroll-transition="record-copy"] {
+    animation: record-copy-enter linear both;
+    animation-timeline: view();
+    animation-range: entry 12% cover 48%;
   }
 
   [data-reveal] {
@@ -142,17 +191,20 @@ html {
     animation-name: reveal-left;
   }
 
-  .record-copy-transition {
-    animation-range: entry 12% cover 42%;
-  }
-
   @supports not (animation-timeline: view()) {
     [data-reveal],
     [data-scroll-transition] {
       opacity: 1;
       transform: none;
+      filter: none;
       animation: none;
     }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
 

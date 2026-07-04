@@ -260,7 +260,7 @@ function StepLayout({
 }) {
   const progress = progressFor(step);
   return (
-    <section className="flex min-h-full flex-1 flex-col px-5 py-5 sm:px-7 sm:py-6 lg:px-10 lg:py-8">
+    <section className="flex min-h-full flex-1 flex-col overflow-y-auto px-5 py-5 sm:px-7 sm:py-6 lg:px-10 lg:py-8">
       <div className="mb-7 flex h-8 items-center">
         {onBack && (
           <button
@@ -415,7 +415,7 @@ function DesktopRail({
     .join(", ");
 
   return (
-    <aside className="relative hidden min-h-[760px] flex-col justify-between overflow-hidden bg-[#06192d] p-8 lg:flex">
+    <aside className="relative hidden h-full min-h-0 flex-col justify-between overflow-hidden bg-[#06192d] p-6 lg:flex">
       <Image
         src={heroImage}
         alt=""
@@ -428,26 +428,26 @@ function DesktopRail({
       <div className="absolute inset-0 bg-gradient-to-b from-[#06192d]/92 via-[#06192d]/84 to-[#04111f]" />
       <div className="relative z-10">
         <CivitasLogo />
-        <div className="mt-12">
+        <div className="mt-8">
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#d8a15b]">Guided comparison</p>
-          <h2 className="mt-4 font-serif text-4xl leading-tight text-white">
+          <h2 className="mt-3 font-serif text-3xl leading-tight text-white">
             Ballot first.
             <br />
             Matches second.
           </h2>
-          <p className="mt-5 max-w-[260px] text-sm leading-6 text-white/62">
+          <p className="mt-4 max-w-[260px] text-sm leading-5 text-white/62">
             Resolve the voter&apos;s races, choose the comparison scope, then score candidates from explicit priorities.
           </p>
         </div>
 
-        <div className="mt-10 space-y-3">
+        <div className="mt-7 space-y-2">
           {[
             ["Location", locationDisplay || "Not entered"],
             ["Election", raceTitle(selectedRace)],
             ["Priorities", priorityLabels || "Not selected"],
             ["Tradeoff", tradeoffStyle ?? "Not selected"],
           ].map(([label, value], index) => (
-            <div key={label} className="rounded-[12px] border border-white/10 bg-white/[0.035] p-4">
+            <div key={label} className="rounded-[10px] border border-white/10 bg-white/[0.035] p-3">
               <div className="flex items-center gap-2">
                 <span
                   className={cn(
@@ -459,19 +459,19 @@ function DesktopRail({
                 </span>
                 <span className="text-xs font-semibold uppercase tracking-[0.18em] text-white/55">{label}</span>
               </div>
-              <p className="mt-3 line-clamp-2 text-sm leading-5 text-white/78">{value}</p>
+              <p className="mt-2 line-clamp-1 text-sm leading-5 text-white/78">{value}</p>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="relative z-10 rounded-[12px] border border-[#d8a15b]/25 bg-[#d8a15b]/10 p-4">
+      <div className="relative z-10 rounded-[10px] border border-[#d8a15b]/25 bg-[#d8a15b]/10 p-2.5">
         <div className="flex items-center gap-2 text-[#d8a15b]">
           <Lock className="h-4 w-4" />
-          <span className="text-xs font-semibold uppercase tracking-[0.18em]">Privacy</span>
+          <span className="text-xs font-semibold uppercase tracking-[0.16em]">Privacy: local only</span>
         </div>
-        <p className="mt-3 text-xs leading-5 text-white/58">
-          Address and priorities stay in this browser except for the election lookup and match request.
+        <p className="sr-only">
+          Address and priorities stay in this browser except during lookup.
         </p>
       </div>
     </aside>
@@ -665,8 +665,8 @@ export default function BallotPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 lg:px-8 lg:py-10">
-      <main className="mx-auto grid min-h-[calc(100vh-2rem)] w-full max-w-[420px] lg:max-w-6xl lg:grid-cols-[360px_minmax(0,1fr)] lg:overflow-hidden lg:rounded-[28px] lg:border lg:border-[#d8a15b]/30 lg:bg-[#051628] lg:shadow-[0_28px_90px_rgba(0,0,0,0.45)]">
+    <div className="min-h-screen bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 lg:px-8 lg:py-6">
+      <main className="mx-auto grid min-h-[calc(100svh-2rem)] w-full max-w-[420px] lg:h-[calc(100svh-3rem)] lg:min-h-[640px] lg:max-w-6xl lg:grid-cols-[340px_minmax(0,1fr)] lg:overflow-hidden lg:rounded-[28px] lg:border lg:border-[#d8a15b]/30 lg:bg-[#051628] lg:shadow-[0_28px_90px_rgba(0,0,0,0.45)]">
         <DesktopRail
           step={step}
           locationDisplay={locationDisplay}
@@ -675,7 +675,7 @@ export default function BallotPage() {
           issues={issues}
           tradeoffStyle={tradeoffStyle}
         />
-        <div className="flex min-h-[calc(100vh-2rem)] w-full flex-col overflow-hidden rounded-[24px] border border-[#d8a15b]/35 bg-[#051628] shadow-[0_28px_90px_rgba(0,0,0,0.45)] sm:min-h-[760px] lg:min-h-[760px] lg:rounded-none lg:border-0 lg:border-l lg:border-white/10 lg:shadow-none">
+        <div className="flex min-h-[calc(100svh-2rem)] w-full flex-col overflow-hidden rounded-[24px] border border-[#d8a15b]/35 bg-[#051628] shadow-[0_28px_90px_rgba(0,0,0,0.45)] sm:min-h-[680px] lg:h-full lg:min-h-0 lg:rounded-none lg:border-0 lg:border-l lg:border-white/10 lg:shadow-none">
         {step === "welcome" && (
           <section className="relative flex min-h-full flex-1 flex-col overflow-hidden p-7 lg:p-10">
             <Image

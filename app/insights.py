@@ -112,6 +112,82 @@ def _extract_json(raw: str) -> dict[str, Any]:
     raise ValueError("Could not parse JSON from model response")
 
 
+def _candidate_source_urls(candidate: dict[str, Any]) -> set[str]:
+    urls: set[str] = set()
+
+    def add(value: Any) -> None:
+        if isinstance(value, str) and value.strip():
+            urls.add(value.strip())
+
+    for source in candidate.get("sources") or []:
+        add(source)
+
+    finance = candidate.get("finance")
+    if isinstance(finance, dict):
+        add(finance.get("source"))
+
+    record = candidate.get("record")
+    if isinstance(record, dict):
+        add(record.get("source"))
+        for vote in record.get("key_votes") or []:
+            if isinstance(vote, dict):
+                add(vote.get("source"))
+
+    for position in candidate.get("positions") or []:
+        if isinstance(position, dict):
+            add(position.get("source"))
+
+    return urls
+
+
+def _validate_candidate_bullets(parsed: dict[str, Any], candidates: dict[str, Any]) -> dict[str, list[dict[str, str]]]:
+    raw_candidates = parsed.get("candidates")
+    if not isinstance(raw_candidates, dict):
+        raise ValueError("Model response missing candidates object")
+
+    expected_ids = set(candidates)
+    unexpected_ids = set(raw_candidates) - expected_ids
+    if unexpected_ids:
+        raise ValueError(f"Model response included unknown candidate ids: {sorted(unexpected_ids)}")
+
+    allowed_sources = {
+        cid: _candidate_source_urls(candidate if isinstance(candidate, dict) else {})
+        for cid, candidate in candidates.items()
+    }
+    validated: dict[str, list[dict[str, str]]] = {}
+    invalid: list[str] = []
+
+    for cid in expected_ids:
+        bullets = raw_candidates.get(cid)
+        if not isinstance(bullets, list):
+            invalid.append(f"{cid}: missing bullet list")
+            continue
+
+        kept: list[dict[str, str]] = []
+        for idx, bullet in enumerate(bullets):
+            if not isinstance(bullet, dict):
+                invalid.append(f"{cid}[{idx}]: bullet is not an object")
+                continue
+            text = bullet.get("text")
+            source = bullet.get("source")
+            if not isinstance(text, str) or not text.strip():
+                invalid.append(f"{cid}[{idx}]: missing text")
+                continue
+            if not isinstance(source, str) or source.strip() not in allowed_sources[cid]:
+                invalid.append(f"{cid}[{idx}]: source not present in candidate JSON")
+                continue
+            kept.append({"text": text.strip(), "source": source.strip()})
+
+        if not kept:
+            invalid.append(f"{cid}: no valid sourced bullets")
+        validated[cid] = kept
+
+    if invalid:
+        raise ValueError("; ".join(invalid[:8]))
+
+    return validated
+
+
 def generate_insights(
     profile: dict[str, Any],
     race: dict[str, Any],
@@ -136,11 +212,17 @@ def generate_insights(
     )
     raw = completion.choices[0].message.content or ""
     parsed = _extract_json(raw)
+    if not isinstance(parsed, dict):
+        raise ValueError("Model response must be a JSON object")
 
-    # Defensive shape normalization.
+    validated_candidates = _validate_candidate_bullets(parsed, candidates)
+
+    # Defensive shape normalization. Bullets are validated against the
+    # provided candidate JSON before anything can be returned or cached.
     result = {
-        "candidates": parsed.get("candidates", {}) if isinstance(parsed, dict) else {},
-        "summary": parsed.get("summary", "") if isinstance(parsed, dict) else "",
-        "caveats": parsed.get("caveats", "") if isinstance(parsed, dict) else "",
+        "candidates": validated_candidates,
+        "summary": parsed.get("summary", "") if isinstance(parsed.get("summary"), str) else "",
+        "caveats": parsed.get("caveats", "") if isinstance(parsed.get("caveats"), str) else "",
+        "horizons": {},
     }
     return result

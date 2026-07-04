@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { CivitasButton, CivitasPanel } from "@/components/civitas-ui";
 
 export default function QABox({
   politicianId,
@@ -34,14 +35,14 @@ export default function QABox({
   };
 
   return (
-    <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4">
+    <CivitasPanel className="p-4">
       <div className="flex flex-wrap gap-2 mb-4">
         {suggested.map((s) => (
           <button
             key={s}
             onClick={() => ask(s)}
             disabled={loading}
-            className="rounded-full border border-zinc-700 px-3 py-1.5 text-xs text-zinc-400 hover:border-emerald-400/50 hover:text-zinc-200 disabled:opacity-40"
+            className="rounded-full border border-white/14 px-3 py-1.5 text-xs text-white/55 hover:border-gold/50 hover:text-gold disabled:opacity-40"
           >
             {s}
           </button>
@@ -51,14 +52,14 @@ export default function QABox({
       <div className="space-y-4 mb-4">
         {history.map((h, i) => (
           <div key={i}>
-            <div className="text-sm font-medium text-zinc-300 mb-1.5">You: {h.q}</div>
-            <div className="qa-answer rounded-lg bg-zinc-950 p-4 text-sm text-zinc-300">
+            <div className="mb-1.5 text-sm font-medium text-white/72">You: {h.q}</div>
+            <div className="qa-answer rounded-[8px] border border-white/10 bg-navy-dark/60 p-4 text-sm text-white/72">
               <ReactMarkdown remarkPlugins={[remarkGfm]}>{h.a}</ReactMarkdown>
             </div>
           </div>
         ))}
         {loading && (
-          <div className="text-sm text-zinc-500 animate-pulse">
+          <div className="animate-pulse text-sm text-white/45">
             Checking the evidence base…
           </div>
         )}
@@ -75,15 +76,12 @@ export default function QABox({
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Ask a question grounded in the sources above…"
-          className="flex-1 rounded-lg border border-zinc-700 bg-zinc-950 px-3 py-2 text-sm outline-none focus:border-emerald-400/60"
+          className="flex-1 rounded-[8px] border border-white/14 bg-navy-dark px-3 py-2 text-sm text-white outline-none placeholder:text-white/32 focus:border-gold/70"
         />
-        <button
-          disabled={loading || !q.trim()}
-          className="rounded-lg bg-emerald-500 px-4 py-2 text-sm font-medium text-zinc-950 disabled:opacity-40"
-        >
+        <CivitasButton disabled={loading || !q.trim()} className="px-4 py-2">
           Ask
-        </button>
+        </CivitasButton>
       </form>
-    </div>
+    </CivitasPanel>
   );
 }

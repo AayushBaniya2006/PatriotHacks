@@ -284,7 +284,9 @@ def _all_races() -> list[dict[str, Any]]:
                 race_rows = conn.execute(
                     "SELECT race_id, office, level, district, context FROM races"
                 ).fetchall()
-                rc_rows = conn.execute("SELECT race_id, candidate_id FROM race_candidates").fetchall()
+                rc_rows = conn.execute(
+                    "SELECT race_id, candidate_id FROM race_candidates ORDER BY race_id, sort_order, candidate_id"
+                ).fetchall()
             cids_by_race: dict[str, list[str]] = {}
             for rc in rc_rows:
                 cids_by_race.setdefault(rc["race_id"], []).append(rc["candidate_id"])
@@ -321,7 +323,8 @@ def get_race(race_id: str) -> Optional[dict[str, Any]]:
                 if row is None:
                     return None
                 cid_rows = conn.execute(
-                    "SELECT candidate_id FROM race_candidates WHERE race_id = %s", (race_id,)
+                    "SELECT candidate_id FROM race_candidates WHERE race_id = %s ORDER BY sort_order, candidate_id",
+                    (race_id,),
                 ).fetchall()
             return _race_row_to_dict(row, [r["candidate_id"] for r in cid_rows])
         except Exception as exc:  # noqa: BLE001
@@ -479,6 +482,11 @@ def compute_inputs_hash(race_id: str) -> str:
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
 
 
+def _payload_hash(payload: dict[str, Any]) -> str:
+    canonical = json.dumps(payload, sort_keys=True, default=str)
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
 _insights_file_lock = threading.Lock()
 
 
@@ -538,17 +546,19 @@ def put_insight_block(race_id: str, archetype: str, payload: dict[str, Any]) -> 
     if pool is not None:
         try:
             inputs_hash = compute_inputs_hash(race_id)
+            payload_hash = _payload_hash(payload)
             with pool.connection() as conn:
                 conn.execute(
                     """
-                    INSERT INTO insights (race_id, archetype, payload, inputs_hash)
-                    VALUES (%s, %s, %s, %s)
+                    INSERT INTO insights (race_id, archetype, payload, inputs_hash, payload_hash)
+                    VALUES (%s, %s, %s, %s, %s)
                     ON CONFLICT (race_id, archetype) DO UPDATE SET
                         payload = EXCLUDED.payload,
                         inputs_hash = EXCLUDED.inputs_hash,
+                        payload_hash = EXCLUDED.payload_hash,
                         generated_at = now()
                     """,
-                    (race_id, archetype, Jsonb(payload), inputs_hash),
+                    (race_id, archetype, Jsonb(payload), inputs_hash, payload_hash),
                 )
             return
         except Exception as exc:  # noqa: BLE001

@@ -502,6 +502,14 @@ def _parse_age_lower_bound(age_bracket: str) -> Optional[int]:
     return int(nums[0])
 
 
+def _normalize_caveats(value: Any) -> str:
+    if isinstance(value, str):
+        return value
+    if isinstance(value, list):
+        return " ".join(str(item).strip() for item in value if str(item).strip())
+    return ""
+
+
 def _select_cached_bullets(cached: dict[str, Any], archetype: str) -> dict[str, Any]:
     """Select the {candidates, summary, caveats, horizons} block to serve
     from a cached insight file.
@@ -529,16 +537,19 @@ def _select_cached_bullets(cached: dict[str, Any], archetype: str) -> dict[str, 
     archetypes_block = cached.get("archetypes")
 
     block: Optional[dict[str, Any]] = None
+    archetype_used = "base"
     if archetype != "base" and isinstance(archetypes_block, dict):
         candidate_block = archetypes_block.get(archetype)
         if isinstance(candidate_block, dict):
             block = candidate_block
+            archetype_used = archetype
     if block is None and isinstance(base_block, dict):
         block = base_block
 
     if block is None:
         # Defensive fallback: an unexpected/legacy flat shape.
         block = cached
+        archetype_used = "base"
 
     candidates_field = block.get("candidates", {})
 
@@ -558,9 +569,10 @@ def _select_cached_bullets(cached: dict[str, Any], archetype: str) -> dict[str, 
         horizons_field = {}
 
     return {
+        "archetype_used": archetype_used,
         "candidates": candidates_field if isinstance(candidates_field, dict) else {},
         "summary": block.get("summary", ""),
-        "caveats": block.get("caveats", ""),
+        "caveats": _normalize_caveats(block.get("caveats", "")),
         "horizons": horizons_field,
     }
 
@@ -582,7 +594,7 @@ def post_insights(body: InsightsRequest) -> dict[str, Any]:
         selected = _select_cached_bullets(cached, archetype)
         return {
             "mode": "cached",
-            "archetype_used": archetype,
+            "archetype_used": selected["archetype_used"],
             "candidates": selected["candidates"],
             "summary": selected["summary"],
             "caveats": selected["caveats"],
@@ -634,6 +646,7 @@ def post_insights(body: InsightsRequest) -> dict[str, Any]:
             "candidates": result.get("candidates", {}),
             "summary": result.get("summary", ""),
             "caveats": result.get("caveats", ""),
+            "horizons": result.get("horizons", {}),
         }
 
     return {"mode": "unavailable", "detail": "Insights not yet generated for this race"}

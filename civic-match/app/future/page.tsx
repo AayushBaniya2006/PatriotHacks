@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { hierarchy, tree, type HierarchyPointNode } from "d3-hierarchy";
 import { loadPrefs } from "@/lib/prefs";
 import type { ScenarioNode, ScenarioTree, UserPreferences } from "@/lib/types";
@@ -42,6 +42,7 @@ export default function FuturePage() {
   const [loading, setLoading] = useState(true);
   const [prefs] = useState<UserPreferences | null>(() => loadPrefs());
   const [selected, setSelected] = useState<ScenarioNode | null>(null);
+  const treePaneRef = useRef<HTMLDivElement | null>(null);
 
   const loadTree = useCallback((slug: string) => {
     setLoading(true);
@@ -108,6 +109,18 @@ export default function FuturePage() {
     }
     return { ids: new Set(path.map((p) => p.id)), path };
   }, [treeData]);
+
+  useEffect(() => {
+    const pane = treePaneRef.current;
+    if (!pane || !layout) return;
+
+    const pathTops = layout.nodes
+      .filter((n) => mostLikely.ids.has(n.data.id))
+      .map((n) => n.x + layout.offsetX);
+    const firstUsefulTop = pathTops.length ? Math.min(...pathTops) : 0;
+    pane.scrollTop = Math.max(0, firstUsefulTop - 24);
+    pane.scrollLeft = 0;
+  }, [layout, mostLikely.ids, treeData?.race_slug]);
 
   const pos = (n: HierarchyPointNode<ScenarioNode>) => ({
     left: n.y + 10,
@@ -181,7 +194,7 @@ export default function FuturePage() {
           </div>
         )}
         <div className="grid gap-4 lg:grid-cols-[1fr_340px]">
-          <div className="rounded-xl border border-zinc-800 bg-zinc-950 overflow-auto max-h-[75vh]">
+          <div ref={treePaneRef} className="rounded-xl border border-zinc-800 bg-zinc-950 overflow-auto max-h-[75vh]">
             <div className="relative" style={{ width: layout.width, height: layout.height }}>
               <svg className="absolute inset-0" width={layout.width} height={layout.height}>
                 {layout.links.map((l, i) => {

@@ -248,16 +248,11 @@ export default function Home() {
 
         <div className="hidden items-center gap-10 text-sm uppercase tracking-widest text-white/90 lg:flex">
           <a href="#features" className="transition-colors hover:text-white">
-            Solutions
+            How It Works
           </a>
-          <a href="#record" className="transition-colors hover:text-white">
-            About
-          </a>
-          <Link href="/future" className="transition-colors hover:text-white">
-            Insights
+          <Link href="/ballot" className="transition-colors hover:text-white">
+            Start
           </Link>
-          <div className="mx-2 h-4 w-px bg-white/20" />
-          <StarIcon className="h-5 w-5 text-gold" />
         </div>
 
         <details className="group relative lg:hidden">
@@ -267,24 +262,19 @@ export default function Home() {
           </summary>
           <div className="absolute right-0 mt-4 grid min-w-48 gap-3 border border-white/10 bg-navy-dark/95 p-4 text-sm uppercase tracking-widest text-white shadow-2xl">
             <a href="#features" className="hover:text-gold">
-              Solutions
+              How It Works
             </a>
-            <a href="#record" className="hover:text-gold">
-              About
-            </a>
-            <Link href="/future" className="hover:text-gold">
-              Insights
-            </Link>
             <Link href="/ballot" className="hover:text-gold">
-              Ballot
+              Start
             </Link>
           </div>
         </details>
       </nav>
 
-      <main>
+      <main className="landing-scroll-flow">
         <section
           className="relative flex min-h-[86svh] items-center pb-10 pt-28 sm:min-h-[90vh] sm:pb-16 sm:pt-36 lg:min-h-screen lg:pb-20 lg:pt-44"
+          data-scroll-section="hero"
           data-scroll-transition="hero-exit"
         >
           <div className="absolute inset-0 z-0">
@@ -296,20 +286,21 @@ export default function Home() {
               alt="Statue of Liberty"
               fill
               loading="eager"
+              fetchPriority="high"
               sizes="100vw"
               className="object-cover object-[70%_50%] lg:scale-[1.2] lg:translate-x-[7%] lg:object-center"
             />
           </div>
 
           <div className="relative z-20 mx-auto w-full max-w-[1600px] px-6 lg:px-24">
-            <div className="max-w-3xl">
+            <div className="max-w-5xl" data-scroll-transition="hero-copy">
               <h1
                 className="font-serif text-[2.5rem] font-normal leading-[1.04] text-cream-light sm:text-5xl lg:text-[6rem] xl:text-[6.25rem]"
                 data-hero-reveal="0"
               >
-                Better Data.
+                Better Ballot Data.
                 <br />
-                Stronger Republic.
+                Clearer Choices.
               </h1>
               <div className="mb-6 mt-7 h-1 w-24 bg-red sm:mb-8 sm:mt-9" data-hero-reveal="1" />
               <p
@@ -333,16 +324,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="scroll-cue absolute bottom-8 left-1/2 z-20 hidden -translate-x-1/2 flex-col items-center gap-2 md:flex">
+          <a
+            href="#record"
+            aria-label="Scroll to public record section"
+            className="scroll-cue absolute bottom-8 left-1/2 z-20 hidden -translate-x-1/2 flex-col items-center gap-2 md:flex"
+          >
             <span className="text-[0.65rem] uppercase tracking-[0.2em] text-gold">Scroll</span>
             <StarIcon className="h-3 w-3 text-gold" />
             <div className="h-12 w-px bg-gold/30" />
-          </div>
+          </a>
         </section>
 
         <section
           id="record"
           className="record-section relative flex min-h-[100svh] items-center overflow-hidden bg-navy text-white"
+          data-scroll-section="record"
         >
           <div className="absolute inset-0 z-0" data-scroll-transition="record-image">
             <div className="absolute inset-0 z-10 bg-navy/20" />
@@ -357,9 +353,9 @@ export default function Home() {
             />
           </div>
 
-          <div className="relative z-20 mx-auto w-full max-w-[1600px] px-6 py-24 sm:py-32 lg:px-24">
-            <div className="max-w-2xl record-copy-transition" data-reveal="left">
-              <h2 className="font-serif text-[3.25rem] font-normal leading-[1.08] sm:text-[4.8rem] lg:text-[5.6rem] xl:text-[6rem]">
+          <div className="relative z-20 mx-auto w-full max-w-[1600px] px-6 py-16 sm:py-20 lg:px-24 lg:py-24 2xl:py-32">
+            <div className="max-w-3xl" data-scroll-transition="record-copy">
+              <h2 className="font-serif text-[3rem] font-normal leading-[1.03] sm:text-[4.1rem] lg:text-[4.8rem] xl:text-[5.4rem] 2xl:text-[6rem]">
                 The public record
                 <br />
                 is scattered.
@@ -368,7 +364,7 @@ export default function Home() {
                 <br />
                 it readable.
               </h2>
-              <div className="mb-8 mt-8 h-1 w-16 bg-red sm:w-20" />
+              <div className="mb-6 mt-6 h-1 w-16 bg-red sm:w-20 lg:mb-8 lg:mt-8" />
               <p className="max-w-md text-lg font-light leading-relaxed text-white/65 lg:text-xl">
                 Elections are decided through thousands of small details. Civitas organizes each
                 record around verifiable sources so you can see what is known and what is missing.

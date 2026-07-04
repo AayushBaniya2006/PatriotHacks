@@ -23,12 +23,11 @@ that race's precomputed content.
 Default mode is an INCREMENTAL UPSERT, hash-gated per row: each race's
 current candidate data is hashed (sha256 over the canonical, sort_keys JSON
 of that race's candidates from data/tx/candidates.json -- same hash reused
-for every block belonging to that race). A row is only written when it
-doesn't exist yet or its stored inputs_hash differs from the freshly
-computed one; otherwise it is left alone and counted as skipped. This is
-what protects a live write-through-cached row (which may have cost a real
-LLM call) from being clobbered by a routine pipeline rerun when nothing
-about that race's candidates actually changed.
+for every block belonging to that race), and each on-disk insight block's
+payload is hashed too. A row is only skipped when both stored hashes match.
+That keeps live write-through rows stable when disk content is unchanged,
+but still propagates validator/precompute edits whose payload changes even
+when candidate data does not.
 
 Pass --reset to instead TRUNCATE the insights table first and reload every
 block from disk unconditionally (a full reset of insights specifically --
@@ -56,7 +55,7 @@ import json
 import os
 import sys
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "tx"
@@ -97,8 +96,10 @@ CREATE INDEX IF NOT EXISTS idx_cand_name ON candidates(name);
 CREATE TABLE IF NOT EXISTS race_candidates (
   race_id TEXT NOT NULL REFERENCES races(race_id) ON DELETE CASCADE,
   candidate_id TEXT NOT NULL REFERENCES candidates(candidate_id) ON DELETE CASCADE,
+  sort_order INTEGER NOT NULL DEFAULT 0,
   PRIMARY KEY (race_id, candidate_id)
 );
+ALTER TABLE race_candidates ADD COLUMN IF NOT EXISTS sort_order INTEGER NOT NULL DEFAULT 0;
 
 -- One row per (race_id, archetype) block ('base' plus each precomputed
 -- voter-archetype key) instead of one row per race, so a single block can
@@ -114,8 +115,10 @@ CREATE TABLE IF NOT EXISTS insights (
   payload JSONB NOT NULL,
   generated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   inputs_hash TEXT,
+  payload_hash TEXT,
   PRIMARY KEY (race_id, archetype)
 );
+ALTER TABLE insights ADD COLUMN IF NOT EXISTS payload_hash TEXT;
 
 CREATE TABLE IF NOT EXISTS geocode_cache (
   address_norm TEXT PRIMARY KEY,
@@ -165,6 +168,11 @@ def _race_inputs_hash(race: dict[str, Any], candidates: dict[str, Any]) -> str:
         if candidate is None:
             continue
         payload[cid] = {k: v for k, v in candidate.items() if k != "candidate_id"}
+    canonical = json.dumps(payload, sort_keys=True, default=str)
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
+def _payload_hash(payload: dict[str, Any]) -> str:
     canonical = json.dumps(payload, sort_keys=True, default=str)
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
 
@@ -224,7 +232,11 @@ def main() -> int:
                 if isinstance(block, dict):
                     insight_blocks.append({"race_id": race_id, "archetype": key, "payload": block})
 
-    race_candidate_pairs = [(r["race_id"], cid) for r in races for cid in r.get("candidate_ids", [])]
+    race_candidate_pairs = [
+        (r["race_id"], idx, cid)
+        for r in races
+        for idx, cid in enumerate(r.get("candidate_ids", []))
+    ]
 
     print(
         f"Parsed from disk: races={len(races)} candidates={len(candidates)} "
@@ -308,27 +320,22 @@ def main() -> int:
                         ),
                     )
 
-                # Inserted in candidate_ids order (per race) so that a plain,
-                # ORDER-BY-free SELECT against a freshly-loaded table comes
-                # back in the original gold-JSON order -- see
-                # app/datastore.py::_embed_candidates, which depends on
-                # candidate_ids order being preserved.
-                for race_id, cid in race_candidate_pairs:
+                for race_id, sort_order, cid in race_candidate_pairs:
                     cur.execute(
-                        "INSERT INTO race_candidates (race_id, candidate_id) VALUES (%s, %s)",
-                        (race_id, cid),
+                        "INSERT INTO race_candidates (race_id, candidate_id, sort_order) VALUES (%s, %s, %s)",
+                        (race_id, cid, sort_order),
                     )
 
                 # insights: default incremental upsert, hash-gated per
                 # (race_id, archetype) row; --reset wipes the table first so
                 # every block below is inserted fresh.
-                existing_hashes: dict[tuple[str, str], str] = {}
+                existing_hashes: dict[tuple[str, str], tuple[Optional[str], Optional[str]]] = {}
                 if args.reset:
                     cur.execute("TRUNCATE TABLE insights")
                 else:
-                    cur.execute("SELECT race_id, archetype, inputs_hash FROM insights")
+                    cur.execute("SELECT race_id, archetype, inputs_hash, payload_hash FROM insights")
                     for row in cur.fetchall():
-                        existing_hashes[(row[0], row[1])] = row[2]
+                        existing_hashes[(row[0], row[1])] = (row[2], row[3])
 
                 for block in insight_blocks:
                     race_id = block["race_id"]
@@ -336,22 +343,24 @@ def main() -> int:
                     payload = block["payload"]
                     key = (race_id, archetype)
                     inputs_hash = _race_hash(race_id)
+                    payload_hash = _payload_hash(payload)
                     row_exists = key in existing_hashes
 
-                    if row_exists and existing_hashes[key] == inputs_hash:
+                    if row_exists and existing_hashes[key] == (inputs_hash, payload_hash):
                         skipped += 1
                         continue
 
                     cur.execute(
                         """
-                        INSERT INTO insights (race_id, archetype, payload, inputs_hash)
-                        VALUES (%s, %s, %s, %s)
+                        INSERT INTO insights (race_id, archetype, payload, inputs_hash, payload_hash)
+                        VALUES (%s, %s, %s, %s, %s)
                         ON CONFLICT (race_id, archetype) DO UPDATE SET
                             payload = EXCLUDED.payload,
                             inputs_hash = EXCLUDED.inputs_hash,
+                            payload_hash = EXCLUDED.payload_hash,
                             generated_at = now()
                         """,
-                        (race_id, archetype, Jsonb(payload), inputs_hash),
+                        (race_id, archetype, Jsonb(payload), inputs_hash, payload_hash),
                     )
                     if row_exists:
                         updated += 1

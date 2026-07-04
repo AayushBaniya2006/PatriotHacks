@@ -12,7 +12,7 @@ import json
 import os
 import re
 
-REPO = "/home/abheekp/vulcan/PatriotHacks"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CANDIDATES_PATH = os.path.join(REPO, "data/tx/candidates.json")
 INSIGHTS_DIR = os.path.join(REPO, "data/tx/insights")
 

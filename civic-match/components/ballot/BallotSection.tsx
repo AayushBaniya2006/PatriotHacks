@@ -5,6 +5,7 @@
 // raised w/ source link, up to 3 key votes w/ source links) and a button to
 // request a personalized read via <InsightsPanel/> (owned by the parent).
 import type { Candidate, DataQuality, Race } from "@/lib/dataBackend";
+import { CivitasPanel, SourceLink, StatusPill } from "@/components/civitas-ui";
 
 const LEVEL_LABELS: Record<string, string> = {
   federal: "Federal",
@@ -46,19 +47,16 @@ function QualityChip({ quality }: { quality?: DataQuality }) {
       ? `Limited public data available: ${missing.join(", ")}`
       : "Data confidence score for what we could verify in our set";
   return (
-    <span
-      title={title}
-      className="inline-flex shrink-0 items-center rounded-full border border-zinc-700 px-2 py-0.5 text-[10px] uppercase tracking-wide text-zinc-500"
-    >
+    <StatusPill title={title}>
       Data confidence: {quality.tier}
-    </span>
+    </StatusPill>
   );
 }
 
 function CandidateColumn({ candidate }: { candidate: Candidate }) {
   if (candidate.data_missing) {
     return (
-      <div className="min-w-[220px] flex-1 rounded-lg border border-dashed border-zinc-800 bg-zinc-950/50 p-4 text-xs text-zinc-600">
+      <div className="min-w-[220px] flex-1 rounded-[8px] border border-dashed border-white/14 bg-navy-dark/45 p-4 text-xs text-white/42">
         No candidate data available in our set yet.
       </div>
     );
@@ -68,19 +66,17 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
   const receipts = formatMoney(candidate.finance?.receipts);
 
   return (
-    <div className="min-w-[220px] flex-1 rounded-lg border border-zinc-800 bg-zinc-950 p-4">
+    <div className="min-w-[220px] flex-1 rounded-[8px] border border-white/10 bg-navy-dark/60 p-4">
       <div className="mb-1 flex items-start justify-between gap-2">
-        <span className="font-medium leading-snug">{candidate.name}</span>
+        <span className="font-serif text-lg leading-snug text-white">{candidate.name}</span>
         {candidate.incumbent && (
-          <span className="shrink-0 rounded-full border border-zinc-700 px-2 py-0.5 text-[10px] uppercase tracking-wide text-zinc-400">
-            Incumbent
-          </span>
+          <StatusPill tone="gold">Incumbent</StatusPill>
         )}
       </div>
       {(candidate.party || candidate.data_quality) && (
         <div className="mb-3 flex flex-wrap items-center gap-1.5">
           {candidate.party && (
-            <span className="inline-block rounded-full border border-zinc-700 px-2 py-0.5 text-xs text-zinc-400">
+            <span className="inline-block rounded-full border border-white/14 px-2 py-0.5 text-xs text-white/55">
               {candidate.party}
             </span>
           )}
@@ -89,55 +85,41 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
       )}
 
       <div className="mb-3 text-xs">
-        <div className="mb-0.5 text-zinc-500">Money raised</div>
+        <div className="mb-0.5 font-semibold uppercase tracking-[0.16em] text-white/42">Money raised</div>
         {receipts ? (
-          <div className="text-zinc-300">
+          <div className="text-white/72">
             {receipts}
             {candidate.finance?.as_of && (
-              <span className="text-zinc-600"> as of {candidate.finance.as_of}</span>
+              <span className="text-white/38"> as of {candidate.finance.as_of}</span>
             )}
             {candidate.finance?.source && (
-              <a
-                href={candidate.finance.source}
-                target="_blank"
-                rel="noreferrer"
-                className="ml-1.5 text-emerald-400 hover:underline"
-              >
-                source ↗
-              </a>
+              <SourceLink href={candidate.finance.source} className="ml-1.5">source</SourceLink>
             )}
           </div>
         ) : (
-          <div className="text-zinc-600">No finance data in our set</div>
+          <div className="text-white/35">No finance data in our set</div>
         )}
       </div>
 
       <div className="text-xs">
-        <div className="mb-1 text-zinc-500">Key votes</div>
+        <div className="mb-1 font-semibold uppercase tracking-[0.16em] text-white/42">Key votes</div>
         {votes.length > 0 ? (
           <ul className="space-y-1.5">
             {votes.map((v, i) => (
-              <li key={i} className="text-zinc-400">
-                <span className="text-zinc-300">{v.bill ?? v.vote ?? "Vote"}</span>
+              <li key={i} className="text-white/62">
+                <span className="text-white/82">{v.bill ?? v.vote ?? "Vote"}</span>
                 {v.position ? `: ${v.position}` : ""}
                 {v.plain_english && (
-                  <span className="block text-[11px] text-zinc-500">{v.plain_english}</span>
+                  <span className="block text-[11px] text-white/42">{v.plain_english}</span>
                 )}
                 {v.source && (
-                  <a
-                    href={v.source}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-emerald-400 hover:underline"
-                  >
-                    source ↗
-                  </a>
+                  <SourceLink href={v.source}>source</SourceLink>
                 )}
               </li>
             ))}
           </ul>
         ) : (
-          <div className="text-zinc-600">No recorded votes in our set</div>
+          <div className="text-white/35">No recorded votes in our set</div>
         )}
       </div>
     </div>
@@ -155,25 +137,23 @@ function RaceCard({
 }) {
   const pill = marginPill(race);
   return (
-    <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-5">
+    <CivitasPanel className="p-5">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <div>
-          <div className="font-semibold">{race.office}</div>
-          {race.district && <div className="text-xs text-zinc-500">{race.district}</div>}
+          <div className="font-serif text-2xl leading-tight text-white">{race.office}</div>
+          {race.district && <div className="text-xs uppercase tracking-[0.18em] text-white/45">{race.district}</div>}
         </div>
         <div className="flex flex-wrap items-center gap-2">
           <QualityChip quality={race.data_quality} />
           {pill && (
-            <span className="rounded-full border border-zinc-700 px-2.5 py-1 text-[11px] text-zinc-400">
-              {pill}
-            </span>
+            <StatusPill>{pill}</StatusPill>
           )}
           <button
             onClick={() => onExplain(race.race_id)}
             className={`rounded-lg border px-3 py-1.5 text-xs font-medium transition ${
               active
-                ? "border-emerald-400 bg-emerald-500/15 text-emerald-300"
-                : "border-zinc-700 text-zinc-300 hover:border-emerald-400/60"
+                ? "border-gold bg-gold/12 text-gold"
+                : "border-white/14 text-white/72 hover:border-gold/60 hover:text-gold"
             }`}
           >
             What this means for you
@@ -188,9 +168,9 @@ function RaceCard({
           ))}
         </div>
       ) : (
-        <p className="text-xs text-zinc-600">No candidate data available for this race yet.</p>
+        <p className="text-xs text-white/38">No candidate data available for this race yet.</p>
       )}
-    </div>
+    </CivitasPanel>
   );
 }
 
@@ -205,7 +185,7 @@ export function BallotSection({
 }) {
   if (races.length === 0) {
     return (
-      <p className="text-sm text-zinc-500">
+      <p className="text-sm text-white/52">
         No races found for this address yet — the district may not be loaded in our data set.
       </p>
     );
@@ -223,7 +203,7 @@ export function BallotSection({
     <div className="space-y-8">
       {groups.map((g) => (
         <div key={g.level}>
-          <h3 className="mb-3 text-xs uppercase tracking-wider text-zinc-500">
+          <h3 className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-gold/80">
             {LEVEL_LABELS[g.level] ?? g.level}
           </h3>
           <div className="space-y-5">
