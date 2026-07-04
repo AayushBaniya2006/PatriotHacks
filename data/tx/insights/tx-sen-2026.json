@@ -41,7 +41,43 @@
       ]
     },
     "summary": "United States Senator from Texas race: Ken Paxton, James Talarico. This overview lists each candidate's party, background, and campaign finance where available in our data set.",
-    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and campaign finance totals where a filing was found (federal candidates file with the FEC; Texas state offices file with the Texas Ethics Commission -- each finance bullet names which). We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set."
+    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and campaign finance totals where a filing was found (federal candidates file with the FEC; Texas state offices file with the Texas Ethics Commission -- each finance bullet names which). We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set.",
+    "horizons": {
+      "paxton-ken": {
+        "now": [
+          {
+            "text": "On energy, Ken Paxton's recorded position is: \"Paxton has strongly advocated for fossil fuel expansion, fighting to reinstate the Keystone XL pipeline, criticizing EPA rules targeting oil and gas, opposing FERC regulations on natural gas emissions, and arguing that 'green energy' cannot substitute for coal, nuclear, oil, and gas.\" That's where Ken Paxton stands right now, this term.",
+            "source": "https://www.texasattorneygeneral.gov/news/releases/texas-attorney-general-ken-paxton-fights-protect-texas-energy-industry-calls-president-biden",
+            "basis": "position: energy"
+          }
+        ],
+        "long_term": [
+          {
+            "text": "If Ken Paxton's recorded position on energy holds and becomes sustained policy, it would likely keep shaping this issue the same way over the next decade. This is a projection, not a guarantee.",
+            "source": "https://www.texasattorneygeneral.gov/news/releases/texas-attorney-general-ken-paxton-fights-protect-texas-energy-industry-calls-president-biden",
+            "basis": "position: energy",
+            "assumption": "Assumes Ken Paxton keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+          }
+        ]
+      },
+      "talarico-james": {
+        "now": [
+          {
+            "text": "On taxes, James Talarico's recorded position is: \"Talarico explicitly calls for raising taxes on billionaires and corporations, including higher taxes on income and capital gains, ending 'buy, borrow, die' loopholes, raising corporate tax rates, and closing carried interest loopholes to fund working family tax cuts.\" That's where James Talarico stands right now, this term.",
+            "source": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+            "basis": "position: taxes"
+          }
+        ],
+        "long_term": [
+          {
+            "text": "If James Talarico's recorded position on taxes holds and becomes sustained policy, it would likely keep shaping this issue the same way over the next decade. This is a projection, not a guarantee.",
+            "source": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+            "basis": "position: taxes",
+            "assumption": "Assumes James Talarico keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+          }
+        ]
+      }
+    }
   },
   "archetypes": {
     "renter_young_worker": {
@@ -56,7 +92,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -70,13 +106,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
       },
       "summary": "For a renter young worker voter looking at the United States Senator from Texas race (Ken Paxton, James Talarico): our data set does not contain candidate-specific positions or voting records on housing costs, rent, or renters' protections for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to renter young worker concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to renter young worker concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "paxton-ken": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Ken Paxton on housing costs, rent, or renters' protections.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "talarico-james": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for James Talarico on housing costs, rent, or renters' protections.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "homeowner_parent": {
       "candidates": {
@@ -90,7 +148,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -104,13 +162,53 @@
             "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
       },
       "summary": "For a homeowner parent voter looking at the United States Senator from Texas race (Ken Paxton, James Talarico): our data set does not contain candidate-specific positions or voting records on property taxes or public school funding for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to homeowner parent concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "paxton-ken": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Ken Paxton on property taxes or public school funding.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "talarico-james": {
+          "now": [
+            {
+              "text": "On taxes, James Talarico's recorded position is: \"Talarico explicitly calls for raising taxes on billionaires and corporations, including higher taxes on income and capital gains, ending 'buy, borrow, die' loopholes, raising corporate tax rates, and closing carried interest loopholes to fund working family tax cuts.\" That's what people focused on property taxes or public school funding can expect from James Talarico this term.",
+              "source": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+              "basis": "position: taxes"
+            },
+            {
+              "text": "On education, James Talarico's recorded position is: \"Talarico opposes private school vouchers and has made opposition to school choice diversion programs central to his campaign. He supports universal pre-K, capping class sizes, and increasing public school funding.\" That's what people focused on property taxes or public school funding can expect from James Talarico this term.",
+              "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+              "basis": "position: education"
+            }
+          ],
+          "long_term": [
+            {
+              "text": "If James Talarico's recorded position on taxes holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+              "basis": "position: taxes",
+              "assumption": "Assumes James Talarico keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            },
+            {
+              "text": "If James Talarico's recorded position on education holds and becomes sustained policy, it would likely keep shaping property taxes or public school funding the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+              "basis": "position: education",
+              "assumption": "Assumes James Talarico keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
+        }
+      }
     },
     "small_business_owner": {
       "candidates": {
@@ -124,7 +222,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -134,13 +232,42 @@
             "source": "https://jamestalarico.com/issue/taxes-cost-of-living/"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
       },
       "summary": "For a small business owner voter looking at the United States Senator from Texas race (Ken Paxton, James Talarico): our data set does not contain candidate-specific positions or voting records on small business taxes or regulation for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to small business owner concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to small business owner concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "paxton-ken": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Ken Paxton on small business taxes or regulation.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "talarico-james": {
+          "now": [
+            {
+              "text": "On taxes, James Talarico's recorded position is: \"Talarico explicitly calls for raising taxes on billionaires and corporations, including higher taxes on income and capital gains, ending 'buy, borrow, die' loopholes, raising corporate tax rates, and closing carried interest loopholes to fund working family tax cuts.\" That's what people focused on small business taxes or regulation can expect from James Talarico this term.",
+              "source": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+              "basis": "position: taxes"
+            }
+          ],
+          "long_term": [
+            {
+              "text": "If James Talarico's recorded position on taxes holds and becomes sustained policy, it would likely keep shaping small business taxes or regulation the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+              "basis": "position: taxes",
+              "assumption": "Assumes James Talarico keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
+        }
+      }
     },
     "healthcare_aca_or_uninsured": {
       "candidates": {
@@ -154,7 +281,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -164,13 +291,42 @@
             "source": "https://jamestalarico.com/issue/health-care/"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
       },
       "summary": "For a healthcare aca or uninsured voter looking at the United States Senator from Texas race (Ken Paxton, James Talarico): our data set does not contain candidate-specific positions or voting records on health coverage, the ACA, or Medicaid for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to healthcare aca or uninsured concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to healthcare aca or uninsured concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "paxton-ken": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Ken Paxton on health coverage, the ACA, or Medicaid.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "talarico-james": {
+          "now": [
+            {
+              "text": "On healthcare, James Talarico's recorded position is: \"Talarico supports allowing every American regardless of age to join Medicare as a public option, creating government-guaranteed coverage available to all while preserving private insurance competition. He has legislated to cap insulin costs and import cheaper drugs from Canada.\" That's what people focused on health coverage, the ACA, or Medicaid can expect from James Talarico this term.",
+              "source": "https://jamestalarico.com/issue/health-care/",
+              "basis": "position: healthcare"
+            }
+          ],
+          "long_term": [
+            {
+              "text": "If James Talarico's recorded position on healthcare holds and becomes sustained policy, it would likely keep shaping health coverage, the ACA, or Medicaid the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://jamestalarico.com/issue/health-care/",
+              "basis": "position: healthcare",
+              "assumption": "Assumes James Talarico keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
+        }
+      }
     },
     "medicare_retiree": {
       "candidates": {
@@ -184,7 +340,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -198,13 +354,53 @@
             "source": "https://jamestalarico.com/issue/health-care/"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
       },
       "summary": "For a medicare retiree voter looking at the United States Senator from Texas race (Ken Paxton, James Talarico): our data set does not contain candidate-specific positions or voting records on Medicare, Social Security, or retiree benefits for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to medicare retiree concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to medicare retiree concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "paxton-ken": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Ken Paxton on Medicare, Social Security, or retiree benefits.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "talarico-james": {
+          "now": [
+            {
+              "text": "On Social Security, James Talarico's recorded position is: \"Talarico supports expanding Social Security benefits and funding them by eliminating the payroll tax cap on earnings over $400,000 annually. He opposes benefit cuts and privatization.\" That's what people focused on Medicare, Social Security, or retiree benefits can expect from James Talarico this term.",
+              "source": "https://jamestalarico.com/issue/labor-business/",
+              "basis": "position: social security"
+            },
+            {
+              "text": "On Medicare and Medicaid, James Talarico's recorded position is: \"Talarico supports expanding Medicare eligibility to all ages as a public option and protecting Medicaid from cuts. He has opposed legislation that would kick people off Medicaid coverage.\" That's what people focused on Medicare, Social Security, or retiree benefits can expect from James Talarico this term.",
+              "source": "https://jamestalarico.com/issue/health-care/",
+              "basis": "position: medicare medicaid"
+            }
+          ],
+          "long_term": [
+            {
+              "text": "If James Talarico's recorded position on Social Security holds and becomes sustained policy, it would likely keep shaping Medicare, Social Security, or retiree benefits the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://jamestalarico.com/issue/labor-business/",
+              "basis": "position: social security",
+              "assumption": "Assumes James Talarico keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            },
+            {
+              "text": "If James Talarico's recorded position on Medicare and Medicaid holds and becomes sustained policy, it would likely keep shaping Medicare, Social Security, or retiree benefits the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://jamestalarico.com/issue/health-care/",
+              "basis": "position: medicare medicaid",
+              "assumption": "Assumes James Talarico keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
+        }
+      }
     },
     "veteran": {
       "candidates": {
@@ -218,7 +414,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -232,13 +428,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
       },
       "summary": "For a veteran voter looking at the United States Senator from Texas race (Ken Paxton, James Talarico): our data set does not contain candidate-specific positions or voting records on veterans' benefits or services for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to veteran concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to veteran concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "paxton-ken": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Ken Paxton on veterans' benefits or services.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "talarico-james": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for James Talarico on veterans' benefits or services.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "student": {
       "candidates": {
@@ -252,7 +470,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -262,13 +480,42 @@
             "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
       },
       "summary": "For a student voter looking at the United States Senator from Texas race (Ken Paxton, James Talarico): our data set does not contain candidate-specific positions or voting records on higher education funding or student costs for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to student concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to student concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "paxton-ken": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Ken Paxton on higher education funding or student costs.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "talarico-james": {
+          "now": [
+            {
+              "text": "On education, James Talarico's recorded position is: \"Talarico opposes private school vouchers and has made opposition to school choice diversion programs central to his campaign. He supports universal pre-K, capping class sizes, and increasing public school funding.\" That's what people focused on higher education funding or student costs can expect from James Talarico this term.",
+              "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+              "basis": "position: education"
+            }
+          ],
+          "long_term": [
+            {
+              "text": "If James Talarico's recorded position on education holds and becomes sustained policy, it would likely keep shaping higher education funding or student costs the same way over the next decade. This is a projection, not a guarantee.",
+              "source": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+              "basis": "position: education",
+              "assumption": "Assumes James Talarico keeps this position and it turns into lasting policy, rather than changing later or staying just talk."
+            }
+          ]
+        }
+      }
     },
     "rural_agriculture": {
       "candidates": {
@@ -282,7 +529,7 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-07-04, Ken Paxton's campaign had raised $7,605,209, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.fec.gov/data/candidate/S6TX00388/"
           }
         ],
@@ -296,13 +543,35 @@
             "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas"
           },
           {
-            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109 in total, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "text": "As of 2026-07-04, James Talarico's campaign had raised $40,284,109, per FEC filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
             "source": "https://www.fec.gov/data/candidate/S6TX00479/"
           }
         ]
       },
       "summary": "For a rural agriculture voter looking at the United States Senator from Texas race (Ken Paxton, James Talarico): our data set does not contain candidate-specific positions or voting records on farming, ranching, water rights, or rural infrastructure for this race. Below is what we do have on each candidate's background and, where available, campaign finance.",
-      "caveats": "We only show a connection to rural agriculture concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position."
+      "caveats": "We only show a connection to rural agriculture concerns when a candidate's own recorded background in our data set names it directly (for example, a farming or small-business background). Where no such record exists, we say so rather than guess at a candidate's likely position.",
+      "horizons": {
+        "paxton-ken": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Ken Paxton on farming, ranching, water rights, or rural infrastructure.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "talarico-james": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for James Talarico on farming, ranching, water rights, or rural infrastructure.",
+              "source": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     }
   }
 }
