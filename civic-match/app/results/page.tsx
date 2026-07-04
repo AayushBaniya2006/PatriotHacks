@@ -10,6 +10,66 @@ import InsightsPanel from "@/components/ballot/InsightsPanel";
 import StakesBanner from "@/components/stakes-banner";
 import MotivationCard from "@/components/motivation-card";
 
+// Auto-research handler
+async function handleResearchNow(slug: string) {
+  const statusEl = document.getElementById(`research-status-${slug}`);
+  const messageEl = document.getElementById(`research-message-${slug}`);
+  
+  if (statusEl && messageEl) {
+    statusEl.classList.remove("hidden");
+    messageEl.textContent = "Starting research swarm...";
+  }
+  
+  try {
+    const response = await fetch("/api/research", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name: slug, force: false }),
+    });
+    
+    if (!response.ok) throw new Error("Research failed");
+    
+    const reader = response.body?.getReader();
+    const decoder = new TextDecoder();
+    
+    if (reader) {
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        
+        const chunk = decoder.decode(value);
+        const lines = chunk.split("\n\n");
+        
+        for (const line of lines) {
+          if (line.startsWith("data: ")) {
+            const event = JSON.parse(line.slice(6));
+            
+            if (event.type === "progress" && messageEl) {
+              messageEl.textContent = event.message || "Researching...";
+            } else if (event.type === "complete") {
+              if (messageEl) {
+                messageEl.textContent = "✓ Research complete! Reloading...";
+              }
+              // Reload the page to show updated data
+              setTimeout(() => window.location.reload(), 1500);
+              return;
+            } else if (event.type === "error") {
+              if (messageEl) {
+                messageEl.textContent = `✗ Error: ${event.message}`;
+              }
+              return;
+            }
+          }
+        }
+      }
+    }
+  } catch (error) {
+    if (messageEl) {
+      messageEl.textContent = `✗ Error: ${error instanceof Error ? error.message : "Research failed"}`;
+    }
+  }
+}
+
 interface PoliticianSummary {
   id: string;
   name: string;
@@ -281,11 +341,19 @@ export default function ResultsPage() {
                 ) : null}
 
                 {r.insufficient_data ? (
-                  <div className="rounded-lg border border-dashed border-zinc-700 bg-zinc-950 p-3 text-xs text-zinc-400">
-                    <span className="text-zinc-300 font-medium">Limited data — research pending.</span>{" "}
-                    Our research set doesn&apos;t have enough sourced positions for this
-                    candidate to compute an honest score, so no rating is shown. This
-                    reflects our coverage, not the candidate&apos;s record.
+                  <div className="space-y-2">
+                    <div className="rounded-lg border border-dashed border-zinc-700 bg-zinc-950 p-3 text-xs text-zinc-400">
+                      <span className="text-zinc-300 font-medium">Limited data — research pending.</span>{" "}
+                      Our research set doesn&apos;t have enough sourced positions for this
+                      candidate to compute an honest score, so no rating is shown. This
+                      reflects our coverage, not the candidate&apos;s record.
+                    </div>
+                    <button
+                      onClick={() => handleResearchNow(r.politician_id)}
+                      className="w-full rounded-md bg-emerald-600/20 border border-emerald-600/40 px-3 py-2 text-xs font-medium text-emerald-300 hover:bg-emerald-600/30 transition-colors"
+                    >
+                      🔬 Auto-Research via Agent Swarm (Uses Government Data)
+                    </button>
                   </div>
                 ) : (
                   <div className="grid grid-cols-3 gap-3 text-center text-xs">
