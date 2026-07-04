@@ -41,7 +41,7 @@
       ]
     },
     "summary": "United States Senator from Texas race: Ken Paxton, James Talarico. This overview lists each candidate's party, background, and campaign finance where available in our data set.",
-    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and (for federal candidates only) FEC campaign finance totals. We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set; state executive offices generally do not file with the FEC, so campaign finance is not available for most of them here."
+    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and campaign finance totals where a filing was found (federal candidates file with the FEC; Texas state offices file with the Texas Ethics Commission -- each finance bullet names which). We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set."
   },
   "archetypes": {
     "renter_young_worker": {

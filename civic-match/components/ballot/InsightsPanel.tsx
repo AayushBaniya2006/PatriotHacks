@@ -5,7 +5,12 @@
 // /api/voter-insights returns — every bullet keeps its source link, and
 // empty/unavailable data is shown honestly rather than papered over.
 import { useEffect, useState } from "react";
-import type { Race, InsightsResponse } from "@/lib/dataBackend";
+import type {
+  HorizonBullet,
+  InsightsResponse,
+  LongTermHorizonBullet,
+  Race,
+} from "@/lib/dataBackend";
 import type { VoterProfile } from "@/lib/types";
 
 type FetchState =
@@ -100,6 +105,42 @@ export function InsightsPanel({
   );
 }
 
+// One "now" or "long_term" bullet from `horizons` (CLAUDE.md § Consequence
+// horizons). Long-term ones are explicitly conditional projections, never
+// presented as fact — the "projection" badge and the "Assumes:" footnote
+// (only rendered when the field is actually present) are what keep that
+// visually unmistakable next to the plain "now" bullets.
+function HorizonBulletItem({
+  bullet,
+  projection,
+}: {
+  bullet: HorizonBullet | LongTermHorizonBullet;
+  projection?: boolean;
+}) {
+  const assumption = projection ? (bullet as LongTermHorizonBullet).assumption : undefined;
+  return (
+    <li className="text-xs text-zinc-400">
+      {bullet.text}
+      {projection && (
+        <span className="ml-1.5 inline-block rounded-full border border-zinc-700 px-1.5 py-0 align-middle text-[9px] uppercase tracking-wide text-zinc-500">
+          Projection
+        </span>
+      )}
+      {bullet.source && (
+        <a
+          href={bullet.source}
+          target="_blank"
+          rel="noreferrer"
+          className="ml-1 text-emerald-400 hover:underline"
+        >
+          source ↗
+        </a>
+      )}
+      {assumption && <span className="mt-0.5 block text-[11px] italic text-zinc-600">Assumes: {assumption}</span>}
+    </li>
+  );
+}
+
 function InsightsBody({
   result,
   race,
@@ -148,6 +189,12 @@ function InsightsBody({
           {candidateIds.map((cid) => {
             const bullets = result.candidates[cid] ?? [];
             const name = race?.candidates.find((c) => c.candidate_id === cid)?.name ?? cid;
+            // Additive, optional structure (absent on responses that predate
+            // it) — when missing, this candidate renders exactly as before.
+            const horizons = result.horizons?.[cid];
+            const nowBullets = horizons?.now ?? [];
+            const longTermBullets = horizons?.long_term ?? [];
+            const hasHorizons = nowBullets.length > 0 || longTermBullets.length > 0;
             return (
               <div key={cid} className="rounded-lg bg-zinc-950 p-3">
                 <div className="mb-1.5 text-sm font-medium text-zinc-200">{name}</div>
@@ -173,6 +220,35 @@ function InsightsBody({
                   <p className="text-xs text-zinc-600">
                     No public data in our set for this candidate here.
                   </p>
+                )}
+
+                {hasHorizons && (
+                  <div className="mt-3 space-y-3 border-t border-zinc-800 pt-2.5">
+                    {nowBullets.length > 0 && (
+                      <div>
+                        <div className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-zinc-500">
+                          Right now
+                        </div>
+                        <ul className="space-y-1.5">
+                          {nowBullets.map((b, i) => (
+                            <HorizonBulletItem key={i} bullet={b} />
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    {longTermBullets.length > 0 && (
+                      <div>
+                        <div className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-zinc-500">
+                          Down the road (projection)
+                        </div>
+                        <ul className="space-y-1.5">
+                          {longTermBullets.map((b, i) => (
+                            <HorizonBulletItem key={i} bullet={b} projection />
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
                 )}
               </div>
             );
