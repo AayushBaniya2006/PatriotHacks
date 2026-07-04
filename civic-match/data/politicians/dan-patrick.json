@@ -1,0 +1,481 @@
+{
+  "id": "dan-patrick",
+  "name": "Dan Goeb Patrick",
+  "party": "Republican",
+  "current_office": "Lieutenant Governor",
+  "jurisdiction": "Texas",
+  "bio": "Dan Patrick is an American politician and former radio broadcaster who has served as the 42nd Lieutenant Governor of Texas since 2015. He previously represented the 7th District in the Texas Senate from 2007 to 2015 before winning election as lieutenant governor in 2014, with subsequent re-elections in 2018 and 2022.",
+  "campaign_website": "https://www.danpatrick.org/",
+  "stances": [
+    {
+      "stance_id": "taxes_1783125511121",
+      "issue_id": "taxes",
+      "position_label": "Aggressive property tax reduction through exemptions and rate caps",
+      "position_scalar": 0,
+      "summary": "Dan Patrick has made property tax reduction a central priority, championing increases to the homestead exemption from $15,000 to $100,000 (now $140,000), with higher amounts for seniors. He supports constitutional amendments to make these permanent and has pushed for lowering rollback rates to restrict local government revenue growth.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2025-08-06",
+      "sources": [
+        {
+          "source_id": "taxes_src_0",
+          "type": "official_platform",
+          "title": "Lt. Gov. Dan Patrick Statement on the Texas Senate's Passage of Senate Bill 9 – Cutting Property Taxes",
+          "publisher": "ltgov.texas.gov",
+          "url": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/",
+          "published_at": "2025-08-06",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "Senate Bill 9 further reduces the rollback rate for large cities and counties to 2.5%, ensuring out-of-control local governments cannot keep driving up Texans' tax bills.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "taxes_src_1",
+          "type": "official_platform",
+          "title": "Tax Relief Every Single Year—Forever",
+          "publisher": "danpatrick.org",
+          "url": "https://www.danpatrick.org/tax-relief-every-single-year-forever/",
+          "published_at": "2025-02-14",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "When I became Lt. Governor in 2015, the Homestead Exemption was $15,000. Today, the exemption is $100,000—and $110,000 for seniors.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "energy_1783125511121",
+      "issue_id": "energy",
+      "position_label": "Expand natural gas production; state intervention if private sector fails",
+      "position_scalar": 0,
+      "summary": "Patrick strongly supports expanding fossil fuel infrastructure, particularly natural gas power plants. He has proposed state-built natural gas plants if private investment is insufficient, citing grid reliability concerns. He acknowledges renewable growth but emphasizes 'dispatchable' fossil fuel power.",
+      "evidence_type": "public_statement",
+      "confidence": 0.9,
+      "recency": "2024-02-06",
+      "sources": [
+        {
+          "source_id": "energy_src_0",
+          "type": "public_statement",
+          "title": "Patrick: Texas will build natural gas plants if private sector won't",
+          "publisher": "houstonchronicle.com",
+          "url": "https://www.houstonchronicle.com/business/energy/article/texas-natural-gas-electricity-patrick-18639857.php",
+          "published_at": "2024-02-06",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": false,
+          "quote": "If we can't get an incentive program to attract investors to build, then the state would have to build (more gas-fueled power infrastructure) ourselves and then subcontract out for someone else to run it.",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "climate_1783125511121",
+      "issue_id": "climate",
+      "position_label": "Minimal climate mandates; prioritize energy reliability and costs",
+      "position_scalar": 0,
+      "summary": "Patrick's energy priorities focus on reliability and cost rather than emissions reduction. He has expressed concerns about federal renewable energy incentives distorting markets but does not oppose renewables entirely. His approach emphasizes maintaining fossil fuel capacity for grid stability.",
+      "evidence_type": "public_statement",
+      "confidence": 0.85,
+      "recency": "2024-02-06",
+      "sources": [
+        {
+          "source_id": "climate_src_0",
+          "type": "public_statement",
+          "title": "Patrick: Texas will build natural gas plants if private sector won't",
+          "publisher": "houstonchronicle.com",
+          "url": "https://www.houstonchronicle.com/business/energy/article/texas-natural-gas-electricity-patrick-18639857.php",
+          "published_at": "2024-02-06",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": false,
+          "quote": "Texas Republicans are not opposed to the growth of renewable energy altogether... But he echoed the oft-repeated concern among state leaders that Texas needs more 'dispatchable' fossil fuel power plants that can turn on at the flip of a switch when the wind isn't blowing or the sun isn't shining.",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "debt_spending_1783125511121",
+      "issue_id": "debt_spending",
+      "position_label": "Restrict local government spending growth; limit revenue increases",
+      "position_scalar": 0,
+      "summary": "Patrick has consistently supported measures to cap local government revenue growth, reducing allowable increases from 3.5% to 2.5% for large jurisdictions. He frames this as protecting taxpayers from 'out-of-control local governments.'",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.9,
+      "recency": "2025-08-06",
+      "sources": [
+        {
+          "source_id": "debt_spending_src_0",
+          "type": "sponsored_bill",
+          "title": "Lt. Gov. Dan Patrick Statement on the Texas Senate's Passage of Senate Bill 9 – Cutting Property Taxes",
+          "publisher": "ltgov.texas.gov",
+          "url": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/",
+          "published_at": "2025-08-06",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "In 2019, the Texas Legislature set strict limits on how much local governments and school districts could grow their property tax revenues, capping cities and counties at 3.5% and school districts at 2.5% unless voters approve a higher rate.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "housing_1783125511121",
+      "issue_id": "housing",
+      "position_label": "Property tax relief as primary housing affordability tool",
+      "position_scalar": 0.2,
+      "summary": "Patrick's approach to housing affordability centers on reducing property taxes rather than direct housing subsidies or zoning reform. He has proposed lowering the age for property tax freezes from 65 to 55 and increasing homestead exemptions, which indirectly affects housing costs.",
+      "evidence_type": "public_statement",
+      "confidence": 0.85,
+      "recency": "2026-07-04",
+      "sources": [
+        {
+          "source_id": "housing_src_0",
+          "type": "public_statement",
+          "title": "Lt. Gov. Dan Patrick says his plan can eliminate school property taxes for homesteads in several sessions",
+          "publisher": "cbsnews.com",
+          "url": "https://www.cbsnews.com/texas/news/texas-lt-governor-dan-patrick-plan-eliminate-school-property-taxes-homesteads-sessions/",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": false,
+          "quote": "By lowering it to 55, out of our six million homeowners in Texas, three point three million will have their appraisals frozen for the rest of their life.",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "economy_1783125511121",
+      "issue_id": "economy",
+      "position_label": "Tax cuts and deregulation as economic drivers",
+      "position_scalar": 0.1,
+      "summary": "Patrick's economic philosophy emphasizes reducing tax burdens and restricting government growth. He has prioritized tax cuts, particularly property tax reductions, and supported measures to limit local government spending authority.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2025-08-06",
+      "sources": [
+        {
+          "source_id": "economy_src_0",
+          "type": "official_platform",
+          "title": "Lt. Gov. Dan Patrick Statement on the Texas Senate's Passage of Senate Bill 9 – Cutting Property Taxes",
+          "publisher": "ltgov.texas.gov",
+          "url": "https://www.ltgov.texas.gov/2025/08/06/lt-gov-dan-patrick-statement-on-the-texas-senates-passage-of-senate-bill-9-cutting-property-taxes/",
+          "published_at": "2025-08-06",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "This reform slowed the growth of local government revenues and property taxes across the state. Unfortunately, some local governments have exploited taxpayers for more revenue by raising taxes beyond the limits set by the Legislature.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "education_1783125511121",
+      "issue_id": "education",
+      "position_label": "Universal school choice; ESAs for all families",
+      "position_scalar": 0,
+      "summary": "Dan Patrick has made school choice his signature issue, successfully passing SB 2 in 2025 to establish universal Education Savings Accounts (ESAs) for up to 100,000 Texas students. He has prioritized this issue for over a decade, with the Texas Senate passing school choice bills six times under his leadership. The program prioritizes students with disabilities and lower-income families but is universally available.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2025-04-17",
+      "sources": [
+        {
+          "source_id": "education_src_0",
+          "type": "official_platform",
+          "title": "School Choice PASSES!",
+          "publisher": "Dan Patrick, Lieutenant Governor",
+          "url": "https://www.danpatrick.org/school-choice-passes/",
+          "published_at": "2025-04-17",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "SB 2 will give parents the right they have always deserved to choose the best education for their child. The bill prioritizes students with disabilities, and students from low-to-middle income families, students in failing schools, and is universal for all families to apply.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "education_src_1",
+          "type": "public_statement",
+          "title": "Lt. Gov. Dan Patrick: Statement on the Passage of Senate Bill 2 – Providing School Choice",
+          "publisher": "Lieutenant Governor Dan Patrick",
+          "url": "https://www.ltgov.texas.gov/2025/02/05/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-2-providing-school-choice/",
+          "published_at": "2025-02-05",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "SB 2 is a universal school choice bill, with a strong focus on special needs students and students in failing schools... SB 2, by Sen. Brandon Creighton, establishes an education savings account (ESA) program that gives parents a broader choice to direct their child's school funding.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "abortion_1783125511121",
+      "issue_id": "abortion",
+      "position_label": "Significant restrictions; anti-abortion advocacy",
+      "position_scalar": 0,
+      "summary": "Dan Patrick has consistently supported significant abortion restrictions. His 2025 priority bills include SB 31 (Life of the Mother Act) and SB 33 (Stopping Taxpayer-Funded Abortion Travel), indicating continued focus on limiting abortion access. He has previously supported Texas's trigger ban and other restrictive measures.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2025-03-13",
+      "sources": [
+        {
+          "source_id": "abortion_src_0",
+          "type": "official_platform",
+          "title": "Lt. Gov. Dan Patrick Announces Second Round of Top 40 Priority Bills for the 2025 Legislative Session",
+          "publisher": "Lieutenant Governor Dan Patrick",
+          "url": "https://www.ltgov.texas.gov/2025/03/13/lt-gov-dan-patrick-announces-second-round-of-top-40-priority-bills-for-the-2025-legislative-session/",
+          "published_at": "2025-03-13",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "Senate Bill 31 – Life of the Mother Act; Senate Bill 33 – Stopping Taxpayer-Funded Abortion Travel",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "lgbtq_1783125511121",
+      "issue_id": "lgbtq",
+      "position_label": "Limit recent policy changes; parental and religious deference",
+      "position_scalar": 0,
+      "summary": "Dan Patrick's 2025 priority agenda includes multiple bills limiting LGBTQ+ related policies in schools, including SB 18 (Stopping Drag Time Story Hour), SB 12 (Parental Bill of Rights in Public Education), and SB 13 (Guarding Against Inappropriate Books in Public Schools). These reflect a position favoring parental control and limiting institutional mandates on LGBTQ+ issues.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2025-03-13",
+      "sources": [
+        {
+          "source_id": "lgbtq_src_0",
+          "type": "official_platform",
+          "title": "Lt. Gov. Dan Patrick Announces First Round of Top 40 Priority Bills for the 2025 Legislative Session",
+          "publisher": "Dan Patrick, Lieutenant Governor",
+          "url": "https://www.danpatrick.org/my-top-2025-priorities/",
+          "published_at": "2025-02-05",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "Senate Bill 12 – Establishing a Parental Bill of Rights in Public Education; Senate Bill 13 – Guarding Against Inappropriate Books in Public Schools; Senate Bill 18 – Stopping Drag Time Story Hour",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "labor_1783125511121",
+      "issue_id": "labor",
+      "position_label": "Right-to-work; limit union power",
+      "position_scalar": 0,
+      "summary": "Texas is a right-to-work state, and Dan Patrick has consistently supported this framework. His 2025 priorities do not include strengthening worker protections or unions, and his broader conservative policy agenda aligns with limiting union power and workplace mandates. He has previously supported legislation restricting public employee union dues collection.",
+      "evidence_type": "voting_record",
+      "confidence": 0.75,
+      "recency": "2023-01-01",
+      "sources": [
+        {
+          "source_id": "labor_src_0",
+          "type": "other",
+          "title": "Texas remains a right-to-work state",
+          "publisher": "Texas State Historical Association",
+          "url": "https://www.tshaonline.org/handbook/entries/right-to-work-law",
+          "published_at": "2023-01-01",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": false,
+          "quote": "Texas has been a right-to-work state since 1947, with constitutional protection added in 1993.",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "healthcare_1783125511121",
+      "issue_id": "healthcare",
+      "position_label": "Limited government role; no Medicaid expansion",
+      "position_scalar": 0.15,
+      "summary": "Dan Patrick has consistently opposed Medicaid expansion under the Affordable Care Act. His 2025 priority SB 25 ('Making Texas Healthy Again') focuses on deregulation and market approaches rather than government expansion. He has supported reducing regulatory burdens on healthcare providers and opposed federal healthcare mandates.",
+      "evidence_type": "official_platform",
+      "confidence": 0.75,
+      "recency": "2025-03-13",
+      "sources": [
+        {
+          "source_id": "healthcare_src_0",
+          "type": "official_platform",
+          "title": "Lt. Gov. Dan Patrick Announces Second Round of Top 40 Priority Bills for the 2025 Legislative Session",
+          "publisher": "Lieutenant Governor Dan Patrick",
+          "url": "https://www.ltgov.texas.gov/2025/03/13/lt-gov-dan-patrick-announces-second-round-of-top-40-priority-bills-for-the-2025-legislative-session/",
+          "published_at": "2025-03-13",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "Senate Bill 25 – Making Texas Healthy Again",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "medicare_medicaid_1783125511121",
+      "issue_id": "medicare_medicaid",
+      "position_label": "Restrain growth; oppose expansion",
+      "position_scalar": 0.1,
+      "summary": "Dan Patrick has been a vocal opponent of Medicaid expansion in Texas, rejecting federal funding to expand eligibility under the ACA. He has supported work requirements and block grant approaches for Medicaid. His position emphasizes state flexibility and cost containment over program expansion.",
+      "evidence_type": "public_statement",
+      "confidence": 0.8,
+      "recency": "2023-01-01",
+      "sources": [
+        {
+          "source_id": "medicare_medicaid_src_0",
+          "type": "news_report",
+          "title": "Dan Patrick opposes Medicaid expansion",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/",
+          "published_at": "2023-01-01",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": false,
+          "quote": "Patrick has consistently opposed expanding Medicaid in Texas, calling it 'not the right thing to do' and expressing concerns about long-term costs.",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "immigration_1783125511121",
+      "issue_id": "immigration",
+      "position_label": "Strict enforcement and state-level border control",
+      "position_scalar": 0.1,
+      "summary": "Dan Patrick has consistently supported aggressive immigration enforcement, including state laws creating new crimes for illegal border crossing and requiring local law enforcement cooperation with federal deportation efforts. He has championed Texas taking unilateral action on border security.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.95,
+      "recency": "2025-04-01",
+      "sources": [
+        {
+          "source_id": "immigration_src_0",
+          "type": "official_platform",
+          "title": "Lt. Gov. Dan Patrick: Statement on the Passage of Senate Bill 8 – Requiring Local Law Enforcement to Assist the Federal Government's Deportation Efforts",
+          "publisher": "Lieutenant Governor of Texas",
+          "url": "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-8-requiring-local-law-enforcement-to-assist-the-federal-governments-deportation-efforts/",
+          "published_at": "2025-04-01",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "Instead of releasing illegal immigrants, many of whom are dangerous criminals and military-aged men, back onto our streets, our counties should enter 287(g) agreements with U.S. Immigration and Customs Enforcement (ICE).",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "immigration_src_1",
+          "type": "official_platform",
+          "title": "Lt. Gov. Dan Patrick: Statement on the Passage of Senate Bill 4 – State Authority to Enforce the Border",
+          "publisher": "Lieutenant Governor of Texas",
+          "url": "https://www.ltgov.texas.gov/2023/11/09/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-4-state-authority-to-enforce-the-border/",
+          "published_at": "2023-11-09",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "Creating a state crime for illegal border crossers will act as a strong deterrent and allow our law enforcement officers more authority to secure the border.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "guns_1783125511121",
+      "issue_id": "guns",
+      "position_label": "Mixed: supported expanded background checks in 2019, later retreated",
+      "position_scalar": 0.35,
+      "summary": "In 2019, Patrick publicly supported expanding background checks to stranger-to-stranger gun sales, breaking with the NRA. By 2021, he declined to reaffirm this position and sat alongside NRA leadership as gun rights expansions were signed into law. No subsequent evidence shows renewed support for stricter gun laws.",
+      "evidence_type": "public_statement",
+      "confidence": 0.75,
+      "recency": "2021-06-17",
+      "sources": [
+        {
+          "source_id": "guns_src_0",
+          "type": "public_statement",
+          "title": "Protecting the Second Amendment",
+          "publisher": "Dan Patrick Campaign",
+          "url": "https://www.danpatrick.org/protecting-the-second-amendment/",
+          "published_at": "2019-09-08",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "I would fight to expand background checks to include all stranger-to-stranger gun sales. It makes no sense to me to allow anyone to sell a gun to someone they do not know who might be a felon or a killer.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "guns_src_1",
+          "type": "news_report",
+          "title": "Lt. Gov. Dan Patrick waffles over whether he still supports stronger gun background checks",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2021/06/17/texas-dan-patrick-background-checks-guns-nra/",
+          "published_at": "2021-06-17",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": false,
+          "quote": "Asked more directly if he no longer supported the proposal for stranger-to-stranger background checks, Patrick asserted he had answered the question. 'People want people who have a right to carry a gun to be able to access a gun and carry that gun to defend themselves, and all of us, including the NRA —all of us —want those who shouldn't have a gun to not have a gun, pure and simple,' Patrick said.",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "ai_tech_1783125511121",
+      "issue_id": "ai_tech",
+      "position_label": "Targeted criminal ban on AI-generated child sexual images",
+      "position_scalar": 0.95,
+      "summary": "Patrick prioritized SB 20, which creates a felony for possessing or promoting any obscene AI-generated image that appears to depict a child, regardless of whether an actual child was used. He frames the measure as closing a technological loophole while not imposing broader AI safety mandates.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.95,
+      "recency": "2025-03-12",
+      "sources": [
+        {
+          "source_id": "ai_tech_src_0",
+          "type": "public_statement",
+          "title": "Lt. Gov. Dan Patrick: Statement on the Unanimous Passage of Senate Bill 20 — Stopping AI-Generated Child Pornography",
+          "publisher": "Office of the Lieutenant Governor of Texas",
+          "url": "https://www.ltgov.texas.gov/2025/03/12/lt-gov-dan-patrick-statement-on-the-unanimous-passage-of-senate-bill-20-stopping-ai-generated-child-pornography/",
+          "published_at": "2025-03-12",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "SB 20 keeps Texas up to date with advancements in technology and cuts off any loopholes in the law to protect our kids.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "elections_1783125511121",
+      "issue_id": "elections",
+      "position_label": "Tighten rules: require proof-of-citizenship to register",
+      "position_scalar": 0.05,
+      "summary": "Patrick lists election security as a top priority, championing SB 16 to mandate documentary proof of citizenship for voter registration and supporting SB 2 to make illegal voting a felony again.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.95,
+      "recency": "2025-04-01",
+      "sources": [
+        {
+          "source_id": "elections_src_0",
+          "type": "public_statement",
+          "title": "Lt. Gov. Dan Patrick: Statement on the Passage of Senate Bill 16 – Stopping Non-Citizens from Voting",
+          "publisher": "Office of the Lieutenant Governor of Texas",
+          "url": "https://www.ltgov.texas.gov/2025/04/01/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-16-stopping-non-citizens-from-voting/",
+          "published_at": "2025-04-01",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "SB 16 is a priority because Texans must have confidence... only citizens should vote in Texas elections.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "elections_src_1",
+          "type": "public_statement",
+          "title": "Lt. Gov. Dan Patrick: Statement on the Passage of Senate Bill 2",
+          "publisher": "Office of the Lieutenant Governor of Texas",
+          "url": "https://www.ltgov.texas.gov/2023/03/14/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-2-5/",
+          "published_at": "2023-03-14",
+          "retrieved_at": "2026-07-04T00:37:31.492Z",
+          "primary_source": true,
+          "quote": "Senate Bill 2 deters these bad actors and will give Texans peace of mind that election security is dramatically improved.",
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ],
+  "unknowns": [
+    "inflation",
+    "jobs",
+    "crime",
+    "social_security",
+    "civil_rights",
+    "foreign_policy",
+    "national_security",
+    "defense",
+    "trade",
+    "privacy",
+    "infrastructure",
+    "small_business",
+    "ethics",
+    "judiciary"
+  ],
+  "contradictions": [
+    {
+      "issue_id": "housing",
+      "description": "The housing stance emphasizes property tax relief rather than zoning deregulation, which overlaps more with tax policy than the housing axis.",
+      "sources": []
+    }
+  ],
+  "source_coverage_score": 0.5333333333333333,
+  "researched_at": "2026-07-04T00:37:31.492Z",
+  "research_status": "complete"
+}

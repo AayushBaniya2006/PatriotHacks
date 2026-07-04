@@ -1,0 +1,615 @@
+{
+  "id": "greg-abbott",
+  "name": "Gregory Wayne Abbott",
+  "party": "Republican",
+  "current_office": "Governor",
+  "jurisdiction": "Texas",
+  "bio": "Greg Abbott has served as the 48th Governor of Texas since January 20, 2015, and is the longest-serving incumbent governor in the United States as of 2025. He previously served as Texas Attorney General from 2002 to 2015 and as a Justice on the Texas Supreme Court from 1996 to 2001.",
+  "campaign_website": "https://www.gregabbott.com",
+  "stances": [
+    {
+      "stance_id": "economy_1783125353931",
+      "issue_id": "economy",
+      "position_label": "Growth through deregulation and tax cuts",
+      "position_scalar": 0.15,
+      "summary": "Abbott consistently advocates for economic growth through deregulation, tax cuts, and business-friendly policies. He created the Small Business Freedom Council to slash state agency rules and fees, and emphasizes keeping state spending below constitutional limits.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2025-02-01",
+      "sources": [
+        {
+          "source_id": "economy_src_0",
+          "type": "official_platform",
+          "title": "Governor Abbott Delivers 2025 State Of The State Address",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "published_at": "2025-02-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "That's why I created the Small Business Freedom Council to require all state agencies to slash rules, fees, and regulations. It's why we will keep state spending below constitutional limits and why we must cut your taxes.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "inflation_1783125353931",
+      "issue_id": "inflation",
+      "position_label": "Reduce spending and regulation to lower prices",
+      "position_scalar": 0.2,
+      "summary": "Abbott addresses cost-of-living concerns through deregulation, tax relief, and reducing government-imposed costs rather than direct intervention. His housing affordability approach focuses on cutting regulations and speeding up permitting.",
+      "evidence_type": "official_platform",
+      "confidence": 0.7,
+      "recency": "2025-02-01",
+      "sources": [
+        {
+          "source_id": "inflation_src_0",
+          "type": "official_platform",
+          "title": "Governor Abbott Delivers 2025 State Of The State Address",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "published_at": "2025-02-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "We must also make housing more affordable. To do that, we need to make it easier to build, slash regulations, and speed up permitting.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "taxes_1783125353931",
+      "issue_id": "taxes",
+      "position_label": "Lower taxes across the board",
+      "position_scalar": 0.05,
+      "summary": "Abbott has made property tax reduction a centerpiece of his governance, signing over $18 billion in property tax cuts in 2023 and seeking at least $10 billion more. He advocates for eliminating school property taxes for homeowners and raising business personal property exemptions.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2025-02-01",
+      "sources": [
+        {
+          "source_id": "taxes_src_0",
+          "type": "official_platform",
+          "title": "Governor Abbott Delivers 2025 State Of The State Address",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "published_at": "2025-02-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "I want at least $10 billion in new property tax relief... I recommend the 89th Legislature return $10 billion to taxpayers this session by way of property tax relief.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "taxes_src_1",
+          "type": "official_platform",
+          "title": "Proposed State Budget for FY 2026-2027",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/uploads/files/organization/budget-policy/Proposed_State_Budget_for_FY_2026-2027.pdf",
+          "published_at": "2025-02-02",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "I further recommend raising the Business Personal Property exemption to $100,000, to support more small businesses.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "taxes_src_2",
+          "type": "official_platform",
+          "title": "Governor Abbott: Power to the Texas Taxpayer",
+          "publisher": "Greg Abbott Campaign",
+          "url": "https://www.gregabbott.com/governor-abbott-power-to-the-texas-taxpayer/",
+          "published_at": "2025-04-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "Governor Abbott will – through a constitutional amendment – empower Texans to vote to eliminate school district property taxes on homeowners",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "jobs_1783125353931",
+      "issue_id": "jobs",
+      "position_label": "Reduce business costs and mandates",
+      "position_scalar": 0.1,
+      "summary": "Abbott focuses on job creation through business-friendly policies, emphasizing career and technical education for workforce development rather than labor standards mandates. He highlights Texas adding over 2.5 million jobs since he became governor through low taxes and deregulation.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2025-02-02",
+      "sources": [
+        {
+          "source_id": "jobs_src_0",
+          "type": "official_platform",
+          "title": "Proposed State Budget for FY 2026-2027",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/uploads/files/organization/budget-policy/Proposed_State_Budget_for_FY_2026-2027.pdf",
+          "published_at": "2025-02-02",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "Since I've been Governor, Texas has added over 2.5 million new jobs. We will continue to expand job growth through our business-friendly policies, low taxes, and strategic investments in innovation and education.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "jobs_src_1",
+          "type": "official_platform",
+          "title": "Governor Abbott Delivers 2025 State Of The State Address",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "published_at": "2025-02-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "That's why I am making life-changing career training an emergency item.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "housing_1783125353931",
+      "issue_id": "housing",
+      "position_label": "Deregulate: cut zoning rules so private builders add supply",
+      "position_scalar": 0.1,
+      "summary": "Abbott explicitly advocates for housing affordability through deregulation, cutting regulations, and speeding up permitting to make it easier to build. He also proposes a one-year tax exemption on home improvements.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2025-02-01",
+      "sources": [
+        {
+          "source_id": "housing_src_0",
+          "type": "official_platform",
+          "title": "Governor Abbott Delivers 2025 State Of The State Address",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "published_at": "2025-02-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "We must also make housing more affordable. To do that, we need to make it easier to build, slash regulations, and speed up permitting. And to make your current home more affordable, we should offer a one-year tax exemption on home improvements, like heating and air conditioning.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "energy_1783125353931",
+      "issue_id": "energy",
+      "position_label": "Expand domestic oil, gas, and coal production; includes nuclear",
+      "position_scalar": 0.15,
+      "summary": "Abbott emphasizes expanding traditional energy sources including oil and gas, while also supporting nuclear power. He created the Texas Energy Fund with $5 billion investment and advocates for Texas to lead a 'nuclear power renaissance.'",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2025-02-01",
+      "sources": [
+        {
+          "source_id": "energy_src_0",
+          "type": "official_platform",
+          "title": "Governor Abbott Delivers 2025 State Of The State Address",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "published_at": "2025-02-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "We must add more power this session to better fortify our grid. It's also time for Texas to lead a nuclear power renaissance in the United States.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "energy_src_1",
+          "type": "official_platform",
+          "title": "Proposed State Budget for FY 2026-2027",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/uploads/files/organization/budget-policy/Proposed_State_Budget_for_FY_2026-2027.pdf",
+          "published_at": "2025-02-02",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "With the largest surplus in Texas history last session, in addition to substantial tax relief, additional historic and generational investments were made, including $5 billion for the Texas Energy Fund",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "debt_spending_1783125353931",
+      "issue_id": "debt_spending",
+      "position_label": "Cut spending significantly; keep below constitutional limits",
+      "position_scalar": 0.15,
+      "summary": "Abbott consistently advocates for limiting state spending below constitutional limits, cutting taxes, and requiring voter approval for local spending increases. He proposes tying local government spending to population plus inflation or 3.5%.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2025-02-01",
+      "sources": [
+        {
+          "source_id": "debt_spending_src_0",
+          "type": "official_platform",
+          "title": "Governor Abbott Delivers 2025 State Of The State Address",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "published_at": "2025-02-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "It's why we will keep state spending below constitutional limits and why we must cut your taxes.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "debt_spending_src_1",
+          "type": "official_platform",
+          "title": "Governor Abbott: Power to the Texas Taxpayer",
+          "publisher": "Greg Abbott Campaign",
+          "url": "https://www.gregabbott.com/governor-abbott-power-to-the-texas-taxpayer/",
+          "published_at": "2025-04-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "Governor Abbott will limit local government spending to population plus inflation or 3.5% (the lesser of the two) to ensure fiscally-responsible governance.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "infrastructure_1783125353931",
+      "issue_id": "infrastructure",
+      "position_label": "State investment with some private elements; major water investment",
+      "position_scalar": 0.4,
+      "summary": "Abbott supports substantial state infrastructure investment, particularly for water and energy, while also emphasizing public-private partnerships. He declared water infrastructure an emergency item with the largest investment in Texas history, and previously invested $1.5 billion in broadband.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2025-02-01",
+      "sources": [
+        {
+          "source_id": "infrastructure_src_0",
+          "type": "official_platform",
+          "title": "Governor Abbott Delivers 2025 State Of The State Address",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "published_at": "2025-02-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "Working with Senator Perry and Representative Cody Harris, we will put Texas on a path to have plenty of water for the next 50 years. We will make the largest investment in water in the history of Texas.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "infrastructure_src_1",
+          "type": "official_platform",
+          "title": "Proposed State Budget for FY 2026-2027",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/uploads/files/organization/budget-policy/Proposed_State_Budget_for_FY_2026-2027.pdf",
+          "published_at": "2025-02-02",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "With the largest surplus in Texas history last session, in addition to substantial tax relief, additional historic and generational investments were made, including...$1.5 billion for broadband infrastructure funding",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "small_business_1783125353931",
+      "issue_id": "small_business",
+      "position_label": "Cut regulations and taxes on small businesses",
+      "position_scalar": 0.1,
+      "summary": "Abbott prioritizes reducing regulatory and tax burdens on small businesses. He created the Small Business Freedom Council to slash rules and fees, and proposes raising the Business Personal Property exemption from $2,500 to $100,000.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2025-02-02",
+      "sources": [
+        {
+          "source_id": "small_business_src_0",
+          "type": "official_platform",
+          "title": "Governor Abbott Delivers 2025 State Of The State Address",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address",
+          "published_at": "2025-02-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "That's why I created the Small Business Freedom Council to require all state agencies to slash rules, fees, and regulations.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "small_business_src_1",
+          "type": "official_platform",
+          "title": "Proposed State Budget for FY 2026-2027",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/uploads/files/organization/budget-policy/Proposed_State_Budget_for_FY_2026-2027.pdf",
+          "published_at": "2025-02-02",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "Texas imposes property tax on business personal property (BPP) with a value of more than $2,500. Significantly increasing the BPP exemption will be a great benefit to Texas' small businesses, the lifeblood of our state's economy. I further recommend raising the Business Personal Property exemption to $100,000",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "healthcare_1783125353931",
+      "issue_id": "healthcare",
+      "position_label": "Market-based, state flexibility; oppose federal single-payer",
+      "position_scalar": 0.15,
+      "summary": "Abbott consistently supports reducing federal government role in healthcare, advocating for state flexibility through block grants and patient-driven market solutions. He endorsed the Graham-Cassidy bill to give states more control and opposes 'Bernie Sanders style' single-payer systems.",
+      "evidence_type": "public_statement",
+      "confidence": 0.85,
+      "recency": "2017-09-25",
+      "sources": [
+        {
+          "source_id": "healthcare_src_0",
+          "type": "public_statement",
+          "title": "Governor Abbott Statement On Graham-Cassidy Health Care Bill",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-statement-on-graham-cassidy-health-care-bill",
+          "published_at": "2017-09-25",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "The Graham-Cassidy bill aspires to the goal of reducing the role of the federal government in health care decisions and giving states more flexibility to help their citizens make health care decisions better tailored to their unique needs. I trust Texans know better how to address their health care needs than bureaucrats in Washington.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "healthcare_src_1",
+          "type": "official_platform",
+          "title": "Greg Abbott's Healthy Texans Plan",
+          "publisher": "gregabbott.com",
+          "url": "https://www.gregabbott.com/wp-content/uploads/2014/09/Greg-Abbotts-Healthy-Texans-Plan.pdf",
+          "published_at": "2014-09-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "Texas should request the federal government provide Medicaid funds in the form of a block grant.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "education_1783125353931",
+      "issue_id": "education",
+      "position_label": "Strong school choice advocate; ESAs and parental control",
+      "position_scalar": 0.05,
+      "summary": "Abbott is a leading proponent of school choice, having signed Texas's landmark Education Savings Account program in 2025. He campaigned on 'education freedom,' supports diverting public funds to private options through ESAs, and emphasizes parental control over education decisions.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.95,
+      "recency": "2025-07-03",
+      "sources": [
+        {
+          "source_id": "education_src_0",
+          "type": "sponsored_bill",
+          "title": "Governor Abbott Signs Landmark School Choice Legislation Into Law",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law",
+          "published_at": "2025-07-03",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "When I ran for re-election in 2022, I promised Texans that we will bring education freedom to every Texas family. Today, Texas delivers on that promise. I am signing this law that will ensure Texas families, whose children can no longer be served by the public school assigned to them, have the choice to take their money and find the school that is right for them.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "education_src_1",
+          "type": "sponsored_bill",
+          "title": "Governor Abbott Signs Record Public Education Funding, Teacher Pay Raise Into Law",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-signs-record-public-education-funding-teacher-pay-raise-into-law",
+          "published_at": "2025-07-03",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "School choice, paired with the House's additional proposal to initiate the largest increase in public education funding in Texas history, will elevate the overall quality of our educational system",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "medicare_medicaid_1783125353931",
+      "issue_id": "medicare_medicaid",
+      "position_label": "Block grants, state control; restrain federal program growth",
+      "position_scalar": 0.1,
+      "summary": "Abbott advocates for converting Medicaid to block grants to give states more discretion, arguing this enables policy innovation and cost savings. His 2014 policy platform explicitly called for requesting federal Medicaid funds as block grants, and he criticized Obamacare's expansion approach.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2017-09-25",
+      "sources": [
+        {
+          "source_id": "medicare_medicaid_src_0",
+          "type": "official_platform",
+          "title": "Greg Abbott's Healthy Texans Plan",
+          "publisher": "gregabbott.com",
+          "url": "https://www.gregabbott.com/wp-content/uploads/2014/09/Greg-Abbotts-Healthy-Texans-Plan.pdf",
+          "published_at": "2014-09-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "Texas should request the federal government provide Medicaid funds in the form of a block grant. Recent experience with block grants demonstrates clearly that states can pioneer new and effective policies and use funds more efficiently if they have more discretion over how to use Medicaid funding.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "medicare_medicaid_src_1",
+          "type": "public_statement",
+          "title": "Governor Abbott Statement On Graham-Cassidy Health Care Bill",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-statement-on-graham-cassidy-health-care-bill",
+          "published_at": "2017-09-25",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "The Graham-Cassidy bill aspires to the goal of reducing the role of the federal government in health care decisions and giving states more flexibility",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "abortion_1783125353931",
+      "issue_id": "abortion",
+      "position_label": "Near-total ban; private enforcement mechanism",
+      "position_scalar": 0.05,
+      "summary": "Abbott signed Texas Senate Bill 8, which prohibits abortion after detection of a fetal heartbeat (approximately 6 weeks) and authorizes private citizens to sue abortion providers. The law contains only narrow exceptions and represents one of the most restrictive abortion policies in the nation.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.95,
+      "recency": "2021-09-01",
+      "sources": [
+        {
+          "source_id": "abortion_src_0",
+          "type": "sponsored_bill",
+          "title": "87(R) SB 8 - Enrolled version",
+          "publisher": "Texas Legislature",
+          "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/pdf/SB00008F.pdf",
+          "published_at": "2021-05-19",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "relating to abortion, including abortions after detection of an unborn child's heartbeat; authorizing a private civil right of action.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "immigration_1783125353931",
+      "issue_id": "immigration",
+      "position_label": "Strict enforcement first",
+      "position_scalar": 0,
+      "summary": "Governor Abbott has signed multiple bills that criminalize illegal entry and re-entry, mandate prison sentences for smuggling, and expand physical barriers and prosecutorial tools against unauthorized migrants.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.95,
+      "recency": "2023-12-19",
+      "sources": [
+        {
+          "source_id": "immigration_src_0",
+          "type": "sponsored_bill",
+          "title": "Governor Abbott Signs Historic Border Security Measures In Brownsville",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-signs-historic-border-security-measures-in-brownsville",
+          "published_at": "2023-12-19",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "Senate Bill 4 … creates a criminal offense for illegal entry into this state from a foreign nation … and penalizes offenders with up to 20 years in prison.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "crime_1783125353931",
+      "issue_id": "crime",
+      "position_label": "More police, tougher sentencing",
+      "position_scalar": 0,
+      "summary": "Abbott’s 2024 “Protecting Communities, Not Criminals” plan proposes automatic denial of bail for undocumented immigrants charged with felonies, expanded task-force presence, and removal of district attorneys who decline to prosecute certain crimes.",
+      "evidence_type": "public_statement",
+      "confidence": 0.9,
+      "recency": "2024-01-04",
+      "sources": [
+        {
+          "source_id": "crime_src_0",
+          "type": "public_statement",
+          "title": "Governor Abbott Rolls Out 'Protecting Communities, Not Criminals' Public Safety Policy Initiatives",
+          "publisher": "Greg Abbott (official campaign site)",
+          "url": "https://www.gregabbott.com/governor-abbott-rolls-out-protecting-communities-not-criminals-public-safety-policy-initiatives/",
+          "published_at": "2024-01-04",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "Automatically deny bail for illegal immigrants charged with felony crimes … Expand the Department of Public Safety Repeat Offender Taskforce … Impeach rogue district attorneys who fail to enforce the law.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "ai_tech_1783125353931",
+      "issue_id": "ai_tech",
+      "position_label": "Mixed: pro-innovation with sector-specific regulation",
+      "position_scalar": 0.6,
+      "summary": "Abbott has championed Texas as 'the epicenter of AI development' and supported Google's $40 billion AI infrastructure investment, while also signing the Texas Responsible Artificial Intelligence Governance Act (HB 149), which imposes civil penalties for AI systems that infringe constitutional rights, discriminate unlawfully, or manipulate human behavior. He has simultaneously called for strict regulation of data centers powering AI, including requirements for self-funded power generation, water recycling, and repeal of tax exemptions.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.85,
+      "recency": "2026-06-30",
+      "sources": [
+        {
+          "source_id": "ai_tech_src_0",
+          "type": "sponsored_bill",
+          "title": "89(R) HB 149 - Enrolled version",
+          "publisher": "Texas Legislature",
+          "url": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149F.pdf",
+          "published_at": "2025-05-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "A person may not develop or deploy an artificial intelligence system with the sole intent for the artificial intelligence system to infringe, restrict, or otherwise impair an individual's rights guaranteed under the United States Constitution",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "ai_tech_src_1",
+          "type": "news_report",
+          "title": "Greg Abbott recommends data center industry crack down",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/06/10/texas-greg-abbott-data-centers-regulation-sales-tax/",
+          "published_at": "2026-06-10",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": false,
+          "quote": "requiring new facilities to add power generation to the state's power grid...repealing data center sales tax exemptions",
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "ai_tech_src_2",
+          "type": "public_statement",
+          "title": "Abbott calls for ban on data center development in rural Texas",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/06/30/texas-abbott-data-center-development-ban-rural-communities/",
+          "published_at": "2026-06-30",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": false,
+          "quote": "I made clear already: Any AI data center even thinking about coming here — they got to bring their own money, bring their own power, reuse their own water",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "privacy_1783125353931",
+      "issue_id": "privacy",
+      "position_label": "National security-focused; limited consumer privacy protections",
+      "position_scalar": 0.35,
+      "summary": "Abbott has prioritized cybersecurity and data protection from foreign adversaries through the Texas Cyber Command and expanded prohibited technologies lists targeting Chinese-affiliated AI and hardware. However, his approach emphasizes state-led national security measures over comprehensive consumer privacy rights, with HB 149 specifically stating it does not provide a private right of action for AI violations, reserving enforcement exclusively to the Attorney General.",
+      "evidence_type": "public_statement",
+      "confidence": 0.75,
+      "recency": "2026-06-01",
+      "sources": [
+        {
+          "source_id": "privacy_src_0",
+          "type": "public_statement",
+          "title": "Governor Abbott Updates Texas' Prohibited Technologies List",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-updates-texas-prohibited-technologies-list",
+          "published_at": "2026-06-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "Hostile adversaries harvest user data through AI and other applications and hardware to exploit, manipulate, and violate users and put them at extreme risk",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "privacy_src_1",
+          "type": "sponsored_bill",
+          "title": "89(R) HB 149 - Enrolled version",
+          "publisher": "Texas Legislature",
+          "url": "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149F.pdf",
+          "published_at": "2025-05-01",
+          "retrieved_at": "2026-07-04T00:34:18.445Z",
+          "primary_source": true,
+          "quote": "This chapter does not provide a basis for, and is not subject to, a private right of action for a violation of this chapter or any other law. The attorney general has exclusive authority to enforce this chapter",
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ],
+  "unknowns": [
+    "climate",
+    "social_security",
+    "guns",
+    "civil_rights",
+    "lgbtq",
+    "foreign_policy",
+    "national_security",
+    "defense",
+    "trade",
+    "labor",
+    "elections",
+    "ethics",
+    "judiciary"
+  ],
+  "contradictions": [
+    {
+      "issue_id": "energy",
+      "description": "The summary says Abbott supports expanding oil and gas production and nuclear power, which is broadly pro-fossil-fuel and pro-nuclear; this does not contradict the other stances.",
+      "sources": []
+    },
+    {
+      "issue_id": "infrastructure",
+      "description": "The summary combines substantial state infrastructure spending with public-private partnerships; this is not inherently contradictory to the rest of Abbott's low-tax, limited-spending positions because it is a targeted investment stance.",
+      "sources": []
+    },
+    {
+      "issue_id": "ai_tech",
+      "description": "The summary mixes pro-innovation support for AI with sector-specific regulation, which is a nuanced mixed stance rather than a contradiction.",
+      "sources": []
+    },
+    {
+      "issue_id": "privacy",
+      "description": "The summary emphasizes state-led cybersecurity and national security controls rather than broad consumer privacy rights, which is consistent with the scalar and not a contradiction with the other stances.",
+      "sources": []
+    }
+  ],
+  "source_coverage_score": 0.5666666666666667,
+  "researched_at": "2026-07-04T00:34:18.445Z",
+  "research_status": "complete"
+}

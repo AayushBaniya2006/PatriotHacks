@@ -1,0 +1,532 @@
+{
+  "id": "vikki-goodwin",
+  "name": "Vikki Ann Goodwin",
+  "party": "Democratic Party",
+  "current_office": "Texas House of Representatives, District 47",
+  "jurisdiction": "Texas",
+  "bio": "Vikki Goodwin is a Texas state representative who assumed office on January 8, 2019, representing District 47 in western Travis County. She earned a BBA in marketing and government and a Master of Public Affairs from the University of Texas at Austin, and previously worked as a real estate broker and systems analyst.",
+  "campaign_website": "https://www.vikkigoodwin.com",
+  "stances": [
+    {
+      "stance_id": "economy_1783125544592",
+      "issue_id": "economy",
+      "position_label": "Public investment and industrial policy",
+      "position_scalar": 0.75,
+      "summary": "Goodwin supports 'strategic investments' using state surplus for teacher pay, childcare, and infrastructure. She emphasizes an economy that 'works for everyone' through government-led initiatives rather than deregulation.",
+      "evidence_type": "official_platform",
+      "confidence": 0.7,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "economy_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Vikki supports wise use of the state's surplus through initiatives like the Fair Rent Incentive Act while prioritizing teacher pay increases, childcare center tax exemptions, and infrastructure investments that create opportunities for all Texans.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "jobs_1783125544592",
+      "issue_id": "jobs",
+      "position_label": "Raise labor standards and minimum wage",
+      "position_scalar": 0.9,
+      "summary": "Goodwin explicitly champions increasing the minimum wage to $15 per hour and raising the tipped-worker wage, emphasizing that 'when working Texans thrive, our entire economy benefits.'",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "jobs_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Living Wages: Vikki champions increasing the minimum wage to $15 per hour and increasing the tipped-worker wage, recognizing that when working Texans thrive, our entire economy benefits.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "housing_1783125544592",
+      "issue_id": "housing",
+      "position_label": "Public role with tenant protections and subsidies",
+      "position_scalar": 0.8,
+      "summary": "Goodwin supports the Fair Rent Incentive Act and has housing affordability as a top priority. Her approach emphasizes government intervention through incentives and protections rather than deregulation.",
+      "evidence_type": "official_platform",
+      "confidence": 0.75,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "housing_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Vikki supports wise use of the state's surplus through initiatives like the Fair Rent Incentive Act",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "housing_src_1",
+          "type": "official_platform",
+          "title": "Housing Affordability — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/housing",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": null,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "taxes_1783125544592",
+      "issue_id": "taxes",
+      "position_label": "Shift tax burden to state level, protect homeowners",
+      "position_scalar": 0.45,
+      "summary": "Goodwin supports property tax relief through increased homestead exemptions ($140,000/$200,000 for seniors) and capping local increases, but argues the 'root cause' is state cost-shifting to local governments. She advocates for state taking greater responsibility for funding education, healthcare, and transportation.",
+      "evidence_type": "official_platform",
+      "confidence": 0.75,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "taxes_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "The root cause of rising property taxes is the state shifting costs for education, healthcare, and transportation to local governments while maintaining a substantial Rainy Day Fund. We must fundamentally change this by having the state take greater responsibility for funding these essential services",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "small_business_1783125544592",
+      "issue_id": "small_business",
+      "position_label": "Public support and antitrust action",
+      "position_scalar": 0.75,
+      "summary": "As a small business owner, Goodwin supports 'targeted reforms to help small businesses compete against large corporations' and addresses 'disproportionate impact of rising costs and insurance premiums' on small businesses, indicating government intervention rather than deregulation.",
+      "evidence_type": "official_platform",
+      "confidence": 0.7,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "small_business_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Vikki is developing targeted reforms to help small businesses compete against large corporations while addressing the disproportionate impact of rising costs and insurance premiums.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "infrastructure_1783125544592",
+      "issue_id": "infrastructure",
+      "position_label": "Major public investment",
+      "position_scalar": 0.8,
+      "summary": "Goodwin explicitly includes 'infrastructure investments that create opportunities for all Texans' as part of her strategic priorities for state surplus use, indicating support for government-led infrastructure spending.",
+      "evidence_type": "official_platform",
+      "confidence": 0.7,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "infrastructure_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "infrastructure investments that create opportunities for all Texans",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "healthcare_1783125544592",
+      "issue_id": "healthcare",
+      "position_label": "Expand Medicaid and reproductive healthcare access",
+      "position_scalar": 0.75,
+      "summary": "Rep. Goodwin supports expanding Medicaid in Texas, protecting reproductive healthcare including abortion and fertility treatments, and ensuring access to the full spectrum of healthcare services. She has filed legislation to broaden medical risk indications for abortion and protect doctors providing reproductive care.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.85,
+      "recency": "2026-03-04",
+      "sources": [
+        {
+          "source_id": "healthcare_src_0",
+          "type": "official_platform",
+          "title": "Healthcare Priorities — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/healthcare-priorities",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Expanding Medicaid (HJR 100/ HB 1423): Texas is one of only 10 states that have not expanded Medicaid...Medicaid expansion would make our state healthier, reduce rural hospital closures, create jobs, and provide coverage for roughly 726,000 uninsured adults.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "healthcare_src_1",
+          "type": "official_platform",
+          "title": "Healthcare Priorities — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/healthcare-priorities",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Texans deserve to access the full spectrum of reproductive healthcare, including abortion care and fertility treatments. Rep. Goodwin will be filing legislation that will broaden medical risk indications for abortion and protections for doctors",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "education_1783125544592",
+      "issue_id": "education",
+      "position_label": "Oppose vouchers; invest in public schools",
+      "position_scalar": 0.9,
+      "summary": "Rep. Goodwin strongly opposes school voucher programs, calling them a 'terrible deal for Texas kids' that diverts billions from public education to unaccountable private schools. She supports raising teacher pay, reducing standardized testing, and keeping public education dollars in public schools.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.9,
+      "recency": "2026-03-04",
+      "sources": [
+        {
+          "source_id": "education_src_0",
+          "type": "official_platform",
+          "title": "Public Education — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/education",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Let's be clear: the $1 billion(+) voucher program pushed through by President Trump, Governor Abbott, and Lt. Governor Patrick is a terrible deal for Texas kids...A voucher scheme that steals resources from school districts already struggling to keep up with inflation, and hands them to private schools who are not held to the same standards as our public schools.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "education_src_1",
+          "type": "official_platform",
+          "title": "Public Education — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/education",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Keeping Our Education Dollars in Texas – Vikki stood with Democrats and Republicans alike to resist voucher schemes for years. She'll keep fighting against programs that funnel your tax dollars to unregulated private schools",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "medicare_medicaid_1783125544592",
+      "issue_id": "medicare_medicaid",
+      "position_label": "Expand Medicaid eligibility and benefits",
+      "position_scalar": 0.85,
+      "summary": "Rep. Goodwin explicitly supports Medicaid expansion in Texas, noting the state has one of the highest uninsured rates in the nation. She has filed legislation (HJR 100/HB 1423) to expand coverage to approximately 726,000 uninsured adults.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.9,
+      "recency": "2026-03-04",
+      "sources": [
+        {
+          "source_id": "medicare_medicaid_src_0",
+          "type": "official_platform",
+          "title": "Healthcare Priorities — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/healthcare-priorities",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Expanding Medicaid (HJR 100/ HB 1423): Texas is one of only 10 states that have not expanded Medicaid...Medicaid expansion would make our state healthier, reduce rural hospital closures, create jobs, and provide coverage for roughly 726,000 uninsured adults.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "abortion_1783125544592",
+      "issue_id": "abortion",
+      "position_label": "Broad legal protection for abortion access",
+      "position_scalar": 0.9,
+      "summary": "Rep. Goodwin supports broad access to abortion care and reproductive healthcare. She is filing legislation to broaden medical risk indications for abortion, protect doctors providing abortion care, and has proposed a constitutional amendment (HJR 33) establishing an individual's right to personal reproductive autonomy.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.9,
+      "recency": "2026-03-04",
+      "sources": [
+        {
+          "source_id": "abortion_src_0",
+          "type": "official_platform",
+          "title": "Healthcare Priorities — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/healthcare-priorities",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Texans deserve to access the full spectrum of reproductive healthcare, including abortion care and fertility treatments. Rep. Goodwin will be filing legislation that will broaden medical risk indications for abortion and protections for doctors",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "abortion_src_1",
+          "type": "sponsored_bill",
+          "title": "Healthcare Priorities — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/healthcare-priorities",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "HJR 33: Proposing a constitutional amendment establishing an individual's right to personal reproductive autonomy.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "civil_rights_1783125544592",
+      "issue_id": "civil_rights",
+      "position_label": "Support expanded anti-discrimination protections",
+      "position_scalar": 0.8,
+      "summary": "Rep. Goodwin supports protecting fundamental rights and dignity of all citizens, stating 'There is no place for hate when it comes to people who are different from me.' She believes government should protect constitutional principles that apply to everyone regardless of background or identity.",
+      "evidence_type": "official_platform",
+      "confidence": 0.75,
+      "recency": "2026-03-04",
+      "sources": [
+        {
+          "source_id": "civil_rights_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "I believe people should have the freedom to love who they love and be who they are without fear of harm, and I support the rights of all Texans equally regardless of their background or identity. There is no place for hate when it comes to people who are different from me, and I firmly believe that the government should protect the fundamental rights and dignity of every citizen.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "lgbtq_1783125544592",
+      "issue_id": "lgbtq",
+      "position_label": "Expand protections for LGBTQ+ rights",
+      "position_scalar": 0.85,
+      "summary": "Rep. Goodwin explicitly supports LGBTQ+ rights, stating people should have freedom to love who they love and be who they are without fear. She opposes government interference in private lives and supports equal rights regardless of sexual orientation or gender identity.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2026-03-04",
+      "sources": [
+        {
+          "source_id": "lgbtq_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "I believe people should have the freedom to love who they love and be who they are without fear of harm, and I support the rights of all Texans equally regardless of their background or identity...it is not my business or the government's business who they love or how they choose to live their private lives.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "labor_1783125544592",
+      "issue_id": "labor",
+      "position_label": "Strengthen worker protections and wages",
+      "position_scalar": 0.8,
+      "summary": "Rep. Goodwin supports increasing the minimum wage to $15 per hour and raising the tipped-worker wage. She also supports living wages for childcare workers and has filed legislation to create sustainable funding for childcare programs.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.8,
+      "recency": "2026-03-04",
+      "sources": [
+        {
+          "source_id": "labor_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Living Wages: Vikki champions increasing the minimum wage to $15 per hour and increasing the tipped-worker wage, recognizing that when working Texans thrive, our entire economy benefits.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "labor_src_1",
+          "type": "sponsored_bill",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Creating New Revenue Sources (HB 4598): Vikki is championing legislation that establishes a modest employer contribution to fund childcare programs, creating a sustainable solution to address center closures and reduce waitlists.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "immigration_1783125544592",
+      "issue_id": "immigration",
+      "position_label": "Expand legal pathways and protections",
+      "position_scalar": 0.85,
+      "summary": "Rep. Goodwin supports comprehensive reform that doubles visa caps, allows in-country applications, and prioritizes safe legal channels over enforcement-only measures.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-01-01",
+      "sources": [
+        {
+          "source_id": "immigration_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": "2024-01-01",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "I back the bipartisan Dignity Act because it offers practical solutions like doubling visa caps, allowing family applications, and creating safe processing facilities in home countries to dismantle dangerous cartel networks.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "crime_1783125544592",
+      "issue_id": "crime",
+      "position_label": "Invest in prevention and mental-health responses",
+      "position_scalar": 0.75,
+      "summary": "She emphasizes mental-health resources for first responders, domestic-violence prevention, and survivor-protection laws rather than tougher sentencing.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2024-01-01",
+      "sources": [
+        {
+          "source_id": "crime_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": "2024-01-01",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Mental Health Support (HB 4863): Vikki is pushing for greater mental health resources for first responders.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "guns_1783125544592",
+      "issue_id": "guns",
+      "position_label": "Stricter laws: universal checks, age limits, waiting periods",
+      "position_scalar": 0.95,
+      "summary": "She advocates universal background checks, raising the rifle-purchase age to 21, waiting periods, red-flag laws, and repealing permitless carry.",
+      "evidence_type": "public_statement",
+      "confidence": 0.95,
+      "recency": "2022-06-05",
+      "sources": [
+        {
+          "source_id": "guns_src_0",
+          "type": "public_statement",
+          "title": "Goodwin: We must address the obvious: Guns are too easy to get",
+          "publisher": "statesman.com",
+          "url": "https://www.statesman.com/story/opinion/2022/06/05/rep-goodwin-we-have-address-obvious-guns-too-easy-get/7487952001/",
+          "published_at": "2022-06-05",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "We should also enact a law increasing the age for buying long guns... Texas should join them. Requiring someone to wait a number of days before gaining access to a dangerous weapon is not unreasonable.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "elections_1783125544592",
+      "issue_id": "elections",
+      "position_label": "Expand access: online registration, citizen ballot initiatives",
+      "position_scalar": 0.85,
+      "summary": "Rep. Goodwin advocates online voter registration, ranked-choice voting, and a constitutional amendment to let citizens place initiatives on statewide ballots.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2024-01-15",
+      "sources": [
+        {
+          "source_id": "elections_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": "2024-01-15",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "Empowering Texans Ballot Initiative Act (HJR 198): Vikki is championing this legislation to give Texans a direct voice in government...",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "ethics_1783125544592",
+      "issue_id": "ethics",
+      "position_label": "Supports campaign-finance and lobbying reforms",
+      "position_scalar": 0.8,
+      "summary": "Her official platform lists \"election and campaign finance reform\" among her priorities, though no specific bills were found.",
+      "evidence_type": "official_platform",
+      "confidence": 0.75,
+      "recency": "2024-01-15",
+      "sources": [
+        {
+          "source_id": "ethics_src_0",
+          "type": "official_platform",
+          "title": "Key Issues — Rep. Vikki Goodwin",
+          "publisher": "vikkigoodwin.com",
+          "url": "https://www.vikkigoodwin.com/issues",
+          "published_at": "2024-01-15",
+          "retrieved_at": "2026-07-04T00:37:57.140Z",
+          "primary_source": true,
+          "quote": "...from child welfare to living wages to election and campaign finance reform.",
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ],
+  "unknowns": [
+    "inflation",
+    "climate",
+    "energy",
+    "debt_spending",
+    "social_security",
+    "foreign_policy",
+    "national_security",
+    "defense",
+    "trade",
+    "ai_tech",
+    "privacy",
+    "judiciary"
+  ],
+  "contradictions": [
+    {
+      "issue_id": "economy/jobs",
+      "description": "No direct contradiction: both stances favor government-led economic intervention and higher worker pay.",
+      "sources": []
+    },
+    {
+      "issue_id": "housing/infrastructure",
+      "description": "No direct contradiction: both stances support public investment and government involvement in improving affordability and infrastructure.",
+      "sources": []
+    }
+  ],
+  "source_coverage_score": 0.6,
+  "researched_at": "2026-07-04T00:37:57.140Z",
+  "research_status": "complete"
+}

@@ -1,0 +1,75 @@
+◇ injected env (1) from .env.local // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+Discovering November election races for texas...
+  Governor (2026-11-03): Greg Abbott, Gina Hinojosa, Pat Dixon
+  U.S. Senate (2026-11-03): Ken Paxton, James Talarico
+  Lieutenant Governor (2026-11-03): Dan Patrick, Vikki Goodwin
+  Attorney General (2026-11-03): Nathan Sheets, Clayton Tucker
+
+Researching 9 candidates (parallel swarm per candidate)...
+[start] Greg Abbott
+[start] Gina Hinojosa
+  [Greg Abbott] security agent found 2 positions
+  [Greg Abbott] Profile agent finished
+  [Gina Hinojosa] Profile agent finished
+  [Gina Hinojosa] economy agent found 8 positions
+  [Greg Abbott] governance agent found 2 positions
+  [Gina Hinojosa] security agent found 3 positions
+  [Greg Abbott] society agent found 4 positions
+  [Gina Hinojosa] governance agent found 5 positions
+  [Gina Hinojosa] society agent found 6 positions
+  [Gina Hinojosa] Saved profile: 19 sourced stances, 11 unknowns
+[done]  Gina Hinojosa: 19 stances, coverage 63%
+[start] Pat Dixon
+  [Pat Dixon] economy agent found 3 positions
+  [Pat Dixon] governance agent found 4 positions
+  [Pat Dixon] Profile agent finished
+  [Pat Dixon] society agent found 1 positions
+  [Greg Abbott] economy agent found 9 positions
+  [Greg Abbott] Saved profile: 17 sourced stances, 13 unknowns
+[done]  Greg Abbott: 17 stances, coverage 57%
+[start] Ken Paxton
+  [Ken Paxton] Profile agent finished
+  [Pat Dixon] security agent found 6 positions
+  [Pat Dixon] Saved profile: 10 sourced stances, 20 unknowns
+[done]  Pat Dixon: 10 stances, coverage 33%
+[start] James Talarico
+  [Ken Paxton] governance agent found 3 positions
+  [James Talarico] Profile agent finished
+  [Ken Paxton] security agent found 3 positions
+  [James Talarico] security agent found 6 positions
+  [James Talarico] governance agent found 5 positions
+  [James Talarico] society agent found 6 positions
+  [Ken Paxton] economy agent found 6 positions
+  [Ken Paxton] society agent found 7 positions
+  [Ken Paxton] Saved profile: 19 sourced stances, 11 unknowns
+[done]  Ken Paxton: 19 stances, coverage 63%
+[start] Dan Patrick
+  [Dan Patrick] governance agent found 2 positions
+  [Dan Patrick] Profile agent finished
+  [James Talarico] economy agent found 11 positions
+  [James Talarico] Saved profile: 27 sourced stances, 3 unknowns
+[done]  James Talarico: 27 stances, coverage 90%
+[start] Vikki Goodwin
+  [Vikki Goodwin] governance agent found 2 positions
+  [Dan Patrick] security agent found 2 positions
+  [Vikki Goodwin] security agent found 3 positions
+  [Vikki Goodwin] Profile agent finished
+  [Dan Patrick] society agent found 6 positions
+  [Dan Patrick] economy agent found 6 positions
+  [Dan Patrick] Saved profile: 16 sourced stances, 14 unknowns
+[done]  Dan Patrick: 16 stances, coverage 53%
+[start] Nathan Sheets
+  [Nathan Sheets] economy agent found 3 positions
+  [Nathan Sheets] Profile agent finished
+  [Vikki Goodwin] economy agent found 6 positions
+  [Nathan Sheets] society agent found 0 positions
+  [Nathan Sheets] governance agent found 1 positions
+  [Vikki Goodwin] society agent found 7 positions
+  [Vikki Goodwin] Saved profile: 18 sourced stances, 12 unknowns
+[done]  Vikki Goodwin: 18 stances, coverage 60%
+[start] Clayton Tucker
+  [Clayton Tucker] society agent found 3 positions
+  [Clayton Tucker] Profile agent finished
+  [Nathan Sheets] security agent found 2 positions
+  [Nathan Sheets] Saved profile: 6 sourced stances, 24 unknowns
+[done]  Nathan Sheets: 6 stances, coverage 20%

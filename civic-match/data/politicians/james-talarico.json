@@ -1,0 +1,972 @@
+{
+  "id": "james-talarico",
+  "name": "James Dell Talarico",
+  "party": "Democratic",
+  "current_office": "Texas House of Representatives (District 50)",
+  "jurisdiction": "Texas",
+  "bio": "James Talarico is an American politician and educator who has served in the Texas House of Representatives since 2018. He is a former middle school teacher who earned degrees from the University of Texas at Austin and Harvard University before entering politics.",
+  "campaign_website": "https://jamestalarico.com/",
+  "stances": [
+    {
+      "stance_id": "economy_1783125474855",
+      "issue_id": "economy",
+      "position_label": "Public investment and industrial policy",
+      "position_scalar": null,
+      "summary": "Talarico supports growth through public investment, including federal tax credits and loans for energy diversification, workforce development programs, and industrial policy tools. He emphasizes government-led solutions to lower costs for working families.",
+      "evidence_type": "official_platform",
+      "confidence": 0.8,
+      "recency": "2025-05-27",
+      "sources": [
+        {
+          "source_id": "economy_src_0",
+          "type": "official_platform",
+          "title": "Energy & Environment - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/energy-environment/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Reinstate federal tax credits, loans, and other tools that diversify energy production and accelerate renewable energy development",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "economy_src_1",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Invested in the next generation of Texas workers by supporting an increase in Registered Apprenticeship programs and requiring local workforce boards to develop specific strategies",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "inflation_1783125474855",
+      "issue_id": "inflation",
+      "position_label": "Direct intervention and anti-gouging measures",
+      "position_scalar": null,
+      "summary": "Talarico supports direct government intervention to control costs, including price gouging prevention, federal gas tax suspension, importation of cheaper prescription drugs, and empowering agencies to ensure savings reach consumers.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2026-04-21",
+      "sources": [
+        {
+          "source_id": "inflation_src_0",
+          "type": "news_report",
+          "title": "James Talarico calls for suspending the federal gas tax",
+          "publisher": "texastribune.org",
+          "url": "https://www.texastribune.org/2026/04/21/james-talarico-federal-gas-tax-suspension-iran-war/",
+          "published_at": "2026-04-21",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": false,
+          "quote": "empowering the Department of Energy and Federal Trade Commission to prevent price gouging and ensure companies pass on the savings from the tax suspension",
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "inflation_src_1",
+          "type": "official_platform",
+          "title": "Taxes & Cost of Living - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+          "published_at": "2023-04-12",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "allowing Texas to import cheaper prescription drugs from Canada at reduced costs, increasing transparency around Big Pharma's price gouging tactics",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "taxes_1783125474855",
+      "issue_id": "taxes",
+      "position_label": "Raise taxes on corporations and high earners",
+      "position_scalar": null,
+      "summary": "Talarico explicitly calls for raising taxes on billionaires and corporations, including higher taxes on income and capital gains, ending 'buy, borrow, die' loopholes, raising corporate tax rates, and closing carried interest loopholes to fund working family tax cuts.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2026-04-21",
+      "sources": [
+        {
+          "source_id": "taxes_src_0",
+          "type": "official_platform",
+          "title": "Taxes & Cost of Living - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+          "published_at": "2023-04-12",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Make billionaires pay their fair share in taxes — including by imposing a higher tax on their income and capital gains and ending the dubious 'buy, borrow, die' loopholes",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "taxes_src_1",
+          "type": "news_report",
+          "title": "James Talarico calls for suspending the federal gas tax",
+          "publisher": "texastribune.org",
+          "url": "https://www.texastribune.org/2026/04/21/james-talarico-federal-gas-tax-suspension-iran-war/",
+          "published_at": "2026-04-21",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": false,
+          "quote": "We can close these billionaire tax loopholes... We can make billionaires pay their fair share so that we can cut our taxes",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "jobs_1783125474855",
+      "issue_id": "jobs",
+      "position_label": "Raise labor standards and strengthen protections",
+      "position_scalar": null,
+      "summary": "Talarico supports raising the federal minimum wage to $15/hour, expanding overtime eligibility, passing the PRO Act for union rights, making Texas a 'Right to Organize' state, and codifying overtime protections. He also proposes taxes on excessive CEO pay ratios.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2025-05-27",
+      "sources": [
+        {
+          "source_id": "jobs_src_0",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Raise the federal minimum wage to $15 an hour, expand overtime eligibility, and incentivize CEOs to pay fair wages by creating a special tax on corporations that pay their top executives more than 250 times their median worker's salary",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "jobs_src_1",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Support workers' right to unionize: Pass the PRO Act so that all working people have the freedom to join together and negotiate with their employers for better wages and working conditions",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "housing_1783125474855",
+      "issue_id": "housing",
+      "position_label": "Mixed: regulatory reform plus public subsidies",
+      "position_scalar": null,
+      "summary": "Talarico supports both deregulatory measures (replacing outdated regulations, allowing small-footprint apartments) and public role interventions (Low-Income Housing Tax Credit, tax relief on low-income housing construction, property tax exemptions for childcare providers).",
+      "evidence_type": "official_platform",
+      "confidence": 0.75,
+      "recency": "2025-05-27",
+      "sources": [
+        {
+          "source_id": "housing_src_0",
+          "type": "official_platform",
+          "title": "Taxes & Cost of Living - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Lowered housing costs by replacing outdated regulations to increase the supply of apartments and condos, establishing Texas' first-ever Low-Income Housing Tax Credit program, and providing tax relief on low-income housing construction",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "housing_src_1",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Create an employer sponsorship program focused specifically on lowering costs for Americans: Make it easier for businesses (particularly small businesses) to hire migrant workers in sectors like housing construction",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "climate_1783125474855",
+      "issue_id": "climate",
+      "position_label": "Aggressive government action on climate",
+      "position_scalar": null,
+      "summary": "Talarico authored the Texas Climate Action Act to marshal state resources against climate change, supports reinstating federal tax credits for renewable energy, and has appropriated funds for disaster relief and preparedness. He emphasizes diversifying energy production.",
+      "evidence_type": "official_platform",
+      "confidence": 0.8,
+      "recency": "2025-05-27",
+      "sources": [
+        {
+          "source_id": "climate_src_0",
+          "type": "official_platform",
+          "title": "Energy & Environment - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/energy-environment/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Responded to the climate crisis by authoring legislation to create the Texas Climate Action Act to marshal the resources of our state government to fight climate change",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "climate_src_1",
+          "type": "official_platform",
+          "title": "Energy & Environment - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/energy-environment/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Reinstate federal tax credits, loans, and other tools that diversify energy production and accelerate renewable energy development",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "energy_1783125474855",
+      "issue_id": "energy",
+      "position_label": "All-of-the-above with emphasis on renewables",
+      "position_scalar": null,
+      "summary": "Talarico supports an 'all-of-the-above' approach including oil, gas, nuclear, wind, solar and geothermal, but emphasizes federal tax credits and loans to accelerate renewable energy development and diversify energy production away from fossil fuel dependence.",
+      "evidence_type": "official_platform",
+      "confidence": 0.75,
+      "recency": "2026-04-21",
+      "sources": [
+        {
+          "source_id": "energy_src_0",
+          "type": "news_report",
+          "title": "James Talarico calls for suspending the federal gas tax",
+          "publisher": "texastribune.org",
+          "url": "https://www.texastribune.org/2026/04/21/james-talarico-federal-gas-tax-suspension-iran-war/",
+          "published_at": "2026-04-21",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": false,
+          "quote": "his campaign argued for an 'all-of-the-above' approach to bolstering American energy independence by investing in oil and gas, nuclear, wind, solar and geothermal energy",
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "energy_src_1",
+          "type": "official_platform",
+          "title": "Energy & Environment - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/energy-environment/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Reinstate federal tax credits, loans, and other tools that diversify energy production and accelerate renewable energy development",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "debt_spending_1783125474855",
+      "issue_id": "debt_spending",
+      "position_label": "Spend more on programs; raise revenue later",
+      "position_scalar": null,
+      "summary": "Talarico supports expanded spending on social programs (childcare, housing, healthcare, education) funded by increased taxes on wealthy individuals and corporations rather than spending cuts. He has not emphasized deficit reduction as a priority.",
+      "evidence_type": "official_platform",
+      "confidence": 0.7,
+      "recency": "2025-05-27",
+      "sources": [
+        {
+          "source_id": "debt_spending_src_0",
+          "type": "official_platform",
+          "title": "Taxes & Cost of Living - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/taxes-cost-of-living/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Make giant corporations and the wealthiest Americans pay their fair share of taxes. (That way, we can cut taxes for working families and small businesses.)",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "debt_spending_src_1",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Implement tax credits and subsidies to help small- and medium-sized businesses adapt to a minimum wage raise without cutting jobs or hours",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "trade_1783125474855",
+      "issue_id": "trade",
+      "position_label": "Reduce tariffs and expand fair trade",
+      "position_scalar": null,
+      "summary": "Talarico explicitly calls for repealing Trump Administration tariffs as 'counterproductive,' advocating instead for trade deal protections that prevent foreign competitors from undercutting American workers through weak labor laws abroad.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2025-05-27",
+      "sources": [
+        {
+          "source_id": "trade_src_0",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Keep more jobs in Texas with fair trade policies, not counterproductive tariffs: Repeal the Trump Administration's overly broad tariffs that are hurting consumers and businesses. Instead, advocate for and approve trade deal protections that prevent foreign competitors from undercutting American workers by exploiting weak labor laws abroad",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "infrastructure_1783125474855",
+      "issue_id": "infrastructure",
+      "position_label": "Major federal investment",
+      "position_scalar": null,
+      "summary": "Talarico supports major federal and state infrastructure investment, including up to $1 billion for water infrastructure, pipeline fortification, and streamlining permitting for energy projects. He emphasizes public funding for critical infrastructure.",
+      "evidence_type": "official_platform",
+      "confidence": 0.8,
+      "recency": "2025-05-27",
+      "sources": [
+        {
+          "source_id": "infrastructure_src_0",
+          "type": "official_platform",
+          "title": "Energy & Environment - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/energy-environment/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Improved every community's access to water by appropriating up to $1 billion to provide stable, annual funding to support water infrastructure development and upkeep",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "infrastructure_src_1",
+          "type": "official_platform",
+          "title": "Energy & Environment - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/energy-environment/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "make gasoline more affordable by investing in pipeline fortification and building supply chains for critical minerals and transformers",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "small_business_1783125474855",
+      "issue_id": "small_business",
+      "position_label": "Public support plus antitrust action",
+      "position_scalar": null,
+      "summary": "Talarico supports expanded Community Development Financial Institutions, broader SBA loan eligibility, equity investment and technical assistance for small businesses, and ending tax breaks that allow largest corporations to pay $0 in federal taxes. He also reduced licensing fees for new businesses.",
+      "evidence_type": "official_platform",
+      "confidence": 0.8,
+      "recency": "2025-05-27",
+      "sources": [
+        {
+          "source_id": "small_business_src_0",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Expand support for Community Development Financial Institutions and community banks to increase access to credit and capital, broaden eligibility for Small Business Administration loan programs, and support states in providing more equity investment and technical assistance for small businesses",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "small_business_src_1",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "End the extreme tax breaks that allow the largest corporations to pay $0 in federal income taxes so that we can help more entrepreneurs make their dreams a reality",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "small_business_src_2",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2025-05-27",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Reduced costs for small businesses by approving an increase in the business personal property tax exemption and the minimization of licensing and regulation fees for businesses in their first year of operation",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "healthcare_1783125474855",
+      "issue_id": "healthcare",
+      "position_label": "Medicare for All who want it; public option expansion",
+      "position_scalar": null,
+      "summary": "Talarico supports allowing every American regardless of age to join Medicare as a public option, creating government-guaranteed coverage available to all while preserving private insurance competition. He has legislated to cap insulin costs and import cheaper drugs from Canada.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2026-01-16",
+      "sources": [
+        {
+          "source_id": "healthcare_src_0",
+          "type": "official_platform",
+          "title": "Health Care - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/health-care/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Allow every American — regardless of their age — to join Medicare: Provide an affordable not-for-profit health care option for every American, while also bringing down costs for those who don't participate by increasing competition with private insurance.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "healthcare_src_1",
+          "type": "interview",
+          "title": "Read James Talarico's Democratic platforms for Texas U.S. Senator",
+          "publisher": "aol.com",
+          "url": "https://www.aol.com/articles/read-james-talaricos-democratic-platforms-000439548.html",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": false,
+          "quote": "I support universal healthcare access... I want to allow every American — regardless of their age — to join Medicare. This will provide an affordable, not-for-profit option for all who want it, while bringing down costs for everyone by increasing competition with private insurance.",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "education_1783125474855",
+      "issue_id": "education",
+      "position_label": "Invest in public schools; oppose vouchers",
+      "position_scalar": null,
+      "summary": "Talarico opposes private school vouchers and has made opposition to school choice diversion programs central to his campaign. He supports universal pre-K, capping class sizes, and increasing public school funding.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2026-01-16",
+      "sources": [
+        {
+          "source_id": "education_src_0",
+          "type": "news_report",
+          "title": "How being a teacher spurred James Talarico's Senate bid",
+          "publisher": "texastribune.org",
+          "url": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": false,
+          "quote": "It has been on education issues that Talarico has made a name for himself, rising in political prominence through his opposition to GOP proposals like private school vouchers and a mandate to display the Ten Commandments in public school classrooms.",
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "education_src_1",
+          "type": "interview",
+          "title": "Read James Talarico's Democratic platforms for Texas U.S. Senator",
+          "publisher": "aol.com",
+          "url": "https://www.aol.com/articles/read-james-talaricos-democratic-platforms-000439548.html",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": false,
+          "quote": "I passed bills to lower the cost of child care and to fund our neighborhood public schools.",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "social_security_1783125474855",
+      "issue_id": "social_security",
+      "position_label": "Expand benefits; eliminate payroll tax cap",
+      "position_scalar": null,
+      "summary": "Talarico supports expanding Social Security benefits and funding them by eliminating the payroll tax cap on earnings over $400,000 annually. He opposes benefit cuts and privatization.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2026-01-16",
+      "sources": [
+        {
+          "source_id": "social_security_src_0",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Protect the retirement benefits working people have earned: Fight tooth and nail against attacks on Social Security and Medicare, ensure the wealthiest Americans pay their fair share into Social Security by eliminating the tax cap on those earning over $400,000 a year, and incentivize employer-sponsored pensions.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "medicare_medicaid_1783125474855",
+      "issue_id": "medicare_medicaid",
+      "position_label": "Expand eligibility and benefits; oppose cuts",
+      "position_scalar": null,
+      "summary": "Talarico supports expanding Medicare eligibility to all ages as a public option and protecting Medicaid from cuts. He has opposed legislation that would kick people off Medicaid coverage.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2026-01-16",
+      "sources": [
+        {
+          "source_id": "medicare_medicaid_src_0",
+          "type": "official_platform",
+          "title": "Health Care - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/health-care/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Allow every American — regardless of their age — to join Medicare... Protect health coverage and lower premiums: Protect and improve the Affordable Care Act (ACA) and reverse the Trump Administration's dangerous cuts to the ACA enhanced tax credits, Medicare, and Medicaid that will kick 15 million Americans off their insurance and raise premiums for millions more.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "medicare_medicaid_src_1",
+          "type": "official_platform",
+          "title": "Health Care - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/health-care/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Protected Medicaid access for thousands of Texans by using a procedural point of order on the floor of the Texas house to kill legislation that would have kicked people off their coverage.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "abortion_1783125474855",
+      "issue_id": "abortion",
+      "position_label": "Codify Roe; restore broad legal access",
+      "position_scalar": null,
+      "summary": "Talarico explicitly supports codifying Roe v. Wade and restoring access to abortion, contraception, and IVF. He opposes Texas's abortion ban and frames it as causing preventable deaths.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2026-01-16",
+      "sources": [
+        {
+          "source_id": "abortion_src_0",
+          "type": "official_platform",
+          "title": "Health Care - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/health-care/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Restore access to reproductive health care in Texas: Codify Roe v. Wade and protect access to contraception and IVF so that families can get the reproductive care they need and so that women are no longer dying needlessly due to Texas' dangerous abortion ban.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "labor_1783125474855",
+      "issue_id": "labor",
+      "position_label": "Strengthen unions; pass PRO Act",
+      "position_scalar": null,
+      "summary": "Talarico supports the PRO Act to expand workers' right to unionize, raising the federal minimum wage to $15/hour, and making Texas a 'Right to Organize' state. He has a 100% pro-labor voting record in the Texas House.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2026-01-16",
+      "sources": [
+        {
+          "source_id": "labor_src_0",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Support workers' right to unionize: Pass the PRO Act so that all working people have the freedom to join together and negotiate with their employers for better wages and working conditions... Raise wages and reward hard work: Raise the federal minimum wage to $15 an hour... From my 100% pro-labor voting record",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "labor_src_1",
+          "type": "official_platform",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Authored legislation to raise wages and support unions by increasing Texas minimum wage to $15 per hour, making Texas a Right to Organize state, and codifying overtime protections for workers",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "immigration_1783125474855",
+      "issue_id": "immigration",
+      "position_label": "Comprehensive reform with legal pathways",
+      "position_scalar": null,
+      "summary": "Talarico supports comprehensive immigration reform that combines border security with expanded legal pathways, including citizenship for long-term residents and DREAMers, temporary work permits, and asylum system reforms. He emphasizes deporting criminals and traffickers while protecting contributing community members.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2026-02-21",
+      "sources": [
+        {
+          "source_id": "immigration_src_0",
+          "type": "official_platform",
+          "title": "Immigration & Border Security - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/immigration-border-security/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Pass comprehensive immigration reform: Secure the border, make it easier to come here legally, and supercharge our economy. Focus ICE resources on improving public safety and national security: Prioritize the deportation of criminals, gang members, and human traffickers — not our neighbors who contribute to our communities, pay taxes, and pose no threat to our safety.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "immigration_src_1",
+          "type": "news_report",
+          "title": "James Talarico says Democrats can reclaim immigration debate in 2026 Texas Senate race",
+          "publisher": "El Paso Matters",
+          "url": "https://elpasomatters.org/2026/02/21/james-talarico-immigration-el-paso-ice-facility-2026-senate-race-primary-elections/",
+          "published_at": "2026-02-21",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": false,
+          "quote": null,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "crime_1783125474855",
+      "issue_id": "crime",
+      "position_label": "Prevention-focused with accountability",
+      "position_scalar": null,
+      "summary": "Talarico emphasizes addressing root causes of crime through mental health care, housing, youth programs, and education while supporting law enforcement with resources and training. He has backed rehabilitation programs, reentry support, and accountability measures for abuses in the justice system.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": null,
+      "sources": [
+        {
+          "source_id": "crime_src_0",
+          "type": "official_platform",
+          "title": "Public Safety & Justice - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/public-safety-justice/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Address the root causes of crime: Prioritize services like well-funded schools, youth programs, mental health care, and substance abuse treatment as critical investments to prevent crime before it happens. Strengthen law enforcement agencies: Ensure law enforcement agencies at the federal, state, and local level have the resources necessary to investigate and prosecute criminals, and support strong investments in police training, oversight, and accountability.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "guns_1783125474855",
+      "issue_id": "guns",
+      "position_label": "Stricter gun laws with background checks",
+      "position_scalar": null,
+      "summary": "Talarico supports universal background checks, raising the age to purchase semi-automatic rifles with military-style features, secure storage requirements, and opposing permitless carry. He has worked with gun safety organizations and emphasizes keeping guns from felons and domestic abusers.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": null,
+      "sources": [
+        {
+          "source_id": "guns_src_0",
+          "type": "official_platform",
+          "title": "Public Safety & Justice - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/public-safety-justice/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Establish universal background checks for gun sales, prioritize the prosecution of firearms traffickers who are illegally flooding our communities with guns that get into the hands of criminals, require firearms to be securely stored around children in the home, and raise the age to purchase semi-automatic rifles with certain military-style features like high-capacity magazines.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "guns_src_1",
+          "type": "questionnaire",
+          "title": "James Talarico | GIFFORDS",
+          "publisher": "giffords.org",
+          "url": "https://giffords.org/candidates/james-talarico/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": false,
+          "quote": "expanding background checks",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "foreign_policy_1783125474855",
+      "issue_id": "foreign_policy",
+      "position_label": "Active global leadership with moral clarity",
+      "position_scalar": null,
+      "summary": "Talarico supports active U.S. global engagement through alliances and diplomacy, rejecting isolationism. He emphasizes defending Ukraine against Russian aggression, addressing human rights abuses, and pursuing peace in the Middle East through a two-state solution while conditioning aid to prevent civilian harm.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": null,
+      "sources": [
+        {
+          "source_id": "foreign_policy_src_0",
+          "type": "official_platform",
+          "title": "Foreign Policy - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/foreign-policy/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "I will reject efforts to shut America off from the rest of the world — because I know it makes us weaker and less secure. I'm committed to working in partnership with our foreign allies and engaging in diplomacy that will help us prevent attacks on American soil and avoid unnecessary wars. It is our duty as the world's oldest democracy to defend Ukraine against Russian aggression, address human rights abuses like those being suffered by the people of Sudan, and use every ounce of our diplomatic and financial leverage to secure peace in Israel and Palestine.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "national_security_1783125474855",
+      "issue_id": "national_security",
+      "position_label": "Security with civil liberties protections",
+      "position_scalar": null,
+      "summary": "Talarico supports holding ICE accountable for abuses, including banning agents from wearing masks or refusing identification, and emphasizes transparency in security operations. He opposes racial profiling and supports community trust-building with law enforcement.",
+      "evidence_type": "official_platform",
+      "confidence": 0.7,
+      "recency": null,
+      "sources": [
+        {
+          "source_id": "national_security_src_0",
+          "type": "official_platform",
+          "title": "Immigration & Border Security - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/immigration-border-security/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Hold ICE accountable for abuses: Ban ICE agents from wearing masks or refusing to show identification, and hold them accountable when they break the law.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "national_security_src_1",
+          "type": "official_platform",
+          "title": "Immigration & Border Security - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/immigration-border-security/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Fought against legislation that would increase racial profiling and decrease trust between communities and law enforcement.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "ai_tech_1783125474855",
+      "issue_id": "ai_tech",
+      "position_label": "Balanced innovation with safety guardrails",
+      "position_scalar": null,
+      "summary": "Talarico supports AI innovation while advocating for specific regulations including export controls on advanced AI chips, requirements for AI companies to follow copyright laws, protections against workplace AI surveillance, transparency requirements for automated employment decisions, and regulation of AI-generated political advertisements. He emphasizes that 'we can and must' encourage innovation while setting clear guidelines that protect Americans from harm.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "ai_tech_src_0",
+          "type": "official_platform",
+          "title": "Social Media, AI & Tech - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/social-media-artificial-intelligence-tech/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "We can defend free speech while holding powerful corporations accountable. We can encourage innovation while setting clear guidelines that protect Americans from harm. We can and must do both.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "ai_tech_src_1",
+          "type": "official_platform",
+          "title": "James Talarico | AI on the Ballot",
+          "publisher": "ontheballot.ai",
+          "url": "https://ontheballot.ai/candidate/james-talarico-tx",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": false,
+          "quote": "Wants to pass legislation to enforce and strengthen export controls to keep advanced AI chips out of the hands of adversaries",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "privacy_1783125474855",
+      "issue_id": "privacy",
+      "position_label": "Stronger platform accountability with parental controls",
+      "position_scalar": null,
+      "summary": "Talarico supports requiring social media platforms to conduct regular impact assessments for algorithmic bias, fairness, privacy and security, as well as commonsense safeguards like parental control tools and prohibitions on algorithmic targeting of minors. He has also backed legislation requiring effective reporting processes for explicit deepfake material.",
+      "evidence_type": "official_platform",
+      "confidence": 0.8,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "privacy_src_0",
+          "type": "official_platform",
+          "title": "Social Media, AI & Tech - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/social-media-artificial-intelligence-tech/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "require social media companies to conduct regular impact assessments to check algorithms for bias, fairness, privacy, and security",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "privacy_src_1",
+          "type": "official_platform",
+          "title": "James Talarico | AI on the Ballot",
+          "publisher": "ontheballot.ai",
+          "url": "https://ontheballot.ai/candidate/james-talarico-tx",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": false,
+          "quote": "Protected victims in cases involving explicit deepfake material by requiring social media platforms to create effective reporting and investigation processes",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "elections_1783125474855",
+      "issue_id": "elections",
+      "position_label": "Expand voting access with federal standards",
+      "position_scalar": null,
+      "summary": "Talarico supports expanding voting access through automatic registration, mail voting, and federal standards. He backs the John Lewis Voting Rights Advancement Act to remove barriers to registration and voting, and has broken quorum in the Texas House to fight partisan redistricting. He also supports independent redistricting commissions and making election information more accessible.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "elections_src_0",
+          "type": "official_platform",
+          "title": "Corruption & Democracy - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/corruption-democracy/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Pass the John Lewis Voting Rights Advancement Act to remove unnecessary barriers to registering to vote and casting a ballot",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "elections_src_1",
+          "type": "official_platform",
+          "title": "Corruption & Democracy - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/corruption-democracy/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Broke quorum twice in the Texas House to fight back against partisan redistricting power grabs and defend the freedom to vote",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "ethics_1783125474855",
+      "issue_id": "ethics",
+      "position_label": "Sweeping anti-corruption reforms",
+      "position_scalar": null,
+      "summary": "Talarico advocates comprehensive ethics reforms including banning Congressional stock trading, implementing term limits (six two-year House terms, two six-year Senate terms), banning super PACs and corporate PACs, and increasing Supreme Court accountability through term limits and binding codes of conduct. He has never taken corporate PAC money and made anti-corruption legislation his first priority for the U.S. Senate.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "ethics_src_0",
+          "type": "official_platform",
+          "title": "Corruption & Democracy - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/corruption-democracy/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "the first set of legislation I will pursue in the U.S. Senate will be an anti-corruption package to ban super PACs and corporate PACs, ban partisan gerrymandering, and increase transparency and accountability in all branches of government",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "ethics_src_1",
+          "type": "official_platform",
+          "title": "Corruption & Democracy - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/corruption-democracy/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Ban Congressional stock trading: Ban Members of Congress from trading individual stocks, engaging in insider trading, and profiting from their positions",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "ethics_src_2",
+          "type": "official_platform",
+          "title": "Corruption & Democracy - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/corruption-democracy/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Institute term limits on Members of Congress: Implement term limits of six two-year terms in the House and two six-year terms in the Senate",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "judiciary_1783125474855",
+      "issue_id": "judiciary",
+      "position_label": "Supports accountability reforms, evolving constitutional interpretation implied",
+      "position_scalar": null,
+      "summary": "Talarico supports significant reforms to the Supreme Court including term limits, binding codes of conduct, recusal rules, and financial disclosure requirements. He commits to confirming only judicial appointees who meet high ethical standards and uphold the Constitution. While he does not explicitly state a preference for originalist versus living constitutionalist judges, his emphasis on evolving ethical standards and protecting constitutional rights suggests alignment with a more progressive judicial philosophy.",
+      "evidence_type": "official_platform",
+      "confidence": 0.7,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "judiciary_src_0",
+          "type": "official_platform",
+          "title": "Corruption & Democracy - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/corruption-democracy/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "Increase accountability for the Supreme Court: Implement term limits and a binding code of conduct for U.S. Supreme Court justices, including mandating rules for recusals, financial disclosures, and limitations on accepting gifts",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "judiciary_src_1",
+          "type": "official_platform",
+          "title": "Corruption & Democracy - Talarico for Texas",
+          "publisher": "jamestalarico.com",
+          "url": "https://jamestalarico.com/issue/corruption-democracy/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:36:04.117Z",
+          "primary_source": true,
+          "quote": "only confirm judicial appointees who meet the highest ethical standards and commit to upholding the Constitution",
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ],
+  "unknowns": [
+    "civil_rights",
+    "lgbtq",
+    "defense"
+  ],
+  "contradictions": [
+    {
+      "issue_id": "trade",
+      "description": "The summary says he wants to repeal tariffs and reduce trade barriers, but also says he wants trade deal protections against foreign undercutting, which mixes free-trade and protectionist elements.",
+      "sources": []
+    },
+    {
+      "issue_id": "housing",
+      "description": "The summary combines deregulatory zoning reform with public subsidies and tax relief, spanning both ends of the axis without a single clear dominant stance.",
+      "sources": []
+    },
+    {
+      "issue_id": "energy",
+      "description": "The summary describes an all-of-the-above energy approach with both fossil fuels and renewables, which pulls in opposite directions on the renewables-versus-fossil-fuels axis.",
+      "sources": []
+    }
+  ],
+  "source_coverage_score": 0.9,
+  "researched_at": "2026-07-04T00:36:04.117Z",
+  "research_status": "complete"
+}

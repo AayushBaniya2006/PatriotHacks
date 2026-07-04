@@ -1,0 +1,687 @@
+{
+  "id": "ken-paxton",
+  "name": "Warren Kenneth Paxton Jr.",
+  "party": "Republican",
+  "current_office": "Attorney General of Texas",
+  "jurisdiction": "Texas",
+  "bio": "Ken Paxton is an American politician and lawyer who has served as the 51st Attorney General of Texas since January 5, 2015. He previously served in the Texas House of Representatives from 2003 to 2013 and in the Texas Senate from 2013 to 2015 before being elected Attorney General.",
+  "campaign_website": "https://www.kenpaxton.com",
+  "stances": [
+    {
+      "stance_id": "economy_1783125449662",
+      "issue_id": "economy",
+      "position_label": "Growth through deregulation; markets lead",
+      "position_scalar": 0.15,
+      "summary": "Paxton consistently advocates for deregulation to spur economic growth, defending Trump's '1-in-2-out' executive order requiring agencies to repeal two regulations for each new rule, and criticizing regulations as harmful to economic growth and job creation.",
+      "evidence_type": "public_statement",
+      "confidence": 0.85,
+      "recency": "2017-02-28",
+      "sources": [
+        {
+          "source_id": "economy_src_0",
+          "type": "public_statement",
+          "title": "AG Paxton Defends President Trump's '1-in-2-out' Order",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/ag-paxton-defends-president-trumps-1-2-out-order",
+          "published_at": "2017-02-28",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "The president's executive order is an important step towards rolling back years of unnecessary and costly regulations that far exceed congressional intent... Overregulation has harmed economic growth and job creation.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "inflation_1783125449662",
+      "issue_id": "inflation",
+      "position_label": "Reduce spending and regulation to lower prices",
+      "position_scalar": 0.1,
+      "summary": "Paxton has explicitly opposed federal spending on climate programs during periods of high inflation, calling such spending 'irresponsible' and arguing it adds to Americans' economic pain, while blaming Biden administration policies for driving up energy and gasoline costs.",
+      "evidence_type": "public_statement",
+      "confidence": 0.9,
+      "recency": "2022-07-28",
+      "sources": [
+        {
+          "source_id": "inflation_src_0",
+          "type": "public_statement",
+          "title": "AG Paxton Leads Coalition to Stop the Biden Administration from Exacerbating Inflation with Climate Action",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.oag.state.tx.us/news/releases/ag-paxton-leads-coalition-stop-biden-administration-exacerbating-inflation-climate-action",
+          "published_at": "2022-07-28",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Spending $2.3 billion on the Building Resilient Infrastructure and Communities program at a time of historically high inflation is irresponsible and adds to the ever-increasing pain Americans are feeling in their pocketbooks.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "climate_1783125449662",
+      "issue_id": "climate",
+      "position_label": "Minimal mandates; prioritize economic growth and energy costs",
+      "position_scalar": 0.05,
+      "summary": "Paxton has consistently opposed climate regulations, calling Biden's climate agenda 'so-called' and arguing that technological progress rather than government intervention has reduced disaster deaths. He has criticized EPA rules targeting oil and gas as advancing a 'harmful climate agenda' that would crush the energy sector.",
+      "evidence_type": "public_statement",
+      "confidence": 0.9,
+      "recency": "2022-12-06",
+      "sources": [
+        {
+          "source_id": "climate_src_0",
+          "type": "public_statement",
+          "title": "AG Paxton Leads Coalition to Stop the Biden Administration from Exacerbating Inflation with Climate Action",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.oag.state.tx.us/news/releases/ag-paxton-leads-coalition-stop-biden-administration-exacerbating-inflation-climate-action",
+          "published_at": "2022-07-28",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Time has shown that technological progress driven by affordable energy has caused global deaths from natural disasters to decline by 98 percent since the 1920s.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "climate_src_1",
+          "type": "public_statement",
+          "title": "Paxton Criticizes EPA Over New Rule that Targets the Oil and Gas Industry",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/paxton-criticizes-epa-over-new-rule-targets-oil-and-gas-industry",
+          "published_at": "2022-12-06",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "EPA has now introduced a more radical supplemental proposal that goes even further to advance a harmful climate agenda and crush large portions of the American energy sector.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "energy_1783125449662",
+      "issue_id": "energy",
+      "position_label": "Expand domestic oil, gas, and coal production",
+      "position_scalar": 0.05,
+      "summary": "Paxton has strongly advocated for fossil fuel expansion, fighting to reinstate the Keystone XL pipeline, criticizing EPA rules targeting oil and gas, opposing FERC regulations on natural gas emissions, and arguing that 'green energy' cannot substitute for coal, nuclear, oil, and gas.",
+      "evidence_type": "public_statement",
+      "confidence": 0.95,
+      "recency": "2022-12-06",
+      "sources": [
+        {
+          "source_id": "energy_src_0",
+          "type": "public_statement",
+          "title": "Texas Attorney General Ken Paxton Fights to Protect Texas Energy Industry; Calls on President Biden to Reinstate Keystone XL Permit",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/texas-attorney-general-ken-paxton-fights-protect-texas-energy-industry-calls-president-biden",
+          "published_at": "2021-01-27",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Biden's edict is disastrous for this country and will only set back this nation's progress in gaining true energy independence.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "energy_src_1",
+          "type": "public_statement",
+          "title": "AG Paxton Leads Coalition to Stop the Biden Administration from Exacerbating Inflation with Climate Action",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.oag.state.tx.us/news/releases/ag-paxton-leads-coalition-stop-biden-administration-exacerbating-inflation-climate-action",
+          "published_at": "2022-07-28",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Moreover, recent power outages during extreme weather have demonstrated that expensive, subsidized, 'green energy' is no substitute for coal, nuclear, oil, and gas.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "energy_src_2",
+          "type": "public_statement",
+          "title": "Paxton Criticizes EPA Over New Rule that Targets the Oil and Gas Industry",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/paxton-criticizes-epa-over-new-rule-targets-oil-and-gas-industry",
+          "published_at": "2022-12-06",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "The supplemental rule would crack down on oil and gas facilities with unprecedented and drastic emission guidelines.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "energy_src_3",
+          "type": "public_statement",
+          "title": "Paxton Joins Comment Letter to FERC Opposing Proposed Regulations on Greenhouse Gas Emissions",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://texasattorneygeneral.gov/news/releases/paxton-joins-comment-letter-ferc-opposing-proposed-regulations-greenhouse-gas-emissions",
+          "published_at": "2022-01-11",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "The proposed mitigation both exceeds FERC's mission and regulatory authority and would impose excessive costs on suppliers and consumers for one of Texas' vital energy sources–natural gas.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "debt_spending_1783125449662",
+      "issue_id": "debt_spending",
+      "position_label": "Cut spending to reduce deficits",
+      "position_scalar": 0.15,
+      "summary": "Paxton has criticized federal spending as irresponsible during inflationary periods and opposed new spending programs, though his focus has been more on the economic impact of spending rather than deficit reduction per se. He has framed spending on climate and infrastructure programs as harmful to Americans' finances.",
+      "evidence_type": "public_statement",
+      "confidence": 0.7,
+      "recency": "2022-07-28",
+      "sources": [
+        {
+          "source_id": "debt_spending_src_0",
+          "type": "public_statement",
+          "title": "AG Paxton Leads Coalition to Stop the Biden Administration from Exacerbating Inflation with Climate Action",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.oag.state.tx.us/news/releases/ag-paxton-leads-coalition-stop-biden-administration-exacerbating-inflation-climate-action",
+          "published_at": "2022-07-28",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Spending $2.3 billion on the Building Resilient Infrastructure and Communities program at a time of historically high inflation is irresponsible and adds to the ever-increasing pain Americans are feeling in their pocketbooks.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "small_business_1783125449662",
+      "issue_id": "small_business",
+      "position_label": "Cut regulations and taxes on small businesses",
+      "position_scalar": 0.15,
+      "summary": "Paxton has emphasized reducing regulatory burdens on businesses, including small businesses, arguing that overregulation harms economic growth and job creation. He has specifically mentioned the impact of energy costs on 'families and small businesses' and defended regulatory rollback efforts.",
+      "evidence_type": "public_statement",
+      "confidence": 0.75,
+      "recency": "2017-02-28",
+      "sources": [
+        {
+          "source_id": "small_business_src_0",
+          "type": "public_statement",
+          "title": "AG Paxton Defends President Trump's '1-in-2-out' Order",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/ag-paxton-defends-president-trumps-1-2-out-order",
+          "published_at": "2017-02-28",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Overregulation has harmed economic growth and job creation. The '1-in-2-out' order will help restore regulatory authority to Texas and other states on important matters of local concern.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "small_business_src_1",
+          "type": "public_statement",
+          "title": "AG Paxton Leads Coalition to Stop the Biden Administration from Exacerbating Inflation with Climate Action",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.oag.state.tx.us/news/releases/ag-paxton-leads-coalition-stop-biden-administration-exacerbating-inflation-climate-action",
+          "published_at": "2022-07-28",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "the Biden Administration's policies have imperiled our country's energy independence and driven the cost of energy and gasoline through the roof for families and small businesses.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "healthcare_1783125449662",
+      "issue_id": "healthcare",
+      "position_label": "Opposes government expansion; favors limited Medicaid/Medicare",
+      "position_scalar": 0.15,
+      "summary": "Paxton opposes government-guaranteed healthcare and expansion of federal programs. In a 2022 voter guide, he selected option C: 'Medicaid and Medicare should remain available, but no other taxpayer-funded programs are necessary.' He has sued the Biden administration multiple times to block healthcare policies he views as federal overreach, including rules on gender transition procedures and Medicaid waiver extensions.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.85,
+      "recency": "2022-01-01",
+      "sources": [
+        {
+          "source_id": "healthcare_src_0",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX Attorney General candidate - Ken Paxton",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+          "published_at": "2022-01-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "C) Medicaid and Medicare should remain available, but no other taxpayer-funded programs are necessary.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "healthcare_src_1",
+          "type": "official_platform",
+          "title": "Paxton Sues Biden Administration to Block Biden's Power Grab, Reinstate Billions Promised for Texas Healthcare",
+          "publisher": "Office of the Attorney General of Texas",
+          "url": "https://www.oag.state.tx.us/news/releases/paxton-sues-biden-administration-block-bidens-power-grab-reinstate-billions-promised-texas",
+          "published_at": "2021-04-16",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Not only does this violate agency regulations and threaten to rip a $30 billion hole in Texas's budget, it was clearly intended to force our state into inefficiently expanding Medicaid under the Patient Protection and Affordable Care Act.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "medicare_medicaid_1783125449662",
+      "issue_id": "medicare_medicaid",
+      "position_label": "Opposes expansion; supports work requirements and state control",
+      "position_scalar": 0.1,
+      "summary": "Paxton strongly opposes Medicaid expansion and federal mandates on state Medicaid programs. He sued to block Texas's 1115 Medicaid waiver extension from being rescinded, not to expand coverage but to maintain state control and avoid 'inefficiently expanding Medicaid.' He has also sued to block federal rules requiring Medicaid funding of gender transition procedures, arguing states should control their own programs.",
+      "evidence_type": "sponsored_bill",
+      "confidence": 0.9,
+      "recency": "2024-05-01",
+      "sources": [
+        {
+          "source_id": "medicare_medicaid_src_0",
+          "type": "official_platform",
+          "title": "Paxton Sues Biden Administration to Block Biden's Power Grab, Reinstate Billions Promised for Texas Healthcare",
+          "publisher": "Office of the Attorney General of Texas",
+          "url": "https://www.oag.state.tx.us/news/releases/paxton-sues-biden-administration-block-bidens-power-grab-reinstate-billions-promised-texas",
+          "published_at": "2021-04-16",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "it was clearly intended to force our state into inefficiently expanding Medicaid under the Patient Protection and Affordable Care Act. This would be a disaster for our state",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "medicare_medicaid_src_1",
+          "type": "official_platform",
+          "title": "Attorney General Ken Paxton Sues Biden's Department of Health and Human Services to Stop Rule Forcing Healthcare Providers to Perform 'Gender Transition' Procedures",
+          "publisher": "Office of the Attorney General of Texas",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-bidens-department-health-and-human-services-stop-rule-forcing",
+          "published_at": "2024-05-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "In May 2024, the Biden Administration promulgated a new rule under Section 1557 of the Affordable Care Act that would defund healthcare providers across the country who refuse to perform or pay for experimental, unproven, and potentially dangerous 'gender transition' procedures.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "abortion_1783125449662",
+      "issue_id": "abortion",
+      "position_label": "Supports significant restrictions; defended Texas heartbeat ban",
+      "position_scalar": 0.05,
+      "summary": "Paxton is strongly anti-abortion. He describes himself as 'pro-life' with a 'deeply personal' commitment to the 'sanctity of life.' As Attorney General, he defended Texas's Heartbeat Bill before the Supreme Court. He 'strongly agrees' that abortion providers including Planned Parenthood should not receive government funds. He has pursued legal action to enforce abortion restrictions and protect pro-life legislation.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.95,
+      "recency": "2022-01-01",
+      "sources": [
+        {
+          "source_id": "abortion_src_0",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX Attorney General candidate - Ken Paxton",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+          "published_at": "2022-01-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "I'm pro-life, and my commitment to the sanctity of life is deeply personal... Protecting the lives of unborn children has been one of my major priorities throughout my public service... I was proud to defend this legislation before the Supreme Court",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "abortion_src_1",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX Attorney General candidate - Ken Paxton",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+          "published_at": "2022-01-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Abortion providers, including Planned Parenthood, should not receive funds from federal, state, or local governments (including Title X grants). Strongly Agree",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "civil_rights_1783125449662",
+      "issue_id": "civil_rights",
+      "position_label": "Opposes expansion; criticizes critical race theory",
+      "position_scalar": 0.1,
+      "summary": "Paxton opposes expanding civil rights mandates and new anti-discrimination protections. He 'strongly disagrees' with adding gender identity as a protected class. He criticizes critical race theory as promoting 'misinformation' and 'hateful racism.' He states that 'projects that assign character traits, values, privileges, fault, or status to an individual based on their race are inherently flawed.' He supports 'Judeo-Christian values' and limited government intervention.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.85,
+      "recency": "2022-01-01",
+      "sources": [
+        {
+          "source_id": "civil_rights_src_0",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX Attorney General candidate - Ken Paxton",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+          "published_at": "2022-01-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "I support adding gender identity as a specially protected class in non-discrimination laws. Strongly Disagree",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "civil_rights_src_1",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX Attorney General candidate - Ken Paxton",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+          "published_at": "2022-01-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "No, but dangerous ideologies that seek to divide us may be a threat. Critical race theory promotes misinformation, undermines civic unity, and fosters hateful racism",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "civil_rights_src_2",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX Attorney General candidate - Ken Paxton",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+          "published_at": "2022-01-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "I am proud to stand against any projects that assign character traits, values, privileges, fault, or status to an individual based on their race are inherently flawed and go against our founding principles of equality.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "lgbtq_1783125449662",
+      "issue_id": "lgbtq",
+      "position_label": "Opposes expansion of protections; supports parental and religious authority",
+      "position_scalar": 0.05,
+      "summary": "Paxton strongly opposes expanding LGBTQ+ protections. He issued an official opinion that gender-affirming medical procedures on children can constitute 'child abuse' under Texas law. He sued to block federal rules requiring doctors to perform gender transition procedures and to prevent Medicaid funding of such procedures. He 'strongly disagrees' with adding gender identity as a protected class and has fought against federal mandates on this issue.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2024-05-01",
+      "sources": [
+        {
+          "source_id": "lgbtq_src_0",
+          "type": "official_platform",
+          "title": "Opinion No. KP-0401: Whether certain medical procedures performed on children constitute child abuse",
+          "publisher": "Office of the Attorney General of Texas",
+          "url": "https://texasattorneygeneral.gov/sites/default/files/global/KP-0401.pdf",
+          "published_at": "2022-02-18",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Based on the analysis herein, each of the 'sex change' procedures and treatments... when performed on children, can legally constitute child abuse under provisions of chapter 261 of the Texas Family Code",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "lgbtq_src_1",
+          "type": "official_platform",
+          "title": "AG Paxton Leads Multi-State Coalition for Final Judgment in Lawsuit to Protect Texans and Physicians from Obamacare Mandate",
+          "publisher": "Office of the Attorney General of Texas",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/ag-paxton-leads-multi-state-coalition-final-judgment-lawsuit-protect-texans-and-physicians-obamacare",
+          "published_at": "2016-12-31",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Attorney General Ken Paxton today asked a federal judge for summary judgment in a case against the U.S. Department of Health and Human Services (HHS) over a regulation that redefines 'sex' to include 'gender identity' and 'termination of pregnancy' under Title IX",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "lgbtq_src_2",
+          "type": "official_platform",
+          "title": "Attorney General Ken Paxton Sues Biden's Department of Health and Human Services to Stop Rule Forcing Healthcare Providers to Perform 'Gender Transition' Procedures",
+          "publisher": "Office of the Attorney General of Texas",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-bidens-department-health-and-human-services-stop-rule-forcing",
+          "published_at": "2024-05-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Texas and Montana have sued the U.S. Department of Health and Human Services... for adopting a new rule that forces states to pay for 'gender transition' procedures through their Medicaid programs",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "labor_1783125449662",
+      "issue_id": "labor",
+      "position_label": "Supports right-to-work; opposes vaccine mandates",
+      "position_scalar": 0.15,
+      "summary": "Paxton supports limiting government and employer mandates on workers. He 'strongly agrees' that government should be limited to core functions and 'keeping the heavy hand of government at bay.' He fought against Biden administration vaccine mandates, securing a preliminary injunction against CMS vaccine mandates for healthcare workers and leading multi-state litigation against OSHA's employer vaccine mandate, which the Supreme Court blocked. He emphasizes free market economics and opposes increased regulations.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.8,
+      "recency": "2022-01-01",
+      "sources": [
+        {
+          "source_id": "labor_src_0",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX Attorney General candidate - Ken Paxton",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+          "published_at": "2022-01-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "I believe government should be limited to its core functions and then perform those core functions well. At it's most basic levels, I believe in keeping the heavy hand of government at bay.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "labor_src_1",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX Attorney General candidate - Ken Paxton",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+          "published_at": "2022-01-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "My record as Attorney General on COVID vaccinations has been crystal clear: I've fought against them every chance I've been given... I secured a preliminary injunction for the State of Texas, stopping the Biden Administration from imposing vaccine mandates on the employees of Medicaid and Medicare providers",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "labor_src_2",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX Attorney General candidate - Ken Paxton",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+          "published_at": "2022-01-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Winning the OSHA case before the Supreme Court was a major step in the right direction",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "education_1783125449662",
+      "issue_id": "education",
+      "position_label": "Opposes guaranteed public funding through college; supports limited government",
+      "position_scalar": 0.1,
+      "summary": "Paxton opposes expansive government funding for education. In the 2022 voter guide, he 'strongly disagreed' with the statement that 'Taxpayer-funded public education should be guaranteed through college.' He supports limited government and has criticized federal overreach in education. While not extensively detailed on K-12 specific policies, his overall philosophy favors parental control and reduced government role.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.75,
+      "recency": "2022-01-01",
+      "sources": [
+        {
+          "source_id": "education_src_0",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX Attorney General candidate - Ken Paxton",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/2902/race/13668/election/871",
+          "published_at": "2022-01-01",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Taxpayer-funded public education should be guaranteed through college. Strongly Disagree",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "immigration_1783125449662",
+      "issue_id": "immigration",
+      "position_label": "Strict enforcement and state-level border security",
+      "position_scalar": 0.1,
+      "summary": "Paxton has consistently advocated for strict immigration enforcement, including suing the Biden administration multiple times over border policies, supporting construction of a border wall, and defending Texas law SB 4 that makes illegal border crossing a state crime. He emphasizes border security as vital for public safety and has criticized federal immigration policies as 'disastrous.'",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2024-03-19",
+      "sources": [
+        {
+          "source_id": "immigration_src_0",
+          "type": "official_platform",
+          "title": "Border Security | Office of the Attorney General",
+          "publisher": "Texas Office of the Attorney General",
+          "url": "https://www.oag.state.tx.us/initiatives/border-security",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Secure borders are vital for a safer Texas. Attorney General Paxton has been strong on the border, suing the Biden Administration numerous times regarding the disastrous crisis that is exhausting local law enforcement officials.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "immigration_src_1",
+          "type": "official_platform",
+          "title": "Attorney General Ken Paxton Prevails at SCOTUS Allowing Texas Immigration Law to Take Effect",
+          "publisher": "Texas Office of the Attorney General",
+          "url": "https://texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-prevails-scotus-allowing-texas-immigration-law-take-effect",
+          "published_at": "2024-03-19",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "SB 4 was adopted to address the ongoing disaster at the Texas-Mexico border by making it a state crime to cross the border illegally—which is already a federal crime. This enables Texas law enforcement to detain illegal aliens and for judges to order them to return to the country from where they illegally entered.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "immigration_src_2",
+          "type": "interview",
+          "title": "Ken Paxton says US must do better job vetting immigrants after shooting",
+          "publisher": "Fox News",
+          "url": "https://www.foxnews.com/politics/paxton-demands-stricter-vetting-after-deadly-texas-rampage-suspect-who-naturalized-citizen",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": false,
+          "quote": "We do need to do a better job of vetting people, and Congress is going to have to figure out how to do that... I think that the burden on the system has been all the illegal immigration, which makes it harder for law enforcement to keep track of everyone.",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "guns_1783125449662",
+      "issue_id": "guns",
+      "position_label": "Protect gun rights; oppose restrictive local regulations",
+      "position_scalar": 0.05,
+      "summary": "Paxton has actively opposed restrictive gun laws, joining multistate briefs challenging municipal gun restrictions like New York City's permitting system. He has described the Second Amendment as 'foundational to preserving our republic' and criticized regulations that 'criminalize basic elements of a constitutional right.'",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": null,
+      "sources": [
+        {
+          "source_id": "guns_src_0",
+          "type": "official_platform",
+          "title": "AG Paxton Joins 17-State Brief Supporting Lawsuit to Defend the Second Amendment Rights of Citizens",
+          "publisher": "Texas Office of the Attorney General",
+          "url": "https://www.oag.state.tx.us/news/releases/ag-paxton-joins-17-state-brief-supporting-lawsuit-defend-second-amendment-rights-citizens",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "When municipalities like New York City criminalize basic elements of a constitutional right, they put our entire constitution in danger... The Second Amendment is foundational to preserving our republic and cannot be so restricted as to render it meaningless.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "foreign_policy_1783125449662",
+      "issue_id": "foreign_policy",
+      "position_label": "America-first; skeptical of nation-building",
+      "position_scalar": 0.15,
+      "summary": "Paxton has expressed support for 'America-first' foreign policy approaches, backing Trump's Iran strikes while explicitly stating the president would not fall for a 'nation-building' trap, contrasting this with George W. Bush's approach.",
+      "evidence_type": "interview",
+      "confidence": 0.75,
+      "recency": null,
+      "sources": [
+        {
+          "source_id": "foreign_policy_src_0",
+          "type": "interview",
+          "title": "Paxton backs Trump's Iran strikes, says president won't fall for 'nation-building' trap",
+          "publisher": "Fox News",
+          "url": "https://www.foxnews.com/video/6390281015112",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": false,
+          "quote": "Paxton backs Trump's Iran strikes, says president won't fall for 'nation-building' trap",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "ai_tech_1783125449662",
+      "issue_id": "ai_tech",
+      "position_label": "Strong regulation for safety and transparency",
+      "position_scalar": 0.1,
+      "summary": "Paxton’s office secured a first-of-its-kind settlement requiring a healthcare AI firm to disclose accuracy limits and train users on risks, citing public safety in high-risk settings.",
+      "evidence_type": "public_statement",
+      "confidence": 0.95,
+      "recency": "2024-07-03",
+      "sources": [
+        {
+          "source_id": "ai_tech_src_0",
+          "type": "public_statement",
+          "title": "Attorney General Ken Paxton Reaches Settlement in First-of-its-Kind Healthcare Generative AI Investigation",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-reaches-settlement-first-its-kind-healthcare-generative-ai-investigation",
+          "published_at": "2024-07-03",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "AI companies offering products used in high-risk settings owe it to the public and to their clients to be transparent about their risks, limitations, and appropriate use.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "privacy_1783125449662",
+      "issue_id": "privacy",
+      "position_label": "Aggressive enforcement of state privacy laws",
+      "position_scalar": 0.15,
+      "summary": "Paxton has obtained record settlements against Google ($1.375 B) and Meta ($1.4 B) for unlawful data collection and created a dedicated privacy enforcement unit.",
+      "evidence_type": "public_statement",
+      "confidence": 0.95,
+      "recency": "2024-07-03",
+      "sources": [
+        {
+          "source_id": "privacy_src_0",
+          "type": "public_statement",
+          "title": "Attorney General Ken Paxton Leads Nation in Protecting Americans' Data Privacy and Security",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.oag.state.tx.us/news/releases/attorney-general-ken-paxton-leads-nation-protecting-americans-data-privacy-and-security-big-tech",
+          "published_at": "2024-07-03",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Texas is the watchdog for the nation’s privacy rights and freedoms, and I will continue doing all I can to protect Texans from new threats to their personal data.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "elections_1783125449662",
+      "issue_id": "elections",
+      "position_label": "Tighten rules: voter ID, state control",
+      "position_scalar": 0.05,
+      "summary": "Paxton applauded Texas’ voter-ID bill, stating it prevents fraud and preserves election integrity, and he created an Election Integrity Unit after 2020.",
+      "evidence_type": "public_statement",
+      "confidence": 0.95,
+      "recency": "2017-05-06",
+      "sources": [
+        {
+          "source_id": "elections_src_0",
+          "type": "public_statement",
+          "title": "AG Paxton Applauds Signing of Texas' Voter ID Bill",
+          "publisher": "Office of the Texas Attorney General",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/ag-paxton-applauds-signing-texas-voter-id-bill-notifies-district-court-laws-passage",
+          "published_at": "2017-05-06",
+          "retrieved_at": "2026-07-04T00:35:55.497Z",
+          "primary_source": true,
+          "quote": "Preserving voter ID will prevent fraud and ensure that election results accurately reflect the will of Texas voters.",
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ],
+  "unknowns": [
+    "taxes",
+    "jobs",
+    "crime",
+    "housing",
+    "social_security",
+    "national_security",
+    "defense",
+    "trade",
+    "infrastructure",
+    "ethics",
+    "judiciary"
+  ],
+  "contradictions": [
+    {
+      "issue_id": "ai_tech",
+      "description": "The label and summary describe strong AI regulation and safety requirements, but the axis is left-to-right from light-touch to strong regulation, so this stance conflicts with the mostly deregulatory pattern elsewhere if treated as part of the same economic-regulatory profile.",
+      "sources": []
+    },
+    {
+      "issue_id": "privacy",
+      "description": "The label and summary describe aggressive enforcement against firms and dedicated privacy crackdowns, which is more interventionist than the axis's industry self-regulation end.",
+      "sources": []
+    }
+  ],
+  "source_coverage_score": 0.6333333333333333,
+  "researched_at": "2026-07-04T00:35:55.497Z",
+  "research_status": "complete"
+}

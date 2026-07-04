@@ -1,0 +1,219 @@
+{
+  "id": "nathan-sheets",
+  "name": "D. Nathan Sheets",
+  "party": null,
+  "current_office": null,
+  "jurisdiction": null,
+  "bio": "D. Nathan Sheets is an American economist who served as Under Secretary of the Treasury for International Affairs from 2014 to 2017 under President Barack Obama. He is currently Global Chief Economist at Citigroup, a position he has held since October 2021.",
+  "stances": [
+    {
+      "stance_id": "trade_1783125551256",
+      "issue_id": "trade",
+      "position_label": "Multilateral rules-based export-credit system",
+      "position_scalar": null,
+      "summary": "As Treasury’s lead negotiator, Sheets argued that all major export-credit providers (including China) should be bound by common, market-oriented disciplines rather than U.S. unilateral protection, and he worked through the OECD and the International Working Group to lower trade-distorting subsidies.",
+      "evidence_type": "public_statement",
+      "confidence": 0.95,
+      "recency": "2015-04-15",
+      "sources": [
+        {
+          "source_id": "trade_src_0",
+          "type": "public_statement",
+          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform…",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10022",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "primary_source": true,
+          "quote": "Bringing all major providers of official export financing support into an international rules-based framework with a common set of financial terms and conditions is the essential first step…",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "economy_1783125551256",
+      "issue_id": "economy",
+      "position_label": "Supply-side structural reforms plus demand stimulus",
+      "position_scalar": null,
+      "summary": "Sheets repeatedly called for structural reforms (labor-market flexibility, deregulation, privatization) alongside active fiscal and monetary stimulus when demand is weak, arguing that supply- and demand-side measures must be balanced.",
+      "evidence_type": "public_statement",
+      "confidence": 0.9,
+      "recency": "2015-02-19",
+      "sources": [
+        {
+          "source_id": "economy_src_0",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary for International Affairs Nathan Sheets at The Peterson Institute for International Economics on The Global Economy",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl9979",
+          "published_at": "2015-02-19",
+          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "primary_source": true,
+          "quote": "Sound economic policies must seek to appropriately balance supply-side and demand-side considerations.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "climate_1783125551256",
+      "issue_id": "climate",
+      "position_label": "Support for low-carbon global framework",
+      "position_scalar": null,
+      "summary": "In U.S.-China talks Sheets pressed China to curb excess industrial capacity and promote a “low carbon global” economy, indicating support for international climate-oriented industrial policy.",
+      "evidence_type": "public_statement",
+      "confidence": 0.8,
+      "recency": "2016-05-24",
+      "sources": [
+        {
+          "source_id": "climate_src_0",
+          "type": "public_statement",
+          "title": "U.S.-China S&ED transcript",
+          "publisher": "Brookings Institution",
+          "url": "https://www.brookings.edu/wp-content/uploads/2016/05/20160524_us_china_sheets_transcript.pdf",
+          "published_at": "2016-05-24",
+          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "primary_source": true,
+          "quote": "low carbon global",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "foreign_policy_1783125551256",
+      "issue_id": "foreign_policy",
+      "position_label": "Active global leadership through international institutions",
+      "position_scalar": null,
+      "summary": "Sheets consistently advocated for strong U.S. engagement in multilateral institutions including the IMF, World Bank, and G-20, emphasizing that these institutions protect U.S. economic interests and national security. He supported IMF quota reforms to maintain U.S. influence, promoted trade agreements (TPP, T-TIP), and stressed the importance of U.S. leadership in international economic forums.",
+      "evidence_type": "public_statement",
+      "confidence": 0.95,
+      "recency": "2017-01-17",
+      "sources": [
+        {
+          "source_id": "foreign_policy_src_0",
+          "type": "public_statement",
+          "title": "Testimony of Treasury Under Secretary for International Affairs Nathan Sheets before the House Financial Services Subcommittee on Monetary Policy And Trade",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl0166",
+          "published_at": "2015-09-17",
+          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "primary_source": true,
+          "quote": "To ensure that the IMF remains at the center of the multilateral economic system – and that we maintain an important voice in it – the United States should promptly approve the 2010 quota and governance reforms. Our interest in strengthening the Fund is not based on esoteric notions of global leadership or nostalgia for institutions that the United States created. Rather, we have learned from hard-won experience that a well-resourced and effective IMF is indispensable to achieving our economic and national security interests.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "foreign_policy_src_1",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary Nathan Sheets at the Carnegie Endowment for International Peace",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl0710",
+          "published_at": "2017-01-17",
+          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "primary_source": true,
+          "quote": "Fourth, we engage multilaterally to advance U.S. perspectives at forums such as the G-7 and G-20, and through institutions like the IMF and the multilateral development banks. We also play a leadership role in keeping these organizations effective, relevant to the global economy, and reflective of U.S. values and interests.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "foreign_policy_src_2",
+          "type": "public_statement",
+          "title": "Remarks by Under Secretary Nathan Sheets at the Carnegie Endowment for International Peace",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl0710",
+          "published_at": "2017-01-17",
+          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "primary_source": true,
+          "quote": "In addition, our work plays an important role in advancing broader U.S. foreign policy objectives. Whether leading efforts in the international financial institutions to respond to emergent crises such as the Ebola outbreak and refugee flows, supporting economic stability in key countries such as Ukraine and Iraq, or contributing to the design of major sanctions programs, we interact closely with partners across the government to achieve foreign policy interests.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "defense_1783125551256",
+      "issue_id": "defense",
+      "position_label": "Supports strategic international engagement, not defense spending cuts",
+      "position_scalar": null,
+      "summary": "While Sheets did not directly address defense spending levels, his testimony emphasized using international financial institutions and economic tools as 'cost-effective means' for U.S. engagement, suggesting preference for multilateral economic approaches over unilateral military solutions. His focus on 'soft power' economic institutions rather than military expansion suggests moderate positioning, though this is inferred rather than explicit.",
+      "evidence_type": "public_statement",
+      "confidence": 0.5,
+      "recency": "2015-09-17",
+      "sources": [
+        {
+          "source_id": "defense_src_0",
+          "type": "public_statement",
+          "title": "Testimony of Treasury Under Secretary for International Affairs Nathan Sheets before the House Financial Services Subcommittee on Monetary Policy And Trade",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl0166",
+          "published_at": "2015-09-17",
+          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "primary_source": true,
+          "quote": "In particular, the MDBs are a cost-effective means for the United States to support critical investments in developing and emerging economies. Our $2.2 billion budget request for the MDBs for FY 2016 supports more than $100 billion in annual MDB assistance for developing countries.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "ai_tech_1783125551256",
+      "issue_id": "ai_tech",
+      "position_label": "Cautiously optimistic on AI productivity; market-oriented with some valuation concerns",
+      "position_scalar": null,
+      "summary": "Sheets has expressed optimism about AI's potential to drive productivity growth comparable to the late 1990s internet boom, but with caution. He stated he would set AI stocks 15% lower if he were 'grand sultan of the world,' suggesting some concern about market valuations and potential risks, while generally favoring market-driven innovation over heavy-handed intervention.",
+      "evidence_type": "public_statement",
+      "confidence": 0.7,
+      "recency": "2026-02-03",
+      "sources": [
+        {
+          "source_id": "ai_tech_src_0",
+          "type": "public_statement",
+          "title": "Former Treasury official Nathan Sheets talks AI productivity, geopolitical tension in Duke address",
+          "publisher": "dukechronicle.com",
+          "url": "https://dukechronicle.com/article/duke-university-former-secretary-of-the-treasury-for-international-affairs-nathan-sheets-talks-economic-outlook-ai-20260203",
+          "published_at": "2026-02-03",
+          "retrieved_at": "2026-07-04T00:38:32.337Z",
+          "primary_source": false,
+          "quote": "Sheets predicted the technology will 'kick off a productivity boom in the United States that is at least as strong as what we had during the internet boom of the late '90s'... Sheets commented that if he were the 'grand sultan of the world,' he would set the S&P 500 index 10% lower and AI stocks 15% lower.",
+          "reliability_score": 0.7
+        }
+      ]
+    }
+  ],
+  "unknowns": [
+    "inflation",
+    "taxes",
+    "jobs",
+    "healthcare",
+    "immigration",
+    "crime",
+    "education",
+    "housing",
+    "energy",
+    "debt_spending",
+    "social_security",
+    "medicare_medicaid",
+    "abortion",
+    "guns",
+    "civil_rights",
+    "lgbtq",
+    "national_security",
+    "privacy",
+    "infrastructure",
+    "small_business",
+    "labor",
+    "elections",
+    "ethics",
+    "judiciary"
+  ],
+  "contradictions": [
+    {
+      "issue_id": "economy",
+      "description": "The stance combines market-led structural reforms with government-led demand stimulus, which pulls in opposite directions on the axis.",
+      "sources": []
+    },
+    {
+      "issue_id": "defense",
+      "description": "The description says Sheets emphasized nonmilitary economic engagement and did not directly address defense spending, so it does not clearly support either a defense-spending increase or cut position.",
+      "sources": []
+    }
+  ],
+  "source_coverage_score": 0.2,
+  "researched_at": "2026-07-04T00:38:32.337Z",
+  "research_status": "complete"
+}

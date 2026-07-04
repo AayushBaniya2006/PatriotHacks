@@ -1,0 +1,580 @@
+{
+  "id": "gina-hinojosa",
+  "name": "Regina Inez Hinojosa",
+  "party": "Democratic",
+  "current_office": "Texas House of Representatives",
+  "jurisdiction": "Texas (49th district)",
+  "bio": "Regina Inez Hinojosa is an American lawyer and politician who has served in the Texas House of Representatives since 2017, representing the 49th district in central Austin. Born on December 8, 1973 in McAllen, Texas, she previously worked as a civil rights and labor attorney and served as president of the Austin Independent School District Board of Trustees before entering state politics.",
+  "campaign_website": "https://ginafortexas.com/",
+  "stances": [
+    {
+      "stance_id": "economy_1783125334627",
+      "issue_id": "economy",
+      "position_label": "Public investment over deregulation",
+      "position_scalar": 0.85,
+      "summary": "Hinojosa advocates using state revenue to fund public schools and infrastructure, explicitly favoring public investment over corporate tax breaks.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.9,
+      "recency": "2026-02-15",
+      "sources": [
+        {
+          "source_id": "economy_src_0",
+          "type": "questionnaire",
+          "title": "Gina Hinojosa 2026 Texas Democratic-primary candidate questionnaire for Texas Governor",
+          "publisher": "Amarillo Globe-News",
+          "url": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "our tax revenue should be used to fix our crumbling infrastructure … put our tax dollars back into our people",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "taxes_1783125334627",
+      "issue_id": "taxes",
+      "position_label": "Raise on corporations & wealthy to fund services",
+      "position_scalar": 0.9,
+      "summary": "She calls for ending corporate loopholes and using the proceeds to lower middle-class taxes while protecting neighborhood-school funding.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.9,
+      "recency": "2026-02-15",
+      "sources": [
+        {
+          "source_id": "taxes_src_0",
+          "type": "questionnaire",
+          "title": "Gina Hinojosa 2026 Texas Democratic-primary candidate questionnaire for Texas Governor",
+          "publisher": "Amarillo Globe-News",
+          "url": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "lower taxes for middle-class families … wipe the slate clean of wasteful vendor contracts",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "jobs_1783125334627",
+      "issue_id": "jobs",
+      "position_label": "Raise labor standards & support workers",
+      "position_scalar": 0.85,
+      "summary": "Hinojosa emphasizes supporting workers and small businesses rather than reducing business costs, and she highlights her union-lawyer background.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.8,
+      "recency": "2026-02-15",
+      "sources": [
+        {
+          "source_id": "jobs_src_0",
+          "type": "questionnaire",
+          "title": "Gina Hinojosa 2026 Texas Democratic-primary candidate questionnaire for Texas Governor",
+          "publisher": "Amarillo Globe-News",
+          "url": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "encourage economic policies that support small businesses and workers rather than tax breaks … for large corporations",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "climate_1783125334627",
+      "issue_id": "climate",
+      "position_label": "Aggressive emissions cuts & clean-energy mandates",
+      "position_scalar": 0.95,
+      "summary": "Her voting record shows 0 % alignment with limited-government energy positions; she opposed bills that would limit environmental regulation.",
+      "evidence_type": "voting_record",
+      "confidence": 0.8,
+      "recency": "2023-12-31",
+      "sources": [
+        {
+          "source_id": "climate_src_0",
+          "type": "voting_record",
+          "title": "Rep. Gina Hinojosa Voting Record & Scorecard",
+          "publisher": "Institute for Legislative Analysis",
+          "url": "https://analysis.limitedgov.org/lawmakers/gina-hinojosa-d-tx-rep-49",
+          "published_at": "2023-12-31",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Energy and Environment (0%)",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "energy_1783125334627",
+      "issue_id": "energy",
+      "position_label": "Rapid shift to renewables",
+      "position_scalar": 0.95,
+      "summary": "Same voting record: 0 % alignment with expanding fossil-fuel production and consistent opposition to limited-government energy bills.",
+      "evidence_type": "voting_record",
+      "confidence": 0.8,
+      "recency": "2023-12-31",
+      "sources": [
+        {
+          "source_id": "energy_src_0",
+          "type": "voting_record",
+          "title": "Rep. Gina Hinojosa Voting Record & Scorecard",
+          "publisher": "Institute for Legislative Analysis",
+          "url": "https://analysis.limitedgov.org/lawmakers/gina-hinojosa-d-tx-rep-49",
+          "published_at": "2023-12-31",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Energy and Environment (0%)",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "debt_spending_1783125334627",
+      "issue_id": "debt_spending",
+      "position_label": "Spend more on programs; raise revenue later",
+      "position_scalar": 0.9,
+      "summary": "She voted against the 2024-25 Texas budget that ILA criticized for being too large, indicating she wanted even higher spending.",
+      "evidence_type": "voting_record",
+      "confidence": 0.8,
+      "recency": "2023-12-31",
+      "sources": [
+        {
+          "source_id": "debt_spending_src_0",
+          "type": "voting_record",
+          "title": "Rep. Gina Hinojosa Voting Record & Scorecard",
+          "publisher": "Institute for Legislative Analysis",
+          "url": "https://analysis.limitedgov.org/lawmakers/gina-hinojosa-d-tx-rep-49",
+          "published_at": "2023-12-31",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Democratic lawmakers who opposed the bill for not containing even greater levels of spending",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "infrastructure_1783125334627",
+      "issue_id": "infrastructure",
+      "position_label": "Major public investment",
+      "position_scalar": 0.9,
+      "summary": "She pledges to prioritize fixing \"crumbling infrastructure\" with state revenue and criticizes diversion of funds to corporate contracts.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.85,
+      "recency": "2026-02-15",
+      "sources": [
+        {
+          "source_id": "infrastructure_src_0",
+          "type": "questionnaire",
+          "title": "Gina Hinojosa 2026 Texas Democratic-primary candidate questionnaire for Texas Governor",
+          "publisher": "Amarillo Globe-News",
+          "url": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "invest in the infrastructure we need … fix our crumbling infrastructure",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "small_business_1783125334627",
+      "issue_id": "small_business",
+      "position_label": "Public support & antitrust vs. big firms",
+      "position_scalar": 0.8,
+      "summary": "She supports grants/loans for small businesses and vows to curb corporate monopolies that raise costs for consumers.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.85,
+      "recency": "2026-02-15",
+      "sources": [
+        {
+          "source_id": "small_business_src_0",
+          "type": "questionnaire",
+          "title": "Gina Hinojosa 2026 Texas Democratic-primary candidate questionnaire for Texas Governor",
+          "publisher": "Amarillo Globe-News",
+          "url": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "encourage economic policies that support small businesses … hold corporate monopolies accountable",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "healthcare_1783125334627",
+      "issue_id": "healthcare",
+      "position_label": "Expand Medicaid and healthcare access",
+      "position_scalar": 0.85,
+      "summary": "Hinojosa has consistently supported expanding government healthcare coverage. She voted to extend Medicaid eligibility for 12 months after birth or miscarriage (HB133) and supported a pilot program for Medicaid coverage of doula services (HB158). Her campaign platform emphasizes fighting for affordable health care and strengthening health care access.",
+      "evidence_type": "voting_record",
+      "confidence": 0.9,
+      "recency": "2026-02-15",
+      "sources": [
+        {
+          "source_id": "healthcare_src_0",
+          "type": "voting_record",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "Texas Legislative Observer (tlok.org)",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Yea | HB133 | Healthcare: Extends Medicaid elegibility for 12 months after birth or miscarriage | Yea | HB158 | Healthcare: Pilot program to provide Medicaid coverage of doula services",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "healthcare_src_1",
+          "type": "questionnaire",
+          "title": "Gina Hinojosa's Democratic candidate questionnaire for Texas Governor",
+          "publisher": "Amarillo Globe-News",
+          "url": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "As a civil rights and union lawyer and a former school board president, I've spent my career standing with hardworking Texans. In the Texas House, I helped secure billions of dollars for public schools, fought to strengthen health care access",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "education_1783125334627",
+      "issue_id": "education",
+      "position_label": "Invest in public schools; oppose vouchers",
+      "position_scalar": 1,
+      "summary": "Hinojosa is a strong advocate for public school funding and opposes school vouchers. She authored an opinion piece explicitly stating she opposes the governor's voucher plan, calling it 'irresponsible and harmful.' She emphasizes that Texas public schools need at least $40 billion to reach national per-student funding averages and has worked with bipartisan allies to block voucher legislation.",
+      "evidence_type": "public_statement",
+      "confidence": 0.95,
+      "recency": "2023-10-10",
+      "sources": [
+        {
+          "source_id": "education_src_0",
+          "type": "public_statement",
+          "title": "Opinion: Hinojosa: Texas schools need money, not vouchers",
+          "publisher": "Austin American-Statesman",
+          "url": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/",
+          "published_at": "2023-10-10",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Because the governor's voucher plan is irresponsible and harmful to the vast majority of Texas schoolchildren, I oppose it and will not support any 'deal' that breaks from our long-standing Texas tradition of preserving taxpayer dollars exclusively for public schools.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "education_src_1",
+          "type": "public_statement",
+          "title": "Opinion: Hinojosa: Texas schools need money, not vouchers",
+          "publisher": "Austin American-Statesman",
+          "url": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/",
+          "published_at": "2023-10-10",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Texas public schools need at least $40 billion this biennium to reach the national per-student funding average.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "medicare_medicaid_1783125334627",
+      "issue_id": "medicare_medicaid",
+      "position_label": "Expand Medicaid eligibility and benefits",
+      "position_scalar": 0.9,
+      "summary": "Hinojosa's voting record shows consistent support for expanding Medicaid. She voted for HB133 to extend Medicaid eligibility for 12 months postpartum and HB158 for Medicaid coverage of doula services. These votes indicate support for expanding eligibility and benefits rather than restraining program growth.",
+      "evidence_type": "voting_record",
+      "confidence": 0.9,
+      "recency": "2026-07-04",
+      "sources": [
+        {
+          "source_id": "medicare_medicaid_src_0",
+          "type": "voting_record",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "Texas Legislative Observer (tlok.org)",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Yea | HB133 | Healthcare: Extends Medicaid elegibility for 12 months after birth or miscarriage | Yea | HB158 | Healthcare: Pilot program to provide Medicaid coverage of doula services",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "abortion_1783125334627",
+      "issue_id": "abortion",
+      "position_label": "Oppose abortion restrictions; protect access",
+      "position_scalar": 1,
+      "summary": "Hinojosa has a clear pro-choice voting record. She voted 'Nay' on HB1280, the 'backstop' bill to outlaw abortions if Roe v. Wade was overturned, and 'Nay' on SB8, which banned abortion at approximately 6 weeks without exceptions for rape and incest. She also authored a bill relating to exceptions to laws prohibiting abortion.",
+      "evidence_type": "voting_record",
+      "confidence": 0.95,
+      "recency": "2026-07-04",
+      "sources": [
+        {
+          "source_id": "abortion_src_0",
+          "type": "voting_record",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "Texas Legislative Observer (tlok.org)",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Nay | HB1280 | Reproductive Rights: 'Backstop' bill outlawing abortions if Roe vs. Wade is overturned | Nay | SB8 | Reproductive Rights: Outlaws abortion at about 6 weeks; no exceptions for rape and incest",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "abortion_src_1",
+          "type": "sponsored_bill",
+          "title": "Bills Authored / Joint Authored - Rep. Gina Hinojosa 89th Legislature",
+          "publisher": "Texas Legislature Online (capitol.texas.gov)",
+          "url": "https://capitol.texas.gov/reports/report.aspx?Code=A3210&ID=author&LegSess=89R",
+          "published_at": "2026-05-15",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Caption: Relating to an exception to certain laws prohibiting abortion.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "civil_rights_1783125334627",
+      "issue_id": "civil_rights",
+      "position_label": "Strengthen civil rights protections",
+      "position_scalar": 0.9,
+      "summary": "Hinojosa identifies as a civil rights lawyer and has built her career on fighting for working families. Her campaign materials emphasize her background in civil rights law and her work standing with marginalized communities. She describes herself as 'one of the most progressive Democrats in the Texas House.'",
+      "evidence_type": "official_platform",
+      "confidence": 0.75,
+      "recency": "2026-02-15",
+      "sources": [
+        {
+          "source_id": "civil_rights_src_0",
+          "type": "questionnaire",
+          "title": "Gina Hinojosa's Democratic candidate questionnaire for Texas Governor",
+          "publisher": "Amarillo Globe-News",
+          "url": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "As a civil rights and union lawyer and a former school board president, I've spent my career standing with hardworking Texans.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "civil_rights_src_1",
+          "type": "public_statement",
+          "title": "Opinion: Hinojosa: Texas schools need money, not vouchers",
+          "publisher": "Austin American-Statesman",
+          "url": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/",
+          "published_at": "2023-10-10",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Despite serving as one of the most progressive Democrats in the Texas House",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "labor_1783125334627",
+      "issue_id": "labor",
+      "position_label": "Strengthen unions and worker protections",
+      "position_scalar": 0.9,
+      "summary": "Hinojosa identifies as a 'union lawyer' and has spent her career working with labor organizations. Her campaign emphasizes fighting for working families rather than corporate interests, and she has opposed policies that divert public resources to wealthy interests.",
+      "evidence_type": "official_platform",
+      "confidence": 0.8,
+      "recency": "2026-02-15",
+      "sources": [
+        {
+          "source_id": "labor_src_0",
+          "type": "questionnaire",
+          "title": "Gina Hinojosa's Democratic candidate questionnaire for Texas Governor",
+          "publisher": "Amarillo Globe-News",
+          "url": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "As a civil rights and union lawyer and a former school board president, I've spent my career standing with hardworking Texans.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "labor_src_1",
+          "type": "questionnaire",
+          "title": "Gina Hinojosa's Democratic candidate questionnaire for Texas Governor",
+          "publisher": "Amarillo Globe-News",
+          "url": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "My approach to governing Texas is built on a lifetime of fighting for working families, public education, affordable health care, and real economic opportunity, not corporate handouts.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "immigration_1783125334627",
+      "issue_id": "immigration",
+      "position_label": "Opposed state-funded border enforcement",
+      "position_scalar": 0.3,
+      "summary": "Hinojosa voted against HB9-2, which would have appropriated state funds for international border control using state funds and staff. This suggests support for federal handling of immigration rather than state-level enforcement expansion.",
+      "evidence_type": "voting_record",
+      "confidence": 0.6,
+      "recency": "2021-05-23",
+      "sources": [
+        {
+          "source_id": "immigration_src_0",
+          "type": "voting_record",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "Texas Legislative Observer (tlok.org)",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": "2021-05-23",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Nay | HB9-2 | Immigration: Appropriation for international border control using state funds and staff",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "crime_1783125334627",
+      "issue_id": "crime",
+      "position_label": "Supports prevention and community investment over policing",
+      "position_scalar": 0.8,
+      "summary": "In a 2020 voter guide questionnaire, Hinojosa indicated support for redirecting funds from police departments to mental health and community services. She did not answer most other criminal justice questions.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.7,
+      "recency": "2020-10-01",
+      "sources": [
+        {
+          "source_id": "crime_src_0",
+          "type": "questionnaire",
+          "title": "Voter Guide Profile for TX State Rep., Dist. 49 candidate - Gina Hinojosa",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/32089/race/6647/election/943",
+          "published_at": "2020-10-01",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "I support redirecting funds from police [to] mental health and community",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "guns_1783125334627",
+      "issue_id": "guns",
+      "position_label": "Supports stricter gun laws including universal background checks and licensing",
+      "position_scalar": 0.85,
+      "summary": "Hinojosa voted against multiple bills expanding gun rights, including permitless carry (HB1927) and restrictions on governor's emergency powers over gun sales (HB1500). In a 2017 public statement, she proposed ten gun violence prevention measures including universal background checks, license requirements for long guns, and lethal violence protective orders.",
+      "evidence_type": "voting_record",
+      "confidence": 0.9,
+      "recency": "2021-05-23",
+      "sources": [
+        {
+          "source_id": "guns_src_0",
+          "type": "voting_record",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "Texas Legislative Observer (tlok.org)",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": "2021-05-23",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "✔ | Nay | HB1927 | Gun Control: Allows gun carry by anyone over 21 and not specifically prohibited",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "guns_src_1",
+          "type": "news_report",
+          "title": "Gina Hinojosa on Gun Control",
+          "publisher": "OnTheIssues.org",
+          "url": "https://ontheissues.org/Governor/Gina_Hinojosa_Gun_Control.htm",
+          "published_at": "2021-05-31",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": false,
+          "quote": "Legislative Outcome: Passed House 82-62-2 on May/23/21; Rep. Gina Hinojosa voted NO",
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "guns_src_2",
+          "type": "public_statement",
+          "title": "We can prevent gun violence in Texas — now",
+          "publisher": "TribTalk (Texas Tribune)",
+          "url": "https://www.tribtalk.org/2017/11/08/we-can-prevent-gun-violence-in-texas-now/",
+          "published_at": "2017-11-08",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "7. Pass universal background checks. Quick, simple, and if you're a law-abiding citizen, no problem. 9. Require a 'License to Carry' for long guns. 10. Create lethal violence protective orders",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "elections_1783125334627",
+      "issue_id": "elections",
+      "position_label": "Expand voting access, oppose restrictive measures",
+      "position_scalar": 1,
+      "summary": "Hinojosa consistently votes against Republican-backed voting restriction bills and supports expanding access. She voted against SB7 (2021) which limited voting methods, against HB3920 tightening disability mail voting restrictions, and participated in quorum breaks to protest redistricting. She frames voting access as a fundamental democratic right and criticizes Republican efforts as 'rigging' elections.",
+      "evidence_type": "voting_record",
+      "confidence": 0.95,
+      "recency": "2025-08-04",
+      "sources": [
+        {
+          "source_id": "elections_src_0",
+          "type": "voting_record",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "tlok.org",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "✔ | Nay | HB3920 | Democracy: Tightens restrictions on mail voting due to disability | ✔ | Nay | SB7 | Democracy: Limits voting in several ways; forbids many methods of making voting easier",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "elections_src_1",
+          "type": "interview",
+          "title": "A Texas Democratic lawmaker on their efforts to stop Republican redistricting plans",
+          "publisher": "tpr.org",
+          "url": "https://www.tpr.org/2025-08-04/a-texas-democratic-lawmaker-on-their-efforts-to-stop-republican-redistricting-plans",
+          "published_at": "2025-08-04",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "It is undemocratic. It is anti the foundations of our country, and it is extreme and harmful to our constituents. So we will do everything in our power to fight it.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "judiciary_1783125334627",
+      "issue_id": "judiciary",
+      "position_label": "Supports evolving Constitution, criticizes originalist approach",
+      "position_scalar": 1,
+      "summary": "Hinojosa criticized the Supreme Court's decision in Louisiana v. Callais (2026) which narrowed Section 2 of the Voting Rights Act, framing it as allowing politicians to 'rig our elections.' She supports judges who protect voting rights and representation, opposing decisions that restrict constitutional protections.",
+      "evidence_type": "public_statement",
+      "confidence": 0.75,
+      "recency": "2026-04-01",
+      "sources": [
+        {
+          "source_id": "judiciary_src_0",
+          "type": "public_statement",
+          "title": "STATEMENT: Hinojosa on Supreme Court's Decision in Louisiana v. Callais",
+          "publisher": "ginafortexas.com",
+          "url": "https://ginafortexas.com/2026/04/statement-hinojosa-on-supreme-courts-decision-in-louisiana-v-callais/",
+          "published_at": "2026-04-01",
+          "retrieved_at": "2026-07-04T00:34:18.451Z",
+          "primary_source": true,
+          "quote": "Texans and Americans are fighting back, but today the Supreme Court is trying to give politicians the power to rig our elections for a generation.",
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ],
+  "unknowns": [
+    "inflation",
+    "housing",
+    "social_security",
+    "lgbtq",
+    "foreign_policy",
+    "national_security",
+    "defense",
+    "trade",
+    "ai_tech",
+    "privacy",
+    "ethics"
+  ],
+  "contradictions": [],
+  "source_coverage_score": 0.6333333333333333,
+  "researched_at": "2026-07-04T00:34:18.451Z",
+  "research_status": "complete"
+}

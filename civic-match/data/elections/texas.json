@@ -1,0 +1,66 @@
+[
+  {
+    "race": "Governor",
+    "office": "Governor of Texas",
+    "election_date": "2026-11-03",
+    "candidates": [
+      {
+        "name": "Greg Abbott",
+        "party": "Republican"
+      },
+      {
+        "name": "Gina Hinojosa",
+        "party": "Democrat"
+      },
+      {
+        "name": "Pat Dixon",
+        "party": "Libertarian"
+      }
+    ]
+  },
+  {
+    "race": "U.S. Senate",
+    "office": "U.S. Senator from Texas",
+    "election_date": "2026-11-03",
+    "candidates": [
+      {
+        "name": "Ken Paxton",
+        "party": "Republican"
+      },
+      {
+        "name": "James Talarico",
+        "party": "Democrat"
+      }
+    ]
+  },
+  {
+    "race": "Lieutenant Governor",
+    "office": "Lieutenant Governor of Texas",
+    "election_date": "2026-11-03",
+    "candidates": [
+      {
+        "name": "Dan Patrick",
+        "party": "Republican"
+      },
+      {
+        "name": "Vikki Goodwin",
+        "party": "Democrat"
+      }
+    ]
+  },
+  {
+    "race": "Attorney General",
+    "office": "Texas Attorney General",
+    "election_date": "2026-11-03",
+    "candidates": [
+      {
+        "name": "Nathan Sheets",
+        "party": "Republican"
+      },
+      {
+        "name": "Clayton Tucker",
+        "party": "Democrat"
+      }
+    ]
+  }
+]

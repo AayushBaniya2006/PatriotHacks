@@ -1,0 +1,336 @@
+{
+  "id": "pat-dixon",
+  "name": "Pat Dixon",
+  "party": "Libertarian Party",
+  "current_office": "Candidate for Governor of Texas (2026)",
+  "jurisdiction": "Texas",
+  "bio": "Pat Dixon is a Texas-based Libertarian politician and business owner who served two terms on the Lago Vista City Council from 2005 to 2010. He previously served as chair of the Libertarian Party of Texas for 10 years and has run for multiple state and federal offices.",
+  "campaign_website": "https://patdixon.org/",
+  "stances": [
+    {
+      "stance_id": "economy_1783125362958",
+      "issue_id": "economy",
+      "position_label": "Growth through deregulation and tax cuts; markets lead",
+      "position_scalar": 0.1,
+      "summary": "Dixon argues that growth should pay for itself through free-market mechanisms, opposes tax-funded corporate incentives, and emphasizes that those who create resource demand should bear the cost.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "economy_src_0",
+          "type": "official_platform",
+          "title": "Free Market Sustainability",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/free-market-sustainability/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "Free market sustainability means growth pays for itself. It requires those that impact demand for resources to pay for them.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "taxes_1783125362958",
+      "issue_id": "taxes",
+      "position_label": "Lower taxes across the board, including corporations and high earners",
+      "position_scalar": 0,
+      "summary": "Dixon states that no party wants lower taxes more than the Libertarian Party, insists spending cuts must precede tax reductions, and opposes replacing property taxes with higher sales taxes without local control.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "taxes_src_0",
+          "type": "official_platform",
+          "title": "Property Tax",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/property-tax/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "I don’t have to convince you that there is no political party that wants lower taxes than the Libertarian Party.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "debt_spending_1783125362958",
+      "issue_id": "debt_spending",
+      "position_label": "Cut spending significantly to reduce deficits and debt",
+      "position_scalar": 0,
+      "summary": "Dixon pledges to identify specific spending cuts first—citing Texas’ $321 billion budget—and rejects across-the-board cuts without detailing which departments or services would end.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "debt_spending_src_0",
+          "type": "official_platform",
+          "title": "Property Tax",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/property-tax/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "If I am elected governor, I will work on identifying spending cuts first, which will lead to lower taxes.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "education_1783125362958",
+      "issue_id": "education",
+      "position_label": "Universal school choice with vouchers",
+      "position_scalar": 0,
+      "summary": "Dixon strongly supports school choice, endorsing statewide voucher programs where education funding follows students to any school. He criticizes standardized testing mandates and 'Robin Hood' school funding redistribution, citing the Texas voucher plan that accepted 90,000 students as a model to expand rather than restrict.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2026-07-04",
+      "sources": [
+        {
+          "source_id": "education_src_0",
+          "type": "official_platform",
+          "title": "School Choice",
+          "publisher": "Pat Dixon for Governor",
+          "url": "https://patdixon.org/school-choice/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "Ideally, I would like a statewide scholarship. Every child would be given the same amount of money to follow them to any school. This would resolve the Robin Hood (Chapter 41) disputes and remove politically motivated testing mandates.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "education_src_1",
+          "type": "official_platform",
+          "title": "School Choice",
+          "publisher": "Pat Dixon for Governor",
+          "url": "https://patdixon.org/school-choice/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "I support parents being empowered to choose what is best for their kids. That is hard to do when they have no choice.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "immigration_1783125362958",
+      "issue_id": "immigration",
+      "position_label": "Pro-legal pathways, anti-harmful enforcement",
+      "position_scalar": 0.85,
+      "summary": "Dixon supports welcoming peaceful and productive immigrants, criticizes excessive immigration paperwork, and opposes state-level enforcement that harms people. He acknowledges federal responsibility for border enforcement but refuses to participate in policies that harm Texans' life, liberty, and property.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2024",
+      "sources": [
+        {
+          "source_id": "immigration_src_0",
+          "type": "official_platform",
+          "title": "The Border",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/the-border/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "if you are peaceful and productive, welcome",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "immigration_src_1",
+          "type": "official_platform",
+          "title": "The Border",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/the-border/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "it is easier to swim the Rio Grande than climb the mountain of paperwork",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "immigration_src_2",
+          "type": "official_platform",
+          "title": "The Border",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/the-border/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "I would refuse to do so if that meant harming the life, liberty, and property of Texans",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "national_security_1783125362958",
+      "issue_id": "national_security",
+      "position_label": "Civil liberties priority",
+      "position_scalar": 0.9,
+      "summary": "As a Libertarian, Dixon's platform emphasizes protecting civil liberties and limiting government power. His statement that Texans should be able to 'do anything you want as long as you are not harming others' and his refusal to support policies harming 'life, liberty, and property' indicate strong civil liberties prioritization over expanded security powers.",
+      "evidence_type": "official_platform",
+      "confidence": 0.7,
+      "recency": "2024",
+      "sources": [
+        {
+          "source_id": "national_security_src_0",
+          "type": "official_platform",
+          "title": "About Pat",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "Right sizing government means you can do anything you want as long as you are not harming others",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "ai_tech_1783125362958",
+      "issue_id": "ai_tech",
+      "position_label": "Light-touch, voluntary standards",
+      "position_scalar": 0.1,
+      "summary": "Dixon opposes new AI mandates, arguing private-sector adoption of voluntary standards is preferable to regulation that could slow innovation.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-01-15",
+      "sources": [
+        {
+          "source_id": "ai_tech_src_0",
+          "type": "official_platform",
+          "title": "AI",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/ai/",
+          "published_at": "2024-01-15",
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "Government should avoid mandates and instead allow companies to adopt voluntary standards … heavy regulation risks stifling innovation.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "privacy_1783125362958",
+      "issue_id": "privacy",
+      "position_label": "Market-based, limited federal role",
+      "position_scalar": 0.2,
+      "summary": "Dixon favors industry self-regulation and voluntary privacy commitments over new federal data-protection statutes.",
+      "evidence_type": "official_platform",
+      "confidence": 0.8,
+      "recency": "2024-01-15",
+      "sources": [
+        {
+          "source_id": "privacy_src_0",
+          "type": "official_platform",
+          "title": "AI",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/ai/",
+          "published_at": "2024-01-15",
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "Companies should adopt voluntary standards … rather than imposing new federal rules.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "elections_1783125362958",
+      "issue_id": "elections",
+      "position_label": "Paper-ballot integrity, local option for Approval Voting",
+      "position_scalar": 0.4,
+      "summary": "Dixon supports maintaining voter-ID rules, paper ballots, and hand audits, while also endorsing local adoption of Approval Voting to reduce negative campaigning.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-01-15",
+      "sources": [
+        {
+          "source_id": "elections_src_0",
+          "type": "official_platform",
+          "title": "Election Integrity",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/election-integrity/",
+          "published_at": "2024-01-15",
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "we need to know that voters have the residency and legal status to register … elections in Texas are conducted properly and the results are legitimate.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "elections_src_1",
+          "type": "official_platform",
+          "title": "Approval Voting",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/approval-voting/",
+          "published_at": "2024-01-15",
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "As governor of Texas, I would support the ability for cities to use better voting systems. My favorite system is Approval Voting.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "ethics_1783125362958",
+      "issue_id": "ethics",
+      "position_label": "Broad libertarian reforms, no specific stock-trading ban",
+      "position_scalar": 0.35,
+      "summary": "Dixon calls for \"non-partisan redistricting\" and reducing lobbyist influence but does not detail bans on legislator stock trading or term limits.",
+      "evidence_type": "official_platform",
+      "confidence": 0.6,
+      "recency": "2024-01-15",
+      "sources": [
+        {
+          "source_id": "ethics_src_0",
+          "type": "official_platform",
+          "title": "Non-Partisan Redistricting",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/non-partisan-redistricting/",
+          "published_at": "2024-01-15",
+          "retrieved_at": "2026-07-04T00:35:36.033Z",
+          "primary_source": true,
+          "quote": "gerrymandering … concentrates power in the hands of party bosses rather than voters.",
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ],
+  "unknowns": [
+    "inflation",
+    "jobs",
+    "healthcare",
+    "crime",
+    "housing",
+    "climate",
+    "energy",
+    "social_security",
+    "medicare_medicaid",
+    "abortion",
+    "guns",
+    "civil_rights",
+    "lgbtq",
+    "foreign_policy",
+    "defense",
+    "trade",
+    "infrastructure",
+    "small_business",
+    "labor",
+    "judiciary"
+  ],
+  "contradictions": [
+    {
+      "issue_id": "taxes",
+      "description": "The stance favors lower taxes but says spending cuts must come before tax reductions, which can conflict with a simple low-taxes-at-all-costs framing.",
+      "sources": []
+    },
+    {
+      "issue_id": "education",
+      "description": "The label says universal school choice with vouchers, but the summary also includes opposition to centralized testing and school-funding redistribution, mixing school-choice and funding-reform positions.",
+      "sources": []
+    }
+  ],
+  "source_coverage_score": 0.3333333333333333,
+  "researched_at": "2026-07-04T00:35:36.033Z",
+  "research_status": "complete"
+}
