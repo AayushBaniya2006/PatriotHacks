@@ -1,0 +1,4588 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/wv.csv",
+  "state": "WV",
+  "politicians": [
+    {
+      "politician_id": "burkhammer-adam-wv-hd64",
+      "name": "Adam Burkhammer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-64)",
+      "state": "WV",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/76544899-58ec-4065-a3e8-4a4d8a12b4eb"
+      },
+      "contact": {
+        "email": "adam.burkhammer@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Burkhammer"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/burkhammer_adam.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adam_Burkhammer",
+        "https://en.wikipedia.org/wiki/Adam_Burkhammer",
+        "https://justfacts.votesmart.org/candidate/190582/adam-burkhammer",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Burkhammer",
+        "https://www.linkedin.com/in/adam-burkhammer-a0165a7b",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Burkhammer",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "vance-adam-wv-hd35",
+      "name": "Adam Vance",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-35)",
+      "state": "WV",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c15b4eb1-1dc4-498f-9929-43ff34445317"
+      },
+      "contact": {
+        "email": "adam.vance@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Vance"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/vance_adam.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adam_Vance",
+        "https://en.wikipedia.org/wiki/Adam_Vance",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Vance",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "grady-amy-wv-sd4",
+      "name": "Amy Grady",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-4)",
+      "state": "WV",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/57c08164-a673-4269-84d9-6017e740eaac"
+      },
+      "contact": {
+        "email": "amy.grady@wvsenate.gov",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Grady"
+      },
+      "bio": {
+        "birth_date": "1979-10-15",
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/senate/grady_amy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Amy_Nichole_Grady",
+        "https://en.wikipedia.org/wiki/Amy_Grady",
+        "https://justfacts.votesmart.org/candidate/biography/184289/amy-nichole-grady",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Grady",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Grady",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "shamblin-andy-wv-hd59",
+      "name": "Andy Shamblin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-59)",
+      "state": "WV",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e6deff1e-fb70-4bf0-a2b6-9c30567fcd9d"
+      },
+      "contact": {
+        "email": "andy.shamblin@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Shamblin"
+      },
+      "bio": {
+        "birth_date": "1990-05-25",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/shamblin_andy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Andy_Shamblin",
+        "https://en.wikipedia.org/wiki/Andy_Shamblin",
+        "https://www.linkedin.com/in/andy-shamblin-902892ab",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Shamblin",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hamilton-anitra-wv-hd81",
+      "name": "Anitra Hamilton",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-81)",
+      "state": "WV",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86a1fdf7-e6af-41b4-8d69-0d0815fc9512"
+      },
+      "contact": {
+        "email": "anitra.hamilton@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hamilton"
+      },
+      "bio": {
+        "birth_date": "1977-06-20",
+        "gender": "Female"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/hamilton_anitra.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anitra_Hamilton",
+        "https://en.wikipedia.org/wiki/Anitra_Hamilton",
+        "https://justfacts.votesmart.org/candidate/212180/anitra-hamilton",
+        "https://www.linkedin.com/in/anitra-hamilton-65054b335",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hamilton",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "charnock-anne-wv-sd17",
+      "name": "Anne Charnock",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-17)",
+      "state": "WV",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37bf9de9-84b5-4983-8742-a5c3eeeca64a"
+      },
+      "contact": {
+        "email": "anne.charnock@wvsenate.gov",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Charnock"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/charnock_anne.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anne_Charnock",
+        "https://en.wikipedia.org/wiki/Anne_Charnock_(politician)",
+        "https://justfacts.votesmart.org/candidate/220790/anne-charnock",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Charnock",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "queen-ben-wv-sd12",
+      "name": "Ben Queen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-12)",
+      "state": "WV",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de50d28d-6a58-4244-8c74-36ca3f41767a"
+      },
+      "contact": {
+        "email": "ben.queen@wvsenate.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Queen"
+      },
+      "bio": {
+        "birth_date": "1995-02-07",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2023/senate/queen_ben.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ben_Queen",
+        "https://en.wikipedia.org/wiki/Ben_Queen_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/167434/ben-queen",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Queen",
+        "https://www.linkedin.com/in/ben-queen-81b44634",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Queen",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Queen",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "kelly-betsy-wv-hd9",
+      "name": "Betsy Kelly",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-9)",
+      "state": "WV",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ffd4b452-510d-48f0-ac07-51af538b46f0"
+      },
+      "contact": {
+        "email": "betsy.kelly@wvhouse.gov",
+        "district_voice": "843-685-3544",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Kelly"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/kelly_betsy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Betsy_Kelly",
+        "https://en.wikipedia.org/wiki/Betsy_Kelly",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Kelly",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "bell-bill-wv-hd8",
+      "name": "Bill Bell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-8)",
+      "state": "WV",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d4f0511-706a-406b-9259-05c4008d8b64"
+      },
+      "contact": {
+        "email": "bill.bell@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Bell"
+      },
+      "bio": {
+        "birth_date": "1987-04-18",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/bell_bill.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bill_Bell_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Bill_Bell_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/225189/william-bell",
+        "https://www.linkedin.com/in/billbell87",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Bell",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "flanigan-bill-wv-hd4",
+      "name": "Bill Flanigan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-4)",
+      "state": "WV",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/84ae4ee5-01d1-402d-8267-787a78dd58e5"
+      },
+      "contact": {
+        "email": "bill.flanigan@wvhouse.gov",
+        "district_voice": "304-650-2550",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Flanigan"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/flanigan_bill.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bill_Flanigan",
+        "https://en.wikipedia.org/wiki/Bill_Flanigan",
+        "https://justfacts.votesmart.org/candidate/148617/william-flanigan",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Flanigan",
+        "https://www.linkedin.com/in/bill-flanigan-a48b36262",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Flanigan",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hamilton-bill-wv-sd11",
+      "name": "Bill Hamilton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-11)",
+      "state": "WV",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8bd21671-34c1-4ba3-aced-0dcaa110029c"
+      },
+      "contact": {
+        "email": "bill.hamilton@wvsenate.gov",
+        "district_voice": "304-472-1966",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Hamilton"
+      },
+      "bio": {
+        "birth_date": "1950-07-14",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/senate/hamilton_bill.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Hamilton",
+        "https://en.wikipedia.org/wiki/Bill_Hamilton_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/52422/bill-hamilton",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Hamilton",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Hamilton",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "ridenour-bill-wv-hd100",
+      "name": "Bill Ridenour",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-100)",
+      "state": "WV",
+      "district": "HD-100",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ad2e5607-a6ef-4458-88fc-bea91da19ac6"
+      },
+      "contact": {
+        "email": "bill.ridenour@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Ridenour"
+      },
+      "bio": {
+        "birth_date": "1958-05-07",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/ridenour_bill.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Ridenour",
+        "https://en.wikipedia.org/wiki/William_Ridenour",
+        "https://justfacts.votesmart.org/candidate/biography/201653/william-ridenour",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Ridenour",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "roop-bill-wv-hd44",
+      "name": "Bill Roop",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-44)",
+      "state": "WV",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9f35a509-bd40-4ed2-8792-407169b7a944"
+      },
+      "contact": {
+        "email": "bill.roop@wvhouse.gov",
+        "district_voice": "304-573-5065",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Roop"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/roop_carl.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carl_Roop_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Carl_%22Bill%22_Roop",
+        "https://justfacts.votesmart.org/candidate/214494/carl-roop",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Roop",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "fehrenbacher-bob-wv-hd11",
+      "name": "Bob Fehrenbacher",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-11)",
+      "state": "WV",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a70a295b-82a5-44a0-ba22-a462823f7abb"
+      },
+      "contact": {
+        "email": "bob.fehrenbacher@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Fehrenbacher"
+      },
+      "bio": {
+        "birth_date": "1957-11-25",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/fehrenbacher_bob.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bob_Fehrenbacher",
+        "https://en.wikipedia.org/wiki/Bob_Fehrenbacher",
+        "https://justfacts.votesmart.org/candidate/201629/bob-fehrenbacher",
+        "https://www.linkedin.com/in/robert-fehrenbacher-941b164",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Fehrenbacher",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "helton-brian-wv-sd9",
+      "name": "Brian Helton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-9)",
+      "state": "WV",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be5e24ac-6372-4364-a9b0-2e9b33a1a234"
+      },
+      "contact": {
+        "email": "brian.helton@wvsenate.gov",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Helton"
+      },
+      "bio": {
+        "birth_date": "1970-07-27",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/helton_brian.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Helton",
+        "https://en.wikipedia.org/wiki/Brian_Helton",
+        "https://justfacts.votesmart.org/candidate/214461/brian-helton",
+        "https://www.linkedin.com/in/brianh88",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Helton",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-bryan-wv-hd73",
+      "name": "Bryan Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-73)",
+      "state": "WV",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9cdbf48f-3fd5-4147-9f26-a78632d99929"
+      },
+      "contact": {
+        "email": "bryan.smith@wvhouse.gov",
+        "district_voice": "304-709-0164",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Smith,%20B."
+      },
+      "bio": {
+        "birth_date": "1974-06-20",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/smith_bryan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bryan_Smith_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Bryan_Smith_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/214517/bryan-smith",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Smith,%20B.",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "ward-bryan-wv-hd86",
+      "name": "Bryan Ward",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-86)",
+      "state": "WV",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6e588e9a-4d48-444d-92b4-629e00900440"
+      },
+      "contact": {
+        "email": "bryan.ward@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Ward%2C+B."
+      },
+      "bio": {
+        "birth_date": "1965-09-15",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/ward_bryan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bryan_Ward",
+        "https://en.wikipedia.org/wiki/Bryan_Ward_(politician)",
+        "https://justfacts.votesmart.org/candidate/190632/bryan-ward",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Ward%2C+B.",
+        "https://www.linkedin.com/in/bryan-ward-790b28b3",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Ward",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Ward,%20B.",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "martin-robbie-wv-hd65",
+      "name": "Robbie Martin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-65)",
+      "state": "WV",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aa01a651-9834-4b98-b9c3-25aee388087a"
+      },
+      "contact": {
+        "email": "carl.martin@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Martin"
+      },
+      "bio": {
+        "birth_date": "1991-04-08",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2019/house/martin_carl.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carl_Martin_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Carl_Martin_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/177772/carl-martin",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Martin",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Martin%2C+C.",
+        "https://www.linkedin.com/in/carlrmartin09",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Martin",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "clements-charles-wv-sd2",
+      "name": "Charles Clements",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-2)",
+      "state": "WV",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8941d02d-cee0-47a4-9c68-de73382b20af"
+      },
+      "contact": {
+        "email": "charles.clements@wvsenate.gov",
+        "district_voice": "304-455-5339",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Clements"
+      },
+      "bio": {
+        "birth_date": "1943-08-21",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/senate/clements_charles.jpg",
+      "sources": [
+        "https://ballotpedia.org/Charles_Clements",
+        "https://en.wikipedia.org/wiki/Charles_H._Clements",
+        "https://justfacts.votesmart.org/candidate/biography/7578/charles-clements",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Clements",
+        "https://www.linkedin.com/in/charles-clements-4271181aa",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Clements",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "sheedy-chuck-wv-hd7",
+      "name": "Chuck Sheedy",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-7)",
+      "state": "WV",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/338acc2a-d910-4c29-aa94-bf39fbebdeec"
+      },
+      "contact": {
+        "email": "charles.sheedy@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Sheedy"
+      },
+      "bio": {
+        "birth_date": "1958-02-23",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/sheedy_charles.jpg",
+      "sources": [
+        "https://ballotpedia.org/Charles_Sheedy",
+        "https://en.wikipedia.org/wiki/Charles_Sheedy_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/188995/charles-sheedy-sr",
+        "https://www.linkedin.com/in/chuck-sheedy-home-sheedy-45472759",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Sheedy",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "anders-chris-wv-hd97",
+      "name": "Chris Anders",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-97)",
+      "state": "WV",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7ad5da9a-c2b3-4f9b-b62c-6cd7f0564f43"
+      },
+      "contact": {
+        "email": "chris.anders@wvhouse.gov",
+        "district_voice": "304-620-4506",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Anders"
+      },
+      "bio": {
+        "birth_date": "1971-08-22",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/anders_chris.jpg",
+      "sources": [
+        "https://ballotpedia.org/S._Chris_Anders",
+        "https://en.wikipedia.org/wiki/S._Chris_Anders",
+        "https://justfacts.votesmart.org/candidate/biography/214534/s-anders",
+        "https://www.linkedin.com/in/s-chris-anders-597b2554",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Anders",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "phillips-chris-wv-hd68",
+      "name": "Chris Phillips",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-68)",
+      "state": "WV",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eb6d633a-5526-413b-872d-bd36f4d9a906"
+      },
+      "contact": {
+        "email": "chris.phillips@wvhouse.gov",
+        "district_voice": "304-614-3246",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Phillips"
+      },
+      "bio": {
+        "birth_date": "1969-10-08",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2019/house/phillips_chris.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Phillips_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Chris_Phillips_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/177776/chris-phillips",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Phillips",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Phillips",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "rose-chris-wv-sd2",
+      "name": "Chris Rose",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-2)",
+      "state": "WV",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9c82f11d-28f2-4167-b10c-26815533f73a"
+      },
+      "contact": {
+        "email": "chris.rose@wvsenate.gov",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Rose"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/rose_chris.jpg",
+      "sources": [
+        "https://ballotpedia.org/Christopher_Rose",
+        "https://en.wikipedia.org/wiki/Chris_Rose_(politician)",
+        "https://justfacts.votesmart.org/candidate/214456/chris-rose",
+        "https://www.linkedin.com/in/chrisrosewv",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Rose",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "toney-chris-wv-hd43",
+      "name": "Chris Toney",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-43)",
+      "state": "WV",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cdd73d73-98d4-43f0-9eec-a030c4ce080f"
+      },
+      "contact": {
+        "email": "chris.toney@wvhouse.gov",
+        "district_voice": "304-228-3760",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Toney"
+      },
+      "bio": {
+        "birth_date": "1988-02-13",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/toney_christopher.jpg",
+      "sources": [
+        "https://ballotpedia.org/Christopher_Wayne_Toney",
+        "https://en.wikipedia.org/wiki/Chris_Toney",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Toney",
+        "https://www.linkedin.com/in/christopher-toney-803040178",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Toney",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "horst-chuck-wv-hd95",
+      "name": "Chuck Horst",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-95)",
+      "state": "WV",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1f91d255-ce76-40b4-86fd-f9412407f869"
+      },
+      "contact": {
+        "email": "charles.horst@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Horst"
+      },
+      "bio": {
+        "birth_date": "1958-09-20",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/horst_chuck.jpg",
+      "sources": [
+        "https://ballotpedia.org/Charles_Horst_Sr.",
+        "https://en.wikipedia.org/wiki/Chuck_Horst",
+        "https://justfacts.votesmart.org/candidate/biography/190638/charles-horst-sr",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Horst",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Horst",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "riley-clay-wv-hd72",
+      "name": "Clay Riley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-72)",
+      "state": "WV",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cf728c9e-40e8-4f73-a5fa-0d46844aa38e"
+      },
+      "contact": {
+        "email": "clay.riley@wvhouse.gov",
+        "district_voice": "304-844-5679",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Riley"
+      },
+      "bio": {
+        "birth_date": "1975-12-21",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/house/riley_clay.jpg",
+      "sources": [
+        "https://ballotpedia.org/Clay_Riley",
+        "https://en.wikipedia.org/wiki/Clay_Riley",
+        "https://justfacts.votesmart.org/candidate/184303/clay-riley",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Riley",
+        "https://www.linkedin.com/in/clay-riley-1198925b",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Riley",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hart-craig-wv-sd6",
+      "name": "Craig Hart",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-6)",
+      "state": "WV",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e304d393-2b0a-45c3-9f59-98455e0d73a0"
+      },
+      "contact": {
+        "email": "craig.hart@wvsenate.gov",
+        "website": "https://www.wvlegislature.gov/senate1/lawmaker.cfm?member=Senator%20Hart"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/hart_craig.jpg",
+      "sources": [
+        "https://ballotpedia.org/Craig_Hart",
+        "https://en.wikipedia.org/wiki/Craig_Hart",
+        "https://justfacts.votesmart.org/candidate/biography/214459/craig-hart",
+        "https://www.wvlegislature.gov/senate1/lawmaker.cfm?member=Senator%20Hart",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "jennings-buck-wv-hd84",
+      "name": "Buck Jennings",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-84)",
+      "state": "WV",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/34e1e6dd-469b-4e3d-9cc5-604bffe79730"
+      },
+      "contact": {
+        "email": "buck.jennings@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Jennings"
+      },
+      "bio": {
+        "birth_date": "1951-09-03",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/jennings_d.jpg",
+      "sources": [
+        "https://ballotpedia.org/D.R._Jennings",
+        "https://en.wikipedia.org/wiki/D._Rolland_Jennings",
+        "https://justfacts.votesmart.org/candidate/biography/167574/buck-jennings",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Jennings",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Jennings",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "ferrell-dana-wv-hd60",
+      "name": "Dana Ferrell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-60)",
+      "state": "WV",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6c7fa52c-c313-4f10-aab9-ba9cc0269743"
+      },
+      "contact": {
+        "email": "dana.ferrell@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Ferrell"
+      },
+      "bio": {
+        "birth_date": "1961-04-17",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/ferrell_dana.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dana_Ferrell",
+        "https://en.wikipedia.org/wiki/Dana_Ferrell",
+        "https://justfacts.votesmart.org/candidate/184300/dana-ferrell",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Ferrell",
+        "https://www.linkedin.com/in/dana-ferrell-54469432",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Ferrell",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "linville-daniel-wv-hd22",
+      "name": "Daniel Linville",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-22)",
+      "state": "WV",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/32c4e5cf-81f5-4564-bb9b-568d13156dec"
+      },
+      "contact": {
+        "email": "daniel.linville@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Linville"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/linville_daniel.jpg",
+      "sources": [
+        "https://ballotpedia.org/Daniel_Linville",
+        "https://en.wikipedia.org/wiki/Daniel_Linville",
+        "https://justfacts.votesmart.org/candidate/biography/177708/daniel-linville",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Linville",
+        "https://www.linkedin.com/in/daniel-linville-8b879a184",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Linville",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "thorne-darren-wv-sd15",
+      "name": "Darren Thorne",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-15)",
+      "state": "WV",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/60b7f294-2c42-40ab-ab7d-2a639e5be5e5"
+      },
+      "contact": {
+        "email": "darren.thorne@wvsenate.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Thorne"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/thorne_darren.jpg",
+      "sources": [
+        "https://ballotpedia.org/Darren_Thorne",
+        "https://en.wikipedia.org/wiki/Darren_Thorne",
+        "https://justfacts.votesmart.org/candidate/201690/darren-thorne",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Thorne",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Thorne",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "foggin-dave-wv-hd14",
+      "name": "Dave Foggin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-14)",
+      "state": "WV",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9ad2e11c-daf4-4f33-9c2d-0075beaeada8"
+      },
+      "contact": {
+        "email": "dave.foggin@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Foggin"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/foggin_dave.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dave_Foggin",
+        "https://en.wikipedia.org/wiki/Dave_Foggin",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Foggin",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "mccormick-dave-wv-hd82",
+      "name": "Dave McCormick",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-82)",
+      "state": "WV",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/297732cd-3e12-4ce1-b6ca-7e046d8b3e46"
+      },
+      "contact": {
+        "email": "david.mccormick@wvhouse.gov",
+        "district_voice": "304-435-5220",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20McCormick"
+      },
+      "bio": {
+        "birth_date": "1969-01-11",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/mccormick_david.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_McCormick_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/David_McCormick_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/214522/david-mccormick",
+        "https://www.linkedin.com/in/david-mccormick-a0ba92172",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20McCormick",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "cannon-david-wv-hd89",
+      "name": "David Cannon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-89)",
+      "state": "WV",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/79e71ddf-33fc-4e28-8324-dd52aaa0e653"
+      },
+      "contact": {
+        "email": "david.cannon@wvhouse.gov",
+        "district_voice": "304-663-8489",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Cannon,%20D."
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/cannon_david.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Cannon_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/David_Cannon_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/220818/david-cannon",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Cannon,%20D.",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "pritt-elliott-wv-hd50",
+      "name": "Elliott Pritt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-50)",
+      "state": "WV",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d7f119af-3e41-40a1-9541-bfa1a1e7a9b4"
+      },
+      "contact": {
+        "email": "elliott.pritt@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Pritt"
+      },
+      "bio": {
+        "birth_date": "1990-03-23",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/pritt_david.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Pritt",
+        "https://en.wikipedia.org/wiki/Elliott_Pritt",
+        "https://justfacts.votesmart.org/candidate/biography/184299/elliot-pritt",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Pritt",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Pritt,%20E.",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "green-david-wv-hd36",
+      "name": "David Green",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-36)",
+      "state": "WV",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b0526275-df8b-4f42-b16b-064aa721a858"
+      },
+      "contact": {
+        "email": "david.green@wvhouse.gov",
+        "district_voice": "304-938-7065",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Green"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/green_david.jpg",
+      "sources": [
+        "https://ballotpedia.org/S._David_Green",
+        "https://en.wikipedia.org/wiki/Stephen_%22David%22_Green",
+        "https://justfacts.votesmart.org/candidate/214492/david-green",
+        "https://www.linkedin.com/in/s-david-green",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Green",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "jeffries-dean-wv-hd61",
+      "name": "Dean Jeffries",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-61)",
+      "state": "WV",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/94a511d8-31ee-4f7d-9227-005b143f9c47"
+      },
+      "contact": {
+        "email": "dean.jeffries@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Jeffries"
+      },
+      "bio": {
+        "birth_date": "1971-09-29",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2022/house/jeffries_dean.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dean_Jeffries",
+        "https://en.wikipedia.org/wiki/Dean_Jeffries_(politician)",
+        "https://justfacts.votesmart.org/candidate/177753/dean-jeffries",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Jeffries",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Jeffries%2C+D.",
+        "https://www.linkedin.com/in/dean-jeffries-b5216565",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Jeffries",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Jeffries,%20D.",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "bennett-donald-wv-hd94",
+      "name": "Donald Bennett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-94)",
+      "state": "WV",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/43f0eeae-cf06-4d8b-a568-03e63c72b796"
+      },
+      "contact": {
+        "email": "donaldlee.bennett@wvhouse.gov",
+        "district_voice": "304-283-8585",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Bennett"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/bennett_donald.jpg",
+      "sources": [
+        "https://ballotpedia.org/Donald_Bennett",
+        "https://en.wikipedia.org/wiki/Donald_Bennett_(West_Virginia_politician)",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Bennett",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-doug-wv-hd39",
+      "name": "Doug Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-39)",
+      "state": "WV",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/70ac0a53-79d8-426b-950b-83e9be022bf3"
+      },
+      "contact": {
+        "email": "doug.smith@wvhouse.gov",
+        "district_voice": "678-656-8233",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Smith"
+      },
+      "bio": {
+        "birth_date": "1967-01-01",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/smith_doug.jpg",
+      "sources": [
+        "https://ballotpedia.org/Doug_Smith_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Doug_Smith_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/190481/doug-smith",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Smith",
+        "https://www.linkedin.com/in/douglas-smith-92459936",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Smith",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Smith,%20D.",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "coop-gonz-lez-el-as-wv-hd67",
+      "name": "Elías Coop-González",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-67)",
+      "state": "WV",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0714e7e4-9da4-46bf-a8f5-e48be1af2242"
+      },
+      "contact": {
+        "email": "elias.coop-gonzalez@wvhouse.gov",
+        "district_voice": "304-801-3303",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Coop-Gonzalez"
+      },
+      "bio": {
+        "birth_date": "2002-05-02",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/coopgonzalez_elias.jpg",
+      "sources": [
+        "https://ballotpedia.org/Elias_Coop-Gonzalez",
+        "https://en.wikipedia.org/wiki/Elias_Coop-Gonzalez",
+        "https://justfacts.votesmart.org/candidate/201746/elias-coop-gonzalez",
+        "https://www.linkedin.com/in/elias-coop-gonzalez-5508551aa",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Coop-Gonzalez",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "brooks-eric-wv-hd45",
+      "name": "Eric Brooks",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-45)",
+      "state": "WV",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/db5d813b-3cd2-4a6d-b656-b48624f61094"
+      },
+      "contact": {
+        "email": "eric.brooks@wvhouse.gov",
+        "district_voice": "304-877-8298",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Brooks"
+      },
+      "bio": {
+        "birth_date": "1971-12-24",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/brooks_eric.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eric_Brooks",
+        "https://en.wikipedia.org/wiki/Eric_Brooks_(politician)",
+        "https://justfacts.votesmart.org/candidate/201758/eric-brooks",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Brooks",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "tarr-eric-wv-sd4",
+      "name": "Eric Tarr",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-4)",
+      "state": "WV",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/18d03332-9bd9-4070-9101-6cf93ab2105e"
+      },
+      "contact": {
+        "email": "eric.tarr@wvsenate.gov",
+        "district_voice": "304-202-4276",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Tarr"
+      },
+      "bio": {
+        "birth_date": "1972-09-10",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/senate/tarr_eric.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eric_Tarr",
+        "https://en.wikipedia.org/wiki/Eric_Tarr",
+        "https://justfacts.votesmart.org/candidate/biography/177679/eric-tarr",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Tarr",
+        "https://www.linkedin.com/in/eric-tarr-pt-dpt-mba-ocs-49b06b36",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Tarr",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-erica-wv-hd15",
+      "name": "Erica Moore",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-15)",
+      "state": "WV",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/74fee589-c9e9-4dd7-a719-d9b165b2b2c7"
+      },
+      "contact": {
+        "email": "erica.moore@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Moore"
+      },
+      "bio": {
+        "birth_date": "1965-01-12",
+        "gender": "Female"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/moore_erica.jpg",
+      "sources": [
+        "https://ballotpedia.org/Erica_Moore_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Erica_Moore_(politician)",
+        "https://justfacts.votesmart.org/candidate/212985/erica-moore",
+        "https://www.linkedin.com/in/erica-j-moore-a633b6142",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Moore",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hansen-evan-wv-hd79",
+      "name": "Evan Hansen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-79)",
+      "state": "WV",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/10dbdccd-3754-49b8-ae28-8f75c4d6936f"
+      },
+      "contact": {
+        "email": "evan.hansen@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Hansen"
+      },
+      "bio": {
+        "birth_date": "1966-07-22",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2019/house/hansen_evan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Evan_Hansen",
+        "https://en.wikipedia.org/wiki/Evan_Hansen_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/167440/evan-hansen",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Hansen",
+        "https://www.linkedin.com/in/evan-hansen-2374215",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hansen",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "worrell-evan-wv-hd23",
+      "name": "Evan Worrell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-23)",
+      "state": "WV",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b875b7d6-4941-42a6-bcdf-c5da19bf0ced"
+      },
+      "contact": {
+        "email": "evan.worrell@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Worrell"
+      },
+      "bio": {
+        "birth_date": "1979-09-26",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/worrell_evan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Evan_Worrell",
+        "https://en.wikipedia.org/wiki/Evan_Worrell",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Worrell",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Worrell",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "howell-gary-wv-hd87",
+      "name": "Gary Howell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-87)",
+      "state": "WV",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/405fa851-873f-4895-acd5-d394fbb06be3"
+      },
+      "contact": {
+        "email": "gary.howell@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Howell"
+      },
+      "bio": {
+        "birth_date": "1966-11-01",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/howell_gary.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gary_Howell_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Gary_Howell_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/102188/gary-howell",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Howell",
+        "https://www.linkedin.com/in/gary-howell-42425610",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Howell",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Howell,%20G.",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate+Howell",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "chiarelli-geno-wv-hd78",
+      "name": "Geno Chiarelli",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-78)",
+      "state": "WV",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/409397ae-ceea-4b1b-bce5-b042af057232"
+      },
+      "contact": {
+        "email": "geno.chiarelli@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Chiarelli"
+      },
+      "bio": {
+        "birth_date": "1994-12-07",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/chiarelli_geno.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eugene_Chiarelli",
+        "https://en.wikipedia.org/wiki/Geno_Chiarelli",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Chiarelli",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-george-wv-hd90",
+      "name": "George Miller",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-90)",
+      "state": "WV",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5bb7ff93-88f4-42ec-ba11-6921dead66a1"
+      },
+      "contact": {
+        "email": "george.miller@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Miller"
+      },
+      "bio": {
+        "birth_date": "1952-11-27",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/miller_george.jpg",
+      "sources": [
+        "https://ballotpedia.org/George_Miller_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/George_Miller_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/190634/george-miller",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Miller",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Miller",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "street-george-wv-hd83",
+      "name": "George Street",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-83)",
+      "state": "WV",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2ee0335d-f067-4ca3-99ce-e10944fa8875"
+      },
+      "contact": {
+        "email": "george.street@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Street"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/street_george.jpg",
+      "sources": [
+        "https://ballotpedia.org/George_Street",
+        "https://en.wikipedia.org/wiki/George_Street_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/201696/george-street",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Street",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "jeffries-glenn-wv-sd8",
+      "name": "Glenn Jeffries",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-8)",
+      "state": "WV",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de2f5e4b-192a-463d-91b0-73f212e8f953"
+      },
+      "contact": {
+        "email": "glenn.jeffries@wvsenate.gov",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Jeffries"
+      },
+      "bio": {
+        "birth_date": "1961-07-15",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/senate/jeffries_glenn.jpg",
+      "sources": [
+        "https://ballotpedia.org/Glenn_Jeffries",
+        "https://en.wikipedia.org/wiki/Glenn_Jeffries",
+        "https://justfacts.votesmart.org/candidate/167265/glenn-jeffries",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Jeffries",
+        "https://www.linkedin.com/in/glenn-jeffries-281bb4338",
+        "https://www.linkedin.com/in/glenn-jeffries-574086aa",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Jeffries",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "watt-greg-wv-hd48",
+      "name": "Greg Watt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-48)",
+      "state": "WV",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c66e0d8a-9d20-47ce-8d45-50d4b5aaa0d3"
+      },
+      "contact": {
+        "email": "gregory.watt@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Watt"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/watt_gregory.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gregory_Watt",
+        "https://en.wikipedia.org/wiki/Gregory_Watt",
+        "https://justfacts.votesmart.org/candidate/biography/229610/gregory-watt",
+        "https://www.linkedin.com/in/gregory-watt-6ab746b",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Watt",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "ward-guy-wv-hd74",
+      "name": "Guy Ward",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-74)",
+      "state": "WV",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1495b97d-e012-4f6f-84b9-3e1d67b8a016"
+      },
+      "contact": {
+        "email": "guy.ward@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Ward"
+      },
+      "bio": {
+        "birth_date": "1956-01-10",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/ward_guy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Guy_Ward",
+        "https://en.wikipedia.org/wiki/Guy_Ward",
+        "https://justfacts.votesmart.org/candidate/143740/guy-ward",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Ward",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Ward%2C+G.",
+        "https://www.linkedin.com/in/guy-ward-a8587965",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Ward,%20G.",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "dillon-corby-wv-hd29",
+      "name": "Corby Dillon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-29)",
+      "state": "WV",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e05b927b-a702-4143-87b2-79a8c81d4eee"
+      },
+      "contact": {
+        "email": "henry.dillon@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Dillon"
+      },
+      "bio": {
+        "birth_date": "1981-08-08",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/dillon_henry.jpg",
+      "sources": [
+        "https://ballotpedia.org/Henry_C._Dillon",
+        "https://en.wikipedia.org/wiki/Henry_Dillon_(American_politician)",
+        "https://justfacts.votesmart.org/candidate/167322/henry-dillon",
+        "https://www.linkedin.com/in/henrydillon",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Dillon",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "lewis-hollis-wv-hd57",
+      "name": "Hollis Lewis",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-57)",
+      "state": "WV",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/68163122-16de-4528-8eda-fd1f9783c45d"
+      },
+      "contact": {
+        "email": "hollis.lewis@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Lewis"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2023/house/lewis_hollis.jpg",
+      "sources": [
+        "https://ballotpedia.org/Hollis_Lewis",
+        "https://en.wikipedia.org/wiki/Hollis_Lewis",
+        "https://justfacts.votesmart.org/candidate/biography/212986/hollis-lewis",
+        "https://www.linkedin.com/in/hollis-t-lewis-ii-jd-719a46a3",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Lewis",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "masters-ian-wv-hd91",
+      "name": "Ian Masters",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-91)",
+      "state": "WV",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f8921713-413e-4f72-8291-464f2cef3f7b"
+      },
+      "contact": {
+        "email": "ian.masters@wvhouse.gov",
+        "district_voice": "304-340-3147",
+        "website": "https://www.wvlegislature.gov/house/lawmaker.cfm?member=Delegate%20Masters"
+      },
+      "bio": {
+        "birth_date": "1986-02-27",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/masters_ian.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ian_Masters",
+        "https://en.wikipedia.org/wiki/Ian_Masters_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/135376/ian-masters",
+        "https://www.linkedin.com/in/ian-masters-65b5998a",
+        "https://www.wvlegislature.gov/house/lawmaker.cfm?member=Delegate%20Masters",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "akers-j-b-wv-hd55",
+      "name": "J.B. Akers",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-55)",
+      "state": "WV",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/33e56ab1-3106-45fa-a992-fab181983a99"
+      },
+      "contact": {
+        "email": "jb.akers@wvhouse.gov",
+        "district_voice": "304-458-3515",
+        "website": "https://www.wvlegislature.gov/house/lawmaker.cfm?member=Delegate%20Akers"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/akers_james.jpg",
+      "sources": [
+        "https://ballotpedia.org/JB_Akers",
+        "https://en.wikipedia.org/wiki/JB_Akers",
+        "https://justfacts.votesmart.org/candidate/214509/jb-akers",
+        "https://www.akerslawoffices.com/attorney-profile/jb-akers",
+        "https://www.linkedin.com/in/jbakers",
+        "https://www.wvlegislature.gov/house/lawmaker.cfm?member=Delegate%20Akers",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "woodrum-jack-wv-sd10",
+      "name": "Jack Woodrum",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-10)",
+      "state": "WV",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b4df4940-ac0e-4e1a-ba3c-940d604b4ad2"
+      },
+      "contact": {
+        "email": "jack.woodrum@wvsenate.gov",
+        "district_voice": "304-660-9241",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Woodrum"
+      },
+      "bio": {
+        "birth_date": "1963-08-04",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/senate/woodrum_jack.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jack_Woodrum",
+        "https://en.wikipedia.org/wiki/Jack_Woodrum",
+        "https://justfacts.votesmart.org/candidate/biography/131522/jack-woodrum",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Woodrum",
+        "https://www.linkedin.com/in/jack-david-woodrum-9a2b73a",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Woodrum",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "cannon-jarred-wv-hd21",
+      "name": "Jarred Cannon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-21)",
+      "state": "WV",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e617259d-e2c9-4043-a759-321c7e3ff7f0"
+      },
+      "contact": {
+        "email": "jarred.cannon@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Cannon"
+      },
+      "bio": {
+        "birth_date": "1997-12-23",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2022/house/cannon_jarred.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jarred_Cannon",
+        "https://en.wikipedia.org/wiki/Jarred_Cannon",
+        "https://justfacts.votesmart.org/candidate/biography/167315/jarred-cannon",
+        "https://www.linkedin.com/in/jarred-c-538001109",
+        "https://www.linkedin.com/in/jarred-cannon-538001109",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Cannon",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Cannon,%20J.",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "barrett-jason-wv-sd16",
+      "name": "Jason Barrett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-16)",
+      "state": "WV",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bcbe03de-3df0-4c07-8973-0304dafa2cb8"
+      },
+      "contact": {
+        "email": "jason.barrett@wvsenate.gov",
+        "district_voice": "304-886-9907",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Barrett"
+      },
+      "bio": {
+        "birth_date": "1982-07-16",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/senate/barrett_jason.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jason_Barrett_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Jason_Barrett_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/117383/jason-barrett",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Barrett",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Barrett",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Barrett",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "taylor-jay-wv-sd14",
+      "name": "Jay Taylor",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-14)",
+      "state": "WV",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a7ae16a1-8a1e-4280-8d00-9125719a893e"
+      },
+      "contact": {
+        "email": "jay.taylor@wvsenate.gov",
+        "district_voice": "304-319-2327",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Taylor"
+      },
+      "bio": {
+        "birth_date": "1973-01-29",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/senate/taylor_jay.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jay_Taylor_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Jay_Taylor_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/52174/john-taylor-jr",
+        "https://www.linkedin.com/in/jay-taylor-0241433b",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Taylor",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "campbell-jeff-wv-hd46",
+      "name": "Jeff Campbell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-46)",
+      "state": "WV",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/81cad520-b015-42c8-b533-64a9e4596197"
+      },
+      "contact": {
+        "email": "jeff.campbell@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Campbell"
+      },
+      "bio": {
+        "birth_date": "1969-02-08",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/campbell_jeff.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Campbell_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Jeff_Campbell_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/177759/jeff-campbell",
+        "https://www.linkedin.com/in/jeff-campbell-1b1a1955",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Campbell",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "eldridge-jeff-wv-hd30",
+      "name": "Jeff Eldridge",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-30)",
+      "state": "WV",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e43a22ad-b630-496b-81f8-6b1f6ceaa13e"
+      },
+      "contact": {
+        "email": "jeff.eldridge@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Eldridge"
+      },
+      "bio": {
+        "birth_date": "1967-01-13",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/eldridge_jeff.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Eldridge",
+        "https://en.wikipedia.org/wiki/Jeff_Eldridge",
+        "https://justfacts.votesmart.org/candidate/biography/135171/jeff-eldridge",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Eldridge",
+        "https://www.linkedin.com/in/jeff-eldridge-5a5a75a5",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Eldridge",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "stephens-jeff-wv-hd6",
+      "name": "Jeff Stephens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-6)",
+      "state": "WV",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0092e49c-3dfe-4a2b-b053-e7a0360accf1"
+      },
+      "contact": {
+        "email": "jeffrey.stephens@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Stephens"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2023/house/stephens_jeffrey.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeffrey_Stephens",
+        "https://en.wikipedia.org/wiki/Jeffrey_Stephens",
+        "https://justfacts.votesmart.org/candidate/212873/jeffrey-stephens",
+        "https://www.linkedin.com/in/jeff-stephens-a503641b5",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Stephens",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "butler-jim-wv-hd18",
+      "name": "Jim Butler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-18)",
+      "state": "WV",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/905290bd-c655-4a3d-9961-65a2f9c0e271"
+      },
+      "contact": {
+        "email": "jim.butler@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Butler"
+      },
+      "bio": {
+        "birth_date": "1965-09-18",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/butler_jim.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jim_Butler_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Jim_Butler_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/135172/jim-butler",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Butler",
+        "https://www.linkedin.com/in/jim-butler-6337006a",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Butler",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate+Butler",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "willis-jimmy-wv-hd3",
+      "name": "Jimmy Willis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-3)",
+      "state": "WV",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5a2928e1-3371-480d-be6f-1c3133de4609"
+      },
+      "contact": {
+        "email": "jimmy.willis@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Willis"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/willis_jimmy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jimmy_Willis",
+        "https://en.wikipedia.org/wiki/Jimmy_Willis_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/201626/jimmy-willis",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Willis",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "ellington-joe-wv-hd38",
+      "name": "Joe Ellington",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-38)",
+      "state": "WV",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fe6a6b8e-91f2-427f-9060-2cac2b9eb66c"
+      },
+      "contact": {
+        "email": "joe.ellington@wvhouse.gov",
+        "district_voice": "304-487-6526",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Ellington"
+      },
+      "bio": {
+        "birth_date": "1959-05-12",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2023/house/ellington_joe.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joe_Ellington",
+        "https://en.wikipedia.org/wiki/Joe_Ellington",
+        "https://justfacts.votesmart.org/candidate/biography/58022/joe-ellington-jr",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Ellington",
+        "https://www.linkedin.com/in/joe-ellington-29a61131",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Ellington",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate+Ellington",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "funkhouser-joe-wv-hd98",
+      "name": "Joe Funkhouser",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-98)",
+      "state": "WV",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c93039e0-7c57-4289-9447-466f56bba802"
+      },
+      "contact": {
+        "email": "joe.funkhouser@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Funkhouser"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/funkhouser_joe.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joe_Funkhouser",
+        "https://en.wikipedia.org/wiki/Joe_Funkhouser",
+        "https://justfacts.votesmart.org/candidate/167279/joe-funkhouser",
+        "https://www.linkedin.com/in/joe-funkhouser-0604091",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Funkhouser",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "parsons-joe-wv-hd16",
+      "name": "Joe Parsons",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-16)",
+      "state": "WV",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e2f71bb6-832a-46f3-8247-5e2c16685fe1"
+      },
+      "contact": {
+        "email": "frederick.parsons@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Parsons"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/parsons_frederick.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joe_Parsons_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Joe_Parsons_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/216314/joe-parsons",
+        "https://www.linkedin.com/in/happy-joe-parsons-7b276412",
+        "https://www.linkedin.com/in/joe-parsons-7b276412",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Parsons",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "statler-joe-wv-hd77",
+      "name": "Joe Statler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-77)",
+      "state": "WV",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/79271821-3d79-4f99-bba3-a147779bb3d0"
+      },
+      "contact": {
+        "email": "joe.statler@wvhouse.gov",
+        "district_voice": "304-376-7336",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Statler"
+      },
+      "bio": {
+        "birth_date": "1952-12-08",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/statler_joe.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joe_Statler",
+        "https://en.wikipedia.org/wiki/Joe_Statler",
+        "https://justfacts.votesmart.org/candidate/biography/148623/joseph-statler",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Statler",
+        "https://www.linkedin.com/in/joe-statler-720b4190",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Statler",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "garcia-joey-wv-sd13",
+      "name": "Joey Garcia",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-13)",
+      "state": "WV",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/387d11ce-ecf1-4c80-a338-bd8c86f52004"
+      },
+      "contact": {
+        "email": "joey.garcia@wvsenate.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Garcia"
+      },
+      "bio": {
+        "birth_date": "1983-01-30",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/garcia_joey.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joey_Garcia",
+        "https://en.wikipedia.org/wiki/Joey_Garcia",
+        "https://justfacts.votesmart.org/candidate/biography/190615/joey-garcia",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Garcia",
+        "https://www.linkedin.com/in/joey-garcia-ab4b2431",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Garcia",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Garcia",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "jordan-john-wv-hd42",
+      "name": "John Jordan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-42)",
+      "state": "WV",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/642a1eab-3a94-4d91-b1ff-5fc5e720cb06"
+      },
+      "contact": {
+        "email": "john.jordan@wvhouse.gov",
+        "district_voice": "304-575-2267",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Jordan"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/jordan_john.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Jordan_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/John_Jordan_(West_Virginia_politician)",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Jordan",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hott-john-paul-wv-hd85",
+      "name": "John Paul Hott",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-85)",
+      "state": "WV",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/06c041be-0a45-4bfe-8e2d-49055af1205f"
+      },
+      "contact": {
+        "email": "johnpaul.hott@wvhouse.gov",
+        "district_voice": "304-257-4494",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Hott"
+      },
+      "bio": {
+        "birth_date": "1969-09-23",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/house/hott_john.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Paul_Hott_II",
+        "https://en.wikipedia.org/wiki/John_Paul_Hott",
+        "https://justfacts.votesmart.org/candidate/biography/177788/john-hott-ii",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Hott",
+        "https://www.linkedin.com/in/john-paul-hott-ii-148485a",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hott",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "williams-john-wv-hd80",
+      "name": "John Williams",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-80)",
+      "state": "WV",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2c8a36d4-5afa-4b68-a6a0-1a9b170401b0"
+      },
+      "contact": {
+        "email": "john.williams@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Williams"
+      },
+      "bio": {
+        "birth_date": "1990-05-24",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/house/williams_john.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Williams_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/John_Williams_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/148624/john-williams",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Williams",
+        "https://www.linkedin.com/in/john-williams-12029b99",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Williams",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "kyle-jonathan-wv-hd66",
+      "name": "Jonathan Kyle",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-66)",
+      "state": "WV",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e83c168f-6725-47ea-ac8d-7dbadc6736c7"
+      },
+      "contact": {
+        "email": "jonathan.kyle@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Kyle"
+      },
+      "bio": {
+        "birth_date": "1982-10-05",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/kyle_jonathan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jonathan_B._Kyle",
+        "https://en.wikipedia.org/wiki/Jonathan_Kyle",
+        "https://justfacts.votesmart.org/candidate/167421/jonathan-kyle",
+        "https://www.linkedin.com/in/jonathan-kyle-b6a2b72b",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Kyle",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "pinson-jonathan-wv-hd17",
+      "name": "Jonathan Pinson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-17)",
+      "state": "WV",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a71cd621-aa1e-4338-b0bd-ca9f7a03f667"
+      },
+      "contact": {
+        "email": "jonathan.pinson@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Pinson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/pinson_jonathan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Pinson",
+        "https://en.wikipedia.org/wiki/Jonathan_Pinson",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Pinson",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Pinson",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "bridges-jordan-wv-hd33",
+      "name": "Jordan Bridges",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-33)",
+      "state": "WV",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be682c29-e66f-4a19-89cc-761c60330eea"
+      },
+      "contact": {
+        "email": "jordan.bridges@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Bridges"
+      },
+      "bio": {
+        "birth_date": "1988-03-28",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/house/bridges_jordan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jordan_Bridges_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Jordan_Bridges_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/167262/jordan-bridges",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Bridges",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Bridges",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "maynor-jordan-wv-hd41",
+      "name": "Jordan Maynor",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-41)",
+      "state": "WV",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/487dd54b-3091-4b0e-b798-0df99523b4c6"
+      },
+      "contact": {
+        "email": "jordan.maynor@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Maynor"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/maynor_jordan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jordan_Maynor",
+        "https://en.wikipedia.org/wiki/Jordan_Maynor",
+        "https://justfacts.votesmart.org/candidate/199000/jordan-maynor",
+        "https://www.linkedin.com/in/jordan-maynor-0a528474",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Maynor",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "holstein-josh-wv-hd32",
+      "name": "Josh Holstein",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-32)",
+      "state": "WV",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9d8c89be-2ece-4dff-8a6d-65dccb8e647e"
+      },
+      "contact": {
+        "email": "josh.holstein@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Holstein"
+      },
+      "bio": {
+        "birth_date": "2001-11-02",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/holstein_josh.jpg",
+      "sources": [
+        "https://ballotpedia.org/Josh_Holstein",
+        "https://en.wikipedia.org/wiki/Josh_Holstein",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Holstein",
+        "https://www.linkedin.com/in/josh-holstein-4037b1186",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Holstein",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hess-crouse-kathie-wv-hd19",
+      "name": "Kathie Hess Crouse",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-19)",
+      "state": "WV",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0686b8e2-2d6a-4950-b3c3-0dbfe5a6e719"
+      },
+      "contact": {
+        "email": "kathie.crouse@wvhouse.gov",
+        "district_voice": "856-528-4355",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Crouse"
+      },
+      "bio": {
+        "birth_date": "1969-12-02",
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/crouse_kathie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kathie_Hess_Crouse",
+        "https://en.wikipedia.org/wiki/Kathie_Hess_Crouse",
+        "https://justfacts.votesmart.org/candidate/167305/kathie-crouse",
+        "https://www.linkedin.com/in/kathiehesscrouse",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Crouse",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "young-kayla-wv-hd56",
+      "name": "Kayla Young",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-56)",
+      "state": "WV",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3317959e-9fbd-40dc-aa7a-0f0a9cc06c3f"
+      },
+      "contact": {
+        "email": "kayla.young@wvhouse.gov",
+        "district_voice": "304-561-4234",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Young"
+      },
+      "bio": {
+        "birth_date": "1988-07-12",
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/young_kayla.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kayla_Young",
+        "https://en.wikipedia.org/wiki/Kayla_Young",
+        "https://justfacts.votesmart.org/candidate/biography/190496/kayla-young",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Young",
+        "https://www.linkedin.com/in/kaylawilsonyoung",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Young",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "marple-keith-wv-hd69",
+      "name": "Keith Marple",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-69)",
+      "state": "WV",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/13a851e4-7ecb-4609-bd19-3bd4ff7fbc1c"
+      },
+      "contact": {
+        "email": "keith.marple@wvhouse.gov",
+        "district_voice": "304-622-8492",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Marple"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/marple_keith.jpg",
+      "sources": [
+        "https://ballotpedia.org/Keith_Marple",
+        "https://en.wikipedia.org/wiki/Keith_Marple",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Marple",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "bartlett-kevan-wv-sd8",
+      "name": "Kevan Bartlett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-8)",
+      "state": "WV",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bf1213a4-9f13-4c3e-a900-c1722909f8a6"
+      },
+      "contact": {
+        "email": "kevan.bartlett@wvsenate.gov",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Bartlett"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2019/house/bartlett_t.jpg",
+      "sources": [
+        "https://ballotpedia.org/T._Kevan_Bartlett",
+        "https://en.wikipedia.org/wiki/T._Kevan_Bartlett",
+        "https://justfacts.votesmart.org/candidate/174720/kevan-bartlett",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Bartlett",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "kimble-laura-wv-hd71",
+      "name": "Laura Kimble",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-71)",
+      "state": "WV",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ce1e7053-19d4-4405-8e31-f5c39af87ae9"
+      },
+      "contact": {
+        "email": "laura.kimble@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Kimble"
+      },
+      "bio": {
+        "birth_date": "1967-07-11",
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/kimble_laura.jpg",
+      "sources": [
+        "https://ballotpedia.org/Laura_Kimble",
+        "https://en.wikipedia.org/wiki/Laura_Kimble",
+        "https://justfacts.votesmart.org/candidate/190588/laura-kimble",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Kimble",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Kimble",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "chapman-laura-wv-sd1",
+      "name": "Laura Chapman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-1)",
+      "state": "WV",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/599fd572-0475-4215-8d43-1474237f5a78"
+      },
+      "contact": {
+        "email": "laura.chapman@wvsenate.gov",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Chapman"
+      },
+      "bio": {
+        "birth_date": "1984-11-26",
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/chapman_laura.jpg",
+      "sources": [
+        "https://ballotpedia.org/Laura_Wakim_Chapman",
+        "https://en.wikipedia.org/wiki/Laura_Chapman",
+        "https://justfacts.votesmart.org/candidate/201618/laura-wakim-chapman",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Chapman",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "white-lisa-wv-hd96",
+      "name": "Lisa White",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-96)",
+      "state": "WV",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7ae7ca12-88dc-4387-a9ee-49295af32fb7"
+      },
+      "contact": {
+        "email": "lisa.white@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20White"
+      },
+      "bio": {
+        "birth_date": "1959-03-07",
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/white_lisa.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lisa_White",
+        "https://en.wikipedia.org/wiki/Lisa_White_(politician)",
+        "https://justfacts.votesmart.org/candidate/214533/lisa-white",
+        "https://www.linkedin.com/in/lisakwhite",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20White",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "dittman-lori-wv-hd63",
+      "name": "Lori Dittman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-63)",
+      "state": "WV",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3f45442d-ffd9-4566-a661-42efa25f8e18"
+      },
+      "contact": {
+        "email": "lori.dittman@wvhouse.gov",
+        "district_voice": "304-701-8600",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Dittman"
+      },
+      "bio": {
+        "birth_date": "1968-02-02",
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/dittman_lori.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lori_Cowger_Dittman",
+        "https://en.wikipedia.org/wiki/Lori_Dittman",
+        "https://justfacts.votesmart.org/candidate/biography/201748/lori-dittman",
+        "https://www.loridittman.com/about",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Dittman",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "mazzocchi-margitta-wv-hd31",
+      "name": "Margitta Mazzocchi",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-31)",
+      "state": "WV",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/92599af8-32f7-4aa4-bab2-8c7b461f54a5"
+      },
+      "contact": {
+        "email": "margitta.mazzocchi@wvhouse.gov",
+        "district_voice": "304-785-1465",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Mazzocchi"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/mazzocchi_margitta.jpg",
+      "sources": [
+        "https://ballotpedia.org/Margitta_Mazzocchi",
+        "https://en.wikipedia.org/wiki/Margitta_Mazzocchi",
+        "https://justfacts.votesmart.org/candidate/190477/margitta-mazzocchi",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Mazzocchi",
+        "https://www.linkedin.com/in/margitta-mazzocchi-4897b530",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Mazzocchi",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "dean-mark-wv-hd34",
+      "name": "Mark Dean",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-34)",
+      "state": "WV",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2461647c-b7dc-4df2-b1b8-6acee9700b7c"
+      },
+      "contact": {
+        "email": "mark.dean@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Dean"
+      },
+      "bio": {
+        "birth_date": "1980-06-18",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/dean_mark.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Dean",
+        "https://en.wikipedia.org/wiki/Mark_Dean_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/167333/mark-dean",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Dean",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Dean",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "maynard-mark-wv-sd6",
+      "name": "Mark Maynard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-6)",
+      "state": "WV",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e98e90d4-7e6d-47e0-b837-6f5f8b492d9c"
+      },
+      "contact": {
+        "email": "mark.maynard@wvsenate.gov",
+        "district_voice": "304-360-6272",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Maynard"
+      },
+      "bio": {
+        "birth_date": "1972-05-14",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/senate/maynard_mark.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_R._Maynard",
+        "https://en.wikipedia.org/wiki/Mark_R._Maynard",
+        "https://justfacts.votesmart.org/candidate/biography/104892/mark-maynard",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Maynard",
+        "https://www.linkedin.com/in/wv-senator-mark-r-maynard-33411ba7",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Maynard",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Maynard,%20M.",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator+Maynard",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "zatezalo-mark-wv-hd2",
+      "name": "Mark Zatezalo",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-2)",
+      "state": "WV",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/af0b8606-3832-40d4-91e2-3b71975e4b8f"
+      },
+      "contact": {
+        "email": "mark.zatezalo@wvhouse.gov",
+        "district_voice": "304-491-0937",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Zatezalo"
+      },
+      "bio": {
+        "birth_date": "1952-03-16",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/zatezalo_mark.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Zatezalo",
+        "https://en.wikipedia.org/wiki/Mark_Zatezalo",
+        "https://justfacts.votesmart.org/candidate/biography/148393/mark-zatezalo",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Zatezalo",
+        "https://www.linkedin.com/in/mark-zatezalo-17905960",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Zatezalo",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "clay-marshall-wv-hd51",
+      "name": "Marshall Clay",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-51)",
+      "state": "WV",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6a8371d3-32ba-4997-9cd4-ad26bafab694"
+      },
+      "contact": {
+        "email": "marshall.clay@wvhouse.gov",
+        "district_voice": "304-860-8859",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Clay"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/clay_marshall.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marshall_Clay",
+        "https://en.wikipedia.org/wiki/Marshall_Clay",
+        "https://justfacts.votesmart.org/candidate/biography/102214/marshall-clay",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Clay",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "gearheart-marty-wv-hd37",
+      "name": "Marty Gearheart",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-37)",
+      "state": "WV",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c56adc82-a476-4d3c-bd7f-51b2257b0032"
+      },
+      "contact": {
+        "email": "marty.gearheart@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Gearheart"
+      },
+      "bio": {
+        "birth_date": "1961-09-15",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/house/gearheart_marty.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marty_Gearheart",
+        "https://en.wikipedia.org/wiki/Marty_Gearheart",
+        "https://justfacts.votesmart.org/candidate/biography/52089/marty-gearheart",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Gearheart",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Gearheart",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate+Gearheart",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "rohrbach-matthew-wv-hd26",
+      "name": "Matthew Rohrbach",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-26)",
+      "state": "WV",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/074a2aa9-d012-437a-8d59-d3f4b9d73905"
+      },
+      "contact": {
+        "email": "matthew.rohrbach@wvhouse.gov",
+        "district_voice": "304-563-9040",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Rohrbach"
+      },
+      "bio": {
+        "birth_date": "1959-05-12",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/rohrbach_matthew.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Rohrbach",
+        "https://en.wikipedia.org/wiki/Matthew_Rohrbach",
+        "https://justfacts.votesmart.org/candidate/148431/matthew-rohrbach",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Rohrbach",
+        "https://www.linkedin.com/in/matthew-rohrbach-10337492",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Rohrbach",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate+Rohrbach",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "amos-michael-wv-hd27",
+      "name": "Michael Amos",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-27)",
+      "state": "WV",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3d5db222-66fb-4f3a-a178-d12246697654"
+      },
+      "contact": {
+        "email": "michael.amos@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Amos"
+      },
+      "bio": {
+        "birth_date": "1993-02-15",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/amos_michael.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Amos",
+        "https://en.wikipedia.org/wiki/Michael_Amos_(politician)",
+        "https://justfacts.votesmart.org/candidate/214484/michael-amos",
+        "https://www.linkedin.com/in/michael-amos-md-dabfm-dabom-6b89b6198",
+        "https://www.linkedin.com/in/michael-amos-md-faafp-dabfm-dabom-6b89b6198",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Amos",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hite-mike-wv-hd92",
+      "name": "Mike Hite",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-92)",
+      "state": "WV",
+      "district": "HD-92",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0ef791a3-2e24-4751-8686-21ffac958ce0"
+      },
+      "contact": {
+        "email": "michael.hite@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hite"
+      },
+      "bio": {
+        "birth_date": "1966-07-08",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/hite_michael.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Hite",
+        "https://en.wikipedia.org/wiki/Michael_Hite",
+        "https://justfacts.votesmart.org/candidate/201688/michael-hite",
+        "https://www.linkedin.com/in/michael-hite-567b6464",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hite",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hornby-mike-wv-hd93",
+      "name": "Mike Hornby",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-93)",
+      "state": "WV",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b76899a3-5189-495c-af2f-9ca8a4e8036e"
+      },
+      "contact": {
+        "email": "michael.hornby@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hornby"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/hornby_mike.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Hornby",
+        "https://en.wikipedia.org/wiki/Michael_Hornby_(politician)",
+        "https://justfacts.votesmart.org/candidate/201687/michael-hornby",
+        "https://www.linkedin.com/in/aroundthepanhandlemagazine",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hornby",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "petitto-mickey-wv-hd70",
+      "name": "Mickey Petitto",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-70)",
+      "state": "WV",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/354b56ae-dee4-4536-879e-cfb0d80b4069"
+      },
+      "contact": {
+        "email": "mickey.petitto@wvhouse.gov",
+        "district_voice": "304-626-0372",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Petitto"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/petitto_mickey.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mickey_Petitto",
+        "https://en.wikipedia.org/wiki/Mickey_Petitto",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Petitto",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "azinger-mike-wv-sd3",
+      "name": "Mike Azinger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-3)",
+      "state": "WV",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8fe81e26-b0ce-4349-a3e3-91d25247b980"
+      },
+      "contact": {
+        "email": "mike.azinger@wvsenate.gov",
+        "district_voice": "304-916-2177",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Azinger"
+      },
+      "bio": {
+        "birth_date": "1965-04-12",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/azinger_michael.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Azinger",
+        "https://en.wikipedia.org/wiki/Mike_Azinger",
+        "https://justfacts.votesmart.org/candidate/biography/148408/michael-azinger",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Azinger",
+        "https://www.linkedin.com/in/mike-azinger-9a82042",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Azinger",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "oliverio-mike-wv-sd13",
+      "name": "Mike Oliverio",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-13)",
+      "state": "WV",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c00003a6-3518-496e-b972-fd5aa566d4c4"
+      },
+      "contact": {
+        "email": "mike.oliverio@wvsenate.gov",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Oliverio"
+      },
+      "bio": {
+        "birth_date": "1963-08-06",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/senate/oliverio_michael.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Oliverio",
+        "https://en.wikipedia.org/wiki/Mike_Oliverio",
+        "https://justfacts.votesmart.org/candidate/7550/mike-oliverio-ii",
+        "https://www.linkedin.com/in/mikeoliverio",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Oliverio",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "pushkin-mike-wv-hd54",
+      "name": "Mike Pushkin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-54)",
+      "state": "WV",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1a97b137-218f-43cc-a24f-d806c6ac9fd2"
+      },
+      "contact": {
+        "email": "mike.pushkin@wvhouse.gov",
+        "district_voice": "304-989-6856",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Pushkin"
+      },
+      "bio": {
+        "birth_date": "1970-02-08",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/pushkin_mike.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Pushkin",
+        "https://en.wikipedia.org/wiki/Mike_Pushkin",
+        "https://justfacts.votesmart.org/candidate/biography/148557/mike-pushkin",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Pushkin",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Pushkin",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate+Pushkin",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "woelfel-mike-wv-sd5",
+      "name": "Mike Woelfel",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-5)",
+      "state": "WV",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/500ddd59-2fb2-406a-869c-2b06f6cc2385"
+      },
+      "contact": {
+        "email": "mike.woelfel@wvsenate.gov",
+        "district_voice": "304-522-6249",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Woelfel"
+      },
+      "bio": {
+        "birth_date": "1954-05-07",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/woelfel_michael.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Woelfel",
+        "https://en.wikipedia.org/wiki/Mike_Woelfel",
+        "https://justfacts.votesmart.org/candidate/148367/michael-woelfel",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Woelfel",
+        "https://www.linkedin.com/in/michael-woelfel-b2b47033",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Woelfel",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator+Woelfel",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "mcgeehan-pat-wv-hd1",
+      "name": "Pat McGeehan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-1)",
+      "state": "WV",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aa7bf09a-ce90-4e58-a893-42c813a16434"
+      },
+      "contact": {
+        "email": "pat.mcgeehan@wvhouse.gov",
+        "district_voice": "304-374-7018",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+McGeehan"
+      },
+      "bio": {
+        "birth_date": "1979-10-22",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/mcgeehan_pat.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patrick_McGeehan",
+        "https://en.wikipedia.org/wiki/Pat_McGeehan",
+        "https://justfacts.votesmart.org/candidate/biography/102190/patrick-mcgeehan",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+McGeehan",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20McGeehan",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate+McGeehan",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "rucker-patricia-wv-sd16",
+      "name": "Patricia Rucker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-16)",
+      "state": "WV",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/61c66718-ebd4-4ded-827d-14b21ed01b0a"
+      },
+      "contact": {
+        "email": "patricia.rucker@wvsenate.gov",
+        "district_voice": "304-279-1619",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Rucker"
+      },
+      "bio": {
+        "birth_date": "1974-04-27",
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/rucker_patricia.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patricia_Rucker",
+        "https://en.wikipedia.org/wiki/Patricia_Rucker",
+        "https://justfacts.votesmart.org/candidate/biography/148634/patricia-rucker",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Rucker",
+        "https://www.linkedin.com/in/patricia-rucker-908294156",
+        "https://www.patriciarucker.com/about-me",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Rucker",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "lucas-patrick-wv-hd24",
+      "name": "Patrick Lucas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-24)",
+      "state": "WV",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9a7c2d4d-002a-439e-b095-e7b86329fc1c"
+      },
+      "contact": {
+        "email": "patrick.lucas@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Lucas"
+      },
+      "bio": {
+        "birth_date": "1967-03-11",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/lucas_patrick.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patrick_Lucas",
+        "https://en.wikipedia.org/wiki/Patrick_Lucas",
+        "https://justfacts.votesmart.org/candidate/biography/117635/patrick-lucas",
+        "https://www.linkedin.com/in/patrick-lucas-39534835",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Lucas",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "martin-patrick-wv-sd12",
+      "name": "Patrick Martin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-12)",
+      "state": "WV",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/69547a9d-4e96-4ea8-94eb-528e40d5d004"
+      },
+      "contact": {
+        "email": "patrick.martin@wvsenate.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Martin"
+      },
+      "bio": {
+        "birth_date": "1993-05-01",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/senate/martin_patrick.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patrick_S._Martin",
+        "https://en.wikipedia.org/wiki/Patrick_S._Martin",
+        "https://justfacts.votesmart.org/candidate/biography/167426/patrick-martin",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Martin",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Martin",
+        "https://www.linkedin.com/in/patrick-martin-901440100",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Martin",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "mallow-phil-wv-hd75",
+      "name": "Phil Mallow",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-75)",
+      "state": "WV",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ca7ec436-00a0-447d-8592-00fc7d358571"
+      },
+      "contact": {
+        "email": "phil.mallow@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Mallow"
+      },
+      "bio": {
+        "birth_date": "1957-07-06",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/house/mallow_phil.jpg",
+      "sources": [
+        "https://ballotpedia.org/Phil_Mallow",
+        "https://en.wikipedia.org/wiki/Phil_Mallow",
+        "https://justfacts.votesmart.org/candidate/biography/148613/phil-mallow",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Mallow",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Mallow",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-randy-wv-sd14",
+      "name": "Randy Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-14)",
+      "state": "WV",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/28321ca7-5b8c-4b1a-9a85-2ae30e52045b"
+      },
+      "contact": {
+        "email": "randy.smith@wvsenate.gov",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Smith"
+      },
+      "bio": {
+        "birth_date": "1960-03-03",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/smith_randy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Randy_Smith_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Randy_Smith_%28politician%29",
+        "https://justfacts.votesmart.org/candidate/biography/135450/randy-smith",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Smith",
+        "https://www.linkedin.com/in/randy-smith-27817473",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=President%20Smith",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Smith",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "canterbury-ray-wv-hd47",
+      "name": "Ray Canterbury",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-47)",
+      "state": "WV",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/639eb22f-b161-4be3-9abc-9cccf4dfdd05"
+      },
+      "contact": {
+        "email": "ray.canterbury@wvhouse.gov",
+        "district_voice": "304-992-4770",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Canterbury"
+      },
+      "bio": {
+        "birth_date": "1969-02-19",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/canterbury_ray.jpg",
+      "sources": [
+        "https://ballotpedia.org/Denny_Canterbury_Jr.",
+        "https://en.wikipedia.org/wiki/Ray_Canterbury",
+        "https://justfacts.votesmart.org/candidate/biography/26493/ray-canterbury-jr",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Canterbury",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Canterbury",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "garcia-rick-wv-hd76",
+      "name": "Rick Garcia",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-76)",
+      "state": "WV",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cc1fb64b-859b-4009-88b3-2cb23e7e9d9b"
+      },
+      "contact": {
+        "email": "rick.garcia@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Garcia"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/garcia_rick.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rick_Garcia_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Rick_Garcia",
+        "https://justfacts.votesmart.org/candidate/biography/163738/rick-garcia",
+        "https://www.linkedin.com/in/rick-garcia-63b6ba65",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Garcia",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hillenbrand-rick-wv-hd88",
+      "name": "Rick Hillenbrand",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-88)",
+      "state": "WV",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5e9dad08-2267-4354-b695-814e1014a0ec"
+      },
+      "contact": {
+        "email": "rick.hillenbrand@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hillenbrand"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/hillenbrand_rick.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rick_Hillenbrand",
+        "https://en.wikipedia.org/wiki/Rick_Hillenbrand",
+        "https://justfacts.votesmart.org/candidate/201692/rick-hillenbrand",
+        "https://www.linkedin.com/in/rickhillenbrand",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hillenbrand",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "morris-robbie-wv-sd11",
+      "name": "Robbie Morris",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-11)",
+      "state": "WV",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86c70f70-4fc9-43f3-bd70-632d3a8f023b"
+      },
+      "contact": {
+        "email": "robbie.morris@wvsenate.gov",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Morris"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/morris_robbie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robbie_Morris",
+        "https://en.wikipedia.org/wiki/Robbie_Morris_(politician)",
+        "https://justfacts.votesmart.org/candidate/214462/robbie-morris",
+        "https://www.linkedin.com/in/robbie-morris-5b596598",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Morris",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hanshaw-roger-wv-hd62",
+      "name": "Roger Hanshaw",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-62)",
+      "state": "WV",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a5fb80fa-41db-4bb7-8d0c-9f643b029b86"
+      },
+      "contact": {
+        "email": "roger.hanshaw@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Speaker+Hanshaw"
+      },
+      "bio": {
+        "birth_date": "1980-03-24",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/house/hanshaw_roger.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roger_Hanshaw",
+        "https://en.wikipedia.org/wiki/Roger_Hanshaw",
+        "https://justfacts.votesmart.org/candidate/148481/roger-hanshaw",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Speaker+Hanshaw",
+        "https://www.linkedin.com/in/roger-hanshaw-b0282968",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Speaker%20Hanshaw",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "roberts-rollan-wv-sd9",
+      "name": "Rollan Roberts",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-9)",
+      "state": "WV",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0166da1-e7d4-42ed-bf99-fe2a9cd3e82e"
+      },
+      "contact": {
+        "email": "rollan.roberts@wvsenate.gov",
+        "district_voice": "681-238-1779",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Roberts"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/senate/roberts_rollan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rollan_Roberts_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Rollan_Roberts",
+        "https://justfacts.votesmart.org/candidate/biography/177687/rollan-roberts",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Roberts",
+        "https://www.linkedin.com/in/dr-rollan-roberts-4631372b",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Roberts",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "cooper-roy-wv-hd40",
+      "name": "Roy Cooper",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-40)",
+      "state": "WV",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f7a82cd3-d2c6-4f57-b0d0-d38322d1ad54"
+      },
+      "contact": {
+        "email": "roy.cooper@wvhouse.gov",
+        "district_voice": "304-466-5523",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Cooper"
+      },
+      "bio": {
+        "birth_date": "1945-03-05",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/cooper_roy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roy_G._Cooper",
+        "https://en.wikipedia.org/wiki/Roy_Cooper_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/117639/roy-cooper",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Cooper",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Cooper",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate+Cooper",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "phillips-rupie-wv-sd7",
+      "name": "Rupie Phillips",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-7)",
+      "state": "WV",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c1187148-471e-4bdc-acf5-16fa0d5d998e"
+      },
+      "contact": {
+        "email": "rupie.phillips@wvsenate.gov",
+        "website": "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Phillips"
+      },
+      "bio": {
+        "birth_date": "1969-02-17",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/senate/phillips_rupie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rupert_Phillips_Jr.",
+        "https://en.wikipedia.org/wiki/Rupie_Phillips",
+        "https://justfacts.votesmart.org/candidate/102204/rupie-phillips-jr",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Phillips",
+        "https://www.linkedin.com/in/rupie-phillips-65594a64",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Phillips",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "browning-ryan-wv-hd28",
+      "name": "Ryan Browning",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-28)",
+      "state": "WV",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c95f5292-14c3-4e79-8465-05cca13242b6"
+      },
+      "contact": {
+        "email": "ryan.browning@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Browning"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2024/house/browning_ryan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ryan_Browning",
+        "https://en.wikipedia.org/wiki/Ryan_Browning",
+        "https://justfacts.votesmart.org/candidate/214487/ryan-browning",
+        "https://www.linkedin.com/in/ryan-browning-08485673",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Browning",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "weld-ryan-wv-sd1",
+      "name": "Ryan Weld",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-1)",
+      "state": "WV",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/680aa2ce-6408-4047-a36b-0b3badc82851"
+      },
+      "contact": {
+        "email": "ryan.weld@wvsenate.gov",
+        "website": "https://ryanweld.com/"
+      },
+      "bio": {
+        "birth_date": "1980-05-19",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/senate/weld_ryan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ryan_Weld",
+        "https://en.wikipedia.org/wiki/Ryan_Weld",
+        "https://justfacts.votesmart.org/candidate/148395/ryan-weld",
+        "https://ryanweld.com",
+        "https://ryanweld.com/about-ryan",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Weld",
+        "https://www.linkedin.com/in/ryan-weld-258b6880",
+        "https://www.ryanweld.com",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Weld",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "drennan-sarah-wv-hd20",
+      "name": "Sarah Drennan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-20)",
+      "state": "WV",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/003871b4-bf51-4bba-bacc-bf1ead7a9947"
+      },
+      "contact": {
+        "email": "sarah.drennan@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Drennan"
+      },
+      "bio": {
+        "birth_date": "1981-01-08",
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/drennan_sarah.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sarah_Drennan",
+        "https://en.wikipedia.org/wiki/Sarah_Drennan",
+        "https://justfacts.votesmart.org/candidate/214477/sarah-drennan",
+        "https://www.linkedin.com/in/sarah-drennan-a1566a2a2",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Drennan",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "heckert-scot-wv-hd13",
+      "name": "Scot Heckert",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-13)",
+      "state": "WV",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5cd39fcf-7682-4cb0-8ac3-f7c4816f950d"
+      },
+      "contact": {
+        "email": "scot.heckert@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Heckert"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/heckert_scot.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scot_Heckert",
+        "https://en.wikipedia.org/wiki/Scot_Heckert",
+        "https://justfacts.votesmart.org/candidate/201633/scot-heckert",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Heckert",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "fuller-scott-wv-sd5",
+      "name": "Scott Fuller",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-5)",
+      "state": "WV",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7a94bf35-24ea-49ba-bf09-b53c1465ffa7"
+      },
+      "contact": {
+        "email": "scott.fuller@wvsenate.gov",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Fuller"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/fuller_scott.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Fuller_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Scott_Fuller",
+        "https://justfacts.votesmart.org/candidate/biography/201602/scott-fuller",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Fuller",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hornbuckle-sean-wv-hd25",
+      "name": "Sean Hornbuckle",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-25)",
+      "state": "WV",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/916ee127-a228-4dac-b945-312a5f76121a"
+      },
+      "contact": {
+        "email": "sean.hornbuckle@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Hornbuckle"
+      },
+      "bio": {
+        "birth_date": "1985-09-02",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/hornbuckle_sean.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sean_Hornbuckle",
+        "https://en.wikipedia.org/wiki/Sean_Hornbuckle",
+        "https://justfacts.votesmart.org/candidate/139620/sean-hornbuckle",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Hornbuckle",
+        "https://www.linkedin.com/in/sean-hornbuckle-b475b520",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hornbuckle",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate+Hornbuckle",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "fluharty-shawn-wv-hd5",
+      "name": "Shawn Fluharty",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-5)",
+      "state": "WV",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bd0e9ba2-fe37-4251-96f2-44715a186750"
+      },
+      "contact": {
+        "email": "shawn.fluharty@wvhouse.gov",
+        "district_voice": "304-281-8195",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Fluharty"
+      },
+      "bio": {
+        "birth_date": "1984-01-05",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/fluharty_shawn.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shawn_Fluharty",
+        "https://en.wikipedia.org/wiki/Shawn_Fluharty",
+        "https://justfacts.votesmart.org/candidate/biography/117619/shawn-fluharty",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Fluharty",
+        "https://www.linkedin.com/in/shawnfluharty",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Fluharty",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate+Fluharty",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "adkins-stan-wv-hd49",
+      "name": "Stan Adkins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-49)",
+      "state": "WV",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4b7f8925-344a-4ce2-b70c-76bb9127c4fa"
+      },
+      "contact": {
+        "email": "stanley.adkins@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Adkins"
+      },
+      "bio": {
+        "birth_date": "1949-07-10",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/adkins_stanley.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stanley_Adkins",
+        "https://en.wikipedia.org/wiki/Stanley_Adkins_(politician)",
+        "https://justfacts.votesmart.org/candidate/key-votes/214500/stanley-adkins",
+        "https://www.linkedin.com/in/stan-adkins-39aa2329",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Adkins",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "takubo-tom-wv-sd17",
+      "name": "Tom Takubo",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-17)",
+      "state": "WV",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c6a91d2b-9230-4d3e-a3d0-c3844ad9e985"
+      },
+      "contact": {
+        "email": "tom.takubo@wvsenate.gov",
+        "website": "https://senatortomtakubo.com/"
+      },
+      "bio": {
+        "birth_date": "1971-12-14",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/senate/takubo_tom.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Takubo",
+        "https://en.wikipedia.org/wiki/Tom_Takubo",
+        "https://justfacts.votesmart.org/candidate/biography/148384/tom-takubo",
+        "https://senatortomtakubo.com",
+        "https://www.legis.state.wv.us/Senate1/lawmaker.cfm?member=Senator+Takubo",
+        "https://www.linkedin.com/in/tom-takubo-do-fccp-b7955a83",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Takubo",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator+Takubo",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "willis-tom-wv-sd15",
+      "name": "Tom Willis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-15)",
+      "state": "WV",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/da86ac6a-5d19-472e-80a0-8b8595cb3054"
+      },
+      "contact": {
+        "email": "tom.willis@wvsenate.gov",
+        "district_voice": "304-261-0169",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Willis"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/senate/willis_tom.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Willis_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Tom_Willis_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/177667/tom-willis",
+        "https://www.linkedin.com/in/willisforwv",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Willis",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "barnhart-trenton-wv-sd3",
+      "name": "Trenton Barnhart",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-3)",
+      "state": "WV",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4a909c49-37c6-4105-ac77-afe4745a1b1b"
+      },
+      "contact": {
+        "email": "trenton.barnhart@wvsenate.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Barnhart"
+      },
+      "bio": {
+        "birth_date": "1996-11-12",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/barnhart_trenton.jpg",
+      "sources": [
+        "https://ballotpedia.org/Trenton_Barnhart",
+        "https://en.wikipedia.org/wiki/Trenton_Barnhart",
+        "https://justfacts.votesmart.org/candidate/biography/187328/trenton-barnhart",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Barnhart",
+        "https://www.linkedin.com/in/trenton-barnhart-mba-77a691161",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Barnhart",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Barnhart",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "howell-tresa-wv-hd52",
+      "name": "Tresa Howell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-52)",
+      "state": "WV",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a6ad12cd-7040-4cf0-83b5-9de1fd835fa8"
+      },
+      "contact": {
+        "email": "tresa.howell@wvhouse.gov",
+        "district_voice": "304-400-2700",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Howell,%20T."
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/howell_tresa.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tresa_Howell",
+        "https://en.wikipedia.org/wiki/Tresa_Howell",
+        "https://justfacts.votesmart.org/candidate/214504/tresa-howell",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Howell,%20T.",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "leavitt-tristan-wv-hd53",
+      "name": "Tristan Leavitt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-53)",
+      "state": "WV",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8b2ff1b1-618d-47c4-8b20-8388c53eb412"
+      },
+      "contact": {
+        "email": "tristan.leavitt@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Leavitt"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/leavitt_tristan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tristan_Leavitt",
+        "https://en.wikipedia.org/wiki/Tristan_Leavitt",
+        "https://justfacts.votesmart.org/candidate/214507/tristan-leavitt",
+        "https://www.linkedin.com/in/tristanleavitt",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Leavitt",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "criss-vernon-wv-hd12",
+      "name": "Vernon Criss",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-12)",
+      "state": "WV",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/381e0784-9202-4308-a138-399c84740804"
+      },
+      "contact": {
+        "email": "vernon.criss@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Criss"
+      },
+      "bio": {
+        "birth_date": "1954-09-25",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/criss_vernon.jpg",
+      "sources": [
+        "https://ballotpedia.org/Vernon_Criss",
+        "https://en.wikipedia.org/wiki/Vernon_Criss",
+        "https://justfacts.votesmart.org/candidate/biography/52393/vernon-criss",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Criss",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Criss",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "deeds-vince-wv-sd10",
+      "name": "Vince Deeds",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-10)",
+      "state": "WV",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/147a2b54-846b-4fec-b394-be4b50827f5f"
+      },
+      "contact": {
+        "email": "vince.deeds@wvsenate.gov",
+        "district_voice": "304-992-9305",
+        "website": "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Deeds"
+      },
+      "bio": {
+        "birth_date": "1970-07-15",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/senate/deeds_vince.jpg",
+      "sources": [
+        "https://ballotpedia.org/Vince_Deeds",
+        "https://en.wikipedia.org/wiki/Vince_Deeds",
+        "https://justfacts.votesmart.org/candidate/201622/vince-deeds",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Deeds",
+        "https://www.wvlegislature.gov/Senate1/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-walter-wv-hd58",
+      "name": "Walter Hall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-58)",
+      "state": "WV",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/542b49b1-72ed-4e96-98bf-e7c236b92e12"
+      },
+      "contact": {
+        "email": "walter.hall@wvhouse.gov",
+        "website": "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hall"
+      },
+      "bio": {
+        "birth_date": "1963-04-10",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2023/house/hall_walter.jpg",
+      "sources": [
+        "https://ballotpedia.org/Walter_Hall",
+        "https://en.wikipedia.org/wiki/Walter_Hall_(American_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/201752/walter-hall",
+        "https://www.linkedin.com/in/walter-hall-15a0bb229",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hall",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Hall,%20W.",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "clark-wayne-wv-hd99",
+      "name": "Wayne Clark",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-99)",
+      "state": "WV",
+      "district": "HD-99",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de66a26a-0d5d-44d4-a687-58cffa1a2512"
+      },
+      "contact": {
+        "email": "wayne.clark@wvhouse.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Clark"
+      },
+      "bio": {
+        "birth_date": "1972-02-16",
+        "gender": "Male"
+      },
+      "image": "https://www.wvlegislature.gov/images/members/2025/house/clark_wayne.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wayne_Clark_(West_Virginia)",
+        "https://en.wikipedia.org/wiki/Wayne_Clark_(politician)",
+        "https://justfacts.votesmart.org/candidate/190641/wayne-clark",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Clark",
+        "https://www.linkedin.com/in/wayne-clark-7906933",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Clark",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Clark,%20W.",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "anderson-bill-wv-hd10",
+      "name": "Bill Anderson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Representative (HD-10)",
+      "state": "WV",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b5b3734c-fa9f-422b-b0d4-ce8b2b2624c5"
+      },
+      "contact": {
+        "email": "bill.anderson@wvhouse.gov",
+        "district_voice": "304-481-4129",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Anderson"
+      },
+      "bio": {
+        "birth_date": "1948-08-09",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2022/house/anderson_bill.jpg",
+      "sources": [
+        "https://ballotpedia.org/Everette_Anderson",
+        "https://en.wikipedia.org/wiki/Bill_Anderson_(West_Virginia_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/7564/bill-anderson-jr",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Anderson",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Anderson",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Anderson,%20B.",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    },
+    {
+      "politician_id": "maynard-zack-wv-sd7",
+      "name": "Zack Maynard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "West Virginia State Senator (SD-7)",
+      "state": "WV",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "WV",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1039d280-ca07-4923-a501-408c5f7703dc"
+      },
+      "contact": {
+        "email": "zack.maynard@wvsenate.gov",
+        "website": "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Maynard"
+      },
+      "bio": {
+        "birth_date": "1992-03-29",
+        "gender": "Male"
+      },
+      "image": "http://www.wvlegislature.gov/images/members/2021/house/maynard_zack.jpg",
+      "sources": [
+        "https://ballotpedia.org/Zack_Maynard",
+        "https://en.wikipedia.org/wiki/Zack_Maynard",
+        "https://justfacts.votesmart.org/candidate/biography/167338/zack-maynard",
+        "https://www.legis.state.wv.us/House/lawmaker.cfm?member=Delegate+Maynard",
+        "https://www.wvlegislature.gov/House/lawmaker.cfm?member=Delegate%20Maynard",
+        "https://www.wvlegislature.gov/House/roster.cfm",
+        "https://www.wvlegislature.gov/Senate1/lawmaker.cfm?member=Senator%20Maynard,%20Z.",
+        "https://data.openstates.org/people/current/wv.csv"
+      ]
+    }
+  ]
+}

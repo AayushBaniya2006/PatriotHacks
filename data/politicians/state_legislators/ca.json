@@ -1,0 +1,4237 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/ca.csv",
+  "state": "CA",
+  "politicians": [
+    {
+      "politician_id": "wahab-aisha-ca-sd10",
+      "name": "Aisha Wahab",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-10)",
+      "state": "CA",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/295965df-6c71-4e11-806f-2b7d5be5d45c"
+      },
+      "contact": {
+        "email": "senator.wahab@senate.ca.gov",
+        "district_voice": "510-794-3900",
+        "website": "https://sd10.senate.ca.gov/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/wahab_aisha_d-10_-_crop.jpg",
+      "sources": [
+        "https://ballotpedia.org/Aisha_Wahab",
+        "https://en.wikipedia.org/wiki/Aisha_Wahab",
+        "https://justfacts.votesmart.org/candidate/biography/198411/aisha-wahab",
+        "https://sd10.senate.ca.gov",
+        "https://sd10.senate.ca.gov/biography",
+        "https://www.linkedin.com/in/aishabbwahab",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "weber-pierson-akilah-ca-sd39",
+      "name": "Akilah Weber Pierson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-39)",
+      "state": "CA",
+      "district": "SD-39",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6c2a35d5-c04c-44d0-8bd9-92a625e2b525"
+      },
+      "contact": {
+        "email": "senator.weber@senate.ca.gov",
+        "district_voice": "619-688-6700",
+        "website": "https://a79.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1978-07-02",
+        "gender": "Female"
+      },
+      "image": "https://sd39.senate.ca.gov/sites/sd39.senate.ca.gov/files/website/sd39_bio_portrait.jpg",
+      "sources": [
+        "https://a79.asmdc.org",
+        "https://a79.asmdc.org/",
+        "https://ballotpedia.org/Akilah_Weber",
+        "https://en.wikipedia.org/wiki/Akilah_Weber",
+        "https://justfacts.votesmart.org/candidate/biography/195832/akilah-weber",
+        "https://sd39.senate.ca.gov",
+        "https://sd39.senate.ca.gov/biography",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/akilah-weber-3164404",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "muratsuchi-al-ca-hd66",
+      "name": "Al Muratsuchi",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-66)",
+      "state": "CA",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/78610d0e-c790-4fc9-ab8e-0887adbbe063"
+      },
+      "contact": {
+        "email": "assemblymember.muratsuchi@assembly.ca.gov",
+        "district_voice": "310-375-0691",
+        "website": "https://a66.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1964-09-04",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_66.jpg",
+      "sources": [
+        "https://a66.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Al_Muratsuchi",
+        "https://en.wikipedia.org/wiki/Al_Muratsuchi",
+        "https://justfacts.votesmart.org/candidate/biography/138450/al-muratsuchi",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/al-muratsuchi-ab916a7",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "lee-alex-ca-hd24",
+      "name": "Alex Lee",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-24)",
+      "state": "CA",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5d0057a2-e04d-44ca-b1d5-fc55e113351a"
+      },
+      "contact": {
+        "email": "assemblymember.lee@assembly.ca.gov",
+        "district_voice": "408-262-2501",
+        "website": "https://a24.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1995-07-11",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_24.jpg",
+      "sources": [
+        "https://a24.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Alex_Lee",
+        "https://en.wikipedia.org/wiki/Alex_Lee_(politician)",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/votealexlee",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "macedo-ali-ca-hd33",
+      "name": "Ali Macedo",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-33)",
+      "state": "CA",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eb9c8103-ac9d-4342-9d95-5086d867a9bd"
+      },
+      "contact": {
+        "email": "assemblymember.macedo@assembly.ca.gov",
+        "district_voice": "559-636-3440",
+        "website": "https://ad33.asmrc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.joincalifornia.com/candidate_pic.php?id=15000",
+      "sources": [
+        "https://ad33.asmrc.org",
+        "https://ballotpedia.org/Alexandra_Macedo",
+        "https://en.wikipedia.org/wiki/Alexandra_Macedo",
+        "https://justfacts.votesmart.org/candidate/213228/alexandra-macedo",
+        "https://www.assembly.ca.gov/assemblymembers/33",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "avila-farias-anamarie-ca-hd15",
+      "name": "Anamarie Avila Farias",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-15)",
+      "state": "CA",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c3921173-9680-4387-a70e-ebba5c599846"
+      },
+      "contact": {
+        "email": "assemblymember.avilafarias@assembly.ca.gov",
+        "district_voice": "925-521-1511",
+        "website": "https://a15.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Anamarie_Avila_Farias_20240905_034457.jpg",
+      "sources": [
+        "https://a15.asmdc.org",
+        "https://ballotpedia.org/Anamarie_Avila_Farias",
+        "https://en.wikipedia.org/wiki/Anamarie_Avila_Farias",
+        "https://justfacts.votesmart.org/candidate/146377/anamarie-avila-farias",
+        "https://www.assembly.ca.gov/assemblymembers/15",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "ashby-angelique-ca-sd8",
+      "name": "Angelique Ashby",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-8)",
+      "state": "CA",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/564f2203-7cae-4a40-bc93-5c05a935b98f"
+      },
+      "contact": {
+        "email": "senator.ashby@senate.ca.gov",
+        "district_voice": "916-319-0309",
+        "website": "https://sd08.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1975-03-20",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/ashby_angelique_d-08.jpg",
+      "sources": [
+        "https://ballotpedia.org/Angelique_Ashby",
+        "https://en.wikipedia.org/wiki/Angelique_Ashby",
+        "https://justfacts.votesmart.org/candidate/biography/129642/angelique-ashby",
+        "https://sd08.senate.ca.gov",
+        "https://www.angeliqueashby.com",
+        "https://www.linkedin.com/in/angeliqueashby",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "caballero-anna-ca-sd14",
+      "name": "Anna Caballero",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-14)",
+      "state": "CA",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fe462917-df55-4a43-9fd8-970541544ca6"
+      },
+      "contact": {
+        "email": "senator.caballero@senate.ca.gov",
+        "district_voice": "209-726-5495",
+        "website": "https://sd14.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1955-04-18",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/2016-ad30_annacaballero.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anna_Caballero",
+        "https://en.wikipedia.org/wiki/Anna_Caballero",
+        "https://justfacts.votesmart.org/candidate/biography/58583/anna-caballero",
+        "https://sd14.senate.ca.gov",
+        "https://sd14.senate.ca.gov/biography",
+        "https://senate.ca.gov/senators",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "kalra-ash-ca-hd25",
+      "name": "Ash Kalra",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-25)",
+      "state": "CA",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/820619fd-d053-4915-b099-1d134a880228"
+      },
+      "contact": {
+        "email": "assemblymember.kalra@assembly.ca.gov",
+        "district_voice": "408-286-2535",
+        "website": "https://a25.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1972-01-21",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_25.jpg",
+      "sources": [
+        "https://a25.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Ash_Kalra",
+        "https://en.wikipedia.org/wiki/Ash_Kalra",
+        "https://justfacts.votesmart.org/candidate/biography/112088/ash-kalra",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/ash-kalra-2b874b3",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "valencia-avelino-ca-hd68",
+      "name": "Avelino Valencia",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-68)",
+      "state": "CA",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/87062971-b583-4983-8ac5-4af98bef354d"
+      },
+      "contact": {
+        "email": "assemblymember.valencia@assembly.ca.gov",
+        "district_voice": "714-939-8469",
+        "website": "https://a68.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1988-11-12",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_68.jpg",
+      "sources": [
+        "https://a68.asmdc.org",
+        "https://a68.asmdc.org/biography",
+        "https://ballotpedia.org/Avelino_Valencia",
+        "https://en.wikipedia.org/wiki/Avelino_Valencia",
+        "https://justfacts.votesmart.org/candidate/biography/196582/avelino-valencia",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/avelino-valencia-70395b62",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "allen-ben-ca-sd24",
+      "name": "Ben Allen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-24)",
+      "state": "CA",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e725b91e-1f7f-4510-a9cc-0b9a39d283c3"
+      },
+      "contact": {
+        "email": "senator.allen@senate.ca.gov",
+        "district_voice": "310-414-8190",
+        "website": "https://sd24.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1978-03-13",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/allen_ben_d-26.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ben_Allen",
+        "https://en.wikipedia.org/wiki/Ben_Allen_(California_politician)",
+        "https://sd24.senate.ca.gov",
+        "https://sd24.senate.ca.gov/biography",
+        "https://senate.ca.gov/senators",
+        "https://www.linkedin.com/in/ben-allen-47bb902",
+        "https://www.linkedin.com/in/ben-allen-79547113b",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "rubio-blanca-ca-hd48",
+      "name": "Blanca Rubio",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-48)",
+      "state": "CA",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/82cbb6e9-8486-44ec-8450-86d1e700f828"
+      },
+      "contact": {
+        "email": "assemblymember.rubio@assembly.ca.gov",
+        "district_voice": "626-960-4457",
+        "website": "https://a48.asmdc.org"
+      },
+      "bio": {
+        "birth_date": "1969-09-15",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_48.jpg",
+      "sources": [
+        "https://a48.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Blanca_Rubio",
+        "https://en.wikipedia.org/wiki/Blanca_Rubio",
+        "https://justfacts.votesmart.org/candidate/biography/169399/blanca-rubio",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/blanca-rubio-california-state-assembly-74365a65",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "pacheco-blanca-ca-hd64",
+      "name": "Blanca Pacheco",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-64)",
+      "state": "CA",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f2ba8154-6bf3-4e5e-af05-9412e2a189f2"
+      },
+      "contact": {
+        "email": "assemblymember.pacheco@assembly.ca.gov",
+        "district_voice": "562-861-5803",
+        "website": "https://a64.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1974-04-17",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_64.jpg",
+      "sources": [
+        "https://a64.asmdc.org",
+        "https://a64.asmdc.org/biography",
+        "https://ballotpedia.org/Blanca_Pacheco",
+        "https://en.wikipedia.org/wiki/Blanca_Pacheco",
+        "https://justfacts.votesmart.org/candidate/biography/198033/blanca-pacheco",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/blanca-pacheco",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "archuleta-bob-ca-sd30",
+      "name": "Bob Archuleta",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-30)",
+      "state": "CA",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a76028df-5730-47b0-b617-1565621def41"
+      },
+      "contact": {
+        "email": "senator.archuleta@senate.ca.gov",
+        "district_voice": "562-406-1001",
+        "website": "https://sd30.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1945-06-01",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/archuleta_bob.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bob_Archuleta",
+        "https://en.wikipedia.org/wiki/Bob_Archuleta",
+        "https://justfacts.votesmart.org/candidate/biography/71279/bob-archuleta",
+        "https://sd30.senate.ca.gov",
+        "https://sd30.senate.ca.gov/biography",
+        "https://senate.ca.gov/senators",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-brian-ca-sd40",
+      "name": "Brian Jones",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-40)",
+      "state": "CA",
+      "district": "SD-40",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ea5c3b3d-bbad-41f6-a912-69f60f1553a4"
+      },
+      "contact": {
+        "email": "senator.jones@senate.ca.gov",
+        "district_voice": "760-796-4655",
+        "website": "https://senate.ca.gov/sd38"
+      },
+      "bio": {
+        "birth_date": "1968-08-09",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/brian_jones_headshot_blue.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Jones_(California)",
+        "https://en.wikipedia.org/wiki/Brian_Jones_(California_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/70781/brian-jones",
+        "https://senate.ca.gov/senators",
+        "https://sr40.senate.ca.gov",
+        "https://www.linkedin.com/in/brian-jones-bb3365b",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "wicks-buffy-ca-hd14",
+      "name": "Buffy Wicks",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-14)",
+      "state": "CA",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8230907e-9ae3-4ae9-b52a-c8464a157f64"
+      },
+      "contact": {
+        "email": "assemblymember.wicks@assembly.ca.gov",
+        "district_voice": "510-286-1400",
+        "website": "https://a14.asmdc.org"
+      },
+      "bio": {
+        "birth_date": "1977-08-10",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_14.jpg",
+      "sources": [
+        "https://a14.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Buffy_Wicks",
+        "https://en.wikipedia.org/wiki/Buffy_Wicks",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/buffy-wicks-036890bb",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "demaio-carl-ca-hd75",
+      "name": "Carl DeMaio",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-75)",
+      "state": "CA",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/053d119b-847e-43bf-9a22-18b5f309067f"
+      },
+      "contact": {
+        "email": "assemblymember.demaio@assembly.ca.gov",
+        "district_voice": "858-566-7538",
+        "website": "https://ad75.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1974-09-14",
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/159263.jpg",
+      "sources": [
+        "https://ad75.asmrc.org",
+        "https://ballotpedia.org/Carl_DeMaio",
+        "https://en.wikipedia.org/wiki/Carl_DeMaio",
+        "https://www.assembly.ca.gov/assemblymembers/75",
+        "https://www.linkedin.com/in/carl-demaio-66361553",
+        "https://www.linkedin.com/in/carldemaio",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "menjivar-caroline-ca-sd20",
+      "name": "Caroline Menjivar",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-20)",
+      "state": "CA",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b19c0361-ca41-4cba-bcf4-b7342a67f28b"
+      },
+      "contact": {
+        "email": "senator.menjivar@senate.ca.gov",
+        "district_voice": "818-901-5588",
+        "website": "https://sd20.senate.ca.gov/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/menjivar_caroline_d-20.jpg",
+      "sources": [
+        "https://ballotpedia.org/Caroline_Menjivar",
+        "https://en.wikipedia.org/wiki/Caroline_Menjivar",
+        "https://sd20.senate.ca.gov",
+        "https://sd20.senate.ca.gov/biography",
+        "https://www.linkedin.com/in/menjivarc",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "blakespear-catherine-ca-sd38",
+      "name": "Catherine Blakespear",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-38)",
+      "state": "CA",
+      "district": "SD-38",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/39e3ce0f-c2e2-4480-9e99-76e1e62f366d"
+      },
+      "contact": {
+        "email": "senator.blakespear@senate.ca.gov",
+        "district_voice": "949-598-5850",
+        "website": "https://sd38.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1976-02-29",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/blakespear_catherine_d-38.jpg",
+      "sources": [
+        "https://ballotpedia.org/Catherine_Blakespear",
+        "https://en.wikipedia.org/wiki/Catherine_Blakespear",
+        "https://justfacts.votesmart.org/candidate/biography/157195/catherine-blakespear",
+        "https://sd38.senate.ca.gov",
+        "https://sd38.senate.ca.gov/biography",
+        "https://www.linkedin.com/in/catherine-blakespear-6549a24",
+        "https://www.linkedin.com/in/catherine-s-blakespear-6549a24",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "stefani-catherine-ca-hd19",
+      "name": "Catherine Stefani",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-19)",
+      "state": "CA",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3864202e-3b40-430e-a218-cfe56d83cee5"
+      },
+      "contact": {
+        "email": "assemblymember.stefani@assembly.ca.gov",
+        "district_voice": "415-557-2312",
+        "website": "https://a19.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://sfbos.org/sites/default/files/Roster_frame_stefani_0.jpg",
+      "sources": [
+        "https://a19.asmdc.org",
+        "https://ballotpedia.org/Catherine_Stefani",
+        "https://en.wikipedia.org/wiki/Catherine_Stefani",
+        "https://justfacts.votesmart.org/candidate/biography/187411/catherine-stefani",
+        "https://sfbos.org/supervisor-stefani-district-2",
+        "https://sfbos.org/supervisor-stefani-overview",
+        "https://www.assembly.ca.gov/assemblymembers/19",
+        "https://www.linkedin.com/in/catherine-stefani-64969b20",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "aguiar-curry-cecilia-ca-hd4",
+      "name": "Cecilia Aguiar-Curry",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-4)",
+      "state": "CA",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/434bcfb4-1279-40cc-916b-f89af5805a9c"
+      },
+      "contact": {
+        "email": "assemblymember.aguiar-curry@assembly.ca.gov",
+        "district_voice": "530-757-1034",
+        "website": "https://a04.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1954-09-25",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_04.jpg",
+      "sources": [
+        "https://a04.asmdc.org",
+        "https://a04.asmdc.org/biography",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Cecilia_Aguiar-Curry",
+        "https://en.wikipedia.org/wiki/Cecilia_Aguiar-Curry",
+        "https://justfacts.votesmart.org/candidate/biography/169297/cecilia-aguiar-curry",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.assembly.ca.gov/assemblymembers/04",
+        "https://www.linkedin.com/in/cecilia-aguiar-curry-9810b526",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "rodriguez-celeste-ca-hd43",
+      "name": "Celeste Rodriguez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-43)",
+      "state": "CA",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1dbf574d-4c03-40ce-8c30-a6727c4bd5ab"
+      },
+      "contact": {
+        "email": "assemblymember.celesterodriguez@assembly.ca.gov",
+        "district_voice": "818-504-3911",
+        "website": "https://a43.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://ci.san-fernando.ca.us/wp-content/uploads/2021/07/Rodriguez-Celeste-2021-267x300.png",
+      "sources": [
+        "https://a43.asmdc.org",
+        "https://ballotpedia.org/Celeste_Rodriguez",
+        "https://en.wikipedia.org/wiki/Celeste_Rodriguez",
+        "https://www.assembly.ca.gov/assemblymembers/43",
+        "https://www.linkedin.com/in/celeste-t-rodriguez",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "rogers-chris-ca-hd2",
+      "name": "Chris Rogers",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-2)",
+      "state": "CA",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/84a80bdb-37d5-4f52-8f55-e116fb97ca58"
+      },
+      "contact": {
+        "email": "assemblymember.rogers@assembly.ca.gov",
+        "district_voice": "707-576-2526",
+        "website": "https://a02.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1987-09-16",
+        "gender": "Male"
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsvc9FWYBOubY6iEQhH0tArBAvSS_ZMhoOGw&s",
+      "sources": [
+        "https://a02.asmdc.org",
+        "https://ballotpedia.org/Chris_Rogers_(California)",
+        "https://en.wikipedia.org/wiki/Chris_Rogers_(politician)",
+        "https://www.assembly.ca.gov/assemblymembers/02",
+        "https://www.linkedin.com/in/chrisrogersforassembly",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "cabaldon-christopher-ca-sd3",
+      "name": "Christopher Cabaldon",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-3)",
+      "state": "CA",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8833976f-b95a-45bf-bbd9-ccdb66946d20"
+      },
+      "contact": {
+        "email": "senator.cabaldon@senate.ca.gov",
+        "district_voice": "707-454-3808",
+        "website": "https://sd03.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1965-11-12",
+        "gender": "Male"
+      },
+      "image": "https://calearninglab.org/wp-content/uploads/2024/09/Emcee-Christopher-Cabaldon-488x559.png",
+      "sources": [
+        "https://ballotpedia.org/Christopher_Cabaldon",
+        "https://en.wikipedia.org/wiki/Christopher_Cabaldon",
+        "https://justfacts.votesmart.org/candidate/key-votes/71164/christopher-cabaldon",
+        "https://sd03.senate.ca.gov",
+        "https://www.linkedin.com/in/christophercabaldon",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "ward-chris-ca-hd78",
+      "name": "Chris Ward",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-78)",
+      "state": "CA",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/71590420-10d6-4deb-8d59-453256d625b6"
+      },
+      "contact": {
+        "email": "assemblymember.ward@assembly.ca.gov",
+        "district_voice": "619-280-7801",
+        "website": "https://a78.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1976-08-03",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_78.jpg",
+      "sources": [
+        "https://a78.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Christopher_Ward_(California)",
+        "https://en.wikipedia.org/wiki/Chris_Ward_(American_politician)",
+        "https://justfacts.votesmart.org/candidate/176914/chris-ward",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/harward",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-corey-ca-hd60",
+      "name": "Corey Jackson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-60)",
+      "state": "CA",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e351eaa3-8aa1-4f26-a8ff-2a260a0ad383"
+      },
+      "contact": {
+        "email": "assemblymember.jackson@assembly.ca.gov",
+        "district_voice": "951-653-0960",
+        "website": "https://a60.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_60.jpg",
+      "sources": [
+        "https://a60.asmdc.org",
+        "https://ballotpedia.org/Corey_Jackson",
+        "https://en.wikipedia.org/wiki/Corey_Jackson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/205321/corey-jackson",
+        "https://lcmspubcontact.lc.ca.gov/PublicLCMS/ContactPopup.php?district=AD60&inframe=N",
+        "https://ww2.arb.ca.gov/about/leadership/dr-corey-jackson",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/corey-jackson-msw-a250496",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "petrie-norris-cottie-ca-hd73",
+      "name": "Cottie Petrie-Norris",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-73)",
+      "state": "CA",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c766abf8-06ca-4a98-9665-82b87149ca96"
+      },
+      "contact": {
+        "email": "assemblymember.petrie-norris@assembly.ca.gov",
+        "district_voice": "949-251-0074",
+        "website": "https://a73.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1975-08-07",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_73.jpg",
+      "sources": [
+        "https://a73.asmdc.org",
+        "https://a73.asmdc.org/biography",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Cottie_Petrie-Norris",
+        "https://en.wikipedia.org/wiki/Cottie_Petrie-Norris",
+        "https://justfacts.votesmart.org/candidate/biography/180141/cottie-petrie-norris",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/cottie-petrie-norris-9b1619",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "connolly-damon-ca-hd12",
+      "name": "Damon Connolly",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-12)",
+      "state": "CA",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/32e06e60-77ac-4c5e-af1e-2110b602dc97"
+      },
+      "contact": {
+        "email": "assemblymember.connolly@assembly.ca.gov",
+        "district_voice": "415-479-4920",
+        "website": "https://a12.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1963-06-19",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_12.jpg",
+      "sources": [
+        "https://a12.asmdc.org",
+        "https://a12.asmdc.org/biography",
+        "https://ballotpedia.org/Damon_Connolly",
+        "https://en.wikipedia.org/wiki/Damon_Connolly",
+        "https://justfacts.votesmart.org/candidate/biography/59851/damon-connolly",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/damon-connolly-7093588",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "patel-darsh-ca-hd76",
+      "name": "Darsh Patel",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-76)",
+      "state": "CA",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86218623-ea63-4b2a-ab5c-7694e3f4a18a"
+      },
+      "contact": {
+        "email": "assemblymember.patel@assembly.ca.gov",
+        "district_voice": "858-675-0760",
+        "website": "https://a76.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Darshana_Patel.jpg",
+      "sources": [
+        "https://a76.asmdc.org",
+        "https://ballotpedia.org/Darshana_Patel",
+        "https://www.assembly.ca.gov/assemblymembers/76",
+        "https://www.linkedin.com/in/darshanapatelphd",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "cortese-dave-ca-sd15",
+      "name": "Dave Cortese",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-15)",
+      "state": "CA",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0fa65d2c-6020-4586-a6f1-5dfd41db38ff"
+      },
+      "contact": {
+        "email": "senator.cortese@senate.ca.gov",
+        "district_voice": "408-723-4154",
+        "website": "https://sd15.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1956-06-03",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/sd15_cortese_0.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dave_Cortese_(California)",
+        "https://en.wikipedia.org/wiki/Dave_Cortese",
+        "https://justfacts.votesmart.org/candidate/biography/114701/dave-cortese",
+        "https://sd15.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.linkedin.com/in/dave-cortese-a5874a4",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "alvarez-david-ca-hd80",
+      "name": "David Alvarez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-80)",
+      "state": "CA",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/52f6ccc1-eb4a-4c09-8614-5e4022395605"
+      },
+      "contact": {
+        "email": "assemblymember.alvarez@assembly.ca.gov",
+        "district_voice": "619-498-8580",
+        "website": "https://a80.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1980-07-27",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_80.jpg",
+      "sources": [
+        "https://a80.asmdc.org",
+        "https://a80.asmdc.org/about/biography",
+        "https://ballotpedia.org/David_Alvarez_(California)",
+        "https://en.wikipedia.org/wiki/David_Alvarez_(politician)",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/alvarezsd",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "tangipa-david-ca-hd8",
+      "name": "David Tangipa",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-8)",
+      "state": "CA",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/748ce69c-a2bc-41a7-95e2-b09fba6e5ecd"
+      },
+      "contact": {
+        "email": "assemblymember.tangipa@assembly.ca.gov",
+        "district_voice": "559-446-2029",
+        "website": "https://ad08.asmrc.org/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://youngamericans.berkeley.edu/wp-content/uploads/2024/04/David-Tangipa-1024x1024.jpg",
+      "sources": [
+        "https://ad08.asmrc.org",
+        "https://ballotpedia.org/David_Tangipa",
+        "https://en.wikipedia.org/wiki/David_Tangipa",
+        "https://justfacts.votesmart.org/candidate/213160/david-tangipa",
+        "https://www.assembly.ca.gov/assemblymembers/08",
+        "https://www.linkedin.com/in/david-tangipa-819877b2",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "addis-dawn-ca-hd30",
+      "name": "Dawn Addis",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-30)",
+      "state": "CA",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eddfcfb5-2d07-4e5b-81a0-88e5703dc0bb"
+      },
+      "contact": {
+        "email": "dawn.addis@asm.ca.gov",
+        "district_voice": "831-649-2832",
+        "website": "https://a30.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1972-07-12",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_30.jpg",
+      "sources": [
+        "https://a30.asmdc.org",
+        "https://a30.asmdc.org/biography",
+        "https://ballotpedia.org/Dawn_Addis",
+        "https://dawnaddis.org/about",
+        "https://en.wikipedia.org/wiki/Dawn_Addis",
+        "https://justfacts.votesmart.org/candidate/biography/188800/dawn-addis",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/dawn-addis",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "dixon-diane-ca-hd72",
+      "name": "Diane Dixon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-72)",
+      "state": "CA",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0c4e1b43-c3d7-4a13-87c4-92e29903cb73"
+      },
+      "contact": {
+        "email": "assemblymember.dixon@assembly.ca.gov",
+        "district_voice": "949-798-7221",
+        "website": "https://ad72.asmrc.org"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_72.jpg",
+      "sources": [
+        "https://ad72.asmrc.org",
+        "https://ad72.asmrc.org/biography",
+        "https://ballotpedia.org/Diane_Dixon",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/dianebrooksdixon",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "papan-diane-ca-hd21",
+      "name": "Diane Papan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-21)",
+      "state": "CA",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/20c72bef-f518-4677-bbcb-83c502c36ede"
+      },
+      "contact": {
+        "email": "assemblymember.papan@assembly.ca.gov",
+        "district_voice": "650-349-2200",
+        "website": "https://a21.asmdc.org"
+      },
+      "bio": {
+        "birth_date": "1963-08-22",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_21.jpg",
+      "sources": [
+        "https://a21.asmdc.org",
+        "https://a21.asmdc.org/biography",
+        "https://ballotpedia.org/Diane_Papan",
+        "https://en.wikipedia.org/wiki/Diane_Papan",
+        "https://justfacts.votesmart.org/candidate/biography/172943/diane-papan",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/diane-papan-a15b0365",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "arambula-joaquin-ca-hd31",
+      "name": "Joaquin Arambula",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-31)",
+      "state": "CA",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e2da0f08-1bd8-4ac2-95f1-002870238527"
+      },
+      "contact": {
+        "email": "assemblymember.arambula@assembly.ca.gov",
+        "district_voice": "559-445-5532",
+        "website": "https://a31.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1977-05-17",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_31.jpg",
+      "sources": [
+        "https://a31.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Joaquin_Arambula",
+        "https://en.wikipedia.org/wiki/Joaquin_Arambula",
+        "https://justfacts.votesmart.org/candidate/biography/169272/joaquin-arambula",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "reyes-eloise-ca-sd29",
+      "name": "Eloise Reyes",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-29)",
+      "state": "CA",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/19f694d8-b409-40e5-9f87-d8e3e84afc7f"
+      },
+      "contact": {
+        "email": "senator.reyes@senate.ca.gov",
+        "district_voice": "909-888-5360",
+        "website": "https://a47.asmdc.org"
+      },
+      "bio": {
+        "birth_date": "1956-01-27",
+        "gender": "Female"
+      },
+      "image": "https://www.assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/ad-50_reyes_e17_resized.jpg",
+      "sources": [
+        "https://a50.asmdc.org",
+        "https://a50.asmdc.org/biography",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Eloise_Reyes",
+        "https://en.wikipedia.org/wiki/Eloise_Reyes",
+        "https://justfacts.votesmart.org/candidate/biography/169395/eloise-reyes",
+        "https://sd29.senate.ca.gov",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/eloise-reyes-726759a",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "soria-esmeralda-ca-hd27",
+      "name": "Esmeralda Soria",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-27)",
+      "state": "CA",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d2a8e29a-5eac-4e2a-a686-d1bdb04927e7"
+      },
+      "contact": {
+        "email": "assemblymember.soria@assembly.ca.gov",
+        "district_voice": "209-726-5465",
+        "website": "https://a27.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1982-04-22",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_27.jpg",
+      "sources": [
+        "https://a27.asmdc.org",
+        "https://ballotpedia.org/Esmeralda_Soria",
+        "https://en.wikipedia.org/wiki/Esmeralda_Soria",
+        "https://soriaforcalifornia.com/meet-the-candidate",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/esmeraldas1",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "pellerin-gail-ca-hd28",
+      "name": "Gail Pellerin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-28)",
+      "state": "CA",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2944d19a-c288-4f32-b6a0-72e35f48e570"
+      },
+      "contact": {
+        "email": "assemblymember.pellerin@assembly.ca.gov",
+        "district_voice": "831-425-1503",
+        "website": "https://a28.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1962-06-24",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_28.jpg",
+      "sources": [
+        "https://a28.asmdc.org",
+        "https://a28.asmdc.org/biography",
+        "https://ballotpedia.org/Gail_Pellerin",
+        "https://en.wikipedia.org/wiki/Gail_Pellerin",
+        "https://justfacts.votesmart.org/candidate/205284/gail-pellerin",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.gailpellerinforassembly.com/about-gail",
+        "https://www.linkedin.com/in/gail-pellerin-86265b17",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "wallis-greg-ca-hd47",
+      "name": "Greg Wallis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-47)",
+      "state": "CA",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/50e55c91-8b18-45ea-a074-bf500e7a299e"
+      },
+      "contact": {
+        "email": "assemblymember.wallis@assembly.ca.gov",
+        "district_voice": "760-346-6342",
+        "website": "https://ad47.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1990-05-15",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_47.jpg",
+      "sources": [
+        "https://ad47.asmrc.org",
+        "https://ballotpedia.org/Greg_Wallis",
+        "https://en.wikipedia.org/wiki/Greg_Wallis",
+        "https://justfacts.votesmart.org/candidate/biography/205311/greg-wallis",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.gregwallis.org/meet-greg",
+        "https://www.linkedin.com/in/gregory-wallis-75211846",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "hart-gregg-ca-hd37",
+      "name": "Gregg Hart",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-37)",
+      "state": "CA",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/57f76b8e-63ba-4aa7-93c9-0b0853ce2279"
+      },
+      "contact": {
+        "email": "assemblymember.hart@assembly.ca.gov",
+        "district_voice": "805-346-1237",
+        "website": "https://a37.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_37.jpg",
+      "sources": [
+        "https://a37.asmdc.org",
+        "https://a37.asmdc.org/biography",
+        "https://ballotpedia.org/Gregg_Hart",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/gregg-hart-37b3504",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "flora-heath-ca-hd9",
+      "name": "Heath Flora",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-9)",
+      "state": "CA",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c830a90c-8964-4c0f-b31b-729cab1144fd"
+      },
+      "contact": {
+        "email": "assemblymember.flora@assembly.ca.gov",
+        "district_voice": "209-599-2112",
+        "website": "https://ad09.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1983-07-19",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_09.jpg",
+      "sources": [
+        "https://ad09.asmrc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Heath_Flora",
+        "https://en.wikipedia.org/wiki/Heath_Flora",
+        "https://justfacts.votesmart.org/candidate/biography/169309/heath-flora",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/heath-flora-24060a47",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "hadwick-heather-ca-hd1",
+      "name": "Heather Hadwick",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-1)",
+      "state": "CA",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3b125433-5362-42e2-a2b5-b608962c9481"
+      },
+      "contact": {
+        "email": "assemblymember.hadwick@assembly.ca.gov",
+        "district_voice": "530-223-6300",
+        "website": "https://ad01.asmrc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://theorion.com/wp-content/uploads/2024/09/Hadwick-MCOE-.jpg",
+      "sources": [
+        "https://ad01.asmrc.org",
+        "https://ad01.asmrc.org/biography",
+        "https://ballotpedia.org/Heather_Hadwick",
+        "https://justfacts.votesmart.org/candidate/213143/heather-hadwick",
+        "https://www.assembly.ca.gov/assemblymembers/01",
+        "https://www.linkedin.com/in/heather-hadwick-051016290",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "stern-henry-ca-sd27",
+      "name": "Henry Stern",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-27)",
+      "state": "CA",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/66bd4b32-5536-4bae-ab55-08c0b70ca5fd"
+      },
+      "contact": {
+        "email": "senator.stern@senate.ca.gov",
+        "district_voice": "818-501-0650",
+        "website": "https://sd27.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1982-04-12",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/stern.jpg",
+      "sources": [
+        "https://ballotpedia.org/Henry_Stern",
+        "https://en.wikipedia.org/wiki/Henry_Stern_(California_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/169182/henry-stern",
+        "https://sd27.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://ww2.arb.ca.gov/about/leadership/henry-stern",
+        "https://www.linkedin.com/in/henry-stern-3805713",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "bryan-isaac-ca-hd55",
+      "name": "Isaac Bryan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-55)",
+      "state": "CA",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e9e56c3e-1c7d-4eab-a3ac-35cfc7c6a651"
+      },
+      "contact": {
+        "email": "assemblymember.bryan@assembly.ca.gov",
+        "district_voice": "310-641-5410",
+        "website": "https://a54.asmdc.org"
+      },
+      "bio": {
+        "birth_date": "1992-01-16",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_55.jpg",
+      "sources": [
+        "https://a54.asmdc.org",
+        "https://a54.asmdc.org/",
+        "https://a55.asmdc.org",
+        "https://ballotpedia.org/Isaac_Bryan",
+        "https://en.wikipedia.org/wiki/Isaac_Bryan",
+        "https://justfacts.votesmart.org/candidate/biography/195907/isaac-bryan",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/isaacbryan",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "irwin-jacqui-ca-hd42",
+      "name": "Jacqui Irwin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-42)",
+      "state": "CA",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e7ad99fd-fda5-4114-af3e-320f5be9be3c"
+      },
+      "contact": {
+        "email": "assemblymember.irwin@assembly.ca.gov",
+        "district_voice": "424-238-2421",
+        "website": "https://a42.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1962-01-03",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_42.jpg",
+      "sources": [
+        "https://a42.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Jacqui_Irwin",
+        "https://en.wikipedia.org/wiki/Jacqui_Irwin",
+        "https://justfacts.votesmart.org/candidate/biography/70919/jacqui-irwin",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/jacqui-irwin-3101828",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "ramos-james-ca-hd45",
+      "name": "James Ramos",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-45)",
+      "state": "CA",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/156660b1-4c3f-45e3-8384-53cda60d7ea5"
+      },
+      "contact": {
+        "email": "assemblymember.ramos@assembly.ca.gov",
+        "district_voice": "909-889-7145",
+        "website": "https://a40.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1967-01-29",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_45.jpg",
+      "sources": [
+        "https://a45.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/James_Ramos",
+        "https://en.wikipedia.org/wiki/James_Ramos",
+        "https://justfacts.votesmart.org/candidate/biography/144120/james-ramos",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "gallagher-james-ca-hd3",
+      "name": "James Gallagher",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-3)",
+      "state": "CA",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5d93a1cb-7a01-43ab-a26c-a2abecdee135"
+      },
+      "contact": {
+        "email": "assemblymember.gallagher@assembly.ca.gov",
+        "district_voice": "530-895-4217",
+        "website": "https://ad03.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1981-03-04",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_03.jpg",
+      "sources": [
+        "https://ad03.asmrc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/James_Gallagher_(California)",
+        "https://en.wikipedia.org/wiki/James_Gallagher_(California_politician)",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "bains-jasmeet-ca-hd35",
+      "name": "Jasmeet Bains",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-35)",
+      "state": "CA",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b08199e4-63d9-4bd4-9be3-99e628fa7059"
+      },
+      "contact": {
+        "email": "assemblymember.bains@assembly.ca.gov",
+        "district_voice": "661-335-0302",
+        "website": "https://a35.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1986-07-02",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://a35.asmdc.org",
+        "https://ballotpedia.org/Jasmeet_Bains",
+        "https://en.wikipedia.org/wiki/Jasmeet_Bains",
+        "https://justfacts.votesmart.org/candidate/biography/205296/jasmeet-bains",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.drjasmeetbains.com/archived-bio-12-30-23",
+        "https://www.linkedin.com/in/jasmeet-bains-md-b7684a93",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "gonzalez-jeff-ca-hd36",
+      "name": "Jeff Gonzalez",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-36)",
+      "state": "CA",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/552b5bf7-472d-48a4-bb9a-132c1f044737"
+      },
+      "contact": {
+        "email": "assemblymember.gonzalez@assembly.ca.gov",
+        "district_voice": "760-347-2360",
+        "website": "https://ad36.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1974-08-05",
+        "gender": "Male"
+      },
+      "image": "https://californiaglobe.com/wp-content/uploads/2024/10/Screenshot-2024-10-03-at-7.03.49%E2%80%AFAM-708x642.png",
+      "sources": [
+        "https://ad36.asmrc.org",
+        "https://ballotpedia.org/Jeff_Gonzalez",
+        "https://justfacts.votesmart.org/candidate/biography/180114/jeff-gonzalez",
+        "https://www.assembly.ca.gov/assemblymembers/36",
+        "https://www.linkedin.com/in/jeffgonzalez-",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "mcnerney-jerry-ca-sd5",
+      "name": "Jerry McNerney",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-5)",
+      "state": "CA",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e9733632-df5d-48b4-b4a3-4768e7dcb5f7"
+      },
+      "contact": {
+        "email": "senator.mcnerney@senate.ca.gov",
+        "district_voice": "209-472-9535",
+        "website": "https://sd05.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1951-06-18",
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/70583.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jerry_McNerney",
+        "https://en.wikipedia.org/wiki/Jerry_McNerney",
+        "https://justfacts.votesmart.org/candidate/29474/jerry-mcnerney",
+        "https://sd05.senate.ca.gov",
+        "https://www.govtrack.us/congress/members/jerry_mcnerney/412189",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "arregu-n-jesse-ca-sd7",
+      "name": "Jesse Arreguín",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-7)",
+      "state": "CA",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/83a64401-d95d-42c5-8cfc-03bd29e4adc8"
+      },
+      "contact": {
+        "email": "senator.arreguin@senate.ca.gov",
+        "district_voice": "510-286-1333",
+        "website": "https://sd07.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1984-09-04",
+        "gender": "Male"
+      },
+      "image": "https://berkeleyca.gov/sites/default/files/elected-office-holder/portrait.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jesse_Arregu%C3%ADn",
+        "https://berkeleyca.gov/your-government/city-council/council-roster/jesse-arreguin",
+        "https://en.wikipedia.org/wiki/Jesse_Arregu%C3%ADn",
+        "https://justfacts.votesmart.org/candidate/111582/jesse-arreguin",
+        "https://sd07.senate.ca.gov",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "gabriel-jesse-ca-hd46",
+      "name": "Jesse Gabriel",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-46)",
+      "state": "CA",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/407f6fda-8638-4cca-9704-7aa8df7de26e"
+      },
+      "contact": {
+        "email": "assemblymember.gabriel@assembly.ca.gov",
+        "district_voice": "818-380-2460",
+        "website": "https://a45.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1981-09-25",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_46.jpg",
+      "sources": [
+        "https://a46.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Jesse_Gabriel",
+        "https://en.wikipedia.org/wiki/Jesse_Gabriel",
+        "https://justfacts.votesmart.org/candidate/biography/178075/jesse-gabriel",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/jesse-gabriel-4111b32b",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "caloza-jessica-ca-hd52",
+      "name": "Jessica Caloza",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-52)",
+      "state": "CA",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/81d9225e-7584-43c9-9e9b-f12b7e7dbd4e"
+      },
+      "contact": {
+        "email": "assemblymember.caloza@assembly.ca.gov",
+        "district_voice": "213-483-5252",
+        "website": "https://a52.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/158655.jpg",
+      "sources": [
+        "https://a52.asmdc.org",
+        "https://ballotpedia.org/Jessica_Caloza",
+        "https://en.wikipedia.org/wiki/Jessica_Caloza",
+        "https://www.assembly.ca.gov/assemblymembers/52",
+        "https://www.linkedin.com/in/jessicacaloza",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "patterson-joe-ca-hd5",
+      "name": "Joe Patterson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-5)",
+      "state": "CA",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c7a404d9-03f7-4e82-b730-1623da31d4cc"
+      },
+      "contact": {
+        "email": "assemblymember.joepatterson@assembly.ca.gov",
+        "district_voice": "916-435-0501",
+        "website": "https://ad05.asmrc.org"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_05.jpg",
+      "sources": [
+        "https://ad05.asmrc.org",
+        "https://ad05.asmrc.org/biography",
+        "https://ballotpedia.org/Joe_Patterson_(California)",
+        "https://joepatterson.com/about",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/joepatterson82",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "harabedian-john-ca-hd41",
+      "name": "John Harabedian",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-41)",
+      "state": "CA",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0253bb3f-2fcb-49ed-a85d-578fee726be8"
+      },
+      "contact": {
+        "email": "assemblymember.harabedian@assembly.ca.gov",
+        "district_voice": "626-351-1917",
+        "website": "https://a41.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/158662.jpg",
+      "sources": [
+        "https://a41.asmdc.org",
+        "https://a41.asmdc.org/biography",
+        "https://ballotpedia.org/John_Harabedian",
+        "https://en.wikipedia.org/wiki/John_Harabedian",
+        "https://www.assembly.ca.gov/assemblymembers/41",
+        "https://www.linkedin.com/in/john-harabedian-9ba716a",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "laird-john-ca-sd17",
+      "name": "John Laird",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-17)",
+      "state": "CA",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7476789f-49a4-491a-b294-9d1486f24193"
+      },
+      "contact": {
+        "email": "senator.laird@senate.ca.gov",
+        "district_voice": "831-657-6315",
+        "website": "https://sd17.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1950-03-29",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/sd17_laird_0.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Laird",
+        "https://en.wikipedia.org/wiki/John_Laird_(American_politician)",
+        "https://sd17.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.linkedin.com/in/john-laird-42095110",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "solache-jos-ca-hd62",
+      "name": "José Solache",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-62)",
+      "state": "CA",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b9c75c1e-6ea8-4fae-9efa-a7bf0a0cb2cc"
+      },
+      "contact": {
+        "email": "assemblymember.solache@assembly.ca.gov",
+        "district_voice": "562-529-3250",
+        "website": "https://a62.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.lynwoodca.gov/ImageRepository/Document?documentID=302",
+      "sources": [
+        "https://a62.asmdc.org",
+        "https://ballotpedia.org/Jose_Solache",
+        "https://justfacts.votesmart.org/candidate/biography/146371/jose-solache",
+        "https://www.assembly.ca.gov/assemblymembers/62",
+        "https://www.linkedin.com/in/jose-l-solache-40393b6",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "becker-josh-ca-sd13",
+      "name": "Josh Becker",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-13)",
+      "state": "CA",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c71137b2-3fc3-48bf-b0ad-6c29aff98268"
+      },
+      "contact": {
+        "email": "senator.becker@senate.ca.gov",
+        "district_voice": "650-233-2724",
+        "website": "https://sd13.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1969-04-13",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/sd13_becker_0.jpg",
+      "sources": [
+        "https://ballotpedia.org/Josh_Becker",
+        "https://en.wikipedia.org/wiki/Josh_Becker_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/120184/josh-becker",
+        "https://sd13.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.linkedin.com/in/beckerjosh",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "hoover-joshua-ca-hd7",
+      "name": "Joshua Hoover",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-7)",
+      "state": "CA",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/71aa54c0-3fad-499c-928e-ffbb692a970b"
+      },
+      "contact": {
+        "email": "assemblymember.hoover@assembly.ca.gov",
+        "district_voice": "916-294-9774",
+        "website": "https://ad07.asmrc.org"
+      },
+      "bio": {
+        "birth_date": "1988-04-11",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ad07.asmrc.org",
+        "https://ad07.asmrc.org/biography",
+        "https://ballotpedia.org/Josh_Hoover",
+        "https://en.wikipedia.org/wiki/Josh_Hoover",
+        "https://justfacts.votesmart.org/candidate/biography/205249/josh-hoover",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/joshuaryanhoover",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "lowenthal-josh-ca-hd69",
+      "name": "Josh Lowenthal",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-69)",
+      "state": "CA",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b20254b0-437a-4d3d-9aa9-baa5db2bc5ef"
+      },
+      "contact": {
+        "email": "assemblymember.lowenthal@assembly.ca.gov",
+        "district_voice": "562-366-2769",
+        "website": "https://a69.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1970-02-15",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_69.jpg",
+      "sources": [
+        "https://a69.asmdc.org",
+        "https://a69.asmdc.org/biography",
+        "https://ballotpedia.org/Josh_Lowenthal",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/josh-lowenthal-82298420",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "alanis-juan-ca-hd22",
+      "name": "Juan Alanis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-22)",
+      "state": "CA",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dfb00d6c-1d0d-410f-8a06-d54841495a62"
+      },
+      "contact": {
+        "email": "assemblymember.alanis@assembly.ca.gov",
+        "district_voice": "209-521-2201",
+        "website": "https://ad22.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1978-06-17",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_22.jpg",
+      "sources": [
+        "https://ad22.asmrc.org",
+        "https://ad22.asmrc.org/biography",
+        "https://ballotpedia.org/Juan_Alanis_(California)",
+        "https://en.wikipedia.org/wiki/Juan_Alanis_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/205277/juan-alanis",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/juan-alanis-8a450b15a",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "carrillo-juan-ca-hd39",
+      "name": "Juan Carrillo",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-39)",
+      "state": "CA",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/092bda0e-23a9-4d25-92a9-5808e996702b"
+      },
+      "contact": {
+        "email": "assemblymember.juancarrillo@assembly.ca.gov",
+        "district_voice": "661-266-3908",
+        "website": "https://a39.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_39.jpg",
+      "sources": [
+        "https://a39.asmdc.org",
+        "https://a39.asmdc.org/biography",
+        "https://ballotpedia.org/Juan_Carrillo",
+        "https://en.wikipedia.org/wiki/Juan_Carrillo",
+        "https://hsr.ca.gov/juan-carrillo",
+        "https://votejuancarrillo.com/meet-the-candidate",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "sanchez-kate-ca-hd71",
+      "name": "Kate Sanchez",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-71)",
+      "state": "CA",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/76378b56-7ad9-463c-a4fd-47c665b26ee8"
+      },
+      "contact": {
+        "email": "assemblymember.sanchez@assembly.ca.gov",
+        "district_voice": "951-696-0002",
+        "website": "https://ad71.asmrc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_71.jpg",
+      "sources": [
+        "https://ad71.asmrc.org",
+        "https://ad71.asmrc.org/biography",
+        "https://ballotpedia.org/Kate_Sanchez",
+        "https://en.wikipedia.org/wiki/Kate_Sanchez",
+        "https://justfacts.votesmart.org/candidate/biography/205341/kate-sanchez",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/kate-sanchez-9aa099312",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "seyarto-kelly-ca-sd32",
+      "name": "Kelly Seyarto",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-32)",
+      "state": "CA",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d9462f08-2b27-4969-8436-9a1c21534a40"
+      },
+      "contact": {
+        "email": "senator.seyarto@senate.ca.gov",
+        "district_voice": "951-280-1260",
+        "website": "https://ad67.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1962-10-28",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/seyarto_kelly_r-32c.jpg",
+      "sources": [
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Kelly_Seyarto",
+        "https://en.wikipedia.org/wiki/Kelly_Seyarto",
+        "https://sr32.senate.ca.gov",
+        "https://sr32.senate.ca.gov/about-kelly",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "sharp-collins-lashae-ca-hd79",
+      "name": "LaShae Sharp-Collins",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-79)",
+      "state": "CA",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/895f777d-ae7b-429a-aa0f-1b2895c13945"
+      },
+      "contact": {
+        "email": "assemblymember.sharpcollins@assembly.ca.gov",
+        "district_voice": "619-465-7903",
+        "website": "https://a79.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/lscollins.JPG",
+      "sources": [
+        "https://a79.asmdc.org",
+        "https://ballotpedia.org/LaShae_Sharp-Collins",
+        "https://en.wikipedia.org/wiki/LaShae_Sharp-Collins",
+        "https://justfacts.votesmart.org/candidate/biography/213430/lashae-sharp-collins",
+        "https://www.assembly.ca.gov/assemblymembers/79",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "richardson-laura-ca-sd35",
+      "name": "Laura Richardson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-35)",
+      "state": "CA",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bd78b1b9-6d92-4c67-a1f4-0548575f3aa5"
+      },
+      "contact": {
+        "email": "senator.richardson@senate.ca.gov",
+        "district_voice": "310-514-8573",
+        "website": "https://sd35.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1962-04-14",
+        "gender": "Female"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/6409.jpg",
+      "sources": [
+        "https://ballotpedia.org/Laura_Richardson",
+        "https://en.wikipedia.org/wiki/Laura_Richardson",
+        "https://sd35.senate.ca.gov",
+        "https://www.govtrack.us/congress/members/laura_richardson/412253",
+        "https://www.linkedin.com/in/laura-richardson-40732a43",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "davies-laurie-ca-hd74",
+      "name": "Laurie Davies",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-74)",
+      "state": "CA",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1b3ac39e-7b50-4263-bd1d-add1e91d71b9"
+      },
+      "contact": {
+        "email": "assemblymember.davies@assembly.ca.gov",
+        "district_voice": "949-240-7300",
+        "website": "https://ad73.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1962-02-27",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_74.jpg",
+      "sources": [
+        "https://ad74.asmrc.org",
+        "https://ad74.asmrc.org/biography",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Laurie_Davies",
+        "https://en.wikipedia.org/wiki/Laurie_Davies_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/146356/laurie-davies",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/mayor-laurie-davies-0465896",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "gonzalez-lena-ca-sd33",
+      "name": "Lena Gonzalez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-33)",
+      "state": "CA",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cb6cc457-59f8-4dd8-aeb5-691c3795ffb7"
+      },
+      "contact": {
+        "email": "senator.gonzalez@senate.ca.gov",
+        "district_voice": "562-256-7921",
+        "website": "https://sd33.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1981-01-26",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/senator-lena-gonzalez.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lena_Gonzalez",
+        "https://en.wikipedia.org/wiki/Lena_Gonzalez",
+        "https://sd33.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.linkedin.com/in/lena-a-gonzalez",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "castillo-leticia-ca-hd58",
+      "name": "Leticia Castillo",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-58)",
+      "state": "CA",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/06d4d543-2374-436f-978d-b924c7ec7d53"
+      },
+      "contact": {
+        "email": "assemblymember.castillo@assembly.ca.gov",
+        "district_voice": "951-371-6860",
+        "website": "https://ad58.asmrc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/May162022532PM_104500298_0304E3268B78420096DFCD3FA3DB99B7-min.jpeg",
+      "sources": [
+        "https://ad58.asmrc.org",
+        "https://ballotpedia.org/Leticia_Castillo",
+        "https://www.assembly.ca.gov/assemblymembers/58",
+        "https://www.linkedin.com/in/leticiacastillo",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "calderon-lisa-ca-hd56",
+      "name": "Lisa Calderon",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-56)",
+      "state": "CA",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ed58ae30-ffe5-4395-9353-141e4018cbe3"
+      },
+      "contact": {
+        "email": "assemblymember.calderon@assembly.ca.gov",
+        "district_voice": "562-692-5858",
+        "website": "https://a56.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1965-01-25",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_56.jpg",
+      "sources": [
+        "https://a56.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Lisa_Calderon_(California)",
+        "https://en.wikipedia.org/wiki/Lisa_Calderon",
+        "https://justfacts.votesmart.org/candidate/biography/188854/lisa-calderon",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/lisacalderon",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "ortega-liz-ca-hd20",
+      "name": "Liz Ortega",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-20)",
+      "state": "CA",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/54e48d10-22e1-43da-b114-c1d3f741faff"
+      },
+      "contact": {
+        "email": "assemblymember.ortega@assembly.ca.gov",
+        "district_voice": "510-583-8818",
+        "website": "https://a20.asmdc.org"
+      },
+      "bio": {
+        "birth_date": "1977-08-26",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_20.jpg",
+      "sources": [
+        "https://a20.asmdc.org",
+        "https://a20.asmdc.org/biography",
+        "https://ballotpedia.org/Liz_Ortega",
+        "https://en.wikipedia.org/wiki/Liz_Ortega",
+        "https://justfacts.votesmart.org/candidate/biography/205270/liz-ortega",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/liz-ortega-145989140",
+        "https://www.ortegaforassembly.com/about",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "smallwood-cuevas-lola-ca-sd28",
+      "name": "Lola Smallwood-Cuevas",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-28)",
+      "state": "CA",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37f2dc9f-d788-4f71-b794-093c8816333b"
+      },
+      "contact": {
+        "email": "senator.smallwood-cuevas@senate.ca.gov",
+        "district_voice": "213-745-6656",
+        "website": "https://sd28.senate.ca.gov/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/smallwood-cuevas_lola_d-28.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lola_Smallwood-Cuevas",
+        "https://en.wikipedia.org/wiki/Lola_Smallwood-Cuevas",
+        "https://justfacts.votesmart.org/candidate/biography/205233/lola-smallwood-cuevas",
+        "https://sd28.senate.ca.gov",
+        "https://sd28.senate.ca.gov/biography",
+        "https://www.linkedin.com/in/lola-smallwood-cuevas-4406886b",
+        "https://www.linkedin.com/in/lola-smallwood-cuevas-4b3a5824",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "wilson-lori-ca-hd11",
+      "name": "Lori Wilson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-11)",
+      "state": "CA",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/926d1337-0318-4c12-a291-178f10199b23"
+      },
+      "contact": {
+        "email": "assemblymember.wilson@assembly.ca.gov",
+        "district_voice": "707-438-7359",
+        "website": "https://a11.asmdc.org"
+      },
+      "bio": {
+        "birth_date": "1976-07-17",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_11.jpg",
+      "sources": [
+        "https://a11.asmdc.org",
+        "https://ballotpedia.org/Lori_Wilson",
+        "https://en.wikipedia.org/wiki/Lori_Wilson_(California_politician)",
+        "https://justfacts.votesmart.org/candidate/202065/lori-wilson",
+        "https://loridwilson.com",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/loridwilson",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "krell-maggy-ca-hd6",
+      "name": "Maggy Krell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-6)",
+      "state": "CA",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e8ac7b26-03a5-4818-b05d-0f379029bbdb"
+      },
+      "contact": {
+        "email": "assemblymember.krell@assembly.ca.gov",
+        "district_voice": "916-324-4676",
+        "website": "https://a06.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://lettersandscience.ucdavis.edu/sites/g/files/dgvnsk15706/files/styles/sf_profile/public/images/person/Maggy%20Krell.jpeg?h=a7e6d17b&itok=kwhSUK6x",
+      "sources": [
+        "https://a06.asmdc.org",
+        "https://ballotpedia.org/Maggy_Krell",
+        "https://en.wikipedia.org/wiki/Maggy_Krell",
+        "https://justfacts.votesmart.org/candidate/213154/maggy-krell",
+        "https://www.assembly.ca.gov/assemblymembers/06",
+        "https://www.linkedin.com/in/maggy-krell-7aa62066",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "berman-marc-ca-hd23",
+      "name": "Marc Berman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-23)",
+      "state": "CA",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/24facf9e-7fb1-4475-9120-05cd0145c7c1"
+      },
+      "contact": {
+        "email": "assemblymember.berman@assembly.ca.gov",
+        "district_voice": "650-324-0224",
+        "website": "https://a23.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1980-10-31",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_23.jpg",
+      "sources": [
+        "https://a23.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Marc_Berman",
+        "https://en.wikipedia.org/wiki/Marc_Berman",
+        "https://justfacts.votesmart.org/candidate/biography/146412/marc-berman",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/marcberman7",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "durazo-mar-a-elena-ca-sd26",
+      "name": "María Elena Durazo",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-26)",
+      "state": "CA",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b3f55460-f87b-4db4-b6a5-35a735f34076"
+      },
+      "contact": {
+        "email": "senator.durazo@senate.ca.gov",
+        "district_voice": "213-483-9300",
+        "website": "https://sd26.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1953-03-20",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/senator_durazo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Maria_Elena_Durazo",
+        "https://en.wikipedia.org/wiki/Maria_Elena_Durazo",
+        "https://justfacts.votesmart.org/candidate/biography/179971/maria-durazo",
+        "https://sd26.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.linkedin.com/in/maria-elena-durazo-63724689",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "alvarado-gil-marie-ca-sd4",
+      "name": "Marie Alvarado-Gil",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-4)",
+      "state": "CA",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b6907bd6-05e1-44a4-bfc6-db4b672ff8b4"
+      },
+      "contact": {
+        "email": "senator.alvarado-gil@senate.ca.gov",
+        "district_voice": "916-933-8680",
+        "website": "https://sd04.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1973-12-24",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/alvarado-gill_marie_d-04.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marie_Alvarado-Gil",
+        "https://en.wikipedia.org/wiki/Marie_Alvarado-Gil",
+        "https://justfacts.votesmart.org/candidate/biography/205209/marie-alvarado-gil",
+        "https://sd04.senate.ca.gov",
+        "https://sd04.senate.ca.gov/biography",
+        "https://sr04.senate.ca.gov",
+        "https://www.linkedin.com/in/alvaradogilforsenate2022",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "gonz-lez-mark-ca-hd54",
+      "name": "Mark González",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-54)",
+      "state": "CA",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4a6f5a5d-275e-4fb2-a8bf-bb1272d4dfbb"
+      },
+      "contact": {
+        "email": "assemblymember.gonzalez@assembly.ca.gov",
+        "district_voice": "213-620-4646",
+        "website": "https://a54.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.sgvtribune.com/wp-content/uploads/2024/10/LDN-L-ELX-VG-ASSMD54-GONZALEZ.jpg?w=520",
+      "sources": [
+        "https://a54.asmdc.org",
+        "https://ballotpedia.org/Mark_Gonzalez_(California)",
+        "https://en.wikipedia.org/wiki/Mark_Gonzalez_(politician)",
+        "https://www.assembly.ca.gov/assemblymembers/54",
+        "https://www.markgonzalezforassembly.com/about",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "haney-matt-ca-hd17",
+      "name": "Matt Haney",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-17)",
+      "state": "CA",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cc6eb833-e16b-472a-83ec-31e7df1b1cd9"
+      },
+      "contact": {
+        "email": "assemblymember.haney@assembly.ca.gov",
+        "district_voice": "415-557-3013",
+        "website": "https://a17.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1982-04-17",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_17.jpg",
+      "sources": [
+        "https://a17.asmdc.org",
+        "https://ballotpedia.org/Matt_Haney",
+        "https://en.wikipedia.org/wiki/Matt_Haney",
+        "https://justfacts.votesmart.org/candidate/biography/187414/matt-haney",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/matthaneysf",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "dahle-megan-ca-sd1",
+      "name": "Megan Dahle",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-1)",
+      "state": "CA",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1509d608-4d2b-4ebc-be73-b4cd6c06b7c6"
+      },
+      "contact": {
+        "email": "senator.dahle@senate.ca.gov",
+        "district_voice": "530-879-7424",
+        "website": "https://ad01.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1975-07-29",
+        "gender": "Female"
+      },
+      "image": "https://www.assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/mdahle-ad01.gif",
+      "sources": [
+        "https://ad01.asmrc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Megan_Dahle",
+        "https://en.wikipedia.org/wiki/Megan_Dahle",
+        "https://justfacts.votesmart.org/candidate/186798/megan-dahle",
+        "https://sr01.senate.ca.gov",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "hurtado-melissa-ca-sd16",
+      "name": "Melissa Hurtado",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-16)",
+      "state": "CA",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ee9910a2-0b27-46e0-be87-43c800596b41"
+      },
+      "contact": {
+        "email": "senator.hurtado@senate.ca.gov",
+        "district_voice": "661-395-2620",
+        "website": "https://sd16.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1988-03-06",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/senator_hurtado_0.jpg",
+      "sources": [
+        "https://ballotpedia.org/Melissa_Hurtado",
+        "https://en.wikipedia.org/wiki/Melissa_Hurtado",
+        "https://justfacts.votesmart.org/candidate/biography/179956/melissa-hurtado",
+        "https://sd16.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "bonta-mia-ca-hd18",
+      "name": "Mia Bonta",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-18)",
+      "state": "CA",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a467d09d-289d-4e5a-a2af-a0ce20af14e1"
+      },
+      "contact": {
+        "email": "assemblymember.mbonta@assembly.ca.gov",
+        "district_voice": "510-286-1670",
+        "website": "https://a18.asmdc.org"
+      },
+      "bio": {
+        "birth_date": "1972-01-26",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_18.jpg",
+      "sources": [
+        "https://a18.asmdc.org",
+        "https://ballotpedia.org/Mia_Bonta",
+        "https://en.wikipedia.org/wiki/Mia_Bonta",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/mialisabonta",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "rodriguez-michelle-ca-hd53",
+      "name": "Michelle Rodriguez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-53)",
+      "state": "CA",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c8e36b71-c739-4afb-b8e9-cbdd4d362693"
+      },
+      "contact": {
+        "email": "assemblymember.michellerodriguez@assembly.ca.gov",
+        "district_voice": "909-902-9606",
+        "website": "https://a53.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://michelleforassembly.com/cms/wp-content/uploads/2023/08/new-safe-meeno-MICHELLE_RODRIGUEZ-2023.07_011.jpg",
+      "sources": [
+        "https://a53.asmdc.org",
+        "https://ballotpedia.org/Michelle_Rodriguez_(California)",
+        "https://justfacts.votesmart.org/candidate/213398/michelle-rodriguez",
+        "https://www.assembly.ca.gov/assemblymembers/53",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "gipson-mike-ca-hd65",
+      "name": "Mike Gipson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-65)",
+      "state": "CA",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/404dbee4-6b74-4249-ab26-9644cab7c7d5"
+      },
+      "contact": {
+        "email": "assemblymember.gipson@assembly.ca.gov",
+        "district_voice": "310-324-6408",
+        "website": "https://a64.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1966-06-25",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_65.jpg",
+      "sources": [
+        "https://a65.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Mike_Gipson",
+        "https://en.wikipedia.org/wiki/Mike_Gipson",
+        "https://justfacts.votesmart.org/candidate/biography/70443/mike-gipson",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/mike-gipson-b3304120",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "fong-mike-ca-hd49",
+      "name": "Mike Fong",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-49)",
+      "state": "CA",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3a7bde9c-8709-49c7-89e4-0835ea1f9eb6"
+      },
+      "contact": {
+        "email": "assemblymember.mikefong@asm.ca.gov",
+        "district_voice": "626-457-4918",
+        "website": "https://a49.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1976-02-29",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_49.jpg",
+      "sources": [
+        "https://a49.asmdc.org",
+        "https://ballotpedia.org/Mike_Fong",
+        "https://en.wikipedia.org/wiki/Mike_Fong",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/mike-fong-89083967",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "mcguire-mike-ca-sd2",
+      "name": "Mike McGuire",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-2)",
+      "state": "CA",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a1394aeb-094a-4fc0-b4d5-005104ceddc0"
+      },
+      "contact": {
+        "email": "senator.mcguire@senate.ca.gov",
+        "district_voice": "707-468-8914",
+        "website": "https://sd02.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1979-07-21",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/mcguire-mike.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_McGuire",
+        "https://en.wikipedia.org/wiki/Mike_McGuire_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/129749/mike-mcguire",
+        "https://sd02.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "lim-n-monique-ca-sd21",
+      "name": "Monique Limón",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-21)",
+      "state": "CA",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e924a3ec-c7c0-4094-8504-7611bcf8979f"
+      },
+      "contact": {
+        "email": "senator.limon@senate.ca.gov",
+        "district_voice": "805-988-1940",
+        "website": "https://sd19.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1979-10-30",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/limon_monique_d-19_2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Monique_Lim%C3%B3n",
+        "https://ballotpedia.org/S._Monique_Lim%C3%B3n",
+        "https://en.wikipedia.org/wiki/Monique_Lim%C3%B3n",
+        "https://justfacts.votesmart.org/candidate/biography/169364/monique-limon",
+        "https://sd19.senate.ca.gov",
+        "https://sd21.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.linkedin.com/in/monique-lim%C3%B3n-073b9011",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-natasha-ca-hd63",
+      "name": "Natasha Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-63)",
+      "state": "CA",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0c47a1ba-99a2-44a9-8c65-fcad12aeee97"
+      },
+      "contact": {
+        "email": "assemblymember.johnson@assembly.ca.gov",
+        "district_voice": "951-277-3639",
+        "website": "https://ad63.asmrc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ad63.asmrc.org",
+        "https://ballotpedia.org/Natasha_Johnson",
+        "https://en.wikipedia.org/wiki/Natasha_Johnson",
+        "https://justfacts.votesmart.org/candidate/biography/146358/natasha-johnson",
+        "https://www.assembly.ca.gov/assemblymembers/63",
+        "https://www.linkedin.com/in/natasha-johnson-91555919",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "schultz-nick-ca-hd44",
+      "name": "Nick Schultz",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-44)",
+      "state": "CA",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/06ae0707-255b-4af9-8e3e-c940e8f29600"
+      },
+      "contact": {
+        "email": "assemblymember.schultz@assembly.ca.gov",
+        "district_voice": "818-558-3043",
+        "website": "https://a44.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1988-08-27",
+        "gender": "Male"
+      },
+      "image": "https://www.burbankca.gov/documents/1626247/0/20210330-nick-schultz-001.jpg",
+      "sources": [
+        "https://a44.asmdc.org",
+        "https://ballotpedia.org/Nick_Schultz",
+        "https://en.wikipedia.org/wiki/Nick_Schultz_(politician)",
+        "https://www.assembly.ca.gov/assemblymembers/44",
+        "https://www.burbankca.gov/nick-schultz",
+        "https://www.linkedin.com/in/nick-schultz-a11b1996",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "ahrens-patrick-ca-hd26",
+      "name": "Patrick Ahrens",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-26)",
+      "state": "CA",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a86994f3-ffe3-4dc6-9e79-bcba7346f919"
+      },
+      "contact": {
+        "email": "assemblymember.ahrens@assembly.ca.gov",
+        "district_voice": "408-446-2810",
+        "website": "https://a26.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.fhda.edu/_images/PatrickAhrens2018.jpg",
+      "sources": [
+        "https://a26.asmdc.org",
+        "https://ballotpedia.org/Patrick_Ahrens",
+        "https://en.wikipedia.org/wiki/Patrick_Ahrens",
+        "https://www.assembly.ca.gov/assemblymembers/26",
+        "https://www.linkedin.com/in/patrick-ahrens-497a6963",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "chen-phillip-ca-hd59",
+      "name": "Phillip Chen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-59)",
+      "state": "CA",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6ba768a4-2756-42b5-a5c5-f6b8b5db0491"
+      },
+      "contact": {
+        "email": "assemblymember.chen@assembly.ca.gov",
+        "district_voice": "714-529-5502",
+        "website": "https://ad55.asmrc.org"
+      },
+      "bio": {
+        "birth_date": "1978-04-22",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_59.jpg",
+      "sources": [
+        "https://ad59.asmrc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Phillip_Chen_(California)",
+        "https://en.wikipedia.org/wiki/Phillip_Chen",
+        "https://justfacts.votesmart.org/candidate/biography/151715/phillip-chen",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/phillip-chen-11b0548",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "schiavo-pilar-ca-hd40",
+      "name": "Pilar Schiavo",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-40)",
+      "state": "CA",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d12d3275-2086-4bf5-886b-c4de3823fbf9"
+      },
+      "contact": {
+        "email": "assemblymember.schiavo@assembly.ca.gov",
+        "district_voice": "661-286-1565",
+        "website": "https://a40.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1975-01-22",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_40.jpg",
+      "sources": [
+        "https://a40.asmdc.org",
+        "https://ballotpedia.org/Pilar_Schiavo",
+        "https://en.wikipedia.org/wiki/Pilar_Schiavo",
+        "https://justfacts.votesmart.org/candidate/biography/205304/pilar-schiavo",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/pilar-schiavo-840949",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "bauer-kahan-rebecca-ca-hd16",
+      "name": "Rebecca Bauer-Kahan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-16)",
+      "state": "CA",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2918acca-40a2-4819-a79a-b2873c7895bc"
+      },
+      "contact": {
+        "email": "assemblymember.bauer-kahan@assembly.ca.gov",
+        "district_voice": "925-244-1600",
+        "website": "https://a16.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1978-10-28",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_16.jpg",
+      "sources": [
+        "https://a16.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Rebecca_Bauer-Kahan",
+        "https://en.wikipedia.org/wiki/Rebecca_Bauer-Kahan",
+        "https://justfacts.votesmart.org/candidate/biography/180050/rebecca-bauer-kahan",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/rebecca-bauer-kahan-27bb7240",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "ransom-rhodesia-ca-hd13",
+      "name": "Rhodesia Ransom",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-13)",
+      "state": "CA",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86d18985-f35b-4e16-9fcc-663394a156ff"
+      },
+      "contact": {
+        "email": "assemblymember.ransom@assembly.ca.gov",
+        "district_voice": "209-948-7479",
+        "website": "https://a13.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://ca.emergeamerica.org/wp-content/uploads/sites/4/2023/01/Rhodesia-Ransom.jpg",
+      "sources": [
+        "https://a13.asmdc.org",
+        "https://ballotpedia.org/Rhodesia_Ransom",
+        "https://en.wikipedia.org/wiki/Rhodesia_Ransom",
+        "https://www.assembly.ca.gov/assemblymembers/13",
+        "https://www.linkedin.com/in/rhodesia-ransom",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "zbur-rick-ca-hd51",
+      "name": "Rick Zbur",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-51)",
+      "state": "CA",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6b7e3458-361f-4fce-8a8c-069282db2af7"
+      },
+      "contact": {
+        "email": "assemblymember.zbur@assembly.ca.gov",
+        "district_voice": "323-436-5184",
+        "website": "https://a51.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1957-03-02",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_51.jpg",
+      "sources": [
+        "https://a51.asmdc.org",
+        "https://a51.asmdc.org/biography",
+        "https://ballotpedia.org/Rick_Chavez_Zbur",
+        "https://en.wikipedia.org/wiki/Rick_Zbur",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/rick-zbur-238489a1",
+        "https://www.rickchavezzbur.com/meet-rick",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "garcia-robert-ca-hd50",
+      "name": "Robert Garcia",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-50)",
+      "state": "CA",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8b2f37bc-65b7-40ed-af14-5d93cb765a5d"
+      },
+      "contact": {
+        "email": "assemblymember.garcia@assembly.ca.gov",
+        "district_voice": "909-966-5090",
+        "website": "https://a50.asmdc.org/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.joincalifornia.com/candidate_pic.php?id=15124",
+      "sources": [
+        "https://a50.asmdc.org",
+        "https://ballotpedia.org/Robert_Garcia_(Etiwanda_School_District)",
+        "https://justfacts.votesmart.org/candidate/213364/robert-garcia",
+        "https://www.assembly.ca.gov/assemblymembers/50",
+        "https://www.longbeach.gov/mayor/contact",
+        "https://www.longbeach.gov/mayor/contact/",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "rivas-robert-ca-hd29",
+      "name": "Robert Rivas",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-29)",
+      "state": "CA",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/68f5ee30-aa70-489b-84b7-6501e6188751"
+      },
+      "contact": {
+        "email": "assemblymember.robertrivas@assembly.ca.gov",
+        "district_voice": "831-759-8676",
+        "website": "https://a29.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1980-01-02",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_29.jpg",
+      "sources": [
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Robert_Rivas",
+        "https://en.wikipedia.org/wiki/Robert_Rivas_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/129744/robert-rivas",
+        "https://speaker.asmdc.org",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/robert-rivas-8924b141",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "niello-roger-ca-sd6",
+      "name": "Roger Niello",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-6)",
+      "state": "CA",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ee85bc79-20ee-4046-905e-ad797995fa41"
+      },
+      "contact": {
+        "email": "senator.niello@senate.ca.gov",
+        "district_voice": "916-464-3980",
+        "website": "https://senate.ca.gov/sd06"
+      },
+      "bio": {
+        "birth_date": "1948-06-02",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/niello_roger_r-06.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roger_Niello",
+        "https://en.wikipedia.org/wiki/Roger_Niello",
+        "https://justfacts.votesmart.org/candidate/biography/28727/roger-niello",
+        "https://sr06.senate.ca.gov",
+        "https://www.linkedin.com/in/roger-niello-b50185174",
+        "https://www.linkedin.com/in/rogerniello",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "ochoa-bogh-rosilicie-ca-sd19",
+      "name": "Rosilicie Ochoa Bogh",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-19)",
+      "state": "CA",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cb5b9356-6798-44d2-8dc2-caf5651ac4e3"
+      },
+      "contact": {
+        "email": "senator.ochoabogh@senate.ca.gov",
+        "district_voice": "909-335-0271",
+        "website": "https://senate.ca.gov/sd23"
+      },
+      "bio": {
+        "birth_date": "1972-06-30",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/sd23_ochoa_bogh.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rosilicie_Ochoa_Bogh",
+        "https://en.wikipedia.org/wiki/Rosilicie_Ochoa_Bogh",
+        "https://senate.ca.gov/senators",
+        "https://sr19.senate.ca.gov",
+        "https://sr23.senate.ca.gov",
+        "https://www.linkedin.com/in/rosilicie-bogh-39256344",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "cervantes-sabrina-ca-sd31",
+      "name": "Sabrina Cervantes",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-31)",
+      "state": "CA",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/61cc77e3-551f-40e6-bb6f-16edd89b04db"
+      },
+      "contact": {
+        "email": "senator.cervantes@senate.ca.gov",
+        "district_voice": "951-680-6750",
+        "website": "https://a58.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1987-10-24",
+        "gender": "Female"
+      },
+      "image": "https://www.assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/ad60_cervantes_roster150_20161205.jpg",
+      "sources": [
+        "https://a58.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Sabrina_Cervantes",
+        "https://en.wikipedia.org/wiki/Sabrina_Cervantes",
+        "https://justfacts.votesmart.org/candidate/biography/169409/sabrina-cervantes",
+        "https://sabrinacervantes.com/meet-sabrina-cervantes",
+        "https://sd31.senate.ca.gov",
+        "https://sd31.senate.ca.gov/biography",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/sabrina-cervantes-79a84915",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "elhawary-sade-ca-hd57",
+      "name": "Sade Elhawary",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-57)",
+      "state": "CA",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6d83a613-6815-48c9-bb31-94adb1ee92ea"
+      },
+      "contact": {
+        "email": "assemblymember.elhawary@assembly.ca.gov",
+        "district_voice": "213-744-2111",
+        "website": "https://a57.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1987-12-19",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/SadeElhawary2024.jpeg",
+      "sources": [
+        "https://a57.asmdc.org",
+        "https://a57.asmdc.org/biography",
+        "https://ballotpedia.org/Sade_Elhawary",
+        "https://en.wikipedia.org/wiki/Sade_Elhawary",
+        "https://www.assembly.ca.gov/assemblymembers/57",
+        "https://www.linkedin.com/in/sadeelhawary",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "p-rez-sasha-ca-sd25",
+      "name": "Sasha Pérez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-25)",
+      "state": "CA",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aa59bbc8-0f05-4974-a88a-2e805deb26b4"
+      },
+      "contact": {
+        "email": "senator.perez@senate.ca.gov",
+        "district_voice": "818-409-0402",
+        "website": "https://sd25.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1992-09-16",
+        "gender": "Female"
+      },
+      "image": "https://www.cityofalhambra.org/ImageRepository/Document?documentId=1262",
+      "sources": [
+        "https://ballotpedia.org/Sasha_Ren%C3%A9e_P%C3%A9rez",
+        "https://en.wikipedia.org/wiki/Sasha_Ren%C3%A9e_P%C3%A9rez",
+        "https://sd25.senate.ca.gov",
+        "https://www.cityofalhambra.org/333/Sasha-Rene-Prez",
+        "https://www.linkedin.com/in/sasha-renee-perez-424a96a9",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "wiener-scott-ca-sd11",
+      "name": "Scott Wiener",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-11)",
+      "state": "CA",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de84277e-1c23-4036-bd64-b27c310a1c0e"
+      },
+      "contact": {
+        "email": "senator.wiener@senate.ca.gov",
+        "district_voice": "415-557-1300",
+        "website": "https://sd11.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1970-05-11",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/wiener.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Wiener",
+        "https://en.wikipedia.org/wiki/Scott_Wiener",
+        "https://justfacts.votesmart.org/candidate/biography/129655/scott-wiener",
+        "https://sd11.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.linkedin.com/in/scott-wiener-936760",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "grove-shannon-ca-sd12",
+      "name": "Shannon Grove",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-12)",
+      "state": "CA",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b4b8e8fb-831b-4cae-9081-b8f75477fcd0"
+      },
+      "contact": {
+        "email": "senator.grove@senate.ca.gov",
+        "district_voice": "661-323-0443",
+        "website": "https://senate.ca.gov/sd12"
+      },
+      "bio": {
+        "birth_date": "1965-03-18",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/grove_hs_0625_lls.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shannon_Grove",
+        "https://en.wikipedia.org/wiki/Shannon_Grove",
+        "https://justfacts.votesmart.org/candidate/biography/120204/shannon-grove",
+        "https://senate.ca.gov/senators",
+        "https://sr12.senate.ca.gov",
+        "https://www.linkedin.com/in/shannon-grove-b17b4116",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "quirk-silva-sharon-ca-hd67",
+      "name": "Sharon Quirk-Silva",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-67)",
+      "state": "CA",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/840aa009-3ae4-4484-b9f0-5c5f5060e7db"
+      },
+      "contact": {
+        "email": "assemblymember.quirk-silva@assembly.ca.gov",
+        "district_voice": "714-521-6713",
+        "website": "https://a65.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1962-09-17",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_67.jpg",
+      "sources": [
+        "https://a67.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Sharon_Quirk-Silva",
+        "https://en.wikipedia.org/wiki/Sharon_Quirk-Silva",
+        "https://justfacts.votesmart.org/candidate/biography/71051/sharon-quirk-silva",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/sharon-quirk-silva-7a240582",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "ellis-stan-ca-hd32",
+      "name": "Stan Ellis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-32)",
+      "state": "CA",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/01fddc24-a5ac-40b7-a9e1-80e918fee609"
+      },
+      "contact": {
+        "email": "assemblymember.ellis@assembly.ca.gov",
+        "district_voice": "661-395-2995",
+        "website": "https://ad32.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1952-07-04",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ad32.asmrc.org",
+        "https://ballotpedia.org/Stan_Ellis",
+        "https://en.wikipedia.org/wiki/Stan_Ellis",
+        "https://www.assembly.ca.gov/assemblymembers/32",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "nguyen-stephanie-ca-hd10",
+      "name": "Stephanie Nguyen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-10)",
+      "state": "CA",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/62102f53-b531-4290-9699-05a0d7687cae"
+      },
+      "contact": {
+        "email": "assemblymember.stephanienguyen@assembly.ca.gov",
+        "district_voice": "916-670-7888",
+        "website": "https://a10.asmdc.org"
+      },
+      "bio": {
+        "birth_date": "1979-04-17",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_10.jpg",
+      "sources": [
+        "https://a10.asmdc.org",
+        "https://a10.asmdc.org/biography",
+        "https://ballotpedia.org/Stephanie_Nguyen",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/stephanie-nguyen-97a45230",
+        "https://www.stephanienguyenforassembly.com/meet-stephanie",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "bennett-steve-ca-hd38",
+      "name": "Steve Bennett",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-38)",
+      "state": "CA",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e0ccfc0-2d57-4e57-8d16-589d07c1bc72"
+      },
+      "contact": {
+        "email": "assemblymember.bennett@assembly.ca.gov",
+        "district_voice": "805-485-4745",
+        "website": "https://a37.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1950-12-31",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_38.jpg",
+      "sources": [
+        "https://a38.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Steve_Bennett",
+        "https://en.wikipedia.org/wiki/Steve_Bennett_(California_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/81822/steve-bennett",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "padilla-steve-ca-sd18",
+      "name": "Steve Padilla",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-18)",
+      "state": "CA",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eb745b9e-4ced-494a-a298-fdffa9207b0d"
+      },
+      "contact": {
+        "email": "senator.padilla@senate.ca.gov",
+        "district_voice": "760-398-6442",
+        "website": "https://sd18.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1967-01-22",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/padilla_steve_d-18.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Padilla",
+        "https://en.wikipedia.org/wiki/Steve_Padilla",
+        "https://justfacts.votesmart.org/candidate/biography/176708/stephen-padilla",
+        "https://sd18.senate.ca.gov",
+        "https://sd18.senate.ca.gov/biography",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "choi-steve-ca-sd37",
+      "name": "Steve Choi",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-37)",
+      "state": "CA",
+      "district": "SD-37",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8b61aa87-d573-47e2-b17b-bd0edd3c8cf2"
+      },
+      "contact": {
+        "email": "senator.choi@senate.ca.gov",
+        "district_voice": "949-223-5472",
+        "website": "https://ad68.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1944-01-15",
+        "gender": "Male"
+      },
+      "image": "https://www.assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/choi.jpg",
+      "sources": [
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Steven_S._Choi",
+        "https://en.wikipedia.org/wiki/Steven_Choi",
+        "https://justfacts.votesmart.org/candidate/biography/70192/steven-choi",
+        "https://sr37.senate.ca.gov",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/dr-steven-choi-04679b10",
+        "https://www.linkedin.com/in/steven-choi-a871aa70",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "rubio-susan-ca-sd22",
+      "name": "Susan Rubio",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-22)",
+      "state": "CA",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cb0f6477-568f-49db-aba3-f88e7bccbefc"
+      },
+      "contact": {
+        "email": "senator.rubio@senate.ca.gov",
+        "district_voice": "909-460-6064",
+        "website": "https://sd22.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1970-12-25",
+        "gender": "Female"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/senator_rubio.jpg",
+      "sources": [
+        "https://ballotpedia.org/Susan_Rubio",
+        "https://en.wikipedia.org/wiki/Susan_Rubio",
+        "https://justfacts.votesmart.org/candidate/biography/129493/susan-rubio",
+        "https://sd22.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "valladares-suzette-ca-sd23",
+      "name": "Suzette Valladares",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-23)",
+      "state": "CA",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fb1c2c06-108c-41bf-9f08-44a9f8e0cb08"
+      },
+      "contact": {
+        "email": "senator.valladares@senate.ca.gov",
+        "district_voice": "661-729-6232",
+        "website": "https://a38.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1980-12-21",
+        "gender": "Female"
+      },
+      "image": "https://www.assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/arc_new_member_headshots_asm.ca_.gov_120x150px_valladares.jpg",
+      "sources": [
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Suzette_Martinez_Valladares",
+        "https://en.wikipedia.org/wiki/Suzette_Martinez_Valladares",
+        "https://justfacts.votesmart.org/candidate/biography/188814/suzette-valladares",
+        "https://sr23.senate.ca.gov",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/suzette-martinez-valladares-53794a28",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "boerner-tasha-ca-hd77",
+      "name": "Tasha Boerner",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-77)",
+      "state": "CA",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9e69729e-4383-410b-840e-ad4ea0f1ab4a"
+      },
+      "contact": {
+        "email": "assemblymember.boerner@assembly.ca.gov",
+        "district_voice": "858-481-7704",
+        "website": "https://a77.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1973-02-01",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_77.jpg",
+      "sources": [
+        "https://a77.asmdc.org",
+        "https://a77.asmdc.org/biography",
+        "https://ballotpedia.org/Tasha_Boerner_Horvath",
+        "https://en.wikipedia.org/wiki/Tasha_Boerner_Horvath",
+        "https://justfacts.votesmart.org/candidate/biography/180144/tasha-boerner",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/boerner",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "umberg-tom-ca-sd34",
+      "name": "Tom Umberg",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-34)",
+      "state": "CA",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cecabb81-51ab-46f5-9815-cc3486da0632"
+      },
+      "contact": {
+        "email": "senator.umberg@senate.ca.gov",
+        "district_voice": "714-558-3785",
+        "website": "https://sd34.senate.ca.gov/"
+      },
+      "bio": {
+        "birth_date": "1955-09-25",
+        "gender": "Male"
+      },
+      "image": "https://www.senate.ca.gov/sites/senate.ca.gov/files/senator_photos/senator_umberg.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Umberg",
+        "https://en.wikipedia.org/wiki/Tom_Umberg",
+        "https://justfacts.votesmart.org/candidate/biography/29299/thomas-umberg",
+        "https://sd34.senate.ca.gov",
+        "https://senate.ca.gov/senators",
+        "https://www.linkedin.com/in/thomas-u-9152078a",
+        "https://www.senate.ca.gov/senators",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "grayson-tim-ca-sd9",
+      "name": "Tim Grayson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-9)",
+      "state": "CA",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/972cffb0-32a6-4cef-8a0f-a8cd901395b0"
+      },
+      "contact": {
+        "email": "senator.grayson@senate.ca.gov",
+        "district_voice": "925-258-1176",
+        "website": "https://a14.asmdc.org"
+      },
+      "bio": {
+        "birth_date": "1967-09-17",
+        "gender": "Male"
+      },
+      "image": "https://www.assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/ad14_header.jpg",
+      "sources": [
+        "https://a15.asmdc.org",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Tim_Grayson",
+        "https://en.wikipedia.org/wiki/Tim_Grayson",
+        "https://justfacts.votesmart.org/candidate/biography/129519/tim-grayson",
+        "https://sd09.senate.ca.gov",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "mckinnor-tina-ca-hd61",
+      "name": "Tina McKinnor",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-61)",
+      "state": "CA",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1aa5dff4-3d71-4642-a5e6-e3d00a5b99f9"
+      },
+      "contact": {
+        "email": "assemblymember.mckinnor@assembly.ca.gov",
+        "district_voice": "310-412-6400",
+        "website": "https://a61.asmdc.org/"
+      },
+      "bio": {
+        "birth_date": "1964-09-30",
+        "gender": "Female"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_61.jpg",
+      "sources": [
+        "https://a61.asmdc.org",
+        "https://a61.asmdc.org/biography",
+        "https://ballotpedia.org/Tina_McKinnor",
+        "https://en.wikipedia.org/wiki/Tina_McKinnor",
+        "https://justfacts.votesmart.org/candidate/biography/205324/tina-mckinnor",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/tina-mckinnor-67abb621",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "lackey-tom-ca-hd34",
+      "name": "Tom Lackey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-34)",
+      "state": "CA",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a8879d70-713c-4d0c-b723-77d0e96c18df"
+      },
+      "contact": {
+        "email": "assemblymember.lackey@assembly.ca.gov",
+        "district_voice": "661-267-7636",
+        "website": "https://ad34.asmrc.org/"
+      },
+      "bio": {
+        "birth_date": "1959-03-12",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_34.jpg",
+      "sources": [
+        "https://ad34.asmrc.org",
+        "https://ad34.asmrc.org/biography",
+        "https://assembly.ca.gov/assemblymembers",
+        "https://ballotpedia.org/Tom_Lackey",
+        "https://en.wikipedia.org/wiki/Tom_Lackey",
+        "https://justfacts.votesmart.org/candidate/biography/71099/tom-lackey",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.linkedin.com/in/tom-lackey-85a9a365",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "strickland-tony-ca-sd36",
+      "name": "Tony Strickland",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Senator (SD-36)",
+      "state": "CA",
+      "district": "SD-36",
+      "chamber": "upper",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3dae8bef-7fb2-40a0-afee-78d79212521b"
+      },
+      "contact": {
+        "email": "senator.strickland@senate.ca.gov",
+        "district_voice": "714-374-4000",
+        "website": "https://cssrc.us/web/19/"
+      },
+      "bio": {
+        "birth_date": "1970-02-17",
+        "gender": "Male"
+      },
+      "image": "http://votesmart.org/canphoto/16765.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tony_Strickland",
+        "https://en.wikipedia.org/wiki/Tony_Strickland",
+        "https://justfacts.votesmart.org/candidate/biography/16765/tony-strickland",
+        "https://senate.ca.gov/senators",
+        "https://sr36.senate.ca.gov",
+        "https://www.linkedin.com/in/tony-strickland-8720616",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    },
+    {
+      "politician_id": "ta-tri-ca-hd70",
+      "name": "Tri Ta",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "California State Representative (HD-70)",
+      "state": "CA",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "CA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/75229920-399d-4216-9b76-c27ea398665a"
+      },
+      "contact": {
+        "email": "assemblymember.ta@assembly.ca.gov",
+        "district_voice": "714-379-0970",
+        "website": "https://ad70.asmrc.org"
+      },
+      "bio": {
+        "birth_date": "1973-04-10",
+        "gender": "Male"
+      },
+      "image": "https://webapi.assembly.ca.gov/district-media/assets/members/assembly_member_70.jpg",
+      "sources": [
+        "https://ad70.asmrc.org",
+        "https://ad70.asmrc.org/biography",
+        "https://ballotpedia.org/Tri_Ta",
+        "https://en.wikipedia.org/wiki/Tri_Ta",
+        "https://www.assembly.ca.gov/assemblymembers",
+        "https://www.ci.westminster.ca.us",
+        "https://www.ci.westminster.ca.us/",
+        "https://data.openstates.org/people/current/ca.csv"
+      ]
+    }
+  ]
+}

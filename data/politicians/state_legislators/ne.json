@@ -1,0 +1,1671 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/ne.csv",
+  "state": "NE",
+  "politicians": [
+    {
+      "politician_id": "spivey-ashlei-ne-hd13",
+      "name": "Ashlei Spivey",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-13)",
+      "state": "NE",
+      "district": "HD-13",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/03ee8938-314f-4db4-ac76-9507d85fc03c"
+      },
+      "contact": {
+        "email": "aspivey@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=13"
+      },
+      "bio": {
+        "birth_date": "1986-08-15",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Ashlei_Spivey",
+        "https://en.wikipedia.org/wiki/Ashlei_Spivey",
+        "https://justfacts.votesmart.org/candidate/biography/215023/ashlei-spivey",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=13",
+        "https://www.ashleifornebraska.com",
+        "https://www.ashleifornebraska.com/about-me",
+        "https://www.linkedin.com/in/ashlei-spivey-arthur-2815435",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "dekay-barry-ne-hd40",
+      "name": "Barry DeKay",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-40)",
+      "state": "NE",
+      "district": "HD-40",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/01d5ca17-53a1-463a-b2f6-74fe24833c0f"
+      },
+      "contact": {
+        "email": "bdekay@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=40"
+      },
+      "bio": {
+        "birth_date": "1959-05-29",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist40/highres/dist40.jpg",
+      "sources": [
+        "https://ballotpedia.org/Barry_DeKay",
+        "https://en.wikipedia.org/wiki/Barry_DeKay",
+        "https://justfacts.votesmart.org/candidate/biography/202079/barry-dekay",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=40",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/barry-dekay-11a691101",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "ballard-beau-ne-hd21",
+      "name": "Beau Ballard",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-21)",
+      "state": "NE",
+      "district": "HD-21",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3da787e9-f6ed-4069-bd74-58ec7c015efb"
+      },
+      "contact": {
+        "email": "bballard@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=21"
+      },
+      "bio": {
+        "birth_date": "1994-05-05",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist21/highres/dist21.jpg",
+      "sources": [
+        "https://ballotpedia.org/Beau_Ballard",
+        "https://en.wikipedia.org/wiki/Beau_Ballard",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=21",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.beauballard.com",
+        "https://www.beauballard.com/about",
+        "https://www.linkedin.com/in/beau-ballard-47612087",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "hansen-ben-ne-hd16",
+      "name": "Ben Hansen",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-16)",
+      "state": "NE",
+      "district": "HD-16",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bfc9dd37-6a7b-4ea2-acf5-c8e161a27764"
+      },
+      "contact": {
+        "email": "bhansen@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=16"
+      },
+      "bio": {
+        "birth_date": "1979-06-29",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist16/highres/dist16.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ben_Hansen",
+        "https://en.wikipedia.org/wiki/Ben_Hansen",
+        "https://justfacts.votesmart.org/candidate/179841/ben-hansen",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=16",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist16",
+        "https://news.legislature.ne.gov/dist16/",
+        "https://www.linkedin.com/in/ben-hansen-161b7677",
+        "https://www.votebenhansen.com",
+        "https://www.votebenhansen.com/about",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "andersen-bob-ne-hd49",
+      "name": "Bob Andersen",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-49)",
+      "state": "NE",
+      "district": "HD-49",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/db002bad-ee6a-4e22-b5c5-840c665ecad4"
+      },
+      "contact": {
+        "email": "bandersen@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=49"
+      },
+      "bio": {
+        "birth_date": "1963-02-11",
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/167021.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bob_Andersen_(Nebraska_State_Senate_candidate)",
+        "https://ballotpedia.org/Bob_Andersen_(Nebraska_state_senator)",
+        "https://en.wikipedia.org/wiki/Bob_Andersen_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/215059/bob-andersen",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=49",
+        "https://www.linkedin.com/in/robert-andersen-9432aa39",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "hallstrom-bob-ne-hd1",
+      "name": "Bob Hallstrom",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-1)",
+      "state": "NE",
+      "district": "HD-1",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cc0182c9-3cfe-46b1-8fd2-03e90385c6d5"
+      },
+      "contact": {
+        "email": "bhallstrom@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=1"
+      },
+      "bio": {
+        "birth_date": "1955-12-02",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Robert_Hallstrom",
+        "https://en.wikipedia.org/wiki/Robert_Hallstrom",
+        "https://justfacts.votesmart.org/candidate/biography/215012/robert-hallstrom",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=1",
+        "https://www.linkedin.com/in/bob-hallstrom-85438121",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "hardin-brian-ne-hd48",
+      "name": "Brian Hardin",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-48)",
+      "state": "NE",
+      "district": "HD-48",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a98b3cf6-9bf8-40a3-94f3-1c196e233ebd"
+      },
+      "contact": {
+        "email": "bhardin@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=48"
+      },
+      "bio": {
+        "birth_date": "1965-12-21",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist48/highres/dist48.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Hardin",
+        "https://en.wikipedia.org/wiki/Brian_Hardin",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=48",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/brian-hardin-b1145368",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "bosn-carolyn-ne-hd25",
+      "name": "Carolyn Bosn",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-25)",
+      "state": "NE",
+      "district": "HD-25",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ecf3913e-8e18-4aec-8991-12549df820cd"
+      },
+      "contact": {
+        "email": "cbosn@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=25"
+      },
+      "bio": {
+        "birth_date": "1982-10-05",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist25/highres/dist25.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carolyn_Bosn",
+        "https://en.wikipedia.org/wiki/Carolyn_Bosn",
+        "https://justfacts.votesmart.org/candidate/211970/carolyn-bosn",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=25",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "armendariz-christy-ne-hd18",
+      "name": "Christy Armendariz",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-18)",
+      "state": "NE",
+      "district": "HD-18",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fdac2d3a-3497-4e34-8247-af670c901dd8"
+      },
+      "contact": {
+        "email": "carmendariz@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=18"
+      },
+      "bio": {
+        "birth_date": "1966-12-10",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist18/highres/dist18.jpg",
+      "sources": [
+        "https://ballotpedia.org/Christy_Armendariz",
+        "https://en.wikipedia.org/wiki/Christy_Armendariz",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=18",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/christy-armendariz-mba-97577914",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "lonowski-dan-ne-hd33",
+      "name": "Dan Lonowski",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-33)",
+      "state": "NE",
+      "district": "HD-33",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/40eb4961-5467-4d1b-af44-59a2e4de6fae"
+      },
+      "contact": {
+        "email": "dlonowski@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=33"
+      },
+      "bio": {
+        "birth_date": "1962-06-27",
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/167026.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dan_Lonowski",
+        "https://en.wikipedia.org/wiki/Dan_Lonowski",
+        "https://justfacts.votesmart.org/candidate/biography/215048/dan-lonowski",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=33",
+        "https://www.linkedin.com/in/dan-lonowski-419564106",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "quick-dan-ne-hd35",
+      "name": "Dan Quick",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-35)",
+      "state": "NE",
+      "district": "HD-35",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d3b8ad26-4cf1-4abf-ae4e-0f7a65f92fe6"
+      },
+      "contact": {
+        "email": "dquick@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=35"
+      },
+      "bio": {
+        "birth_date": "1957-12-29",
+        "gender": "Male"
+      },
+      "image": "http://www.nebraskalegislature.gov/media/images/blogs/dist35.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dan_Quick",
+        "https://en.wikipedia.org/wiki/Dan_Quick",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=35",
+        "https://news.legislature.ne.gov/dist35",
+        "https://www.linkedin.com/in/dan-quick-b19480b8",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "conrad-danielle-ne-hd46",
+      "name": "Danielle Conrad",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-46)",
+      "state": "NE",
+      "district": "HD-46",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bf280e36-3547-4d6a-b5aa-d6c32bb5547a"
+      },
+      "contact": {
+        "email": "dconrad@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=46"
+      },
+      "bio": {
+        "birth_date": "1977-08-05",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist46/highres/dist46.jpg",
+      "sources": [
+        "https://ballotpedia.org/Danielle_Conrad",
+        "https://en.wikipedia.org/wiki/Danielle_Conrad",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=46",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "murman-dave-ne-hd38",
+      "name": "Dave Murman",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-38)",
+      "state": "NE",
+      "district": "HD-38",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/25c29fce-5de4-46cd-97f0-887033d446ce"
+      },
+      "contact": {
+        "email": "dmurman@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=38"
+      },
+      "bio": {
+        "birth_date": "1953-06-30",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist38/highres/dist38.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dave_Murman",
+        "https://en.wikipedia.org/wiki/Dave_Murman",
+        "https://justfacts.votesmart.org/candidate/biography/179857/dave-murman",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=38",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist38",
+        "https://news.legislature.ne.gov/dist38/",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "guereca-dunixi-ne-hd7",
+      "name": "Dunixi Guereca",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-7)",
+      "state": "NE",
+      "district": "HD-7",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/54fe68ba-6857-483f-b2ae-ba3233a548c4"
+      },
+      "contact": {
+        "email": "dguereca@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=7"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/161473.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dunixi_Guereca",
+        "https://en.wikipedia.org/wiki/Dunixi_Guereca",
+        "https://justfacts.votesmart.org/candidate/biography/215017/dunixi-guereca",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=7",
+        "https://www.linkedin.com/in/dunixiguereca",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "bostar-eliot-ne-hd29",
+      "name": "Eliot Bostar",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-29)",
+      "state": "NE",
+      "district": "HD-29",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5e6ca662-d4e3-405b-a060-d0150546eede"
+      },
+      "contact": {
+        "email": "ebostar@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=29"
+      },
+      "bio": {
+        "birth_date": "1987-05-05",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist29/highres/dist29.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eliot_Bostar",
+        "https://en.wikipedia.org/wiki/Eliot_Bostar",
+        "https://justfacts.votesmart.org/candidate/190110/eliot-bostar",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=29",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist29",
+        "https://news.legislature.ne.gov/dist29/",
+        "https://www.linkedin.com/in/eliotbostar",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "meyer-fred-ne-hd41",
+      "name": "Fred Meyer",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-41)",
+      "state": "NE",
+      "district": "HD-41",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5868ed3b-2931-4080-a7c2-9b4eb0e3d487"
+      },
+      "contact": {
+        "email": "fmeyer@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=41"
+      },
+      "bio": {
+        "birth_date": "1951-10-27",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist41/highres/dist41.jpg",
+      "sources": [
+        "https://ballotpedia.org/Fred_Meyer",
+        "https://en.wikipedia.org/wiki/Fred_Meyer_(politician)",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=41",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/fred-meyer-05733b48",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "dungan-george-ne-hd26",
+      "name": "George Dungan",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-26)",
+      "state": "NE",
+      "district": "HD-26",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/14507b1b-007f-4f87-adbb-a5e4669efba8"
+      },
+      "contact": {
+        "email": "gdungan@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=26"
+      },
+      "bio": {
+        "birth_date": "1988-08-12",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist26/highres/dist26.jpg",
+      "sources": [
+        "https://ballotpedia.org/George_Dungan_III",
+        "https://en.wikipedia.org/wiki/George_Dungan_III",
+        "https://justfacts.votesmart.org/candidate/202074/george-dungan",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=26",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/george-dungan-2649025",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "meyer-glen-ne-hd17",
+      "name": "Glen Meyer",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-17)",
+      "state": "NE",
+      "district": "HD-17",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dae0883f-3a53-4873-99df-b0e10ea64066"
+      },
+      "contact": {
+        "email": "gmeyer@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=17"
+      },
+      "bio": {
+        "birth_date": "1951-03-14",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Glen_Meyer",
+        "https://en.wikipedia.org/wiki/Glen_Meyer",
+        "https://justfacts.votesmart.org/candidate/biography/215029/glen-meyer",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=17",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "hughes-jana-ne-hd24",
+      "name": "Jana Hughes",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-24)",
+      "state": "NE",
+      "district": "HD-24",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/967bf436-18bf-444e-bd2f-d83e5ec78995"
+      },
+      "contact": {
+        "email": "jhughes@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=24"
+      },
+      "bio": {
+        "birth_date": "1991-08-07",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist24/highres/dist24.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jana_Hughes",
+        "https://en.wikipedia.org/wiki/Jana_Hughes",
+        "https://justfacts.votesmart.org/candidate/202072/jana-hughes",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=24",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "raybould-jane-ne-hd28",
+      "name": "Jane Raybould",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-28)",
+      "state": "NE",
+      "district": "HD-28",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0f176ff3-ed75-4605-9e8b-5bb5a3d3c4cf"
+      },
+      "contact": {
+        "email": "jraybould@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=28"
+      },
+      "bio": {
+        "birth_date": "1958-11-01",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist28/highres/dist28.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jane_Raybould",
+        "https://en.wikipedia.org/wiki/Jane_Raybould",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=28",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "storm-jared-ne-hd23",
+      "name": "Jared Storm",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-23)",
+      "state": "NE",
+      "district": "HD-23",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/356c7606-4eaa-4494-83a5-68dbaf3e77f6"
+      },
+      "contact": {
+        "email": "jstorm@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=23"
+      },
+      "bio": {
+        "birth_date": "1971-03-27",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jared_Storm",
+        "https://en.wikipedia.org/wiki/Jared_Storm",
+        "https://justfacts.votesmart.org/candidate/215039/jared-storm",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=23",
+        "https://www.linkedin.com/in/jared-storm-8584a662",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "prokop-jason-ne-hd27",
+      "name": "Jason Prokop",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-27)",
+      "state": "NE",
+      "district": "HD-27",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dda3cdbe-5e52-439e-ac68-02588b6d7cab"
+      },
+      "contact": {
+        "email": "jprokop@leg.ne.gov",
+        "website": "https://jasonprokop.com"
+      },
+      "bio": {
+        "birth_date": "1982-01-24",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Jason_Prokop",
+        "https://en.wikipedia.org/wiki/Jason_Prokop",
+        "https://jasonprokop.com",
+        "https://justfacts.votesmart.org/candidate/215044/jason-prokop",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=27",
+        "https://www.linkedin.com/in/jasonprokop",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "arch-john-ne-hd14",
+      "name": "John Arch",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-14)",
+      "state": "NE",
+      "district": "HD-14",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f5d27385-af4c-4c08-8654-3e27ef120d94"
+      },
+      "contact": {
+        "email": "jarch@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=14"
+      },
+      "bio": {
+        "birth_date": "1955-10-06",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist14/highres/dist14.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Arch",
+        "https://en.wikipedia.org/wiki/John_Arch_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/179840/john-arch",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=14",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist14",
+        "https://news.legislature.ne.gov/dist14/",
+        "https://votearch.com",
+        "https://votearch.com/about",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "cavanaugh-john-ne-hd9",
+      "name": "John Cavanaugh",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-9)",
+      "state": "NE",
+      "district": "HD-9",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0436186a-3b62-46f1-8f36-55e09fca3e77"
+      },
+      "contact": {
+        "email": "jcavanaugh@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=9"
+      },
+      "bio": {
+        "birth_date": "1980-10-06",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist09/highres/dist09.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Cavanaugh",
+        "https://en.wikipedia.org/wiki/John_Cavanaugh_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/190087/john-cavanaugh",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=9",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist09",
+        "https://news.legislature.ne.gov/dist09/",
+        "https://www.linkedin.com/in/john-cavanaugh-jr-a989667",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "fredrickson-john-ne-hd20",
+      "name": "John Fredrickson",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-20)",
+      "state": "NE",
+      "district": "HD-20",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/30b4a401-6f6b-4367-80c2-b9d60d7c527f"
+      },
+      "contact": {
+        "email": "jfredrickson@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=20"
+      },
+      "bio": {
+        "birth_date": "1987-03-28",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist20/highres/dist20.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Fredrickson",
+        "https://en.wikipedia.org/wiki/John_Fredrickson",
+        "https://justfacts.votesmart.org/candidate/202071/john-fredrickson",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=20",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/john-fredrickson-a4148537",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "kauth-kathleen-ne-hd31",
+      "name": "Kathleen Kauth",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-31)",
+      "state": "NE",
+      "district": "HD-31",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9d6fd408-5497-4038-9716-c1f487e348d2"
+      },
+      "contact": {
+        "email": "kkauth@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=31"
+      },
+      "bio": {
+        "birth_date": "1970-02-03",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist31/highres/dist31.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kathleen_Kauth",
+        "https://en.wikipedia.org/wiki/Kathleen_Kauth_(Nebraska_politician)",
+        "https://justfacts.votesmart.org/candidate/208260/kathleen-kauth",
+        "https://kathleenkauth.com/#meet",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=31",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist31",
+        "https://news.legislature.ne.gov/dist31/",
+        "https://www.linkedin.com/in/kathleenkauth",
+        "https://www.nebraskalegislature.gov/senators/landing-pages/index.php?District=31",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "lippincott-loren-ne-hd34",
+      "name": "Loren Lippincott",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-34)",
+      "state": "NE",
+      "district": "HD-34",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2ad42fad-ae37-44a6-8933-0a942f7a85f7"
+      },
+      "contact": {
+        "email": "llippincott@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=34"
+      },
+      "bio": {
+        "birth_date": "1955-03-20",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist34/highres/dist34.jpg",
+      "sources": [
+        "https://ballotpedia.org/Loren_Lippincott",
+        "https://en.wikipedia.org/wiki/Loren_Lippincott",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=34",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/loren-lippincott-954914150",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "cavanaugh-machaela-ne-hd6",
+      "name": "Machaela Cavanaugh",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-6)",
+      "state": "NE",
+      "district": "HD-6",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fd6e1947-c274-4ff5-b2ee-5e5a79d6a729"
+      },
+      "contact": {
+        "email": "mcavanaugh@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=6"
+      },
+      "bio": {
+        "birth_date": "1979-01-17",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist06/highres/dist06.jpg",
+      "sources": [
+        "https://ballotpedia.org/Machaela_Cavanaugh",
+        "https://en.wikipedia.org/wiki/Machaela_Cavanaugh",
+        "https://justfacts.votesmart.org/candidate/biography/179833/machaela-cavanaugh",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=6",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist06",
+        "https://news.legislature.ne.gov/dist06/",
+        "https://www.linkedin.com/in/machaela-cavanaugh-a1b5471b",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "juarez-margo-ne-hd5",
+      "name": "Margo Juarez",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-5)",
+      "state": "NE",
+      "district": "HD-5",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e586486b-002b-4dfb-8eec-a209c915dc95"
+      },
+      "contact": {
+        "email": "mjuarez@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=5"
+      },
+      "bio": {
+        "birth_date": "1958-04-30",
+        "gender": "Female"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/167027.jpg",
+      "sources": [
+        "https://ballotpedia.org/Margo_Juarez",
+        "https://en.wikipedia.org/wiki/Margo_Juarez",
+        "https://justfacts.votesmart.org/candidate/biography/215016/margo-juarez",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=5",
+        "https://www.linkedin.com/in/margo-juarez-3662b67",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "hunt-megan-ne-hd8",
+      "name": "Megan Hunt",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-8)",
+      "state": "NE",
+      "district": "HD-8",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1b988941-ec1a-4f87-b17a-51fb0309dea0"
+      },
+      "contact": {
+        "email": "mhunt@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=8"
+      },
+      "bio": {
+        "birth_date": "1986-05-09",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist08/highres/dist08.jpg",
+      "sources": [
+        "https://ballotpedia.org/Megan_Hunt",
+        "https://en.wikipedia.org/wiki/Megan_Hunt_(politician)",
+        "https://justfacts.votesmart.org/candidate/179835/megan-hunt",
+        "https://meganfornebraska.com/about",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=8",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist08",
+        "https://news.legislature.ne.gov/dist08/",
+        "https://www.linkedin.com/in/mehunt",
+        "https://www.meganhunt.net",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "riepe-merv-ne-hd12",
+      "name": "Merv Riepe",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-12)",
+      "state": "NE",
+      "district": "HD-12",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3c015cf9-e3de-42cf-a364-64607ecc70ce"
+      },
+      "contact": {
+        "email": "mriepe@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=12"
+      },
+      "bio": {
+        "birth_date": "1942-07-16",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist12/highres/dist12.jpg",
+      "sources": [
+        "https://ballotpedia.org/Merv_Riepe",
+        "https://en.wikipedia.org/wiki/Merv_Riepe",
+        "https://justfacts.votesmart.org/candidate/biography/148457/merv-riepe",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=12",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/mervin-riepe-ba052311",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "jacobson-mike-ne-hd42",
+      "name": "Mike Jacobson",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-42)",
+      "state": "NE",
+      "district": "HD-42",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/70b3f826-87f3-43c6-9762-27a178156a55"
+      },
+      "contact": {
+        "email": "mjacobson@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=42"
+      },
+      "bio": {
+        "birth_date": "1953-11-26",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist42/highres/dist42.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Jacobson",
+        "https://en.wikipedia.org/wiki/Mike_Jacobson",
+        "https://justfacts.votesmart.org/candidate/202292/michael-jacobson",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=42",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist42",
+        "https://news.legislature.ne.gov/dist42/",
+        "https://www.linkedin.com/in/mike-jacobson-b6636751",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "moser-mike-ne-hd22",
+      "name": "Mike Moser",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-22)",
+      "state": "NE",
+      "district": "HD-22",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/471fb0d6-b798-4c0c-bac1-021db8b68801"
+      },
+      "contact": {
+        "email": "mmoser@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=22"
+      },
+      "bio": {
+        "birth_date": "1951-09-18",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist22/highres/dist22.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Moser",
+        "https://en.wikipedia.org/wiki/Mike_Moser_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/119308/mike-moser",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=22",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist22",
+        "https://news.legislature.ne.gov/dist22/",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "dorn-myron-ne-hd30",
+      "name": "Myron Dorn",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-30)",
+      "state": "NE",
+      "district": "HD-30",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4a8d555a-4bba-4f76-a3e1-88eee6030413"
+      },
+      "contact": {
+        "email": "mdorn@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=30"
+      },
+      "bio": {
+        "birth_date": "1954-10-23",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist30/highres/dist30.jpg",
+      "sources": [
+        "https://ballotpedia.org/Myron_Dorn",
+        "https://en.wikipedia.org/wiki/Myron_Dorn",
+        "https://justfacts.votesmart.org/candidate/biography/133023/myron-dorn",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=30",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist30",
+        "https://news.legislature.ne.gov/dist30/",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "strommen-paul-ne-hd47",
+      "name": "Paul Strommen",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-47)",
+      "state": "NE",
+      "district": "HD-47",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0ae0ba8c-757e-459f-aecc-4a0501a25cbb"
+      },
+      "contact": {
+        "email": "pstrommen@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=47"
+      },
+      "bio": {
+        "birth_date": "1969-12-26",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Paul_Strommen",
+        "https://en.wikipedia.org/wiki/Paul_Strommen",
+        "https://justfacts.votesmart.org/candidate/biography/215058/paul-strommen",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=47",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "von-gillern-brad-ne-hd4",
+      "name": "Brad von Gillern",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-4)",
+      "state": "NE",
+      "district": "HD-4",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/63d2956a-a0be-40db-a0e3-6c32743951ab"
+      },
+      "contact": {
+        "email": "bvongillern@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=4"
+      },
+      "bio": {
+        "birth_date": "1960-07-13",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist04/highres/dist04.jpg",
+      "sources": [
+        "https://ballotpedia.org/R._Brad_von_Gillern",
+        "https://en.wikipedia.org/wiki/Brad_von_Gillern",
+        "https://justfacts.votesmart.org/candidate/biography/202052/brad-von-gillern",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=4",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/bradvongillern",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "holdcroft-rick-ne-hd36",
+      "name": "Rick Holdcroft",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-36)",
+      "state": "NE",
+      "district": "HD-36",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/62ccba1d-4200-41c7-a051-21fa421a206a"
+      },
+      "contact": {
+        "email": "rholdcroft@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=36"
+      },
+      "bio": {
+        "birth_date": "1954-01-08",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist36/highres/dist36.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rick_Holdcroft",
+        "https://en.wikipedia.org/wiki/Rick_Holdcroft",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=36",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/richard-holdcroft-30284825",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "sanders-rita-ne-hd45",
+      "name": "Rita Sanders",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-45)",
+      "state": "NE",
+      "district": "HD-45",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de8d4e0a-36dd-4a84-96ee-e4b7bc4cf69d"
+      },
+      "contact": {
+        "email": "rsanders@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=45"
+      },
+      "bio": {
+        "birth_date": "1958-06-30",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist45/highres/dist45.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rita_Sanders",
+        "https://en.wikipedia.org/wiki/Rita_Sanders",
+        "https://justfacts.votesmart.org/candidate/132954/rita-sanders",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=45",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist45",
+        "https://news.legislature.ne.gov/dist45/",
+        "https://www.linkedin.com/in/rita-sanders-a584421",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "clements-rob-ne-hd2",
+      "name": "Rob Clements",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-2)",
+      "state": "NE",
+      "district": "HD-2",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/809c0698-2669-426a-819a-275a0773ff84"
+      },
+      "contact": {
+        "email": "rclements@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=2"
+      },
+      "bio": {
+        "birth_date": "1950-12-11",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist02/highres/dist02.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Clements",
+        "https://en.wikipedia.org/wiki/Robert_Clements_(Nebraska_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/176142/robert-clements",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=2",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist02",
+        "https://news.legislature.ne.gov/dist02/",
+        "https://www.linkedin.com/in/robert-clements-6181b325",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "dover-robert-ne-hd19",
+      "name": "Robert Dover",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-19)",
+      "state": "NE",
+      "district": "HD-19",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a9cc86ff-602c-453f-9d6c-fd1567c7fbd7"
+      },
+      "contact": {
+        "email": "rdover@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=19"
+      },
+      "bio": {
+        "birth_date": "1958-12-21",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist19/highres/dist19.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rob_Dover",
+        "https://en.wikipedia.org/wiki/Robert_Dover_(Nebraska_politician)",
+        "https://justfacts.votesmart.org/candidate/210288/robert-dover",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=19",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/robertdover",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "clouse-stan-ne-hd37",
+      "name": "Stan Clouse",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-37)",
+      "state": "NE",
+      "district": "HD-37",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4bfe5183-1afc-42fa-92c1-7ffe5cbb1080"
+      },
+      "contact": {
+        "email": "sclouse@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=37"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/167022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stanley_Clouse",
+        "https://en.wikipedia.org/wiki/Stan_Clouse",
+        "https://justfacts.votesmart.org/candidate/111886/stan-clouse",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=37",
+        "https://www.linkedin.com/in/stan-clouse-a3a9625",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "storer-tanya-ne-hd43",
+      "name": "Tanya Storer",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-43)",
+      "state": "NE",
+      "district": "HD-43",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/70751bb8-56af-4fd1-b2dc-21943dc7bb2d"
+      },
+      "contact": {
+        "email": "tstorer@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=43"
+      },
+      "bio": {
+        "birth_date": "1969-01-20",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Tanya_Storer",
+        "https://en.wikipedia.org/wiki/Tanya_Storer",
+        "https://justfacts.votesmart.org/candidate/biography/164067/tanya-storer",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=43",
+        "https://www.linkedin.com/in/tanya-storer-8b57ab299",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "ibach-teresa-ne-hd44",
+      "name": "Teresa Ibach",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-44)",
+      "state": "NE",
+      "district": "HD-44",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/374b6dc4-5b90-4028-814c-84895a293c84"
+      },
+      "contact": {
+        "email": "tibach@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=44"
+      },
+      "bio": {
+        "birth_date": "1961-12-07",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist44/highres/dist44.jpg",
+      "sources": [
+        "https://ballotpedia.org/Teresa_Ibach",
+        "https://en.wikipedia.org/wiki/Teresa_Ibach",
+        "https://justfacts.votesmart.org/candidate/biography/202541/teresa-ibach",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=44",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://www.linkedin.com/in/teresa-ibach-383803b0",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "mckinney-terrell-ne-hd11",
+      "name": "Terrell McKinney",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-11)",
+      "state": "NE",
+      "district": "HD-11",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/27784792-d54f-4a64-8408-a4a1ce0c26b1"
+      },
+      "contact": {
+        "email": "tmckinney@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=11"
+      },
+      "bio": {
+        "birth_date": "1990-08-17",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist11/highres/dist11.jpg",
+      "sources": [
+        "https://ballotpedia.org/Terrell_McKinney",
+        "https://en.wikipedia.org/wiki/Terrell_McKinney",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=11",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist11",
+        "https://news.legislature.ne.gov/dist11/",
+        "https://www.linkedin.com/in/terrell-mckinney-106b4b7a",
+        "https://www.peopleforterrellmckinney.com/about.html#",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "brandt-tom-ne-hd32",
+      "name": "Tom Brandt",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-32)",
+      "state": "NE",
+      "district": "HD-32",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37ed5b35-3aea-40a2-95ed-ecc5120fbe82"
+      },
+      "contact": {
+        "email": "tbrandt@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=32"
+      },
+      "bio": {
+        "birth_date": "1959-12-01",
+        "gender": "Male"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist32/highres/dist32.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Brandt",
+        "https://en.wikipedia.org/wiki/Tom_Brandt_(politician)",
+        "https://justfacts.votesmart.org/candidate/179853/tom-brandt",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=32",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist32",
+        "https://news.legislature.ne.gov/dist32/",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "sorrentino-tony-ne-hd39",
+      "name": "Tony Sorrentino",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-39)",
+      "state": "NE",
+      "district": "HD-39",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7093e661-0dbc-4c75-91e0-09a3e171caf1"
+      },
+      "contact": {
+        "email": "tsorrentino@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=39"
+      },
+      "bio": {
+        "birth_date": "1954-07-26",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Tony_Sorrentino",
+        "https://en.wikipedia.org/wiki/Tony_Sorrentino",
+        "https://justfacts.votesmart.org/candidate/biography/57687/tony-sorrentino",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=39",
+        "https://www.linkedin.com/in/tony-sorrentino-jd-cpa",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "rountree-victor-ne-hd3",
+      "name": "Victor Rountree",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-3)",
+      "state": "NE",
+      "district": "HD-3",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e43a5b4-e63c-434a-977c-592174c2c635"
+      },
+      "contact": {
+        "email": "vrountree@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=3"
+      },
+      "bio": {
+        "birth_date": "1959-06-16",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Victor_Rountree",
+        "https://en.wikipedia.org/wiki/Victor_Rountree",
+        "https://justfacts.votesmart.org/candidate/biography/215014/victor-rountree",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=3",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "deboer-wendy-ne-hd10",
+      "name": "Wendy DeBoer",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-10)",
+      "state": "NE",
+      "district": "HD-10",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bc906a77-5932-4042-9ede-a13b24924236"
+      },
+      "contact": {
+        "email": "wdeboer@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=10"
+      },
+      "bio": {
+        "birth_date": "1974-05-16",
+        "gender": "Female"
+      },
+      "image": "https://www.nebraskalegislature.gov/media/images/senators/dist10/highres/dist10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wendy_DeBoer",
+        "https://en.wikipedia.org/wiki/Wendy_DeBoer",
+        "https://justfacts.votesmart.org/candidate/179837/wendy-deboer",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=10",
+        "https://nebraskalegislature.gov/senators/senator_list.php",
+        "https://news.legislature.ne.gov/dist10",
+        "https://news.legislature.ne.gov/dist10/",
+        "https://www.linkedin.com/in/wendy-deboer-b908954",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    },
+    {
+      "politician_id": "wordekemper-woody-ne-hd15",
+      "name": "Woody Wordekemper",
+      "party": "Nonpartisan",
+      "level": "state",
+      "role": "legislator",
+      "office": "Nebraska State Representative (HD-15)",
+      "state": "NE",
+      "district": "HD-15",
+      "chamber": "legislature",
+      "jurisdiction": "NE",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86a9643e-4777-48d4-a79a-5ed192fb7f70"
+      },
+      "contact": {
+        "email": "dwordekemper@leg.ne.gov",
+        "website": "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=15"
+      },
+      "bio": {
+        "birth_date": "1966-01-24",
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/164427.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dave_Wordekemper",
+        "https://en.wikipedia.org/wiki/Dave_Wordekemper",
+        "https://justfacts.votesmart.org/candidate/215025/dave-wordekemper",
+        "https://nebraskalegislature.gov/senators/landing-pages/index.php?District=15",
+        "https://data.openstates.org/people/current/ne.csv"
+      ]
+    }
+  ]
+}

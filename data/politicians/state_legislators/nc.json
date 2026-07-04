@@ -1,0 +1,5532 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/nc.csv",
+  "state": "NC",
+  "politicians": [
+    {
+      "politician_id": "pyrtle-reece-nc-hd65",
+      "name": "Reece Pyrtle",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-65)",
+      "state": "NC",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/837ec59b-a7db-41dc-9e9f-a7a83b462213"
+      },
+      "contact": {
+        "email": "reece.pyrtle@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/787"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/787/Low",
+      "sources": [
+        "https://ballotpedia.org/A._Reece_Pyrtle,_Jr.",
+        "https://en.wikipedia.org/wiki/Reece_Pyrtle",
+        "https://justfacts.votesmart.org/candidate/198983/reece-pyrtle-jr",
+        "https://www.linkedin.com/in/reece-pyrtle-b6902514",
+        "https://www.ncleg.gov/Members/Biography/H/787",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-abe-nc-hd38",
+      "name": "Abe Jones",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-38)",
+      "state": "NC",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/559521af-e5f9-43c3-a75e-de9b242d364f"
+      },
+      "contact": {
+        "email": "abe.jones@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/780"
+      },
+      "social": {
+        "twitter": "repabejones"
+      },
+      "bio": {
+        "birth_date": "1952-03-07",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/780/Low",
+      "sources": [
+        "https://ballotpedia.org/Abraham_P._Jones_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Abe_Jones_(politician)",
+        "https://www.linkedin.com/in/abe-jones-429364101",
+        "https://www.linkedin.com/in/abe-jones-50525543",
+        "https://www.ncleg.gov/Members/Biography/H/780",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "dew-aisha-nc-hd107",
+      "name": "Aisha Dew",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-107)",
+      "state": "NC",
+      "district": "HD-107",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9f9d7fb9-9981-412d-b3e2-45c7f67d189a"
+      },
+      "contact": {
+        "email": "aisha.dew@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/836"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://static.wixstatic.com/media/382708_03a01c002bae45c2a4dd4b665892e242~mv2.png/v1/fill/w_369,h_369,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/aisha%20dew%20updated%20headshot.png",
+      "sources": [
+        "https://ballotpedia.org/Aisha_Dew",
+        "https://www.ncleg.gov/Members/Biography/H/836",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "branson-alan-nc-hd59",
+      "name": "Alan Branson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-59)",
+      "state": "NC",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6ca8b8ee-96ed-4b21-94cf-d67e49f9c1c8"
+      },
+      "contact": {
+        "email": "alan.branson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/821"
+      },
+      "bio": {
+        "birth_date": "1951-12-06",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/alan_branson.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alan_Branson",
+        "https://en.wikipedia.org/wiki/Alan_Branson",
+        "https://www.linkedin.com/in/jerry-branson-19a17a85",
+        "https://www.ncleg.gov/Members/Biography/H/821",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "buansi-allen-nc-hd56",
+      "name": "Allen Buansi",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-56)",
+      "state": "NC",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/95a533af-7933-4992-aea6-dfdc626b7ca6"
+      },
+      "contact": {
+        "email": "allen.buansi@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/790"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/790/Low",
+      "sources": [
+        "https://ballotpedia.org/Allen_Buansi",
+        "https://en.wikipedia.org/wiki/Allen_Buansi",
+        "https://www.linkedin.com/in/allen-buansi-57426b10",
+        "https://www.ncleg.gov/Members/Biography/H/790",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "chesser-allen-nc-hd25",
+      "name": "Allen Chesser",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-25)",
+      "state": "NC",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fc3772c1-d98a-4325-a6c8-96b9da492ed6"
+      },
+      "contact": {
+        "email": "allen.chesser@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/799"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/799/Low",
+      "sources": [
+        "https://allenchesser.com/about-1",
+        "https://ballotpedia.org/Allen_Chesser_II",
+        "https://en.wikipedia.org/wiki/Allen_Chesser",
+        "https://justfacts.votesmart.org/candidate/biography/178273/allen-chesser-ii",
+        "https://www.linkedin.com/in/allen-chesser-3224b7a8",
+        "https://www.ncleg.gov/Members/Biography/H/799",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "dahle-allison-nc-hd11",
+      "name": "Allison Dahle",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-11)",
+      "state": "NC",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/785927b3-34ca-4a2d-bc1c-df4cc8e16c47"
+      },
+      "contact": {
+        "email": "allison.dahle@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/740"
+      },
+      "bio": {
+        "birth_date": "1964-03-25",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/740/Low",
+      "sources": [
+        "https://ballotpedia.org/Allison_Dahle",
+        "https://en.wikipedia.org/wiki/Allison_Dahle",
+        "https://justfacts.votesmart.org/candidate/biography/178368/allison-dahle",
+        "https://www.linkedin.com/in/allison-dahle-a186154",
+        "https://www.ncleg.gov/Members/Biography/H/740",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "cook-amanda-nc-hd60",
+      "name": "Amanda Cook",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-60)",
+      "state": "NC",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5f309927-de7a-4fd4-930b-a369dd10fec8"
+      },
+      "contact": {
+        "email": "amanda.cook@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/1002"
+      },
+      "bio": {
+        "birth_date": "1982-11-02",
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Amanda_Cook_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Amanda_Cook_(politician)",
+        "https://www.linkedin.com/in/amanda-cook-8159725",
+        "https://www.ncleg.gov/Members/Biography/H/1002",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "baker-amber-nc-hd72",
+      "name": "Amber Baker",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-72)",
+      "state": "NC",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/628fc48c-a48b-4128-87f1-2391ab795e0a"
+      },
+      "contact": {
+        "email": "amber.baker@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/782"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/782/Low",
+      "sources": [
+        "https://ballotpedia.org/Amber_Baker_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Amber_Baker",
+        "https://www.linkedin.com/in/amber-baker-phd-406b9727",
+        "https://www.ncleg.gov/Members/Biography/H/782",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "quick-amos-nc-hd58",
+      "name": "Amos Quick",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-58)",
+      "state": "NC",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/46275779-8191-48be-8b0b-8373376fa23d"
+      },
+      "contact": {
+        "email": "amos.quick@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/725"
+      },
+      "bio": {
+        "birth_date": "1968-08-14",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/725/Low",
+      "sources": [
+        "https://ballotpedia.org/Amos_Quick",
+        "https://en.wikipedia.org/wiki/Amos_Quick",
+        "https://justfacts.votesmart.org/candidate/biography/166622/amos-quick-iii",
+        "https://www.linkedin.com/in/amos-quick-8505a81b",
+        "https://www.ncleg.gov/Members/Biography/H/725",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "galey-amy-nc-sd25",
+      "name": "Amy Galey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-25)",
+      "state": "NC",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8be9deca-bbd6-404f-8726-0aecaeb19ca7"
+      },
+      "contact": {
+        "email": "amy.galey@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/429"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/429/Low",
+      "sources": [
+        "https://ballotpedia.org/Amy_Galey",
+        "https://en.wikipedia.org/wiki/Amy_Galey",
+        "https://www.ncleg.gov/Members/Biography/S/429",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "ferguson-anna-nc-hd119",
+      "name": "Anna Ferguson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-119)",
+      "state": "NC",
+      "district": "HD-119",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5ca31513-814c-44b9-9206-aae55c05d056"
+      },
+      "contact": {
+        "email": "anna.ferguson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/1003"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Anna_Ferguson_(North_Carolina)",
+        "https://www.linkedin.com/in/savannah-ferguson-856b0216",
+        "https://www.ncleg.gov/Members/Biography/H/1003",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "jeffers-ray-nc-hd2",
+      "name": "Ray Jeffers",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-2)",
+      "state": "NC",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/064a56b9-d616-43a1-a3f2-ffd4938740d3"
+      },
+      "contact": {
+        "email": "ray.jeffers@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/805"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/805/Low",
+      "sources": [
+        "https://ballotpedia.org/Ray_Jeffers",
+        "https://en.wikipedia.org/wiki/Ray_Jeffers",
+        "https://rayjeffers.com/about",
+        "https://www.linkedin.com/in/b-ray-jeffers-900a4549",
+        "https://www.ncleg.gov/Members/Biography/H/805",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "carney-becky-nc-hd102",
+      "name": "Becky Carney",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-102)",
+      "state": "NC",
+      "district": "HD-102",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/367ad234-14bc-4d86-95ee-ab1176890d6e"
+      },
+      "contact": {
+        "email": "becky.carney@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/322"
+      },
+      "bio": {
+        "birth_date": "1944-12-25",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/322/Low",
+      "sources": [
+        "https://ballotpedia.org/Becky_Carney",
+        "https://en.wikipedia.org/wiki/Becky_Carney",
+        "https://justfacts.votesmart.org/candidate/biography/41340/becky-carney",
+        "https://www.ncleg.gov/Members/Biography/H/322",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "moss-ben-nc-hd52",
+      "name": "Ben Moss",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-52)",
+      "state": "NC",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fdc7d25a-085c-4100-b5f4-a8ae51979292"
+      },
+      "contact": {
+        "email": "ben.moss@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/784"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/784/Low",
+      "sources": [
+        "https://ballotpedia.org/Ben_Moss",
+        "https://en.wikipedia.org/wiki/Ben_Moss",
+        "https://justfacts.votesmart.org/candidate/biography/133884/ben-moss-jr",
+        "https://www.ncleg.gov/Members/Biography/H/784",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "sawrey-benton-nc-sd10",
+      "name": "Benton Sawrey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-10)",
+      "state": "NC",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0c960acb-381f-4ce9-b9d3-313fd882b6e1"
+      },
+      "contact": {
+        "email": "benton.sawrey@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/445"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/445/Low",
+      "sources": [
+        "https://ballotpedia.org/Benton_Sawrey",
+        "https://en.wikipedia.org/wiki/Benton_Sawrey",
+        "https://justfacts.votesmart.org/candidate/biography/166586/benton-sawrey",
+        "https://narronwenzel.com/benton-g-sawrey",
+        "https://ncstatesenate.com/members/benton-sawrey",
+        "https://www.linkedin.com/in/benton-sawrey-3083768",
+        "https://www.ncleg.gov/Members/Biography/S/445",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "gardner-helfrich-beth-nc-hd98",
+      "name": "Beth Gardner Helfrich",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-98)",
+      "state": "NC",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cf469ccf-d24e-4ccd-a2fb-041806933b93"
+      },
+      "contact": {
+        "email": "beth.helfrich@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/832"
+      },
+      "bio": {
+        "birth_date": "1981-01-21",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Beth_Gardner_Helfrich.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Beth_Gardner_Helfrich",
+        "https://justfacts.votesmart.org/candidate/biography/213886/beth-helfrich",
+        "https://www.linkedin.com/in/bethhelfrich",
+        "https://www.ncleg.gov/Members/Biography/H/832",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "rabon-bill-nc-sd8",
+      "name": "Bill Rabon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-8)",
+      "state": "NC",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ac7e8e60-b5cb-41c2-92f9-1bdf9204f79a"
+      },
+      "contact": {
+        "email": "bill.rabon@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/303"
+      },
+      "bio": {
+        "birth_date": "1951-07-06",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/303/Low",
+      "sources": [
+        "https://ballotpedia.org/William_Rabon",
+        "https://en.wikipedia.org/wiki/Bill_Rabon",
+        "https://justfacts.votesmart.org/candidate/campaign-finance/117772/bill-rabon",
+        "https://www.linkedin.com/in/william-rabon-b4ab7827",
+        "https://www.ncleg.gov/Members/Biography/S/303",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "ward-bill-nc-hd5",
+      "name": "Bill Ward",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-5)",
+      "state": "NC",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f1d726fb-535d-456b-9712-b689afcb7763"
+      },
+      "contact": {
+        "email": "bill.ward@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/816"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/816/Low",
+      "sources": [
+        "https://ballotpedia.org/Bill_Ward_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Bill_Ward_(North_Carolina_politician)",
+        "https://www.ncleg.gov/Members/Biography/H/816",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "eddins-blair-nc-hd94",
+      "name": "Blair Eddins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-94)",
+      "state": "NC",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b558be80-96b1-4df6-8714-fcba387f8abc"
+      },
+      "contact": {
+        "email": "blair.eddins@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/825"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-public-general/legislative-people-photos/151642.jpg",
+      "sources": [
+        "https://ballotpedia.org/Blair_Eddins",
+        "https://www.ncleg.gov/Members/Biography/H/825",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "brinson-bob-nc-sd3",
+      "name": "Bob Brinson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-3)",
+      "state": "NC",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0104c116-78b6-4a91-af98-464fdbf12904"
+      },
+      "contact": {
+        "email": "bob.brinson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/448"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Bob_Brinson.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bob_Brinson",
+        "https://en.wikipedia.org/wiki/Bob_Brinson",
+        "https://www.linkedin.com/in/robert-brinson",
+        "https://www.ncleg.gov/Members/Biography/S/448",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "hanig-bobby-nc-sd1",
+      "name": "Bobby Hanig",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-1)",
+      "state": "NC",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8911db0d-01aa-4e61-a0f5-727d07a5d232"
+      },
+      "contact": {
+        "email": "bobby.hanig@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/435"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/435/Low",
+      "sources": [
+        "https://ballotpedia.org/Robert_Hanig",
+        "https://en.wikipedia.org/wiki/Bobby_Hanig",
+        "https://justfacts.votesmart.org/candidate/biography/178365/bobby-hanig",
+        "https://www.linkedin.com/in/bobby-hanig-aa725943",
+        "https://www.ncleg.gov/Members/Biography/S/435",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "overcash-brad-nc-sd43",
+      "name": "Brad Overcash",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-43)",
+      "state": "NC",
+      "district": "SD-43",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dfacde1f-3324-4ebe-bc96-ae473548e951"
+      },
+      "contact": {
+        "email": "brad.overcash@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/444"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/444/Low",
+      "sources": [
+        "https://ballotpedia.org/Brad_Overcash",
+        "https://en.wikipedia.org/wiki/Brad_Overcash",
+        "https://www.linkedin.com/in/bradovercash",
+        "https://www.ncleg.gov/Members/Biography/S/444",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "lofton-brandon-nc-hd104",
+      "name": "Brandon Lofton",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-104)",
+      "state": "NC",
+      "district": "HD-104",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4142addf-2eb1-4557-b3d3-bcea559cbbd3"
+      },
+      "contact": {
+        "email": "brandon.lofton@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/751"
+      },
+      "bio": {
+        "birth_date": "1978-11-05",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/751/Low",
+      "sources": [
+        "https://ballotpedia.org/Brandon_Lofton",
+        "https://en.wikipedia.org/wiki/Brandon_Lofton",
+        "https://justfacts.votesmart.org/candidate/biography/183474/brandon-lofton",
+        "https://www.linkedin.com/in/brandon-lofton-b5b48165",
+        "https://www.ncleg.gov/Members/Biography/H/751",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-brenden-nc-hd46",
+      "name": "Brenden Jones",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-46)",
+      "state": "NC",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e419504-9efe-4b1f-b1e0-6e8d7d8c74a9"
+      },
+      "contact": {
+        "email": "brenden.jones@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/723"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/723/Low",
+      "sources": [
+        "https://ballotpedia.org/Brenden_Jones",
+        "https://en.wikipedia.org/wiki/Brenden_Jones",
+        "https://justfacts.votesmart.org/candidate/biography/150367/brenden-jones",
+        "https://www.linkedin.com/in/brenden-jones-9a493441",
+        "https://www.ncleg.gov/Members/Biography/H/723",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-brent-nc-sd9",
+      "name": "Brent Jackson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-9)",
+      "state": "NC",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/23f1da0b-34b2-4347-adb4-f5fc26e0475d"
+      },
+      "contact": {
+        "email": "brent.jackson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/281"
+      },
+      "bio": {
+        "birth_date": "1957-11-08",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/281/Low",
+      "sources": [
+        "https://ballotpedia.org/Brent_Jackson_(North_Carolina_State_Senator)",
+        "https://en.wikipedia.org/wiki/W._Brent_Jackson",
+        "https://justfacts.votesmart.org/candidate/biography/117775/brent-jackson",
+        "https://www.linkedin.com/in/brent-jackson-a393b684",
+        "https://www.ncleg.gov/Members/Biography/S/281",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "biggs-brian-nc-hd70",
+      "name": "Brian Biggs",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-70)",
+      "state": "NC",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c476ab83-c1f7-44a7-b7c9-4cfa4679bed8"
+      },
+      "contact": {
+        "email": "brian.biggs@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/793"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/793/Low",
+      "sources": [
+        "https://ballotpedia.org/Brian_Biggs",
+        "https://en.wikipedia.org/wiki/Brian_Biggs_(politician)",
+        "https://www.linkedin.com/in/brian-biggs-5062614a",
+        "https://www.ncleg.gov/Members/Biography/H/793",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "echevarria-brian-nc-hd82",
+      "name": "Brian Echevarria",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-82)",
+      "state": "NC",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/19c32795-3313-4f2f-a1d2-b79ff1dd81fb"
+      },
+      "contact": {
+        "email": "brian.echevarria@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/828"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Brian_Echiveria_.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Echevarria",
+        "https://www.ncleg.gov/Members/Biography/H/828",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "turner-brian-nc-hd116",
+      "name": "Brian Turner",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-116)",
+      "state": "NC",
+      "district": "HD-116",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0229944f-1584-4c3c-9a7b-5c97b6785a6f"
+      },
+      "contact": {
+        "email": "brian.turner@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/696"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/696/Low",
+      "sources": [
+        "https://ballotpedia.org/Brian_Turner_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Brian_Turner_(politician)",
+        "https://www.linkedin.com/in/brian-turner-7746418",
+        "https://www.ncleg.gov/Members/Biography/H/696",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "cohn-bryan-nc-hd32",
+      "name": "Bryan Cohn",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-32)",
+      "state": "NC",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e596d2ce-a208-475c-a9c1-15e25ccb3404"
+      },
+      "contact": {
+        "email": "bryan.cohn@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/827"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Bryan__Cohn__20240808_093541.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bryan_Cohn",
+        "https://www.linkedin.com/in/rep-bryan-cohn-633342b7",
+        "https://www.ncleg.gov/Members/Biography/H/827",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "theodros-caleb-nc-sd41",
+      "name": "Caleb Theodros",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-41)",
+      "state": "NC",
+      "district": "SD-41",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a2013778-1144-4936-a0fa-895ad190649f"
+      },
+      "contact": {
+        "email": "caleb.theodros@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/451"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcST0VSf38rEGBD-siclt6NuNe1QJ5F0bSq2yeTZaPl6B5jN6UixO_XTlOxWxObcJM0wmNgic4MjyZBFddFBYaj7sg",
+      "sources": [
+        "https://ballotpedia.org/Caleb_Theodros",
+        "https://justfacts.votesmart.org/candidate/biography/213778/caleb-theodros",
+        "https://www.linkedin.com/in/caleb-theodros-b067b65b",
+        "https://www.ncleg.gov/Members/Biography/S/451",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "ford-carl-nc-sd33",
+      "name": "Carl Ford",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-33)",
+      "state": "NC",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/91615553-5509-4625-ab20-7a81896438e0"
+      },
+      "contact": {
+        "email": "carl.ford@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/410"
+      },
+      "bio": {
+        "birth_date": "1957-07-11",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/410/Low",
+      "sources": [
+        "https://ballotpedia.org/Carl_Ford_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Carl_Ford_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/114823/carl-ford",
+        "https://www.linkedin.com/in/carl-ford-97957a78",
+        "https://www.ncleg.gov/Members/Biography/S/410",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "cunningham-carla-nc-hd106",
+      "name": "Carla Cunningham",
+      "party": "Independent",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-106)",
+      "state": "NC",
+      "district": "HD-106",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f1ba290a-c2a5-453a-884c-6d03a2c8e83a"
+      },
+      "contact": {
+        "email": "carla.cunningham@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/642"
+      },
+      "bio": {
+        "birth_date": "1962-01-12",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/642/Low",
+      "sources": [
+        "https://ballotpedia.org/Carla_Cunningham",
+        "https://en.wikipedia.org/wiki/Carla_Cunningham",
+        "https://www.linkedin.com/in/carla-cunningham-3b374a9",
+        "https://www.ncleg.gov/Members/Biography/H/642",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "logan-carolyn-nc-hd101",
+      "name": "Carolyn Logan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-101)",
+      "state": "NC",
+      "district": "HD-101",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/80495071-4aea-43ff-9548-09860c77cc90"
+      },
+      "contact": {
+        "email": "carolyn.logan@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/750"
+      },
+      "bio": {
+        "birth_date": "1957-07-05",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/750/Low",
+      "sources": [
+        "https://ballotpedia.org/Carolyn_Logan",
+        "https://en.wikipedia.org/wiki/Carolyn_Logan",
+        "https://justfacts.votesmart.org/candidate/biography/178419/carolyn-logan",
+        "https://www.linkedin.com/in/carolyn-logan-312a6768",
+        "https://www.ncleg.gov/Members/Biography/H/750",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-carson-nc-hd16",
+      "name": "Carson Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-16)",
+      "state": "NC",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6f78b8a8-f77c-4aef-bfa4-b3dac3312e33"
+      },
+      "contact": {
+        "email": "carson.smith@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/755"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/755/Low",
+      "sources": [
+        "https://ballotpedia.org/Carson_Smith_Jr.",
+        "https://en.wikipedia.org/wiki/Carson_Smith_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/183362/carson-smith-jr",
+        "https://www.ncleg.gov/Members/Biography/H/755",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "cairns-celeste-nc-hd13",
+      "name": "Celeste Cairns",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-13)",
+      "state": "NC",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/51b17197-aa93-4c8f-821d-81a32b41e2ae"
+      },
+      "contact": {
+        "email": "celeste.cairns@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/797"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/797/Low",
+      "sources": [
+        "https://ballotpedia.org/Celeste_Cairns",
+        "https://en.wikipedia.org/wiki/Celeste_Cairns",
+        "https://justfacts.votesmart.org/candidate/biography/186252/celeste-cairns",
+        "https://www.ncleg.gov/Members/Biography/H/797",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-charles-nc-hd44",
+      "name": "Charles Smith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-44)",
+      "state": "NC",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2736ade6-4cc1-4833-ab0d-cf1953227726"
+      },
+      "contact": {
+        "email": "charles.smith@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/813"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/813/Low",
+      "sources": [
+        "https://ballotpedia.org/Charles_Smith_(North_Carolina_House_of_Representatives_candidate)",
+        "https://charlessmithfornc.com/meet-charles",
+        "https://en.wikipedia.org/wiki/Charles_Smith_(North_Carolina_politician)",
+        "https://www.linkedin.com/in/charles-smith-a69312247",
+        "https://www.ncleg.gov/Members/Biography/H/813",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-charlie-nc-hd19",
+      "name": "Charlie Miller",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-19)",
+      "state": "NC",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/311f0605-29d2-4608-a964-323768582198"
+      },
+      "contact": {
+        "email": "charles.miller@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/778"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/778/Low",
+      "sources": [
+        "https://ballotpedia.org/Charles_Miller_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Charlie_Miller_(North_Carolina_politician)",
+        "https://www.linkedin.com/in/charlie-miller-0a96211b",
+        "https://www.ncleg.gov/Members/Biography/H/778",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "humphrey-chris-nc-hd12",
+      "name": "Chris Humphrey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-12)",
+      "state": "NC",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fdf6de7b-aad3-403b-96c3-a6a007b11ccd"
+      },
+      "contact": {
+        "email": "chris.humphrey@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/747"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/747/Low",
+      "sources": [
+        "https://ballotpedia.org/Chris_Humphrey",
+        "https://en.wikipedia.org/wiki/Chris_Humphrey_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/92439/chris-humphrey",
+        "https://www.linkedin.com/in/chrishumphrey1",
+        "https://www.ncleg.gov/Members/Biography/H/747",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "measmer-chris-nc-sd34",
+      "name": "Chris Measmer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-34)",
+      "state": "NC",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9dfc9308-ec16-4da8-b5c7-8a9cc55df534"
+      },
+      "contact": {
+        "email": "chris.measmer@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/455"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Chris_Measmer",
+        "https://ballotpedia.org/Chris_Measmer_(Cabarrus_County_Board_of_Commissioners,_North_Carolina,_candidate_2022)",
+        "https://en.wikipedia.org/wiki/Chris_Measmer",
+        "https://www.ncleg.gov/Members/Biography/S/455",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "huneycutt-cody-nc-hd67",
+      "name": "Cody Huneycutt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-67)",
+      "state": "NC",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/702adc2f-f401-4ab4-ac8e-8fcf1a14376b"
+      },
+      "contact": {
+        "email": "cody.huneycutt@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/833"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://assets.civicengine.com/uploads/candidate/headshot/797923/797923.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cody_Huneycutt",
+        "https://www.linkedin.com/in/cody-huneycutt-538495a9",
+        "https://www.ncleg.gov/Members/Biography/H/833",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "ball-cynthia-nc-hd49",
+      "name": "Cynthia Ball",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-49)",
+      "state": "NC",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a5d3d142-3601-429e-954c-fdb98b0e628a"
+      },
+      "contact": {
+        "email": "cynthia.ball@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/711"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/711/Low",
+      "sources": [
+        "https://ballotpedia.org/Cynthia_Ball",
+        "https://en.wikipedia.org/wiki/Cynthia_Ball",
+        "https://justfacts.votesmart.org/candidate/biography/166620/cynthia-ball",
+        "https://www.linkedin.com/in/cynthiaball",
+        "https://www.ncleg.gov/Members/Biography/H/711",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "blue-dan-nc-sd14",
+      "name": "Dan Blue",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-14)",
+      "state": "NC",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/06dca4de-5217-45fc-b78a-fc7870ae7faf"
+      },
+      "contact": {
+        "email": "dan.blue@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/268"
+      },
+      "bio": {
+        "birth_date": "1949-04-18",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/268/Low",
+      "sources": [
+        "https://ballotpedia.org/Dan_Blue_Jr.",
+        "https://en.wikipedia.org/wiki/Dan_Blue",
+        "https://justfacts.votesmart.org/candidate/biography/5945/dan-blue-jr",
+        "https://www.linkedin.com/in/dan-blue-8ba97724",
+        "https://www.ncleg.gov/Members/Biography/S/268",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "kiger-dan-nc-hd90",
+      "name": "Dan Kiger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-90)",
+      "state": "NC",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/443b38b0-1881-443c-ba43-70ffb1d7a9ea"
+      },
+      "contact": {
+        "email": "dan.kiger@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/1004"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://img.legistorm.com/people/912/211912.jpg?rand=39180",
+      "sources": [
+        "https://ballotpedia.org/Dan_Kiger",
+        "https://www.linkedin.com/in/dan-kiger-79398a2a",
+        "https://www.ncleg.gov/Members/Biography/H/1004",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-dana-nc-sd31",
+      "name": "Dana Jones",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-31)",
+      "state": "NC",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/93fbb331-6fe5-427f-802d-09881d4913d3"
+      },
+      "contact": {
+        "email": "dana.jones@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/449"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/162671.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dana_Caudill_Jones",
+        "https://www.linkedin.com/in/dana-caudill-jones-ba876b29",
+        "https://www.ncleg.gov/Members/Biography/S/449",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "britt-danny-nc-sd24",
+      "name": "Danny Britt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-24)",
+      "state": "NC",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/91f238a6-29fd-4b65-bc48-1464da11786b"
+      },
+      "contact": {
+        "email": "danny.britt@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/399"
+      },
+      "bio": {
+        "birth_date": "1979-07-06",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/399/Low",
+      "sources": [
+        "https://ballotpedia.org/Danny_Earl_Britt",
+        "https://en.wikipedia.org/wiki/Danny_Britt",
+        "https://justfacts.votesmart.org/candidate/biography/166587/danny-britt-jr",
+        "https://www.linkedin.com/in/danny-britt-jr-02a23047",
+        "https://www.ncleg.gov/Members/Biography/S/399",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "pittman-dante-nc-hd24",
+      "name": "Dante Pittman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-24)",
+      "state": "NC",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d0cbde92-5f2b-4177-822a-f100613a9b30"
+      },
+      "contact": {
+        "email": "dante.pittman@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/839"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/DantePittman2024.JPG",
+      "sources": [
+        "https://ballotpedia.org/Dante_Pittman",
+        "https://www.linkedin.com/in/dante-pittman-827487114",
+        "https://www.ncleg.gov/Members/Biography/H/839",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "craven-dave-nc-sd29",
+      "name": "Dave Craven",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-29)",
+      "state": "NC",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7074c9f6-6a8e-4c63-b0b3-ae43b9cfba0d"
+      },
+      "contact": {
+        "email": "david.craven@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/423"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/423/Low",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dave_Craven",
+        "https://www.linkedin.com/in/dave-craven-b6b088a4",
+        "https://www.ncleg.gov/Members/Biography/S/423",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "willis-david-nc-hd68",
+      "name": "David Willis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-68)",
+      "state": "NC",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6b06a564-763d-421d-bc9b-4779f4dbc1a4"
+      },
+      "contact": {
+        "email": "david.willis@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/779"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/779/Low",
+      "sources": [
+        "https://ballotpedia.org/David_Willis",
+        "https://en.wikipedia.org/wiki/David_Willis_(politician)",
+        "https://www.linkedin.com/in/david-willis-06b932129",
+        "https://www.ncleg.gov/Members/Biography/H/779",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "salvador-deandrea-nc-sd39",
+      "name": "DeAndrea Salvador",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-39)",
+      "state": "NC",
+      "district": "SD-39",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1c0d5d12-7bc0-4296-a148-423e4faa7dae"
+      },
+      "contact": {
+        "email": "deandrea.salvador@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/431"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/431/Low",
+      "sources": [
+        "https://ballotpedia.org/DeAndrea_Salvador",
+        "https://en.wikipedia.org/wiki/DeAndrea_Salvador",
+        "https://www.deandrea.io",
+        "https://www.linkedin.com/in/deandreas",
+        "https://www.ncleg.gov/Members/Biography/S/431",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "arp-dean-nc-hd69",
+      "name": "Dean Arp",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-69)",
+      "state": "NC",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ffdbb3fa-0445-460a-9501-18b5028fbe50"
+      },
+      "contact": {
+        "email": "dean.arp@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/640"
+      },
+      "bio": {
+        "birth_date": "1966-07-07",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/640/Low",
+      "sources": [
+        "https://ballotpedia.org/Dean_Arp",
+        "https://en.wikipedia.org/wiki/Dean_Arp",
+        "https://justfacts.votesmart.org/candidate/136300/dean-arp-jr",
+        "https://www.linkedin.com/in/dean-arp-p-e-s-e-3a36171a5",
+        "https://www.ncleg.gov/Members/Biography/H/640",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "butler-deb-nc-hd18",
+      "name": "Deb Butler",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-18)",
+      "state": "NC",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cab978f1-1c91-41e4-9f2e-69af3c89bbf8"
+      },
+      "contact": {
+        "email": "deb.butler@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/730"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/730/Low",
+      "sources": [
+        "https://ballotpedia.org/Deb_Butler",
+        "https://en.wikipedia.org/wiki/Deb_Butler",
+        "https://justfacts.votesmart.org/candidate/biography/136591/deborah-butler",
+        "https://www.ncleg.gov/Members/Biography/H/730",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "riddell-dennis-nc-hd64",
+      "name": "Dennis Riddell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-64)",
+      "state": "NC",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fcff21e8-b2a0-4fe5-8fb9-1b1c084a26e1"
+      },
+      "contact": {
+        "email": "dennis.riddell@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/665"
+      },
+      "bio": {
+        "birth_date": "1956-10-21",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/665/Low",
+      "sources": [
+        "https://ballotpedia.org/Dennis_Riddell",
+        "https://en.wikipedia.org/wiki/Dennis_Riddell",
+        "https://justfacts.votesmart.org/candidate/biography/136288/dennis-riddell",
+        "https://www.linkedin.com/in/dennis-riddell-71a7a416",
+        "https://www.ncleg.gov/Members/Biography/H/665",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-destin-nc-hd87",
+      "name": "Destin Hall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-87)",
+      "state": "NC",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/636555c9-b55c-47f8-9fcc-c9cb93b27f50"
+      },
+      "contact": {
+        "email": "destin.hall@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/719"
+      },
+      "bio": {
+        "birth_date": "1987-07-17",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/719/Low",
+      "sources": [
+        "https://ballotpedia.org/Destin_Hall",
+        "https://en.wikipedia.org/wiki/Destin_Hall",
+        "https://justfacts.votesmart.org/candidate/biography/166631/destin-hall",
+        "https://www.linkedin.com/in/destinhall",
+        "https://www.ncleg.gov/Members/Biography/H/719",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "wheatley-diane-nc-hd43",
+      "name": "Diane Wheatley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-43)",
+      "state": "NC",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/034ed56d-8058-4489-be3e-3d4b9977ac4b"
+      },
+      "contact": {
+        "email": "diane.wheatley@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/785"
+      },
+      "bio": {
+        "birth_date": "1951-04-12",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/785/Low",
+      "sources": [
+        "https://ballotpedia.org/Diane_Wheatley",
+        "https://en.wikipedia.org/wiki/Diane_Wheatley",
+        "https://justfacts.votesmart.org/candidate/biography/92358/diane-wheatley",
+        "https://www.ncleg.gov/Members/Biography/H/785",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "white-donna-nc-hd26",
+      "name": "Donna White",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-26)",
+      "state": "NC",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7e1cb220-ff5e-4543-bc51-f44ba7ee0a2b"
+      },
+      "contact": {
+        "email": "donna.white@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/728"
+      },
+      "bio": {
+        "birth_date": "1948-11-29",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/728/Low",
+      "sources": [
+        "https://ballotpedia.org/Donna_McDowell_White",
+        "https://en.wikipedia.org/wiki/Donna_McDowell_White",
+        "https://justfacts.votesmart.org/candidate/biography/166609/donna-white",
+        "https://www.ncleg.gov/Members/Biography/H/728",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "loftis-donnie-nc-hd109",
+      "name": "Donnie Loftis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-109)",
+      "state": "NC",
+      "district": "HD-109",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d7308aed-454d-4091-b32c-606f516e9421"
+      },
+      "contact": {
+        "email": "donnie.loftis@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/788"
+      },
+      "bio": {
+        "birth_date": "1956-09-07",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/788/Low",
+      "sources": [
+        "https://ballotpedia.org/Donnie_Loftis",
+        "https://en.wikipedia.org/wiki/Donnie_Loftis",
+        "https://www.linkedin.com/in/donnie-l-b15b443a",
+        "https://www.linkedin.com/in/donnie-loftis-323089185",
+        "https://www.ncleg.gov/Members/Biography/H/788",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "lambeth-donny-nc-hd75",
+      "name": "Donny Lambeth",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-75)",
+      "state": "NC",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dd2200c1-2bdb-4afc-a557-ebcbb5f1eee8"
+      },
+      "contact": {
+        "email": "donny.lambeth@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/646"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/646/Low",
+      "sources": [
+        "https://ballotpedia.org/Donny_C._Lambeth",
+        "https://en.wikipedia.org/wiki/Donny_Lambeth",
+        "https://justfacts.votesmart.org/candidate/biography/136318/donny-lambeth",
+        "https://www.ncleg.gov/Members/Biography/H/646",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "greene-dudley-nc-hd85",
+      "name": "Dudley Greene",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-85)",
+      "state": "NC",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0573192d-0557-449a-9c3e-8462844a79ab"
+      },
+      "contact": {
+        "email": "dudley.greene@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/777"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/777/Low",
+      "sources": [
+        "https://ballotpedia.org/Dudley_Greene",
+        "https://en.wikipedia.org/wiki/Dudley_Greene",
+        "https://www.linkedin.com/in/dudley-greene-847384a2",
+        "https://www.ncleg.gov/Members/Biography/H/777",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "newton-buck-nc-sd4",
+      "name": "Buck Newton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-4)",
+      "state": "NC",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b560f232-dfa2-49f7-81c8-42000cc9027b"
+      },
+      "contact": {
+        "email": "buck.newton@ncleg.gov",
+        "website": "https://www.ncga.state.nc.us/gascripts/members/viewMember.pl?sChamber=Senate&nUserID=362"
+      },
+      "bio": {
+        "birth_date": "1968-07-05",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/443/Low",
+      "sources": [
+        "https://ballotpedia.org/Buck_Newton",
+        "https://en.wikipedia.org/wiki/Buck_Newton",
+        "https://www.linkedin.com/in/buck-newton-4042062a",
+        "https://www.ncga.state.nc.us/gascripts/members/viewMember.pl?sChamber=Senate&nUserID=362",
+        "https://www.ncleg.gov/Members/Biography/S/443",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "settle-eddie-nc-sd36",
+      "name": "Eddie Settle",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-36)",
+      "state": "NC",
+      "district": "SD-36",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b4b6f0a7-baca-4062-947a-989cb9f98356"
+      },
+      "contact": {
+        "email": "eddie.settle@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/446"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/446/Low",
+      "sources": [
+        "https://ballotpedia.org/Eddie_Settle",
+        "https://en.wikipedia.org/wiki/Eddie_Settle",
+        "https://justfacts.votesmart.org/candidate/biography/163256/eddie-settle",
+        "https://www.linkedin.com/in/settle-eddie-b36b3aaa",
+        "https://www.ncleg.gov/Members/Biography/S/446",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "goodwin-ed-nc-hd1",
+      "name": "Ed Goodwin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-1)",
+      "state": "NC",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/10d93679-f5f4-496f-8b7c-89f923038ac0"
+      },
+      "contact": {
+        "email": "edward.goodwin@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/744"
+      },
+      "bio": {
+        "birth_date": "1952-09-04",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/744/Low",
+      "sources": [
+        "https://ballotpedia.org/Ed_Goodwin",
+        "https://en.wikipedia.org/wiki/Ed_Goodwin",
+        "https://justfacts.votesmart.org/candidate/biography/114665/ed-goodwin",
+        "https://www.ncleg.gov/Members/Biography/H/744",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "ager-eric-nc-hd114",
+      "name": "Eric Ager",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-114)",
+      "state": "NC",
+      "district": "HD-114",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8c10abe1-4b81-404a-9164-9823e023cd2b"
+      },
+      "contact": {
+        "email": "eric.ager@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/819"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/819/Low",
+      "sources": [
+        "https://ballotpedia.org/J._Eric_Ager",
+        "https://en.wikipedia.org/wiki/Eric_Ager",
+        "https://www.linkedin.com/in/eric-ager",
+        "https://www.ncleg.gov/Members/Biography/H/819",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "par-erin-nc-hd37",
+      "name": "Erin Paré",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-37)",
+      "state": "NC",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ea801bb0-b3bd-4dbc-9164-25e7f4e63f84"
+      },
+      "contact": {
+        "email": "erin.pare@ncleg.gov",
+        "website": "https://reperinpare.com/home"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/770/Low",
+      "sources": [
+        "https://ballotpedia.org/Erin_Pare",
+        "https://en.wikipedia.org/wiki/Erin_Par%C3%A9",
+        "https://justfacts.votesmart.org/candidate/biography/189275/erin-pare",
+        "https://reperinpare.com/erin-par%C3%A9",
+        "https://reperinpare.com/home",
+        "https://www.ncleg.gov/Members/Biography/H/770",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-frances-nc-hd45",
+      "name": "Frances Jackson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-45)",
+      "state": "NC",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1a32e77b-9880-467c-88c8-6aeb738f6525"
+      },
+      "contact": {
+        "email": "frances.jackson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/803"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/803/Low",
+      "sources": [
+        "https://ballotpedia.org/Frances_Jackson_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Frances_Jackson_(politician)",
+        "https://www.linkedin.com/in/frances-jackson-phd-31484871",
+        "https://www.ncleg.gov/Members/Biography/H/803",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "iler-frank-nc-hd17",
+      "name": "Frank Iler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-17)",
+      "state": "NC",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f75593f8-b178-47f1-8e72-e403f04dfb5d"
+      },
+      "contact": {
+        "email": "frank.iler@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/598"
+      },
+      "bio": {
+        "birth_date": "1942-01-10",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/598/Low",
+      "sources": [
+        "https://ballotpedia.org/Frank_Iler",
+        "https://en.wikipedia.org/wiki/Frank_Iler",
+        "https://www.ncleg.gov/Members/Biography/H/598",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "adcock-gale-nc-sd16",
+      "name": "Gale Adcock",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-16)",
+      "state": "NC",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ba9c7a6-3a28-47ec-9704-6f3437463845"
+      },
+      "contact": {
+        "email": "gale.adcock@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/436"
+      },
+      "bio": {
+        "birth_date": "1954-01-25",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/436/Low",
+      "sources": [
+        "https://ballotpedia.org/Gale_Adcock",
+        "https://en.wikipedia.org/wiki/Gale_Adcock",
+        "https://justfacts.votesmart.org/candidate/biography/73392/gale-adcock",
+        "https://www.linkedin.com/in/gale-adcock-8a306a7",
+        "https://www.ncleg.gov/Members/Biography/S/436",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "pierce-garland-nc-hd48",
+      "name": "Garland Pierce",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-48)",
+      "state": "NC",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/32edee21-40a5-491f-b28e-316ba7262360"
+      },
+      "contact": {
+        "email": "garland.pierce@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/497"
+      },
+      "bio": {
+        "birth_date": "1953-07-09",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/497/Low",
+      "sources": [
+        "https://ballotpedia.org/Garland_Pierce",
+        "https://en.wikipedia.org/wiki/Garland_E._Pierce",
+        "https://justfacts.votesmart.org/candidate/biography/40990/garland-pierce",
+        "https://www.ncleg.gov/Members/Biography/H/497",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "robinson-gladys-nc-sd28",
+      "name": "Gladys Robinson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-28)",
+      "state": "NC",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/af3f63da-d39a-4542-b0f2-41f118d96f55"
+      },
+      "contact": {
+        "email": "gladys.robinson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/364"
+      },
+      "bio": {
+        "birth_date": "1949-11-17",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/364/Low",
+      "sources": [
+        "https://ballotpedia.org/Gladys_Robinson",
+        "https://en.wikipedia.org/wiki/Gladys_A._Robinson",
+        "https://justfacts.votesmart.org/candidate/biography/119361/gladys-robinson",
+        "https://www.linkedin.com/in/gladys-robinson-5290921b",
+        "https://www.ncleg.gov/Members/Biography/S/364",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-gloristine-nc-hd8",
+      "name": "Gloristine Brown",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-8)",
+      "state": "NC",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d2ab7bb8-d0d6-4824-a42e-d180c2644f9e"
+      },
+      "contact": {
+        "email": "gloristine.brown@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/794"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/794/Low",
+      "sources": [
+        "https://ballotpedia.org/Gloristine_Brown",
+        "https://en.wikipedia.org/wiki/Gloristine_Brown",
+        "https://www.linkedin.com/in/gloristine-brown-5187b144",
+        "https://www.ncleg.gov/Members/Biography/H/794",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "campbell-grant-nc-hd83",
+      "name": "Grant Campbell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-83)",
+      "state": "NC",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aca7632d-5a2a-470c-bb83-6cf374c68172"
+      },
+      "contact": {
+        "email": "grant.campbell@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/830"
+      },
+      "bio": {
+        "birth_date": "1971-09-14",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/campbellgrant.jpg",
+      "sources": [
+        "https://ballotpedia.org/Grant_Campbell",
+        "https://www.linkedin.com/in/grant-campbell-b4221b9b",
+        "https://www.ncleg.gov/Members/Biography/H/830",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "warren-harry-nc-hd76",
+      "name": "Harry Warren",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-76)",
+      "state": "NC",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/940d4a15-ee12-4a3b-a7b5-70b9dea38379"
+      },
+      "contact": {
+        "email": "harry.warren@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/630"
+      },
+      "bio": {
+        "birth_date": "1950-05-31",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/630/Low",
+      "sources": [
+        "https://ballotpedia.org/Harry_Warren",
+        "https://en.wikipedia.org/wiki/Harry_J._Warren",
+        "https://justfacts.votesmart.org/candidate/biography/117839/harry-warren",
+        "https://www.linkedin.com/in/harry-warren-46942916",
+        "https://www.ncleg.gov/Members/Biography/H/630",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "fatmi-haseeb-nc-sd18",
+      "name": "Haseeb Fatmi",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-18)",
+      "state": "NC",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e94fc39b-d33c-4d24-81c7-2cd2cc5aa997"
+      },
+      "contact": {
+        "email": "haseeb.fatmi@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/1002"
+      },
+      "bio": {
+        "birth_date": "1988-01-25",
+        "gender": "Male"
+      },
+      "image": "https://ogletree.com/app/uploads/people/haseeb-s-fatmi.jpg",
+      "sources": [
+        "https://ballotpedia.org/Haseeb_Fatmi_(Wake_Forest_Town_Council,_North_Carolina,_candidate_2025)",
+        "https://en.wikipedia.org/wiki/Haseeb_Fatmi",
+        "https://ogletree.com/people/haseeb-s-fatmi",
+        "https://www.linkedin.com/in/haseeb-fatmi",
+        "https://www.ncleg.gov/Members/Biography/S/1002",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "rhyne-heather-nc-hd97",
+      "name": "Heather Rhyne",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-97)",
+      "state": "NC",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d01232af-826f-441e-85c0-efaedd1ba422"
+      },
+      "contact": {
+        "email": "heather.rhyne@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/823"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://storage.googleapis.com/enview-public-general/legislative-people-photos/148921.jpg",
+      "sources": [
+        "https://ballotpedia.org/Heather_Rhyne",
+        "https://www.ncleg.gov/Members/Biography/H/823",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "penny-howard-nc-hd53",
+      "name": "Howard Penny",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-53)",
+      "state": "NC",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9b6a3a48-9827-421f-9925-4717340110ab"
+      },
+      "contact": {
+        "email": "howard.penny@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/768"
+      },
+      "bio": {
+        "birth_date": "1947-08-05",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/768/Low",
+      "sources": [
+        "https://ballotpedia.org/Howard_Penny_Jr.",
+        "https://en.wikipedia.org/wiki/Howard_Penny_Jr.",
+        "https://www.linkedin.com/in/howard-penny-1b4727a9",
+        "https://www.linkedin.com/in/howard-penny-31575040",
+        "https://www.ncleg.gov/Members/Biography/H/768",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "blackwell-hugh-nc-hd86",
+      "name": "Hugh Blackwell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-86)",
+      "state": "NC",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f7ffa24f-4c1f-416f-bf1d-30d762d9c6c3"
+      },
+      "contact": {
+        "email": "hugh.blackwell@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/580"
+      },
+      "bio": {
+        "birth_date": "1944-07-14",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/580/Low",
+      "sources": [
+        "https://ballotpedia.org/Hugh_Blackwell",
+        "https://en.wikipedia.org/wiki/Hugh_Blackwell",
+        "https://justfacts.votesmart.org/candidate/57758/hugh-blackwell",
+        "https://www.linkedin.com/in/hugh-blackwell-36ba682b",
+        "https://www.ncleg.gov/Members/Biography/H/580",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-jake-nc-hd113",
+      "name": "Jake Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-113)",
+      "state": "NC",
+      "district": "HD-113",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/11c5404c-5cb6-4f99-84a5-711a23e6295f"
+      },
+      "contact": {
+        "email": "jake.johnson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/762"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/762/Low",
+      "sources": [
+        "https://ballotpedia.org/Jake_Johnson",
+        "https://en.wikipedia.org/wiki/Jake_Johnson_(politician)",
+        "https://www.linkedin.com/in/jake-johnson-19ba6483",
+        "https://www.ncleg.gov/Members/Biography/H/762",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "roberson-james-nc-hd39",
+      "name": "James Roberson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-39)",
+      "state": "NC",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4547831d-14b9-4d9d-9e3c-15b66c389054"
+      },
+      "contact": {
+        "email": "james.roberson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/786"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/786/Low",
+      "sources": [
+        "https://ballotpedia.org/James_Roberson",
+        "https://en.wikipedia.org/wiki/James_Roberson_(politician)",
+        "https://www.linkedin.com/in/james-roberson-b64a8b14",
+        "https://www.ncleg.gov/Members/Biography/H/786",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "adams-jay-nc-hd96",
+      "name": "Jay Adams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-96)",
+      "state": "NC",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1a75f967-8f35-40aa-8b0a-990a135e70cb"
+      },
+      "contact": {
+        "email": "jay.adams@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/697"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/697/Low",
+      "sources": [
+        "https://ballotpedia.org/Jay_Adams",
+        "https://en.wikipedia.org/wiki/Jay_Adams_(politician)",
+        "https://justfacts.votesmart.org/candidate/150322/jay-adams-jr",
+        "https://www.linkedin.com/in/jay-adams-541b6718",
+        "https://www.ncleg.gov/Members/Biography/H/697",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "chaudhuri-jay-nc-sd15",
+      "name": "Jay Chaudhuri",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-15)",
+      "state": "NC",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/75860d99-3e31-4c38-b511-734f76477c9b"
+      },
+      "contact": {
+        "email": "jay.chaudhuri@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/395"
+      },
+      "bio": {
+        "birth_date": "1969-06-08",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/395/Low",
+      "sources": [
+        "https://ballotpedia.org/Jay_Chaudhuri",
+        "https://en.wikipedia.org/wiki/Jay_Chaudhuri",
+        "https://justfacts.votesmart.org/candidate/biography/166590/jay-chaudhuri",
+        "https://www.linkedin.com/in/jaychaudhuri",
+        "https://www.ncleg.gov/Members/Biography/S/395",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "zenger-jeff-nc-hd74",
+      "name": "Jeff Zenger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-74)",
+      "state": "NC",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f3f10d50-4117-41f8-b2af-c9273d3c425e"
+      },
+      "contact": {
+        "email": "jeff.zenger@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/775"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/775/Low",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Zenger",
+        "https://en.wikipedia.org/wiki/Jeff_Zenger",
+        "https://justfacts.votesmart.org/candidate/biography/189097/jeff-zenger",
+        "https://www.linkedin.com/in/jefflishaconstruction",
+        "https://www.ncleg.gov/Members/Biography/H/775",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "mcneely-jeff-nc-hd84",
+      "name": "Jeff McNeely",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-84)",
+      "state": "NC",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/09d4ccb5-4456-4f33-aea7-36f3e2ef9e43"
+      },
+      "contact": {
+        "email": "jeffrey.mcneely@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/761"
+      },
+      "bio": {
+        "birth_date": "1964-06-12",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/761/Low",
+      "sources": [
+        "https://ballotpedia.org/Jeffrey_McNeely",
+        "https://en.wikipedia.org/wiki/Jeffrey_McNeely",
+        "https://www.linkedin.com/in/jeff-mcneely-60b78874",
+        "https://www.ncleg.gov/Members/Biography/H/761",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "balkcom-jennifer-nc-hd117",
+      "name": "Jennifer Balkcom",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-117)",
+      "state": "NC",
+      "district": "HD-117",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1c0b287a-2695-47e3-8c7a-1868db5c8d5c"
+      },
+      "contact": {
+        "email": "jennifer.balkcom@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/820"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/820/Low",
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Capps_Balkcom",
+        "https://en.wikipedia.org/wiki/Jennifer_Balkcom",
+        "https://www.linkedin.com/in/jennifer-capps-balkcom-1477a36a",
+        "https://www.ncleg.gov/Members/Biography/H/820",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "burgin-jim-nc-sd12",
+      "name": "Jim Burgin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-12)",
+      "state": "NC",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9793e1e4-641c-4a5c-b1bc-7f6d0a65a655"
+      },
+      "contact": {
+        "email": "jim.burgin@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/412"
+      },
+      "bio": {
+        "birth_date": "1956-05-20",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/412/Low",
+      "sources": [
+        "https://ballotpedia.org/Jim_Burgin",
+        "https://en.wikipedia.org/wiki/Jim_Burgin",
+        "https://justfacts.votesmart.org/candidate/biography/114731/jim-burgin",
+        "https://www.linkedin.com/in/jim-burgin-b812a116",
+        "https://www.ncleg.gov/Members/Biography/S/412",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "dixon-jimmy-nc-hd4",
+      "name": "Jimmy Dixon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-4)",
+      "state": "NC",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2fdb425d-47c9-4683-943e-15a566f3552b"
+      },
+      "contact": {
+        "email": "jimmy.dixon@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/613"
+      },
+      "bio": {
+        "birth_date": "1945-02-11",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/613/Low",
+      "sources": [
+        "https://ballotpedia.org/James_Dixon_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Jimmy_Dixon_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/119381/jimmy-dixon",
+        "https://www.linkedin.com/in/james-dixon-06758843",
+        "https://www.ncleg.gov/Members/Biography/H/613",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "torbett-john-nc-hd108",
+      "name": "John Torbett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-108)",
+      "state": "NC",
+      "district": "HD-108",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cb059250-c895-4a14-bfa2-997aed42155e"
+      },
+      "contact": {
+        "email": "john.torbett@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/606"
+      },
+      "bio": {
+        "birth_date": "1956-05-21",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/606/Low",
+      "sources": [
+        "https://ballotpedia.org/John_Torbett",
+        "https://en.wikipedia.org/wiki/John_Torbett",
+        "https://justfacts.votesmart.org/candidate/biography/92622/john-torbett",
+        "https://www.linkedin.com/in/hon-john-a-torbett-501133b",
+        "https://www.ncleg.gov/Members/Biography/H/606",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "blust-john-nc-hd62",
+      "name": "John Blust",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-62)",
+      "state": "NC",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3a96a66b-58e9-4ce5-bc6c-803b19c2746d"
+      },
+      "contact": {
+        "email": "john.blust@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/234"
+      },
+      "bio": {
+        "birth_date": "1954-06-04",
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-public-general/legislative-people-photos/21657.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Blust",
+        "https://en.wikipedia.org/wiki/John_Blust",
+        "https://www.iveymcclellan.com/north-carolina-attorneys/john-blust",
+        "https://www.ncleg.gov/Members/Biography/H/234",
+        "https://www.ncleg.gov/Members/Biography/H/824",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "lowery-john-nc-hd47",
+      "name": "John Lowery",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-47)",
+      "state": "NC",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7d07a14d-a5dc-46a9-8277-85fee42921a1"
+      },
+      "contact": {
+        "email": "john.lowery@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/1001"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/John_Lowery_(North_Carolina)",
+        "https://www.linkedin.com/in/john-lowery1",
+        "https://www.ncleg.gov/Members/Biography/H/1001",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "bell-john-nc-hd10",
+      "name": "John Bell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-10)",
+      "state": "NC",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cc410819-75a4-46dd-a3d5-edbd80d9f861"
+      },
+      "contact": {
+        "email": "john.bell@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/661"
+      },
+      "bio": {
+        "birth_date": "1979-05-18",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/661/Low",
+      "sources": [
+        "https://ballotpedia.org/John_Bell_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/John_R._Bell_IV",
+        "https://www.ncleg.gov/Members/Biography/H/661",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "sauls-john-nc-hd51",
+      "name": "John Sauls",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-51)",
+      "state": "NC",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bde014bb-27c1-42a3-909f-c5d96cca5c3f"
+      },
+      "contact": {
+        "email": "john.sauls@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/393"
+      },
+      "bio": {
+        "birth_date": "1949-11-29",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/393/Low",
+      "sources": [
+        "https://ballotpedia.org/John_Sauls",
+        "https://en.wikipedia.org/wiki/John_I._Sauls",
+        "https://www.ncleg.gov/Members/Biography/H/393",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "garson-jonah-nc-sd23",
+      "name": "Jonah Garson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-23)",
+      "state": "NC",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3622ded7-77d3-46f8-a62b-dad1c8f3e589"
+      },
+      "contact": {
+        "email": "jonah.garson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/1001"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/5ce70c57184229000120643d/1635110523522-15B7H44X3PRPJSL2DYJH/ParryLaw_PLLC_20211020_1501-2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jonah_Garson",
+        "https://en.wikipedia.org/wiki/Jonah_Garson",
+        "https://www.linkedin.com/in/jonah-garson-855886132",
+        "https://www.ncleg.gov/Members/Biography/S/1001",
+        "https://www.parryfirm.com/jonah-garson",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "almond-jonathan-nc-hd73",
+      "name": "Jonathan Almond",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-73)",
+      "state": "NC",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a8fb7327-cfc3-4951-a15f-5a60ba05dcba"
+      },
+      "contact": {
+        "email": "jonathan.almond@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/843"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jonathan_Almond_20241029_031016.png",
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Almond",
+        "https://www.linkedin.com/in/jonathanalmondnc",
+        "https://www.ncleg.gov/Members/Biography/H/843",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "lopez-jordan-nc-hd112",
+      "name": "Jordan Lopez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-112)",
+      "state": "NC",
+      "district": "HD-112",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/196e72cf-7987-4847-8e2f-03b540064e86"
+      },
+      "contact": {
+        "email": "jordan.lopez@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/835"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://lopez4nc.com/wp-content/uploads/2023/12/FAV1127_LOPEZ_-121.webp",
+      "sources": [
+        "https://ballotpedia.org/Jordan_Lopez",
+        "https://www.linkedin.com/in/jordanalopez",
+        "https://www.ncleg.gov/Members/Biography/H/835",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "pike-joe-nc-hd6",
+      "name": "Joe Pike",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-6)",
+      "state": "NC",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/50435516-ccee-4b72-9075-e27a0bfe0a72"
+      },
+      "contact": {
+        "email": "joe.pike@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/808"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/808/Low",
+      "sources": [
+        "https://ballotpedia.org/Joe_Pike",
+        "https://en.wikipedia.org/wiki/Joe_Pike",
+        "https://www.linkedin.com/in/joseph-pike-924b2615a",
+        "https://www.ncleg.gov/Members/Biography/H/808",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "waddell-joyce-nc-sd40",
+      "name": "Joyce Waddell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-40)",
+      "state": "NC",
+      "district": "SD-40",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3e8067e6-6232-4ebb-979c-d077ab968446"
+      },
+      "contact": {
+        "email": "joyce.waddell@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/393"
+      },
+      "bio": {
+        "birth_date": "1944-07-11",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/393/Low",
+      "sources": [
+        "https://ballotpedia.org/Joyce_Waddell",
+        "https://en.wikipedia.org/wiki/Joyce_Waddell",
+        "https://www.linkedin.com/in/joyce-waddell-730a8527",
+        "https://www.ncleg.gov/Members/Biography/S/393",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "howard-julia-nc-hd77",
+      "name": "Julia Howard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-77)",
+      "state": "NC",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5318144e-d466-40ea-8e35-f0f09bf57760"
+      },
+      "contact": {
+        "email": "julia.howard@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/53"
+      },
+      "bio": {
+        "birth_date": "1944-08-20",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/53/Low",
+      "sources": [
+        "https://ballotpedia.org/Julia_Howard",
+        "https://en.wikipedia.org/wiki/Julia_C._Howard",
+        "https://www.ncleg.gov/Members/Biography/H/53",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "greenfield-julia-nc-hd100",
+      "name": "Julia Greenfield",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-100)",
+      "state": "NC",
+      "district": "HD-100",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e9c35f8c-48f0-46e3-bd47-2e9481abc971"
+      },
+      "contact": {
+        "email": "julia.greenfield@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/829"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://greenvoterguidenc.org/wp-content/uploads/Julia-Greenfield-square-400x400.png",
+      "sources": [
+        "https://ballotpedia.org/Julia_Greenfield",
+        "https://www.ncleg.gov/Members/Biography/H/829",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "mayfield-julie-nc-sd49",
+      "name": "Julie Mayfield",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-49)",
+      "state": "NC",
+      "district": "SD-49",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c8ac71ee-e3dc-450f-83f7-efeb363e88bc"
+      },
+      "contact": {
+        "email": "julie.mayfield@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/432"
+      },
+      "bio": {
+        "birth_date": "1967-04-05",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/432/Low",
+      "sources": [
+        "https://ballotpedia.org/Julie_Mayfield",
+        "https://en.wikipedia.org/wiki/Julie_Mayfield",
+        "https://www.linkedin.com/in/julie-mayfield-7763059",
+        "https://www.ncleg.gov/Members/Biography/S/432",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "von-haefen-julie-nc-hd36",
+      "name": "Julie von Haefen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-36)",
+      "state": "NC",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7b4481a0-466b-44be-8b39-def9e1bc04f8"
+      },
+      "contact": {
+        "email": "julie.vonhaefen@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/758"
+      },
+      "bio": {
+        "birth_date": "1971-02-04",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/758/Low",
+      "sources": [
+        "https://ballotpedia.org/Julie_Von_Haefen",
+        "https://en.wikipedia.org/wiki/Julie_von_Haefen",
+        "https://www.ncleg.gov/Members/Biography/H/758",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-kandie-nc-sd5",
+      "name": "Kandie Smith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-5)",
+      "state": "NC",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5afbb4dc-a121-414a-b600-53af0936beb8"
+      },
+      "contact": {
+        "email": "kandie.smith@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/447"
+      },
+      "bio": {
+        "birth_date": "1969-10-20",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/447/Low",
+      "sources": [
+        "https://ballotpedia.org/Kandie_Smith",
+        "https://en.wikipedia.org/wiki/Kandie_Smith",
+        "https://justfacts.votesmart.org/candidate/biography/132843/kandie-smith",
+        "https://www.linkedin.com/in/kandie-smith-aaa3893b",
+        "https://www.ncleg.gov/Members/Biography/S/447",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-kanika-nc-hd71",
+      "name": "Kanika Brown",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-71)",
+      "state": "NC",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/91f28923-c52e-4a47-aed2-944672902823"
+      },
+      "contact": {
+        "email": "kanika.brown@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/795"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/795/Low",
+      "sources": [
+        "https://ballotpedia.org/Kanika_Brown",
+        "https://en.wikipedia.org/wiki/Kanika_Brown",
+        "https://www.linkedin.com/in/kanika-brown-30438a148",
+        "https://www.ncleg.gov/Members/Biography/H/795",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "gillespie-karl-nc-hd120",
+      "name": "Karl Gillespie",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-120)",
+      "state": "NC",
+      "district": "HD-120",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c0ca675d-4bd2-462f-9bcb-b7ac8226dbdf"
+      },
+      "contact": {
+        "email": "karl.gillespie@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/771"
+      },
+      "bio": {
+        "birth_date": "1962-09-06",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/771/Low",
+      "sources": [
+        "https://ballotpedia.org/Karl_Gillespie",
+        "https://en.wikipedia.org/wiki/Karl_Gillespie",
+        "https://www.linkedin.com/in/karl-gillespie-69772249",
+        "https://www.linkedin.com/in/karl-gillespie-69938757",
+        "https://www.ncleg.gov/Members/Biography/H/771",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "kidwell-keith-nc-hd79",
+      "name": "Keith Kidwell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-79)",
+      "state": "NC",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a39903f1-cf67-494a-8c6a-4ae15c334fc9"
+      },
+      "contact": {
+        "email": "keith.kidwell@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/749"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/749/Low",
+      "sources": [
+        "https://ballotpedia.org/Keith_Kidwell",
+        "https://www.linkedin.com/in/keith-kidwell-9a365a1b",
+        "https://www.ncleg.gov/Members/Biography/H/749",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "hastings-kelly-nc-hd110",
+      "name": "Kelly Hastings",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-110)",
+      "state": "NC",
+      "district": "HD-110",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4edb53d2-f5a1-447d-ac37-36da75a7a4ed"
+      },
+      "contact": {
+        "email": "kelly.hastings@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/618"
+      },
+      "bio": {
+        "birth_date": "1961-06-16",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/618/Low",
+      "sources": [
+        "https://ballotpedia.org/Kelly_Hastings",
+        "https://en.wikipedia.org/wiki/Kelly_Hastings",
+        "https://justfacts.votesmart.org/candidate/biography/103078/kelly-hastings",
+        "https://www.linkedin.com/in/kelly-hastings-95421719",
+        "https://www.ncleg.gov/Members/Biography/H/618",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "corbin-kevin-nc-sd50",
+      "name": "Kevin Corbin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-50)",
+      "state": "NC",
+      "district": "SD-50",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/410836ee-4f48-4934-8f95-fca6b2d2f051"
+      },
+      "contact": {
+        "email": "kevin.corbin@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/433"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/433/Low",
+      "sources": [
+        "https://ballotpedia.org/Kevin_Corbin",
+        "https://en.wikipedia.org/wiki/Kevin_Corbin",
+        "https://justfacts.votesmart.org/candidate/biography/166642/kevin-corbin",
+        "https://www.linkedin.com/in/ncmymedquote",
+        "https://www.ncleg.gov/Members/Biography/S/433",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-kyle-nc-hd91",
+      "name": "Kyle Hall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-91)",
+      "state": "NC",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6d8e0e56-939e-45c4-a9db-2fc370fbbdef"
+      },
+      "contact": {
+        "email": "kyle.hall@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/704"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/704/Low",
+      "sources": [
+        "https://ballotpedia.org/Kyle_Hall_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Kyle_Hall",
+        "https://justfacts.votesmart.org/candidate/biography/166632/kyle-hall",
+        "https://www.linkedin.com/in/kyle-hall-703aab60",
+        "https://www.ncleg.gov/Members/Biography/H/704",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "strickland-larry-nc-hd28",
+      "name": "Larry Strickland",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-28)",
+      "state": "NC",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3ed64eae-ecec-4cbf-a436-e7c1471a4cef"
+      },
+      "contact": {
+        "email": "larry.strickland@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/727"
+      },
+      "bio": {
+        "birth_date": "1955-06-07",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/727/Low",
+      "sources": [
+        "https://ballotpedia.org/Larry_Strickland",
+        "https://en.wikipedia.org/wiki/Larry_C._Strickland",
+        "https://justfacts.votesmart.org/candidate/biography/166611/larry-strickland",
+        "https://www.ncleg.gov/Members/Biography/H/727",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "potts-larry-nc-hd81",
+      "name": "Larry Potts",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-81)",
+      "state": "NC",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/11c903f8-ce25-4463-8a24-a49394c21955"
+      },
+      "contact": {
+        "email": "larry.potts@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/724"
+      },
+      "bio": {
+        "birth_date": "1948-09-14",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/724/Low",
+      "sources": [
+        "https://ballotpedia.org/Larry_Potts",
+        "https://en.wikipedia.org/wiki/Larry_Potts",
+        "https://justfacts.votesmart.org/candidate/biography/41531/larry-potts",
+        "https://larrywpotts.com/bio",
+        "https://www.ncleg.gov/Members/Biography/H/724",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "budd-laura-nc-hd103",
+      "name": "Laura Budd",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-103)",
+      "state": "NC",
+      "district": "HD-103",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/283007b1-e7a2-486b-b19b-5a8126bc4128"
+      },
+      "contact": {
+        "email": "laura.budd@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/796"
+      },
+      "bio": {
+        "birth_date": "1977-04-29",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/796/Low",
+      "sources": [
+        "https://ballotpedia.org/Laura_Budd",
+        "https://en.wikipedia.org/wiki/Laura_Budd",
+        "https://www.linkedin.com/in/laura-h-budd",
+        "https://www.ncleg.gov/Members/Biography/H/796",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "prather-lindsey-nc-hd115",
+      "name": "Lindsey Prather",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-115)",
+      "state": "NC",
+      "district": "HD-115",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/16a0c907-4efa-45a7-83d2-1c79cc541535"
+      },
+      "contact": {
+        "email": "lindsey.prather@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/809"
+      },
+      "bio": {
+        "birth_date": "1988-06-21",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/809/Low",
+      "sources": [
+        "https://ballotpedia.org/Lindsey_Prather",
+        "https://en.wikipedia.org/wiki/Lindsey_Prather",
+        "https://www.linkedin.com/in/lindsey-prather-616877149",
+        "https://www.ncleg.gov/Members/Biography/H/809",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "grafstein-lisa-nc-sd13",
+      "name": "Lisa Grafstein",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-13)",
+      "state": "NC",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a370c6f1-338d-49c3-a0b4-41e885dc0d80"
+      },
+      "contact": {
+        "email": "lisa.grafstein@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/439"
+      },
+      "bio": {
+        "birth_date": "1966-09-07",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/439/Low",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Grafstein",
+        "https://en.wikipedia.org/wiki/Lisa_Grafstein",
+        "https://www.linkedin.com/in/lisa-grafstein-a12b044",
+        "https://www.ncleg.gov/Members/Biography/S/439",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "barnes-lisa-nc-sd11",
+      "name": "Lisa Barnes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-11)",
+      "state": "NC",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/21577fbd-e06f-4bc3-8717-e050ff165a74"
+      },
+      "contact": {
+        "email": "lisa.barnes@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/427"
+      },
+      "bio": {
+        "birth_date": "1966-07-16",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/427/Low",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Barnes",
+        "https://en.wikipedia.org/wiki/Lisa_Stone_Barnes",
+        "https://justfacts.votesmart.org/candidate/biography/163025/lisa-barnes",
+        "https://www.ncleg.gov/Members/Biography/S/427",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "morey-marcia-nc-hd30",
+      "name": "Marcia Morey",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-30)",
+      "state": "NC",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be5acee4-3874-4414-9aff-77043943c1c1"
+      },
+      "contact": {
+        "email": "marcia.morey@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/732"
+      },
+      "bio": {
+        "birth_date": "1955-08-14",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/732/Low",
+      "sources": [
+        "https://ballotpedia.org/Marcia_Morey",
+        "https://en.wikipedia.org/wiki/Marcia_Morey",
+        "https://www.ncleg.gov/Members/Biography/H/732",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "cervania-maria-nc-hd41",
+      "name": "Maria Cervania",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-41)",
+      "state": "NC",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7a50ad08-1f2a-4f5f-9463-b1672d3a60a3"
+      },
+      "contact": {
+        "email": "maria.cervania@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/798"
+      },
+      "bio": {
+        "birth_date": "1968-01-14",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/798/Low",
+      "sources": [
+        "https://ballotpedia.org/Maria_Cervania",
+        "https://en.wikipedia.org/wiki/Maria_Cervania",
+        "https://www.linkedin.com/in/mariacervania",
+        "https://www.ncleg.gov/Members/Biography/H/798",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "brody-mark-nc-hd55",
+      "name": "Mark Brody",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-55)",
+      "state": "NC",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cc238a7c-3222-4ac2-8d4d-3884dd342a5f"
+      },
+      "contact": {
+        "email": "mark.brody@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/663"
+      },
+      "bio": {
+        "birth_date": "1951-12-06",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/663/Low",
+      "sources": [
+        "https://ballotpedia.org/Mark_Brody",
+        "https://en.wikipedia.org/wiki/Mark_Brody",
+        "https://justfacts.votesmart.org/candidate/biography/108503/mark-brody",
+        "https://www.ncleg.gov/Members/Biography/H/663",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "pless-mark-nc-hd118",
+      "name": "Mark Pless",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-118)",
+      "state": "NC",
+      "district": "HD-118",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/601cab9a-8b58-42fa-a62e-4170ec23b955"
+      },
+      "contact": {
+        "email": "mark.pless@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/773"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/773/Low",
+      "sources": [
+        "https://ballotpedia.org/Mark_Pless",
+        "https://en.wikipedia.org/wiki/Mark_Pless",
+        "https://www.ncleg.gov/Members/Biography/H/773",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "hollo-mark-nc-sd45",
+      "name": "Mark Hollo",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-45)",
+      "state": "NC",
+      "district": "SD-45",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1afc84ab-30e5-413a-8975-2a552e050aee"
+      },
+      "contact": {
+        "email": "mark.hollo@ncleg.gov",
+        "website": "https://www.ncga.state.nc.us/gascripts/members/viewMember.pl?sChamber=House&nUserID=619"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.ncga.state.nc.us/House/pictures/hiRes/619.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Hollo",
+        "https://en.wikipedia.org/wiki/Mark_Hollo",
+        "https://justfacts.votesmart.org/candidate/41112/mark-hollo",
+        "https://www.ncga.state.nc.us/gascripts/members/viewMember.pl?sChamber=House&nUserID=619",
+        "https://www.ncleg.gov/Members/Biography/S/450",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "belk-mary-nc-hd88",
+      "name": "Mary Belk",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-88)",
+      "state": "NC",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/819581b6-a44a-4d4a-8a08-14c2dccd86f5"
+      },
+      "contact": {
+        "email": "mary.belk@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/713"
+      },
+      "bio": {
+        "birth_date": "1956-10-05",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/713/Low",
+      "sources": [
+        "https://ballotpedia.org/Mary_Belk",
+        "https://en.wikipedia.org/wiki/Mary_Gardner_Belk",
+        "https://justfacts.votesmart.org/candidate/biography/166839/mary-belk",
+        "https://www.ncleg.gov/Members/Biography/H/713",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "winslow-matthew-nc-hd7",
+      "name": "Matthew Winslow",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-7)",
+      "state": "NC",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1dfa7f10-249d-43aa-930b-a5be9e4fce9f"
+      },
+      "contact": {
+        "email": "matthew.winslow@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/776"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/776/Low",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Winslow",
+        "https://en.wikipedia.org/wiki/Matthew_Winslow",
+        "https://www.linkedin.com/in/matthew-winslow-3550aa15",
+        "https://www.ncleg.gov/Members/Biography/H/776",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "lazzara-michael-nc-sd6",
+      "name": "Michael Lazzara",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-6)",
+      "state": "NC",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f0121b49-81cc-45f5-98e1-1fbeee882c81"
+      },
+      "contact": {
+        "email": "michael.lazzara@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/426"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/426/Low",
+      "sources": [
+        "https://ballotpedia.org/Michael_Lazzara",
+        "https://en.wikipedia.org/wiki/Michael_Lazzara",
+        "https://justfacts.votesmart.org/candidate/biography/73981/michael-lazzara",
+        "https://www.linkedin.com/in/michael-lazzara-92052555",
+        "https://www.ncleg.gov/Members/Biography/S/426",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "garrett-michael-nc-sd27",
+      "name": "Michael Garrett",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-27)",
+      "state": "NC",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f40a7222-92eb-4d8e-ad4d-7008b859aae7"
+      },
+      "contact": {
+        "email": "michael.garrett@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/414"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/414/Low",
+      "sources": [
+        "https://ballotpedia.org/Michael_Garrett_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Michael_Garrett_(politician)",
+        "https://www.linkedin.com/in/michael-garrett-12774212",
+        "https://www.ncleg.gov/Members/Biography/S/414",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "lee-michael-nc-sd7",
+      "name": "Michael Lee",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-7)",
+      "state": "NC",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/082079ab-53d2-43e5-be5f-cb7c6054edd3"
+      },
+      "contact": {
+        "email": "michael.lee@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/387"
+      },
+      "bio": {
+        "birth_date": "1968-11-29",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/387/Low",
+      "sources": [
+        "https://ballotpedia.org/Michael_V._Lee",
+        "https://ballotpedia.org/Michael_V._Lee_(North_Carolina_State_Senate)",
+        "https://en.wikipedia.org/wiki/Michael_V._Lee",
+        "https://justfacts.votesmart.org/candidate/biography/102957/michael-lee",
+        "https://www.linkedin.com/in/michael-lee-5669b59",
+        "https://www.ncleg.gov/Members/Biography/S/387",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "colvin-mike-nc-hd42",
+      "name": "Mike Colvin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-42)",
+      "state": "NC",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b3b24f9e-5eb4-475e-8b06-7040cfb39fb5"
+      },
+      "contact": {
+        "email": "mike.colvin@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/831"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://votemikecolvin.com/wp-content/uploads/2024/01/untitled-1024x1024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Colvin",
+        "https://www.ncleg.gov/Members/Biography/H/831",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "schietzelt-mike-nc-hd35",
+      "name": "Mike Schietzelt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-35)",
+      "state": "NC",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f6d0fc41-fbfa-4829-aa33-f5977edf1082"
+      },
+      "contact": {
+        "email": "mike.schietzelt@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/840"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MikeSchietzelt2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Schietzelt",
+        "https://www.linkedin.com/in/michaelschietzelt",
+        "https://www.ncleg.gov/Members/Biography/H/840",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "setzer-mitchell-nc-hd89",
+      "name": "Mitchell Setzer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-89)",
+      "state": "NC",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d4713ec5-e36b-49bb-bfc8-6b7fe9c0e9a7"
+      },
+      "contact": {
+        "email": "mitchell.setzer@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/149"
+      },
+      "bio": {
+        "birth_date": "1965-03-12",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/149/Low",
+      "sources": [
+        "https://ballotpedia.org/Mitchell_Setzer",
+        "https://en.wikipedia.org/wiki/Mitchell_S._Setzer",
+        "https://justfacts.votesmart.org/candidate/biography/21013/mitchell-setzer",
+        "https://www.ncleg.gov/Members/Biography/H/149",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-hostler-monika-nc-hd33",
+      "name": "Monika Johnson-Hostler",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-33)",
+      "state": "NC",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/018cd1c9-5b84-4f8e-8a1d-6f0326ce1f2f"
+      },
+      "contact": {
+        "email": "monika.johnson-hostler@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/834"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.uncfsu.edu/assets/Images/Student_Stories/Monika-Hostler.jpg",
+      "sources": [
+        "https://ballotpedia.org/Monika_Johnson-Hostler",
+        "https://www.linkedin.com/in/monika-johnson-hostler-8bb7571",
+        "https://www.ncleg.gov/Members/Biography/H/834",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "mohammed-mujtaba-nc-sd38",
+      "name": "Mujtaba Mohammed",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-38)",
+      "state": "NC",
+      "district": "SD-38",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c733e47e-af6a-4f31-a350-010043b5164b"
+      },
+      "contact": {
+        "email": "mujtaba.mohammed@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/417"
+      },
+      "bio": {
+        "birth_date": "1985-06-08",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/417/Low",
+      "sources": [
+        "https://ballotpedia.org/Mujtaba_Mohammed",
+        "https://en.wikipedia.org/wiki/Mujtaba_A._Mohammed",
+        "https://justfacts.votesmart.org/candidate/biography/178346/mujtaba-mohammed",
+        "https://www.linkedin.com/in/mujtaba-mohammed-878a7a48",
+        "https://www.ncleg.gov/Members/Biography/S/417",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "majeed-nasif-nc-hd99",
+      "name": "Nasif Majeed",
+      "party": "Independent",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-99)",
+      "state": "NC",
+      "district": "HD-99",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6acc3963-2724-4d88-8762-f78df333be94"
+      },
+      "contact": {
+        "email": "nasif.majeed@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/752"
+      },
+      "bio": {
+        "birth_date": "1945-09-27",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/752/Low",
+      "sources": [
+        "https://ballotpedia.org/Nasif_Majeed",
+        "https://en.wikipedia.org/wiki/Nasif_Majeed",
+        "https://justfacts.votesmart.org/candidate/biography/41645/nasif-majeed",
+        "https://www.linkedin.com/in/nasif-majeed-0589a125",
+        "https://www.ncleg.gov/Members/Biography/H/752",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "murdock-natalie-nc-sd20",
+      "name": "Natalie Murdock",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-20)",
+      "state": "NC",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/121cec2b-d03f-45bc-a835-1ae5f4eb18d3"
+      },
+      "contact": {
+        "email": "natalie.murdock@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/422"
+      },
+      "bio": {
+        "birth_date": "1984-01-25",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/422/Low",
+      "sources": [
+        "https://ballotpedia.org/Natalie_Murdock",
+        "https://en.wikipedia.org/wiki/Natalie_Murdock",
+        "https://www.linkedin.com/in/natalie-murdock-2b8ab425",
+        "https://www.ncleg.gov/Members/Biography/S/422",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-neal-nc-hd78",
+      "name": "Neal Jackson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-78)",
+      "state": "NC",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e2d0ef7-d021-4427-af07-14fae1ad5aa0"
+      },
+      "contact": {
+        "email": "neal.jackson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/804"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/804/Low",
+      "sources": [
+        "https://ballotpedia.org/Neal_Jackson",
+        "https://en.wikipedia.org/wiki/Neal_Jackson_(North_Carolina_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/202734/neal-jackson",
+        "https://www.ncleg.gov/Members/Biography/H/804",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://www.nealjackson4nc.org/about",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "sanderson-norman-nc-sd2",
+      "name": "Norman Sanderson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-2)",
+      "state": "NC",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7493bee0-b1ed-4d45-b772-b7fce91be4ff"
+      },
+      "contact": {
+        "email": "norman.sanderson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/375"
+      },
+      "bio": {
+        "birth_date": "1951-07-07",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/375/Low",
+      "sources": [
+        "https://ballotpedia.org/Norman_Sanderson",
+        "https://en.wikipedia.org/wiki/Norman_W._Sanderson",
+        "https://www.ncleg.gov/Members/Biography/S/375",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "lowe-paul-nc-sd32",
+      "name": "Paul Lowe",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-32)",
+      "state": "NC",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a73e339a-9724-45a5-9ebd-f1ca506374a0"
+      },
+      "contact": {
+        "email": "paul.lowe@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/394"
+      },
+      "bio": {
+        "birth_date": "1959-05-19",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/394/Low",
+      "sources": [
+        "https://ballotpedia.org/Paul_Lowe",
+        "https://en.wikipedia.org/wiki/Paul_A._Lowe_Jr.",
+        "https://justfacts.votesmart.org/candidate/156190/paul-lowe-jr",
+        "https://www.linkedin.com/in/paul-lowe-3a76a330",
+        "https://www.ncleg.gov/Members/Biography/S/394",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "scott-paul-nc-hd111",
+      "name": "Paul Scott",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-111)",
+      "state": "NC",
+      "district": "HD-111",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8f02ce28-e826-48f7-adc1-11f8e5c2ed26"
+      },
+      "contact": {
+        "email": "paul.scott@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/841"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://static.wixstatic.com/media/a254ce_1422fda1afc540a697d4c59e20275ee8~mv2.png/v1/fill/w_626,h_1003,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/a254ce_1422fda1afc540a697d4c59e20275ee8~mv2.png",
+      "sources": [
+        "https://ballotpedia.org/Paul_Scott_(North_Carolina)",
+        "https://www.ncleg.gov/Members/Biography/H/841",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "berger-phil-nc-sd26",
+      "name": "Phil Berger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-26)",
+      "state": "NC",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f276e61a-c569-4924-b302-caeda17a306a"
+      },
+      "contact": {
+        "email": "phil.berger@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/64"
+      },
+      "bio": {
+        "birth_date": "1952-08-08",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/64/Low",
+      "sources": [
+        "https://ballotpedia.org/Phil_Berger",
+        "https://en.wikipedia.org/wiki/Philip_E._Berger",
+        "https://justfacts.votesmart.org/candidate/biography/41493/philip-berger-sr",
+        "https://www.linkedin.com/in/phil-berger-1b84464b",
+        "https://www.ncleg.gov/Members/Biography/S/64",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "rubin-phil-nc-hd40",
+      "name": "Phil Rubin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-40)",
+      "state": "NC",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/efae51b3-e547-46c0-87df-4ac35c0c60de"
+      },
+      "contact": {
+        "email": "phillip.rubin@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/844"
+      },
+      "bio": {
+        "birth_date": "1983-08-17",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Phil_Rubin",
+        "https://en.wikipedia.org/wiki/Phil_Rubin",
+        "https://justfacts.votesmart.org/candidate/biography/220821/phil-rubin",
+        "https://www.linkedin.com/in/phil-rubin",
+        "https://www.ncleg.gov/Members/Biography/H/844",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "shepard-phil-nc-hd15",
+      "name": "Phil Shepard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-15)",
+      "state": "NC",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eab6e9df-d2e4-4476-b09d-cda1de0cf654"
+      },
+      "contact": {
+        "email": "phil.shepard@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/628"
+      },
+      "bio": {
+        "birth_date": "1954-11-10",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/628/Low",
+      "sources": [
+        "https://ballotpedia.org/Phillip_Shepard",
+        "https://en.wikipedia.org/wiki/Phil_Shepard",
+        "https://justfacts.votesmart.org/candidate/biography/117801/phil-shepard",
+        "https://www.linkedin.com/in/phillip-shepard-b7697466",
+        "https://www.ncleg.gov/Members/Biography/H/628",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "harrison-pricey-nc-hd61",
+      "name": "Pricey Harrison",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-61)",
+      "state": "NC",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4c2e2654-2647-4394-8efe-f09532225ff6"
+      },
+      "contact": {
+        "email": "pricey.harrison@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/504"
+      },
+      "bio": {
+        "birth_date": "1958-08-31",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/504/Low",
+      "sources": [
+        "https://ballotpedia.org/Mary_Harrison",
+        "https://en.wikipedia.org/wiki/Pricey_Harrison",
+        "https://justfacts.votesmart.org/candidate/41671/pricey-harrison",
+        "https://www.ncleg.gov/Members/Biography/H/504",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "hise-ralph-nc-sd47",
+      "name": "Ralph Hise",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-47)",
+      "state": "NC",
+      "district": "SD-47",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/25828c07-8295-45af-bd01-b044b59d530a"
+      },
+      "contact": {
+        "email": "ralph.hise@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/298"
+      },
+      "bio": {
+        "birth_date": "1976-08-15",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/298/Low",
+      "sources": [
+        "https://ballotpedia.org/Ralph_Hise",
+        "https://en.wikipedia.org/wiki/Ralph_Hise",
+        "https://justfacts.votesmart.org/candidate/biography/117794/ralph-hise-jr",
+        "https://www.ncleg.gov/Members/Biography/S/298",
+        "https://www.ncleg.gov/Members/Biography/s/298",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "pickett-ray-nc-hd93",
+      "name": "Ray Pickett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-93)",
+      "state": "NC",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/27cea850-e6f2-4fe8-a02e-26f9867d00f1"
+      },
+      "contact": {
+        "email": "ray.pickett@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/772"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/772/Low",
+      "sources": [
+        "https://ballotpedia.org/Ray_Pickett",
+        "https://en.wikipedia.org/wiki/Ray_Pickett",
+        "https://www.ncleg.gov/Members/Biography/H/772",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "price-ren-e-nc-hd50",
+      "name": "Renée Price",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-50)",
+      "state": "NC",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7ee23b19-064e-4531-a9e8-2e928f8f2203"
+      },
+      "contact": {
+        "email": "renee.price@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/810"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/810/Low",
+      "sources": [
+        "https://ballotpedia.org/Renee_Price",
+        "https://en.wikipedia.org/wiki/Renee_Price",
+        "https://www.linkedin.com/in/renee-price-94630b30",
+        "https://www.ncleg.gov/Members/Biography/H/810",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "reives-robert-nc-hd54",
+      "name": "Robert Reives",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-54)",
+      "state": "NC",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3aa6f3c5-cd15-42e1-907e-92e6f5362c8f"
+      },
+      "contact": {
+        "email": "robert.reives@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/684"
+      },
+      "bio": {
+        "birth_date": "1970-09-24",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/684/Low",
+      "sources": [
+        "https://ballotpedia.org/Robert_Reives",
+        "https://en.wikipedia.org/wiki/Robert_T._Reives_II",
+        "https://justfacts.votesmart.org/candidate/biography/92629/robert-reives-ii",
+        "https://wrslawfirm.com/robert-reives-criminal-defense-lawyer",
+        "https://www.linkedin.com/in/wilsonreiveslawrobert",
+        "https://www.ncleg.gov/Members/Biography/H/684",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "pierce-rodney-nc-hd27",
+      "name": "Rodney Pierce",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-27)",
+      "state": "NC",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/230ed41f-56c1-459d-a66d-7ab0a3a8342b"
+      },
+      "contact": {
+        "email": "rodney.pierce@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/838"
+      },
+      "bio": {
+        "birth_date": "1978-10-05",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/RodneyPierce2024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Rodney_Pierce",
+        "https://en.wikipedia.org/wiki/Rodney_D._Pierce",
+        "https://www.linkedin.com/in/rodney-d-pierce-0bb40b14",
+        "https://www.ncleg.gov/Members/Biography/H/838",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "watford-sam-nc-hd80",
+      "name": "Sam Watford",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-80)",
+      "state": "NC",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4f490403-b729-4f33-b3ba-5417db20cb0b"
+      },
+      "contact": {
+        "email": "sam.watford@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/687"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/687/Low",
+      "sources": [
+        "https://ballotpedia.org/Sam_Watford",
+        "https://en.wikipedia.org/wiki/Sam_Watford",
+        "https://justfacts.votesmart.org/candidate/biography/92523/sam-watford",
+        "https://www.ncleg.gov/Members/Biography/H/687",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "crawford-sarah-nc-hd66",
+      "name": "Sarah Crawford",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-66)",
+      "state": "NC",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4eb017f8-318e-43ba-b0c5-9fecbc3d0530"
+      },
+      "contact": {
+        "email": "sarah.crawford@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/800"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/800/Low",
+      "sources": [
+        "https://ballotpedia.org/Sarah_Crawford",
+        "https://en.wikipedia.org/wiki/Sarah_Crawford_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/149812/sarah-crawford",
+        "https://www.linkedin.com/in/sarah-crawford-60b1159",
+        "https://www.ncleg.gov/Members/Biography/H/800",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "willingham-shelly-nc-hd23",
+      "name": "Shelly Willingham",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-23)",
+      "state": "NC",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f0d9b7f4-abb7-4111-b640-766a1f81d653"
+      },
+      "contact": {
+        "email": "shelly.willingham@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/700"
+      },
+      "bio": {
+        "birth_date": "1943-11-27",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/700/Low",
+      "sources": [
+        "https://ballotpedia.org/Shelly_Willingham",
+        "https://en.wikipedia.org/wiki/Shelly_Willingham",
+        "https://justfacts.votesmart.org/candidate/biography/41293/shelly-willingham",
+        "https://www.linkedin.com/in/shelly-willingham-92930662",
+        "https://www.ncleg.gov/Members/Biography/H/700",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "chitlik-sophia-nc-sd22",
+      "name": "Sophia Chitlik",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-22)",
+      "state": "NC",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c8c4c09a-5b3a-4521-82d4-2e2ded1b6b0a"
+      },
+      "contact": {
+        "email": "sophia.chitlik@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/449"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/SophiaChitlik2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sophia_Chitlik",
+        "https://www.linkedin.com/in/sophiachitlik",
+        "https://www.ncleg.gov/Members/Biography/S/449",
+        "https://www.ncleg.gov/Members/Biography/S/452",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "ross-stephen-nc-hd63",
+      "name": "Stephen Ross",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-63)",
+      "state": "NC",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6b6dc936-a880-4bdb-9fba-11e0a2ff9f01"
+      },
+      "contact": {
+        "email": "stephen.ross@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/812"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/812/Low",
+      "sources": [
+        "https://ballotpedia.org/Stephen_M._Ross",
+        "https://en.wikipedia.org/wiki/Stephen_M._Ross_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/132378/stephen-ross",
+        "https://www.linkedin.com/in/stephen-ross-4481953b",
+        "https://www.ncleg.gov/Members/Biography/H/812",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "jarvis-steve-nc-sd30",
+      "name": "Steve Jarvis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-30)",
+      "state": "NC",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d0af18d6-b4e1-4a9a-92f3-a6950961e953"
+      },
+      "contact": {
+        "email": "steve.jarvis@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/430"
+      },
+      "bio": {
+        "birth_date": "1968-04-22",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/430/Low",
+      "sources": [
+        "https://ballotpedia.org/Steven_Jarvis_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Steve_Jarvis",
+        "https://justfacts.votesmart.org/candidate/biography/155367/steve-jarvis",
+        "https://www.linkedin.com/in/jarvisconstruction",
+        "https://www.ncleg.gov/Members/Biography/S/430",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "tyson-steve-nc-hd3",
+      "name": "Steve Tyson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-3)",
+      "state": "NC",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e4c62004-8706-4984-acb1-0140967173f0"
+      },
+      "contact": {
+        "email": "steve.tyson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/774"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/774/Low",
+      "sources": [
+        "https://ballotpedia.org/Steve_Tyson",
+        "https://en.wikipedia.org/wiki/Steve_Tyson",
+        "https://justfacts.votesmart.org/candidate/biography/92509/steve-tyson",
+        "https://www.linkedin.com/in/steve-tyson-8419b011",
+        "https://www.ncleg.gov/Members/Biography/H/774",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "batch-sydney-nc-sd17",
+      "name": "Sydney Batch",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-17)",
+      "state": "NC",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f29f268e-5a29-4f49-8c5e-3fa19688f4a2"
+      },
+      "contact": {
+        "email": "sydney.batch@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/434"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/434/Low",
+      "sources": [
+        "https://ballotpedia.org/Sydney_Batch",
+        "https://en.wikipedia.org/wiki/Sydney_Batch",
+        "https://justfacts.votesmart.org/candidate/biography/183405/sydney-batch",
+        "https://www.linkedin.com/in/sydney-batch-0260566",
+        "https://www.ncleg.gov/Members/Biography/S/434",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "davis-ted-nc-hd20",
+      "name": "Ted Davis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-20)",
+      "state": "NC",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b654a887-2eca-41f7-83ba-60044df0fc1c"
+      },
+      "contact": {
+        "email": "ted.davis@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/637"
+      },
+      "bio": {
+        "birth_date": "1950-01-23",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/637/Low",
+      "sources": [
+        "https://ballotpedia.org/Ted_Davis,_Jr.",
+        "https://en.wikipedia.org/wiki/Ted_Davis_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/136665/ted-davis-jr",
+        "https://www.ncleg.gov/Members/Biography/H/637",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-terry-nc-hd92",
+      "name": "Terry Brown",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-92)",
+      "state": "NC",
+      "district": "HD-92",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ac38d5f-d089-4589-bcc4-bef1f1675956"
+      },
+      "contact": {
+        "email": "terry.brown@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/783"
+      },
+      "bio": {
+        "birth_date": "1987-06-08",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/783/Low",
+      "sources": [
+        "https://ballotpedia.org/Terry_Brown_Jr._(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Terry_M._Brown_Jr.",
+        "https://www.bipc.com/terry-m.-brown-jr",
+        "https://www.linkedin.com/in/terry-brown-jr",
+        "https://www.ncleg.gov/Members/Biography/H/783",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "moffitt-tim-nc-sd48",
+      "name": "Tim Moffitt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-48)",
+      "state": "NC",
+      "district": "SD-48",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/20f45197-ec0c-4031-a889-2825bffb008a"
+      },
+      "contact": {
+        "email": "tim.moffitt@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/623"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/438/Low",
+      "sources": [
+        "https://ballotpedia.org/Timothy_Moffitt",
+        "https://en.wikipedia.org/wiki/Tim_Moffitt",
+        "https://justfacts.votesmart.org/candidate/biography/103082/tim-moffitt",
+        "https://www.linkedin.com/in/tim-moffitt-92399244",
+        "https://www.ncleg.gov/Members/Biography/H/623",
+        "https://www.ncleg.gov/Members/Biography/S/438",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "longest-tim-nc-hd34",
+      "name": "Tim Longest",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-34)",
+      "state": "NC",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1bc1818f-49fd-478a-affa-1f167adcfb51"
+      },
+      "contact": {
+        "email": "tim.longest@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/818"
+      },
+      "bio": {
+        "birth_date": "1991-05-14",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/818/Low",
+      "sources": [
+        "https://ballotpedia.org/Tim_Longest",
+        "https://en.wikipedia.org/wiki/Tim_Longest",
+        "https://www.linkedin.com/in/tim-longest-66889045",
+        "https://www.ncleg.gov/Members/Biography/H/818",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "reeder-tim-nc-hd9",
+      "name": "Tim Reeder",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-9)",
+      "state": "NC",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f836e608-2d16-4792-bec5-0993fa2db3aa"
+      },
+      "contact": {
+        "email": "timothy.reeder@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/811"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/811/Low",
+      "sources": [
+        "https://ballotpedia.org/Timothy_Reeder",
+        "https://www.linkedin.com/in/tim-reeder-82292b89",
+        "https://www.ncleg.gov/Members/Biography/H/811",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "carver-todd-nc-hd95",
+      "name": "Todd Carver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-95)",
+      "state": "NC",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1a7c3ce0-97be-4601-895d-8300458a7e42"
+      },
+      "contact": {
+        "email": "todd.carver@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/842"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.iredellfreenews.com/wp-content/uploads/2023/12/Todd-Carver.jpg.webp",
+      "sources": [
+        "https://ballotpedia.org/Todd_Carver",
+        "https://www.ncleg.gov/Members/Biography/H/842",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-todd-nc-sd35",
+      "name": "Todd Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-35)",
+      "state": "NC",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37e615d5-0c02-488c-83e2-e6e6df5b8184"
+      },
+      "contact": {
+        "email": "todd.johnson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/406"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/406/Low",
+      "sources": [
+        "https://ballotpedia.org/Todd_Johnson_(North_Carolina)",
+        "https://en.wikipedia.org/wiki/Todd_Johnson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/133986/todd-johnson",
+        "https://www.linkedin.com/in/todd-johnson-96827138",
+        "https://www.ncleg.gov/Members/Biography/S/406",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "mcinnis-tom-nc-sd21",
+      "name": "Tom McInnis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-21)",
+      "state": "NC",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/81a19cd2-9493-4b85-b92b-44df8777530e"
+      },
+      "contact": {
+        "email": "tom.mcinnis@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/389"
+      },
+      "bio": {
+        "birth_date": "1954-04-16",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/389/Low",
+      "sources": [
+        "https://ballotpedia.org/Tom_McInnis",
+        "https://en.wikipedia.org/wiki/Tom_McInnis_(North_Carolina_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/149828/tom-mcinnis",
+        "https://www.linkedin.com/in/tom-mcinnis-37564b23",
+        "https://www.ncleg.gov/Members/Biography/S/389",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "clark-tracy-nc-hd57",
+      "name": "Tracy Clark",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-57)",
+      "state": "NC",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/47d80aae-1c7b-4330-96bd-76db7fe8b060"
+      },
+      "contact": {
+        "email": "tracy.clark@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/822"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://storage.googleapis.com/enview-public-general/legislative-people-photos/148017.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tracy_Clark",
+        "https://en.wikipedia.org/wiki/Tracy_Clark_(politician)",
+        "https://tracyclarkfornc.com/about",
+        "https://tracyclarkfornc.com/about-me",
+        "https://www.linkedin.com/in/tracyboyerclark",
+        "https://www.ncleg.gov/Members/Biography/H/822",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "cotham-tricia-nc-hd105",
+      "name": "Tricia Cotham",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-105)",
+      "state": "NC",
+      "district": "HD-105",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6045737f-cc7a-4cf5-b7e6-12419deed77b"
+      },
+      "contact": {
+        "email": "tricia.cotham@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/817"
+      },
+      "bio": {
+        "birth_date": "1978-11-26",
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/817/Low",
+      "sources": [
+        "https://ballotpedia.org/Tricia_Cotham",
+        "https://en.wikipedia.org/wiki/Tricia_Cotham",
+        "https://www.linkedin.com/in/tricia-cotham-20b96a19",
+        "https://www.ncleg.gov/Members/Biography/H/817",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "applewhite-val-nc-sd19",
+      "name": "Val Applewhite",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-19)",
+      "state": "NC",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ba98521-ee10-414a-9cf0-8b389ad02ffe"
+      },
+      "contact": {
+        "email": "val.applewhite@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/440"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/440/Low",
+      "sources": [
+        "https://ballotpedia.org/Val_Applewhite",
+        "https://en.wikipedia.org/wiki/Val_Applewhite",
+        "https://www.linkedin.com/in/councilwoman-val-applewhite-8989151b",
+        "https://www.ncleg.gov/Members/Biography/S/440",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "alston-vernetta-nc-hd29",
+      "name": "Vernetta Alston",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-29)",
+      "state": "NC",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/baca6c05-f6c5-4239-bf9b-c4f57001273d"
+      },
+      "contact": {
+        "email": "vernetta.alston@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/765"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/765/Low",
+      "sources": [
+        "https://ballotpedia.org/Vernetta_Alston",
+        "https://en.wikipedia.org/wiki/Vernetta_Alston",
+        "https://www.linkedin.com/in/vernetta-alston-7b4b5ba3",
+        "https://www.ncleg.gov/Members/Biography/H/765",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "sawyer-vickie-nc-sd37",
+      "name": "Vickie Sawyer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-37)",
+      "state": "NC",
+      "district": "SD-37",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ece1f23b-841d-4145-9719-3807bf29f861"
+      },
+      "contact": {
+        "email": "vickie.sawyer@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/405"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/405/Low",
+      "sources": [
+        "https://ballotpedia.org/Vickie_Sawyer",
+        "https://en.wikipedia.org/wiki/Vickie_Sawyer",
+        "https://justfacts.votesmart.org/candidate/biography/178345/vickie-sawyer",
+        "https://www.linkedin.com/in/vickie-sawyer-62705647",
+        "https://www.ncleg.gov/Members/Biography/S/405",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "alexander-ted-nc-sd44",
+      "name": "Ted Alexander",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-44)",
+      "state": "NC",
+      "district": "SD-44",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fe39f817-2024-401d-a0a8-3818ca22bdb1"
+      },
+      "contact": {
+        "email": "ted.alexander@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/416"
+      },
+      "bio": {
+        "birth_date": "1960-08-14",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/416/Low",
+      "sources": [
+        "https://ballotpedia.org/Ted_Alexander",
+        "https://en.wikipedia.org/wiki/W._Ted_Alexander",
+        "https://justfacts.votesmart.org/candidate/biography/149801/ted-alexander-iii",
+        "https://www.ncleg.gov/Members/Biography/S/416",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "daniel-warren-nc-sd46",
+      "name": "Warren Daniel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-46)",
+      "state": "NC",
+      "district": "SD-46",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5397305f-16ba-460d-aa16-3bee6185299b"
+      },
+      "contact": {
+        "email": "warren.daniel@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/295"
+      },
+      "bio": {
+        "birth_date": "1968-12-15",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/S/295/Low",
+      "sources": [
+        "https://ballotpedia.org/Warren_Daniel",
+        "https://en.wikipedia.org/wiki/Warren_Daniel",
+        "https://justfacts.votesmart.org/candidate/biography/117792/warren-daniel",
+        "https://www.linkedin.com/in/warren-daniel-91842a11",
+        "https://www.ncleg.gov/Members/Biography/S/295",
+        "https://www.ncleg.gov/Members/MemberTable/S",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "brisson-william-nc-hd22",
+      "name": "William Brisson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-22)",
+      "state": "NC",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5eadd1cd-7d46-448d-9608-2901b596b24f"
+      },
+      "contact": {
+        "email": "william.brisson@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/558"
+      },
+      "bio": {
+        "birth_date": "1946-08-18",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/558/Low",
+      "sources": [
+        "https://ballotpedia.org/William_Brisson",
+        "https://en.wikipedia.org/wiki/William_Brisson",
+        "https://justfacts.votesmart.org/candidate/41187/william-brisson",
+        "https://www.ncleg.gov/Members/Biography/H/558",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "bradley-woodson-nc-sd42",
+      "name": "Woodson Bradley",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Senator (SD-42)",
+      "state": "NC",
+      "district": "SD-42",
+      "chamber": "upper",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/da2ebbae-4f50-4a95-927d-359ed2a9a42b"
+      },
+      "contact": {
+        "email": "woodson.bradley@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/S/454"
+      },
+      "bio": {
+        "birth_date": "1973-02-05",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Woodson_Bradley_20240820_013503.jpg",
+      "sources": [
+        "https://ballotpedia.org/Woodson_Bradley",
+        "https://en.wikipedia.org/wiki/Woodson_Bradley",
+        "https://www.linkedin.com/in/woodson-bradley-107288268",
+        "https://www.ncleg.gov/Members/Biography/S/454",
+        "https://www.woodsonbradley.com/biography",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "gable-wyatt-nc-hd14",
+      "name": "Wyatt Gable",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-14)",
+      "state": "NC",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/89065b80-ca15-43b3-bbe5-c7bb5e3a3843"
+      },
+      "contact": {
+        "email": "wyatt.gable@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/837"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/6555362b58434b0824932281/15739355-3436-4410-b02c-ed4d63322f69/untitled-7317.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wyatt_Gable",
+        "https://en.wikipedia.org/wiki/Wyatt_Gable",
+        "https://www.ncleg.gov/Members/Biography/H/837",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "liu-ya-nc-hd21",
+      "name": "Ya Liu",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-21)",
+      "state": "NC",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d48b59a1-cf27-438e-8a25-2f8f179992f2"
+      },
+      "contact": {
+        "email": "ya.liu@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/806"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/806/Low",
+      "sources": [
+        "https://ballotpedia.org/Ya_Liu",
+        "https://en.wikipedia.org/wiki/Ya_Liu",
+        "https://www.ncleg.gov/Members/Biography/H/806",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://yaliu4nc.com/meet-ya",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    },
+    {
+      "politician_id": "hawkins-zack-nc-hd31",
+      "name": "Zack Hawkins",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "North Carolina State Representative (HD-31)",
+      "state": "NC",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "NC",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6dea5a89-20c8-4370-94c2-0dac7fe29d77"
+      },
+      "contact": {
+        "email": "zack.hawkins@ncleg.gov",
+        "website": "https://www.ncleg.gov/Members/Biography/H/742"
+      },
+      "bio": {
+        "birth_date": "1979-05-08",
+        "gender": "Male"
+      },
+      "image": "https://www.ncleg.gov/Members/MemberImage/H/742/Low",
+      "sources": [
+        "https://ballotpedia.org/Zack_Forde-Hawkins",
+        "https://ballotpedia.org/Zack_Hawkins",
+        "https://en.wikipedia.org/wiki/Zack_Forde-Hawkins",
+        "https://www.linkedin.com/in/zack-hawkins-945b474",
+        "https://www.ncleg.gov/Members/Biography/H/742",
+        "https://www.ncleg.gov/Members/MemberTable/H",
+        "https://data.openstates.org/people/current/nc.csv"
+      ]
+    }
+  ]
+}

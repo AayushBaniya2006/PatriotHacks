@@ -1,0 +1,4865 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/ok.csv",
+  "state": "OK",
+  "politicians": [
+    {
+      "politician_id": "reinhardt-aaron-ok-sd37",
+      "name": "Aaron Reinhardt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-37)",
+      "state": "OK",
+      "district": "SD-37",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/78900b72-692c-4b5f-ac8b-290577d6abd4"
+      },
+      "contact": {
+        "email": "aaron.reinhardt@oksenate.gov",
+        "website": "https://oksenate.gov/senators/aaron-reinhardt"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Aaron_Reinhardt_20241023_121244.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Aaron_Reinhardt",
+        "https://en.wikipedia.org/wiki/Aaron_Reinhardt",
+        "https://justfacts.votesmart.org/candidate/biography/216446/aaron-reinhardt",
+        "https://oksenate.gov/senators/aaron-reinhardt",
+        "https://www.linkedin.com/in/aaron-reinhardt-5b7a6949",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "pugh-adam-ok-sd41",
+      "name": "Adam Pugh",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-41)",
+      "state": "OK",
+      "district": "SD-41",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7e356581-ff96-4e5d-b6bc-94b3c8e0005c"
+      },
+      "contact": {
+        "email": "pugh@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1899"
+      },
+      "bio": {
+        "birth_date": "1977-10-12",
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/pugh.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adam_Pugh",
+        "https://en.wikipedia.org/wiki/Adam_Pugh",
+        "https://justfacts.votesmart.org/candidate/biography/152400/adam-pugh",
+        "https://oksenate.gov/senators/adam-pugh",
+        "https://oksenate.gov/Senators/biographies/pugh_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/pugh_bio.html",
+        "https://www.linkedin.com/in/adam-pugh-29411614b",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "timmons-aletia-ok-hd97",
+      "name": "Aletia Timmons",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-97)",
+      "state": "OK",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a91af3e5-8f27-4aa3-9c5d-6166eeb7ec8a"
+      },
+      "contact": {
+        "email": "aletia.timmons@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/aletia-timmons"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Aletia_Haynes_Timmons",
+        "https://en.wikipedia.org/wiki/Aletia_Timmons",
+        "https://justfacts.votesmart.org/candidate/biography/223236/aletia-timmons",
+        "https://www.linkedin.com/in/aletia-timmons-0a2270329",
+        "https://www.okhouse.gov/representatives/aletia-timmons",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "seifried-ally-ok-sd2",
+      "name": "Ally Seifried",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-2)",
+      "state": "OK",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0e3e261d-437a-4e04-8328-70adb16c82d9"
+      },
+      "contact": {
+        "email": "alexandra.seifried@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1523279"
+      },
+      "bio": {
+        "birth_date": "1992-09-27",
+        "gender": "Female"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Seifried%2C%20Ally%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ally_Seifried",
+        "https://en.wikipedia.org/wiki/Ally_Seifried",
+        "https://justfacts.votesmart.org/candidate/biography/206325/ally-seifried",
+        "https://oksenate.gov/senators/ally-seifried",
+        "https://www.linkedin.com/in/allywarren",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "clinton-amanda-ok-hd71",
+      "name": "Amanda Clinton",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-71)",
+      "state": "OK",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8dac97e3-d74f-4f58-bb7d-83412600975f"
+      },
+      "contact": {
+        "email": "amanda.clinton@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/amanda-clinton"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Amanda_Clinton_20250516_045055.png",
+      "sources": [
+        "https://ballotpedia.org/Amanda_Clinton",
+        "https://en.wikipedia.org/wiki/Amanda_Clinton",
+        "https://justfacts.votesmart.org/candidate/biography/221528/amanda-clinton",
+        "https://www.linkedin.com/in/amandaclinton",
+        "https://www.okhouse.gov/representatives/amanda-clinton",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "fugate-andy-ok-hd94",
+      "name": "Andy Fugate",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-94)",
+      "state": "OK",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/987fd457-5b14-4300-95f1-e92f7cd5f748"
+      },
+      "contact": {
+        "email": "andy.fugate@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=94"
+      },
+      "bio": {
+        "birth_date": "1966-08-10",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Fugate,%20Andy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Andy_Fugate",
+        "https://en.wikipedia.org/wiki/Andy_Fugate",
+        "https://justfacts.votesmart.org/candidate/182072/andy-fugate",
+        "https://www.linkedin.com/in/andy-fugate-19b0a29",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=94",
+        "https://www.okhouse.gov/representatives/andy-fugate",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "menz-annie-ok-hd45",
+      "name": "Annie Menz",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-45)",
+      "state": "OK",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3a5828d9-b8bf-491c-adfe-19f5331d1e20"
+      },
+      "contact": {
+        "email": "annie.menz@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=45"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Menz,%20Annie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Annie_Menz",
+        "https://en.wikipedia.org/wiki/Annie_Menz",
+        "https://justfacts.votesmart.org/candidate/biography/206384/annie-menz",
+        "https://www.okhouse.gov/representatives/annie-menz",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-anthony-ok-hd57",
+      "name": "Anthony Moore",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-57)",
+      "state": "OK",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c1f71291-89c1-4109-a15c-2483743d333a"
+      },
+      "contact": {
+        "email": "anthony.moore@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=57"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Moore,%20Anthony.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anthony_Moore",
+        "https://en.wikipedia.org/wiki/Anthony_Moore_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/192125/anthony-moore",
+        "https://www.linkedin.com/in/anthony-moore-587bb8100",
+        "https://www.okhouse.gov/representatives/anthony-moore",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "alonso-arturo-ok-hd89",
+      "name": "Arturo Alonso",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-89)",
+      "state": "OK",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d0b52d3-ad1f-45c9-b46e-3676194ef82c"
+      },
+      "contact": {
+        "email": "arturo.alonso@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=89"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Alonso,%20Arturo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Arturo_Alonso-Sandoval",
+        "https://en.wikipedia.org/wiki/Arturo_Alonso",
+        "https://www.linkedin.com/in/alonsoarturo",
+        "https://www.okhouse.gov/representatives/arturo-alonsosandoval",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "frix-avery-ok-sd9",
+      "name": "Avery Frix",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-9)",
+      "state": "OK",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f2bc8c9d-050a-4531-84eb-1f233ad7042a"
+      },
+      "contact": {
+        "email": "avery.frix@oksenate.gov",
+        "website": "https://oksenate.gov/senators/avery-frix"
+      },
+      "bio": {
+        "birth_date": "1994-03-29",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Frix,%20Avery.jpg",
+      "sources": [
+        "https://ballotpedia.org/Avery_Carl_Frix",
+        "https://en.wikipedia.org/wiki/Avery_Frix",
+        "https://justfacts.votesmart.org/candidate/biography/170752/avery-frix",
+        "https://oksenate.gov/senators/avery-frix",
+        "https://www.linkedin.com/in/avery-frix-795a4a58",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=13",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "coleman-bill-ok-sd10",
+      "name": "Bill Coleman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-10)",
+      "state": "OK",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/446468ba-e7a8-49ff-8edc-e9f96da9d613"
+      },
+      "contact": {
+        "email": "bill.coleman@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1844"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Coleman%2C%20Bill%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bill_Coleman_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Bill_Coleman_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/181809/bill-coleman",
+        "https://oksenate.gov/senators/bill-coleman",
+        "https://oksenate.gov/Senators/biographies/coleman_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/coleman_bio.html",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "culver-bob-ok-hd4",
+      "name": "Bob Culver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-4)",
+      "state": "OK",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/246cfe54-edbd-4844-9bdc-0213c4b501e9"
+      },
+      "contact": {
+        "email": "bob.culver@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=4"
+      },
+      "bio": {
+        "birth_date": "1957-12-16",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Culver,%20BobEd.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bob_Ed_Culver",
+        "https://en.wikipedia.org/wiki/Bob_Ed_Culver_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/24481/bob-ed-culver",
+        "https://www.linkedin.com/in/bobedculver",
+        "https://www.okhouse.gov/representatives/bob-culver",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "boles-brad-ok-hd51",
+      "name": "Brad Boles",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-51)",
+      "state": "OK",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be4edaae-b522-4ce0-bc1d-98b813424f57"
+      },
+      "contact": {
+        "email": "brad.boles@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=51"
+      },
+      "bio": {
+        "birth_date": "1983-10-16",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Boles,%20Brad.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brad_Boles",
+        "https://en.wikipedia.org/wiki/Brad_Boles",
+        "https://justfacts.votesmart.org/candidate/biography/176933/brad-boles",
+        "https://www.linkedin.com/in/brad-boles-19357246",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=51",
+        "https://www.okhouse.gov/representatives/brad-boles",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "stanley-brenda-ok-sd42",
+      "name": "Brenda Stanley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-42)",
+      "state": "OK",
+      "district": "SD-42",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/55b572a7-2951-4597-b70c-e37b51163b03"
+      },
+      "contact": {
+        "email": "brenda.stanley@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1900"
+      },
+      "bio": {
+        "birth_date": "1952-02-10",
+        "gender": "Female"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Brenda-Stanley_1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brenda_Stanley",
+        "https://en.wikipedia.org/wiki/Brenda_Stanley",
+        "https://justfacts.votesmart.org/candidate/biography/181848/brenda-stanley",
+        "https://oksenate.gov/Senators/biographies/stanley_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/stanley_bio.html",
+        "https://oksenate.gov/senators/brenda-stanley",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "howard-brent-ok-sd38",
+      "name": "Brent Howard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-38)",
+      "state": "OK",
+      "district": "SD-38",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bc85e399-f4bc-4690-b34b-685e15242904"
+      },
+      "contact": {
+        "email": "brent.howard@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1853"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Howard%2C%20Brent_flags.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brent_Howard",
+        "https://en.wikipedia.org/wiki/Brent_Howard",
+        "https://justfacts.votesmart.org/candidate/biography/181843/brent-howard",
+        "https://oksenate.gov/Senators/biographies/howard_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/howard_bio.html",
+        "https://oksenate.gov/senators/brent-howard",
+        "https://www.linkedin.com/in/brent-howard-35a04121",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "guthrie-brian-ok-sd25",
+      "name": "Brian Guthrie",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-25)",
+      "state": "OK",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/19a4841c-4571-4803-8f5d-262f664fb31a"
+      },
+      "contact": {
+        "email": "brian.guthrie@oksenate.gov",
+        "website": "https://oksenate.gov/senators/brian-guthrie"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://bloximages.newyork1.vip.townnews.com/citynewsokc.com/content/tncms/assets/v3/editorial/5/d2/5d26a700-4e64-11ee-be35-db82e824c57c/64fb4b329045b.image.jpg?resize=500%2C500",
+      "sources": [
+        "https://ballotpedia.org/Brian_Guthrie",
+        "https://en.wikipedia.org/wiki/Brian_Guthrie",
+        "https://justfacts.votesmart.org/candidate/216436/brian-guthrie",
+        "https://oksenate.gov/senators/brian-guthrie",
+        "https://www.linkedin.com/in/brianguthrierealtor",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hill-brian-ok-hd47",
+      "name": "Brian Hill",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-47)",
+      "state": "OK",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/03af3716-0ac4-49f5-b25a-ff757420d87d"
+      },
+      "contact": {
+        "email": "brian.hill@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=47"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Hill,%20Brian.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Hill_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Brian_Hill_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/170957/brian-hill",
+        "https://www.linkedin.com/in/samuel-brian-hill-1150a96a",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=47",
+        "https://www.okhouse.gov/representatives/brian-hill",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "logan-bryan-ok-sd8",
+      "name": "Bryan Logan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-8)",
+      "state": "OK",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a3c36ebe-151f-4632-ab04-31963f55f9d8"
+      },
+      "contact": {
+        "email": "bryan.logan@oksenate.gov",
+        "website": "https://oksenate.gov/senators/bryan-logan"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://nondoc.com/wp-content/uploads/2025/05/Bryan-Logan-mug-cropped-640x373.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bryan_Logan",
+        "https://en.wikipedia.org/wiki/Bryan_Logan",
+        "https://justfacts.votesmart.org/candidate/biography/220711/bryan-logan",
+        "https://oksenate.gov/senators/bryan-logan",
+        "https://www.linkedin.com/in/bryan-logan-b30338199",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "newton-carl-ok-hd58",
+      "name": "Carl Newton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-58)",
+      "state": "OK",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6cfaac2f-52af-4aad-8ec4-6373bb45bf24"
+      },
+      "contact": {
+        "email": "carl.newton@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=58"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Newton,%20Carl.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carl_Newton",
+        "https://en.wikipedia.org/wiki/Carl_Newton",
+        "https://justfacts.votesmart.org/candidate/biography/170860/carl-newton",
+        "https://www.linkedin.com/in/carl-newton-63756650",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=58",
+        "https://www.okhouse.gov/representatives/carl-newton",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hicks-carri-ok-sd40",
+      "name": "Carri Hicks",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-40)",
+      "state": "OK",
+      "district": "SD-40",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6ecf8a12-033a-41da-9b5f-3fbcf41f4841"
+      },
+      "contact": {
+        "email": "carri.hicks@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1852"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Hicks%2C%20Carri%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Carri_Hicks",
+        "https://en.wikipedia.org/wiki/Carri_Hicks",
+        "https://justfacts.votesmart.org/candidate/biography/181844/carri-hicks",
+        "https://oksenate.gov/Senators/biographies/hicks_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/hicks_bio.html",
+        "https://oksenate.gov/senators/carri-hicks",
+        "https://www.linkedin.com/in/carri-h-05a0352",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "murdock-casey-ok-sd27",
+      "name": "Casey Murdock",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-27)",
+      "state": "OK",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8c8517c3-75ee-4b27-8d8c-3444c036ba78"
+      },
+      "contact": {
+        "email": "murdock@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1862"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/murdock.jpg",
+      "sources": [
+        "https://ballotpedia.org/Casey_Murdock",
+        "https://en.wikipedia.org/wiki/Casey_Murdock",
+        "https://justfacts.votesmart.org/candidate/biography/152372/casey-murdock",
+        "https://oksenate.gov/Senators/biographies/murdock_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/murdock_bio.html",
+        "https://oksenate.gov/senators/casey-murdock",
+        "https://www.linkedin.com/in/casey-murdock-46b57896",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "caldwell-chad-ok-hd40",
+      "name": "Chad Caldwell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-40)",
+      "state": "OK",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c5909558-d02d-438e-9c0c-50eb8c88f862"
+      },
+      "contact": {
+        "email": "chad.caldwell@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=40"
+      },
+      "bio": {
+        "birth_date": "1975-08-18",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Caldwell,%20Chad.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chad_Caldwell",
+        "https://en.wikipedia.org/wiki/Chad_Caldwell",
+        "https://justfacts.votesmart.org/candidate/biography/152349/chad-caldwell",
+        "https://www.linkedin.com/in/chad-caldwell-12153718",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=40",
+        "https://www.okhouse.gov/representatives/chad-caldwell",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "banning-chris-ok-hd24",
+      "name": "Chris Banning",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-24)",
+      "state": "OK",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/442374ea-1ad4-4793-bdbc-a5db81a1d219"
+      },
+      "contact": {
+        "email": "chris.banning@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=24"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Banning,%20Chris.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Banning",
+        "https://en.wikipedia.org/wiki/Chris_Banning",
+        "https://justfacts.votesmart.org/candidate/biography/206364/chris-banning",
+        "https://www.linkedin.com/in/chris-banning-50918346",
+        "https://www.okhouse.gov/representatives/59th-chris-banning",
+        "https://www.okhouse.gov/representatives/chris-banning",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "kannady-chris-ok-hd91",
+      "name": "Chris Kannady",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-91)",
+      "state": "OK",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5b2d71b9-21c7-4291-ac09-e2840fee2919"
+      },
+      "contact": {
+        "email": "chris.kannady@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=91"
+      },
+      "bio": {
+        "birth_date": "1979-07-29",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Kannady,%20Chris.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Kannady",
+        "https://en.wikipedia.org/wiki/Chris_Kannady",
+        "https://justfacts.votesmart.org/candidate/biography/46284/chris-kannady",
+        "https://www.fosheeyaffe.com/christopher-l-kannady-pllc",
+        "https://www.linkedin.com/in/christopher-kannady-2b33743",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=91",
+        "https://www.okhouse.gov/representatives/chris-kannady",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "sneed-chris-ok-hd14",
+      "name": "Chris Sneed",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-14)",
+      "state": "OK",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f4d5b128-a016-4eda-b6c6-e298fe29bc29"
+      },
+      "contact": {
+        "email": "chris.sneed@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=14"
+      },
+      "bio": {
+        "birth_date": "1977-12-22",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Sneed,%20Chris.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Sneed",
+        "https://en.wikipedia.org/wiki/Chris_Sneed",
+        "https://justfacts.votesmart.org/candidate/biography/181872/chris-sneed",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=14",
+        "https://www.okhouse.gov/representatives/chris-sneed",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "gillespie-christi-ok-sd33",
+      "name": "Christi Gillespie",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-33)",
+      "state": "OK",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b8b4337f-5741-4fad-bcf3-38c526cf6c5a"
+      },
+      "contact": {
+        "email": "christi.gillespie@oksenate.gov",
+        "website": "https://oksenate.gov/senators/christi-gillespie"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgg9y84-E8FaeDWzhd1s97N3Ko90lCow4sAQ&s",
+      "sources": [
+        "https://ballotpedia.org/Christi_Gillespie",
+        "https://en.wikipedia.org/wiki/Christi_Gillespie",
+        "https://justfacts.votesmart.org/candidate/biography/187619/christi-gillespie",
+        "https://oksenate.gov/senators/christi-gillespie",
+        "https://www.linkedin.com/in/christig",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-chuck-ok-sd20",
+      "name": "Chuck Hall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-20)",
+      "state": "OK",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/95f06268-cdfb-463b-aa2e-fb789fbc97c4"
+      },
+      "contact": {
+        "email": "chuck.hall@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1850"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/hall.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chuck_Hall",
+        "https://en.wikipedia.org/wiki/Chuck_Hall_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/181819/chuck-hall",
+        "https://oksenate.gov/Senators/biographies/hall_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/hall_bio.html",
+        "https://oksenate.gov/senators/chuck-hall",
+        "https://www.linkedin.com/in/charles-hall-a41956a0",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "staires-clay-ok-hd66",
+      "name": "Clay Staires",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-66)",
+      "state": "OK",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/82e04ad9-64c8-4439-9853-cbc3e273d637"
+      },
+      "contact": {
+        "email": "clay.staires@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=66"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Staires,%20Clay.jpg",
+      "sources": [
+        "https://ballotpedia.org/Clay_Staires",
+        "https://claystaires.com",
+        "https://en.wikipedia.org/wiki/Clay_Staires",
+        "https://justfacts.votesmart.org/candidate/biography/206402/clay-staires",
+        "https://www.linkedin.com/in/clay-staires-33511241",
+        "https://www.okhouse.gov/representatives/clay-staires",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "maynard-cody-ok-hd21",
+      "name": "Cody Maynard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-21)",
+      "state": "OK",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/17d5c3a4-a468-4aca-b58c-314605214857"
+      },
+      "contact": {
+        "email": "cody.maynard@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=21"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Maynard,%20Cody.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cody_Maynard",
+        "https://codymaynard.com/home/about",
+        "https://en.wikipedia.org/wiki/Cody_Maynard",
+        "https://justfacts.votesmart.org/candidate/biography/206362/cody-maynard",
+        "https://www.linkedin.com/in/cody-maynard-698b3a99",
+        "https://www.okhouse.gov/representatives/cody-maynard",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "duel-collin-ok-hd31",
+      "name": "Collin Duel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-31)",
+      "state": "OK",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0cffa048-1b45-4609-a1b6-9e741ca1948c"
+      },
+      "contact": {
+        "email": "collin.duel@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=31"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Duel,%20Collin.jpg",
+      "sources": [
+        "https://ballotpedia.org/Collin_Duel",
+        "https://en.wikipedia.org/wiki/Collin_Duel",
+        "https://justfacts.votesmart.org/candidate/biography/206366/collin-duel",
+        "https://www.duellaw.com",
+        "https://www.duellaw.com/attorney",
+        "https://www.okhouse.gov/representatives/collin-duel",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "munson-cyndi-ok-hd85",
+      "name": "Cyndi Munson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-85)",
+      "state": "OK",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f9153735-938a-418b-ac4f-6881904861ac"
+      },
+      "contact": {
+        "email": "cyndi.munson@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=85"
+      },
+      "bio": {
+        "birth_date": "1985-05-24",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Munson,%20Cyndie.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cyndi_Munson",
+        "https://en.wikipedia.org/wiki/Cyndi_Munson",
+        "https://justfacts.votesmart.org/candidate/biography/152403/cyndi-munson",
+        "https://www.linkedin.com/in/cyndi-a-munson-m-s-67746a8",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=85",
+        "https://www.okhouse.gov/representatives/cyndi-munson",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "roe-cindy-ok-hd42",
+      "name": "Cindy Roe",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-42)",
+      "state": "OK",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/382dfd67-bd2a-4271-bb79-62fe045102ea"
+      },
+      "contact": {
+        "email": "cynthia.roe@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=42"
+      },
+      "bio": {
+        "birth_date": "1959-07-31",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Cindy-Roe.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cynthia_Roe",
+        "https://en.wikipedia.org/wiki/Cynthia_Roe",
+        "https://justfacts.votesmart.org/candidate/biography/181952/cindy-roe",
+        "https://www.linkedin.com/in/cynthia-roe-b63a95106",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=42",
+        "https://www.okhouse.gov/representatives/cynthia-roe",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "prieto-dana-ok-sd34",
+      "name": "Dana Prieto",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-34)",
+      "state": "OK",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/74fd77d2-ffa9-42cd-9849-0b64464bcc6f"
+      },
+      "contact": {
+        "email": "dana.prieto@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1523287"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Prieto%2C%20Dana%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dana_Prieto",
+        "https://en.wikipedia.org/wiki/Dana_Prieto",
+        "https://justfacts.votesmart.org/candidate/biography/181839/dana-prieto",
+        "https://oksenate.gov/senators/dana-prieto",
+        "https://www.linkedin.com/in/dana-prieto-86ab458",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "pae-daniel-ok-hd62",
+      "name": "Daniel Pae",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-62)",
+      "state": "OK",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/62d0d568-33cf-4ec6-b90e-5c2b45be82ba"
+      },
+      "contact": {
+        "email": "daniel.pae@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=62"
+      },
+      "bio": {
+        "birth_date": "1995-07-25",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Pae,%20Daniel.jpg",
+      "sources": [
+        "https://ballotpedia.org/Daniel_Pae",
+        "https://en.wikipedia.org/wiki/Daniel_Pae",
+        "https://justfacts.votesmart.org/candidate/biography/181991/daniel-pae",
+        "https://www.linkedin.com/in/daniel-pae-b8ab32aa",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=62",
+        "https://www.okhouse.gov/representatives/daniel-pae",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "sterling-danny-ok-hd27",
+      "name": "Danny Sterling",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-27)",
+      "state": "OK",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/61966500-f9d7-4f45-ad6b-761d6d839036"
+      },
+      "contact": {
+        "email": "danny.sterling@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=27"
+      },
+      "bio": {
+        "birth_date": "1956-01-17",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Danny-Sterling.jpg",
+      "sources": [
+        "https://ballotpedia.org/Danny_Sterling",
+        "https://en.wikipedia.org/wiki/Danny_Sterling",
+        "https://justfacts.votesmart.org/candidate/181911/danny-sterling",
+        "https://www.linkedin.com/in/danny-sterling-625b2698",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=27",
+        "https://www.okhouse.gov/representatives/danny-sterling",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "williams-danny-ok-hd28",
+      "name": "Danny Williams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-28)",
+      "state": "OK",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/db2c481d-6dc5-455e-905c-2daac4bbc631"
+      },
+      "contact": {
+        "email": "danny.williams@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=28"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Williams,%20Danny.jpg",
+      "sources": [
+        "https://ballotpedia.org/Danny_Williams_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Danny_Williams_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/152302/danny-williams",
+        "https://www.linkedin.com/in/danny-williams-32012514",
+        "https://www.okhouse.gov/representatives/danny-williams",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "jech-darcy-ok-sd26",
+      "name": "Darcy Jech",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-26)",
+      "state": "OK",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7143be5e-df9e-40ad-8591-dd4c9ea51261"
+      },
+      "contact": {
+        "email": "darcy.jech@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1855"
+      },
+      "bio": {
+        "birth_date": "1957-09-30",
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/1200px-DarcyJech_0.jpg",
+      "sources": [
+        "https://ballotpedia.org/Darcy_Jech",
+        "https://en.wikipedia.org/wiki/Darcy_Jech",
+        "https://oksenate.gov/Senators/biographies/jech_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/jech_bio.html",
+        "https://oksenate.gov/senators/darcy-jech",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "weaver-darrell-ok-sd24",
+      "name": "Darrell Weaver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-24)",
+      "state": "OK",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bea1fd3e-9a8e-4cd6-bdb8-abedd9f8a888"
+      },
+      "contact": {
+        "email": "darrell.weaver@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1894"
+      },
+      "bio": {
+        "birth_date": "1962-03-15",
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Weaver%2C%20Darrell_flags.jpg",
+      "sources": [
+        "https://ballotpedia.org/Darrell_Weaver",
+        "https://en.wikipedia.org/wiki/Darrell_Weaver",
+        "https://justfacts.votesmart.org/candidate/181822/darrell-weaver",
+        "https://oksenate.gov/Senators/biographies/weaver_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/weaver_bio.html",
+        "https://oksenate.gov/senators/darrell-weaver",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "rader-dave-ok-sd39",
+      "name": "Dave Rader",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-39)",
+      "state": "OK",
+      "district": "SD-39",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3714523f-ea6d-4bd5-a801-1397dd508208"
+      },
+      "contact": {
+        "email": "rader@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1898"
+      },
+      "bio": {
+        "birth_date": "1957-03-09",
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Rader%2C%20Dave%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dave_Rader",
+        "https://en.wikipedia.org/wiki/David_Rader",
+        "https://oksenate.gov/Senators/biographies/rader_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/rader_bio.html",
+        "https://oksenate.gov/senators/dave-rader",
+        "https://www.daverader.com",
+        "https://www.linkedin.com/in/david-rader-0b944829",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "bullard-david-ok-sd6",
+      "name": "David Bullard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-6)",
+      "state": "OK",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f7e51701-fb8a-4d48-8f61-951096c0c76d"
+      },
+      "contact": {
+        "email": "david.bullard@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1843"
+      },
+      "bio": {
+        "birth_date": "1978-08-06",
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Bullard_David.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Bullard",
+        "https://en.wikipedia.org/wiki/David_Bullard_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/181806/david-bullard",
+        "https://oksenate.gov/Senators/biographies/bullard_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/bullard_bio.html",
+        "https://oksenate.gov/senators/david-bullard",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hardin-david-ok-hd86",
+      "name": "David Hardin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-86)",
+      "state": "OK",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b2857b06-9290-4141-9bc4-2a105bc51ce8"
+      },
+      "contact": {
+        "email": "david.hardin@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=86"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Hardin,%20David.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Hardin",
+        "https://en.wikipedia.org/wiki/David_Hardin",
+        "https://justfacts.votesmart.org/candidate/biography/182066/david-hardin",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=86",
+        "https://www.okhouse.gov/representatives/david-hardin",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-david-ok-hd18",
+      "name": "David Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-18)",
+      "state": "OK",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/84087e63-a192-4be6-9367-64b2c93a2dcc"
+      },
+      "contact": {
+        "email": "david.smith@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=18"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Smith,%20David.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Smith_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/David_Smith_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/181885/david-smith",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=18",
+        "https://www.okhouse.gov/representatives/david-smith",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "kerbs-dell-ok-hd26",
+      "name": "Dell Kerbs",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-26)",
+      "state": "OK",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d473c48-88f9-495a-a8da-b8e2d0310280"
+      },
+      "contact": {
+        "email": "dell.kerbs@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=26"
+      },
+      "bio": {
+        "birth_date": "1973-09-22",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Kerbs,%20Dell.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dell_Kerbs",
+        "https://justfacts.votesmart.org/candidate/biography/170780/dell-kerbs",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=26",
+        "https://www.okhouse.gov/representatives/dell-kerbs",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "crosswhite-hader-denise-ok-hd41",
+      "name": "Denise Crosswhite Hader",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-41)",
+      "state": "OK",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e825fe1a-a46d-4a07-b9e4-c9e82e357c90"
+      },
+      "contact": {
+        "email": "denise.crosswhitehader@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=41"
+      },
+      "bio": {
+        "birth_date": "1965-04-11",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Crosswhite%20Hader,%20Denise.jpg",
+      "sources": [
+        "https://ballotpedia.org/Denise_Hader",
+        "https://en.wikipedia.org/wiki/Denise_Crosswhite_Hader",
+        "https://justfacts.votesmart.org/candidate/biography/181946/denise-crosswhite-hader",
+        "https://www.linkedin.com/in/denise-crosswhite-hader-11646121",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=41",
+        "https://www.okhouse.gov/representatives/denise-crosswhitehader",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hildebrant-derrick-ok-hd23",
+      "name": "Derrick Hildebrant",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-23)",
+      "state": "OK",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a7eb5f03-0a2a-4235-b2f8-b4983e1a8cf2"
+      },
+      "contact": {
+        "email": "derrick.hildebrant@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/derrick.hildebrant"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/DerrickHildebrant2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Derrick_Hildebrant",
+        "https://en.wikipedia.org/wiki/Derrick_Hildebrant",
+        "https://justfacts.votesmart.org/candidate/216477/derrick-hildebrant",
+        "https://www.linkedin.com/in/derrick-hildebrant-241913b1",
+        "https://www.okhouse.gov/representatives/derrick.hildebrant",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "lowe-dick-ok-hd56",
+      "name": "Dick Lowe",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-56)",
+      "state": "OK",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dc094bcd-66c1-47f4-b9b0-94272636a7fe"
+      },
+      "contact": {
+        "email": "dick.lowe@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=56"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Lowe,%20Dick.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dick_Lowe",
+        "https://en.wikipedia.org/wiki/Dick_Lowe_(politician)",
+        "https://www.linkedin.com/in/dick-lowe-11977a20",
+        "https://www.okhouse.gov/representatives/dick-lowe",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "travis-dillon-ok-hd35",
+      "name": "Dillon Travis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-35)",
+      "state": "OK",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/14d6a46d-124c-4274-ae72-bfe5541a4a0a"
+      },
+      "contact": {
+        "email": "dillon.travis@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/dillon-travis"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Dillon_Travis",
+        "https://en.wikipedia.org/wiki/Dillon_Travis",
+        "https://www.linkedin.com/in/dillon-travis-05343bb7",
+        "https://www.okhouse.gov/representatives/dillon-travis",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "deevers-dusty-ok-sd32",
+      "name": "Dusty Deevers",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-32)",
+      "state": "OK",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/56666b37-2788-433a-9c32-19af826613e4"
+      },
+      "contact": {
+        "email": "dusty.deevers@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1861"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Deevers%2C%20Dusty%202023%20Flags%20S_0.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dusty_Deevers",
+        "https://en.wikipedia.org/wiki/Dusty_Deevers",
+        "https://justfacts.votesmart.org/candidate/biography/212788/dusty-deevers",
+        "https://oksenate.gov/senators/dustydeevers",
+        "https://www.deevers2023.com/meet-dusty",
+        "https://www.linkedin.com/in/ddeevers",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "dempsey-eddy-ok-hd1",
+      "name": "Eddy Dempsey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-1)",
+      "state": "OK",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d93c695c-f9d6-4f97-b92e-73249f89545a"
+      },
+      "contact": {
+        "email": "eddy.dempsey@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=1"
+      },
+      "bio": {
+        "birth_date": "1965-09-01",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Dempsey,%20Eddy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eddy_Dempsey",
+        "https://en.wikipedia.org/wiki/Eddy_Dempsey",
+        "https://justfacts.votesmart.org/candidate/biography/191958/eddy-dempsey",
+        "https://www.linkedin.com/in/eddy-dempsey-08a73546",
+        "https://www.okhouse.gov/representatives/eddy-dempsey",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "pogemiller-ellen-ok-hd88",
+      "name": "Ellen Pogemiller",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-88)",
+      "state": "OK",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c63ddc9a-5f9d-4cb5-b152-4828f4870682"
+      },
+      "contact": {
+        "email": "ellen.pogemiller@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/ellen-pogemiller"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://static.wixstatic.com/media/d59798_0699f998a916470598404706be4aca74~mv2.jpg/v1/fill/w_1349,h_1019,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d59798_0699f998a916470598404706be4aca74~mv2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ellen_Pogemiller",
+        "https://en.wikipedia.org/wiki/Ellen_Pogemiller",
+        "https://justfacts.votesmart.org/candidate/216604/ellen-pogemiller?categoryId=25&type=V%2CS%2CR%2CE%2CF%2CP%2CE%2CE&__cf_chl_rt_tk=lJz4k2J6dpR4ofV6XlRCruTDq7_Q2nP1i3uYHE08YFw-1755749039-1.0.1.1-NOy64j1BwnaS4fAfAWjtoPJOsDl1AQ_WppsKZK0XD4k",
+        "https://www.ellenforok.com/meet-ellen",
+        "https://www.linkedin.com/in/ellen-pogemiller-631a03ba",
+        "https://www.okhouse.gov/representatives/ellen-pogemiller",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hefner-ellyn-ok-hd87",
+      "name": "Ellyn Hefner",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-87)",
+      "state": "OK",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c9e547ff-6762-49f8-807c-32c78ce569cf"
+      },
+      "contact": {
+        "email": "ellyn.hefner@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=87"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Hefner,%20Ellyn.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ellyn_Hefner",
+        "https://en.wikipedia.org/wiki/Ellyn_Hefner",
+        "https://justfacts.votesmart.org/candidate/biography/206417/ellyn-hefner",
+        "https://www.linkedin.com/in/ellyn-novak-hefner-chsnc-5b540b125",
+        "https://www.okhouse.gov/representatives/ellyn-hefner",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "gise-emily-ok-hd90",
+      "name": "Emily Gise",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-90)",
+      "state": "OK",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/09b3acaf-ac32-4f74-9bfe-37d84beb09c8"
+      },
+      "contact": {
+        "email": "emily.gise@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/emily-gise"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.cairoklahoma.com/wp-content/uploads/2024/09/emily-200x200.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Emily_Gise",
+        "https://en.wikipedia.org/wiki/Emily_Gise",
+        "https://justfacts.votesmart.org/candidate/biography/216601/emily-gise",
+        "https://www.linkedin.com/in/emilygise",
+        "https://www.okhouse.gov/representatives/emily-gise",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "roberts-eric-ok-hd83",
+      "name": "Eric Roberts",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-83)",
+      "state": "OK",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/752b02fd-2ce1-46d3-88a3-337d64df6b1a"
+      },
+      "contact": {
+        "email": "eric.roberts@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=83"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Roberts,%20Eric.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eric_Roberts",
+        "https://en.wikipedia.org/wiki/Eric_Roberts_(politician)",
+        "https://justfacts.votesmart.org/candidate/181832/eric-roberts",
+        "https://www.okhouse.gov/representatives/eric-roberts",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "harris-erick-ok-hd39",
+      "name": "Erick Harris",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-39)",
+      "state": "OK",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/57fd0b98-5608-470a-a70b-971165572afb"
+      },
+      "contact": {
+        "email": "erick.harris@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/erick-harris"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ErickHarris.jpg",
+      "sources": [
+        "https://ballotpedia.org/Erick_Harris",
+        "https://en.wikipedia.org/wiki/Erick_Harris_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/181834/erick-harris",
+        "https://www.linkedin.com/in/erickwharris",
+        "https://www.okhouse.gov/representatives/erick-harris",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "woolley-gabe-ok-hd98",
+      "name": "Gabe Woolley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-98)",
+      "state": "OK",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b0168a8a-bf16-4ddb-85ef-a7503cdb4d66"
+      },
+      "contact": {
+        "email": "gabe.woolley@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/gabe-woolley"
+      },
+      "bio": {
+        "birth_date": "1994-09-17",
+        "gender": "Male"
+      },
+      "image": "https://www.cairoklahoma.com/wp-content/uploads/2024/06/gabe-960x958.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gabe_Woolley",
+        "https://en.wikipedia.org/wiki/Gabe_Woolley",
+        "https://justfacts.votesmart.org/candidate/216596/gabe-woolley",
+        "https://www.linkedin.com/in/gabe-woolley-08161151",
+        "https://www.okhouse.gov/representatives/gabe-woolley",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "burns-george-ok-sd5",
+      "name": "George Burns",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-5)",
+      "state": "OK",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a0948c13-b3a0-4040-b0db-9f8f8c67eeac"
+      },
+      "contact": {
+        "email": "george.burns@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1521373"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Burns%2C%20George_flags_1.jpg",
+      "sources": [
+        "https://ballotpedia.org/George_Burns_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/George_Burns_(American_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/192212/george-burns",
+        "https://oksenate.gov/senators/george-burns",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "kendrix-gerrid-ok-hd52",
+      "name": "Gerrid Kendrix",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-52)",
+      "state": "OK",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1120aff3-9773-4cc8-9c47-18026559363a"
+      },
+      "contact": {
+        "email": "gerrid.kendrix@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=52"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Kendrix,%20Gerrid.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gerrid_Kendrix",
+        "https://en.wikipedia.org/wiki/Gerrid_Kendrix",
+        "https://justfacts.votesmart.org/candidate/biography/192116/gerrid-kendrix",
+        "https://www.linkedin.com/in/gerrid-kendrix-64552615",
+        "https://www.okhouse.gov/representatives/gerrid-kendrix",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "green-grant-ok-sd28",
+      "name": "Grant Green",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-28)",
+      "state": "OK",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9f0cacea-112a-425a-b212-4fa3cfd3b3a0"
+      },
+      "contact": {
+        "email": "grant.green@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1523286"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Green%2C%20Grant%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Grant_Green",
+        "https://en.wikipedia.org/wiki/Grant_Green_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/206339/grant-green",
+        "https://oksenate.gov/senators/grant-green",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "stewart-jack-ok-sd18",
+      "name": "Jack Stewart",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-18)",
+      "state": "OK",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8e22d71d-fd9a-4d9d-aa7c-09af3da43118"
+      },
+      "contact": {
+        "email": "jack.stewart@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1523284"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Stewart%2C%20Jack%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jack_Stewart",
+        "https://en.wikipedia.org/wiki/Jack_Stewart_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/133266/jack-stewart",
+        "https://oksenate.gov/senators/jack-stewart",
+        "https://www.linkedin.com/in/jack-stewart-a0b7b588/?trk=pub-pbmap",
+        "https://www.stewartforoksenate.com/about-jack-stewart",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "rosecrants-jacob-ok-hd46",
+      "name": "Jacob Rosecrants",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-46)",
+      "state": "OK",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/df4d2b89-39a6-4157-90ea-fd229c84f98b"
+      },
+      "contact": {
+        "email": "jacob.rosecrants@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=46"
+      },
+      "bio": {
+        "birth_date": "1977-10-10",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Rosecrants,%20Jacob.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jacob_Rosecrants",
+        "https://en.wikipedia.org/wiki/Jacob_Rosecrants",
+        "https://justfacts.votesmart.org/candidate/biography/170839/jacob-rosecrants",
+        "https://www.linkedin.com/in/jacob-rosecrants-19b66a67",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=46",
+        "https://www.okhouse.gov/representatives/jacob-rosecrants",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "deck-jared-ok-hd44",
+      "name": "Jared Deck",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-44)",
+      "state": "OK",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a4127dd3-e7f6-4bab-9910-8372e141f160"
+      },
+      "contact": {
+        "email": "jared.deck@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=44"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Deck,%20Jared.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jared_Deck",
+        "https://en.wikipedia.org/wiki/Jared_Deck",
+        "https://justfacts.votesmart.org/candidate/biography/106625/jared-deck",
+        "https://www.okhouse.gov/representatives/jared-deck",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "blair-jason-ok-hd53",
+      "name": "Jason Blair",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-53)",
+      "state": "OK",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a791f43c-0ca9-42aa-b90a-98968718a7e1"
+      },
+      "contact": {
+        "email": "jason.blair@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/jason-blair"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oklahoman.com/gcdn/authoring/authoring-images/2024/06/10/NOKL/74049882007-jason-blair.jpg?width=300&height=366&fit=crop&format=pjpg&auto=webp",
+      "sources": [
+        "https://ballotpedia.org/Jason_Blair",
+        "https://en.wikipedia.org/wiki/Jason_Blair_(politician)",
+        "https://justfacts.votesmart.org/candidate/112523/jason-blair",
+        "https://www.linkedin.com/in/jason-blair",
+        "https://www.okhouse.gov/representatives/jason-blair",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "steagall-jay-ok-hd43",
+      "name": "Jay Steagall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-43)",
+      "state": "OK",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0389a5f1-0777-4a48-8faf-98779dc16849"
+      },
+      "contact": {
+        "email": "jay.steagall@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=43"
+      },
+      "bio": {
+        "birth_date": "1976-12-16",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Steagall,%20Jay.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jay_Steagall",
+        "https://en.wikipedia.org/wiki/Jay_Steagall",
+        "https://justfacts.votesmart.org/candidate/biography/181957/jay-steagall",
+        "https://www.jaysteagall.com/about",
+        "https://www.linkedin.com/in/jay-steagall-90a151375",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=43",
+        "https://www.okhouse.gov/representatives/jay-steagall",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "alvord-jerry-ok-sd14",
+      "name": "Jerry Alvord",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-14)",
+      "state": "OK",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/edf90069-7569-4cd7-9a8e-e3890e395ac7"
+      },
+      "contact": {
+        "email": "jerry.alvord@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1523283"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Alvord%2C%20Jerry%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jerry_Alvord",
+        "https://en.wikipedia.org/wiki/Jerry_Alvord",
+        "https://justfacts.votesmart.org/candidate/biography/163948/jerry-alvord",
+        "https://oksenate.gov/senators/jerry-alvord",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "grego-jim-ok-hd17",
+      "name": "Jim Grego",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-17)",
+      "state": "OK",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/612db560-defe-471a-a45f-cf259a4ffeaa"
+      },
+      "contact": {
+        "email": "jim.grego@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=17"
+      },
+      "bio": {
+        "birth_date": "1955-11-08",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Grego,%20Jim.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jim_Grego",
+        "https://en.wikipedia.org/wiki/Jim_Grego",
+        "https://justfacts.votesmart.org/candidate/biography/181882/jim-grego",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=17",
+        "https://www.okhouse.gov/representatives/jim-grego",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "olsen-jim-ok-hd2",
+      "name": "Jim Olsen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-2)",
+      "state": "OK",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f7a4c019-6e5c-40d8-8faf-9f7d44b83062"
+      },
+      "contact": {
+        "email": "jim.olsen@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=2"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Olsen,%20Jim.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jim_Olsen",
+        "https://en.wikipedia.org/wiki/Jim_Olsen",
+        "https://justfacts.votesmart.org/candidate/biography/181851/jim-olsen",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=2",
+        "https://www.okhouse.gov/representatives/jim-olsen",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "shaw-jim-ok-hd32",
+      "name": "Jim Shaw",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-32)",
+      "state": "OK",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/df9c291c-e14f-487a-8ff6-9182734ababf"
+      },
+      "contact": {
+        "email": "jim.shaw@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/jim-shaw"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JimShaw2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jim_Shaw_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Jim_Shaw_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/216482/jim-shaw",
+        "https://www.linkedin.com/in/jim-shaw-28074723",
+        "https://www.okhouse.gov/representatives/jim-shaw",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "dossett-jo-anna-ok-sd35",
+      "name": "Jo Anna Dossett",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-35)",
+      "state": "OK",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/164b3ba9-47d4-4c24-870d-4e6679e15cf8"
+      },
+      "contact": {
+        "email": "joanna.dossett@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1521376"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Dossett%2C%20Jo%20Anna_flags.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jo_Anna_Dossett",
+        "https://en.wikipedia.org/wiki/Jo_Anna_Dossett",
+        "https://justfacts.votesmart.org/candidate/biography/192188/jo-dossett",
+        "https://oksenate.gov/senators/jo-anna-dossett",
+        "https://www.linkedin.com/in/jo-anna-dossett-1b05aa11b",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "george-john-ok-hd36",
+      "name": "John George",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-36)",
+      "state": "OK",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3af08d09-7d36-4f0b-b257-a0206a8c2778"
+      },
+      "contact": {
+        "email": "john.george@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=36"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/George,%20John.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_George_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/John_George_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/206373/john-george",
+        "https://www.linkedin.com/in/john-george-609a899b",
+        "https://www.okhouse.gov/representatives/john-george",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "haste-john-ok-sd36",
+      "name": "John Haste",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-36)",
+      "state": "OK",
+      "district": "SD-36",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/08dca8d5-4264-4509-aebd-bbf7736b9e90"
+      },
+      "contact": {
+        "email": "john.haste@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1851"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Haste%2C%20John%202022%20Flags.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Haste",
+        "https://en.wikipedia.org/wiki/John_Haste",
+        "https://justfacts.votesmart.org/candidate/biography/181838/john-haste",
+        "https://oksenate.gov/Senators/biographies/haste_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/haste_bio.html",
+        "https://oksenate.gov/senators/john-haste",
+        "https://www.linkedin.com/in/john-haste-376a078",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "kane-john-ok-hd11",
+      "name": "John Kane",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-11)",
+      "state": "OK",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f7ab3ee8-1ec5-4218-ac6b-dba652f2a6d6"
+      },
+      "contact": {
+        "email": "john.kane@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=11"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Kane,%20John.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Kane_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/John_Kane_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/160757/john-kane",
+        "https://www.johnkaneforok.com/about",
+        "https://www.linkedin.com/in/john-b-kane-4273011",
+        "https://www.okhouse.gov/representatives/john-kane",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "pfeiffer-john-ok-hd38",
+      "name": "John Pfeiffer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-38)",
+      "state": "OK",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/671bd947-18c8-4b39-906e-675209b80b73"
+      },
+      "contact": {
+        "email": "john.pfeiffer@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=38"
+      },
+      "bio": {
+        "birth_date": "1986-05-09",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Pfeiffer,%20John.JPG",
+      "sources": [
+        "https://ballotpedia.org/John_Pfeiffer",
+        "https://en.wikipedia.org/wiki/John_Pfeiffer_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/152344/john-pfeiffer",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=38",
+        "https://www.okhouse.gov/representatives/john-pfeiffer",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "waldron-john-ok-hd77",
+      "name": "John Waldron",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-77)",
+      "state": "OK",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6a662cc1-492b-4c65-a77c-9b8b202b1ae5"
+      },
+      "contact": {
+        "email": "john.waldron@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=77"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Waldron,%20John.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Waldron",
+        "https://en.wikipedia.org/wiki/John_Waldron_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/170655/john-waldron",
+        "https://www.linkedin.com/in/john-waldron-a3235a5",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=77",
+        "https://www.okhouse.gov/representatives/john-waldron",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "wilk-jonathan-ok-hd20",
+      "name": "Jonathan Wilk",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-20)",
+      "state": "OK",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d8c6a83e-cdac-439d-af83-d90d9f543541"
+      },
+      "contact": {
+        "email": "jonathan.wilk@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/jonathan-wilk"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQcSK-0G7vutoYpyD-I4rn3EZVvTgV8ij17A&s",
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Wilk",
+        "https://en.wikipedia.org/wiki/Jonathan_Wilk",
+        "https://justfacts.votesmart.org/candidate/biography/216470/jonathan-wilk",
+        "https://www.linkedin.com/in/jonathan-wilk-53305b102",
+        "https://www.okhouse.gov/representatives/jonathan-wilk",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "wingard-jonathan-ok-sd13",
+      "name": "Jonathan Wingard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-13)",
+      "state": "OK",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/077e2743-495e-4198-a096-5675796d78a4"
+      },
+      "contact": {
+        "email": "jonathan.wingard@oksenate.gov",
+        "website": "https://oksenate.gov/senators/jonathan-wingard"
+      },
+      "bio": {
+        "birth_date": "1982-03-16",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JonathanWingard2024.png",
+      "sources": [
+        "https://ballotpedia.org/Jonathan_Wingard",
+        "https://en.wikipedia.org/wiki/Jonathan_Wingard",
+        "https://justfacts.votesmart.org/candidate/biography/216425/jonathan-wingard",
+        "https://oksenate.gov/senators/jonathan-wingard",
+        "https://www.linkedin.com/in/jonathan-wingard-239342319",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "cantrell-josh-ok-hd49",
+      "name": "Josh Cantrell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-49)",
+      "state": "OK",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7bfc4244-9498-4a20-bdf7-44383688b608"
+      },
+      "contact": {
+        "email": "josh.cantrell@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=49"
+      },
+      "bio": {
+        "birth_date": "1975-01-14",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Cantrell,%20Josh.jpg",
+      "sources": [
+        "https://ballotpedia.org/Josh_Cantrell",
+        "https://en.wikipedia.org/wiki/Josh_Cantrell_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/206388/josh-cantrell",
+        "https://www.joshcantrellforok.com/about-josh",
+        "https://www.linkedin.com/in/josh-cantrell-183a4a19",
+        "https://www.okhouse.gov/representatives/josh-cantrell",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "west-josh-ok-hd5",
+      "name": "Josh West",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-5)",
+      "state": "OK",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6b71e61a-6f78-49b0-90ef-64b233dab860"
+      },
+      "contact": {
+        "email": "josh.west@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=5"
+      },
+      "bio": {
+        "birth_date": "1976-09-19",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/West,%20Josh.jpg",
+      "sources": [
+        "https://ballotpedia.org/Josh_West",
+        "https://en.wikipedia.org/wiki/Josh_West_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/170737/josh-west",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=5",
+        "https://www.okhouse.gov/representatives/josh-west",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "strom-judd-ok-hd10",
+      "name": "Judd Strom",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-10)",
+      "state": "OK",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/47e6f0cc-bf0d-4375-b0f7-3e0c88779ca5"
+      },
+      "contact": {
+        "email": "judd.strom@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=10"
+      },
+      "bio": {
+        "birth_date": "1978-06-16",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Strom,%20Judd.jpg",
+      "sources": [
+        "https://ballotpedia.org/Judd_Strom",
+        "https://en.wikipedia.org/wiki/Judd_Strom",
+        "https://justfacts.votesmart.org/candidate/biography/181862/judd-strom",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=10",
+        "https://www.okhouse.gov/representatives/judd-strom",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "kirt-julia-ok-sd30",
+      "name": "Julia Kirt",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-30)",
+      "state": "OK",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/986cbe76-2b10-4fc8-92b0-39432b761e1a"
+      },
+      "contact": {
+        "email": "julia.kirt@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1857"
+      },
+      "bio": {
+        "birth_date": "1973-10-07",
+        "gender": "Female"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Kirt%2C%20Julia%202023%20Flags%20S.jpg",
+      "sources": [
+        "https://ballotpedia.org/Julia_Kirt",
+        "https://en.wikipedia.org/wiki/Julia_Kirt",
+        "https://justfacts.votesmart.org/candidate/biography/181826/julia-kirt",
+        "https://oksenate.gov/Senators/biographies/kirt_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/kirt_bio.html",
+        "https://oksenate.gov/senators/julia-kirt",
+        "https://www.linkedin.com/in/juliakirt",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "daniels-julie-ok-sd29",
+      "name": "Julie Daniels",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-29)",
+      "state": "OK",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/14ac3593-aa7a-491e-aba0-93474e93673d"
+      },
+      "contact": {
+        "email": "julie.daniels@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1846"
+      },
+      "bio": {
+        "birth_date": "1954-02-12",
+        "gender": "Female"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Daniels%2C%20Julie%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Julie_Daniels",
+        "https://en.wikipedia.org/wiki/Julie_Daniels",
+        "https://justfacts.votesmart.org/candidate/biography/76819/julie-daniels",
+        "https://oksenate.gov/Senators/biographies/daniels_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/daniels_bio.html",
+        "https://oksenate.gov/senators/julie-daniels",
+        "https://www.linkedin.com/in/julie-daniels-0513a914",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "mcintosh-julie-ok-sd3",
+      "name": "Julie McIntosh",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-3)",
+      "state": "OK",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3219df30-79cf-43c5-814d-b1f4b02d53bb"
+      },
+      "contact": {
+        "email": "julie.mcintosh@oksenate.gov",
+        "website": "https://oksenate.gov/senators/julie-mcintosh"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JulieMcIntosh2024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Julie_McIntosh",
+        "https://en.wikipedia.org/wiki/Julie_McIntosh",
+        "https://justfacts.votesmart.org/candidate/biography/216387/julie-mcintosh",
+        "https://oksenate.gov/senators/julie-mcintosh",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "humphrey-justin-ok-hd19",
+      "name": "Justin Humphrey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-19)",
+      "state": "OK",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0b9df925-a78c-4ee4-a58c-5d7c2ace10fd"
+      },
+      "contact": {
+        "email": "justin.humphrey@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=19"
+      },
+      "bio": {
+        "birth_date": "1966-08-17",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Humphrey,%20Justin.jpg",
+      "sources": [
+        "https://ballotpedia.org/Justin_JJ_Humphrey",
+        "https://en.wikipedia.org/wiki/Justin_Humphrey",
+        "https://justfacts.votesmart.org/candidate/biography/170772/justin-humphrey",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=19",
+        "https://www.okhouse.gov/representatives/justin-humphrey",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hines-kelly-ok-sd47",
+      "name": "Kelly Hines",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-47)",
+      "state": "OK",
+      "district": "SD-47",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/595024d3-b5fd-45e4-a980-4774f531d051"
+      },
+      "contact": {
+        "email": "kelly.hines@oksenate.gov",
+        "website": "https://oksenate.gov/senators/kelly-hines"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/642c607b85563b44f0aa5800/5c9a6226-10da-4b2b-848d-746244b9e4ad/headshot+%28002%29.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kelly_Hines",
+        "https://oksenate.gov/senators/kelly-hines",
+        "https://www.linkedin.com/in/kelly-hines-619b3086",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "luttrell-ken-ok-hd37",
+      "name": "Ken Luttrell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-37)",
+      "state": "OK",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/428ba1b3-23b7-433a-8f18-ca53f6eed9aa"
+      },
+      "contact": {
+        "email": "ken.luttrell@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=37"
+      },
+      "bio": {
+        "birth_date": "1953-08-13",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Luttrell,%20Ken.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ken_Luttrell",
+        "https://en.wikipedia.org/wiki/Ken_Luttrell",
+        "https://justfacts.votesmart.org/candidate/biography/67527/ken-luttrell",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=37",
+        "https://www.okhouse.gov/representatives/ken-luttrell",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "sacchieri-kendal-ok-sd43",
+      "name": "Kendal Sacchieri",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-43)",
+      "state": "OK",
+      "district": "SD-43",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8a183515-ff32-4660-8e9c-1317f274a603"
+      },
+      "contact": {
+        "email": "kendal.sacchieri@oksenate.gov",
+        "website": "https://oksenate.gov/senators/kendal-sacchieri"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/KendalSacchieri2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kendal_Sacchieri",
+        "https://en.wikipedia.org/wiki/Kendal_Sacchieri",
+        "https://justfacts.votesmart.org/candidate/biography/216448/kendal-sacchieri",
+        "https://oksenate.gov/senators/kendal-sacchieri",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "patzkowsky-kenton-ok-hd61",
+      "name": "Kenton Patzkowsky",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-61)",
+      "state": "OK",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/91b38015-8cd5-410e-b850-34961760b8d7"
+      },
+      "contact": {
+        "email": "kenton.patzkowsky@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=61"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Kenton-Patzkowsky,.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kenton_Patzkowsky",
+        "https://en.wikipedia.org/wiki/Kenton_Patzkowsky",
+        "https://justfacts.votesmart.org/candidate/biography/181989/kenton-patzkowsky",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=61",
+        "https://www.okhouse.gov/representatives/kenton-patzkowsky",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "norwood-kevin-ok-hd74",
+      "name": "Kevin Norwood",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-74)",
+      "state": "OK",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7a7aca64-e9e6-465e-a423-6e4cf939c67a"
+      },
+      "contact": {
+        "email": "kevin.norwood@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/kevin-norwood"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kevin_Norwood",
+        "https://en.wikipedia.org/wiki/Kevin_Wayne_Norwood",
+        "https://www.linkedin.com/in/dr-kevin-norwood-48676286",
+        "https://www.okhouse.gov/representatives/kevin-norwood",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "west-kevin-ok-hd54",
+      "name": "Kevin West",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-54)",
+      "state": "OK",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fa002548-470f-4cf0-8365-f6f5aa0c50c7"
+      },
+      "contact": {
+        "email": "kevin.west@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=54"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Kevin-West.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kevin_West",
+        "https://en.wikipedia.org/wiki/Kevin_West_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/170854/kevin-west",
+        "https://www.linkedin.com/in/kevin-west-70346b39",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=54",
+        "https://www.okhouse.gov/representatives/kevin-west",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "thompson-kristen-ok-sd22",
+      "name": "Kristen Thompson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-22)",
+      "state": "OK",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c768c730-142e-4582-a137-ee09a0240784"
+      },
+      "contact": {
+        "email": "kristen.thompson@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1523285"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Thompson%2C%20Kristen%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kristen_Thompson",
+        "https://en.wikipedia.org/wiki/Kristen_Thompson",
+        "https://oksenate.gov/senators/kristen-thompson",
+        "https://www.linkedin.com/in/kristen-thompson-84145253",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hilbert-kyle-ok-hd29",
+      "name": "Kyle Hilbert",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-29)",
+      "state": "OK",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b0ab4df0-8cc1-43f6-9ed1-567b75e91468"
+      },
+      "contact": {
+        "email": "kyle.hilbert@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=29"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Hilbert,%20Kyle.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kyle_Hilbert",
+        "https://en.wikipedia.org/wiki/Kyle_Hilbert",
+        "https://justfacts.votesmart.org/candidate/biography/170797/kyle-hilbert",
+        "https://www.linkedin.com/in/kyle-hilbert-13a02baa",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=29",
+        "https://www.okhouse.gov/representatives/kyle-hilbert",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "standridge-lisa-ok-sd15",
+      "name": "Lisa Standridge",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-15)",
+      "state": "OK",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6bf75215-5df0-4dfc-adfb-98c60a6871bd"
+      },
+      "contact": {
+        "email": "lisa.standridge@oksenate.gov",
+        "website": "https://oksenate.gov/senators/lisa-standridge"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.cairoklahoma.com/wp-content/uploads/2024/08/lisa-474x474.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Standridge",
+        "https://en.wikipedia.org/wiki/Lisa_Standridge",
+        "https://justfacts.votesmart.org/candidate/biography/216427/lisa-standridge",
+        "https://oksenate.gov/senators/lisa-standridge",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "paxton-lonnie-ok-sd23",
+      "name": "Lonnie Paxton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-23)",
+      "state": "OK",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fe64cfd8-d85e-472e-8761-27b6a3774971"
+      },
+      "contact": {
+        "email": "paxton@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1893"
+      },
+      "bio": {
+        "birth_date": "1968-08-08",
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/paxton.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lonnie_Paxton",
+        "https://en.wikipedia.org/wiki/Lonnie_Paxton",
+        "https://justfacts.votesmart.org/candidate/biography/12383/lonnie-paxton",
+        "https://oksenate.gov/Senators/biographies/paxton_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/paxton_bio.html",
+        "https://oksenate.gov/senators/lonnie-paxton",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "stark-marilyn-ok-hd100",
+      "name": "Marilyn Stark",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-100)",
+      "state": "OK",
+      "district": "HD-100",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aefe24ff-5a23-48bd-a5df-faa7b3dd0af9"
+      },
+      "contact": {
+        "email": "marilyn.stark@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=100"
+      },
+      "bio": {
+        "birth_date": "1957-01-29",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Stark,%20Marilyn.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marilyn_Stark",
+        "https://en.wikipedia.org/wiki/Marilyn_Stark",
+        "https://justfacts.votesmart.org/candidate/biography/182097/marilyn-stark",
+        "https://www.linkedin.com/in/marilyn-stark-43b52b86",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=100",
+        "https://www.okhouse.gov/representatives/marilyn-stark",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "chapman-mark-ok-hd12",
+      "name": "Mark Chapman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-12)",
+      "state": "OK",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a688f8ac-d265-4830-963f-617b726524ed"
+      },
+      "contact": {
+        "email": "mark.chapman@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/mark-chapman"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MarkChapman2024.JPG",
+      "sources": [
+        "https://ballotpedia.org/Mark_Chapman",
+        "https://en.wikipedia.org/wiki/Mark_Chapman_(politician)",
+        "https://justfacts.votesmart.org/candidate/216462/mark-chapman",
+        "https://www.linkedin.com/in/mark-chapman-78b3a330",
+        "https://www.okhouse.gov/representatives/mark-chapman",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "lawson-mark-ok-hd30",
+      "name": "Mark Lawson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-30)",
+      "state": "OK",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/97351530-ef54-4859-acdd-effcb11eaf1f"
+      },
+      "contact": {
+        "email": "mark.lawson@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=30"
+      },
+      "bio": {
+        "birth_date": "1980-11-22",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Lawson,%20Mark.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Lawson_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Mark_Lawson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/170799/mark-lawson",
+        "https://www.linkedin.com/in/mark-lawson-22bb1911",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=30",
+        "https://www.okhouse.gov/representatives/mark-lawson",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "lepak-mark-ok-hd9",
+      "name": "Mark Lepak",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-9)",
+      "state": "OK",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a1d5d401-d767-4088-b9b6-e03af9d5ed49"
+      },
+      "contact": {
+        "email": "mark.lepak@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=9"
+      },
+      "bio": {
+        "birth_date": "1956-08-01",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Lepak,%20Mark.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Lepak",
+        "https://en.wikipedia.org/wiki/Mark_Lepak",
+        "https://justfacts.votesmart.org/candidate/biography/152320/mark-lepak",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=9",
+        "https://www.okhouse.gov/representatives/mark-lepak",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "mann-mark-ok-sd46",
+      "name": "Mark Mann",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-46)",
+      "state": "OK",
+      "district": "SD-46",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7bf07db8-9661-4f98-859d-9817cb4362dd"
+      },
+      "contact": {
+        "email": "mark.mann@oksenate.gov",
+        "website": "https://oksenate.gov/senators/mark-mann"
+      },
+      "bio": {
+        "birth_date": "1971-12-27",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Mark_Mann.png",
+      "sources": [
+        "https://ballotpedia.org/Mark_Harold_Mann",
+        "https://en.wikipedia.org/wiki/Mark_Mann_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/216451/mark-mann",
+        "https://oksenate.gov/senators/mark-mann",
+        "https://www.linkedin.com/in/markhmann",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "tedford-mark-ok-hd69",
+      "name": "Mark Tedford",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-69)",
+      "state": "OK",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6cac2a71-37ce-41be-8e9a-059f7a8667c5"
+      },
+      "contact": {
+        "email": "mark.tedford@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=69"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Tedford,%20Mark.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Tedford",
+        "https://en.wikipedia.org/wiki/Mark_Tedford",
+        "https://justfacts.votesmart.org/candidate/key-votes/206405/mark-tedford",
+        "https://www.linkedin.com/in/markatedford",
+        "https://www.okhouse.gov/representatives/mark-tedford",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "boren-mary-ok-sd16",
+      "name": "Mary Boren",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-16)",
+      "state": "OK",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0172970c-3434-470b-98c8-6f7f0b167afb"
+      },
+      "contact": {
+        "email": "mary.boren@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1841"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Boren%2C%20Mary%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mary_Boren",
+        "https://en.wikipedia.org/wiki/Mary_B._Boren",
+        "https://justfacts.votesmart.org/candidate/biography/181814/mary-boren",
+        "https://oksenate.gov/Senators/biographies/boren_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/boren_bio.html",
+        "https://oksenate.gov/senators/mary-b-boren",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "wolfley-max-ok-hd95",
+      "name": "Max Wolfley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-95)",
+      "state": "OK",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/190ef3e9-fdd4-4434-80da-06ebb08f2eaf"
+      },
+      "contact": {
+        "email": "max.wolfley@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=95"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Wolfley,%20Max.jpg",
+      "sources": [
+        "https://ballotpedia.org/Max_Wolfley",
+        "https://en.wikipedia.org/wiki/Max_Wolfley",
+        "https://justfacts.votesmart.org/candidate/biography/67499/max-wolfley",
+        "https://www.okhouse.gov/representatives/max-wolfley",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "provenzano-melissa-ok-hd79",
+      "name": "Melissa Provenzano",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-79)",
+      "state": "OK",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4085a19f-1853-48e4-88c8-8b5b9089054a"
+      },
+      "contact": {
+        "email": "melissa.provenzano@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=79"
+      },
+      "bio": {
+        "birth_date": "1972-05-04",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Melissa-Provenzano.jpg",
+      "sources": [
+        "https://ballotpedia.org/Melissa_Provenzano",
+        "https://en.wikipedia.org/wiki/Melissa_Provenzano",
+        "https://justfacts.votesmart.org/candidate/biography/182035/melissa-provenzano",
+        "https://www.linkedin.com/in/melissa-provenzano-a915004",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=79",
+        "https://www.okhouse.gov/representatives/melissa-provenzano",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "blancett-meloyde-ok-hd78",
+      "name": "Meloyde Blancett",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-78)",
+      "state": "OK",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e9c3844d-e861-4848-8737-539fdb553eb9"
+      },
+      "contact": {
+        "email": "meloyde.blancett@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=78"
+      },
+      "bio": {
+        "birth_date": "1956-01-24",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Blancett,%20Meloyde.jpg",
+      "sources": [
+        "https://ballotpedia.org/Meloyde_Blancett",
+        "https://en.wikipedia.org/wiki/Meloyde_Blancett",
+        "https://justfacts.votesmart.org/candidate/biography/170914/meloyde-blancett",
+        "https://www.linkedin.com/in/meloydeblancett",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=78",
+        "https://www.okhouse.gov/representatives/meloyde-blancett",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "brooks-michael-ok-sd44",
+      "name": "Michael Brooks",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-44)",
+      "state": "OK",
+      "district": "SD-44",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/faabecda-dfa0-4995-b574-2b0a33b039ef"
+      },
+      "contact": {
+        "email": "michael.brooks@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1842"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Brooks%2C%20Michael%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Brooks_(Oklahoma)",
+        "https://brooksjimenez.com",
+        "https://en.wikipedia.org/wiki/Michael_Brooks-Jimenez",
+        "https://justfacts.votesmart.org/candidate/biography/152311/michael-brooks",
+        "https://oksenate.gov/Senators/biographies/brooks_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/brooks_bio.html",
+        "https://oksenate.gov/senators/michael-brooks",
+        "https://www.linkedin.com/in/michael-brooks-jimenez-13330714",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "bergstrom-micheal-ok-sd1",
+      "name": "Micheal Bergstrom",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-1)",
+      "state": "OK",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/49a41053-6a43-44a8-92b9-9fd5e97a56fe"
+      },
+      "contact": {
+        "email": "bergstrom@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1838"
+      },
+      "bio": {
+        "birth_date": "1958-05-05",
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Bergstrom%2C%20Micheal%202022%20flags.jpg",
+      "sources": [
+        "https://ballotpedia.org/Micheal_Bergstrom",
+        "https://en.wikipedia.org/wiki/Micheal_Bergstrom",
+        "https://justfacts.votesmart.org/candidate/biography/170518/micheal-bergstrom",
+        "https://oksenate.gov/Senators/biographies/bergstrom_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/bergstrom_bio.html",
+        "https://oksenate.gov/senators/micheal-bergstrom",
+        "https://www.linkedin.com/in/micheal-bergstrom-085091312",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "mccane-michelle-ok-hd72",
+      "name": "Michelle McCane",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-72)",
+      "state": "OK",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5822cf27-1b1f-40bd-ace3-a06a7f304820"
+      },
+      "contact": {
+        "email": "michelle.mccane@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/michelle-mccane"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MichelleMcCane2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michelle_McCane",
+        "https://en.wikipedia.org/wiki/Michelle_McCane",
+        "https://justfacts.votesmart.org/candidate/biography/216525/michelle-mccane",
+        "https://www.linkedin.com/in/m-stevenson",
+        "https://www.okhouse.gov/representatives/michelle-mccane",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "dollens-mickey-ok-hd93",
+      "name": "Mickey Dollens",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-93)",
+      "state": "OK",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2c065b7f-f5eb-4c15-bd69-10a7fa339b28"
+      },
+      "contact": {
+        "email": "mickey.dollens@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=93"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Mickey-Dollens.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mickey_Dollens",
+        "https://en.wikipedia.org/wiki/Mickey_Dollens",
+        "https://justfacts.votesmart.org/candidate/biography/170970/mickey-dollens",
+        "https://www.linkedin.com/in/mickey-dollens-71158363",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=93",
+        "https://www.okhouse.gov/representatives/mickey-dollens",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "dobrinski-mike-ok-hd59",
+      "name": "Mike Dobrinski",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-59)",
+      "state": "OK",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/527c315f-7d62-4de1-a543-6c81a0ac11a3"
+      },
+      "contact": {
+        "email": "mike.dobrinski@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=59"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Dobrinski,%20Mike.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Dobrinski",
+        "https://en.wikipedia.org/wiki/Mike_Dobrinski",
+        "https://justfacts.votesmart.org/candidate/biography/192126/mike-dobrinski",
+        "https://www.linkedin.com/in/mike-dobrinski-46aa263a",
+        "https://www.okhouse.gov/representatives/mike-dobrinski",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "kelley-mike-ok-hd60",
+      "name": "Mike Kelley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-60)",
+      "state": "OK",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8746752e-619b-454d-9ef6-7f4434acdd71"
+      },
+      "contact": {
+        "email": "mike.kelley@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/mike-kelley"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MikeKelley2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Kelley_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Mike_Kelley_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/216512/mike-kelley",
+        "https://www.linkedin.com/in/mike-kelley-746a1460",
+        "https://www.okhouse.gov/representatives/mike-kelley",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "lay-mike-ok-hd68",
+      "name": "Mike Lay",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-68)",
+      "state": "OK",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/65f17e9b-aa29-4241-80c8-a800aea8ddae"
+      },
+      "contact": {
+        "email": "mike.lay@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/mike-lay"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6rbtW0elpYl-o3FI3jbR9-PkUylFA7p5-Ig&s",
+      "sources": [
+        "https://ballotpedia.org/Mike_Lay",
+        "https://en.wikipedia.org/wiki/Mike_Lay",
+        "https://justfacts.votesmart.org/candidate/216521/mike-lay",
+        "https://www.linkedin.com/in/mike-lay-41b57a4a",
+        "https://www.okhouse.gov/representatives/mike-lay",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "osburn-mike-ok-hd81",
+      "name": "Mike Osburn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-81)",
+      "state": "OK",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/95734f94-939c-4774-82a5-c9222201f62f"
+      },
+      "contact": {
+        "email": "mike.osburn@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=81"
+      },
+      "bio": {
+        "birth_date": "1968-04-15",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Osburn,%20Mike.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Osburn",
+        "https://en.wikipedia.org/wiki/Mike_Osburn",
+        "https://justfacts.votesmart.org/candidate/biography/55504/mike-osburn",
+        "https://www.linkedin.com/in/mikeosburn",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=81",
+        "https://www.okhouse.gov/representatives/mike-osburn",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "jenkins-molly-ok-hd33",
+      "name": "Molly Jenkins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-33)",
+      "state": "OK",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/82b98199-7b85-488b-b5e8-7f135aad668f"
+      },
+      "contact": {
+        "email": "molly.jenkins@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/molly-jenkins"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.cushingcitizen.com/sites/cushingcitizen.com/files/styles/article_420/public/3d8c9a84be_Ar00503010.jpg?itok=QUjuCFyZ",
+      "sources": [
+        "https://ballotpedia.org/Molly_Jenkins",
+        "https://en.wikipedia.org/wiki/Molly_Jenkins",
+        "https://www.okhouse.gov/representatives/molly-jenkins",
+        "https://www.okhouse.gov/representatives/molly.jenkins",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hays-neil-ok-hd13",
+      "name": "Neil Hays",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-13)",
+      "state": "OK",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3eb936f1-5bc8-40bb-832e-c617d461115c"
+      },
+      "contact": {
+        "email": "neil.hays@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=13"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Hays,%20Neil.jpg",
+      "sources": [
+        "https://ballotpedia.org/Neil_Hays",
+        "https://en.wikipedia.org/wiki/Neil_Hays",
+        "https://justfacts.votesmart.org/candidate/biography/206354/neil-hays",
+        "https://www.linkedin.com/in/neil-hays-a63726b5",
+        "https://www.okhouse.gov/representatives/neil-hays",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "archer-nick-ok-hd55",
+      "name": "Nick Archer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-55)",
+      "state": "OK",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/479b4def-b284-426b-8290-86bdce854bce"
+      },
+      "contact": {
+        "email": "nick.archer@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=55"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Archer,%20Nick.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nick_Archer",
+        "https://en.wikipedia.org/wiki/Nick_Archer_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/206393/nick-archer",
+        "https://www.linkedin.com/in/nick-archer-83085b13",
+        "https://www.okhouse.gov/representatives/nick-archer",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-nicole-ok-hd82",
+      "name": "Nicole Miller",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-82)",
+      "state": "OK",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4af77a1a-7011-4901-89fe-4619d558d34c"
+      },
+      "contact": {
+        "email": "nicole.miller@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=82"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Nicole-Miller.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nicole_Miller_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Nicole_Miller_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/182051/nicole-miller",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=82",
+        "https://www.okhouse.gov/representatives/nicole-miller",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "nice-nikki-ok-sd48",
+      "name": "Nikki Nice",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-48)",
+      "state": "OK",
+      "district": "SD-48",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/365647a0-0840-4a40-aac8-697ab21dbcd5"
+      },
+      "contact": {
+        "email": "nikki.nice@oksenate.gov",
+        "website": "https://oksenate.gov/senators/nikki-nice"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/008O6811.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nikki_Nice",
+        "https://en.wikipedia.org/wiki/Nikki_Nice",
+        "https://justfacts.votesmart.org/candidate/biography/185943/nikki-nice",
+        "https://oksenate.gov/senators/nikki-nice",
+        "https://www.linkedin.com/in/nikki-nice-3062a7b",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "rosino-paul-ok-sd45",
+      "name": "Paul Rosino",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-45)",
+      "state": "OK",
+      "district": "SD-45",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0388a9a8-8de3-4620-8c44-e887e0f1cecd"
+      },
+      "contact": {
+        "email": "paul.rosino@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1902"
+      },
+      "bio": {
+        "birth_date": "1962-10-02",
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Rosino%2C%20Paul%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paul_Rosino",
+        "https://en.wikipedia.org/wiki/Paul_Rosino",
+        "https://justfacts.votesmart.org/candidate/biography/176478/paul-rosino",
+        "https://oksenate.gov/Senators/biographies/rosino_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/rosino_bio.html",
+        "https://oksenate.gov/senators/paul-rosino",
+        "https://www.linkedin.com/in/paul-rosino-4339846",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "stinson-preston-ok-hd96",
+      "name": "Preston Stinson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-96)",
+      "state": "OK",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/016593c8-d702-434a-ba7c-aee48b14b6b3"
+      },
+      "contact": {
+        "email": "preston.stinson@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=96"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Stinson,%20Preston.jpg",
+      "sources": [
+        "https://ballotpedia.org/Preston_Stinson",
+        "https://en.wikipedia.org/wiki/Preston_Stinson",
+        "https://www.linkedin.com/in/prestonstinson",
+        "https://www.okhouse.gov/representatives/preston-stinson",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "worthen-rande-ok-hd64",
+      "name": "Rande Worthen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-64)",
+      "state": "OK",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cfa7e540-ce4e-4230-9f82-9784d11733cb"
+      },
+      "contact": {
+        "email": "rande.worthen@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=64"
+      },
+      "bio": {
+        "birth_date": "1956-07-16",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Rande-Worthen.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rande_Worthen",
+        "https://en.wikipedia.org/wiki/Rande_Worthen",
+        "https://justfacts.votesmart.org/candidate/biography/170883/rande-worthen",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=64",
+        "https://www.okhouse.gov/representatives/rande-worthen",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "grellner-randy-ok-sd21",
+      "name": "Randy Grellner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-21)",
+      "state": "OK",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/812abf8c-ed2d-4b91-8d69-0917a39adeed"
+      },
+      "contact": {
+        "email": "randy.grellner@oksenate.gov",
+        "website": "https://oksenate.gov/senators/randy-grellner"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/RandyGrellner2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Randy_Grellner",
+        "https://en.wikipedia.org/wiki/Randy_Grellner",
+        "https://justfacts.votesmart.org/candidate/biography/206294/randy-grellner",
+        "https://oksenate.gov/senators/randy-grellner",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "goodwin-regina-ok-sd11",
+      "name": "Regina Goodwin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-11)",
+      "state": "OK",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2d438999-104f-4405-8cdc-d53ba4715a19"
+      },
+      "contact": {
+        "email": "regina.goodwin@oksenate.gov",
+        "website": "https://oksenate.gov/senators/regina-goodwin"
+      },
+      "bio": {
+        "birth_date": "1962-09-22",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Goodwin,%20Regina.jpg",
+      "sources": [
+        "https://ballotpedia.org/Regina_Goodwin",
+        "https://en.wikipedia.org/wiki/Regina_Goodwin",
+        "https://justfacts.votesmart.org/candidate/biography/156149/regina-goodwin",
+        "https://oksenate.gov/senators/regina-goodwin",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=73",
+        "https://www.okhouse.gov/representatives/regina-goodwin",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "west-rick-ok-hd3",
+      "name": "Rick West",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-3)",
+      "state": "OK",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bae91554-72c9-4dbd-b042-b4bd800e4732"
+      },
+      "contact": {
+        "email": "rick.west@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=3"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/West,%20Rick.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rick_West_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Rick_West_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/170718/rick-west",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=3",
+        "https://www.okhouse.gov/representatives/rick-west",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-rob-ok-hd67",
+      "name": "Rob Hall",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-67)",
+      "state": "OK",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a73e2372-a002-448b-afbb-31398aed55b1"
+      },
+      "contact": {
+        "email": "rob.hall@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/rob-hall"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/rhall.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rob_Hall",
+        "https://en.wikipedia.org/wiki/Rob_Hall_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/216520/rob-hall",
+        "https://www.linkedin.com/in/rob-hall-39517396",
+        "https://www.okhouse.gov/representatives/rob-hall",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "manger-robert-ok-hd101",
+      "name": "Robert Manger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-101)",
+      "state": "OK",
+      "district": "HD-101",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a865c489-d177-4058-af64-51c2f0abef68"
+      },
+      "contact": {
+        "email": "robert.manger@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=101"
+      },
+      "bio": {
+        "birth_date": "1956-12-03",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Manger,%20Robert.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Manger",
+        "https://en.wikipedia.org/wiki/Robert_Manger",
+        "https://justfacts.votesmart.org/candidate/biography/182103/robert-manger",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=101",
+        "https://www.okhouse.gov/representatives/robert-manger",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "pederson-roland-ok-sd19",
+      "name": "Roland Pederson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-19)",
+      "state": "OK",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c0db5455-8d12-4525-ab57-afa8ed7e1d7f"
+      },
+      "contact": {
+        "email": "roland.pederson@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1892"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Pederson%2C%20Roland%202022%20flags.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roland_Pederson",
+        "https://en.wikipedia.org/wiki/Roland_Pederson",
+        "https://justfacts.votesmart.org/candidate/biography/170581/roland-pederson",
+        "https://oksenate.gov/Senators/biographies/pederson_bio.aspx",
+        "https://oksenate.gov/Senators/biographies/pederson_bio.html",
+        "https://oksenate.gov/senators/roland-pederson",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "stewart-ron-ok-hd73",
+      "name": "Ron Stewart",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-73)",
+      "state": "OK",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bdd6a3f7-c76a-459e-aad3-e833a9e110f8"
+      },
+      "contact": {
+        "email": "ronald.stewart@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/ronald-stewart"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/RonStewart2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ron_Stewart",
+        "https://en.wikipedia.org/wiki/Ron_Stewart_(Oklahoma_politician)",
+        "https://www.linkedin.com/in/ronald-stewart-jr-498205142",
+        "https://www.okhouse.gov/representatives/ronald-stewart",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "johns-ronny-ok-hd25",
+      "name": "Ronny Johns",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-25)",
+      "state": "OK",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e5d78f97-752b-4bff-a413-4704ed7c230a"
+      },
+      "contact": {
+        "email": "ronny.johns@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=25"
+      },
+      "bio": {
+        "birth_date": "1962-06-11",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Johns,%20Ronny.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ronny_Johns",
+        "https://en.wikipedia.org/wiki/Ronny_Johns",
+        "https://justfacts.votesmart.org/candidate/biography/181902/ronny-johns",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=25",
+        "https://www.okhouse.gov/representatives/ronny-johns",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "ford-ross-ok-hd76",
+      "name": "Ross Ford",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-76)",
+      "state": "OK",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a6aa7540-02db-458d-9031-e6af94d63b44"
+      },
+      "contact": {
+        "email": "ross.ford@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=76"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Ford,%20Ross.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ross_Ford_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Ross_Ford_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/176486/ross-ford",
+        "https://www.linkedin.com/in/ross-ford-2396a545",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=76",
+        "https://www.okhouse.gov/representatives/ross-ford",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "cornwell-rusty-ok-hd6",
+      "name": "Rusty Cornwell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-6)",
+      "state": "OK",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/818eac04-d5b7-49be-b740-84a8432cf5b3"
+      },
+      "contact": {
+        "email": "rusty.cornwell@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=6"
+      },
+      "bio": {
+        "birth_date": "1965-08-31",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Cornwell,%20Rusty.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rusty_Cornwell",
+        "https://en.wikipedia.org/wiki/Rusty_Cornwell",
+        "https://justfacts.votesmart.org/candidate/biography/181858/rusty-cornwell",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=6",
+        "https://www.okhouse.gov/representatives/rusty-cornwell",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "eaves-ryan-ok-hd22",
+      "name": "Ryan Eaves",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-22)",
+      "state": "OK",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f61f3be0-ac28-411d-9641-917af1eb6753"
+      },
+      "contact": {
+        "email": "ryan.eaves@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/ryan-eaves"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/RyanEaves2024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ryan_Eaves",
+        "https://en.wikipedia.org/wiki/Ryan_Eaves",
+        "https://justfacts.votesmart.org/candidate/biography/216475/ryan-eaves",
+        "https://www.linkedin.com/in/ryan-eaves-22a70269",
+        "https://www.okhouse.gov/representatives/ryan-eaves",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "fetgatter-scott-ok-hd16",
+      "name": "Scott Fetgatter",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-16)",
+      "state": "OK",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a2be8726-7870-43b3-bbac-381824466f9c"
+      },
+      "contact": {
+        "email": "scott.fetgatter@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=16"
+      },
+      "bio": {
+        "birth_date": "1968-07-04",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Fetgatter,%20Scott.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Fetgatter",
+        "https://en.wikipedia.org/wiki/Scott_Fetgatter",
+        "https://justfacts.votesmart.org/candidate/biography/170762/scott-fetgatter",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=16",
+        "https://www.okhouse.gov/representatives/scott-fetgatter",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "jett-shane-ok-sd17",
+      "name": "Shane Jett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-17)",
+      "state": "OK",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/97650810-9219-451e-97d1-e3d3318c5d53"
+      },
+      "contact": {
+        "email": "shane.jett@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1521375"
+      },
+      "bio": {
+        "birth_date": "1974-12-05",
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Jett%2C%20Shane_flags.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shane_Jett",
+        "https://en.wikipedia.org/wiki/Shane_Jett",
+        "https://justfacts.votesmart.org/candidate/biography/46260/shane-jett",
+        "https://oksenate.gov/senators/shane-jett",
+        "https://www.linkedin.com/in/shanejett",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "kern-spencer-ok-sd31",
+      "name": "Spencer Kern",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-31)",
+      "state": "OK",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d4f5043-830c-498d-806c-5b1e9eb183df"
+      },
+      "contact": {
+        "email": "spencer.kern@oksenate.gov",
+        "website": "https://oksenate.gov/senators/spencer-kern"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://static.votesmart.org/static/canphoto/216441.jpg",
+      "sources": [
+        "https://ballotpedia.org/Spencer_Kern",
+        "https://en.wikipedia.org/wiki/Spencer_Kern",
+        "https://justfacts.votesmart.org/candidate/biography/216441/spencer-kern",
+        "https://oksenate.gov/senators/spencer-kern",
+        "https://www.linkedin.com/in/spencer-kern-1451a137",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "adams-stacy-ok-hd50",
+      "name": "Stacy Adams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-50)",
+      "state": "OK",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d93d9d8d-1299-423a-bb9e-ade2bcb0fa11"
+      },
+      "contact": {
+        "email": "stacy.adams@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/stacy-adams"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/StacyAdams2024.png",
+      "sources": [
+        "https://ballotpedia.org/Stacy_Adams",
+        "https://justfacts.votesmart.org/candidate/biography/216494/stacy-adams",
+        "https://www.linkedin.com/in/stacy-adams-73b68b194",
+        "https://www.okhouse.gov/representatives/stacy-adams",
+        "https://www.okhouse.gov/representatives/stacyjo-adams",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "may-stan-ok-hd80",
+      "name": "Stan May",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-80)",
+      "state": "OK",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ba99d3e-ebea-4426-b91a-0560da625e83"
+      },
+      "contact": {
+        "email": "stan.may@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=80"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/May,%20Stan.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stan_May",
+        "https://en.wikipedia.org/wiki/Stan_May",
+        "https://justfacts.votesmart.org/candidate/biography/182043/stan-may",
+        "https://www.linkedin.com/in/stan-may-a42b458",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=80",
+        "https://www.okhouse.gov/representatives/stan-may",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "bashore-steve-ok-hd7",
+      "name": "Steve Bashore",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-7)",
+      "state": "OK",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bf810dce-34f8-4db5-b242-efc008311228"
+      },
+      "contact": {
+        "email": "steve.bashore@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=7"
+      },
+      "bio": {
+        "birth_date": "1969-08-09",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Bashore,%20Steve.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Bashore",
+        "https://en.wikipedia.org/wiki/Steve_Bashore",
+        "https://justfacts.votesmart.org/candidate/biography/191960/steve-bashore",
+        "https://www.linkedin.com/in/stephenbashore",
+        "https://www.okhouse.gov/representatives/steve-bashore",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "schreiber-suzanne-ok-hd70",
+      "name": "Suzanne Schreiber",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-70)",
+      "state": "OK",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3d8b5070-b96a-4976-b886-e889214ffd0b"
+      },
+      "contact": {
+        "email": "suzanne.schreiber@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=70"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Schreiber,%20Suzanne.jpg",
+      "sources": [
+        "https://ballotpedia.org/Suzanne_Schreiber",
+        "https://en.wikipedia.org/wiki/Suzanne_Schreiber",
+        "https://justfacts.votesmart.org/candidate/206407/suzanne-schreiber",
+        "https://www.okhouse.gov/representatives/suzanne-schreiber",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "marti-t-j-ok-hd75",
+      "name": "T.J. Marti",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-75)",
+      "state": "OK",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/71996394-7250-43ab-b69f-8c0afa3b144a"
+      },
+      "contact": {
+        "email": "tj.marti@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=75"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Marti,%20TJ.jpg",
+      "sources": [
+        "https://ballotpedia.org/T._Marti",
+        "https://en.wikipedia.org/wiki/T._J._Marti",
+        "https://justfacts.votesmart.org/candidate/biography/182027/t-marti",
+        "https://www.linkedin.com/in/t-j-marti-7217a11",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=75",
+        "https://www.okhouse.gov/representatives/tj-marti",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "townley-tammy-ok-hd48",
+      "name": "Tammy Townley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-48)",
+      "state": "OK",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1d6bc21f-6774-45de-b805-23cd8b5c32aa"
+      },
+      "contact": {
+        "email": "tammy.townley@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=48"
+      },
+      "bio": {
+        "birth_date": "1965-11-27",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Townley,%20Tammy.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tammy_Townley",
+        "https://en.wikipedia.org/wiki/Tammy_Townley",
+        "https://justfacts.votesmart.org/candidate/biography/181972/tammy-townley",
+        "https://www.linkedin.com/in/tammy-pevehouse-townley-b2795386",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=48",
+        "https://www.okhouse.gov/representatives/tammy-townley",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "west-tammy-ok-hd84",
+      "name": "Tammy West",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-84)",
+      "state": "OK",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8a0a65fd-9a33-4f93-a94a-131e0ec39e6b"
+      },
+      "contact": {
+        "email": "tammy.west@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=84"
+      },
+      "bio": {
+        "birth_date": "1959-05-24",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Tammy-West.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tammy_West",
+        "https://en.wikipedia.org/wiki/Tammy_West",
+        "https://justfacts.votesmart.org/candidate/biography/170941/tammy-west",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=84",
+        "https://www.okhouse.gov/representatives/tammy-west",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "turner-tim-ok-hd15",
+      "name": "Tim Turner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-15)",
+      "state": "OK",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d3bf80d0-be37-4e25-b7c6-7e30e54fe158"
+      },
+      "contact": {
+        "email": "tim.turner@okhouse.gov",
+        "website": "https://www.okhouse.gov/representatives/tim-turner"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdKW8Yps28Qqd_HZ-KGr8HDljGbqjeswJrSA&s",
+      "sources": [
+        "https://ballotpedia.org/Tim_Turner_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Tim_Turner_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/216464/tim-turner",
+        "https://www.okhouse.gov/representatives/tim-turner",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "gollihare-todd-ok-sd12",
+      "name": "Todd Gollihare",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-12)",
+      "state": "OK",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/54d37a3d-68cb-4e87-9916-c38f2f0f8ed3"
+      },
+      "contact": {
+        "email": "todd.gollihare@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1523282"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Gollihare%2C%20Todd%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Todd_Gollihare",
+        "https://en.wikipedia.org/wiki/Todd_Gollihare",
+        "https://justfacts.votesmart.org/candidate/biography/206331/todd-gollihare",
+        "https://oksenate.gov/senators/todd-gollihare",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "gann-tom-ok-hd8",
+      "name": "Tom Gann",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-8)",
+      "state": "OK",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fc634688-e6d0-4b9b-919c-0c1f001d51a7"
+      },
+      "contact": {
+        "email": "tom.gann@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=8"
+      },
+      "bio": {
+        "birth_date": "1959-01-11",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Gann,%20Tom.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Gann",
+        "https://en.wikipedia.org/wiki/Tom_Gann",
+        "https://justfacts.votesmart.org/candidate/biography/12373/tom-gann",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=8",
+        "https://www.okhouse.gov/representatives/tom-gann",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "woods-tom-ok-sd4",
+      "name": "Tom Woods",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-4)",
+      "state": "OK",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9b993707-70c1-4e3f-96ee-4257c0cf04e6"
+      },
+      "contact": {
+        "email": "tom.woods@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1523280"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Woods%2C%20Tom%20Flags%202022.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Woods_(Oklahoma)",
+        "https://en.wikipedia.org/wiki/Tom_Woods_(Oklahoma_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/206329/tom-woods",
+        "https://oksenate.gov/senators/tom-woods",
+        "https://tomwoodsok.com/about",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hasenbeck-toni-ok-hd65",
+      "name": "Toni Hasenbeck",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-65)",
+      "state": "OK",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/25f65ce4-eb63-4beb-92d0-0d07db7f851a"
+      },
+      "contact": {
+        "email": "toni.hasenbeck@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=65"
+      },
+      "bio": {
+        "birth_date": "1971-08-17",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Hasenbeck,%20Toni.jpg",
+      "sources": [
+        "https://ballotpedia.org/Toni_Hasenbeck",
+        "https://en.wikipedia.org/wiki/Toni_Hasenbeck",
+        "https://justfacts.votesmart.org/candidate/biography/152384/toni-hasenbeck",
+        "https://www.linkedin.com/in/toni-hasenbeck-ab2bba169",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=65",
+        "https://www.okhouse.gov/representatives/toni-hasenbeck",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "caldwell-trey-ok-hd63",
+      "name": "Trey Caldwell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-63)",
+      "state": "OK",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/da01678a-03b7-4c2f-b93b-f98338c638b0"
+      },
+      "contact": {
+        "email": "trey.caldwell@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=63"
+      },
+      "bio": {
+        "birth_date": "1988-12-24",
+        "gender": "Male"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Caldwell,%20Trey.jpg",
+      "sources": [
+        "https://ballotpedia.org/Hurchel_T._Caldwell",
+        "https://en.wikipedia.org/wiki/Trey_Caldwell_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/152383/hurchel-caldwell",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=63",
+        "https://www.okhouse.gov/representatives/trey-caldwell",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "ranson-trish-ok-hd34",
+      "name": "Trish Ranson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Representative (HD-34)",
+      "state": "OK",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d3a66cdd-0469-4c20-90da-620f60c4b4be"
+      },
+      "contact": {
+        "email": "trish.ranson@okhouse.gov",
+        "website": "https://www.okhouse.gov/Members/Contact.aspx?District=34"
+      },
+      "bio": {
+        "birth_date": "1969-11-23",
+        "gender": "Female"
+      },
+      "image": "https://www.okhouse.gov/Members/Pictures/HiRes/Ranson,%20Trish.jpg",
+      "sources": [
+        "https://ballotpedia.org/Trish_Ranson",
+        "https://en.wikipedia.org/wiki/Trish_Ranson",
+        "https://justfacts.votesmart.org/candidate/biography/181928/trish-ranson",
+        "https://www.okhouse.gov/Members/Default.aspx",
+        "https://www.okhouse.gov/Members/District.aspx?District=34",
+        "https://www.okhouse.gov/representatives/trish-ranson",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    },
+    {
+      "politician_id": "hamilton-warren-ok-sd7",
+      "name": "Warren Hamilton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oklahoma State Senator (SD-7)",
+      "state": "OK",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "OK",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/48d6aa7c-97e1-4c69-8014-8818ae9ad055"
+      },
+      "contact": {
+        "email": "warren.hamilton@oksenate.gov",
+        "website": "https://oksenate.gov/contact-senator?sid=1521374"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://oksenate.gov/sites/default/files/Hamilton%2C%20Warren%202022%20flags.jpg",
+      "sources": [
+        "https://ballotpedia.org/Warren_Hamilton",
+        "https://en.wikipedia.org/wiki/Warren_Hamilton",
+        "https://justfacts.votesmart.org/candidate/biography/192208/warren-hamilton",
+        "https://oksenate.gov/senators/warren-hamilton",
+        "https://data.openstates.org/people/current/ok.csv"
+      ]
+    }
+  ]
+}

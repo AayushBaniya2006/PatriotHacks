@@ -1,0 +1,4819 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/la.csv",
+  "state": "LA",
+  "politicians": [
+    {
+      "politician_id": "bass-adam-la-sd36",
+      "name": "Adam Bass",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-36)",
+      "state": "LA",
+      "district": "SD-36",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0d1a7b74-9ed8-4d8c-a1fc-f2caafc3d364"
+      },
+      "contact": {
+        "email": "sen36@legis.la.gov",
+        "district_voice": "318-741-2812",
+        "website": "https://senate.la.gov/smembers?ID=36"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenPics/Sen36.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adam_Bass",
+        "https://en.wikipedia.org/wiki/Adam_Bass_(politician)",
+        "https://senate.la.gov/smembers?ID=36",
+        "https://www.linkedin.com/in/adam-bass-6b633b23",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "fisher-adrian-la-hd16",
+      "name": "Adrian Fisher",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-16)",
+      "state": "LA",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5d1fade2-4678-406c-b4ed-657baed1db2b"
+      },
+      "contact": {
+        "email": "hse016@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=16"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep16.jpg",
+      "sources": [
+        "https://ballotpedia.org/Adrian_Fisher",
+        "https://en.wikipedia.org/wiki/Adrian_Fisher_(Louisiana_politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=16",
+        "https://house.louisiana.gov/H_Reps/members?ID=16",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "freeman-aimee-la-hd98",
+      "name": "Aimee Freeman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-98)",
+      "state": "LA",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3937cef1-8c62-428c-8837-aa6a6a8b60e7"
+      },
+      "contact": {
+        "email": "hse098@legis.la.gov",
+        "district_voice": "504-861-1614",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=98"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep98.jpg",
+      "sources": [
+        "https://ballotpedia.org/Aimee_Adatto_Freeman",
+        "https://en.wikipedia.org/wiki/Aimee_Adatto_Freeman",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=98",
+        "https://house.louisiana.gov/H_Reps/members?ID=98",
+        "https://www.aimeefreemanconsulting.com",
+        "https://www.linkedin.com/in/aimeeafreeeman",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "seabaugh-alan-la-sd31",
+      "name": "Alan Seabaugh",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-31)",
+      "state": "LA",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5032448a-7275-4a02-8dc1-d251cdde8ad9"
+      },
+      "contact": {
+        "email": "sen31@legis.la.gov",
+        "district_voice": "318-676-7990",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=5"
+      },
+      "bio": {
+        "birth_date": "1967-05-20",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenPics/Sen31.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alan_Seabaugh",
+        "https://en.wikipedia.org/wiki/Alan_Seabaugh",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=5",
+        "https://justfacts.votesmart.org/candidate/biography/93616/alan-seabaugh",
+        "https://senate.la.gov/smembers?ID=31",
+        "https://www.seabaughlaw.com/attorneys/seabaugh",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "knox-alonzo-la-hd93",
+      "name": "Alonzo Knox",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-93)",
+      "state": "LA",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/967fa557-fcdc-4a75-a13e-dabf05b85905"
+      },
+      "contact": {
+        "email": "hse093@legis.la.gov",
+        "district_voice": "504-568-3101",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=93"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep93.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alonzo_Knox",
+        "https://en.wikipedia.org/wiki/Alonzo_Knox",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=93",
+        "https://house.louisiana.gov/H_Reps/members?ID=93",
+        "https://www.linkedin.com/in/alonzo-knox-48aa731a",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "spell-annie-la-hd45",
+      "name": "Annie Spell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-45)",
+      "state": "LA",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a6a9544c-d12b-44cc-a52d-f2ec0e01f556"
+      },
+      "contact": {
+        "email": "hse045@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=45"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Annie_Spell",
+        "https://en.wikipedia.org/wiki/Annie_Spell",
+        "https://house.louisiana.gov/H_Reps/members?ID=45",
+        "https://justfacts.votesmart.org/candidate/biography/221862/annie-spell",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "freiberg-barbara-la-hd70",
+      "name": "Barbara Freiberg",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-70)",
+      "state": "LA",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bd179bf7-f90d-4e3a-baea-a590c3002586"
+      },
+      "contact": {
+        "email": "hse070@legis.la.gov",
+        "district_voice": "225-763-3500",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=70"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep70.jpg",
+      "sources": [
+        "https://ballotpedia.org/Barbara_Freiberg",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=70",
+        "https://house.louisiana.gov/H_Reps/members?ID=70",
+        "https://justfacts.votesmart.org/candidate/biography/177824/barbara-freiberg",
+        "https://www.linkedin.com/in/barbara-freiberg-62a9b719",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "carpenter-barbara-la-hd63",
+      "name": "Barbara Carpenter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-63)",
+      "state": "LA",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ad514eed-2832-4ae3-a0c5-62d8f2721297"
+      },
+      "contact": {
+        "email": "carpenterb@legis.la.gov",
+        "district_voice": "225-771-5674",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=63"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep63.jpg",
+      "sources": [
+        "https://ballotpedia.org/Barbara_Carpenter_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Barbara_West_Carpenter",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=63",
+        "https://house.louisiana.gov/H_Reps/members?ID=63",
+        "https://justfacts.votesmart.org/candidate/biography/165563/barbara-carpenter",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "amed-e-beryl-la-hd51",
+      "name": "Beryl Amedée",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-51)",
+      "state": "LA",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cbe53992-3b3c-4ec0-a94a-58ddf96e6edd"
+      },
+      "contact": {
+        "email": "amedeeb@legis.la.gov",
+        "district_voice": "985-858-2967",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=51"
+      },
+      "bio": {
+        "birth_date": "1964-10-14",
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep51.jpg",
+      "sources": [
+        "https://ballotpedia.org/Beryl_Amedee",
+        "https://en.wikipedia.org/wiki/Beryl_Amedee",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=51",
+        "https://house.louisiana.gov/H_Reps/members?ID=51",
+        "https://justfacts.votesmart.org/candidate/biography/149301/beryl-amedee",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "billings-beth-la-hd56",
+      "name": "Beth Billings",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-56)",
+      "state": "LA",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5d15439d-4139-448a-8f61-25ab54e68b19"
+      },
+      "contact": {
+        "email": "hse056@legis.la.gov",
+        "district_voice": "985-764-0203",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=56"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep56.jpg",
+      "sources": [
+        "https://ballotpedia.org/Beth_Billings",
+        "https://en.wikipedia.org/wiki/Beth_Anne_Billings",
+        "https://house.louisiana.gov/H_Reps/members?ID=56",
+        "https://www.linkedin.com/in/beth-billings-70047",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "mizell-beth-la-sd12",
+      "name": "Beth Mizell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-12)",
+      "state": "LA",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b6e8a5cf-ec5c-494b-b9ff-efa0fb92e1c1"
+      },
+      "contact": {
+        "email": "mizellb@legis.la.gov",
+        "district_voice": "985-839-3936",
+        "website": "https://senate.la.gov/smembers.aspx?ID=12"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen12.jpg",
+      "sources": [
+        "https://ballotpedia.org/Beth_Mizell",
+        "https://en.wikipedia.org/wiki/Beth_Mizell",
+        "https://justfacts.votesmart.org/candidate/biography/134643/beth-mizell",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=12",
+        "https://senate.la.gov/smembers?ID=12",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "wheat-bill-la-sd37",
+      "name": "Bill Wheat",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-37)",
+      "state": "LA",
+      "district": "SD-37",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/20547e38-711f-4012-9217-b739f4450b91"
+      },
+      "contact": {
+        "email": "sen37@legis.la.gov",
+        "website": "https://senate.la.gov/smembers?ID=37"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenPics/Sen37.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Wheat_Jr.",
+        "https://en.wikipedia.org/wiki/Bill_Wheat",
+        "https://senate.la.gov/smembers?ID=37",
+        "https://www.linkedin.com/in/william-wheat-21506737",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "miguez-blake-la-sd22",
+      "name": "Blake Miguez",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-22)",
+      "state": "LA",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8574f94d-93ed-49b0-a5f6-aa1832b5542a"
+      },
+      "contact": {
+        "email": "sen22@legis.la.gov",
+        "district_voice": "337-373-9400",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=49"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenPics/Sen22.jpg",
+      "sources": [
+        "https://ballotpedia.org/Blake_Miguez",
+        "https://en.wikipedia.org/wiki/Blake_Miguez",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=49",
+        "https://justfacts.votesmart.org/candidate/biography/156101/blake-miguez",
+        "https://senate.la.gov/smembers?ID=22",
+        "https://www.linkedin.com/in/blake-miguez-764b14123",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "hensgens-bob-la-sd26",
+      "name": "Bob Hensgens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-26)",
+      "state": "LA",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7dac3861-2ffb-45ba-b690-a8e199eb2acd"
+      },
+      "contact": {
+        "email": "sen26@legis.la.gov",
+        "district_voice": "337-740-6425",
+        "website": "https://senate.la.gov/smembers.aspx?ID=26"
+      },
+      "bio": {
+        "birth_date": "1955-01-26",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen26.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bob_Hensgens",
+        "https://en.wikipedia.org/wiki/Bob_Hensgens",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=26",
+        "https://senate.la.gov/smembers?ID=26",
+        "https://www.linkedin.com/in/bob-hensgens-7430a91a",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "owen-bob-la-sd1",
+      "name": "Bob Owen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-1)",
+      "state": "LA",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cfe19d33-7048-4fb7-9d56-0fa0f5f985f5"
+      },
+      "contact": {
+        "email": "sen01@legis.la.gov",
+        "district_voice": "985-639-0400",
+        "website": "https://senate.la.gov/smembers?ID=1"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenPics/Sen1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Owen_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Bob_Owen",
+        "https://senate.la.gov/smembers?ID=1",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "myers-brach-la-sd23",
+      "name": "Brach Myers",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-23)",
+      "state": "LA",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/92439b80-4646-445b-939f-5414e309f183"
+      },
+      "contact": {
+        "email": "sen23@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=45"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep45.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brach_Myers",
+        "https://brachmyers.com/meet-brach",
+        "https://en.wikipedia.org/wiki/Brach_Myers",
+        "https://house.louisiana.gov/H_Reps/members?ID=45",
+        "https://senate.la.gov/smembers?ID=23",
+        "https://www.linkedin.com/in/brach-myers-2113465a",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "geymann-brett-la-hd35",
+      "name": "Brett Geymann",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-35)",
+      "state": "LA",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9ffd05e6-a127-4896-b60e-fc2722fa8779"
+      },
+      "contact": {
+        "email": "hse035@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=35"
+      },
+      "bio": {
+        "birth_date": "1961-12-08",
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep35.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brett_Geymann",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=35",
+        "https://house.louisiana.gov/H_Reps/members?ID=35",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "glorioso-brian-la-hd90",
+      "name": "Brian Glorioso",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-90)",
+      "state": "LA",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/96385d4e-bfae-4929-9845-502fd2ed2cc7"
+      },
+      "contact": {
+        "email": "hse090@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=90"
+      },
+      "bio": {
+        "birth_date": "1974-04-20",
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep90.jpg",
+      "sources": [
+        "https://ballotpedia.org/Brian_Glorioso",
+        "https://en.wikipedia.org/wiki/Brian_Glorioso",
+        "https://house.louisiana.gov/H_Reps/members?ID=90",
+        "https://www.linkedin.com/in/brian-glorioso-54673635",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "fontenot-bryan-la-hd55",
+      "name": "Bryan Fontenot",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-55)",
+      "state": "LA",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/90b6f6c3-9620-4fbb-8c23-f8ab7b163de7"
+      },
+      "contact": {
+        "email": "hse055@legis.la.gov",
+        "district_voice": "985-447-0999",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=55"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep55.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bryan_Fontenot",
+        "https://en.wikipedia.org/wiki/Bryan_Fontenot",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=55",
+        "https://house.louisiana.gov/H_Reps/members?ID=55",
+        "https://justfacts.votesmart.org/candidate/biography/186988/bryan-fontenot",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "marcelle-denise-la-hd61",
+      "name": "Denise Marcelle",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-61)",
+      "state": "LA",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/20def39d-ba5c-45d7-ba6c-5cf43590d4b0"
+      },
+      "contact": {
+        "email": "marcelled@legis.la.gov",
+        "district_voice": "225-359-9362",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=61"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep61.jpg",
+      "sources": [
+        "https://ballotpedia.org/C._Denise_Marcelle",
+        "https://en.wikipedia.org/wiki/C._Denise_Marcelle",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=61",
+        "https://house.louisiana.gov/H_Reps/members?ID=61",
+        "https://www.linkedin.com/in/c-denise-marcelle-7bb85a32",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-travis-la-hd21",
+      "name": "Travis Johnson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-21)",
+      "state": "LA",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/871d5c01-9710-46f4-aeba-b321bdf11e30"
+      },
+      "contact": {
+        "email": "hse021@legis.la.gov",
+        "district_voice": "225-308-4269",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=21"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep21.jpg",
+      "sources": [
+        "https://ballotpedia.org/C._Travis_Johnson",
+        "https://en.wikipedia.org/wiki/C._Travis_Johnson",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=21",
+        "https://house.louisiana.gov/H_Reps/members?ID=21",
+        "https://www.linkedin.com/in/c-travis-johnson-1b8119a",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "kleinpeter-caleb-la-sd17",
+      "name": "Caleb Kleinpeter",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-17)",
+      "state": "LA",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/75f165af-66d1-464e-99b0-4176b8636501"
+      },
+      "contact": {
+        "email": "sen17@legis.la.gov",
+        "district_voice": "225-246-8838",
+        "website": "https://senate.la.gov/smembers.aspx?ID=17"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen17.jpg",
+      "sources": [
+        "https://ballotpedia.org/Caleb_Kleinpeter",
+        "https://en.wikipedia.org/wiki/Caleb_Kleinpeter",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=17",
+        "https://senate.la.gov/smembers?ID=17",
+        "https://www.linkedin.com/in/caleb-kleinpeter-1484a3177",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "newell-candace-la-hd99",
+      "name": "Candace Newell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-99)",
+      "state": "LA",
+      "district": "HD-99",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/85a96a1b-a8a0-4ddd-acd7-9452b48f5ace"
+      },
+      "contact": {
+        "email": "hse099@legis.la.gov",
+        "district_voice": "504-240-3435",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=99"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep99.jpg",
+      "sources": [
+        "https://ballotpedia.org/Candace_Newell",
+        "https://en.wikipedia.org/wiki/Candace_Newell",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=99",
+        "https://house.louisiana.gov/H_Reps/members?ID=99",
+        "https://www.linkedin.com/in/candace-n-newell-8456a517",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "boyer-chad-la-hd46",
+      "name": "Chad Boyer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-46)",
+      "state": "LA",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a31429da-4cde-4dbe-9510-af2dfa8ab2ed"
+      },
+      "contact": {
+        "email": "hse046@legis.la.gov",
+        "district_voice": "337-332-3331",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=46"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep46.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chad_Boyer",
+        "https://en.wikipedia.org/wiki/Chad_Michael_Boyer",
+        "https://house.louisiana.gov/H_Reps/members?ID=46",
+        "https://justfacts.votesmart.org/candidate/biography/212537/chad-boyer",
+        "https://www.congressweb.com/LCUL/legislators/info/mbr_id/3336",
+        "https://www.linkedin.com/in/chad-boyer-78a57460",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "henry-chance-la-hd42",
+      "name": "Chance Henry",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-42)",
+      "state": "LA",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/75101b55-81b9-465a-8ec6-297fa75cdd07"
+      },
+      "contact": {
+        "email": "hse042@legis.la.gov",
+        "district_voice": "337-384-8999",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=42"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep42.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chance_Henry",
+        "https://chancehenry.com/meet-chance",
+        "https://en.wikipedia.org/wiki/Chance_Keith_Henry",
+        "https://house.louisiana.gov/H_Reps/members?ID=42",
+        "https://justfacts.votesmart.org/candidate/biography/212506/chance-henry",
+        "https://www.linkedin.com/in/chance-henry-92ab4534",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "owen-chuck-la-hd30",
+      "name": "Chuck Owen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-30)",
+      "state": "LA",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2a4d4c31-ee06-4f32-a67b-c55db60502e4"
+      },
+      "contact": {
+        "email": "hse030@legis.la.gov",
+        "district_voice": "337-460-8726",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=30"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep30.jpg",
+      "sources": [
+        "https://ballotpedia.org/Charles_(Chuck)_Owen",
+        "https://en.wikipedia.org/wiki/Charles_Owen_(politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=30",
+        "https://house.louisiana.gov/H_Reps/members?ID=30",
+        "https://www.linkedin.com/in/chuck-owen-9015724",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "martinez-chasity-la-hd60",
+      "name": "Chasity Martinez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-60)",
+      "state": "LA",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c58cdaf8-5e0d-4a0c-ac40-7e95c38ac83e"
+      },
+      "contact": {
+        "email": "hse060@legis.la.gov",
+        "district_voice": "225-401-4079",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=60"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://ibervilleparish.com/wp-content/uploads/District-10-Chasity-Martinez.png",
+      "sources": [
+        "https://ballotpedia.org/Chasity_Martinez",
+        "https://en.wikipedia.org/wiki/Chasity_Martinez",
+        "https://house.louisiana.gov/H_Reps/members?ID=60",
+        "https://www.linkedin.com/in/chasity-martinez-848328195",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "turner-chris-la-hd12",
+      "name": "Chris Turner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-12)",
+      "state": "LA",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a07b757e-a57b-4dda-aa6a-7bf5e6b3561d"
+      },
+      "contact": {
+        "email": "hse012@legis.la.gov",
+        "district_voice": "318-251-5038",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=12"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep12.jpg",
+      "sources": [
+        "https://ballotpedia.org/Christopher_Turner_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Chris_Turner_(Louisiana_politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=12",
+        "https://house.louisiana.gov/H_Reps/members?ID=12",
+        "https://justfacts.votesmart.org/candidate/biography/186004/christopher-turner",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "henry-dana-la-hd100",
+      "name": "Dana Henry",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-100)",
+      "state": "LA",
+      "district": "HD-100",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1175d9fd-94fc-4988-98ee-de8d0029de06"
+      },
+      "contact": {
+        "email": "hse100@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=100"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Dana_Henry_20260113_023611.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dana_Henry",
+        "https://en.wikipedia.org/wiki/Dana_Henry",
+        "https://house.louisiana.gov/H_Reps/members?ID=100",
+        "https://www.linkedin.com/in/danahenry1",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "mccormick-danny-la-hd1",
+      "name": "Danny McCormick",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-1)",
+      "state": "LA",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dc59ede6-164c-4fd4-adc1-7e080309776b"
+      },
+      "contact": {
+        "email": "hse001@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=1"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Danny_McCormick",
+        "https://en.wikipedia.org/wiki/Danny_McCormick",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=1",
+        "https://house.louisiana.gov/H_Reps/members?ID=1",
+        "https://justfacts.votesmart.org/candidate/biography/186929/danny-mccormick",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "deshotel-daryl-la-hd28",
+      "name": "Daryl Deshotel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-28)",
+      "state": "LA",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2ace9f60-8f90-43ab-a45d-d1c64bdb7462"
+      },
+      "contact": {
+        "email": "hse028@legis.la.gov",
+        "district_voice": "318-253-8891",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=28"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep28.jpg",
+      "sources": [
+        "https://ballotpedia.org/Daryl_Deshotel",
+        "https://en.wikipedia.org/wiki/Daryl_Deshotel",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=28",
+        "https://house.louisiana.gov/H_Reps/members?ID=28",
+        "https://justfacts.votesmart.org/candidate/biography/186951/daryl-deshotel",
+        "https://www.linkedin.com/in/daryl-a-deshotel-7248188",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "villio-debbie-la-hd79",
+      "name": "Debbie Villio",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-79)",
+      "state": "LA",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aefc2237-5913-4b96-9354-18fb7e58884c"
+      },
+      "contact": {
+        "email": "hse079@legis.la.gov",
+        "district_voice": "504-468-8603",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=79"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep79.jpg",
+      "sources": [
+        "https://ballotpedia.org/Debbie_Villio",
+        "https://en.wikipedia.org/wiki/Debbie_Villio",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=79",
+        "https://house.louisiana.gov/H_Reps/members?ID=79",
+        "https://justfacts.votesmart.org/candidate/biography/187026/debbie-villio",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "boyd-delisha-la-hd102",
+      "name": "Delisha Boyd",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-102)",
+      "state": "LA",
+      "district": "HD-102",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d107ae2b-6cb6-4545-a185-d63408f46033"
+      },
+      "contact": {
+        "email": "hse102@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=102"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep102.jpg",
+      "sources": [
+        "https://ballotpedia.org/Delisha_Boyd",
+        "https://delishaboyd.com",
+        "https://en.wikipedia.org/wiki/Delisha_Boyd",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=102",
+        "https://house.louisiana.gov/H_Reps/members?ID=102",
+        "https://www.linkedin.com/in/delishaboydllc",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "bamburg-dennis-la-hd5",
+      "name": "Dennis Bamburg",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-5)",
+      "state": "LA",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a900feca-75c7-434e-8d00-dd67170f2b01"
+      },
+      "contact": {
+        "email": "hse005@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=5"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep5.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dennis_Bamburg_Jr.",
+        "https://en.wikipedia.org/wiki/Dennis_Bamburg_Jr.",
+        "https://house.louisiana.gov/H_Reps/members?ID=5",
+        "https://www.linkedin.com/in/dennis-bamburg-93ab8895",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "mcmakin-dixon-la-hd68",
+      "name": "Dixon McMakin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-68)",
+      "state": "LA",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d3cae3e7-f6eb-4a9c-8c63-8719902f771d"
+      },
+      "contact": {
+        "email": "hse068@legis.la.gov",
+        "district_voice": "225-384-0468",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=68"
+      },
+      "bio": {
+        "birth_date": "1986-08-15",
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep68.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dixon_McMakin",
+        "https://en.wikipedia.org/wiki/Dixon_McMakin",
+        "https://house.louisiana.gov/H_Reps/members?ID=68",
+        "https://www.linkedin.com/in/dixonwallacemcmakin",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "horton-dodie-la-hd9",
+      "name": "Dodie Horton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-9)",
+      "state": "LA",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4661fe94-874c-4884-99a2-c60516c811ff"
+      },
+      "contact": {
+        "email": "hortond@legis.la.gov",
+        "district_voice": "318-949-2463",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=9"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep9.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dodie_Horton",
+        "https://en.wikipedia.org/wiki/Dodie_Horton",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=9",
+        "https://house.louisiana.gov/H_Reps/members?ID=9",
+        "https://justfacts.votesmart.org/candidate/165610/dodie-horton",
+        "https://www.linkedin.com/in/dodie-horton-3a8136100",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "boudreaux-doyle-la-hd39",
+      "name": "Doyle Boudreaux",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-39)",
+      "state": "LA",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c725a955-93ff-415e-91df-a7398f823474"
+      },
+      "contact": {
+        "email": "hse039@legis.la.gov",
+        "district_voice": "337-886-4687",
+        "website": "https://house.louisiana.gov/h_reps/members?ID=39"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://static.wixstatic.com/media/66f8d9_8ae2cf856c374eee86e43d32c995830b~mv2.jpg/v1/fill/w_150,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Doyle%20Boudreaux_JPG.jpg",
+      "sources": [
+        "https://ballotpedia.org/Doyle_Boudreaux",
+        "https://en.wikipedia.org/wiki/Doyle_Boudreaux",
+        "https://house.louisiana.gov/h_reps/members?ID=39",
+        "https://www.linkedin.com/in/doyle-boudreaux-50926162",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-dustin-la-hd40",
+      "name": "Dustin Miller",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-40)",
+      "state": "LA",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dcf2c7e1-e124-424c-ac0c-8d1e6600e970"
+      },
+      "contact": {
+        "email": "millerd@legis.la.gov",
+        "district_voice": "337-943-2900",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=40"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep40.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dustin_Miller",
+        "https://ballotpedia.org/Dustin_Miller_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Dustin_Miller",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=40",
+        "https://house.louisiana.gov/H_Reps/members?ID=40",
+        "https://www.linkedin.com/in/dustin-miller-39a547a8",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "larvadain-ed-la-hd26",
+      "name": "Ed Larvadain",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-26)",
+      "state": "LA",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9a91a848-9d01-46b6-84f1-cc868681e912"
+      },
+      "contact": {
+        "email": "hse026@legis.la.gov",
+        "district_voice": "318-487-5441",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=26"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep26.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ed_Larvadain_III",
+        "https://en.wikipedia.org/wiki/Ed_Larvadain",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=26",
+        "https://house.louisiana.gov/H_Reps/members?ID=26",
+        "https://justfacts.votesmart.org/candidate/biography/111275/ed-larvadain-iii",
+        "https://www.larvadaininjuryattorney.com",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "murray-ed-la-hd97",
+      "name": "Ed Murray",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-97)",
+      "state": "LA",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/807a71ac-5657-4933-add4-024d35529e38"
+      },
+      "contact": {
+        "email": "hse097@legis.la.gov",
+        "district_voice": "504-283-4261",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=97"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://ed4nola.com/wp-content/uploads/2025/11/EdMurray_CampaignShoot_1-45-683x1024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ed_Murray_(Louisiana)",
+        "https://chehardy.com/attorneys/ed-murray",
+        "https://en.wikipedia.org/wiki/Ed_Murray_(Louisiana_politician)",
+        "https://house.louisiana.gov/H_Reps/members?ID=97",
+        "https://www.linkedin.com/in/edwin-murray-4b5270102",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "lambert-eddie-la-sd18",
+      "name": "Eddie Lambert",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-18)",
+      "state": "LA",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c89a156e-8426-4001-8364-94a179482d76"
+      },
+      "contact": {
+        "email": "lamberte@legis.la.gov",
+        "website": "https://senate.la.gov/smembers.aspx?ID=18"
+      },
+      "bio": {
+        "birth_date": "1956-02-16",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen18.jpg",
+      "sources": [
+        "https://ballotpedia.org/Eddie_Lambert",
+        "https://en.wikipedia.org/wiki/Eddie_J._Lambert",
+        "https://justfacts.votesmart.org/candidate/biography/35405/eddie-lambert",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=18",
+        "https://senate.la.gov/smembers?ID=18",
+        "https://www.linkedin.com/in/eddielambertattorney",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "jordan-edmond-la-hd29",
+      "name": "Edmond Jordan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-29)",
+      "state": "LA",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/efdf7ee4-4d37-4e57-8f0c-e0db52ee7f70"
+      },
+      "contact": {
+        "email": "jordane@legis.la.gov",
+        "district_voice": "225-925-3700",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=29"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep29.jpg",
+      "sources": [
+        "https://ballotpedia.org/Edmond_Jordan",
+        "https://en.wikipedia.org/wiki/Edmond_Jordan",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=29",
+        "https://house.louisiana.gov/H_Reps/members?ID=29",
+        "https://justfacts.votesmart.org/candidate/biography/134729/edmond-jordan",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "price-ed-la-sd2",
+      "name": "Ed Price",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-2)",
+      "state": "LA",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1899dc2e-bac6-4951-b3fc-87ea5e2d4969"
+      },
+      "contact": {
+        "email": "pricee@legis.la.gov",
+        "district_voice": "225-644-6738",
+        "website": "https://senate.la.gov/smembers.aspx?ID=2"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ed_Price",
+        "https://en.wikipedia.org/wiki/Ed_Price_(Louisiana_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/134641/ed-price",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=2",
+        "https://senate.la.gov/smembers?ID=2",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "chenevert-emily-la-hd66",
+      "name": "Emily Chenevert",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-66)",
+      "state": "LA",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9661594c-df1e-402a-b2c5-fe2c88366506"
+      },
+      "contact": {
+        "email": "hse066@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=66"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep66.jpg",
+      "sources": [
+        "https://ballotpedia.org/Emily_Chenevert",
+        "https://en.wikipedia.org/wiki/Emily_Chenevert",
+        "https://house.louisiana.gov/H_Reps/members?ID=66",
+        "https://justfacts.votesmart.org/candidate/biography/212560/emily-chenevert",
+        "https://www.linkedin.com/in/emily-morrow-chenevert-01387520",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "gadberry-foy-la-hd15",
+      "name": "Foy Gadberry",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-15)",
+      "state": "LA",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/040e17ea-a4d0-47ce-8f45-527a6bdc83a7"
+      },
+      "contact": {
+        "email": "hse015@legis.la.gov",
+        "district_voice": "318-396-1031",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=15"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep15.jpg",
+      "sources": [
+        "https://ballotpedia.org/Foy_Gadberry",
+        "https://en.wikipedia.org/wiki/Foy_Gadberry",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=15",
+        "https://house.louisiana.gov/H_Reps/members?ID=15",
+        "https://www.linkedin.com/in/foy-gadberry-2a96b623",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "thompson-francis-la-hd19",
+      "name": "Francis Thompson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-19)",
+      "state": "LA",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7796b73e-f06a-4d0b-8a85-cfde955a4cd1"
+      },
+      "contact": {
+        "email": "thompsof@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=19"
+      },
+      "bio": {
+        "birth_date": "1941-10-29",
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep19.jpg",
+      "sources": [
+        "https://ballotpedia.org/Francis_C._Thompson",
+        "https://en.wikipedia.org/wiki/Francis_C._Thompson",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=19",
+        "https://house.louisiana.gov/H_Reps/members?ID=19",
+        "https://justfacts.votesmart.org/candidate/biography/4610/francis-thompson",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "foil-franklin-la-sd16",
+      "name": "Franklin Foil",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-16)",
+      "state": "LA",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a8344aaa-aff7-42b3-b1a2-59539191fbb2"
+      },
+      "contact": {
+        "email": "foilf@legis.la.gov",
+        "district_voice": "225-342-6777",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=70"
+      },
+      "bio": {
+        "birth_date": "1964-10-31",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen16.jpg",
+      "sources": [
+        "https://ballotpedia.org/Franklin_Foil",
+        "https://en.wikipedia.org/wiki/Franklin_Foil",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=70",
+        "https://justfacts.votesmart.org/candidate/biography/93673/franklin-foil",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=16",
+        "https://senate.la.gov/smembers?ID=16",
+        "https://www.linkedin.com/in/franklin-foil-43134736",
+        "https://www.linkedin.com/in/franklin-foil-47545a2a",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "carter-gary-la-sd7",
+      "name": "Gary Carter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-7)",
+      "state": "LA",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/60ffe8d0-0469-4eca-a69a-deec93c203b3"
+      },
+      "contact": {
+        "email": "carterg@legis.la.gov",
+        "district_voice": "504-361-6600",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=102"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen7.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gary_Carter,_Jr.",
+        "https://en.wikipedia.org/wiki/Gary_Carter,_Jr.",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=102",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=7",
+        "https://senate.la.gov/smembers?ID=7",
+        "https://www.linkedin.com/in/gary-carter-jr-b8873390",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "beaullieu-beau-la-hd48",
+      "name": "Beau Beaullieu",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-48)",
+      "state": "LA",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c5ea395a-7594-4585-b193-000e05f08005"
+      },
+      "contact": {
+        "email": "hse048@legis.la.gov",
+        "district_voice": "337-373-4051",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=48"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep48.jpg",
+      "sources": [
+        "https://ballotpedia.org/Beau_Beaullieu",
+        "https://en.wikipedia.org/wiki/Beau_Beaullieu",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=48",
+        "https://house.louisiana.gov/H_Reps/members?ID=48",
+        "https://www.linkedin.com/in/beau-beaullieu-mba-aif-c-k-p-1b59681",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "boudreaux-gerald-la-sd24",
+      "name": "Gerald Boudreaux",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-24)",
+      "state": "LA",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/379e9992-463c-4188-9702-668457a75c3d"
+      },
+      "contact": {
+        "email": "boudreauxg@legis.la.gov",
+        "website": "https://senate.la.gov/smembers.aspx?ID=24"
+      },
+      "bio": {
+        "birth_date": "1960-09-16",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen24.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gerald_Boudreaux",
+        "https://en.wikipedia.org/wiki/Gerald_Boudreaux",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=24",
+        "https://senate.la.gov/smembers?ID=24",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "womack-glen-la-sd32",
+      "name": "Glen Womack",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-32)",
+      "state": "LA",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/25923053-3679-443e-bbb1-e2f63a50585c"
+      },
+      "contact": {
+        "email": "sen32@legis.la.gov",
+        "district_voice": "318-744-0005",
+        "website": "https://senate.la.gov/smembers.aspx?ID=32"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen32.jpg",
+      "sources": [
+        "https://ballotpedia.org/Glen_Womack",
+        "https://en.wikipedia.org/wiki/Glen_Womack",
+        "https://justfacts.votesmart.org/candidate/biography/186919/glen-womack",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=32",
+        "https://senate.la.gov/smembers?ID=32",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-greg-la-sd19",
+      "name": "Greg Miller",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-19)",
+      "state": "LA",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/77166b5f-e299-431c-869d-ab2fff79cd33"
+      },
+      "contact": {
+        "email": "sen19@legis.la.gov",
+        "website": "https://senate.la.gov/smembers?ID=19"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenPics/Sen19.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gregory_Miller,_Louisiana",
+        "https://justfacts.votesmart.org/candidate/biography/134603/gregory-miller",
+        "https://senate.la.gov/smembers?ID=19",
+        "https://www.linkedin.com/in/gregory-miller-50855942",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "cloud-heather-la-sd28",
+      "name": "Heather Cloud",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-28)",
+      "state": "LA",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aa2da413-7e13-4c2b-93e8-784edc0a495e"
+      },
+      "contact": {
+        "email": "sen28@legis.la.gov",
+        "district_voice": "337-461-2595",
+        "website": "https://senate.la.gov/smembers.aspx?ID=28"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen28.jpg",
+      "sources": [
+        "https://ballotpedia.org/Heather_Cloud",
+        "https://en.wikipedia.org/wiki/Heather_Cloud",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=28",
+        "https://senate.la.gov/smembers?ID=28",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "henry-cameron-la-sd9",
+      "name": "Cameron Henry",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-9)",
+      "state": "LA",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/684d1cc7-cce3-4545-a6ab-d689c7c56105"
+      },
+      "contact": {
+        "email": "henryc@legis.la.gov",
+        "district_voice": "504-838-5433",
+        "website": "https://senate.la.gov/smembers.aspx?ID=9"
+      },
+      "bio": {
+        "birth_date": "1974-11-01",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen9.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cameron_Henry",
+        "https://en.wikipedia.org/wiki/Cameron_Henry",
+        "https://justfacts.votesmart.org/candidate/biography/93747/cameron-henry-jr",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=9",
+        "https://senate.la.gov/smembers?ID=9",
+        "https://www.linkedin.com/in/cameronhenryla",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "mcfarland-jack-la-hd13",
+      "name": "Jack McFarland",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-13)",
+      "state": "LA",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2ed9a2e2-0f61-4de1-af10-e9e0dbf02492"
+      },
+      "contact": {
+        "email": "mcfarlandj@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=13"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep13.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jack_McFarland",
+        "https://en.wikipedia.org/wiki/Jack_McFarland_%28Louisiana_politician%29",
+        "https://en.wikipedia.org/wiki/Jack_McFarland_(politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=13",
+        "https://house.louisiana.gov/H_Reps/members?ID=13",
+        "https://www.linkedin.com/in/jack-mcfarland-73638b153",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "braud-jacob-la-hd105",
+      "name": "Jacob Braud",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-105)",
+      "state": "LA",
+      "district": "HD-105",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bfe2d39a-39a1-4992-86cd-6ab25767de92"
+      },
+      "contact": {
+        "email": "hse105@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=105"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep105.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jacob_Braud",
+        "https://en.wikipedia.org/wiki/Jacob_Braud",
+        "https://house.louisiana.gov/H_Reps/members?ID=105",
+        "https://www.bbc-law.net/attorney/s-j-braud",
+        "https://www.linkedin.com/in/jacob-braud-6761194",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "landry-jacob-la-hd49",
+      "name": "Jacob Landry",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-49)",
+      "state": "LA",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/80ea23c0-16f8-4a57-aa48-2c5cf478a3e1"
+      },
+      "contact": {
+        "email": "hse049@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=49"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep49.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jacob_Landry",
+        "https://en.wikipedia.org/wiki/Jacob_Jules_Gabriel_Landry",
+        "https://house.louisiana.gov/H_Reps/members?ID=49",
+        "https://www.jacoblandryforlouisiana.com/about",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "dewitt-jason-la-hd25",
+      "name": "Jason DeWitt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-25)",
+      "state": "LA",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/daa3d2db-d395-4c08-9020-b90d6bc2c498"
+      },
+      "contact": {
+        "email": "hse025@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=25"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep25.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jason_DeWitt",
+        "https://dewittforla.com/about",
+        "https://en.wikipedia.org/wiki/Jason_Brian_DeWitt",
+        "https://house.louisiana.gov/H_Reps/members?ID=25",
+        "https://justfacts.votesmart.org/candidate/biography/212500/jason-dewitt",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "gall-jay-la-hd104",
+      "name": "Jay Gallé",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-104)",
+      "state": "LA",
+      "district": "HD-104",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ef1c54d6-d162-48d3-b3b5-b02da086c1ee"
+      },
+      "contact": {
+        "email": "hse104@legis.la.gov",
+        "district_voice": "985-624-4603",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=104"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep104.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jay_Gall%C3%A9",
+        "https://en.wikipedia.org/wiki/Jay_Gall%C3%A9",
+        "https://house.louisiana.gov/H_Reps/members?ID=104",
+        "https://justfacts.votesmart.org/candidate/biography/212531/jay-galle",
+        "https://www.jaygalle.com",
+        "https://www.linkedin.com/in/jay-galle-98aa544",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "morris-jay-la-sd35",
+      "name": "Jay Morris",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-35)",
+      "state": "LA",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9d6aa1d9-76b2-41ad-a3e0-4fa86da08645"
+      },
+      "contact": {
+        "email": "morrisjc@legis.la.gov",
+        "district_voice": "318-362-4270",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=14"
+      },
+      "bio": {
+        "birth_date": "1958-05-24",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen35.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jay_Morris",
+        "https://ballotpedia.org/Jay_Morris_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Jay_Morris",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=14",
+        "https://justfacts.votesmart.org/candidate/biography/134583/jay-morris-iii",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=35",
+        "https://senate.la.gov/smembers?ID=35",
+        "https://www.linkedin.com/in/jay-morris-67192426",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "wiley-jeff-la-hd81",
+      "name": "Jeff Wiley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-81)",
+      "state": "LA",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b96a872c-91bd-47ea-a50f-f82294b3d91b"
+      },
+      "contact": {
+        "email": "hse081@legis.la.gov",
+        "district_voice": "225-698-5400",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=81"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep81.jpg",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jeffrey_Wiley",
+        "https://house.louisiana.gov/H_Reps/members?ID=81",
+        "https://www.ballotpedia.org/Jeffrey_Wiley",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "stine-jeremy-la-sd27",
+      "name": "Jeremy Stine",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-27)",
+      "state": "LA",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e8c847e2-5ee6-4f9c-a4e4-d7d8daa8464c"
+      },
+      "contact": {
+        "email": "sen27@legis.la.gov",
+        "district_voice": "337-491-2016",
+        "website": "https://senate.la.gov/smembers.aspx?ID=27"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen27.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeremy_Stine",
+        "https://en.wikipedia.org/wiki/Jeremy_Stine",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=27",
+        "https://senate.la.gov/smembers?ID=27",
+        "https://www.linkedin.com/in/jeremy-stine-7214b17a",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "lacombe-jeremy-la-hd18",
+      "name": "Jeremy LaCombe",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-18)",
+      "state": "LA",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9ae6b490-4fe0-435c-93fd-ad316e474204"
+      },
+      "contact": {
+        "email": "hse018@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=18"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep18.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeremy_LaCombe",
+        "https://en.wikipedia.org/wiki/Jeremy_LaCombe",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=18",
+        "https://house.louisiana.gov/H_Reps/members?ID=18",
+        "https://www.linkedin.com/in/jeremy-lacombe-22b4a54",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "zeringue-jerome-la-hd52",
+      "name": "Jerome Zeringue",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-52)",
+      "state": "LA",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2dafe5b8-cb5a-411a-b270-322dcaf18293"
+      },
+      "contact": {
+        "email": "zeringuej@legis.la.gov",
+        "district_voice": "985-876-8823",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=52"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep52.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jerome_Zeringue",
+        "https://en.wikipedia.org/wiki/Jerome_Zeringue",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=52",
+        "https://house.louisiana.gov/H_Reps/members?ID=52",
+        "https://justfacts.votesmart.org/candidate/biography/165548/jerome-zeringue",
+        "https://www.linkedin.com/in/jerome-zeringue-3790b917",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "domangue-jessica-la-hd53",
+      "name": "Jessica Domangue",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-53)",
+      "state": "LA",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/95e28ef0-84f6-45ec-97fe-a58f360a2ad9"
+      },
+      "contact": {
+        "email": "hse053@legis.la.gov",
+        "district_voice": "985-858-2970",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=53"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep53.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jessica_Domangue",
+        "https://en.wikipedia.org/wiki/Jessica_Domangue",
+        "https://house.louisiana.gov/H_Reps/members?ID=53",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "harris-jimmy-la-sd4",
+      "name": "Jimmy Harris",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-4)",
+      "state": "LA",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ce11601e-9a67-48a1-9408-b80943312303"
+      },
+      "contact": {
+        "email": "harrisj@legis.la.gov",
+        "district_voice": "504-286-1960",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=99"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen4.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jimmy_Harris",
+        "https://ballotpedia.org/Jimmy_Harris_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Jimmy_Harris_(politician)",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=99",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=4",
+        "https://senate.la.gov/smembers?ID=4",
+        "https://www.linkedin.com/in/harris-james-7103a135",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "illg-john-la-hd78",
+      "name": "John Illg",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-78)",
+      "state": "LA",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3c0eeaa2-cf62-4b17-9b62-2531c078dd42"
+      },
+      "contact": {
+        "email": "hse078@legis.la.gov",
+        "district_voice": "504-737-0315",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=78"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep78.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Illg_Jr.",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=78",
+        "https://house.louisiana.gov/H_Reps/members?ID=78",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "wyble-john-la-hd75",
+      "name": "John Wyble",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-75)",
+      "state": "LA",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8bc5e1d1-fe97-4466-a11d-415f56c5151a"
+      },
+      "contact": {
+        "email": "hse075@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=75"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep75.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Wyble_(Louisiana)",
+        "https://drwyble.com",
+        "https://en.wikipedia.org/wiki/John_Wyble",
+        "https://house.louisiana.gov/H_Reps/members?ID=75",
+        "https://www.linkedin.com/in/drjwyble",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "stagni-joe-la-hd92",
+      "name": "Joe Stagni",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-92)",
+      "state": "LA",
+      "district": "HD-92",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/958015ce-4a91-4830-a11f-e73997823d4b"
+      },
+      "contact": {
+        "email": "stagnij@legis.la.gov",
+        "district_voice": "504-465-3479",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=92"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep92.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joe_Stagni",
+        "https://en.wikipedia.org/wiki/Joseph_A._Stagni",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=92",
+        "https://house.louisiana.gov/H_Reps/members?ID=92",
+        "https://www.linkedin.com/in/joseph-stagni-6a0331142",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "orgeron-joe-la-hd54",
+      "name": "Joe Orgeron",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-54)",
+      "state": "LA",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9002c3a7-c0d9-4112-ad34-e0c6fa909ce1"
+      },
+      "contact": {
+        "email": "hse054@legis.la.gov",
+        "district_voice": "985-693-9000",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=54"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep54.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joseph_Orgeron",
+        "https://en.wikipedia.org/wiki/Joseph_Orgeron",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=54",
+        "https://house.louisiana.gov/H_Reps/members?ID=54",
+        "https://justfacts.votesmart.org/candidate/192375/joseph-orgeron",
+        "https://www.linkedin.com/in/josephorgeronphd",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "carlson-josh-la-hd43",
+      "name": "Josh Carlson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-43)",
+      "state": "LA",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/85df7a11-9edb-4e27-b7ce-60ffe7b35d39"
+      },
+      "contact": {
+        "email": "hse043@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=43"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep43.jpg",
+      "sources": [
+        "https://ballotpedia.org/Josh_Carlson",
+        "https://en.wikipedia.org/wiki/Josh_Carlson",
+        "https://house.louisiana.gov/H_Reps/members?ID=43",
+        "https://justfacts.votesmart.org/candidate/biography/196940/joshua-carlson",
+        "https://www.linkedin.com/in/joshuapcarlson",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "walters-joy-la-hd4",
+      "name": "Joy Walters",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-4)",
+      "state": "LA",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/378995b0-0c3e-49a4-aa93-4633f06d5509"
+      },
+      "contact": {
+        "email": "waltersj@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=4"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep4.jpg",
+      "sources": [
+        "https://ballotpedia.org/Daryl_Joy_Walters",
+        "https://en.wikipedia.org/wiki/Daryl_Joy_Walters",
+        "https://house.louisiana.gov/H_Reps/members?ID=4",
+        "https://www.linkedin.com/in/daryljoywalters",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "edmonston-kathy-la-hd88",
+      "name": "Kathy Edmonston",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-88)",
+      "state": "LA",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/92f7834e-8ce3-437f-bdbf-8dad3528ae3b"
+      },
+      "contact": {
+        "email": "hse088@legis.la.gov",
+        "district_voice": "225-647-5646",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=88"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep88.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kathy_Edmonston",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=88",
+        "https://house.louisiana.gov/H_Reps/members?ID=88",
+        "https://www.linkedin.com/in/kathy-edmonston-02438a166",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-andrews-katrina-la-sd34",
+      "name": "Katrina Jackson-Andrews",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-34)",
+      "state": "LA",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/acdaa5e6-3b22-44b9-8b47-480b801483dd"
+      },
+      "contact": {
+        "email": "jacksonk@legis.la.gov",
+        "district_voice": "318-343-2877",
+        "website": "https://senate.la.gov/smembers.aspx?ID=34"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen34.jpg",
+      "sources": [
+        "https://ballotpedia.org/Katrina_Jackson",
+        "https://en.wikipedia.org/wiki/Katrina_Jackson",
+        "https://justfacts.votesmart.org/candidate/biography/134647/katrina-jackson",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=34",
+        "https://senate.la.gov/smembers?ID=34",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "hennessy-kellee-la-hd64",
+      "name": "Kellee Hennessy",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-64)",
+      "state": "LA",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c64e6628-efa4-4ffe-8b2f-d9df80f4f313"
+      },
+      "contact": {
+        "email": "hse064@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=64"
+      },
+      "bio": {
+        "birth_date": "1970-02-06",
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep64.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kellee_Hennessy_Dickerson",
+        "https://en.wikipedia.org/wiki/Kellee_Hennessy_Dickerson",
+        "https://house.louisiana.gov/H_Reps/members?ID=64",
+        "https://justfacts.votesmart.org/candidate/biography/212552/kellee-dickerson",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "brass-ken-la-hd58",
+      "name": "Ken Brass",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-58)",
+      "state": "LA",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/43a80737-e614-475d-aace-2d1324cb516a"
+      },
+      "contact": {
+        "email": "brassk@legis.la.gov",
+        "district_voice": "225-265-9005",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=58"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep58.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ken_Brass",
+        "https://en.wikipedia.org/wiki/Ken_Brass",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=58",
+        "https://house.louisiana.gov/H_Reps/members?ID=58",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "carver-kim-la-hd89",
+      "name": "Kim Carver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-89)",
+      "state": "LA",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bd6d41fc-8ad8-468f-8259-223d38d42bd8"
+      },
+      "contact": {
+        "email": "hse089@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=89"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep89.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kim_Carver",
+        "https://en.wikipedia.org/wiki/Christopher_Kim_Carver",
+        "https://house.louisiana.gov/H_Reps/members?ID=89",
+        "https://justfacts.votesmart.org/candidate/biography/212522/kim-carver",
+        "https://www.linkedin.com/in/kim-carver-64526933",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "coates-kim-la-hd73",
+      "name": "Kim Coates",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-73)",
+      "state": "LA",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d6dba94d-0167-4391-992d-af96c6525253"
+      },
+      "contact": {
+        "email": "hse073@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=73"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep73.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kimberly_Landry_Coates",
+        "https://en.wikipedia.org/wiki/Kimberly_Coates",
+        "https://house.louisiana.gov/H_Reps/members?ID=73",
+        "https://kimcoatesforla.com/about",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "talbot-kirk-la-sd10",
+      "name": "Kirk Talbot",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-10)",
+      "state": "LA",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f6f401f7-7fb4-40df-84a0-b5a3f0fe9ec2"
+      },
+      "contact": {
+        "email": "talbotk@legis.la.gov",
+        "district_voice": "504-736-7299",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=78"
+      },
+      "bio": {
+        "birth_date": "1969-11-18",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kirk_Talbot",
+        "https://en.wikipedia.org/wiki/Kirk_Talbot",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=78",
+        "https://justfacts.votesmart.org/candidate/biography/93725/kirk-talbot",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=10",
+        "https://senate.la.gov/smembers?ID=10",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "green-kyle-la-hd83",
+      "name": "Kyle Green",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-83)",
+      "state": "LA",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8ffaa2bd-ff67-464a-b639-19a6069e28a2"
+      },
+      "contact": {
+        "email": "hse083@legis.la.gov",
+        "district_voice": "504-349-8788",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=83"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep83.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kyle_Green_Jr.",
+        "https://en.wikipedia.org/wiki/Kyle_Green",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=83",
+        "https://house.louisiana.gov/H_Reps/members?ID=83",
+        "https://www.linkedin.com/in/kyle-m-green-jr-153aa342",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "selders-larry-la-sd14",
+      "name": "Larry Selders",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-14)",
+      "state": "LA",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/52035a94-6995-4ea4-b463-1109d683048b"
+      },
+      "contact": {
+        "email": "sen14@legis.la.gov",
+        "district_voice": "225-256-7756",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=67"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep67.jpg",
+      "sources": [
+        "https://ballotpedia.org/Larry_Selders",
+        "https://en.wikipedia.org/wiki/Larry_Selders",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=67",
+        "https://house.louisiana.gov/H_Reps/members?ID=67",
+        "https://justfacts.votesmart.org/candidate/biography/186999/larry-selders",
+        "https://senate.la.gov/smembers?ID=14",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "ventrella-lauren-la-hd65",
+      "name": "Lauren Ventrella",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-65)",
+      "state": "LA",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d2ecd14d-09ce-4e45-8969-149531759584"
+      },
+      "contact": {
+        "email": "hse065@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=65"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep65.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lauren_Ventrella",
+        "https://en.wikipedia.org/wiki/Lauren_Ventrella",
+        "https://house.louisiana.gov/H_Reps/members?ID=65",
+        "https://www.linkedin.com/in/ventrellalaw",
+        "https://www.ventrellalawfirm.com",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "schlegel-laurie-la-hd82",
+      "name": "Laurie Schlegel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-82)",
+      "state": "LA",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1dbd875c-89b6-4ea1-a73b-7c8efdb203a3"
+      },
+      "contact": {
+        "email": "hse082@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=82"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep82.jpg",
+      "sources": [
+        "https://ballotpedia.org/Laurie_Schlegel",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=82",
+        "https://house.louisiana.gov/H_Reps/members?ID=82",
+        "https://www.linkedin.com/in/laurie-schlegel-b8652662",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "bagley-larry-la-hd7",
+      "name": "Larry Bagley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-7)",
+      "state": "LA",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d6e47850-c123-4060-8309-74192011981b"
+      },
+      "contact": {
+        "email": "bagleyl@legis.la.gov",
+        "district_voice": "318-925-9588",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=7"
+      },
+      "bio": {
+        "birth_date": "1949-01-04",
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep7.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lawrence_Bagley",
+        "https://en.wikipedia.org/wiki/Larry_Bagley",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=7",
+        "https://house.louisiana.gov/H_Reps/members?ID=7",
+        "https://www.linkedin.com/in/larrybagley",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "farnum-les-la-hd33",
+      "name": "Les Farnum",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-33)",
+      "state": "LA",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/81379952-373b-4e6e-a29f-b9bb60e7593b"
+      },
+      "contact": {
+        "email": "hse033@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=33"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep33.jpg",
+      "sources": [
+        "https://ballotpedia.org/Les_Farnum",
+        "https://en.wikipedia.org/wiki/Les_Farnum",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=33",
+        "https://house.louisiana.gov/H_Reps/members?ID=33",
+        "https://justfacts.votesmart.org/candidate/biography/107599/les-farnum",
+        "https://www.linkedin.com/in/les-farnum-82961171",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "landry-mandie-la-hd91",
+      "name": "Mandie Landry",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-91)",
+      "state": "LA",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6e106343-c9e7-4993-aca8-201210f61d64"
+      },
+      "contact": {
+        "email": "hse091@legis.la.gov",
+        "district_voice": "504-383-3836",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=91"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep91.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mandie_Landry",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=91",
+        "https://house.louisiana.gov/H_Reps/members?ID=91",
+        "https://justfacts.votesmart.org/candidate/biography/187045/mandie-landry",
+        "https://www.linkedin.com/in/mandie-landry-8764812",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "bryant-marcus-la-hd96",
+      "name": "Marcus Bryant",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-96)",
+      "state": "LA",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d1c2a6e-0339-4b7a-ac52-dfd9064bfbbf"
+      },
+      "contact": {
+        "email": "hse096@legis.la.gov",
+        "district_voice": "337-373-9380",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=96"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep96.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marcus_Bryant",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=96",
+        "https://house.louisiana.gov/H_Reps/members?ID=96",
+        "https://www.linkedin.com/in/marcus-anthony-bryant-09959968",
+        "https://www.linkedin.com/in/marcus-bryant-93467011",
+        "https://www.marcusbryantlaw.com",
+        "https://www.marcusbryantlaw.com/attorney/marcus-a-bryant",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "abraham-mark-la-sd25",
+      "name": "Mark Abraham",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-25)",
+      "state": "LA",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/addae848-cfaf-4637-a23e-595e45c6e14f"
+      },
+      "contact": {
+        "email": "abrahamm@legis.la.gov",
+        "district_voice": "337-475-3016",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=36"
+      },
+      "bio": {
+        "birth_date": "1953-11-11",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen25.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Abraham",
+        "https://en.wikipedia.org/wiki/Mark_Abraham",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=36",
+        "https://justfacts.votesmart.org/candidate/93547/mark-abraham",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=25",
+        "https://senate.la.gov/smembers?ID=25",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "wright-mark-la-hd77",
+      "name": "Mark Wright",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-77)",
+      "state": "LA",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d3ecec03-0408-46f0-8c82-b775f787e6e1"
+      },
+      "contact": {
+        "email": "wrightm@legis.la.gov",
+        "district_voice": "985-893-6262",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=77"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep77.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Wright_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Mark_Wright_(Louisiana_politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=77",
+        "https://house.louisiana.gov/H_Reps/members?ID=77",
+        "https://justfacts.votesmart.org/candidate/biography/176600/mark-wright",
+        "https://www.linkedin.com/in/mark-wright-3754a710",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "f-si-mike-la-sd20",
+      "name": "Mike Fési",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-20)",
+      "state": "LA",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/750a2868-c9b0-4124-95c7-3516f93ff087"
+      },
+      "contact": {
+        "email": "sen20@legis.la.gov",
+        "district_voice": "985-858-2979",
+        "website": "https://senate.la.gov/smembers.aspx?ID=20"
+      },
+      "bio": {
+        "birth_date": "1959-05-20",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen20.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Fesi",
+        "https://en.wikipedia.org/wiki/Mike_Fesi",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=20",
+        "https://senate.la.gov/smembers?ID=20",
+        "https://www.linkedin.com/in/bigmikefesi",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "echols-michael-la-hd14",
+      "name": "Michael Echols",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-14)",
+      "state": "LA",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/22590bd7-29fe-454d-b61d-2c54c4562274"
+      },
+      "contact": {
+        "email": "hse014@legis.la.gov",
+        "district_voice": "318-598-4010",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=14"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep14.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Echols",
+        "https://en.wikipedia.org/wiki/Michael_Echols",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=14",
+        "https://house.louisiana.gov/H_Reps/members?ID=14",
+        "https://justfacts.votesmart.org/candidate/biography/134582/michael-echols",
+        "https://www.linkedin.com/in/michaelcharlesechols",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "firment-gabe-la-hd22",
+      "name": "Gabe Firment",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-22)",
+      "state": "LA",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/50b42a20-9d29-4388-b06f-b4511eda2131"
+      },
+      "contact": {
+        "email": "hse022@legis.la.gov",
+        "district_voice": "318-765-9606",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=22"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep22.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gabe_Firment",
+        "https://en.wikipedia.org/wiki/Gabe_Firment",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=22",
+        "https://house.louisiana.gov/H_Reps/members?ID=22",
+        "https://justfacts.votesmart.org/candidate/biography/186949/gabe-firment",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "melerine-michael-la-hd6",
+      "name": "Michael Melerine",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-6)",
+      "state": "LA",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b38eb9d5-c27d-443e-995d-f9681e3a992e"
+      },
+      "contact": {
+        "email": "hse006@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=6"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep6.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Melerine",
+        "https://en.wikipedia.org/wiki/Michael_Melerine",
+        "https://house.louisiana.gov/H_Reps/members?ID=6",
+        "https://www.seabaughlaw.com/attorneys/mmelerine",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-mike-la-hd27",
+      "name": "Mike Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-27)",
+      "state": "LA",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0e901294-3718-49df-9922-0ac4503acee2"
+      },
+      "contact": {
+        "email": "hse027@legis.la.gov",
+        "district_voice": "318-487-5377",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=27"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep27.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Johnson_(Louisiana_House_of_Representatives)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=27",
+        "https://house.louisiana.gov/H_Reps/members?ID=27",
+        "https://www.linkedin.com/in/michael-johnson-0979602b",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "bayham-mike-la-hd103",
+      "name": "Mike Bayham",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-103)",
+      "state": "LA",
+      "district": "HD-103",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e06c4ec7-9051-4489-b572-5b55e5fd4a68"
+      },
+      "contact": {
+        "email": "hse103@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=103"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep103.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Bayham",
+        "https://en.wikipedia.org/wiki/Michael_Bayham",
+        "https://house.louisiana.gov/H_Reps/members?ID=103",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "reese-mike-la-sd30",
+      "name": "Mike Reese",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-30)",
+      "state": "LA",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/723f3444-f927-44b0-8659-7ac00370aa92"
+      },
+      "contact": {
+        "email": "sen30@legis.la.gov",
+        "website": "https://senate.la.gov/smembers.aspx?ID=30"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen30.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Reese_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Mike_Reese_(Louisiana_politician)",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=30",
+        "https://senate.la.gov/smembers?ID=30",
+        "https://www.linkedin.com/in/mike-reese-8406b666",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "riser-neil-la-hd20",
+      "name": "Neil Riser",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-20)",
+      "state": "LA",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8ce9b8d1-a92d-4351-a098-617599dde680"
+      },
+      "contact": {
+        "email": "risern@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=20"
+      },
+      "bio": {
+        "birth_date": "1962-04-25",
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep20.jpg",
+      "sources": [
+        "https://ballotpedia.org/Neil_Riser",
+        "https://en.wikipedia.org/wiki/Neil_Riser",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=20",
+        "https://house.louisiana.gov/H_Reps/members?ID=20",
+        "https://justfacts.votesmart.org/candidate/biography/93593/neil-riser",
+        "https://senate.la.gov/senators/senpage.asp?SenID=32",
+        "https://www.linkedin.com/in/neil-riser-7a523220",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "muscarello-nicky-la-hd86",
+      "name": "Nicky Muscarello",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-86)",
+      "state": "LA",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bc967860-a12b-4285-bd97-36379803f119"
+      },
+      "contact": {
+        "email": "muscarellon@legis.la.gov",
+        "district_voice": "985-974-0009",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=86"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep86.jpg",
+      "sources": [
+        "https://ballotpedia.org/Nicholas_Muscarello_Jr.",
+        "https://en.wikipedia.org/wiki/Nicholas_Muscarello",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=86",
+        "https://house.louisiana.gov/H_Reps/members?ID=86",
+        "https://njmlawfirm.com/About-Us/Nicholas-J-Muscarello-Jr",
+        "https://www.linkedin.com/in/nicholas-%E2%80%9Cnicky%E2%80%9D-muscarello-00261411",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-pat-la-hd17",
+      "name": "Pat Moore",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-17)",
+      "state": "LA",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/88548c7a-b637-4821-b336-c99cfa475e22"
+      },
+      "contact": {
+        "email": "hse017@legis.la.gov",
+        "district_voice": "318-362-3014",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=17"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep17.jpg",
+      "sources": [
+        "https://ballotpedia.org/Pat_Moore_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Pat_Moore_(Louisiana_politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=17",
+        "https://house.louisiana.gov/H_Reps/members?ID=17",
+        "https://justfacts.votesmart.org/candidate/biography/107141/pat-moore",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "connick-patrick-la-sd8",
+      "name": "Patrick Connick",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-8)",
+      "state": "LA",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a5240587-95aa-4135-befc-de2ea2aa1d51"
+      },
+      "contact": {
+        "email": "connickp@legis.la.gov",
+        "district_voice": "504-371-0240",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=84"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen8.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patrick_Connick",
+        "https://en.wikipedia.org/wiki/Patrick_Connick",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=84",
+        "https://justfacts.votesmart.org/candidate/biography/93757/patrick-connick",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=8",
+        "https://senate.la.gov/smembers?ID=8",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "mcmath-patrick-la-sd11",
+      "name": "Patrick McMath",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-11)",
+      "state": "LA",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d4a6db65-2f6f-464f-ae26-58176f2b68e6"
+      },
+      "contact": {
+        "email": "sen11@legis.la.gov",
+        "district_voice": "985-900-6278",
+        "website": "https://senate.la.gov/smembers.aspx?ID=11"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen11.jpg",
+      "sources": [
+        "https://ballotpedia.org/Patrick_McMath",
+        "https://en.wikipedia.org/wiki/Patrick_McMath",
+        "https://justfacts.votesmart.org/candidate/biography/186901/patrick-mcmath",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=11",
+        "https://senate.la.gov/smembers?ID=11",
+        "https://www.linkedin.com/in/patrick-mcmath-063b9a6b",
+        "https://www.patrickmcmath.com/meet-patrick",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "sawyer-paul-la-hd69",
+      "name": "Paul Sawyer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-69)",
+      "state": "LA",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a05f602f-6eb8-4668-9f25-f438adb5faea"
+      },
+      "contact": {
+        "email": "hse069@legis.la.gov",
+        "district_voice": "225-362-5301",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=69"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://static.wixstatic.com/media/9361fe_da91e496f1294126bbe3a43b182b5045~mv2.jpg/v1/fill/w_1159,h_772,fp_0.44_0.28,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/623291664_122110353027206892_603986649064719459_n.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paul_Sawyer",
+        "https://en.wikipedia.org/wiki/Paul_Sawyer_(politician)",
+        "https://house.louisiana.gov/H_Reps/members?ID=69",
+        "https://www.linkedin.com/in/paulsawyer",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "egan-peter-la-hd74",
+      "name": "Peter Egan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-74)",
+      "state": "LA",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/52df3631-4ef7-4b52-ab11-8a8eeb7bf499"
+      },
+      "contact": {
+        "email": "hse074@legis.la.gov",
+        "district_voice": "985-893-6319",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=74"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep74.jpg",
+      "sources": [
+        "https://ballotpedia.org/Peter_Egan",
+        "https://en.wikipedia.org/wiki/Peter_F._Egan,_Sr.",
+        "https://house.louisiana.gov/H_Reps/members?ID=74",
+        "https://justfacts.votesmart.org/candidate/biography/212588/peter-egan",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "tarver-phil-la-hd36",
+      "name": "Phil Tarver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-36)",
+      "state": "LA",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/04a524b7-1f7a-4d01-8491-c52df47e20cc"
+      },
+      "contact": {
+        "email": "hse036@legis.la.gov",
+        "district_voice": "337-475-8186",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=36"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep36.jpg",
+      "sources": [
+        "https://ballotpedia.org/Phillip_Tarver",
+        "https://en.wikipedia.org/wiki/Phillip_Tarver",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=36",
+        "https://house.louisiana.gov/H_Reps/members?ID=36",
+        "https://justfacts.votesmart.org/candidate/biography/186966/phillip-tarver",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "devillier-phillip-la-hd41",
+      "name": "Phillip DeVillier",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-41)",
+      "state": "LA",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ee23b4bf-f5f7-498c-9fcc-f3b2d6f8fb1d"
+      },
+      "contact": {
+        "email": "devillierp@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=41"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep41.jpg",
+      "sources": [
+        "https://ballotpedia.org/Phillip_DeVillier",
+        "https://en.wikipedia.org/wiki/Phillip_DeVillier",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=41",
+        "https://house.louisiana.gov/H_Reps/members?ID=41",
+        "https://justfacts.votesmart.org/candidate/biography/165532/phillip-devillier",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "thomas-polly-la-hd80",
+      "name": "Polly Thomas",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-80)",
+      "state": "LA",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d95410b8-a66c-4662-bcc6-1884252e061b"
+      },
+      "contact": {
+        "email": "thomaspj@legis.la.gov",
+        "district_voice": "504-837-6559",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=80"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep80.jpg",
+      "sources": [
+        "https://ballotpedia.org/Polly_Thomas",
+        "https://en.wikipedia.org/wiki/Polly_Thomas",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=80",
+        "https://house.louisiana.gov/H_Reps/members?ID=80",
+        "https://justfacts.votesmart.org/candidate/biography/35438/polly-thomas",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "carrier-dewith-la-hd32",
+      "name": "Dewith Carrier",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-32)",
+      "state": "LA",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2bf8549d-d379-4c42-af8c-b5b9d270f17d"
+      },
+      "contact": {
+        "email": "hse032@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=32"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep32.jpg",
+      "sources": [
+        "https://ballotpedia.org/R._Dewith_Carrier",
+        "https://en.wikipedia.org/wiki/R._Dewith_Carrier",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=32",
+        "https://house.louisiana.gov/H_Reps/members?ID=32",
+        "https://justfacts.votesmart.org/candidate/biography/186961/r-carrier",
+        "https://www.congressweb.com/LFF/legislators/info/mbr_id/3322",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "allain-robert-la-sd21",
+      "name": "Robert Allain",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-21)",
+      "state": "LA",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/655ddc35-ecd0-4db2-a3fe-cd86f1cb7d61"
+      },
+      "contact": {
+        "email": "sen21@legis.la.gov",
+        "district_voice": "985-850-2738",
+        "website": "https://senate.la.gov/smembers.aspx?ID=21"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen21.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Allain_III",
+        "https://en.wikipedia.org/wiki/Robert_Allain_III",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=21",
+        "https://senate.la.gov/smembers?ID=21",
+        "https://www.linkedin.com/in/robert-allain-iii-6816678b",
+        "https://www.robertallain.com/about",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "young-rashid-la-hd11",
+      "name": "Rashid Young",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-11)",
+      "state": "LA",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/17cf7c94-788b-49f9-bca2-2f413974a927"
+      },
+      "contact": {
+        "email": "hse011@legis.la.gov",
+        "district_voice": "318-202-9275",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=11"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep11.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rashid_Young",
+        "https://en.wikipedia.org/wiki/Rashid_Armand_Young",
+        "https://house.louisiana.gov/H_Reps/members?ID=11",
+        "https://www.linkedin.com/in/rashid-young-esq-aa5670152",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "crews-raymond-la-hd8",
+      "name": "Raymond Crews",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-8)",
+      "state": "LA",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/126879ce-50c0-4741-a7e7-fb23fecb9d29"
+      },
+      "contact": {
+        "email": "crewsr@legis.la.gov",
+        "district_voice": "318-716-7532",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=8"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep8.jpg",
+      "sources": [
+        "https://ballotpedia.org/Raymond_Crews",
+        "https://en.wikipedia.org/wiki/Raymond_Crews",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=8",
+        "https://house.louisiana.gov/H_Reps/members?ID=8",
+        "https://justfacts.votesmart.org/candidate/biography/176066/raymond-crews",
+        "https://www.linkedin.com/in/raymond-crews-9a620935",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "barrow-regina-la-sd15",
+      "name": "Regina Barrow",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-15)",
+      "state": "LA",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8710f3da-9aea-41a9-acd2-181377cc6ae7"
+      },
+      "contact": {
+        "email": "barrowr@legis.la.gov",
+        "district_voice": "225-359-9400",
+        "website": "https://senate.la.gov/smembers.aspx?ID=15"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen15.jpg",
+      "sources": [
+        "https://ballotpedia.org/Regina_Barrow",
+        "https://en.wikipedia.org/wiki/Regina_Barrow",
+        "https://justfacts.votesmart.org/candidate/biography/56506/regina-barrow",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=15",
+        "https://senate.la.gov/smembers?ID=15",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "butler-rhonda-la-hd38",
+      "name": "Rhonda Butler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-38)",
+      "state": "LA",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6c232d36-fe39-4006-8397-de9cb1e5454c"
+      },
+      "contact": {
+        "email": "hse038@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=38"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep38.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rhonda_Butler",
+        "https://en.wikipedia.org/wiki/Rhonda_Butler",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=38",
+        "https://house.louisiana.gov/H_Reps/members?ID=38",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "edmonds-rick-la-sd6",
+      "name": "Rick Edmonds",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-6)",
+      "state": "LA",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e49647e3-b5c3-4329-9472-27048115441c"
+      },
+      "contact": {
+        "email": "sen06@legis.la.gov",
+        "district_voice": "225-272-1324",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=66"
+      },
+      "bio": {
+        "birth_date": "1956-09-12",
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenPics/Sen6.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rick_Edmonds",
+        "https://en.wikipedia.org/wiki/Rick_Edmonds",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=66",
+        "https://senate.la.gov/smembers?ID=6",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "carter-robby-la-hd72",
+      "name": "Robby Carter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-72)",
+      "state": "LA",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a24e242f-3fd9-479c-8423-cf0c6e2c6273"
+      },
+      "contact": {
+        "email": "carterr@legis.la.gov",
+        "district_voice": "225-222-4194",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=72"
+      },
+      "bio": {
+        "birth_date": "1960-10-20",
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep72.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robby_Carter",
+        "https://en.wikipedia.org/wiki/Robby_Carter",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=72",
+        "https://house.louisiana.gov/H_Reps/members?ID=72",
+        "https://justfacts.votesmart.org/candidate/biography/15195/robby-carter",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "lyons-rodney-la-hd87",
+      "name": "Rodney Lyons",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-87)",
+      "state": "LA",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/71696836-b261-4646-8127-407c40e2c35b"
+      },
+      "contact": {
+        "email": "lyonsr@legis.la.gov",
+        "district_voice": "504-510-5417",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=87"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep87.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rodney_Lyons,_Sr.",
+        "https://en.wikipedia.org/wiki/Rodney_Lyons",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=87",
+        "https://house.louisiana.gov/H_Reps/members?ID=87",
+        "https://justfacts.votesmart.org/candidate/biography/165588/rodney-lyons-sr",
+        "https://lablackcaucus.org/member/rodney-lyons",
+        "https://www.linkedin.com/in/rodney-lyons-1a917999",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "schamerhorn-rodney-la-hd24",
+      "name": "Rodney Schamerhorn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-24)",
+      "state": "LA",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/01cb17b2-a215-4cd5-916a-43c3e91723c7"
+      },
+      "contact": {
+        "email": "hse024@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=24"
+      },
+      "bio": {
+        "birth_date": "1955-01-11",
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep24.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rodney_Schamerhorn",
+        "https://en.wikipedia.org/wiki/Rodney_Schamerhorn",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=24",
+        "https://house.louisiana.gov/H_Reps/members?ID=24",
+        "https://www.linkedin.com/in/rodney-schamerhorn-44ba2861",
+        "https://www.linkedin.com/in/rodney-schamerhorn-5b734569",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "wilder-roger-la-hd71",
+      "name": "Roger Wilder",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-71)",
+      "state": "LA",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c6f00cae-9826-4be6-934e-1a9516b20c4d"
+      },
+      "contact": {
+        "email": "hse071@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=71"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep71.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roger_Wilder_III",
+        "https://en.wikipedia.org/wiki/Roger_William_Wilder_III",
+        "https://house.louisiana.gov/H_Reps/members?ID=71",
+        "https://www.linkedin.com/in/roger-wilder-33031522b",
+        "https://www.rogerwilder.com/about",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "adams-roy-la-hd62",
+      "name": "Roy Adams",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-62)",
+      "state": "LA",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0353532c-93a0-41cb-9621-278c8ef19178"
+      },
+      "contact": {
+        "email": "hse062@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=62"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep62.jpg",
+      "sources": [
+        "https://ballotpedia.org/Roy_Adams",
+        "https://en.wikipedia.org/wiki/Roy_Daryl_Adams",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=62",
+        "https://house.louisiana.gov/H_Reps/members?ID=62",
+        "https://justfacts.votesmart.org/candidate/biography/186018/roy-adams",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "duplessis-royce-la-sd5",
+      "name": "Royce Duplessis",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-5)",
+      "state": "LA",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7d852e7a-ae99-4f89-b4c0-4d7cb7e816db"
+      },
+      "contact": {
+        "email": "duplessisr@legis.la.gov",
+        "district_voice": "504-568-2741",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=93"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen5.jpg",
+      "sources": [
+        "https://ballotpedia.org/Royce_Duplessis",
+        "https://en.wikipedia.org/wiki/Royce_Duplessis",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=93",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=5",
+        "https://senate.la.gov/smembers?ID=5",
+        "https://www.linkedin.com/in/royce-duplessis-102289102",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "bourriaque-ryan-la-hd47",
+      "name": "Ryan Bourriaque",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-47)",
+      "state": "LA",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/85ef927c-d038-4534-a8ff-b99ad6656bda"
+      },
+      "contact": {
+        "email": "hse047@legis.la.gov",
+        "district_voice": "337-893-5035",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=47"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep47.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ryan_Bourriaque",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=47",
+        "https://house.louisiana.gov/H_Reps/members?ID=47",
+        "https://www.linkedin.com/in/ryan-bourriaque-391a4967",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "jenkins-sam-la-sd39",
+      "name": "Sam Jenkins",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-39)",
+      "state": "LA",
+      "district": "SD-39",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fc43b9e1-5e0d-4767-a12e-b2e801444d22"
+      },
+      "contact": {
+        "email": "sen39@legis.la.gov",
+        "district_voice": "318-632-5970",
+        "website": "https://senate.la.gov/smembers?ID=39"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenPics/Sen39.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sam_Jenkins",
+        "https://en.wikipedia.org/wiki/Samuel_Jenkins_Jr.",
+        "https://senate.la.gov/smembers?ID=39",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "mena-shaun-la-hd23",
+      "name": "Shaun Mena",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-23)",
+      "state": "LA",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6fdcb100-c1e5-450e-a3dd-cf42c06cff1e"
+      },
+      "contact": {
+        "email": "hse023@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=23"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep23.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shaun_Mena",
+        "https://en.wikipedia.org/wiki/Shaun_Raphael_Mena",
+        "https://house.louisiana.gov/H_Reps/members?ID=23",
+        "https://www.linkedin.com/in/shaun-mena-2269a126a",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "mack-shane-la-hd95",
+      "name": "Shane Mack",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-95)",
+      "state": "LA",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/46b660af-1c4c-46a1-905e-ffd89a9cc32f"
+      },
+      "contact": {
+        "email": "hse095@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=95"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep95.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shane_Mack",
+        "https://en.wikipedia.org/wiki/Shane_Mack_(politician)",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=95",
+        "https://house.louisiana.gov/H_Reps/members?ID=95",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "barthelemy-sidney-la-sd3",
+      "name": "Sidney Barthelemy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-3)",
+      "state": "LA",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7b4128f7-b147-4cdd-b6ee-0d7d3f2edb6f"
+      },
+      "contact": {
+        "email": "sen03@legis.la.gov",
+        "district_voice": "504-354-9778",
+        "website": "https://senate.la.gov/smembers?ID=3"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Sidney_Barthelemy_II",
+        "https://en.wikipedia.org/wiki/Sidney_Barthelemy_II",
+        "https://senate.la.gov/smembers?ID=3",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "broussard-skip-la-hd37",
+      "name": "Skip Broussard",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-37)",
+      "state": "LA",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b114df8c-8388-44b1-8274-c346addd67c4"
+      },
+      "contact": {
+        "email": "hse037@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=37"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://americanpress.com/wp-content/uploads/sites/65/2026/02/IMG_7387.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Reese_Broussard",
+        "https://en.wikipedia.org/wiki/Reese_Broussard",
+        "https://house.louisiana.gov/H_Reps/members?ID=37",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "berault-stephanie-la-hd76",
+      "name": "Stephanie Berault",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-76)",
+      "state": "LA",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f05b1c80-c85c-42f5-8336-84bcd7b0c847"
+      },
+      "contact": {
+        "email": "hse076@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=76"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep76.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Berault",
+        "https://en.wikipedia.org/wiki/Stephanie_Berault",
+        "https://house.louisiana.gov/H_Reps/members?ID=76",
+        "https://www.linkedin.com/in/stephanie-berault-01090810",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "hilferty-stephanie-la-hd94",
+      "name": "Stephanie Hilferty",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-94)",
+      "state": "LA",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de7591e7-6ae0-47c3-b1ea-12073106498c"
+      },
+      "contact": {
+        "email": "hilfertys@legis.la.gov",
+        "district_voice": "504-885-4154",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=94"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep94.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stephanie_Hilferty",
+        "https://en.wikipedia.org/wiki/Stephanie_Hilferty",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=94",
+        "https://house.louisiana.gov/H_Reps/members?ID=94",
+        "https://www.linkedin.com/in/stephanie-hilferty-52b5a111",
+        "https://www.srsa-realestate.com/team/stephanie-hilferty",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-steven-la-hd2",
+      "name": "Steven Jackson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-2)",
+      "state": "LA",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9c50a5a9-a217-4644-b29d-68d498d9e16d"
+      },
+      "contact": {
+        "email": "hse002@legis.la.gov",
+        "district_voice": "318-676-7747",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=2"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steven_Jackson_(Louisiana)",
+        "https://en.wikipedia.org/wiki/Steven_Jackson_(politician)",
+        "https://house.louisiana.gov/H_Reps/members?ID=2",
+        "https://www.linkedin.com/in/stephen-jackson-83751041",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "cathey-stewart-la-sd33",
+      "name": "Stewart Cathey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-33)",
+      "state": "LA",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dd47283c-c202-461f-b56a-8cc2c0b14f15"
+      },
+      "contact": {
+        "email": "sen33@legis.la.gov",
+        "district_voice": "318-582-5524",
+        "website": "https://senate.la.gov/smembers.aspx?ID=33"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen33.jpg",
+      "sources": [
+        "https://ballotpedia.org/Stewart_Cathey",
+        "https://en.wikipedia.org/wiki/Stewart_Cathey_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/165589/stewart-cathey-jr",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=33",
+        "https://senate.la.gov/smembers?ID=33",
+        "https://www.linkedin.com/in/stewart-cathey-jr-6707682b",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "taylor-sylvia-la-hd57",
+      "name": "Sylvia Taylor",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-57)",
+      "state": "LA",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/586f002d-71da-4836-a306-6e8a3d485263"
+      },
+      "contact": {
+        "email": "hse057@legis.la.gov",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=57"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep57.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sylvia_Taylor",
+        "https://en.wikipedia.org/wiki/Sylvia_Elaine_Taylor",
+        "https://house.louisiana.gov/H_Reps/members?ID=57",
+        "https://www.sylviataylorforstaterepresentative.com/meet-sylvia",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "phelps-tammy-la-hd3",
+      "name": "Tammy Phelps",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-3)",
+      "state": "LA",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a838e3b6-52ea-4ad0-a308-2337762a492b"
+      },
+      "contact": {
+        "email": "hse003@legis.la.gov",
+        "district_voice": "318-862-3080",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=3"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep3.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tammy_Phelps",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=3",
+        "https://house.louisiana.gov/H_Reps/members?ID=3",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "chassion-tehmi-la-hd44",
+      "name": "Tehmi Chassion",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-44)",
+      "state": "LA",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8d0bbdce-eaab-4b3a-8385-bf8c6a2e0b87"
+      },
+      "contact": {
+        "email": "hse044@legis.la.gov",
+        "district_voice": "337-262-2368",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=44"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep44.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tehmi_Chassion",
+        "https://en.wikipedia.org/wiki/Tehmi_Jahi_Chassion",
+        "https://house.louisiana.gov/H_Reps/members?ID=44",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "landry-terry-la-hd67",
+      "name": "Terry Landry",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-67)",
+      "state": "LA",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/709dfea8-f9a9-4734-8b6d-e495f4d51aa3"
+      },
+      "contact": {
+        "email": "hse067@legis.la.gov",
+        "district_voice": "225-256-0850",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=67"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Terry_Landry_Jr._(Louisiana_House_District_67_representative)",
+        "https://en.wikipedia.org/wiki/Terry_Landry_Jr.",
+        "https://house.louisiana.gov/H_Reps/members?ID=67",
+        "https://www.linkedin.com/in/terry-landry-jr-5021316",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "pressly-thomas-la-sd38",
+      "name": "Thomas Pressly",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-38)",
+      "state": "LA",
+      "district": "SD-38",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/577fe2a3-275b-4b82-b508-c0ce29deb2fa"
+      },
+      "contact": {
+        "email": "sen38@legis.la.gov",
+        "district_voice": "318-862-9920",
+        "website": "https://senate.la.gov/smembers?ID=38"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenPics/Sen38.jpg",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Pressly",
+        "https://en.wikipedia.org/wiki/Thomas_Pressly",
+        "https://justfacts.votesmart.org/candidate/biography/186933/thomas-pressly",
+        "https://senate.la.gov/smembers?ID=38",
+        "https://www.linkedin.com/in/thomas-pressly-3134b39",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "kerner-tim-la-hd84",
+      "name": "Tim Kerner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-84)",
+      "state": "LA",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ebb9d9b-329d-4a43-a33c-e3608ef09cc8"
+      },
+      "contact": {
+        "email": "hse084@legis.la.gov",
+        "district_voice": "504-689-7725",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=84"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep84.jpg",
+      "sources": [
+        "https://ballotpedia.org/Timothy_Kerner",
+        "https://en.wikipedia.org/wiki/Timothy_P._Kerner_Sr",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=84",
+        "https://house.louisiana.gov/H_Reps/members?ID=84",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "bacala-tony-la-hd59",
+      "name": "Tony Bacala",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-59)",
+      "state": "LA",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9fde5725-d1b2-4afc-9897-2706dda502c8"
+      },
+      "contact": {
+        "email": "bacalat@legis.la.gov",
+        "district_voice": "225-677-8023",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=59"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep59.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tony_Bacala",
+        "https://en.wikipedia.org/wiki/Tony_Bacala",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=59",
+        "https://house.louisiana.gov/H_Reps/members?ID=59",
+        "https://justfacts.votesmart.org/candidate/biography/165556/tony-bacala",
+        "https://www.linkedin.com/in/tony-bacala-2689b537",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "hebert-troy-la-hd31",
+      "name": "Troy Hebert",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-31)",
+      "state": "LA",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ba2902d5-5a0e-4e71-b396-6e85358511de"
+      },
+      "contact": {
+        "email": "hse031@legis.la.gov",
+        "district_voice": "337-347-7077",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=31"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep31.jpg",
+      "sources": [
+        "https://ballotpedia.org/Troy_Hebert_(Louisiana_House_District_31_candidate)",
+        "https://hebertforlouisiana.com/about",
+        "https://house.louisiana.gov/H_Reps/members?ID=31",
+        "https://www.linkedin.com/in/troy-hebert-9465302b",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "hodges-valarie-la-sd13",
+      "name": "Valarie Hodges",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-13)",
+      "state": "LA",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/33e76c3a-a834-444c-9872-fc2af5c83837"
+      },
+      "contact": {
+        "email": "sen13@legis.la.gov",
+        "district_voice": "225-791-2199",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=64"
+      },
+      "bio": {
+        "birth_date": "1955-03-12",
+        "gender": "Female"
+      },
+      "image": "https://senate.la.gov/SenPics/Sen13.jpg",
+      "sources": [
+        "https://ballotpedia.org/Valarie_Hodges",
+        "https://en.wikipedia.org/wiki/Valarie_Hodges",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=64",
+        "https://justfacts.votesmart.org/candidate/biography/94018/valarie-hodges",
+        "https://senate.la.gov/smembers?ID=13",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "lafleur-vanessa-la-hd101",
+      "name": "Vanessa LaFleur",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-101)",
+      "state": "LA",
+      "district": "HD-101",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9510158f-4e63-4b68-ad44-daef2987b780"
+      },
+      "contact": {
+        "email": "hse101@legis.la.gov",
+        "district_voice": "225-925-6880",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=101"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep101.jpg",
+      "sources": [
+        "https://ballotpedia.org/Vanessa_Caston_LaFleur",
+        "https://en.wikipedia.org/wiki/Vanessa_Caston_LaFleur",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=101",
+        "https://house.louisiana.gov/H_Reps/members?ID=101",
+        "https://www.linkedin.com/in/vanessa-caston-lafleur-652a45230",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "cox-vincent-la-hd85",
+      "name": "Vincent Cox",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-85)",
+      "state": "LA",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fe1e7481-9bbb-4e58-8d19-9be18558f12b"
+      },
+      "contact": {
+        "email": "hse085@legis.la.gov",
+        "district_voice": "504-361-6013",
+        "website": "https://house.louisiana.gov/H_Reps/members?ID=85"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics/rep85.jpg",
+      "sources": [
+        "https://ballotpedia.org/Vincent_Cox_III",
+        "https://en.wikipedia.org/wiki/Vincent_Cox_III",
+        "https://house.louisiana.gov/H_Reps/members?ID=85",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "st-blanc-vinney-la-hd50",
+      "name": "Vinney St. Blanc",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-50)",
+      "state": "LA",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c75a9e00-6017-4e74-95fd-70fbfa803c58"
+      },
+      "contact": {
+        "email": "hse050@legis.la.gov",
+        "district_voice": "337-828-7778",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=50"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep50.jpg",
+      "sources": [
+        "https://ballotpedia.org/Vincent_St._Blanc_III",
+        "https://en.wikipedia.org/wiki/Vincent_St._Blanc_III",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=50",
+        "https://house.louisiana.gov/H_Reps/members?ID=50",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "luneau-jay-la-sd29",
+      "name": "Jay Luneau",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Senator (SD-29)",
+      "state": "LA",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b4a4657a-e588-4036-9a0f-48847e22a140"
+      },
+      "contact": {
+        "email": "luneauj@legis.la.gov",
+        "district_voice": "318-484-2288",
+        "website": "https://senate.la.gov/smembers.aspx?ID=29"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://senate.la.gov/SenatorPics/Sen29.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jay_Luneau",
+        "https://en.wikipedia.org/wiki/Jay_Luneau",
+        "https://luneaubecklaw.com/about/senator-w-jay-luneau",
+        "https://luneaulaw.com/profiles/wjayluneau.html",
+        "https://senate.la.gov/Senators_FullInfo",
+        "https://senate.la.gov/smembers.aspx?ID=29",
+        "https://senate.la.gov/smembers?ID=29",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "mcmahen-wayne-la-hd10",
+      "name": "Wayne McMahen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-10)",
+      "state": "LA",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c3e1299d-034f-4e70-9c86-c003c6e35964"
+      },
+      "contact": {
+        "email": "mcmahenw@legis.la.gov",
+        "district_voice": "318-371-3092",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=10"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wayne_McMahen",
+        "https://en.wikipedia.org/wiki/Wayne_McMahen",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=10",
+        "https://house.louisiana.gov/H_Reps/members?ID=10",
+        "https://www.linkedin.com/in/wayne-mcmahen-138818a5",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    },
+    {
+      "politician_id": "carter-wilford-la-hd34",
+      "name": "Wilford Carter",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Louisiana State Representative (HD-34)",
+      "state": "LA",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "LA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3ced6b49-7f72-41d0-a84c-0e7cff17e88b"
+      },
+      "contact": {
+        "email": "hse034@legis.la.gov",
+        "district_voice": "337-491-2320",
+        "website": "https://house.louisiana.gov/H_Reps/members.aspx?ID=34"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://house.louisiana.gov/H_Reps/RepPics20/rep34.jpg",
+      "sources": [
+        "https://ballotpedia.org/Wilford_D._Carter",
+        "https://house.louisiana.gov/H_Reps/H_Reps_FullInfo",
+        "https://house.louisiana.gov/H_Reps/members.aspx?ID=34",
+        "https://house.louisiana.gov/H_Reps/members?ID=34",
+        "https://justfacts.votesmart.org/candidate/biography/165520/wilford-carter-sr",
+        "https://data.openstates.org/people/current/la.csv"
+      ]
+    }
+  ]
+}

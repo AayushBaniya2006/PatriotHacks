@@ -1,0 +1,2960 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/or.csv",
+  "state": "OR",
+  "politicians": [
+    {
+      "politician_id": "skarlatos-alek-or-hd4",
+      "name": "Alek Skarlatos",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-4)",
+      "state": "OR",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8a65569e-4ed6-4952-86b8-d499bcbf1cae"
+      },
+      "contact": {
+        "email": "rep.alekskarlatos@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/skarlatos"
+      },
+      "bio": {
+        "birth_date": "1992-10-10",
+        "gender": "Male"
+      },
+      "image": "https://storage.googleapis.com/enview-dev-public-general/legislative-people-photos/121328.jpg",
+      "sources": [
+        "https://ballotpedia.org/Alek_Skarlatos",
+        "https://en.wikipedia.org/wiki/Alek_Skarlatos",
+        "https://justfacts.votesmart.org/candidate/biography/189868/alek-skarlatos",
+        "https://www.oregonlegislature.gov/skarlatos",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "valderrama-andrea-or-hd47",
+      "name": "Andrea Valderrama",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-47)",
+      "state": "OR",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3efec526-6660-45fa-9a10-b02716b2a779"
+      },
+      "contact": {
+        "email": "rep.andreavalderrama@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/valderrama"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/valderrama/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Andrea_Valderrama",
+        "https://en.wikipedia.org/wiki/Andrea_Valderrama",
+        "https://www.linkedin.com/in/andrea-valderrama-21801023",
+        "https://www.oregonlegislature.gov/valderrama",
+        "https://www.oregonlegislature.gov/valderrama/Pages/map.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "scharf-anna-or-hd23",
+      "name": "Anna Scharf",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-23)",
+      "state": "OR",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a22ec130-3ba7-4304-9e6f-3a950b8454cb"
+      },
+      "contact": {
+        "email": "rep.annascharf@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/scharf"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/scharf/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Anna_Scharf",
+        "https://en.wikipedia.org/wiki/Anna_Scharf",
+        "https://www.linkedin.com/in/anna-scharf-7b631911",
+        "https://www.oregonlegislature.gov/scharf",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "hartman-annessa-or-hd40",
+      "name": "Annessa Hartman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-40)",
+      "state": "OR",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7a36fd6a-105a-44b3-b7e3-b3447979db49"
+      },
+      "contact": {
+        "email": "rep.annessahartman@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/hartman"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.clackamas.us/sites/default/files/2021-12/annessa_hartman.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Annessa_Hartman",
+        "https://en.wikipedia.org/wiki/Annessa_Hartman",
+        "https://www.linkedin.com/in/annessahartman",
+        "https://www.oregonlegislature.gov/hartman",
+        "https://www.oregonlegislature.gov/hartman/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "broadman-anthony-or-sd27",
+      "name": "Anthony Broadman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-27)",
+      "state": "OR",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/305e1426-2193-4e49-accf-6b26d224e92b"
+      },
+      "contact": {
+        "email": "sen.anthonybroadman@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/broadman"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Anthony_Broadman.jpg",
+      "sources": [
+        "https://ballotpedia.org/Anthony_Broadman",
+        "https://www.linkedin.com/in/abroadman",
+        "https://www.oregonlegislature.gov/broadman",
+        "https://www.oregonlegislature.gov/broadman/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "dobson-april-or-hd39",
+      "name": "April Dobson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-39)",
+      "state": "OR",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/571be1bf-e0ba-45a3-97be-d5df3bc98738"
+      },
+      "contact": {
+        "email": "rep.aprildobson@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/dobson"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1753906547/nclackk12orus/tvxc3ditrbsdipxxntfk/CopyofAprilDobsonPhoto2.jpg",
+      "sources": [
+        "https://ballotpedia.org/April_Dobson",
+        "https://en.wikipedia.org/wiki/April_Dobson",
+        "https://justfacts.votesmart.org/candidate/biography/215510/april-dobson",
+        "https://www.linkedin.com/in/april-dobson-48641a341",
+        "https://www.oregonlegislature.gov/dobson",
+        "https://www.oregonlegislature.gov/dobson/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "bowman-ben-or-hd25",
+      "name": "Ben Bowman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-25)",
+      "state": "OR",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a19e8e1f-4859-4d05-8dc7-6f0a352c0757"
+      },
+      "contact": {
+        "email": "rep.benbowman@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/bowman"
+      },
+      "bio": {
+        "birth_date": "1992-01-23",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/bowman/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Ben_Bowman",
+        "https://en.wikipedia.org/wiki/Ben_Bowman_(politician)",
+        "https://www.linkedin.com/in/benjaminwbowman",
+        "https://www.oregonlegislature.gov/bowman",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "levy-bobby-or-hd58",
+      "name": "Bobby Levy",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-58)",
+      "state": "OR",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4c9f2660-6dd3-49f5-a503-6fe5bc5c7787"
+      },
+      "contact": {
+        "email": "rep.bobbylevy@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/levy"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/levy/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Bobby_Levy",
+        "https://en.wikipedia.org/wiki/Bobby_Levy",
+        "https://www.linkedin.com/in/bobby-levy-89737947",
+        "https://www.oregonlegislature.gov/levy",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "wright-boomer-or-hd9",
+      "name": "Boomer Wright",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-9)",
+      "state": "OR",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a95c31b3-9bfa-4ab1-93d1-278082ead92a"
+      },
+      "contact": {
+        "email": "rep.boomerwright@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/wright"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/wright/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Boomer_Wright",
+        "https://en.wikipedia.org/wiki/Boomer_Wright",
+        "https://www.linkedin.com/in/boomer-wright-7b164266",
+        "https://www.oregonlegislature.gov/wright",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "starr-bruce-or-sd12",
+      "name": "Bruce Starr",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-12)",
+      "state": "OR",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e420fffb-7b56-42db-8cc4-531526ad6802"
+      },
+      "contact": {
+        "email": "sen.brucestarr@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/starr"
+      },
+      "bio": {
+        "birth_date": "1969-01-12",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/starr/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bruce_Starr",
+        "https://en.wikipedia.org/wiki/Bruce_Starr",
+        "https://www.linkedin.com/in/brucewstarr",
+        "https://www.oregonlegislature.gov/senate/Pages/SenatorsAll.aspx",
+        "https://www.oregonlegislature.gov/starr",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "hayden-cedric-or-sd6",
+      "name": "Cedric Hayden",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-6)",
+      "state": "OR",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/95da50da-34df-41f5-8900-ff8bec038272"
+      },
+      "contact": {
+        "email": "sen.cedrichayden@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/hayden"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/hayden/PublishingImages/Pages/default/Sen%20Hayden%202023%20closer.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Cedric_Hayden",
+        "https://en.wikipedia.org/wiki/Cedric_Ross_Hayden",
+        "https://justfacts.votesmart.org/candidate/biography/155196/cedric-hayden",
+        "https://www.linkedin.com/in/cedric-ross-hayden-8b71a78a",
+        "https://www.oregonlegislature.gov/hayden",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "gorsek-chris-or-sd25",
+      "name": "Chris Gorsek",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-25)",
+      "state": "OR",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d5d3b10e-9a5c-464a-93ad-bd824af1cbc0"
+      },
+      "contact": {
+        "email": "sen.chrisgorsek@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/gorsek"
+      },
+      "bio": {
+        "birth_date": "1958-01-28",
+        "gender": "Male"
+      },
+      "image": "http://www.oregonlegislature.gov/house/MemberPhotos/gorsek.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Chris_Gorsek",
+        "https://en.wikipedia.org/wiki/Chris_Gorsek",
+        "https://www.linkedin.com/in/rep-chris-gorsek-phd-8206ab48",
+        "https://www.oregonlegislature.gov/gorsek",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "drazan-christine-or-sd26",
+      "name": "Christine Drazan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-26)",
+      "state": "OR",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9c7dcacb-50b9-4338-924b-cf6d333dc43a"
+      },
+      "contact": {
+        "email": "sen.christinedrazan@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/drazan"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/drazan/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2021R1')/Legislators",
+        "https://ballotpedia.org/Christine_Drazan",
+        "https://en.wikipedia.org/wiki/Christine_Drazan",
+        "https://justfacts.votesmart.org/candidate/biography/179911/christine-drazan",
+        "https://www.linkedin.com/in/christine-drazan-3b71516",
+        "https://www.oregonlegislature.gov/drazan",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "boice-court-or-hd1",
+      "name": "Court Boice",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-1)",
+      "state": "OR",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aa0eac5e-9089-4c72-8edb-4493e1c4a0ad"
+      },
+      "contact": {
+        "email": "rep.courtboice@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/boice"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Court_Boice.png",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Court_Boice",
+        "https://en.wikipedia.org/wiki/Court_Boice",
+        "https://justfacts.votesmart.org/candidate/biography/178635/court-boice",
+        "https://www.oregonlegislature.gov/boice",
+        "https://www.oregonlegislature.gov/boice/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "neron-misslin-courtney-or-sd13",
+      "name": "Courtney Neron Misslin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-13)",
+      "state": "OR",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2bf5a8ca-cadb-4544-89e2-749f13673599"
+      },
+      "contact": {
+        "email": "sen.courtneyneronmisslin@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/neron"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/neron/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Courtney_Neron",
+        "https://en.wikipedia.org/wiki/Courtney_Neron",
+        "https://justfacts.votesmart.org/candidate/biography/184580/courtney-neron",
+        "https://www.oregonlegislature.gov/neron",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "javadi-cyrus-or-hd32",
+      "name": "Cyrus Javadi",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-32)",
+      "state": "OR",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1b0e1c41-4914-4f3d-8a49-fd11a019526a"
+      },
+      "contact": {
+        "email": "rep.cyrusjavadi@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/javadi"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/javadi/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Cyrus_Javadi",
+        "https://en.wikipedia.org/wiki/Cyrus_Javadi",
+        "https://www.linkedin.com/in/cyrus-javadi-dds",
+        "https://www.oregonlegislature.gov/javadi",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "grayber-dacia-or-hd28",
+      "name": "Dacia Grayber",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-28)",
+      "state": "OR",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f08a3b2f-8e56-41e4-bf5f-84a43fd5aab5"
+      },
+      "contact": {
+        "email": "rep.daciagrayber@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/grayber"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/grayber/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Dacia_Grayber",
+        "https://en.wikipedia.org/wiki/Dacia_Grayber",
+        "https://justfacts.votesmart.org/candidate/biography/190850/dacia-grayber",
+        "https://www.linkedin.com/in/dacia-grayber-6bbb2936",
+        "https://www.oregonlegislature.gov/grayber",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "nguyen-daniel-or-hd38",
+      "name": "Daniel Nguyen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-38)",
+      "state": "OR",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4b30682c-7833-4375-815b-2412cb9c61c7"
+      },
+      "contact": {
+        "email": "rep.danielnguyen@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/nguyend"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/nguyend/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Daniel_Nguyen",
+        "https://en.wikipedia.org/wiki/Daniel_Nguyen_(politician)",
+        "https://www.linkedin.com/in/daniel-l-nguyen-mba-87a46548",
+        "https://www.oregonlegislature.gov/nguyend",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "edwards-darcey-or-hd31",
+      "name": "Darcey Edwards",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-31)",
+      "state": "OR",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e8deb6b6-9cd0-498d-9422-81d731972da5"
+      },
+      "contact": {
+        "email": "rep.darceyedwards@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/edwards"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/edwards/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Darcey_Edwards",
+        "https://justfacts.votesmart.org/candidate/215501/darcey-edwards",
+        "https://www.linkedin.com/in/darcey-edwards-7b053010",
+        "https://www.oregonlegislature.gov/edwards",
+        "https://www.oregonlegislature.gov/edwards/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "harbick-darin-or-hd12",
+      "name": "Darin Harbick",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-12)",
+      "state": "OR",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/69c394b0-4299-4776-82aa-f847907f5308"
+      },
+      "contact": {
+        "email": "rep.darinharbick@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/harbick"
+      },
+      "bio": {
+        "birth_date": "1969-03-29",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/DarinHarbick.png",
+      "sources": [
+        "https://ballotpedia.org/Darin_Harbick",
+        "https://www.linkedin.com/in/darin-harbick-8a772184",
+        "https://www.oregonlegislature.gov/harbick",
+        "https://www.oregonlegislature.gov/harbick/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-david-or-sd1",
+      "name": "David Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-1)",
+      "state": "OR",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/26a734f0-51f9-4959-a213-bc345c1050ec"
+      },
+      "contact": {
+        "email": "sen.davidbrocksmith@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/smithd"
+      },
+      "bio": {
+        "birth_date": "1962-07-23",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/smithd/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/David_Brock_Smith_(Oregon_state_senator)",
+        "https://ballotpedia.org/David_Smith_(Oregon)",
+        "https://en.wikipedia.org/wiki/David_Brock_Smith",
+        "https://www.linkedin.com/in/david-brock-smith-793282ba",
+        "https://www.oregonlegislature.gov/smithd",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "gomberg-david-or-hd10",
+      "name": "David Gomberg",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-10)",
+      "state": "OR",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/db52dfee-b099-4ec9-800c-075d09710ca6"
+      },
+      "contact": {
+        "email": "rep.davidgomberg@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/gomberg"
+      },
+      "bio": {
+        "birth_date": "1953-06-09",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/gomberg/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/David_Gomberg",
+        "https://en.wikipedia.org/wiki/David_Gomberg",
+        "https://www.oregonlegislature.gov/gomberg",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "patterson-deb-or-sd10",
+      "name": "Deb Patterson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-10)",
+      "state": "OR",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6c867cbf-9d0b-4dd8-9537-55e834a42dc4"
+      },
+      "contact": {
+        "email": "sen.debpatterson@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/patterson"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/patterson/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Deb_Patterson",
+        "https://en.wikipedia.org/wiki/Deb_Patterson_(politician)",
+        "https://www.linkedin.com/in/deb-patterson-49009162",
+        "https://www.oregonlegislature.gov/Patterson",
+        "https://www.oregonlegislature.gov/patterson",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "linthicum-diane-or-sd28",
+      "name": "Diane Linthicum",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-28)",
+      "state": "OR",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5ab0368e-6434-46c6-a7f4-7ee34b596fd1"
+      },
+      "contact": {
+        "email": "sen.dianelinthicum@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/linthicumd"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://ormoneywatch.com/wp-content/uploads/2023/11/Diane-Linthicum-Senate-1.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Diane_Linthicum",
+        "https://en.wikipedia.org/wiki/Diane_Linthicum",
+        "https://www.oregonlegislature.gov/linthicumd",
+        "https://www.oregonlegislature.gov/linthicumd/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "anderson-dick-or-sd5",
+      "name": "Dick Anderson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-5)",
+      "state": "OR",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5e28a30c-5ca9-4221-a331-9321267fbae6"
+      },
+      "contact": {
+        "email": "sen.dickanderson@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/anderson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/anderson/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Dick_Anderson_(Oregon)",
+        "https://en.wikipedia.org/wiki/Dick_Anderson_(Oregon_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/168001/dick-anderson",
+        "https://www.oregonlegislature.gov/anderson",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "yunker-dwayne-or-hd3",
+      "name": "Dwayne Yunker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-3)",
+      "state": "OR",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/497f7e2e-b1d8-4803-8fb8-22dc045bc0b0"
+      },
+      "contact": {
+        "email": "rep.dwayneyunker@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/yunker"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/yunker/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dwayne_Yunker",
+        "https://justfacts.votesmart.org/candidate/biography/214543/dwayne-yunker",
+        "https://www.linkedin.com/in/dwayne-yunker-2b044b71",
+        "https://www.oregonlegislature.gov/yunker",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "reschke-werner-or-hd55",
+      "name": "Werner Reschke",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-55)",
+      "state": "OR",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/709441c1-d716-47bc-8ac6-353abb1e039e"
+      },
+      "contact": {
+        "email": "rep.ewernerreschke@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/reschke"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/reschke/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/E._Werner_Reschke",
+        "https://en.wikipedia.org/wiki/E._Werner_Reschke",
+        "https://www.linkedin.com/in/e-werner-reschke-6522a938",
+        "https://www.oregonlegislature.gov/reschke",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "diehl-ed-or-hd17",
+      "name": "Ed Diehl",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-17)",
+      "state": "OR",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fa290a38-0cea-4dc8-a981-33ee4ff341f4"
+      },
+      "contact": {
+        "email": "rep.eddiehl@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/diehl"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/diehl/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Ed_Diehl",
+        "https://en.wikipedia.org/wiki/Ed_Diehl",
+        "https://www.linkedin.com/in/ed-diehl",
+        "https://www.oregonlegislature.gov/diehl",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "levy-em-or-hd53",
+      "name": "Em Levy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-53)",
+      "state": "OR",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2be8d7ed-5767-4a67-a5e9-b519691c14ef"
+      },
+      "contact": {
+        "email": "rep.emersonlevy@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/levye"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/levye/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Emerson_Levy",
+        "https://en.wikipedia.org/wiki/Emerson_Levy",
+        "https://justfacts.votesmart.org/candidate/biography/190882/emerson-levy",
+        "https://www.linkedin.com/in/emersonjackson",
+        "https://www.oregonlegislature.gov/Levye",
+        "https://www.oregonlegislature.gov/levye",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "mcintire-emily-or-hd56",
+      "name": "Emily McIntire",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-56)",
+      "state": "OR",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2ef0c138-ff50-4a2b-9914-1a5edb506b49"
+      },
+      "contact": {
+        "email": "rep.emilymcintire@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/mcintire"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/mcintire/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Emily_McIntire",
+        "https://en.wikipedia.org/wiki/Emily_McIntire",
+        "https://www.oregonlegislature.gov/mcintire",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "chaichi-farrah-or-hd35",
+      "name": "Farrah Chaichi",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-35)",
+      "state": "OR",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bec9a2c9-a77c-4ac9-b649-2a7360a5c0ad"
+      },
+      "contact": {
+        "email": "rep.farrahchaichi@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/chaichi"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/chaichi/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Farrah_Chaichi",
+        "https://en.wikipedia.org/wiki/Farrah_Chaichi",
+        "https://www.oregonlegislature.gov/chaichi",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "prozanski-floyd-or-sd4",
+      "name": "Floyd Prozanski",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-4)",
+      "state": "OR",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a36ed400-bbdd-4053-9ae4-576ba52e95ca"
+      },
+      "contact": {
+        "email": "sen.floydprozanski@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/prozanski"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.oregonlegislature.gov/senate/MemberPhotos/prozanski.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Floyd_Prozanski",
+        "https://en.wikipedia.org/wiki/Floyd_Prozanski",
+        "https://justfacts.votesmart.org/candidate/biography/3024/floyd-prozanski-jr",
+        "https://www.oregonlegislature.gov/prozanski",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "girod-fred-or-sd9",
+      "name": "Fred Girod",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-9)",
+      "state": "OR",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aba97bd3-cdf6-4860-9b2c-cbd62e825e79"
+      },
+      "contact": {
+        "email": "sen.fredgirod@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/girod"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.oregonlegislature.gov/senate/MemberPhotos/girod.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Fred_Girod",
+        "https://en.wikipedia.org/wiki/Fred_Girod",
+        "https://www.oregonlegislature.gov/girod",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-greg-or-hd57",
+      "name": "Greg Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-57)",
+      "state": "OR",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/72dc94e8-e5d5-4376-aab5-06f6b3a771c7"
+      },
+      "contact": {
+        "email": "rep.gregsmith@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/smithg"
+      },
+      "bio": {
+        "birth_date": "1968-11-07",
+        "gender": "Male"
+      },
+      "image": "http://www.oregonlegislature.gov/house/MemberPhotos/smithg.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Greg_Smith_(Oregon)",
+        "https://en.wikipedia.org/wiki/Greg_Smith_(Oregon_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/46752/greg-smith",
+        "https://www.oregonlegislature.gov/smithg",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "pham-hai-or-hd36",
+      "name": "Hai Pham",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-36)",
+      "state": "OR",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a13db125-e6e2-4621-a1a7-7de714796b90"
+      },
+      "contact": {
+        "email": "rep.haipham@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/phamh"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/phamh/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Hai_Pham",
+        "https://en.wikipedia.org/wiki/Hai_Pham",
+        "https://www.linkedin.com/in/drhaipham",
+        "https://www.oregonlegislature.gov/phamh",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "manning-james-or-sd7",
+      "name": "James Manning",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-7)",
+      "state": "OR",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f1be7436-8ea5-48b2-8997-53dd566633b9"
+      },
+      "contact": {
+        "email": "sen.jamesmanning@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/Manning"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/manning/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/James_Manning_(Oregon)",
+        "https://en.wikipedia.org/wiki/James_Manning_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/168035/james-manning-jr",
+        "https://www.linkedin.com/in/senator-james-i-manning-jr-0822163b",
+        "https://www.oregonlegislature.gov/manning",
+        "https://www.oregonlegislature.gov/Manning",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "cate-jami-or-hd11",
+      "name": "Jami Cate",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-11)",
+      "state": "OR",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0ac3b1f-565d-4766-b83d-3f08d6c0116b"
+      },
+      "contact": {
+        "email": "rep.jamicate@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/cate"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/cate/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Jami_Cate",
+        "https://en.wikipedia.org/wiki/Jami_Cate",
+        "https://www.oregonlegislature.gov/cate",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "sollman-janeen-or-sd15",
+      "name": "Janeen Sollman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-15)",
+      "state": "OR",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9d3f5669-f452-4926-91ec-a74a4c4a48e5"
+      },
+      "contact": {
+        "email": "sen.janeensollman@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/sollman"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/sollman/PublishingImages/Pages/staff/alteza_films-66_43format.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Janeen_Sollman",
+        "https://en.wikipedia.org/wiki/Janeen_Sollman",
+        "https://www.linkedin.com/in/janeen-sollman-1555216b",
+        "https://www.oregonlegislature.gov/sollman",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "kropf-jason-or-hd54",
+      "name": "Jason Kropf",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-54)",
+      "state": "OR",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/47e270fe-abc4-4f5d-9bad-2b7979442f5d"
+      },
+      "contact": {
+        "email": "rep.jasonkropf@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/kropf"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/kropf/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Jason_Kropf",
+        "https://en.wikipedia.org/wiki/Jason_Kropf",
+        "https://www.oregonlegislature.gov/kropf",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "golden-jeff-or-sd3",
+      "name": "Jeff Golden",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-3)",
+      "state": "OR",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0240017c-38e7-45da-8841-c40b007965dc"
+      },
+      "contact": {
+        "email": "sen.jeffgolden@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/golden"
+      },
+      "bio": {
+        "birth_date": "1950-04-24",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/golden/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Jeff_Golden_(Oregon)",
+        "https://en.wikipedia.org/wiki/Jeff_Golden",
+        "https://justfacts.votesmart.org/candidate/biography/179932/jeff-golden",
+        "https://www.linkedin.com/in/jeff-golden-bba8015",
+        "https://www.oregonlegislature.gov/golden",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "helfrich-jeff-or-hd52",
+      "name": "Jeff Helfrich",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-52)",
+      "state": "OR",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/936e2bdf-97c6-4297-80e7-faef3bb2e3d7"
+      },
+      "contact": {
+        "email": "rep.jeffhelfrich@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/helfrich"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api/storage/uploads/thumbs/200/300/crop/best/Jeffrey_Helfrich.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Jeffrey_Helfrich",
+        "https://en.wikipedia.org/wiki/Jeff_Helfrich",
+        "https://www.linkedin.com/in/jeff-helfrich-0408ab201",
+        "https://www.oregonlegislature.gov/helfrich",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "lively-john-or-hd7",
+      "name": "John Lively",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-7)",
+      "state": "OR",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/13afc78a-1028-462e-8f98-6df3f7f028d5"
+      },
+      "contact": {
+        "email": "rep.johnlively@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/lively"
+      },
+      "bio": {
+        "birth_date": "1946-11-30",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/lively/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/John_Lively",
+        "https://en.wikipedia.org/wiki/John_Lively_%28politician%29",
+        "https://www.oregonlegislature.gov/lively",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "walters-jules-or-hd37",
+      "name": "Jules Walters",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-37)",
+      "state": "OR",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/55ecfa8d-e89f-4a7b-af2d-6822f1025607"
+      },
+      "contact": {
+        "email": "rep.juleswalters@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/walters"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/house/MemberPhotos/walters.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Jules_Walters",
+        "https://en.wikipedia.org/wiki/Jules_Walters",
+        "https://www.linkedin.com/in/juleswaltersoregon",
+        "https://www.oregonlegislature.gov/walters",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "fahey-julie-or-hd14",
+      "name": "Julie Fahey",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-14)",
+      "state": "OR",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b523dd9a-d913-4a8e-95e2-c546016f2b1a"
+      },
+      "contact": {
+        "email": "rep.juliefahey@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/fahey"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/fahey/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Julie_Fahey",
+        "https://en.wikipedia.org/wiki/Julie_Fahey",
+        "https://www.linkedin.com/in/julie-fahey-bb56651",
+        "https://www.oregonlegislature.gov/fahey",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "lieber-kate-or-sd14",
+      "name": "Kate Lieber",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-14)",
+      "state": "OR",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cc87cb36-e12e-42e1-ac5e-c2d50e1d2018"
+      },
+      "contact": {
+        "email": "sen.katelieber@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/lieber"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/lieber/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Kate_Lieber",
+        "https://en.wikipedia.org/wiki/Kate_Lieber",
+        "https://www.linkedin.com/in/kate-b-lieber-947867132",
+        "https://www.oregonlegislature.gov/lieber",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "taylor-kathleen-or-sd21",
+      "name": "Kathleen Taylor",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-21)",
+      "state": "OR",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/97c2b8fd-9e87-43b7-b202-6541af36bab7"
+      },
+      "contact": {
+        "email": "sen.kathleentaylor@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/taylor"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/taylor/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Kathleen_Taylor_(Oregon)",
+        "https://en.wikipedia.org/wiki/Kathleen_Taylor_(politician)",
+        "https://www.linkedin.com/in/kathleen-taylor-b029b846",
+        "https://www.oregonlegislature.gov/taylor",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "jama-kayse-or-sd24",
+      "name": "Kayse Jama",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-24)",
+      "state": "OR",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7532bf1f-c85e-4683-a401-ca87af088e5e"
+      },
+      "contact": {
+        "email": "sen.kaysejama@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/jama"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/Jama/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Kayse_Jama",
+        "https://en.wikipedia.org/wiki/Kayse_Jama",
+        "https://www.linkedin.com/in/kayse-jama-5aa17652",
+        "https://www.oregonlegislature.gov/Jama",
+        "https://www.oregonlegislature.gov/jama",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "helm-ken-or-hd27",
+      "name": "Ken Helm",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-27)",
+      "state": "OR",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3770e09c-3492-4388-8047-e3dc83f026f3"
+      },
+      "contact": {
+        "email": "rep.kenhelm@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/helm"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/helm/PublishingImages/HD18-784-Edit.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Ken_Helm",
+        "https://en.wikipedia.org/wiki/Ken_Helm",
+        "https://www.linkedin.com/in/ken-helm-3401393",
+        "https://www.oregonlegislature.gov/helm",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "mannix-kevin-or-hd21",
+      "name": "Kevin Mannix",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-21)",
+      "state": "OR",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/af99b8a9-452f-44e0-8404-83dfe05dbfd7"
+      },
+      "contact": {
+        "email": "rep.kevinmannix@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/mannix"
+      },
+      "bio": {
+        "birth_date": "1949-11-26",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/mannix/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Kevin_Mannix",
+        "https://en.wikipedia.org/wiki/Kevin_Mannix",
+        "https://mannixlawfirm.com",
+        "https://www.linkedin.com/in/kevin-l-mannix",
+        "https://www.oregonlegislature.gov/mannix",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "pham-khanh-or-sd23",
+      "name": "Khanh Pham",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-23)",
+      "state": "OR",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3b7edee5-fb20-48d2-98db-541721e24e65"
+      },
+      "contact": {
+        "email": "sen.khanhpham@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/pham"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/pham/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Khanh_Pham",
+        "https://en.wikipedia.org/wiki/Khanh_Pham",
+        "https://justfacts.votesmart.org/candidate/biography/190874/khanh-pham",
+        "https://www.linkedin.com/in/khanh-pham-b484522",
+        "https://www.oregonlegislature.gov/pham",
+        "https://www.oregonlegislature.gov/pham/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "thatcher-kim-or-sd11",
+      "name": "Kim Thatcher",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-11)",
+      "state": "OR",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5947e2cd-aa8b-4df1-869f-961357705a3c"
+      },
+      "contact": {
+        "email": "sen.kimthatcher@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/thatcher"
+      },
+      "bio": {
+        "birth_date": "1964-10-30",
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/thatcher/PublishingImages/thatcher2023.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Kim_Thatcher",
+        "https://en.wikipedia.org/wiki/Kim_Thatcher",
+        "https://justfacts.votesmart.org/candidate/biography/46657/kim-thatcher",
+        "https://www.linkedin.com/in/kimthatcher",
+        "https://www.oregonlegislature.gov/thatcher",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "wallan-kim-or-hd6",
+      "name": "Kim Wallan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-6)",
+      "state": "OR",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a2e34475-ba6f-41af-bf61-83c7160d6c10"
+      },
+      "contact": {
+        "email": "rep.kimwallan@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/wallan"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/wallan/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Kim_Wallan",
+        "https://en.wikipedia.org/wiki/Kim_Wallan",
+        "https://www.oregonlegislature.gov/wallan",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "wise-lamar-or-hd48",
+      "name": "Lamar Wise",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-48)",
+      "state": "OR",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c4974690-b877-4f28-a731-a29fdbd811c4"
+      },
+      "contact": {
+        "email": "rep.lamarwise@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/wise"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/wise/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lamar_Wise",
+        "https://en.wikipedia.org/wiki/Lamar_Wise",
+        "https://www.linkedin.com/in/lamar-wise-b1599928",
+        "https://www.oregonlegislature.gov/wise",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "mu-oz-lesly-or-hd22",
+      "name": "Lesly Muñoz",
+      "party": "Democratic/Working Families",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-22)",
+      "state": "OR",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d452f3a7-efea-4ae5-8765-cbd5533462f2"
+      },
+      "contact": {
+        "email": "rep.leslymunoz@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/munoz"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/munoz/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lesly_Munoz",
+        "https://en.wikipedia.org/wiki/Lesly_Mu%C3%B1oz",
+        "https://www.linkedin.com/in/lesly-magdalena-munoz-7090551b1",
+        "https://www.oregonlegislature.gov/munoz",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "frederick-lew-or-sd22",
+      "name": "Lew Frederick",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-22)",
+      "state": "OR",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2256d4a8-f19b-4e1d-ba35-771cc0349b0b"
+      },
+      "contact": {
+        "email": "sen.lewfrederick@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/frederick"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/frederick/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Lew_Frederick",
+        "https://en.wikipedia.org/wiki/Lew_Frederick",
+        "https://www.linkedin.com/in/lew-frederick-1133536",
+        "https://www.oregonlegislature.gov/frederick",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "fragala-lisa-or-hd8",
+      "name": "Lisa Fragala",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-8)",
+      "state": "OR",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d75fd48f-fff7-4ccb-a46e-93854b4de3eb"
+      },
+      "contact": {
+        "email": "rep.lisafragala@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/fragala"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/fragala/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lisa_Fragala",
+        "https://en.wikipedia.org/wiki/Lisa_Fragala",
+        "https://justfacts.votesmart.org/candidate/biography/215488/lisa-fragala",
+        "https://www.oregonlegislature.gov/fragala",
+        "https://www.oregonlegislature.gov/fragala/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "reynolds-lisa-or-sd17",
+      "name": "Lisa Reynolds",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-17)",
+      "state": "OR",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/53afaba4-8ddc-4784-87c3-aaede576ac44"
+      },
+      "contact": {
+        "email": "sen.lisareynolds@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/reynolds"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/reynolds/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Lisa_Reynolds",
+        "https://en.wikipedia.org/wiki/Lisa_Reynolds",
+        "https://justfacts.votesmart.org/candidate/190855/lisa-reynolds",
+        "https://www.linkedin.com/in/lisa-reynolds-a3a8bb190",
+        "https://www.oregonlegislature.gov/reynolds",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "elmer-lucetta-or-hd24",
+      "name": "Lucetta Elmer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-24)",
+      "state": "OR",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/20f31b04-63fd-45a8-8075-5e6e1beae485"
+      },
+      "contact": {
+        "email": "rep.lucettaelmer@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/elmer"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/elmer/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Lucetta_Elmer",
+        "https://en.wikipedia.org/wiki/Lucetta_Elmer",
+        "https://www.linkedin.com/in/lucetta-elmer-6390b71b8",
+        "https://www.oregonlegislature.gov/elmer",
+        "https://www.oregonlegislature.gov/elmer/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "watanabe-mari-or-hd34",
+      "name": "Mari Watanabe",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-34)",
+      "state": "OR",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2b313ed5-ef42-4c8f-ae67-5dbac7346118"
+      },
+      "contact": {
+        "email": "rep.mariwatanabe@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/watanabe"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlive.com/resizer/v2/NV2ILLLSBNAY7DMKF7SP6EY5UU.jpeg?auth=2bd1feb1c12fa2e0f581e2670cead324d4c2e630233f41037e778e6ade02f6cf&width=1280&quality=90",
+      "sources": [
+        "https://ballotpedia.org/Mari_Watanabe",
+        "https://www.linkedin.com/in/mari-watanabe-80414a6",
+        "https://www.oregonlegislature.gov/watanabe",
+        "https://www.oregonlegislature.gov/watanabe/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "gamba-mark-or-hd41",
+      "name": "Mark Gamba",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-41)",
+      "state": "OR",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6adb2361-6526-450f-b2b1-e9f32311ca7d"
+      },
+      "contact": {
+        "email": "rep.markgamba@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/gamba"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/gamba/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Mark_Gamba",
+        "https://en.wikipedia.org/wiki/Mark_Gamba",
+        "https://www.linkedin.com/in/markgamba",
+        "https://www.oregonlegislature.gov/gamba",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "meek-mark-or-sd20",
+      "name": "Mark Meek",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-20)",
+      "state": "OR",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d6379fd3-d283-4c6e-864b-7dca170b593d"
+      },
+      "contact": {
+        "email": "sen.markmeek@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/meek"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/meek/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Mark_Meek",
+        "https://en.wikipedia.org/wiki/Mark_Meek",
+        "https://justfacts.votesmart.org/candidate/biography/168081/mark-meek",
+        "https://www.linkedin.com/in/markmeekrealtorsinger",
+        "https://www.oregonlegislature.gov/meek",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "owens-mark-or-hd60",
+      "name": "Mark Owens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-60)",
+      "state": "OR",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f73d5af2-f2b6-47d0-a55a-84ac528343ff"
+      },
+      "contact": {
+        "email": "rep.markowens@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/owens"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/owens/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Mark_Owens_(Oregon)",
+        "https://en.wikipedia.org/wiki/Mark_Owens_(Oregon_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/189513/mark-owens",
+        "https://www.oregonlegislature.gov/owens",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "bunch-matt-or-hd51",
+      "name": "Matt Bunch",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-51)",
+      "state": "OR",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fe73a3b7-97cd-43cc-bf41-26a952a9ee8f"
+      },
+      "contact": {
+        "email": "rep.mattbunch@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/bunch"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/bunch/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Matt_Bunch",
+        "https://en.wikipedia.org/wiki/Matt_Bunch",
+        "https://www.linkedin.com/in/matt-bunch-b149512a4",
+        "https://www.oregonlegislature.gov/bunch",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "mclane-mike-or-sd30",
+      "name": "Mike McLane",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-30)",
+      "state": "OR",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f0091fb4-4207-4663-be23-7c9e77994048"
+      },
+      "contact": {
+        "email": "sen.mikemclane@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/mclane"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.oregonlegislature.gov/house/MemberPhotos/mclane.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_McLane",
+        "https://en.wikipedia.org/wiki/Mike_McLane",
+        "https://justfacts.votesmart.org/candidate/biography/117352/mike-mclane",
+        "https://www.linkedin.com/in/mikemclane",
+        "https://www.oregonlegislature.gov/mclane",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "nathanson-nancy-or-hd13",
+      "name": "Nancy Nathanson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-13)",
+      "state": "OR",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dd5774a0-d6fe-44cc-86b3-b197225666eb"
+      },
+      "contact": {
+        "email": "rep.nancynathanson@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/nathanson"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/nathanson/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Nancy_Nathanson",
+        "https://en.wikipedia.org/wiki/Nancy_Nathanson",
+        "https://justfacts.votesmart.org/candidate/biography/58128/nancy-nathanson",
+        "https://www.linkedin.com/in/nancy-nathanson-44440a20",
+        "https://www.oregonlegislature.gov/nathanson",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "sosa-nathan-or-hd30",
+      "name": "Nathan Sosa",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-30)",
+      "state": "OR",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5615af6a-5232-45e0-b85b-bcb41e08391e"
+      },
+      "contact": {
+        "email": "rep.nathansosa@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/sosa"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/sosa/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Nathan_Sosa_(Oregon)",
+        "https://en.wikipedia.org/wiki/Nathan_Sosa",
+        "https://www.linkedin.com/in/nathan-sosa-2104221a8",
+        "https://www.oregonlegislature.gov/sosa",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "robinson-noah-or-sd2",
+      "name": "Noah Robinson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-2)",
+      "state": "OR",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/15862ba2-3cdd-4a2e-a22e-28acdea73055"
+      },
+      "contact": {
+        "email": "sen.noahrobinson@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/robinsonn"
+      },
+      "bio": {
+        "birth_date": "1978-03-05",
+        "gender": "Male"
+      },
+      "image": "https://ormoneywatch.b-cdn.net/wp-content/uploads/2023/11/Noah-Robinson.jpg",
+      "sources": [
+        "https://ballotpedia.org/Noah_Robinson_(Oregon)",
+        "https://justfacts.votesmart.org/candidate/biography/215468/noah-robinson",
+        "https://www.oregonlegislature.gov/robinsonn",
+        "https://www.oregonlegislature.gov/robinsonn/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "marsh-pam-or-hd5",
+      "name": "Pam Marsh",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-5)",
+      "state": "OR",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ec643441-bffe-4f43-80a4-ab834ae0f1bd"
+      },
+      "contact": {
+        "email": "rep.pammarsh@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/marsh"
+      },
+      "bio": {
+        "birth_date": "1954-11-04",
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/marsh/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Pam_Marsh",
+        "https://en.wikipedia.org/wiki/Pam_Marsh",
+        "https://www.oregonlegislature.gov/marsh",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "evans-paul-or-hd20",
+      "name": "Paul Evans",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-20)",
+      "state": "OR",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8334f7e1-d712-44b4-8570-d0d0a6d131d3"
+      },
+      "contact": {
+        "email": "rep.paulevans@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/evans"
+      },
+      "bio": {
+        "birth_date": "1970-05-22",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/evans/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Paul_Evans_(Oregon)",
+        "https://en.wikipedia.org/wiki/Paul_Evans_(Oregon_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/57891/paul-evans",
+        "https://paulevans.org",
+        "https://www.linkedin.com/in/paul-evans-1260968",
+        "https://www.oregonlegislature.gov/evans",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "lewis-rick-or-hd18",
+      "name": "Rick Lewis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-18)",
+      "state": "OR",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dc371425-a173-439f-903c-6e2e3fd145cd"
+      },
+      "contact": {
+        "email": "rep.ricklewis@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/lewis"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/lewis/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Rick_Lewis_(Oregon)",
+        "https://en.wikipedia.org/wiki/Rick_Lewis_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/176436/rick-lewis",
+        "https://www.linkedin.com/in/rick-lewis-14695956",
+        "https://www.oregonlegislature.gov/lewis",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "ruiz-ricki-or-hd50",
+      "name": "Ricki Ruiz",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-50)",
+      "state": "OR",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fce6eed7-4438-4f31-b47a-ee054c28d4f7"
+      },
+      "contact": {
+        "email": "rep.rickiruiz@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/ruiz"
+      },
+      "bio": {
+        "birth_date": "1994-06-16",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/ruiz/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Ricki_Ruiz",
+        "https://en.wikipedia.org/wiki/Ricki_Ruiz",
+        "https://www.linkedin.com/in/ricki-ruiz-27374879",
+        "https://www.oregonlegislature.gov/ruiz",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "nosse-rob-or-hd42",
+      "name": "Rob Nosse",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-42)",
+      "state": "OR",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2aa7ebf4-d8a7-42c6-8e20-1edef58aa545"
+      },
+      "contact": {
+        "email": "rep.robnosse@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/nosse"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.oregonlegislature.gov/house/MemberPhotos/nosse.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Rob_Nosse",
+        "https://en.wikipedia.org/wiki/Rob_Nosse",
+        "https://justfacts.votesmart.org/candidate/biography/150910/rob-nosse",
+        "https://www.linkedin.com/in/rob-nosse-7472a936",
+        "https://www.oregonlegislature.gov/nosse",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "wagner-rob-or-sd19",
+      "name": "Rob Wagner",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-19)",
+      "state": "OR",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e40f7f2c-4c6a-4064-9fde-e6b380dde2aa"
+      },
+      "contact": {
+        "email": "sen.robwagner@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/wagner"
+      },
+      "bio": {
+        "birth_date": "1973-01-10",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/wagner/PublishingImages/Headshot%20in%20the%20shrub.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Rob_Wagner",
+        "https://en.wikipedia.org/wiki/Rob_Wagner_(politician)",
+        "https://www.linkedin.com/in/robert-wagner-4b74855",
+        "https://www.oregonlegislature.gov/wagner",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "gelser-blouin-sara-or-sd8",
+      "name": "Sara Gelser Blouin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-8)",
+      "state": "OR",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/10b42647-1509-4e86-9155-4622c2d17315"
+      },
+      "contact": {
+        "email": "sen.saragelser@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/gelser"
+      },
+      "bio": {
+        "birth_date": "1973-12-20",
+        "gender": "Female"
+      },
+      "image": "http://www.oregonlegislature.gov/senate/MemberPhotos/gelser.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Sara_Gelser",
+        "https://en.wikipedia.org/wiki/Sara_Gelser",
+        "https://www.linkedin.com/in/sara-gelser-blouin-397a983b",
+        "https://www.oregonlegislature.gov/gelser",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "mcdonald-sarah-or-hd16",
+      "name": "Sarah McDonald",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-16)",
+      "state": "OR",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/77cbf3a1-387e-424d-87fc-51a46d770921"
+      },
+      "contact": {
+        "email": "rep.sarahfingermcdonald@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/mcdonald"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Sarah_McDonald.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sarah_McDonald",
+        "https://www.linkedin.com/in/sarah-finger-mcdonald-209aaa2b5",
+        "https://www.oregonlegislature.gov/mcdonald",
+        "https://www.oregonlegislature.gov/mcdonald/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "isadore-shannon-or-hd33",
+      "name": "Shannon Isadore",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-33)",
+      "state": "OR",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4a77ea61-457a-4111-bd2e-f2ee054ab4dc"
+      },
+      "contact": {
+        "email": "rep.shannonisadore@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/isadore"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/isadore/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shannon_Jones_Isadore",
+        "https://en.wikipedia.org/wiki/Shannon_Jones_Isadore",
+        "https://www.linkedin.com/in/shannon-jones-isadore-4b91b777",
+        "https://www.oregonlegislature.gov/isadore",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "davis-shelly-or-hd15",
+      "name": "Shelly Davis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-15)",
+      "state": "OR",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/52af68c5-c141-4e35-912b-11d71b83af33"
+      },
+      "contact": {
+        "email": "rep.shellyboshartdavis@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/boshartdavis"
+      },
+      "bio": {
+        "birth_date": "1980-01-08",
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/boshartdavis/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Shelly_Boshart_Davis",
+        "https://en.wikipedia.org/wiki/Shelly_Boshart_Davis",
+        "https://justfacts.votesmart.org/candidate/biography/179882/shelly-boshart-davis",
+        "https://www.linkedin.com/in/shelly-boshart-davis-769b2294",
+        "https://www.oregonlegislature.gov/boshartdavis",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "rieke-smith-sue-or-hd26",
+      "name": "Sue Rieke Smith",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-26)",
+      "state": "OR",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0f296591-6b7e-40b0-8a92-9198dd72bd7e"
+      },
+      "contact": {
+        "email": "rep.sueriekesmith@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/riekesmith"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/riekesmith/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sue_Rieke_Smith",
+        "https://en.wikipedia.org/wiki/Sue_Rieke_Smith",
+        "https://justfacts.votesmart.org/candidate/biography/224051/sue-rieke-smith",
+        "https://www.oregonlegislature.gov/riekesmith",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "mclain-susan-or-hd29",
+      "name": "Susan McLain",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-29)",
+      "state": "OR",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/62f98553-cc00-497f-ac14-97e0fc0e62c2"
+      },
+      "contact": {
+        "email": "rep.susanmclain@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/mclain"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/mclain/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Susan_McLain",
+        "https://en.wikipedia.org/wiki/Susan_McLain",
+        "https://www.linkedin.com/in/susan-mclain-279166b",
+        "https://www.oregonlegislature.gov/mclain",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "weber-suzanne-or-sd16",
+      "name": "Suzanne Weber",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-16)",
+      "state": "OR",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/835d23bd-afb1-4e82-93c4-4b1b1822aeb4"
+      },
+      "contact": {
+        "email": "sen.suzanneweber@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/weber"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/weber/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Suzanne_Weber",
+        "https://en.wikipedia.org/wiki/Suzanne_Weber",
+        "https://www.oregonlegislature.gov/weber",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "sanchez-tawna-or-hd43",
+      "name": "Tawna Sanchez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-43)",
+      "state": "OR",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c138ec96-0a6f-4dee-be06-be286b68cfbb"
+      },
+      "contact": {
+        "email": "rep.tawnasanchez@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/sanchez"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/sanchez/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Tawna_Sanchez",
+        "https://en.wikipedia.org/wiki/Tawna_Sanchez",
+        "https://www.linkedin.com/in/tawna-sanchez-440aa2b",
+        "https://www.oregonlegislature.gov/sanchez",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "tran-thuy-or-hd45",
+      "name": "Thuy Tran",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-45)",
+      "state": "OR",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/52058824-2f35-4f6b-877f-d48301bd99a0"
+      },
+      "contact": {
+        "email": "rep.thuytran@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/tran"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/tran/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Thuy_Tran",
+        "https://en.wikipedia.org/wiki/Thuy_Tran",
+        "https://www.linkedin.com/in/drthuytran",
+        "https://www.oregonlegislature.gov/tran",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "nash-todd-or-sd29",
+      "name": "Todd Nash",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-29)",
+      "state": "OR",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/66c4922d-6b7e-4636-85a4-565e812df7a2"
+      },
+      "contact": {
+        "email": "sen.toddnash@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/nash"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/nash/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Todd_Nash",
+        "https://justfacts.votesmart.org/candidate/biography/215479/todd-nash",
+        "https://www.linkedin.com/in/todd-nash-4109a6b3",
+        "https://www.oregonlegislature.gov/nash",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "andersen-tom-or-hd19",
+      "name": "Tom Andersen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-19)",
+      "state": "OR",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d850bbf-df69-4431-bad6-9444c63d4f0c"
+      },
+      "contact": {
+        "email": "rep.tomandersen@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/andersen"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/andersen/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Tom_Andersen",
+        "https://en.wikipedia.org/wiki/Tom_Andersen",
+        "https://www.oregonlegislature.gov/andersen",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "nelson-travis-or-hd44",
+      "name": "Travis Nelson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-44)",
+      "state": "OR",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e2a96554-b503-4aad-856c-84266386e957"
+      },
+      "contact": {
+        "email": "rep.travisnelson@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/nelson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/nelson/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Travis_Nelson_(Oregon)",
+        "https://en.wikipedia.org/wiki/Travis_Nelson",
+        "https://www.oregonlegislature.gov/nelson",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "breese-iverson-vikki-or-hd59",
+      "name": "Vikki Breese Iverson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-59)",
+      "state": "OR",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a3140c7f-befe-4b83-bc54-1451b5fe00f5"
+      },
+      "contact": {
+        "email": "rep.vikkibreeseiverson@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/breese-iverson"
+      },
+      "bio": {
+        "birth_date": "1974-07-03",
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/breese-iverson/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Vikki_Breese-Iverson",
+        "https://en.wikipedia.org/wiki/Vikki_Breese-Iverson",
+        "https://vikkib.withwre.com",
+        "https://www.oregonlegislature.gov/breese-iverson",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "osborne-virgle-or-hd2",
+      "name": "Virgle Osborne",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-2)",
+      "state": "OR",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f5938046-4558-441b-9e63-6bff0e114bf4"
+      },
+      "contact": {
+        "email": "rep.virgleosborne@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/osborne"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/osborne/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Virgle_Osborne",
+        "https://en.wikipedia.org/wiki/Virgle_Osborne",
+        "https://justfacts.votesmart.org/candidate/biography/202857/virgle-osborne",
+        "https://www.linkedin.com/in/virgle-osborne-06b83b10",
+        "https://www.oregonlegislature.gov/osborne",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "chotzen-willy-or-hd46",
+      "name": "Willy Chotzen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-46)",
+      "state": "OR",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/21e83410-a7f5-43f1-a4ef-7cdc1d41c6b6"
+      },
+      "contact": {
+        "email": "rep.willychotzen@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/chotzen"
+      },
+      "bio": {
+        "birth_date": "1991-04-30",
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/chotzen/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Willy_Chotzen",
+        "https://www.linkedin.com/in/chotzen",
+        "https://www.oregonlegislature.gov/chotzen",
+        "https://www.oregonlegislature.gov/chotzen/Pages/biography.aspx",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "campos-wlnsvey-or-sd18",
+      "name": "Wlnsvey Campos",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Senator (SD-18)",
+      "state": "OR",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/72027f00-3e3c-47c7-ab62-cc89ebb1ed72"
+      },
+      "contact": {
+        "email": "sen.wlnsveycampos@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/campos"
+      },
+      "bio": {
+        "birth_date": "1995-11-30",
+        "gender": "Female"
+      },
+      "image": "https://www.oregonlegislature.gov/campos/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Wlnsvey_Campos",
+        "https://en.wikipedia.org/wiki/Wlnsvey_Campos",
+        "https://www.linkedin.com/in/wlnsvey-campos-a51948a2",
+        "https://www.oregonlegislature.gov/campos",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    },
+    {
+      "politician_id": "hudson-zach-or-hd49",
+      "name": "Zach Hudson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Oregon State Representative (HD-49)",
+      "state": "OR",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "OR",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/83bbae41-6ba0-477e-a584-8ad7df1283d8"
+      },
+      "contact": {
+        "email": "rep.zachhudson@oregonlegislature.gov",
+        "website": "https://www.oregonlegislature.gov/hudson"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.oregonlegislature.gov/hudson/PublishingImages/member_photo.jpg",
+      "sources": [
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2022R1')/Legislators",
+        "https://api.oregonlegislature.gov/odata/odataservice.svc/LegislativeSessions('2023R1')/Legislators",
+        "https://ballotpedia.org/Zach_Hudson",
+        "https://en.wikipedia.org/wiki/Zach_Hudson",
+        "https://www.linkedin.com/in/zach-hudson-94318532",
+        "https://www.oregonlegislature.gov/hudson",
+        "https://data.openstates.org/people/current/or.csv"
+      ]
+    }
+  ]
+}

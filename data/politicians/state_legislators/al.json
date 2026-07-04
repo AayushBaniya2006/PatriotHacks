@@ -1,0 +1,4815 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/al.csv",
+  "state": "AL",
+  "politicians": [
+    {
+      "politician_id": "clarke-adline-al-hd97",
+      "name": "Adline Clarke",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-97)",
+      "state": "AL",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4cb1aeb5-d822-4f2c-a7e6-ae2a132acf17"
+      },
+      "contact": {
+        "email": "adline.clarke@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Clarke_97.png",
+      "sources": [
+        "https://ballotpedia.org/Adline_C._Clarke",
+        "https://en.wikipedia.org/wiki/Adline_Clarke",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/144285/adline-clarke",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Clarke&OID_SPONSOR=100579&OID_PERSON=7425&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100579&OID_PERSON=7425",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "baker-alan-al-hd66",
+      "name": "Alan Baker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-66)",
+      "state": "AL",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cb2488d5-f0b6-4e9f-948b-ff7e9f4e1907"
+      },
+      "contact": {
+        "email": "staterep@co.escambia.al.us",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1956-07-15",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Baker_66.png",
+      "sources": [
+        "https://ballotpedia.org/Alan_Baker",
+        "https://en.wikipedia.org/wiki/Alan_Baker_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/60439/alan-baker",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Baker&OID_SPONSOR=100548&OID_PERSON=8303&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100548&OID_PERSON=8303",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "treadaway-allen-al-hd51",
+      "name": "Allen Treadaway",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-51)",
+      "state": "AL",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3f96a690-e9a3-4774-8484-49a5a079b18c"
+      },
+      "contact": {
+        "email": "allen.treadaway@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1961-09-25",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Treadaway_51.png",
+      "sources": [
+        "https://ballotpedia.org/Allen_Treadaway",
+        "https://en.wikipedia.org/wiki/Allen_Treadaway",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/60429/allen-treadaway",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Treadaway&OID_SPONSOR=100532&OID_PERSON=5536&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100532&OID_PERSON=5536",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-andrew-al-sd10",
+      "name": "Andrew Jones",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-10)",
+      "state": "AL",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/84d43460-8578-4b85-b2ee-7f6849e270d8"
+      },
+      "contact": {
+        "email": "andrew.jones@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Jones_10.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0010-andrew-jones",
+        "https://ballotpedia.org/Andrew_Jones_(Alabama)",
+        "https://en.wikipedia.org/wiki/Andrew_Jones_(Alabama_politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180625/andrew-jones",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Jones&OID_SPONSOR=100453&OID_PERSON=8483&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100453&OID_PERSON=8483",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "whitt-andy-al-hd6",
+      "name": "Andy Whitt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-6)",
+      "state": "AL",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c128ed12-dd1b-4b5f-8c64-9d86bf9d6580"
+      },
+      "contact": {
+        "email": "andy.whitt@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Whitt_6.png",
+      "sources": [
+        "https://ballotpedia.org/Andy_Whitt",
+        "https://en.wikipedia.org/wiki/Andy_Whitt",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180562/andy-whitt",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Whitt&OID_SPONSOR=100486&OID_PERSON=8490&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100486&OID_PERSON=8490",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/andy-whitt-603700148",
+        "https://www.linkedin.com/in/representative-andy-whitt-603700148",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "daniels-anthony-al-hd53",
+      "name": "Anthony Daniels",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-53)",
+      "state": "AL",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/95f7541d-5429-41aa-85e5-7fc9cf33d688"
+      },
+      "contact": {
+        "email": "anthony.daniels@alhouse.gov",
+        "district_voice": "256-539-5441",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1982-10-05",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Daniels_53.png",
+      "sources": [
+        "https://ballotpedia.org/Anthony_Daniels",
+        "https://en.wikipedia.org/wiki/Anthony_Daniels_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149925/anthony-daniels",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Daniels&OID_SPONSOR=100534&OID_PERSON=7711&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100534&OID_PERSON=7711",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/anthonyldaniels",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "weaver-april-al-sd14",
+      "name": "April Weaver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-14)",
+      "state": "AL",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/15ebe01e-1447-4bdb-8dfb-e9d5948b872d"
+      },
+      "contact": {
+        "email": "april.weaver@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1971-04-13",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Weaver_14.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0014-april-weaver",
+        "https://ballotpedia.org/April_Weaver_(Alabama)",
+        "https://en.wikipedia.org/wiki/April_Weaver",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/121534/april-weaver",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100530&OID_PERSON=6684",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Weaver&OID_SPONSOR=110577&OID_PERSON=6684&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Weaver&OID_SPONSOR=110805&OID_PERSON=6684&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=9100457&OID_PERSON=94459",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/april-weaver-8a02096",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "mooney-arnold-al-hd43",
+      "name": "Arnold Mooney",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-43)",
+      "state": "AL",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/02655110-0839-4b2e-9f4b-b3a43788e275"
+      },
+      "contact": {
+        "email": "arnold.mooney@alhouse.gov",
+        "district_voice": "205-620-6610",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1950-12-08",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Mooney_43.png",
+      "sources": [
+        "https://ballotpedia.org/Arnold_Mooney",
+        "https://en.wikipedia.org/wiki/Arnold_Mooney",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149974/arnold-mooney-ii",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Mooney&OID_SPONSOR=100524&OID_PERSON=7699&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100524&OID_PERSON=7699",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/arnold-g-mooney-ii-91893a5",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "orr-arthur-al-sd3",
+      "name": "Arthur Orr",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-3)",
+      "state": "AL",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b38546ec-f8fb-4e99-8e0c-46715b2e8578"
+      },
+      "contact": {
+        "email": "arthur.orr@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1964-05-25",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Orr_3.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/003-arthur-orr",
+        "https://arthurorr.com",
+        "https://ballotpedia.org/Arthur_Orr",
+        "https://en.wikipedia.org/wiki/Arthur_Orr",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/57118/arthur-orr",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Orr&OID_SPONSOR=100446&OID_PERSON=5527&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100446&OID_PERSON=5527",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "mccampbell-a-j-al-hd71",
+      "name": "A.J. McCampbell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-71)",
+      "state": "AL",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/474c3552-b3cd-4015-ac15-3c6301a0ce0e"
+      },
+      "contact": {
+        "email": "artis.mccampbell@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/McCampbell_71.png",
+      "sources": [
+        "https://ballotpedia.org/Artis_J._McCampbell",
+        "https://en.wikipedia.org/wiki/Artis_J._McCampbell",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/60444/aj-mccampbell",
+        "https://justfacts.votesmart.org/candidate/biography/60444/aj-mccampbell",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=McCampbell&OID_SPONSOR=100553&OID_PERSON=5544&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100553&OID_PERSON=5544",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "boyd-barbara-al-hd32",
+      "name": "Barbara Boyd",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-32)",
+      "state": "AL",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a1033b9f-f53e-46b8-ab4e-508d87e0d8e8"
+      },
+      "contact": {
+        "email": "barbara.boyd@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1937-01-31",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Boyd_32.png",
+      "sources": [
+        "https://ballotpedia.org/Barbara_Boyd,_Alabama_Representative",
+        "https://en.wikipedia.org/wiki/Barbara_Boyd_(Alabama_politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/5627/barbara-boyd",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Boyd&OID_SPONSOR=100513&OID_PERSON=1022&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100513&OID_PERSON=1022",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "drummond-barbara-al-hd103",
+      "name": "Barbara Drummond",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-103)",
+      "state": "AL",
+      "district": "HD-103",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/375419e1-4626-4a9a-92ed-15962de5be09"
+      },
+      "contact": {
+        "email": "drummondbarbara@comcast.net",
+        "district_voice": "251-208-5481",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1956-08-05",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Drummond_103.png",
+      "sources": [
+        "https://ballotpedia.org/Barbara_Drummond",
+        "https://en.wikipedia.org/wiki/Barbara_Drummond",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149928/barbara-drummond",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Drummond&OID_SPONSOR=100585&OID_PERSON=7712&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100585&OID_PERSON=7712",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/barbara-drummond",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "harrison-ben-al-hd2",
+      "name": "Ben Harrison",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-2)",
+      "state": "AL",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a2413268-fe7d-4a14-839c-14e9723da23a"
+      },
+      "contact": {
+        "email": "ben.harrison@alhouse.gov",
+        "district_voice": "256-614-9087",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Harrison_2.png",
+      "sources": [
+        "https://ballotpedia.org/Ben_Harrison_(Alabama)",
+        "https://en.wikipedia.org/wiki/Ben_Harrison_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/143744/ben-harrison",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "robbins-ben-al-hd33",
+      "name": "Ben Robbins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-33)",
+      "state": "AL",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7da5c799-bd67-458a-b3b1-a0cdda8f474e"
+      },
+      "contact": {
+        "email": "ben.robbins@alhouse.gov",
+        "district_voice": "205-907-5091",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Robbins_33.png",
+      "sources": [
+        "https://ballotpedia.org/Alabama_House_of_Representatives_District_33",
+        "https://ballotpedia.org/Ben_Robbins",
+        "https://en.wikipedia.org/wiki/Ben_Robbins_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/180585/ben-robbins",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=District%2033&OID_SPONSOR=9100514&OID_PERSON=91090&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Robbins&OID_SPONSOR=107735&OID_PERSON=9187&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/ben-robbins-2ab598166",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "forte-berry-al-hd84",
+      "name": "Berry Forte",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-84)",
+      "state": "AL",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a5d0ab78-e643-4ea1-86f2-2dad948b498a"
+      },
+      "contact": {
+        "email": "berry.forte@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1937-10-26",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Forte_84.png",
+      "sources": [
+        "https://ballotpedia.org/Berry_Forte",
+        "https://en.wikipedia.org/wiki/Berry_Forte",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/81792/berry-forte",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Forte&OID_SPONSOR=100566&OID_PERSON=6664&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100566&OID_PERSON=6664",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "lamb-bill-al-hd62",
+      "name": "Bill Lamb",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-62)",
+      "state": "AL",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f470053d-6f95-4ed1-b641-5d0e7b236ed5"
+      },
+      "contact": {
+        "email": "lambbama@gmail.com",
+        "district_voice": "205-361-5262",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Lamb_62.png",
+      "sources": [
+        "https://ballotpedia.org/Bill_Lamb",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.linkedin.com/in/bill-lamb-380b0178",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "fincher-bob-al-hd37",
+      "name": "Bob Fincher",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-37)",
+      "state": "AL",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/03d6bca3-9630-4173-a3c0-4ab4b5aaaedb"
+      },
+      "contact": {
+        "email": "rsfincher77@gmail.com",
+        "district_voice": "256-201-0154",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1949-08-20",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Fincher_37.png",
+      "sources": [
+        "https://ballotpedia.org/Bob_Fincher",
+        "https://en.wikipedia.org/wiki/Bob_Fincher",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/121529/bob-fincher",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Fincher&OID_SPONSOR=100518&OID_PERSON=3191&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100518&OID_PERSON=3191",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "singleton-bobby-al-sd24",
+      "name": "Bobby Singleton",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-24)",
+      "state": "AL",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6e6d5e12-363b-42dc-b0d1-191c82aa6493"
+      },
+      "contact": {
+        "email": "bsingle362@gmail.com",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1962-03-25",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Singleton_24.png",
+      "sources": [
+        "https://ballotpedia.org/Bobby_Singleton",
+        "https://en.wikipedia.org/wiki/Bobby_Singleton_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/27551/bobby-singleton",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Singleton&OID_SPONSOR=100467&OID_PERSON=4471&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100467&OID_PERSON=4471",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "easterbrook-brett-al-hd65",
+      "name": "Brett Easterbrook",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-65)",
+      "state": "AL",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/def57a9e-a907-4e62-b990-41dc19661c06"
+      },
+      "contact": {
+        "email": "brett.easterbrook@yahoo.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1963-10-10",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Easterbrook_65.png",
+      "sources": [
+        "https://ballotpedia.org/Brett_Easterbrook",
+        "https://en.wikipedia.org/wiki/Brett_Easterbrook",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180594/brett-easterbrook",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Easterbrook&OID_SPONSOR=100547&OID_PERSON=8505&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100547&OID_PERSON=8505",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/brett-easterbrook-14782aa5",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "colvin-brock-al-hd26",
+      "name": "Brock Colvin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-26)",
+      "state": "AL",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aaffbe89-25dd-4454-85f7-81e4ed89c749"
+      },
+      "contact": {
+        "email": "brock.colvin@alhouse.gov",
+        "district_voice": "256-582-0619",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Colvin_26.png",
+      "sources": [
+        "https://ballotpedia.org/Brock_Colvin",
+        "https://en.wikipedia.org/wiki/Brock_Colvin",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201848/brock-colvin",
+        "https://www.linkedin.com/in/william-brock-colvin-38a658266",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "brinyark-bryan-al-hd16",
+      "name": "Bryan Brinyark",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-16)",
+      "state": "AL",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ed6f9cbb-3180-4e8e-b9c1-c56dd888ce38"
+      },
+      "contact": {
+        "email": "bryan.brinyark@alhouse.gov",
+        "district_voice": "205-759-5773"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Brinyark_16.png",
+      "sources": [
+        "https://ballotpedia.org/Bryan_Brinyark",
+        "https://brinyark.com/about",
+        "https://en.wikipedia.org/wiki/Bryan_Brinyark",
+        "https://justfacts.votesmart.org/candidate/biography/212752/bryan-brinyark",
+        "https://www.linkedin.com/in/bryan-brinyark-4a106457",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "robertson-chad-al-hd40",
+      "name": "Chad Robertson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-40)",
+      "state": "AL",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/60ec1e11-da78-43be-90e5-5d850bf3edc7"
+      },
+      "contact": {
+        "email": "chadrobertsond40@gmail.com",
+        "district_voice": "256-201-1116",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Robertson_40.png",
+      "sources": [
+        "https://ballotpedia.org/Chad_Robertson_(Alabama)",
+        "https://en.wikipedia.org/wiki/Chad_Robertson",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201868/chad-robertson",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-chip-al-hd105",
+      "name": "Chip Brown",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-105)",
+      "state": "AL",
+      "district": "HD-105",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/04a1794d-93f0-435f-8c68-1b435f2fc1a0"
+      },
+      "contact": {
+        "email": "chip.brown@alhouse.gov",
+        "district_voice": "334-261-0447",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Brown_105.png",
+      "sources": [
+        "https://ballotpedia.org/Chip_Brown",
+        "https://en.wikipedia.org/wiki/Chip_Brown",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/15971/chip-brown",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Brown&OID_SPONSOR=100587&OID_PERSON=8517&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100587&OID_PERSON=8517",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/chip-brown",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "blackshear-chris-al-hd80",
+      "name": "Chris Blackshear",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-80)",
+      "state": "AL",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6b644492-bb54-496c-8ad3-22ec002056d4"
+      },
+      "contact": {
+        "email": "chris.blackshear@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1974-03-11",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Blackshear_80.png",
+      "sources": [
+        "https://ballotpedia.org/Chris_Blackshear",
+        "https://en.wikipedia.org/wiki/Chris_Blackshear",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/143782/chris-blackshear",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Blackshear&OID_SPONSOR=100562&OID_PERSON=7981&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100562&OID_PERSON=7981",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "elliott-chris-al-sd32",
+      "name": "Chris Elliott",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-32)",
+      "state": "AL",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/67479855-f23e-4119-b886-91dddc09a47a"
+      },
+      "contact": {
+        "email": "chris.elliott@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1980-06-18",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Elliott_32.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0032-chris-elliott",
+        "https://ballotpedia.org/Chris_Elliott_(Alabama)",
+        "https://en.wikipedia.org/wiki/Chris_Elliott_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/156759/chris-elliott",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Elliott&OID_SPONSOR=100475&OID_PERSON=8487&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100475&OID_PERSON=8487",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "england-chris-al-hd70",
+      "name": "Chris England",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-70)",
+      "state": "AL",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b57cc6b9-3627-431f-8a01-4c3c7ba973d4"
+      },
+      "contact": {
+        "email": "cengland1@hotmail.com",
+        "district_voice": "205-248-5140",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1976-08-19",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/England_70.png",
+      "sources": [
+        "https://ballotpedia.org/Christopher_J._England",
+        "https://en.wikipedia.org/wiki/Christopher_J._England",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/69176/chris-england",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=England&OID_SPONSOR=100552&OID_PERSON=5543&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100552&OID_PERSON=5543",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/chris-england-2428385",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "pringle-chris-al-hd101",
+      "name": "Chris Pringle",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-101)",
+      "state": "AL",
+      "district": "HD-101",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f4133b43-f822-4d95-b1e0-a0a524de56f6"
+      },
+      "contact": {
+        "email": "chris.pringle@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1961-02-25",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Pringle_101.png",
+      "sources": [
+        "https://ballotpedia.org/Chris_Pringle",
+        "https://en.wikipedia.org/wiki/Chris_Pringle_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/5701/chris-pringle",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Pringle&OID_SPONSOR=100583&OID_PERSON=1109&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100583&OID_PERSON=1109",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/chris-pringle-7a427727",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "sells-chris-al-hd90",
+      "name": "Chris Sells",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-90)",
+      "state": "AL",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/39a26498-6bb6-4627-8c49-d9c453c9aab8"
+      },
+      "contact": {
+        "email": "repcsells@gmail.com",
+        "district_voice": "334-261-0568",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1963-12-06",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Sells_90.png",
+      "sources": [
+        "https://ballotpedia.org/Chris_Sells",
+        "https://en.wikipedia.org/wiki/Chris_Sells",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149986/chris-sells",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Sells&OID_SPONSOR=100572&OID_PERSON=7702&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100572&OID_PERSON=7702",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/chris-sells-917ba870",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "myrex-cindy-al-hd12",
+      "name": "Cindy Myrex",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-12)",
+      "state": "AL",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cbfd2b4e-f512-4176-b2f6-1df9d2d9c99c"
+      },
+      "contact": {
+        "email": "cindy.myrex@alhouse.gov"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Cindy_Myrex",
+        "https://en.wikipedia.org/wiki/Cindy_Myrex",
+        "https://www.linkedin.com/in/cindy-myrex-89958684",
+        "https://www.realestateatsmithlake.com/about-cindy",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "chambliss-clyde-al-sd30",
+      "name": "Clyde Chambliss",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-30)",
+      "state": "AL",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d1307771-6d50-4d56-9995-b5d799917d7b"
+      },
+      "contact": {
+        "email": "clyde.chambliss@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1969-04-16",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Chambliss_30.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0030-clyde-chambliss",
+        "https://ballotpedia.org/Clyde_Chambliss_Jr.",
+        "https://en.wikipedia.org/wiki/Clyde_Chambliss",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/79831/clyde-chambliss-jr",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Chambliss&OID_SPONSOR=100473&OID_PERSON=7692&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100473&OID_PERSON=7692",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/clyde-chambliss-95756027",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "ellis-corley-al-hd41",
+      "name": "Corley Ellis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-41)",
+      "state": "AL",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3b1a631d-35d4-47bd-a37c-a98fed7a5bd4"
+      },
+      "contact": {
+        "email": "corley.ellis@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Ellis_41.png",
+      "sources": [
+        "https://ballotpedia.org/Corley_Ellis",
+        "https://en.wikipedia.org/wiki/Corley_Ellis",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/82053/corley-ellis",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Ellis&OID_SPONSOR=100522&OID_PERSON=8129&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100522&OID_PERSON=8129",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "lipscomb-craig-al-hd30",
+      "name": "Craig Lipscomb",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-30)",
+      "state": "AL",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/63e7d9b8-136c-4ebc-bb87-19660eb7b624"
+      },
+      "contact": {
+        "email": "craig.lipscomb@alhouse.gov",
+        "district_voice": "334-501-7133",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1976-07-10",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Lipscomb_30.png",
+      "sources": [
+        "https://ballotpedia.org/B._Craig_Lipscomb",
+        "https://en.wikipedia.org/wiki/Craig_Lipscomb",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Lipscomb&OID_SPONSOR=100511&OID_PERSON=8499&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100511&OID_PERSON=8499",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/bcraiglipscomb",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "travis-curtis-al-hd72",
+      "name": "Curtis Travis",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-72)",
+      "state": "AL",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/583c130d-a97a-48c9-9a18-03e94aa93930"
+      },
+      "contact": {
+        "email": "cltravis620@charter.net",
+        "district_voice": "205-349-9183",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Travis_72.png",
+      "sources": [
+        "https://ballotpedia.org/Curtis_Travis",
+        "https://en.wikipedia.org/wiki/Curtis_Travis",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/201890/curtis-travis",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "roberts-dan-al-sd15",
+      "name": "Dan Roberts",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-15)",
+      "state": "AL",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c58c02cd-0f5c-4454-b5d9-6eb0e604ea25"
+      },
+      "contact": {
+        "email": "dan.roberts@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Roberts_15.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0015-dan-roberts",
+        "https://ballotpedia.org/Dan_Roberts_(Alabama)",
+        "https://en.wikipedia.org/wiki/Dan_Roberts_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180628/dan-roberts",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Roberts&OID_SPONSOR=100458&OID_PERSON=8485&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100458&OID_PERSON=8485",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "crawford-danny-al-hd5",
+      "name": "Danny Crawford",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-5)",
+      "state": "AL",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/749e2cb2-e087-4920-aea3-b40d28f56db5"
+      },
+      "contact": {
+        "email": "danny.crawford@alhouse.gov",
+        "district_voice": "256-871-1944",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1950-06-06",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Crawford_5.png",
+      "sources": [
+        "https://ballotpedia.org/Danny_Crawford",
+        "https://en.wikipedia.org/wiki/Danny_Crawford_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/165903/danny-crawford",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Crawford&OID_SPONSOR=100485&OID_PERSON=8000&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100485&OID_PERSON=8000",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "garrett-danny-al-hd44",
+      "name": "Danny Garrett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-44)",
+      "state": "AL",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4aab5f96-d36a-4274-9591-9922a353c10b"
+      },
+      "contact": {
+        "email": "dannygarrett44@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1957-10-11",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Garrett_44.png",
+      "sources": [
+        "https://ballotpedia.org/Danny_Garrett",
+        "https://en.wikipedia.org/wiki/Danny_Garrett",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149938/danny-garrett",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Garrett&OID_SPONSOR=100525&OID_PERSON=7713&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100525&OID_PERSON=7713",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/j-daniel-danny-garrett-8918b532",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "faulkner-david-al-hd46",
+      "name": "David Faulkner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-46)",
+      "state": "AL",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9b9fd235-1045-4935-a097-bd5e51d2c592"
+      },
+      "contact": {
+        "email": "david@davidfaulkneral46.com",
+        "district_voice": "205-250-6604",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1968-06-27",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Faulkner_46.png",
+      "sources": [
+        "https://ballotpedia.org/David_Faulkner",
+        "https://en.wikipedia.org/wiki/David_Faulkner_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149930/david-faulkner",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Faulkner&OID_SPONSOR=100527&OID_PERSON=7693&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100527&OID_PERSON=7693",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/david-faulkner-a743b122",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "sessions-david-al-sd35",
+      "name": "David Sessions",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-35)",
+      "state": "AL",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fa2c59ea-1a07-429d-85e4-9c60652919aa"
+      },
+      "contact": {
+        "email": "d.r.sessions@att.net",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Sessions_35.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0035-david-sessions",
+        "https://ballotpedia.org/David_Sessions",
+        "https://en.wikipedia.org/wiki/David_Sessions",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/129898/david-sessions",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Sessions&OID_SPONSOR=100478&OID_PERSON=6832&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100478&OID_PERSON=6832",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "standridge-david-al-hd34",
+      "name": "David Standridge",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-34)",
+      "state": "AL",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0efb60b3-60e6-4248-a264-41a2a1d35036"
+      },
+      "contact": {
+        "email": "david.standridge@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Standridge_34.png",
+      "sources": [
+        "https://ballotpedia.org/David_Standridge",
+        "https://en.wikipedia.org/wiki/David_Standridge",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/82406/david-standridge",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Standridge&OID_SPONSOR=100515&OID_PERSON=7217&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100515&OID_PERSON=7217",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "givens-donna-al-hd64",
+      "name": "Donna Givens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-64)",
+      "state": "AL",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ef19bb65-dc3c-4815-ac71-b1ffd9abf28b"
+      },
+      "contact": {
+        "email": "donnagivens55@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Givens_64.png",
+      "sources": [
+        "https://ballotpedia.org/Donna_Givens",
+        "https://en.wikipedia.org/wiki/Donna_Givens",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201857/donna-givens",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "chesteen-donnie-al-sd29",
+      "name": "Donnie Chesteen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-29)",
+      "state": "AL",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c1ce8b3f-ea56-4c8f-ab74-2a02b8d10063"
+      },
+      "contact": {
+        "email": "donnie.chesteen@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1953-08-27",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Chesteen_29.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0029-donnie-chesteen",
+        "https://ballotpedia.org/Donnie_Chesteen",
+        "https://en.wikipedia.org/wiki/Donnie_Chesteen",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/121549/donnie-chesteen",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Chesteen&OID_SPONSOR=100472&OID_PERSON=6660&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100472&OID_PERSON=6660",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/donnie-chesteen-76710b85",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "oliver-ed-al-hd81",
+      "name": "Ed Oliver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-81)",
+      "state": "AL",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9ec989cb-f503-46c1-aa2a-2913e2bc16bd"
+      },
+      "contact": {
+        "email": "ed.oliver@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Oliver_81.png",
+      "sources": [
+        "https://ballotpedia.org/Ed_Oliver",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180598/ed-oliver",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Oliver&OID_SPONSOR=100563&OID_PERSON=8508&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100563&OID_PERSON=8508",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "yarbrough-ernie-al-hd7",
+      "name": "Ernie Yarbrough",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-7)",
+      "state": "AL",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5658aa05-6ffa-4774-a8a4-f49c169769d2"
+      },
+      "contact": {
+        "email": "yarbrough4house@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1981-08-30",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Yarbrough_7.png",
+      "sources": [
+        "https://ballotpedia.org/Ernie_Yarbrough",
+        "https://en.wikipedia.org/wiki/Ernie_Yarbrough",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201820/ernie-yarbrough",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "holk-jones-frances-al-hd95",
+      "name": "Frances Holk-Jones",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-95)",
+      "state": "AL",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3bc2e263-71cf-41e2-80c5-3f97cad999ff"
+      },
+      "contact": {
+        "email": "frances.holk-jones@alhouse.gov",
+        "district_voice": "251-620-7470",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Holk-Jones_95.png",
+      "sources": [
+        "https://ballotpedia.org/Frances_Holk-Jones",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.linkedin.com/in/frances-holk-jones-b04038101",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "gudger-garlan-al-sd4",
+      "name": "Garlan Gudger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-4)",
+      "state": "AL",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cf025dad-05a0-4a54-ba0b-bbeecb87c10e"
+      },
+      "contact": {
+        "email": "garlan.gudger@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Gudger_4.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/004-garlan-gudger",
+        "https://ballotpedia.org/Garlan_Gudger",
+        "https://en.wikipedia.org/wiki/Garlan_Gudger",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180619/garlan-gudger",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Gudger&OID_SPONSOR=100447&OID_PERSON=8481&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100447&OID_PERSON=8481",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/garlan-gudger-939a3564",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "allen-gerald-al-sd21",
+      "name": "Gerald Allen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-21)",
+      "state": "AL",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/adbf5614-9045-4cb7-86eb-2d88f25a357a"
+      },
+      "contact": {
+        "email": "gerald.allen@alsenate.gov",
+        "district_voice": "334-261-0861",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1950-02-08",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Allen_21.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0021-gerald-allen",
+        "https://ballotpedia.org/Gerald_Allen",
+        "https://en.wikipedia.org/wiki/Gerald_Allen_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/5621/gerald-allen",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Allen&OID_SPONSOR=100464&OID_PERSON=1014&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100464&OID_PERSON=1014",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "shaver-ginny-al-hd39",
+      "name": "Ginny Shaver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-39)",
+      "state": "AL",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/08fce57e-b511-4572-bcb8-7c712d8e7d05"
+      },
+      "contact": {
+        "email": "ginny.shaver@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Shaver_39.png",
+      "sources": [
+        "https://ballotpedia.org/Ginny_Shaver",
+        "https://en.wikipedia.org/wiki/Ginny_Shaver",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180589/ginny-shaver",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Shaver&OID_SPONSOR=100520&OID_PERSON=8501&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100520&OID_PERSON=8501",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "albritton-greg-al-sd22",
+      "name": "Greg Albritton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-22)",
+      "state": "AL",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7b9adc85-fd70-470a-b1bf-44ed412f3ba0"
+      },
+      "contact": {
+        "email": "greg.albritton@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1952-03-18",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Albritton_22.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0022-greg-albritton",
+        "https://ballotpedia.org/Greg_Albritton",
+        "https://en.wikipedia.org/wiki/Greg_Albritton",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/15990/greg-albritton",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Albritton&OID_SPONSOR=100465&OID_PERSON=7691&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100465&OID_PERSON=7691",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "barnes-greg-al-hd13",
+      "name": "Greg Barnes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-13)",
+      "state": "AL",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/319cc74b-3113-4053-8bda-0e1903227207"
+      },
+      "contact": {
+        "email": "greg.barnes@alhouse.gov"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Greg_Barnes",
+        "https://en.wikipedia.org/wiki/Greg_Barnes",
+        "https://justfacts.votesmart.org/candidate/biography/201825/greg-barnes",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "allbright-heath-al-hd11",
+      "name": "Heath Allbright",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-11)",
+      "state": "AL",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de4c986e-ec06-437e-8d3d-b7ca591606bc"
+      },
+      "contact": {
+        "email": "heathallbright@gmail.com"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Heath_Allbright",
+        "https://www.linkedin.com/in/heath-allbright-3b817b117",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-van-al-hd42",
+      "name": "Van Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-42)",
+      "state": "AL",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2e9b60b3-d931-412e-a9f6-803aa7c7b085"
+      },
+      "contact": {
+        "email": "ivan.smith@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Smith_42.png",
+      "sources": [
+        "https://ballotpedia.org/Van_Smith",
+        "https://en.wikipedia.org/wiki/Ivan_Smith_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/156754/van-smith",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Smith&OID_SPONSOR=105207&OID_PERSON=8811&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Smith&OID_SPONSOR=105207&OID_PERSON=8811&SESSNAME=Regular%20Session%202021",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "waggoner-jabo-al-sd16",
+      "name": "Jabo Waggoner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-16)",
+      "state": "AL",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bdfa9580-2ce0-4828-8f9e-52e6f066fbce"
+      },
+      "contact": {
+        "email": "jabo.waggoner@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1937-01-08",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Waggoner_16.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0016-jabo-waggoner",
+        "https://ballotpedia.org/J.T._Waggoner",
+        "https://en.wikipedia.org/wiki/J._T._Waggoner",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/5619/jt-waggoner",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Waggoner&OID_SPONSOR=100459&OID_PERSON=1141&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100459&OID_PERSON=1141",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/jabo-waggoner-804164b",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "williams-jack-al-sd34",
+      "name": "Jack Williams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-34)",
+      "state": "AL",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a7e333c5-03f2-4343-9981-956bcc1ea38e"
+      },
+      "contact": {
+        "email": "jackwilliams55@icloud.com",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Williams_34.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0034-jack-williams",
+        "https://ballotpedia.org/Jack_W._Williams",
+        "https://en.wikipedia.org/wiki/Jack_W._Williams_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Williams&OID_SPONSOR=100477&OID_PERSON=7707&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100477&OID_PERSON=7707",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "lomax-james-al-hd20",
+      "name": "James Lomax",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-20)",
+      "state": "AL",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d54b8dfc-7921-4f35-ad22-ad2efdaad100"
+      },
+      "contact": {
+        "email": "jamesoliverlomax@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Lomax_20.png",
+      "sources": [
+        "https://ballotpedia.org/James_Lomax",
+        "https://en.wikipedia.org/wiki/James_Lomax",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201840/james-lomax",
+        "https://www.linkedin.com/in/jamesolomax",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "kiel-jamie-al-hd18",
+      "name": "Jamie Kiel",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-18)",
+      "state": "AL",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/390ee0ed-0b5e-4f45-a740-63511c4fa3fd"
+      },
+      "contact": {
+        "email": "jamie.kiel@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1974-12-09",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Kiel_18.png",
+      "sources": [
+        "https://ballotpedia.org/Jamie_Kiel",
+        "https://en.wikipedia.org/wiki/Jamie_Kiel",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180574/jamie-kiel",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Kiel&OID_SPONSOR=100498&OID_PERSON=8495&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100498&OID_PERSON=8495",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/jamiekiel",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "hovey-jay-al-sd27",
+      "name": "Jay Hovey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-27)",
+      "state": "AL",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d581a562-c33c-44c0-a707-c21dddf140aa"
+      },
+      "contact": {
+        "email": "jay.hovey@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Hovey_27.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0027-jay-hovey",
+        "https://ballotpedia.org/Jay_Hovey",
+        "https://en.wikipedia.org/wiki/Jay_Hovey",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/196707/jay-hovey",
+        "https://www.linkedin.com/in/jay-hovey-37668bb",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "ross-jeana-al-hd27",
+      "name": "Jeana Ross",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-27)",
+      "state": "AL",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/70d0256c-91eb-4338-b86d-181e1db4d8f7"
+      },
+      "contact": {
+        "email": "jeana.ross@alhouse.gov",
+        "district_voice": "256-582-0619"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://education.ua.edu/wp-content/uploads/2023/02/Jeana-Ross.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeana_Ross",
+        "https://education.ua.edu/jeana-ross-2",
+        "https://www.linkedin.com/in/jeana-ross-4a19a986",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "sorrells-jeff-al-hd87",
+      "name": "Jeff Sorrells",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-87)",
+      "state": "AL",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/18af5645-53f2-4571-b24d-3173abf2b567"
+      },
+      "contact": {
+        "email": "jeff.sorrells@alhouse.gov",
+        "district_voice": "205-620-6610",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Sorrells_87.png",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Sorrells",
+        "https://en.wikipedia.org/wiki/Jeff_Sorrells",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/180601/jeff-sorrells",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Sorrells&OID_SPONSOR=100569&OID_PERSON=8510&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100569&OID_PERSON=8510",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/jeff-sorrells-4382b084",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "fidler-jennifer-al-hd94",
+      "name": "Jennifer Fidler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-94)",
+      "state": "AL",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/48d9f4e1-ec8b-4353-9207-a70db34449a9"
+      },
+      "contact": {
+        "email": "jennifer.fidler@alhouse.gov",
+        "district_voice": "251-620-9384",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1970-06-19",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Fidler_94.png",
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Fidler",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "gray-jeremy-al-hd83",
+      "name": "Jeremy Gray",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-83)",
+      "state": "AL",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/15372a5d-6a78-40f2-aebf-fd7692c41cb0"
+      },
+      "contact": {
+        "email": "jeremy.gray@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1985-10-08",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Gray_83.png",
+      "sources": [
+        "https://ballotpedia.org/Jeremy_Gray",
+        "https://en.wikipedia.org/wiki/Jeremy_Gray_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180545/jeremy-gray",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Gray&OID_SPONSOR=100565&OID_PERSON=8509&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100565&OID_PERSON=8509",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "starnes-jerry-al-hd88",
+      "name": "Jerry Starnes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-88)",
+      "state": "AL",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8394a967-dcf1-4901-a8d5-9ca120da382e"
+      },
+      "contact": {
+        "email": "jerry.starnes@alhouse.gov",
+        "district_voice": "334-549-0782",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Starnes_88.png",
+      "sources": [
+        "https://ballotpedia.org/Jerry_Starnes",
+        "https://en.wikipedia.org/wiki/Jerry_Starnes",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/143786/jerry-starnes",
+        "https://www.linkedin.com/in/jerry-starnes-9a302888",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "carns-jim-al-hd48",
+      "name": "Jim Carns",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-48)",
+      "state": "AL",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0d7f5989-df17-4c90-8267-4914f5598712"
+      },
+      "contact": {
+        "email": "jwcarns@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1940-09-21",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Carns_48.png",
+      "sources": [
+        "https://ballotpedia.org/Jim_Carns",
+        "https://en.wikipedia.org/wiki/Jim_Carns",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/5630/jim-carns",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Carns&OID_SPONSOR=100529&OID_PERSON=1028&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100529&OID_PERSON=1028",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "hill-jim-al-hd50",
+      "name": "Jim Hill",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-50)",
+      "state": "AL",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1fda4118-bfb1-4ffa-b71a-a9d131feec6b"
+      },
+      "contact": {
+        "email": "jim.hill@alhouse.gov",
+        "district_voice": "205-838-1990",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1950-02-26",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Hill_50.png",
+      "sources": [
+        "https://ballotpedia.org/Jim_Hill_(Alabama)",
+        "https://en.wikipedia.org/wiki/Jim_Hill_(Alabama_politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://hwhlawgroup.com/attorneys/judge-james-e-hill-jr",
+        "https://justfacts.votesmart.org/candidate/biography/149953/jim-hill",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Hill&OID_SPONSOR=100531&OID_PERSON=7696&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100531&OID_PERSON=7696",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "lovvorn-joe-al-hd79",
+      "name": "Joe Lovvorn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-79)",
+      "state": "AL",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/972dcfd0-f2a2-438b-b5de-276ceb398a91"
+      },
+      "contact": {
+        "email": "joe.lovvorn@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1976-09-05",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Lovvorn_79.png",
+      "sources": [
+        "https://ballotpedia.org/Joe_Lovvorn",
+        "https://en.wikipedia.org/wiki/Joe_Lovvorn",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/175673/joe-lovvorn",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Lovvorn&OID_SPONSOR=100561&OID_PERSON=8119&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100561&OID_PERSON=8119",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/joe-lovvorn-8983656",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "carnley-josh-al-sd31",
+      "name": "Josh Carnley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-31)",
+      "state": "AL",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/51b33504-a943-4091-a3bd-f0b8feb124be"
+      },
+      "contact": {
+        "email": "josh.carnley@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Carnley_31.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0031-josh-carnley",
+        "https://ballotpedia.org/Josh_Carnley",
+        "https://en.wikipedia.org/wiki/Josh_Carnley",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/156773/josh-carnley",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "givan-juandalynn-al-hd60",
+      "name": "Juandalynn Givan",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-60)",
+      "state": "AL",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/73cebf90-bf5a-444a-857e-b5bbddc374bf"
+      },
+      "contact": {
+        "email": "juandalynn.givan@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Givan_60.png",
+      "sources": [
+        "https://ballotpedia.org/Juandalynn_Givan",
+        "https://en.wikipedia.org/wiki/Juandalynn_Givan",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/121471/juandalynn-givan",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Givan&OID_SPONSOR=100541&OID_PERSON=6665&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100541&OID_PERSON=6665",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "kelley-keith-al-sd12",
+      "name": "Keith Kelley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-12)",
+      "state": "AL",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e259674a-2a78-4423-b8d0-3d759ee90912"
+      },
+      "contact": {
+        "email": "keith.kelley@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Kelley_12.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0012-keith-kelley",
+        "https://ballotpedia.org/Keith_Kelley",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201804/keith-kelley",
+        "https://www.linkedin.com/in/keith-kelley-7b711061",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "datcher-kelvin-al-hd52",
+      "name": "Kelvin Datcher",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-52)",
+      "state": "AL",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/441922a8-63c1-498b-9de5-f5ee85d9dcf3"
+      },
+      "contact": {
+        "email": "kelvin.datcher@alhouse.gov"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Kelvin_Datcher_20240808_092142.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Kelvin_Datcher",
+        "https://www.linkedin.com/in/kelvindatcher",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "lawrence-kelvin-al-hd69",
+      "name": "Kelvin Lawrence",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-69)",
+      "state": "AL",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0e1643ee-370a-499d-80df-96116d63c216"
+      },
+      "contact": {
+        "email": "kelvinj73@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1973-11-12",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Lawrence_69.png",
+      "sources": [
+        "https://ballotpedia.org/Kelvin_Lawrence",
+        "https://en.wikipedia.org/wiki/Kelvin_Lawrence_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149963/kelvin-lawrence",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Lawrence&OID_SPONSOR=100551&OID_PERSON=7697&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100551&OID_PERSON=7697",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/kelvin-lawrence-1a646263",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "paschal-kenneth-al-hd73",
+      "name": "Kenneth Paschal",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-73)",
+      "state": "AL",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ab6d4114-8d0a-4439-934b-10197234473c"
+      },
+      "contact": {
+        "email": "kenneth.paschal@alhouse.gov",
+        "district_voice": "205-626-9458",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1966-12-09",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Paschal_73.png",
+      "sources": [
+        "https://ballotpedia.org/Kenneth_Paschal",
+        "https://en.wikipedia.org/wiki/Kenneth_Paschal",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/195795/kenneth-paschal",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Paschal&OID_SPONSOR=110579&OID_PERSON=9302&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=9100555&OID_PERSON=97694",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "hassell-kenyatt-al-hd78",
+      "name": "Kenyatté Hassell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-78)",
+      "state": "AL",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/63c5bc01-757d-474a-9c75-286da0076e3e"
+      },
+      "contact": {
+        "email": "ken.hassell@alhouse.gov",
+        "district_voice": "334-834-8494",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/kenyatte-hassell.png",
+      "sources": [
+        "https://ballotpedia.org/Kenyatt%C3%A9_Hassell",
+        "https://en.wikipedia.org/wiki/Kenyatte_Hassell",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/195902/kenyatte-hassell",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Hassell&OID_SPONSOR=110693&OID_PERSON=9339&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=pending.jpeg&OID_SPONSOR=110693&OID_PERSON=9339&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/kenyatte-hassell-ab17b5123",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "underwood-bubba-al-hd3",
+      "name": "Bubba Underwood",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-3)",
+      "state": "AL",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3828d8e6-1f22-4cb1-be51-b3d3a0c36b98"
+      },
+      "contact": {
+        "email": "kerryucpa@me.com",
+        "district_voice": "256-248-4891",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Underwood_3.png",
+      "sources": [
+        "https://ballotpedia.org/Kerry_Underwood",
+        "https://en.wikipedia.org/wiki/Kerry_Underwood",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/201817/kerry-underwood",
+        "https://www.linkedin.com/in/kerry-underwood-79689563",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "hatcher-kirk-al-sd26",
+      "name": "Kirk Hatcher",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-26)",
+      "state": "AL",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0a28b79-3df1-491b-af90-4c0414ba72c8"
+      },
+      "contact": {
+        "email": "kirk.hatcher@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Hatcher_26.png",
+      "sources": [
+        "https://ballotpedia.org/Kirk_Hatcher",
+        "https://en.wikipedia.org/wiki/Kirk_Hatcher",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180541/kirk-hatcher",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100560&OID_PERSON=8507",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Hatcher&OID_SPONSOR=108969&OID_PERSON=8507&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=108969&OID_PERSON=98507",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/kirk-hatcher-135385114",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "nelson-kristin-al-hd38",
+      "name": "Kristin Nelson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-38)",
+      "state": "AL",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/730c7d27-9f0a-4a8b-839b-8de86f6b012e"
+      },
+      "contact": {
+        "email": "kristin.nelson@alhouse.gov"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "sources": [
+        "https://ballotpedia.org/Kristin_Nelson_(Alabama)",
+        "https://en.wikipedia.org/wiki/Kristin_Nelson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/228105/kristin-nelson",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "bell-lance-al-sd11",
+      "name": "Lance Bell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-11)",
+      "state": "AL",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/889eac7b-10b6-4f00-9bd6-e93a93d93211"
+      },
+      "contact": {
+        "email": "lance.bell@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Bell_11.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0011-jim-mcclendon",
+        "https://ballotpedia.org/Lance_Bell",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/201801/lance-bell",
+        "https://tfrblaw.com/attorneys/r-lance-bell",
+        "https://www.linkedin.com/in/lance-bell-412bb170",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "stutts-larry-al-sd6",
+      "name": "Larry Stutts",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-6)",
+      "state": "AL",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/abc69c3a-3f86-4880-a1ea-a2a52677b877"
+      },
+      "contact": {
+        "email": "larry.stutts@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Stutts_6.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/006-larry-stutts",
+        "https://ballotpedia.org/Larry_Stutts",
+        "https://en.wikipedia.org/wiki/Larry_Stutts",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/152242/larry-stutts",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Stutts&OID_SPONSOR=100449&OID_PERSON=7718&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100449&OID_PERSON=7718",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/larry-stutts-9a68816b",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "hall-laura-al-hd19",
+      "name": "Laura Hall",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-19)",
+      "state": "AL",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9314859d-000f-447c-9aa7-4993b13e8010"
+      },
+      "contact": {
+        "email": "laura.hall@alhouse.org",
+        "district_voice": "256-539-5441",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1943-01-25",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Hall_19.png",
+      "sources": [
+        "https://ballotpedia.org/Laura_Hall_(Alabama)",
+        "https://en.wikipedia.org/wiki/Laura_Hall_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/5652/laura-hall",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Hall&OID_SPONSOR=100499&OID_PERSON=1068&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100499&OID_PERSON=1068",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/replaurahalld19",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "hulsey-leigh-al-hd15",
+      "name": "Leigh Hulsey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-15)",
+      "state": "AL",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f2489dbf-ac57-427f-8200-4cf6e6610980"
+      },
+      "contact": {
+        "email": "leigh.hulsey@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Hulsey_15.png",
+      "sources": [
+        "https://ballotpedia.org/Leigh_Hulsey",
+        "https://en.wikipedia.org/wiki/Leigh_Hulsey",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "coleman-madison-linda-al-sd20",
+      "name": "Linda Coleman-Madison",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-20)",
+      "state": "AL",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8ffbb88c-c323-436f-aab0-91a41bf6c8dd"
+      },
+      "contact": {
+        "email": "lcolemanmadison926@yahoo.com",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Coleman-Madison_20.png",
+      "sources": [
+        "https://ballotpedia.org/Linda_Coleman-Madison",
+        "https://en.wikipedia.org/wiki/Linda_Coleman_(Alabama_politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/27684/linda-coleman-madison",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Coleman&OID_SPONSOR=100463&OID_PERSON=4463&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100463&OID_PERSON=4463",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "butler-mack-al-hd28",
+      "name": "Mack Butler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-28)",
+      "state": "AL",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5071243c-3e2d-4acb-ac8d-0d3a8af3eb8a"
+      },
+      "contact": {
+        "email": "mack.butler@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1963-04-27",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Butler_28.png",
+      "sources": [
+        "https://ballotpedia.org/Mack_Butler",
+        "https://en.wikipedia.org/wiki/Mack_Butler",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/143699/mack-butler",
+        "https://www.linkedin.com/in/mack-butler-457b5921",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "paramore-marcus-al-hd89",
+      "name": "Marcus Paramore",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-89)",
+      "state": "AL",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/723a971e-91d9-4717-8f19-45f16e18690f"
+      },
+      "contact": {
+        "email": "marcusforhouse@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Paramore_89.png",
+      "sources": [
+        "https://ballotpedia.org/Marcus_Paramore",
+        "https://en.wikipedia.org/wiki/Marcus_Paramore",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/180606/marcus-paramore",
+        "https://www.linkedin.com/in/marcus-paramore-4970ab14",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "wilcox-margie-al-hd104",
+      "name": "Margie Wilcox",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-104)",
+      "state": "AL",
+      "district": "HD-104",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/050e1a72-402d-46ae-a9c3-1c5dff003ee6"
+      },
+      "contact": {
+        "email": "margie.wilcox@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Wilcox_104.png",
+      "sources": [
+        "https://ballotpedia.org/Margie_Wilcox",
+        "https://en.wikipedia.org/wiki/Margie_Wilcox",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/145310/margie-wilcox",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Wilcox&OID_SPONSOR=100586&OID_PERSON=7547&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100586&OID_PERSON=7547",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/margie-wilcox-b3140620",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "lands-marilyn-al-hd10",
+      "name": "Marilyn Lands",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-10)",
+      "state": "AL",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eb947430-2674-4158-8290-0d973c59e834"
+      },
+      "contact": {
+        "email": "marilyn.lands@alhouse.gov",
+        "district_voice": "256-539-5441"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://storage.googleapis.com/enview-public-general/legislative-people-photos/141174.jpg",
+      "sources": [
+        "https://ballotpedia.org/Marilyn_Lands",
+        "https://www.linkedin.com/in/marilyn-lands-69b82a249",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "gidley-mark-al-hd29",
+      "name": "Mark Gidley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-29)",
+      "state": "AL",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/97514731-a41d-4328-841f-afdcaac1c6e2"
+      },
+      "contact": {
+        "email": "mark.gidley@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Gidley_29.png",
+      "sources": [
+        "https://ballotpedia.org/Mark_Gidley",
+        "https://en.wikipedia.org/wiki/Mark_Gidley",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201851/mark-gidley",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "shirey-mark-al-hd100",
+      "name": "Mark Shirey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-100)",
+      "state": "AL",
+      "district": "HD-100",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/41debaee-f705-453d-a46f-3e8282b8a4b0"
+      },
+      "contact": {
+        "email": "mark.shirey@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Shirey_100.png",
+      "sources": [
+        "https://ballotpedia.org/Mark_Shirey",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.linkedin.com/in/mark-shirey-o-d-38a38429",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-mary-al-hd59",
+      "name": "Mary Moore",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-59)",
+      "state": "AL",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/63c58557-7c03-41f5-934a-866daed33ec8"
+      },
+      "contact": {
+        "email": "mamoor48@bellsouth.net",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1948-07-23",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Moore_59.png",
+      "sources": [
+        "https://ballotpedia.org/Mary_Moore",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/27576/mary-moore",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Moore&OID_SPONSOR=100540&OID_PERSON=4462&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100540&OID_PERSON=4462",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "simpson-matt-al-hd96",
+      "name": "Matt Simpson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-96)",
+      "state": "AL",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/52046189-0464-4140-9cdf-b6c66312d49d"
+      },
+      "contact": {
+        "email": "matt.simpson@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Simpson_96.png",
+      "sources": [
+        "https://ballotpedia.org/Matt_Simpson",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180610/matt-simpson",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Simpson&OID_SPONSOR=100578&OID_PERSON=8514&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100578&OID_PERSON=8514",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/matt-simpson-92b4132a",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "woods-matt-al-sd5",
+      "name": "Matt Woods",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-5)",
+      "state": "AL",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e6c4edb0-48af-4db8-aa0a-57570f0aef1e"
+      },
+      "contact": {
+        "email": "matt.woods@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Woods_13.png",
+      "sources": [
+        "https://ballotpedia.org/Matt_Woods",
+        "https://en.wikipedia.org/wiki/Matt_Woods_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.linkedin.com/in/matthew-woods-20680883",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "hammett-matthew-al-hd92",
+      "name": "Matthew Hammett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-92)",
+      "state": "AL",
+      "district": "HD-92",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ff14c161-755d-44c8-a1e5-c2e3930a5317"
+      },
+      "contact": {
+        "email": "matthew.hammett@alhouse.gov",
+        "district_voice": "334-496-3649",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Hammett_92.png",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Hammett",
+        "https://en.wikipedia.org/wiki/Matthew_Hammett",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201833/matthew-hammett",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "coleman-merika-al-sd19",
+      "name": "Merika Coleman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-19)",
+      "state": "AL",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/764f926b-598f-458e-84c4-5cc13c2302e5"
+      },
+      "contact": {
+        "email": "merika.coleman@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1973-09-06",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Coleman_19.png",
+      "sources": [
+        "https://ballotpedia.org/Merika_Coleman",
+        "https://en.wikipedia.org/wiki/Merika_Coleman",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/27693/merika-coleman",
+        "https://www.linkedin.com/in/merika-coleman-m-p-a-esq-b1965a135",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "kirkland-mike-al-hd23",
+      "name": "Mike Kirkland",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-23)",
+      "state": "AL",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c2e0fa74-36df-4d34-8203-962c546442fa"
+      },
+      "contact": {
+        "email": "kirklandmike75@gmail.com",
+        "district_voice": "256-218-3090",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Kirkland_23.png",
+      "sources": [
+        "https://ballotpedia.org/Mike_Kirkland",
+        "https://en.wikipedia.org/wiki/Mike_Kirkland_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201842/mike-kirkland",
+        "https://www.linkedin.com/in/mike-kirkland-mba-44a00a45",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "shaw-mike-al-hd47",
+      "name": "Mike Shaw",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-47)",
+      "state": "AL",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cff09a3a-b81e-433d-80f5-45f6472f4642"
+      },
+      "contact": {
+        "email": "mike.shaw@alabama47.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Shaw_47.png",
+      "sources": [
+        "https://ballotpedia.org/Mike_Shaw_(Alabama)",
+        "https://en.wikipedia.org/wiki/Mike_Shaw_(Alabama_politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/197169/mike-shaw",
+        "https://www.linkedin.com/in/shawnuff",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "bracy-napoleon-al-hd98",
+      "name": "Napoleon Bracy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-98)",
+      "state": "AL",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/947c7906-7825-442f-9241-d777b9bbe999"
+      },
+      "contact": {
+        "email": "napoleon.bracy@alhouse.org",
+        "district_voice": "251-327-2794",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Bracy_98.png",
+      "sources": [
+        "https://ballotpedia.org/Napoleon_Bracy_Jr.",
+        "https://en.wikipedia.org/wiki/Napoleon_Bracy_Jr.",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/121495/napoleon-bracy-jr",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Bracy&OID_SPONSOR=100580&OID_PERSON=6657&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100580&OID_PERSON=6657",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/napoleon-bracy-29500aaa",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "ledbetter-nathaniel-al-hd24",
+      "name": "Nathaniel Ledbetter",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-24)",
+      "state": "AL",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/097b764f-5d8c-462e-a962-3330c50721a4"
+      },
+      "contact": {
+        "email": "nathaniel.ledbetter@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1961-05-17",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Ledbetter_24.png",
+      "sources": [
+        "https://ballotpedia.org/Nathaniel_Ledbetter",
+        "https://en.wikipedia.org/wiki/Nathaniel_Ledbetter",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/121452/nathaniel-ledbetter",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Ledbetter&OID_SPONSOR=100504&OID_PERSON=7698&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100504&OID_PERSON=7698",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "rafferty-neil-al-hd54",
+      "name": "Neil Rafferty",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-54)",
+      "state": "AL",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dc6e41ae-d1b3-47c7-b225-1d5ec88a9fdc"
+      },
+      "contact": {
+        "email": "reprafferty@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Rafferty_54.png",
+      "sources": [
+        "https://ballotpedia.org/Neil_Rafferty",
+        "https://en.wikipedia.org/wiki/Neil_Rafferty",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180386/neil-rafferty",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Rafferty&OID_SPONSOR=100535&OID_PERSON=8503&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100535&OID_PERSON=8503",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/neil-rafferty-82a03a8a",
+        "https://www.reprafferty.com",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "crow-norman-al-hd63",
+      "name": "Norman Crow",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-63)",
+      "state": "AL",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3a86c192-f9b1-4b58-9f5b-2119d1fe4e0d"
+      },
+      "contact": {
+        "email": "norman.crow@alhouse.gov"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/Norman_Crow_(Alabama)",
+        "https://www.linkedin.com/in/norman-crow-53b35990",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "tillman-ontario-al-hd56",
+      "name": "Ontario Tillman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-56)",
+      "state": "AL",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a86c6f40-304e-49fd-a312-3aa30660fcdf"
+      },
+      "contact": {
+        "email": "ojtillman@gmail.com",
+        "district_voice": "205-417-1032",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Tillman_56.png",
+      "sources": [
+        "https://ballotpedia.org/Ontario_Tillman",
+        "https://en.wikipedia.org/wiki/Ontario_Tillman",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201897/ontario-tillman",
+        "https://www.linkedin.com/in/ontario-tillman-b8517a41",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-parker-al-hd4",
+      "name": "Parker Moore",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-4)",
+      "state": "AL",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/95e63d6f-1815-4364-8817-0d26e360013f"
+      },
+      "contact": {
+        "email": "parker.moore@alhouse.gov",
+        "district_voice": "256-227-6674",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1989-03-08",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Moore_4.png",
+      "sources": [
+        "https://ballotpedia.org/Parker_Moore",
+        "https://en.wikipedia.org/wiki/Parker_Moore",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/176839/parker-moore",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Moore&OID_SPONSOR=100484&OID_PERSON=8461&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100484&OID_PERSON=8461",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/parker-moore-21823197",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "mcclammy-penni-al-hd76",
+      "name": "Penni McClammy",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-76)",
+      "state": "AL",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c4b563a3-2b20-4c2d-8f54-2b7ed6a3af3f"
+      },
+      "contact": {
+        "email": "patrice.mcclammy@alhouse.gov",
+        "district_voice": "334-414-7345",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/mcclammy.png",
+      "sources": [
+        "https://ballotpedia.org/Patrice_McClammy",
+        "https://en.wikipedia.org/wiki/Patrice_McClammy",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/188318/patrice-mcclammy",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=McClammy&OID_SPONSOR=111050&OID_PERSON=1101&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/penni-mcclammy-30a5818",
+        "https://www.pennimcclammy.com",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "sellers-patrick-al-hd57",
+      "name": "Patrick Sellers",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-57)",
+      "state": "AL",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/19244bfa-5953-4304-8955-cc58d0c5d16d"
+      },
+      "contact": {
+        "email": "sellersfor57@yahoo.com",
+        "district_voice": "205-370-5370",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Sellers_57.png",
+      "sources": [
+        "https://ballotpedia.org/Patrick_Sellers",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149985/patrick-sellers",
+        "https://www.linkedin.com/in/patrick-sellers-68393048",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "lee-paul-al-hd86",
+      "name": "Paul Lee",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-86)",
+      "state": "AL",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37a5dfa8-e69f-4567-b8c0-3ea35a69f181"
+      },
+      "contact": {
+        "email": "pleed86@gmail.com",
+        "district_voice": "334-792-9682",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1960-10-07",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Lee_86.png",
+      "sources": [
+        "https://ballotpedia.org/Paul_Lee",
+        "https://en.wikipedia.org/wiki/Paul_Lee_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/71487/paul-lee",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Lee&OID_SPONSOR=100568&OID_PERSON=6672&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100568&OID_PERSON=6672",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "warren-pebblin-al-hd82",
+      "name": "Pebblin Warren",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-82)",
+      "state": "AL",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7c93c20f-6b0b-4743-8118-3cb4e9194c26"
+      },
+      "contact": {
+        "email": "pebblinwarren@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1952-04-15",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Warren_82.png",
+      "sources": [
+        "https://ballotpedia.org/Pebblin_Warren",
+        "https://en.wikipedia.org/wiki/Pebblin_Warren",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/27675/pebblin-warren",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Warren&OID_SPONSOR=100564&OID_PERSON=5238&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100564&OID_PERSON=5238",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "ensler-phillip-al-hd74",
+      "name": "Phillip Ensler",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-74)",
+      "state": "AL",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/397cb6b4-54fe-42e2-9135-7b440d925649"
+      },
+      "contact": {
+        "email": "phillip.ensler@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Ensler_74.png",
+      "sources": [
+        "https://ballotpedia.org/Phillip_Ensler",
+        "https://en.wikipedia.org/wiki/Phillip_Ensler",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201889/phillip-ensler",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "pettus-phillip-al-hd1",
+      "name": "Phillip Pettus",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-1)",
+      "state": "AL",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a84a3fe8-5444-4db3-9f64-06ea0cba0e90"
+      },
+      "contact": {
+        "email": "phillip.pettus@alhouse.gov",
+        "district_voice": "256-757-6679",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1962-02-26",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Pettus_1.png",
+      "sources": [
+        "https://ballotpedia.org/Phillip_Pettus",
+        "https://en.wikipedia.org/wiki/Phillip_Pettus",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149977/phillip-pettus",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Pettus&OID_SPONSOR=100481&OID_PERSON=7700&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100481&OID_PERSON=7700",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "rigsby-phillip-al-hd25",
+      "name": "Phillip Rigsby",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-25)",
+      "state": "AL",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/78f07b0c-9939-4e03-81f8-f851511a46cb"
+      },
+      "contact": {
+        "email": "reprigsbydistrict25@gmail.com",
+        "district_voice": "256-714-6376",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Rigsby_25.png",
+      "sources": [
+        "https://ballotpedia.org/Phillip_Rigsby",
+        "https://en.wikipedia.org/wiki/Phillip_Rigsby",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201847/phillip-rigsby",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "chestnut-prince-al-hd67",
+      "name": "Prince Chestnut",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-67)",
+      "state": "AL",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b1e60061-fb98-4c20-8532-b734d08cdbc3"
+      },
+      "contact": {
+        "email": "chestnut4house@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Chestnut_67.png",
+      "sources": [
+        "https://ballotpedia.org/Prince_Chestnut",
+        "https://en.wikipedia.org/wiki/Prince_Chestnut",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/176029/prince-chestnut",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Chestnut&OID_SPONSOR=100549&OID_PERSON=8261&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100549&OID_PERSON=8261",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "price-randy-al-sd13",
+      "name": "Randy Price",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-13)",
+      "state": "AL",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/040b7935-b32a-4d6d-9fa4-ec86e5ffd303"
+      },
+      "contact": {
+        "email": "randyprice.sd13@gmail.com",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Price_13.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0013-randy-price",
+        "https://ballotpedia.org/Randy_Price",
+        "https://en.wikipedia.org/wiki/Randy_Price",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149979/randy-price",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Price&OID_SPONSOR=100456&OID_PERSON=8484&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100456&OID_PERSON=8484",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "wood-randy-al-hd36",
+      "name": "Randy Wood",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-36)",
+      "state": "AL",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/451a4cb7-3585-46d3-86c7-61b345f7a601"
+      },
+      "contact": {
+        "email": "strep36@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1947-03-25",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Wood_36.png",
+      "sources": [
+        "https://ballotpedia.org/Randy_Wood",
+        "https://en.wikipedia.org/wiki/Randy_Wood_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/27617/randy-wood",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Wood&OID_SPONSOR=100517&OID_PERSON=4457&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100517&OID_PERSON=4457",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "ingram-reed-al-hd75",
+      "name": "Reed Ingram",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-75)",
+      "state": "AL",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bd08d7a5-b1f3-484f-80c1-bddf2d636413"
+      },
+      "contact": {
+        "email": "reedingram75@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Ingram_75.png",
+      "sources": [
+        "https://ballotpedia.org/Reed_Ingram",
+        "https://en.wikipedia.org/wiki/Reed_Ingram",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/81538/reed-ingram",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Ingram&OID_SPONSOR=100557&OID_PERSON=6167&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100557&OID_PERSON=6167",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/reed-ingram-843bab22",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "reynolds-rex-al-hd21",
+      "name": "Rex Reynolds",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-21)",
+      "state": "AL",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e95b6e20-1207-4cdc-9875-15d14bfd72d2"
+      },
+      "contact": {
+        "email": "rex.reynolds@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1959-06-23",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Reynolds_21.png",
+      "sources": [
+        "https://ballotpedia.org/Rex_Reynolds",
+        "https://en.wikipedia.org/wiki/Rex_Reynolds",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Reynolds&OID_SPONSOR=100501&OID_PERSON=8445&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100501&OID_PERSON=8445",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/rex-reynolds-3857905",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "marques-rhett-al-hd91",
+      "name": "Rhett Marques",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-91)",
+      "state": "AL",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d9d5a3a8-71f6-4c2e-8805-3fa715b315f4"
+      },
+      "contact": {
+        "email": "rhett.marques@alhouse.gov",
+        "district_voice": "334-289-5664",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1972-12-03",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Marques_91.png",
+      "sources": [
+        "https://ballotpedia.org/Rhett_Marques",
+        "https://en.wikipedia.org/wiki/Rhett_Marques",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180607/rhett-marques",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Marques&OID_SPONSOR=100573&OID_PERSON=8513&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100573&OID_PERSON=8513",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "rehm-rick-al-hd85",
+      "name": "Rick Rehm",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-85)",
+      "state": "AL",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/31629cc7-81e6-4422-9aa3-89e6b9073259"
+      },
+      "contact": {
+        "email": "rrehm46@gmail.com",
+        "district_voice": "334-797-7770",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1966-01-19",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Rehm_85.png",
+      "sources": [
+        "https://ballotpedia.org/Rick_Rehm",
+        "https://en.wikipedia.org/wiki/Rick_Rehm",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.linkedin.com/in/richard-rehm-600b8019a",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "whorton-ritchie-al-hd22",
+      "name": "Ritchie Whorton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-22)",
+      "state": "AL",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7e00e45e-24bf-4939-83b8-a56a90e3ea61"
+      },
+      "contact": {
+        "email": "ritchie.whorton@alhouse.gov",
+        "district_voice": "256-679-6490",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1960-03-04",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Whorton_22.png",
+      "sources": [
+        "https://ballotpedia.org/Ritchie_Whorton",
+        "https://en.wikipedia.org/wiki/Ritchie_Whorton",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/150005/ritchie-whorton",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Whorton&OID_SPONSOR=100502&OID_PERSON=7705&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100502&OID_PERSON=7705",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/ritchie-whorton-655248114",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "stewart-rob-al-sd23",
+      "name": "Rob Stewart",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-23)",
+      "state": "AL",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cd2d1a70-0bb3-49b3-871c-9e227392653d"
+      },
+      "contact": {
+        "email": "robert.stewart@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1990-02-04",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Stewart_23.png",
+      "sources": [
+        "https://ballotpedia.org/Robert_Stewart_(Alabama)",
+        "https://en.wikipedia.org/wiki/Robert_Stewart_(Alabama_politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201677/robert-stewart",
+        "https://www.linkedin.com/in/robert-stewart-03711129",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "smitherman-rodger-al-sd18",
+      "name": "Rodger Smitherman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-18)",
+      "state": "AL",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3b925820-55f7-4d24-b4df-d924fd3d1bf7"
+      },
+      "contact": {
+        "email": "rodger.smitherman@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1953-03-02",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Smitherman_18.png",
+      "sources": [
+        "https://ballotpedia.org/Rodger_Smitherman",
+        "https://en.wikipedia.org/wiki/Rodger_Smitherman",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/5617/rodger-smitherman",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Smitherman&OID_SPONSOR=100461&OID_PERSON=1139&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100461&OID_PERSON=1139",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "hollis-rolanda-al-hd58",
+      "name": "Rolanda Hollis",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-58)",
+      "state": "AL",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/721421f8-e118-4163-bae9-72f3662696e9"
+      },
+      "contact": {
+        "email": "rolanda.hollis@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Hollis_58.png",
+      "sources": [
+        "https://ballotpedia.org/Rolanda_Hollis",
+        "https://en.wikipedia.org/wiki/Rolanda_Hollis",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/176056/rolanda-hollis",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Hollis&OID_SPONSOR=100539&OID_PERSON=8220&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100539&OID_PERSON=8220",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/rolanda-hollis-96736521",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "bolton-ron-al-hd61",
+      "name": "Ron Bolton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-61)",
+      "state": "AL",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b94526a8-1564-43f5-ad38-98b795e95f02"
+      },
+      "contact": {
+        "email": "ronaldbolton1@gmail.com",
+        "district_voice": "205-242-9896",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Bolton_61.png",
+      "sources": [
+        "https://ballotpedia.org/Ron_Bolton_(Alabama)",
+        "https://en.wikipedia.org/wiki/Ron_Bolton_(politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/201861/ron-bolton",
+        "https://www.linkedin.com/in/ronald-bolton-33715143",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "bedsole-russell-al-hd49",
+      "name": "Russell Bedsole",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-49)",
+      "state": "AL",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/af4e689f-d9f8-4a90-a883-1ed68e476aa9"
+      },
+      "contact": {
+        "email": "russell.bedsole@alhouse.gov",
+        "district_voice": "334-261-0491",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Bedsole_49.png",
+      "sources": [
+        "https://ballotpedia.org/Russell_Bedsole",
+        "https://en.wikipedia.org/wiki/Russell_Bedsole",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/143765/russell-bedsole",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Bedsole&OID_SPONSOR=107543&OID_PERSON=9140&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Bedsole&OID_SPONSOR=107543&OID_PERSON=9140&SESSNAME=Regular%20Session%202021",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "givhan-sam-al-sd7",
+      "name": "Sam Givhan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-7)",
+      "state": "AL",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/21753744-c2a0-45d4-90f8-3d4082c794d4"
+      },
+      "contact": {
+        "email": "sam.givhan@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1967-02-23",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Givhan_7.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/007-sam-givhan",
+        "https://ballotpedia.org/Sam_Givhan",
+        "https://en.wikipedia.org/wiki/Sam_Givhan",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/180622/sam-givhan",
+        "https://samgivhan.com",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Givhan&OID_SPONSOR=100450&OID_PERSON=8482&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100450&OID_PERSON=8482",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/sam-givhan-20a046a",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-sam-al-hd99",
+      "name": "Sam Jones",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-99)",
+      "state": "AL",
+      "district": "HD-99",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1c825e04-ad1e-4009-a8d8-157abc001f3e"
+      },
+      "contact": {
+        "email": "sam.jones@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1947-04-14",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Jones_99.png",
+      "sources": [
+        "https://ballotpedia.org/Sam_Jones_(Alabama)",
+        "https://en.wikipedia.org/wiki/Sam_Jones_(Alabama_politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180554/sam-jones",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Jones&OID_SPONSOR=100581&OID_PERSON=8515&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100581&OID_PERSON=8515",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/re-elect-mayor-sam-jones-41530567",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "stadthagen-scott-al-hd9",
+      "name": "Scott Stadthagen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-9)",
+      "state": "AL",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9877dd5b-c3ee-459f-bb8d-d9d954ae343c"
+      },
+      "contact": {
+        "email": "scott.stadthagen@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1977-08-09",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Stadthagen_9.png",
+      "sources": [
+        "https://ballotpedia.org/Scott_Stadthagen",
+        "https://en.wikipedia.org/wiki/Scott_Stadthagen",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/180566/scott-stadthagen",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Stadthagen&OID_SPONSOR=100489&OID_PERSON=8492&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100489&OID_PERSON=8492",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/rep-scott-stadthagen-b5735130",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "stringer-shane-al-hd102",
+      "name": "Shane Stringer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-102)",
+      "state": "AL",
+      "district": "HD-102",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6a24df4b-b8e2-449a-8f18-d12d15f2bc5b"
+      },
+      "contact": {
+        "email": "shane.stringer@alhouse.gov",
+        "district_voice": "251-208-5480",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Stringer_102.png",
+      "sources": [
+        "https://ballotpedia.org/Shane_Stringer",
+        "https://en.wikipedia.org/wiki/Shane_Stringer",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180615/shane-stringer",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Stringer&OID_SPONSOR=100584&OID_PERSON=8516&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100584&OID_PERSON=8516",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "shelnutt-shay-al-sd17",
+      "name": "Shay Shelnutt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-17)",
+      "state": "AL",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9487b441-352c-43be-a2bb-8abc45e20671"
+      },
+      "contact": {
+        "email": "shay.sd17@gmail.com",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1967-09-21",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Shelnutt_17.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0017-shay-shelnutt",
+        "https://ballotpedia.org/Shay_Shelnutt",
+        "https://en.wikipedia.org/wiki/Shay_Shelnutt",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149989/shay-shelnutt",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Shelnutt&OID_SPONSOR=100460&OID_PERSON=7690&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100460&OID_PERSON=7690",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/shay-shelnutt-03b6382a",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "clouse-steve-al-hd93",
+      "name": "Steve Clouse",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-93)",
+      "state": "AL",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6b191fda-698d-4061-8396-fef9771847ee"
+      },
+      "contact": {
+        "email": "steve.clouse@alhouse.org",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1956-02-07",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Clouse_93.png",
+      "sources": [
+        "https://ballotpedia.org/Steve_Clouse",
+        "https://en.wikipedia.org/wiki/Steve_Clouse",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/5635/steve-clouse",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Clouse&OID_SPONSOR=100575&OID_PERSON=1035&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100575&OID_PERSON=1035",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/steve-clouse-46007b76",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "hurst-steve-al-hd35",
+      "name": "Steve Hurst",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-35)",
+      "state": "AL",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4f0a4d5d-b27a-4f33-b394-f27d306f8a42"
+      },
+      "contact": {
+        "email": "steve.hurst@alhouse.gov",
+        "district_voice": "334-280-3276",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Hurst_35.png",
+      "sources": [
+        "https://ballotpedia.org/Steve_Hurst",
+        "https://en.wikipedia.org/wiki/Steve_Hurst",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/15975/steve-hurst",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Hurst&OID_SPONSOR=100516&OID_PERSON=3294&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100516&OID_PERSON=3294",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/steve-hurst-4911a167",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "livingston-steve-al-sd8",
+      "name": "Steve Livingston",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-8)",
+      "state": "AL",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dd765598-9bed-4301-9f49-7e06fffd7fce"
+      },
+      "contact": {
+        "email": "steve.livingston@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Livingston_8.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/008-steve-livingston",
+        "https://ballotpedia.org/Steve_Livingston",
+        "https://en.wikipedia.org/wiki/Steve_Livingston",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/149964/steve-livingston",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Livingston&OID_SPONSOR=100451&OID_PERSON=7689&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100451&OID_PERSON=7689",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/steve-livingston-33b4aa49",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "dubose-susan-al-hd45",
+      "name": "Susan DuBose",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-45)",
+      "state": "AL",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/03612130-d61e-43dd-9768-ddca8f27d4ea"
+      },
+      "contact": {
+        "email": "susan.dubose@alhouse.gov",
+        "district_voice": "205-612-2433",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/DuBose_45.png",
+      "sources": [
+        "https://ballotpedia.org/Susan_DuBose",
+        "https://en.wikipedia.org/wiki/Susan_DuBose",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201865/susan-dubose",
+        "https://www.linkedin.com/in/susan-dubose-9158a348",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "morris-tashina-al-hd77",
+      "name": "TaShina Morris",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-77)",
+      "state": "AL",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2ba6dc9a-31db-4371-9d69-7fa000e7a08a"
+      },
+      "contact": {
+        "email": "tashina.morris@alhouse.gov",
+        "district_voice": "256-328-1653",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Morris_77.png",
+      "sources": [
+        "https://ballotpedia.org/TaShina_Morris",
+        "https://en.wikipedia.org/wiki/Tashina_Morris",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180538/tashina-morris",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Morris&OID_SPONSOR=100559&OID_PERSON=8506&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100559&OID_PERSON=8506",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/tashina-morris-03522890",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "collins-terri-al-hd8",
+      "name": "Terri Collins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-8)",
+      "state": "AL",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/902f0f81-a34c-4714-a3eb-bf563abbea96"
+      },
+      "contact": {
+        "email": "terri@terricollins.org",
+        "district_voice": "256-260-2146",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1958-05-06",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Collins_8.png",
+      "sources": [
+        "https://ballotpedia.org/Terri_Collins",
+        "https://en.wikipedia.org/wiki/Terri_Collins",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/121502/terri-collins",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Collins&OID_SPONSOR=100488&OID_PERSON=6661&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100488&OID_PERSON=6661",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/terri-collins-7004435",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-thomas-al-hd68",
+      "name": "Thomas Jackson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-68)",
+      "state": "AL",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3d737a2a-6fdf-4939-838d-4f035a647e23"
+      },
+      "contact": {
+        "email": "jthomase68@gmail.com",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1949-08-24",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Jackson_68.png",
+      "sources": [
+        "https://ballotpedia.org/Thomas_%22Action%22_Jackson",
+        "https://en.wikipedia.org/wiki/Thomas_Jackson_(Alabama_politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/5666/thomas-jackson-jr",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Jackson&OID_SPONSOR=100550&OID_PERSON=1088&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100550&OID_PERSON=1088",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "melson-tim-al-sd1",
+      "name": "Tim Melson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-1)",
+      "state": "AL",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2f934a90-dc27-4289-b571-36e80ea4384b"
+      },
+      "contact": {
+        "email": "tim.melson@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1960-01-01",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Melson_1.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/001-tim-melson",
+        "https://ballotpedia.org/Tim_Melson",
+        "https://en.wikipedia.org/wiki/Tim_Melson",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/149972/tim-melson",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Melson&OID_SPONSOR=100444&OID_PERSON=7688&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100444&OID_PERSON=7688",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "wadsworth-tim-al-hd14",
+      "name": "Tim Wadsworth",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-14)",
+      "state": "AL",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/04f7bd8e-094b-433c-9e91-7ebe64c75604"
+      },
+      "contact": {
+        "email": "wadsworth.tim654321@gmail.com",
+        "district_voice": "205-300-4008",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1957-06-03",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Wadsworth_14.png",
+      "sources": [
+        "https://ballotpedia.org/Tim_Wadsworth",
+        "https://en.wikipedia.org/wiki/Tim_Wadsworth",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/150001/tim-wadsworth",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Wadsworth&OID_SPONSOR=100494&OID_PERSON=7704&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100494&OID_PERSON=7704",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://www.linkedin.com/in/tim-r-wadsworth-07043110",
+        "https://www.linkedin.com/in/tim-wadsworth-83545732",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "butler-tom-al-sd2",
+      "name": "Tom Butler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-2)",
+      "state": "AL",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/32e10f9c-d38c-472f-8fb0-03450c4b538a"
+      },
+      "contact": {
+        "email": "tom.butler@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1944-04-09",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Butler_2.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/002-tom-butler",
+        "https://ballotpedia.org/Tom_Butler",
+        "https://en.wikipedia.org/wiki/Tom_Butler_(Alabama_politician)",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Butler&OID_SPONSOR=100445&OID_PERSON=1010&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100445&OID_PERSON=1010",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/senatorbutler",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "estes-tracy-al-hd17",
+      "name": "Tracy Estes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-17)",
+      "state": "AL",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/25308613-cda5-4e1c-aef7-821ada580575"
+      },
+      "contact": {
+        "email": "tracy.estes@alhouse.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1967-06-20",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Estes_17.png",
+      "sources": [
+        "https://ballotpedia.org/Tracy_Estes",
+        "https://en.wikipedia.org/wiki/Tracy_Estes",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Estes&OID_SPONSOR=100497&OID_PERSON=8494&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100497&OID_PERSON=8494",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "hendrix-travis-al-hd55",
+      "name": "Travis Hendrix",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-55)",
+      "state": "AL",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/03ab8e26-365c-4dab-8e49-df2a8b7613f8"
+      },
+      "contact": {
+        "email": "hendrixfor55@gmail.com",
+        "district_voice": "205-254-2684",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Hendrix_55.png",
+      "sources": [
+        "https://ballotpedia.org/Travis_Hendrix",
+        "https://en.wikipedia.org/wiki/Travis_Hendrix",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/201900/travis-hendrix",
+        "https://www.linkedin.com/in/travis-hendrix-40a413b7",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "stubbs-troy-al-hd31",
+      "name": "Troy Stubbs",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Representative (HD-31)",
+      "state": "AL",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/82715f9c-12a1-4e99-8020-a47b37dfa92b"
+      },
+      "contact": {
+        "email": "troy.stubbs@hotmail.com",
+        "district_voice": "334-451-4589",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/house/members/Stubbs_31.png",
+      "sources": [
+        "https://ballotpedia.org/Troy_Stubbs",
+        "https://en.wikipedia.org/wiki/Troy_Stubbs",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/199958/troy-stubbs",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "figures-vivian-al-sd33",
+      "name": "Vivian Figures",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-33)",
+      "state": "AL",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/63d0a35f-ec68-48e2-be94-d5e3cb60b3c3"
+      },
+      "contact": {
+        "email": "vivian.figures@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1957-01-24",
+        "gender": "Female"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Figures_33.png",
+      "sources": [
+        "https://ballotpedia.org/Vivian_Figures",
+        "https://en.wikipedia.org/wiki/Vivian_Davis_Figures",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Figures&OID_SPONSOR=100476&OID_PERSON=1027&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100476&OID_PERSON=1027",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/vivian-figures-4661262a",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "kitchens-wes-al-sd9",
+      "name": "Wes Kitchens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-9)",
+      "state": "AL",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3f143edf-eac6-4bee-89b3-c5ac0b0b856e"
+      },
+      "contact": {
+        "email": "wes.kitchens@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/house-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1989-03-04",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Kitchens_9.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/009-district9-senator",
+        "https://ballotpedia.org/Wes_Kitchens",
+        "https://en.wikipedia.org/wiki/Wes_Kitchens",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/180577/wes-kitchens",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?NAME=Kitchens&OID_SPONSOR=100507&OID_PERSON=8496&SESSNAME=",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALRepresentative.aspx?OID_SPONSOR=100507&OID_PERSON=8496",
+        "https://www.legislature.state.al.us/aliswww/ISD/House/ALRepresentatives.aspx",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "barfoot-will-al-sd25",
+      "name": "Will Barfoot",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-25)",
+      "state": "AL",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8cca1495-936e-4ac5-920a-cc4aa22e495e"
+      },
+      "contact": {
+        "email": "will.barfoot@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Barfoot_25.png",
+      "sources": [
+        "https://alsenaterepublicans.org/representatives/0025-will-barfoot",
+        "https://ballotpedia.org/Will_Barfoot",
+        "https://en.wikipedia.org/wiki/Will_Barfoot",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/biography/56865/will-barfoot",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Barfoot&OID_SPONSOR=100468&OID_PERSON=8486&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100468&OID_PERSON=8486",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/will-barfoot-b4001a31",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    },
+    {
+      "politician_id": "beasley-billy-al-sd28",
+      "name": "Billy Beasley",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Alabama State Senator (SD-28)",
+      "state": "AL",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "AL",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/38c5b433-f53c-4073-a2da-a969e4c31696"
+      },
+      "contact": {
+        "email": "billy.beasley@alsenate.gov",
+        "website": "https://alison.legislature.state.al.us/senate-leaders-members"
+      },
+      "bio": {
+        "birth_date": "1940-03-19",
+        "gender": "Male"
+      },
+      "image": "https://www.legislature.state.al.us/pdf/senate/members/Beasley_28.png",
+      "sources": [
+        "https://ballotpedia.org/Billy_Beasley",
+        "https://en.wikipedia.org/wiki/Billy_Beasley",
+        "https://gql.api.alison.legislature.state.al.us/graphql",
+        "https://justfacts.votesmart.org/candidate/15872/billy-beasley",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?NAME=Beasley&OID_SPONSOR=100471&OID_PERSON=3302&SESSNAME=Regular%20Session%202022",
+        "https://www.legislature.state.al.us/aliswww/ISD/ALSenator.aspx?OID_SPONSOR=100471&OID_PERSON=3302",
+        "https://www.legislature.state.al.us/aliswww/ISD/Senate/ALSenators.aspx",
+        "https://www.linkedin.com/in/billy-beasley-b087b245",
+        "https://data.openstates.org/people/current/al.csv"
+      ]
+    }
+  ]
+}

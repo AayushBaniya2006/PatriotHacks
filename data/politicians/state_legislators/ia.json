@@ -1,0 +1,5142 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/ia.csv",
+  "state": "IA",
+  "politicians": [
+    {
+      "politician_id": "zabner-adam-ia-hd90",
+      "name": "Adam Zabner",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-90)",
+      "state": "IA",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c29c02a4-8429-4846-bc19-817f545f3935"
+      },
+      "contact": {
+        "email": "adam.zabner@legis.iowa.gov",
+        "website": "https://eepurl.com/ihe76H"
+      },
+      "bio": {
+        "birth_date": "1999-05-24",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33993",
+      "sources": [
+        "https://ballotpedia.org/Adam_Zabner",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33993",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33993",
+        "https://www.linkedin.com/in/adam-zabner",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "dickey-adrian-ia-sd44",
+      "name": "Adrian Dickey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-44)",
+      "state": "IA",
+      "district": "SD-44",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9788064e-fad9-4130-9084-69e829884d9c"
+      },
+      "contact": {
+        "email": "adrian.dickey@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/adrian-dickey/"
+      },
+      "bio": {
+        "birth_date": "1973-10-23",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=31094",
+      "sources": [
+        "https://ballotpedia.org/Adrian_Dickey",
+        "https://en.wikipedia.org/wiki/Adrian_Dickey",
+        "https://iowasenaterepublicans.com/senators/adrian-dickey",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=31094",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=31094",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=31094",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/adrian-dickey-20030a49",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wichtendahl-aime-ia-hd80",
+      "name": "Aime Wichtendahl",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-80)",
+      "state": "IA",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0883366-eaba-4dc1-9a66-4c35cb1d0290"
+      },
+      "contact": {
+        "email": "aime.wichtendahl@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37390"
+      },
+      "bio": {
+        "birth_date": "1979-12-31",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37390",
+      "sources": [
+        "https://ballotpedia.org/Aime_Wichtendahl",
+        "https://en.wikipedia.org/wiki/Aime_Wichtendahl",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37390",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37390",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "nielsen-amy-ia-hd85",
+      "name": "Amy Nielsen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-85)",
+      "state": "IA",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0ed1d7f1-1471-4055-b674-582bf19c28b3"
+      },
+      "contact": {
+        "email": "amy.nielsen@legis.iowa.gov",
+        "website": "https://eepurl.com/gXNTL1"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=18050",
+      "sources": [
+        "https://ballotpedia.org/Amy_Nielsen",
+        "https://en.wikipedia.org/wiki/Amy_Nielsen",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=18050",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=18050",
+        "https://www.linkedin.com/in/amy-nielsen-150183b2",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "sinclair-amy-ia-sd12",
+      "name": "Amy Sinclair",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-12)",
+      "state": "IA",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8e969687-4903-4f3c-a76f-2e35a2232d09"
+      },
+      "contact": {
+        "email": "amy.sinclair@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/amy-sinclair/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=10729",
+      "sources": [
+        "https://ballotpedia.org/Amy_Sinclair",
+        "https://en.wikipedia.org/wiki/Amy_Sinclair",
+        "https://iowasenaterepublicans.com/senators/amy-sinclair",
+        "https://justfacts.votesmart.org/candidate/biography/85793/amy-sinclair",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=10729",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=10729",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=10729",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=10729",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/amy-sinclair-20927670",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "ramirez-angel-ia-hd78",
+      "name": "Angel Ramirez",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-78)",
+      "state": "IA",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/17e291e9-2484-4e94-a99f-0c12d6269349"
+      },
+      "contact": {
+        "email": "angel.ramirez@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?personID=6145"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=6145",
+      "sources": [
+        "https://ballotpedia.org/Angel_Ramirez_(Iowa)",
+        "https://en.wikipedia.org/wiki/Angel_Ramirez_(politician)",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=6145",
+        "https://www.linkedin.com/in/angelinaramirez",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "meyer-ann-ia-hd8",
+      "name": "Ann Meyer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-8)",
+      "state": "IA",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f8bf5332-b8b7-4d55-8652-e9b883cae35e"
+      },
+      "contact": {
+        "email": "ann.meyer@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27019",
+      "sources": [
+        "https://ballotpedia.org/Ann_Meyer",
+        "https://en.wikipedia.org/wiki/Ann_Meyer",
+        "https://justfacts.votesmart.org/candidate/biography/180183/ann-meyer",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=27019",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=27019",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27019",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27019",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "sweeney-annette-ia-sd27",
+      "name": "Annette Sweeney",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-27)",
+      "state": "IA",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/79eacd35-8caf-466e-b75f-0d878dcf5221"
+      },
+      "contact": {
+        "email": "annette.sweeney@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/annette-sweeney/"
+      },
+      "bio": {
+        "birth_date": "1957-12-09",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=6585",
+      "sources": [
+        "https://ballotpedia.org/Annette_Sweeney",
+        "https://en.wikipedia.org/wiki/Annette_Sweeney",
+        "https://iowasenaterepublicans.com/senators/annette-sweeney",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=6585",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=6585",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=6585",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=6585",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/annette-sweeney-63813811",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "staed-art-ia-sd40",
+      "name": "Art Staed",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-40)",
+      "state": "IA",
+      "district": "SD-40",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/57925a0b-3010-440d-a012-c8465535c13e"
+      },
+      "contact": {
+        "email": "art.staed@legis.iowa.gov",
+        "website": "https://eepurl.com/gXSMIH"
+      },
+      "bio": {
+        "birth_date": "1949-04-21",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=10743",
+      "sources": [
+        "https://ballotpedia.org/Art_Staed",
+        "https://en.wikipedia.org/wiki/Art_Staed",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=10743",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=10743",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=10743",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=10743",
+        "https://www.linkedin.com/in/art-staed-a45a7991",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "baeth-austin-ia-hd36",
+      "name": "Austin Baeth",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-36)",
+      "state": "IA",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9aa42801-ba2e-4f2e-9448-cf5e6114fba7"
+      },
+      "contact": {
+        "email": "austin.baeth@legis.iowa.gov",
+        "website": "https://eepurl.com/ihfkvT"
+      },
+      "bio": {
+        "birth_date": "1984-10-19",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33976",
+      "sources": [
+        "https://ballotpedia.org/Austin_Baeth",
+        "https://en.wikipedia.org/wiki/Austin_Baeth",
+        "https://justfacts.votesmart.org/candidate/biography/203958/austin-baeth",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33976",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=33976",
+        "https://www.linkedin.com/in/austin-baeth-0b0877a5",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "harris-austin-ia-hd26",
+      "name": "Austin Harris",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-26)",
+      "state": "IA",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3dea807e-b6b5-4531-a5d6-d51ae8811aca"
+      },
+      "contact": {
+        "email": "austin.harris@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33971&ga=90"
+      },
+      "bio": {
+        "birth_date": "1995-11-06",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33971",
+      "sources": [
+        "https://ballotpedia.org/Austin_Harris_(Iowa)",
+        "https://en.wikipedia.org/wiki/Austin_Harris",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33971",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33971",
+        "https://www.linkedin.com/in/austin-harris-650363108",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "kniff-mcculla-barb-ia-hd37",
+      "name": "Barb Kniff McCulla",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-37)",
+      "state": "IA",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5aa1870f-0eb7-4a82-9788-7b159d28a287"
+      },
+      "contact": {
+        "email": "barb.kniffmcculla@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33977&ga=90"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33977",
+      "sources": [
+        "https://ballotpedia.org/Barb_Kniff_McCulla",
+        "https://en.wikipedia.org/wiki/Barb_Kniff_McCulla",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33977",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33977",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wessel-kroeschell-beth-ia-hd49",
+      "name": "Beth Wessel-Kroeschell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-49)",
+      "state": "IA",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5c955d7c-30ce-4930-9d96-588735b89dc2"
+      },
+      "contact": {
+        "email": "beth.wessel-kroeschell@legis.iowa.gov",
+        "website": "https://eepurl.com/gXNo2T"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=774&pType=3",
+      "sources": [
+        "https://ballotpedia.org/Beth_Wessel-Kroeschell",
+        "https://en.wikipedia.org/wiki/Beth_Wessel-Kroeschell",
+        "https://justfacts.votesmart.org/candidate/biography/32637/beth-wessel-kroeschell",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=774",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=774",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=774",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=774",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "gustoff-bill-ia-hd40",
+      "name": "Bill Gustoff",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-40)",
+      "state": "IA",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7ebd4346-a560-458d-b010-3ddd82d1cf38"
+      },
+      "contact": {
+        "email": "bill.gustoff@legis.iowa.gov",
+        "website": "https://eepurl.com/h6jOxr"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33978",
+      "sources": [
+        "https://ballotpedia.org/Bill_Gustoff",
+        "https://en.wikipedia.org/wiki/Bill_Gustoff",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33978",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33978",
+        "https://www.linkedin.com/in/gustoff",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "watkins-blaine-ia-hd100",
+      "name": "Blaine Watkins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-100)",
+      "state": "IA",
+      "district": "HD-100",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/16d3e647-2d71-4eb0-beb3-1c6e0294fd7d"
+      },
+      "contact": {
+        "email": "blaine.watkins@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=28966"
+      },
+      "bio": {
+        "birth_date": "2001-06-26",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=28966",
+      "sources": [
+        "https://ballotpedia.org/Blaine_Watkins",
+        "https://en.wikipedia.org/wiki/Blaine_Watkins",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=28966",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=28966",
+        "https://www.linkedin.com/in/blaine-watkins-b92692275",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "kressig-bob-ia-hd75",
+      "name": "Bob Kressig",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-75)",
+      "state": "IA",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bdd055a7-677f-4df3-ba42-72c09d75a2ad"
+      },
+      "contact": {
+        "email": "bob.kressig@legis.iowa.gov",
+        "website": "https://iowa.us19.list-manage.com/subscribe?u=9f68e4c04f9646e4baeec6d78&id=77ff2ca7e5"
+      },
+      "bio": {
+        "birth_date": "1953-12-31",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=781",
+      "sources": [
+        "https://ballotpedia.org/Bob_Kressig",
+        "https://en.wikipedia.org/wiki/Bob_Kressig",
+        "https://justfacts.votesmart.org/candidate/biography/32632/bob-kressig",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=781",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=781",
+        "https://www.linkedin.com/in/bob-kressig-8a736931",
+        "https://www.linkedin.com/in/bob-kressig-98b36931",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "kaufmann-bobby-ia-hd82",
+      "name": "Bobby Kaufmann",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-82)",
+      "state": "IA",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/657c7d2d-2444-4809-93fb-d1701d77f528"
+      },
+      "contact": {
+        "email": "bobby.kaufmann@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=10756",
+      "sources": [
+        "https://ballotpedia.org/Bobby_Kaufmann",
+        "https://en.wikipedia.org/wiki/Bobby_Kaufmann",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=10756",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=10756",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "siegrist-brent-ia-hd19",
+      "name": "Brent Siegrist",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-19)",
+      "state": "IA",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/29efffba-9a8b-473f-a66e-8be5441cbb83"
+      },
+      "contact": {
+        "email": "brent.siegrist@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1952-09-30",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30646",
+      "sources": [
+        "https://ballotpedia.org/Brent_Siegrist",
+        "https://en.wikipedia.org/wiki/Brent_Siegrist",
+        "https://justfacts.votesmart.org/candidate/biography/6544/j-brent-siegrist",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30646",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30646",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30646",
+        "https://www.linkedin.com/in/brent-siegrist-a619a8108",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "barker-brett-ia-hd51",
+      "name": "Brett Barker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-51)",
+      "state": "IA",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e34f4bba-5e1f-4e99-8654-d35140a5470b"
+      },
+      "contact": {
+        "email": "brett.barker@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37386"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37386",
+      "sources": [
+        "https://ballotpedia.org/Brett_Barker",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37386",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37386",
+        "https://www.linkedin.com/in/bretthbarker",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "lohse-brian-ia-hd45",
+      "name": "Brian Lohse",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-45)",
+      "state": "IA",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0d66082-fd49-47ff-acd7-2f8106bc9837"
+      },
+      "contact": {
+        "email": "brian.lohse@legis.iowa.gov",
+        "website": "https://gop.us20.list-manage.com/subscribe?u=871f3d222fc2ae8e3dd8b683a&id=5f02846a39"
+      },
+      "bio": {
+        "birth_date": "1968-11-27",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27022",
+      "sources": [
+        "https://ballotpedia.org/Brian_Lohse",
+        "https://en.wikipedia.org/wiki/Brian_Lohse",
+        "https://justfacts.votesmart.org/candidate/biography/184841/brian-lohse",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27022",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27022",
+        "https://www.linkedin.com/in/brian-lohse-704715121",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "meyer-brian-ia-hd29",
+      "name": "Brian Meyer",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-29)",
+      "state": "IA",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/141dec61-26f0-4155-a86b-9b2179c9546c"
+      },
+      "contact": {
+        "email": "brian.meyer@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=6377&ga=89"
+      },
+      "bio": {
+        "birth_date": "1973-11-01",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=6377",
+      "sources": [
+        "https://ballotpedia.org/Brian_Meyer_(Iowa)",
+        "https://en.wikipedia.org/wiki/Brian_Meyer_(politician)",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=6377",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=6377",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=6377",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=6377",
+        "https://www.linkedin.com/in/brianmeyer2",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "boden-brooke-ia-hd21",
+      "name": "Brooke Boden",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-21)",
+      "state": "IA",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/942429d9-5b4a-4ad7-8da7-d43eb7828dff"
+      },
+      "contact": {
+        "email": "brooke.boden@legis.iowa.gov",
+        "website": "https://brookeforiowa.us7.list-manage.com/subscribe?u=2729c18ae239c6270f597da67&id=dbd3dab3ff"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30648",
+      "sources": [
+        "https://ballotpedia.org/Brooke_Boden",
+        "https://en.wikipedia.org/wiki/Brooke_Boden",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30648",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30648",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30648",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "koelker-carrie-ia-sd33",
+      "name": "Carrie Koelker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-33)",
+      "state": "IA",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9b68d2a2-ead2-401e-a225-1edae68f6099"
+      },
+      "contact": {
+        "email": "carrie.koelker@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/carrie-koelker/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27001",
+      "sources": [
+        "https://ballotpedia.org/Carrie_Koelker",
+        "https://en.wikipedia.org/wiki/Carrie_Koelker",
+        "https://justfacts.votesmart.org/candidate/biography/180162/carrie-koelker",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=27001",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=27001",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27001",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27001",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/carrie-koelker-3361541b",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "nordman-carter-ia-hd47",
+      "name": "Carter Nordman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-47)",
+      "state": "IA",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e7b268b8-c922-4e66-8327-cc4c49854d5e"
+      },
+      "contact": {
+        "email": "carter.nordman@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1998-05-27",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30647",
+      "sources": [
+        "https://ballotpedia.org/Carter_Nordman",
+        "https://en.wikipedia.org/wiki/Carter_Nordman",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30647",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30647",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30647",
+        "https://www.linkedin.com/in/carternordman",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "drey-catelin-ia-sd1",
+      "name": "Catelin Drey",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-1)",
+      "state": "IA",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/96941816-29ce-4c03-ab43-efa1ef2930ab"
+      },
+      "contact": {
+        "email": "catelin.drey@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?personID=39183"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Catelin_Drey.png",
+      "sources": [
+        "https://ballotpedia.org/Catelin_Drey",
+        "https://en.wikipedia.org/wiki/Catelin_Drey",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=39183",
+        "https://www.linkedin.com/in/catelin-drey",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "behn-chad-ia-hd48",
+      "name": "Chad Behn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-48)",
+      "state": "IA",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3d113997-b440-47db-97d2-3dca3a2b431a"
+      },
+      "contact": {
+        "email": "chad.behn@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37384"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37384",
+      "sources": [
+        "https://ballotpedia.org/Chad_Behn",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37384",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37384",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "ingels-chad-ia-hd68",
+      "name": "Chad Ingels",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-68)",
+      "state": "IA",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/623b4ac1-3411-4109-b0eb-31bec2780313"
+      },
+      "contact": {
+        "email": "chad.ingels@legis.iowa.gov",
+        "website": "https://iowa.us7.list-manage.com/subscribe?u=2ab7b475cd3c7661510125056&id=4b2e51f33d"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30653",
+      "sources": [
+        "https://ballotpedia.org/Chad_Ingels",
+        "https://en.wikipedia.org/wiki/Chad_Ingels",
+        "https://justfacts.votesmart.org/candidate/biography/191032/chad-ingels",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30653",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30653",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30653",
+        "https://www.linkedin.com/in/chad-ingels-44a1961b",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "thomson-charley-ia-hd58",
+      "name": "Charley Thomson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-58)",
+      "state": "IA",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1a5372b1-e23d-4877-a614-a32f552c58b4"
+      },
+      "contact": {
+        "email": "charley.thomson@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33983&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33983",
+      "sources": [
+        "https://ballotpedia.org/Charley_Thomson",
+        "https://en.wikipedia.org/wiki/Charley_Thomson",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33983",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33983",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "mcclintock-charlie-ia-sd42",
+      "name": "Charlie McClintock",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-42)",
+      "state": "IA",
+      "district": "SD-42",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/006bcadf-1173-4661-a28e-25fbf1a5c423"
+      },
+      "contact": {
+        "email": "charlie.mcclintock@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/charlie-mcclintock/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30657",
+      "sources": [
+        "https://ballotpedia.org/Charlie_McClintock",
+        "https://en.wikipedia.org/wiki/Charlie_McClintock",
+        "https://iowasenaterepublicans.com/senators/charlie-mcclintock",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30657",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30657",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "westrich-cherielynn-ia-sd13",
+      "name": "Cherielynn Westrich",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-13)",
+      "state": "IA",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f4803b48-80d4-43aa-86cd-fe78d268e77a"
+      },
+      "contact": {
+        "email": "cherielynn.westrich@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/cherielynn-westrich/"
+      },
+      "bio": {
+        "birth_date": "1966-01-21",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30654",
+      "sources": [
+        "https://ballotpedia.org/Cherielynn_Westrich",
+        "https://en.wikipedia.org/wiki/Cherielynn_Westrich",
+        "https://iowasenaterepublicans.com/senators/cherielynn-westrich",
+        "https://justfacts.votesmart.org/candidate/biography/180273/cherielynn-westrich",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30654",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30654",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/cherielynn-westrich-a128091b3",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "hermanson-christian-ia-hd59",
+      "name": "Christian Hermanson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-59)",
+      "state": "IA",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/08e97c3c-42e2-47f7-b186-0b5099161d4e"
+      },
+      "contact": {
+        "email": "christian.hermanson@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37387"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37387",
+      "sources": [
+        "https://ballotpedia.org/Christian_Hermanson",
+        "https://en.wikipedia.org/wiki/Christian_Hermanson",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37387",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37387",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "golding-cindy-ia-hd83",
+      "name": "Cindy Golding",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-83)",
+      "state": "IA",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6729badd-57a5-484c-bb4c-23afa6e96cdf"
+      },
+      "contact": {
+        "email": "cindy.golding@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33990&ga=90"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33990",
+      "sources": [
+        "https://ballotpedia.org/Cindy_Golding",
+        "https://cindygolding.com/about",
+        "https://en.wikipedia.org/wiki/Cindy_Golding",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33990",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33990",
+        "https://www.linkedin.com/in/cindy-golding-42985740",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "winckler-cindy-ia-sd49",
+      "name": "Cindy Winckler",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-49)",
+      "state": "IA",
+      "district": "SD-49",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/84279bc7-04df-475e-8d6f-9f9703c73101"
+      },
+      "contact": {
+        "email": "cindy.winckler@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=44"
+      },
+      "bio": {
+        "birth_date": "1950-05-27",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=44",
+      "sources": [
+        "https://ballotpedia.org/Cindy_Winckler",
+        "https://en.wikipedia.org/wiki/Cindy_Winckler",
+        "https://justfacts.votesmart.org/candidate/biography/32798/cindy-winckler",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=44",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=44",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/cindywinckler",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-craig-ia-hd67",
+      "name": "Craig Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-67)",
+      "state": "IA",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/63ec798f-401b-4512-9f56-b162eb96bfe9"
+      },
+      "contact": {
+        "email": "craig.johnson@legis.iowa.gov",
+        "website": "https://eepurl.com/gSVn0f"
+      },
+      "bio": {
+        "birth_date": "1963-09-16",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=18075",
+      "sources": [
+        "https://ballotpedia.org/Craig_Johnson_(Iowa)",
+        "https://en.wikipedia.org/wiki/Craig_Johnson_(Iowa_politician)",
+        "https://iowasenaterepublicans.com/senators/craig-johnson",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=18075",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=18075",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=18075",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=18075",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/hossjohnson",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "williams-craig-ia-hd11",
+      "name": "Craig Williams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-11)",
+      "state": "IA",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cf98b8af-97b3-46d8-9cc8-4695aab1ae30"
+      },
+      "contact": {
+        "email": "craig.williams@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/craig-williams/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30545",
+      "sources": [
+        "https://ballotpedia.org/Craig_Williams_(Iowa)",
+        "https://en.wikipedia.org/wiki/Craig_Williams_(Iowa_politician)",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30545",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30545",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30545&ga=89",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/craig-williams-b828749",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "dawson-dan-ia-sd10",
+      "name": "Dan Dawson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-10)",
+      "state": "IA",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/79384252-69ca-43c7-bda1-46b6abe5873e"
+      },
+      "contact": {
+        "email": "dan.dawson@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/dan-dawson/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=18072",
+      "sources": [
+        "https://ballotpedia.org/Dan_Dawson",
+        "https://en.wikipedia.org/wiki/Dan_Dawson_(politician)",
+        "https://iowasenaterepublicans.com/senators/dan-dawson",
+        "https://justfacts.votesmart.org/candidate/biography/168617/dan-dawson",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=18072",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=18072",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=18072",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=18072",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "gehlbach-dan-ia-hd46",
+      "name": "Dan Gehlbach",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-46)",
+      "state": "IA",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d9b64ebb-2332-4ab8-b21f-e697f08759d3"
+      },
+      "contact": {
+        "email": "dan.gehlbach@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33980&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33980",
+      "sources": [
+        "https://ballotpedia.org/Dan_Gehlbach",
+        "https://en.wikipedia.org/wiki/Dan_Gehlbach",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33980",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33980",
+        "https://www.linkedin.com/in/dangehlbach",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "gosa-dan-ia-hd81",
+      "name": "Dan Gosa",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-81)",
+      "state": "IA",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/63c59e95-ff5f-40b3-871e-3569f6ad8425"
+      },
+      "contact": {
+        "email": "daniel.gosa@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37391"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37391",
+      "sources": [
+        "https://ballotpedia.org/Daniel_Gosa",
+        "https://en.wikipedia.org/wiki/Daniel_Gosa",
+        "https://justfacts.votesmart.org/candidate/biography/215643/daniel-gosa",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37391",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37391",
+        "https://www.linkedin.com/in/daniel-gosa-8b67b973",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "zumbach-dan-ia-sd34",
+      "name": "Dan Zumbach",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-34)",
+      "state": "IA",
+      "district": "SD-34",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3fa8bceb-666f-4480-a957-1928e2b5fec6"
+      },
+      "contact": {
+        "email": "dan.zumbach@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/dan-zumbach/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=10733",
+      "sources": [
+        "https://ballotpedia.org/Dan_Zumbach",
+        "https://en.wikipedia.org/wiki/Dan_Zumbach",
+        "https://iowasenaterepublicans.com/senators/dan-zumbach",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=10733",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=10733",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=10733",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=10733",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/dan-zumbach-61372234",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "sires-dave-ia-sd38",
+      "name": "Dave Sires",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-38)",
+      "state": "IA",
+      "district": "SD-38",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b261b6a8-cb30-4808-b750-df2e7963d6c8"
+      },
+      "contact": {
+        "email": "dave.sires@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37464"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37464",
+      "sources": [
+        "https://ballotpedia.org/Dave_Sires",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37464",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37464",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "blom-david-ia-hd52",
+      "name": "David Blom",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-52)",
+      "state": "IA",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6c2b2d09-de80-47ca-af67-e646f20ba5fa"
+      },
+      "contact": {
+        "email": "david.blom@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=25125"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=25125",
+      "sources": [
+        "https://ballotpedia.org/David_Blom",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=25125",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=25125",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "rowley-dave-ia-sd5",
+      "name": "Dave Rowley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-5)",
+      "state": "IA",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/93e9ba73-a053-4661-8b8b-e8e2f25d0596"
+      },
+      "contact": {
+        "email": "david.rowley@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/dave-rowley/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=32458",
+      "sources": [
+        "https://ballotpedia.org/Dave_Rowley",
+        "https://en.wikipedia.org/wiki/Dave_Rowley",
+        "https://iowasenaterepublicans.com/senators/dave-rowley",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=32458",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32458",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=32458",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/david-rowley-cpcu-cic-au-506b6841",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "young-david-ia-hd28",
+      "name": "David Young",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-28)",
+      "state": "IA",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0df02a4-7910-4538-8c3b-8152fb8f657c"
+      },
+      "contact": {
+        "email": "david.young@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33972&ga=90"
+      },
+      "bio": {
+        "birth_date": "1968-05-11",
+        "gender": "Male"
+      },
+      "sources": [
+        "https://ballotpedia.org/David_Young_(Iowa)",
+        "https://en.wikipedia.org/wiki/David_Young_%28Iowa_politician%29",
+        "https://justfacts.votesmart.org/candidate/biography/155218/david-young",
+        "https://www.govtrack.us/congress/members/david_young/412628",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33972",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33972",
+        "https://www.linkedin.com/in/david-young-28993510",
+        "https://www.linkedin.com/in/david-young-9ab13929",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "jacoby-dave-ia-hd86",
+      "name": "Dave Jacoby",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-86)",
+      "state": "IA",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/55c46119-e6fa-4b22-ade6-18990aeacf0c"
+      },
+      "contact": {
+        "email": "david.jacoby@legis.iowa.gov",
+        "website": "https://eepurl.com/gXMR_X"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=320",
+      "sources": [
+        "https://ballotpedia.org/David_Jacoby",
+        "https://en.wikipedia.org/wiki/David_Jacoby",
+        "https://en.wikipedia.org/wiki/David_Jacoby_(politician)",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=320",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=320",
+        "https://www.linkedin.com/in/david-jacoby-6557b014a",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "sieck-david-ia-hd16",
+      "name": "David Sieck",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-16)",
+      "state": "IA",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7e4913e9-9219-461f-9842-2a96813e009e"
+      },
+      "contact": {
+        "email": "david.sieck@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1957-06-27",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=15920",
+      "sources": [
+        "https://ballotpedia.org/David_Sieck",
+        "https://en.wikipedia.org/wiki/David_Sieck",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=15920",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=15920",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=15920",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=15920",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "driscoll-dawn-ia-sd46",
+      "name": "Dawn Driscoll",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-46)",
+      "state": "IA",
+      "district": "SD-46",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fe90f2b2-0892-4abd-9d6d-4b2ac1dae632"
+      },
+      "contact": {
+        "email": "dawn.driscoll@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/dawn-driscoll/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30548",
+      "sources": [
+        "https://ballotpedia.org/Dawn_Driscoll",
+        "https://en.wikipedia.org/wiki/Dawn_Driscoll",
+        "https://iowasenaterepublicans.com/senators/dawn-driscoll",
+        "https://justfacts.votesmart.org/candidate/190935/dawn-driscoll",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30548",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30548",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/dawn-driscoll-7a298a48",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "fisher-dean-ia-hd53",
+      "name": "Dean Fisher",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-53)",
+      "state": "IA",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a4832927-060d-4e15-82d7-795f6f9cc78f"
+      },
+      "contact": {
+        "email": "dean.fisher@legis.iowa.gov",
+        "website": "https://www.deanfisher.com"
+      },
+      "bio": {
+        "birth_date": "1956-09-03",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=10755",
+      "sources": [
+        "https://ballotpedia.org/Dean_Fisher",
+        "https://en.wikipedia.org/wiki/Dean_Fisher",
+        "https://justfacts.votesmart.org/candidate/biography/137989/dean-fisher",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=10755",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=10755",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=10755",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=10755",
+        "https://www.linkedin.com/in/dean-fisher-72305529",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "guth-dennis-ia-sd28",
+      "name": "Dennis Guth",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-28)",
+      "state": "IA",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e11235a-f4c8-4124-9f3a-3bb7a219636d"
+      },
+      "contact": {
+        "email": "dennis.guth@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/dennis-guth/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=10726",
+      "sources": [
+        "https://ballotpedia.org/Dennis_Guth",
+        "https://en.wikipedia.org/wiki/Dennis_Guth",
+        "https://iowasenaterepublicans.com/senators/dennis-guth",
+        "https://justfacts.votesmart.org/candidate/biography/137900/dennis-guth",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=10726",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=10726",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wulf-derek-ia-hd76",
+      "name": "Derek Wulf",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-76)",
+      "state": "IA",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5dbb36a6-f191-4201-9cbe-20d7aada4d4c"
+      },
+      "contact": {
+        "email": "derek.wulf@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33986&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33986",
+      "sources": [
+        "https://ballotpedia.org/Derek_Wulf",
+        "https://en.wikipedia.org/wiki/Derek_Wulf",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33986",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33986",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wood-devon-ia-hd17",
+      "name": "Devon Wood",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-17)",
+      "state": "IA",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/60f3c355-fa56-48db-8379-14234d427148"
+      },
+      "contact": {
+        "email": "devon.wood@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33968&ga=90"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33968",
+      "sources": [
+        "https://ballotpedia.org/Devon_Wood",
+        "https://en.wikipedia.org/wiki/Devon_Wood",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33968",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33968",
+        "https://www.linkedin.com/in/devon-wood-7657a9162",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "campbell-doug-ia-sd30",
+      "name": "Doug Campbell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-30)",
+      "state": "IA",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a38725e7-bec0-4a5d-bc71-d039bcb8ec04"
+      },
+      "contact": {
+        "email": "doug.campbell@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37463"
+      },
+      "bio": {
+        "birth_date": "1954-10-17",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37463",
+      "sources": [
+        "https://ballotpedia.org/Doug_Campbell_(Iowa)",
+        "https://iowasenaterepublicans.com/senators/doug-campbell",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37463",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37463",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "andrews-eddie-ia-hd43",
+      "name": "Eddie Andrews",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-43)",
+      "state": "IA",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/258e0f31-d71a-42b5-98ff-3f2263f95f65"
+      },
+      "contact": {
+        "email": "eddie.andrews@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1966-05-31",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30650",
+      "sources": [
+        "https://ballotpedia.org/Eddie_Andrews",
+        "https://en.wikipedia.org/wiki/Eddie_Andrews_(American_politician)",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30650",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30650",
+        "https://www.linkedin.com/in/eddie-andrews-8a52351b4",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "levin-elinor-ia-hd89",
+      "name": "Elinor Levin",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-89)",
+      "state": "IA",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6ce3e40a-3eee-4a3f-acf3-ddee38e37e6f"
+      },
+      "contact": {
+        "email": "elinor.levin@legis.iowa.gov",
+        "website": "https://eepurl.com/ihfkwn"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33992",
+      "sources": [
+        "https://ballotpedia.org/Elinor_Levin",
+        "https://en.wikipedia.org/wiki/Elinor_Levin",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33992",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33992",
+        "https://www.linkedin.com/in/elinor-levin-b3b32233",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wilson-elizabeth-ia-hd73",
+      "name": "Elizabeth Wilson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-73)",
+      "state": "IA",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/75ee3e5c-bf95-4f36-8366-264872631c3c"
+      },
+      "contact": {
+        "email": "elizabeth.wilson@legis.iowa.gov",
+        "website": "https://eepurl.com/ihOgIP"
+      },
+      "bio": {
+        "birth_date": "1964-02-24",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33985",
+      "sources": [
+        "https://ballotpedia.org/Elizabeth_Wilson",
+        "https://en.wikipedia.org/wiki/Elizabeth_Wilson_(politician)",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33985",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33985",
+        "https://www.linkedin.com/in/elizabeth-wilson-028a5721",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "gjerde-eric-ia-hd74",
+      "name": "Eric Gjerde",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-74)",
+      "state": "IA",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8e424b53-9531-4b76-bd44-a8008f34b539"
+      },
+      "contact": {
+        "email": "eric.gjerde@legis.iowa.gov",
+        "website": "https://eepurl.com/hn8I8P"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30659",
+      "sources": [
+        "https://ballotpedia.org/Eric_Gjerde",
+        "https://en.wikipedia.org/wiki/Eric_Gjerde",
+        "https://justfacts.votesmart.org/candidate/biography/180254/eric-gjerde",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30659",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30659",
+        "https://www.linkedin.com/in/eric-gjerde-ed-d-96729a70",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "mohr-gary-ia-hd93",
+      "name": "Gary Mohr",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-93)",
+      "state": "IA",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/98672aab-5ba5-4994-964a-f53d8bcdd108"
+      },
+      "contact": {
+        "email": "gary.mohr@legis.iowa.gov",
+        "website": "https://facebook.us4.list-manage.com/subscribe?u=4f656da8e0485e1a4a8032e0f&id=f0dd08c637"
+      },
+      "bio": {
+        "birth_date": "1951-12-15",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=18038",
+      "sources": [
+        "https://ballotpedia.org/Gary_Mohr",
+        "https://en.wikipedia.org/wiki/Gary_Mohr",
+        "https://justfacts.votesmart.org/candidate/biography/158838/gary-mohr",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=18038",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=18038",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=18038",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=18038",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wilz-hans-ia-hd25",
+      "name": "Hans Wilz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-25)",
+      "state": "IA",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/831144f3-e67d-4706-a018-abec3c492269"
+      },
+      "contact": {
+        "email": "hans.wilz@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33970&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33970",
+      "sources": [
+        "https://ballotpedia.org/Hans_Wilz",
+        "https://en.wikipedia.org/wiki/Hans_Wilz",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33970",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33970",
+        "https://www.linkedin.com/in/hanswilz",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "hora-heather-ia-hd92",
+      "name": "Heather Hora",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-92)",
+      "state": "IA",
+      "district": "HD-92",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e927adb7-9b5c-41a8-8daf-c9a8620741f5"
+      },
+      "contact": {
+        "email": "heather.hora@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33995&ga=90"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33995",
+      "sources": [
+        "https://ballotpedia.org/Heather_Hora",
+        "https://en.wikipedia.org/wiki/Heather_Hora",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33995",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33995",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "matson-heather-ia-hd42",
+      "name": "Heather Matson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-42)",
+      "state": "IA",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ba713234-dc5e-4646-9f74-c25d84f648cc"
+      },
+      "contact": {
+        "email": "heather.matson@legis.iowa.gov",
+        "website": "https://eepurl.com/ihfkwz"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27023",
+      "sources": [
+        "https://ballotpedia.org/Heather_Matson",
+        "https://en.wikipedia.org/wiki/Heather_Matson",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27023",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27023",
+        "https://www.linkedin.com/in/heather-matson-1698565",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "hayes-helena-ia-hd88",
+      "name": "Helena Hayes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-88)",
+      "state": "IA",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/64d7c18c-3a40-4a0c-a5b9-51ab85b37c81"
+      },
+      "contact": {
+        "email": "helena.hayes@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33991&ga=90"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33991",
+      "sources": [
+        "https://ballotpedia.org/Helena_Hayes",
+        "https://en.wikipedia.org/wiki/Helena_Hayes",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33991",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33991",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "stone-henry-ia-hd9",
+      "name": "Henry Stone",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-9)",
+      "state": "IA",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/21405c5b-96dc-4c28-9b69-59c2cf00e9a5"
+      },
+      "contact": {
+        "email": "henry.stone@legis.iowa.gov",
+        "website": "https://iowa.us7.list-manage.com/subscribe?u=b7d249185b0959748eda3cd67&id=04fa01942f"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30645",
+      "sources": [
+        "https://ballotpedia.org/Henry_Stone",
+        "https://en.wikipedia.org/wiki/Henry_Stone_(born_1971)",
+        "https://en.wikipedia.org/wiki/Henry_Stone_(politician)",
+        "https://justfacts.votesmart.org/candidate/190949/henry-stone",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30645",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30645",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30645",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "quirmbach-herman-ia-sd25",
+      "name": "Herman Quirmbach",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-25)",
+      "state": "IA",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d3b3bc8e-ab0c-4ee2-ba3d-de78040274af"
+      },
+      "contact": {
+        "email": "herman.quirmbach@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?personID=161"
+      },
+      "bio": {
+        "birth_date": "1950-10-06",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=161",
+      "sources": [
+        "https://ballotpedia.org/Herman_Quirmbach",
+        "https://en.wikipedia.org/wiki/Herman_Quirmbach",
+        "https://iowasenatedemocrats.com/senator-herman-quirmbach",
+        "https://justfacts.votesmart.org/candidate/biography/32647/herman-quirmbach",
+        "https://www.econ.iastate.edu/people/herman-quirmbach",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=161",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=161",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.senate.iowa.gov/senator/quirmbach",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "knox-izaah-ia-sd17",
+      "name": "Izaah Knox",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-17)",
+      "state": "IA",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0af01ef4-f982-4239-9ffc-56d33cee3b7b"
+      },
+      "contact": {
+        "email": "izaah.knox@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=34010"
+      },
+      "bio": {
+        "birth_date": "1977-01-09",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=34010",
+      "sources": [
+        "https://ballotpedia.org/Izaah_Knox",
+        "https://en.wikipedia.org/wiki/Izaah_Knox",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=34010",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=34010",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/izaahknox",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "scholten-j-d-ia-hd1",
+      "name": "J.D. Scholten",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-1)",
+      "state": "IA",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4483a8f0-d946-45b2-9a2e-00dbb4816816"
+      },
+      "contact": {
+        "email": "j.d.scholten@legis.iowa.gov",
+        "website": "https://eepurl.com/ihfkwH"
+      },
+      "bio": {
+        "birth_date": "1980-03-04",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33963",
+      "sources": [
+        "https://ballotpedia.org/J.D._Scholten",
+        "https://en.wikipedia.org/wiki/J._D._Scholten",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33963",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33963",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "whitver-jack-ia-sd23",
+      "name": "Jack Whitver",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-23)",
+      "state": "IA",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9da58039-06dd-451e-835c-c406a493a21c"
+      },
+      "contact": {
+        "email": "jack.whitver@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/jack-whitver/"
+      },
+      "bio": {
+        "birth_date": "1980-09-04",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=9768",
+      "sources": [
+        "https://ballotpedia.org/Jack_Whitver",
+        "https://en.wikipedia.org/wiki/Jack_Whitver",
+        "https://iowasenaterepublicans.com/senators/jack-whitver",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=9768",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=9768",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=9768",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=9768",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/jack-whitver-013a417a",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "bossman-jacob-ia-hd14",
+      "name": "Jacob Bossman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-14)",
+      "state": "IA",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9c6428d6-af30-4a4f-bb9c-666d3d6d84c5"
+      },
+      "contact": {
+        "email": "jacob.bossman@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1980-04-23",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=25497",
+      "sources": [
+        "https://ballotpedia.org/Jacob_Bossman",
+        "https://en.wikipedia.org/wiki/Jacob_Bossman",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=25497",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=25497",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=25497",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=25497",
+        "https://www.linkedin.com/in/jacob-bossman-6937137",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "bloomingdale-jane-ia-hd60",
+      "name": "Jane Bloomingdale",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-60)",
+      "state": "IA",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37952941-d329-4c96-8458-654fa495ec76"
+      },
+      "contact": {
+        "email": "jane.bloomingdale@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1956-03-10",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=18043",
+      "sources": [
+        "https://ballotpedia.org/Jane_Bloomingdale",
+        "https://en.wikipedia.org/wiki/Jane_Bloomingdale",
+        "https://justfacts.votesmart.org/candidate/biography/168748/jane-bloomingdale",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=18043",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=18043",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=18043",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=18043",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "petersen-janet-ia-sd18",
+      "name": "Janet Petersen",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-18)",
+      "state": "IA",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3089e8af-0071-4298-822c-2d16ac01fe9f"
+      },
+      "contact": {
+        "email": "janet.petersen@legis.iowa.gov",
+        "website": "https://mailchi.mp/legis/petersen"
+      },
+      "bio": {
+        "birth_date": "1970-08-01",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=72&pType=3",
+      "sources": [
+        "https://ballotpedia.org/Janet_Petersen",
+        "https://en.wikipedia.org/wiki/Janet_Petersen",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=72",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=72",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=72",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=72",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/janetpetersen",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "weiner-janice-ia-sd45",
+      "name": "Janice Weiner",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-45)",
+      "state": "IA",
+      "district": "SD-45",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1c841d58-bdbe-4021-9126-055184cecdd5"
+      },
+      "contact": {
+        "email": "janice.weiner@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=34011"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=34011",
+      "sources": [
+        "https://ballotpedia.org/Janice_Weiner",
+        "https://en.wikipedia.org/wiki/Janice_Weiner",
+        "https://iowasenatedemocrats.com/senator-janice-weiner",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=34011",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=34011",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/jgweiner",
+        "https://www.senate.iowa.gov/senator/weiner",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "gearhart-jason-ia-hd64",
+      "name": "Jason Gearhart",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-64)",
+      "state": "IA",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2f1410fb-220d-46f7-a49c-2a96ac49e338"
+      },
+      "contact": {
+        "email": "jason.gearhart@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37388"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37388",
+      "sources": [
+        "https://ballotpedia.org/Jason_Gearhart",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37388",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37388",
+        "https://www.linkedin.com/in/jason-gearhart-4634381b7",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "schultz-jason-ia-sd6",
+      "name": "Jason Schultz",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-6)",
+      "state": "IA",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/32126238-17ce-4338-923a-3867b6517039"
+      },
+      "contact": {
+        "email": "jason.schultz@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/jason-schultz/"
+      },
+      "bio": {
+        "birth_date": "1972-11-27",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=6588",
+      "sources": [
+        "https://ballotpedia.org/Jason_Schultz",
+        "https://en.wikipedia.org/wiki/Jason_Schultz",
+        "https://iowasenaterepublicans.com/senators/jason-schultz",
+        "https://justfacts.votesmart.org/candidate/biography/103373/jason-schultz",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=6588",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=6588",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=6588",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=6588",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "cooling-jeff-ia-hd77",
+      "name": "Jeff Cooling",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-77)",
+      "state": "IA",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c8eeda58-6c95-4ac9-988f-1c9363b2e17c"
+      },
+      "contact": {
+        "email": "jeff.cooling@legis.iowa.gov",
+        "website": "https://eepurl.com/ihfkv5"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33987",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Cooling",
+        "https://en.wikipedia.org/wiki/Jeff_Cooling",
+        "https://justfacts.votesmart.org/candidate/biography/203999/jeff-cooling",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33987",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33987",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "reichman-jeff-ia-sd50",
+      "name": "Jeff Reichman",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-50)",
+      "state": "IA",
+      "district": "SD-50",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/54f49ddd-7a13-4639-87de-7db8760ed5c5"
+      },
+      "contact": {
+        "email": "jeff.reichman@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/jeff-reichman/"
+      },
+      "bio": {
+        "birth_date": "1966-11-28",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30549",
+      "sources": [
+        "https://ballotpedia.org/Jeffrey_Reichman",
+        "https://en.wikipedia.org/wiki/Jeff_Reichman",
+        "https://iowasenaterepublicans.com/senators/jeff-reichman",
+        "https://justfacts.votesmart.org/candidate/biography/180274/jeff-reichman",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30549",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30549",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30549",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/jeff-reichman-31522b20",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "shipley-jeff-ia-hd87",
+      "name": "Jeff Shipley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-87)",
+      "state": "IA",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/11ceb3de-a680-4dc0-b140-edd37f04e75b"
+      },
+      "contact": {
+        "email": "jeff.shipley@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1988-08-09",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27036",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Shipley_(Iowa)",
+        "https://en.wikipedia.org/wiki/Jeff_Shipley",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=27036",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=27036",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27036",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27036",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "taylor-jeff-ia-sd2",
+      "name": "Jeff Taylor",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-2)",
+      "state": "IA",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cc1cff7e-82d6-4947-a906-f467b4017285"
+      },
+      "contact": {
+        "email": "jeff.taylor@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/jeff-taylor/"
+      },
+      "bio": {
+        "birth_date": "1961-01-30",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30544",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Taylor_(Iowa)",
+        "https://en.wikipedia.org/wiki/Jeff_Taylor_(politician)",
+        "https://iowasenaterepublicans.com/senators/jeff-taylor",
+        "https://www.dordt.edu/people/jeff-taylor",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30544",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30544",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30544",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/jeff-taylor-65872299",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "konfrst-jennifer-ia-hd32",
+      "name": "Jennifer Konfrst",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-32)",
+      "state": "IA",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/522b14b8-b82f-4336-a7fb-a0f782d5509a"
+      },
+      "contact": {
+        "email": "jennifer.konfrst@legis.iowa.gov",
+        "website": "https://eepurl.com/gXUjrH"
+      },
+      "bio": {
+        "birth_date": "1973-12-24",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27026",
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Konfrst",
+        "https://en.wikipedia.org/wiki/Jennifer_Konfrst",
+        "https://justfacts.votesmart.org/candidate/biography/168743/jennifer-konfrst",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27026",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27026",
+        "https://www.linkedin.com/in/jkonfrst",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "smith-jennifer-ia-hd72",
+      "name": "Jennifer Smith",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-72)",
+      "state": "IA",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4b61e993-1cb9-4bd2-a383-46d264d298f9"
+      },
+      "contact": {
+        "email": "jennifer.smith@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37389"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37389",
+      "sources": [
+        "https://ballotpedia.org/Jennifer_Smith_(Iowa)",
+        "https://en.wikipedia.org/wiki/Jennifer_Smith_(Iowa_politician)",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37389",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37389",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "amos-jerome-ia-hd62",
+      "name": "Jerome Amos",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-62)",
+      "state": "IA",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d7083428-89b1-4a56-a4c8-4a40e80e30e8"
+      },
+      "contact": {
+        "email": "jerome.amosjr@legis.iowa.gov",
+        "website": "https://eepurl.com/ihfkvP"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=6174",
+      "sources": [
+        "https://ballotpedia.org/Jerome_Amos_Jr.",
+        "https://en.wikipedia.org/wiki/Jerome_Amos_Jr.",
+        "https://justfacts.votesmart.org/candidate/biography/173629/jerome-amos",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=6174",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=6174",
+        "https://www.linkedin.com/in/jerome-amos-jr-a54bb939",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "green-jesse-ia-sd24",
+      "name": "Jesse Green",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-24)",
+      "state": "IA",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c6cbc677-2d42-4497-ae57-989a30aaddae"
+      },
+      "contact": {
+        "email": "jesse.green@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/jesse-green/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30546",
+      "sources": [
+        "https://ballotpedia.org/Jesse_Green",
+        "https://en.wikipedia.org/wiki/Jesse_Green_(politician)",
+        "https://iowasenaterepublicans.com/senators/jesse-green",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30546",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30546",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30546",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wills-john-ia-hd10",
+      "name": "John Wills",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-10)",
+      "state": "IA",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/955a4d7c-a378-4bd2-8a74-dac94f74ba52"
+      },
+      "contact": {
+        "email": "john.wills@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1966-02-18",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=13794",
+      "sources": [
+        "https://ballotpedia.org/John_H._Wills",
+        "https://en.wikipedia.org/wiki/John_Wills_(Iowa_politician)",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=13794",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=13794",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=13794",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=13794",
+        "https://www.linkedin.com/in/john-wills-506a3451",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "dunwell-jon-ia-hd38",
+      "name": "Jon Dunwell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-38)",
+      "state": "IA",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7a97018b-eb0e-46cf-8bd8-26520ff0d1e0"
+      },
+      "contact": {
+        "email": "jon.dunwell@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=32165",
+      "sources": [
+        "https://ballotpedia.org/Jon_Dunwell",
+        "https://en.wikipedia.org/wiki/Jon_Dunwell",
+        "https://justfacts.votesmart.org/candidate/biography/190976/jon-dunwell",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=32165",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32165",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=32165",
+        "https://www.linkedin.com/in/jon-dunwell-b5423447",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "turek-josh-ia-hd20",
+      "name": "Josh Turek",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-20)",
+      "state": "IA",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c9679bfc-5a21-405a-bae1-e2de9a85baf8"
+      },
+      "contact": {
+        "email": "josh.turek@legis.iowa.gov",
+        "website": "https://eepurl.com/ihe76n"
+      },
+      "bio": {
+        "birth_date": "1979-04-12",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33969",
+      "sources": [
+        "https://ballotpedia.org/Josh_Turek",
+        "https://en.wikipedia.org/wiki/Joshua_Turek",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33969",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33969",
+        "https://www.turek4iowa.com/meet-josh",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "meggers-josh-ia-hd54",
+      "name": "Josh Meggers",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-54)",
+      "state": "IA",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b28ad297-8f6d-4f36-807e-0acfa35c7d4c"
+      },
+      "contact": {
+        "email": "joshua.meggers@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33981&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33981",
+      "sources": [
+        "https://ballotpedia.org/Joshua_Meggers",
+        "https://en.wikipedia.org/wiki/Joshua_Meggers",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33981",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33981",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "lawler-judd-ia-hd91",
+      "name": "Judd Lawler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-91)",
+      "state": "IA",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/69441bf5-e98f-4872-8bf0-5bca86e3c258"
+      },
+      "contact": {
+        "email": "judd.lawler@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37392"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37392",
+      "sources": [
+        "https://ballotpedia.org/Judd_Lawler",
+        "https://en.wikipedia.org/wiki/Judd_Lawler",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37392",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37392",
+        "https://www.linkedin.com/in/judd-lawler-0a97718",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "garrett-julian-ia-sd11",
+      "name": "Julian Garrett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-11)",
+      "state": "IA",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/67f25420-8ea1-49d1-aa86-488136b5f9f5"
+      },
+      "contact": {
+        "email": "julian.garrett@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/julian-garrett/"
+      },
+      "bio": {
+        "birth_date": "1940-11-07",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=9404",
+      "sources": [
+        "https://ballotpedia.org/Julian_B._Garrett",
+        "https://en.wikipedia.org/wiki/Julian_Garrett",
+        "https://iowasenaterepublicans.com/senators/julian.garrett",
+        "https://justfacts.votesmart.org/candidate/biography/57126/julian-garrett",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=9404",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=9404",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=9404",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=9404",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "warme-kara-ia-sd26",
+      "name": "Kara Warme",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-26)",
+      "state": "IA",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ef7b8c3c-3cd0-4f95-8b4f-9e4daa061479"
+      },
+      "contact": {
+        "email": "kara.warme@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37462"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37462",
+      "sources": [
+        "https://ballotpedia.org/Kara_Warme",
+        "https://justfacts.votesmart.org/candidate/biography/215553/kara-warme",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37462",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37462",
+        "https://www.linkedin.com/in/kara-warme-a82b512b",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "croken-ken-ia-hd97",
+      "name": "Ken Croken",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-97)",
+      "state": "IA",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3dd459aa-4a08-4a98-bce4-37536a9414fa"
+      },
+      "contact": {
+        "email": "ken.croken@legis.iowa.gov",
+        "website": "https://eepurl.com/ihfkwb"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33997",
+      "sources": [
+        "https://ballotpedia.org/Ken_Croken",
+        "https://en.wikipedia.org/wiki/Ken_Croken",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33997",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33997",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "rozenboom-ken-ia-sd19",
+      "name": "Ken Rozenboom",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-19)",
+      "state": "IA",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1cfc824d-740a-4e35-a4e2-3728e2d43056"
+      },
+      "contact": {
+        "email": "ken.rozenboom@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/ken-rozenboom/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=10731",
+      "sources": [
+        "https://ballotpedia.org/Ken_Rozenboom",
+        "https://en.wikipedia.org/wiki/Ken_Rozenboom",
+        "https://iowasenaterepublicans.com/senators/ken-rozenboom",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=10731",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=10731",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=10731",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=10731",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/ken-becky-rozenboom-a113b286",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "judge-kenan-ia-hd27",
+      "name": "Kenan Judge",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-27)",
+      "state": "IA",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1b7d56b0-f635-423c-9c09-5617322b1518"
+      },
+      "contact": {
+        "email": "kenan.judge@legis.iowa.gov",
+        "website": "https://eepurl.com/gXSavj"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27027",
+      "sources": [
+        "https://ballotpedia.org/Kenan_Judge",
+        "https://en.wikipedia.org/wiki/Kenan_Judge",
+        "https://justfacts.votesmart.org/candidate/biography/180233/kenan-judge",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=27027",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=27027",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27027",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27027",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "gruenhagen-kerry-ia-sd41",
+      "name": "Kerry Gruenhagen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-41)",
+      "state": "IA",
+      "district": "SD-41",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2ff1622d-f1f4-4344-8821-57bcf8d99b83"
+      },
+      "contact": {
+        "email": "kerry.gruenhagen@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/kerry-gruenhagen/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=34009",
+      "sources": [
+        "https://ballotpedia.org/Kerry_Gruenhagen",
+        "https://en.wikipedia.org/wiki/Kerry_Gruenhagen",
+        "https://www.kerry4iowa.com/about",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=34009",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=34009",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "alons-kevin-ia-sd7",
+      "name": "Kevin Alons",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-7)",
+      "state": "IA",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/abad9c61-6eb9-484a-bf07-94cb9040a639"
+      },
+      "contact": {
+        "email": "kevin.alons@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/kevin-alons/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33999",
+      "sources": [
+        "https://ballotpedia.org/Kevin_Alons",
+        "https://en.wikipedia.org/wiki/Kevin_Alons",
+        "https://iowasenaterepublicans.com/senators/kevin-alons",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33999",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33999",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/kevin-alons-1997146",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "mcburney-larry-ia-hd44",
+      "name": "Larry McBurney",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-44)",
+      "state": "IA",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dcd5b341-0a0b-4f2b-bb34-d7aab8539258"
+      },
+      "contact": {
+        "email": "larry.mcburney@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37383"
+      },
+      "bio": {
+        "birth_date": "1986-03-03",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37383",
+      "sources": [
+        "https://ballotpedia.org/Larry_McBurney",
+        "https://en.wikipedia.org/wiki/Larry_McBurney",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37383",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37383",
+        "https://www.linkedin.com/in/lawrence-mcburney-9b54b2128",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "james-lindsay-ia-hd71",
+      "name": "Lindsay James",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-71)",
+      "state": "IA",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2f43be90-4912-41fa-acf3-735e3a9ef557"
+      },
+      "contact": {
+        "email": "lindsay.james@legis.iowa.gov",
+        "website": "https://eepurl.com/gXSDkT"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27039",
+      "sources": [
+        "https://ballotpedia.org/Lindsay_James",
+        "https://en.wikipedia.org/wiki/Lindsay_James_(politician)",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27039",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27039",
+        "https://www.linkedin.com/in/lbjames",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "bennett-liz-ia-sd39",
+      "name": "Liz Bennett",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-39)",
+      "state": "IA",
+      "district": "SD-39",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a5bbbe7f-202c-4427-89e1-da8d2786d1dc"
+      },
+      "contact": {
+        "email": "liz.bennett@legis.iowa.gov",
+        "website": "https://eepurl.com/gXSfzr"
+      },
+      "bio": {
+        "birth_date": "1982-08-06",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=34000",
+      "sources": [
+        "https://ballotpedia.org/Liz_Bennett",
+        "https://en.wikipedia.org/wiki/Liz_Bennett",
+        "https://justfacts.votesmart.org/candidate/biography/151097/liz-bennett",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=14806",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=14806",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=34000",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=34000",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/lizbennettia",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "evans-lynn-ia-sd3",
+      "name": "Lynn Evans",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-3)",
+      "state": "IA",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0f7d8e8f-ab3e-4a0f-bde0-2ef776cdb27d"
+      },
+      "contact": {
+        "email": "lynn.evans@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/lynn-evans/"
+      },
+      "bio": {
+        "birth_date": "1964-05-19",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=34008",
+      "sources": [
+        "https://ballotpedia.org/Lynn_Evans_(Iowa)",
+        "https://en.wikipedia.org/wiki/Lynn_Evans",
+        "https://iowasenaterepublicans.com/senators/lynn-evans",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=34008",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=34008",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/lynn-evans-b38a6b63",
+        "https://www.linkedin.com/in/lynn-evans-ed-s-05738a51",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "cisneros-mark-ia-hd96",
+      "name": "Mark Cisneros",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-96)",
+      "state": "IA",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/277c38cf-3dc5-419b-b072-df34adc214e6"
+      },
+      "contact": {
+        "email": "mark.cisneros@legis.iowa.gov",
+        "website": "https://gmail.us7.list-manage.com/subscribe?u=85fcfa7dcbbb7c52a233de778&id=e13efc9ee4"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30656",
+      "sources": [
+        "https://ballotpedia.org/Mark_Cisneros",
+        "https://en.wikipedia.org/wiki/Mark_Cisneros",
+        "https://justfacts.votesmart.org/candidate/biography/151111/mark-cisneros",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30656",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30656",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30656",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "costello-mark-ia-sd8",
+      "name": "Mark Costello",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-8)",
+      "state": "IA",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37b1879c-5435-4c28-bb62-fa71fbabbbdb"
+      },
+      "contact": {
+        "email": "mark.costello@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/mark-costello/"
+      },
+      "bio": {
+        "birth_date": "1961-10-24",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=10749",
+      "sources": [
+        "https://ballotpedia.org/Mark_Costello_(Iowa)",
+        "https://en.wikipedia.org/wiki/Mark_Costello_(Iowa_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/137943/mark-costello",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=10749",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=10749",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=10749",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=10749",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/mark-costello-182a879b",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "thompson-mark-ia-hd56",
+      "name": "Mark Thompson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-56)",
+      "state": "IA",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/967868e2-3ec5-425f-bc96-f41208809217"
+      },
+      "contact": {
+        "email": "mark.thompson@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33982&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33982",
+      "sources": [
+        "https://ballotpedia.org/Mark_Thompson_(Iowa)",
+        "https://en.wikipedia.org/wiki/Mark_Thompson_(Iowa_politician)",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33982",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33982",
+        "https://www.thompson4iowa.com/meet-mark",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "lofgren-mark-ia-sd48",
+      "name": "Mark Lofgren",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-48)",
+      "state": "IA",
+      "district": "SD-48",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b1110000-b6c3-4348-8655-8a7b51c8a9db"
+      },
+      "contact": {
+        "email": "mark.lofgren@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/mark-lofgren/"
+      },
+      "bio": {
+        "birth_date": "1961-06-26",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=9406",
+      "sources": [
+        "https://ballotpedia.org/Mark_Lofgren",
+        "https://en.wikipedia.org/wiki/Mark_Lofgren",
+        "https://iowasenaterepublicans.com/senators/mark-lofgren",
+        "https://justfacts.votesmart.org/candidate/biography/122026/mark-lofgren",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=9406",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=9406",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=9406",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=9406",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "madison-mary-ia-hd31",
+      "name": "Mary Madison",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-31)",
+      "state": "IA",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/996db9b7-c251-478f-8852-0c5477013469"
+      },
+      "contact": {
+        "email": "mary.madison@legis.iowa.gov",
+        "website": "https://eepurl.com/ihfkwv"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33974",
+      "sources": [
+        "https://ballotpedia.org/Mary_Madison",
+        "https://en.wikipedia.org/wiki/Mary_Madison",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33974",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33974",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "blake-matt-ia-sd22",
+      "name": "Matt Blake",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-22)",
+      "state": "IA",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4bb97641-21a7-4aaa-b4d8-7f0dfcacd3a0"
+      },
+      "contact": {
+        "email": "matt.blake@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37460"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37460",
+      "sources": [
+        "https://ballotpedia.org/Matt_Blake_(Iowa)",
+        "https://www.dickinsonbradshaw.com/attorney-profiles/matthew-d-blake",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37460",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37460",
+        "https://www.linkedin.com/in/matt-blake-51532666",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "windschitl-matt-ia-hd15",
+      "name": "Matt Windschitl",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-15)",
+      "state": "IA",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be1898a3-30da-45c6-810f-4751158daefc"
+      },
+      "contact": {
+        "email": "matt.windschitl@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/admin/sites/2/pages/30/preview?browser_id=default&logged_in=0&theme_id=5cf7e407c294800185b6c2c2"
+      },
+      "bio": {
+        "birth_date": "1983-12-30",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=6282",
+      "sources": [
+        "https://ballotpedia.org/Matt_Windschitl",
+        "https://en.wikipedia.org/wiki/Matt_Windschitl",
+        "https://justfacts.votesmart.org/candidate/biography/57046/matt-windschitl",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=6282",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=6282",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=6282",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=6282",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "rinker-matt-ia-hd99",
+      "name": "Matt Rinker",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-99)",
+      "state": "IA",
+      "district": "HD-99",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/aec12ca2-6ad3-4026-9f01-7a691566c6fc"
+      },
+      "contact": {
+        "email": "matthew.rinker@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33998&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33998",
+      "sources": [
+        "https://ballotpedia.org/Matthew_Rinker",
+        "https://en.wikipedia.org/wiki/Matthew_Rinker",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33998",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33998",
+        "https://www.linkedin.com/in/matthew-rinker-26bab852",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-megan-ia-hd6",
+      "name": "Megan Jones",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-6)",
+      "state": "IA",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/65c3efb9-452e-4aae-a390-15db3f3ba707"
+      },
+      "contact": {
+        "email": "megan.jones@legis.iowa.gov",
+        "website": "https://www.jonesforiowa.com"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=10747",
+      "sources": [
+        "https://ballotpedia.org/Megan_Jones",
+        "https://en.wikipedia.org/wiki/Megan_Jones_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/137928/megan-jones",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=10747",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=10747",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=10747",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=10747",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "srinivas-megan-ia-hd30",
+      "name": "Megan Srinivas",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-30)",
+      "state": "IA",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/84f3edbd-f0e1-4220-a670-f7d39d57bda5"
+      },
+      "contact": {
+        "email": "megan.srinivas@legis.iowa.gov",
+        "website": "https://eepurl.com/ihe76f"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33973",
+      "sources": [
+        "https://ballotpedia.org/Megan_Srinivas",
+        "https://en.wikipedia.org/wiki/Megan_Srinivas",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33973",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33973",
+        "https://www.linkedin.com/in/megan-l-srinivas",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "bergan-michael-ia-hd63",
+      "name": "Michael Bergan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-63)",
+      "state": "IA",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bf9a43c8-3e2a-489f-94f6-b26035f7f9b9"
+      },
+      "contact": {
+        "email": "michael.bergan@legis.iowa.gov",
+        "website": "https://iowa.us4.list-manage.com/subscribe?u=cda8d4cec739450efbb093a0a&id=09e9bff453"
+      },
+      "bio": {
+        "birth_date": "1962-08-16",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=18044",
+      "sources": [
+        "https://ballotpedia.org/Michael_Bergan",
+        "https://en.wikipedia.org/wiki/Michael_Bergan",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=18044",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=18044",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=18044",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=18044",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "bousselot-mike-ia-sd21",
+      "name": "Mike Bousselot",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-21)",
+      "state": "IA",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37784f85-492c-422c-93a3-9910867f68f9"
+      },
+      "contact": {
+        "email": "mike.bousselot@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/mike-bousselot/"
+      },
+      "bio": {
+        "birth_date": "1982-11-02",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=32076&pType=3",
+      "sources": [
+        "https://ballotpedia.org/Mike_Bousselot",
+        "https://en.wikipedia.org/wiki/Mike_Bousselot",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=32076",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=32076",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=32076",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/michael-bousselot-86045b59",
+        "https://www.linkedin.com/in/mike-bousselot-86045b59",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "klimesh-mike-ia-sd32",
+      "name": "Mike Klimesh",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-32)",
+      "state": "IA",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cad5e110-d7b3-45b3-b7c3-9e8232e2dbc7"
+      },
+      "contact": {
+        "email": "mike.klimesh@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/mike-klimesh/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30547",
+      "sources": [
+        "https://ballotpedia.org/Michael_T._Klimesh",
+        "https://en.wikipedia.org/wiki/Mike_Klimesh",
+        "https://iowasenaterepublicans.com/senators/mike-klimesh",
+        "https://justfacts.votesmart.org/candidate/biography/122088/micheal-klimesh",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30547",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30547",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30547",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/michael-klimesh-2a097219",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "pike-mike-ia-sd20",
+      "name": "Mike Pike",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-20)",
+      "state": "IA",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fdb8c40c-9f1e-4799-bc5f-0249d21f3811"
+      },
+      "contact": {
+        "email": "mike.pike@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37458"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37458",
+      "sources": [
+        "https://ballotpedia.org/Mike_Pike",
+        "https://en.wikipedia.org/wiki/Mike_Pike",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37458",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37458",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "vondran-mike-ia-hd94",
+      "name": "Mike Vondran",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-94)",
+      "state": "IA",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4416e207-bc39-4dee-b6fc-7e70e351aa54"
+      },
+      "contact": {
+        "email": "mike.vondran@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33996&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33996",
+      "sources": [
+        "https://ballotpedia.org/Mike_Vondran",
+        "https://en.wikipedia.org/wiki/Mike_Vondran",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33996",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33996",
+        "https://www.linkedin.com/in/mikevondran1",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "zimmer-mike-ia-sd35",
+      "name": "Mike Zimmer",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-35)",
+      "state": "IA",
+      "district": "SD-35",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/93034bcb-c3fa-4427-8a1a-d48b8485a8eb"
+      },
+      "contact": {
+        "email": "mike.zimmer@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?personID=37960"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37960",
+      "sources": [
+        "https://ballotpedia.org/Mike_Zimmer_(Iowa)",
+        "https://en.wikipedia.org/wiki/Mike_Zimmer_(politician)",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37960",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "donahue-molly-ia-sd37",
+      "name": "Molly Donahue",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-37)",
+      "state": "IA",
+      "district": "SD-37",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d675a03b-f474-4e1c-b48a-b78b399488c4"
+      },
+      "contact": {
+        "email": "molly.donahue@legis.iowa.gov",
+        "website": "https://eepurl.com/gXN_ff"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27031",
+      "sources": [
+        "https://ballotpedia.org/Molly_Donahue",
+        "https://en.wikipedia.org/wiki/Molly_Donahue",
+        "https://iowasenatedemocrats.com/senator-molly-donahue",
+        "https://justfacts.votesmart.org/candidate/biography/168785/molly-donahue",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=27031",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=27031",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27031",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27031",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/molly-donahue-722b4b35",
+        "https://www.senate.iowa.gov/senator/donahue",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "kurth-monica-ia-hd98",
+      "name": "Monica Kurth",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-98)",
+      "state": "IA",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c746f92f-f2d1-4dd9-aa76-f056fe026c32"
+      },
+      "contact": {
+        "email": "monica.kurth@legis.iowa.gov",
+        "website": "https://eepurl.com/gXNhsX"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=18614",
+      "sources": [
+        "https://ballotpedia.org/Monica_Hosch_Kurth",
+        "https://en.wikipedia.org/wiki/Monica_Kurth",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=18614",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=18614",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=18614",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=18614",
+        "https://www.linkedin.com/in/monica-kurth-5b419723",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "mommsen-norlin-ia-hd70",
+      "name": "Norlin Mommsen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-70)",
+      "state": "IA",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e8a08a29-2cc5-4b0b-a461-61983aa0771c"
+      },
+      "contact": {
+        "email": "norlin.mommsen@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1957-11-02",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=14810",
+      "sources": [
+        "https://ballotpedia.org/Norlin_Mommsen",
+        "https://en.wikipedia.org/wiki/Norlin_Mommsen",
+        "https://justfacts.votesmart.org/candidate/biography/151166/norlin-mommsen",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=14810",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=14810",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=14810",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "grassley-pat-ia-hd57",
+      "name": "Pat Grassley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-57)",
+      "state": "IA",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/43530aa9-bb74-4e1b-845c-e9491c9a410c"
+      },
+      "contact": {
+        "email": "pat.grassley@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.com/members/pat-grassley"
+      },
+      "bio": {
+        "birth_date": "1983-05-26",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=6277",
+      "sources": [
+        "https://ballotpedia.org/Pat_Grassley",
+        "https://en.wikipedia.org/wiki/Pat_Grassley",
+        "https://iowahouserepublicans.nationbuilder.com/Grassley",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=6277",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=6277",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=6277",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=6277",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "sorensen-bubba-ia-hd23",
+      "name": "Bubba Sorensen",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-23)",
+      "state": "IA",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/97a4ef03-4b50-4fcd-9ebc-3d76482f2150"
+      },
+      "contact": {
+        "email": "ray.sorensen@legis.iowa.gov",
+        "website": "https://iowa.us20.list-manage.com/subscribe?u=bf8ea8a70bdafa528d6feb893&id=cf761d2cb3"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27020",
+      "sources": [
+        "https://ballotpedia.org/Ray_Sorensen",
+        "https://en.wikipedia.org/wiki/Ray_Sorensen_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/180192/ray-sorensen",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27020",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27020",
+        "https://www.linkedin.com/in/freedomrocks",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "hardman-renee-ia-sd16",
+      "name": "Renee Hardman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-16)",
+      "state": "IA",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6d119d13-56ee-4aef-a7b0-602efef0b995"
+      },
+      "contact": {
+        "email": "renee.hardman@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?personID=39593"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://media.tegna-media.com/assets/WOI/images/eb691334-5dc7-4bc6-9b19-2d2533483f86/eb691334-5dc7-4bc6-9b19-2d2533483f86_1920x1080.jpg",
+      "sources": [
+        "https://ballotpedia.org/Renee_Hardman",
+        "https://en.wikipedia.org/wiki/Renee_Hardman",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=39593",
+        "https://www.linkedin.com/in/renee-hardman-mba-sphr-631b704",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "olson-rick-ia-hd39",
+      "name": "Rick Olson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-39)",
+      "state": "IA",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8ef407a5-2d80-4190-a656-a23d13fb5cb4"
+      },
+      "contact": {
+        "email": "rick.olson@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=776&ga=89"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=776",
+      "sources": [
+        "https://ballotpedia.org/Rick_Olson_(Iowa)",
+        "https://en.wikipedia.org/wiki/Rick_Olson_(Iowa_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/32444/rick-olson",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=776",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=776",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=776",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=776",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-rob-ia-hd34",
+      "name": "Rob Johnson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-34)",
+      "state": "IA",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6c4e422c-1d04-48c1-8e75-7af2e6ad1002"
+      },
+      "contact": {
+        "email": "rob.johnson@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37381"
+      },
+      "bio": {
+        "birth_date": "1988-01-21",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37381",
+      "sources": [
+        "https://ballotpedia.org/Rob_Johnson_(Iowa)",
+        "https://en.wikipedia.org/wiki/Rob_Johnson_(Iowa_politician)",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37381",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37381",
+        "https://www.linkedin.com/in/rob-johnson-4407a456",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "henderson-bob-ia-hd2",
+      "name": "Bob Henderson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-2)",
+      "state": "IA",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/078e02d7-0d26-49f2-9176-8044701e540f"
+      },
+      "contact": {
+        "email": "robert.henderson@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33964&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33964",
+      "sources": [
+        "https://ballotpedia.org/Robert_Henderson_(Iowa)",
+        "https://en.wikipedia.org/wiki/Robert_Henderson_(American_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/168717/robert-henderson",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33964",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33964",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wilburn-ross-ia-hd50",
+      "name": "Ross Wilburn",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-50)",
+      "state": "IA",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/068a7290-ab67-4ff5-abe5-8e23a7715097"
+      },
+      "contact": {
+        "email": "ross.wilburn@legis.iowa.gov",
+        "website": "https://eepurl.com/gXMQCb"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=28701",
+      "sources": [
+        "https://ballotpedia.org/Ross_Wilburn",
+        "https://en.wikipedia.org/wiki/Ross_Wilburn",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=28701",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=28701",
+        "https://www.linkedin.com/in/ross-wilburn-2266811b",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "gaines-ruth-ann-ia-hd33",
+      "name": "Ruth Ann Gaines",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-33)",
+      "state": "IA",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/dad6bcf1-d56a-4a10-a969-2980dd3582d8"
+      },
+      "contact": {
+        "email": "ruth.ann.gaines@legis.iowa.gov",
+        "website": "https://eepurl.com/gXMYEr"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=9413",
+      "sources": [
+        "https://ballotpedia.org/Ruth_Ann_Gaines",
+        "https://en.wikipedia.org/wiki/Ruth_Ann_Gaines",
+        "https://justfacts.votesmart.org/candidate/biography/122043/ruth-ann-gaines",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=9413",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=9413",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=9413",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=9413",
+        "https://www.linkedin.com/in/ruth-ann-gaines-58163889",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "weldon-ryan-ia-hd41",
+      "name": "Ryan Weldon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-41)",
+      "state": "IA",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3c21eb9b-0b5d-429e-9bb4-0d53adf4442c"
+      },
+      "contact": {
+        "email": "ryan.weldon@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37382"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37382",
+      "sources": [
+        "https://ballotpedia.org/Ryan_Weldon",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37382",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37382",
+        "https://www.linkedin.com/in/ryan-weldon-b90b0b7",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wengryn-sam-ia-hd24",
+      "name": "Sam Wengryn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-24)",
+      "state": "IA",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c9617375-c6c8-453d-8807-32714cd85c21"
+      },
+      "contact": {
+        "email": "sam.wengryn@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37380"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37380",
+      "sources": [
+        "https://ballotpedia.org/Sam_Wengryn",
+        "https://en.wikipedia.org/wiki/Sam_Wengryn",
+        "https://justfacts.votesmart.org/candidate/biography/215589/sam-wengryn",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37380",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37380",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "fett-samantha-ia-hd22",
+      "name": "Samantha Fett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-22)",
+      "state": "IA",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a629e45d-fc34-4751-9ca3-d70d2b8f332d"
+      },
+      "contact": {
+        "email": "samantha.fett@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37379"
+      },
+      "bio": {
+        "birth_date": "1979-08-03",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37379",
+      "sources": [
+        "https://ballotpedia.org/Samantha_Fett",
+        "https://en.wikipedia.org/wiki/Samantha_Fett",
+        "https://justfacts.votesmart.org/candidate/215582/samantha-fett",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37379",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37379",
+        "https://www.linkedin.com/in/samantha-fett",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "salmon-sandy-ia-sd29",
+      "name": "Sandy Salmon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-29)",
+      "state": "IA",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b51c0843-c860-4568-a3a7-3d004a377fd4"
+      },
+      "contact": {
+        "email": "sandy.salmon@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/sandy-salmon/"
+      },
+      "bio": {
+        "birth_date": "1955-10-23",
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=10754",
+      "sources": [
+        "https://ballotpedia.org/Sandy_Salmon",
+        "https://en.wikipedia.org/wiki/Sandy_Salmon",
+        "https://justfacts.votesmart.org/candidate/biography/122095/sandy-salmon",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=10754",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=10754",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=10754",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=10754",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "garriott-sarah-ia-sd14",
+      "name": "Sarah Garriott",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-14)",
+      "state": "IA",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ce66871e-57e7-471d-b231-d772dd41eb63"
+      },
+      "contact": {
+        "email": "sarah.trone.garriott@legis.iowa.gov",
+        "website": "https://mailchi.mp/legis/trone-garriott"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30551",
+      "sources": [
+        "https://ballotpedia.org/Sarah_Garriott",
+        "https://en.wikipedia.org/wiki/Sarah_Trone_Garriott",
+        "https://iowasenatedemocrats.com/senator-sarah-trone-garriott",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30551",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30551",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30551",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/sarah-trone-garriott-98b984139",
+        "https://www.senate.iowa.gov/senator/trone-garriott",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "webster-scott-ia-sd47",
+      "name": "Scott Webster",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-47)",
+      "state": "IA",
+      "district": "SD-47",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5d6f21b7-11a6-4f5e-8661-abc9345f3623"
+      },
+      "contact": {
+        "email": "scott.webster@legis.iowa.gov",
+        "website": "https://iowasenaterepublicans.com/senators/scott-webster/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=13574",
+      "sources": [
+        "https://ballotpedia.org/Scott_Webster",
+        "https://en.wikipedia.org/wiki/Scott_Webster_(politician)",
+        "https://iowasenaterepublicans.com/senators/scott-webster",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=13574",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=13574",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/scott-webster-198b3087",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "bagniewski-sean-ia-hd35",
+      "name": "Sean Bagniewski",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-35)",
+      "state": "IA",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8ee06272-1977-4810-8c40-5d007fb31ac8"
+      },
+      "contact": {
+        "email": "sean.bagniewski@legis.iowa.gov",
+        "website": "https://eepurl.com/ihfkvX"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33975",
+      "sources": [
+        "https://ballotpedia.org/Sean_Bagniewski",
+        "https://en.wikipedia.org/wiki/Sean_Bagniewski",
+        "https://justfacts.votesmart.org/candidate/biography/203957/sean-bagniewski",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33975",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=33975",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33975",
+        "https://www.linkedin.com/in/bagniewski",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "latham-shannon-ia-hd55",
+      "name": "Shannon Latham",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-55)",
+      "state": "IA",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/90ea16da-2e10-470e-a004-a5e2688e6331"
+      },
+      "contact": {
+        "email": "shannon.latham@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30651",
+      "sources": [
+        "https://ballotpedia.org/Shannon_Latham",
+        "https://en.wikipedia.org/wiki/Shannon_Latham",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30651",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30651",
+        "https://www.linkedin.com/in/shannon-latham-70b88310",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "lundgren-shannon-ia-hd65",
+      "name": "Shannon Lundgren",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-65)",
+      "state": "IA",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/82dcdad5-7974-4b38-a44c-7007e8111a5c"
+      },
+      "contact": {
+        "email": "shannon.lundgren@legis.iowa.gov",
+        "website": "https://facebook.us14.list-manage.com/subscribe?u=2aece3f2f1c3b4cc01a0cc692&id=8fc149e435"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=18046",
+      "sources": [
+        "https://ballotpedia.org/Shannon_Lundgren",
+        "https://en.wikipedia.org/wiki/Shannon_Lundgren",
+        "https://justfacts.votesmart.org/candidate/biography/168757/shannon-lundgren",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=18046",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=18046",
+        "https://www.linkedin.com/in/shannon-lundgren-81108110",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wheeler-skyler-ia-hd4",
+      "name": "Skyler Wheeler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-4)",
+      "state": "IA",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9d60676d-f50e-4117-8d22-681927e43a01"
+      },
+      "contact": {
+        "email": "skyler.wheeler@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1993-04-24",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=18040",
+      "sources": [
+        "https://ballotpedia.org/Skyler_Wheeler",
+        "https://en.wikipedia.org/wiki/Skyler_Wheeler",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=18040",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=18040",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=18040",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=18040",
+        "https://www.linkedin.com/in/skyler-wheeler-3395a9b2",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "bradley-steve-ia-hd66",
+      "name": "Steve Bradley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-66)",
+      "state": "IA",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fca5c5d4-a5b0-40eb-ace9-24dfd50bc4a6"
+      },
+      "contact": {
+        "email": "steven.bradley@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=30652",
+      "sources": [
+        "https://ballotpedia.org/Steven_Bradley_(Iowa)",
+        "https://en.wikipedia.org/wiki/Steve_Bradley_(politician)",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=30652",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=30652",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=30652",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "holt-steven-ia-hd12",
+      "name": "Steven Holt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-12)",
+      "state": "IA",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/427b416b-eca9-4863-a8c2-c54ad2769bc1"
+      },
+      "contact": {
+        "email": "steven.holt@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1958-01-28",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=14802",
+      "sources": [
+        "https://ballotpedia.org/Steven_Holt",
+        "https://en.wikipedia.org/wiki/Steven_Holt",
+        "https://justfacts.votesmart.org/candidate/biography/151141/steven-holt",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=14802",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=14802",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=14802",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=14802",
+        "https://www.linkedin.com/in/steven-holt-a6b18a123",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "collins-taylor-ia-hd95",
+      "name": "Taylor Collins",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-95)",
+      "state": "IA",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fb3a8905-a9a9-4016-97b3-94ce90308240"
+      },
+      "contact": {
+        "email": "taylor.collins@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=27618&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27618",
+      "sources": [
+        "https://ballotpedia.org/Taylor_Collins",
+        "https://en.wikipedia.org/wiki/Taylor_Collins",
+        "https://justfacts.votesmart.org/candidate/biography/204023/taylor-collins",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27618",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27618",
+        "https://www.linkedin.com/in/rep-elect-taylor-collins-mpa-4234bb126",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "gerhold-tom-ia-hd84",
+      "name": "Tom Gerhold",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-84)",
+      "state": "IA",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ed333b61-6734-49a2-b37d-a167f330bf09"
+      },
+      "contact": {
+        "email": "thomas.gerhold@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27033",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Gerhold",
+        "https://en.wikipedia.org/wiki/Thomas_Gerhold",
+        "https://justfacts.votesmart.org/candidate/biography/180263/thomas-gerhold",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=27033",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=27033",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27033",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27033",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "kraayenbrink-tim-ia-sd4",
+      "name": "Tim Kraayenbrink",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-4)",
+      "state": "IA",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/293487d6-a28b-48a2-8cfc-c3daabb8abbe"
+      },
+      "contact": {
+        "email": "tim.kraayenbrink@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/tim-kraayenbrink/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=14812",
+      "sources": [
+        "https://ballotpedia.org/Tim_Kraayenbrink",
+        "https://en.wikipedia.org/wiki/Tim_Kraayenbrink",
+        "https://iowasenaterepublicans.com/senators/tim-kraayenbrink",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=14812",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=14812",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=14812",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=14812",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/tim-kraayenbrink-1a115b77",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "brown-powers-timi-ia-hd61",
+      "name": "Timi Brown-Powers",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-61)",
+      "state": "IA",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7467e822-4c62-4cd2-b8e1-6f72a9204fce"
+      },
+      "contact": {
+        "email": "timi.brown-powers@legis.iowa.gov",
+        "website": "https://eepurl.com/gXSzO1"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=14805",
+      "sources": [
+        "https://ballotpedia.org/Timi_Brown-Powers",
+        "https://en.wikipedia.org/wiki/Timi_Brown-Powers",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=14805",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=14805",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=14805",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=14805",
+        "https://www.linkedin.com/in/timi-brown-powers-333a62122",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "determann-tom-ia-hd69",
+      "name": "Tom Determann",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-69)",
+      "state": "IA",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/264c5cb9-f69f-4d07-ac58-231c98915233"
+      },
+      "contact": {
+        "email": "tom.determann@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33984&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33984",
+      "sources": [
+        "https://ballotpedia.org/Tom_Determann",
+        "https://en.wikipedia.org/wiki/Tom_Determann",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33984",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33984",
+        "https://www.linkedin.com/in/tom-determann-175b797b",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "jeneary-tom-ia-hd3",
+      "name": "Tom Jeneary",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-3)",
+      "state": "IA",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/49fc2a54-b290-4f92-9fda-64893f09d29c"
+      },
+      "contact": {
+        "email": "tom.jeneary@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "birth_date": "1952-03-31",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27018",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Jeneary",
+        "https://en.wikipedia.org/wiki/Thomas_Jeneary",
+        "https://justfacts.votesmart.org/candidate/biography/180178/thomas-jeneary",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=27018",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=27018",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27018",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27018",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "moore-tom-ia-hd18",
+      "name": "Tom Moore",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-18)",
+      "state": "IA",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/137108a7-0316-40f8-9624-08b2094fb723"
+      },
+      "contact": {
+        "email": "tom.moore@legis.iowa.gov",
+        "website": "https://iowahouserepublicans.nationbuilder.com/reps"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=17112",
+      "sources": [
+        "https://ballotpedia.org/Tom_Moore_(Iowa)",
+        "https://en.wikipedia.org/wiki/Tom_Moore_(politician)",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=17112",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=17112",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=17112",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=17112",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "shipley-tom-ia-sd9",
+      "name": "Tom Shipley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-9)",
+      "state": "IA",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d1167ce2-5a24-4eb8-bce8-3800ea24a4d0"
+      },
+      "contact": {
+        "email": "tom.shipley@legis.iowa.gov",
+        "website": "https://www.iowasenaterepublicans.com/senators/tom-shipley/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=14814",
+      "sources": [
+        "https://ballotpedia.org/Tom_Shipley",
+        "https://en.wikipedia.org/wiki/Tom_Shipley_(politician)",
+        "https://iowasenaterepublicans.com/senators/tom-shipley",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=14814",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=14814",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=14814",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=14814",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/tom-shipley-47994014",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "townsend-tom-ia-sd36",
+      "name": "Tom Townsend",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-36)",
+      "state": "IA",
+      "district": "SD-36",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ba2c7b09-df43-4428-b268-1f5a4995282e"
+      },
+      "contact": {
+        "email": "thomas.townsend@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37465"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37465",
+      "sources": [
+        "https://ballotpedia.org/Thomas_Townsend",
+        "https://justfacts.votesmart.org/candidate/biography/215558/thomas-townsend",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37465",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37465",
+        "https://www.linkedin.com/in/thomas-townsend-b657b799",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "bisignano-tony-ia-sd15",
+      "name": "Tony Bisignano",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-15)",
+      "state": "IA",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/be302cfd-09b1-4a29-974d-479aa24469eb"
+      },
+      "contact": {
+        "email": "tony.bisignano@legis.iowa.gov",
+        "website": "https://mailchi.mp/legis/bisignano"
+      },
+      "bio": {
+        "birth_date": "1952-05-14",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=906",
+      "sources": [
+        "https://ballotpedia.org/Tony_Bisignano",
+        "https://en.wikipedia.org/wiki/Tony_Bisignano",
+        "https://iowasenatedemocrats.com/senator-tony-bisignano",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=906",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=906",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=906",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=906",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.senate.iowa.gov/senator/bisignano",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "ehlert-tracy-ia-hd79",
+      "name": "Tracy Ehlert",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-79)",
+      "state": "IA",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0a7675f8-869f-4d49-9a14-c44201e8a8dc"
+      },
+      "contact": {
+        "email": "tracy.ehlert@legis.iowa.gov",
+        "website": "https://eepurl.com/gXOgt9"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27032",
+      "sources": [
+        "https://ballotpedia.org/Tracy_Ehlert",
+        "https://en.wikipedia.org/wiki/Tracy_Ehlert",
+        "https://justfacts.votesmart.org/candidate/biography/180257/tracy-ehlert",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=27032",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=27032",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27032",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27032",
+        "https://www.linkedin.com/in/tracy-ehlert-76b29b41",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "sitzmann-travis-ia-hd13",
+      "name": "Travis Sitzmann",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-13)",
+      "state": "IA",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4b23e066-26f2-4b23-ac81-060462b2a956"
+      },
+      "contact": {
+        "email": "travis.sitzmann@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37378"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=37378",
+      "sources": [
+        "https://ballotpedia.org/Travis_Sitzmann",
+        "https://en.wikipedia.org/wiki/Travis_Sitzmann",
+        "https://justfacts.votesmart.org/candidate/biography/215571/travis-sitzmann",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=91&personID=37378",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=37378",
+        "https://www.linkedin.com/in/travis-sitzmann-2714867b",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "larson-wendy-ia-hd7",
+      "name": "Wendy Larson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-7)",
+      "state": "IA",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b385cd86-67bc-4cff-94cb-6e822f719ca7"
+      },
+      "contact": {
+        "email": "wendy.larson@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator?personID=39538"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=39538",
+      "sources": [
+        "https://ballotpedia.org/Wendy_Larson_(Iowa)",
+        "https://en.wikipedia.org/wiki/Wendy_Larson",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=39538",
+        "https://www.linkedin.com/in/wendy-larson-38b8bb71",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "dotzler-bill-ia-sd31",
+      "name": "Bill Dotzler",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-31)",
+      "state": "IA",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c1174a56-68c9-4103-aaee-fa3f1a2b25ca"
+      },
+      "contact": {
+        "email": "bill.dotzler@legis.iowa.gov",
+        "website": "https://mailchi.mp/legis/dotzler"
+      },
+      "bio": {
+        "birth_date": "1948-05-07",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=157",
+      "sources": [
+        "https://ballotpedia.org/William_Dotzler",
+        "https://en.wikipedia.org/wiki/William_Dotzler",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=157",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=157",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=157",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=157",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/dbill",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "dieken-zach-ia-hd5",
+      "name": "Zach Dieken",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Representative (HD-5)",
+      "state": "IA",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ef26d757-2882-4047-a82e-0682cc638d05"
+      },
+      "contact": {
+        "email": "zachary.dieken@legis.iowa.gov",
+        "website": "https://www.legis.iowa.gov/legislators/legislator/newsletter?id=33965&ga=90"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=33965",
+      "sources": [
+        "https://ballotpedia.org/Zach_Dieken",
+        "https://en.wikipedia.org/wiki/Zach_Dieken",
+        "https://www.legis.iowa.gov/legislators/house",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=33965",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=33965",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    },
+    {
+      "politician_id": "wahls-zach-ia-sd43",
+      "name": "Zach Wahls",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Iowa State Senator (SD-43)",
+      "state": "IA",
+      "district": "SD-43",
+      "chamber": "upper",
+      "jurisdiction": "IA",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ab4528a8-eeca-4562-8475-967ce868eb68"
+      },
+      "contact": {
+        "email": "zach.wahls@legis.iowa.gov",
+        "website": "https://mailchi.mp/legis/wahls"
+      },
+      "bio": {
+        "birth_date": "1991-07-15",
+        "gender": "Male"
+      },
+      "image": "https://www.legis.iowa.gov/photo?action=getPhoto&ga=91&pid=27002",
+      "sources": [
+        "https://ballotpedia.org/Zach_Wahls",
+        "https://en.wikipedia.org/wiki/Zach_Wahls",
+        "https://iowasenatedemocrats.com/senator-zach-wahls",
+        "https://justfacts.votesmart.org/candidate/biography/180165/zach-wahls",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=88&personID=27002",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=89&personID=27002",
+        "https://www.legis.iowa.gov/legislators/legislator?ga=90&personID=27002",
+        "https://www.legis.iowa.gov/legislators/legislator?personID=27002",
+        "https://www.legis.iowa.gov/legislators/senate",
+        "https://www.linkedin.com/in/zachwahls",
+        "https://www.senate.iowa.gov/senator/wahls",
+        "https://data.openstates.org/people/current/ia.csv"
+      ]
+    }
+  ]
+}

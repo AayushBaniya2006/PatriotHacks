@@ -1,0 +1,4816 @@
+{
+  "generated_at": "2026-07-04T02:42:37.156246+00:00",
+  "source": "https://data.openstates.org/people/current/tn.csv",
+  "state": "TN",
+  "politicians": [
+    {
+      "politician_id": "lowe-adam-tn-sd1",
+      "name": "Adam Lowe",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-1)",
+      "state": "TN",
+      "district": "SD-1",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b3bd4f95-946f-4b4b-b58f-ab78345847b7"
+      },
+      "contact": {
+        "email": "sen.adam.lowe@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S1"
+      },
+      "bio": {
+        "birth_date": "1981-01-08",
+        "gender": "Male"
+      },
+      "image": "https://static.wixstatic.com/media/599b12_afa74a3390064dd386df25e882ac9659~mv2.jpeg/v1/fill/w_675,h_716,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/599b12_afa74a3390064dd386df25e882ac9659~mv2.jpeg",
+      "sources": [
+        "https://ballotpedia.org/J._Adam_Lowe",
+        "https://en.wikipedia.org/wiki/J._Adam_Lowe",
+        "https://justfacts.votesmart.org/candidate/133392/j-adam-lowe",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S1",
+        "https://www.linkedin.com/in/jadamlowe",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "behn-aftyn-tn-hd51",
+      "name": "Aftyn Behn",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-51)",
+      "state": "TN",
+      "district": "HD-51",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6dc4d8e8-aa2c-423b-8f5c-8ed4666a27db"
+      },
+      "contact": {
+        "email": "rep.aftyn.behn@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H51"
+      },
+      "bio": {
+        "birth_date": "1989-11-24",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Aftyn_Behn.png",
+      "sources": [
+        "https://ballotpedia.org/Aftyn_Behn",
+        "https://en.wikipedia.org/wiki/Aftyn_Behn",
+        "https://justfacts.votesmart.org/candidate/biography/212285/aftyn-behn",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=h51",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H51",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "farmer-andrew-tn-hd17",
+      "name": "Andrew Farmer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-17)",
+      "state": "TN",
+      "district": "HD-17",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ad23d4a9-9a62-40a5-94a5-246f7741c3e2"
+      },
+      "contact": {
+        "email": "rep.andrew.farmer@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H17"
+      },
+      "bio": {
+        "birth_date": "1979-12-14",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h17.jpg",
+      "sources": [
+        "https://ballotpedia.org/Andrew_Farmer",
+        "https://en.wikipedia.org/wiki/Andrew_Farmer",
+        "https://justfacts.votesmart.org/candidate/biography/138632/andrew-farmer",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H17",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h17.html",
+        "https://www.linkedin.com/in/andrew-farmer-67621335",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "maberry-aron-tn-hd68",
+      "name": "Aron Maberry",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-68)",
+      "state": "TN",
+      "district": "HD-68",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0b5b90de-2d94-424f-ab28-b434696cb5a9"
+      },
+      "contact": {
+        "email": "rep.aron.maberry@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H68"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.cmcss.net/wp-content/uploads/elementor/thumbs/L10A9877-2-scaled-qx0h1ahjmd2n4yug9v0d3onejmbo99kwtpl6ybvbxo.jpg",
+      "sources": [
+        "https://ballotpedia.org/Aron_Maberry",
+        "https://en.wikipedia.org/wiki/Aron_Maberry",
+        "https://justfacts.votesmart.org/candidate/biography/216641/aron-maberry",
+        "https://votemaberry.com/about-aron-maberry",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H68",
+        "https://www.linkedin.com/in/aronmaberry",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "massey-becky-tn-sd6",
+      "name": "Becky Massey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-6)",
+      "state": "TN",
+      "district": "SD-6",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/592971a7-2e11-4bed-a57d-71187e174329"
+      },
+      "contact": {
+        "email": "sen.becky.massey@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S6"
+      },
+      "bio": {
+        "birth_date": "1955-01-02",
+        "gender": "Female"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s6.jpg",
+      "sources": [
+        "https://ballotpedia.org/Becky_Duncan_Massey",
+        "https://en.wikipedia.org/wiki/Becky_Duncan_Massey",
+        "https://justfacts.votesmart.org/candidate/biography/135260/becky-massey",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S6",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S6&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s6.html",
+        "https://www.linkedin.com/in/becky-duncan-massey-14898aa",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "powers-bill-tn-sd22",
+      "name": "Bill Powers",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-22)",
+      "state": "TN",
+      "district": "SD-22",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/46b6a1b2-f0c0-4e9a-a506-a81e12e329f5"
+      },
+      "contact": {
+        "email": "sen.bill.powers@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S22"
+      },
+      "bio": {
+        "birth_date": "1957-03-10",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s22.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bill_Powers_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Bill_Powers_(American_politician)",
+        "https://justfacts.votesmart.org/candidate/160448/bill-powers",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S22",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S22&ga=114",
+        "https://www.billpowerstn.com",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s22.html",
+        "https://www.linkedin.com/in/bill-powers-58a1a47",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "mitchell-bo-tn-hd50",
+      "name": "Bo Mitchell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-50)",
+      "state": "TN",
+      "district": "HD-50",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e0272220-99f1-4cfb-9d29-946b86279e0b"
+      },
+      "contact": {
+        "email": "rep.bo.mitchell@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H50"
+      },
+      "bio": {
+        "birth_date": "1970-09-05",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h50.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bo_Mitchell",
+        "https://en.wikipedia.org/wiki/Bo_Mitchell",
+        "https://justfacts.votesmart.org/candidate/biography/80054/bo-mitchell",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H50",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h50.html",
+        "https://www.linkedin.com/in/bo-mitchell-9318638",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "watson-bo-tn-sd11",
+      "name": "Bo Watson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-11)",
+      "state": "TN",
+      "district": "SD-11",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/86d5ff12-369b-41a4-9626-237425063c1b"
+      },
+      "contact": {
+        "email": "sen.bo.watson@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S11"
+      },
+      "bio": {
+        "birth_date": "1960-10-21",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s11.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bo_Watson",
+        "https://en.wikipedia.org/wiki/Bo_Watson",
+        "https://justfacts.votesmart.org/candidate/biography/48696/bo-watson",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S11",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S11",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s11.html",
+        "https://www.linkedin.com/in/bo-watson-a649695",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "freeman-bob-tn-hd56",
+      "name": "Bob Freeman",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-56)",
+      "state": "TN",
+      "district": "HD-56",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c8a26be8-8de1-434b-864a-21697f8f15d4"
+      },
+      "contact": {
+        "email": "rep.bob.freeman@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H56"
+      },
+      "bio": {
+        "birth_date": "1975-07-03",
+        "gender": "Male"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/H56.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bob_Freeman_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Bob_Freeman_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/182470/bob-freeman",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H56",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h56.html",
+        "https://www.linkedin.com/in/bob-freeman-b6b58839",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "harshbarger-bobby-tn-sd4",
+      "name": "Bobby Harshbarger",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-4)",
+      "state": "TN",
+      "district": "SD-4",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/841e5585-a49a-4754-95d4-682d974b4ff4"
+      },
+      "contact": {
+        "email": "sen.bobby.harshbarger@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S4"
+      },
+      "bio": {
+        "birth_date": "1985-01-31",
+        "gender": "Male"
+      },
+      "image": "https://tennesseelookout.com/wp-content/uploads/2024/09/Bobby-Harshbarger-975x1024.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Bobby_Harshbarger",
+        "https://en.wikipedia.org/wiki/Bobby_Harshbarger",
+        "https://justfacts.votesmart.org/candidate/216367/bobby-harshbarger",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S4",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S4&ga=114",
+        "https://www.linkedin.com/in/robert-harshbarger-iii-505529b6",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "taylor-brent-tn-sd31",
+      "name": "Brent Taylor",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-31)",
+      "state": "TN",
+      "district": "SD-31",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d3f48e28-4ee5-4027-9670-0d617ca6048e"
+      },
+      "contact": {
+        "email": "sen.brent.taylor@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S31"
+      },
+      "bio": {
+        "birth_date": "1968-08-08",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/BrentTaylor_TN.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Brent_Taylor_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Brent_Taylor_(Tennessee_politician)",
+        "https://justfacts.votesmart.org/candidate/48828/brent-taylor",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S31",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S31",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "martin-brock-tn-hd79",
+      "name": "Brock Martin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-79)",
+      "state": "TN",
+      "district": "HD-79",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/de8e2d6f-efd8-45f5-b261-5963db78b909"
+      },
+      "contact": {
+        "email": "rep.brock.martin@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-brock-martin/"
+      },
+      "bio": {
+        "birth_date": "1984-10-04",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Brock-Martin.PNG",
+      "sources": [
+        "https://ballotpedia.org/Brock_Martin",
+        "https://justfacts.votesmart.org/candidate/biography/206907/brock-martin",
+        "https://tnhousegop.org/members/representative-brock-martin",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H79",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "terry-bryan-tn-hd48",
+      "name": "Bryan Terry",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-48)",
+      "state": "TN",
+      "district": "HD-48",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a9676141-e809-4554-9d0c-283916c36f63"
+      },
+      "contact": {
+        "email": "rep.bryan.terry@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-bryan-terry/"
+      },
+      "bio": {
+        "birth_date": "1968-10-27",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h48.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bryan_Terry",
+        "https://en.wikipedia.org/wiki/Bryan_Terry",
+        "https://justfacts.votesmart.org/candidate/biography/153281/bryan-terry",
+        "https://tnhousegop.org/members/representative-bryan-terry",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H48",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H48",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h48.html",
+        "https://www.linkedin.com/in/bryan-terry-9b670813",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hulsey-bud-tn-hd2",
+      "name": "Bud Hulsey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-2)",
+      "state": "TN",
+      "district": "HD-2",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1e3046c6-b44b-43dd-9cb2-937f40e97a6a"
+      },
+      "contact": {
+        "email": "rep.bud.hulsey@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H2"
+      },
+      "bio": {
+        "birth_date": "1949-05-30",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h2.jpg",
+      "sources": [
+        "https://ballotpedia.org/Bud_Hulsey",
+        "https://en.wikipedia.org/wiki/Bud_Hulsey",
+        "https://justfacts.votesmart.org/candidate/biography/153238/bud-hulsey",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H2",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h2.html",
+        "https://www.linkedin.com/in/bud-hulsey-ba55a9ba",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hemmer-caleb-tn-hd59",
+      "name": "Caleb Hemmer",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-59)",
+      "state": "TN",
+      "district": "HD-59",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/625050ba-cb23-4c09-b62b-818e544d987d"
+      },
+      "contact": {
+        "email": "rep.caleb.hemmer@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H59"
+      },
+      "bio": {
+        "birth_date": "1981-07-22",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/hemmercaleb.jpg",
+      "sources": [
+        "https://ballotpedia.org/Caleb_Hemmer",
+        "https://en.wikipedia.org/wiki/Caleb_Hemmer",
+        "https://justfacts.votesmart.org/candidate/biography/206794/caleb-hemmer",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H59",
+        "https://www.linkedin.com/in/calebhemmer",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "sexton-cameron-tn-hd25",
+      "name": "Cameron Sexton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-25)",
+      "state": "TN",
+      "district": "HD-25",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/421c9380-99f4-47ff-9d70-5c5eced05a89"
+      },
+      "contact": {
+        "email": "speaker.cameron.sexton@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H25"
+      },
+      "bio": {
+        "birth_date": "1970-11-11",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h25.jpg",
+      "sources": [
+        "https://ballotpedia.org/Cameron_Sexton",
+        "https://en.wikipedia.org/wiki/Cameron_Sexton",
+        "https://justfacts.votesmart.org/candidate/biography/125418/cameron-sexton",
+        "https://tnhousegop.org/members/speaker-cameron-sexton",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H25",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H25",
+        "https://www.cameronsexton.com",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h25.html",
+        "https://www.linkedin.com/in/cameron-sexton-140214154",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "oliver-charlane-tn-sd19",
+      "name": "Charlane Oliver",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-19)",
+      "state": "TN",
+      "district": "SD-19",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/0ce3dbf9-c880-480b-a623-7d9da870bb01"
+      },
+      "contact": {
+        "email": "sen.charlane.oliver@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S19"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/CharlaneOliver.png",
+      "sources": [
+        "https://ballotpedia.org/Charlane_Oliver",
+        "https://en.wikipedia.org/wiki/Charlane_Oliver",
+        "https://justfacts.votesmart.org/candidate/206796/charlane-oliver",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S19",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S19&ga=114",
+        "https://www.linkedin.com/in/charlaneoliver",
+        "https://www.oliverfortnsenate.com",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "baum-charlie-tn-hd37",
+      "name": "Charlie Baum",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-37)",
+      "state": "TN",
+      "district": "HD-37",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7c874269-afdd-4d41-a9da-b0ddb903bb6f"
+      },
+      "contact": {
+        "email": "rep.charlie.baum@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-charlie-baum/"
+      },
+      "bio": {
+        "birth_date": "1972-12-13",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/H37.jpg",
+      "sources": [
+        "https://ballotpedia.org/Charlie_Baum",
+        "https://en.wikipedia.org/wiki/Charlie_Baum",
+        "https://justfacts.votesmart.org/candidate/biography/182443/charlie-baum",
+        "https://tnhousegop.org/members/representative-charlie-baum",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H37",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h37.html",
+        "https://www.linkedin.com/in/charles-baum-a7039598",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hurt-chris-tn-hd82",
+      "name": "Chris Hurt",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-82)",
+      "state": "TN",
+      "district": "HD-82",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/35764262-91cb-4a03-a2ee-5c87a0f5026e"
+      },
+      "contact": {
+        "email": "rep.chris.hurt@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-chris-hurt/"
+      },
+      "bio": {
+        "birth_date": "1972-07-05",
+        "gender": "Male"
+      },
+      "image": "https://capitol.tn.gov/house/members/images/H82.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Hurt",
+        "https://ballotpedia.org/Chris_Hurt_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Chris_Hurt",
+        "https://justfacts.votesmart.org/candidate/biography/182507/chris-hurt",
+        "https://tnhousegop.org/members/representative-chris-hurt",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H82",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h82.html",
+        "https://www.linkedin.com/in/chris-hurt-35205197",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "todd-chris-tn-hd73",
+      "name": "Chris Todd",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-73)",
+      "state": "TN",
+      "district": "HD-73",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5854880e-f10d-4c24-9593-4ae567fec8d7"
+      },
+      "contact": {
+        "email": "rep.chris.todd@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-chris-todd/"
+      },
+      "bio": {
+        "birth_date": "1966-11-26",
+        "gender": "Male"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/H73.jpg",
+      "sources": [
+        "https://ballotpedia.org/Chris_Todd_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Chris_Todd_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/182499/chris-todd",
+        "https://tnhousegop.org/members/representative-chris-todd",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H73",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H73",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h73.html",
+        "https://www.linkedin.com/in/christopherptodd",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "boyd-clark-tn-hd46",
+      "name": "Clark Boyd",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-46)",
+      "state": "TN",
+      "district": "HD-46",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7fa67dd6-999c-4116-a136-32633710f6b0"
+      },
+      "contact": {
+        "email": "rep.clark.boyd@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H46"
+      },
+      "bio": {
+        "birth_date": "1978-06-14",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h46.jpg",
+      "sources": [
+        "https://ballotpedia.org/Clark_Boyd",
+        "https://justfacts.votesmart.org/candidate/biography/153222/clark-boyd",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H46",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h46.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "doggett-clay-tn-hd70",
+      "name": "Clay Doggett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-70)",
+      "state": "TN",
+      "district": "HD-70",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/bdfd00ac-13a8-4208-b687-e46e980d79de"
+      },
+      "contact": {
+        "email": "rep.clay.doggett@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-clay-doggett/"
+      },
+      "bio": {
+        "birth_date": "1983-09-05",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/H70.jpg",
+      "sources": [
+        "https://ballotpedia.org/Clay_Doggett",
+        "https://en.wikipedia.org/wiki/Clay_Doggett",
+        "https://justfacts.votesmart.org/candidate/biography/182490/clay-doggett",
+        "https://tnhousegop.org/members/representative-clay-doggett",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H70",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h70.html",
+        "https://www.linkedin.com/in/clay-doggett-4378a592",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "howell-dan-tn-hd22",
+      "name": "Dan Howell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-22)",
+      "state": "TN",
+      "district": "HD-22",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/311de632-eabb-46da-b547-5fbd73b97769"
+      },
+      "contact": {
+        "email": "rep.dan.howell@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H22"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h22.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dan_Howell",
+        "https://en.wikipedia.org/wiki/Dan_Howell_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/153254/dan-howell",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H22",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h22.html",
+        "https://www.linkedin.com/in/dan-howell-99aa6b126",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "wright-dave-tn-hd19",
+      "name": "Dave Wright",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-19)",
+      "state": "TN",
+      "district": "HD-19",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4d4a531e-1122-4155-a4e3-9c7069aaebc7"
+      },
+      "contact": {
+        "email": "rep.dave.wright@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-dave-wright/"
+      },
+      "bio": {
+        "birth_date": "1945-09-03",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/H19.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dave_Wright_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Dave_Wright_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/108378/dave-wright",
+        "https://tnhousegop.org/members/representative-dave-wright",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H19",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H19",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h19.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hawk-david-tn-hd5",
+      "name": "David Hawk",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-5)",
+      "state": "TN",
+      "district": "HD-5",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/646c2358-84c6-46bf-aca7-555283f31744"
+      },
+      "contact": {
+        "email": "rep.david.hawk@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-david-hawk/"
+      },
+      "bio": {
+        "birth_date": "1968-06-21",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h5.jpg",
+      "sources": [
+        "https://ballotpedia.org/David_Hawk",
+        "https://en.wikipedia.org/wiki/David_B._Hawk",
+        "https://justfacts.votesmart.org/candidate/biography/49150/david-hawk",
+        "https://tnhousegop.org/members/representative-david-hawk",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H5",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h5.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "white-dawn-tn-sd13",
+      "name": "Dawn White",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-13)",
+      "state": "TN",
+      "district": "SD-13",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/80bf42b1-4942-4187-af19-94e830333ce2"
+      },
+      "contact": {
+        "email": "sen.dawn.white@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S13"
+      },
+      "bio": {
+        "birth_date": "1975-10-22",
+        "gender": "Female"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s13.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dawn_White",
+        "https://en.wikipedia.org/wiki/Dawn_White",
+        "https://justfacts.votesmart.org/candidate/biography/138657/dawn-white",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S13",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S13",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s13.html",
+        "https://www.linkedin.com/in/dawn-white-13219012",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "moody-debra-tn-hd81",
+      "name": "Debra Moody",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-81)",
+      "state": "TN",
+      "district": "HD-81",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d07683be-bda8-4af9-be0b-9bf3c1e441e7"
+      },
+      "contact": {
+        "email": "rep.debra.moody@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H81"
+      },
+      "bio": {
+        "birth_date": "1956-05-28",
+        "gender": "Female"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h81.jpg",
+      "sources": [
+        "https://ballotpedia.org/Debra_Moody",
+        "https://en.wikipedia.org/wiki/Debra_Moody",
+        "https://justfacts.votesmart.org/candidate/biography/138810/debra-moody",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H81",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h81.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "powers-dennis-tn-hd36",
+      "name": "Dennis Powers",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-36)",
+      "state": "TN",
+      "district": "HD-36",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/67643e56-9e53-437b-999d-987f8b0692c1"
+      },
+      "contact": {
+        "email": "rep.dennis.powers@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H36"
+      },
+      "bio": {
+        "birth_date": "1953-09-14",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h36.jpg",
+      "sources": [
+        "https://ballotpedia.org/Dennis_Powers_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Dennis_Powers",
+        "https://justfacts.votesmart.org/candidate/biography/12119/dennis-powers",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H36",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h36.html",
+        "https://www.linkedin.com/in/dennis-powers-1349a32a",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "butler-ed-tn-hd41",
+      "name": "Ed Butler",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-41)",
+      "state": "TN",
+      "district": "HD-41",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a94ac42a-6b1e-4ecf-acd4-32c2e463e059"
+      },
+      "contact": {
+        "email": "rep.ed.butler@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H41"
+      },
+      "bio": {
+        "birth_date": "1976-09-29",
+        "gender": "Male"
+      },
+      "image": "http://edbutlerfortn.com/wp-content/uploads/2018/04/Ed-Butler.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ed_Butler_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Ed_Butler_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/170244/ed-butler",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H41",
+        "https://www.linkedin.com/in/ed-butler-1760ba307",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "jackson-ed-tn-sd25",
+      "name": "Ed Jackson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-25)",
+      "state": "TN",
+      "district": "SD-25",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/93024b02-926b-4414-8826-147b14739a2b"
+      },
+      "contact": {
+        "email": "sen.ed.jackson@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S25"
+      },
+      "bio": {
+        "birth_date": "1948-07-21",
+        "gender": "Male"
+      },
+      "image": "https://capitol.tn.gov/senate/members/images/S25.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ed_Jackson",
+        "https://en.wikipedia.org/wiki/Ed_Jackson_(Tennessee_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/153232/ed-jackson",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S25",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S25&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s27.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "davis-elaine-tn-hd18",
+      "name": "Elaine Davis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-18)",
+      "state": "TN",
+      "district": "HD-18",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4c4c679e-fb3d-4ad2-bdfe-f7c077f2d82a"
+      },
+      "contact": {
+        "email": "rep.elaine.davis@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-elaine-davis/"
+      },
+      "bio": {
+        "birth_date": "1967-07-25",
+        "gender": "Female"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/62669899a296e67b1d34963d/13e0ac0c-9c86-423e-baa5-655fb75829bf/ElaineDavis2022-1.jpg",
+      "sources": [
+        "https://ballotpedia.org/Elaine_Davis",
+        "https://en.wikipedia.org/wiki/Elaine_Davis_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/108373/elaine-davis",
+        "https://tnhousegop.org/members/representative-elaine-davis",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H18",
+        "https://www.linkedin.com/in/elaine-davis-21155314",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "helton-haynes-esther-tn-hd30",
+      "name": "Esther Helton-Haynes",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-30)",
+      "state": "TN",
+      "district": "HD-30",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f0cdd239-6095-49bc-9d82-e8ebd7c10254"
+      },
+      "contact": {
+        "email": "rep.esther.helton@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-esther-helton-haynes/"
+      },
+      "bio": {
+        "birth_date": "1961-11-06",
+        "gender": "Female"
+      },
+      "image": "https://capitol.tn.gov/house/members/images/H30.jpg",
+      "sources": [
+        "https://ballotpedia.org/Esther_Helton",
+        "https://ballotpedia.org/Esther_Helton-Haynes",
+        "https://en.wikipedia.org/wiki/Esther_Helton-Haynes",
+        "https://justfacts.votesmart.org/candidate/biography/182434/esther-helton-haynes",
+        "https://tnhousegop.org/members/representative-esther-helton-haynes",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H30",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h30.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "haile-ferrell-tn-sd18",
+      "name": "Ferrell Haile",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-18)",
+      "state": "TN",
+      "district": "SD-18",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f539ae98-f5d7-4290-9835-f64a1ab0a8c7"
+      },
+      "contact": {
+        "email": "sen.ferrell.haile@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S18"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s18.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ferrell_Haile",
+        "https://en.wikipedia.org/wiki/Ferrell_Haile",
+        "https://justfacts.votesmart.org/candidate/biography/49009/ferrell-haile",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S18",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S18&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s18.html",
+        "https://www.linkedin.com/in/ferrell-haile-068ba72b",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "atchley-fred-tn-hd12",
+      "name": "Fred Atchley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-12)",
+      "state": "TN",
+      "district": "HD-12",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a9c952eb-ff76-4d8c-9dbd-820b8909622e"
+      },
+      "contact": {
+        "email": "rep.fred.atchley@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H12&ga=114"
+      },
+      "bio": {
+        "birth_date": "1968-11-10",
+        "gender": "Male"
+      },
+      "image": "https://static.wixstatic.com/media/2859e9_1cd01bea042640618e87046b22a3e1ef~mv2.png/v1/crop/x_578,y_0,w_2532,h_2534/fill/w_434,h_434,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2023%201204%20Atchley%20Thank%20You%20Cards.png",
+      "sources": [
+        "https://ballotpedia.org/Fred_Atchley",
+        "https://en.wikipedia.org/wiki/Fred_Atchley",
+        "https://justfacts.votesmart.org/candidate/biography/99759/fred-atchley",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H12&ga=114",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "salinas-gabby-tn-hd96",
+      "name": "Gabby Salinas",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-96)",
+      "state": "TN",
+      "district": "HD-96",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/15ba8ea2-6fd3-47e2-8a3c-98e87712b367"
+      },
+      "contact": {
+        "email": "rep.gabby.salinas@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H96&ga=114"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/587e30b61b10e3f62fc61ab4/242a6f6e-67d2-4fa8-8e51-c70a3b595274/IMG_1959.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gabby_Salinas",
+        "https://en.wikipedia.org/wiki/Gabby_Salinas",
+        "https://justfacts.votesmart.org/candidate/182387/gabby-salinas",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H96&ga=114",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H96&ga=114",
+        "https://www.linkedin.com/in/gabriela-salinas-47a4422b",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hicks-gary-tn-hd9",
+      "name": "Gary Hicks",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-9)",
+      "state": "TN",
+      "district": "HD-9",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2c60cce4-42aa-44e7-85fe-ab30d8e38979"
+      },
+      "contact": {
+        "email": "rep.gary.hicks@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-gary-hicks/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h9.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gary_Hicks_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Gary_Hicks_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/100745/gary-hicks-jr",
+        "https://tnhousegop.org/members/representative-gary-hicks",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H9",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h9.html",
+        "https://www.linkedin.com/in/gary-hicks-455a1a8",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "bulso-gino-tn-hd61",
+      "name": "Gino Bulso",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-61)",
+      "state": "TN",
+      "district": "HD-61",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7e3d4405-71b3-44f8-8e51-9d329ce10838"
+      },
+      "contact": {
+        "email": "rep.gino.bulso@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H61"
+      },
+      "bio": {
+        "birth_date": "1961-12-25",
+        "gender": "Male"
+      },
+      "image": "https://votegino.com/wp-content/uploads/2022/04/gino.png",
+      "sources": [
+        "https://ballotpedia.org/Gino_Bulso",
+        "https://bulso.com/gino-bulso",
+        "https://bulso.com/the-firm/gino-bulso",
+        "https://justfacts.votesmart.org/candidate/biography/182476/gino-bulso",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H61",
+        "https://www.linkedin.com/in/betterwithbulso",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-gloria-tn-hd90",
+      "name": "Gloria Johnson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-90)",
+      "state": "TN",
+      "district": "HD-90",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4dbbf89b-69ab-459f-97ee-c53866e81296"
+      },
+      "contact": {
+        "email": "rep.gloria.johnson@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H90"
+      },
+      "bio": {
+        "birth_date": "1962-05-25",
+        "gender": "Female"
+      },
+      "image": "https://capitol.tn.gov/house/members/images/H90.jpg",
+      "sources": [
+        "https://ballotpedia.org/Gloria_Johnson_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Gloria_Johnson_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/138629/gloria-johnson",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H90",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h13.html",
+        "https://www.linkedin.com/in/gloria-johnson-8396437",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "martin-greg-tn-hd26",
+      "name": "Greg Martin",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-26)",
+      "state": "TN",
+      "district": "HD-26",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3fb15ce3-c606-4e25-bc6f-1c374bb52cf6"
+      },
+      "contact": {
+        "email": "rep.greg.martin@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H26"
+      },
+      "bio": {
+        "birth_date": "1963-07-31",
+        "gender": "Male"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/h26.jpg",
+      "sources": [
+        "https://ballotpedia.org/Greg_Martin_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Greg_Martin_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/187538/greg-martin",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H26",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h26.html",
+        "https://www.linkedin.com/in/greg-martin-ba517b89",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "vital-greg-tn-hd29",
+      "name": "Greg Vital",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-29)",
+      "state": "TN",
+      "district": "HD-29",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1035ecfa-8b33-472b-8aa9-2c6286c7fb59"
+      },
+      "contact": {
+        "email": "rep.greg.vital@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-greg-vital/"
+      },
+      "bio": {
+        "birth_date": "1956-01-27",
+        "gender": "Male"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/h29.jpg",
+      "sources": [
+        "https://ballotpedia.org/Greg_Vital",
+        "https://en.wikipedia.org/wiki/Greg_Vital",
+        "https://justfacts.votesmart.org/candidate/biography/138995/greg-vital",
+        "https://tnhousegop.org/members/representative-greg-vital",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H29",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H29",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h29.html",
+        "https://www.linkedin.com/in/greg-a-vital-46439628",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "love-harold-tn-hd58",
+      "name": "Harold Love",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-58)",
+      "state": "TN",
+      "district": "HD-58",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2b7b0735-2adf-4d15-8dab-e32cf871d1d9"
+      },
+      "contact": {
+        "email": "rep.harold.love@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H58"
+      },
+      "bio": {
+        "birth_date": "1972-12-14",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h58.jpg",
+      "sources": [
+        "https://ballotpedia.org/Harold_Love",
+        "https://en.wikipedia.org/wiki/Harold_Love",
+        "https://justfacts.votesmart.org/candidate/25301/harold-love-jr",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H58",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h58.html",
+        "https://www.linkedin.com/in/harold-love-048b2210",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "campbell-heidi-tn-sd20",
+      "name": "Heidi Campbell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-20)",
+      "state": "TN",
+      "district": "SD-20",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b4356789-3561-4110-ad59-00c7cf36e0fd"
+      },
+      "contact": {
+        "email": "sen.heidi.campbell@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S20"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://www.capitol.tn.gov/senate/members/images/S20.jpg",
+      "sources": [
+        "https://ballotpedia.org/Heidi_Campbell",
+        "https://en.wikipedia.org/wiki/Heidi_Campbell_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/193429/heidi-campbell",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S20",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S20&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s20.html",
+        "https://www.linkedin.com/in/heidi-campbell-b249bb",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "rudder-iris-tn-hd39",
+      "name": "Iris Rudder",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-39)",
+      "state": "TN",
+      "district": "HD-39",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/96432d4d-ecdf-4fa0-8a20-e8a5636fb7dd"
+      },
+      "contact": {
+        "email": "rep.iris.rudder@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-iris-rudder/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://data.openstates.org/images/small/ocd-person/96432d4d-ecdf-4fa0-8a20-e8a5636fb7dd",
+      "sources": [
+        "https://ballotpedia.org/Iris_Rudder",
+        "https://en.wikipedia.org/wiki/Iris_Rudder",
+        "https://justfacts.votesmart.org/candidate/biography/163549/iris-rudder",
+        "https://tnhousegop.org/members/representative-iris-rudder",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H39",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H39",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h39.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "johnson-jack-tn-sd27",
+      "name": "Jack Johnson",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-27)",
+      "state": "TN",
+      "district": "SD-27",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/83e732c5-55af-4d56-b3ed-9ff358ed641e"
+      },
+      "contact": {
+        "email": "sen.jack.johnson@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S27"
+      },
+      "bio": {
+        "birth_date": "1968-07-25",
+        "gender": "Male"
+      },
+      "image": "https://bloximages.newyork1.vip.townnews.com/williamsonherald.com/content/tncms/assets/v3/editorial/b/5f/b5ffcba0-f751-11e8-8648-bf381c197480/5c05b9b74599d.image.jpg?resize=334%2C500",
+      "sources": [
+        "https://ballotpedia.org/Jack_Johnson",
+        "https://en.wikipedia.org/wiki/Jack_Johnson_(American_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/67802/jack-johnson",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S27",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S27&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s23.html",
+        "https://www.linkedin.com/in/jack-johnson-97baaa143",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "mccalmon-jake-tn-hd63",
+      "name": "Jake McCalmon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-63)",
+      "state": "TN",
+      "district": "HD-63",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f954892c-82e4-48ff-ae0c-c7e10c251335"
+      },
+      "contact": {
+        "email": "rep.jake.mccalmon@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-jake-mccalmon/"
+      },
+      "bio": {
+        "birth_date": "1986-04-06",
+        "gender": "Male"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/58f80179be65944c6f5eeb8a/94dc5fac-95f7-4b57-8c52-6bffa35d2a20/JakeMcCalmon-3.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jake_McCalmon",
+        "https://en.wikipedia.org/wiki/Jake_McCalmon",
+        "https://justfacts.votesmart.org/candidate/biography/206887/jake-mccalmon",
+        "https://tnhousegop.org/members/representative-jake-mccalmon",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H63",
+        "https://www.linkedin.com/in/jake-mccalmon-5a43271b",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "bowling-janice-tn-sd16",
+      "name": "Janice Bowling",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-16)",
+      "state": "TN",
+      "district": "SD-16",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f48dc5f3-1c31-4654-a6be-1b9d20ecb3b2"
+      },
+      "contact": {
+        "email": "sen.janice.bowling@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S16"
+      },
+      "bio": {
+        "birth_date": "1947-04-01",
+        "gender": "Female"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s16.jpg",
+      "sources": [
+        "https://ballotpedia.org/Janice_Bowling",
+        "https://en.wikipedia.org/wiki/Janice_Bowling",
+        "https://justfacts.votesmart.org/candidate/biography/49078/janice-bowling",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S16",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S16&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s16.html",
+        "https://www.linkedin.com/in/janice-bowling-01b41134",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "powell-jason-tn-hd53",
+      "name": "Jason Powell",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-53)",
+      "state": "TN",
+      "district": "HD-53",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7a2b1f85-6a85-41af-8b81-44d585e0041a"
+      },
+      "contact": {
+        "email": "rep.jason.powell@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H53"
+      },
+      "bio": {
+        "birth_date": "1978-01-25",
+        "gender": "Male"
+      },
+      "image": "https://www.tennessean.com/gcdn/-mm-/6f03ca527b37558797b9ff3612df6f1ca4cc9386/c=0-42-1946-2637/local/-/media/Nashville/2015/02/11/B9316214695Z.1_20150211202701_000_GF79UD55G.1-0.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jason_Powell",
+        "https://en.wikipedia.org/wiki/Jason_Powell",
+        "https://justfacts.votesmart.org/candidate/biography/65608/jason-powell",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H53",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h53.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "zachary-jason-tn-hd14",
+      "name": "Jason Zachary",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-14)",
+      "state": "TN",
+      "district": "HD-14",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/984fd95f-0554-4b7b-aa3e-b72af6ae1aee"
+      },
+      "contact": {
+        "email": "rep.jason.zachary@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-jason-zachary/"
+      },
+      "bio": {
+        "birth_date": "1977-06-29",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h14.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jason_Zachary",
+        "https://en.wikipedia.org/wiki/Jason_Zachary",
+        "https://justfacts.votesmart.org/candidate/biography/146213/jason-zachary",
+        "https://tnhousegop.org/members/representative-jason-zachary",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H14",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H14",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h14.html",
+        "https://www.linkedin.com/in/jason-zachary-79a39015",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "reedy-jay-tn-hd74",
+      "name": "Jay Reedy",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-74)",
+      "state": "TN",
+      "district": "HD-74",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/380a255b-fef0-4cd9-9f33-3d5b5d163c68"
+      },
+      "contact": {
+        "email": "rep.jay.reedy@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H74"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h74.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jay_Reedy",
+        "https://en.wikipedia.org/wiki/Jay_Reedy",
+        "https://justfacts.votesmart.org/candidate/biography/153314/jay-reedy",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H74",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h74.html",
+        "https://www.linkedin.com/in/jay-reedy-b071b892",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "yarbro-jeff-tn-sd21",
+      "name": "Jeff Yarbro",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-21)",
+      "state": "TN",
+      "district": "SD-21",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eda112b7-c5bc-4d24-95b8-3651090e1da4"
+      },
+      "contact": {
+        "email": "sen.jeff.yarbro@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S21"
+      },
+      "bio": {
+        "birth_date": "1977-02-16",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s21.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeff_Yarbro",
+        "https://en.wikipedia.org/wiki/Jeff_Yarbro",
+        "https://justfacts.votesmart.org/candidate/biography/125593/jeff-yarbro",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S21",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S21",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s21.html",
+        "https://www.linkedin.com/in/jeff-yarbro-61a4122",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "faison-jeremy-tn-hd11",
+      "name": "Jeremy Faison",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-11)",
+      "state": "TN",
+      "district": "HD-11",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c01a4deb-373d-48a9-b4a2-19125c6e1fe2"
+      },
+      "contact": {
+        "email": "rep.jeremy.faison@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-jeremy-faison/"
+      },
+      "bio": {
+        "birth_date": "1976-09-14",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h11.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jeremy_Faison",
+        "https://en.wikipedia.org/wiki/Jeremy_Faison",
+        "https://justfacts.votesmart.org/candidate/biography/125397/jeremy-faison",
+        "https://tnhousegop.org/members/representative-jeremy-faison",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H11",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h11.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "moon-jerome-tn-hd8",
+      "name": "Jerome Moon",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-8)",
+      "state": "TN",
+      "district": "HD-8",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/27331b48-e198-4de9-ac44-e30509c8c26b"
+      },
+      "contact": {
+        "email": "rep.jerome.moon@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H8"
+      },
+      "bio": {
+        "birth_date": "1947-06-20",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h8.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jerome_Moon",
+        "https://en.wikipedia.org/wiki/Jerome_Moon",
+        "https://justfacts.votesmart.org/candidate/biography/133193/jerome-moon",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H8",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h8.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "chism-jesse-tn-hd85",
+      "name": "Jesse Chism",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-85)",
+      "state": "TN",
+      "district": "HD-85",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/108691a2-9f24-41c5-b4c8-606c7cdf036b"
+      },
+      "contact": {
+        "email": "rep.jesse.chism@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H85"
+      },
+      "bio": {
+        "birth_date": "1980-03-04",
+        "gender": "Male"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/H85.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jesse_Chism",
+        "https://en.wikipedia.org/wiki/Jesse_Chism",
+        "https://justfacts.votesmart.org/candidate/biography/182512/jesse-chism",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H85",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h85.html",
+        "https://www.linkedin.com/in/jesse-chism-ba730b44",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "seal-jessie-tn-sd8",
+      "name": "Jessie Seal",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-8)",
+      "state": "TN",
+      "district": "SD-8",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b37537b4-ac38-4d83-ba16-025fcb7f0dc6"
+      },
+      "contact": {
+        "email": "sen.jessie.seal@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S8&ga=114"
+      },
+      "bio": {
+        "birth_date": "1991-01-09",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jason_Weakley_20241023_122227.jpg",
+      "sources": [
+        "https://ballotpedia.org/Jessie_Seal",
+        "https://en.wikipedia.org/wiki/Jessie_Seal",
+        "https://justfacts.votesmart.org/candidate/216372/jessie-seal",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S8&ga=114",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S8&ga=114",
+        "https://www.linkedin.com/in/jessie-seal-833044ba",
+        "https://www.linkedin.com/in/jessie-seal-95409b220",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "barrett-jody-tn-hd69",
+      "name": "Jody Barrett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-69)",
+      "state": "TN",
+      "district": "HD-69",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2689e641-85b8-4753-bd0f-28e2cdfc1568"
+      },
+      "contact": {
+        "email": "rep.jody.barrett@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H69"
+      },
+      "bio": {
+        "birth_date": "1973-11-08",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jody-Barrett.PNG",
+      "sources": [
+        "https://ballotpedia.org/Jody_Barrett",
+        "https://justfacts.votesmart.org/candidate/biography/206893/jody-barrett",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H69",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "towns-joe-tn-hd84",
+      "name": "Joe Towns",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-84)",
+      "state": "TN",
+      "district": "HD-84",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7a3177a1-118c-48ce-bbb8-17ebb1240e00"
+      },
+      "contact": {
+        "email": "rep.joe.towns@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H84"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h84.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joe_Towns_Jr.",
+        "https://en.wikipedia.org/wiki/Joe_Towns",
+        "https://justfacts.votesmart.org/candidate/biography/24457/joe-towns-jr",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H84",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H84",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h84.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hensley-joey-tn-sd28",
+      "name": "Joey Hensley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-28)",
+      "state": "TN",
+      "district": "SD-28",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fccb09fc-b331-4bba-8b84-fbd4ab3e3227"
+      },
+      "contact": {
+        "email": "sen.joey.hensley@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S28"
+      },
+      "bio": {
+        "birth_date": "1955-07-28",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s28.jpg",
+      "sources": [
+        "https://ballotpedia.org/Joey_Hensley",
+        "https://en.wikipedia.org/wiki/Joey_Hensley",
+        "https://justfacts.votesmart.org/candidate/48811/joey-hensley",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S28",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S28&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s28.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "crawford-john-tn-hd1",
+      "name": "John Crawford",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-1)",
+      "state": "TN",
+      "district": "HD-1",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d1ead0ef-cc7a-48b3-9fec-0afc8b9d013d"
+      },
+      "contact": {
+        "email": "rep.john.crawford@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-john-crawford/"
+      },
+      "bio": {
+        "birth_date": "1967-11-29",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h1.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Crawford_(Tennessee)",
+        "https://en.wikipedia.org/wiki/John_Crawford_(Tennessee_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/66050/john-crawford",
+        "https://tnhousegop.org/members/representative-john-crawford",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H1",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h1.html",
+        "https://www.linkedin.com/in/john-crawford-83335547",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "gillespie-john-tn-hd97",
+      "name": "John Gillespie",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-97)",
+      "state": "TN",
+      "district": "HD-97",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/927edca0-8b67-40c6-b786-4cbfac5b344f"
+      },
+      "contact": {
+        "email": "rep.john.gillespie@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-john-gillespie/"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/h97.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Gillespie",
+        "https://en.wikipedia.org/wiki/John_Gillespie_(Tennessee_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/193527/john-gillespie",
+        "https://tnhousegop.org/members/representative-john-gillespie",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H97",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h97.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "clemmons-john-tn-hd55",
+      "name": "John Clemmons",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-55)",
+      "state": "TN",
+      "district": "HD-55",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/87464fca-8690-4e1e-a7aa-499008a9c0b1"
+      },
+      "contact": {
+        "email": "rep.john.ray.clemmons@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H55"
+      },
+      "bio": {
+        "birth_date": "1977-07-14",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h55.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Ray_Clemmons",
+        "https://en.wikipedia.org/wiki/John_Ray_Clemmons",
+        "https://justfacts.votesmart.org/candidate/biography/153298/john-clemmons",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H55",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h55.html",
+        "https://www.linkedin.com/in/john-ray-clemmons-7247854",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "stevens-john-tn-sd24",
+      "name": "John Stevens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-24)",
+      "state": "TN",
+      "district": "SD-24",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/cb6c477c-ceb7-41af-ab96-b03debc1b7e3"
+      },
+      "contact": {
+        "email": "sen.john.stevens@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S24"
+      },
+      "bio": {
+        "birth_date": "1973-10-18",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s24.jpg",
+      "sources": [
+        "https://ballotpedia.org/John_Stevens_(Tennessee)",
+        "https://en.wikipedia.org/wiki/John_Stevens_(Tennessee)",
+        "https://justfacts.votesmart.org/candidate/biography/139031/john-stevens",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S24",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S24",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s24.html",
+        "https://www.linkedin.com/in/john-stevens-1a334837",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "garrett-johnny-tn-hd45",
+      "name": "Johnny Garrett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-45)",
+      "state": "TN",
+      "district": "HD-45",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8aeb3cc6-b0ca-4af6-ae9d-06aca0c6ae14"
+      },
+      "contact": {
+        "email": "rep.johnny.garrett@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H45"
+      },
+      "bio": {
+        "birth_date": "1978-08-08",
+        "gender": "Male"
+      },
+      "image": "https://www.spencerfane.com/wp-content/uploads/2023/05/garrett-j-731x1024.jpg",
+      "sources": [
+        "https://ballotpedia.org/Johnny_Garrett",
+        "https://en.wikipedia.org/wiki/Johnny_Garrett_(politician)",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H45",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h45.html",
+        "https://www.linkedin.com/in/johnnycgarrett",
+        "https://www.spencerfane.com/professionals/johnny-garrett",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "shaw-johnny-tn-hd80",
+      "name": "Johnny Shaw",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-80)",
+      "state": "TN",
+      "district": "HD-80",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/36e97a50-c2e3-42a4-8f2d-97b4f176ddb1"
+      },
+      "contact": {
+        "email": "rep.johnny.shaw@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H80"
+      },
+      "bio": {
+        "birth_date": "1942-01-05",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h80.jpg",
+      "sources": [
+        "https://ballotpedia.org/Johnny_Shaw",
+        "https://en.wikipedia.org/wiki/Johnny_Shaw",
+        "https://justfacts.votesmart.org/candidate/biography/48857/johnny-shaw",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H80",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H80",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h80.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "pearson-justin-tn-hd86",
+      "name": "Justin Pearson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-86)",
+      "state": "TN",
+      "district": "HD-86",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/df116f27-98bd-497d-a5bc-9f1d7ddff506"
+      },
+      "contact": {
+        "email": "rep.justin.j.pearson@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H86"
+      },
+      "bio": {
+        "birth_date": "1995-01-07",
+        "gender": "Male"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/638e0e4731cb8444ce5a20e8/1d467f44-2f5f-42d0-96e9-8819eee165fb/Justin_21.jpg",
+      "sources": [
+        "https://ballotpedia.org/Justin_Pearson_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Justin_J._Pearson",
+        "https://justfacts.votesmart.org/candidate/biography/211334/justin-pearson",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H86",
+        "https://www.linkedin.com/in/justinjpearson",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-justin-tn-hd52",
+      "name": "Justin Jones",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-52)",
+      "state": "TN",
+      "district": "HD-52",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7d04ddd1-fbe5-452e-a649-1ca3aac0e0a3"
+      },
+      "contact": {
+        "email": "rep.justin.jones@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H52"
+      },
+      "bio": {
+        "birth_date": "1995-08-25",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JustinJones_TN_HD52.jpg",
+      "sources": [
+        "https://ballotpedia.org/Justin_Jones_(Tennessee_House_candidate)",
+        "https://en.wikipedia.org/wiki/Justin_Jones_(Tennessee_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/139778/justin-jones",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H52",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "lafferty-justin-tn-hd89",
+      "name": "Justin Lafferty",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-89)",
+      "state": "TN",
+      "district": "HD-89",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/34114218-f0eb-4864-8f4a-156c4cc71cdb"
+      },
+      "contact": {
+        "email": "rep.justin.lafferty@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H89"
+      },
+      "bio": {
+        "birth_date": "1971-05-13",
+        "gender": "Male"
+      },
+      "image": "https://fluxconsole.com/files/image/131170",
+      "sources": [
+        "https://ballotpedia.org/Justin_Lafferty",
+        "https://en.wikipedia.org/wiki/Justin_Lafferty",
+        "https://justfacts.votesmart.org/candidate/biography/182523/justin-lafferty",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H89",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h89.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "camper-karen-tn-hd87",
+      "name": "Karen Camper",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-87)",
+      "state": "TN",
+      "district": "HD-87",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/807f5a72-fe61-460c-86a3-c65a6b9eaca1"
+      },
+      "contact": {
+        "email": "rep.karen.camper@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H87"
+      },
+      "bio": {
+        "birth_date": "1958-01-15",
+        "gender": "Female"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h87.jpg",
+      "sources": [
+        "https://ballotpedia.org/Karen_Camper",
+        "https://en.wikipedia.org/wiki/Karen_Camper",
+        "https://justfacts.votesmart.org/candidate/biography/104685/karen-camper",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H87",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h87.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "keisling-kelly-tn-hd38",
+      "name": "Kelly Keisling",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-38)",
+      "state": "TN",
+      "district": "HD-38",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/51baddf9-a3d9-47c6-81e5-00b6608c6767"
+      },
+      "contact": {
+        "email": "rep.kelly.keisling@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-kelly-keisling/"
+      },
+      "bio": {
+        "birth_date": "1951-03-16",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h38.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kelly_Keisling",
+        "https://en.wikipedia.org/wiki/Kelly_Keisling",
+        "https://justfacts.votesmart.org/candidate/biography/125428/kelly-keisling",
+        "https://tnhousegop.org/members/representative-kelly-keisling",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H38",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h38.html",
+        "https://www.linkedin.com/in/rep-kelly-keisling-04734a39",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "yager-ken-tn-sd12",
+      "name": "Ken Yager",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-12)",
+      "state": "TN",
+      "district": "SD-12",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/908edc68-a862-455c-a609-7619977252d1"
+      },
+      "contact": {
+        "email": "sen.ken.yager@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S12"
+      },
+      "bio": {
+        "birth_date": "1947-01-05",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s12.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ken_Yager",
+        "https://en.wikipedia.org/wiki/Ken_Yager",
+        "https://justfacts.votesmart.org/candidate/biography/104797/ken-yager",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S12",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S12",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s12.html",
+        "https://www.kenyager.com",
+        "https://www.linkedin.com/in/ken-yager-8972a948",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "roberts-kerry-tn-sd23",
+      "name": "Kerry Roberts",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-23)",
+      "state": "TN",
+      "district": "SD-23",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/872517bf-9780-44e2-9532-87dfd816ec4c"
+      },
+      "contact": {
+        "email": "sen.kerry.roberts@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S23"
+      },
+      "bio": {
+        "birth_date": "1961-09-24",
+        "gender": "Male"
+      },
+      "image": "https://fluxconsole.com/files/image/131100",
+      "sources": [
+        "https://ballotpedia.org/Kerry_Roberts",
+        "https://en.wikipedia.org/wiki/Kerry_Roberts",
+        "https://justfacts.votesmart.org/candidate/biography/124647/kerry-roberts",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S23",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S23",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s25.html",
+        "https://www.linkedin.com/in/kerryeroberts",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "raper-kevin-tn-hd24",
+      "name": "Kevin Raper",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-24)",
+      "state": "TN",
+      "district": "HD-24",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/96936d32-69d1-4956-a3e7-12833239e2bb"
+      },
+      "contact": {
+        "email": "rep.kevin.raper@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H24"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Kevin-Raper.PNG",
+      "sources": [
+        "https://ballotpedia.org/Kevin_Raper",
+        "https://en.wikipedia.org/wiki/Kevin_Raper",
+        "https://justfacts.votesmart.org/candidate/biography/206826/kevin-raper",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H24",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "vaughan-kevin-tn-hd95",
+      "name": "Kevin Vaughan",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-95)",
+      "state": "TN",
+      "district": "HD-95",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6246e527-70a9-4591-bb46-6354c6e11107"
+      },
+      "contact": {
+        "email": "rep.kevin.vaughan@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H95"
+      },
+      "bio": {
+        "birth_date": "1962-04-30",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h95.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kevin_Vaughan",
+        "https://en.wikipedia.org/wiki/Kevin_Vaughan",
+        "https://justfacts.votesmart.org/candidate/biography/176201/kevin-vaughan",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H95",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H95",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h95.html",
+        "https://www.linkedin.com/in/kevin-vaughan-58119757",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "capley-kip-tn-hd71",
+      "name": "Kip Capley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-71)",
+      "state": "TN",
+      "district": "HD-71",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1ea53db6-5fee-4603-9f8e-fd63694b45fa"
+      },
+      "contact": {
+        "email": "rep.kip.capley@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-kip-capley/"
+      },
+      "bio": {
+        "birth_date": "1997-03-18",
+        "gender": "Male"
+      },
+      "image": "https://votecapley.com/wp-content/uploads/2022/01/capley2-4.png",
+      "sources": [
+        "https://ballotpedia.org/Kip_Capley",
+        "https://en.wikipedia.org/wiki/Kip_Capley",
+        "https://justfacts.votesmart.org/candidate/biography/206897/kip-capley",
+        "https://tnhousegop.org/members/representative-kip-capley",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H71",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "haston-kirk-tn-hd72",
+      "name": "Kirk Haston",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-72)",
+      "state": "TN",
+      "district": "HD-72",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/65b1d39e-414c-46c2-9aca-8cea5b6cba8b"
+      },
+      "contact": {
+        "email": "rep.kirk.haston@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H72"
+      },
+      "bio": {
+        "birth_date": "1979-03-10",
+        "gender": "Male"
+      },
+      "image": "https://capitol.tn.gov/house/members/images/H72.jpg",
+      "sources": [
+        "https://ballotpedia.org/Kirk_Haston",
+        "https://en.wikipedia.org/wiki/Kirk_Haston",
+        "https://justfacts.votesmart.org/candidate/biography/182493/kirk-haston",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H72",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h72.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "miller-larry-tn-hd88",
+      "name": "Larry Miller",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-88)",
+      "state": "TN",
+      "district": "HD-88",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3e7acb18-4b9e-45d5-9787-dbce0f1959d8"
+      },
+      "contact": {
+        "email": "rep.larry.miller@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H88"
+      },
+      "bio": {
+        "birth_date": "1954-03-11",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h88.jpg",
+      "sources": [
+        "https://ballotpedia.org/Larry_Miller_(Tennessee_representative)",
+        "https://en.wikipedia.org/wiki/Larry_Miller_(Tennessee_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/24460/larry-miller",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H88",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h88.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "reeves-lee-tn-hd65",
+      "name": "Lee Reeves",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-65)",
+      "state": "TN",
+      "district": "HD-65",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f7006293-9fb3-4053-bd79-d77f84c6e59a"
+      },
+      "contact": {
+        "email": "rep.lee.reeves@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-lee-reeves/"
+      },
+      "bio": {
+        "birth_date": "1977-10-03",
+        "gender": "Male"
+      },
+      "image": "https://bloximages.newyork1.vip.townnews.com/williamsonherald.com/content/tncms/assets/v3/editorial/7/43/743d158c-3f0e-11ef-855e-4b97c0d5f896/668f0f9e62e96.image.jpg?resize=394%2C500",
+      "sources": [
+        "https://ballotpedia.org/Lee_Reeves",
+        "https://en.wikipedia.org/wiki/Lee_Reeves_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/216629/lee-reeves",
+        "https://tnhousegop.org/members/representative-lee-reeves",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H65&ga=114",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H65&ga=114",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "lamar-london-tn-sd33",
+      "name": "London Lamar",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-33)",
+      "state": "TN",
+      "district": "SD-33",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/44fda210-d5be-4785-ae5e-0072b4111a67"
+      },
+      "contact": {
+        "email": "sen.london.lamar@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S33"
+      },
+      "bio": {
+        "birth_date": "1990-12-29",
+        "gender": "Female"
+      },
+      "image": "https://www.capitol.tn.gov/senate/members/images/s33.jpg",
+      "sources": [
+        "https://ballotpedia.org/London_Lamar",
+        "https://en.wikipedia.org/wiki/London_Lamar",
+        "https://justfacts.votesmart.org/candidate/182530/london-lamar",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S33",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S33&ga=114",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h91.html",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s33.html",
+        "https://www.linkedin.com/in/london-lamar-b052b929",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "russell-lowell-tn-hd21",
+      "name": "Lowell Russell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-21)",
+      "state": "TN",
+      "district": "HD-21",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/df1bd786-8e1a-4c9d-bd7a-bf8250213dc3"
+      },
+      "contact": {
+        "email": "rep.lowell.russell@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H21"
+      },
+      "bio": {
+        "birth_date": "1975-08-25",
+        "gender": "Male"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/H21.jpg",
+      "sources": [
+        "https://ballotpedia.org/Lowell_Russell",
+        "https://en.wikipedia.org/wiki/Lowell_Russell",
+        "https://justfacts.votesmart.org/candidate/biography/182416/lowell-russell",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H21",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H21",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h21.html",
+        "https://www.linkedin.com/in/lowell-russell-024393148",
+        "https://www.linkedin.com/in/lowell-russell-649429151",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "cochran-mark-tn-hd23",
+      "name": "Mark Cochran",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-23)",
+      "state": "TN",
+      "district": "HD-23",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a8461189-9673-4d76-a01d-fa7dddc33a28"
+      },
+      "contact": {
+        "email": "rep.mark.cochran@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-mark-cochran/"
+      },
+      "bio": {
+        "birth_date": "1985-11-21",
+        "gender": "Male"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/H23.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Cochran",
+        "https://en.wikipedia.org/wiki/Mark_Cochran",
+        "https://justfacts.votesmart.org/candidate/biography/182418/mark-cochran",
+        "https://tnhousegop.org/members/representative-mark-cochran",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H23",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h23.html",
+        "https://www.linkedin.com/in/mark-cochran-10b614b1",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "pody-mark-tn-sd17",
+      "name": "Mark Pody",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-17)",
+      "state": "TN",
+      "district": "SD-17",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/47dee87e-231d-4c39-b0a2-6905a85ddbf8"
+      },
+      "contact": {
+        "email": "sen.mark.pody@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S17"
+      },
+      "bio": {
+        "birth_date": "1956-04-23",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s17.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_Pody",
+        "https://en.wikipedia.org/wiki/Mark_Pody",
+        "https://justfacts.votesmart.org/candidate/biography/125439/mark-pody",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S17",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S17&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s17.html",
+        "https://www.linkedin.com/in/markpody",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "white-mark-tn-hd83",
+      "name": "Mark White",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-83)",
+      "state": "TN",
+      "district": "HD-83",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8765a8d9-17ac-4a88-90e3-ef1f7d1b4e61"
+      },
+      "contact": {
+        "email": "rep.mark.white@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H83"
+      },
+      "bio": {
+        "birth_date": "1950-03-11",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h83.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mark_White_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Mark_White_(Tennessee_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/48823/mark-white",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H83",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H83",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h83.html",
+        "https://www.linkedin.com/in/mark-white-80507041",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "littleton-mary-tn-hd78",
+      "name": "Mary Littleton",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-78)",
+      "state": "TN",
+      "district": "HD-78",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ec8815da-568a-436a-88ed-1e9da240fe80"
+      },
+      "contact": {
+        "email": "rep.mary.littleton@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-mary-littleton/"
+      },
+      "bio": {
+        "birth_date": "1957-09-07",
+        "gender": "Female"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h78.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mary_Littleton",
+        "https://en.wikipedia.org/wiki/Mary_Littleton",
+        "https://justfacts.votesmart.org/candidate/138796/mary-littleton",
+        "https://tnhousegop.org/members/representative-mary-littleton",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H78",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H78",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h78.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hale-michael-tn-hd40",
+      "name": "Michael Hale",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-40)",
+      "state": "TN",
+      "district": "HD-40",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7bad87b9-12ec-4e74-a3ec-945bc78c5f5f"
+      },
+      "contact": {
+        "email": "rep.michael.hale@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H40"
+      },
+      "bio": {
+        "birth_date": "1974-07-17",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Michael_Hale_20230524_083209.jpeg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Hale_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Michael_Hale",
+        "https://justfacts.votesmart.org/candidate/biography/206873/michael-hale",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H40",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "lankford-michael-tn-hd75",
+      "name": "Michael Lankford",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-75)",
+      "state": "TN",
+      "district": "HD-75",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/4ac298c0-370f-4b1d-b41c-29d3ec4f6f09"
+      },
+      "contact": {
+        "email": "rep.michael.lankford@capitol.tn.gov",
+        "district_voice": "615-741-6804",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H75"
+      },
+      "bio": {
+        "birth_date": "1995-04-16",
+        "gender": "Male"
+      },
+      "image": "https://montgomerytn.gov/storage/departments/commission/commissioner/Commissioners-Sept-2022/MichaelLankford.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michael_Lankford",
+        "https://en.wikipedia.org/wiki/Michael_Lankford",
+        "https://justfacts.votesmart.org/candidate/223611/michael-lankford",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H75",
+        "https://www.linkedin.com/in/michael-lankford",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "carringer-michele-tn-hd16",
+      "name": "Michele Carringer",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-16)",
+      "state": "TN",
+      "district": "HD-16",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6e3a4ce2-b37c-4bd0-8def-100aba672a50"
+      },
+      "contact": {
+        "email": "rep.michele.carringer@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-michele-carringer/"
+      },
+      "bio": {
+        "birth_date": "1962-02-04",
+        "gender": "Female"
+      },
+      "image": "http://nebula.wsimg.com/ec18d700041ee80017970cc4f5b0d8cb?AccessKeyId=C9D09D69010A6C1BCFA5&disposition=0&alloworigin=1",
+      "sources": [
+        "https://ballotpedia.org/Michele_Carringer",
+        "https://en.wikipedia.org/wiki/Michele_Carringer",
+        "https://justfacts.votesmart.org/candidate/113855/michele-carringer",
+        "https://tnhousegop.org/members/representative-michele-carringer",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H16",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h16.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "reneau-michele-tn-hd27",
+      "name": "Michele Reneau",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-27)",
+      "state": "TN",
+      "district": "HD-27",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/435383cc-dc4b-40cb-a55f-d554dcd9d6b7"
+      },
+      "contact": {
+        "email": "rep.michele.reneau@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-michele-reneau/"
+      },
+      "bio": {
+        "birth_date": "1977-06-14",
+        "gender": "Female"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Rebecca_Day_20240808_092357.jpg",
+      "sources": [
+        "https://ballotpedia.org/Michele_Reneau",
+        "https://en.wikipedia.org/wiki/Michele_Reneau",
+        "https://tnhousegop.org/members/representative-michele-reneau",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H27&ga=114",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H27&ga=114",
+        "https://www.linkedin.com/in/michelereneau",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "sparks-mike-tn-hd49",
+      "name": "Mike Sparks",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-49)",
+      "state": "TN",
+      "district": "HD-49",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/092dd5d6-fb25-494c-ad16-78f0034df92f"
+      },
+      "contact": {
+        "email": "rep.mike.sparks@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H49"
+      },
+      "bio": {
+        "birth_date": "1967-01-11",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h49.jpg",
+      "sources": [
+        "https://ballotpedia.org/Mike_Sparks_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Mike_Sparks",
+        "https://justfacts.votesmart.org/candidate/biography/99698/mike-sparks",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H49",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H49",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h49.html",
+        "https://www.linkedin.com/in/mike-sparks-73783646",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "fritts-monty-tn-hd32",
+      "name": "Monty Fritts",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-32)",
+      "state": "TN",
+      "district": "HD-32",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/eb738f26-e0b1-4c51-af77-024bfed96183"
+      },
+      "contact": {
+        "email": "rep.monty.fritts@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-monty-fritts/"
+      },
+      "bio": {
+        "birth_date": "1963-12-10",
+        "gender": "Male"
+      },
+      "image": "https://static.wixstatic.com/media/fd35b0_10146244fb184e609fc7bce8e27b2b82~mv2.png/v1/fill/w_252,h_358,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Monty%20Image%20cropped%20(1)_edited.png",
+      "sources": [
+        "https://ballotpedia.org/Monty_Fritts",
+        "https://en.wikipedia.org/wiki/Monty_Fritts",
+        "https://tnhousegop.org/members/representative-monty-fritts",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H32",
+        "https://www.linkedin.com/in/monty-fritts-595a4380",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "walley-page-tn-sd26",
+      "name": "Page Walley",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-26)",
+      "state": "TN",
+      "district": "SD-26",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/88788ad3-d3e0-4846-9bd7-bc7b7f0b9759"
+      },
+      "contact": {
+        "email": "sen.page.walley@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S26"
+      },
+      "bio": {
+        "birth_date": "1957-03-02",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/S26.jpg",
+      "sources": [
+        "https://ballotpedia.org/Page_Walley",
+        "https://justfacts.votesmart.org/candidate/biography/24455/page-walley",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S26",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S26&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s26.html",
+        "https://www.linkedin.com/in/page-walley-8ab113b",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "marsh-pat-tn-hd62",
+      "name": "Pat Marsh",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-62)",
+      "state": "TN",
+      "district": "HD-62",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/2670b6b7-f648-454d-a70e-bd84792d304d"
+      },
+      "contact": {
+        "email": "rep.pat.marsh@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-pat-marsh/"
+      },
+      "bio": {
+        "birth_date": "1949-01-06",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h62.jpg",
+      "sources": [
+        "https://ballotpedia.org/Pat_Marsh",
+        "https://en.wikipedia.org/wiki/Pat_Marsh",
+        "https://justfacts.votesmart.org/candidate/biography/116508/pat-marsh",
+        "https://tnhousegop.org/members/representative-pat-marsh",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H62",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h62.html",
+        "https://www.linkedin.com/in/pat-marsh-90370b78",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "bailey-paul-tn-sd15",
+      "name": "Paul Bailey",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-15)",
+      "state": "TN",
+      "district": "SD-15",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8e49fca4-e0d8-4273-adab-265632163d86"
+      },
+      "contact": {
+        "email": "sen.paul.bailey@capitol.tn.gov",
+        "website": "https://paulbaileyfortn.com/"
+      },
+      "bio": {
+        "birth_date": "1968-03-04",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s15.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paul_Bailey_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Paul_Bailey_(politician)",
+        "https://paulbaileyfortn.com",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S15",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S15&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s15.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "rose-paul-tn-sd32",
+      "name": "Paul Rose",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-32)",
+      "state": "TN",
+      "district": "SD-32",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/1793564f-19a5-4ac9-91c3-7cbb47843c2b"
+      },
+      "contact": {
+        "email": "sen.paul.rose@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S32"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s32.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paul_Rose",
+        "https://en.wikipedia.org/wiki/Paul_Rose_(American_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/185953/paul-rose",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S32",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S32",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s32.html",
+        "https://www.linkedin.com/in/paul-rose-6a144816",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "sherrell-paul-tn-hd43",
+      "name": "Paul Sherrell",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-43)",
+      "state": "TN",
+      "district": "HD-43",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/3c4af105-7b55-4c00-af88-af574ea05493"
+      },
+      "contact": {
+        "email": "rep.paul.sherrell@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-paul-sherrell/"
+      },
+      "bio": {
+        "birth_date": "1959-03-28",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h43.jpg",
+      "sources": [
+        "https://ballotpedia.org/Paul_Sherrell",
+        "https://en.wikipedia.org/wiki/Paul_Sherrell",
+        "https://justfacts.votesmart.org/candidate/biography/170257/paul-sherrell",
+        "https://tnhousegop.org/members/representative-paul-sherrell",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H43",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H43",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h43.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "mcnally-randy-tn-sd5",
+      "name": "Randy McNally",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-5)",
+      "state": "TN",
+      "district": "SD-5",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e00c236d-6153-4618-96f8-12e6a1d639aa"
+      },
+      "contact": {
+        "email": "sen.randy.mcnally@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S5"
+      },
+      "bio": {
+        "birth_date": "1944-01-30",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s5.jpg",
+      "sources": [
+        "https://ballotpedia.org/Randy_McNally",
+        "https://en.wikipedia.org/wiki/Randy_McNally",
+        "https://justfacts.votesmart.org/candidate/biography/24356/randy-mcnally",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S5",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S5&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s5.html",
+        "https://www.linkedin.com/in/randy-mcnally-0505053a",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "akbari-raumesh-tn-sd29",
+      "name": "Raumesh Akbari",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-29)",
+      "state": "TN",
+      "district": "SD-29",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9c949092-7bff-4859-bea7-46d9c37ed513"
+      },
+      "contact": {
+        "email": "sen.raumesh.akbari@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S29"
+      },
+      "bio": {
+        "birth_date": "1984-04-14",
+        "gender": "Female"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s29.jpg",
+      "sources": [
+        "https://ballotpedia.org/Raumesh_Akbari",
+        "https://en.wikipedia.org/wiki/Raumesh_Akbari",
+        "https://justfacts.votesmart.org/candidate/biography/145407/raumesh-akbari",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S29",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S29&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s29.html",
+        "https://www.linkedin.com/in/raumesh-akbari-b391b16",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "alexander-becky-jo-tn-hd7",
+      "name": "Becky Jo Alexander",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-7)",
+      "state": "TN",
+      "district": "HD-7",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5110ee0d-fc68-4126-8ff2-7db3814afe66"
+      },
+      "contact": {
+        "email": "rep.rebecca.alexander@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H7"
+      },
+      "bio": {
+        "birth_date": "1958-11-04",
+        "gender": "Female"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/h7.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rebecca_Alexander",
+        "https://en.wikipedia.org/wiki/Rebecca_Alexander_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/193440/rebecca-alexander",
+        "https://rebeccaalexander.com",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H7",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h7.html",
+        "https://www.linkedin.com/in/rebecca-alexander-512751118",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "jones-renea-tn-hd4",
+      "name": "Renea Jones",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-4)",
+      "state": "TN",
+      "district": "HD-4",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/22be6e69-17be-43cf-aba3-bf06d4c7b54c"
+      },
+      "contact": {
+        "email": "rep.renea.jones@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H4"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://reneajones.com/wp-content/uploads/2023/12/aboutimage.jpg",
+      "sources": [
+        "https://ballotpedia.org/Renea_Jones",
+        "https://en.wikipedia.org/wiki/Renea_Jones",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H4",
+        "https://www.linkedin.com/in/renea-jones-09613647",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "parkinson-antonio-tn-hd98",
+      "name": "Antonio Parkinson",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-98)",
+      "state": "TN",
+      "district": "HD-98",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/785aed65-3e87-42fe-8e71-307ce08f44ae"
+      },
+      "contact": {
+        "email": "rep.antonio.parkinson@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H98"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Antonio_Parkinson.jpg",
+      "sources": [
+        "https://ballotpedia.org/Antonio_Parkinson",
+        "https://en.wikipedia.org/wiki/Antonio_Parkinson",
+        "https://justfacts.votesmart.org/candidate/128741/antonio-parkinson",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H98",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h98.html",
+        "https://www.linkedin.com/in/antonio-parkinson-60102421",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "briggs-richard-tn-sd7",
+      "name": "Richard Briggs",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-7)",
+      "state": "TN",
+      "district": "SD-7",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/9d744074-d7ae-4004-8912-bae320633c46"
+      },
+      "contact": {
+        "email": "sen.richard.briggs@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S7"
+      },
+      "bio": {
+        "birth_date": "1952-12-07",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s7.jpg",
+      "sources": [
+        "https://ballotpedia.org/Richard_Briggs_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Richard_Briggs",
+        "https://justfacts.votesmart.org/candidate/biography/108375/richard-briggs",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S7",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S7&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s7.html",
+        "https://www.linkedin.com/in/richard-briggs-40073146",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "eldridge-rick-tn-hd10",
+      "name": "Rick Eldridge",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-10)",
+      "state": "TN",
+      "district": "HD-10",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c79fb980-4ee3-40ce-9737-62e369c61fe0"
+      },
+      "contact": {
+        "email": "rep.rick.eldridge@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H10"
+      },
+      "bio": {
+        "birth_date": "1957-07-12",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/H10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rick_Eldridge",
+        "https://en.wikipedia.org/wiki/Rick_Eldridge",
+        "https://justfacts.votesmart.org/candidate/biography/133773/rick-eldridge",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H10",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H10",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h10.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "scarbrough-rick-tn-hd33",
+      "name": "Rick Scarbrough",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-33)",
+      "state": "TN",
+      "district": "HD-33",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e38dc213-a42e-43ec-8924-236dc2d9ef35"
+      },
+      "contact": {
+        "email": "rep.rick.scarbrough@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H33"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://tnhousegop.org/wp-content/uploads/2025/01/Scarbrough-scaled.jpg",
+      "sources": [
+        "https://ballotpedia.org/Richard_Scarbrough",
+        "https://en.wikipedia.org/wiki/Rick_Scarbrough",
+        "https://justfacts.votesmart.org/candidate/216555/rick-scarbrough",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H33",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H33",
+        "https://www.linkedin.com/in/rick-scarbrough-aa812161",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "stevens-robert-tn-hd13",
+      "name": "Robert Stevens",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-13)",
+      "state": "TN",
+      "district": "HD-13",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/c8be1020-e805-46a9-a8b0-79e206b57540"
+      },
+      "contact": {
+        "email": "rep.robert.stevens@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H13"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://capitol.tn.gov/house/members/images/H13.jpg",
+      "sources": [
+        "https://ballotpedia.org/Robert_Stevens_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Robert_Stevens_(Tennessee_politician)",
+        "https://justfacts.votesmart.org/candidate/biography/153284/robert-stevens",
+        "https://stevenslawtn.com/attorney-profile",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H13",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H13",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "gant-ron-tn-hd94",
+      "name": "Ron Gant",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-94)",
+      "state": "TN",
+      "district": "HD-94",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/e7a2a416-0d33-4d78-8ee5-cf79628df4bd"
+      },
+      "contact": {
+        "email": "rep.ron.gant@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H94"
+      },
+      "bio": {
+        "birth_date": "1971-12-10",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h94.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ron_Gant",
+        "https://ballotpedia.org/Ron_M._Gant",
+        "https://en.wikipedia.org/wiki/Ron_Gant_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/98086/ron-gant",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H94",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h94.html",
+        "https://www.linkedin.com/in/ron-m-gant-94081b24",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "travis-ron-tn-hd31",
+      "name": "Ron Travis",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-31)",
+      "state": "TN",
+      "district": "HD-31",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/7429d345-6ad7-421c-936b-3ef9755c6d1f"
+      },
+      "contact": {
+        "email": "rep.ron.travis@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-ron-travis/"
+      },
+      "bio": {
+        "birth_date": "1954-11-03",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h31.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ron_Travis",
+        "https://en.wikipedia.org/wiki/Ron_Travis",
+        "https://justfacts.votesmart.org/candidate/138649/ron-travis",
+        "https://tnhousegop.org/members/representative-ron-travis",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H31",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H31",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h31.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "glynn-ronnie-tn-hd67",
+      "name": "Ronnie Glynn",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-67)",
+      "state": "TN",
+      "district": "HD-67",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/12e6200c-0859-4582-9f55-31dd55eb3b0e"
+      },
+      "contact": {
+        "email": "rep.ronnie.glynn@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H67"
+      },
+      "bio": {
+        "birth_date": "1970-05-21",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/1Aug232020602PM_80182230_BLUE-min.png",
+      "sources": [
+        "https://ballotpedia.org/Ronnie_Glynn",
+        "https://en.wikipedia.org/wiki/Ronnie_Glynn",
+        "https://justfacts.votesmart.org/candidate/193431/ronnie-glynn",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H67",
+        "https://www.linkedin.com/in/ronnieglynn",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "bricken-rush-tn-hd47",
+      "name": "Rush Bricken",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-47)",
+      "state": "TN",
+      "district": "HD-47",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/271c14e0-433b-42ce-91c5-c01ad5ccfc41"
+      },
+      "contact": {
+        "email": "rep.rush.bricken@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H47"
+      },
+      "bio": {
+        "birth_date": "1951-08-04",
+        "gender": "Male"
+      },
+      "image": "https://data.openstates.org/images/small/ocd-person/271c14e0-433b-42ce-91c5-c01ad5ccfc41",
+      "sources": [
+        "https://ballotpedia.org/Rush_Bricken",
+        "https://en.wikipedia.org/wiki/Rush_Bricken",
+        "https://justfacts.votesmart.org/candidate/biography/97314/rush-bricken",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H47",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h47.html",
+        "https://www.linkedin.com/in/rush-bricken-a230694b",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "crowe-rusty-tn-sd3",
+      "name": "Rusty Crowe",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-3)",
+      "state": "TN",
+      "district": "SD-3",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b8b305e5-ff02-4f8d-8ef1-61a4a7ecf54a"
+      },
+      "contact": {
+        "email": "sen.rusty.crowe@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S3"
+      },
+      "bio": {
+        "birth_date": "1947-04-02",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s3.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rusty_Crowe",
+        "https://en.wikipedia.org/wiki/Rusty_Crowe",
+        "https://justfacts.votesmart.org/candidate/biography/24342/rusty-crowe",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S3",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S3&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s3.html",
+        "https://www.rustycrowetn.com",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "grills-rusty-tn-hd77",
+      "name": "Rusty Grills",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-77)",
+      "state": "TN",
+      "district": "HD-77",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d00c0511-6872-4f2a-9d48-cf8d2a60e199"
+      },
+      "contact": {
+        "email": "rep.rusty.grills@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H77"
+      },
+      "bio": {
+        "birth_date": "1981-10-01",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h77.jpg",
+      "sources": [
+        "https://ballotpedia.org/Rusty_Grills",
+        "https://en.wikipedia.org/wiki/Rusty_Grills",
+        "https://justfacts.votesmart.org/candidate/biography/133675/rusty-grills",
+        "https://tnhousegop.org/members/representative-rusty-grills",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H77",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h77.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "williams-ryan-tn-hd42",
+      "name": "Ryan Williams",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-42)",
+      "state": "TN",
+      "district": "HD-42",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/df3f9935-b7e2-4f76-a461-115487c57721"
+      },
+      "contact": {
+        "email": "rep.ryan.williams@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H42"
+      },
+      "bio": {
+        "birth_date": "1974-06-01",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h42.jpg",
+      "sources": [
+        "https://ballotpedia.org/Ryan_Williams_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Ryan_Williams_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/113713/ryan-williams",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H42",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H42",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h42.html",
+        "https://www.linkedin.com/in/rep-ryan-williams-b32a346",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "kumar-doc-tn-hd66",
+      "name": "Doc Kumar",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-66)",
+      "state": "TN",
+      "district": "HD-66",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/57b51b23-1a38-47dd-bd4f-49954df01971"
+      },
+      "contact": {
+        "email": "rep.sabi.kumar@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H66"
+      },
+      "bio": {
+        "birth_date": "1947-07-14",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h66.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sabi_Kumar",
+        "https://en.wikipedia.org/wiki/Sabi_%22Doc%22_Kumar",
+        "https://justfacts.votesmart.org/candidate/biography/153308/sabi-kumar",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H66",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h66.html",
+        "https://www.linkedin.com/in/sabi-%E2%80%98doc%E2%80%99-kumar-md-547220188",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "mckenzie-sam-tn-hd15",
+      "name": "Sam McKenzie",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-15)",
+      "state": "TN",
+      "district": "HD-15",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/810d9aeb-b666-4acc-b098-deaf265df277"
+      },
+      "contact": {
+        "email": "rep.sam.mckenzie@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H15"
+      },
+      "bio": {
+        "birth_date": "1965-10-26",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h15.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sam_McKenzie",
+        "https://en.wikipedia.org/wiki/Sam_McKenzie",
+        "https://justfacts.votesmart.org/candidate/biography/108369/samuel-mckenzie",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H15",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h15.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "kyle-sara-tn-sd30",
+      "name": "Sara Kyle",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-30)",
+      "state": "TN",
+      "district": "SD-30",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/f1eb839c-83c6-471f-865e-1d87344fb58c"
+      },
+      "contact": {
+        "email": "sen.sara.kyle@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S30"
+      },
+      "bio": {
+        "birth_date": "1952-10-21",
+        "gender": "Female"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s30.jpg",
+      "sources": [
+        "https://ballotpedia.org/Sara_Kyle",
+        "https://en.wikipedia.org/wiki/Sara_Kyle",
+        "https://justfacts.votesmart.org/candidate/biography/155856/sara-kyle",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S30",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S30&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s30.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "cepicky-scott-tn-hd64",
+      "name": "Scott Cepicky",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-64)",
+      "state": "TN",
+      "district": "HD-64",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/da306a9e-f227-4cf4-bfd8-c7d6cb4c7eac"
+      },
+      "contact": {
+        "email": "rep.scott.cepicky@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-scott-cepicky/"
+      },
+      "bio": {
+        "birth_date": "1966-07-29",
+        "gender": "Male"
+      },
+      "image": "https://capitol.tn.gov/house/members/images/H64.jpg",
+      "sources": [
+        "https://ballotpedia.org/Scott_Cepicky",
+        "https://en.wikipedia.org/wiki/Scott_Cepicky",
+        "https://justfacts.votesmart.org/candidate/biography/134051/scott-cepicky",
+        "https://tnhousegop.org/members/representative-scott-cepicky",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H64",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h64.html",
+        "https://www.linkedin.com/in/scott-cepicky-07708ba",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "reeves-shane-tn-sd14",
+      "name": "Shane Reeves",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-14)",
+      "state": "TN",
+      "district": "SD-14",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fa4bd8d0-c567-4434-a24a-6d0bf9759f0b"
+      },
+      "contact": {
+        "email": "sen.shane.reeves@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S14"
+      },
+      "bio": {
+        "birth_date": "1968-01-18",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/senate/members/images/s14.jpg",
+      "sources": [
+        "https://ballotpedia.org/Shane_Reeves",
+        "https://en.wikipedia.org/wiki/Shane_Reeves",
+        "https://justfacts.votesmart.org/candidate/177642/shane-reeves",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S14",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S14",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s14.html",
+        "https://www.linkedin.com/in/shanereeves68",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "brooks-shaundelle-tn-hd60",
+      "name": "Shaundelle Brooks",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-60)",
+      "state": "TN",
+      "district": "HD-60",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/93b13ac4-5a82-40fb-b646-2fe7c07f8ac1"
+      },
+      "contact": {
+        "email": "rep.shaundelle.brooks@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H60"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "https://images.bradyunited.org/production/images/Shaundelle-Brooks.jpeg?w=400&h=336&fm=webp&auto=compress&fit=crop&dm=1717513962&s=8dee64026b44a29de45f896285fc7b35",
+      "sources": [
+        "https://ballotpedia.org/Shaundelle_Brooks",
+        "https://brooksforstatehouse.com/about-me",
+        "https://en.wikipedia.org/wiki/Shaundelle_Brooks",
+        "https://justfacts.votesmart.org/candidate/biography/216610/shaundelle-brooks",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H60",
+        "https://www.linkedin.com/in/shaundelle-brooks-58a7ab36",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "southerland-steve-tn-sd9",
+      "name": "Steve Southerland",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-9)",
+      "state": "TN",
+      "district": "SD-9",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37dddeca-88ef-4254-b6f2-b2ddd6526665"
+      },
+      "contact": {
+        "email": "sen.steve.southerland@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S9"
+      },
+      "bio": {
+        "birth_date": "1955-03-08",
+        "gender": "Male"
+      },
+      "image": "https://capitol.tn.gov/senate/members/images/S9.jpg",
+      "sources": [
+        "https://ballotpedia.org/Steve_Southerland_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Steve_Southerland_(Tennessee_politician)",
+        "https://justfacts.votesmart.org/candidate/48766/steve-southerland",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S9",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=S9",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s1.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "lynn-susan-tn-hd57",
+      "name": "Susan Lynn",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-57)",
+      "state": "TN",
+      "district": "HD-57",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/b593203d-3346-4a33-8a97-94cc9614d5c5"
+      },
+      "contact": {
+        "email": "rep.susan.lynn@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-susan-lynn/"
+      },
+      "bio": {
+        "gender": "Female"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h57.jpg",
+      "sources": [
+        "https://ballotpedia.org/Susan_Lynn",
+        "https://en.wikipedia.org/wiki/Susan_Lynn",
+        "https://justfacts.votesmart.org/candidate/biography/48869/susan-lynn",
+        "https://tnhousegop.org/members/representative-susan-lynn",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H57",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h57.html",
+        "https://www.linkedin.com/in/susan-lynn-8723b6a",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hardaway-t-j-tn-hd93",
+      "name": "T.J. Hardaway",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-93)",
+      "state": "TN",
+      "district": "HD-93",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/fb96543d-2ccf-45c0-9ade-49f042bb715e"
+      },
+      "contact": {
+        "email": "rep.tj.hardaway@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=H93"
+      },
+      "bio": {
+        "gender": "Male"
+      },
+      "image": "https://tennesseelookout.com/wp-content/uploads/2026/05/TJHardaway1.jpg",
+      "sources": [
+        "https://ballotpedia.org/TJ_Hardaway",
+        "https://en.wikipedia.org/wiki/T._J._Hardaway",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=H93",
+        "https://www.linkedin.com/in/tj-hardaway-7a2871262",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "darby-tandy-tn-hd76",
+      "name": "Tandy Darby",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-76)",
+      "state": "TN",
+      "district": "HD-76",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5cec9957-0b24-47d0-94b6-6f41e8f259bc"
+      },
+      "contact": {
+        "email": "rep.tandy.darby@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-tandy-darby/"
+      },
+      "bio": {
+        "birth_date": "1973-10-11",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h76.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tandy_Darby",
+        "https://en.wikipedia.org/wiki/Tandy_Darby",
+        "https://justfacts.votesmart.org/candidate/biography/193487/tandy-darby",
+        "https://tnhousegop.org/members/representative-tandy-darby",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H76",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h76.html",
+        "https://www.linkedin.com/in/tandy-darby-70b382121",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hicks-tim-tn-hd6",
+      "name": "Tim Hicks",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-6)",
+      "state": "TN",
+      "district": "HD-6",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d3ad0df9-8812-46b9-8fb3-6433036a1a9f"
+      },
+      "contact": {
+        "email": "rep.tim.hicks@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-tim-hicks/"
+      },
+      "bio": {
+        "birth_date": "1963-08-29",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h6.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tim_Hicks_(Tennessee)",
+        "https://en.wikipedia.org/wiki/Tim_Hicks_(politician)",
+        "https://justfacts.votesmart.org/candidate/biography/193437/tim-hicks",
+        "https://tnhousegop.org/members/representative-tim-hicks",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H6",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h6.html",
+        "https://www.linkedin.com/in/tim-hicks-b34b9463",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "rudd-tim-tn-hd34",
+      "name": "Tim Rudd",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-34)",
+      "state": "TN",
+      "district": "HD-34",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/78c1a569-dcc0-446c-a995-f871964df056"
+      },
+      "contact": {
+        "email": "rep.tim.rudd@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H34"
+      },
+      "bio": {
+        "birth_date": "1960-11-30",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h34.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tim_Rudd",
+        "https://en.wikipedia.org/wiki/Tim_Rudd",
+        "https://justfacts.votesmart.org/candidate/170213/tim-rudd",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H34",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H34",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h34.html",
+        "https://www.linkedin.com/in/tim-rudd-8aa55125",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hill-timothy-tn-hd3",
+      "name": "Timothy Hill",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-3)",
+      "state": "TN",
+      "district": "HD-3",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/206d00d3-65a9-4922-82d8-48f09a411863"
+      },
+      "contact": {
+        "email": "rep.timothy.hill@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-timothy-hill/"
+      },
+      "bio": {
+        "birth_date": "1981-11-09",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/TimothyHill.jpg",
+      "sources": [
+        "https://ballotpedia.org/Timothy_Hill",
+        "https://en.wikipedia.org/wiki/Timothy_Hill_%28politician%29",
+        "https://justfacts.votesmart.org/candidate/biography/125373/timothy-hill",
+        "https://tnhousegop.org/members/representative-timothy-hill",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H3",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "gardenhire-todd-tn-sd10",
+      "name": "Todd Gardenhire",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-10)",
+      "state": "TN",
+      "district": "SD-10",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/d5d2e89a-5467-4f69-a77d-70caaa351086"
+      },
+      "contact": {
+        "email": "sen.todd.gardenhire@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S10"
+      },
+      "bio": {
+        "birth_date": "1948-05-07",
+        "gender": "Male"
+      },
+      "image": "https://capitol.tn.gov/senate/members/images/S10.jpg",
+      "sources": [
+        "https://ballotpedia.org/Todd_Gardenhire",
+        "https://justfacts.votesmart.org/candidate/biography/138996/todd-gardenhire",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=S",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S10",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S10&ga=114",
+        "https://www.capitol.tn.gov/senate/members",
+        "https://www.capitol.tn.gov/senate/members/",
+        "https://www.capitol.tn.gov/senate/members/s10.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "warner-todd-tn-hd92",
+      "name": "Todd Warner",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-92)",
+      "state": "TN",
+      "district": "HD-92",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/a7947036-fe6d-4ace-8e6e-78445dc4e19f"
+      },
+      "contact": {
+        "email": "rep.todd.warner@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-todd-warner/"
+      },
+      "bio": {
+        "birth_date": "1971-06-13",
+        "gender": "Male"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/h92.jpg",
+      "sources": [
+        "https://ballotpedia.org/Todd_Warner",
+        "https://en.wikipedia.org/wiki/Todd_Warner",
+        "https://justfacts.votesmart.org/candidate/biography/193526/todd-warner",
+        "https://tnhousegop.org/members/representative-todd-warner",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H92",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H92",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h92.html",
+        "https://www.linkedin.com/in/todd-warner-7831a975",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hatcher-tom-tn-sd2",
+      "name": "Tom Hatcher",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Senator (SD-2)",
+      "state": "TN",
+      "district": "SD-2",
+      "chamber": "upper",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/6567e0e2-9ecf-4129-b838-e3618b4cf786"
+      },
+      "contact": {
+        "email": "sen.tom.hatcher@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S2&ga=114"
+      },
+      "bio": {
+        "birth_date": "1958-05-20",
+        "gender": "Male"
+      },
+      "image": "https://images.squarespace-cdn.com/content/v1/6570c60e478ebd26777cfd83/7e2e888c-6da6-4b8f-a79f-279c8e5cd2c2/365772199_7298985810116788_8248702436261909523_n.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Hatcher",
+        "https://en.wikipedia.org/wiki/Tom_Hatcher_(politician)",
+        "https://justfacts.votesmart.org/candidate/216363/tom-hatcher",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S2&ga=114",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/Member?district=S2&ga=114",
+        "https://www.linkedin.com/in/tom-hatcher-599864b",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "leatherwood-tom-tn-hd99",
+      "name": "Tom Leatherwood",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-99)",
+      "state": "TN",
+      "district": "HD-99",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/37db89c5-6814-450a-8259-5e6d1a046e4f"
+      },
+      "contact": {
+        "email": "rep.tom.leatherwood@capitol.tn.gov",
+        "website": "https://tnhousegop.org/members/representative-tom-leatherwood/"
+      },
+      "bio": {
+        "birth_date": "1956-08-20",
+        "gender": "Male"
+      },
+      "image": "https://d33byq9npfy6u9.cloudfront.net/4/tom-leatherwood/u/original/1333880/tomleatherwoodmug.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Leatherwood",
+        "https://en.wikipedia.org/wiki/Tom_Leatherwood",
+        "https://justfacts.votesmart.org/candidate/biography/24355/tom-leatherwood",
+        "https://tnhousegop.org/members/representative-tom-leatherwood",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H99",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h99.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "stinnett-tommy-tn-hd20",
+      "name": "Tommy Stinnett",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-20)",
+      "state": "TN",
+      "district": "HD-20",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ed22e9c7-ddb2-4772-b664-04d4e31cce5b"
+      },
+      "contact": {
+        "email": "rep.tom.stinnett@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H20"
+      },
+      "bio": {
+        "birth_date": "1955-07-30",
+        "gender": "Male"
+      },
+      "image": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Tom_Stinnett_2025.jpg",
+      "sources": [
+        "https://ballotpedia.org/Tom_Stinnett",
+        "https://en.wikipedia.org/wiki/Tom_Stinnett",
+        "https://justfacts.votesmart.org/candidate/162586/tom-stinnett",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H20",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H20",
+        "https://www.linkedin.com/in/tommy-stinnett-9a4057113",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "harris-torrey-tn-hd91",
+      "name": "Torrey Harris",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-91)",
+      "state": "TN",
+      "district": "HD-91",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/8036dedc-9be1-4935-9a37-df3f95033110"
+      },
+      "contact": {
+        "email": "rep.torrey.harris@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H91"
+      },
+      "bio": {
+        "birth_date": "1991-03-12",
+        "gender": "Male"
+      },
+      "image": "https://capitol.tn.gov/house/members/images/H91.jpg",
+      "sources": [
+        "https://ballotpedia.org/Torrey_Harris",
+        "https://en.wikipedia.org/wiki/Torrey_Harris",
+        "https://justfacts.votesmart.org/candidate/182528/torrey-harris",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H91",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h90.html",
+        "https://www.linkedin.com/in/torreyharris",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "dixie-vincent-tn-hd54",
+      "name": "Vincent Dixie",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-54)",
+      "state": "TN",
+      "district": "HD-54",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/ee804d8a-2f07-4271-83a7-0179f4c3445c"
+      },
+      "contact": {
+        "email": "rep.vincent.dixie@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H54"
+      },
+      "bio": {
+        "birth_date": "1973-08-20",
+        "gender": "Male"
+      },
+      "image": "https://www.capitol.tn.gov/house/members/images/H54.jpg",
+      "sources": [
+        "https://ballotpedia.org/Vincent_Dixie",
+        "https://en.wikipedia.org/wiki/Vincent_Dixie",
+        "https://justfacts.votesmart.org/candidate/biography/182467/vincent-dixie",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H54",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h54.html",
+        "https://www.linkedin.com/in/vincent-dixie-29441612",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "lamberth-william-tn-hd44",
+      "name": "William Lamberth",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-44)",
+      "state": "TN",
+      "district": "HD-44",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/5026d19f-d4ec-47b2-b106-f318a45e8585"
+      },
+      "contact": {
+        "email": "rep.william.lamberth@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H44"
+      },
+      "bio": {
+        "birth_date": "1977-12-05",
+        "gender": "Male"
+      },
+      "image": "http://www.capitol.tn.gov/house/members/images/h44.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Lamberth",
+        "https://en.wikipedia.org/wiki/William_Lamberth",
+        "https://justfacts.votesmart.org/candidate/138679/william-lamberth",
+        "https://tnhousegop.org/members/leader-william-lamberth",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H44",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h44.html",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "slater-william-tn-hd35",
+      "name": "William Slater",
+      "party": "Republican",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-35)",
+      "state": "TN",
+      "district": "HD-35",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/33aa517f-98cc-4c9a-8bae-5b41542555fa"
+      },
+      "contact": {
+        "email": "rep.william.slater@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H35"
+      },
+      "bio": {
+        "birth_date": "1961-10-13",
+        "gender": "Male"
+      },
+      "image": "https://bloximages.newyork1.vip.townnews.com/gallatinnews.com/content/tncms/assets/v3/editorial/e/3b/e3b758f4-03a2-11ed-9c70-97c00c9ae5a8/62d0609f6cb1e.image.jpg",
+      "sources": [
+        "https://ballotpedia.org/William_Slater",
+        "https://en.wikipedia.org/wiki/William_Slater_%28Tennessee_politician%29",
+        "https://justfacts.votesmart.org/candidate/206839/william-slater",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H35",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member?district=H35",
+        "https://www.linkedin.com/in/williamslaterjd",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    },
+    {
+      "politician_id": "hakeem-yusuf-tn-hd28",
+      "name": "Yusuf Hakeem",
+      "party": "Democratic",
+      "level": "state",
+      "role": "legislator",
+      "office": "Tennessee State Representative (HD-28)",
+      "state": "TN",
+      "district": "HD-28",
+      "chamber": "lower",
+      "jurisdiction": "TN",
+      "incumbent": true,
+      "ids": {
+        "openstates": "ocd-person/73d17744-fdda-495d-b5a8-c44342fc5b38"
+      },
+      "contact": {
+        "email": "rep.yusuf.hakeem@capitol.tn.gov",
+        "website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H28"
+      },
+      "bio": {
+        "birth_date": "1948-12-05",
+        "gender": "Male"
+      },
+      "image": "https://data.openstates.org/images/small/ocd-person/73d17744-fdda-495d-b5a8-c44342fc5b38",
+      "sources": [
+        "https://ballotpedia.org/Yusuf_Hakeem",
+        "https://en.wikipedia.org/wiki/Yusuf_Hakeem",
+        "https://wapp.capitol.tn.gov/apps/LegislatorInfo/directory.aspx?chamber=H",
+        "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H28",
+        "https://www.capitol.tn.gov/house/members",
+        "https://www.capitol.tn.gov/house/members/",
+        "https://www.capitol.tn.gov/house/members/h28.html",
+        "https://www.linkedin.com/in/yusuf-hakeem-541818107",
+        "https://data.openstates.org/people/current/tn.csv"
+      ]
+    }
+  ]
+}

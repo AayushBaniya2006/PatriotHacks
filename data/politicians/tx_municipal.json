@@ -1,0 +1,1197 @@
+{
+  "generated_at": "2026-07-04T02:51:29.290511+00:00",
+  "source": "Wikidata SPARQL + English Wikipedia API",
+  "politicians": [
+    {
+      "politician_id": "whitmire-john-tx-mayor-houston",
+      "name": "John Whitmire",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Houston",
+      "state": "TX",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q6263891"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6263891"
+      ],
+      "party": "Democratic Party",
+      "term": {
+        "start": "2024-01"
+      }
+    },
+    {
+      "politician_id": "jones-gina-ortiz-tx-mayor-san-antonio",
+      "name": "Gina Ortiz Jones",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of San Antonio",
+      "state": "TX",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q51754461"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q51754461"
+      ],
+      "party": "Democratic Party",
+      "term": {
+        "start": "2025-06-18"
+      }
+    },
+    {
+      "politician_id": "johnson-eric-tx-mayor-dallas",
+      "name": "Eric Johnson",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Dallas",
+      "state": "TX",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q5386829"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5386829"
+      ],
+      "party": "Democratic Party",
+      "term": {
+        "start": "2019-06-17"
+      }
+    },
+    {
+      "politician_id": "watson-kirk-tx-mayor-austin",
+      "name": "Kirk Watson",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Austin",
+      "state": "TX",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q6415545"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6415545"
+      ],
+      "party": "Democratic Party",
+      "term": {
+        "start": "2023-01-06"
+      }
+    },
+    {
+      "politician_id": "parker-mattie-tx-mayor-fort-worth",
+      "name": "Mattie Parker",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Fort Worth",
+      "state": "TX",
+      "jurisdiction": "Fort Worth, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q107304138"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q107304138"
+      ],
+      "party": "Republican Party",
+      "term": {
+        "start": "2021-06"
+      }
+    },
+    {
+      "politician_id": "johnson-renard-tx-mayor-el-paso",
+      "name": "Renard Johnson",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of El Paso",
+      "state": "TX",
+      "jurisdiction": "El Paso, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q132180975"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q132180975"
+      ],
+      "term": {
+        "start": "2025-01-06"
+      }
+    },
+    {
+      "politician_id": "ross-jim-tx-mayor-arlington",
+      "name": "Jim Ross",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Arlington",
+      "state": "TX",
+      "jurisdiction": "Arlington, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111906663"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111906663"
+      ],
+      "term": {
+        "start": "2021-06"
+      }
+    },
+    {
+      "politician_id": "guajardo-paulette-tx-mayor-corpus-christi",
+      "name": "Paulette Guajardo",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Corpus Christi",
+      "state": "TX",
+      "jurisdiction": "Corpus Christi, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q104800325"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q104800325"
+      ],
+      "party": "Democratic Party",
+      "term": {
+        "start": "2022"
+      }
+    },
+    {
+      "politician_id": "muns-john-tx-mayor-plano",
+      "name": "John Muns",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Plano",
+      "state": "TX",
+      "jurisdiction": "Plano, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111908079"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111908079"
+      ]
+    },
+    {
+      "politician_id": "payne-tray-tx-mayor-lubbock",
+      "name": "Tray Payne",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Lubbock",
+      "state": "TX",
+      "jurisdiction": "Lubbock, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q116835344"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q116835344"
+      ],
+      "term": {
+        "start": "2022-05"
+      }
+    },
+    {
+      "politician_id": "trevino-victor-tx-mayor-laredo",
+      "name": "Victor Treviño",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Laredo",
+      "state": "TX",
+      "jurisdiction": "Laredo, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q116835207"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q116835207"
+      ],
+      "term": {
+        "start": "2022-12"
+      }
+    },
+    {
+      "politician_id": "stopfer-rick-tx-mayor-irving",
+      "name": "Rick Stopfer",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Irving",
+      "state": "TX",
+      "jurisdiction": "Irving, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111912171"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111912171"
+      ],
+      "term": {
+        "start": "2017-06-08"
+      }
+    },
+    {
+      "politician_id": "lemay-scott-tx-mayor-garland",
+      "name": "Scott LeMay",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Garland",
+      "state": "TX",
+      "jurisdiction": "Garland, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111913536"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111913536"
+      ]
+    },
+    {
+      "politician_id": "cheney-jeff-tx-mayor-frisco",
+      "name": "Jeff Cheney",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Frisco",
+      "state": "TX",
+      "jurisdiction": "Frisco, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111939975"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111939975"
+      ],
+      "term": {
+        "start": "2017-05"
+      }
+    },
+    {
+      "politician_id": "fuller-george-tx-mayor-mckinney",
+      "name": "George Fuller",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of McKinney",
+      "state": "TX",
+      "jurisdiction": "McKinney, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111944112"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111944112"
+      ],
+      "term": {
+        "start": "2017-05"
+      }
+    },
+    {
+      "politician_id": "stanley-cole-tx-mayor-amarillo",
+      "name": "Cole Stanley",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Amarillo",
+      "state": "TX",
+      "jurisdiction": "Amarillo, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q121716064"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q121716064"
+      ],
+      "term": {
+        "start": "2023-05"
+      }
+    },
+    {
+      "politician_id": "jensen-ron-tx-mayor-grand-prairie",
+      "name": "Ron Jensen",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Grand Prairie",
+      "state": "TX",
+      "jurisdiction": "Grand Prairie, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111943924"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111943924"
+      ],
+      "term": {
+        "start": "2013"
+      }
+    },
+    {
+      "politician_id": "cowen-john-tx-mayor-brownsville",
+      "name": "John Cowen Jr.",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Brownsville",
+      "state": "TX",
+      "jurisdiction": "Brownsville, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q121746549"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q121746549"
+      ],
+      "term": {
+        "start": "2023-05"
+      }
+    },
+    {
+      "politician_id": "hudspeth-gerard-tx-mayor-denton",
+      "name": "Gerard Hudspeth",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Denton",
+      "state": "TX",
+      "jurisdiction": "Denton, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111981895"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111981895"
+      ],
+      "term": {
+        "start": "2020"
+      }
+    },
+    {
+      "politician_id": "aleman-daniel-tx-mayor-mesquite",
+      "name": "Daniel Alemán Jr.",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Mesquite",
+      "state": "TX",
+      "jurisdiction": "Mesquite, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111973629"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111973629"
+      ],
+      "term": {
+        "start": "2021-11-15"
+      }
+    },
+    {
+      "politician_id": "nash-king-debbie-tx-mayor-killeen",
+      "name": "Debbie Nash-King",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Killeen",
+      "state": "TX",
+      "jurisdiction": "Killeen, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111969166"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111969166"
+      ],
+      "term": {
+        "start": "2022-05"
+      }
+    },
+    {
+      "politician_id": "villalobos-javier-tx-mayor-mcallen",
+      "name": "Javier Villalobos",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of McAllen",
+      "state": "TX",
+      "jurisdiction": "McAllen, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q92387755"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q92387755"
+      ]
+    },
+    {
+      "politician_id": "meek-dillon-tx-mayor-waco",
+      "name": "Dillon Meek",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Waco",
+      "state": "TX",
+      "jurisdiction": "Waco, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q111982836"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111982836"
+      ],
+      "term": {
+        "start": "2020-11-03"
+      }
+    },
+    {
+      "politician_id": "babick-steve-tx-mayor-carrollton",
+      "name": "Steve Babick",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Carrollton",
+      "state": "TX",
+      "jurisdiction": "Carrollton, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q121826994"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q121826994"
+      ],
+      "term": {
+        "start": "2022-05"
+      }
+    },
+    {
+      "politician_id": "morgan-craig-tx-mayor-round-rock",
+      "name": "Craig Morgan",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of Round Rock",
+      "state": "TX",
+      "jurisdiction": "Round Rock, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q112120115"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q112120115"
+      ],
+      "term": {
+        "start": "2017-05"
+      }
+    },
+    {
+      "politician_id": "hughson-jane-tx-mayor-san-marcos",
+      "name": "Jane Hughson",
+      "level": "municipal",
+      "role": "executive",
+      "office": "Mayor of San Marcos",
+      "state": "TX",
+      "jurisdiction": "San Marcos, TX",
+      "incumbent": true,
+      "ids": {
+        "wikidata": "Q113131220"
+      },
+      "sources": [
+        "https://www.wikidata.org/wiki/Q113131220"
+      ],
+      "term": {
+        "start": "2018"
+      }
+    },
+    {
+      "politician_id": "peck-amy-tx-council-houston-district-a",
+      "name": "Amy Peck",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District A",
+      "state": "TX",
+      "district": "District A",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "jackson-tarsha-tx-council-houston-district-b",
+      "name": "Tarsha Jackson",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District B",
+      "state": "TX",
+      "district": "District B",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "panzarella-joseph-tx-council-houston-district-c",
+      "name": "Joseph Panzarella",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District C",
+      "state": "TX",
+      "district": "District C",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "evans-shabazz-carolyn-tx-council-houston-district-d",
+      "name": "Carolyn Evans-Shabazz",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District D",
+      "state": "TX",
+      "district": "District D",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "flickinger-fred-tx-council-houston-district-e",
+      "name": "Fred Flickinger",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District E",
+      "state": "TX",
+      "district": "District E",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "thomas-tiffany-tx-council-houston-district-f",
+      "name": "Tiffany Thomas",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District F",
+      "state": "TX",
+      "district": "District F",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "huffman-mary-nan-tx-council-houston-district-g",
+      "name": "Mary Nan Huffman",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District G",
+      "state": "TX",
+      "district": "District G",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "castillo-mario-tx-council-houston-district-h",
+      "name": "Mario Castillo",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District H",
+      "state": "TX",
+      "district": "District H",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "martinez-joaquin-tx-council-houston-district-i",
+      "name": "Joaquin Martinez",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District I",
+      "state": "TX",
+      "district": "District I",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "pollard-edward-tx-council-houston-district-j",
+      "name": "Edward Pollard",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District J",
+      "state": "TX",
+      "district": "District J",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "castex-tatum-martha-tx-council-houston-district-k",
+      "name": "Martha Castex-Tatum",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, District K",
+      "state": "TX",
+      "district": "District K",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "ramirez-julian-tx-council-houston-at-large-position-1",
+      "name": "Julian Ramirez",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, At-Large Position 1",
+      "state": "TX",
+      "district": "At-Large Position 1",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "davis-willie-tx-council-houston-at-large-position-2",
+      "name": "Willie Davis",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, At-Large Position 2",
+      "state": "TX",
+      "district": "At-Large Position 2",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "carter-twila-tx-council-houston-at-large-position-3",
+      "name": "Twila Carter",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, At-Large Position 3",
+      "state": "TX",
+      "district": "At-Large Position 3",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "salinas-alejandra-tx-council-houston-at-large-position-4",
+      "name": "Alejandra Salinas",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, At-Large Position 4",
+      "state": "TX",
+      "district": "At-Large Position 4",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "alcorn-sallie-tx-council-houston-at-large-position-5",
+      "name": "Sallie Alcorn",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Houston City Council, At-Large Position 5",
+      "state": "TX",
+      "district": "At-Large Position 5",
+      "jurisdiction": "Houston, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Houston_City_Council"
+      ]
+    },
+    {
+      "politician_id": "kaur-sukh-tx-council-san-antonio-district-1",
+      "name": "Sukh Kaur",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "San Antonio City Council, District 1",
+      "state": "TX",
+      "district": "District 1",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Antonio_City_Council"
+      ]
+    },
+    {
+      "politician_id": "mckee-rodriguez-jalen-tx-council-san-antonio-district-2",
+      "name": "Jalen McKee-Rodriguez",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "San Antonio City Council, District 2",
+      "state": "TX",
+      "district": "District 2",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Antonio_City_Council"
+      ]
+    },
+    {
+      "politician_id": "viagran-phyllis-tx-council-san-antonio-district-3",
+      "name": "Phyllis Viagrán",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "San Antonio City Council, District 3",
+      "state": "TX",
+      "district": "District 3",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Antonio_City_Council"
+      ]
+    },
+    {
+      "politician_id": "mungia-edward-tx-council-san-antonio-district-4",
+      "name": "Edward Mungia",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "San Antonio City Council, District 4",
+      "state": "TX",
+      "district": "District 4",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Antonio_City_Council"
+      ]
+    },
+    {
+      "politician_id": "castillo-teri-tx-council-san-antonio-district-5",
+      "name": "Teri Castillo",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "San Antonio City Council, District 5",
+      "state": "TX",
+      "district": "District 5",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Antonio_City_Council"
+      ]
+    },
+    {
+      "politician_id": "galvan-ric-tx-council-san-antonio-district-6",
+      "name": "Ric Galvan",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "San Antonio City Council, District 6",
+      "state": "TX",
+      "district": "District 6",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Antonio_City_Council"
+      ]
+    },
+    {
+      "politician_id": "gavito-marina-alderete-tx-council-san-antonio-district-7",
+      "name": "Marina Alderete Gavito",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "San Antonio City Council, District 7",
+      "state": "TX",
+      "district": "District 7",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Antonio_City_Council"
+      ]
+    },
+    {
+      "politician_id": "gonzalez-ivalis-mesa-tx-council-san-antonio-district-8",
+      "name": "Ivalis Mesa Gonzalez",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "San Antonio City Council, District 8",
+      "state": "TX",
+      "district": "District 8",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Antonio_City_Council"
+      ]
+    },
+    {
+      "politician_id": "spears-misty-tx-council-san-antonio-district-9",
+      "name": "Misty Spears",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "San Antonio City Council, District 9",
+      "state": "TX",
+      "district": "District 9",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Antonio_City_Council"
+      ]
+    },
+    {
+      "politician_id": "whyte-marc-tx-council-san-antonio-district-10",
+      "name": "Marc Whyte",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "San Antonio City Council, District 10",
+      "state": "TX",
+      "district": "District 10",
+      "jurisdiction": "San Antonio, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/San_Antonio_City_Council"
+      ]
+    },
+    {
+      "politician_id": "west-chad-tx-council-dallas-district-1",
+      "name": "Chad West",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 1",
+      "state": "TX",
+      "district": "District 1",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "moreno-jesse-tx-council-dallas-district-2",
+      "name": "Jesse Moreno",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 2",
+      "state": "TX",
+      "district": "District 2",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "gracey-zarin-tx-council-dallas-district-3",
+      "name": "Zarin Gracey",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 3",
+      "state": "TX",
+      "district": "District 3",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "johnson-maxie-tx-council-dallas-district-4",
+      "name": "Maxie Johnson",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 4",
+      "state": "TX",
+      "district": "District 4",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "resendez-jaime-tx-council-dallas-district-5",
+      "name": "Jaime Resendez",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 5",
+      "state": "TX",
+      "district": "District 5",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "cadena-laura-tx-council-dallas-district-6",
+      "name": "Laura Cadena",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 6",
+      "state": "TX",
+      "district": "District 6",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "bazaldua-adam-tx-council-dallas-district-7",
+      "name": "Adam Bazaldua",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 7",
+      "state": "TX",
+      "district": "District 7",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "blair-lorie-tx-council-dallas-district-8",
+      "name": "Lorie Blair",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 8",
+      "state": "TX",
+      "district": "District 8",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "blackmon-paula-tx-council-dallas-district-9",
+      "name": "Paula Blackmon",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 9",
+      "state": "TX",
+      "district": "District 9",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "stewart-kathy-tx-council-dallas-district-10",
+      "name": "Kathy Stewart",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 10",
+      "state": "TX",
+      "district": "District 10",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "roth-bill-tx-council-dallas-district-11",
+      "name": "Bill Roth",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 11",
+      "state": "TX",
+      "district": "District 11",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "mendelsohn-cara-tx-council-dallas-district-12",
+      "name": "Cara Mendelsohn",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 12",
+      "state": "TX",
+      "district": "District 12",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "willis-gay-donnell-tx-council-dallas-district-13",
+      "name": "Gay Donnell Willis",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 13",
+      "state": "TX",
+      "district": "District 13",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "ridley-paul-e-tx-council-dallas-district-14",
+      "name": "Paul E. Ridley",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Dallas City Council, District 14",
+      "state": "TX",
+      "district": "District 14",
+      "jurisdiction": "Dallas, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dallas_City_Council"
+      ]
+    },
+    {
+      "politician_id": "harper-madison-natasha-tx-council-austin-district-1",
+      "name": "Natasha Harper-Madison",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Austin City Council, District 1",
+      "state": "TX",
+      "district": "District 1",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austin_City_Council"
+      ]
+    },
+    {
+      "politician_id": "fuentes-vanessa-tx-council-austin-district-2",
+      "name": "Vanessa Fuentes",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Austin City Council, District 2",
+      "state": "TX",
+      "district": "District 2",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austin_City_Council"
+      ]
+    },
+    {
+      "politician_id": "velasquez-jose-tx-council-austin-district-3",
+      "name": "José Velásquez",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Austin City Council, District 3",
+      "state": "TX",
+      "district": "District 3",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austin_City_Council"
+      ]
+    },
+    {
+      "politician_id": "vela-jose-tx-council-austin-district-4",
+      "name": "Jose \"Chito\" Vela",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Austin City Council, District 4",
+      "state": "TX",
+      "district": "District 4",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austin_City_Council"
+      ]
+    },
+    {
+      "politician_id": "alter-ryan-tx-council-austin-district-5",
+      "name": "Ryan Alter",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Austin City Council, District 5",
+      "state": "TX",
+      "district": "District 5",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austin_City_Council"
+      ]
+    },
+    {
+      "politician_id": "laine-krista-tx-council-austin-district-6",
+      "name": "Krista Laine",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Austin City Council, District 6",
+      "state": "TX",
+      "district": "District 6",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austin_City_Council"
+      ]
+    },
+    {
+      "politician_id": "siegel-mike-tx-council-austin-district-7",
+      "name": "Mike Siegel",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Austin City Council, District 7",
+      "state": "TX",
+      "district": "District 7",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austin_City_Council"
+      ]
+    },
+    {
+      "politician_id": "ellis-paige-tx-council-austin-district-8",
+      "name": "Paige Ellis",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Austin City Council, District 8",
+      "state": "TX",
+      "district": "District 8",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austin_City_Council"
+      ]
+    },
+    {
+      "politician_id": "qadri-zohaib-tx-council-austin-district-9",
+      "name": "Zohaib \"Zo\" Qadri",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Austin City Council, District 9",
+      "state": "TX",
+      "district": "District 9",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austin_City_Council"
+      ]
+    },
+    {
+      "politician_id": "duchen-marc-tx-council-austin-district-10",
+      "name": "Marc Duchen",
+      "level": "municipal",
+      "role": "legislator",
+      "office": "Austin City Council, District 10",
+      "state": "TX",
+      "district": "District 10",
+      "jurisdiction": "Austin, TX",
+      "incumbent": true,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Austin_City_Council"
+      ]
+    }
+  ]
+}
