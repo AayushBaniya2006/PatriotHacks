@@ -1,24 +1,15 @@
 // Scenario tree builder: per race, a research agent projects a branching
 // future-possibilities tree grounded in cached candidate evidence + web search
 // (succession rules, term lengths, filed bills, announced plans).
-import { promises as fs } from "fs";
-import path from "path";
 import { chat, extractJSON, RESEARCH_MODEL } from "./llm";
 import { getIssues } from "./config";
 import { slugify, getPolitician } from "./db";
+import { kvGet, kvSet, NS } from "./store";
 import type { DiscoveredRace } from "./discovery";
 import type { ScenarioNode, ScenarioTree } from "./types";
 
-const SCENARIO_DIR = path.join(process.cwd(), "data", "scenarios");
-
 export async function getScenario(raceSlug: string): Promise<ScenarioTree | null> {
-  try {
-    return JSON.parse(
-      await fs.readFile(path.join(SCENARIO_DIR, `${raceSlug}.json`), "utf-8")
-    );
-  } catch {
-    return null;
-  }
+  return kvGet<ScenarioTree>(NS.scenarios, raceSlug);
 }
 
 function sanitize(node: ScenarioNode, depth = 0): ScenarioNode | null {
@@ -98,10 +89,6 @@ Return ONLY the root node JSON object.`,
     built_at: new Date().toISOString(),
     root,
   };
-  await fs.mkdir(SCENARIO_DIR, { recursive: true });
-  await fs.writeFile(
-    path.join(SCENARIO_DIR, `${tree.race_slug}.json`),
-    JSON.stringify(tree, null, 2)
-  );
+  await kvSet(NS.scenarios, tree.race_slug, tree);
   return tree;
 }

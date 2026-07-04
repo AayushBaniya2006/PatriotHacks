@@ -1,16 +1,13 @@
 import { NextRequest } from "next/server";
 import crypto from "crypto";
-import { promises as fs } from "fs";
-import path from "path";
 import { getPolitician } from "@/lib/db";
 import { scoreMatch } from "@/lib/scoring";
 import { chat, extractJSON, FAST_MODEL } from "@/lib/llm";
 import { getIssueMap } from "@/lib/config";
+import { kvGet, kvSet, NS } from "@/lib/store";
 import type { UserPreferences } from "@/lib/types";
 
 export const maxDuration = 120;
-
-const CACHE_DIR = path.join(process.cwd(), "data", "explanations");
 
 export interface QualitativeExplanation {
   headline: string; // one neutral sentence characterizing the match
@@ -39,12 +36,9 @@ export async function POST(req: NextRequest) {
     .update(politician_id + JSON.stringify(prefs) + profile.researched_at)
     .digest("hex")
     .slice(0, 16);
-  const cacheFile = path.join(CACHE_DIR, `${hash}.json`);
-  try {
-    const cached = JSON.parse(await fs.readFile(cacheFile, "utf-8"));
+  const cached = await kvGet<QualitativeExplanation>(NS.explanations, hash);
+  if (cached) {
     return Response.json({ explanation: cached, match, cached: true });
-  } catch {
-    /* miss */
   }
 
   // Compact, evidence-grounded context for the explainer (minimize context).
@@ -133,8 +127,7 @@ ${JSON.stringify(ctx)}`,
     };
   }
 
-  await fs.mkdir(CACHE_DIR, { recursive: true });
-  await fs.writeFile(cacheFile, JSON.stringify(explanation));
+  await kvSet(NS.explanations, hash, explanation);
   return Response.json({ explanation, match, cached: false });
 }
 

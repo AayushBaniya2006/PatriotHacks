@@ -116,14 +116,15 @@
             "id": "MID-VAC-SENATE",
             "label": "Middleton keeps SD-11 seat, dual-office holding legal",
             "timeframe": "2027",
-            "kind": "fact",
+            "kind": "inference",
             "description": "Texas allows legislators to hold another paid office; no vacancy created.",
             "issue_ids": [
               "ethics"
             ],
             "affected_groups": [],
             "sources": [],
-            "children": []
+            "children": [],
+            "likelihood": "medium"
           }
         ]
       },
@@ -177,14 +178,15 @@
                 "id": "JOHNSON-SD16-SPECIAL",
                 "label": "Special election for SD-16 if Johnson resigns",
                 "timeframe": "2027",
-                "kind": "fact",
+                "kind": "inference",
                 "description": "Johnson would have to vacate Senate seat; Gov. Abbott sets special election within 90 days, likely favoring GOP pickup in swing Dallas district.",
                 "issue_ids": [
                   "elections"
                 ],
                 "affected_groups": [],
                 "sources": [],
-                "children": []
+                "children": [],
+                "likelihood": "medium"
               },
               {
                 "id": "JOHNSON-2028-DOWNBALLOT",

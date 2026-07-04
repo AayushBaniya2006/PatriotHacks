@@ -61,7 +61,8 @@ Congress.gov, House Clerk roll-call XML, MediaWiki):
   their US House district race**, with candidates, campaign finance, and
   actual roll-call voting records. Every fact carries a source URL.
 - `data/tx/` — gold dataset (races, candidates, precomputed per-race insight
-  content for 8 voter archetypes) shipped in-repo; SQLite serving layer.
+  content for 8 voter archetypes) shipped in-repo; served via PostgreSQL when
+  `DATABASE_URL` is set (see `database.md`), gold-JSON fallback otherwise.
 - `pipeline/export_civic_match.py` — merges our authoritative evidence
   (votes, finance) into `civic-match/data/politicians/*.json` profiles.
 

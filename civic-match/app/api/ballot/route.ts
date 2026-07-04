@@ -11,7 +11,8 @@ export async function GET(req: NextRequest) {
   const address = req.nextUrl.searchParams.get("address");
   if (!address) return Response.json({ error: "address required" }, { status: 400 });
 
-  const backend = process.env.BALLOT_BACKEND_URL || "http://localhost:8000";
+  const backend =
+    process.env.DATA_BACKEND_URL || process.env.BALLOT_BACKEND_URL || "http://localhost:8000";
   try {
     const res = await fetch(`${backend}/api/ballot?address=${encodeURIComponent(address)}`, {
       signal: AbortSignal.timeout(15_000),

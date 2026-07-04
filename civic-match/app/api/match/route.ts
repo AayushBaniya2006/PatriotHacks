@@ -13,6 +13,18 @@ export async function POST(req: NextRequest) {
   if (!prefs || !Array.isArray(politician_ids)) {
     return Response.json({ error: "prefs and politician_ids required" }, { status: 400 });
   }
+  // Sanitize: weights/positions must be finite numbers in [0,1]-ish ranges
+  prefs.priority_weights = Object.fromEntries(
+    Object.entries(prefs.priority_weights ?? {})
+      .filter(([, w]) => Number.isFinite(w) && (w as number) > 0)
+      .map(([k, w]) => [k, Math.min(2, w as number)])
+  );
+  prefs.issue_positions = Object.fromEntries(
+    Object.entries(prefs.issue_positions ?? {}).map(([k, v]) => [
+      k,
+      v === null || !Number.isFinite(v) ? null : Math.max(0, Math.min(1, v as number)),
+    ])
+  );
   const results = [];
   for (const id of politician_ids) {
     const profile = await getPolitician(id);

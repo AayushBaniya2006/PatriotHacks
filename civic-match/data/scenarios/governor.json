@@ -454,7 +454,7 @@
             "id": "dixon-policy-2027",
             "label": "Dixon libertarian agenda",
             "timeframe": "2027",
-            "kind": "fact",
+            "kind": "inference",
             "description": "Dixon platform includes universal school choice, broad deregulation, spending cuts, and civil liberties priorities. As governor with no legislative base, would rely on veto power and executive orders; appointments would emphasize libertarian credentials.",
             "issue_ids": [
               "economy",
@@ -481,7 +481,8 @@
                 "sources": [],
                 "children": []
               }
-            ]
+            ],
+            "likelihood": "medium"
           }
         ]
       }

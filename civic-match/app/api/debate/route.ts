@@ -1,15 +1,12 @@
 import { NextRequest } from "next/server";
 import crypto from "crypto";
-import { promises as fs } from "fs";
-import path from "path";
 import { chat, extractJSON, FAST_MODEL } from "@/lib/llm";
 import { getPolitician } from "@/lib/db";
 import { getIssueMap } from "@/lib/config";
+import { kvGet, kvSet, NS } from "@/lib/store";
 import type { PoliticianProfile } from "@/lib/types";
 
 export const maxDuration = 300;
-
-const CACHE_DIR = path.join(process.cwd(), "data", "debates");
 
 interface DebateEvent {
   type: "turn" | "judge" | "status" | "error" | "complete";
@@ -73,7 +70,6 @@ export async function POST(req: NextRequest) {
     : "the issues facing voters in this election";
 
   const hash = crypto.createHash("sha1").update(`${a}|${b}|${topic_issue ?? "all"}|${pa.researched_at}|${pb.researched_at}`).digest("hex").slice(0, 16);
-  const cacheFile = path.join(CACHE_DIR, `${hash}.json`);
 
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
@@ -82,13 +78,13 @@ export async function POST(req: NextRequest) {
         controller.enqueue(encoder.encode(`data: ${JSON.stringify(e)}\n\n`));
       try {
         // Cached debate: replay instantly (latency-first)
-        try {
-          const cached: DebateEvent[] = JSON.parse(await fs.readFile(cacheFile, "utf-8"));
+        const cached = await kvGet<DebateEvent[]>(NS.debates, hash);
+        if (cached) {
           for (const e of cached) send(e);
           send({ type: "complete", message: "cached" });
           controller.close();
           return;
-        } catch { /* miss */ }
+        }
 
         const events: DebateEvent[] = [];
         const packA = evidencePack(pa, topicIssues);
@@ -157,8 +153,7 @@ Return ONLY JSON: {"scores": {"${pa.name}": {"groundedness": 0-100, "unsourced_c
         events.push(jev);
         send(jev);
 
-        await fs.mkdir(CACHE_DIR, { recursive: true });
-        await fs.writeFile(cacheFile, JSON.stringify(events));
+        await kvSet(NS.debates, hash, events);
         send({ type: "complete", message: "done" });
       } catch (err) {
         send({ type: "error", message: err instanceof Error ? err.message : "debate failed" });

@@ -1360,7 +1360,8 @@
       "kind": "fact",
       "confidence": 1,
       "sources": [],
-      "description": "Governor decides who holds Governor of Texas"
+      "description": "Governor decides who holds Governor of Texas",
+      "derived": true
     },
     {
       "source": "pol:greg-abbott",
@@ -1368,7 +1369,8 @@
       "rel": "running_for",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:gina-hinojosa",
@@ -1376,7 +1378,8 @@
       "rel": "running_for",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:pat-dixon",
@@ -1384,7 +1387,8 @@
       "rel": "running_for",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "race:u-s-senate",
@@ -1393,7 +1397,8 @@
       "kind": "fact",
       "confidence": 1,
       "sources": [],
-      "description": "U.S. Senate decides who holds U.S. Senator from Texas"
+      "description": "U.S. Senate decides who holds U.S. Senator from Texas",
+      "derived": true
     },
     {
       "source": "pol:ken-paxton",
@@ -1401,7 +1406,8 @@
       "rel": "running_for",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:james-talarico",
@@ -1409,7 +1415,8 @@
       "rel": "running_for",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "race:lieutenant-governor",
@@ -1418,7 +1425,8 @@
       "kind": "fact",
       "confidence": 1,
       "sources": [],
-      "description": "Lieutenant Governor decides who holds Lieutenant Governor of Texas"
+      "description": "Lieutenant Governor decides who holds Lieutenant Governor of Texas",
+      "derived": true
     },
     {
       "source": "pol:dan-patrick",
@@ -1426,7 +1434,8 @@
       "rel": "running_for",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:vikki-goodwin",
@@ -1434,7 +1443,8 @@
       "rel": "running_for",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "race:attorney-general",
@@ -1443,7 +1453,8 @@
       "kind": "fact",
       "confidence": 1,
       "sources": [],
-      "description": "Attorney General decides who holds Texas Attorney General"
+      "description": "Attorney General decides who holds Texas Attorney General",
+      "derived": true
     },
     {
       "source": "pol:nathan-sheets",
@@ -1451,7 +1462,8 @@
       "rel": "running_for",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:clayton-tucker",
@@ -1459,7 +1471,8 @@
       "rel": "running_for",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:clayton-tucker",
@@ -1467,7 +1480,8 @@
       "rel": "holds",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:clayton-tucker",
@@ -1780,7 +1794,8 @@
       "rel": "holds",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:dan-patrick",
@@ -2053,7 +2068,8 @@
       "rel": "holds",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:gina-hinojosa",
@@ -2381,7 +2397,8 @@
       "rel": "holds",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:greg-abbott",
@@ -2699,7 +2716,8 @@
       "rel": "holds",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:james-talarico",
@@ -3222,7 +3240,8 @@
       "rel": "holds",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:ken-paxton",
@@ -3660,7 +3679,8 @@
       "rel": "holds",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:pat-dixon",
@@ -3833,7 +3853,8 @@
       "rel": "holds",
       "kind": "fact",
       "confidence": 1,
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "pol:vikki-goodwin",
@@ -4404,7 +4425,8 @@
       "kind": "fact",
       "confidence": 0.95,
       "description": "Dixon platform includes universal school choice, broad deregulation, spending cuts, and civil liberties priorities. As governor with no legislative base, would rely on veto power and executive orders; appointments would emphasize libertarian credentials.",
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "event:governor:dixon-policy-2027",
@@ -4553,7 +4575,8 @@
       "kind": "fact",
       "confidence": 0.95,
       "description": "Winner of special election would stand for full two-year term in November 2028. Redistricting after 2030 census could alter district boundaries.",
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "event:u-s-senate:talarico-wins",
@@ -4973,7 +4996,8 @@
       "kind": "fact",
       "confidence": 0.95,
       "description": "Texas allows legislators to hold another paid office; no vacancy created.",
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "race:attorney-general",
@@ -5012,7 +5036,8 @@
       "kind": "fact",
       "confidence": 0.95,
       "description": "Johnson would have to vacate Senate seat; Gov. Abbott sets special election within 90 days, likely favoring GOP pickup in swing Dallas district.",
-      "sources": []
+      "sources": [],
+      "derived": true
     },
     {
       "source": "event:attorney-general:JOHNSON-POLICY-2027",

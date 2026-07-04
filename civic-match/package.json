@@ -10,13 +10,17 @@
     "seed": "tsx scripts/seed.ts texas",
     "seed:state": "tsx scripts/seed.ts",
     "export:config": "tsx scripts/export-config.ts",
-    "seed:graph": "tsx scripts/seed-graph.ts"
+    "seed:graph": "tsx scripts/seed-graph.ts",
+    "import:pg": "tsx scripts/import-to-postgres.ts",
+    "validate": "tsx scripts/validate-ground-truth.ts",
+    "fix:groundtruth": "tsx scripts/fix-ground-truth.ts"
   },
   "dependencies": {
     "d3-force": "^3.0.0",
     "d3-hierarchy": "^3.1.2",
     "dotenv": "^17.4.2",
     "next": "16.2.10",
+    "pg": "^8.22.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-markdown": "^10.1.0",
@@ -27,6 +31,7 @@
     "@types/d3-force": "^3.0.10",
     "@types/d3-hierarchy": "^3.1.7",
     "@types/node": "^20",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

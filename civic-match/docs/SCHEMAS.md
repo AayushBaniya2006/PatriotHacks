@@ -231,7 +231,9 @@ deeper levels = consequences, leaf nodes = long-term possibilities.
 | `/api/qa` | POST | `{ politician_id, question }` | `{ answer }` (grounded, markdown) |
 
 Also live: `/api/ballot?address=`, `/api/scenario?race=`, `/api/graph[?focus=&depth=]`,
-`/api/stakes`, `/api/motivate` (POST {prefs}), `/api/debate` (POST {a,b,topic_issue} → SSE).
+`/api/stakes`, `/api/motivate` (POST {prefs}), `/api/debate` (POST {a,b,topic_issue} → SSE),
+`/api/voter-insights` (POST {profile, race_id} — same-origin bridge to the FastAPI
+data backend's precomputed insights; see repo-root `schema.md` for that contract).
 New profile fields: `promise_record: PromiseRecord[]`, `finance: CampaignFinance`
 (top_donors + money↔position correlations, correlation-not-proof framing).
 
