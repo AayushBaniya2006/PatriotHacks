@@ -266,17 +266,23 @@ export default function Home() {
             <MenuIcon className="h-8 w-8" />
           </summary>
           <div className="absolute right-0 mt-4 grid min-w-48 gap-3 border border-white/10 bg-navy-dark/95 p-4 text-sm uppercase tracking-widest text-white shadow-2xl">
-            <a href="#features" className="hover:text-gold">
-              Solutions
-            </a>
-            <a href="#record" className="hover:text-gold">
-              About
-            </a>
-            <Link href="/future" className="hover:text-gold">
-              Insights
-            </Link>
             <Link href="/ballot" className="hover:text-gold">
-              Ballot
+              Your ballot
+            </Link>
+            <Link href="/intake" className="hover:text-gold">
+              Priorities
+            </Link>
+            <Link href="/results" className="hover:text-gold">
+              Matches
+            </Link>
+            <Link href="/future" className="hover:text-gold">
+              Future
+            </Link>
+            <Link href="/debate" className="hover:text-gold">
+              Debate
+            </Link>
+            <Link href="/graph" className="hover:text-gold">
+              Graph
             </Link>
           </div>
         </details>

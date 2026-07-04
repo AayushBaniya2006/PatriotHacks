@@ -992,10 +992,22 @@ export default function BallotPage() {
         {step === "matches" && (
           <section className="flex min-h-full flex-1 flex-col">
             <header className="flex items-center justify-between border-b border-white/10 px-5 py-4">
-              <CivitasLogo compact />
-              <button type="button" className="rounded-full p-2 text-white/55 hover:bg-white/5 hover:text-white" aria-label="Menu">
-                <Menu className="h-5 w-5" />
-              </button>
+              <Link href="/" aria-label="Civitas home">
+                <CivitasLogo compact />
+              </Link>
+              <details className="group relative">
+                <summary className="list-none rounded-full p-2 text-white/55 marker:hidden hover:bg-white/5 hover:text-white [&::-webkit-details-marker]:hidden" aria-label="Menu">
+                  <Menu className="h-5 w-5" />
+                </summary>
+                <nav className="absolute right-0 z-30 mt-2 grid min-w-44 gap-1 rounded-[10px] border border-white/12 bg-[#071629] p-2 text-xs uppercase tracking-[0.14em] text-white/80 shadow-2xl">
+                  <Link href="/ballot" className="rounded px-3 py-2 hover:bg-white/5 hover:text-white">Your ballot</Link>
+                  <Link href="/intake" className="rounded px-3 py-2 hover:bg-white/5 hover:text-white">Priorities</Link>
+                  <Link href="/results" className="rounded px-3 py-2 hover:bg-white/5 hover:text-white">Matches</Link>
+                  <Link href="/future" className="rounded px-3 py-2 hover:bg-white/5 hover:text-white">Future</Link>
+                  <Link href="/debate" className="rounded px-3 py-2 hover:bg-white/5 hover:text-white">Debate</Link>
+                  <Link href="/graph" className="rounded px-3 py-2 hover:bg-white/5 hover:text-white">Graph</Link>
+                </nav>
+              </details>
             </header>
             <div className="flex flex-1 flex-col px-5 py-6">
               <div className="flex items-end justify-between gap-4">
