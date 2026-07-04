@@ -154,6 +154,16 @@ export function scoreMatch(
   const overallTier =
     getUI().results.tiers.find((t) => overall >= t.min)?.label ?? "Match";
 
+  // Ground-truth-backed warnings
+  const warnings: string[] = [];
+  const broken = (profile.promise_record ?? []).filter((r) => r.verdict === "broken").length;
+  if (broken > 0) warnings.push(`${broken} documented broken promise${broken > 1 ? "s" : ""} (see scorecard)`);
+  const integrity = (profile.qualitative ?? []).find((d) => d.id === "integrity");
+  if (integrity && integrity.score < 0.45)
+    warnings.push("Documented integrity concerns (sourced in record quality)");
+  if (profile.contradictions.length > 0)
+    warnings.push(`${profile.contradictions.length} contradiction${profile.contradictions.length > 1 ? "s" : ""} between statements and actions`);
+
   return {
     politician_id: profile.id,
     politician_name: profile.name,
@@ -161,6 +171,7 @@ export function scoreMatch(
     score,
     confidence,
     confidence_value: confidenceValue,
+    warnings,
     overall,
     overall_tier: overallTier,
     overall_components: {

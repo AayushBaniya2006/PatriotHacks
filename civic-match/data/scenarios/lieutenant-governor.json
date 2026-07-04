@@ -1,0 +1,514 @@
+{
+  "race": "Lieutenant Governor",
+  "race_slug": "lieutenant-governor",
+  "built_at": "2026-07-04T01:07:44.515Z",
+  "root": {
+    "id": "root",
+    "label": "Texas Lieutenant Governor Election 2026",
+    "timeframe": "2026-11",
+    "kind": "fact",
+    "description": "General election for Texas Lieutenant Governor on November 3, 2026. Incumbent Republican Dan Patrick seeks fourth term against Democratic nominee Vikki Goodwin.",
+    "issue_ids": [
+      "economy",
+      "taxes",
+      "education",
+      "healthcare",
+      "abortion",
+      "lgbtq",
+      "labor",
+      "housing",
+      "energy",
+      "climate"
+    ],
+    "affected_groups": [
+      "homeowner",
+      "kids_in_public_school",
+      "small_business_owner",
+      "uninsured",
+      "renter"
+    ],
+    "sources": [
+      {
+        "title": "Texas lieutenant gubernatorial election, 2026",
+        "url": "https://ballotpedia.org/Texas_lieutenant_gubernatorial_election,_2026",
+        "publisher": "Ballotpedia"
+      },
+      {
+        "title": "State Rep. Vikki Goodwin to face GOP Lt. Gov. Dan Patrick",
+        "url": "https://www.texastribune.org/2026/05/26/texas-lieutenant-governor-democratic-primary-runoff-vikki-goodwin-marcos-velez/",
+        "publisher": "The Texas Tribune"
+      }
+    ],
+    "children": [
+      {
+        "id": "patrick-wins",
+        "label": "Dan Patrick wins re-election",
+        "timeframe": "2026-11",
+        "kind": "fact",
+        "description": "Dan Patrick secures fourth term as Lieutenant Governor, continuing 11-year tenure. Holds over $30 million in campaign funds and won March 2026 primary by widest margin since taking office.",
+        "issue_ids": [
+          "economy",
+          "taxes",
+          "education",
+          "healthcare",
+          "abortion",
+          "lgbtq",
+          "labor",
+          "energy",
+          "climate"
+        ],
+        "affected_groups": [
+          "homeowner",
+          "kids_in_public_school",
+          "small_business_owner",
+          "uninsured"
+        ],
+        "sources": [
+          {
+            "title": "State Rep. Vikki Goodwin to face GOP Lt. Gov. Dan Patrick",
+            "url": "https://www.texastribune.org/2026/05/26/texas-lieutenant-governor-democratic-primary-runoff-vikki-goodwin-marcos-velez/",
+            "publisher": "The Texas Tribune"
+          },
+          {
+            "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+            "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+            "publisher": "The Texas Tribune"
+          }
+        ],
+        "children": [
+          {
+            "id": "patrick-policy-2027",
+            "label": "Patrick legislative agenda 2027 session",
+            "timeframe": "2027",
+            "kind": "fact",
+            "description": "Patrick presides over Senate with expanded Republican majority. Controls committee assignments, bill referrals, and floor agenda. Has pledged universal school choice/ESAs, property tax reduction through exemptions and rate caps, and expanded natural gas production with state intervention if needed.",
+            "issue_ids": [
+              "education",
+              "taxes",
+              "energy",
+              "abortion",
+              "lgbtq",
+              "labor"
+            ],
+            "affected_groups": [
+              "kids_in_public_school",
+              "homeowner",
+              "small_business_owner"
+            ],
+            "sources": [
+              {
+                "title": "Dan Patrick policy positions",
+                "url": "https://www.danpatrick.org/",
+                "publisher": "Dan Patrick Campaign"
+              },
+              {
+                "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+                "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+                "publisher": "The Texas Tribune"
+              }
+            ],
+            "children": [
+              {
+                "id": "patrick-2028-ambitions",
+                "label": "Patrick potential 2028 moves",
+                "timeframe": "2028+",
+                "kind": "inference",
+                "likelihood": "medium",
+                "description": "Patrick, age 76 in 2028, could seek fifth term, run for governor if Greg Abbott does not seek re-election, or retire. Has not publicly announced post-2026 plans. Succession: If Patrick vacates office mid-term, Governor appoints replacement per Texas Constitution Article 4, Section 16.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [
+                  {
+                    "title": "Texas Constitution Article 4",
+                    "url": "https://statutes.capitol.texas.gov/Docs/CN/htm/CN.4.htm",
+                    "publisher": "Texas Legislature"
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "patrick-retires-2028",
+                    "label": "Patrick retires; open seat 2028",
+                    "timeframe": "2028+",
+                    "kind": "inference",
+                    "likelihood": "low",
+                    "description": "If Patrick retires, 2028 Republican primary would likely feature state senators including Brandon Creighton (current Senate Education Committee chair), Charles Perry, or others from Patrick's allied stable. Democratic prospects would depend on 2026-2028 party rebuilding.",
+                    "issue_ids": [
+                      "elections"
+                    ],
+                    "affected_groups": [],
+                    "sources": [],
+                    "children": []
+                  },
+                  {
+                    "id": "patrick-governor-2028",
+                    "label": "Patrick runs for governor 2028",
+                    "timeframe": "2028+",
+                    "kind": "inference",
+                    "likelihood": "low",
+                    "description": "If Governor Abbott does not seek re-election, Patrick could run for governor. Would create open lieutenant governor seat. Attorney General Ken Paxton and others would likely compete. No public indication Patrick pursuing this path.",
+                    "issue_ids": [
+                      "elections"
+                    ],
+                    "affected_groups": [],
+                    "sources": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "patrick-esa-passage",
+                "label": "Universal ESA program enacted",
+                "timeframe": "2027",
+                "kind": "inference",
+                "likelihood": "high",
+                "description": "Patrick has made school choice/ESAs top priority. With Republican Senate majority and likely House support, universal ESA program probable. Would redirect public education funds to private/religious schools. Opposed by public school advocates.",
+                "issue_ids": [
+                  "education",
+                  "debt_spending"
+                ],
+                "affected_groups": [
+                  "kids_in_public_school"
+                ],
+                "sources": [
+                  {
+                    "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+                    "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+                    "publisher": "The Texas Tribune"
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "esa-downstream-2028",
+                    "label": "ESA program effects compound",
+                    "timeframe": "2028+",
+                    "kind": "inference",
+                    "likelihood": "medium",
+                    "description": "If ESA program implemented, 2028 election debates would focus on program expansion or repeal. Public school funding shortfalls could become major issue. Teacher unions and parent groups would mobilize around 2028 legislative races.",
+                    "issue_ids": [
+                      "education",
+                      "elections"
+                    ],
+                    "affected_groups": [
+                      "kids_in_public_school"
+                    ],
+                    "sources": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "patrick-property-tax",
+                "label": "Property tax reduction package",
+                "timeframe": "2027",
+                "kind": "inference",
+                "likelihood": "high",
+                "description": "Patrick campaigned on aggressive property tax reduction through exemptions and rate caps. Likely to advance further cuts, potentially constraining local government services. School districts particularly affected as property taxes fund education.",
+                "issue_ids": [
+                  "taxes",
+                  "housing",
+                  "education"
+                ],
+                "affected_groups": [
+                  "homeowner",
+                  "kids_in_public_school"
+                ],
+                "sources": [
+                  {
+                    "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+                    "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+                    "publisher": "The Texas Tribune"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "patrick-house-vacancy",
+            "label": "No legislative vacancy created",
+            "timeframe": "2026-11",
+            "kind": "fact",
+            "description": "Patrick retains current office; no special elections triggered. Texas House District 47 (Goodwin's seat) remains held by whoever wins November 2026 election to replace her.",
+            "issue_ids": [
+              "elections"
+            ],
+            "affected_groups": [],
+            "sources": [
+              {
+                "title": "Texas Election Code",
+                "url": "https://statutes.capitol.texas.gov/Docs/EL/htm/EL.201.htm",
+                "publisher": "Texas Legislature"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "goodwin-wins",
+        "label": "Vikki Goodwin wins election",
+        "timeframe": "2026-11",
+        "kind": "fact",
+        "description": "Vikki Goodwin elected Lieutenant Governor, becoming first Democrat in office since 1999. Faces Republican-controlled Senate likely to rewrite rules reducing her powers. House District 47 seat vacated.",
+        "issue_ids": [
+          "economy",
+          "taxes",
+          "education",
+          "healthcare",
+          "abortion",
+          "lgbtq",
+          "labor",
+          "housing",
+          "energy",
+          "climate"
+        ],
+        "affected_groups": [
+          "homeowner",
+          "kids_in_public_school",
+          "small_business_owner",
+          "uninsured",
+          "renter"
+        ],
+        "sources": [
+          {
+            "title": "State Rep. Vikki Goodwin to face GOP Lt. Gov. Dan Patrick",
+            "url": "https://www.texastribune.org/2026/05/26/texas-lieutenant-governor-democratic-primary-runoff-vikki-goodwin-marcos-velez/",
+            "publisher": "The Texas Tribune"
+          },
+          {
+            "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+            "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+            "publisher": "The Texas Tribune"
+          }
+        ],
+        "children": [
+          {
+            "id": "goodwin-senate-rules",
+            "label": "Republican Senate rewrites rules",
+            "timeframe": "2027",
+            "kind": "fact",
+            "description": "Texas Constitution grants senators authority to set chamber rules. Republican majority expected to strip lieutenant governor of committee appointment power, agenda control, and tie-breaking authority. Would mark significant power shift in Austin.",
+            "issue_ids": [
+              "elections"
+            ],
+            "affected_groups": [],
+            "sources": [
+              {
+                "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+                "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+                "publisher": "The Texas Tribune"
+              },
+              {
+                "title": "Texas Democratic primary runoff picks nominee for lieutenant governor race",
+                "url": "https://www.foxnews.com/politics/texas-democrats-pick-lieutenant-governor-nominee-challenge-gop-incumbent-dan-patrick",
+                "publisher": "Fox News"
+              }
+            ],
+            "children": [
+              {
+                "id": "goodwin-limited-powers",
+                "label": "Goodwin operates with constrained authority",
+                "timeframe": "2027",
+                "kind": "inference",
+                "likelihood": "high",
+                "description": "Reduced to largely ceremonial role or limited procedural functions. Would retain positions on Legislative Budget Board and Legislative Redistricting Board, providing some budget and redistricting influence. Could use platform for statewide advocacy on Medicaid expansion, public schools, and abortion access.",
+                "issue_ids": [
+                  "healthcare",
+                  "education",
+                  "abortion",
+                  "debt_spending"
+                ],
+                "affected_groups": [
+                  "uninsured",
+                  "kids_in_public_school"
+                ],
+                "sources": [
+                  {
+                    "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+                    "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+                    "publisher": "The Texas Tribune"
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "goodwin-2028-rebound",
+                    "label": "2028 Democratic legislative gains",
+                    "timeframe": "2028+",
+                    "kind": "inference",
+                    "likelihood": "low",
+                    "description": "If Goodwin's election signals Democratic resurgence, 2028 could see competitive Senate races. Would require substantial shift in Texas political environment. Current Republican Senate majority is 19-12.",
+                    "issue_ids": [
+                      "elections"
+                    ],
+                    "affected_groups": [],
+                    "sources": [
+                      {
+                        "title": "Texas Senate composition",
+                        "url": "https://senate.texas.gov/members.php",
+                        "publisher": "Texas Senate"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "id": "goodwin-redistricting-role",
+                    "label": "Goodwin on Legislative Redistricting Board",
+                    "timeframe": "2027-2031",
+                    "kind": "fact",
+                    "description": "If Legislature fails to redistrict in 2031, Goodwin would serve on Legislative Redistricting Board with Governor, Attorney General, Comptroller, and House Speaker. Could influence congressional and legislative maps if deadlock occurs.",
+                    "issue_ids": [
+                      "elections"
+                    ],
+                    "affected_groups": [],
+                    "sources": [
+                      {
+                        "title": "Texas Government Code Chapter 2003",
+                        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.2003.htm",
+                        "publisher": "Texas Legislature"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "goodwin-budget-board",
+                "label": "Legislative Budget Board dynamics",
+                "timeframe": "2027",
+                "kind": "inference",
+                "likelihood": "high",
+                "description": "Goodwin would co-chair Legislative Budget Board with House Speaker. Republican Speaker (likely Dade Phelan or successor) would control House delegation. Board develops state budget; Goodwin could advocate for Medicaid expansion and public school funding but would face Republican majority.",
+                "issue_ids": [
+                  "healthcare",
+                  "education",
+                  "debt_spending"
+                ],
+                "affected_groups": [
+                  "uninsured",
+                  "kids_in_public_school"
+                ],
+                "sources": [
+                  {
+                    "title": "Texas Government Code Chapter 322",
+                    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.322.htm",
+                    "publisher": "Texas Legislature"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "goodwin-house-vacancy",
+            "label": "House District 47 special election",
+            "timeframe": "2026-11|2027",
+            "kind": "fact",
+            "description": "Goodwin's election vacates Texas House District 47 (southwest Austin/Travis County). Governor must call special election within reasonable time; likely early 2027. District leans Democratic; 2018 Goodwin flipped seat from Republican Paul Workman.",
+            "issue_ids": [
+              "elections"
+            ],
+            "affected_groups": [],
+            "sources": [
+              {
+                "title": "Texas Election Code Section 203.002",
+                "url": "https://statutes.capitol.texas.gov/Docs/EL/htm/EL.203.htm",
+                "publisher": "Texas Legislature"
+              },
+              {
+                "title": "State Rep. Vikki Goodwin to face GOP Lt. Gov. Dan Patrick",
+                "url": "https://www.texastribune.org/2026/05/26/texas-lieutenant-governor-democratic-primary-runoff-vikki-goodwin-marcos-velez/",
+                "publisher": "The Texas Tribune"
+              }
+            ],
+            "children": [
+              {
+                "id": "hd47-candidates",
+                "label": "HD47 special election candidates",
+                "timeframe": "2027",
+                "kind": "inference",
+                "likelihood": "medium",
+                "description": "Likely Democratic candidates: Austin City Council members (Ryan Alter, Zo Qadri endorsed Goodwin), Travis County officials, or progressive activists. Republican prospects limited in Biden+20 district. Runoff probable in crowded field.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [
+                  {
+                    "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+                    "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+                    "publisher": "The Texas Tribune"
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "hd47-progressive",
+                    "label": "Progressive Democrat wins HD47",
+                    "timeframe": "2027",
+                    "kind": "inference",
+                    "likelihood": "medium",
+                    "description": "Given district demographics and Goodwin's progressive endorsements, likely replacement aligns with Texas Legislative Progressive Caucus. Would maintain or strengthen progressive bloc in House.",
+                    "issue_ids": [
+                      "elections"
+                    ],
+                    "affected_groups": [],
+                    "sources": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "goodwin-policy-advocacy",
+            "label": "Goodwin statewide advocacy platform",
+            "timeframe": "2027",
+            "kind": "fact",
+            "description": "Goodwin campaigned on Medicaid expansion, repealing abortion ban, public school investment, Fair Rent Incentive Act, and water infrastructure. Would use lieutenant governor platform to advocate regardless of Senate constraints.",
+            "issue_ids": [
+              "healthcare",
+              "abortion",
+              "education",
+              "housing",
+              "infrastructure"
+            ],
+            "affected_groups": [
+              "uninsured",
+              "kids_in_public_school",
+              "renter"
+            ],
+            "sources": [
+              {
+                "title": "Texas Democratic primary runoff picks nominee for lieutenant governor race",
+                "url": "https://www.foxnews.com/politics/texas-democrats-pick-lieutenant-governor-nominee-challenge-gop-incumbent-dan-patrick",
+                "publisher": "Fox News"
+              },
+              {
+                "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+                "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+                "publisher": "The Texas Tribune"
+              }
+            ],
+            "children": [
+              {
+                "id": "goodwin-2028-ambitions",
+                "label": "Goodwin potential 2028 moves",
+                "timeframe": "2028+",
+                "kind": "inference",
+                "likelihood": "medium",
+                "description": "If Goodwin performs well despite constraints, could seek re-election, run for governor, or return to House. Would depend on 2027-2028 political environment and Democratic Party strategy. No public statements on post-2026 plans.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

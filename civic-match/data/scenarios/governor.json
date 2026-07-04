@@ -1,0 +1,490 @@
+{
+  "race": "Governor",
+  "race_slug": "governor",
+  "built_at": "2026-07-04T01:07:24.471Z",
+  "root": {
+    "id": "root",
+    "label": "2026 Texas Governor Election (Nov 3, 2026)",
+    "timeframe": "2026-11",
+    "kind": "fact",
+    "description": "Three-way race between incumbent Republican Greg Abbott, Democratic State Rep. Gina Hinojosa, and Libertarian Pat Dixon. Abbott leads Hinojosa 49%-42% in June 2026 polling, with Dixon at 3%.",
+    "issue_ids": [
+      "economy",
+      "taxes",
+      "healthcare",
+      "education",
+      "immigration",
+      "energy",
+      "climate",
+      "debt_spending"
+    ],
+    "affected_groups": [
+      "homeowner",
+      "kids_in_public_school",
+      "small_business_owner",
+      "uninsured",
+      "veteran"
+    ],
+    "sources": [
+      {
+        "title": "Gubernatorial Trial Ballot (June 2026)",
+        "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+        "publisher": "The Texas Politics Project"
+      },
+      {
+        "title": "'Mad mom' targets Greg Abbott in uphill bid for Texas governor",
+        "url": "https://www.dallasnews.com/news/politics/2026/02/26/mad-mom-targets-greg-abbott-in-uphill-bid-for-texas-governor/",
+        "publisher": "Dallas Morning News"
+      }
+    ],
+    "children": [
+      {
+        "id": "abbott-wins",
+        "label": "Greg Abbott wins fourth term",
+        "timeframe": "2026-11",
+        "kind": "inference",
+        "likelihood": "high",
+        "description": "Abbott secures re-election with polling advantage, Republican registration edge, and Trump endorsement. Would become second Texas governor to serve four terms (after Allan Shivers).",
+        "issue_ids": [
+          "economy",
+          "taxes",
+          "education",
+          "immigration",
+          "energy",
+          "healthcare"
+        ],
+        "affected_groups": [
+          "homeowner",
+          "kids_in_public_school",
+          "small_business_owner"
+        ],
+        "sources": [
+          {
+            "title": "Gubernatorial Trial Ballot (June 2026)",
+            "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+            "publisher": "The Texas Politics Project"
+          }
+        ],
+        "children": [
+          {
+            "id": "abbott-policy-2027",
+            "label": "Abbott policy agenda: 2027 legislative session",
+            "timeframe": "2027",
+            "kind": "fact",
+            "description": "Abbott has committed to expanding the $1 billion ESA voucher program signed in 2025, pursuing further property tax cuts, and maintaining Operation Lone Star border enforcement. He signed TRAIGA (comprehensive AI regulation) in 2025 and has taken hands-off stance on data center moratoriums.",
+            "issue_ids": [
+              "education",
+              "taxes",
+              "immigration",
+              "ai_tech",
+              "energy"
+            ],
+            "affected_groups": [
+              "kids_in_public_school",
+              "homeowner"
+            ],
+            "sources": [
+              {
+                "title": "Issues — How They Differ",
+                "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+                "publisher": "The Texas Politics Project"
+              },
+              {
+                "title": "'Mad mom' targets Greg Abbott",
+                "url": "https://www.dallasnews.com/news/politics/2026/02/26/mad-mom-targets-greg-abbott-in-uphill-bid-for-texas-governor/",
+                "publisher": "Dallas Morning News"
+              }
+            ],
+            "children": [
+              {
+                "id": "abbott-voucher-expansion",
+                "label": "ESA voucher program expansion",
+                "timeframe": "2027",
+                "kind": "inference",
+                "likelihood": "high",
+                "description": "Abbott has called SB 2 (2025) 'the largest day-one voucher launch in the country' and is expected to seek increased funding caps. Would accelerate private school enrollment growth and public school district fiscal stress, particularly in rural areas.",
+                "issue_ids": [
+                  "education",
+                  "debt_spending"
+                ],
+                "affected_groups": [
+                  "kids_in_public_school"
+                ],
+                "sources": [
+                  {
+                    "title": "Issues — How They Differ",
+                    "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+                    "publisher": "The Texas Politics Project"
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "abbott-2028-senate",
+                    "label": "Abbott potential U.S. Senate run 2028",
+                    "timeframe": "2028+",
+                    "kind": "inference",
+                    "likelihood": "medium",
+                    "description": "Abbott will be term-limited in 2030. U.S. Senator John Cornyn faces re-election 2028; Abbott has not ruled out federal office. Lieutenant Governor Dan Patrick has also signaled gubernatorial interest, creating potential succession competition.",
+                    "issue_ids": [
+                      "elections"
+                    ],
+                    "affected_groups": [],
+                    "sources": [
+                      {
+                        "title": "Gubernatorial Trial Ballot (June 2026)",
+                        "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+                        "publisher": "The Texas Politics Project"
+                      }
+                    ],
+                    "children": []
+                  },
+                  {
+                    "id": "abbott-texas-supreme-court",
+                    "label": "Judicial appointments through 2030",
+                    "timeframe": "2028+",
+                    "kind": "fact",
+                    "description": "Texas governors appoint judges to vacancies with Senate confirmation. Abbott has appointed 9 of 9 Texas Supreme Court justices and would continue shaping judiciary through 2030, including potential replacements for aging Republican-appointed justices.",
+                    "issue_ids": [
+                      "judiciary"
+                    ],
+                    "affected_groups": [],
+                    "sources": [
+                      {
+                        "title": "Texas Constitution Article 4, Section 11",
+                        "url": "https://statutes.capitol.texas.gov/Docs/CN/htm/CN.4.htm",
+                        "publisher": "Texas Legislature"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "abbott-medicaid-continued",
+                "label": "Medicaid non-expansion continues",
+                "timeframe": "2027",
+                "kind": "fact",
+                "description": "Abbott has refused Medicaid expansion throughout his governorship, calling it 'broken and bloated.' Texas maintains nation's highest uninsured rate. No change expected; rural hospital closures likely to continue.",
+                "issue_ids": [
+                  "healthcare",
+                  "medicare_medicaid"
+                ],
+                "affected_groups": [
+                  "uninsured"
+                ],
+                "sources": [
+                  {
+                    "title": "Issues — How They Differ",
+                    "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+                    "publisher": "The Texas Politics Project"
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "abbott-rural-health-crisis",
+                    "label": "Rural hospital closure acceleration",
+                    "timeframe": "2027-2028+",
+                    "kind": "inference",
+                    "likelihood": "high",
+                    "description": "Without Medicaid expansion, rural hospitals face continued reimbursement shortfalls. Abbott has directed $239 million to rural psychiatric beds and cites $1.4 billion in federal rural health funding, but structural deficits persist.",
+                    "issue_ids": [
+                      "healthcare",
+                      "infrastructure"
+                    ],
+                    "affected_groups": [
+                      "uninsured"
+                    ],
+                    "sources": [
+                      {
+                        "title": "Issues — How They Differ",
+                        "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+                        "publisher": "The Texas Politics Project"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "abbott-border-continued",
+                "label": "Operation Lone Star continuation",
+                "timeframe": "2027",
+                "kind": "fact",
+                "description": "Abbott has spent $11+ billion on Operation Lone Star since 2021 and requested full federal reimbursement. Program includes National Guard deployment, border barrier construction, and state-level immigration enforcement.",
+                "issue_ids": [
+                  "immigration",
+                  "debt_spending"
+                ],
+                "affected_groups": [],
+                "sources": [
+                  {
+                    "title": "Issues — How They Differ",
+                    "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+                    "publisher": "The Texas Politics Project"
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "abbott-sb4-litigation",
+                    "label": "SB 4 state immigration law litigation outcome",
+                    "timeframe": "2027-2028",
+                    "kind": "inference",
+                    "likelihood": "medium",
+                    "description": "Texas SB 4 (2023) making illegal entry a state crime is under Fifth Circuit review. Abbott signed law; DOJ and ACLU sued. Final resolution affects state enforcement scope and potential copycat legislation in other states.",
+                    "issue_ids": [
+                      "immigration",
+                      "judiciary"
+                    ],
+                    "affected_groups": [],
+                    "sources": [
+                      {
+                        "title": "Issues — How They Differ",
+                        "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+                        "publisher": "The Texas Politics Project"
+                      }
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hinojosa-wins",
+        "label": "Gina Hinojosa wins historic upset",
+        "timeframe": "2026-11",
+        "kind": "inference",
+        "likelihood": "medium",
+        "description": "Hinojosa would be first Democratic Texas governor since Ann Richards (1991-1995) and first Latina governor. Would require massive turnout surge, particularly among Latino and college-educated voters where she shows strength (49%-43% among Latinos, 50%-41% among degree-holders per June polling).",
+        "issue_ids": [
+          "economy",
+          "healthcare",
+          "education",
+          "taxes",
+          "climate",
+          "energy"
+        ],
+        "affected_groups": [
+          "uninsured",
+          "kids_in_public_school",
+          "renter"
+        ],
+        "sources": [
+          {
+            "title": "Gubernatorial Trial Ballot (June 2026)",
+            "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+            "publisher": "The Texas Politics Project"
+          },
+          {
+            "title": "'Mad mom' targets Greg Abbott",
+            "url": "https://www.dallasnews.com/news/politics/2026/02/26/mad-mom-targets-greg-abbott-in-uphill-bid-for-texas-governor/",
+            "publisher": "Dallas Morning News"
+          }
+        ],
+        "children": [
+          {
+            "id": "hinojosa-policy-2027",
+            "label": "Hinojosa policy agenda: 2027 legislative session",
+            "timeframe": "2027",
+            "kind": "fact",
+            "description": "Hinojosa has pledged Medicaid expansion to insure 'about a million Texans,' repeal of SB 8 abortion restrictions, $15,000 teacher pay raises, and using $11 billion in unpaid Operation Lone Star funds for targeted property tax relief. Faces Republican legislative supermajorities in House and Senate.",
+            "issue_ids": [
+              "healthcare",
+              "education",
+              "taxes",
+              "abortion",
+              "immigration"
+            ],
+            "affected_groups": [
+              "uninsured",
+              "kids_in_public_school",
+              "homeowner"
+            ],
+            "sources": [
+              {
+                "title": "Issues — How They Differ",
+                "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+                "publisher": "The Texas Politics Project"
+              },
+              {
+                "title": "'Mad mom' targets Greg Abbott",
+                "url": "https://www.dallasnews.com/news/politics/2026/02/26/mad-mom-targets-greg-abbott-in-uphill-bid-for-texas-governor/",
+                "publisher": "Dallas Morning News"
+              }
+            ],
+            "children": [
+              {
+                "id": "hinojosa-hd49-vacancy",
+                "label": "Texas House District 49 special election",
+                "timeframe": "2027",
+                "kind": "fact",
+                "description": "Hinojosa's resignation from HD-49 (Austin) triggers special election per Texas Election Code Section 203.001. Governor calls election; winner serves remainder of term through 2028. Seat is safely Democratic (Austin/Travis County).",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [
+                  {
+                    "title": "Texas Election Code Section 203.001",
+                    "url": "https://statutes.capitol.texas.gov/Docs/EL/htm/EL.203.htm",
+                    "publisher": "Texas Legislature"
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "hinojosa-hd49-successor",
+                    "label": "Potential HD49 successors",
+                    "timeframe": "2027",
+                    "kind": "inference",
+                    "likelihood": "medium",
+                    "description": "Potential candidates include Travis County Democrats with established records: Austin City Council members, former Hinojosa staff, or progressive activists. Special election timing affects 2027 legislative session participation.",
+                    "issue_ids": [
+                      "elections"
+                    ],
+                    "affected_groups": [],
+                    "sources": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "hinojosa-medicaid-expansion",
+                "label": "Medicaid expansion implementation fight",
+                "timeframe": "2027",
+                "kind": "fact",
+                "description": "Hinojosa has made Medicaid expansion central to campaign, framing it as 'reclaiming resources residents have already contributed.' Requires legislative appropriation and federal waiver; Republican legislature has blocked for 12+ years.",
+                "issue_ids": [
+                  "healthcare",
+                  "medicare_medicaid"
+                ],
+                "affected_groups": [
+                  "uninsured"
+                ],
+                "sources": [
+                  {
+                    "title": "Issues — How They Differ",
+                    "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+                    "publisher": "The Texas Politics Project"
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "hinojosa-budget-showdown",
+                    "label": "2027-2028 budget confrontation",
+                    "timeframe": "2027",
+                    "kind": "inference",
+                    "likelihood": "high",
+                    "description": "Medicaid expansion requires 2-year budget appropriation. Republican legislative leaders have opposed; potential for special session, line-item veto battles, or compromise on limited expansion with work requirements.",
+                    "issue_ids": [
+                      "healthcare",
+                      "debt_spending"
+                    ],
+                    "affected_groups": [
+                      "uninsured"
+                    ],
+                    "sources": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "hinojosa-voucher-repeal",
+                "label": "ESA voucher program confrontation",
+                "timeframe": "2027",
+                "kind": "fact",
+                "description": "Hinojosa was 'most visible voucher antagonist' in House, voting against SB 2 and authoring Fully Fund Our Future Act. Has pledged to oppose voucher expansion; full repeal unlikely without legislative majority.",
+                "issue_ids": [
+                  "education"
+                ],
+                "affected_groups": [
+                  "kids_in_public_school"
+                ],
+                "sources": [
+                  {
+                    "title": "Issues — How They Differ",
+                    "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+                    "publisher": "The Texas Politics Project"
+                  }
+                ],
+                "children": [
+                  {
+                    "id": "hinojosa-2028-re-election",
+                    "label": "2028 re-election vulnerability",
+                    "timeframe": "2028+",
+                    "kind": "inference",
+                    "likelihood": "medium",
+                    "description": "First-term Democratic governor in Republican state faces structural headwinds. Success depends on Medicaid expansion delivery, economic conditions, and 2028 presidential coattails. Potential Republican challengers include Attorney General Ken Paxton, Lt. Gov. Dan Patrick, or U.S. Rep. Dan Crenshaw.",
+                    "issue_ids": [
+                      "elections"
+                    ],
+                    "affected_groups": [],
+                    "sources": [],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dixon-wins",
+        "label": "Pat Dixon wins (extremely unlikely)",
+        "timeframe": "2026-11",
+        "kind": "inference",
+        "likelihood": "low",
+        "description": "Dixon polls at 3% with no path to plurality in plurality-vote system. Victory would require both major candidates below 30% and unprecedented Libertarian surge, or successful legal challenge to Texas's sore loser law if Dixon previously filed as Republican/Democrat.",
+        "issue_ids": [
+          "economy",
+          "taxes",
+          "education"
+        ],
+        "affected_groups": [],
+        "sources": [
+          {
+            "title": "Gubernatorial Trial Ballot (June 2026)",
+            "url": "https://texaspolitics.utexas.edu/set/gubernatorial-trial-ballot-june-2026",
+            "publisher": "The Texas Politics Project"
+          }
+        ],
+        "children": [
+          {
+            "id": "dixon-policy-2027",
+            "label": "Dixon libertarian agenda",
+            "timeframe": "2027",
+            "kind": "fact",
+            "description": "Dixon platform includes universal school choice, broad deregulation, spending cuts, and civil liberties priorities. As governor with no legislative base, would rely on veto power and executive orders; appointments would emphasize libertarian credentials.",
+            "issue_ids": [
+              "economy",
+              "taxes",
+              "education",
+              "civil_rights"
+            ],
+            "affected_groups": [],
+            "sources": [],
+            "children": [
+              {
+                "id": "dixon-legislative-stalemate",
+                "label": "Legislative gridlock scenario",
+                "timeframe": "2027",
+                "kind": "inference",
+                "likelihood": "high",
+                "description": "Libertarian governor with Republican legislature: potential cooperation on deregulation and tax cuts, but conflict on social issues, immigration enforcement, and abortion restrictions. Budget process would be highly contentious.",
+                "issue_ids": [
+                  "debt_spending",
+                  "immigration",
+                  "abortion"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

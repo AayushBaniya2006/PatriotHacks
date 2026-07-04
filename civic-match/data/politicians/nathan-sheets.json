@@ -337,5 +337,211 @@
         }
       ]
     }
+  ],
+  "promise_record": [
+    {
+      "promise": "Work to bring China and other large emerging market countries into a new set of international export credit guidelines through the International Working Group on Export Credits (IWG)",
+      "promised_at": "2015-04-15",
+      "promise_source": {
+        "source_id": "promise_0_src_0",
+        "type": "other",
+        "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://home.treasury.gov/news/press-releases/jl10022",
+        "published_at": "2015-04-15",
+        "retrieved_at": "2026-07-04T01:03:17.252Z",
+        "primary_source": true,
+        "quote": "We are pursuing these efforts through the International Working Group on Export Credits (IWG), which was established in 2012...to make concrete progress toward a set of new international export credit guidelines",
+        "reliability_score": 0.95
+      },
+      "action": "Convened seven IWG meetings by February 2015 with 'meaningful progress' reported, secured Chinese commitment during Obama's November 2014 visit to advance IWG initiative",
+      "action_at": "2015-02-01",
+      "action_sources": [
+        {
+          "source_id": "action_0_src_0",
+          "type": "other",
+          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10022",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:03:17.252Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Sheets reported concrete progress including seven IWG meetings and Chinese commitments, but a fully binding new framework was not completed during his tenure.",
+      "confidence": 0.8
+    },
+    {
+      "promise": "Make the interest rate provisions of the OECD Arrangement on Officially Supported Export Credits more market-oriented",
+      "promised_at": "2015-04-15",
+      "promise_source": {
+        "source_id": "promise_1_src_0",
+        "type": "other",
+        "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://home.treasury.gov/news/press-releases/jl10022",
+        "published_at": "2015-04-15",
+        "retrieved_at": "2026-07-04T01:03:17.252Z",
+        "primary_source": true,
+        "quote": "Treasury and the Administration are currently seeking to make the interest rate provisions of the existing Arrangement more market oriented...we have tabled a strong proposal in the OECD",
+        "reliability_score": 0.95
+      },
+      "action": "Tabled a proposal at the OECD to reform interest rate provisions; no evidence of adoption during his tenure",
+      "action_at": "2015-04-15",
+      "action_sources": [
+        {
+          "source_id": "action_1_src_0",
+          "type": "other",
+          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10022",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:03:17.252Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Sheets submitted the proposal as promised, but the OECD Arrangement's interest rate provisions were not reformed before he left office in 2017.",
+      "confidence": 0.7
+    },
+    {
+      "promise": "Secure approval for the 2010 IMF quota and governance reforms",
+      "promised_at": "2015-04-09",
+      "promise_source": {
+        "source_id": "promise_2_src_0",
+        "type": "other",
+        "title": "Treasury Undersecretary Nathan Sheets: Global Economy Falls Short of Aspirations",
+        "publisher": "Brookings Institution",
+        "url": "https://www.brookings.edu/articles/treasury-undersecretary-nathan-sheets-global-economy-falls-short-of-aspirations/",
+        "published_at": "2015-04-09",
+        "retrieved_at": "2026-07-04T01:03:17.252Z",
+        "primary_source": false,
+        "quote": "Treasury and the Obama administration 'are firmly committed to securing approval for the 2010 IMF quota and governance reforms'",
+        "reliability_score": 0.7
+      },
+      "action": "Continued advocacy through 2016; reforms were ultimately blocked by U.S. Congress until December 2015 legislation, with final implementation in 2016",
+      "action_at": "2016-01-01",
+      "action_sources": [
+        {
+          "source_id": "action_2_src_0",
+          "type": "other",
+          "title": "Treasury Undersecretary Nathan Sheets: Global Economy Falls Short of Aspirations",
+          "publisher": "Brookings Institution",
+          "url": "https://www.brookings.edu/articles/treasury-undersecretary-nathan-sheets-global-economy-falls-short-of-aspirations/",
+          "published_at": "2015-04-09",
+          "retrieved_at": "2026-07-04T01:03:17.252Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Sheets maintained administration commitment to the reforms, which were delayed by congressional opposition but eventually implemented in 2016 after he left office.",
+      "confidence": 0.6
+    },
+    {
+      "promise": "Advance U.S.-China Bilateral Investment Treaty (BIT) negotiations covering all investment phases with a 'negative list' approach",
+      "promised_at": "2015-04-09",
+      "promise_source": {
+        "source_id": "promise_3_src_0",
+        "type": "other",
+        "title": "Remarks by Under Secretary Nathan Sheets at the Center for Strategic & International Studies",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://home.treasury.gov/news/press-releases/jl10039",
+        "published_at": "2015-04-09",
+        "retrieved_at": "2026-07-04T01:03:17.252Z",
+        "primary_source": true,
+        "quote": "At a late-night negotiating session during the 2013 S&ED, we reached a breakthrough regarding a proposed bilateral investment treaty...The S&ED will continue to support the BIT negotiations",
+        "reliability_score": 0.95
+      },
+      "action": "Continued S&ED-supported negotiations through 2016; BIT was not concluded before Sheets left office and was ultimately abandoned under the Trump administration",
+      "action_at": "2017-01-20",
+      "action_sources": [
+        {
+          "source_id": "action_3_src_0",
+          "type": "other",
+          "title": "Remarks by Under Secretary Nathan Sheets at the Center for Strategic & International Studies",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10039",
+          "published_at": "2015-04-09",
+          "retrieved_at": "2026-07-04T01:03:17.252Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Sheets supported ongoing negotiations as promised, but the BIT was never completed during his tenure or subsequently.",
+      "confidence": 0.7
+    },
+    {
+      "promise": "Reduce official export financing support for twin-aisle aircraft in coordination with European governments",
+      "promised_at": "2015-04-15",
+      "promise_source": {
+        "source_id": "promise_4_src_0",
+        "type": "other",
+        "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://home.treasury.gov/news/press-releases/jl10022",
+        "published_at": "2015-04-15",
+        "retrieved_at": "2026-07-04T01:03:17.252Z",
+        "primary_source": true,
+        "quote": "Treasury's lead negotiator convened a meeting late last year with representatives from the German, French, and British governments on this issue...These governments noted their belief that the 2011 ASU is sufficient for this purpose, and they were unwilling to explore additional steps",
+        "reliability_score": 0.95
+      },
+      "action": "Convened meeting with European counterparts who rejected additional limitations; no further bilateral reduction achieved",
+      "action_at": "2014-12-01",
+      "action_sources": [
+        {
+          "source_id": "action_4_src_0",
+          "type": "other",
+          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10022",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:03:17.252Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Sheets attempted coordination as promised, but European governments refused to negotiate further reductions, blocking the objective.",
+      "confidence": 0.8
+    },
+    {
+      "promise": "Continue exploring opportunities to limit official financing support for twin-aisle aircraft for airlines with alternative financing access",
+      "promised_at": "2015-04-15",
+      "promise_source": {
+        "source_id": "promise_5_src_0",
+        "type": "other",
+        "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://home.treasury.gov/news/press-releases/jl10022",
+        "published_at": "2015-04-15",
+        "retrieved_at": "2026-07-04T01:03:17.252Z",
+        "primary_source": true,
+        "quote": "we will continue to explore opportunities with our European counterparts on possible ways to limit official financing support for twin-aisle aircraft, particularly for airlines with access to alternative sources of financing",
+        "reliability_score": 0.95
+      },
+      "action": "Continued advocacy through 2016; Ex-Im Bank financing for Boeing large aircraft declined in dollar value and aircraft count since 2013 ASU implementation",
+      "action_at": "2016-12-31",
+      "action_sources": [
+        {
+          "source_id": "action_5_src_0",
+          "type": "other",
+          "title": "Testimony of Under Secretary Nathan Sheets Before the House Committee on Oversight and Government Reform",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/jl10022",
+          "published_at": "2015-04-15",
+          "retrieved_at": "2026-07-04T01:03:17.252Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Sheets maintained exploration efforts and observed declining Ex-Im Bank support for large aircraft, consistent with market-oriented goals, though this was partly due to market conditions rather than policy alone.",
+      "confidence": 0.6
+    }
   ]
 }

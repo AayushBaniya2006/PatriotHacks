@@ -1,0 +1,223 @@
+{
+  "race": "Attorney General",
+  "race_slug": "attorney-general",
+  "built_at": "2026-07-04T01:05:41.712Z",
+  "root": {
+    "id": "TX-AG-2026",
+    "label": "2026 Texas Attorney General election",
+    "timeframe": "2026-11",
+    "kind": "fact",
+    "description": "The open-seat race to succeed Ken Paxton; winner serves 4-yr term, no limit on re-election. Vacancy mid-term is filled by governor appointment with Senate confirmation per Tex. Gov't Code § 601.006.",
+    "issue_ids": [
+      "immigration",
+      "crime",
+      "civil_rights",
+      "elections",
+      "ethics",
+      "judiciary"
+    ],
+    "affected_groups": [
+      "small_business_owner",
+      "kids_in_public_school",
+      "uninsured"
+    ],
+    "sources": [
+      {
+        "title": "2026 Texas Attorney General election",
+        "url": "https://en.wikipedia.org/wiki/2026_Texas_Attorney_General_election",
+        "publisher": "Wikipedia"
+      },
+      {
+        "title": "The role of Texas AG is more partisan than ever",
+        "url": "https://www.tpr.org/news/2026-04-14/the-role-of-texas-ag-is-more-partisan-than-ever-what-does-that-mean-for-the-next-one",
+        "publisher": "Texas Public Radio"
+      }
+    ],
+    "children": [
+      {
+        "id": "MIDDLETON-WIN",
+        "label": "Mayes Middleton (R) wins",
+        "timeframe": "2026-11",
+        "kind": "fact",
+        "description": "State Senator Middleton becomes AG; has pledged to create an election-integrity division with broad subpoena power and to defend Trump-era policies in multi-state suits.",
+        "issue_ids": [
+          "elections",
+          "immigration",
+          "civil_rights",
+          "ethics"
+        ],
+        "affected_groups": [
+          "small_business_owner",
+          "kids_in_public_school"
+        ],
+        "sources": [
+          {
+            "title": "Middleton defeats Roy in GOP attorney general runoff",
+            "url": "https://www.texastribune.org/2026/05/26/mayes-middleton-chip-roy-texas-republican-runoff-attorney-general/",
+            "publisher": "Texas Tribune"
+          }
+        ],
+        "children": [
+          {
+            "id": "MID-POLICY-2027",
+            "label": "New Election-Integrity Division launched",
+            "timeframe": "2027",
+            "kind": "fact",
+            "description": "Middleton follows through on campaign promise to staff a unit with criminal investigators to pursue voter-fraud cases without local invitation.",
+            "issue_ids": [
+              "elections",
+              "civil_rights"
+            ],
+            "affected_groups": [
+              "kids_in_public_school"
+            ],
+            "sources": [
+              {
+                "title": "Q&A: 2026 Republican candidates for Texas attorney general",
+                "url": "https://www.texastribune.org/2026/01/29/on-the-issues-qa-with-the-republicans-running-for-texas-attorney-general/",
+                "publisher": "Texas Tribune"
+              }
+            ],
+            "children": [
+              {
+                "id": "MID-2028-APPT",
+                "label": "Middleton could appoint successor in SD-11 if he vacates early",
+                "timeframe": "2028+",
+                "kind": "inference",
+                "likelihood": "medium",
+                "description": "If Middleton resigns Senate seat to focus on AG office, Gov. Abbott would call a special election; Middleton’s prior staff or county officials would be front-runners.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": []
+              },
+              {
+                "id": "MID-AG-REELECT",
+                "label": "Middleton positioned for 2030 re-election with Trump-aligned donor base",
+                "timeframe": "2028+",
+                "kind": "inference",
+                "likelihood": "high",
+                "description": "Having self-funded $17 M in 2026, he is expected to retain national conservative donor network for 2030 bid.",
+                "issue_ids": [
+                  "elections",
+                  "ethics"
+                ],
+                "affected_groups": [
+                  "small_business_owner"
+                ],
+                "sources": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "MID-VAC-SENATE",
+            "label": "Middleton keeps SD-11 seat, dual-office holding legal",
+            "timeframe": "2027",
+            "kind": "fact",
+            "description": "Texas allows legislators to hold another paid office; no vacancy created.",
+            "issue_ids": [
+              "ethics"
+            ],
+            "affected_groups": [],
+            "sources": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "JOHNSON-WIN",
+        "label": "Nathan Johnson (D) wins",
+        "timeframe": "2026-11",
+        "kind": "fact",
+        "description": "Dallas State Senator Johnson becomes first Democratic AG since 1998; has vowed to depoliticize child-support and consumer-protection divisions and join blue-state suits against Trump administration actions.",
+        "issue_ids": [
+          "civil_rights",
+          "immigration",
+          "healthcare",
+          "elections"
+        ],
+        "affected_groups": [
+          "uninsured",
+          "kids_in_public_school"
+        ],
+        "sources": [
+          {
+            "title": "Will Texas get another MAGA attorney general?",
+            "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/05/13/551675/texas-get-another-maga-ag-something-new-nathan-johnson-joe-jaworski-mayes-middleton-chip-roy-ken-paxton/",
+            "publisher": "Houston Public Media"
+          }
+        ],
+        "children": [
+          {
+            "id": "JOHNSON-POLICY-2027",
+            "label": "Consumer-protection unit restored; election-integrity unit shrunk",
+            "timeframe": "2027",
+            "kind": "inference",
+            "likelihood": "high",
+            "description": "Johnson reallocates litigation resources toward deceptive-practice cases and away from voter-fraud prosecutions.",
+            "issue_ids": [
+              "elections",
+              "small_business"
+            ],
+            "affected_groups": [
+              "small_business_owner"
+            ],
+            "sources": [
+              {
+                "title": "The role of Texas AG is more partisan than ever",
+                "url": "https://www.tpr.org/news/2026-04-14/the-role-of-texas-ag-is-more-partisan-than-ever-what-does-that-mean-for-the-next-one",
+                "publisher": "Texas Public Radio"
+              }
+            ],
+            "children": [
+              {
+                "id": "JOHNSON-SD16-SPECIAL",
+                "label": "Special election for SD-16 if Johnson resigns",
+                "timeframe": "2027",
+                "kind": "fact",
+                "description": "Johnson would have to vacate Senate seat; Gov. Abbott sets special election within 90 days, likely favoring GOP pickup in swing Dallas district.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": []
+              },
+              {
+                "id": "JOHNSON-2028-DOWNBALLOT",
+                "label": "Johnson could run for governor or U.S. Senate in 2028",
+                "timeframe": "2028+",
+                "kind": "inference",
+                "likelihood": "medium",
+                "description": "A successful term as AG would position him as top Democratic contender against Gov. Abbott (if termed out) or in open U.S. Senate race if Cruz retires.",
+                "issue_ids": [
+                  "elections"
+                ],
+                "affected_groups": [],
+                "sources": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "JOHNSON-NO-VACANCY",
+            "label": "Johnson keeps SD-16, serves in dual roles",
+            "timeframe": "2027",
+            "kind": "inference",
+            "likelihood": "low",
+            "description": "Legally permissible but would face heavy GOP criticism; most prior AGs resign Senate seats.",
+            "issue_ids": [
+              "ethics"
+            ],
+            "affected_groups": [],
+            "sources": [],
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

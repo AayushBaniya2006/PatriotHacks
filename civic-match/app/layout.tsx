@@ -36,16 +36,21 @@ export default function RootLayout({
               Civic<span className="text-emerald-400">Match</span>
             </Link>
             <nav className="flex gap-5 text-sm text-zinc-400">
+              <Link href="/ballot" className="hover:text-zinc-100">Your ballot</Link>
               <Link href="/intake" className="hover:text-zinc-100">Your priorities</Link>
               <Link href="/results" className="hover:text-zinc-100">Your matches</Link>
+              <Link href="/future" className="hover:text-zinc-100">Down the line</Link>
+              <Link href="/debate" className="hover:text-zinc-100">Debate</Link>
+              <Link href="/graph" className="hover:text-zinc-100">Graph</Link>
             </nav>
           </div>
         </header>
         <main className="flex-1">{children}</main>
         <footer className="border-t border-zinc-800 text-xs text-zinc-500">
           <div className="mx-auto max-w-5xl px-4 py-4">
-            Neutral, evidence-backed candidate alignment. Matches reflect your stated
-            priorities — not endorsements. Every claim links to its source.
+            Neutral, evidence-backed candidate alignment built on ground truth: every
+            claim links to a verifiable source. Matches reflect your stated priorities —
+            not endorsements. No source, no claim.
           </div>
         </footer>
       </body>

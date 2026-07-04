@@ -7,6 +7,8 @@ import type { MatchResult, VoterProfile } from "@/lib/types";
 import type { BallotResponse } from "@/lib/dataBackend";
 import BallotSection from "@/components/ballot/BallotSection";
 import InsightsPanel from "@/components/ballot/InsightsPanel";
+import StakesBanner from "@/components/stakes-banner";
+import MotivationCard from "@/components/motivation-card";
 
 interface PoliticianSummary {
   id: string;
@@ -144,8 +146,11 @@ export default function ResultsPage() {
       <p className="text-sm text-zinc-500 mb-8">
         Overall = 60–99, 2K style: quantitative issue alignment + qualitative record
         (integrity, transparency, experience) − conflicts on your top issues. Every
-        number decomposes — click a card.
+        number decomposes to ground truth — click a card and follow the sources.
       </p>
+
+      <MotivationCard />
+      <StakesBanner />
 
       <div className="space-y-4">
         {results.map((r) => (
@@ -169,6 +174,15 @@ export default function ResultsPage() {
                   {r.party && <span className="text-xs text-zinc-500">({r.party})</span>}
                 </div>
                 <div className="text-sm text-zinc-400">{r.overall_tier}</div>
+                {r.warnings.length > 0 && (
+                  <div className="mt-1 flex flex-wrap gap-1.5">
+                    {r.warnings.map((w) => (
+                      <span key={w} className="rounded-full border border-red-500/40 bg-red-500/10 px-2 py-0.5 text-[10px] text-red-300">
+                        ⚠ {w}
+                      </span>
+                    ))}
+                  </div>
+                )}
                 <div className="mt-1 flex gap-4 text-xs text-zinc-500">
                   <span>Issue alignment: <b className="text-zinc-300">{r.score}%</b></span>
                   <span>

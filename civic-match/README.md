@@ -1,13 +1,19 @@
 # Civic Match
 
-**A neutral, source-grounded candidate alignment engine.**
+**A neutral candidate alignment engine built on ground truth.**
+
+**Ground truth is the product.** Every claim on the site — every stance, score,
+scorecard verdict, and scenario — traces to a verifiable source: roll-call votes,
+official filings, primary documents. The pipeline enforces it mechanically:
+**no source, no claim.** Where ground truth doesn't exist, the UI says "unknown"
+instead of guessing.
 
 Tell it what you care about. It compares your stated priorities against candidates'
 voting records, platforms, and public statements — researched live by a **Kimi agent
 swarm** — and returns an explainable alignment score, a qualitative explanation,
 and a source for every single claim.
 
-> Do not optimize for persuasion. Optimize for informed, source-backed comparison.
+> Do not optimize for persuasion. Optimize for informed comparison grounded in ground truth.
 
 ---
 

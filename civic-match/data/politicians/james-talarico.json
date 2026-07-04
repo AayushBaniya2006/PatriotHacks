@@ -1113,5 +1113,279 @@
         }
       ]
     }
+  ],
+  "promise_record": [
+    {
+      "promise": "Oppose gender reassignment surgeries for minors",
+      "promised_at": "2025-01",
+      "promise_source": {
+        "source_id": "promise_0_src_0",
+        "type": "other",
+        "title": "Talarico's Voting Record Contradicts Stance on Child Surgeries",
+        "publisher": "American Tribune",
+        "url": "https://americantribune.com/texas-democrat-talarico-now-says-he-opposes-child-sex-change-surgery-his-record-tells-a-different-story/",
+        "published_at": "2025-01-27",
+        "retrieved_at": "2026-07-04T01:02:13.373Z",
+        "primary_source": false,
+        "quote": "\"I oppose gender reassignment surgeries for minors,\" he said.",
+        "reliability_score": 0.7
+      },
+      "action": "Voted NO on SB 14, which banned gender-transition procedures and treatments for minors; argued on House floor that doctors had 'moral obligation' to provide gender-transition treatments to children",
+      "action_at": "2023-05-17",
+      "action_sources": [
+        {
+          "source_id": "action_0_src_0",
+          "type": "other",
+          "title": "Talarico's Voting Record Contradicts Stance on Child Surgeries",
+          "publisher": "American Tribune",
+          "url": "https://americantribune.com/texas-democrat-talarico-now-says-he-opposes-child-sex-change-surgery-his-record-tells-a-different-story/",
+          "published_at": "2025-01-27",
+          "retrieved_at": "2026-07-04T01:02:13.373Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Talarico now states he opposes gender reassignment surgeries for minors, but in 2023 he voted against the ban on such procedures and argued in favor of doctors providing gender-transition treatments to children.",
+      "confidence": 0.9
+    },
+    {
+      "promise": "Cap insulin costs at $25/month",
+      "promised_at": "2020-11-10",
+      "promise_source": {
+        "source_id": "promise_1_src_0",
+        "type": "other",
+        "title": "New Talarico campaign ad puts spotlight on his role in passing bill that caps insulin costs",
+        "publisher": "Click2Houston",
+        "url": "https://www.click2houston.com/news/texas/2026/01/27/new-talarico-campaign-ad-puts-spotlight-on-his-role-in-passing-bill-that-caps-insulin-costs/",
+        "published_at": "2026-01-27",
+        "retrieved_at": "2026-07-04T01:02:13.373Z",
+        "primary_source": false,
+        "quote": "\"So when I got to the Texas House, I took on Big Pharma and capped insulin at $25 a month.\"",
+        "reliability_score": 0.7
+      },
+      "action": "Filed HB 40 to cap insulin copays at $50; bill died in committee; SB 827 (authored by Sen. Kolkhorst) ultimately passed with $25 cap; Talarico was co-lead on House companion and advocated for the issue",
+      "action_at": "2021-05-30",
+      "action_sources": [
+        {
+          "source_id": "action_1_src_0",
+          "type": "other",
+          "title": "New Talarico campaign ad puts spotlight on his role in passing bill that caps insulin costs",
+          "publisher": "Click2Houston",
+          "url": "https://www.click2houston.com/news/texas/2026/01/27/new-talarico-campaign-ad-puts-spotlight-on-his-role-in-passing-bill-that-caps-insulin-costs/",
+          "published_at": "2026-01-27",
+          "retrieved_at": "2026-07-04T01:02:13.373Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Talarico filed early legislation on insulin price caps and was a vocal advocate, but his specific bill died in committee; the $25 cap passed via another legislator's bill, though Talarico played a supporting role.",
+      "confidence": 0.85
+    },
+    {
+      "promise": "Raise Texas minimum wage to $15 per hour",
+      "promised_at": "2023-03-31",
+      "promise_source": {
+        "source_id": "promise_2_src_0",
+        "type": "other",
+        "title": "Labor & Business - Talarico for Texas",
+        "publisher": "Talarico for Texas (campaign website)",
+        "url": "https://jamestalarico.com/issue/labor-business/",
+        "published_at": "2023-03-31",
+        "retrieved_at": "2026-07-04T01:02:13.373Z",
+        "primary_source": true,
+        "quote": "Authored legislation to raise wages and support unions by increasing Texas' minimum wage to $15 per hour",
+        "reliability_score": 0.95
+      },
+      "action": "Authored legislation to raise Texas minimum wage to $15/hour as state representative",
+      "action_at": "2023",
+      "action_sources": [
+        {
+          "source_id": "action_2_src_0",
+          "type": "other",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "Talarico for Texas (campaign website)",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2023-03-31",
+          "retrieved_at": "2026-07-04T01:02:13.373Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Talarico fulfilled his commitment to author $15 minimum wage legislation in Texas, though the bill did not become law in the Republican-controlled legislature.",
+      "confidence": 0.9
+    },
+    {
+      "promise": "Make Texas a Right to Organize state and repeal right-to-work",
+      "promised_at": "2023-03-31",
+      "promise_source": {
+        "source_id": "promise_3_src_0",
+        "type": "other",
+        "title": "Labor & Business - Talarico for Texas",
+        "publisher": "Talarico for Texas (campaign website)",
+        "url": "https://jamestalarico.com/issue/labor-business/",
+        "published_at": "2023-03-31",
+        "retrieved_at": "2026-07-04T01:02:13.373Z",
+        "primary_source": true,
+        "quote": "making Texas a Right to Organize state",
+        "reliability_score": 0.95
+      },
+      "action": "Introduced legislation to repeal right-to-work on Cesar Chavez Day 2023",
+      "action_at": "2023-03-31",
+      "action_sources": [
+        {
+          "source_id": "action_3_src_0",
+          "type": "other",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "Talarico for Texas (campaign website)",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2023-03-31",
+          "retrieved_at": "2026-07-04T01:02:13.373Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Talarico introduced legislation to repeal right-to-work laws in Texas, fulfilling his promise to make Texas a Right to Organize state, though the legislation did not pass.",
+      "confidence": 0.9
+    },
+    {
+      "promise": "Legalize regulated marijuana for adults in Texas",
+      "promised_at": "2023-04-20",
+      "promise_source": {
+        "source_id": "promise_4_src_0",
+        "type": "other",
+        "title": "Freedom, Family & Faith - Talarico for Texas",
+        "publisher": "Talarico for Texas (campaign website)",
+        "url": "https://jamestalarico.com/issue/freedom-family-faith/",
+        "published_at": "2023-04-20",
+        "retrieved_at": "2026-07-04T01:02:13.373Z",
+        "primary_source": true,
+        "quote": "Authored legislation to legalize regulated marijuana for adults in Texas and use the new tax revenue to fund child care and early childhood education.",
+        "reliability_score": 0.95
+      },
+      "action": "Filed legislation to legalize cannabis on April 20, 2023",
+      "action_at": "2023-04-20",
+      "action_sources": [
+        {
+          "source_id": "action_4_src_0",
+          "type": "other",
+          "title": "Freedom, Family & Faith - Talarico for Texas",
+          "publisher": "Talarico for Texas (campaign website)",
+          "url": "https://jamestalarico.com/issue/freedom-family-faith/",
+          "published_at": "2023-04-20",
+          "retrieved_at": "2026-07-04T01:02:13.373Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Talarico authored and filed marijuana legalization legislation as promised, though it did not pass the Texas Legislature.",
+      "confidence": 0.9
+    },
+    {
+      "promise": "Kill legislation establishing statewide book ban",
+      "promised_at": "2023",
+      "promise_source": {
+        "source_id": "promise_5_src_0",
+        "type": "other",
+        "title": "Freedom, Family & Faith - Talarico for Texas",
+        "publisher": "Talarico for Texas (campaign website)",
+        "url": "https://jamestalarico.com/issue/freedom-family-faith/",
+        "published_at": "2023",
+        "retrieved_at": "2026-07-04T01:02:13.373Z",
+        "primary_source": true,
+        "quote": "Killed legislation that would have established a statewide book ban and removed classic literature like Lonesome Dove and The Catcher in the Rye in public schools by using a procedural point of order on the floor of the Texas House.",
+        "reliability_score": 0.95
+      },
+      "action": "Used procedural point of order to kill book ban legislation on Texas House floor",
+      "action_at": "2023",
+      "action_sources": [
+        {
+          "source_id": "action_5_src_0",
+          "type": "other",
+          "title": "Freedom, Family & Faith - Talarico for Texas",
+          "publisher": "Talarico for Texas (campaign website)",
+          "url": "https://jamestalarico.com/issue/freedom-family-faith/",
+          "published_at": "2023",
+          "retrieved_at": "2026-07-04T01:02:13.373Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Talarico successfully used a procedural point of order to block book ban legislation as claimed.",
+      "confidence": 0.85
+    },
+    {
+      "promise": "Lead fight against legislation forcing Ten Commandments into public school classrooms",
+      "promised_at": "2023",
+      "promise_source": {
+        "source_id": "promise_6_src_0",
+        "type": "other",
+        "title": "Freedom, Family & Faith - Talarico for Texas",
+        "publisher": "Talarico for Texas (campaign website)",
+        "url": "https://jamestalarico.com/issue/freedom-family-faith/",
+        "published_at": "2023",
+        "retrieved_at": "2026-07-04T01:02:13.373Z",
+        "primary_source": true,
+        "quote": "Defended the separation of church and state by leading the fight against legislation to force the Ten Commandments into public school classrooms",
+        "reliability_score": 0.95
+      },
+      "action": "Voted Yea on HB 3657 (bipartisan notary public bill); no direct vote found on Ten Commandments legislation in provided sources",
+      "action_at": "2023",
+      "action_sources": [
+        {
+          "source_id": "action_6_src_0",
+          "type": "other",
+          "title": "Grassroots Priorities: Votes by HD 50 James Talarico",
+          "publisher": "Grassroots Priorities",
+          "url": "https://grassrootspriorities.com/vote_changes.php?1=8059",
+          "published_at": "2023",
+          "retrieved_at": "2026-07-04T01:02:13.373Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "untested",
+      "explanation": "While Talarico claims to have led opposition to Ten Commandments legislation, the provided sources do not contain specific roll-call votes on such legislation to verify this claim.",
+      "confidence": 0.5
+    },
+    {
+      "promise": "Establish paid family leave for all Texans",
+      "promised_at": "2023-05-19",
+      "promise_source": {
+        "source_id": "promise_7_src_0",
+        "type": "other",
+        "title": "Labor & Business - Talarico for Texas",
+        "publisher": "Talarico for Texas (campaign website)",
+        "url": "https://jamestalarico.com/issue/labor-business/",
+        "published_at": "2023-05-19",
+        "retrieved_at": "2026-07-04T01:02:13.373Z",
+        "primary_source": true,
+        "quote": "Today she joined me as I filed legislation to enact paid family leave for all Texans.",
+        "reliability_score": 0.95
+      },
+      "action": "Filed legislation and established regulatory framework for family leave insurance policies; bill did not become law",
+      "action_at": "2023-05-19",
+      "action_sources": [
+        {
+          "source_id": "action_7_src_0",
+          "type": "other",
+          "title": "Labor & Business - Talarico for Texas",
+          "publisher": "Talarico for Texas (campaign website)",
+          "url": "https://jamestalarico.com/issue/labor-business/",
+          "published_at": "2023-05-19",
+          "retrieved_at": "2026-07-04T01:02:13.373Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Talarico filed paid family leave legislation and established a regulatory framework, but Texas does not currently have universal paid family leave, so the promise remains unfulfilled in practice.",
+      "confidence": 0.75
+    }
   ]
 }

@@ -676,5 +676,243 @@
         }
       ]
     }
+  ],
+  "promise_record": [
+    {
+      "promise": "End state takeovers of public school districts and return taken-over districts to communities",
+      "promised_at": "2026-06-23",
+      "promise_source": {
+        "source_id": "promise_0_src_0",
+        "type": "other",
+        "title": "Governor candidate Hinojosa vows to end school district takeovers",
+        "publisher": "Houston Chronicle",
+        "url": "https://www.houstonchronicle.com/news/education/article/gina-hinojosa-school-takeovers-texas-public-school-22295994.php",
+        "published_at": "2026-06-23",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "It is never the right answer to struggling schools to take power away from parents and communities... I will return those school districts back to communities.",
+        "reliability_score": 0.95
+      },
+      "action": "No executive action possible; still serving as state representative. Has not yet introduced legislation to repeal state takeover authority as of search date.",
+      "action_at": null,
+      "action_sources": [],
+      "verdict": "untested",
+      "explanation": "Hinojosa made this pledge as a gubernatorial candidate in June 2026; the election is November 2026, so she has not held executive office to implement it.",
+      "confidence": 0.9
+    },
+    {
+      "promise": "Remove Texas Education Commissioner Mike Morath if elected governor",
+      "promised_at": "2026-06-23",
+      "promise_source": {
+        "source_id": "promise_1_src_0",
+        "type": "other",
+        "title": "Governor candidate Hinojosa vows to end school district takeovers",
+        "publisher": "Houston Chronicle",
+        "url": "https://www.houstonchronicle.com/news/education/article/gina-hinojosa-school-takeovers-texas-public-school-22295994.php",
+        "published_at": "2026-06-23",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "she called for removing Texas Education Commissioner Mike Morath",
+        "reliability_score": 0.95
+      },
+      "action": "No executive action possible; still serving as state representative.",
+      "action_at": null,
+      "action_sources": [],
+      "verdict": "untested",
+      "explanation": "This is a conditional promise contingent on winning the November 2026 gubernatorial election; she currently holds no authority to remove the commissioner.",
+      "confidence": 0.95
+    },
+    {
+      "promise": "Replace STAAR and A-F ratings with a national norm-referenced test and fairer accountability system",
+      "promised_at": "2026-06-27",
+      "promise_source": {
+        "source_id": "promise_2_src_0",
+        "type": "other",
+        "title": "Texas public schools are central to Gina Hinojosa's bid for governor. Will voters care?",
+        "publisher": "Fort Worth Report",
+        "url": "https://fortworthreport.org/2026/06/27/texas-public-schools-are-central-to-gina-hinojosas-bid-for-governor-will-voters-care/",
+        "published_at": "2026-06-27",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "Hinojosa said she wants to replace STAAR and A-F ratings with a national norm-referenced test and a fairer accountability system",
+        "reliability_score": 0.95
+      },
+      "action": "No legislative or executive action yet; promise made during 2026 campaign.",
+      "action_at": null,
+      "action_sources": [],
+      "verdict": "untested",
+      "explanation": "This is a campaign platform position for the 2026 gubernatorial race; she has not yet held office with authority to change state testing policy.",
+      "confidence": 0.9
+    },
+    {
+      "promise": "Champion neighborhood schools and oppose private school vouchers",
+      "promised_at": "2025-10-15",
+      "promise_source": {
+        "source_id": "promise_3_src_0",
+        "type": "other",
+        "title": "Rep. Gina Hinojosa joins Democratic race for Texas governor",
+        "publisher": "Texas Tribune",
+        "url": "https://www.texastribune.org/2025/10/15/gina-hinojosa-texas-governor-campaign-launch-2026-greg-abbott/",
+        "published_at": "2025-10-15",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "People will see in my record, in my leadership, a champion for neighborhood schools... She contrasted her efforts to bolster public school funding with Abbott's pursuit of vouchers, which she argued would 'devastate our schools.'",
+        "reliability_score": 0.95
+      },
+      "action": "Voted against voucher-related and charter expansion legislation; voted against SB 8 (2023) which expanded charter school authority; voted against HB 9-2 which gave wide discretion to fast-track school district takeovers.",
+      "action_at": "2023-2025",
+      "action_sources": [
+        {
+          "source_id": "action_3_src_0",
+          "type": "other",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "TLOK / Indivisible TX Lege",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": "2025",
+          "retrieved_at": "2026-07-04T01:01:55.703Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Her legislative voting record consistently opposed voucher expansion and supported public school funding, aligning with her campaign positioning.",
+      "confidence": 0.85
+    },
+    {
+      "promise": "Defend reproductive rights and oppose abortion restrictions",
+      "promised_at": "2021-2023",
+      "promise_source": {
+        "source_id": "promise_4_src_0",
+        "type": "other",
+        "title": "Record Votes: Rep. Gina Hinojosa",
+        "publisher": "TLOK / Indivisible TX Lege",
+        "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+        "published_at": "2023",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "Reproductive Rights [Top/End] | ✔ | Nay | HB1280 | Reproductive Rights: 'Backstop' bill outlawing abortions if Roe vs. Wade is overturned | ✔ | Nay | SB8 | Reproductive Rights: Outlaws abortion at about 6 weeks; no exceptions for rape and incest",
+        "reliability_score": 0.95
+      },
+      "action": "Voted Nay on HB 1280 (2021), the 'trigger ban' on abortion; voted Nay on SB 8 (2021), the six-week abortion ban; was Absent for SB 4-2 (2023) on mail-order abortion medication restrictions.",
+      "action_at": "2021-2023",
+      "action_sources": [
+        {
+          "source_id": "action_4_src_0",
+          "type": "other",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "TLOK / Indivisible TX Lege",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": "2023",
+          "retrieved_at": "2026-07-04T01:01:55.703Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Voted against major abortion restrictions but was absent for one key vote on mail-order medication restrictions, preventing a perfect record on the issue.",
+      "confidence": 0.8
+    },
+    {
+      "promise": "Support healthcare access, including Medicaid expansion and maternal health",
+      "promised_at": "2021-2023",
+      "promise_source": {
+        "source_id": "promise_5_src_0",
+        "type": "other",
+        "title": "Gina Hinojosa - Texas State - Legislative Auditor: PoliScore",
+        "publisher": "PoliScore",
+        "url": "https://poliscore.us/tx/legislator/18674",
+        "published_at": "2025",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": false,
+        "quote": "she has pushed big, detailed plans to invest in public health... a multibillion-dollar dementia research fund, more training for doctors and nurses, better support for grieving parents and high-risk pregnancies",
+        "reliability_score": 0.7
+      },
+      "action": "Voted Yea on HB 133 (2021) extending Medicaid eligibility for 12 months after birth or miscarriage; voted Yea on HB 158 (2021) for Medicaid coverage of doula services; voted Nay on SB 1341 (2023) which increased Medicaid verification requirements.",
+      "action_at": "2021-2023",
+      "action_sources": [
+        {
+          "source_id": "action_5_src_0",
+          "type": "other",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "TLOK / Indivisible TX Lege",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": "2023",
+          "retrieved_at": "2026-07-04T01:01:55.703Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Consistently voted to expand or protect Medicaid access and maternal health services, matching her stated policy priorities.",
+      "confidence": 0.85
+    },
+    {
+      "promise": "Oppose partisan redistricting and gerrymandering",
+      "promised_at": "2021",
+      "promise_source": {
+        "source_id": "promise_6_src_0",
+        "type": "other",
+        "title": "Record Votes: Rep. Gina Hinojosa",
+        "publisher": "TLOK / Indivisible TX Lege",
+        "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+        "published_at": "2021",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "Redistricting [Top/End] | ✔ | Nay | SB4-3 | Redistricting: Redistricting for Texas Senate | ✔ | Nay | SB6-3 | Redistricting: Redistricting for seats of the United States Congress | ✔ | Nay | SB7-3 | Redistricting: Redistricting for State Board of Education",
+        "reliability_score": 0.95
+      },
+      "action": "Voted Nay on SB 4-3, SB 6-3, and SB 7-3 (2021), all Republican-drawn redistricting maps for Senate, Congress, and State Board of Education.",
+      "action_at": "2021",
+      "action_sources": [
+        {
+          "source_id": "action_6_src_0",
+          "type": "other",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "TLOK / Indivisible TX Lege",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": "2021",
+          "retrieved_at": "2026-07-04T01:01:55.703Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Voted against all three 2021 Republican redistricting bills, consistent with opposition to partisan gerrymandering.",
+      "confidence": 0.9
+    },
+    {
+      "promise": "Support LGBTQ+ rights and oppose restrictions on transgender athletes",
+      "promised_at": "2021",
+      "promise_source": {
+        "source_id": "promise_7_src_0",
+        "type": "other",
+        "title": "Record Votes: Rep. Gina Hinojosa",
+        "publisher": "TLOK / Indivisible TX Lege",
+        "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+        "published_at": "2021",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "Lgbt Rights [Top/End] | ✔ | Nay | HB25-3 | Lgbt Rights: Requires gender-based high-school athletic competitions be based on birth-cert",
+        "reliability_score": 0.95
+      },
+      "action": "Voted Nay on HB 25-3 (2021), which required gender-based high school athletic competitions be based on birth certificate sex.",
+      "action_at": "2021",
+      "action_sources": [
+        {
+          "source_id": "action_7_src_0",
+          "type": "other",
+          "title": "Record Votes: Rep. Gina Hinojosa",
+          "publisher": "TLOK / Indivisible TX Lege",
+          "url": "https://www.tlok.org/itx-lege/record_legislators.php?id=106",
+          "published_at": "2021",
+          "retrieved_at": "2026-07-04T01:01:55.703Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Voted against the transgender athlete restriction bill, aligning with LGBTQ+ rights advocacy.",
+      "confidence": 0.85
+    }
   ]
 }

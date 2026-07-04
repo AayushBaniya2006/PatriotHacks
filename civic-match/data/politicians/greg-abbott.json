@@ -700,5 +700,143 @@
         }
       ]
     }
+  ],
+  "promise_record": [
+    {
+      "promise": "Seek federal approval to receive Medicaid aid via block grants",
+      "promised_at": "2013-01-01",
+      "promise_source": {
+        "source_id": "promise_0_src_0",
+        "type": "other",
+        "title": "Fund Medicaid by block grants: Greg Abbott's vow to seek block-grant Medicaid funding unfulfilled",
+        "publisher": "PolitiFact Texas",
+        "url": "https://www.politifact.com/texas/promises/abbott-o-meter/promise/1241/fund-medicaid-block-grants/article/2132/",
+        "published_at": "2016-04-25",
+        "retrieved_at": "2026-07-04T01:02:02.642Z",
+        "primary_source": false,
+        "quote": "Greg Abbott stumped for governor by saying the state should seek federal approval to receive Medicaid aid via block grants with the state, he said, better managing how such money is spent.",
+        "reliability_score": 0.7
+      },
+      "action": "Took no action to seek block-grant approval; no proposal submitted to federal officials",
+      "action_at": "2016-04-25",
+      "action_sources": [
+        {
+          "source_id": "action_0_src_0",
+          "type": "other",
+          "title": "Fund Medicaid by block grants: Greg Abbott's vow to seek block-grant Medicaid funding unfulfilled",
+          "publisher": "PolitiFact Texas",
+          "url": "https://www.politifact.com/texas/promises/abbott-o-meter/promise/1241/fund-medicaid-block-grants/article/2132/",
+          "published_at": "2016-04-25",
+          "retrieved_at": "2026-07-04T01:02:02.642Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Abbott campaigned on seeking Medicaid block grants but 15 months into his governorship had not submitted any proposal to federal officials, and no legislative action was taken to enable such a request.",
+      "confidence": 0.95
+    },
+    {
+      "promise": "Sign a law making it legal to openly carry handguns in public",
+      "promised_at": "2013-01-01",
+      "promise_source": {
+        "source_id": "promise_1_src_0",
+        "type": "other",
+        "title": "Legalize openly carrying handguns in public: Abbott fulfills promise to support law permitting handguns to be openly carried",
+        "publisher": "PolitiFact Texas",
+        "url": "https://www.politifact.com/texas/promises/abbott-o-meter/promise/1244/legalize-openly-carrying-handguns-public/article/2007/",
+        "published_at": "2015-06-13",
+        "retrieved_at": "2026-07-04T01:02:02.642Z",
+        "primary_source": false,
+        "quote": "At a Corpus Christi stop in 2013, then-candidate Abbott made it clear he would be fine with Texas lawmakers letting Texans openly carry handguns in public.",
+        "reliability_score": 0.7
+      },
+      "action": "Signed HB 910 into law, allowing licensed Texans to openly carry handguns in shoulder or belt holsters",
+      "action_at": "2015-06-13",
+      "action_sources": [
+        {
+          "source_id": "action_1_src_0",
+          "type": "other",
+          "title": "Legalize openly carrying handguns in public: Abbott fulfills promise to support law permitting handguns to be openly carried",
+          "publisher": "PolitiFact Texas",
+          "url": "https://www.politifact.com/texas/promises/abbott-o-meter/promise/1244/legalize-openly-carrying-handguns-public/article/2007/",
+          "published_at": "2015-06-13",
+          "retrieved_at": "2026-07-04T01:02:02.642Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Abbott signed HB 910 on June 13, 2015, fulfilling his campaign pledge to make Texas the 45th state allowing open carry of handguns.",
+      "confidence": 0.98
+    },
+    {
+      "promise": "Repeal limits on students taking online classes through the Texas Virtual School Network",
+      "promised_at": "2014-01-01",
+      "promise_source": {
+        "source_id": "promise_2_src_0",
+        "type": "other",
+        "title": "Repeal limits on students taking online classes: Abbott promise to repeal limits on online courses goes unfulfilled",
+        "publisher": "PolitiFact Texas",
+        "url": "https://api.politifact.com/texas/promises/abbott-o-meter/promise/1272/repeal-limits-students-taking-online-classes/article/2543/",
+        "published_at": "2018-01-01",
+        "retrieved_at": "2026-07-04T01:02:02.642Z",
+        "primary_source": false,
+        "quote": "In order to guarantee that digital learning is available to all students at any time, Texas must take steps to make sure the TxVSN is robust, accessible, and transparent.",
+        "reliability_score": 0.7
+      },
+      "action": "Legislation was introduced but failed to pass; no law repealing limits was enacted",
+      "action_at": "2017-08-31",
+      "action_sources": [
+        {
+          "source_id": "action_2_src_0",
+          "type": "other",
+          "title": "Repeal limits on students taking online classes: Abbott promise to repeal limits on online courses goes unfulfilled",
+          "publisher": "PolitiFact Texas",
+          "url": "https://api.politifact.com/texas/promises/abbott-o-meter/promise/1272/repeal-limits-students-taking-online-classes/article/2543/",
+          "published_at": "2018-01-01",
+          "retrieved_at": "2026-07-04T01:02:02.642Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Though Abbott supported the idea, legislation to remove limits on online courses passed committee in 2015 but never reached the full Senate, and no similar bill was introduced in 2017.",
+      "confidence": 0.9
+    },
+    {
+      "promise": "Bar state government from setting up an Obamacare marketplace/exchange",
+      "promised_at": "2014-01-01",
+      "promise_source": {
+        "source_id": "promise_3_src_0",
+        "type": "other",
+        "title": "Bar state government from setting up an Obamacare marketplace/exchange: Abbott call to bar state government from setting up Obamacare exchange not passed into law",
+        "publisher": "PolitiFact Texas",
+        "url": "https://www.politifact.com/texas/promises/abbott-o-meter/promise/1238/bar-state-government-setting-obamacare-marketplace/article/2041/",
+        "published_at": "2015-05-01",
+        "retrieved_at": "2026-07-04T01:02:02.642Z",
+        "primary_source": false,
+        "quote": "As a candidate, Greg Abbott made it clear he wanted to forbid state government from setting up a marketplace (or exchange) enabling Texans to buy health insurance in keeping with the 2010 Obamacare law.",
+        "reliability_score": 0.7
+      },
+      "action": "No legislation barring a state exchange was enacted; one related bill died in committee",
+      "action_at": "2015-06-01",
+      "action_sources": [
+        {
+          "source_id": "action_3_src_0",
+          "type": "other",
+          "title": "Bar state government from setting up an Obamacare marketplace/exchange: Abbott call to bar state government from setting up Obamacare exchange not passed into law",
+          "publisher": "PolitiFact Texas",
+          "url": "https://www.politifact.com/texas/promises/abbott-o-meter/promise/1238/bar-state-government-setting-obamacare-marketplace/article/2041/",
+          "published_at": "2015-05-01",
+          "retrieved_at": "2026-07-04T01:02:02.642Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Abbott advocated for barring a state Obamacare exchange but the 2015 legislature took no final action, with the relevant bill dying in committee without reaching a floor vote.",
+      "confidence": 0.92
+    }
   ]
 }

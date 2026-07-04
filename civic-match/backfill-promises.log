@@ -1,0 +1,21 @@
+◇ injected env (1) from .env.local // tip: ⌘ suppress logs { quiet: true }
+9/9 profiles need promise backfill
+[start] Clayton Tucker
+[start] Dan Patrick
+[start] Gina Hinojosa
+[done]  Dan Patrick: { broken: 4, partial: 1 }
+[start] Greg Abbott
+[done]  Clayton Tucker: {}
+[start] James Talarico
+[done]  Greg Abbott: { broken: 3, kept: 1 }
+[start] Ken Paxton
+[done]  Gina Hinojosa: { untested: 3, kept: 4, partial: 1 }
+[start] Nathan Sheets
+[done]  James Talarico: { broken: 1, partial: 2, kept: 4, untested: 1 }
+[start] Pat Dixon
+[done]  Ken Paxton: { untested: 2, kept: 2, broken: 1 }
+[start] Vikki Goodwin
+[done]  Vikki Goodwin: {}
+[done]  Nathan Sheets: { partial: 3, broken: 2, kept: 1 }
+[done]  Pat Dixon: { kept: 3, untested: 1 }
+Promise backfill complete.

@@ -1,25 +1,27 @@
 {
   "site_name": "CivicMatch",
+  "tagline": "Ground truth for your ballot.",
+  "ground_truth_note": "Everything you see here is traced to ground truth: primary sources, roll-call votes, official filings. No source, no claim.",
   "default_state": "texas",
   "election_title": "November 2026 — Texas General Election",
   "landing": {
-    "hero_title": "Which candidates match",
-    "hero_highlight": "what you actually care about?",
-    "hero_subtitle": "Tell us your priorities. We compare them against candidates' voting records, platforms, and public statements — with every claim backed by a source, and every gap in the evidence shown honestly.",
+    "hero_title": "Ground truth on",
+    "hero_highlight": "every name on your ballot.",
+    "hero_subtitle": "Tell us your priorities. We compare them against candidates' voting records, platforms, and public statements — every claim traced to ground truth, every gap in the evidence shown honestly.",
     "cta_primary": "Start: pick your priorities",
     "cta_secondary": "See matches",
     "features": [
       {
-        "title": "No black-box scores",
-        "description": "Every match decomposes into issue-level points you can inspect."
+        "title": "Ground truth only",
+        "description": "No source, no claim: positions without a verifiable primary source are dropped by the verifier agent."
       },
       {
-        "title": "No source, no claim",
-        "description": "Positions without a verifiable source are dropped by the verifier agent."
+        "title": "No black-box scores",
+        "description": "Every match decomposes into issue-level points you can trace back to ground truth."
       },
       {
         "title": "Unknowns shown honestly",
-        "description": "Missing evidence lowers confidence — it never inflates a match."
+        "description": "Where ground truth doesn't exist, we say so — missing evidence lowers confidence, never inflates a match."
       }
     ]
   },

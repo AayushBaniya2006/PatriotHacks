@@ -555,5 +555,177 @@
         }
       ]
     }
+  ],
+  "promise_record": [
+    {
+      "promise": "Repeal the 17th Amendment so state legislatures again choose U.S. senators",
+      "promised_at": "2013-10-03",
+      "promise_source": {
+        "source_id": "promise_0_src_0",
+        "type": "other",
+        "title": "PolitiFact | Dan Patrick went from ‘unequivocally support’ to ‘would not be in favor of’ repeal",
+        "publisher": "PolitiFact",
+        "url": "https://www.politifact.com/factchecks/2014/feb/13/dan-patrick/dan-patrick-went-unequivocally-support-would-not-b/",
+        "published_at": "2014-02-13",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "I unequivocally support the repeal of the 17th Amendment...",
+        "reliability_score": 0.95
+      },
+      "action": "Publicly reversed position, saying 'I would not be in favor of repealing it' and took no legislative steps toward repeal",
+      "action_at": "2014-01-20",
+      "action_sources": [
+        {
+          "source_id": "action_0_src_0",
+          "type": "other",
+          "title": "PolitiFact | Dan Patrick went from ‘unequivocally support’ to ‘would not be in favor of’ repeal",
+          "publisher": "PolitiFact",
+          "url": "https://www.politifact.com/factchecks/2014/feb/13/dan-patrick/dan-patrick-went-unequivocally-support-would-not-b/",
+          "published_at": "2014-02-13",
+          "retrieved_at": "2026-07-04T01:01:55.703Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Patrick abandoned the repeal pledge entirely, earning a 'Full Flop' rating from PolitiFact.",
+      "confidence": 1
+    },
+    {
+      "promise": "As chair of the Senate Education Committee, 'led the charge to restore most of the education cuts from last session'",
+      "promised_at": "2014-08-28",
+      "promise_source": {
+        "source_id": "promise_1_src_0",
+        "type": "other",
+        "title": "PolitiFact | Dan Patrick voted against final version of state budget partly restoring education funding in 2013",
+        "publisher": "PolitiFact",
+        "url": "https://www.politifact.com/factchecks/2014/sep/15/dan-patrick/dan-patrick-voted-against-final-version-state-budg/",
+        "published_at": "2014-09-15",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "As chair of the Senate Education Committee, I led the charge to restore most of the education cuts from last session.",
+        "reliability_score": 0.95
+      },
+      "action": "Voted against the final 2013-15 state budget that actually restored $3.4 billion in education funding; the budget he opposed became law without his support",
+      "action_at": "2013-05",
+      "action_sources": [
+        {
+          "source_id": "action_1_src_0",
+          "type": "other",
+          "title": "PolitiFact | Dan Patrick voted against final version of state budget partly restoring education funding in 2013",
+          "publisher": "PolitiFact",
+          "url": "https://www.politifact.com/factchecks/2014/sep/15/dan-patrick/dan-patrick-voted-against-final-version-state-budg/",
+          "published_at": "2014-09-15",
+          "retrieved_at": "2026-07-04T01:01:55.703Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Patrick voted against the bill that accomplished the restoration he claimed to have led.",
+      "confidence": 1
+    },
+    {
+      "promise": "Pass legislation for a mandatory 10-year sentence for any person who uses a gun in a crime",
+      "promised_at": "2022-10",
+      "promise_source": {
+        "source_id": "promise_2_src_0",
+        "type": "other",
+        "title": "Will Dan Patrick be able to fulfill his campaign promises?",
+        "publisher": "Spectrum News",
+        "url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/politics/2022/11/16/will-dan-patrick-be-able-to-fulfill-his-campaign-promises--",
+        "published_at": "2022-11-16",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "We will pass legislation for a mandatory 10-year sentence for any person who uses a gun in a crime.",
+        "reliability_score": 0.95
+      },
+      "action": "No such mandatory-minimum bill has been signed into law as of the end of the 2023 regular session; Patrick did place the item on the Senate’s priority list but it did not reach the governor’s desk",
+      "action_at": "2023-06",
+      "action_sources": [
+        {
+          "source_id": "action_2_src_0",
+          "type": "other",
+          "title": "Will Dan Patrick be able to fulfill his campaign promises?",
+          "publisher": "Spectrum News",
+          "url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/politics/2022/11/16/will-dan-patrick-be-able-to-fulfill-his-campaign-promises--",
+          "published_at": "2022-11-16",
+          "retrieved_at": "2026-07-04T01:01:55.703Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Despite Patrick’s pledge and control of the Senate agenda, the 10-year mandatory sentence never passed.",
+      "confidence": 0.9
+    },
+    {
+      "promise": "Expand background checks to stranger-to-stranger gun sales even if it meant 'taking an arrow' from the NRA",
+      "promised_at": "2019-09",
+      "promise_source": {
+        "source_id": "promise_3_src_0",
+        "type": "other",
+        "title": "Lt. Gov. Dan Patrick waffles over whether he still supports stronger gun background checks",
+        "publisher": "The Texas Tribune",
+        "url": "https://www.texastribune.org/2021/06/17/texas-dan-patrick-background-checks-guns-nra/",
+        "published_at": "2021-06-17",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": true,
+        "quote": "willing to take an arrow... by pushing for Texas to extend background checks to gun sales between strangers.",
+        "reliability_score": 0.95
+      },
+      "action": "Refused to advance any background-check expansion; SB 163 that would have done so received no hearing and died in the 2021 session",
+      "action_at": "2021-05",
+      "action_sources": [
+        {
+          "source_id": "action_3_src_0",
+          "type": "other",
+          "title": "Lt. Gov. Dan Patrick waffles over whether he still supports stronger gun background checks",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2021/06/17/texas-dan-patrick-background-checks-guns-nra/",
+          "published_at": "2021-06-17",
+          "retrieved_at": "2026-07-04T01:01:55.703Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Patrick abandoned the proposal after initial advocacy and allowed the relevant bill to die without a hearing.",
+      "confidence": 1
+    },
+    {
+      "promise": "Pass a school-choice / voucher program",
+      "promised_at": "2022-11",
+      "promise_source": {
+        "source_id": "promise_4_src_0",
+        "type": "other",
+        "title": "Will Dan Patrick be able to fulfill his campaign promises?",
+        "publisher": "Spectrum News",
+        "url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/politics/2022/11/16/will-dan-patrick-be-able-to-fulfill-his-campaign-promises--",
+        "published_at": "2022-11-16",
+        "retrieved_at": "2026-07-04T01:01:55.703Z",
+        "primary_source": false,
+        "quote": "Patrick also supports school choice... expect him to put his full weight behind whatever kind of school choice program he can get passed...",
+        "reliability_score": 0.7
+      },
+      "action": "Senate Bill 2, a school-choice voucher plan, passed the Senate but has not been signed into law as of mid-2023; final outcome pending",
+      "action_at": "2023-05",
+      "action_sources": [
+        {
+          "source_id": "action_4_src_0",
+          "type": "other",
+          "title": "One of the Biggest Heists Ever?! - Dan Patrick, Lieutenant Governor",
+          "publisher": "danpatrick.org",
+          "url": "https://www.danpatrick.org/one-of-the-biggest-heists-ever/",
+          "published_at": "2023-05-29",
+          "retrieved_at": "2026-07-04T01:01:55.703Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "partial",
+      "explanation": "Patrick delivered Senate passage but the bill remains unsigned, so the promise is only partially fulfilled so far.",
+      "confidence": 0.8
+    }
   ]
 }
