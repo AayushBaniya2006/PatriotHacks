@@ -13,8 +13,8 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
         },
         {
-          "text": "No public data in our set on Nate Sheets's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
-          "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          "text": "As of 2026-02-21, Nate Sheets's campaign had raised $1,064,677 in campaign receipts and spent $1,238,317, per Texas Ethics Commission filings.",
+          "source": "https://www.ethics.state.tx.us/search/cf/"
         }
       ],
       "tucker-clayton": [
@@ -31,13 +31,13 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
         },
         {
-          "text": "No public data in our set on Clayton Tucker's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
-          "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          "text": "As of 2026-02-21, Clayton Tucker's campaign had raised $17,611 in campaign receipts and spent $13,465, per Texas Ethics Commission filings.",
+          "source": "https://www.ethics.state.tx.us/search/cf/"
         }
       ]
     },
     "summary": "Texas Commissioner of Agriculture race: Nate Sheets, Clayton Tucker. This overview lists each candidate's party, background, and campaign finance where available in our data set.",
-    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and (for federal candidates only) FEC campaign finance totals. We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set; state executive offices generally do not file with the FEC, so campaign finance is not available for most of them here."
+    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and campaign finance totals where a filing was found (federal candidates file with the FEC; Texas state offices file with the Texas Ethics Commission -- each finance bullet names which). We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set."
   },
   "archetypes": {
     "renter_young_worker": {
@@ -50,6 +50,10 @@
           {
             "text": "No public data in our set on Nate Sheets's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Nate Sheets's campaign had raised $1,064,677 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "tucker-clayton": [
@@ -60,6 +64,10 @@
           {
             "text": "No public data in our set on Clayton Tucker's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Clayton Tucker's campaign had raised $17,611 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -76,12 +84,20 @@
           {
             "text": "No public data in our set on Nate Sheets's recorded votes or stated positions regarding property taxes or public school funding.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Nate Sheets's campaign had raised $1,064,677 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "tucker-clayton": [
           {
             "text": "On education, Clayton Tucker's recorded position: Tucker supports taxpayer-funded public education \"through college,\" indicating strong backing for public-school funding rather than vouchers or charters.",
             "source": "https://ivoterguide.com/candidate/53259/race/8288/election/791"
+          },
+          {
+            "text": "As of 2026-02-21, Clayton Tucker's campaign had raised $17,611 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -98,6 +114,10 @@
           {
             "text": "No public data in our set on Nate Sheets's recorded votes or stated positions regarding small business taxes or regulation.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Nate Sheets's campaign had raised $1,064,677 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "tucker-clayton": [
@@ -108,6 +128,10 @@
           {
             "text": "No public data in our set on Clayton Tucker's recorded votes or stated positions regarding small business taxes or regulation.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Clayton Tucker's campaign had raised $17,611 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -124,12 +148,20 @@
           {
             "text": "No public data in our set on Nate Sheets's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Nate Sheets's campaign had raised $1,064,677 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "tucker-clayton": [
           {
             "text": "On healthcare, Clayton Tucker's recorded position: Clayton Tucker states that \"it is the government\u2019s responsibility to ensure everyone has health insurance\" and pledges to use the Agriculture office to lower prices and expand rural hospitals.",
             "source": "https://www.claytontuckertx.com/healthcare"
+          },
+          {
+            "text": "As of 2026-02-21, Clayton Tucker's campaign had raised $17,611 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -146,6 +178,10 @@
           {
             "text": "No public data in our set on Nate Sheets's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Nate Sheets's campaign had raised $1,064,677 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "tucker-clayton": [
@@ -156,6 +192,10 @@
           {
             "text": "No public data in our set on Clayton Tucker's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Clayton Tucker's campaign had raised $17,611 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -172,6 +212,10 @@
           {
             "text": "No public data in our set on Nate Sheets's recorded votes or stated positions regarding veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Nate Sheets's campaign had raised $1,064,677 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "tucker-clayton": [
@@ -182,6 +226,10 @@
           {
             "text": "No public data in our set on Clayton Tucker's recorded votes or stated positions regarding veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Clayton Tucker's campaign had raised $17,611 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -198,12 +246,20 @@
           {
             "text": "No public data in our set on Nate Sheets's recorded votes or stated positions regarding higher education funding or student costs.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Nate Sheets's campaign had raised $1,064,677 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "tucker-clayton": [
           {
             "text": "On education, Clayton Tucker's recorded position: Tucker supports taxpayer-funded public education \"through college,\" indicating strong backing for public-school funding rather than vouchers or charters.",
             "source": "https://ivoterguide.com/candidate/53259/race/8288/election/791"
+          },
+          {
+            "text": "As of 2026-02-21, Clayton Tucker's campaign had raised $17,611 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -220,6 +276,10 @@
           {
             "text": "No public data in our set on Nate Sheets's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Nate Sheets's campaign had raised $1,064,677 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "tucker-clayton": [
@@ -230,6 +290,10 @@
           {
             "text": "No public data in our set on Clayton Tucker's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election"
+          },
+          {
+            "text": "As of 2026-02-21, Clayton Tucker's campaign had raised $17,611 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },

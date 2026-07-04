@@ -4,7 +4,7 @@
 // an equal-weight candidate comparison (name, party, incumbent tag, money
 // raised w/ source link, up to 3 key votes w/ source links) and a button to
 // request a personalized read via <InsightsPanel/> (owned by the parent).
-import type { Candidate, Race } from "@/lib/dataBackend";
+import type { Candidate, DataQuality, Race } from "@/lib/dataBackend";
 
 const LEVEL_LABELS: Record<string, string> = {
   federal: "Federal",
@@ -33,6 +33,28 @@ function marginPill(race: Race): string | null {
   return null;
 }
 
+// Neutral "how much do we actually know here" signal — same label, same
+// muted style, same spot for every tier A-D and every candidate/race, so it
+// never reads as a knock on whoever happens to score low. The tooltip is the
+// only place the underlying `missing[]` gaps (verbatim, e.g. "no campaign
+// finance") show up; a D just means "we have little public data."
+function QualityChip({ quality }: { quality?: DataQuality }) {
+  if (!quality?.tier) return null;
+  const missing = quality.missing ?? [];
+  const title =
+    missing.length > 0
+      ? `Limited public data available: ${missing.join(", ")}`
+      : "Data confidence score for what we could verify in our set";
+  return (
+    <span
+      title={title}
+      className="inline-flex shrink-0 items-center rounded-full border border-zinc-700 px-2 py-0.5 text-[10px] uppercase tracking-wide text-zinc-500"
+    >
+      Data confidence: {quality.tier}
+    </span>
+  );
+}
+
 function CandidateColumn({ candidate }: { candidate: Candidate }) {
   if (candidate.data_missing) {
     return (
@@ -55,10 +77,15 @@ function CandidateColumn({ candidate }: { candidate: Candidate }) {
           </span>
         )}
       </div>
-      {candidate.party && (
-        <span className="mb-3 inline-block rounded-full border border-zinc-700 px-2 py-0.5 text-xs text-zinc-400">
-          {candidate.party}
-        </span>
+      {(candidate.party || candidate.data_quality) && (
+        <div className="mb-3 flex flex-wrap items-center gap-1.5">
+          {candidate.party && (
+            <span className="inline-block rounded-full border border-zinc-700 px-2 py-0.5 text-xs text-zinc-400">
+              {candidate.party}
+            </span>
+          )}
+          <QualityChip quality={candidate.data_quality} />
+        </div>
       )}
 
       <div className="mb-3 text-xs">
@@ -135,6 +162,7 @@ function RaceCard({
           {race.district && <div className="text-xs text-zinc-500">{race.district}</div>}
         </div>
         <div className="flex flex-wrap items-center gap-2">
+          <QualityChip quality={race.data_quality} />
           {pill && (
             <span className="rounded-full border border-zinc-700 px-2.5 py-1 text-[11px] text-zinc-400">
               {pill}

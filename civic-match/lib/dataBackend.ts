@@ -58,6 +58,18 @@ export interface CandidatePosition {
   source?: string;
 }
 
+// Coverage/completeness signal from pipeline/score_quality.py
+// (data/tx/quality_report.json) — optional because older cached payloads and
+// the live LLM path may not carry it yet. `missing` entries are pre-written,
+// neutral, human-readable strings (e.g. "no campaign finance") meant to be
+// shown verbatim, never paraphrased into something that reads as a knock on
+// the candidate.
+export interface DataQuality {
+  score?: number;
+  tier?: "A" | "B" | "C" | "D";
+  missing?: string[];
+}
+
 export interface Candidate {
   candidate_id: string;
   name: string;
@@ -74,6 +86,7 @@ export interface Candidate {
   // set by the backend when a race references a candidate_id it has no
   // record for — render an honest "no data" state, never guess a name.
   data_missing?: boolean;
+  data_quality?: DataQuality;
 }
 
 export interface RaceContext {
@@ -97,6 +110,7 @@ export interface Race {
   district: string | null;
   context?: RaceContext;
   candidates: Candidate[];
+  data_quality?: DataQuality;
 }
 
 // Raw wire shape: candidates may be an id-keyed object (current backend) or
@@ -135,10 +149,32 @@ export interface InsightBullet {
   source?: string;
 }
 
+// "Consequence horizons" (CLAUDE.md § Consequence horizons) — profile-
+// personalized short-term vs. long-term read, additive to `candidates`
+// above. `now` restates current-term effect of a recorded vote/position;
+// `long_term` is an explicitly conditional projection and always names the
+// assumption it hangs on. Optional throughout: older cache entries and the
+// live-LLM path may not carry it yet.
+export interface HorizonBullet {
+  text: string;
+  source?: string;
+  basis?: string;
+}
+
+export interface LongTermHorizonBullet extends HorizonBullet {
+  assumption?: string;
+}
+
+export interface CandidateHorizons {
+  now?: HorizonBullet[];
+  long_term?: LongTermHorizonBullet[];
+}
+
 export interface InsightsResponse {
   mode: "cached" | "live" | "unavailable";
   archetype_used?: string;
   candidates: Record<string, InsightBullet[]>;
+  horizons?: Record<string, CandidateHorizons>;
   summary?: string;
   caveats?: string;
   detail?: string; // present on mode "unavailable"

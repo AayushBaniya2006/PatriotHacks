@@ -59,13 +59,21 @@
     ],
     "background": "Greg Abbott, incumbent governor (2015–present).",
     "data_quality": {
-      "score": 45.0,
-      "tier": "C",
+      "score": 70.0,
+      "tier": "B",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 0.0,
+      "disbursements": 42592.76,
+      "cash_on_hand": 569675.55,
+      "as_of": "2026-02-21",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00019652",
+      "basis": "per_report_period"
     }
   },
   "hinojosa-gina": {
@@ -127,13 +135,21 @@
     ],
     "background": "Gina Hinojosa, state representative from the 49th district (2017–present).",
     "data_quality": {
-      "score": 43.0,
-      "tier": "C",
+      "score": 68.0,
+      "tier": "B",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 951069.37,
+      "disbursements": 673404.86,
+      "cash_on_hand": 617635.11,
+      "as_of": "2026-02-21",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00080440",
+      "basis": "per_report_period"
     }
   },
   "dixon-pat": {
@@ -197,13 +213,21 @@
     ],
     "background": "Pat Dixon (Libertarian), former chair of the Libertarian Party of Texas",
     "data_quality": {
-      "score": 45.0,
-      "tier": "C",
+      "score": 70.0,
+      "tier": "B",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 4050.0,
+      "disbursements": 0.0,
+      "cash_on_hand": 300.0,
+      "as_of": "2025-12-31",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00055583",
+      "basis": "per_report_period"
     }
   },
   "raphoon-jenn": {
@@ -219,14 +243,22 @@
     ],
     "background": "Jenn Mack Raphoon (Independent)",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 0.0,
+      "disbursements": 0.0,
+      "cash_on_hand": 0.0,
+      "as_of": "2025-06-30",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00088719",
+      "basis": "per_report_period"
     }
   },
   "patrick-dan": {
@@ -291,13 +323,21 @@
     ],
     "background": "Dan Patrick, incumbent lieutenant governor (2015–present).",
     "data_quality": {
-      "score": 45.0,
-      "tier": "C",
+      "score": 70.0,
+      "tier": "B",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 150000.0,
+      "disbursements": 169406.9,
+      "cash_on_hand": 457.51,
+      "as_of": "2026-02-21",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00057897",
+      "basis": "per_report_period"
     }
   },
   "goodwin-vikki": {
@@ -360,13 +400,21 @@
     ],
     "background": "Vikki Goodwin, state representative from the 47th district (2019–present).",
     "data_quality": {
-      "score": 45.0,
-      "tier": "C",
+      "score": 70.0,
+      "tier": "B",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 239668.0,
+      "disbursements": 232357.45,
+      "cash_on_hand": 145994.41,
+      "as_of": "2026-05-16",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00081436",
+      "basis": "per_report_period"
     }
   },
   "collier-mike": {
@@ -382,14 +430,22 @@
     ],
     "background": "Mike Collier (Independent), certified public accountant, Democratic nominee for Lt. Governor in 2018 and 2022, Democratic nominee for Comptroller in 2014",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 50292.0,
+      "disbursements": 42090.07,
+      "cash_on_hand": 40931.47,
+      "as_of": "2025-12-31",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00069397",
+      "basis": "per_report_period"
     }
   },
   "cristo-anthony": {
@@ -405,14 +461,22 @@
     ],
     "background": "Anthony Cristo (Libertarian), nominee for Texas's 15th congressional district in 2018, and nominee for Texas's 34th congressional district in 2020",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 3750.0,
+      "disbursements": 0.0,
+      "cash_on_hand": 0.0,
+      "as_of": "2025-12-31",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00090296",
+      "basis": "per_report_period"
     }
   },
   "mccormick-kevin": {
@@ -428,14 +492,22 @@
     ],
     "background": "Kevin McCormick (Green), former teacher",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 0.0,
+      "disbursements": 3848.25,
+      "cash_on_hand": 0.0,
+      "as_of": "2025-12-31",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00090462",
+      "basis": "per_report_period"
     }
   },
   "middleton-mayes": {
@@ -451,14 +523,22 @@
     ],
     "background": "Mayes Middleton, state senator from the 11th district (2023–present).",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 5719372.05,
+      "disbursements": 9309283.08,
+      "cash_on_hand": 2211738.07,
+      "as_of": "2026-05-16",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00081727",
+      "basis": "per_report_period"
     }
   },
   "johnson-nathan": {
@@ -474,14 +554,22 @@
     ],
     "background": "Nathan Johnson, state senator from the 16th district (2019–present).",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 365981.04,
+      "disbursements": 442785.18,
+      "cash_on_hand": 90855.45,
+      "as_of": "2026-05-16",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00081605",
+      "basis": "per_report_period"
     }
   },
   "oxford-tom": {
@@ -497,14 +585,22 @@
     ],
     "background": "Tom Oxford (Libertarian), attorney and perennial candidate",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 393.89,
+      "disbursements": 0.0,
+      "cash_on_hand": 0.0,
+      "as_of": "2026-06-30",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00055017",
+      "basis": "per_report_period"
     }
   },
   "paxton-ken": {
@@ -670,14 +766,22 @@
     ],
     "background": "Don Huffines, former state senator from the 16th district (2015–2019) and candidate for governor in 2022.",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 1327355.49,
+      "disbursements": 7841416.1,
+      "cash_on_hand": 2548529.04,
+      "as_of": "2026-02-21",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00069651",
+      "basis": "per_report_period"
     }
   },
   "eckhardt-sarah": {
@@ -693,14 +797,22 @@
     ],
     "background": "Sarah Eckhardt, state senator from the 14th district (2020–present).",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 57884.39,
+      "disbursements": 58911.89,
+      "cash_on_hand": 145643.63,
+      "as_of": "2026-02-21",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00084783",
+      "basis": "per_report_period"
     }
   },
   "buckingham-dawn": {
@@ -716,14 +828,22 @@
     ],
     "background": "Dawn Buckingham, incumbent land commissioner.",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 1258999.43,
+      "disbursements": 579951.24,
+      "cash_on_hand": 2814830.36,
+      "as_of": "2025-12-31",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00069001",
+      "basis": "per_report_period"
     }
   },
   "flores-benjamin": {
@@ -739,14 +859,22 @@
     ],
     "background": "Benjamin Flores, Bay City councilor (previously ran for governor).",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 2885.0,
+      "disbursements": 43715.44,
+      "cash_on_hand": 24938.0,
+      "as_of": "2026-02-21",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00089819",
+      "basis": "per_report_period"
     }
   },
   "snider-neill": {
@@ -762,14 +890,22 @@
     ],
     "background": "Neill Snider (Libertarian)",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 0.0,
+      "disbursements": 3750.0,
+      "cash_on_hand": 0.0,
+      "as_of": "2025-12-31",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00058885",
+      "basis": "per_report_period"
     }
   },
   "sheets-nate": {
@@ -785,14 +921,22 @@
     ],
     "background": "Nate Sheets, beekeeper and small business owner.",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 1064677.4,
+      "disbursements": 1238316.64,
+      "cash_on_hand": 150202.05,
+      "as_of": "2026-02-21",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00089619",
+      "basis": "per_report_period"
     }
   },
   "tucker-clayton": {
@@ -856,13 +1000,21 @@
     ],
     "background": "Clayton Tucker, rancher and founder of the Texas Progressive Caucus.",
     "data_quality": {
-      "score": 45.0,
-      "tier": "C",
+      "score": 70.0,
+      "tier": "B",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 17611.44,
+      "disbursements": 13464.92,
+      "cash_on_hand": 52507.58,
+      "as_of": "2026-02-21",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00084053",
+      "basis": "per_report_period"
     }
   },
   "french-bo": {
@@ -878,14 +1030,22 @@
     ],
     "background": "Bo French, former chair of the Tarrant County Republican Party.",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 1473367.03,
+      "disbursements": 1023660.68,
+      "cash_on_hand": 78840.73,
+      "as_of": "2026-05-16",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00088180",
+      "basis": "per_report_period"
     }
   },
   "rosenthal-jon": {
@@ -901,14 +1061,22 @@
     ],
     "background": "Jon Rosenthal, state representative from the 135th district (2019–present).",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 59722.8,
+      "disbursements": 58709.64,
+      "cash_on_hand": 30062.7,
+      "as_of": "2025-12-31",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00082332",
+      "basis": "per_report_period"
     }
   },
   "dibianca-arthur": {
@@ -924,14 +1092,22 @@
     ],
     "background": "Arthur DiBianca (Libertarian)",
     "data_quality": {
-      "score": 17.0,
-      "tier": "D",
+      "score": 42.0,
+      "tier": "C",
       "missing": [
-        "no campaign finance",
         "no voting record",
         "no issue positions",
         "no fec/bioguide id"
       ]
+    },
+    "finance": {
+      "receipts": 3750.0,
+      "disbursements": 0.0,
+      "cash_on_hand": 0.0,
+      "as_of": "2025-12-31",
+      "source": "https://www.ethics.state.tx.us/search/cf/",
+      "filer_id": "00052055",
+      "basis": "per_report_period"
     }
   },
   "alexander-dax": {

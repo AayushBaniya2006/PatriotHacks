@@ -32,7 +32,36 @@
     "caveats": [
       "Only facts present in our sourced candidate data set are shown; missing fields mean no public data was on file at build time.",
       "Voting records only exist for sitting U.S. House incumbents; non-incumbent challengers have no federal roll-call history."
-    ]
+    ],
+    "horizons": {
+      "cuellar-henry": {
+        "now": [
+          {
+            "text": "Henry R. Cuellar already voted Yea on H R 29 (7-Jan-2025). A Yea vote required federal detention of unauthorized immigrants charged with theft, burglary, larceny, or assaulting a law enforcement officer, and let state attorneys general sue the federal government over certain immigration enforcement decisions. That's already decided for the current term.",
+            "source": "https://clerk.house.gov/evs/2025/roll006.xml",
+            "basis": "vote: H R 29"
+          }
+        ],
+        "long_term": [
+          {
+            "text": "If Henry R. Cuellar's vote on H R 29 reflects how they would vote on similar bills in the future, that pattern would likely keep shaping this issue over the next decade. This is a projection, not a guarantee.",
+            "source": "https://clerk.house.gov/evs/2025/roll006.xml",
+            "basis": "vote: H R 29",
+            "assumption": "Assumes Henry R. Cuellar keeps voting the same way on similar bills in future terms."
+          }
+        ]
+      },
+      "esparza-juan": {
+        "now": [
+          {
+            "text": "No recorded evidence in our set to project from for Juan Esparza.",
+            "source": "https://www.fec.gov/data/candidate/H6TX28082/",
+            "basis": "none"
+          }
+        ],
+        "long_term": []
+      }
+    }
   },
   "archetypes": {
     "renter_young_worker": {
@@ -61,7 +90,36 @@
       "summary": "TX-28: how each candidate's on-file record connects to renters and young workers, based only on sourced finance/voting data.",
       "caveats": [
         "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
-      ]
+      ],
+      "horizons": {
+        "cuellar-henry": {
+          "now": [
+            {
+              "text": "Henry R. Cuellar already voted Nay on H R 1 (22-May-2025). A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit. That's already decided for the current term and relates to housing costs, rent, or renters' protections.",
+              "source": "https://clerk.house.gov/evs/2025/roll145.xml",
+              "basis": "vote: H R 1"
+            }
+          ],
+          "long_term": [
+            {
+              "text": "If Henry R. Cuellar's vote on H R 1 reflects how they would vote on similar bills in the future, that pattern would likely keep shaping housing costs, rent, or renters' protections over the next decade. This is a projection, not a guarantee.",
+              "source": "https://clerk.house.gov/evs/2025/roll145.xml",
+              "basis": "vote: H R 1",
+              "assumption": "Assumes Henry R. Cuellar keeps voting the same way on similar bills in future terms."
+            }
+          ]
+        },
+        "esparza-juan": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Juan Esparza on housing costs, rent, or renters' protections.",
+              "source": "https://www.fec.gov/data/candidate/H6TX28082/",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "homeowner_parent": {
       "candidates": {
@@ -89,7 +147,47 @@
       "summary": "TX-28: how each candidate's on-file record connects to homeowners with kids, based only on sourced finance/voting data.",
       "caveats": [
         "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
-      ]
+      ],
+      "horizons": {
+        "cuellar-henry": {
+          "now": [
+            {
+              "text": "Henry R. Cuellar already voted Nay on H R 4758 (25-Feb-2026). A Yea vote passed the Homeowner Energy Freedom Act, rolling back certain federal energy-efficiency and appliance/equipment regulations that affect homeowners. That's already decided for the current term and relates to property taxes or public school funding.",
+              "source": "https://clerk.house.gov/evs/2026/roll078.xml",
+              "basis": "vote: H R 4758"
+            },
+            {
+              "text": "Henry R. Cuellar already voted Nay on H R 1 (22-May-2025). A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit. That's already decided for the current term and relates to property taxes or public school funding.",
+              "source": "https://clerk.house.gov/evs/2025/roll145.xml",
+              "basis": "vote: H R 1"
+            }
+          ],
+          "long_term": [
+            {
+              "text": "If Henry R. Cuellar's vote on H R 4758 reflects how they would vote on similar bills in the future, that pattern would likely keep shaping property taxes or public school funding over the next decade. This is a projection, not a guarantee.",
+              "source": "https://clerk.house.gov/evs/2026/roll078.xml",
+              "basis": "vote: H R 4758",
+              "assumption": "Assumes Henry R. Cuellar keeps voting the same way on similar bills in future terms."
+            },
+            {
+              "text": "If Henry R. Cuellar's vote on H R 1 reflects how they would vote on similar bills in the future, that pattern would likely keep shaping property taxes or public school funding over the next decade. This is a projection, not a guarantee.",
+              "source": "https://clerk.house.gov/evs/2025/roll145.xml",
+              "basis": "vote: H R 1",
+              "assumption": "Assumes Henry R. Cuellar keeps voting the same way on similar bills in future terms."
+            }
+          ]
+        },
+        "esparza-juan": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Juan Esparza on property taxes or public school funding.",
+              "source": "https://www.fec.gov/data/candidate/H6TX28082/",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "small_business_owner": {
       "candidates": {
@@ -117,7 +215,36 @@
       "summary": "TX-28: how each candidate's on-file record connects to small business owners, based only on sourced finance/voting data.",
       "caveats": [
         "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
-      ]
+      ],
+      "horizons": {
+        "cuellar-henry": {
+          "now": [
+            {
+              "text": "Henry R. Cuellar already voted Nay on H R 1 (22-May-2025). A Yea vote passed the 2025 budget reconciliation package extending the 2017 tax cuts, adding new tax breaks (e.g. on tips and overtime pay), cutting projected Medicaid and SNAP spending, boosting border and defense funding, and raising the debt limit. That's already decided for the current term and relates to small business taxes or regulation.",
+              "source": "https://clerk.house.gov/evs/2025/roll145.xml",
+              "basis": "vote: H R 1"
+            }
+          ],
+          "long_term": [
+            {
+              "text": "If Henry R. Cuellar's vote on H R 1 reflects how they would vote on similar bills in the future, that pattern would likely keep shaping small business taxes or regulation over the next decade. This is a projection, not a guarantee.",
+              "source": "https://clerk.house.gov/evs/2025/roll145.xml",
+              "basis": "vote: H R 1",
+              "assumption": "Assumes Henry R. Cuellar keeps voting the same way on similar bills in future terms."
+            }
+          ]
+        },
+        "esparza-juan": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Juan Esparza on small business taxes or regulation.",
+              "source": "https://www.fec.gov/data/candidate/H6TX28082/",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "healthcare_aca_or_uninsured": {
       "candidates": {
@@ -145,7 +272,47 @@
       "summary": "TX-28: how each candidate's on-file record connects to people on ACA marketplace plans or without insurance, based only on sourced finance/voting data.",
       "caveats": [
         "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
-      ]
+      ],
+      "horizons": {
+        "cuellar-henry": {
+          "now": [
+            {
+              "text": "Henry R. Cuellar already voted Nay on H R 6703 (17-Dec-2025). A Yea vote passed a Republican-backed alternative to extending the enhanced ACA marketplace subsidies, restructuring health-insurance premium subsidy rules for individual-market plans. That's already decided for the current term and relates to health coverage, the ACA, or Medicaid.",
+              "source": "https://clerk.house.gov/evs/2025/roll349.xml",
+              "basis": "vote: H R 6703"
+            },
+            {
+              "text": "Henry R. Cuellar already voted Yea on H R 498 (18-Dec-2025). A Yea vote barred state Medicaid programs from using federal Medicaid funds to cover gender-transition procedures for minors. That's already decided for the current term and relates to health coverage, the ACA, or Medicaid.",
+              "source": "https://clerk.house.gov/evs/2025/roll362.xml",
+              "basis": "vote: H R 498"
+            }
+          ],
+          "long_term": [
+            {
+              "text": "If Henry R. Cuellar's vote on H R 6703 reflects how they would vote on similar bills in the future, that pattern would likely keep shaping health coverage, the ACA, or Medicaid over the next decade. This is a projection, not a guarantee.",
+              "source": "https://clerk.house.gov/evs/2025/roll349.xml",
+              "basis": "vote: H R 6703",
+              "assumption": "Assumes Henry R. Cuellar keeps voting the same way on similar bills in future terms."
+            },
+            {
+              "text": "If Henry R. Cuellar's vote on H R 498 reflects how they would vote on similar bills in the future, that pattern would likely keep shaping health coverage, the ACA, or Medicaid over the next decade. This is a projection, not a guarantee.",
+              "source": "https://clerk.house.gov/evs/2025/roll362.xml",
+              "basis": "vote: H R 498",
+              "assumption": "Assumes Henry R. Cuellar keeps voting the same way on similar bills in future terms."
+            }
+          ]
+        },
+        "esparza-juan": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Juan Esparza on health coverage, the ACA, or Medicaid.",
+              "source": "https://www.fec.gov/data/candidate/H6TX28082/",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "medicare_retiree": {
       "candidates": {
@@ -173,7 +340,29 @@
       "summary": "TX-28: how each candidate's on-file record connects to Medicare-age retirees, based only on sourced finance/voting data.",
       "caveats": [
         "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
-      ]
+      ],
+      "horizons": {
+        "cuellar-henry": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Henry R. Cuellar on Medicare, Social Security, or retiree benefits.",
+              "source": "https://clerk.house.gov/Votes",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "esparza-juan": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Juan Esparza on Medicare, Social Security, or retiree benefits.",
+              "source": "https://www.fec.gov/data/candidate/H6TX28082/",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "veteran": {
       "candidates": {
@@ -201,7 +390,29 @@
       "summary": "TX-28: how each candidate's on-file record connects to veterans, based only on sourced finance/voting data.",
       "caveats": [
         "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
-      ]
+      ],
+      "horizons": {
+        "cuellar-henry": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Henry R. Cuellar on veterans' benefits or services.",
+              "source": "https://clerk.house.gov/Votes",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "esparza-juan": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Juan Esparza on veterans' benefits or services.",
+              "source": "https://www.fec.gov/data/candidate/H6TX28082/",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "student": {
       "candidates": {
@@ -229,7 +440,29 @@
       "summary": "TX-28: how each candidate's on-file record connects to students, based only on sourced finance/voting data.",
       "caveats": [
         "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
-      ]
+      ],
+      "horizons": {
+        "cuellar-henry": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Henry R. Cuellar on higher education funding or student costs.",
+              "source": "https://clerk.house.gov/Votes",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        },
+        "esparza-juan": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Juan Esparza on higher education funding or student costs.",
+              "source": "https://www.fec.gov/data/candidate/H6TX28082/",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     },
     "rural_agriculture": {
       "candidates": {
@@ -257,7 +490,47 @@
       "summary": "TX-28: how each candidate's on-file record connects to rural and agricultural voters, based only on sourced finance/voting data.",
       "caveats": [
         "Bullets only draw on this race's sourced candidate data; where no relevant vote or position was on file, that gap is stated explicitly."
-      ]
+      ],
+      "horizons": {
+        "cuellar-henry": {
+          "now": [
+            {
+              "text": "Henry R. Cuellar already voted Yea on H R 26 (7-Feb-2025). A Yea vote barred the President from declaring or enforcing a moratorium on hydraulic fracturing (fracking) for oil and gas without prior congressional approval. That's already decided for the current term and relates to farming, ranching, water rights, or rural infrastructure.",
+              "source": "https://clerk.house.gov/evs/2025/roll035.xml",
+              "basis": "vote: H R 26"
+            },
+            {
+              "text": "Henry R. Cuellar already voted Yea on H R 7744 (5-Mar-2026). A Yea vote passed the Department of Homeland Security Appropriations Act, 2026, funding DHS (including CBP and ICE border security and immigration enforcement operations) for the fiscal year. That's already decided for the current term and relates to farming, ranching, water rights, or rural infrastructure.",
+              "source": "https://clerk.house.gov/evs/2026/roll087.xml",
+              "basis": "vote: H R 7744"
+            }
+          ],
+          "long_term": [
+            {
+              "text": "If Henry R. Cuellar's vote on H R 26 reflects how they would vote on similar bills in the future, that pattern would likely keep shaping farming, ranching, water rights, or rural infrastructure over the next decade. This is a projection, not a guarantee.",
+              "source": "https://clerk.house.gov/evs/2025/roll035.xml",
+              "basis": "vote: H R 26",
+              "assumption": "Assumes Henry R. Cuellar keeps voting the same way on similar bills in future terms."
+            },
+            {
+              "text": "If Henry R. Cuellar's vote on H R 7744 reflects how they would vote on similar bills in the future, that pattern would likely keep shaping farming, ranching, water rights, or rural infrastructure over the next decade. This is a projection, not a guarantee.",
+              "source": "https://clerk.house.gov/evs/2026/roll087.xml",
+              "basis": "vote: H R 7744",
+              "assumption": "Assumes Henry R. Cuellar keeps voting the same way on similar bills in future terms."
+            }
+          ]
+        },
+        "esparza-juan": {
+          "now": [
+            {
+              "text": "No recorded evidence in our set to project from for Juan Esparza on farming, ranching, water rights, or rural infrastructure.",
+              "source": "https://www.fec.gov/data/candidate/H6TX28082/",
+              "basis": "none"
+            }
+          ],
+          "long_term": []
+        }
+      }
     }
   }
 }

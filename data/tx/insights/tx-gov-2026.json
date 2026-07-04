@@ -17,8 +17,8 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
         },
         {
-          "text": "No public data in our set on Greg Abbott's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
-          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0 in campaign receipts and spent $42,593, per Texas Ethics Commission filings.",
+          "source": "https://www.ethics.state.tx.us/search/cf/"
         }
       ],
       "hinojosa-gina": [
@@ -35,8 +35,8 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
         },
         {
-          "text": "No public data in our set on Gina Hinojosa's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
-          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069 in campaign receipts and spent $673,405, per Texas Ethics Commission filings.",
+          "source": "https://www.ethics.state.tx.us/search/cf/"
         }
       ],
       "dixon-pat": [
@@ -53,8 +53,8 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
         },
         {
-          "text": "No public data in our set on Pat Dixon's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
-          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050 in campaign receipts and spent $0, per Texas Ethics Commission filings.",
+          "source": "https://www.ethics.state.tx.us/search/cf/"
         }
       ],
       "raphoon-jenn": [
@@ -67,13 +67,13 @@
           "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
         },
         {
-          "text": "No public data in our set on Jenn Mack Raphoon's campaign finance totals (this office is not required to file with the FEC, or no filing was found).",
-          "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0 in campaign receipts and spent $0, per Texas Ethics Commission filings.",
+          "source": "https://www.ethics.state.tx.us/search/cf/"
         }
       ]
     },
     "summary": "Governor of Texas race: Greg Abbott, Gina Hinojosa, Pat Dixon, Jenn Mack Raphoon. This overview lists each candidate's party, background, and campaign finance where available in our data set.",
-    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and (for federal candidates only) FEC campaign finance totals. We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set; state executive offices generally do not file with the FEC, so campaign finance is not available for most of them here."
+    "caveats": "Our data set for this race covers candidate name, party, incumbency, background summary, and campaign finance totals where a filing was found (federal candidates file with the FEC; Texas state offices file with the Texas Ethics Commission -- each finance bullet names which). We do not have recorded voting histories or issue-by-issue policy positions for these candidates in this data set."
   },
   "archetypes": {
     "renter_young_worker": {
@@ -82,6 +82,10 @@
           {
             "text": "On housing, Greg Abbott's recorded position: Abbott explicitly advocates for housing affordability through deregulation, cutting regulations, and speeding up permitting to make it easier to build. He also proposes a one-year tax exemption on home improvements.",
             "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address"
+          },
+          {
+            "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "hinojosa-gina": [
@@ -92,6 +96,10 @@
           {
             "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "dixon-pat": [
@@ -102,6 +110,10 @@
           {
             "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "raphoon-jenn": [
@@ -112,6 +124,10 @@
           {
             "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding housing costs, rent, or renters' protections.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on housing costs, rent, or renters' protections.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -128,6 +144,10 @@
           {
             "text": "On education, Greg Abbott's recorded position: Abbott is a leading proponent of school choice, having signed Texas's landmark Education Savings Account program in 2025. He campaigned on 'education freedom,' supports diverting public funds to private options through ESAs, and emphasizes parental control over education decisions.",
             "source": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law"
+          },
+          {
+            "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "hinojosa-gina": [
@@ -138,6 +158,10 @@
           {
             "text": "On taxes, Gina Hinojosa's recorded position: She calls for ending corporate loopholes and using the proceeds to lower middle-class taxes while protecting neighborhood-school funding.",
             "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/"
+          },
+          {
+            "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "dixon-pat": [
@@ -148,6 +172,10 @@
           {
             "text": "On taxes, Pat Dixon's recorded position: Dixon states that no party wants lower taxes more than the Libertarian Party, insists spending cuts must precede tax reductions, and opposes replacing property taxes with higher sales taxes without local control.",
             "source": "https://patdixon.org/property-tax/"
+          },
+          {
+            "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "raphoon-jenn": [
@@ -158,6 +186,10 @@
           {
             "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding property taxes or public school funding.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on property taxes or public school funding.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -170,18 +202,30 @@
           {
             "text": "On taxes, Greg Abbott's recorded position: Abbott has made property tax reduction a centerpiece of his governance, signing over $18 billion in property tax cuts in 2023 and seeking at least $10 billion more. He advocates for eliminating school property taxes for homeowners and raising business personal property exemptions.",
             "source": "https://gov.texas.gov/news/post/governor-abbott-delivers-2025-state-of-the-state-address"
+          },
+          {
+            "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "hinojosa-gina": [
           {
             "text": "On taxes, Gina Hinojosa's recorded position: She calls for ending corporate loopholes and using the proceeds to lower middle-class taxes while protecting neighborhood-school funding.",
             "source": "https://www.amarillo.com/story/news/politics/elections/candidate-profiles/2026/02/15/gina-hinojosa-2026-texas-democratic-primary-candidate-questionnaire-for-texas-governor/88584933007/"
+          },
+          {
+            "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "dixon-pat": [
           {
             "text": "On taxes, Pat Dixon's recorded position: Dixon states that no party wants lower taxes more than the Libertarian Party, insists spending cuts must precede tax reductions, and opposes replacing property taxes with higher sales taxes without local control.",
             "source": "https://patdixon.org/property-tax/"
+          },
+          {
+            "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "raphoon-jenn": [
@@ -192,6 +236,10 @@
           {
             "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding small business taxes or regulation.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on small business taxes or regulation.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -208,12 +256,20 @@
           {
             "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "hinojosa-gina": [
           {
             "text": "On healthcare, Gina Hinojosa's recorded position: Hinojosa has consistently supported expanding government healthcare coverage. She voted to extend Medicaid eligibility for 12 months after birth or miscarriage (HB133) and supported a pilot program for Medicaid coverage of doula services (HB158). Her campaign platform emphasizes fighting for affordable health care and strengthening health care access.",
             "source": "https://www.tlok.org/itx-lege/record_legislators.php?id=106"
+          },
+          {
+            "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "dixon-pat": [
@@ -224,6 +280,10 @@
           {
             "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "raphoon-jenn": [
@@ -234,6 +294,10 @@
           {
             "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding health coverage, the ACA, or Medicaid.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on health coverage, the ACA, or Medicaid.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -250,6 +314,10 @@
           {
             "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "hinojosa-gina": [
@@ -260,6 +328,10 @@
           {
             "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "dixon-pat": [
@@ -270,6 +342,10 @@
           {
             "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "raphoon-jenn": [
@@ -280,6 +356,10 @@
           {
             "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding Medicare, Social Security, or retiree benefits.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on Medicare, Social Security, or retiree benefits.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -296,6 +376,10 @@
           {
             "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "hinojosa-gina": [
@@ -306,6 +390,10 @@
           {
             "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "dixon-pat": [
@@ -316,6 +404,10 @@
           {
             "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "raphoon-jenn": [
@@ -326,6 +418,10 @@
           {
             "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding veterans' benefits or services.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on veterans' benefits or services.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -338,18 +434,30 @@
           {
             "text": "On education, Greg Abbott's recorded position: Abbott is a leading proponent of school choice, having signed Texas's landmark Education Savings Account program in 2025. He campaigned on 'education freedom,' supports diverting public funds to private options through ESAs, and emphasizes parental control over education decisions.",
             "source": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law"
+          },
+          {
+            "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "hinojosa-gina": [
           {
             "text": "On education, Gina Hinojosa's recorded position: Hinojosa is a strong advocate for public school funding and opposes school vouchers. She authored an opinion piece explicitly stating she opposes the governor's voucher plan, calling it 'irresponsible and harmful.' She emphasizes that Texas public schools need at least $40 billion to reach national per-student funding averages and has worked with bipartisan allies to block voucher legislation.",
             "source": "https://www.statesman.com/story/opinion/columns/guest/2023/10/09/opinion-hinojosa-texas-schools-need-money-not-vouchers/71031501007/"
+          },
+          {
+            "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "dixon-pat": [
           {
             "text": "On education, Pat Dixon's recorded position: Dixon strongly supports school choice, endorsing statewide voucher programs where education funding follows students to any school. He criticizes standardized testing mandates and 'Robin Hood' school funding redistribution, citing the Texas voucher plan that accepted 90,000 students as a model to expand rather than restrict.",
             "source": "https://patdixon.org/school-choice/"
+          },
+          {
+            "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "raphoon-jenn": [
@@ -360,6 +468,10 @@
           {
             "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding higher education funding or student costs.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on higher education funding or student costs.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
@@ -376,6 +488,10 @@
           {
             "text": "No public data in our set on Greg Abbott's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2026-02-21, Greg Abbott's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "hinojosa-gina": [
@@ -386,6 +502,10 @@
           {
             "text": "No public data in our set on Gina Hinojosa's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2026-02-21, Gina Hinojosa's campaign had raised $951,069 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "dixon-pat": [
@@ -396,6 +516,10 @@
           {
             "text": "No public data in our set on Pat Dixon's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-12-31, Pat Dixon's campaign had raised $4,050 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ],
         "raphoon-jenn": [
@@ -406,6 +530,10 @@
           {
             "text": "No public data in our set on Jenn Mack Raphoon's recorded votes or stated positions regarding farming, ranching, water rights, or rural infrastructure.",
             "source": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election"
+          },
+          {
+            "text": "As of 2025-06-30, Jenn Mack Raphoon's campaign had raised $0 in total, per Texas Ethics Commission filings. That is general campaign-finance context; it does not tell us the candidate's stance on farming, ranching, water rights, or rural infrastructure.",
+            "source": "https://www.ethics.state.tx.us/search/cf/"
           }
         ]
       },
