@@ -28,6 +28,7 @@ data/tx/app.db
 
 # Agent workspaces
 .codex/
+output/
 
 # Local-only competitive analysis and notes; never commit or push
 local-only/

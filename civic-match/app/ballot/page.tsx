@@ -402,7 +402,7 @@ function SelectableCard({
       onClick={onClick}
       aria-pressed={selected}
       className={cn(
-        "flex w-full items-center rounded-[10px] border p-3 text-left transition",
+        "flex w-full min-w-0 items-center overflow-hidden rounded-[10px] border p-3 text-left transition",
         selected
           ? "border-[#d8a15b] bg-[#d8a15b]/10"
           : "border-white/14 bg-white/[0.035] hover:border-white/28"
@@ -698,8 +698,8 @@ export default function BallotPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 md:px-8 md:py-6">
-      <main className="mx-auto grid min-h-[calc(100svh-2rem)] w-full max-w-[420px] md:h-[calc(100svh-3rem)] md:min-h-[640px] md:max-w-6xl md:grid-cols-[300px_minmax(0,1fr)] md:overflow-hidden md:rounded-[28px] md:border md:border-[#d8a15b]/30 md:bg-[#051628] md:shadow-[0_28px_90px_rgba(0,0,0,0.45)] xl:grid-cols-[340px_minmax(0,1fr)]">
+    <div className="min-h-screen overflow-x-hidden bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 md:p-0">
+      <main className="mx-auto grid min-h-[calc(100svh-2rem)] w-full max-w-[420px] md:h-screen md:min-h-screen md:max-w-none md:grid-cols-[320px_minmax(0,1fr)] md:overflow-hidden md:bg-[#051628] xl:grid-cols-[360px_minmax(0,1fr)]">
         <DesktopRail
           step={step}
           locationDisplay={locationDisplay}
@@ -770,7 +770,7 @@ export default function BallotPage() {
                 {ballot.warning}
               </p>
             )}
-            <div className="mt-7 grid flex-1 content-start gap-3 overflow-y-auto pr-1 md:grid-cols-2">
+            <div className="mt-7 grid flex-1 content-start gap-3 overflow-x-hidden overflow-y-auto pr-1 md:grid-cols-2">
               {races.length > 0 ? (
                 races.slice(0, 7).map((race, index) => (
                   <SelectableCard
