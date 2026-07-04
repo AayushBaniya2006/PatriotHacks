@@ -331,7 +331,7 @@ export default function IntakePage() {
           <button
             key={o.key}
             onClick={() => setPendingScalar(o.scalar)}
-            className={`w-full rounded-xl border px-5 py-4 text-left transition ${
+            className={`w-full rounded-[10px] border px-5 py-4 text-left transition ${
               pendingScalar === o.scalar
                 ? "border-gold bg-gold/10 text-white"
                 : "border-white/14 bg-white/[0.035] text-white/72 hover:border-gold/45"
@@ -343,7 +343,7 @@ export default function IntakePage() {
         ))}
         <button
           onClick={() => setPendingScalar(null)}
-          className={`w-full rounded-xl border border-dashed px-5 py-3 text-left text-sm transition ${
+          className={`w-full rounded-[10px] border border-dashed px-5 py-3 text-left text-sm transition ${
             pendingScalar === null
               ? "border-gold/60 text-gold"
               : "border-white/12 text-white/45 hover:border-white/25"

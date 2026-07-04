@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import { hierarchy, tree, type HierarchyPointNode } from "d3-hierarchy";
 import { loadPrefs } from "@/lib/prefs";
 import type { ScenarioNode, ScenarioTree, UserPreferences } from "@/lib/types";
@@ -9,8 +9,11 @@ const NODE_W = 248;
 const NODE_H = 94;
 const GAP_X = 88;
 const GAP_Y = 28;
-
 const LIKELIHOOD_RANK: Record<string, number> = { high: 3, medium: 2, low: 1 };
+const scrollAreaStyle: CSSProperties = {
+  scrollbarColor: "rgba(182,141,93,0.55) rgba(255,255,255,0.06)",
+  scrollbarWidth: "thin",
+};
 
 type Tone = {
   label: string;
@@ -25,8 +28,8 @@ function cn(...classes: Array<string | false | null | undefined>) {
   return classes.filter(Boolean).join(" ");
 }
 
-function nodeTone(n: ScenarioNode): Tone {
-  if (n.kind === "fact") {
+function nodeTone(node: ScenarioNode): Tone {
+  if (node.kind === "fact") {
     return {
       label: "Fact",
       dot: "#b68d5d",
@@ -36,7 +39,7 @@ function nodeTone(n: ScenarioNode): Tone {
       surface: "rgba(182,141,93,0.11)",
     };
   }
-  if (n.likelihood === "high") {
+  if (node.likelihood === "high") {
     return {
       label: "High",
       dot: "#8fb7c6",
@@ -46,7 +49,7 @@ function nodeTone(n: ScenarioNode): Tone {
       surface: "rgba(143,183,198,0.10)",
     };
   }
-  if (n.likelihood === "low") {
+  if (node.likelihood === "low") {
     return {
       label: "Low",
       dot: "#77828f",
@@ -66,18 +69,18 @@ function nodeTone(n: ScenarioNode): Tone {
   };
 }
 
-function nodeRank(n: ScenarioNode): number {
-  return n.kind === "fact" ? 4 : LIKELIHOOD_RANK[n.likelihood ?? "medium"] ?? 2;
+function nodeRank(node: ScenarioNode): number {
+  return node.kind === "fact" ? 4 : LIKELIHOOD_RANK[node.likelihood ?? "medium"] ?? 2;
 }
 
-function affectsUser(n: ScenarioNode, prefs: UserPreferences | null): string[] {
+function affectsUser(node: ScenarioNode, prefs: UserPreferences | null): string[] {
   if (!prefs) return [];
   const hits: string[] = [];
-  for (const id of n.issue_ids ?? []) {
+  for (const id of node.issue_ids ?? []) {
     if ((prefs.priority_weights[id] ?? 0) > 0) hits.push(id.replace(/_/g, " "));
   }
   const flags = prefs.profile?.flags ?? {};
-  for (const group of n.affected_groups ?? []) {
+  for (const group of node.affected_groups ?? []) {
     if (group === flags.healthcare || flags[group as keyof typeof flags] === true) {
       hits.push(group.replace(/_/g, " "));
     }
@@ -96,7 +99,7 @@ function maxDepth(root?: ScenarioNode): number {
   return 1 + Math.max(...root.children.map((child) => maxDepth(child)));
 }
 
-function truncateLabel(label: string, limit = 58) {
+function shortLabel(label: string, limit = 58) {
   return label.length > limit ? `${label.slice(0, limit - 1)}...` : label;
 }
 
@@ -276,7 +279,7 @@ export default function FuturePage() {
 
   return (
     <div className="min-h-full bg-[radial-gradient(circle_at_78%_0%,rgba(182,141,93,0.13),transparent_32%),linear-gradient(180deg,#041629_0%,#020c17_100%)] text-cream-light">
-      <section className="mx-auto flex min-h-[calc(100svh-123px)] max-w-7xl flex-col px-4 py-6 sm:px-6 lg:px-8">
+      <section className="mx-auto flex min-h-[calc(100svh-123px)] max-w-7xl flex-col px-4 py-5 sm:px-6 lg:h-[calc(100svh-123px)] lg:overflow-hidden lg:px-8">
         <header className="mb-4 grid gap-5 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-end">
           <div>
             <h1 className="font-serif text-4xl font-normal leading-[1.05] text-white sm:text-5xl">
@@ -362,9 +365,9 @@ export default function FuturePage() {
           </div>
         ) : (
           <div className="grid min-h-0 flex-1 gap-4 lg:grid-cols-[minmax(0,1fr)_360px]">
-            <div className="min-w-0 space-y-4">
+            <div className="flex min-w-0 flex-col gap-4 lg:min-h-0">
               {mostLikely.path.length > 1 && (
-                <section className="rounded-[8px] border border-gold/24 bg-gold/[0.055] p-4">
+                <section className="shrink-0 rounded-[8px] border border-gold/24 bg-gold/[0.055] p-4">
                   <div className="mb-3 flex items-center justify-between gap-3">
                     <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
                       Most likely path
@@ -385,7 +388,9 @@ export default function FuturePage() {
                           aria-pressed={active}
                           className={cn(
                             "group min-w-0 rounded-[7px] border bg-[#06192d]/80 p-3 text-left transition",
-                            active ? "border-gold shadow-[0_0_0_1px_rgba(182,141,93,0.35)]" : "border-white/12 hover:border-gold/45"
+                            active
+                              ? "border-gold shadow-[0_0_0_1px_rgba(182,141,93,0.35)]"
+                              : "border-white/12 hover:border-gold/45"
                           )}
                         >
                           <span className="flex items-center justify-between gap-2">
@@ -397,7 +402,7 @@ export default function FuturePage() {
                             </span>
                           </span>
                           <span className="mt-2 block text-sm font-semibold leading-5 text-white/82 group-hover:text-white">
-                            {truncateLabel(node.label, 48)}
+                            {shortLabel(node.label, 48)}
                           </span>
                         </button>
                       );
@@ -406,7 +411,7 @@ export default function FuturePage() {
                 </section>
               )}
 
-              <section className="overflow-hidden rounded-[8px] border border-white/12 bg-[#030b14] shadow-[0_20px_70px_rgba(0,0,0,0.28)]">
+              <section className="flex h-[34rem] flex-col overflow-hidden rounded-[8px] border border-white/12 bg-[#030b14] shadow-[0_20px_70px_rgba(0,0,0,0.28)] lg:min-h-0 lg:flex-1">
                 <div className="flex flex-col gap-3 border-b border-white/10 bg-[#06192d]/92 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
                   <div>
                     <h2 className="font-serif text-2xl font-normal text-white">Scenario map</h2>
@@ -424,7 +429,8 @@ export default function FuturePage() {
 
                 <div
                   ref={treePaneRef}
-                  className="max-h-[58svh] min-h-[31rem] overflow-auto bg-[linear-gradient(rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.035)_1px,transparent_1px)] bg-[size:36px_36px]"
+                  className="min-h-0 flex-1 overflow-auto bg-[linear-gradient(rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.035)_1px,transparent_1px)] bg-[size:36px_36px]"
+                  style={scrollAreaStyle}
                 >
                   <div className="relative" style={{ width: layout.width, height: layout.height }}>
                     <svg className="absolute inset-0" width={layout.width} height={layout.height}>
@@ -497,7 +503,7 @@ export default function FuturePage() {
                             )}
                           </span>
                           <span className="mt-2 block text-sm font-semibold leading-5 text-white/86">
-                            {truncateLabel(data.label, 64)}
+                            {shortLabel(data.label, 64)}
                           </span>
                         </button>
                       );
@@ -507,7 +513,10 @@ export default function FuturePage() {
               </section>
             </div>
 
-            <aside className="rounded-[8px] border border-white/12 bg-[#06192d]/92 shadow-[0_20px_70px_rgba(0,0,0,0.24)] lg:max-h-[calc(100svh-13rem)] lg:overflow-y-auto">
+            <aside
+              className="rounded-[8px] border border-white/12 bg-[#06192d]/92 shadow-[0_20px_70px_rgba(0,0,0,0.24)] lg:h-full lg:min-h-0 lg:overflow-y-auto"
+              style={scrollAreaStyle}
+            >
               {selectedNode && (
                 <div className="p-5">
                   <div className="mb-5 flex items-start justify-between gap-4">
