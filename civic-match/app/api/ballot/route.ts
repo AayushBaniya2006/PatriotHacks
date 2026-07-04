@@ -2,6 +2,7 @@ import { NextRequest } from "next/server";
 import { getCachedElection } from "@/lib/discovery";
 import { getUI } from "@/lib/config";
 import { slugify } from "@/lib/db";
+import { getBallot } from "@/lib/dataBackend";
 
 export const maxDuration = 60;
 
@@ -31,48 +32,41 @@ export async function GET(req: NextRequest) {
   const address = req.nextUrl.searchParams.get("address");
   if (!address) return Response.json({ error: "address required" }, { status: 400 });
 
-  const backend =
-    process.env.DATA_BACKEND_URL || process.env.BALLOT_BACKEND_URL || "http://localhost:8000";
-  try {
-    const res = await fetch(`${backend}/api/ballot?address=${encodeURIComponent(address)}`, {
-      signal: AbortSignal.timeout(15_000),
-    });
-    if (res.ok) {
-      const data = await res.json();
-      return Response.json({ mode: "resolved", ...data });
-    }
-    if (res.status === 400 || res.status === 422) {
-      return Response.json(await res.json(), { status: res.status });
-    }
-    throw new Error(`backend ${res.status}`);
-  } catch {
-    // Fallback: statewide races (ground truth still applies; we just can't
-    // narrow to the district level without the resolver).
-    const races = ((await getCachedElection(getUI().default_state)) ?? []).map((race) => {
-      const title = race.office || race.race;
-      return {
-        race_id: fallbackRaceId(title),
-        race: race.race,
-        office: race.office,
-        level: fallbackLevel(title),
-        district: null,
-        election_date: race.election_date,
-        context: { sources: [] },
-        candidates: (race.candidates ?? []).map((candidate) => ({
-          candidate_id: slugify(candidate.name),
-          name: candidate.name,
-          party: candidate.party,
-          incumbent: null,
-        })),
-      };
-    });
-    return Response.json({
-      mode: "statewide_fallback",
-      matched_address: address,
-      districts: { cd: null, sd: null, hd: null, county: null },
-      warning:
-        "District resolver unavailable — showing statewide races for your state only.",
-      races,
-    });
+  const result = await getBallot(address);
+  if (result.ok) {
+    return Response.json({ mode: "resolved", ...result.data });
   }
+
+  if (result.status === 400 || result.status === 422) {
+    return Response.json({ error: result.reason }, { status: result.status });
+  }
+
+  // Fallback: statewide races (ground truth still applies; we just can't
+  // narrow to the district level without the resolver).
+  const races = ((await getCachedElection(getUI().default_state)) ?? []).map((race) => {
+    const title = race.office || race.race;
+    return {
+      race_id: fallbackRaceId(title),
+      race: race.race,
+      office: race.office,
+      level: fallbackLevel(title),
+      district: null,
+      election_date: race.election_date,
+      context: { sources: [] },
+      candidates: (race.candidates ?? []).map((candidate) => ({
+        candidate_id: slugify(candidate.name),
+        name: candidate.name,
+        party: candidate.party,
+        incumbent: null,
+      })),
+    };
+  });
+  return Response.json({
+    mode: "statewide_fallback",
+    matched_address: address,
+    districts: { cd: null, sd: null, hd: null, county: null },
+    warning:
+      "District resolver unavailable — showing statewide races for your state only.",
+    races,
+  });
 }
