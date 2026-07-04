@@ -123,6 +123,11 @@ from typing import Any, Optional
 import requests
 
 ROOT = Path(__file__).resolve().parent.parent
+PIPELINE_DIR = Path(__file__).resolve().parent
+if str(PIPELINE_DIR) not in sys.path:
+    sys.path.insert(0, str(PIPELINE_DIR))
+from lib_fetch import expect_keys, retry_call  # noqa: E402
+
 CANDIDATES_PATH = ROOT / "data" / "tx" / "candidates.json"
 
 # Tried in order; first one that responds 200 with Accept-Ranges: bytes wins.
@@ -138,6 +143,28 @@ FINANCE_SOURCE_URL = "https://www.ethics.state.tx.us/search/cf/"
 MEMBERS_TO_FETCH = ["cover.csv", "cand.csv"]  # cand.csv fetched-but-unused, see module docstring
 REQUEST_TIMEOUT = 30
 TAIL_WINDOW = 2 * 1024 * 1024  # 2MB tail read to find EOCD + central directory in one shot
+
+# Every cover.csv column this script actually reads (see build_filer_index,
+# build_fid_index, most_recent_row, resolve_candidate, and the finance-block
+# assembly in main). Checked against the live header at the parse boundary
+# (load_cover_rows) via lib_fetch.expect_keys -- if TEC ever renames one of
+# these, we want a loud DriftError naming it, not a filer index silently
+# built from a column that always comes back empty/missing.
+REQUIRED_COVER_COLUMNS = [
+    "filerIdent",
+    "filerName",
+    "filerNameFirst",
+    "filerNameLast",
+    "filerTypeCd",
+    "filerSeekOfficeCd",
+    "periodEndDt",
+    "receivedDt",
+    "electionDt",
+    "infoOnlyFlag",
+    "totalContribAmount",
+    "totalExpendAmount",
+    "contribsMaintainedAmount",
+]
 
 # Candidate/officeholder-shaped filer types; excludes PAC & party-committee codes.
 ALLOWED_FILER_TYPES = {"COH", "JCOH", "SCC"}
@@ -257,13 +284,22 @@ class HTTPRangeFile(io.RawIOBase):
     def _fetch_range(self, start: int, end: int) -> bytes:
         end = min(end, self.size - 1)
         headers = {"Range": f"bytes={start}-{end}"}
-        resp = self.session.get(self.url, headers=headers, timeout=self.timeout)
-        resp.raise_for_status()
-        if resp.status_code != 206:
-            raise RuntimeError(f"expected 206 Partial Content, got {resp.status_code} for {self.url}")
+
+        def _do() -> bytes:
+            resp = self.session.get(self.url, headers=headers, timeout=self.timeout)
+            resp.raise_for_status()
+            if resp.status_code != 206:
+                raise RuntimeError(f"expected 206 Partial Content, got {resp.status_code} for {self.url}")
+            return resp.content
+
+        # Transport: same requests.Session (needed for the Range header +
+        # connection reuse the whole HTTPRangeFile design depends on) but the
+        # retry/backoff loop itself now comes from pipeline/lib_fetch.py so a
+        # transient blip on one ranged GET doesn't kill the whole run.
+        content = retry_call(_do, retries=3, backoff=1.5)
         self.request_count += 1
-        self.bytes_fetched += len(resp.content)
-        return resp.content
+        self.bytes_fetched += len(content)
+        return content
 
     def prime(self, start: int, data: bytes) -> None:
         """Pre-populate the cache with an exact byte range fetched separately."""
@@ -387,8 +423,14 @@ def split_candidate_name(full_name: str) -> tuple[str, str]:
 # ---------------------------------------------------------------------------
 
 
-def load_cover_rows(text_handle: io.TextIOWrapper) -> list[dict]:
+def load_cover_rows(
+    text_handle: io.TextIOWrapper,
+    required_keys: Optional[list[str]] = None,
+    path_desc: str = "csv",
+) -> list[dict]:
     reader = csv.DictReader(text_handle)
+    if required_keys is not None:
+        expect_keys(reader.fieldnames or [], f"TEC {path_desc} header", required_keys)
     return list(reader)
 
 
@@ -555,7 +597,8 @@ def main() -> int:
             print(f"  WARNING: no member matching '{member}' found in archive namelist -- skipping")
             continue
         text = extract_member_text(zf, rf, match)
-        rows = load_cover_rows(text)
+        required = REQUIRED_COVER_COLUMNS if member == "cover.csv" else None
+        rows = load_cover_rows(text, required_keys=required, path_desc=match)
         print(f"  extracted {match}: {len(rows)} data rows ({rf.request_count} total HTTP requests, "
               f"{rf.bytes_fetched/1e6:.1f}MB fetched so far)")
         if member == "cover.csv":

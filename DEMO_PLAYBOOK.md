@@ -1,8 +1,28 @@
 # DEMO_PLAYBOOK.md
 
 3-minute demo script: product walkthrough + 15s engineering beat. Written against the
-state of the repo on 2026-07-03 — re-verify the "current status" callouts below if you
+state of the repo on 2026-07-04 — re-verify the "current status" callouts below if you
 run this more than a day later, since the frontend is under active development.
+
+**Current demo features (2026-07-04):** address → real ballot with a **featured race**,
+plain-English data-confidence labels ("Strong / Good / Partial / Thin public record"),
+per-race **"How we know"** (finance + vote source types, coverage counts, missing-data
+caveat, generated date), personalized insights with **"Right now" vs "Down the road"**
+consequence projections, a **ballot-readiness bar** (Reviewed X of N → "You're
+ballot-ready"), a **voting-plan** ending (.ics + VoteTexas.gov), and — where a candidate
+genuinely lacks data — a visible **refusing-to-guess caveat**. Every claim carries a
+clickable source (new tab). Backend prod is live on Railway; the demo runs locally.
+
+**One-command pre-stage gate (run all before going on stage):**
+
+```bash
+python3 -m uvicorn app.main:app --port 8010 &          # backend (if not up)
+python3 pipeline/demo_readiness_gate.py                # golden path + freshness + attribution
+python3 pipeline/validate_citations.py                # every factual bullet is sourced + grounded
+python3 pipeline/validate_cache.py                    # geocode seed + demo-cache integrity
+python3 -m pytest tests/ -q                           # full suite (contracts, hardening, e2e, cache, citations)
+cd civic-match && npm run build                       # frontend compiles
+```
 
 ---
 

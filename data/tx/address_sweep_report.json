@@ -1,0 +1,1956 @@
+{
+  "generated_at": "2026-07-04T03:17:20.350961+00:00",
+  "generated_by": "pipeline/sweep_addresses.py",
+  "base_url": "http://127.0.0.1:8010",
+  "methodology": {
+    "profile_used_for_insights": {},
+    "archetype_resolved": "base",
+    "no_data_bullet_pattern": "no public",
+    "no_data_bullet_scope": "candidate bullet `text` fields from the one POST /api/insights sample per address's US House race",
+    "archetype_coverage_source": "data/tx/quality_report.json detail.archetype_fraction, cross-referenced by race_id (offline, read-only; live ballot's race.data_quality.{score,tier} is used directly for everything else)",
+    "experience_score_formula": "0.5*race_data_quality_score + 0.3*100*(1-no_data_bullet_ratio) + 0.2*(100 if candidates>=2 else 40)",
+    "grade_bands": {
+      "A": 78.0,
+      "B": 60.0,
+      "C": 42.0,
+      "D": 25.0,
+      "F": 0.0
+    },
+    "pacing_seconds": 1.0
+  },
+  "new_sweep": [
+    {
+      "label": "Pasadena City Hall",
+      "address": "1149 Ellsworth Dr, Pasadena, TX 77506",
+      "region": "big_metro_suburb",
+      "note": "Houston metro (Harris Co.) -- east/industrial suburb",
+      "ok": true,
+      "matched_address": "1149 ELLSWORTH DR, PASADENA, TX, 77506",
+      "districts": {
+        "cd": "TX-29",
+        "sd": "SD-6",
+        "hd": "HD-144",
+        "county": "Harris County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd29-2026",
+        "office": "U.S. Representative, TX-29",
+        "level": "federal",
+        "district": "TX-29",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 26,
+        "candidate_missing_detail": {
+          "garcia-sylvia": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd29-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Sugar Land City Hall",
+      "address": "2700 Town Center Blvd N, Sugar Land, TX 77479",
+      "region": "big_metro_suburb",
+      "note": "Houston metro (Fort Bend Co.) -- southwest suburb",
+      "ok": true,
+      "matched_address": "2700 TOWN CENTER DR, SUGAR LAND, TX, 77479",
+      "districts": {
+        "cd": "TX-22",
+        "sd": "SD-18",
+        "hd": "HD-28",
+        "county": "Fort Bend County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd22-2026",
+        "office": "U.S. Representative, TX-22",
+        "level": "federal",
+        "district": "TX-22",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 16,
+        "candidate_missing_detail": {
+          "nehls-troy": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd22-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Baytown City Hall",
+      "address": "2401 Market St, Baytown, TX 77522",
+      "region": "big_metro_suburb",
+      "note": "Houston metro (Harris/Chambers Co.) -- east ship-channel suburb",
+      "ok": true,
+      "matched_address": "2401 MARKET ST, BAYTOWN, TX, 77520",
+      "districts": {
+        "cd": "TX-36",
+        "sd": "SD-6",
+        "hd": "HD-143",
+        "county": "Harris County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd36-2026",
+        "office": "U.S. Representative, TX-36",
+        "level": "federal",
+        "district": "TX-36",
+        "candidate_count": 2,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.5,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 43.0,
+        "demo_rank": 36,
+        "candidate_missing_detail": {
+          "rogers-doug": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "babin-brian": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd36-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 4,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 71.5,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Dallas City Hall",
+      "address": "1500 Marilla St, Dallas, TX 75201",
+      "region": "big_metro",
+      "note": "Dallas proper (Dallas Co.)",
+      "ok": true,
+      "matched_address": "1500 MARILLA ST, DALLAS, TX, 75201",
+      "districts": {
+        "cd": "TX-30",
+        "sd": "SD-23",
+        "hd": "HD-114",
+        "county": "Dallas County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd30-2026",
+        "office": "U.S. Representative, TX-30",
+        "level": "federal",
+        "district": "TX-30",
+        "candidate_count": 2,
+        "with_finance": 2,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 48.0,
+        "demo_rank": 40,
+        "candidate_missing_detail": {
+          "crockett-jasmine": [
+            "no issue positions",
+            "no biography"
+          ],
+          "heise-gregor": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd30-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 5,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 74.0,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Plano Municipal Center",
+      "address": "1520 Avenue K, Plano, TX 75074",
+      "region": "big_metro_suburb",
+      "note": "Dallas metro (Collin Co.) -- north suburb",
+      "ok": true,
+      "matched_address": "1520 K AVE, PLANO, TX, 75074",
+      "districts": {
+        "cd": "TX-32",
+        "sd": "SD-8",
+        "hd": "HD-70",
+        "county": "Collin County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd32-2026",
+        "office": "U.S. Representative, TX-32",
+        "level": "federal",
+        "district": "TX-32",
+        "candidate_count": 2,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.5,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 41.0,
+        "demo_rank": 15,
+        "candidate_missing_detail": {
+          "bondar-paul": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "johnson-julie": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography",
+            "no fec/bioguide id"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd32-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 4,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 70.5,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Fort Worth City Hall",
+      "address": "100 Energy Way, Fort Worth, TX 76102",
+      "region": "big_metro",
+      "note": "Fort Worth proper (Tarrant Co.) -- current City Hall as of 2025 relocation",
+      "ok": true,
+      "matched_address": "100 ENERGY WAY, FORT WORTH, TX, 76102",
+      "districts": {
+        "cd": "TX-12",
+        "sd": "SD-9",
+        "hd": "HD-95",
+        "county": "Tarrant County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd12-2026",
+        "office": "U.S. Representative, TX-12",
+        "level": "federal",
+        "district": "TX-12",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 22,
+        "candidate_missing_detail": {
+          "goldman-craig": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd12-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Arlington City Hall",
+      "address": "101 W Abram St, Arlington, TX 76010",
+      "region": "big_metro_suburb",
+      "note": "DFW metro (Tarrant Co.) -- Dallas/Fort Worth suburb",
+      "ok": true,
+      "matched_address": "101 W ABRAM ST, ARLINGTON, TX, 76010",
+      "districts": {
+        "cd": "TX-25",
+        "sd": "SD-9",
+        "hd": "HD-101",
+        "county": "Tarrant County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd25-2026",
+        "office": "U.S. Representative, TX-25",
+        "level": "federal",
+        "district": "TX-25",
+        "candidate_count": 2,
+        "with_finance": 0,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 31.6,
+        "demo_rank": 41,
+        "candidate_missing_detail": {
+          "marks-william": [
+            "no campaign finance",
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "williams-roger": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography",
+            "no fec/bioguide id"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd25-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 4,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 65.8,
+      "experience_grade": "B"
+    },
+    {
+      "label": "San Antonio City Hall",
+      "address": "100 Military Plaza, San Antonio, TX 78205",
+      "region": "big_metro",
+      "note": "San Antonio proper (Bexar Co.)",
+      "ok": true,
+      "matched_address": "100 MILITARY PLZ, SAN ANTONIO, TX, 78205",
+      "districts": {
+        "cd": "TX-35",
+        "sd": "SD-26",
+        "hd": "HD-123",
+        "county": "Bexar County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd35-2026",
+        "office": "U.S. Representative, TX-35",
+        "level": "federal",
+        "district": "TX-35",
+        "candidate_count": 3,
+        "with_finance": 2,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.667,
+        "pct_votes": 0.333,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 41.2,
+        "demo_rank": 31,
+        "candidate_missing_detail": {
+          "cruz-carlos": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "garcia-johnny": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "casar-greg": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography",
+            "no fec/bioguide id"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd35-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 6,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 70.6,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Comal County Courthouse",
+      "address": "100 Main Plaza, New Braunfels, TX 78130",
+      "region": "suburban",
+      "note": "San Antonio-Austin corridor (Comal Co.)",
+      "ok": true,
+      "matched_address": "100 MAIN PLZ, NEW BRAUNFELS, TX, 78130",
+      "districts": {
+        "cd": "TX-21",
+        "sd": "SD-25",
+        "hd": "HD-73",
+        "county": "Comal County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd21-2026",
+        "office": "U.S. Representative, TX-21",
+        "level": "federal",
+        "district": "TX-21",
+        "candidate_count": 2,
+        "with_finance": 2,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 48.0,
+        "demo_rank": 20,
+        "candidate_missing_detail": {
+          "roy-chip": [
+            "no issue positions",
+            "no biography"
+          ],
+          "hook-kristin": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd21-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 5,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 74.0,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Round Rock City Hall",
+      "address": "221 E Main St, Round Rock, TX 78664",
+      "region": "suburban",
+      "note": "Austin metro (Williamson Co.) -- north suburb",
+      "ok": true,
+      "matched_address": "221 E MAIN AVE, ROUND ROCK, TX, 78664",
+      "districts": {
+        "cd": "TX-17",
+        "sd": "SD-5",
+        "hd": "HD-136",
+        "county": "Williamson County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd17-2026",
+        "office": "U.S. Representative, TX-17",
+        "level": "federal",
+        "district": "TX-17",
+        "candidate_count": 2,
+        "with_finance": 2,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 48.0,
+        "demo_rank": 30,
+        "candidate_missing_detail": {
+          "mitchell-james": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "sessions-pete": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd17-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 6,
+        "no_data_bullet_count": 1,
+        "no_data_bullet_ratio": 0.167,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 69.0,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Presidio County Courthouse",
+      "address": "301 N Highland Ave, Marfa, TX 79843",
+      "region": "rural_west_border",
+      "note": "Far west Texas (Presidio Co.) -- TX-23's sprawling border district",
+      "ok": true,
+      "matched_address": "301 HIGHLAND ST, MARFA, TX, 79843",
+      "districts": {
+        "cd": "TX-23",
+        "sd": "SD-29",
+        "hd": "HD-74",
+        "county": "Presidio County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd23-2026",
+        "office": "U.S. Representative, TX-23",
+        "level": "federal",
+        "district": "TX-23",
+        "candidate_count": 2,
+        "with_finance": 2,
+        "with_votes": 0,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 0.0,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 42.2,
+        "demo_rank": 17,
+        "candidate_missing_detail": {
+          "gonzales-ernest": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "limon-santos": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd23-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 4,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 71.1,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Starr County Courthouse",
+      "address": "401 N Britton Ave, Rio Grande City, TX 78582",
+      "region": "border_rural",
+      "note": "Rio Grande border (Starr Co.), rural south",
+      "ok": false,
+      "error": "HTTP 422: We couldn't match that address. Please check it and try again (include city, state, ZIP)."
+    },
+    {
+      "label": "McAllen City Hall",
+      "address": "1300 W Houston Ave, McAllen, TX 78501",
+      "region": "border_metro",
+      "note": "Rio Grande Valley border metro (Hidalgo Co.)",
+      "ok": true,
+      "matched_address": "1300 W HOUSTON AVE, MCALLEN, TX, 78501",
+      "districts": {
+        "cd": "TX-15",
+        "sd": "SD-20",
+        "hd": "HD-41",
+        "county": "Hidalgo County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd15-2026",
+        "office": "U.S. Representative, TX-15",
+        "level": "federal",
+        "district": "TX-15",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 11,
+        "candidate_missing_detail": {
+          "cruz-monica": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd15-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    },
+    {
+      "label": "Potter County Courthouse",
+      "address": "500 S Fillmore St, Amarillo, TX 79101",
+      "region": "rural_panhandle",
+      "note": "Texas Panhandle (Potter Co.)",
+      "ok": true,
+      "matched_address": "500 S FILLMORE ST, AMARILLO, TX, 79101",
+      "districts": {
+        "cd": "TX-13",
+        "sd": "SD-31",
+        "hd": "HD-87",
+        "county": "Potter County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd13-2026",
+        "office": "U.S. Representative, TX-13",
+        "level": "federal",
+        "district": "TX-13",
+        "candidate_count": 2,
+        "with_finance": 0,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 33.0,
+        "demo_rank": 45,
+        "candidate_missing_detail": {
+          "nair-mark": [
+            "no campaign finance",
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "jackson-ronny": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd13-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 6,
+        "no_data_bullet_count": 3,
+        "no_data_bullet_ratio": 0.5,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 51.5,
+      "experience_grade": "C"
+    },
+    {
+      "label": "Lubbock County Courthouse",
+      "address": "904 Broadway, Lubbock, TX 79401",
+      "region": "rural_west",
+      "note": "West Texas / South Plains (Lubbock Co.)",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Midland County Courthouse",
+      "address": "500 N Loraine St, Midland, TX 79701",
+      "region": "rural_west",
+      "note": "West Texas / Permian Basin (Midland Co.)",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Smith County Courthouse",
+      "address": "100 N Broadway Ave, Tyler, TX 75702",
+      "region": "rural_east_piney_woods",
+      "note": "East Texas / Piney Woods (Smith Co.)",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Corpus Christi City Hall",
+      "address": "1201 Leopard St, Corpus Christi, TX 78401",
+      "region": "coastal",
+      "note": "Gulf Coast south Texas (Nueces Co.)",
+      "ok": true,
+      "matched_address": "1201 LEOPARD ST, CORPUS CHRISTI, TX, 78408",
+      "districts": {
+        "cd": "TX-27",
+        "sd": "SD-20",
+        "hd": "HD-34",
+        "county": "Nueces County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "house_race": {
+        "race_id": "tx-cd27-2026",
+        "office": "U.S. Representative, TX-27",
+        "level": "federal",
+        "district": "TX-27",
+        "candidate_count": 1,
+        "with_finance": 0,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 34.6,
+        "demo_rank": 29,
+        "candidate_missing_detail": {
+          "cloud-michael": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd27-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 2,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 55.3,
+      "experience_grade": "C"
+    }
+  ],
+  "regression_check": [
+    {
+      "label": "Precache: San Marcos (Hays Co. -- 601 University Dr)",
+      "address": "601 University Dr, San Marcos, TX 78666",
+      "region": "regression_precache",
+      "note": "pipeline/precache_demo.py demo address",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Precache: Austin (Travis Co. -- 1100 Congress Ave)",
+      "address": "1100 Congress Ave, Austin, TX 78701",
+      "region": "regression_precache",
+      "note": "pipeline/precache_demo.py demo address",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Precache: Houston (Harris Co. -- 901 Bagby St)",
+      "address": "901 Bagby St, Houston, TX 77002",
+      "region": "regression_precache",
+      "note": "pipeline/precache_demo.py demo address",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Golden: Brownsville (TX-34)",
+      "address": "1100 E Monroe St, Brownsville, TX 78520",
+      "region": "regression_golden",
+      "note": "data/tx/QUALITY.md golden demo district",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Golden: Laredo (TX-28)",
+      "address": "1000 Houston St, Laredo, TX 78040",
+      "region": "regression_golden",
+      "note": "data/tx/QUALITY.md golden demo district",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Golden: Edinburg (TX-15)",
+      "address": "100 W Cano St, Edinburg, TX 78539",
+      "region": "regression_golden",
+      "note": "data/tx/QUALITY.md golden demo district",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Golden: El Paso (TX-16)",
+      "address": "500 E San Antonio Ave, El Paso, TX 79901",
+      "region": "regression_golden",
+      "note": "data/tx/QUALITY.md golden demo district",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Golden: Coppell (TX-24)",
+      "address": "255 Parkway Blvd, Coppell, TX 75019",
+      "region": "regression_golden",
+      "note": "data/tx/QUALITY.md golden demo district",
+      "ok": true,
+      "matched_address": "255 PARKWAY BLVD, COPPELL, TX, 75019",
+      "districts": {
+        "cd": "TX-24",
+        "sd": "SD-12",
+        "hd": "HD-115",
+        "county": "Dallas County"
+      },
+      "warning": null,
+      "race_count": 9,
+      "statewide_race_count": 8,
+      "expected": {
+        "cd": "TX-24",
+        "sd": "SD-12",
+        "hd": "HD-115",
+        "county": "Dallas County"
+      },
+      "regression_status": "MATCH",
+      "regression_mismatches": [],
+      "house_race": {
+        "race_id": "tx-cd24-2026",
+        "office": "U.S. Representative, TX-24",
+        "level": "federal",
+        "district": "TX-24",
+        "candidate_count": 2,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.5,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 41.0,
+        "demo_rank": 13,
+        "candidate_missing_detail": {
+          "buchwald-jon": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "duyne-beth": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography",
+            "no fec/bioguide id"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd24-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 4,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 70.5,
+      "experience_grade": "B"
+    }
+  ],
+  "district_summary": [
+    {
+      "cd": "TX-13",
+      "addresses": [
+        "Potter County Courthouse"
+      ],
+      "house_race": {
+        "race_id": "tx-cd13-2026",
+        "office": "U.S. Representative, TX-13",
+        "level": "federal",
+        "district": "TX-13",
+        "candidate_count": 2,
+        "with_finance": 0,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 33.0,
+        "demo_rank": 45,
+        "candidate_missing_detail": {
+          "nair-mark": [
+            "no campaign finance",
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "jackson-ronny": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd13-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 6,
+        "no_data_bullet_count": 3,
+        "no_data_bullet_ratio": 0.5,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 51.5,
+      "experience_grade": "C"
+    },
+    {
+      "cd": "TX-27",
+      "addresses": [
+        "Corpus Christi City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd27-2026",
+        "office": "U.S. Representative, TX-27",
+        "level": "federal",
+        "district": "TX-27",
+        "candidate_count": 1,
+        "with_finance": 0,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 34.6,
+        "demo_rank": 29,
+        "candidate_missing_detail": {
+          "cloud-michael": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd27-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 2,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 55.3,
+      "experience_grade": "C"
+    },
+    {
+      "cd": "TX-29",
+      "addresses": [
+        "Pasadena City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd29-2026",
+        "office": "U.S. Representative, TX-29",
+        "level": "federal",
+        "district": "TX-29",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 26,
+        "candidate_missing_detail": {
+          "garcia-sylvia": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd29-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-22",
+      "addresses": [
+        "Sugar Land City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd22-2026",
+        "office": "U.S. Representative, TX-22",
+        "level": "federal",
+        "district": "TX-22",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 16,
+        "candidate_missing_detail": {
+          "nehls-troy": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd22-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-12",
+      "addresses": [
+        "Fort Worth City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd12-2026",
+        "office": "U.S. Representative, TX-12",
+        "level": "federal",
+        "district": "TX-12",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 22,
+        "candidate_missing_detail": {
+          "goldman-craig": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd12-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-15",
+      "addresses": [
+        "McAllen City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd15-2026",
+        "office": "U.S. Representative, TX-15",
+        "level": "federal",
+        "district": "TX-15",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 11,
+        "candidate_missing_detail": {
+          "cruz-monica": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd15-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-25",
+      "addresses": [
+        "Arlington City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd25-2026",
+        "office": "U.S. Representative, TX-25",
+        "level": "federal",
+        "district": "TX-25",
+        "candidate_count": 2,
+        "with_finance": 0,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 31.6,
+        "demo_rank": 41,
+        "candidate_missing_detail": {
+          "marks-william": [
+            "no campaign finance",
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "williams-roger": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography",
+            "no fec/bioguide id"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd25-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 4,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 65.8,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-17",
+      "addresses": [
+        "Round Rock City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd17-2026",
+        "office": "U.S. Representative, TX-17",
+        "level": "federal",
+        "district": "TX-17",
+        "candidate_count": 2,
+        "with_finance": 2,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 48.0,
+        "demo_rank": 30,
+        "candidate_missing_detail": {
+          "mitchell-james": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "sessions-pete": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd17-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 6,
+        "no_data_bullet_count": 1,
+        "no_data_bullet_ratio": 0.167,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 69.0,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-32",
+      "addresses": [
+        "Plano Municipal Center"
+      ],
+      "house_race": {
+        "race_id": "tx-cd32-2026",
+        "office": "U.S. Representative, TX-32",
+        "level": "federal",
+        "district": "TX-32",
+        "candidate_count": 2,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.5,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 41.0,
+        "demo_rank": 15,
+        "candidate_missing_detail": {
+          "bondar-paul": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "johnson-julie": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography",
+            "no fec/bioguide id"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd32-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 4,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 70.5,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-35",
+      "addresses": [
+        "San Antonio City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd35-2026",
+        "office": "U.S. Representative, TX-35",
+        "level": "federal",
+        "district": "TX-35",
+        "candidate_count": 3,
+        "with_finance": 2,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.667,
+        "pct_votes": 0.333,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 41.2,
+        "demo_rank": 31,
+        "candidate_missing_detail": {
+          "cruz-carlos": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "garcia-johnny": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "casar-greg": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography",
+            "no fec/bioguide id"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd35-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 6,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 70.6,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-23",
+      "addresses": [
+        "Presidio County Courthouse"
+      ],
+      "house_race": {
+        "race_id": "tx-cd23-2026",
+        "office": "U.S. Representative, TX-23",
+        "level": "federal",
+        "district": "TX-23",
+        "candidate_count": 2,
+        "with_finance": 2,
+        "with_votes": 0,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 0.0,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 42.2,
+        "demo_rank": 17,
+        "candidate_missing_detail": {
+          "gonzales-ernest": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "limon-santos": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd23-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 4,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 71.1,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-36",
+      "addresses": [
+        "Baytown City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd36-2026",
+        "office": "U.S. Representative, TX-36",
+        "level": "federal",
+        "district": "TX-36",
+        "candidate_count": 2,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.5,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 43.0,
+        "demo_rank": 36,
+        "candidate_missing_detail": {
+          "rogers-doug": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "babin-brian": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd36-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 4,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 71.5,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-30",
+      "addresses": [
+        "Dallas City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd30-2026",
+        "office": "U.S. Representative, TX-30",
+        "level": "federal",
+        "district": "TX-30",
+        "candidate_count": 2,
+        "with_finance": 2,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 48.0,
+        "demo_rank": 40,
+        "candidate_missing_detail": {
+          "crockett-jasmine": [
+            "no issue positions",
+            "no biography"
+          ],
+          "heise-gregor": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd30-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 5,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 74.0,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-21",
+      "addresses": [
+        "Comal County Courthouse"
+      ],
+      "house_race": {
+        "race_id": "tx-cd21-2026",
+        "office": "U.S. Representative, TX-21",
+        "level": "federal",
+        "district": "TX-21",
+        "candidate_count": 2,
+        "with_finance": 2,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 48.0,
+        "demo_rank": 20,
+        "candidate_missing_detail": {
+          "roy-chip": [
+            "no issue positions",
+            "no biography"
+          ],
+          "hook-kristin": [
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd21-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 5,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 74.0,
+      "experience_grade": "B"
+    }
+  ],
+  "weakest_districts": [
+    {
+      "cd": "TX-13",
+      "addresses": [
+        "Potter County Courthouse"
+      ],
+      "house_race": {
+        "race_id": "tx-cd13-2026",
+        "office": "U.S. Representative, TX-13",
+        "level": "federal",
+        "district": "TX-13",
+        "candidate_count": 2,
+        "with_finance": 0,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.0,
+        "pct_votes": 0.5,
+        "pct_positions": 0.0,
+        "one_sided": false,
+        "tier": "C",
+        "score": 33.0,
+        "demo_rank": 45,
+        "candidate_missing_detail": {
+          "nair-mark": [
+            "no campaign finance",
+            "no voting record",
+            "no issue positions",
+            "no biography"
+          ],
+          "jackson-ronny": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd13-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 6,
+        "no_data_bullet_count": 3,
+        "no_data_bullet_ratio": 0.5,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 51.5,
+      "experience_grade": "C"
+    },
+    {
+      "cd": "TX-27",
+      "addresses": [
+        "Corpus Christi City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd27-2026",
+        "office": "U.S. Representative, TX-27",
+        "level": "federal",
+        "district": "TX-27",
+        "candidate_count": 1,
+        "with_finance": 0,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 0.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 34.6,
+        "demo_rank": 29,
+        "candidate_missing_detail": {
+          "cloud-michael": [
+            "no campaign finance",
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd27-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 2,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 55.3,
+      "experience_grade": "C"
+    },
+    {
+      "cd": "TX-29",
+      "addresses": [
+        "Pasadena City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd29-2026",
+        "office": "U.S. Representative, TX-29",
+        "level": "federal",
+        "district": "TX-29",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 26,
+        "candidate_missing_detail": {
+          "garcia-sylvia": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd29-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-22",
+      "addresses": [
+        "Sugar Land City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd22-2026",
+        "office": "U.S. Representative, TX-22",
+        "level": "federal",
+        "district": "TX-22",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 16,
+        "candidate_missing_detail": {
+          "nehls-troy": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd22-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    },
+    {
+      "cd": "TX-12",
+      "addresses": [
+        "Fort Worth City Hall"
+      ],
+      "house_race": {
+        "race_id": "tx-cd12-2026",
+        "office": "U.S. Representative, TX-12",
+        "level": "federal",
+        "district": "TX-12",
+        "candidate_count": 1,
+        "with_finance": 1,
+        "with_votes": 1,
+        "with_positions": 0,
+        "pct_finance": 1.0,
+        "pct_votes": 1.0,
+        "pct_positions": 0.0,
+        "one_sided": true,
+        "tier": "C",
+        "score": 49.6,
+        "demo_rank": 22,
+        "candidate_missing_detail": {
+          "goldman-craig": [
+            "no issue positions",
+            "no biography"
+          ]
+        }
+      },
+      "insight_sample": {
+        "race_id": "tx-cd12-2026",
+        "mode": "cached",
+        "archetype_used": "base",
+        "bullet_count": 3,
+        "no_data_bullet_count": 0,
+        "no_data_bullet_ratio": 0.0,
+        "archetype_fraction_precomputed": 0.0,
+        "archetype_count_precomputed": 0,
+        "summary_present": true
+      },
+      "experience_score": 62.8,
+      "experience_grade": "B"
+    }
+  ],
+  "failures": [
+    {
+      "label": "Starr County Courthouse",
+      "address": "401 N Britton Ave, Rio Grande City, TX 78582",
+      "region": "border_rural",
+      "note": "Rio Grande border (Starr Co.), rural south",
+      "ok": false,
+      "error": "HTTP 422: We couldn't match that address. Please check it and try again (include city, state, ZIP)."
+    },
+    {
+      "label": "Lubbock County Courthouse",
+      "address": "904 Broadway, Lubbock, TX 79401",
+      "region": "rural_west",
+      "note": "West Texas / South Plains (Lubbock Co.)",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Midland County Courthouse",
+      "address": "500 N Loraine St, Midland, TX 79701",
+      "region": "rural_west",
+      "note": "West Texas / Permian Basin (Midland Co.)",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Smith County Courthouse",
+      "address": "100 N Broadway Ave, Tyler, TX 75702",
+      "region": "rural_east_piney_woods",
+      "note": "East Texas / Piney Woods (Smith Co.)",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Precache: San Marcos (Hays Co. -- 601 University Dr)",
+      "address": "601 University Dr, San Marcos, TX 78666",
+      "region": "regression_precache",
+      "note": "pipeline/precache_demo.py demo address",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Precache: Austin (Travis Co. -- 1100 Congress Ave)",
+      "address": "1100 Congress Ave, Austin, TX 78701",
+      "region": "regression_precache",
+      "note": "pipeline/precache_demo.py demo address",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Precache: Houston (Harris Co. -- 901 Bagby St)",
+      "address": "901 Bagby St, Houston, TX 77002",
+      "region": "regression_precache",
+      "note": "pipeline/precache_demo.py demo address",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Golden: Brownsville (TX-34)",
+      "address": "1100 E Monroe St, Brownsville, TX 78520",
+      "region": "regression_golden",
+      "note": "data/tx/QUALITY.md golden demo district",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Golden: Laredo (TX-28)",
+      "address": "1000 Houston St, Laredo, TX 78040",
+      "region": "regression_golden",
+      "note": "data/tx/QUALITY.md golden demo district",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Golden: Edinburg (TX-15)",
+      "address": "100 W Cano St, Edinburg, TX 78539",
+      "region": "regression_golden",
+      "note": "data/tx/QUALITY.md golden demo district",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    },
+    {
+      "label": "Golden: El Paso (TX-16)",
+      "address": "500 E San Antonio Ave, El Paso, TX 79901",
+      "region": "regression_golden",
+      "note": "data/tx/QUALITY.md golden demo district",
+      "ok": false,
+      "error": "HTTP 429: Too many requests, please slow down"
+    }
+  ],
+  "counts": {
+    "new_sweep_addresses": 18,
+    "new_sweep_ok": 14,
+    "distinct_cds_new_sweep": 14,
+    "regression_addresses": 8,
+    "regression_pass": 1,
+    "regression_fail": 0,
+    "total_failures": 11
+  }
+}
