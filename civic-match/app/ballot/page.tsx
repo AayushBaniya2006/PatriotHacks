@@ -84,6 +84,7 @@ type MatchState =
 
 const heroImage = "/images/statue-of-liberty.png";
 const maxPriorities = 5;
+const EMPTY_MATCH_RESULTS: MatchResult[] = [];
 
 const priorityIssueIds = [
   "housing",
@@ -657,29 +658,48 @@ export default function BallotPage() {
   };
 
   const dashboardPrefs = buildPrefs();
+  const submittedMatchResults = matchState.status === "done" ? matchState.results : EMPTY_MATCH_RESULTS;
   const dashboardView = useMemo(() => {
     if (!ballot) return null;
     return buildCivitasDashboard(
       normalizeBallotForCivitas(ballot),
-      matchState.status === "done" ? matchState.results : []
+      submittedMatchResults
     );
-  }, [ballot, matchState]);
+  }, [ballot, submittedMatchResults]);
 
   const loadMatches = async () => {
     const prefs = dashboardPrefs;
     savePrefs(prefs);
-    setStep("matches");
     setMatchState({ status: "loading" });
+    setStep("matches");
     try {
-      const politicians = (await fetch("/api/politicians").then((res) => res.json())) as PoliticianSummary[];
+      const politiciansResponse = await fetch("/api/politicians");
+      const politiciansBody = (await politiciansResponse.json().catch(() => null)) as
+        | PoliticianSummary[]
+        | { error?: string }
+        | null;
+      if (!politiciansResponse.ok || !Array.isArray(politiciansBody)) {
+        const message =
+          politiciansBody && !Array.isArray(politiciansBody) && politiciansBody.error
+            ? politiciansBody.error
+            : "Could not load candidate profiles.";
+        throw new Error(message);
+      }
+      if (politiciansBody.length === 0) {
+        throw new Error("No candidate profiles are available to score.");
+      }
       const response = await fetch("/api/match", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prefs, politician_ids: politicians.map((politician) => politician.id) }),
+        body: JSON.stringify({ prefs, politician_ids: politiciansBody.map((politician) => politician.id) }),
       });
-      const body = await response.json();
-      if (!response.ok) throw new Error(body.error ?? "Could not score candidates.");
-      const allResults = (body.results ?? []) as MatchResult[];
+      const body = (await response.json().catch(() => null)) as
+        | { results?: MatchResult[]; error?: string }
+        | null;
+      if (!response.ok || !Array.isArray(body?.results)) {
+        throw new Error(body?.error ?? "Could not score candidates.");
+      }
+      const allResults = body.results;
       setMatchState({
         status: "done",
         results: allResults,
@@ -1119,54 +1139,52 @@ export default function BallotPage() {
         )}
 
         {step === "matches" && (
-          dashboardView ? (
-            matchState.status === "loading" ? (
-              <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white md:px-8 md:py-7 lg:px-10 lg:py-8">
-                <CivitasLogo compact />
-                <div
-                  role="status"
-                  aria-live="polite"
-                  className="mt-16 max-w-xl rounded-[10px] border border-white/12 bg-white/[0.035] p-5"
-                >
-                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#d8a15b]">
-                    Building dashboard
-                  </p>
-                  <h1 className="mt-4 font-serif text-4xl leading-tight text-white">
-                    Scoring candidates from your stated priorities.
-                  </h1>
-                  <p className="mt-4 text-sm leading-6 text-white/58">
-                    The ballot is resolved. Alignment rows will appear as soon as the local scoring
-                    engine finishes.
-                  </p>
+          matchState.status === "loading" ? (
+            <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white md:px-8 md:py-7 lg:px-10 lg:py-8">
+              <CivitasLogo compact />
+              <div
+                role="status"
+                aria-live="polite"
+                className="mt-16 max-w-xl rounded-[10px] border border-white/12 bg-white/[0.035] p-5"
+              >
+                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[#d8a15b]">
+                  Building dashboard
+                </p>
+                <h1 className="mt-4 font-serif text-4xl leading-tight text-white">
+                  Scoring candidates from your stated priorities.
+                </h1>
+                <p className="mt-4 text-sm leading-6 text-white/58">
+                  The ballot is resolved. Alignment rows will appear as soon as the local scoring
+                  engine finishes.
+                </p>
+              </div>
+            </section>
+          ) : matchState.status === "error" ? (
+            <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white md:px-8 md:py-7 lg:px-10 lg:py-8">
+              <CivitasLogo compact />
+              <div
+                role="alert"
+                className="mt-16 max-w-xl rounded-[10px] border border-red-400/35 bg-red-500/10 p-5 text-sm text-red-100"
+              >
+                {matchState.message}
+                <div className="mt-5">
+                  <button
+                    type="button"
+                    onClick={goBack}
+                    className="text-xs font-semibold uppercase tracking-[0.18em] text-[#d8a15b] hover:underline"
+                  >
+                    Edit settings
+                  </button>
                 </div>
-              </section>
-            ) : matchState.status === "error" ? (
-              <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white md:px-8 md:py-7 lg:px-10 lg:py-8">
-                <CivitasLogo compact />
-                <div
-                  role="alert"
-                  className="mt-16 max-w-xl rounded-[10px] border border-red-400/35 bg-red-500/10 p-5 text-sm text-red-100"
-                >
-                  {matchState.message}
-                  <div className="mt-5">
-                    <button
-                      type="button"
-                      onClick={goBack}
-                      className="text-xs font-semibold uppercase tracking-[0.18em] text-[#d8a15b] hover:underline"
-                    >
-                      Edit settings
-                    </button>
-                  </div>
-                </div>
-              </section>
-            ) : (
-              <CivitasDashboard
-                view={dashboardView}
-                initialRaceId={selectedRaceKey}
-                profile={dashboardPrefs.profile}
-                onEditSettings={goBack}
-              />
-            )
+              </div>
+            </section>
+          ) : dashboardView && matchState.status === "done" ? (
+            <CivitasDashboard
+              view={dashboardView}
+              initialRaceId={selectedRaceKey}
+              profile={dashboardPrefs.profile}
+              onEditSettings={goBack}
+            />
           ) : (
             <section className="flex min-h-full flex-1 flex-col bg-navy px-5 py-6 text-white md:px-8 md:py-7 lg:px-10 lg:py-8">
               <CivitasLogo compact />

@@ -42,6 +42,11 @@ type BallotState =
   | { status: "error"; message: string }
   | { status: "done"; data: BallotResponse };
 
+type ResultsState =
+  | { status: "loading" }
+  | { status: "error"; message: string }
+  | { status: "done"; data: MatchResult[] };
+
 // P1 prefetch (design spec §4) -- once the ballot is in, warm
 // /api/voter-insights for the single highest-signal demo race in the
 // background so a judge's first click on "What this means for you"
@@ -145,7 +150,7 @@ function BallotStageStatus({ stage }: { stage: Stage }) {
 }
 
 export default function ResultsPage() {
-  const [results, setResults] = useState<MatchResult[] | null>(null);
+  const [resultsState, setResultsState] = useState<ResultsState>({ status: "loading" });
   const [noPrefs, setNoPrefs] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
   const [explanations, setExplanations] = useState<Record<string, Explanation | "loading">>({});
@@ -228,13 +233,43 @@ export default function ResultsPage() {
           });
       }
       (async () => {
-        const list: PoliticianSummary[] = await fetch("/api/politicians").then((r) => r.json());
-        const res = await fetch("/api/match", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ prefs, politician_ids: list.map((p) => p.id) }),
-        }).then((r) => r.json());
-        if (!cancelled) setResults(res.results);
+        try {
+          const listResponse = await fetch("/api/politicians");
+          const listBody = (await listResponse.json().catch(() => null)) as
+            | PoliticianSummary[]
+            | { error?: string }
+            | null;
+          if (!listResponse.ok || !Array.isArray(listBody)) {
+            const message =
+              listBody && !Array.isArray(listBody) && listBody.error
+                ? listBody.error
+                : "Could not load candidate profiles.";
+            throw new Error(message);
+          }
+          if (listBody.length === 0) {
+            throw new Error("No candidate profiles are available to score.");
+          }
+
+          const matchResponse = await fetch("/api/match", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ prefs, politician_ids: listBody.map((p) => p.id) }),
+          });
+          const matchBody = (await matchResponse.json().catch(() => null)) as
+            | { results?: MatchResult[]; error?: string }
+            | null;
+          if (!matchResponse.ok || !Array.isArray(matchBody?.results)) {
+            throw new Error(matchBody?.error ?? "Could not score candidate profiles.");
+          }
+          if (!cancelled) setResultsState({ status: "done", data: matchBody.results });
+        } catch (err: unknown) {
+          if (!cancelled) {
+            setResultsState({
+              status: "error",
+              message: err instanceof Error ? err.message : "Could not score candidate profiles.",
+            });
+          }
+        }
       })();
     });
 
@@ -321,7 +356,7 @@ export default function ResultsPage() {
     );
   }
 
-  if (!results) {
+  if (resultsState.status === "loading") {
     return (
       <div className="mx-auto max-w-3xl px-4 py-16">
         <h1 className="mb-3 text-2xl font-bold text-zinc-100">Scoring candidate profiles</h1>
@@ -329,6 +364,22 @@ export default function ResultsPage() {
       </div>
     );
   }
+
+  if (resultsState.status === "error") {
+    return (
+      <div className="mx-auto max-w-3xl px-4 py-16">
+        <h1 className="mb-3 text-2xl font-bold text-zinc-100">Could not score candidate profiles</h1>
+        <div role="alert" className="rounded-lg border border-red-900/50 bg-red-950/20 p-4 text-sm text-red-300">
+          {resultsState.message}
+        </div>
+        <Link href="/intake" className="mt-5 inline-flex rounded-lg bg-emerald-500 px-5 py-2.5 font-medium text-zinc-950">
+          Edit priorities
+        </Link>
+      </div>
+    );
+  }
+
+  const results = resultsState.data;
 
   // The single "featured" race (data_quality.demo_rank 1, same lookup the
   // prefetch above already uses) -- BallotSection renders this one full and
