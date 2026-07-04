@@ -40,7 +40,8 @@ Caching: ballot assembly is memoized via functools.lru_cache keyed on
 Public primitives -- signatures are a contract with app/main.py, do not
 change them: get_ballot, get_race, get_candidate, list_races,
 search_candidates, get_insights, put_insight_block, compute_inputs_hash,
-stats, geocode_cache_get, geocode_cache_put, data_is_pending.
+stats, geocode_cache_get, geocode_cache_put, geocode_cache_get_civic,
+geocode_cache_put_civic, data_is_pending.
 """
 
 from __future__ import annotations
@@ -665,6 +666,7 @@ def geocode_cache_put(
             logger.warning("Postgres geocode_cache write failed (%s); falling back to JSON file", exc)
     with _geocode_cache_file_lock:
         cache = _load_geocode_cache_json()
+        existing = cache.get(norm) if isinstance(cache.get(norm), dict) else {}
         cache[norm] = {
             "cd": cd,
             "sd": sd,
@@ -673,4 +675,56 @@ def geocode_cache_put(
             "matched_address": matched_address,
             "ts": time.time(),
         }
+        if "civic" in existing:
+            cache[norm]["civic"] = existing["civic"]
+        _write_geocode_cache_json(cache)
+
+
+def geocode_cache_get_civic(address: str) -> Optional[dict[str, Any]]:
+    norm = _normalize_address(address)
+    pool = _get_pool()
+    if pool is not None:
+        try:
+            with pool.connection() as conn:
+                row = conn.execute(
+                    "SELECT civic FROM geocode_cache WHERE address_norm = %s",
+                    (norm,),
+                ).fetchone()
+            if row is not None and row.get("civic") is not None:
+                civic = _parse_json_field(row["civic"], None)
+                return civic if isinstance(civic, dict) else None
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Postgres civic geocode_cache read failed (%s); falling back to JSON file", exc)
+    with _geocode_cache_file_lock:
+        entry = _load_geocode_cache_json().get(norm)
+    if isinstance(entry, dict) and "civic" in entry:
+        civic = entry.get("civic")
+        return civic if isinstance(civic, dict) else None
+    return None
+
+
+def geocode_cache_put_civic(address: str, civic: dict[str, Any]) -> None:
+    norm = _normalize_address(address)
+    pool = _get_pool()
+    if pool is not None:
+        try:
+            with pool.connection() as conn:
+                conn.execute(
+                    """
+                    INSERT INTO geocode_cache (address_norm, civic)
+                    VALUES (%s, %s)
+                    ON CONFLICT (address_norm) DO UPDATE SET
+                        civic = EXCLUDED.civic
+                    """,
+                    (norm, Jsonb(civic) if Jsonb is not None else json.dumps(civic)),
+                )
+            return
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Postgres civic geocode_cache write failed (%s); falling back to JSON file", exc)
+    with _geocode_cache_file_lock:
+        cache = _load_geocode_cache_json()
+        existing = cache.get(norm) if isinstance(cache.get(norm), dict) else {}
+        existing["civic"] = civic
+        existing.setdefault("ts", time.time())
+        cache[norm] = existing
         _write_geocode_cache_json(cache)

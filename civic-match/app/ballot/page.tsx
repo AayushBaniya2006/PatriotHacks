@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import { slugify } from "@/lib/db-client";
 
@@ -23,12 +23,13 @@ export default function BallotPage() {
   } | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const lookup = async () => {
-    if (!address.trim() || loading) return;
+  const lookupAddress = useCallback(async (targetAddress: string) => {
+    const trimmedAddress = targetAddress.trim();
+    if (!trimmedAddress) return;
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`/api/ballot?address=${encodeURIComponent(address)}`);
+      const res = await fetch(`/api/ballot?address=${encodeURIComponent(trimmedAddress)}`);
       const data = await res.json();
       if (!res.ok) setError(data.error ?? data.detail ?? "Address could not be matched.");
       else setResult({ ...data, races: data.races ?? [] });
@@ -37,6 +38,21 @@ export default function BallotPage() {
     } finally {
       setLoading(false);
     }
+  }, []);
+
+  useEffect(() => {
+    const initialAddress = new URLSearchParams(window.location.search).get("address")?.trim();
+    if (!initialAddress) return;
+    const timer = window.setTimeout(() => {
+      setAddress(initialAddress);
+      void lookupAddress(initialAddress);
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [lookupAddress]);
+
+  const lookup = async () => {
+    if (!address.trim() || loading) return;
+    await lookupAddress(address);
   };
 
   return (

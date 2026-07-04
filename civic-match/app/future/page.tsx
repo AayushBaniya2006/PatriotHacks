@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { hierarchy, tree, type HierarchyPointNode } from "d3-hierarchy";
 import { loadPrefs } from "@/lib/prefs";
 import type { ScenarioNode, ScenarioTree, UserPreferences } from "@/lib/types";
@@ -40,21 +40,10 @@ export default function FuturePage() {
   const [available, setAvailable] = useState<{ race: string; slug: string }[]>([]);
   const [treeData, setTreeData] = useState<ScenarioTree | null>(null);
   const [loading, setLoading] = useState(true);
-  const [prefs, setPrefs] = useState<UserPreferences | null>(null);
+  const [prefs] = useState<UserPreferences | null>(() => loadPrefs());
   const [selected, setSelected] = useState<ScenarioNode | null>(null);
 
-  useEffect(() => {
-    setPrefs(loadPrefs());
-    fetch("/api/scenario")
-      .then((r) => r.json())
-      .then((d) => {
-        setAvailable(d.available ?? []);
-        if (d.available?.length) loadTree(d.available[0].slug);
-        else setLoading(false);
-      });
-  }, []);
-
-  const loadTree = (slug: string) => {
+  const loadTree = useCallback((slug: string) => {
     setLoading(true);
     setSelected(null);
     fetch(`/api/scenario?race=${slug}`)
@@ -62,8 +51,30 @@ export default function FuturePage() {
       .then((t) => {
         setTreeData(t.error ? null : t);
         setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    fetch("/api/scenario")
+      .then((r) => r.json())
+      .then((d) => {
+        if (cancelled) return;
+        const nextAvailable = d.available ?? [];
+        setAvailable(nextAvailable);
+        if (nextAvailable.length) loadTree(nextAvailable[0].slug);
+        else setLoading(false);
+      })
+      .catch(() => {
+        if (!cancelled) setLoading(false);
       });
-  };
+
+    return () => {
+      cancelled = true;
+    };
+  }, [loadTree]);
 
   // d3-hierarchy layout: depth → x (left→right), siblings → y
   const layout = useMemo(() => {

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { loadPrefs } from "@/lib/prefs";
-import type { MatchResult, VoterProfile } from "@/lib/types";
+import type { MatchResult, UserPreferences, VoterProfile } from "@/lib/types";
 import type { BallotResponse } from "@/lib/dataBackend";
 import BallotSection from "@/components/ballot/BallotSection";
 import InsightsPanel from "@/components/ballot/InsightsPanel";
@@ -42,15 +42,17 @@ type BallotState =
   | { status: "done"; data: BallotResponse };
 
 export default function ResultsPage() {
+  const [prefs] = useState<UserPreferences | null>(() => loadPrefs());
   const [results, setResults] = useState<MatchResult[] | null>(null);
-  const [noPrefs, setNoPrefs] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
   const [explanations, setExplanations] = useState<Record<string, Explanation | "loading">>({});
-  const [voterName, setVoterName] = useState<string | undefined>();
-  const [voterProfile, setVoterProfile] = useState<VoterProfile | undefined>();
-  const [address, setAddress] = useState<string | undefined>();
-  const [ballotState, setBallotState] = useState<BallotState>({ status: "idle" });
+  const [ballotState, setBallotState] = useState<BallotState>(() =>
+    prefs?.address ? { status: "loading" } : { status: "idle" }
+  );
   const [activeRaceId, setActiveRaceId] = useState<string | null>(null);
+  const voterName = prefs?.profile?.name;
+  const voterProfile = prefs?.profile as VoterProfile | undefined;
+  const address = prefs?.address;
 
   const toggleExpand = (id: string) => {
     const next = expanded === id ? null : id;
@@ -79,30 +81,29 @@ export default function ResultsPage() {
   };
 
   useEffect(() => {
-    const prefs = loadPrefs();
-    if (!prefs) {
-      setNoPrefs(true);
-      return;
-    }
-    setVoterName(prefs.profile?.name);
-    setVoterProfile(prefs.profile);
-    setAddress(prefs.address);
+    if (!prefs) return;
+
+    let cancelled = false;
+
     if (prefs.address) {
-      setBallotState({ status: "loading" });
       fetch(`/api/ballot?address=${encodeURIComponent(prefs.address)}`)
         .then(async (r) => {
           const body = await r.json();
           if (!r.ok) throw new Error(body?.error ?? `Request failed (${r.status})`);
           return body as BallotResponse;
         })
-        .then((data) => setBallotState({ status: "done", data }))
-        .catch((err: unknown) =>
+        .then((data) => {
+          if (!cancelled) setBallotState({ status: "done", data });
+        })
+        .catch((err: unknown) => {
+          if (cancelled) return;
           setBallotState({
             status: "error",
             message: err instanceof Error ? err.message : "Could not load your ballot",
-          })
-        );
+          });
+        });
     }
+
     (async () => {
       const list: PoliticianSummary[] = await fetch("/api/politicians").then((r) => r.json());
       const res = await fetch("/api/match", {
@@ -110,11 +111,15 @@ export default function ResultsPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prefs, politician_ids: list.map((p) => p.id) }),
       }).then((r) => r.json());
-      setResults(res.results);
+      if (!cancelled) setResults(res.results);
     })();
-  }, []);
 
-  if (noPrefs) {
+    return () => {
+      cancelled = true;
+    };
+  }, [prefs]);
+
+  if (!prefs) {
     return (
       <div className="mx-auto max-w-2xl px-4 py-16 text-center">
         <p className="text-zinc-400 mb-4">You haven&apos;t set your priorities yet.</p>

@@ -11,7 +11,7 @@ import { Pool } from "pg";
 import { promises as fs } from "fs";
 import path from "path";
 
-const usePostgres = () => !!process.env.DATABASE_URL;
+const shouldUsePostgres = () => !!process.env.DATABASE_URL;
 
 // ---------- file backend (fallback, matches the committed data/ layout) ----------
 
@@ -77,7 +77,7 @@ function getPool(): Pool {
   if (!pool) {
     const connectionString = process.env.DATABASE_URL;
     if (!connectionString) {
-      // Guard: getPool() is only reached when usePostgres() is true, so this
+      // Guard: getPool() is only reached when shouldUsePostgres() is true, so this
       // should never fire. Kept as a safety net.
       throw new Error("DATABASE_URL is not set — expected the file backend instead.");
     }
@@ -118,7 +118,7 @@ function init(): Promise<void> {
 }
 
 export async function kvGet<T>(namespace: string, key: string): Promise<T | null> {
-  if (!usePostgres()) return fileGet<T>(namespace, key);
+  if (!shouldUsePostgres()) return fileGet<T>(namespace, key);
   await init();
   const res = await getPool().query(
     "SELECT value FROM kv WHERE namespace = $1 AND key = $2",
@@ -128,7 +128,7 @@ export async function kvGet<T>(namespace: string, key: string): Promise<T | null
 }
 
 export async function kvSet(namespace: string, key: string, value: unknown): Promise<void> {
-  if (!usePostgres()) return fileSet(namespace, key, value);
+  if (!shouldUsePostgres()) return fileSet(namespace, key, value);
   await init();
   await getPool().query(
     `INSERT INTO kv (namespace, key, value, updated_at)
@@ -141,7 +141,7 @@ export async function kvSet(namespace: string, key: string, value: unknown): Pro
 
 /** All values in a namespace, ordered by key (stable, mirrors sorted readdir). */
 export async function kvList<T>(namespace: string): Promise<T[]> {
-  if (!usePostgres()) return fileList<T>(namespace);
+  if (!shouldUsePostgres()) return fileList<T>(namespace);
   await init();
   const res = await getPool().query(
     "SELECT value FROM kv WHERE namespace = $1 ORDER BY key",
@@ -151,7 +151,7 @@ export async function kvList<T>(namespace: string): Promise<T[]> {
 }
 
 export async function kvDelete(namespace: string, key: string): Promise<void> {
-  if (!usePostgres()) return fileDelete(namespace, key);
+  if (!shouldUsePostgres()) return fileDelete(namespace, key);
   await init();
   await getPool().query("DELETE FROM kv WHERE namespace = $1 AND key = $2", [namespace, key]);
 }

@@ -15,9 +15,9 @@ import type { VoterProfile } from "@/lib/types";
 
 type FetchState =
   | { status: "idle" }
-  | { status: "loading" }
-  | { status: "error"; message: string }
-  | { status: "done"; result: InsightsResponse };
+  | { status: "loading"; raceId: string }
+  | { status: "error"; raceId: string; message: string }
+  | { status: "done"; raceId: string; result: InsightsResponse };
 
 export function InsightsPanel({
   raceId,
@@ -30,20 +30,18 @@ export function InsightsPanel({
 }) {
   const [state, setState] = useState<FetchState>({ status: "idle" });
   const [cache, setCache] = useState<Record<string, InsightsResponse>>({});
+  const visibleState: FetchState = !raceId
+    ? { status: "idle" }
+    : cache[raceId]
+      ? { status: "done", raceId, result: cache[raceId] }
+      : state.status !== "idle" && state.raceId === raceId
+        ? state
+        : { status: "loading", raceId };
 
   useEffect(() => {
-    if (!raceId) {
-      setState({ status: "idle" });
-      return;
-    }
-    const cached = cache[raceId];
-    if (cached) {
-      setState({ status: "done", result: cached });
-      return;
-    }
+    if (!raceId || cache[raceId]) return;
 
     let cancelled = false;
-    setState({ status: "loading" });
 
     fetch("/api/voter-insights", {
       method: "POST",
@@ -58,12 +56,13 @@ export function InsightsPanel({
       .then((result) => {
         if (cancelled) return;
         setCache((c) => ({ ...c, [raceId]: result }));
-        setState({ status: "done", result });
+        setState({ status: "done", raceId, result });
       })
       .catch((err: unknown) => {
         if (cancelled) return;
         setState({
           status: "error",
+          raceId,
           message: err instanceof Error ? err.message : "Could not load insights",
         });
       });
@@ -71,11 +70,9 @@ export function InsightsPanel({
     return () => {
       cancelled = true;
     };
-    // profile is captured at click time; refetch only when the target race changes.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [raceId]);
+  }, [cache, profile, raceId]);
 
-  if (state.status === "idle") {
+  if (visibleState.status === "idle") {
     return (
       <div className="rounded-xl border border-dashed border-zinc-800 p-5 text-sm text-zinc-500">
         Click “What this means for you” on any race above for a plain-English, source-linked read
@@ -92,14 +89,16 @@ export function InsightsPanel({
         What this means for you{race ? ` — ${race.office}` : ""}
       </h3>
 
-      {state.status === "loading" && (
+      {visibleState.status === "loading" && (
         <div className="animate-pulse text-sm text-zinc-500">
           Writing your evidence-grounded explanation…
         </div>
       )}
-      {state.status === "error" && <div className="text-sm text-red-400">{state.message}</div>}
-      {state.status === "done" && (
-        <InsightsBody result={state.result} race={race} profile={profile} />
+      {visibleState.status === "error" && (
+        <div className="text-sm text-red-400">{visibleState.message}</div>
+      )}
+      {visibleState.status === "done" && (
+        <InsightsBody result={visibleState.result} race={race} profile={profile} />
       )}
     </div>
   );

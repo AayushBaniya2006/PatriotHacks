@@ -3,7 +3,7 @@
 // races, issues, orgs, and scenario events — with edges that cross government
 // levels (preemption, funding flows, appointments, career pipelines, coattails).
 import { chat, extractJSON, RESEARCH_MODEL } from "./llm";
-import { getPolitician, listPoliticians, slugify } from "./db";
+import { listPoliticians, slugify } from "./db";
 import { getCachedElection, type DiscoveredRace } from "./discovery";
 import { kvGet, kvSet, NS } from "./store";
 import type { GraphEdge, GraphNode, KnowledgeGraph, ScenarioTree } from "./types";

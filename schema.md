@@ -121,8 +121,10 @@ CREATE TABLE IF NOT EXISTS geocode_cache (
   address_norm TEXT PRIMARY KEY,
   matched_address TEXT,
   cd TEXT, sd TEXT, hd TEXT, county TEXT,
+  civic JSONB,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+ALTER TABLE geocode_cache ADD COLUMN IF NOT EXISTS civic JSONB;
 ```
 
 `race_id` examples actually in `data/tx/races.json`: `tx-gov-2026`,
@@ -350,8 +352,8 @@ No params. Response 200:
 Query param: `address` (required, `min_length=3`, free text — e.g.
 `"601 University Dr, San Marcos, TX 78666"`).
 
-Flow: normalize + check `geocode_cache` (Postgres table / `data/cache.db`
-sqlite) → on miss, call the Census geocoder (`geocoding.geo.census.gov`,
+Flow: normalize + check `geocode_cache` (Postgres table / `data/geocode_cache.json`
+fallback) → on miss, call the Census geocoder (`geocoding.geo.census.gov`,
 8s timeout) → extract CD/SD/HD/county from the `119th Congressional
 Districts` / `2024 State Legislative Districts - Upper` / `- Lower` /
 `Counties` geography layers → cache the result → `datastore.get_ballot`.
@@ -590,7 +592,7 @@ Two services + Railway Postgres add-on:
 |---|---|---|
 | Postgres unreachable / `DATABASE_URL` unset | `app/datastore.py` reads `data/tx/races.json` + `candidates.json` directly | fully functional, same logical schema, no downtime |
 | Neither Postgres nor gold JSON present | every datastore query returns empty | `stats()`/`get_ballot()` surface `data_loaded: false`; `/api/ballot` returns `warning: "data_pending: ..."`; app still boots |
-| Census geocoder down/timeout | `geocode_cache` (Postgres table or `data/cache.db`) still serves previously-seen addresses | uncached addresses → `503 "District lookup unavailable, try again"` |
+| Census geocoder down/timeout | `geocode_cache` (Postgres table or `data/geocode_cache.json`) still serves previously-seen addresses | uncached addresses → `503 "District lookup unavailable, try again"` |
 | Census geocoder returns no match | — | `422`, never silently returns an empty ballot |
 | No `OPENROUTER_API_KEY` | precomputed `data/tx/insights/{race_id}.json` only | any race without a precomputed file → `{"mode": "unavailable", "detail": "Insights not yet generated for this race"}` |
 | `OPENROUTER_API_KEY` set but live generation raises | — | `502 "Could not generate insights right now, try again"` |

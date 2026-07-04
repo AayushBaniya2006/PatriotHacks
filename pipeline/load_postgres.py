@@ -121,8 +121,10 @@ CREATE TABLE IF NOT EXISTS geocode_cache (
   address_norm TEXT PRIMARY KEY,
   matched_address TEXT,
   cd TEXT, sd TEXT, hd TEXT, county TEXT,
+  civic JSONB,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+ALTER TABLE geocode_cache ADD COLUMN IF NOT EXISTS civic JSONB;
 """
 
 
