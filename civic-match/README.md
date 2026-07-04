@@ -29,16 +29,18 @@ flowchart TB
     end
 
     subgraph STAGING["Agent staging (minimize context)"]
-        ORCH["Orchestrator<br/>splits 30-issue taxonomy into<br/>4 clusters + profile + qualitative<br/>each agent sees ONLY its slice"]
+        ORCH["Orchestrator<br/>splits 30-issue taxonomy into<br/>4 clusters + profile + qualitative<br/>+ accountability + finance<br/>each agent sees ONLY its slice"]
     end
 
-    subgraph SWARM["Kimi swarm — 6 parallel research agents (kimi-k2 + web search)"]
+    subgraph SWARM["Kimi swarm — research agents (kimi-k2 + web search)"]
         A1["Economy agent<br/>econ · taxes · jobs · housing<br/>energy · trade · infra ..."]
         A2["Society agent<br/>healthcare · education ·<br/>abortion · labor · civil rights ..."]
         A3["Security agent<br/>immigration · crime · guns ·<br/>defense · foreign policy ..."]
         A4["Governance agent<br/>elections · ethics · AI ·<br/>privacy · judiciary ..."]
         A5["Profile agent<br/>bio · party · office ·<br/>jurisdiction · website"]
         A6["Qualitative agent<br/>integrity · public interest ·<br/>transparency · experience"]
+        A7["Accountability agent<br/>promise vs record<br/>with receipts"]
+        A8["Finance agent<br/>donors · money↔votes<br/>correlation, not proof"]
     end
 
     subgraph ENDPOINTS["Data endpoints (via web search)"]
@@ -67,10 +69,12 @@ flowchart TB
 
     LANDING --> INTAKE
     INTAKE -->|"politician not cached"| ORCH
-    ORCH --> A1 & A2 & A3 & A4 & A5 & A6
+    ORCH --> A1 & A2 & A3 & A4 & A5 & A6 & A7
+    ORCH -->|"after stances validate"| A8
     A1 & A2 & A3 & A4 --> E1 & E2 & E3 & E4
     A6 --> E1 & E4
-    A1 & A2 & A3 & A4 & A5 & A6 --> VAL
+    A7 & A8 --> E1 & E2 & E4
+    A1 & A2 & A3 & A4 & A5 & A6 & A7 & A8 --> VAL
     VAL --> VER
     VER --> PROFILES
     INTAKE -->|"politician cached (fast path)"| PROFILES
@@ -100,8 +104,8 @@ sequenceDiagram
     alt cache hit (fast path)
         D-->>U: profile in ~ms
     else cache miss
-        O->>S: fan out — 6 agents, each gets ONLY its slice
-        par economy ∥ society ∥ security ∥ governance ∥ profile ∥ qualitative
+        O->>S: fan out — 7 parallel agents, each gets ONLY its slice (finance agent follows after stances validate)
+        par economy ∥ society ∥ security ∥ governance ∥ profile ∥ qualitative ∥ accountability
             S->>W: web search: votes, platforms, statements, ethics records
             W-->>S: evidence + URLs + quotes
         end
@@ -188,6 +192,7 @@ Maintenance scripts:
 
 | Route | Method | Purpose |
 |---|---|---|
+| `/api/config` | GET | issues taxonomy + all UI content from the file DB (nothing hardcoded) |
 | `/api/election?state=texas` | GET | cached races (fast path) |
 | `/api/election` | POST | force live discovery agent |
 | `/api/research` | POST | SSE stream: run the Kimi swarm for one politician |
@@ -201,6 +206,7 @@ Maintenance scripts:
 | `/api/stakes` | GET | sourced margins/turnout/"decided anyway" facts per race |
 | `/api/motivate` | POST | personalized nonpartisan hook → info → CTA card |
 | `/api/debate` | POST | SSE: record-grounded candidate-agent debate + fidelity judge |
+| `/api/voter-insights` | POST | bridge to the FastAPI data backend's precomputed per-race insights |
 
 ## Models
 
