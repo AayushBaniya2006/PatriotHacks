@@ -180,6 +180,9 @@ Maintenance scripts:
 
 - `npx tsx scripts/backfill-qual.ts` — add qualitative dimensions to profiles researched before that agent existed
 - `npx tsx scripts/repair.ts` — re-derive null axis placements from indexed evidence + normalize display names to ballot names
+- `npm run seed:graph` — scenario trees per race + cross-level connection agents → knowledge graph
+- `npx tsx scripts/seed-stakes.ts` — sourced margin/turnout stakes per race
+- `npx tsx scripts/backfill-promises.ts` / `backfill-finance.ts` — promise-vs-record scorecards and follow-the-money data
 
 ## API
 
@@ -192,6 +195,12 @@ Maintenance scripts:
 | `/api/match` | POST | score prefs vs. cached profiles → quant + qual + OVERALL (pure computation) |
 | `/api/explain` | POST | qualitative explanation card, personalized to the stated voter profile, cached by prefs-hash |
 | `/api/qa` | POST | grounded Q&A — answers only from indexed evidence (positions + record quality) |
+| `/api/ballot` | GET | address → your actual races (FastAPI backend resolver, statewide fallback) |
+| `/api/scenario` | GET | down-the-line future-possibilities tree per race |
+| `/api/graph` | GET | cross-level knowledge graph (municipal ↔ state ↔ federal) |
+| `/api/stakes` | GET | sourced margins/turnout/"decided anyway" facts per race |
+| `/api/motivate` | POST | personalized nonpartisan hook → info → CTA card |
+| `/api/debate` | POST | SSE: record-grounded candidate-agent debate + fidelity judge |
 
 ## Models
 
