@@ -576,5 +576,105 @@
   "contradictions": [],
   "source_coverage_score": 0.6333333333333333,
   "researched_at": "2026-07-04T00:34:18.451Z",
-  "research_status": "complete"
+  "research_status": "complete",
+  "qualitative": [
+    {
+      "id": "integrity",
+      "score": 1,
+      "summary": "No corruption investigations, indictments, ethics violations, or impeachment proceedings involving Regina Inez Hinojosa were found in public records. The search results instead concern former Congressman Rubén Hinojosa, who filed for personal bankruptcy in 2010 over a family business loan guarantee, and Texas Democratic Party Chairman Gilberto Hinojosa, who is a different individual.",
+      "confidence": 0.85,
+      "sources": [
+        {
+          "source_id": "qual_integrity_src_0",
+          "type": "other",
+          "title": "Rep. Gina Hinojosa joins Democratic race for Texas governor",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2025/10/15/gina-hinojosa-texas-governor-campaign-launch-2026-greg-abbott/",
+          "published_at": "2025-10-15",
+          "retrieved_at": "2026-07-04T00:42:51.816Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_integrity_src_1",
+          "type": "other",
+          "title": "House Dem files for bankruptcy",
+          "publisher": "POLITICO",
+          "url": "https://www.politico.com/story/2011/02/house-dem-files-for-bankruptcy-048799",
+          "published_at": "2011-02-10",
+          "retrieved_at": "2026-07-04T00:42:51.816Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "public_interest",
+      "score": 0.65,
+      "summary": "Hinojosa has measurable favorability data from December 2025 polling by the University of Texas/Texas Politics Project, though specific favorable/unfavorable percentages were not fully extracted from the source. Her constituent service reputation is suggested by her focus on public education and healthcare funding, including securing nearly $1 billion in federal funding for indigent healthcare in Travis County.",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "source_id": "qual_public_interest_src_0",
+          "type": "other",
+          "title": "Gina Hinojosa Favorability (December 2025)",
+          "publisher": "Texas Politics Project",
+          "url": "https://texaspolitics.utexas.edu/set/gina-hinojosa-favorability-december-2025",
+          "published_at": "2025-12",
+          "retrieved_at": "2026-07-04T00:42:51.816Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_public_interest_src_1",
+          "type": "other",
+          "title": "Rep. Gina Hinojosa joins Democratic race for Texas governor",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2025/10/15/gina-hinojosa-texas-governor-campaign-launch-2026-greg-abbott/",
+          "published_at": "2025-10-15",
+          "retrieved_at": "2026-07-04T00:42:51.816Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "score": 0.75,
+      "summary": "Hinojosa has filed annual financial disclosure forms as required for state legislators, though specific details from these filings were not retrieved in the search. No FOIA or press access violations were found. Her campaign launch included public documentation of her legislative record and policy positions.",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "qual_transparency_src_0",
+          "type": "other",
+          "title": "Rep. Gina Hinojosa joins Democratic race for Texas governor",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2025/10/15/gina-hinojosa-texas-governor-campaign-launch-2026-greg-abbott/",
+          "published_at": "2025-10-15",
+          "retrieved_at": "2026-07-04T00:42:51.816Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "score": 0.8,
+      "summary": "Hinojosa has held elected office since 2012, serving first on the Austin ISD school board (including as board president) before winning election to the Texas House in 2016. She is now in her fifth term as a state representative. Her legislative record includes passing bills to reduce standardized testing, increase teacher pay, and secure federal healthcare funding. She has served as a visible opponent to Governor Abbott's school voucher program.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "qual_experience_src_0",
+          "type": "other",
+          "title": "Rep. Gina Hinojosa joins Democratic race for Texas governor",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2025/10/15/gina-hinojosa-texas-governor-campaign-launch-2026-greg-abbott/",
+          "published_at": "2025-10-15",
+          "retrieved_at": "2026-07-04T00:42:51.816Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ]
 }

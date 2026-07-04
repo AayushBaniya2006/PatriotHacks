@@ -683,5 +683,108 @@
   ],
   "source_coverage_score": 0.6333333333333333,
   "researched_at": "2026-07-04T00:35:55.497Z",
-  "research_status": "complete"
+  "research_status": "complete",
+  "qualitative": [
+    {
+      "id": "integrity",
+      "score": 0.1,
+      "summary": "Ken Paxton has faced sustained corruption allegations across multiple investigations. He was impeached by the Texas House in 2023 on 16 charges of misconduct, bribery and corruption, though acquitted by the Senate. He was indicted in 2015 on three felony securities fraud charges, which were dropped in March 2024 after a pretrial agreement requiring 100 hours of community service, legal ethics courses, and $271,000 in restitution. He remains under ongoing FBI investigation related to allegations of using his office to benefit real estate developer Nate Paul.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "source_id": "qual_integrity_src_0",
+          "type": "other",
+          "title": "Felony charges against Ken Paxton to be dropped",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2024/03/26/ken-paxton-plea-deal-securities-fraud-felony/",
+          "published_at": "2024-03-26",
+          "retrieved_at": "2026-07-04T00:42:56.792Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_integrity_src_1",
+          "type": "other",
+          "title": "Republican Texas AG Ken Paxton is acquitted of 16 corruption charges at historic impeachment trial",
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/ken-paxton-impeachment-texas-871fb9c57b38fbda5bec5c2e5f280755",
+          "published_at": "2023-09-16",
+          "retrieved_at": "2026-07-04T00:42:56.792Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_integrity_src_2",
+          "type": "other",
+          "title": "88(R) HR 2377 - Enrolled version - Bill Text",
+          "publisher": "Texas Legislature",
+          "url": "https://capitol.texas.gov/tlodocs/88R/billtext/html/HR02377F.htm",
+          "published_at": "2023",
+          "retrieved_at": "2026-07-04T00:42:56.792Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "score": 0.2,
+      "summary": "Paxton has a documented pattern of incomplete financial disclosure. He failed to disclose multiple out-of-state properties for years, including a luxury cabin in Oklahoma and acreage in Hawaii and Utah, only listing them after a Texas Ethics Commission rule change in 2025. He has claimed contradictory primary residences on mortgage documents and argued disclosure rules were 'murky.' His office redacted property addresses from public records requests, claiming they qualified as home addresses.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "qual_transparency_src_0",
+          "type": "other",
+          "title": "Texas Attorney General Ken Paxton did not disclose real estate interests for years. That just changed.",
+          "publisher": "KUT Radio, Austin's NPR Station",
+          "url": "https://www.kut.org/politics/2025-07-21/texas-attorney-general-ken-paxton-home-property-disclosure-ethics",
+          "published_at": "2025-07-21",
+          "retrieved_at": "2026-07-04T00:42:56.792Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_transparency_src_1",
+          "type": "other",
+          "title": "Ken Paxton Claimed Three Houses as His Primary Residence, Records Show",
+          "publisher": "The New York Times",
+          "url": "https://www.nytimes.com/2025/07/24/us/politics/ken-paxton-mortgage.html",
+          "published_at": "2025-07-24",
+          "retrieved_at": "2026-07-04T00:42:56.792Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "score": 0.7,
+      "summary": "Paxton has held elected office for more than two decades, serving in the Texas House of Representatives from 2003 to 2013, the Texas Senate from 2013 to 2015, and as Texas Attorney General since 2015, winning re-election three times. He has pursued high-profile litigation against the Biden administration on immigration and other issues, and attempted to overturn the 2020 presidential election results in four battleground states. However, his tenure has been marked by high staff turnover and dysfunction, with eight former deputies reporting him to the FBI.",
+      "confidence": 0.85,
+      "sources": [
+        {
+          "source_id": "qual_experience_src_0",
+          "type": "other",
+          "title": "Republican Texas AG Ken Paxton is acquitted of 16 corruption charges at historic impeachment trial",
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/ken-paxton-impeachment-texas-871fb9c57b38fbda5bec5c2e5f280755",
+          "published_at": "2023-09-16",
+          "retrieved_at": "2026-07-04T00:42:56.792Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_experience_src_1",
+          "type": "other",
+          "title": "Felony charges against Ken Paxton to be dropped",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2024/03/26/ken-paxton-plea-deal-securities-fraud-felony/",
+          "published_at": "2024-03-26",
+          "retrieved_at": "2026-07-04T00:42:56.792Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ]
 }

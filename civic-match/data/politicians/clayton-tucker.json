@@ -1,0 +1,659 @@
+{
+  "id": "clayton-tucker",
+  "name": "Clayton Tucker",
+  "party": "Democratic Party",
+  "current_office": "Candidate for Texas Commissioner of Agriculture",
+  "jurisdiction": "Texas",
+  "bio": "Clayton Tucker is a fifth-generation Texan and cattle rancher from Lampasas who previously ran for Texas State Senate District 24 in 2020. He has worked as a fair trade policy advocate, water researcher, kindergarten teacher, and serves as Secretary of the Texas Farmers Union.",
+  "campaign_website": "https://www.claytontuckertx.com/",
+  "stances": [
+    {
+      "stance_id": "economy_1783125631736",
+      "issue_id": "economy",
+      "position_label": "Public investment and anti-monopoly intervention",
+      "position_scalar": 0.85,
+      "summary": "Tucker advocates for significant public investment in rural infrastructure, healthcare, and broadband to rebuild the rural economy, combined with aggressive antitrust action against corporate monopolies. He criticizes deregulation and offshoring policies from the 1980s-1990s.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "economy_src_0",
+          "type": "official_platform",
+          "title": "Rural Economy - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/rural_economy",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "We need significant investments in rural infrastructure, healthcare, broadband connectivity, and other incentives to attract jobs back to rural Texas.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "economy_src_1",
+          "type": "official_platform",
+          "title": "Bust Monopolies Petition - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/fight_corporate_consolidation",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "From the 1980s farm crisis to Reagan's offshoring of East Texas steel to NAFTA's destruction of rural jobs, rural Texans have long suffered under a stagnant economy.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "inflation_1783125631736",
+      "issue_id": "inflation",
+      "position_label": "Anti-gouging and anti-monopoly intervention",
+      "position_scalar": 0.9,
+      "summary": "Tucker attributes inflation primarily to corporate monopolies price-gouging consumers, not government spending. He supports direct intervention through breaking up monopolies and regulating corporate middlemen rather than reducing spending or regulation.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "inflation_src_0",
+          "type": "official_platform",
+          "title": "Bust Monopolies Petition - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/fight_corporate_consolidation",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "Monopolies cause inflation... Monopolies are devouring America. They destroy small businesses, they price-gouge Americans",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "inflation_src_1",
+          "type": "official_platform",
+          "title": "Make Food Affordable Again - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/lower_prices",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "While corporate profits are sky-high, family farmers are paid pennies on the dollar of what they are owed, and consumers are being price-gouged. Corporate middlemen are both suppressing farm income and raising prices for consumers.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "jobs_1783125631736",
+      "issue_id": "jobs",
+      "position_label": "Labor standards and anti-offshoring",
+      "position_scalar": 0.8,
+      "summary": "Tucker supports raising labor standards through fair trade policies that prevent jobs from being shipped overseas, and advocates for investments to attract jobs back to rural Texas. He criticizes NAFTA and Reagan-era offshoring.",
+      "evidence_type": "official_platform",
+      "confidence": 0.75,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "jobs_src_0",
+          "type": "official_platform",
+          "title": "Rural Economy - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/rural_economy",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "From the 1980s farm crisis to Reagan's offshoring of East Texas steel to NAFTA's destruction of rural jobs, rural Texans have long suffered under a stagnant economy. We need significant investments in rural infrastructure, healthcare, broadband connectivity, and other incentives to attract jobs back to rural Texas.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "jobs_src_1",
+          "type": "official_platform",
+          "title": "Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "He works as a fair trade policy advocate, fighting corporations that use international trade policy to rig the rules against working people and ship jobs overseas.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "climate_1783125631736",
+      "issue_id": "climate",
+      "position_label": "Pro-environmental action with agricultural focus",
+      "position_scalar": 0.75,
+      "summary": "Tucker supports environmental protection including fighting climate change, protecting water systems, and shifting to organic/regenerative agricultural practices. He frames this as protecting food systems and rural livelihoods.",
+      "evidence_type": "official_platform",
+      "confidence": 0.75,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "climate_src_0",
+          "type": "official_platform",
+          "title": "Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "Clayton has been fighting for Working Texans for years... as well as fought to protect our water, climate, and food systems.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "climate_src_1",
+          "type": "official_platform",
+          "title": "Petitions - Clayton Tucker",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/issues",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "We need to save Texas soil! As Texas Agriculture Commissioner, Clayton Tucker will help farmers phase out chemical inputs and shift to organic/regenerative practices",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "energy_1783125631736",
+      "issue_id": "energy",
+      "position_label": "Opposes AI data centers due to resource consumption",
+      "position_scalar": 0.6,
+      "summary": "Tucker specifically opposes AI data centers due to their water and energy consumption impacts on Texas. He criticizes 'Big Tech' and Wall Street oligarchs, but does not articulate a full energy policy or position on fossil fuels vs. renewables.",
+      "evidence_type": "official_platform",
+      "confidence": 0.6,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "energy_src_0",
+          "type": "official_platform",
+          "title": "Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "AI Data Centers are coming to... These centers will drain water and will jack up utility bills. We need to put Texans first, not Big Tech.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "energy_src_1",
+          "type": "official_platform",
+          "title": "Petitions - Clayton Tucker",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/issues",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "Data centers, including those for AI, are coming to mess with Texas. With them will come higher water and power bills, dry water wells, and no real jobs.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "trade_1783125631736",
+      "issue_id": "trade",
+      "position_label": "Fair trade advocate, critical of free trade agreements",
+      "position_scalar": 0.85,
+      "summary": "Tucker is explicitly a 'fair trade advocate' who opposes current free trade frameworks. He criticizes NAFTA for destroying rural jobs and fights corporations that 'use international trade policy to rig the rules against working people.' Supports rewriting trade rules to protect domestic workers.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "trade_src_0",
+          "type": "official_platform",
+          "title": "Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "He works as a fair trade policy advocate, fighting corporations that use international trade policy to rig the rules against working people and ship jobs overseas.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "trade_src_1",
+          "type": "official_platform",
+          "title": "Rural Economy - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/rural_economy",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "From the 1980s farm crisis to Reagan's offshoring of East Texas steel to NAFTA's destruction of rural jobs",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "trade_src_2",
+          "type": "official_platform",
+          "title": "Bust Monopolies Petition - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/fight_corporate_consolidation",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "they rewrite our trade rules to ship our jobs overseas",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "infrastructure_1783125631736",
+      "issue_id": "infrastructure",
+      "position_label": "Major federal/public investment in rural infrastructure",
+      "position_scalar": 0.9,
+      "summary": "Tucker explicitly calls for 'significant investments' in rural infrastructure including healthcare, broadband connectivity, and other incentives. Criticizes decades of underinvestment in rural areas.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "infrastructure_src_0",
+          "type": "official_platform",
+          "title": "Rural Economy - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/rural_economy",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "We need significant investments in rural infrastructure, healthcare, broadband connectivity, and other incentives to attract jobs back to rural Texas.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "small_business_1783125631736",
+      "issue_id": "small_business",
+      "position_label": "Antitrust action and public support for family farms",
+      "position_scalar": 0.85,
+      "summary": "Tucker emphasizes antitrust action against large corporations as the primary means of supporting small agricultural producers. Supports public support mechanisms and opposes 'transnational corporations' that disadvantage family farms. Explicitly 'not against big farms or ranches' but against corporate consolidation.",
+      "evidence_type": "official_platform",
+      "confidence": 0.85,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "small_business_src_0",
+          "type": "official_platform",
+          "title": "Bust Monopolies Petition - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/fight_corporate_consolidation",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "We are not against big farms or ranches, or against family-owned companies owning farms. We are greatly concerned about the transnational corporations that have and continue to rewrite the rules to enlarge themselves at the expense of everyone else.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "small_business_src_1",
+          "type": "official_platform",
+          "title": "Petitions - Clayton Tucker",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/issues",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "Transnational corporations and other monopolies are killing family farms and ranches. If we don't stop them, there won't be any family farms left in Texas. We need to break up the monopolies",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "healthcare_1783125631736",
+      "issue_id": "healthcare",
+      "position_label": "Government-guaranteed coverage for all",
+      "position_scalar": 1,
+      "summary": "Clayton Tucker states that \"it is the government’s responsibility to ensure everyone has health insurance\" and pledges to use the Agriculture office to lower prices and expand rural hospitals.",
+      "evidence_type": "official_platform",
+      "confidence": 0.95,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "healthcare_src_0",
+          "type": "official_platform",
+          "title": "Healthcare - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/healthcare",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "All Texans deserve affordable, timely healthcare... we need a government that fights to increase access to affordable, timely healthcare for all Texans.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "healthcare_src_1",
+          "type": "questionnaire",
+          "title": "Clayton Tucker iVoterGuide Profile",
+          "publisher": "ivoterguide.com",
+          "url": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+          "published_at": "2020",
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "It is the government’s responsibility to ensure everyone has health insurance.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "education_1783125631736",
+      "issue_id": "education",
+      "position_label": "Invest in public schools",
+      "position_scalar": 1,
+      "summary": "Tucker supports taxpayer-funded public education \"through college,\" indicating strong backing for public-school funding rather than vouchers or charters.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.9,
+      "recency": "2020",
+      "sources": [
+        {
+          "source_id": "education_src_0",
+          "type": "questionnaire",
+          "title": "Clayton Tucker iVoterGuide Profile",
+          "publisher": "ivoterguide.com",
+          "url": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+          "published_at": "2020",
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "Taxpayer-funded public education should be guaranteed through college.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "labor_1783125631736",
+      "issue_id": "labor",
+      "position_label": "Strengthen unions and worker protections",
+      "position_scalar": 1,
+      "summary": "Tucker’s campaign emphasizes fighting corporate monopolies and advocates for fair-trade policies that oppose shipping jobs overseas, aligning with pro-worker positions.",
+      "evidence_type": "official_platform",
+      "confidence": 0.8,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "labor_src_0",
+          "type": "official_platform",
+          "title": "Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/",
+          "published_at": "2024-07-04",
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "Clayton has fought against the monopolization and consolidation of our food (& other) system... fighting corporations that use international trade policy to... ship jobs overseas.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "immigration_1783125631736",
+      "issue_id": "immigration",
+      "position_label": "Border wall support (2020)",
+      "position_scalar": 0.05,
+      "summary": "In a 2020 State Senate race questionnaire, Tucker expressed support for border wall construction and 'complete control' over border entry/exit. No current position found for 2026 Agriculture Commissioner race; campaign focuses on trade and agricultural issues.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.4,
+      "recency": "2020-01-01",
+      "sources": [
+        {
+          "source_id": "immigration_src_0",
+          "type": "questionnaire",
+          "title": "Clayton Tucker iVoterGuide Profile",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+          "published_at": "2020-01-01",
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "I am in favor of construction of a wall and other necessary infrastructure on our border that gives complete control over entering and exiting the United States.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "foreign_policy_1783125631736",
+      "issue_id": "foreign_policy",
+      "position_label": "Fair trade advocate; critical of NAFTA",
+      "position_scalar": 0.8,
+      "summary": "Tucker advocates for 'fair trade' over 'free trade,' criticizing NAFTA for harming Texas agriculture and sending food production overseas. Supports reshoring agriculture and rebuilding local supply chains, with some protectionist economic policies.",
+      "evidence_type": "official_platform",
+      "confidence": 0.7,
+      "recency": "2025-12-30",
+      "sources": [
+        {
+          "source_id": "foreign_policy_src_0",
+          "type": "official_platform",
+          "title": "Fair Trade - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/trade",
+          "published_at": "2025-01-01",
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "NAFTA turned Texas into a net-importer of food...We must reshore American agriculture and rebuild our local supply chains. This require fair trade.",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "foreign_policy_src_1",
+          "type": "news_report",
+          "title": "Clayton Tucker: A Populist Challenger Takes On Sid Miller in Texas Ag Commissioner Race",
+          "publisher": "Texas Reporter",
+          "url": "https://texreporter.com/2025/12/30/clayton-tucker-a-populist-challenger-takes-on-sid-miller-in-texas-ag-commissioner-race/",
+          "published_at": "2025-12-30",
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": false,
+          "quote": "Tucker argues that this concentration inflates food prices for consumers while squeezing farmers on the production end, undermining both rural economies and household budgets.",
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "stance_id": "defense_1783125631736",
+      "issue_id": "defense",
+      "position_label": "No clear position found",
+      "position_scalar": null,
+      "summary": "No evidence found on military spending or defense policy positions. The 2020 iVoterGuide shows 'Did not answer' on whether 'the best way to maintain peace is through a strong military.' Current campaign focuses on agriculture, healthcare, and trade.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.2,
+      "recency": "2020-01-01",
+      "sources": [
+        {
+          "source_id": "defense_src_0",
+          "type": "questionnaire",
+          "title": "Clayton Tucker iVoterGuide Profile",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+          "published_at": "2020-01-01",
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "Did not answer",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "ai_tech_1783125631736",
+      "issue_id": "ai_tech",
+      "position_label": "Strong regulation of AI data centers",
+      "position_scalar": 0.85,
+      "summary": "Clayton Tucker advocates for strict oversight of AI data centers through mandatory 'Ag Impact Studies' and has outlined seven specific requirements for 'responsible' data centers, including restrictions on water/power usage, union labor requirements, and prohibitions on job automation. He frames unregulated data centers as threats to Texas communities that primarily benefit Wall Street and Big Tech.",
+      "evidence_type": "official_platform",
+      "confidence": 0.9,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "ai_tech_src_0",
+          "type": "official_platform",
+          "title": "Stop AI Data Centers - Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/stop_ai_centers",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "For a data center to be considered responsible, it must: 1. Not cause power disruptions or inflation. 2. Use brackish or other non-drinking water in a sustainable way... 3. Use unionized Texas labor... 4. Pay fair and adequate taxes... 5. Not contribute to the inflation of RAM... 6. Not be placed on prime farmland. 7. Not be used to automate jobs away...",
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "ai_tech_src_1",
+          "type": "official_platform",
+          "title": "Data Centers Need Impact Studies",
+          "publisher": "claytontuckertx.substack.com",
+          "url": "https://claytontuckertx.substack.com/p/data-centers-need-impact-studies",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "The Ag Impact Study will give locals a chance to put the brakes on uncontrolled, irresponsible data center development... As Texas Ag Commissioner, I will demand Ag Impact Studies before more data centers come for their land, their water, and their tax dollars.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "elections_1783125631736",
+      "issue_id": "elections",
+      "position_label": "Expand voting access",
+      "position_scalar": 0.85,
+      "summary": "According to iVoterGuide, Clayton Tucker believes 'People should be able to vote without photo identification' and that 'The Electoral College should be abolished.' These positions indicate support for expanded voting access and federal election standards.",
+      "evidence_type": "questionnaire",
+      "confidence": 0.7,
+      "recency": "2020-01-01",
+      "sources": [
+        {
+          "source_id": "elections_src_0",
+          "type": "questionnaire",
+          "title": "Clayton Tucker iVoterGuide Profile",
+          "publisher": "ivoterguide.com",
+          "url": "https://ivoterguide.com/candidate/53259/race/8288/election/791",
+          "published_at": "2020-01-01",
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "People should be able to vote without photo identification... The Electoral College should be abolished.",
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "stance_id": "ethics_1783125631736",
+      "issue_id": "ethics",
+      "position_label": "Sweeping anti-monopoly reform",
+      "position_scalar": 0.75,
+      "summary": "Tucker advocates for breaking up monopolies, stating 'We broke up monopolies in the past. We must do it again.' He criticizes corporate influence on trade rules and supports policies against 'transnational corporations,' though specific positions on stock trading bans, lobbying limits, or term limits for elected officials were not found.",
+      "evidence_type": "official_platform",
+      "confidence": 0.6,
+      "recency": "2024-07-04",
+      "sources": [
+        {
+          "source_id": "ethics_src_0",
+          "type": "official_platform",
+          "title": "Clayton Tucker for TX Ag Commissioner",
+          "publisher": "claytontuckertx.com",
+          "url": "https://www.claytontuckertx.com/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:39:05.484Z",
+          "primary_source": true,
+          "quote": "Monopolies are devouring America. They destroy small businesses, they price-gouge Americans, they rewrite our trade rules to ship our jobs overseas... We broke up monopolies in the past. We must do it again.",
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ],
+  "unknowns": [
+    "taxes",
+    "crime",
+    "housing",
+    "debt_spending",
+    "social_security",
+    "medicare_medicaid",
+    "abortion",
+    "guns",
+    "civil_rights",
+    "lgbtq",
+    "national_security",
+    "privacy",
+    "judiciary"
+  ],
+  "contradictions": [
+    {
+      "issue_id": "energy",
+      "description": "The summary says Tucker does not articulate a full energy policy, so the scalar leans toward a fossil-fuel/renewables position that is not supported by the evidence.",
+      "sources": []
+    },
+    {
+      "issue_id": "foreign_policy",
+      "description": "The label and summary frame this as fair-trade and anti-NAFTA economic policy, which fits trade more than a general foreign-policy axis about global leadership versus America-first priorities.",
+      "sources": []
+    }
+  ],
+  "source_coverage_score": 0.5666666666666667,
+  "researched_at": "2026-07-04T00:39:05.484Z",
+  "research_status": "complete",
+  "qualitative": [
+    {
+      "id": "integrity",
+      "score": 0.9,
+      "summary": "No court records, indictments, ethics violations or impeachment proceedings involving Clayton Tucker were located. His campaign-finance filings on Transparency USA show routine contributions and expenditures with no flagged irregularities.",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "source_id": "qual_integrity_src_0",
+          "type": "other",
+          "title": "Clayton H Tucker - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:42:14.224Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "public_interest",
+      "score": 0.4,
+      "summary": "No independent approval polls or constituent-service metrics were found. Press coverage is limited to campaign announcements and candidate-provided biographies, offering no third-party evidence of broad public support or constituent responsiveness.",
+      "confidence": 0.3,
+      "sources": [
+        {
+          "source_id": "qual_public_interest_src_0",
+          "type": "other",
+          "title": "Clayton Tucker: A Populist Challenger Takes On Sid Miller in Texas Ag Commissioner Race",
+          "publisher": "Texas Reporter",
+          "url": "https://texreporter.com/2025/12/30/clayton-tucker-a-populist-challenger-takes-on-sid-miller-in-texas-ag-commissioner-race/",
+          "published_at": "2025-12-30",
+          "retrieved_at": "2026-07-04T00:42:14.224Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "score": 0.6,
+      "summary": "Tucker posts campaign finance data that meets state filing requirements, but no independent audits or FOIA/records-compliance evaluations were located. No press-access or open-records scorecards were found for his prior 2020 state-senate campaign.",
+      "confidence": 0.5,
+      "sources": [
+        {
+          "source_id": "qual_transparency_src_0",
+          "type": "other",
+          "title": "Clayton H Tucker - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:42:14.224Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "score": 0.2,
+      "summary": "Tucker has never held elected office. He lost primaries for Texas Senate District 24 in 2020 and is a 2026 candidate for Agriculture Commissioner. No bills passed or legislative leadership roles were identified.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "qual_experience_src_0",
+          "type": "other",
+          "title": "Clayton Tucker | BallotReady",
+          "publisher": "BallotReady",
+          "url": "https://www.ballotready.org/people/clayton-tucker",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:42:14.224Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ]
+}

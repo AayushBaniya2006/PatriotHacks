@@ -968,5 +968,138 @@
   ],
   "source_coverage_score": 0.9,
   "researched_at": "2026-07-04T00:36:04.117Z",
-  "research_status": "complete"
+  "research_status": "complete",
+  "qualitative": [
+    {
+      "id": "integrity",
+      "score": 0.85,
+      "summary": "No corruption investigations, indictments, ethics violations, or impeachment proceedings were found in public records. Talarico has maintained a clean legal record through four terms in the Texas House. The only legal action involving him was as a plaintiff/target: in 2025, Attorney General Ken Paxton sued to expel Talarico and 12 other Democratic representatives from the House for breaking quorum, but the Texas Supreme Court dismissed the case in May 2026 for lack of jurisdiction.",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "source_id": "qual_integrity_src_0",
+          "type": "other",
+          "title": "James Talarico",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Talarico",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:42:17.882Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "qual_integrity_src_1",
+          "type": "other",
+          "title": "How being a teacher spurred James Talarico's Senate bid",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:42:17.882Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "public_interest",
+      "score": 0.7,
+      "summary": "Specific approval polling data for Talarico was not found in searched records. He won his 2018 general election with 76.8% of the vote and his 2022 primary with 78.5%, indicating strong electoral support in his Democratic-leaning districts. Texas Monthly named him one of the Top 10 Best Legislators in 2025, suggesting peer recognition for constituent service. His frequent viral social media presence and national media appearances (including The Joe Rogan Experience and The Late Show with Stephen Colbert) indicate significant public engagement, though this also drew criticism from some Democratic colleagues during the 2025 quorum break when he returned to Texas earlier than others.",
+      "confidence": 0.65,
+      "sources": [
+        {
+          "source_id": "qual_public_interest_src_0",
+          "type": "other",
+          "title": "James Talarico",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Talarico",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:42:17.882Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "qual_public_interest_src_1",
+          "type": "other",
+          "title": "How being a teacher spurred James Talarico's Senate bid",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:42:17.882Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "score": 0.75,
+      "summary": "Talarico has standard financial disclosure requirements as a Texas state legislator and U.S. Senate candidate, with records available through the Texas Ethics Commission. He has been accessible to national press, appearing on major platforms including The Late Show with Stephen Colbert and The Joe Rogan Experience. During his 2018 campaign, he gained media attention by walking 25 miles across his district. However, specific FOIA compliance records or detailed press access metrics were not found in searched sources. His campaign maintains an active public website and social media presence.",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "qual_transparency_src_0",
+          "type": "other",
+          "title": "James Talarico",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Talarico",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:42:17.882Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "qual_transparency_src_1",
+          "type": "other",
+          "title": "Who is James Talarico? Texas Democrat behind viral Colbert moment",
+          "publisher": "USA Today",
+          "url": "https://ftw.usatoday.com/story/news/politics/2026/02/17/who-is-james-talarico/88716299007/",
+          "published_at": "2026-02-17",
+          "retrieved_at": "2026-07-04T00:42:17.882Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "score": 0.8,
+      "summary": "Talarico has served four terms in the Texas House of Representatives since 2018, making him one of the more experienced Democratic legislators in the Republican-dominated chamber. He was the lead author of nearly 200 bills, with 16 becoming law (8 related to education, childcare, or youth workforce development). He held leadership roles including Vice Chair of the Public Education Subcommittee on Academic and Career-Oriented Education and Vice Chair of Trade, Workforce, and Economic Development. He served on key committees including Public Education, Calendars, and Juvenile Justice and Family Issues. He successfully flipped a Republican-held seat in 2018 and later won a competitive Democratic primary for U.S. Senate in 2026. His pre-legislative experience includes teaching, nonprofit executive direction, and Harvard graduate education in education policy.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "qual_experience_src_0",
+          "type": "other",
+          "title": "Member profile for James Talarico - Texas Legislative Reference Library",
+          "publisher": "Texas Legislative Reference Library",
+          "url": "https://www.lrl.texas.gov/legeLeaders/members/memberDisplay.cfm?memberID=5831",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:42:17.882Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_experience_src_1",
+          "type": "other",
+          "title": "How being a teacher spurred James Talarico's Senate bid",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/01/16/james-talarico-texas-senate-democrat-teacher-election-2026/",
+          "published_at": "2026-01-16",
+          "retrieved_at": "2026-07-04T00:42:17.882Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "qual_experience_src_2",
+          "type": "other",
+          "title": "James Talarico",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Talarico",
+          "published_at": "2026-07-04",
+          "retrieved_at": "2026-07-04T00:42:17.882Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    }
+  ]
 }

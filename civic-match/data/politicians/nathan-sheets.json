@@ -215,5 +215,127 @@
   ],
   "source_coverage_score": 0.2,
   "researched_at": "2026-07-04T00:38:32.337Z",
-  "research_status": "complete"
+  "research_status": "complete",
+  "qualitative": [
+    {
+      "id": "integrity",
+      "score": 0.9,
+      "summary": "D. Nathan Sheets has no publicly documented corruption investigations, indictments, ethics violations, or impeachment proceedings. His nomination to Under Secretary of the Treasury was confirmed by the Senate by voice vote on September 18, 2014, with no recorded opposition or ethical concerns raised during the process. The Senate Finance Committee reported his nomination favorably without printed report on July 31, 2014.",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "source_id": "qual_integrity_src_0",
+          "type": "other",
+          "title": "PN1455 - Nomination of D. Nathan Sheets for Department of the Treasury, 113th Congress (2013-2014)",
+          "publisher": "Congress.gov | Library of Congress",
+          "url": "https://www.congress.gov/nomination/113th-congress/1455",
+          "published_at": "2014-09-18",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_integrity_src_1",
+          "type": "other",
+          "title": "Wyden Applauds Senate Confirmation of Treasury, USTR Nominees",
+          "publisher": "The United States Senate Committee on Finance",
+          "url": "https://www.finance.senate.gov/chairmans-news/wyden-applauds-senate-confirmation-of-treasury-ustr-nominees",
+          "published_at": "2014-09-18",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "public_interest",
+      "score": 0.6,
+      "summary": "No direct public approval polling data is available for Sheets as he held appointed rather than elected office. His nomination received bipartisan Senate confirmation by voice vote, suggesting general acceptability. Senate Finance Committee Chairman Ron Wyden publicly praised his 'economic policy expertise and high-level experience,' indicating positive reception from at least one key legislative stakeholder.",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "qual_public_interest_src_0",
+          "type": "other",
+          "title": "Wyden Applauds Senate Confirmation of Treasury, USTR Nominees",
+          "publisher": "The United States Senate Committee on Finance",
+          "url": "https://www.finance.senate.gov/chairmans-news/wyden-applauds-senate-confirmation-of-treasury-ustr-nominees",
+          "published_at": "2014-09-18",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "score": 0.7,
+      "summary": "Sheets underwent standard federal financial disclosure and vetting processes for Senate-confirmed positions, including a public hearing before the Senate Finance Committee on June 25, 2014. His nomination was subject to standard Senate procedures including commitment to respond to requests to appear and testify before any duly constituted committee. No FOIA disputes or press access controversies involving Sheets are documented in public records.",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "source_id": "qual_transparency_src_0",
+          "type": "other",
+          "title": "PN1455 - Nomination of D. Nathan Sheets for Department of the Treasury, 113th Congress (2013-2014)",
+          "publisher": "Congress.gov | Library of Congress",
+          "url": "https://www.congress.gov/nomination/113th-congress/1455",
+          "published_at": "2014-06-25",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "score": 0.85,
+      "summary": "Sheets held substantial federal and private sector positions: 18 years at the Federal Reserve Board (1993-2011), including nearly 4 years as Director of the Division of International Finance (2007-2011); senior adviser to the U.S. Executive Director at the International Monetary Fund (2006-2007); Global Head of International Economics at Citigroup; Under Secretary of the Treasury for International Affairs (September 2014-January 2017); and later Global Chief Economist at Citigroup (from October 2021). His tenure as division director spanned the 2008 financial crisis, indicating crisis management experience.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "qual_experience_src_0",
+          "type": "other",
+          "title": "Federal Reserve Board - D. Nathan Sheets appointed as director, Division of International Finance",
+          "publisher": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20070910a.htm",
+          "published_at": "2007-09-10",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_experience_src_1",
+          "type": "other",
+          "title": "Federal Reserve Board - D. Nathan Sheets, director of the Division of International Finance, steps down after 18 years of service",
+          "publisher": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20110808a.htm",
+          "published_at": "2011-08-08",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_experience_src_2",
+          "type": "other",
+          "title": "PN1455 - Nomination of D. Nathan Sheets for Department of the Treasury, 113th Congress (2013-2014)",
+          "publisher": "Congress.gov | Library of Congress",
+          "url": "https://www.congress.gov/nomination/113th-congress/1455",
+          "published_at": "2014-09-18",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_experience_src_3",
+          "type": "other",
+          "title": "D. Nathan Sheets",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/D._Nathan_Sheets",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    }
+  ]
 }

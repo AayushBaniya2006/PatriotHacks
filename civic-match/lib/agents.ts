@@ -6,6 +6,7 @@ import { chat, extractJSON, FAST_MODEL, RESEARCH_MODEL } from "./llm";
 import { savePolitician, slugify } from "./db";
 import type {
   PoliticianProfile,
+  QualitativeDimension,
   ResearchEvent,
   Source,
   Stance,
@@ -98,6 +99,76 @@ async function runProfileAgent(name: string): Promise<Partial<PoliticianProfile>
   } catch {
     return { name };
   }
+}
+
+interface RawQualDim {
+  id: string;
+  score: number;
+  summary: string;
+  confidence: number;
+  sources: RawStance["sources"];
+}
+
+const QUAL_DIM_IDS = new Set(["integrity", "public_interest", "transparency", "experience"]);
+
+/** Qualitative agent: character dimensions independent of issue positions. */
+export async function runQualitativeAgent(
+  name: string,
+  retrievedAt: string
+): Promise<QualitativeDimension[]> {
+  const out = await chat(
+    [
+      {
+        role: "user",
+        content: `You are a neutral political researcher. Use web search to assess U.S. politician "${name}" on four QUALITATIVE dimensions (independent of policy positions). Base every claim on verifiable public evidence: court records, ethics filings, indictments, impeachment proceedings, approval polling, FOIA/press-access records, offices held, bills passed. Never invent sources.
+
+Dimensions (score 0.0-1.0, higher = better):
+- "integrity": corruption investigations, indictments, ethics violations, impeachments (clean record = high)
+- "public_interest": approval ratings, constituent service reputation, responsiveness
+- "transparency": financial disclosure, press access, records compliance
+- "experience": offices held, tenure, legislative effectiveness (bills passed, leadership roles)
+
+Return ONLY a JSON array:
+[{"id": "integrity", "score": 0.0-1.0, "summary": "2 neutral sentences citing the specific evidence", "confidence": 0.0-1.0, "sources": [{"title": "...", "publisher": "...", "url": "real URL", "published_at": "YYYY-MM-DD if known", "primary_source": true|false}]}]
+
+Rules: every dimension MUST have at least one real source URL or be omitted. Neutral language. Documented facts only — no speculation.`,
+      },
+    ],
+    { model: RESEARCH_MODEL, maxTokens: 4096, timeoutMs: 150_000 }
+  );
+  let raw: RawQualDim[] = [];
+  try {
+    raw = extractJSON<RawQualDim[]>(out);
+  } catch {
+    return [];
+  }
+  const dims: QualitativeDimension[] = [];
+  for (const d of raw) {
+    if (!QUAL_DIM_IDS.has(d.id)) continue;
+    const sources: Source[] = (d.sources || [])
+      .filter((s) => s.url && /^https?:\/\//.test(s.url))
+      .map((s, i) => ({
+        source_id: `qual_${d.id}_src_${i}`,
+        type: "other" as const,
+        title: s.title || "Untitled source",
+        publisher: s.publisher || new URL(s.url).hostname,
+        url: s.url,
+        published_at: s.published_at,
+        retrieved_at: retrievedAt,
+        primary_source: !!s.primary_source,
+        quote: s.quote,
+        reliability_score: s.primary_source ? 0.95 : 0.7,
+      }));
+    if (sources.length === 0) continue; // no source, no claim
+    dims.push({
+      id: d.id as QualitativeDimension["id"],
+      score: Math.max(0, Math.min(1, d.score ?? 0.5)),
+      summary: d.summary || "",
+      confidence: Math.max(0, Math.min(1, d.confidence ?? 0.5)),
+      sources,
+    });
+  }
+  return dims;
 }
 
 /** Programmatic verification: no source, no claim (PRD R1). */
@@ -199,13 +270,21 @@ export async function researchPolitician(
 
   const clusterNames = Object.keys(CLUSTERS);
   let done = 0;
-  const total = clusterNames.length + 1;
+  const total = clusterNames.length + 2;
 
-  // Fan out: profile agent + one agent per issue cluster, all parallel (latency-first)
+  // Fan out: profile agent + qualitative agent + one agent per issue cluster,
+  // all parallel (latency-first)
   const profilePromise = runProfileAgent(name).then((p) => {
     done++;
     onEvent({ type: "agent_done", agent: "profile", message: "Profile agent finished", progress: 0.1 + 0.6 * (done / total) });
     return p;
+  });
+
+  onEvent({ type: "agent_start", agent: "qualitative", message: "Agent researching character record (ethics, transparency, experience)" });
+  const qualitativePromise = runQualitativeAgent(name, retrievedAt).then((q) => {
+    done++;
+    onEvent({ type: "agent_done", agent: "qualitative", message: `Qualitative agent scored ${q.length} dimensions`, progress: 0.1 + 0.6 * (done / total) });
+    return q;
   });
 
   const clusterPromises = clusterNames.map((cluster) => {
@@ -217,8 +296,9 @@ export async function researchPolitician(
     });
   });
 
-  const [profilePart, ...clusterResults] = await Promise.all([
+  const [profilePart, qualitative, ...clusterResults] = await Promise.all([
     profilePromise,
+    qualitativePromise,
     ...clusterPromises,
   ]);
 
@@ -245,6 +325,7 @@ export async function researchPolitician(
     bio: profilePart.bio,
     campaign_website: profilePart.campaign_website ?? undefined,
     stances,
+    qualitative,
     unknowns,
     contradictions,
     source_coverage_score: coveredIssues.size / Object.keys(ISSUE_MAP).length,

@@ -528,5 +528,105 @@
   ],
   "source_coverage_score": 0.6,
   "researched_at": "2026-07-04T00:37:57.140Z",
-  "research_status": "complete"
+  "research_status": "complete",
+  "qualitative": [
+    {
+      "id": "integrity",
+      "score": 0.95,
+      "summary": "No indictments, ethics violations, or corruption investigations have been reported for Rep. Goodwin. She voted to impeach Attorney General Ken Paxton, a move that subjected her to partisan criticism but has not triggered any formal ethics or legal action against her.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "qual_integrity_src_0",
+          "type": "other",
+          "title": "Member profile for Vikki Goodwin",
+          "publisher": "Texas Legislative Reference Library",
+          "url": "https://lrl.texas.gov/legeLeaders/members/memberdisplay.cfm?memberID=5830",
+          "published_at": "2025",
+          "retrieved_at": "2026-07-04T00:42:52.048Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_integrity_src_1",
+          "type": "other",
+          "title": "Grassroots Priorities: Rep. Vikki Goodwin",
+          "publisher": "Grassroots Priorities",
+          "url": "https://grassrootspriorities.com/legislator.php?id=8056",
+          "published_at": "2023",
+          "retrieved_at": "2026-07-04T00:42:52.048Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "public_interest",
+      "score": 0.75,
+      "summary": "No public approval polls specific to Goodwin were located, but she has won re-election in competitive Travis County districts and maintains an active constituent office. She sided with over 80 lobby groups 90 % of the time, which some watchdogs cite as a negative indicator of constituent focus.",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "source_id": "qual_public_interest_src_0",
+          "type": "other",
+          "title": "Grassroots Priorities: Rep. Vikki Goodwin",
+          "publisher": "Grassroots Priorities",
+          "url": "https://grassrootspriorities.com/legislator.php?id=8056",
+          "published_at": "2023",
+          "retrieved_at": "2026-07-04T00:42:52.048Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "score": 0.85,
+      "summary": "Goodwin files required Texas Ethics Commission financial disclosures and makes her office contact information publicly available. No FOIA or press-access disputes involving her office were found, indicating routine compliance with open-records expectations.",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "source_id": "qual_transparency_src_0",
+          "type": "other",
+          "title": "Member profile for Vikki Goodwin",
+          "publisher": "Texas Legislative Reference Library",
+          "url": "https://lrl.texas.gov/legeLeaders/members/memberdisplay.cfm?memberID=5830",
+          "published_at": "2025",
+          "retrieved_at": "2026-07-04T00:42:52.048Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "score": 0.8,
+      "summary": "Goodwin has served continuously in the Texas House since January 2019 (86th–89th Legislatures) and has passed multiple bills, including measures on pipeline safety, child-care affordability, and hemp regulation. She has held committee posts on Appropriations, Insurance, Environmental Regulation, and Homeland Security & Public Safety.",
+      "confidence": 0.85,
+      "sources": [
+        {
+          "source_id": "qual_experience_src_0",
+          "type": "other",
+          "title": "Vikki Goodwin - Texas State - Legislative Auditor: PoliScore",
+          "publisher": "PoliScore",
+          "url": "https://poliscore.us/tx/legislator/20235",
+          "published_at": "2024",
+          "retrieved_at": "2026-07-04T00:42:52.048Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "qual_experience_src_1",
+          "type": "other",
+          "title": "Member profile for Vikki Goodwin",
+          "publisher": "Texas Legislative Reference Library",
+          "url": "https://lrl.texas.gov/legeLeaders/members/memberdisplay.cfm?memberID=5830",
+          "published_at": "2025",
+          "retrieved_at": "2026-07-04T00:42:52.048Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ]
 }

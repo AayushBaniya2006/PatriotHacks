@@ -332,5 +332,138 @@
   ],
   "source_coverage_score": 0.3333333333333333,
   "researched_at": "2026-07-04T00:35:36.033Z",
-  "research_status": "complete"
+  "research_status": "complete",
+  "qualitative": [
+    {
+      "id": "integrity",
+      "score": 0.7,
+      "summary": "No corruption investigations, indictments, ethics violations, or impeachment proceedings were found in public records. Dixon served 10 years as chair of the Libertarian Party of Texas (2004-2014) and two terms on the Lago Vista City Council (2005-2010) without reported legal issues. However, the 2018 conservative takeover attempt of the Libertarian Party of Texas, which Dixon opposed, suggests internal party conflict though not personal misconduct.",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "qual_integrity_src_0",
+          "type": "other",
+          "title": "Pat Dixon - LPedia",
+          "publisher": "LPedia",
+          "url": "https://www.lpedia.org/wiki/Pat_Dixon",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:42:21.192Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "qual_integrity_src_1",
+          "type": "other",
+          "title": "Government",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/government/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:42:21.192Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "public_interest",
+      "score": 0.5,
+      "summary": "Dixon won two city council elections with 68% and 58% of votes respectively, indicating local electoral success. No approval polling data or constituent service metrics were found. His volunteer work with Central Texas Trail Tamers and St. Mary of the Lake Men's Club demonstrates community engagement, though these are not government accountability measures.",
+      "confidence": 0.5,
+      "sources": [
+        {
+          "source_id": "qual_public_interest_src_0",
+          "type": "other",
+          "title": "Pat Dixon - LPedia",
+          "publisher": "LPedia",
+          "url": "https://www.lpedia.org/wiki/Pat_Dixon",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:42:21.192Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "qual_public_interest_src_1",
+          "type": "other",
+          "title": "Bio",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/bio/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:42:21.192Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "score": 0.6,
+      "summary": "Dixon maintains a personal website with professional resume, government activity archives, and campaign information. His 2026 gubernatorial campaign includes a donation disclosure statement noting reporting to the Texas Ethics Commission. No FOIA compliance records, press access protocols, or complete financial disclosure documents were found in search results.",
+      "confidence": 0.5,
+      "sources": [
+        {
+          "source_id": "qual_transparency_src_0",
+          "type": "other",
+          "title": "Pat Dixon for Governor",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:42:21.192Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_transparency_src_1",
+          "type": "other",
+          "title": "Government",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/government/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:42:21.192Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "score": 0.5,
+      "summary": "Dixon held two terms on Lago Vista City Council (2005-2010) and served 10 years as chair of the Libertarian Party of Texas (2004-2014). He also served two terms on the Libertarian National Committee. No record of bills passed as primary sponsor was found; city council archives are referenced but not detailed. His 2020 Texas Senate District 14 candidacy was unsuccessful.",
+      "confidence": 0.6,
+      "sources": [
+        {
+          "source_id": "qual_experience_src_0",
+          "type": "other",
+          "title": "Pat Dixon - LPedia",
+          "publisher": "LPedia",
+          "url": "https://www.lpedia.org/wiki/Pat_Dixon",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:42:21.192Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "qual_experience_src_1",
+          "type": "other",
+          "title": "Pat Dixon - Libertarian Party",
+          "publisher": "lp.org",
+          "url": "https://lp.org/candidate/pat-dixon/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:42:21.192Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        },
+        {
+          "source_id": "qual_experience_src_2",
+          "type": "other",
+          "title": "Government",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/government/",
+          "published_at": null,
+          "retrieved_at": "2026-07-04T00:42:21.192Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    }
+  ]
 }

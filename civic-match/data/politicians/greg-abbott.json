@@ -611,5 +611,94 @@
   ],
   "source_coverage_score": 0.5666666666666667,
   "researched_at": "2026-07-04T00:34:18.445Z",
-  "research_status": "complete"
+  "research_status": "complete",
+  "qualitative": [
+    {
+      "id": "integrity",
+      "score": 0.85,
+      "summary": "No criminal indictments, impeachment proceedings, or formal ethics violations have been filed against Abbott. A 2013 Houston Chronicle report raised questions about donor ties to a state cancer-research agency, but no enforcement action followed.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "qual_integrity_src_0",
+          "type": "other",
+          "title": "Greg Abbott",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greg_Abbott",
+          "published_at": "2025-07-03",
+          "retrieved_at": "2026-07-04T00:42:17.474Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "public_interest",
+      "score": 0.55,
+      "summary": "Polling by the Texas Politics Project shows Abbott’s approval has hovered near 50 % in 2026, indicating a polarized but not overwhelmingly negative electorate. No independent audits of constituent-services caseloads are publicly available.",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "source_id": "qual_public_interest_src_0",
+          "type": "other",
+          "title": "Greg Abbott Approval (June 2026)",
+          "publisher": "The Texas Politics Project",
+          "url": "https://texaspolitics.utexas.edu/set/greg-abbott-approval-june-2026",
+          "published_at": "2026-06",
+          "retrieved_at": "2026-07-04T00:42:17.474Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "qual_public_interest_src_1",
+          "type": "other",
+          "title": "Greg Abbott Approval (April 2026)",
+          "publisher": "The Texas Politics Project",
+          "url": "https://texaspolitics.utexas.edu/set/greg-abbott-approval-april-2026",
+          "published_at": "2026-04",
+          "retrieved_at": "2026-07-04T00:42:17.474Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "score": 0.5,
+      "summary": "Abbott releases statutorily required personal financial statements but has resisted FOIA requests when communications involve deliberative processes; press access was restricted during parts of the 2021 power-crisis briefings. No centralized public database of his office’s open-records compliance exists.",
+      "confidence": 0.65,
+      "sources": [
+        {
+          "source_id": "qual_transparency_src_0",
+          "type": "other",
+          "title": "Greg Abbott",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greg_Abbott",
+          "published_at": "2025-07-03",
+          "retrieved_at": "2026-07-04T00:42:17.474Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "score": 0.95,
+      "summary": "Abbott has held continuously higher state offices since 1996: Texas Supreme Court justice (1996-2001), attorney general (2002-2015), and governor (2015-present), making him the longest-serving incumbent U.S. governor. Public records list 50 vetoed bills and multiple special-session agendas demonstrating sustained legislative engagement.",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "source_id": "qual_experience_src_0",
+          "type": "other",
+          "title": "Greg Abbott",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greg_Abbott",
+          "published_at": "2025-07-03",
+          "retrieved_at": "2026-07-04T00:42:17.474Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    }
+  ]
 }

@@ -126,17 +126,34 @@ export function scoreMatch(
 
   const topConflicts = byImpact(sorted.filter((b) => b.status === "conflict")).slice(0, 5);
 
+  // ---- Qualitative composite (character): corruption/ethics, public interest,
+  // transparency, experience — independent of the user's issue positions. ----
+  const QUAL_LABELS: Record<string, string> = {
+    integrity: "Integrity & ethics",
+    public_interest: "Public interest",
+    transparency: "Transparency",
+    experience: "Experience & effectiveness",
+  };
+  const qualDims = (profile.qualitative ?? []).filter(
+    (d) => typeof d.score === "number"
+  );
+  const qualWeightSum = qualDims.reduce((s, d) => s + d.confidence, 0);
+  const qualComposite =
+    qualDims.length > 0 && qualWeightSum > 0
+      ? qualDims.reduce((s, d) => s + d.score * d.confidence, 0) / qualWeightSum
+      : null;
+
   // ---- 2K-style OVERALL (60 = worst, 99 = best) ----
-  // Blends the quantitative alignment score with the qualitative evidence
-  // confidence, minus a penalty for conflicts on the user's highest-weight
-  // issues. Fully decomposed so it is never a black box.
-  const quant = score / 100; // quantitative alignment 0..1
-  const qual = confidenceValue; // qualitative evidence coverage/quality 0..1
-  const conflictWeight = topConflicts.reduce((s, b) => s + b.weight, 0); // 0..1
-  const alignmentComponent = 0.65 * quant;
-  const evidenceComponent = 0.35 * qual;
+  // Quantitative issue alignment (taxes, economy, ...) + qualitative character
+  // (corruption, public interest, ...) − penalty for conflicts on the user's
+  // highest-weight issues. Fully decomposed — never a black box.
+  const quant = score / 100;
+  const qual = qualComposite ?? 0.5; // neutral midpoint when not yet researched
+  const alignmentComponent = 0.6 * quant;
+  const qualitativeComponent = 0.4 * qual;
+  const conflictWeight = topConflicts.reduce((s, b) => s + b.weight, 0);
   const conflictPenalty = Math.min(0.15, conflictWeight * 0.25);
-  const blended = Math.max(0, alignmentComponent + evidenceComponent - conflictPenalty);
+  const blended = Math.max(0, alignmentComponent + qualitativeComponent - conflictPenalty);
   const overall = Math.round(60 + 39 * blended); // 60..99
   const overallTier =
     overall >= 90 ? "Elite match"
@@ -156,9 +173,17 @@ export function scoreMatch(
     overall_tier: overallTier,
     overall_components: {
       alignment_component: Math.round(39 * alignmentComponent),
-      evidence_component: Math.round(39 * evidenceComponent),
+      qualitative_component: Math.round(39 * qualitativeComponent),
       conflict_penalty: Math.round(39 * conflictPenalty),
     },
+    qualitative_composite: qualComposite,
+    qualitative: qualDims.map((d) => ({
+      id: d.id,
+      label: QUAL_LABELS[d.id] ?? d.id,
+      score: d.score,
+      summary: d.summary,
+      confidence: d.confidence,
+    })),
     breakdown: byImpact(breakdown),
     top_agreements: byImpact(sorted.filter((b) => b.status === "match")).slice(0, 5),
     top_conflicts: topConflicts,

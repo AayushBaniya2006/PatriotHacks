@@ -477,5 +477,83 @@
   ],
   "source_coverage_score": 0.5333333333333333,
   "researched_at": "2026-07-04T00:37:31.492Z",
-  "research_status": "complete"
+  "research_status": "complete",
+  "qualitative": [
+    {
+      "id": "integrity",
+      "score": 0.75,
+      "summary": "No criminal indictments, impeachments, or state ethics findings have been filed against Patrick. Federal tax liens from the 1980s for unpaid payroll and sales taxes were satisfied in 1989 and 2006, leaving no outstanding legal liability.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "qual_integrity_src_0",
+          "type": "other",
+          "title": "PolitiFact: Dewhurst correct government acted on Patrick not paying taxes, but records inconclusive on his 'pocketing' employees' payroll taxes",
+          "publisher": "PolitiFact",
+          "url": "https://dev1.politifact.com/factchecks/2014/apr/28/david-dewhurst/ad-distorts-dan-patricks-unpaid-taxes-1980s/",
+          "published_at": "2014-04-28",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "public_interest",
+      "score": 0.5,
+      "summary": "A December 2025 University of Texas/Texas Politics Project poll found 25 % of Texans rated Patrick’s performance as excellent/good, 25 % as poor, and 46 % as only fair or no opinion, indicating a net negative public assessment.",
+      "confidence": 0.85,
+      "sources": [
+        {
+          "source_id": "qual_public_interest_src_0",
+          "type": "other",
+          "title": "Dan Patrick Approval (December 2025)",
+          "publisher": "The Texas Politics Project",
+          "url": "https://texaspolitics.utexas.edu/set/dan-patrick-approval-december-2025",
+          "published_at": "2025-12",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "score": 0.6,
+      "summary": "Patrick files statutorily required personal financial disclosures with the Texas Ethics Commission, but no independent audits or FOIA-compliant releases of his tax returns or detailed business records are on file; press access is routine but not expanded beyond standard gaggle availability.",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "source_id": "qual_transparency_src_0",
+          "type": "other",
+          "title": "Dan Goeb Patrick Money Profile",
+          "publisher": "OpenSecrets",
+          "url": "https://www.opensecrets.org/officeholders/dan-goeb-patrick/summary?cycle=2024&id=11860515",
+          "published_at": "2024",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "score": 0.85,
+      "summary": "Patrick has served continuously in elected office since 2007: Texas Senate District 7 (2007-2015) and Lieutenant Governor of Texas (2015-present), winning re-election in 2018 and 2022 and passing major legislation on campus carry, open carry, and border security.",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_id": "qual_experience_src_0",
+          "type": "other",
+          "title": "Dan Patrick (politician)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dan_Patrick_%28politician%29",
+          "published_at": "2025",
+          "retrieved_at": "2026-07-04T00:42:14.232Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      ]
+    }
+  ]
 }
