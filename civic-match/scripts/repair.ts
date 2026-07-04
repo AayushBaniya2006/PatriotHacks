@@ -10,7 +10,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import { listPoliticians, savePolitician, slugify } from "../lib/db";
 import { chat, extractJSON, FAST_MODEL } from "../lib/llm";
-import { ISSUE_MAP } from "../lib/issues";
+import { getIssueMap } from "../lib/config";
 
 async function ballotNames(): Promise<Map<string, string>> {
   const map = new Map<string, string>();
@@ -47,7 +47,7 @@ async function main() {
       console.log(`[scalars] ${p.id}: re-deriving ${nulls.length} null placements`);
       const items = nulls.map((s) => ({
         issue_id: s.issue_id,
-        axis: `0.0=${ISSUE_MAP[s.issue_id].axis0} ... 1.0=${ISSUE_MAP[s.issue_id].axis1}`,
+        axis: `0.0=${getIssueMap()[s.issue_id].axis0} ... 1.0=${getIssueMap()[s.issue_id].axis1}`,
         position: s.position_label,
         summary: s.summary,
       }));

@@ -1,15 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
-const SUGGESTED = [
-  "Where would I likely disagree with this candidate?",
-  "Which of these positions come from votes vs campaign promises?",
-  "What are the weakest sources in this analysis?",
-  "What is this candidate's record on ethics?",
-];
-
-export default function QABox({ politicianId }: { politicianId: string }) {
+export default function QABox({
+  politicianId,
+  suggested,
+}: {
+  politicianId: string;
+  suggested: string[];
+}) {
   const [q, setQ] = useState("");
   const [history, setHistory] = useState<{ q: string; a: string }[]>([]);
   const [loading, setLoading] = useState(false);
@@ -35,7 +36,7 @@ export default function QABox({ politicianId }: { politicianId: string }) {
   return (
     <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-4">
       <div className="flex flex-wrap gap-2 mb-4">
-        {SUGGESTED.map((s) => (
+        {suggested.map((s) => (
           <button
             key={s}
             onClick={() => ask(s)}
@@ -50,9 +51,9 @@ export default function QABox({ politicianId }: { politicianId: string }) {
       <div className="space-y-4 mb-4">
         {history.map((h, i) => (
           <div key={i}>
-            <div className="text-sm font-medium text-zinc-300 mb-1">You: {h.q}</div>
-            <div className="whitespace-pre-wrap rounded-lg bg-zinc-950 p-3 text-sm text-zinc-300">
-              {h.a}
+            <div className="text-sm font-medium text-zinc-300 mb-1.5">You: {h.q}</div>
+            <div className="qa-answer rounded-lg bg-zinc-950 p-4 text-sm text-zinc-300">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{h.a}</ReactMarkdown>
             </div>
           </div>
         ))}

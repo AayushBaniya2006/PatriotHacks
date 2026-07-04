@@ -1,51 +1,45 @@
 import Link from "next/link";
 import { getCachedElection } from "@/lib/discovery";
-import { listPoliticians } from "@/lib/db";
+import { listPoliticians, slugify } from "@/lib/db";
+import { getUI } from "@/lib/config";
 
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
+  const ui = getUI();
   const [races, politicians] = await Promise.all([
-    getCachedElection("texas"),
+    getCachedElection(ui.default_state),
     listPoliticians(),
   ]);
   const byId = new Map(politicians.map((p) => [p.id, p]));
-  const slug = (n: string) =>
-    n.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12">
       <section className="mb-12">
         <h1 className="text-4xl font-bold tracking-tight mb-3">
-          Which candidates match{" "}
-          <span className="text-emerald-400">what you actually care about?</span>
+          {ui.landing.hero_title}{" "}
+          <span className="text-emerald-400">{ui.landing.hero_highlight}</span>
         </h1>
-        <p className="text-zinc-400 max-w-2xl mb-6">
-          Tell us your priorities. We compare them against candidates&apos; voting
-          records, platforms, and public statements — with every claim backed by a
-          source, and every gap in the evidence shown honestly.
-        </p>
+        <p className="text-zinc-400 max-w-2xl mb-6">{ui.landing.hero_subtitle}</p>
         <div className="flex gap-3">
           <Link
             href="/intake"
             className="rounded-lg bg-emerald-500 px-5 py-2.5 font-medium text-zinc-950 hover:bg-emerald-400"
           >
-            Start: pick your priorities
+            {ui.landing.cta_primary}
           </Link>
           <Link
             href="/results"
             className="rounded-lg border border-zinc-700 px-5 py-2.5 font-medium hover:border-zinc-500"
           >
-            See matches
+            {ui.landing.cta_secondary}
           </Link>
         </div>
       </section>
 
       <section className="mb-12">
         <div className="flex items-baseline justify-between mb-4">
-          <h2 className="text-xl font-semibold">
-            November 2026 — Texas General Election
-          </h2>
+          <h2 className="text-xl font-semibold">{ui.election_title}</h2>
           <span className="text-xs text-zinc-500">
             Auto-discovered from public sources
           </span>
@@ -68,7 +62,7 @@ export default async function Home() {
                 </div>
                 <ul className="space-y-2">
                   {r.candidates.map((c) => {
-                    const p = byId.get(slug(c.name));
+                    const p = byId.get(slugify(c.name));
                     return (
                       <li key={c.name} className="flex items-center justify-between">
                         <span className="text-sm">
@@ -96,23 +90,10 @@ export default async function Home() {
       </section>
 
       <section className="grid gap-4 sm:grid-cols-3 text-sm">
-        {[
-          {
-            t: "No black-box scores",
-            d: "Every match decomposes into issue-level points you can inspect.",
-          },
-          {
-            t: "No source, no claim",
-            d: "Positions without a verifiable source are dropped by the verifier agent.",
-          },
-          {
-            t: "Unknowns shown honestly",
-            d: "Missing evidence lowers confidence — it never inflates a match.",
-          },
-        ].map((f) => (
-          <div key={f.t} className="rounded-xl border border-zinc-800 p-4">
-            <div className="font-medium mb-1">{f.t}</div>
-            <div className="text-zinc-400">{f.d}</div>
+        {ui.landing.features.map((f) => (
+          <div key={f.title} className="rounded-xl border border-zinc-800 p-4">
+            <div className="font-medium mb-1">{f.title}</div>
+            <div className="text-zinc-400">{f.description}</div>
           </div>
         ))}
       </section>

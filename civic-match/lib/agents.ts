@@ -1,7 +1,9 @@
 // Research agent swarm (per infra sketch):
 //   user info → agent staging (minimize context) → parallel data-endpoint agents
 //   → output report → verifier agent double-checks → db of politicians
-import { CLUSTERS, ISSUE_MAP } from "./issues";
+import { getClusters, getIssueMap } from "./config";
+const ISSUE_MAP = () => getIssueMap();
+const CLUSTERS = () => getClusters();
 import { chat, extractJSON, FAST_MODEL, RESEARCH_MODEL } from "./llm";
 import { savePolitician, slugify } from "./db";
 import type {
@@ -40,7 +42,7 @@ const EVIDENCE_TYPES = new Set([
 function clusterPrompt(name: string, clusterIssues: string[]): string {
   const issueSpecs = clusterIssues
     .map((id) => {
-      const i = ISSUE_MAP[id];
+      const i = ISSUE_MAP()[id];
       return `- issue_id: "${i.id}" (${i.name}) — axis: 0.0 = "${i.axis0}" ... 1.0 = "${i.axis1}"`;
     })
     .join("\n");
@@ -175,7 +177,7 @@ Rules: every dimension MUST have at least one real source URL or be omitted. Neu
 function validateStances(raw: RawStance[], retrievedAt: string): Stance[] {
   const stances: Stance[] = [];
   for (const r of raw) {
-    if (!ISSUE_MAP[r.issue_id]) continue;
+    if (!ISSUE_MAP()[r.issue_id]) continue;
     const sources: Source[] = (r.sources || [])
       .filter((s) => s.url && /^https?:\/\//.test(s.url))
       .map((s, i) => ({
@@ -223,7 +225,7 @@ async function runVerifierAgent(
 ): Promise<{ corrections: { issue_id: string; position_scalar: number | null }[]; contradictions: PoliticianProfile["contradictions"] }> {
   const compact = stances.map((s) => ({
     issue_id: s.issue_id,
-    axis: `0=${ISSUE_MAP[s.issue_id].axis0} | 1=${ISSUE_MAP[s.issue_id].axis1}`,
+    axis: `0=${ISSUE_MAP()[s.issue_id].axis0} | 1=${ISSUE_MAP()[s.issue_id].axis1}`,
     label: s.position_label,
     scalar: s.position_scalar,
     summary: s.summary,
@@ -268,7 +270,8 @@ export async function researchPolitician(
   const retrievedAt = new Date().toISOString();
   onEvent({ type: "status", message: `Staging research for ${name}`, progress: 0.05 });
 
-  const clusterNames = Object.keys(CLUSTERS);
+  const clusters = CLUSTERS();
+  const clusterNames = Object.keys(clusters);
   let done = 0;
   const total = clusterNames.length + 2;
 
@@ -289,7 +292,7 @@ export async function researchPolitician(
 
   const clusterPromises = clusterNames.map((cluster) => {
     onEvent({ type: "agent_start", agent: cluster, message: `Agent researching ${cluster} issues` });
-    return runClusterAgent(name, cluster, CLUSTERS[cluster]).then((r) => {
+    return runClusterAgent(name, cluster, clusters[cluster]).then((r) => {
       done++;
       onEvent({ type: "agent_done", agent: cluster, message: `${cluster} agent found ${r.length} positions`, progress: 0.1 + 0.6 * (done / total) });
       return r;
@@ -319,7 +322,7 @@ export async function researchPolitician(
   }
 
   const coveredIssues = new Set(stances.map((s) => s.issue_id));
-  const unknowns = Object.keys(ISSUE_MAP).filter((i) => !coveredIssues.has(i));
+  const unknowns = Object.keys(ISSUE_MAP()).filter((i) => !coveredIssues.has(i));
 
   const profile: PoliticianProfile = {
     id,
@@ -333,7 +336,7 @@ export async function researchPolitician(
     qualitative,
     unknowns,
     contradictions,
-    source_coverage_score: coveredIssues.size / Object.keys(ISSUE_MAP).length,
+    source_coverage_score: coveredIssues.size / Object.keys(ISSUE_MAP()).length,
     researched_at: retrievedAt,
     research_status: stances.length > 0 ? "complete" : "failed",
   };

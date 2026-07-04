@@ -1,17 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPolitician } from "@/lib/db";
-import { ISSUE_MAP } from "@/lib/issues";
+import { getIssueMap, getUI } from "@/lib/config";
 import QABox from "./qa-box";
 
 export const dynamic = "force-dynamic";
-
-const QUAL_LABELS: Record<string, string> = {
-  integrity: "Integrity & ethics",
-  public_interest: "Public interest",
-  transparency: "Transparency",
-  experience: "Experience & effectiveness",
-};
 
 export default async function PoliticianPage({
   params,
@@ -21,6 +14,9 @@ export default async function PoliticianPage({
   const { id } = await params;
   const p = await getPolitician(id);
   if (!p) notFound();
+  const ISSUE_MAP = getIssueMap();
+  const ui = getUI();
+  const QUAL_LABELS = ui.qualitative_labels;
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
@@ -180,7 +176,7 @@ export default async function PoliticianPage({
         <p className="text-xs text-zinc-500 mb-3">
           Answers come only from the indexed evidence above — never from model memory.
         </p>
-        <QABox politicianId={p.id} />
+        <QABox politicianId={p.id} suggested={ui.suggested_questions} />
       </section>
 
       <div className="mt-10">

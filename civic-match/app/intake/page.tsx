@@ -1,42 +1,24 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { CLUSTERS, ISSUES } from "@/lib/issues";
 import { savePrefs } from "@/lib/prefs";
 import type { VoterProfile } from "@/lib/types";
-
-const MIN_PICKS = 3;
-const CLUSTER_LABELS: Record<string, string> = {
-  economy: "Economy & Fiscal",
-  society: "Society & Services",
-  security: "Safety & Security",
-  governance: "Government & Technology",
-};
-const IMPORTANCE = [
-  { label: "Somewhat important", mult: 0.6 },
-  { label: "Very important", mult: 1.0 },
-  { label: "Deal-breaker", mult: 1.5 },
-];
-const AGE_BRACKETS = ["18-24", "25-34", "35-49", "50-64", "65+"] as const;
-const INCOME_BRACKETS = ["<30k", "30-60k", "60-100k", "100-200k", "200k+"] as const;
-const FLAG_LABELS: { key: keyof VoterProfile["flags"]; label: string }[] = [
-  { key: "homeowner", label: "Homeowner" },
-  { key: "renter", label: "Renter" },
-  { key: "kids_in_public_school", label: "Kids in public school" },
-  { key: "veteran", label: "Veteran" },
-  { key: "small_business_owner", label: "Small business owner" },
-  { key: "student", label: "Student" },
-];
-const HEALTHCARE = [
-  { key: "employer", label: "Employer insurance" },
-  { key: "aca", label: "ACA / marketplace" },
-  { key: "medicare", label: "Medicare / Medicaid" },
-  { key: "uninsured", label: "Uninsured" },
-] as const;
+import type { IssueDef } from "@/lib/issues";
+import type { UIConfig } from "@/lib/config";
 
 export default function IntakePage() {
   const router = useRouter();
+  const [issues, setIssues] = useState<IssueDef[] | null>(null);
+  const [ui, setUI] = useState<UIConfig | null>(null);
+  useEffect(() => {
+    fetch("/api/config")
+      .then((r) => r.json())
+      .then((c) => {
+        setIssues(c.issues);
+        setUI(c.ui);
+      });
+  }, []);
   const [step, setStep] = useState<"profile" | "pick" | "tradeoffs">("profile");
   const [profile, setProfile] = useState<VoterProfile>({ flags: {} });
   const [zip, setZip] = useState("");
@@ -49,12 +31,12 @@ export default function IntakePage() {
   const toggle = (id: string) =>
     setPicked((p) => (p.includes(id) ? p.filter((x) => x !== id) : [...p, id]));
 
-  const selectAll = () => setPicked(ISSUES.map((i) => i.id));
+  const selectAll = () => setPicked((issues ?? []).map((i) => i.id));
   const clearAll = () => setPicked([]);
 
   const currentIssue = useMemo(
-    () => (step === "tradeoffs" ? ISSUES.find((i) => i.id === picked[idx]) : undefined),
-    [step, picked, idx]
+    () => (step === "tradeoffs" ? issues?.find((i) => i.id === picked[idx]) : undefined),
+    [step, picked, idx, issues]
   );
 
   const finish = (
@@ -86,6 +68,20 @@ export default function IntakePage() {
     if (idx + 1 < picked.length) setIdx(idx + 1);
     else finish(nextPositions, nextImportance);
   };
+
+  if (!ui || !issues) {
+    return (
+      <div className="mx-auto max-w-2xl px-4 py-16 text-zinc-500 animate-pulse">
+        Loading…
+      </div>
+    );
+  }
+
+  const MIN_PICKS = ui.intake.min_picks;
+  const clusters = issues.reduce((acc, i) => {
+    (acc[i.cluster] ||= []).push(i.id);
+    return acc;
+  }, {} as Record<string, string[]>);
 
   if (step === "profile") {
     const setFlag = (key: keyof VoterProfile["flags"], value: boolean) =>
@@ -134,7 +130,7 @@ export default function IntakePage() {
           <div>
             <span className="text-xs text-zinc-500">Age</span>
             <div className="mt-1 flex flex-wrap gap-2">
-              {AGE_BRACKETS.map((a) => (
+              {(ui.intake.age_brackets as VoterProfile["age_bracket"][]).map((a) => a && (
                 <button
                   key={a}
                   onClick={() => setProfile((p) => ({ ...p, age_bracket: p.age_bracket === a ? undefined : a }))}
@@ -153,7 +149,7 @@ export default function IntakePage() {
           <div>
             <span className="text-xs text-zinc-500">Household income</span>
             <div className="mt-1 flex flex-wrap gap-2">
-              {INCOME_BRACKETS.map((b) => (
+              {(ui.intake.income_brackets as VoterProfile["income_bracket"][]).map((b) => b && (
                 <button
                   key={b}
                   onClick={() => setProfile((p) => ({ ...p, income_bracket: p.income_bracket === b ? undefined : b }))}
@@ -172,7 +168,7 @@ export default function IntakePage() {
           <div>
             <span className="text-xs text-zinc-500">Applies to you</span>
             <div className="mt-1 flex flex-wrap gap-2">
-              {FLAG_LABELS.map((f) => (
+              {(ui.intake.flag_labels as { key: keyof VoterProfile["flags"]; label: string }[]).map((f) => (
                 <button
                   key={f.key}
                   onClick={() => setFlag(f.key, !profile.flags[f.key])}
@@ -191,7 +187,7 @@ export default function IntakePage() {
           <div>
             <span className="text-xs text-zinc-500">Health coverage</span>
             <div className="mt-1 flex flex-wrap gap-2">
-              {HEALTHCARE.map((h) => (
+              {(ui.intake.healthcare_options as { key: NonNullable<VoterProfile["flags"]["healthcare"]>; label: string }[]).map((h) => (
                 <button
                   key={h.key}
                   onClick={() =>
@@ -245,14 +241,14 @@ export default function IntakePage() {
           </button>
         </div>
 
-        {Object.entries(CLUSTERS).map(([cluster, ids]) => (
+        {Object.entries(clusters).map(([cluster, ids]) => (
           <div key={cluster} className="mb-6">
             <h2 className="text-xs uppercase tracking-wider text-zinc-500 mb-2">
-              {CLUSTER_LABELS[cluster] ?? cluster}
+              {ui.intake.cluster_labels[cluster] ?? cluster}
             </h2>
             <div className="flex flex-wrap gap-2">
               {ids.map((id) => {
-                const issue = ISSUES.find((i) => i.id === id)!;
+                const issue = issues.find((i) => i.id === id)!;
                 const pos = picked.indexOf(id);
                 const selected = pos !== -1;
                 return (
@@ -338,7 +334,7 @@ export default function IntakePage() {
       <div className={pendingScalar === undefined ? "opacity-40 pointer-events-none" : ""}>
         <p className="text-sm text-zinc-400 mb-2">How important is this to your vote?</p>
         <div className="grid grid-cols-3 gap-2">
-          {IMPORTANCE.map((im) => (
+          {ui.intake.importance_levels.map((im) => (
             <button
               key={im.label}
               onClick={() => submitIssue(im.mult)}

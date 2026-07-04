@@ -1,0 +1,143 @@
+{
+  "site_name": "CivicMatch",
+  "default_state": "texas",
+  "election_title": "November 2026 — Texas General Election",
+  "landing": {
+    "hero_title": "Which candidates match",
+    "hero_highlight": "what you actually care about?",
+    "hero_subtitle": "Tell us your priorities. We compare them against candidates' voting records, platforms, and public statements — with every claim backed by a source, and every gap in the evidence shown honestly.",
+    "cta_primary": "Start: pick your priorities",
+    "cta_secondary": "See matches",
+    "features": [
+      {
+        "title": "No black-box scores",
+        "description": "Every match decomposes into issue-level points you can inspect."
+      },
+      {
+        "title": "No source, no claim",
+        "description": "Positions without a verifiable source are dropped by the verifier agent."
+      },
+      {
+        "title": "Unknowns shown honestly",
+        "description": "Missing evidence lowers confidence — it never inflates a match."
+      }
+    ]
+  },
+  "intake": {
+    "min_picks": 3,
+    "cluster_labels": {
+      "economy": "Economy & Fiscal",
+      "society": "Society & Services",
+      "security": "Safety & Security",
+      "governance": "Government & Technology"
+    },
+    "importance_levels": [
+      {
+        "label": "Somewhat important",
+        "mult": 0.6
+      },
+      {
+        "label": "Very important",
+        "mult": 1
+      },
+      {
+        "label": "Deal-breaker",
+        "mult": 1.5
+      }
+    ],
+    "age_brackets": [
+      "18-24",
+      "25-34",
+      "35-49",
+      "50-64",
+      "65+"
+    ],
+    "income_brackets": [
+      "<30k",
+      "30-60k",
+      "60-100k",
+      "100-200k",
+      "200k+"
+    ],
+    "flag_labels": [
+      {
+        "key": "homeowner",
+        "label": "Homeowner"
+      },
+      {
+        "key": "renter",
+        "label": "Renter"
+      },
+      {
+        "key": "kids_in_public_school",
+        "label": "Kids in public school"
+      },
+      {
+        "key": "veteran",
+        "label": "Veteran"
+      },
+      {
+        "key": "small_business_owner",
+        "label": "Small business owner"
+      },
+      {
+        "key": "student",
+        "label": "Student"
+      }
+    ],
+    "healthcare_options": [
+      {
+        "key": "employer",
+        "label": "Employer insurance"
+      },
+      {
+        "key": "aca",
+        "label": "ACA / marketplace"
+      },
+      {
+        "key": "medicare",
+        "label": "Medicare / Medicaid"
+      },
+      {
+        "key": "uninsured",
+        "label": "Uninsured"
+      }
+    ]
+  },
+  "results": {
+    "tiers": [
+      {
+        "min": 90,
+        "label": "Elite match"
+      },
+      {
+        "min": 83,
+        "label": "Strong match"
+      },
+      {
+        "min": 75,
+        "label": "Solid match"
+      },
+      {
+        "min": 68,
+        "label": "Weak match"
+      },
+      {
+        "min": 0,
+        "label": "Poor match"
+      }
+    ]
+  },
+  "qualitative_labels": {
+    "integrity": "Integrity & ethics",
+    "public_interest": "Public interest",
+    "transparency": "Transparency",
+    "experience": "Experience & effectiveness"
+  },
+  "suggested_questions": [
+    "Where would I likely disagree with this candidate?",
+    "Which of these positions come from votes vs campaign promises?",
+    "What are the weakest sources in this analysis?",
+    "What is this candidate's record on ethics?"
+  ]
+}
