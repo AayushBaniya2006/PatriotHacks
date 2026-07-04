@@ -111,7 +111,7 @@ export default function ResultsPage() {
       <p className="text-sm text-zinc-500 mb-8">
         Overall = 60–99, 2K style: quantitative issue alignment + qualitative record
         (integrity, transparency, experience) − conflicts on your top issues. Every
-        number decomposes — click a card.
+        number decomposes to ground truth — click a card and follow the sources.
       </p>
 
       <div className="space-y-4">

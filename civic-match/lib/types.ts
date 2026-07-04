@@ -105,6 +105,32 @@ export interface KnowledgeGraph {
   built_at: string;
 }
 
+// ---- Future-possibilities scenario tree ----
+// Root = the race. First level = "candidate X wins". Deeper levels =
+// consequences (policy, succession, vacancies, later elections). Leaves =
+// long-term possibilities. Every node is labeled fact vs inference; inference
+// carries likelihood. This is scenario analysis, NOT a forecast.
+
+export interface ScenarioNode {
+  id: string;
+  label: string; // short headline, e.g. "Paxton wins → AG seat vacated"
+  timeframe: string; // "2026-11", "2027", "2028+", ...
+  kind: "fact" | "inference";
+  likelihood?: "high" | "medium" | "low"; // required when kind = inference
+  description: string; // 1-2 neutral sentences
+  issue_ids?: string[]; // taxonomy ids, for user-priority highlighting
+  affected_groups?: string[]; // VoterProfile flag keys: renter, veteran, ...
+  sources: { title: string; url: string; publisher?: string }[];
+  children: ScenarioNode[];
+}
+
+export interface ScenarioTree {
+  race: string;
+  race_slug: string;
+  built_at: string;
+  root: ScenarioNode;
+}
+
 export interface PoliticianProfile {
   id: string; // slug
   name: string;

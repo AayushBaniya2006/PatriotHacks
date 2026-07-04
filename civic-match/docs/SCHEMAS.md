@@ -235,7 +235,8 @@ Planned (in progress): `/api/ballot` (address → races via FastAPI backend),
 
 ## Invariants
 
-1. **No source, no claim** — validators drop anything without a real URL.
+1. **Ground truth is the product. No source, no claim** — validators drop anything
+   without a real URL; every rendered fact must be traceable to ground truth.
 2. Missing evidence → `unknowns`, lowers confidence, never inflates alignment.
 3. All user data is explicit, local, request-scoped; never stored server-side.
 4. `fact` vs `inference` labeled on every generated claim; predictions carry likelihood.

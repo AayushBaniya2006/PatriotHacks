@@ -465,5 +465,142 @@
         }
       ]
     }
+  ],
+  "promise_record": [
+    {
+      "promise": "Advocate for verifiable paper audit trails in electronic voting systems",
+      "promised_at": "2006-01",
+      "promise_source": {
+        "source_id": "promise_0_src_0",
+        "type": "other",
+        "title": "Election Integrity",
+        "publisher": "patdixon.org",
+        "url": "https://patdixon.org/election-integrity/",
+        "published_at": "unknown",
+        "retrieved_at": "2026-07-04T01:03:27.134Z",
+        "primary_source": true,
+        "quote": "This letter is to express the concern from the City of Lago Vista that the lack of a verifiable paper trail in the voting process is troubling...we urge Travis County to consider offering such voting machines with the option of producing a hard copy ballot",
+        "reliability_score": 0.95
+      },
+      "action": "As Lago Vista City Council member, successfully moved council to send formal letter to Travis County Elections Division demanding paper trail option; later testified at Secretary of State public hearing on Diebold voting systems supporting paper audit trail requirements",
+      "action_at": "2006-03-23",
+      "action_sources": [
+        {
+          "source_id": "action_0_src_0",
+          "type": "other",
+          "title": "Election Integrity",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/election-integrity/",
+          "published_at": "unknown",
+          "retrieved_at": "2026-07-04T01:03:27.134Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Dixon used his elected position to formally advocate for paper trails as promised, sending the council letter and later testifying at the state level.",
+      "confidence": 0.85
+    },
+    {
+      "promise": "Identify specific spending cuts before promising tax reductions, and respect local control over tax policy",
+      "promised_at": "2024",
+      "promise_source": {
+        "source_id": "promise_1_src_0",
+        "type": "other",
+        "title": "Property Tax",
+        "publisher": "patdixon.org",
+        "url": "https://patdixon.org/property-tax/",
+        "published_at": "unknown",
+        "retrieved_at": "2026-07-04T01:03:27.134Z",
+        "primary_source": true,
+        "quote": "If I am elected governor, I will work on identifying spending cuts first, which will lead to lower taxes. I will also respect local control and the ability for political subdivisions of the state to implement reasonable and responsible tax policy.",
+        "reliability_score": 0.95
+      },
+      "action": "Has not been elected governor; 2026 election has not occurred",
+      "action_at": null,
+      "action_sources": [],
+      "verdict": "untested",
+      "explanation": "Dixon made this promise as a 2026 gubernatorial candidate but has not held the office where he could implement this policy.",
+      "confidence": 0.95
+    },
+    {
+      "promise": "Oppose conservative takeover of the Libertarian Party of Texas and keep the party libertarian",
+      "promised_at": "2018",
+      "promise_source": {
+        "source_id": "promise_2_src_0",
+        "type": "other",
+        "title": "Government",
+        "publisher": "patdixon.org",
+        "url": "https://patdixon.org/government/",
+        "published_at": "unknown",
+        "retrieved_at": "2026-07-04T01:03:27.134Z",
+        "primary_source": true,
+        "quote": "In 2018 there was an effort by conservatives to overtake the Libertarian Party of Texas. I created http://www.keepthepartylibertarian.org to oppose this effort, and we prevailed.",
+        "reliability_score": 0.95
+      },
+      "action": "Created opposition website keepthepartylibertarian.org and successfully defeated the conservative takeover attempt",
+      "action_at": "2018",
+      "action_sources": [
+        {
+          "source_id": "action_2_src_0",
+          "type": "other",
+          "title": "Government",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/government/",
+          "published_at": "unknown",
+          "retrieved_at": "2026-07-04T01:03:27.134Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Dixon organized opposition to the takeover attempt and explicitly states the effort succeeded in keeping the party libertarian.",
+      "confidence": 0.75
+    },
+    {
+      "promise": "Address tax policy in budget discussions covering both revenue and spending, not just promise tax cuts without spending cuts",
+      "promised_at": "2024",
+      "promise_source": {
+        "source_id": "promise_3_src_0",
+        "type": "other",
+        "title": "Property Tax",
+        "publisher": "patdixon.org",
+        "url": "https://patdixon.org/property-tax/",
+        "published_at": "unknown",
+        "retrieved_at": "2026-07-04T01:03:27.134Z",
+        "primary_source": true,
+        "quote": "When I was on city council we addressed tax policy in our budget discussion, which is both revenue and spending.",
+        "reliability_score": 0.95
+      },
+      "action": "As Lago Vista City Council member (2005-2010), addressed tax policy within budget discussions covering both revenue and spending",
+      "action_at": "2005-2010",
+      "action_sources": [
+        {
+          "source_id": "action_3_src_0",
+          "type": "other",
+          "title": "Property Tax",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/property-tax/",
+          "published_at": "unknown",
+          "retrieved_at": "2026-07-04T01:03:27.134Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        },
+        {
+          "source_id": "action_3_src_1",
+          "type": "other",
+          "title": "Government",
+          "publisher": "patdixon.org",
+          "url": "https://patdixon.org/government/",
+          "published_at": "unknown",
+          "retrieved_at": "2026-07-04T01:03:27.134Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Dixon's past service on city council matches his stated approach of addressing tax policy through comprehensive budget discussions.",
+      "confidence": 0.7
+    }
   ]
 }

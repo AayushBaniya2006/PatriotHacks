@@ -786,5 +786,153 @@
         }
       ]
     }
+  ],
+  "promise_record": [
+    {
+      "promise": "Work to safeguard IVF if elected to the U.S. Senate and cosponsor the IVF Protection Act",
+      "promised_at": "2026-06-18",
+      "promise_source": {
+        "source_id": "promise_0_src_0",
+        "type": "other",
+        "title": "Paxton breaks with Texas GOP's anti-IVF platform, saying he supports the procedure",
+        "publisher": "click2houston.com",
+        "url": "https://www.click2houston.com/news/texas/2026/06/18/paxton-breaks-with-texas-gops-anti-ivf-platform-saying-he-supports-the-procedure/",
+        "published_at": "2026-06-18T17:44:00",
+        "retrieved_at": "2026-07-04T01:02:49.262Z",
+        "primary_source": true,
+        "quote": "Paxton will cosponsor the bill if elected",
+        "reliability_score": 0.95
+      },
+      "action": "Has not yet been elected to U.S. Senate; no Senate vote or cosponsorship action possible",
+      "action_at": null,
+      "action_sources": [],
+      "verdict": "untested",
+      "explanation": "Paxton made this pledge as a Senate candidate in June 2026, but the election has not yet occurred, so he has had no opportunity to cosponsor federal legislation.",
+      "confidence": 0.95
+    },
+    {
+      "promise": "Continue fighting to protect Texas children from Big Tech if elected to U.S. Senate",
+      "promised_at": "2026-06-03",
+      "promise_source": {
+        "source_id": "promise_1_src_0",
+        "type": "other",
+        "title": "Big Tech finds a foe in Texas' robust consumer protection laws and AG Ken Paxton",
+        "publisher": "houstonpublicmedia.org",
+        "url": "https://www.houstonpublicmedia.org/articles/technology/2026/06/03/553559/texas-ken-paxton-tech-lawsuits-senate-campaign/",
+        "published_at": "2026-06-03",
+        "retrieved_at": "2026-07-04T01:02:49.262Z",
+        "primary_source": true,
+        "quote": "In Washington, I will not stop fighting to protect Texas children from Big Tech",
+        "reliability_score": 0.95
+      },
+      "action": "Has not yet been elected to U.S. Senate; no Senate legislative action possible",
+      "action_at": null,
+      "action_sources": [],
+      "verdict": "untested",
+      "explanation": "This was a campaign pledge for a prospective Senate term; Paxton remains Texas Attorney General and has not yet assumed federal office.",
+      "confidence": 0.95
+    },
+    {
+      "promise": "Defend Texas law requiring public schools to display the Ten Commandments",
+      "promised_at": "2025-08-20",
+      "promise_source": {
+        "source_id": "promise_2_src_0",
+        "type": "other",
+        "title": "Attorney General Ken Paxton Instructs Texas Schools to Display the Ten Commandments in Accordance with Texas Law",
+        "publisher": "oag.state.tx.us",
+        "url": "https://www.oag.state.tx.us/news/releases/attorney-general-ken-paxton-instructs-texas-schools-display-ten-commandments-accordance-texas-law",
+        "published_at": "2025-08-20",
+        "retrieved_at": "2026-07-04T01:02:49.262Z",
+        "primary_source": true,
+        "quote": "I will not back down from defending the virtues and values that built this country",
+        "reliability_score": 0.95
+      },
+      "action": "Issued directive to Texas ISDs to display Ten Commandments per S.B. 10 and appealed federal injunction blocking implementation in 11 school districts",
+      "action_at": "2025-08-20",
+      "action_sources": [
+        {
+          "source_id": "action_2_src_0",
+          "type": "other",
+          "title": "Attorney General Ken Paxton Instructs Texas Schools to Display the Ten Commandments in Accordance with Texas Law",
+          "publisher": "oag.state.tx.us",
+          "url": "https://www.oag.state.tx.us/news/releases/attorney-general-ken-paxton-instructs-texas-schools-display-ten-commandments-accordance-texas-law",
+          "published_at": "2025-08-20",
+          "retrieved_at": "2026-07-04T01:02:49.262Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Paxton followed through on his commitment by issuing binding instructions to school districts and immediately appealing the federal court injunction that blocked enforcement in 11 districts.",
+      "confidence": 0.95
+    },
+    {
+      "promise": "Use Texas consumer protection laws to pursue legal actions against Big Tech companies",
+      "promised_at": "2024-06-01",
+      "promise_source": {
+        "source_id": "promise_3_src_0",
+        "type": "other",
+        "title": "Big Tech finds a foe in Texas' robust consumer protection laws and AG Ken Paxton",
+        "publisher": "houstonpublicmedia.org",
+        "url": "https://www.houstonpublicmedia.org/articles/technology/2026/06/03/553559/texas-ken-paxton-tech-lawsuits-senate-campaign/",
+        "published_at": "2026-06-03",
+        "retrieved_at": "2026-07-04T01:02:49.262Z",
+        "primary_source": true,
+        "quote": "Paxton in the summer of 2024 created a division within the Office of the Attorney General dedicated to enforcement of Texas' privacy laws against Big Tech firms",
+        "reliability_score": 0.95
+      },
+      "action": "Created dedicated enforcement division in 2024; secured $1.4 billion settlement with Meta (2024) and $1.4 billion settlement with Google (2025); filed at least two dozen lawsuits against tech companies",
+      "action_at": "2024-06-01",
+      "action_sources": [
+        {
+          "source_id": "action_3_src_0",
+          "type": "other",
+          "title": "Big Tech finds a foe in Texas' robust consumer protection laws and AG Ken Paxton",
+          "publisher": "houstonpublicmedia.org",
+          "url": "https://www.houstonpublicmedia.org/articles/technology/2026/06/03/553559/texas-ken-paxton-tech-lawsuits-senate-campaign/",
+          "published_at": "2026-06-03",
+          "retrieved_at": "2026-07-04T01:02:49.262Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "kept",
+      "explanation": "Paxton fulfilled this commitment by establishing a specialized division and securing record-breaking settlements through aggressive enforcement of Texas consumer protection statutes.",
+      "confidence": 0.95
+    },
+    {
+      "promise": "Disclose required financial information to Texas Ethics Commission",
+      "promised_at": "2022-01-01",
+      "promise_source": {
+        "source_id": "promise_4_src_0",
+        "type": "other",
+        "title": "Texas Attorney General Ken Paxton did not disclose real estate interests for years. That just changed.",
+        "publisher": "kut.org",
+        "url": "https://www.kut.org/politics/2025-07-21/texas-attorney-general-ken-paxton-home-property-disclosure-ethics",
+        "published_at": "2025-07-21",
+        "retrieved_at": "2026-07-04T01:02:49.262Z",
+        "primary_source": true,
+        "quote": "I've disclosed everything I'm required to disclose",
+        "reliability_score": 0.95
+      },
+      "action": "Failed to disclose multiple properties for years; only disclosed eight properties in 2025 after Ethics Commission adopted stricter rule; property records show at least 10 properties owned, suggesting incomplete disclosure",
+      "action_at": "2025-07-21",
+      "action_sources": [
+        {
+          "source_id": "action_4_src_0",
+          "type": "other",
+          "title": "Texas Attorney General Ken Paxton did not disclose real estate interests for years. That just changed.",
+          "publisher": "kut.org",
+          "url": "https://www.kut.org/politics/2025-07-21/texas-attorney-general-ken-paxton-home-property-disclosure-ethics",
+          "published_at": "2025-07-21",
+          "retrieved_at": "2026-07-04T01:02:49.262Z",
+          "primary_source": true,
+          "reliability_score": 0.95
+        }
+      ],
+      "verdict": "broken",
+      "explanation": "Paxton claimed full compliance with disclosure requirements but years of records show he omitted multiple properties until forced by rule changes, and his 2025 disclosure still appears incomplete.",
+      "confidence": 0.85
+    }
   ]
 }

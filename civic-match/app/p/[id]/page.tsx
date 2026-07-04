@@ -174,7 +174,7 @@ export default async function PoliticianPage({
       <section>
         <h2 className="text-lg font-semibold mb-3">Ask about {p.name.split(" ")[0]}</h2>
         <p className="text-xs text-zinc-500 mb-3">
-          Answers come only from the indexed evidence above — never from model memory.
+          Answers come only from the indexed ground truth above — never from model memory.
         </p>
         <QABox politicianId={p.id} suggested={ui.suggested_questions} />
       </section>

@@ -44,8 +44,9 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <footer className="border-t border-zinc-800 text-xs text-zinc-500">
           <div className="mx-auto max-w-5xl px-4 py-4">
-            Neutral, evidence-backed candidate alignment. Matches reflect your stated
-            priorities — not endorsements. Every claim links to its source.
+            Neutral, evidence-backed candidate alignment built on ground truth: every
+            claim links to a verifiable source. Matches reflect your stated priorities —
+            not endorsements. No source, no claim.
           </div>
         </footer>
       </body>
