@@ -629,5 +629,298 @@
       ]
     }
   ],
-  "promise_record": []
+  "promise_record": [],
+  "finance": {
+    "total_raised": "$443,715",
+    "cash_on_hand": "$158,947",
+    "as_of": "2026-02-21",
+    "overview_source": {
+      "source_id": "fin_overview_src_0",
+      "type": "campaign_finance",
+      "title": "Goodwin, Vikki A. (The Honorable) - Texas Committee",
+      "publisher": "Transparency USA",
+      "url": "https://www.transparencyusa.org/tx/committee/goodwin-vikki-a-81436-coh",
+      "retrieved_at": "2026-07-04T01:18:38.271Z",
+      "primary_source": false,
+      "reliability_score": 0.7
+    },
+    "top_donors": [
+      {
+        "name": "Anne T Hilbert",
+        "kind": "individual",
+        "amount": "$7,551.83",
+        "source": {
+          "source_id": "donor_0_src_0",
+          "type": "campaign_finance",
+          "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+          "retrieved_at": "2026-07-04T01:18:38.271Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "John C Bumgarner",
+        "kind": "individual",
+        "amount": "$5,000.00",
+        "source": {
+          "source_id": "donor_1_src_0",
+          "type": "campaign_finance",
+          "title": "Goodwin, Vikki A. (The Honorable) - Texas Committee - Top Contributors",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/committee/goodwin-vikki-a-81436-coh",
+          "retrieved_at": "2026-07-04T01:18:38.271Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Texas Sands PAC",
+        "kind": "pac",
+        "amount": "$8,000.00",
+        "source": {
+          "source_id": "donor_2_src_0",
+          "type": "campaign_finance",
+          "title": "Vikki Goodwin - Top Contributors",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/vikki-a-goodwin",
+          "retrieved_at": "2026-07-04T01:18:38.271Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Texas REALTORS Political Action Committee",
+        "kind": "pac",
+        "amount": "$7,500.00",
+        "source": {
+          "source_id": "donor_3_src_0",
+          "type": "campaign_finance",
+          "title": "Vikki Goodwin - Top Contributors",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/vikki-a-goodwin",
+          "retrieved_at": "2026-07-04T01:18:38.271Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Texas Trial Lawyers Association PAC",
+        "kind": "pac",
+        "amount": "$7,500.00",
+        "source": {
+          "source_id": "donor_4_src_0",
+          "type": "campaign_finance",
+          "title": "Vikki Goodwin - Top Contributors",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/vikki-a-goodwin",
+          "retrieved_at": "2026-07-04T01:18:38.271Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Cn4 Partners",
+        "kind": "organization",
+        "amount": "$156,575.00",
+        "source": {
+          "source_id": "donor_5_src_0",
+          "type": "campaign_finance",
+          "title": "Goodwin, Vikki A. (The Honorable) - Texas Committee - Top Payees",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/committee/goodwin-vikki-a-81436-coh",
+          "retrieved_at": "2026-07-04T01:18:38.271Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Goodman Campaigns LLC",
+        "kind": "organization",
+        "amount": "$106,066.07",
+        "source": {
+          "source_id": "donor_6_src_0",
+          "type": "campaign_finance",
+          "title": "Goodwin, Vikki A. (The Honorable) - Texas Committee - Top Payees",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/committee/goodwin-vikki-a-81436-coh",
+          "retrieved_at": "2026-07-04T01:18:38.271Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Jeffry Weems",
+        "kind": "individual",
+        "amount": "$5,000.00",
+        "source": {
+          "source_id": "donor_7_src_0",
+          "type": "campaign_finance",
+          "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+          "retrieved_at": "2026-07-04T01:18:38.271Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      }
+    ],
+    "correlations": [
+      {
+        "donor": "Texas REALTORS Political Action Committee",
+        "issue_id": "housing",
+        "position_or_vote": "Public role with tenant protections and subsidies",
+        "note": "Goodwin received $7,500 from Texas REALTORS PAC and has publicly supported the Fair Rent Incentive Act to incentivize lower rent, which aligns with real estate industry interests in housing policy discussions.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_0_src_0",
+            "type": "campaign_finance",
+            "title": "Vikki Goodwin - Top Contributors",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/vikki-a-goodwin",
+            "retrieved_at": "2026-07-04T01:18:38.271Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_0_src_1",
+            "type": "campaign_finance",
+            "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+            "publisher": "The Texas Tribune",
+            "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+            "retrieved_at": "2026-07-04T01:18:38.271Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Texas Trial Lawyers Association PAC",
+        "issue_id": "civil_rights",
+        "position_or_vote": "Support expanded anti-discrimination protections",
+        "note": "Goodwin received $7,500 from Texas Trial Lawyers Association PAC and sponsored the Natalia Cox Act in 2023 providing notice for victims of domestic violence, which intersects with legal services and victim advocacy interests.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_1_src_0",
+            "type": "campaign_finance",
+            "title": "Vikki Goodwin - Top Contributors",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/vikki-a-goodwin",
+            "retrieved_at": "2026-07-04T01:18:38.271Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_1_src_1",
+            "type": "campaign_finance",
+            "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+            "publisher": "The Texas Tribune",
+            "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+            "retrieved_at": "2026-07-04T01:18:38.271Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Jeffry Weems",
+        "issue_id": "energy",
+        "position_or_vote": "Public investment and industrial policy",
+        "note": "Goodwin received $5,000 from Jeffry Weems, an oil and gas attorney and 2010 railroad commissioner candidate, while her campaign platform emphasizes water infrastructure investment rather than oil and gas policy.",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "source_id": "corr_2_src_0",
+            "type": "campaign_finance",
+            "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+            "publisher": "The Texas Tribune",
+            "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+            "retrieved_at": "2026-07-04T01:18:38.271Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Texas Sands PAC",
+        "issue_id": "economy",
+        "position_or_vote": "Public investment and industrial policy",
+        "note": "Goodwin received $8,000 from Texas Sands PAC, a gambling/casino industry PAC, while her economic platform focuses on public investment in schools and infrastructure without documented positions on gambling expansion.",
+        "confidence": 0.3,
+        "sources": [
+          {
+            "source_id": "corr_3_src_0",
+            "type": "campaign_finance",
+            "title": "Vikki Goodwin - Top Contributors",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/vikki-a-goodwin",
+            "retrieved_at": "2026-07-04T01:18:38.271Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_3_src_1",
+            "type": "campaign_finance",
+            "title": "Vikki Goodwin Top Contributors",
+            "publisher": "OpenSecrets",
+            "url": "https://www.opensecrets.org/officeholders/vikki-goodwin/contributors?cycle=2024&id=38392457",
+            "retrieved_at": "2026-07-04T01:18:38.271Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Anne T Hilbert",
+        "issue_id": "education",
+        "position_or_vote": "Oppose vouchers; invest in public schools",
+        "note": "Goodwin's largest individual donor contributed $7,551.83 while Goodwin has made public school funding a centerpiece of her lieutenant governor campaign, though no specific policy linkage to this donor has been documented.",
+        "confidence": 0.3,
+        "sources": [
+          {
+            "source_id": "corr_4_src_0",
+            "type": "campaign_finance",
+            "title": "Goodwin, Vikki A. (The Honorable) - Texas Committee - Top Contributors",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/committee/goodwin-vikki-a-81436-coh",
+            "retrieved_at": "2026-07-04T01:18:38.271Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_4_src_1",
+            "type": "campaign_finance",
+            "title": "Texas Lt. Gov race: Goodwin, Vélez head to runoff",
+            "publisher": "The Texas Tribune",
+            "url": "https://www.texastribune.org/2026/04/24/texas-2026-lieutenant-governor-democratic-runoff-vikki-goodwin-marcos-velez/",
+            "retrieved_at": "2026-07-04T01:18:38.271Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Austin Fire Fighters Local 975",
+        "issue_id": "labor",
+        "position_or_vote": "Strengthen worker protections and wages",
+        "note": "Goodwin received $1,000 from Austin Fire Fighters Local 975 according to OpenSecrets records, and her platform includes raising labor standards and minimum wage, which aligns with public sector union interests.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_5_src_0",
+            "type": "campaign_finance",
+            "title": "Vikki Goodwin Top Contributors",
+            "publisher": "OpenSecrets",
+            "url": "https://www.opensecrets.org/officeholders/vikki-goodwin/contributors?cycle=2024&id=38392457",
+            "retrieved_at": "2026-07-04T01:18:38.271Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      }
+    ]
+  }
 }

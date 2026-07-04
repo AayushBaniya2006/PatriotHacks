@@ -131,6 +131,34 @@ export interface ScenarioTree {
   root: ScenarioNode;
 }
 
+// ---- Follow the money: funding + money↔votes cross-reference ----
+// Correlations are labeled as correlation, NEVER causation/proof.
+
+export interface DonorEntry {
+  name: string; // donor, PAC, org, or industry group
+  kind: "individual" | "pac" | "organization" | "industry" | "party";
+  amount?: string; // as reported, e.g. "$1.2M (2022-2026 cycle)"
+  source: Source;
+}
+
+export interface MoneyCorrelation {
+  donor: string; // who/which industry
+  issue_id: string;
+  position_or_vote: string; // the related stance, vote, or floor action
+  note: string; // neutral: "correlation in public records, not proof of causation"
+  confidence: number;
+  sources: Source[];
+}
+
+export interface CampaignFinance {
+  total_raised?: string;
+  cash_on_hand?: string;
+  as_of?: string;
+  overview_source?: Source;
+  top_donors: DonorEntry[];
+  correlations: MoneyCorrelation[];
+}
+
 export interface PoliticianProfile {
   id: string; // slug
   name: string;
@@ -142,6 +170,7 @@ export interface PoliticianProfile {
   stances: Stance[];
   qualitative?: QualitativeDimension[];
   promise_record?: PromiseRecord[];
+  finance?: CampaignFinance;
   unknowns: string[]; // issue_ids with no reliable evidence found
   contradictions: {
     issue_id: string;

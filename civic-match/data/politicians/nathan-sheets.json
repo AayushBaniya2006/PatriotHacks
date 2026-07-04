@@ -543,5 +543,258 @@
       "explanation": "Sheets maintained exploration efforts and observed declining Ex-Im Bank support for large aircraft, consistent with market-oriented goals, though this was partly due to market conditions rather than policy alone.",
       "confidence": 0.6
     }
-  ]
+  ],
+  "finance": {
+    "total_raised": "$1,112,522",
+    "cash_on_hand": "$254,777",
+    "as_of": "2025-12-31",
+    "overview_source": {
+      "source_id": "fin_overview_src_0",
+      "type": "campaign_finance",
+      "title": "Nathan H Sheets - Texas Candidate",
+      "publisher": "Transparency USA",
+      "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+      "retrieved_at": "2026-07-04T01:18:33.170Z",
+      "primary_source": false,
+      "reliability_score": 0.7
+    },
+    "top_donors": [
+      {
+        "name": "Douglas Scharbauer",
+        "kind": "individual",
+        "amount": "$100,000",
+        "source": {
+          "source_id": "donor_0_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+          "retrieved_at": "2026-07-04T01:18:33.170Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "James \"Jim\" Moyer",
+        "kind": "individual",
+        "amount": "$100,000",
+        "source": {
+          "source_id": "donor_1_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+          "retrieved_at": "2026-07-04T01:18:33.170Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Poiema Brands LLC d/b/a Honey Rock Group",
+        "kind": "organization",
+        "amount": "$149,214",
+        "source": {
+          "source_id": "donor_2_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+          "retrieved_at": "2026-07-04T01:18:33.170Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Chris Scharbauer",
+        "kind": "individual",
+        "amount": "$25,000",
+        "source": {
+          "source_id": "donor_3_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+          "retrieved_at": "2026-07-04T01:18:33.170Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "The What's Up Radio Program",
+        "kind": "organization",
+        "amount": "$300,000",
+        "source": {
+          "source_id": "donor_4_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Payees",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+          "retrieved_at": "2026-07-04T01:18:33.170Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Harris Media LLC",
+        "kind": "organization",
+        "amount": "$185,299",
+        "source": {
+          "source_id": "donor_5_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Payees",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+          "retrieved_at": "2026-07-04T01:18:33.170Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Griffin Communications",
+        "kind": "organization",
+        "amount": "$131,338",
+        "source": {
+          "source_id": "donor_6_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Payees",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+          "retrieved_at": "2026-07-04T01:18:33.170Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Chabot Strategies LLC",
+        "kind": "organization",
+        "amount": "$120,000",
+        "source": {
+          "source_id": "donor_7_src_0",
+          "type": "campaign_finance",
+          "title": "Nathan H Sheets - Payees",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+          "retrieved_at": "2026-07-04T01:18:33.170Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      }
+    ],
+    "correlations": [
+      {
+        "donor": "Douglas Scharbauer",
+        "issue_id": "economy",
+        "position_or_vote": "Support for supply-side structural reforms plus demand stimulus",
+        "note": "Public records show Scharbauer family oil-and-ranch interests overlap with Sheets’s stated pro-growth economic stance, but no evidence links the donation to policy outcomes.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_0_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+            "retrieved_at": "2026-07-04T01:18:33.170Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Poiema Brands LLC (Honey Rock Group)",
+        "issue_id": "trade",
+        "position_or_vote": "Multilateral rules-based export-credit system",
+        "note": "Sheets’s honey-marketing firm received export-related benefits under existing trade-credit rules, aligning with his multilateral trade position, though no causal link is documented.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_1_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+            "retrieved_at": "2026-07-04T01:18:33.170Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "The What's Up Radio Program",
+        "issue_id": "foreign_policy",
+        "position_or_vote": "Active global leadership through international institutions",
+        "note": "The Christian-radio network’s international relief segments mirror Sheets’s public support for U.S. global engagement, but filings do not show the donation conditioned on policy.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_2_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Payees",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+            "retrieved_at": "2026-07-04T01:18:33.170Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Harris Media LLC",
+        "issue_id": "ai_tech",
+        "position_or_vote": "Cautiously optimistic on AI productivity; market-oriented with some valuation concerns",
+        "note": "Harris Media’s data-driven campaign services coincide with Sheets’s tech-market optimism, yet no records indicate the firm directed his AI policy statements.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_3_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Payees",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+            "retrieved_at": "2026-07-04T01:18:33.170Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Griffin Communications",
+        "issue_id": "defense",
+        "position_or_vote": "Supports strategic international engagement, not defense spending cuts",
+        "note": "Griffin’s prior defense-contractor clients overlap thematically with Sheets’s pro-engagement defense stance, though no documentation shows the media buy influenced his position.",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "source_id": "corr_4_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Payees",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/payees",
+            "retrieved_at": "2026-07-04T01:18:33.170Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Chris Scharbauer",
+        "issue_id": "climate",
+        "position_or_vote": "Support for low-carbon global framework",
+        "note": "The Scharbauer energy portfolio includes renewables, paralleling Sheets’s stated backing of a low-carbon framework, but public filings do not establish a quid-pro-quo.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_5_src_0",
+            "type": "campaign_finance",
+            "title": "Nathan H Sheets - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/nathan-h-sheets/contributions",
+            "retrieved_at": "2026-07-04T01:18:33.170Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      }
+    ]
+  }
 }

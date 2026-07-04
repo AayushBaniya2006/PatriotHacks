@@ -656,5 +656,318 @@
       ]
     }
   ],
-  "promise_record": []
+  "promise_record": [],
+  "finance": {
+    "total_raised": "$225,337",
+    "cash_on_hand": "$52,508",
+    "as_of": "2026-07-04",
+    "overview_source": {
+      "source_id": "fin_overview_src_0",
+      "type": "campaign_finance",
+      "title": "Clayton H Tucker - Texas Candidate - Contributions",
+      "publisher": "Transparency USA",
+      "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+      "retrieved_at": "2026-07-04T01:16:44.461Z",
+      "primary_source": false,
+      "reliability_score": 0.7
+    },
+    "top_donors": [
+      {
+        "name": "Donald Henley",
+        "kind": "individual",
+        "amount": "$50,000.00",
+        "source": {
+          "source_id": "donor_0_src_0",
+          "type": "campaign_finance",
+          "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.461Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Texas Bluebonnet PAC",
+        "kind": "pac",
+        "amount": "$9,500.00",
+        "source": {
+          "source_id": "donor_1_src_0",
+          "type": "campaign_finance",
+          "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.461Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Grassroots Nation",
+        "kind": "organization",
+        "amount": "$5,000.00",
+        "source": {
+          "source_id": "donor_2_src_0",
+          "type": "campaign_finance",
+          "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.461Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Farrukh Shamsi",
+        "kind": "individual",
+        "amount": "$10,000.00",
+        "source": {
+          "source_id": "donor_3_src_0",
+          "type": "campaign_finance",
+          "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.461Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Nancy Sanders",
+        "kind": "individual",
+        "amount": "$10,250.00",
+        "source": {
+          "source_id": "donor_4_src_0",
+          "type": "campaign_finance",
+          "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.461Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Farm and Food Action PAC",
+        "kind": "pac",
+        "amount": "$1,800.00",
+        "source": {
+          "source_id": "donor_5_src_0",
+          "type": "campaign_finance",
+          "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.461Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Catherine Lustgarten",
+        "kind": "individual",
+        "amount": "$2,000.00",
+        "source": {
+          "source_id": "donor_6_src_0",
+          "type": "campaign_finance",
+          "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.461Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Mitzi Rusk",
+        "kind": "individual",
+        "amount": "$2,000.00",
+        "source": {
+          "source_id": "donor_7_src_0",
+          "type": "campaign_finance",
+          "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.461Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      }
+    ],
+    "correlations": [
+      {
+        "donor": "Donald Henley",
+        "issue_id": "small_business",
+        "position_or_vote": "Antitrust action and public support for family farms",
+        "note": "Henley, a recording artist, has publicly supported environmental and anti-monopoly causes; Tucker's campaign emphasizes anti-monopoly policies for family farms, which appears in public records as a shared issue area between donor interests and candidate platform.",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "source_id": "corr_0_src_0",
+            "type": "campaign_finance",
+            "title": "Clayton Tucker: A Populist Challenger Takes On Sid Miller in Texas Ag Commissioner Race",
+            "publisher": "Texas Reporter",
+            "url": "https://texreporter.com/2025/12/30/clayton-tucker-a-populist-challenger-takes-on-sid-miller-in-texas-ag-commissioner-race/",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_0_src_1",
+            "type": "campaign_finance",
+            "title": "Petitions - Clayton Tucker",
+            "publisher": "claytontuckertx.com",
+            "url": "https://www.claytontuckertx.com/issues",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": true,
+            "reliability_score": 0.95
+          }
+        ]
+      },
+      {
+        "donor": "Texas Bluebonnet PAC",
+        "issue_id": "labor",
+        "position_or_vote": "Strengthen unions and worker protections",
+        "note": "Texas Bluebonnet PAC is associated with labor union interests; Tucker is Secretary of the Texas Farmers Union and advocates for labor standards, which appears in public records as alignment between PAC purpose and candidate positions.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_1_src_0",
+            "type": "campaign_finance",
+            "title": "Clayton Tucker: A Populist Challenger Takes On Sid Miller in Texas Ag Commissioner Race",
+            "publisher": "Texas Reporter",
+            "url": "https://texreporter.com/2025/12/30/clayton-tucker-a-populist-challenger-takes-on-sid-miller-in-texas-ag-commissioner-race/",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_1_src_1",
+            "type": "campaign_finance",
+            "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Farm and Food Action PAC",
+        "issue_id": "small_business",
+        "position_or_vote": "Antitrust action and public support for family farms",
+        "note": "Farm and Food Action PAC focuses on agricultural policy; Tucker explicitly campaigns on 'Fight for Family Farms' and anti-monopoly policies, which appears in public records as direct alignment between PAC mission and candidate platform.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_2_src_0",
+            "type": "campaign_finance",
+            "title": "Petitions - Clayton Tucker",
+            "publisher": "claytontuckertx.com",
+            "url": "https://www.claytontuckertx.com/issues",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": true,
+            "reliability_score": 0.95
+          },
+          {
+            "source_id": "corr_2_src_1",
+            "type": "campaign_finance",
+            "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Grassroots Nation",
+        "issue_id": "economy",
+        "position_or_vote": "Public investment and anti-monopoly intervention",
+        "note": "Grassroots Nation supports progressive economic policies; Tucker's 'Affordable Texas Agenda' emphasizes public investment and anti-monopoly measures, which appears in public records as shared thematic focus.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_3_src_0",
+            "type": "campaign_finance",
+            "title": "Petitions - Clayton Tucker",
+            "publisher": "claytontuckertx.com",
+            "url": "https://www.claytontuckertx.com/issues",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": true,
+            "reliability_score": 0.95
+          },
+          {
+            "source_id": "corr_3_src_1",
+            "type": "campaign_finance",
+            "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Farrukh Shamsi",
+        "issue_id": "healthcare",
+        "position_or_vote": "Government-guaranteed coverage for all",
+        "note": "Shamsi is President of Texas Clinic, a healthcare entity; Tucker advocates for government-guaranteed healthcare coverage, which appears in public records as potential alignment between donor industry and candidate healthcare position.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_4_src_0",
+            "type": "campaign_finance",
+            "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_4_src_1",
+            "type": "campaign_finance",
+            "title": "Petitions - Clayton Tucker",
+            "publisher": "claytontuckertx.com",
+            "url": "https://www.claytontuckertx.com/issues",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": true,
+            "reliability_score": 0.95
+          }
+        ]
+      },
+      {
+        "donor": "Nancy Sanders",
+        "issue_id": "trade",
+        "position_or_vote": "Fair trade advocate, critical of free trade agreements",
+        "note": "Sanders, as a retired individual donor making recurring monthly contributions, has no documented industry affiliation; Tucker's position as fair trade advocate through Trade Justice Education Fund appears in public records without direct donor-industry correlation.",
+        "confidence": 0.2,
+        "sources": [
+          {
+            "source_id": "corr_5_src_0",
+            "type": "campaign_finance",
+            "title": "Clayton H Tucker - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/clayton-h-tucker/contributions",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          },
+          {
+            "source_id": "corr_5_src_1",
+            "type": "campaign_finance",
+            "title": "Clayton Tucker: A Populist Challenger Takes On Sid Miller in Texas Ag Commissioner Race",
+            "publisher": "Texas Reporter",
+            "url": "https://texreporter.com/2025/12/30/clayton-tucker-a-populist-challenger-takes-on-sid-miller-in-texas-ag-commissioner-race/",
+            "retrieved_at": "2026-07-04T01:16:44.461Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      }
+    ]
+  }
 }

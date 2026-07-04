@@ -727,5 +727,258 @@
       "explanation": "Patrick delivered Senate passage but the bill remains unsigned, so the promise is only partially fulfilled so far.",
       "confidence": 0.8
     }
-  ]
+  ],
+  "finance": {
+    "total_raised": "$9,953,927",
+    "cash_on_hand": "$31,793,839",
+    "as_of": "2026-07-04",
+    "overview_source": {
+      "source_id": "fin_overview_src_0",
+      "type": "campaign_finance",
+      "title": "Dan Patrick - Texas Candidate - Contributions",
+      "publisher": "Transparency USA",
+      "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+      "retrieved_at": "2026-07-04T01:16:44.469Z",
+      "primary_source": false,
+      "reliability_score": 0.7
+    },
+    "top_donors": [
+      {
+        "name": "Texans United for a Conservative Majority PAC",
+        "kind": "pac",
+        "amount": "$350,000.00",
+        "source": {
+          "source_id": "donor_0_src_0",
+          "type": "campaign_finance",
+          "title": "Dan Patrick - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.469Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Drayton McClane Jr",
+        "kind": "individual",
+        "amount": "$250,000.00",
+        "source": {
+          "source_id": "donor_1_src_0",
+          "type": "campaign_finance",
+          "title": "Dan Patrick - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.469Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "H Ross Perot Jr",
+        "kind": "individual",
+        "amount": "$250,000.00",
+        "source": {
+          "source_id": "donor_2_src_0",
+          "type": "campaign_finance",
+          "title": "Dan Patrick - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.469Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Kenneth Fisher",
+        "kind": "individual",
+        "amount": "$250,000.00",
+        "source": {
+          "source_id": "donor_3_src_0",
+          "type": "campaign_finance",
+          "title": "Dan Patrick - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.469Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Arch Aplin III (Buc-ee's)",
+        "kind": "individual",
+        "amount": "$200,000.00",
+        "source": {
+          "source_id": "donor_4_src_0",
+          "type": "campaign_finance",
+          "title": "Dan Patrick - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.469Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Tara and Cody C Campbell (Double Eagle Development)",
+        "kind": "individual",
+        "amount": "$200,000.00",
+        "source": {
+          "source_id": "donor_5_src_0",
+          "type": "campaign_finance",
+          "title": "Dan Patrick - Texas Candidate - Transparency USA",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+          "retrieved_at": "2026-07-04T01:16:44.469Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Susquehanna International Group",
+        "kind": "organization",
+        "amount": "$750,000",
+        "source": {
+          "source_id": "donor_6_src_0",
+          "type": "campaign_finance",
+          "title": "Dan Goeb Patrick Money Profile",
+          "publisher": "OpenSecrets",
+          "url": "https://www.opensecrets.org/officeholders/dan-goeb-patrick/summary?cycle=2024&id=11860515",
+          "retrieved_at": "2026-07-04T01:16:44.469Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Silver Eagle Beverages",
+        "kind": "organization",
+        "amount": "$250,000",
+        "source": {
+          "source_id": "donor_7_src_0",
+          "type": "campaign_finance",
+          "title": "Dan Goeb Patrick Money Profile",
+          "publisher": "OpenSecrets",
+          "url": "https://www.opensecrets.org/officeholders/dan-goeb-patrick/summary?cycle=2024&id=11860515",
+          "retrieved_at": "2026-07-04T01:16:44.469Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      }
+    ],
+    "correlations": [
+      {
+        "donor": "H Ross Perot Jr (Hillwood Development Corp)",
+        "issue_id": "housing",
+        "position_or_vote": "Property tax relief as primary housing affordability tool",
+        "note": "Perot Jr's real estate development interests overlap with Patrick's property tax reduction advocacy, though public records do not establish that donations caused this position.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_0_src_0",
+            "type": "campaign_finance",
+            "title": "Dan Patrick - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+            "retrieved_at": "2026-07-04T01:16:44.469Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Arch Aplin III (Buc-ee's)",
+        "issue_id": "economy",
+        "position_or_vote": "Tax cuts and deregulation as economic drivers",
+        "note": "Buc-ee's, a major Texas retail employer, operates in an environment shaped by Patrick's deregulation and tax cut policies, though no direct causal link is documented.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_1_src_0",
+            "type": "campaign_finance",
+            "title": "Dan Patrick - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+            "retrieved_at": "2026-07-04T01:16:44.469Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Susquehanna International Group",
+        "issue_id": "economy",
+        "position_or_vote": "Tax cuts and deregulation as economic drivers",
+        "note": "The financial services firm's significant contributions coincide with Patrick's securities/investment industry support, though this correlation does not demonstrate influence.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_2_src_0",
+            "type": "campaign_finance",
+            "title": "Dan Goeb Patrick Money Profile",
+            "publisher": "OpenSecrets",
+            "url": "https://www.opensecrets.org/officeholders/dan-goeb-patrick/summary?cycle=2024&id=11860515",
+            "retrieved_at": "2026-07-04T01:16:44.469Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Silver Eagle Beverages",
+        "issue_id": "taxes",
+        "position_or_vote": "Aggressive property tax reduction through exemptions and rate caps",
+        "note": "The beverage industry donor's interests align with Patrick's tax reduction agenda, but public records do not show this contribution directly affected specific legislation.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_3_src_0",
+            "type": "campaign_finance",
+            "title": "Dan Goeb Patrick Money Profile",
+            "publisher": "OpenSecrets",
+            "url": "https://www.opensecrets.org/officeholders/dan-goeb-patrick/summary?cycle=2024&id=11860515",
+            "retrieved_at": "2026-07-04T01:16:44.469Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Texans United for a Conservative Majority PAC",
+        "issue_id": "education",
+        "position_or_vote": "Universal school choice; ESAs for all families",
+        "note": "The conservative PAC's contribution aligns with Patrick's school choice advocacy, though the timing and amount do not establish that the donation caused specific legislative action.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_4_src_0",
+            "type": "campaign_finance",
+            "title": "Dan Patrick - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+            "retrieved_at": "2026-07-04T01:16:44.469Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Kenneth Fisher (Fisher Investments)",
+        "issue_id": "debt_spending",
+        "position_or_vote": "Restrict local government spending growth; limit revenue increases",
+        "note": "The investment executive's contribution correlates with Patrick's fiscal restraint positions, though no evidence shows this donation directly influenced specific votes.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_5_src_0",
+            "type": "campaign_finance",
+            "title": "Dan Patrick - Texas Candidate - Transparency USA",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/dan-patrick/contributions",
+            "retrieved_at": "2026-07-04T01:16:44.469Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      }
+    ]
+  }
 }

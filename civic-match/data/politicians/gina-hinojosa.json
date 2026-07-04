@@ -914,5 +914,258 @@
       "explanation": "Voted against the transgender athlete restriction bill, aligning with LGBTQ+ rights advocacy.",
       "confidence": 0.85
     }
-  ]
+  ],
+  "finance": {
+    "total_raised": "$2,291,214",
+    "cash_on_hand": "$617,635",
+    "as_of": "2025-12-31",
+    "overview_source": {
+      "source_id": "fin_overview_src_0",
+      "type": "campaign_finance",
+      "title": "Gina Hinojosa - Texas Candidate",
+      "publisher": "Transparency USA",
+      "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+      "retrieved_at": "2026-07-04T01:16:44.470Z",
+      "primary_source": false,
+      "reliability_score": 0.7
+    },
+    "top_donors": [
+      {
+        "name": "Regina Hinojosa & John Donisi",
+        "kind": "individual",
+        "amount": "$300,000.00",
+        "source": {
+          "source_id": "donor_0_src_0",
+          "type": "campaign_finance",
+          "title": "Gina Hinojosa - Texas Candidate - Loans",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/loans",
+          "retrieved_at": "2026-07-04T01:16:44.470Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Edward Allen III",
+        "kind": "individual",
+        "amount": "$50,000.00",
+        "source": {
+          "source_id": "donor_1_src_0",
+          "type": "campaign_finance",
+          "title": "Gina Hinojosa - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+          "retrieved_at": "2026-07-04T01:16:44.470Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Suzanne Deal Booth",
+        "kind": "individual",
+        "amount": "$25,500.00",
+        "source": {
+          "source_id": "donor_2_src_0",
+          "type": "campaign_finance",
+          "title": "Gina Hinojosa - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+          "retrieved_at": "2026-07-04T01:16:44.470Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "UA Plumbers & Pipefitters Local 286 PAC Fund",
+        "kind": "pac",
+        "amount": "$25,000.00",
+        "source": {
+          "source_id": "donor_3_src_0",
+          "type": "campaign_finance",
+          "title": "Gina Hinojosa - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+          "retrieved_at": "2026-07-04T01:16:44.470Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "James W Shaddix",
+        "kind": "individual",
+        "amount": "$15,000.00",
+        "source": {
+          "source_id": "donor_4_src_0",
+          "type": "campaign_finance",
+          "title": "Gina Hinojosa - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+          "retrieved_at": "2026-07-04T01:16:44.470Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Agave PAC",
+        "kind": "pac",
+        "amount": "$14,846.00",
+        "source": {
+          "source_id": "donor_5_src_0",
+          "type": "campaign_finance",
+          "title": "Gina Hinojosa - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+          "retrieved_at": "2026-07-04T01:16:44.470Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Bettina Barrow",
+        "kind": "individual",
+        "amount": "$13,500.00",
+        "source": {
+          "source_id": "donor_6_src_0",
+          "type": "campaign_finance",
+          "title": "Gina Hinojosa - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+          "retrieved_at": "2026-07-04T01:16:44.470Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Greg Wooldridge",
+        "kind": "individual",
+        "amount": "$13,500.00",
+        "source": {
+          "source_id": "donor_7_src_0",
+          "type": "campaign_finance",
+          "title": "Gina Hinojosa - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+          "retrieved_at": "2026-07-04T01:16:44.470Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      }
+    ],
+    "correlations": [
+      {
+        "donor": "UA Plumbers & Pipefitters Local 286 PAC Fund",
+        "issue_id": "labor",
+        "position_or_vote": "Strengthen unions and worker protections",
+        "note": "The UA Plumbers & Pipefitters union PAC contributed $25,000 to Hinojosa, whose documented position supports strengthening unions and worker protections; this correlation appears in public campaign finance records without establishing causation.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_0_src_0",
+            "type": "campaign_finance",
+            "title": "Gina Hinojosa - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+            "retrieved_at": "2026-07-04T01:16:44.470Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "UA Plumbers & Pipefitters Local 286 PAC Fund",
+        "issue_id": "jobs",
+        "position_or_vote": "Raise labor standards & support workers",
+        "note": "The union PAC's contribution coincides with Hinojosa's stated position to raise labor standards and support workers, a correlation visible in public records.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_1_src_0",
+            "type": "campaign_finance",
+            "title": "Gina Hinojosa - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+            "retrieved_at": "2026-07-04T01:16:44.470Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Agave PAC",
+        "issue_id": "abortion",
+        "position_or_vote": "Oppose abortion restrictions; protect access",
+        "note": "Agave PAC, which has supported reproductive rights candidates in Texas, contributed to Hinojosa, who holds a documented position opposing abortion restrictions; this alignment appears in public finance records.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_2_src_0",
+            "type": "campaign_finance",
+            "title": "Gina Hinojosa - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+            "retrieved_at": "2026-07-04T01:16:44.470Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "TOP Political Action Committee",
+        "issue_id": "civil_rights",
+        "position_or_vote": "Strengthen civil rights protections",
+        "note": "TOP PAC, focused on progressive organizing in Texas communities of color, contributed $78,320.86 to Hinojosa, whose documented position supports strengthening civil rights protections; this correlation appears in public records.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_3_src_0",
+            "type": "campaign_finance",
+            "title": "Gina Hinojosa - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+            "retrieved_at": "2026-07-04T01:16:44.470Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "House Democratic Campaign Committee",
+        "issue_id": "elections",
+        "position_or_vote": "Expand voting access, oppose restrictive measures",
+        "note": "The House Democratic Campaign Committee provided a $5,500 loan to Hinojosa, whose documented position supports expanding voting access; this party committee support correlates with her stated positions in public records.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_4_src_0",
+            "type": "campaign_finance",
+            "title": "Gina Hinojosa - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/",
+            "retrieved_at": "2026-07-04T01:16:44.470Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Regina Hinojosa & John Donisi",
+        "issue_id": "economy",
+        "position_or_vote": "Public investment over deregulation",
+        "note": "The candidate and her spouse provided a $300,000 personal loan, the largest single funding source, while Hinojosa's documented position supports public investment over deregulation; this self-funding correlation appears in public finance records.",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "source_id": "corr_5_src_0",
+            "type": "campaign_finance",
+            "title": "Gina Hinojosa - Texas Candidate - Loans",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/gina-hinojosa-coh/loans",
+            "retrieved_at": "2026-07-04T01:16:44.470Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      }
+    ]
+  }
 }

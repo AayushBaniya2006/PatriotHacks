@@ -1387,5 +1387,258 @@
       "explanation": "Talarico filed paid family leave legislation and established a regulatory framework, but Texas does not currently have universal paid family leave, so the promise remains unfulfilled in practice.",
       "confidence": 0.75
     }
-  ]
+  ],
+  "finance": {
+    "total_raised": "$40,300,000",
+    "cash_on_hand": "$9,900,000",
+    "as_of": "2026-03-31",
+    "overview_source": {
+      "source_id": "fin_overview_src_0",
+      "type": "campaign_finance",
+      "title": "Talarico raised $27M last quarter as his donor base went national",
+      "publisher": "OpenSecrets",
+      "url": "https://www.opensecrets.org/news/2026/04/talarico-raised-27m-last-quarter-as-his-donor-base-went-national/",
+      "retrieved_at": "2026-07-04T01:17:37.467Z",
+      "primary_source": false,
+      "reliability_score": 0.7
+    },
+    "top_donors": [
+      {
+        "name": "Government That Works PAC",
+        "kind": "pac",
+        "amount": "$3,750,000",
+        "source": {
+          "source_id": "donor_0_src_0",
+          "type": "campaign_finance",
+          "title": "Meet the megadonors behind the pro-James Talarico super PAC",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/05/14/texas-james-talarico-super-pac-donors-lone-star-rising-dark-money-democratic-billionaires/",
+          "retrieved_at": "2026-07-04T01:17:37.467Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Reid Hoffman",
+        "kind": "individual",
+        "amount": "$1,500,000",
+        "source": {
+          "source_id": "donor_1_src_0",
+          "type": "campaign_finance",
+          "title": "Meet the megadonors behind the pro-James Talarico super PAC",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/05/14/texas-james-talarico-super-pac-donors-lone-star-rising-dark-money-democratic-billionaires/",
+          "retrieved_at": "2026-07-04T01:17:37.467Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Sixteen Thirty Fund",
+        "kind": "organization",
+        "amount": "$4,000,000",
+        "source": {
+          "source_id": "donor_2_src_0",
+          "type": "campaign_finance",
+          "title": "Meet the megadonors behind the pro-James Talarico super PAC",
+          "publisher": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/05/14/texas-james-talarico-super-pac-donors-lone-star-rising-dark-money-democratic-billionaires/",
+          "retrieved_at": "2026-07-04T01:17:37.467Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Texas Trial Lawyers Association PAC",
+        "kind": "pac",
+        "amount": "$111,517.49",
+        "source": {
+          "source_id": "donor_3_src_0",
+          "type": "campaign_finance",
+          "title": "James Talarico - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/james-talarico?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:37.467Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Aisle 518",
+        "kind": "organization",
+        "amount": "$785,655.00",
+        "source": {
+          "source_id": "donor_4_src_0",
+          "type": "campaign_finance",
+          "title": "James Talarico - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/james-talarico?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:37.467Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "LC Media LLC",
+        "kind": "organization",
+        "amount": "$193,000.00",
+        "source": {
+          "source_id": "donor_5_src_0",
+          "type": "campaign_finance",
+          "title": "James Talarico - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/james-talarico?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:37.467Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Meta Platforms Inc / Facebook",
+        "kind": "organization",
+        "amount": "$70,403.58",
+        "source": {
+          "source_id": "donor_6_src_0",
+          "type": "campaign_finance",
+          "title": "James Talarico - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/james-talarico?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:37.467Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      },
+      {
+        "name": "Aggregated Unitemized Contributions",
+        "kind": "individual",
+        "amount": "$53,997.30",
+        "source": {
+          "source_id": "donor_7_src_0",
+          "type": "campaign_finance",
+          "title": "James Talarico - Texas Candidate",
+          "publisher": "Transparency USA",
+          "url": "https://www.transparencyusa.org/tx/candidate/james-talarico?cycle=2015-to-now",
+          "retrieved_at": "2026-07-04T01:17:37.467Z",
+          "primary_source": false,
+          "reliability_score": 0.7
+        }
+      }
+    ],
+    "correlations": [
+      {
+        "donor": "Reid Hoffman",
+        "issue_id": "small_business",
+        "position_or_vote": "Public support plus antitrust action",
+        "note": "Hoffman, a LinkedIn co-founder and venture capitalist, has business interests in technology and entrepreneurship; Talarico's position on small business includes public support and antitrust action, which could affect large technology platforms.",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "source_id": "corr_0_src_0",
+            "type": "campaign_finance",
+            "title": "Meet the megadonors behind the pro-James Talarico super PAC",
+            "publisher": "Texas Tribune",
+            "url": "https://www.texastribune.org/2026/05/14/texas-james-talarico-super-pac-donors-lone-star-rising-dark-money-democratic-billionaires/",
+            "retrieved_at": "2026-07-04T01:17:37.467Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Texas Trial Lawyers Association PAC",
+        "issue_id": "labor",
+        "position_or_vote": "Strengthen unions; pass PRO Act",
+        "note": "The Texas Trial Lawyers Association represents plaintiffs' attorneys who frequently handle employment and labor disputes; Talarico's pro-labor positions align with interests of trial lawyers who represent workers in litigation.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_1_src_0",
+            "type": "campaign_finance",
+            "title": "James Talarico - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/james-talarico?cycle=2015-to-now",
+            "retrieved_at": "2026-07-04T01:17:37.467Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Meta Platforms Inc / Facebook",
+        "issue_id": "small_business",
+        "position_or_vote": "Public support plus antitrust action",
+        "note": "Meta, a major technology platform, has faced antitrust scrutiny; Talarico's position supporting antitrust action could affect Meta's business interests, creating a documented tension between the donor's interests and the politician's stated positions.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_2_src_0",
+            "type": "campaign_finance",
+            "title": "James Talarico - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/james-talarico?cycle=2015-to-now",
+            "retrieved_at": "2026-07-04T01:17:37.467Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Sixteen Thirty Fund",
+        "issue_id": "climate",
+        "position_or_vote": "Aggressive government action on climate",
+        "note": "The Sixteen Thirty Fund is a major Democratic dark money hub that has supported environmental and climate advocacy; Talarico's position on aggressive climate action aligns with the fund's reported grantmaking priorities.",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "source_id": "corr_3_src_0",
+            "type": "campaign_finance",
+            "title": "Meet the megadonors behind the pro-James Talarico super PAC",
+            "publisher": "Texas Tribune",
+            "url": "https://www.texastribune.org/2026/05/14/texas-james-talarico-super-pac-donors-lone-star-rising-dark-money-democratic-billionaires/",
+            "retrieved_at": "2026-07-04T01:17:37.467Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Government That Works PAC",
+        "issue_id": "taxes",
+        "position_or_vote": "Raise taxes on corporations and high earners",
+        "note": "Government That Works PAC received funding from dark money sources including Contours Inc., a 501(c)(4) nonprofit; Talarico has advocated for measures to crack down on 'billionaire tax loopholes,' which could affect some of the same wealthy individuals whose undisclosed contributions may flow through such groups.",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "source_id": "corr_4_src_0",
+            "type": "campaign_finance",
+            "title": "Meet the megadonors behind the pro-James Talarico super PAC",
+            "publisher": "Texas Tribune",
+            "url": "https://www.texastribune.org/2026/05/14/texas-james-talarico-super-pac-donors-lone-star-rising-dark-money-democratic-billionaires/",
+            "retrieved_at": "2026-07-04T01:17:37.467Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      },
+      {
+        "donor": "Aisle 518",
+        "issue_id": "infrastructure",
+        "position_or_vote": "Major federal investment",
+        "note": "Aisle 518 is a Democratic media and consulting firm that has received significant payments from Talarico's campaign; the firm's business interests align with Talarico's position supporting major federal investment, which typically generates demand for political communications and advertising services.",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "source_id": "corr_5_src_0",
+            "type": "campaign_finance",
+            "title": "James Talarico - Texas Candidate",
+            "publisher": "Transparency USA",
+            "url": "https://www.transparencyusa.org/tx/candidate/james-talarico?cycle=2015-to-now",
+            "retrieved_at": "2026-07-04T01:17:37.467Z",
+            "primary_source": false,
+            "reliability_score": 0.7
+          }
+        ]
+      }
+    ]
+  }
 }

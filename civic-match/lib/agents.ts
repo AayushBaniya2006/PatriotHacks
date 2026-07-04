@@ -7,6 +7,7 @@ const CLUSTERS = () => getClusters();
 import { chat, extractJSON, FAST_MODEL, RESEARCH_MODEL } from "./llm";
 import { savePolitician, slugify } from "./db";
 import type {
+  CampaignFinance,
   PoliticianProfile,
   PromiseRecord,
   QualitativeDimension,
@@ -135,6 +136,76 @@ function toSource(
 }
 
 const isRealUrl = (u?: string) => !!u && /^https?:\/\//.test(u);
+
+/** Follow-the-money agent: funding overview + money↔votes cross-reference.
+ * Correlations are framed as correlation in public records, never proof. */
+export async function runFinanceAgent(
+  name: string,
+  retrievedAt: string,
+  stanceContext: { issue_id: string; position: string }[]
+): Promise<CampaignFinance | undefined> {
+  const out = await chat(
+    [
+      {
+        role: "user",
+        content: `You are a neutral campaign-finance researcher. Use web search to document how U.S. politician "${name}" funds their campaigns. Prefer primary sources: FEC.gov (federal), Texas Ethics Commission (state), OpenSecrets/Transparency USA as secondary.
+
+Find:
+1. Totals: amount raised + cash on hand for the current cycle, with as-of date.
+2. Top donors: biggest individual donors, PACs, organizations, and industry groups with reported amounts.
+3. CROSS-REFERENCE: for each major donor/industry, check whether the politician has a documented position, vote, or floor action related to that donor's interests. Their documented positions: ${JSON.stringify(stanceContext.slice(0, 20))}
+
+Return ONLY JSON:
+{"total_raised": "...", "cash_on_hand": "...", "as_of": "YYYY-MM-DD",
+ "overview_source": {"title","publisher","url","primary_source": true|false},
+ "top_donors": [{"name": "...", "kind": "individual|pac|organization|industry|party", "amount": "...", "source": {"title","publisher","url","primary_source"}}],
+ "correlations": [{"donor": "...", "issue_id": "one of the issue ids above", "position_or_vote": "the documented position/vote related to this donor's interests", "note": "one neutral sentence explicitly framing this as a correlation in public records, not proof of causation", "confidence": 0.0-1.0, "sources": [{"title","publisher","url","primary_source"}]}]}
+
+Rules: every item needs a real source URL or omit it. Max 8 donors, 6 correlations. NEVER claim a donation caused a vote — correlation language only. Neutral tone.`,
+      },
+    ],
+    { model: RESEARCH_MODEL, maxTokens: 6144, timeoutMs: 150_000 }
+  );
+  interface RawSrc { title?: string; publisher?: string; url: string; published_at?: string; primary_source?: boolean }
+  let raw: {
+    total_raised?: string; cash_on_hand?: string; as_of?: string;
+    overview_source?: RawSrc;
+    top_donors?: { name: string; kind: string; amount?: string; source: RawSrc }[];
+    correlations?: { donor: string; issue_id: string; position_or_vote: string; note: string; confidence?: number; sources: RawSrc[] }[];
+  };
+  try {
+    raw = extractJSON<typeof raw>(out);
+  } catch {
+    return undefined;
+  }
+  const kinds = new Set(["individual", "pac", "organization", "industry", "party"]);
+  return {
+    total_raised: raw.total_raised,
+    cash_on_hand: raw.cash_on_hand,
+    as_of: raw.as_of,
+    overview_source: isRealUrl(raw.overview_source?.url)
+      ? toSource({ ...raw.overview_source!, type: "campaign_finance" }, "fin_overview", 0, retrievedAt)
+      : undefined,
+    top_donors: (raw.top_donors ?? [])
+      .filter((d) => d?.name && isRealUrl(d.source?.url))
+      .map((d, i) => ({
+        name: d.name,
+        kind: (kinds.has(d.kind) ? d.kind : "organization") as "individual" | "pac" | "organization" | "industry" | "party",
+        amount: d.amount,
+        source: toSource({ ...d.source, type: "campaign_finance" }, `donor_${i}`, 0, retrievedAt),
+      })),
+    correlations: (raw.correlations ?? [])
+      .filter((c) => c?.donor && (c.sources ?? []).some((s) => isRealUrl(s?.url)))
+      .map((c, i) => ({
+        donor: c.donor,
+        issue_id: c.issue_id,
+        position_or_vote: c.position_or_vote,
+        note: c.note || "Correlation in public records; not proof of causation.",
+        confidence: Math.max(0, Math.min(1, c.confidence ?? 0.5)),
+        sources: c.sources.filter((s) => isRealUrl(s.url)).map((s, j) => toSource({ ...s, type: "campaign_finance" }, `corr_${i}`, j, retrievedAt)),
+      })),
+  };
+}
 
 /** Accountability agent: promise vs. record with receipts. */
 export async function runAccountabilityAgent(
@@ -415,6 +486,14 @@ export async function researchPolitician(
   const coveredIssues = new Set(stances.map((s) => s.issue_id));
   const unknowns = Object.keys(ISSUE_MAP()).filter((i) => !coveredIssues.has(i));
 
+  onEvent({ type: "agent_start", agent: "finance", message: "Follow-the-money agent cross-referencing donors with votes" });
+  const finance = await runFinanceAgent(
+    name,
+    retrievedAt,
+    stances.map((s) => ({ issue_id: s.issue_id, position: s.position_label }))
+  );
+  onEvent({ type: "agent_done", agent: "finance", message: `Finance agent: ${finance?.top_donors.length ?? 0} donors, ${finance?.correlations.length ?? 0} correlations`, progress: 0.95 });
+
   const profile: PoliticianProfile = {
     id,
     name: profilePart.name || name,
@@ -426,6 +505,7 @@ export async function researchPolitician(
     stances,
     qualitative,
     promise_record: promiseRecord,
+    finance,
     unknowns,
     contradictions,
     source_coverage_score: coveredIssues.size / Object.keys(ISSUE_MAP()).length,

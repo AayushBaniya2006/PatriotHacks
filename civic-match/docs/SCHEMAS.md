@@ -230,8 +230,10 @@ deeper levels = consequences, leaf nodes = long-term possibilities.
 | `/api/explain` | POST | `{ politician_id, prefs }` | `{ explanation, match, cached }` |
 | `/api/qa` | POST | `{ politician_id, question }` | `{ answer }` (grounded, markdown) |
 
-Planned (in progress): `/api/ballot` (address → races via FastAPI backend),
-`/api/scenario?race=` (ScenarioTree).
+Also live: `/api/ballot?address=`, `/api/scenario?race=`, `/api/graph[?focus=&depth=]`,
+`/api/stakes`, `/api/motivate` (POST {prefs}), `/api/debate` (POST {a,b,topic_issue} → SSE).
+New profile fields: `promise_record: PromiseRecord[]`, `finance: CampaignFinance`
+(top_donors + money↔position correlations, correlation-not-proof framing).
 
 ## Invariants
 
