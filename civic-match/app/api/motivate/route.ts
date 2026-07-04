@@ -85,6 +85,29 @@ export async function POST(req: NextRequest) {
   }
 
   const voter = prefs.profile;
+
+  // Deterministic card (also the parse-failure fallback). Only sourced-data
+  // claims; used directly — without an LLM call — when the data set has
+  // nothing personal to ground on (no divergence, no stakes, no branches).
+  const fallback: Motivation = {
+    hook: "This ballot gets decided with or without you — the only variable is who decides.",
+    because: divergence
+      .filter((d) => d.spread > 30)
+      .slice(0, 3)
+      .map((d) => ({ text: `The candidates are ${d.spread} points apart on ${d.issue} — one of your top priorities.` })),
+    if_you_vote: "Recent statewide races here have been decided by single-digit margins. Your vote weighs directly in every race on this ballot.",
+    long_term: "Winners control appointments, budgets, and vetoes for years — and shape who runs for what next. See the down-the-line tree for the full chain.",
+    cta: "Election day is November 3, 2026. Check your registration and make a plan to vote.",
+  };
+
+  const hasDivergence = divergence.some((d) => d.extremes.length > 0);
+  const hasStakes = Array.isArray(stakes)
+    ? stakes.length > 0
+    : !!stakes && Object.keys(stakes as object).length > 0;
+  if (!hasDivergence && !hasStakes && relevantBranches.length === 0) {
+    return Response.json({ motivation: fallback, cached: false, grounding: "minimal" });
+  }
+
   const out = await chat(
     [
       {
@@ -118,16 +141,7 @@ election_date: "2026-11-03"`,
   try {
     motivation = extractJSON<Motivation>(out);
   } catch {
-    motivation = {
-      hook: "This ballot gets decided with or without you — the only variable is who decides.",
-      because: divergence
-        .filter((d) => d.spread > 30)
-        .slice(0, 3)
-        .map((d) => ({ text: `The candidates are ${d.spread} points apart on ${d.issue} — one of your top priorities.` })),
-      if_you_vote: "Recent statewide races here have been decided by single-digit margins. Your vote weighs directly in every race on this ballot.",
-      long_term: "Winners control appointments, budgets, and vetoes for years — and shape who runs for what next. See the down-the-line tree for the full chain.",
-      cta: "Election day is November 3, 2026. Check your registration and make a plan to vote.",
-    };
+    motivation = fallback;
   }
 
   await kvSet(NS.motivations, hash, motivation);

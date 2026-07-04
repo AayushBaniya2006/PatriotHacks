@@ -3,6 +3,7 @@
 // normalized against the maximum achievable given the user's weights.
 
 import { getIssueMap, getUI } from "./config";
+import { profileCoverage } from "./coverage";
 import type {
   IssueScoreBreakdown,
   MatchResult,
@@ -125,6 +126,15 @@ export function scoreMatch(
   const byImpact = (arr: IssueScoreBreakdown[]) =>
     [...arr].sort((a, b) => b.weight - a.weight);
 
+  // ---- Honest coverage: don't let a thin profile masquerade as a scored one.
+  // A candidate scored on fewer than MIN_SCORED of the user's issues (or fewer
+  // than the user picked, whichever is smaller) gets an explicit
+  // insufficient-data state instead of a confident-looking number.
+  const cov = profileCoverage(profile);
+  const MIN_SCORED = 3;
+  const insufficientData =
+    known.length === 0 || known.length < Math.min(MIN_SCORED, breakdown.length);
+
   const topConflicts = byImpact(sorted.filter((b) => b.status === "conflict")).slice(0, 5);
 
   // ---- Qualitative composite (character): corruption/ethics, public interest,
@@ -151,8 +161,9 @@ export function scoreMatch(
   const conflictPenalty = Math.min(0.15, conflictWeight * 0.25);
   const blended = Math.max(0, alignmentComponent + qualitativeComponent - conflictPenalty);
   const overall = Math.round(60 + 39 * blended); // 60..99
-  const overallTier =
-    getUI().results.tiers.find((t) => overall >= t.min)?.label ?? "Match";
+  const overallTier = insufficientData
+    ? "Insufficient data"
+    : getUI().results.tiers.find((t) => overall >= t.min)?.label ?? "Match";
 
   // Ground-truth-backed warnings
   const warnings: string[] = [];
@@ -171,6 +182,13 @@ export function scoreMatch(
     score,
     confidence,
     confidence_value: confidenceValue,
+    insufficient_data: insufficientData,
+    coverage: {
+      scored_issues: known.length,
+      user_issues: breakdown.length,
+      profile_stances: cov.stances,
+      tier: cov.tier,
+    },
     warnings,
     overall,
     overall_tier: overallTier,

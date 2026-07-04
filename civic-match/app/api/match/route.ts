@@ -30,6 +30,15 @@ export async function POST(req: NextRequest) {
     const profile = await getPolitician(id);
     if (profile) results.push(scoreMatch(prefs, profile));
   }
-  results.sort((a, b) => b.overall - a.overall);
+  // Scored candidates first (by overall); insufficient-data candidates sort
+  // last so an unresearched profile never outranks a researched one — its
+  // neutral qualitative midpoint would otherwise beat real-but-imperfect scores.
+  results.sort((a, b) => {
+    if (a.insufficient_data !== b.insufficient_data)
+      return a.insufficient_data ? 1 : -1;
+    if (a.insufficient_data)
+      return b.coverage.scored_issues - a.coverage.scored_issues;
+    return b.overall - a.overall;
+  });
   return Response.json({ results });
 }

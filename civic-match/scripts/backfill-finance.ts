@@ -6,7 +6,12 @@ import { runFinanceAgent } from "../lib/agents";
 
 async function main() {
   const profiles = await listPoliticians();
-  const todo = profiles.filter((p) => !p.finance);
+  // data_quality distinguishes "researched, found nothing" from "never ran".
+  const todo = profiles.filter(
+    (p) =>
+      !p.finance &&
+      !(p.data_quality?.finance?.researched && !p.data_quality.finance.found)
+  );
   console.log(`${todo.length}/${profiles.length} profiles need finance backfill`);
   const queue = [...todo];
   const workers = Array.from({ length: 3 }, async () => {
@@ -14,13 +19,24 @@ async function main() {
       const p = queue.shift()!;
       console.log(`[start] ${p.name}`);
       try {
+        const checkedAt = new Date().toISOString();
         p.finance = await runFinanceAgent(
           p.name,
-          new Date().toISOString(),
+          checkedAt,
           p.stances.map((s) => ({ issue_id: s.issue_id, position: s.position_label }))
         );
+        const found = !!(
+          p.finance &&
+          (p.finance.top_donors.length > 0 || p.finance.correlations.length > 0 || p.finance.total_raised)
+        );
+        p.data_quality = {
+          ...p.data_quality,
+          finance: { researched: true, found, checked_at: checkedAt },
+        };
         await savePolitician(p);
-        console.log(`[done]  ${p.name}: ${p.finance?.top_donors.length ?? 0} donors, ${p.finance?.correlations.length ?? 0} correlations`);
+        console.log(
+          `[done]  ${p.name}: ${found ? `${p.finance?.top_donors.length ?? 0} donors, ${p.finance?.correlations.length ?? 0} correlations` : "nothing verifiable found (marked)"}`
+        );
       } catch (e) {
         console.error(`[fail]  ${p.name}:`, e instanceof Error ? e.message : e);
       }

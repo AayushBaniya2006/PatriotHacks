@@ -45,13 +45,17 @@ function evidencePack(p: PoliticianProfile, topicIssues: string[]) {
 }
 
 function candidateSystem(pack: ReturnType<typeof evidencePack>, topic: string) {
+  const sparse =
+    pack.stances.length < 4
+      ? `\nNOTE: your evidence pack is SPARSE (${pack.stances.length} sourced position${pack.stances.length === 1 ? "" : "s"}). Expect to say "the record in this data set is silent on that" often — that is the correct move, never invention.`
+      : "";
   return `You are a debate agent playing U.S. politician ${pack.name} (${pack.party ?? "?"}) in a moderated debate on: ${topic}.
 
 HARD RULES — you are graded on fidelity to the real record:
 - Argue ONLY from the evidence pack below (real positions, votes, promises). Cite as [source name] after each claim.
 - If your record is silent on a point, say so — do not improvise positions.
 - Stay in character but factual: represent their actual documented views, including uncomfortable parts of the record (broken promises may be raised by your opponent).
-- Max 110 words per turn. Plain, direct debate style. No slogans, no attacks on groups, no fabricated statistics.
+- Max 110 words per turn. Plain, direct debate style. No slogans, no attacks on groups, no fabricated statistics.${sparse}
 
 EVIDENCE PACK:
 ${JSON.stringify(pack)}`;
@@ -72,6 +76,31 @@ export async function POST(req: NextRequest) {
   const hash = crypto.createHash("sha1").update(`${a}|${b}|${topic_issue ?? "all"}|${pa.researched_at}|${pb.researched_at}`).digest("hex").slice(0, 16);
 
   const encoder = new TextEncoder();
+
+  // Honest short-circuit: a debater with no sourced stances in scope has
+  // nothing to argue FROM — running the LLM anyway would force it to improvise
+  // positions, which this arena exists to prevent. No model calls.
+  const inScope = (p: PoliticianProfile) =>
+    p.stances.filter((s) => topicIssues.length === 0 || topicIssues.includes(s.issue_id)).length;
+  const thin = [pa, pb].filter((p) => inScope(p) === 0);
+  if (thin.length > 0) {
+    const who = thin.map((p) => p.name).join(" and ");
+    const scope = topicIssues.length > 0 ? ` on ${topic}` : "";
+    const ev: DebateEvent = {
+      type: "error",
+      message: `Insufficient sourced record: our research set has no sourced positions for ${who}${scope} — a grounded debate isn't possible yet (research pending). No source, no claim.`,
+    };
+    const stream = new ReadableStream({
+      start(controller) {
+        controller.enqueue(encoder.encode(`data: ${JSON.stringify(ev)}\n\n`));
+        controller.close();
+      },
+    });
+    return new Response(stream, {
+      headers: { "Content-Type": "text/event-stream", "Cache-Control": "no-cache" },
+    });
+  }
+
   const stream = new ReadableStream({
     async start(controller) {
       const send = (e: DebateEvent) =>

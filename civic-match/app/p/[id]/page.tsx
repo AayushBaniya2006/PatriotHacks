@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPolitician } from "@/lib/db";
 import { getIssueMap, getUI } from "@/lib/config";
+import { missingDataNote, profileCoverage } from "@/lib/coverage";
 import QABox from "./qa-box";
 
 export const dynamic = "force-dynamic";
@@ -17,6 +18,8 @@ export default async function PoliticianPage({
   const ISSUE_MAP = getIssueMap();
   const ui = getUI();
   const QUAL_LABELS = ui.qualitative_labels;
+  const cov = profileCoverage(p);
+  const gaps = missingDataNote(cov);
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
@@ -40,6 +43,23 @@ export default async function PoliticianPage({
           )}
         </div>
       </div>
+
+      {cov.tier !== "full" && (
+        <div className="mb-8 rounded-xl border border-dashed border-yellow-500/40 bg-yellow-500/5 p-4">
+          <div className="text-sm font-medium text-yellow-300 mb-1">
+            {cov.tier === "minimal"
+              ? "Limited data — research pending"
+              : "Partial data — research in progress"}
+          </div>
+          <p className="text-xs text-zinc-400">
+            {cov.researched
+              ? `Our research set has ${cov.stances} sourced position${cov.stances === 1 ? "" : "s"} for this candidate so far.`
+              : "Our research swarm hasn't found verifiable, sourced evidence for this candidate yet."}{" "}
+            {gaps.length > 0 && <>Not yet in our set: {gaps.join(", ")}.</>}{" "}
+            Gaps here reflect our research coverage — not the candidate&apos;s actual record.
+          </p>
+        </div>
+      )}
 
       {p.qualitative && p.qualitative.length > 0 && (
         <section className="mb-10">
@@ -78,6 +98,13 @@ export default async function PoliticianPage({
 
       <section className="mb-10">
         <h2 className="text-lg font-semibold mb-3">Positions ({p.stances.length})</h2>
+        {p.stances.length === 0 && (
+          <p className="rounded-xl border border-dashed border-zinc-800 bg-zinc-900/30 p-4 text-sm text-zinc-500">
+            No sourced positions in our research set yet — research pending. This does
+            not mean the candidate has no positions; we haven&apos;t verified any against
+            primary sources yet (no source, no claim).
+          </p>
+        )}
         <div className="space-y-3">
           {p.stances.map((s) => {
             const issue = ISSUE_MAP[s.issue_id];

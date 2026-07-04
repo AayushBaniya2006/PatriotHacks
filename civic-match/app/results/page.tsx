@@ -167,18 +167,27 @@ export default function ResultsPage() {
               className="w-full flex items-center gap-5 p-5 text-left hover:bg-zinc-900"
               onClick={() => toggleExpand(r.politician_id)}
             >
-              <div
-                className={`flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border-2 bg-zinc-950 ${ovrColor(r.overall)}`}
-              >
-                <span className="text-2xl font-black leading-none">{r.overall}</span>
-                <span className="text-[9px] uppercase tracking-widest opacity-80">OVR</span>
-              </div>
+              {r.insufficient_data ? (
+                <div className="flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border-2 border-dashed border-zinc-700 bg-zinc-950 text-zinc-500">
+                  <span className="text-2xl font-black leading-none">–</span>
+                  <span className="text-[9px] uppercase tracking-widest opacity-80">no data</span>
+                </div>
+              ) : (
+                <div
+                  className={`flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl border-2 bg-zinc-950 ${ovrColor(r.overall)}`}
+                >
+                  <span className="text-2xl font-black leading-none">{r.overall}</span>
+                  <span className="text-[9px] uppercase tracking-widest opacity-80">OVR</span>
+                </div>
+              )}
               <div className="min-w-0 flex-1">
                 <div className="flex items-baseline gap-2">
                   <span className="font-semibold truncate">{r.politician_name}</span>
                   {r.party && <span className="text-xs text-zinc-500">({r.party})</span>}
                 </div>
-                <div className="text-sm text-zinc-400">{r.overall_tier}</div>
+                <div className="text-sm text-zinc-400">
+                  {r.insufficient_data ? "Limited data — research pending" : r.overall_tier}
+                </div>
                 {r.warnings.length > 0 && (
                   <div className="mt-1 flex flex-wrap gap-1.5">
                     {r.warnings.map((w) => (
@@ -188,17 +197,37 @@ export default function ResultsPage() {
                     ))}
                   </div>
                 )}
-                <div className="mt-1 flex gap-4 text-xs text-zinc-500">
-                  <span>Issue alignment: <b className="text-zinc-300">{r.score}%</b></span>
-                  <span>
-                    Record quality:{" "}
-                    <b className="text-zinc-300">
-                      {r.qualitative_composite !== null
-                        ? `${Math.round(r.qualitative_composite * 100)}%`
-                        : "n/a"}
-                    </b>
-                  </span>
-                  <span>Evidence: <b className="text-zinc-300">{r.confidence}</b></span>
+                <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-xs text-zinc-500">
+                  {r.insufficient_data ? (
+                    <span>
+                      Not scored — sourced evidence on{" "}
+                      <b className="text-zinc-300">
+                        {r.coverage.scored_issues} of your {r.coverage.user_issues}
+                      </b>{" "}
+                      issues ({r.coverage.profile_stances} researched position
+                      {r.coverage.profile_stances === 1 ? "" : "s"} total)
+                    </span>
+                  ) : (
+                    <>
+                      <span>Issue alignment: <b className="text-zinc-300">{r.score}%</b></span>
+                      <span>
+                        Scored on{" "}
+                        <b className="text-zinc-300">
+                          {r.coverage.scored_issues} of your {r.coverage.user_issues}
+                        </b>{" "}
+                        issues
+                      </span>
+                      <span>
+                        Record quality:{" "}
+                        <b className="text-zinc-300">
+                          {r.qualitative_composite !== null
+                            ? `${Math.round(r.qualitative_composite * 100)}%`
+                            : "n/a"}
+                        </b>
+                      </span>
+                      <span>Evidence: <b className="text-zinc-300">{r.confidence}</b></span>
+                    </>
+                  )}
                 </div>
               </div>
               <Link
@@ -251,26 +280,35 @@ export default function ResultsPage() {
                   })()
                 ) : null}
 
-                <div className="grid grid-cols-3 gap-3 text-center text-xs">
-                  <div className="rounded-lg bg-zinc-950 p-3">
-                    <div className="text-lg font-bold text-emerald-400">
-                      +{r.overall_components.alignment_component}
-                    </div>
-                    <div className="text-zinc-500">from issue alignment (quant)</div>
+                {r.insufficient_data ? (
+                  <div className="rounded-lg border border-dashed border-zinc-700 bg-zinc-950 p-3 text-xs text-zinc-400">
+                    <span className="text-zinc-300 font-medium">Limited data — research pending.</span>{" "}
+                    Our research set doesn&apos;t have enough sourced positions for this
+                    candidate to compute an honest score, so no rating is shown. This
+                    reflects our coverage, not the candidate&apos;s record.
                   </div>
-                  <div className="rounded-lg bg-zinc-950 p-3">
-                    <div className="text-lg font-bold text-sky-400">
-                      +{r.overall_components.qualitative_component}
+                ) : (
+                  <div className="grid grid-cols-3 gap-3 text-center text-xs">
+                    <div className="rounded-lg bg-zinc-950 p-3">
+                      <div className="text-lg font-bold text-emerald-400">
+                        +{r.overall_components.alignment_component}
+                      </div>
+                      <div className="text-zinc-500">from issue alignment (quant)</div>
                     </div>
-                    <div className="text-zinc-500">from record quality (qual)</div>
-                  </div>
-                  <div className="rounded-lg bg-zinc-950 p-3">
-                    <div className="text-lg font-bold text-red-400">
-                      −{r.overall_components.conflict_penalty}
+                    <div className="rounded-lg bg-zinc-950 p-3">
+                      <div className="text-lg font-bold text-sky-400">
+                        +{r.overall_components.qualitative_component}
+                      </div>
+                      <div className="text-zinc-500">from record quality (qual)</div>
                     </div>
-                    <div className="text-zinc-500">conflicts on your top issues</div>
+                    <div className="rounded-lg bg-zinc-950 p-3">
+                      <div className="text-lg font-bold text-red-400">
+                        −{r.overall_components.conflict_penalty}
+                      </div>
+                      <div className="text-zinc-500">conflicts on your top issues</div>
+                    </div>
                   </div>
-                </div>
+                )}
 
                 {r.qualitative.length > 0 && (
                   <div>
