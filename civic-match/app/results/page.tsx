@@ -416,10 +416,10 @@ export default function ResultsPage() {
               key={r.politician_id}
               className="rounded-xl border border-zinc-800 bg-zinc-900/50 overflow-hidden"
             >
-              <div className="flex items-stretch">
+              <div className="flex flex-col sm:flex-row sm:items-stretch">
                 <button
                   type="button"
-                  className="flex min-w-0 flex-1 items-center gap-5 p-5 text-left hover:bg-zinc-900"
+                  className="flex min-w-0 flex-1 items-start gap-4 p-4 text-left hover:bg-zinc-900 sm:items-center sm:gap-5 sm:p-5"
                   onClick={() => toggleExpand(r.politician_id)}
                   aria-expanded={isExpanded}
                   aria-controls={detailsId}
@@ -431,9 +431,9 @@ export default function ResultsPage() {
                     <span className="text-[9px] uppercase tracking-widest opacity-80">OVR</span>
                   </div>
                   <div className="min-w-0 flex-1">
-                    <div className="flex items-baseline gap-2">
-                      <span className="font-semibold truncate">{r.politician_name}</span>
-                      {r.party && <span className="text-xs text-zinc-500">({r.party})</span>}
+                    <div className="flex min-w-0 flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                      <span className="min-w-0 max-w-full truncate font-semibold">{r.politician_name}</span>
+                      {r.party && <span className="shrink-0 text-xs text-zinc-500">({r.party})</span>}
                     </div>
                     <div className="text-sm text-zinc-400">{r.overall_tier}</div>
                     {r.warnings.length > 0 && (
@@ -445,7 +445,7 @@ export default function ResultsPage() {
                         ))}
                       </div>
                     )}
-                    <div className="mt-1 flex gap-4 text-xs text-zinc-500">
+                    <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-xs text-zinc-500">
                       <span>Issue alignment: <b className="text-zinc-300">{r.score}%</b></span>
                       <span>
                         Record quality:{" "}
@@ -461,7 +461,7 @@ export default function ResultsPage() {
                 </button>
                 <Link
                   href={`/p/${r.politician_id}`}
-                  className="my-5 mr-5 inline-flex shrink-0 items-center text-xs text-emerald-400 hover:underline"
+                  className="mx-4 mb-4 inline-flex shrink-0 items-center self-start text-xs text-emerald-400 hover:underline sm:mx-0 sm:my-5 sm:mr-5 sm:self-center"
                 >
                   Full profile →
                 </Link>

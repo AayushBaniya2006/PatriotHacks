@@ -90,12 +90,12 @@ function CandidateAvatar({ candidate }: { candidate: CivitasCandidateView }) {
 function CandidateName({ candidate }: { candidate: CivitasCandidateView }) {
   if (candidate.profileHref) {
     return (
-      <Link href={candidate.profileHref} className="font-medium text-white hover:text-gold">
+      <Link href={candidate.profileHref} className="block min-w-0 truncate font-medium text-white hover:text-gold">
         {candidate.name}
       </Link>
     );
   }
-  return <span className="font-medium text-white">{candidate.name}</span>;
+  return <span className="block min-w-0 truncate font-medium text-white">{candidate.name}</span>;
 }
 
 function StatCard({
@@ -330,7 +330,7 @@ function CandidateCompareCard({ candidate }: { candidate: CivitasCandidateView }
 
   return (
     <CivitasPanel className="flex min-w-[240px] flex-1 flex-col p-5">
-      <div className="mb-5 flex items-start gap-4">
+      <div className="mb-5 grid grid-cols-[auto_minmax(0,1fr)_auto] items-start gap-4">
         <CandidateAvatar candidate={candidate} />
         <div className="min-w-0 flex-1">
           <CandidateName candidate={candidate} />
@@ -339,7 +339,7 @@ function CandidateCompareCard({ candidate }: { candidate: CivitasCandidateView }
             {candidate.incumbent && <StatusPill tone="gold">Incumbent</StatusPill>}
           </div>
         </div>
-        <div className="text-right">
+        <div className="shrink-0 text-right">
           <div className={cn("text-xl font-semibold leading-none", scoreTone(candidate.alignmentScore))}>
             {candidate.alignmentScore !== undefined ? `${candidate.alignmentScore}%` : "n/a"}
           </div>
