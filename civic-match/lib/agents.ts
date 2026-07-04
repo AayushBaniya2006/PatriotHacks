@@ -1,11 +1,14 @@
 // Research agent swarm (per infra sketch):
 //   user info → agent staging (minimize context) → parallel data-endpoint agents
 //   → output report → verifier agent double-checks → db of politicians
-import { CLUSTERS, ISSUE_MAP } from "./issues";
+import { getClusters, getIssueMap } from "./config";
+const ISSUE_MAP = () => getIssueMap();
+const CLUSTERS = () => getClusters();
 import { chat, extractJSON, FAST_MODEL, RESEARCH_MODEL } from "./llm";
 import { savePolitician, slugify } from "./db";
 import type {
   PoliticianProfile,
+  PromiseRecord,
   QualitativeDimension,
   ResearchEvent,
   Source,
@@ -40,7 +43,7 @@ const EVIDENCE_TYPES = new Set([
 function clusterPrompt(name: string, clusterIssues: string[]): string {
   const issueSpecs = clusterIssues
     .map((id) => {
-      const i = ISSUE_MAP[id];
+      const i = ISSUE_MAP()[id];
       return `- issue_id: "${i.id}" (${i.name}) — axis: 0.0 = "${i.axis0}" ... 1.0 = "${i.axis1}"`;
     })
     .join("\n");
@@ -111,6 +114,88 @@ interface RawQualDim {
 
 const QUAL_DIM_IDS = new Set(["integrity", "public_interest", "transparency", "experience"]);
 
+function toSource(
+  s: { title?: string; publisher?: string; url: string; published_at?: string; type?: string; quote?: string; primary_source?: boolean },
+  idPrefix: string,
+  i: number,
+  retrievedAt: string
+): Source {
+  return {
+    source_id: `${idPrefix}_src_${i}`,
+    type: (EVIDENCE_TYPES.has(s.type || "") ? s.type : "other") as Source["type"],
+    title: s.title || "Untitled source",
+    publisher: s.publisher || new URL(s.url).hostname,
+    url: s.url,
+    published_at: s.published_at,
+    retrieved_at: retrievedAt,
+    primary_source: !!s.primary_source,
+    quote: s.quote,
+    reliability_score: s.primary_source ? 0.95 : 0.7,
+  };
+}
+
+const isRealUrl = (u?: string) => !!u && /^https?:\/\//.test(u);
+
+/** Accountability agent: promise vs. record with receipts. */
+export async function runAccountabilityAgent(
+  name: string,
+  retrievedAt: string
+): Promise<PromiseRecord[]> {
+  const out = await chat(
+    [
+      {
+        role: "user",
+        content: `You are a neutral accountability researcher. Use web search to find specific PUBLIC PROMISES U.S. politician "${name}" made (campaign pledges, platform commitments, public statements) and compare each against what they ACTUALLY DID (roll-call votes, signed/vetoed bills, executive actions, documented inaction). Only include pairs where both sides are verifiable. Never invent sources or quotes.
+
+Return ONLY a JSON array (up to 8 strongest examples):
+[{
+  "promise": "what they promised, plain English",
+  "promised_at": "YYYY-MM-DD if known",
+  "promise_source": {"title": "...", "publisher": "...", "url": "real URL", "published_at": "...", "quote": "short exact quote if available", "primary_source": true|false},
+  "action": "what they actually did",
+  "action_at": "YYYY-MM-DD if known",
+  "action_sources": [{"title": "...", "publisher": "...", "url": "real URL", "published_at": "...", "primary_source": true|false}],
+  "verdict": "kept" | "broken" | "partial" | "untested",
+  "explanation": "one neutral sentence reconciling promise and action",
+  "confidence": 0.0-1.0
+}]
+
+Rules: verdict "untested" = no opportunity yet to act. Include kept promises too — this is a scorecard, not an attack file. Neutral language only.`,
+      },
+    ],
+    { model: RESEARCH_MODEL, maxTokens: 6144, timeoutMs: 150_000 }
+  );
+  let raw: (Omit<PromiseRecord, "promise_source" | "action_sources"> & {
+    promise_source: { title?: string; publisher?: string; url: string; published_at?: string; quote?: string; primary_source?: boolean };
+    action_sources: { title?: string; publisher?: string; url: string; published_at?: string; primary_source?: boolean }[];
+  })[] = [];
+  try {
+    raw = extractJSON<typeof raw>(out);
+  } catch {
+    return [];
+  }
+  const records: PromiseRecord[] = [];
+  for (const [i, r] of raw.entries()) {
+    if (!isRealUrl(r.promise_source?.url)) continue;
+    const actionSources = (r.action_sources || []).filter((s) => isRealUrl(s.url));
+    if (actionSources.length === 0 && r.verdict !== "untested") continue; // receipts required
+    records.push({
+      promise: r.promise,
+      promised_at: r.promised_at,
+      promise_source: toSource(r.promise_source, `promise_${i}`, 0, retrievedAt),
+      action: r.action || "No action documented yet",
+      action_at: r.action_at,
+      action_sources: actionSources.map((s, j) => toSource(s, `action_${i}`, j, retrievedAt)),
+      verdict: ["kept", "broken", "partial", "untested"].includes(r.verdict)
+        ? r.verdict
+        : "untested",
+      explanation: r.explanation || "",
+      confidence: Math.max(0, Math.min(1, r.confidence ?? 0.5)),
+    });
+  }
+  return records;
+}
+
 /** Qualitative agent: character dimensions independent of issue positions. */
 export async function runQualitativeAgent(
   name: string,
@@ -175,7 +260,7 @@ Rules: every dimension MUST have at least one real source URL or be omitted. Neu
 function validateStances(raw: RawStance[], retrievedAt: string): Stance[] {
   const stances: Stance[] = [];
   for (const r of raw) {
-    if (!ISSUE_MAP[r.issue_id]) continue;
+    if (!ISSUE_MAP()[r.issue_id]) continue;
     const sources: Source[] = (r.sources || [])
       .filter((s) => s.url && /^https?:\/\//.test(s.url))
       .map((s, i) => ({
@@ -223,7 +308,7 @@ async function runVerifierAgent(
 ): Promise<{ corrections: { issue_id: string; position_scalar: number | null }[]; contradictions: PoliticianProfile["contradictions"] }> {
   const compact = stances.map((s) => ({
     issue_id: s.issue_id,
-    axis: `0=${ISSUE_MAP[s.issue_id].axis0} | 1=${ISSUE_MAP[s.issue_id].axis1}`,
+    axis: `0=${ISSUE_MAP()[s.issue_id].axis0} | 1=${ISSUE_MAP()[s.issue_id].axis1}`,
     label: s.position_label,
     scalar: s.position_scalar,
     summary: s.summary,
@@ -268,9 +353,10 @@ export async function researchPolitician(
   const retrievedAt = new Date().toISOString();
   onEvent({ type: "status", message: `Staging research for ${name}`, progress: 0.05 });
 
-  const clusterNames = Object.keys(CLUSTERS);
+  const clusters = CLUSTERS();
+  const clusterNames = Object.keys(clusters);
   let done = 0;
-  const total = clusterNames.length + 2;
+  const total = clusterNames.length + 3;
 
   // Fan out: profile agent + qualitative agent + one agent per issue cluster,
   // all parallel (latency-first)
@@ -287,18 +373,26 @@ export async function researchPolitician(
     return q;
   });
 
+  onEvent({ type: "agent_start", agent: "accountability", message: "Agent comparing promises vs record (receipts required)" });
+  const promisesPromise = runAccountabilityAgent(name, retrievedAt).then((p) => {
+    done++;
+    onEvent({ type: "agent_done", agent: "accountability", message: `Accountability agent verified ${p.length} promise/record pairs`, progress: 0.1 + 0.6 * (done / total) });
+    return p;
+  });
+
   const clusterPromises = clusterNames.map((cluster) => {
     onEvent({ type: "agent_start", agent: cluster, message: `Agent researching ${cluster} issues` });
-    return runClusterAgent(name, cluster, CLUSTERS[cluster]).then((r) => {
+    return runClusterAgent(name, cluster, clusters[cluster]).then((r) => {
       done++;
       onEvent({ type: "agent_done", agent: cluster, message: `${cluster} agent found ${r.length} positions`, progress: 0.1 + 0.6 * (done / total) });
       return r;
     });
   });
 
-  const [profilePart, qualitative, ...clusterResults] = await Promise.all([
+  const [profilePart, qualitative, promiseRecord, ...clusterResults] = await Promise.all([
     profilePromise,
     qualitativePromise,
+    promisesPromise,
     ...clusterPromises,
   ]);
 
@@ -319,7 +413,7 @@ export async function researchPolitician(
   }
 
   const coveredIssues = new Set(stances.map((s) => s.issue_id));
-  const unknowns = Object.keys(ISSUE_MAP).filter((i) => !coveredIssues.has(i));
+  const unknowns = Object.keys(ISSUE_MAP()).filter((i) => !coveredIssues.has(i));
 
   const profile: PoliticianProfile = {
     id,
@@ -331,9 +425,10 @@ export async function researchPolitician(
     campaign_website: profilePart.campaign_website ?? undefined,
     stances,
     qualitative,
+    promise_record: promiseRecord,
     unknowns,
     contradictions,
-    source_coverage_score: coveredIssues.size / Object.keys(ISSUE_MAP).length,
+    source_coverage_score: coveredIssues.size / Object.keys(ISSUE_MAP()).length,
     researched_at: retrievedAt,
     research_status: stances.length > 0 ? "complete" : "failed",
   };

@@ -1,7 +1,7 @@
 import { NextRequest } from "next/server";
 import { getPolitician } from "@/lib/db";
 import { chat, FAST_MODEL } from "@/lib/llm";
-import { ISSUE_MAP } from "@/lib/issues";
+import { getIssueMap } from "@/lib/config";
 
 export const maxDuration = 120;
 
@@ -9,6 +9,7 @@ export const maxDuration = 120;
 // Grounded Q&A: answers ONLY from the indexed evidence base (PRD 8.5).
 export async function POST(req: NextRequest) {
   const { politician_id, question } = await req.json();
+  const ISSUE_MAP = getIssueMap();
   const profile = await getPolitician(politician_id);
   if (!profile) return Response.json({ error: "unknown politician" }, { status: 404 });
 
@@ -51,7 +52,7 @@ STRICT RULES:
 - If the evidence base has nothing on the question, say exactly that: "I found no source in the indexed evidence covering this." Suggest what evidence would help.
 - Label inference separately from fact (e.g. "Fact: ... Inference: ...").
 - Neutral language only. No persuasion, no campaign rhetoric, no telling the user how to vote.
-- Keep answers short and structured.
+- Keep answers short and structured: short paragraphs and bullet lists. Avoid markdown tables. Cite sources inline as [title — publisher].
 
 POLITICIAN: ${profile.name} (${profile.party ?? "party unknown"}, ${profile.current_office ?? "office unknown"})
 ISSUES WITH NO INDEXED EVIDENCE: ${profile.unknowns.map((u) => ISSUE_MAP[u]?.name).filter(Boolean).join(", ") || "none"}

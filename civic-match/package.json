@@ -8,16 +8,22 @@
     "start": "next start",
     "lint": "eslint",
     "seed": "tsx scripts/seed.ts texas",
-    "seed:state": "tsx scripts/seed.ts"
+    "seed:state": "tsx scripts/seed.ts",
+    "export:config": "tsx scripts/export-config.ts",
+    "seed:graph": "tsx scripts/seed-graph.ts"
   },
   "dependencies": {
+    "d3-force": "^3.0.0",
     "dotenv": "^17.4.2",
     "next": "16.2.10",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/d3-force": "^3.0.10",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

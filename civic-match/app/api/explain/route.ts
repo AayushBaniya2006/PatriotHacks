@@ -5,7 +5,7 @@ import path from "path";
 import { getPolitician } from "@/lib/db";
 import { scoreMatch } from "@/lib/scoring";
 import { chat, extractJSON, FAST_MODEL } from "@/lib/llm";
-import { ISSUE_MAP } from "@/lib/issues";
+import { getIssueMap } from "@/lib/config";
 import type { UserPreferences } from "@/lib/types";
 
 export const maxDuration = 120;
@@ -139,7 +139,7 @@ ${JSON.stringify(ctx)}`,
 }
 
 function describePosition(issueId: string, pos: number | null): string {
-  const issue = ISSUE_MAP[issueId];
+  const issue = getIssueMap()[issueId];
   if (!issue || pos === null) return "no stated preference";
   const opt = issue.options.reduce((best, o) =>
     Math.abs(o.scalar - pos) < Math.abs(best.scalar - pos) ? o : best

@@ -2,7 +2,7 @@
 // score = Σ(issue_weight × stance_alignment × evidence_confidence × recency_adjustment × source_quality)
 // normalized against the maximum achievable given the user's weights.
 
-import { ISSUE_MAP } from "./issues";
+import { getIssueMap, getUI } from "./config";
 import type {
   IssueScoreBreakdown,
   MatchResult,
@@ -43,6 +43,7 @@ export function scoreMatch(
   prefs: UserPreferences,
   profile: PoliticianProfile
 ): MatchResult {
+  const ISSUE_MAP = getIssueMap();
   const breakdown: IssueScoreBreakdown[] = [];
 
   const weightEntries = Object.entries(prefs.priority_weights).filter(
@@ -128,12 +129,7 @@ export function scoreMatch(
 
   // ---- Qualitative composite (character): corruption/ethics, public interest,
   // transparency, experience — independent of the user's issue positions. ----
-  const QUAL_LABELS: Record<string, string> = {
-    integrity: "Integrity & ethics",
-    public_interest: "Public interest",
-    transparency: "Transparency",
-    experience: "Experience & effectiveness",
-  };
+  const QUAL_LABELS = getUI().qualitative_labels;
   const qualDims = (profile.qualitative ?? []).filter(
     (d) => typeof d.score === "number"
   );
@@ -156,11 +152,7 @@ export function scoreMatch(
   const blended = Math.max(0, alignmentComponent + qualitativeComponent - conflictPenalty);
   const overall = Math.round(60 + 39 * blended); // 60..99
   const overallTier =
-    overall >= 90 ? "Elite match"
-    : overall >= 83 ? "Strong match"
-    : overall >= 75 ? "Solid match"
-    : overall >= 68 ? "Weak match"
-    : "Poor match";
+    getUI().results.tiers.find((t) => overall >= t.min)?.label ?? "Match";
 
   return {
     politician_id: profile.id,
