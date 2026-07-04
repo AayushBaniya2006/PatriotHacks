@@ -511,11 +511,12 @@ export default function BallotPage() {
   const [issues, setIssues] = useState<IssueDef[] | null>(null);
   const [step, setStep] = useState<WizardStep>("location");
   const [location, setLocation] = useState(() => {
-    const initialAddress =
-      typeof window === "undefined"
-        ? ""
-        : new URLSearchParams(window.location.search).get("address")?.trim() ?? "";
-    return { street: initialAddress, cityState: "", zip: "" };
+    if (typeof window === "undefined") return { street: "", cityState: "", zip: "" };
+    const saved = loadPrefs();
+    const urlAddr = new URLSearchParams(window.location.search).get("address")?.trim() ?? "";
+    // Prefer a previously-saved full address over a bare URL param (often just a
+    // ZIP) so the voter never has to re-type what they already entered.
+    return { street: saved?.address || urlAddr, cityState: "", zip: saved?.zip ?? "" };
   });
   const [ballot, setBallot] = useState<BallotData | null>(null);
   const [lookupLoading, setLookupLoading] = useState(false);
@@ -572,22 +573,16 @@ export default function BallotPage() {
   }, []);
 
   useEffect(() => {
-    const initialAddress = new URLSearchParams(window.location.search).get("address")?.trim();
-    // Fall back to a previously-saved address so returning to /ballot doesn't
-    // force the voter to re-enter everything.
-    const saved = initialAddress ? undefined : loadPrefs() ?? undefined;
-    const restore = initialAddress || saved?.address?.trim();
+    const saved = loadPrefs();
+    const urlAddr = new URLSearchParams(window.location.search).get("address")?.trim();
+    // Prefer the saved full address (a real street address that geocodes) over a
+    // bare URL param, so a reload / return to /ballot restores the voter's ballot
+    // instead of forcing a re-entry.
+    const restore = saved?.address?.trim() || urlAddr;
+    if (saved?.issue_positions) setPositions(saved.issue_positions);
+    const savedPicked = Object.keys(saved?.priority_weights ?? {});
+    if (savedPicked.length) setPriorities(savedPicked);
     if (!restore) return;
-    if (saved) {
-      setLocation((loc) =>
-        loc.street || loc.cityState || loc.zip
-          ? loc
-          : { street: saved.address ?? "", cityState: "", zip: saved.zip ?? "" }
-      );
-      if (saved.issue_positions) setPositions(saved.issue_positions);
-      const savedPicked = Object.keys(saved.priority_weights ?? {});
-      if (savedPicked.length) setPriorities(savedPicked);
-    }
     const timer = window.setTimeout(() => {
       void lookupAddress(restore);
     }, 0);
@@ -715,8 +710,8 @@ export default function BallotPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 md:px-8 md:py-6">
-      <main className="mx-auto grid min-h-[calc(100svh-2rem)] w-full max-w-[420px] md:h-[calc(100svh-3rem)] md:min-h-[640px] md:max-w-6xl md:grid-cols-[300px_minmax(0,1fr)] md:overflow-hidden md:rounded-[28px] md:border md:border-[#d8a15b]/30 md:bg-[#051628] md:shadow-[0_28px_90px_rgba(0,0,0,0.45)] xl:grid-cols-[340px_minmax(0,1fr)]">
+    <div className="min-h-screen bg-[#020d19] bg-[radial-gradient(circle_at_75%_10%,rgba(29,87,115,0.32),transparent_34%),radial-gradient(circle_at_10%_90%,rgba(142,76,48,0.16),transparent_32%)] px-3 py-4 text-white sm:px-6 sm:py-8 md:px-0 md:py-0">
+      <main className="mx-auto grid min-h-[calc(100svh-2rem)] w-full max-w-[420px] md:h-screen md:min-h-screen md:max-w-none md:grid-cols-[320px_minmax(0,1fr)] md:overflow-hidden md:rounded-none md:border-0 md:bg-transparent md:shadow-none xl:grid-cols-[360px_minmax(0,1fr)]">
         <DesktopRail
           step={step}
           locationDisplay={locationDisplay}
