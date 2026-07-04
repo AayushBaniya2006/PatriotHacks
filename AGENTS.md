@@ -150,4 +150,5 @@ npm run dev                             # the product UI (Next.js)
 - 2026-07-03: Pushed latest `data-backend` updates: ballot dashboard sizing, results-card accessibility/link polish, legacy `issue_stances` match/scoring compatibility, architecture presentation source/PDF, and new motivation cache data.
 - 2026-07-03: Pushed latest `data-backend` updates: hardened ballot/results match loading states, candidate-profile fetch validation, empty-profile errors, and dashboard rendering guards.
 - 2026-07-03: Pushed latest `data-backend` updates: tightened Civitas dashboard/result-card truncation, responsive row layout, and header alignment.
+- 2026-07-03: Pushed latest `data-backend` updates: added deterministic grounded Q&A fallback retrieval when live model calls are unavailable.
 - 2026-07-03: Cleaned civic-match verifier blockers after the page polish pass: React hook lint fixes for results/insights, typed the auto-research UI test helper, removed an unused check-research import, and revalidated frontend lint + Next build.
